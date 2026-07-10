@@ -507,6 +507,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "WNV copper: copper, via superoxide dismutase and ceruloplasmin, provides antioxidant defence against the ROS-driven neuronal (neuron already mapped) injury of WNV; copper dyshomeostasis amplifies microglia (already mapped) and astrocyte (already mapped) neuroinflammation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "WNV iodine: iodine-dependent thyroid hormones upregulate type-I IFN (already mapped) antiviral signalling and maintain CNS myelin; hypothyroidism amplifies the NF-κB (already mapped) neuroinflammatory cascade and astrocyte (already mapped) reactivity of West Nile encephalitis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "WNV potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ amplifies NF-κB (already mapped) and IL-1β (already mapped) neuroinflammation and hippocampal (already mapped) excitotoxicity of West Nile encephalitis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "WNV iron: iron supports WNV RNA replication in neurons (already mapped); transferrin (already mapped) sequesters iron to restrict viral load; iron dyshomeostasis amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation of West Nile encephalitis."
 ---
 
 # West Nile Virus
@@ -790,3 +799,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — WNV serotonin: serotonin, via 5-HT2 receptors on neurons (already mapped) and microglia (already mapped), modulates neuroinflammation; 5-HT dysregulation amplifies the TNF-α (already mapped) and IL-6 (already mapped) encephalitis and mood sequelae of West Nile virus.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — WNV vasopressin: vasopressin, released during WNV encephalitis, promotes SIADH and brain (already mapped) oedema; V1A receptors on microglia (already mapped) and neurons (already mapped) modulate the neuroinflammatory and neurotoxic sequelae of West Nile encephalitis.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — WNV copper: copper, via superoxide dismutase and ceruloplasmin, provides antioxidant defence against the ROS-driven neuronal (neuron already mapped) injury of WNV; copper dyshomeostasis amplifies microglia (already mapped) and astrocyte (already mapped) neuroinflammation.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — WNV iodine: iodine-dependent thyroid hormones upregulate type-I IFN (already mapped) antiviral signalling and maintain CNS myelin; hypothyroidism amplifies the NF-κB (already mapped) neuroinflammatory cascade and astrocyte (already mapped) reactivity of West Nile encephalitis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — WNV potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ amplifies NF-κB (already mapped) and IL-1β (already mapped) neuroinflammation and hippocampal (already mapped) excitotoxicity of West Nile encephalitis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — WNV iron: iron supports WNV RNA replication in neurons (already mapped); transferrin (already mapped) sequesters iron to restrict viral load; iron dyshomeostasis amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation of West Nile encephalitis.

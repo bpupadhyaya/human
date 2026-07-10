@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "WM oxytocin: oxytocin, via OXTR on bone-marrow (already mapped) stromal cells and regulatory T cells (already mapped), attenuates the MYD88 (already mapped)/NF-κB (already mapped) pro-tumour microenvironment and the B-cell (already mapped) clone survival of Waldenström."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "WM vasopressin: vasopressin, via V1B receptors on plasma cells (already mapped) and B cells (already mapped), modulates the bone-marrow (already mapped) microenvironment and amplifies NF-κB (already mapped)/MYD88 (already mapped) clone-survival signalling in Waldenström."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "WM selenium: selenium-dependent GPx suppresses the ROS amplifying NF-κB (already mapped)/MYD88 (already mapped) tumour microenvironment in the bone-marrow (already mapped); selenium deficiency promotes oxidative vascular injury and IgM (already mapped) hyperviscosity of WM."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "WM iodine: iodine-dependent thyroid hormones modulate B-cell (already mapped) differentiation and haematopoietic cycling in the bone-marrow (already mapped); hypothyroidism amplifies the pro-tumour macrophage (already mapped) and NF-κB (already mapped) signalling niche of WM."
 ---
 
 # Waldenström Macroglobulinemia
@@ -785,6 +794,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — WM testosterone: testosterone, via androgen receptors on B cells (already mapped) and plasma cells (already mapped), modulates the MYD88 (already mapped)/NF-κB (already mapped) signalling; androgen deficiency amplifies WM clone expansion in the bone-marrow (already mapped) niche.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — WM serotonin: mast-cell (already mapped) serotonin promotes the hyperviscosity and vascular complications of WM; 5-HT2 signalling on platelet (already mapped) and erythrocyte (already mapped) surfaces amplifies the NF-κB (already mapped) inflammatory niche of Waldenström.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — WM oxytocin: oxytocin, via OXTR on bone-marrow (already mapped) stromal cells and regulatory T cells (already mapped), attenuates the MYD88 (already mapped)/NF-κB (already mapped) pro-tumour microenvironment and the B-cell (already mapped) clone survival of Waldenström.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — WM vasopressin: vasopressin, via V1B receptors on plasma cells (already mapped) and B cells (already mapped), modulates the bone-marrow (already mapped) microenvironment and amplifies NF-κB (already mapped)/MYD88 (already mapped) clone-survival signalling in Waldenström.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — WM selenium: selenium-dependent GPx suppresses the ROS amplifying NF-κB (already mapped)/MYD88 (already mapped) tumour microenvironment in the bone-marrow (already mapped); selenium deficiency promotes oxidative vascular injury and IgM (already mapped) hyperviscosity of WM.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — WM iodine: iodine-dependent thyroid hormones modulate B-cell (already mapped) differentiation and haematopoietic cycling in the bone-marrow (already mapped); hypothyroidism amplifies the pro-tumour macrophage (already mapped) and NF-κB (already mapped) signalling niche of WM.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
