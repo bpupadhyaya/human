@@ -507,6 +507,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "HCV prolactin: prolactin drives NF-κB (already mapped) and IL-6 (already mapped) mediated hepatic immune tolerance in HCV infection; elevated prolactin promotes B-cell (already mapped) mediated autoimmune manifestations and impairs IFN-γ (already mapped) antiviral signalling."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "HCV oxytocin: oxytocin modulates NF-κB (already mapped) and IL-6 (already mapped) driven hepatic inflammation; oxytocin receptor signalling on hepatocytes attenuates macrophage (already mapped) mediated fibrosis and limits TNF-α (already mapped) apoptotic signalling."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HCV vasopressin: vasopressin (ADH) receptor signalling on hepatocytes activates NF-κB (already mapped) and TNF-α (already mapped) driven liver (already mapped) inflammation; vasopressin also modulates macrophage (already mapped) IL-6 (already mapped) secretion during chronic HCV."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "HCV selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and IL-6 (already mapped) mediated hepatic inflammation; selenium deficiency accelerates fibrosis via TGF-β (already mapped) and impairs macrophage (already mapped) antiviral clearance in chronic HCV."
 ---
 
 # Hepatitis C
@@ -796,3 +805,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — HCV testosterone: testosterone drives androgen receptor binding to the HCV enhancer; testosterone-driven IL-6 (already mapped) and NF-κB (already mapped) signalling promotes the macrophage (already mapped) mediated liver (already mapped) fibrosis and viral persistence.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — HCV serotonin: serotonin, released by liver (already mapped) macrophages (already mapped) during HCV infection, activates NF-κB (already mapped) and IL-6 (already mapped) signalling; 5-HT receptor signalling on hepatocytes also promotes TNF-α (already mapped) mediated apoptosis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HCV prolactin: prolactin drives NF-κB (already mapped) and IL-6 (already mapped) mediated hepatic immune tolerance in HCV infection; elevated prolactin promotes B-cell (already mapped) mediated autoimmune manifestations and impairs IFN-γ (already mapped) antiviral signalling.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HCV oxytocin: oxytocin modulates NF-κB (already mapped) and IL-6 (already mapped) driven hepatic inflammation; oxytocin receptor signalling on hepatocytes attenuates macrophage (already mapped) mediated fibrosis and limits TNF-α (already mapped) apoptotic signalling.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HCV vasopressin: vasopressin (ADH) receptor signalling on hepatocytes activates NF-κB (already mapped) and TNF-α (already mapped) driven liver (already mapped) inflammation; vasopressin also modulates macrophage (already mapped) IL-6 (already mapped) secretion during chronic HCV.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HCV selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and IL-6 (already mapped) mediated hepatic inflammation; selenium deficiency accelerates fibrosis via TGF-β (already mapped) and impairs macrophage (already mapped) antiviral clearance in chronic HCV.

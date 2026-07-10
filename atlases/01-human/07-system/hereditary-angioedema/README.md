@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "HAE selenium: selenoprotein antioxidants protect endothelial cells (already mapped) from the oxidative burst during HAE attacks; selenium deficiency amplifies NF-κB (already mapped) and the IL-6 (already mapped) mediated angioedematous mast-cell (already mapped) cascade."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HAE iodine: iodine modulates NF-κB (already mapped) and IL-6 (already mapped) signalling in endothelial cells (already mapped); thyroid function shapes bradykinin (already mapped) metabolism and C1-esterase inhibitor (already mapped) synthesis during HAE attacks."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "HAE sodium: sodium homeostasis influences endothelial-cell (already mapped) integrity; sodium excess amplifies NF-κB (already mapped) and IL-6 (already mapped) driven mast-cell (already mapped) activation, worsening bradykinin (already mapped) release in HAE."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "HAE magnesium: magnesium stabilises endothelial-cell (already mapped) membranes and suppresses NF-κB (already mapped) mediated mast-cell (already mapped) activation; deficiency heightens bradykinin (already mapped) sensitivity and amplifies IL-6 (already mapped) driven oedema."
 ---
 
 # Hereditary Angioedema
@@ -810,6 +819,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — HAE serotonin: serotonin, released by mast cells (already mapped) and platelets (already mapped) during HAE attacks, amplifies the bradykinin (already mapped) mediated vascular permeability; 5-HT receptor signalling on endothelial cells (already mapped) worsens the oedema.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HAE vasopressin: vasopressin (ADH) is a known trigger of hereditary angioedema attacks via oestrogen-like amplification of bradykinin (already mapped) production; vasopressin potentiates endothelial-cell (already mapped) permeability and the mast-cell (already mapped) response.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HAE selenium: selenoprotein antioxidants protect endothelial cells (already mapped) from the oxidative burst during HAE attacks; selenium deficiency amplifies NF-κB (already mapped) and the IL-6 (already mapped) mediated angioedematous mast-cell (already mapped) cascade.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HAE iodine: iodine modulates NF-κB (already mapped) and IL-6 (already mapped) signalling in endothelial cells (already mapped); thyroid function shapes bradykinin (already mapped) metabolism and C1-esterase inhibitor (already mapped) synthesis during HAE attacks.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HAE sodium: sodium homeostasis influences endothelial-cell (already mapped) integrity; sodium excess amplifies NF-κB (already mapped) and IL-6 (already mapped) driven mast-cell (already mapped) activation, worsening bradykinin (already mapped) release in HAE.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HAE magnesium: magnesium stabilises endothelial-cell (already mapped) membranes and suppresses NF-κB (already mapped) mediated mast-cell (already mapped) activation; deficiency heightens bradykinin (already mapped) sensitivity and amplifies IL-6 (already mapped) driven oedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
