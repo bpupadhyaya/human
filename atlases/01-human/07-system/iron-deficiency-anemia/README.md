@@ -516,6 +516,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "IDA sodium: sodium, via osmotic balance, regulates erythrocyte (already mapped) hydration and survival; dysregulated sodium amplifies oxidative stress in the transferrin (already mapped)-depleted and hepcidin (already mapped) iron-sequestered state of iron-deficiency anaemia."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "IDA magnesium: magnesium, as a cofactor for erythropoiesis enzymes in macrophages (already mapped) and erythrocytes (already mapped), supports haem synthesis; magnesium deficiency amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration cascade of IDA."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "IDA potassium: potassium channels regulate erythrocyte (already mapped) hydration and mast-cell (already mapped) activation; potassium depletion amplifies the IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of iron-deficiency anaemia."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "IDA phosphorus: phosphorus, as ATP precursor in erythrocytes (already mapped) and macrophages (already mapped), supports haemoglobin synthesis; phosphorus deficiency amplifies the IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of IDA."
 ---
 
 # Iron Deficiency Anemia
@@ -802,6 +811,9 @@ Iron is essential for:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — IDA selenium: selenium, via GPx and NRF2 (already mapped) antioxidant systems, protects erythrocytes (already mapped) from oxidative haemolysis; selenium deficiency amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration response, worsening IDA.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IDA iodine: iodine-dependent thyroid hormones regulate erythropoietin (already mapped) and erythropoiesis in bone marrow (already mapped); hypothyroidism amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-withholding cascade of iron-deficiency anaemia.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — IDA sodium: sodium, via osmotic balance, regulates erythrocyte (already mapped) hydration and survival; dysregulated sodium amplifies oxidative stress in the transferrin (already mapped)-depleted and hepcidin (already mapped) iron-sequestered state of iron-deficiency anaemia.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — IDA magnesium: magnesium, as a cofactor for erythropoiesis enzymes in macrophages (already mapped) and erythrocytes (already mapped), supports haem synthesis; magnesium deficiency amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration cascade of IDA.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IDA potassium: potassium channels regulate erythrocyte (already mapped) hydration and mast-cell (already mapped) activation; potassium depletion amplifies the IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of iron-deficiency anaemia.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IDA phosphorus: phosphorus, as ATP precursor in erythrocytes (already mapped) and macrophages (already mapped), supports haemoglobin synthesis; phosphorus deficiency amplifies the IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of IDA.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "JPS vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the polyposis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "JPS serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the colonic TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of juvenile polyposis syndrome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "JPS selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative polyp cascade of juvenile polyposis syndrome."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "JPS iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of juvenile polyposis syndrome."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -805,6 +814,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — JPS prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of juvenile polyposis syndrome.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — JPS oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the polyposis inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of JPS.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — JPS vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the polyposis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of juvenile polyposis syndrome.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — JPS serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the colonic TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of juvenile polyposis syndrome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — JPS selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative polyp cascade of juvenile polyposis syndrome.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — JPS iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of juvenile polyposis syndrome.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
