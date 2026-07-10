@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "TSC selenium: selenium-dependent GPX suppresses oxidative stress and NF-κB (already mapped)-mediated neuroinflammation in TSC cortical tubers; selenium deficiency worsens mTOR (already mapped)-driven VEGF (already mapped) upregulation and angiomyolipoma growth in TSC."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "TSC iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies mTOR (already mapped) and VEGF (already mapped) hamartoma growth and NF-κB (already mapped) neuroinflammation of TSC."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "TSC sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) amplifies IL-6 (already mapped) and mTOR (already mapped)-driven hamartoma cascade of TSC."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "TSC magnesium: magnesium, as mTOR (already mapped) kinase cofactor in neurons (already mapped) and astrocytes (already mapped), supports synaptic function; magnesium deficiency amplifies NF-κB (already mapped) neuroinflammation and IL-6 (already mapped) cascade of TSC epilepsy."
 ---
 
 # Tuberous Sclerosis Complex
@@ -815,6 +824,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — TSC oxytocin: oxytocin receptor-cAMP/PKA signalling on TSC neurons attenuates mTOR (already mapped) hyperactivation downstream of TSC1/TSC2 (already mapped) loss-of-function; oxytocin also modulates the autism spectrum and social-behaviour deficits of tuberous sclerosis complex.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — TSC vasopressin: vasopressin V1A receptors on TSC neurons intersect mTOR (already mapped)/S6K signalling, modulating synaptic plasticity and the epileptic activity of cortical tubers; V1A-mediated calcium signalling may amplify TSC seizure susceptibility.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — TSC selenium: selenium-dependent GPX suppresses oxidative stress and NF-κB (already mapped)-mediated neuroinflammation in TSC cortical tubers; selenium deficiency worsens mTOR (already mapped)-driven VEGF (already mapped) upregulation and angiomyolipoma growth in TSC.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — TSC iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies mTOR (already mapped) and VEGF (already mapped) hamartoma growth and NF-κB (already mapped) neuroinflammation of TSC.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — TSC sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) amplifies IL-6 (already mapped) and mTOR (already mapped)-driven hamartoma cascade of TSC.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — TSC magnesium: magnesium, as mTOR (already mapped) kinase cofactor in neurons (already mapped) and astrocytes (already mapped), supports synaptic function; magnesium deficiency amplifies NF-κB (already mapped) neuroinflammation and IL-6 (already mapped) cascade of TSC epilepsy.
 
 ---
 

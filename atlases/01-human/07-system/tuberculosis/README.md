@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "TB sodium: high dietary sodium amplifies Th17 polarisation and NF-κB (already mapped)-mediated pro-inflammatory cytokine production in tuberculosis, potentially worsening granuloma-associated tissue damage and exacerbating the inflammatory lung pathology of active disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "TB magnesium: magnesium, as mycobacterial phagosome-lysis cofactor in macrophages (already mapped), supports antimycobacterial killing; magnesium deficiency impairs NF-κB (already mapped)-mediated granuloma competence and T-cytotoxic-cell (already mapped) anti-TB immunity."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "TB potassium: potassium efflux via NLRP3 inflammasome in macrophages (already mapped) and neutrophils (already mapped) drives IL-1β and IL-6 (already mapped) secretion; potassium dysregulation amplifies NF-κB (already mapped) cascade of granuloma inflammation in tuberculosis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "TB phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and dendritic-cell (already mapped), fuels antimycobacterial burst; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs T-cytotoxic-cell (already mapped) in TB."
 ---
 
 # Tuberculosis
@@ -809,6 +818,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — TB vasopressin: vasopressin modulates macrophage (already mapped) cytokine secretion and granuloma vascular tone in tuberculosis; V1A receptor activation intersects NF-κB (already mapped) and IL-1β (already mapped)-driven inflammatory cascades in active TB.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — TB iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) antimycobacterial killing and NF-κB (already mapped) cytokine production in tuberculosis; hypothyroidism impairs granuloma competence and worsens control of Mycobacterium tuberculosis.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — TB sodium: high dietary sodium amplifies Th17 polarisation and NF-κB (already mapped)-mediated pro-inflammatory cytokine production in tuberculosis, potentially worsening granuloma-associated tissue damage and exacerbating the inflammatory lung pathology of active disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — TB magnesium: magnesium, as mycobacterial phagosome-lysis cofactor in macrophages (already mapped), supports antimycobacterial killing; magnesium deficiency impairs NF-κB (already mapped)-mediated granuloma competence and T-cytotoxic-cell (already mapped) anti-TB immunity.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — TB potassium: potassium efflux via NLRP3 inflammasome in macrophages (already mapped) and neutrophils (already mapped) drives IL-1β and IL-6 (already mapped) secretion; potassium dysregulation amplifies NF-κB (already mapped) cascade of granuloma inflammation in tuberculosis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — TB phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and dendritic-cell (already mapped), fuels antimycobacterial burst; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs T-cytotoxic-cell (already mapped) in TB.
 
 ## See Also
 
