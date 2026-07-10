@@ -477,6 +477,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the low-grade neuroinflammation and the microglial (already mapped) activation of the reward circuitry in gambling disorder."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuronal EPO: erythropoietin and its receptor are expressed on neurons (already mapped) including dopaminergic cells, providing neuroprotection; the metabolic and cardiovascular stress burden (insulin already mapped) of gambling disorder may modulate EPO signalling."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "CNS-border matrix: periostin, from meningeal fibroblasts and astrocytes (already mapped), modulates the extracellular matrix at the CNS-border neuroimmune interface where the neuroinflammation (IL-6, TNF already mapped) of gambling disorder is hosted."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H (complement C3 and C5 already mapped) limits microglial (already mapped) complement-mediated synaptic pruning of reward-circuit synapses implicated in the neuroadaptations that entrench compulsive gambling."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -776,6 +785,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-reward axis: TSLP, from gut epithelium (already mapped) under the stress and dysbiosis linked to gambling disorder, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the neuroinflammatory tone of the reward-circuit dysfunction.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammatory axis: bradykinin, via B2R on CNS microglia (already mapped) and neurons (already mapped), modulates the neuroinflammation and the BBB permeability contributing to the stress-reactivity dimension of gambling disorder.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the low-grade neuroinflammation and the microglial (already mapped) activation of the reward circuitry in gambling disorder.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuronal EPO: erythropoietin and its receptor are expressed on neurons (already mapped) including dopaminergic cells, providing neuroprotection; the metabolic and cardiovascular stress burden (insulin already mapped) of gambling disorder may modulate EPO signalling.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — CNS-border matrix: periostin, from meningeal fibroblasts and astrocytes (already mapped), modulates the extracellular matrix at the CNS-border neuroimmune interface where the neuroinflammation (IL-6, TNF already mapped) of gambling disorder is hosted.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H (complement C3 and C5 already mapped) limits microglial (already mapped) complement-mediated synaptic pruning of reward-circuit synapses implicated in the neuroadaptations that entrench compulsive gambling.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)

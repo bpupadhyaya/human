@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Cardioprotective EPO: erythropoietin, via EpoR on cardiomyocytes (already mapped) and endothelium (already mapped), exerts cardioprotective and anti-apoptotic effects relevant to the cardiovascular (already mapped) risk of familial hypercholesterolaemia."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Plaque mast-cell effector: mast cells (already mapped) in the atherosclerotic plaque of FH release histamine that destabilises the fibrous cap (collagen already mapped), amplifying the macrophage-foam-cell inflammation and the protease-driven rupture risk."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Tendon and plaque stroma: periostin, secreted by the fibroblasts (already mapped) in the tendon xanthomas and atherosclerotic plaque of FH, reinforces the extracellular matrix of cholesterol-laden deposits and is induced by the atherogenic milieu."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Cardiovascular chronobiology: melatonin has cardioprotective and antioxidant effects, opposing the oxidative LDL modification (xanthine oxidase and NRF2 already mapped) that drives the atherogenesis of FH, and disrupted melatonin rhythm is linked to cardiovascular risk."
 ---
 
 # Familial Hypercholesterolemia
@@ -763,6 +772,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-vascular axis: TSLP, from dysfunctional endothelium (already mapped) and mast cells (already mapped) in the atherosclerotic plaque, amplifies the Th2/eosinophil dimension of the vascular inflammation of familial hypercholesterolaemia.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-vascular axis: bradykinin, via the kallikrein-kinin system and the endothelial B2R, modulates the nitric-oxide (already mapped) and prostaglandin (already mapped) vasodilatory responses impaired in the endotheliopathy of familial hypercholesterolaemia.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Cardioprotective EPO: erythropoietin, via EpoR on cardiomyocytes (already mapped) and endothelium (already mapped), exerts cardioprotective and anti-apoptotic effects relevant to the cardiovascular (already mapped) risk of familial hypercholesterolaemia.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Plaque mast-cell effector: mast cells (already mapped) in the atherosclerotic plaque of FH release histamine that destabilises the fibrous cap (collagen already mapped), amplifying the macrophage-foam-cell inflammation and the protease-driven rupture risk.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Tendon and plaque stroma: periostin, secreted by the fibroblasts (already mapped) in the tendon xanthomas and atherosclerotic plaque of FH, reinforces the extracellular matrix of cholesterol-laden deposits and is induced by the atherogenic milieu.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Cardiovascular chronobiology: melatonin has cardioprotective and antioxidant effects, opposing the oxidative LDL modification (xanthine oxidase and NRF2 already mapped) that drives the atherogenesis of FH, and disrupted melatonin rhythm is linked to cardiovascular risk.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
