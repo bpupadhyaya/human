@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "FL sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the B-cell (already mapped) survival cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "FL magnesium: magnesium cofactors kinase signalling in B-cells (already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "FL copper: copper, via ceruloplasmin in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "FL potassium: potassium regulates macrophage (already mapped) and B-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -813,6 +822,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — FL serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) survival cascade of follicular lymphoma.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — FL iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and B-cell (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) survival cascade of follicular lymphoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — FL sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the B-cell (already mapped) survival cascade of follicular lymphoma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — FL magnesium: magnesium cofactors kinase signalling in B-cells (already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — FL copper: copper, via ceruloplasmin in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — FL potassium: potassium regulates macrophage (already mapped) and B-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
