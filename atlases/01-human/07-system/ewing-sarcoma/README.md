@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-ES axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the Ewing sarcoma tumour core, activates the EPOR on EWSR1-FLI1-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the sarcoma stroma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-ES axis: histamine, from mast cells in the Ewing sarcoma tumour microenvironment, signals via H1/H2 receptors on EWSR1-FLI1-mutant cells and tumour endothelium (already mapped), amplifying angiogenesis and the immunosuppressive stromal milieu of Ewing sarcoma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-ES axis: melatonin, via MT1/MT2 receptors on Ewing sarcoma cells, modulates circadian cell-cycle regulation, suppresses EWSR1-FLI1-driven (already mapped) proliferation, and enhances the apoptotic sensitivity of Ewing sarcoma cells to genotoxic chemotherapy."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement regulation-ES axis: the C1-esterase inhibitor limits classical and contact-pathway complement activation within the Ewing sarcoma stroma (complement C3/C5/C5aR1 already mapped), modulating the inflammatory tumour microenvironment of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -774,6 +783,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-ES axis: TSLP, from the Ewing sarcoma stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of the EWSR1-FLI1-driven (already mapped) Ewing sarcoma.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-ES axis: bradykinin, via B1/B2 receptors on Ewing sarcoma endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the inflammatory dimension of the Ewing sarcoma bone-tumour microenvironment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-ES axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the Ewing sarcoma tumour core, activates the EPOR on EWSR1-FLI1-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the sarcoma stroma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-ES axis: histamine, from mast cells in the Ewing sarcoma tumour microenvironment, signals via H1/H2 receptors on EWSR1-FLI1-mutant cells and tumour endothelium (already mapped), amplifying angiogenesis and the immunosuppressive stromal milieu of Ewing sarcoma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-ES axis: melatonin, via MT1/MT2 receptors on Ewing sarcoma cells, modulates circadian cell-cycle regulation, suppresses EWSR1-FLI1-driven (already mapped) proliferation, and enhances the apoptotic sensitivity of Ewing sarcoma cells to genotoxic chemotherapy.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation-ES axis: the C1-esterase inhibitor limits classical and contact-pathway complement activation within the Ewing sarcoma stroma (complement C3/C5/C5aR1 already mapped), modulating the inflammatory tumour microenvironment of Ewing sarcoma.
 
 ---
 

@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-FAP axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and the iron-deficiency anaemia of FAP, activates the EPOR on APC-deficient (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the FAP polyp stroma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-FAP axis: histamine, released by mast cells in the adenoma stroma of familial adenomatous polyposis, signals via H1/H2 receptors on APC-deficient (already mapped) epithelium, promoting polyp-stroma angiogenesis and the immunosuppressive adenoma microenvironment."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-FAP axis: melatonin, via MT1/MT2 receptors on APC-deficient (already mapped) colonic epithelium, suppresses Wnt-driven (already mapped) proliferation, promotes apoptosis, and modulates the antioxidant defence of the FAP mucosa."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-FAP axis: testosterone, via androgen receptor signalling on the colonic epithelium and the desmoid-tumour (already mapped) stroma, modulates WNT/β-catenin proliferation and the sex-biased extracolonic manifestation risk in familial adenomatous polyposis."
 ---
 
 # Familial Adenomatous Polyposis
@@ -791,6 +800,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-FAP axis: TSLP, from the APC-deficient (already mapped) intestinal epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the polyposis stroma of FAP.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-FAP axis: bradykinin, via B1/B2 receptors on the polyp endothelium (already mapped) and mast cells (already mapped), augments vascular permeability and the inflammatory milieu of the innumerable colorectal polyps of familial adenomatous polyposis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-FAP axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and the iron-deficiency anaemia of FAP, activates the EPOR on APC-deficient (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the FAP polyp stroma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-FAP axis: histamine, released by mast cells in the adenoma stroma of familial adenomatous polyposis, signals via H1/H2 receptors on APC-deficient (already mapped) epithelium, promoting polyp-stroma angiogenesis and the immunosuppressive adenoma microenvironment.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-FAP axis: melatonin, via MT1/MT2 receptors on APC-deficient (already mapped) colonic epithelium, suppresses Wnt-driven (already mapped) proliferation, promotes apoptosis, and modulates the antioxidant defence of the FAP mucosa.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-FAP axis: testosterone, via androgen receptor signalling on the colonic epithelium and the desmoid-tumour (already mapped) stroma, modulates WNT/β-catenin proliferation and the sex-biased extracolonic manifestation risk in familial adenomatous polyposis.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
