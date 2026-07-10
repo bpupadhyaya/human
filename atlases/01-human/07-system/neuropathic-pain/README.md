@@ -474,6 +474,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Neuroprotective cytokine: erythropoietin, acting via EPOR on neurons and Schwann cells (peripheral nerve already mapped), promotes axonal survival and remyelination and attenuates the neuro-inflammatory sensitisation of neuropathic pain."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM-repair scaffold: periostin, expressed in injured peripheral nerve endoneurium and DRG supporting cells, promotes the re-organisation of the extracellular matrix and glial scar and modulates the fibrotic neuroinflammatory microenvironment of neuropathic pain."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune-endocrine pain modulator: prolactin, acting via PRLR on DRG neurons and immune cells in the nerve injury site, sensitises peripheral nociceptors and amplifies the pro-inflammatory cytokine (IL-6 and TNF-α already mapped) signalling of neuropathic pain."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen neuroprotection: testosterone, acting via androgen receptors on DRG neurons and Schwann cells (peripheral nerve already mapped), promotes axonal repair and attenuates the neuro-inflammatory sensitisation underlying the sex-differential severity of neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -789,6 +798,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuro-epithelial alarmin: TSLP, released from keratinocytes (skin already mapped) and glial cells under neuropathic insult, activates mast cells (already mapped) and dendritic cells (already mapped), amplifying the peripheral sensitisation of neuropathic pain.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin activation in the injured nerve microenvironment, restraining complement-driven neuroinflammation of neuropathic pain.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, acting via EPOR on neurons and Schwann cells (peripheral nerve already mapped), promotes axonal survival and remyelination and attenuates the neuro-inflammatory sensitisation of neuropathic pain.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM-repair scaffold: periostin, expressed in injured peripheral nerve endoneurium and DRG supporting cells, promotes the re-organisation of the extracellular matrix and glial scar and modulates the fibrotic neuroinflammatory microenvironment of neuropathic pain.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine pain modulator: prolactin, acting via PRLR on DRG neurons and immune cells in the nerve injury site, sensitises peripheral nociceptors and amplifies the pro-inflammatory cytokine (IL-6 and TNF-α already mapped) signalling of neuropathic pain.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen neuroprotection: testosterone, acting via androgen receptors on DRG neurons and Schwann cells (peripheral nerve already mapped), promotes axonal repair and attenuates the neuro-inflammatory sensitisation underlying the sex-differential severity of neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

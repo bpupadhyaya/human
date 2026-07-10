@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed hepatic parenchyma, moderating the immune-mediated hepatocyte injury of NASH."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell effector: histamine, released by mast cells (already mapped) in the portal tract of NASH liver, activates hepatic stellate cells, amplifies the pro-inflammatory cytokine milieu (TNF-α and IL-1β already mapped) and accelerates fibrosis of NASH."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Hepato-protective cytokine: erythropoietin, acting via EPOR on hepatocytes (already mapped) and Kupffer cells (already mapped), suppresses the oxidative stress (ROS already mapped) and TGF-β-driven fibrogenic signalling, attenuating the progressive fibrosis of NASH."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian antioxidant protection: melatonin, via MT1/MT2 receptors on hepatocytes (already mapped), scavenges ROS from dysfunctional mitochondria and inhibits the NF-κB/TNF-α axis (already mapped), moderating the steatoinflammatory injury of NASH."
 ---
 
 # NASH
@@ -740,6 +749,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin gate: TSLP, released from injured hepatocytes and cholangiocytes (already mapped) in NASH, activates the mast cells (already mapped) and dendritic cells (already mapped) that sustain the Type-2-skewed hepatic inflammation driving fibrosis of NASH.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-oedema axis: bradykinin, generated via the kallikrein-kinin system in inflamed liver tissue, increases hepatic sinusoidal permeability and amplifies the macrophage (already mapped) and neutrophil (already mapped) recruitment of NASH.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed hepatic parenchyma, moderating the immune-mediated hepatocyte injury of NASH.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell effector: histamine, released by mast cells (already mapped) in the portal tract of NASH liver, activates hepatic stellate cells, amplifies the pro-inflammatory cytokine milieu (TNF-α and IL-1β already mapped) and accelerates fibrosis of NASH.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Hepato-protective cytokine: erythropoietin, acting via EPOR on hepatocytes (already mapped) and Kupffer cells (already mapped), suppresses the oxidative stress (ROS already mapped) and TGF-β-driven fibrogenic signalling, attenuating the progressive fibrosis of NASH.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antioxidant protection: melatonin, via MT1/MT2 receptors on hepatocytes (already mapped), scavenges ROS from dysfunctional mitochondria and inhibits the NF-κB/TNF-α axis (already mapped), moderating the steatoinflammatory injury of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
