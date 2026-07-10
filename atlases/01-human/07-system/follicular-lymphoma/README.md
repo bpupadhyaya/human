@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-FL axis: erythropoietin, via the EPOR on follicular-lymphoma B cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates macrophage (already mapped) polarisation in the anaemia of follicular lymphoma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-FL axis: histamine, from mast cells in the follicular-lymphoma microenvironment, signals via H1/H2 receptors on malignant B cells (already mapped) and tumour endothelium, modulating BCL2-driven (already mapped) survival and the immunosuppressive FL milieu."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-FL axis: melatonin, via MT1/MT2 receptors on follicular-lymphoma B cells, modulates circadian immune rhythms, suppresses BCL2-driven (already mapped) anti-apoptotic signalling, and enhances the sensitivity to anti-CD20 (rituximab) chemoimmunotherapy."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-FL axis: testosterone, via androgen receptor signalling on follicular-lymphoma B cells and stromal cells, modulates BCL2-driven (already mapped) lymphoma-cell survival and the sex-biased immune microenvironment of follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -777,6 +786,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-FL axis: TSLP, from the follicular-lymphoma stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive tumour microenvironment of follicular lymphoma.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-FL axis: bradykinin, via B1/B2 receptors on follicular-lymphoma tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the inflammatory milieu of the follicular-lymphoma microenvironment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-FL axis: erythropoietin, via the EPOR on follicular-lymphoma B cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates macrophage (already mapped) polarisation in the anaemia of follicular lymphoma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-FL axis: histamine, from mast cells in the follicular-lymphoma microenvironment, signals via H1/H2 receptors on malignant B cells (already mapped) and tumour endothelium, modulating BCL2-driven (already mapped) survival and the immunosuppressive FL milieu.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-FL axis: melatonin, via MT1/MT2 receptors on follicular-lymphoma B cells, modulates circadian immune rhythms, suppresses BCL2-driven (already mapped) anti-apoptotic signalling, and enhances the sensitivity to anti-CD20 (rituximab) chemoimmunotherapy.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-FL axis: testosterone, via androgen receptor signalling on follicular-lymphoma B cells and stromal cells, modulates BCL2-driven (already mapped) lymphoma-cell survival and the sex-biased immune microenvironment of follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

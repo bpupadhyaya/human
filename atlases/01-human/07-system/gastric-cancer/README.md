@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-GC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and the iron-deficiency anaemia of gastric cancer, activates the EPOR on tumour cells (already mapped) and modulates macrophage (already mapped) polarisation in the tumour microenvironment."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-GC axis: histamine, from H. pylori (already mapped)-activated mast cells and ECL cells in the gastric mucosa, signals via H2 receptors on gastric-cancer cells, modulating acid secretion, angiogenesis, and the pro-tumourigenic milieu of gastric cancer."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-GC axis: melatonin, produced by gastric enterochromaffin cells and circulating pineal melatonin, suppresses H. pylori (already mapped)-driven oxidative stress and NFκB (already mapped) signalling, limiting the progression from gastritis to gastric cancer."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-GC axis: testosterone, via androgen receptor signalling on gastric-cancer cells and stroma, modulates H. pylori (already mapped)-driven oncogenic signalling and the well-established male sex bias in gastric-cancer incidence and mortality."
 ---
 
 # Gastric Cancer
@@ -798,6 +807,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-GC axis: TSLP, from the H. pylori (already mapped)-infected gastric epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of gastric cancer.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-GC axis: bradykinin, via B1/B2 receptors on gastric-cancer endothelium (already mapped) and mast cells (already mapped), augments the vascular permeability, tumour oedema, and the H. pylori (already mapped)-driven inflammatory milieu of gastric cancer.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-GC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and the iron-deficiency anaemia of gastric cancer, activates the EPOR on tumour cells (already mapped) and modulates macrophage (already mapped) polarisation in the tumour microenvironment.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-GC axis: histamine, from H. pylori (already mapped)-activated mast cells and ECL cells in the gastric mucosa, signals via H2 receptors on gastric-cancer cells, modulating acid secretion, angiogenesis, and the pro-tumourigenic milieu of gastric cancer.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-GC axis: melatonin, produced by gastric enterochromaffin cells and circulating pineal melatonin, suppresses H. pylori (already mapped)-driven oxidative stress and NFκB (already mapped) signalling, limiting the progression from gastritis to gastric cancer.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-GC axis: testosterone, via androgen receptor signalling on gastric-cancer cells and stroma, modulates H. pylori (already mapped)-driven oncogenic signalling and the well-established male sex bias in gastric-cancer incidence and mortality.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
