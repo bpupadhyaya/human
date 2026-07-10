@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "COPD magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and neutrophils (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the emphysematous airway cascade of COPD."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "COPD zinc: zinc cofactors macrophage (already mapped) and neutrophil (already mapped) anti-inflammatory function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysematous airway cascade of COPD."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "COPD potassium: potassium regulates macrophage (already mapped) and airway epithelial (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) airway remodelling of COPD."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "COPD calcium: calcium regulates macrophage (already mapped) activation and airway smooth-muscle (already mapped) tone; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD."
 ---
 
 # COPD
@@ -838,6 +847,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — COPD iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and airway epithelial (already mapped) repair; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) emphysematous cascade of COPD.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — COPD sodium: high dietary sodium promotes neutrophil (already mapped) and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the oxidative emphysematous cascade of COPD.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — COPD magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and neutrophils (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the emphysematous airway cascade of COPD.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — COPD zinc: zinc cofactors macrophage (already mapped) and neutrophil (already mapped) anti-inflammatory function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysematous airway cascade of COPD.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — COPD potassium: potassium regulates macrophage (already mapped) and airway epithelial (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) airway remodelling of COPD.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — COPD calcium: calcium regulates macrophage (already mapped) activation and airway smooth-muscle (already mapped) tone; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD.
 
 ---
 

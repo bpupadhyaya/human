@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "CMML sodium: high dietary sodium promotes Th17 polarisation and monocyte (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the inflammatory myeloproliferative cascade of CMML."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "CMML magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and monocytes (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "CMML copper: copper, via ceruloplasmin in macrophages (already mapped) and monocytes (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative myeloproliferative cascade of CMML."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "CMML zinc: zinc cofactors macrophage (already mapped) and monocyte (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -813,6 +822,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CMML selenium: selenium, as GPx in macrophages (already mapped) and monocytes (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) inflammasome-driven myeloproliferative cascade of CMML.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CMML iodine: iodine-dependent thyroid hormones modulate myeloid-cell (already mapped) differentiation and NF-κB (already mapped) signalling; iodine deficiency amplifies the TNF-α (already mapped) myeloproliferative cascade of CMML.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CMML sodium: high dietary sodium promotes Th17 polarisation and monocyte (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the inflammatory myeloproliferative cascade of CMML.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — CMML magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and monocytes (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CMML copper: copper, via ceruloplasmin in macrophages (already mapped) and monocytes (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative myeloproliferative cascade of CMML.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — CMML zinc: zinc cofactors macrophage (already mapped) and monocyte (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
 
 ---
 
