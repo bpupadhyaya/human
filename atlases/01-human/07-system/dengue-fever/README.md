@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Platelet-serotonin dengue axis: serotonin, released by the dengue-virus-activated and the dengue-driven thrombocytopenic platelets (already mapped), amplifies the vascular permeability and the bleeding tendency of severe dengue fever."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Dengue prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune response; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) hyperinflammatory cascade of dengue fever."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Dengue oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates vascular inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) hyperinflammatory cascade of dengue fever."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Dengue vasopressin: vasopressin, via V2R on macrophages (already mapped) and neutrophils (already mapped), modulates vascular fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of dengue fever."
 ---
 
 # Dengue Fever
@@ -775,3 +784,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-dengue axis: melatonin, via MT1/MT2 receptors and its antioxidant activity, modulates the oxidative stress of the NS1-driven endothelial (already mapped) injury and the vascular permeability of severe dengue fever.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone dengue axis: testosterone, via androgen receptors on immune effectors (macrophages and T cells already mapped), modulates the sex-differential dengue-fever severity and the inflammatory cytokine response.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-serotonin dengue axis: serotonin, released by the dengue-virus-activated and the dengue-driven thrombocytopenic platelets (already mapped), amplifies the vascular permeability and the bleeding tendency of severe dengue fever.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Dengue prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune response; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) hyperinflammatory cascade of dengue fever.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Dengue oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates vascular inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) hyperinflammatory cascade of dengue fever.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Dengue vasopressin: vasopressin, via V2R on macrophages (already mapped) and neutrophils (already mapped), modulates vascular fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of dengue fever.

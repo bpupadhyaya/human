@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immunostimulatory prolactin axis: prolactin, via PRL receptors on T cells (already mapped), NK cells (already mapped) and macrophages (already mapped), amplifies the cytokine production and the hyperinflammatory T-cell activation of the cytokine storm."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Cytokine-storm oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the hyperinflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cytokine storm."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Cytokine-storm vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) hyperinflammatory cascade of cytokine storm."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Cytokine-storm serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the inflammatory tone; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cytokine storm."
 ---
 
 # Cytokine Storm
@@ -754,6 +763,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-immunomodulation axis: melatonin, via MT1/MT2 receptors on immune effectors (macrophages, T cells, NK cells already mapped), exerts anti-inflammatory effects that can mitigate the hyperinflammatory tissue damage of the cytokine storm.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone immunomodulation axis: testosterone, via androgen receptors on macrophages (already mapped) and T cells (already mapped), exerts immunosuppressive effects that modulate the sex-differential severity of cytokine-storm syndromes.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunostimulatory prolactin axis: prolactin, via PRL receptors on T cells (already mapped), NK cells (already mapped) and macrophages (already mapped), amplifies the cytokine production and the hyperinflammatory T-cell activation of the cytokine storm.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Cytokine-storm oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the hyperinflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cytokine storm.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Cytokine-storm vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) hyperinflammatory cascade of cytokine storm.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Cytokine-storm serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the inflammatory tone; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cytokine storm.
 
 ## Pathology
 
