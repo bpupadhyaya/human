@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Cytokine-storm sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the hyperinflammatory organ-injury cascade of cytokine storm."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Cytokine-storm magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and mast cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyperinflammatory cascade of cytokine storm."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Cytokine-storm copper: copper supports macrophage (already mapped) and mast-cell (already mapped) antioxidant function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) organ-injury cascade of cytokine storm."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Cytokine-storm zinc: zinc cofactors macrophage (already mapped) and mast-cell (already mapped) anti-inflammatory function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyperinflammatory cascade of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -778,6 +787,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Cytokine-storm selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) reactive-oxygen-driven hyperinflammatory cascade of cytokine storm.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Cytokine-storm iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) signalling, worsening the hyperinflammatory tissue-injury cascade of cytokine storm.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Cytokine-storm sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the hyperinflammatory organ-injury cascade of cytokine storm.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cytokine-storm magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and mast cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyperinflammatory cascade of cytokine storm.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Cytokine-storm copper: copper supports macrophage (already mapped) and mast-cell (already mapped) antioxidant function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) organ-injury cascade of cytokine storm.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Cytokine-storm zinc: zinc cofactors macrophage (already mapped) and mast-cell (already mapped) anti-inflammatory function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyperinflammatory cascade of cytokine storm.
 
 ## Pathology
 

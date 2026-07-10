@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Dengue magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and T cells (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the hyperinflammatory vascular-leak cascade of dengue fever."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Dengue copper: copper in macrophages (already mapped) and endothelial cells (already mapped) scavenges NS1-driven ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Dengue zinc: zinc cofactors macrophage (already mapped) and endothelial (already mapped) anti-inflammatory function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) hyperinflammatory vascular cascade of dengue fever."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Dengue phosphorus: phosphorus, as ATP in macrophages (already mapped) and endothelial cells (already mapped), fuels repair signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever."
 ---
 
 # Dengue Fever
@@ -799,3 +808,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Dengue selenium: selenium, as GPx in macrophages (already mapped) and endothelial cells (already mapped), scavenges NS1-driven ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) vascular-leak cascade of dengue fever.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Dengue iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and endothelial (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) vascular-leak cascade of dengue fever.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Dengue magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and T cells (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the hyperinflammatory vascular-leak cascade of dengue fever.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Dengue copper: copper in macrophages (already mapped) and endothelial cells (already mapped) scavenges NS1-driven ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Dengue zinc: zinc cofactors macrophage (already mapped) and endothelial (already mapped) anti-inflammatory function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) hyperinflammatory vascular cascade of dengue fever.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Dengue phosphorus: phosphorus, as ATP in macrophages (already mapped) and endothelial cells (already mapped), fuels repair signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
