@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine modulation: prolactin, elevated under stress and during relapse in NMO, potentiates the B-cell (already mapped) and plasmablast (plasma-cell already mapped) responses that produce AQP4-IgG and drives the female-predominant autoimmune skew of NMO."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "NMO testosterone: testosterone suppresses the B-cell (already mapped) AQP4-IgG production and plasma-cell (already mapped) autoantibody responses; androgen deficiency amplifies the complement C5 (already mapped) tissue injury and the female-predominant relapse risk of NMO."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "NMO serotonin: serotonin, via 5-HT receptors on astrocytes (already mapped) and microglia (already mapped), modulates the neuroinflammatory activation of NMO lesions; 5-HT also suppresses the B-cell (already mapped) autoimmune skew driving AQP4-IgG production in NMO."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "NMO oxytocin: oxytocin, via OXTR on astrocytes (already mapped) and regulatory T cells (already mapped), attenuates the neuroinflammatory cascade and promotes AQP4-IgG-mediated lesion repair; oxytocin also modulates the B-cell (already mapped) autoimmune skew of NMO."
 ---
 
 # NMOSD
@@ -817,6 +826,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM remodelling in CNS lesions: periostin, expressed by reactive astrocytes (already mapped) and fibroblasts in NMO spinal cord lesions, promotes the fibrotic extracellular matrix remodelling and necrotic cavity formation of neuromyelitis optica.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian neuroprotection: melatonin, via MT1/MT2 receptors on astrocytes (already mapped) and T regulatory cells (already mapped), suppresses the AQP4-IgG-driven complement cascade and promotes lesion repair in neuromyelitis optica.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine modulation: prolactin, elevated under stress and during relapse in NMO, potentiates the B-cell (already mapped) and plasmablast (plasma-cell already mapped) responses that produce AQP4-IgG and drives the female-predominant autoimmune skew of NMO.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — NMO testosterone: testosterone suppresses the B-cell (already mapped) AQP4-IgG production and plasma-cell (already mapped) autoantibody responses; androgen deficiency amplifies the complement C5 (already mapped) tissue injury and the female-predominant relapse risk of NMO.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — NMO serotonin: serotonin, via 5-HT receptors on astrocytes (already mapped) and microglia (already mapped), modulates the neuroinflammatory activation of NMO lesions; 5-HT also suppresses the B-cell (already mapped) autoimmune skew driving AQP4-IgG production in NMO.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — NMO oxytocin: oxytocin, via OXTR on astrocytes (already mapped) and regulatory T cells (already mapped), attenuates the neuroinflammatory cascade and promotes AQP4-IgG-mediated lesion repair; oxytocin also modulates the B-cell (already mapped) autoimmune skew of NMO.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

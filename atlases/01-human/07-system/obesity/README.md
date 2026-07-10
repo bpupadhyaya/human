@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Adipose ECM remodelling: periostin, expressed by fibroblasts and adipocyte precursors in expanding adipose tissue, promotes the fibrotic extracellular matrix remodelling and adipose tissue dysfunction that amplifies the chronic inflammation of obesity."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "OB factor-h: factor H regulates the alternative complement (C3 and C5 already mapped) in adipose tissue; impaired factor H activity amplifies the adipocyte (already mapped) lipotoxic and macrophage (already mapped) inflammatory phenotype of obesity."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "OB prolactin: prolactin modulates the gut-microbiome (already mapped) composition and leptin (already mapped) sensitivity in obesity; elevated prolactin promotes adipocyte (already mapped) lipogenesis and macrophage (already mapped) adipose inflammation."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "OB vasopressin: vasopressin, via V1 receptors on adipocytes (already mapped), promotes adipose inflammation and insulin resistance; V2-receptor signalling on the kidney (already mapped) drives the fluid retention and blood-pressure elevation of the obese cardiometabolic state."
 ---
 
 # Obesity
@@ -807,6 +816,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell adipose effector: histamine, released by mast cells (already mapped) in expanded adipose tissue, promotes adipocyte (already mapped) lipolysis, amplifies the pro-inflammatory cytokine milieu (TNF-α and IL-6 already mapped) and accelerates insulin resistance of obesity.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Adipokine-EPO crosstalk: erythropoietin, acting via EPOR on adipocytes (already mapped) and macrophages (already mapped), promotes fat mass reduction and improves insulin sensitivity, counteracting the adipose inflammation of obesity.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Adipose ECM remodelling: periostin, expressed by fibroblasts and adipocyte precursors in expanding adipose tissue, promotes the fibrotic extracellular matrix remodelling and adipose tissue dysfunction that amplifies the chronic inflammation of obesity.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — OB factor-h: factor H regulates the alternative complement (C3 and C5 already mapped) in adipose tissue; impaired factor H activity amplifies the adipocyte (already mapped) lipotoxic and macrophage (already mapped) inflammatory phenotype of obesity.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — OB prolactin: prolactin modulates the gut-microbiome (already mapped) composition and leptin (already mapped) sensitivity in obesity; elevated prolactin promotes adipocyte (already mapped) lipogenesis and macrophage (already mapped) adipose inflammation.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — OB vasopressin: vasopressin, via V1 receptors on adipocytes (already mapped), promotes adipose inflammation and insulin resistance; V2-receptor signalling on the kidney (already mapped) drives the fluid retention and blood-pressure elevation of the obese cardiometabolic state.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
