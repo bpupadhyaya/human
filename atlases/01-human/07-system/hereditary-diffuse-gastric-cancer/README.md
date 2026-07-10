@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "HDGC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary diffuse gastric cancer."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "HDGC selenium: selenium, via GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies IL-6 (already mapped) and STAT3 (already mapped) tumour-promoting inflammation in hereditary diffuse gastric cancer."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "HDGC zinc: zinc cofactors macrophage (already mapped) anti-tumour function and T-cytotoxic (already mapped) cytotoxicity; zinc deficiency amplifies IL-6 (already mapped) and STAT3 (already mapped) tumour-promoting inflammation and impairs CDH1 (already mapped) signalling in HDGC."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "HDGC magnesium: magnesium supports macrophage (already mapped) anti-tumour resolution and mast-cell (already mapped) stability; magnesium deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting inflammation and angiogenesis in HDGC."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -783,6 +792,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HDGC prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary diffuse gastric cancer.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HDGC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of hereditary diffuse gastric cancer.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HDGC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of hereditary diffuse gastric cancer.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HDGC selenium: selenium, via GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies IL-6 (already mapped) and STAT3 (already mapped) tumour-promoting inflammation in hereditary diffuse gastric cancer.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HDGC zinc: zinc cofactors macrophage (already mapped) anti-tumour function and T-cytotoxic (already mapped) cytotoxicity; zinc deficiency amplifies IL-6 (already mapped) and STAT3 (already mapped) tumour-promoting inflammation and impairs CDH1 (already mapped) signalling in HDGC.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HDGC magnesium: magnesium supports macrophage (already mapped) anti-tumour resolution and mast-cell (already mapped) stability; magnesium deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting inflammation and angiogenesis in HDGC.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
