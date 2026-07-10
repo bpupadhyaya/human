@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "CRC serotonin: serotonin, produced by colonic enterochromaffin cells and elevated in CRC, drives tumour proliferation via 5-HT4 receptor/cAMP signalling (mTOR already mapped); serotonin-mediated IL-6 (already mapped) induction also promotes the CRC inflammatory microenvironment."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "CRC oxytocin: oxytocin receptor signalling suppresses NF-κB (already mapped) driven tumour proliferation; oxytocin attenuates WNT/β-catenin (already mapped) CRC invasiveness and inhibits IL-6 (already mapped) tumour promotion via VEGF (already mapped) angiogenesis suppression."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "CRC vasopressin: vasopressin V1b signalling activates MAPK/EGFR (already mapped) tumour proliferative pathways; AVP-driven NF-κB (already mapped) activation promotes the CRC inflammatory microenvironment and enhances mTOR (already mapped) resistance to apoptosis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "CRC prolactin: prolactin receptor signalling activates JAK2/STAT3 (already mapped) tumour survival pathways; prolactin-driven NF-κB (already mapped) activation promotes IL-6 (already mapped) tumour microenvironment remodelling and mTOR (already mapped) angiogenic signalling."
 ---
 
 # Colorectal Cancer
@@ -791,6 +800,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — CRC melatonin: melatonin exerts anti-tumour effects in colorectal cancer by inhibiting WNT/β-catenin (already mapped) and mTOR (already mapped) signalling; melatonin also promotes the circadian regulation of CRC proliferation and sensitises tumour cells to chemotherapy.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — CRC testosterone: androgen receptor signalling promotes CRC cell proliferation via EGFR (already mapped) transactivation; testosterone-driven WNT/β-catenin (already mapped) activation favours tumour progression and reduces sensitivity to chemotherapy.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CRC serotonin: serotonin, produced by colonic enterochromaffin cells and elevated in CRC, drives tumour proliferation via 5-HT4 receptor/cAMP signalling (mTOR already mapped); serotonin-mediated IL-6 (already mapped) induction also promotes the CRC inflammatory microenvironment.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CRC oxytocin: oxytocin receptor signalling suppresses NF-κB (already mapped) driven tumour proliferation; oxytocin attenuates WNT/β-catenin (already mapped) CRC invasiveness and inhibits IL-6 (already mapped) tumour promotion via VEGF (already mapped) angiogenesis suppression.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CRC vasopressin: vasopressin V1b signalling activates MAPK/EGFR (already mapped) tumour proliferative pathways; AVP-driven NF-κB (already mapped) activation promotes the CRC inflammatory microenvironment and enhances mTOR (already mapped) resistance to apoptosis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CRC prolactin: prolactin receptor signalling activates JAK2/STAT3 (already mapped) tumour survival pathways; prolactin-driven NF-κB (already mapped) activation promotes IL-6 (already mapped) tumour microenvironment remodelling and mTOR (already mapped) angiogenic signalling.
 
 ---
 

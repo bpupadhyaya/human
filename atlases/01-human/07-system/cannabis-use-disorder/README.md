@@ -492,6 +492,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "CUD transferrin: transferrin-mediated iron delivery supports dopaminergic (dopamine already mapped) neurotransmission in cannabis use disorder; iron deficiency amplifies the brain (already mapped) neuroinflammatory burden and endocannabinoid (already mapped) dysregulation."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "CUD selenium: selenoproteins counter neuroinflammatory oxidative stress (NF-κB already mapped); selenium deficiency amplifies microglial (already mapped) activation and impairs endocannabinoid (already mapped) receptor function in the dopaminergic (already mapped) reward circuit."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "CUD iodine: thyroid hormones (iodine-dependent) modulate dopamine (already mapped) receptor density; iodine deficiency impairs NF-κB (already mapped) neuroinflammatory resolution and amplifies endocannabinoid (already mapped) system dysregulation in the mesolimbic circuit."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "CUD sodium: sodium-coupled transporters regulate dopamine (already mapped) and endocannabinoid (already mapped) reuptake; sodium dysregulation amplifies NF-κB (already mapped) neuroinflammation and microglial (already mapped) activation in cannabis use disorder."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -805,6 +814,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — CUD complement-c5: complement C5 activation in the neuroinflammatory brain (already mapped) microenvironment of cannabis use disorder amplifies the microglial (already mapped) damage and the synaptic loss triggered by chronic endocannabinoid (already mapped) system disruption.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — CUD factor-h: factor H regulates alternative complement activation (C5 already mapped) in the neuroinflamed brain (already mapped); factor H deficiency amplifies mast-cell (already mapped) neuroinflammation and the IL-6 (already mapped) neuroinflammatory cascade.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — CUD transferrin: transferrin-mediated iron delivery supports dopaminergic (dopamine already mapped) neurotransmission in cannabis use disorder; iron deficiency amplifies the brain (already mapped) neuroinflammatory burden and endocannabinoid (already mapped) dysregulation.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CUD selenium: selenoproteins counter neuroinflammatory oxidative stress (NF-κB already mapped); selenium deficiency amplifies microglial (already mapped) activation and impairs endocannabinoid (already mapped) receptor function in the dopaminergic (already mapped) reward circuit.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CUD iodine: thyroid hormones (iodine-dependent) modulate dopamine (already mapped) receptor density; iodine deficiency impairs NF-κB (already mapped) neuroinflammatory resolution and amplifies endocannabinoid (already mapped) system dysregulation in the mesolimbic circuit.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CUD sodium: sodium-coupled transporters regulate dopamine (already mapped) and endocannabinoid (already mapped) reuptake; sodium dysregulation amplifies NF-κB (already mapped) neuroinflammation and microglial (already mapped) activation in cannabis use disorder.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
