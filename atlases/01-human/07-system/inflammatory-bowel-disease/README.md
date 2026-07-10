@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement and kinin regulation: C1-INH controls the classical complement pathway (C3, C5 and C5aR1 already mapped) and the bradykinin (already mapped) kinin-kallikrein axis; deficiency worsens mucosal oedema and complement-mediated epithelial (already mapped) injury in IBD."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anaemia-of-IBD therapy: erythropoietin, responding to the anaemia of chronic disease (already mapped) and iron-deficiency anaemia (already mapped) complicating IBD, stimulates erythrocyte (already mapped) production and can suppress mucosal NF-kB (already mapped) inflammation."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Intestinal fibrosis mediator: periostin, from intestinal fibroblasts (fibrosis already mapped) under TGF-β (already mapped) and IL-13 (already mapped) stimulation, promotes subepithelial collagen (already mapped) deposition and the stricturing phenotype of Crohn's disease."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Enteric melatonin: melatonin produced by enterochromaffin cells of the gut epithelium (already mapped) activates MT1/MT2 receptors on mast cells (already mapped) and immune cells, attenuating the NF-κB (already mapped) and NLRP3 (already mapped) mucosal inflammation of IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -775,6 +784,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP released by the inflamed intestinal epithelium (already mapped) drives dendritic-cell (already mapped) and mast-cell (already mapped) priming that sustains the Th2 (IL-4, IL-5, IL-13 already mapped) and Th9 arms of mucosal immunity in IBD.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin gut pain and permeability: bradykinin, via B1/B2 receptors on intestinal epithelial cells (already mapped) and mast cells (already mapped), amplifies gut pain, mucosal permeability and the NF-kB (already mapped) inflammatory cascade of IBD.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement and kinin regulation: C1-INH controls the classical complement pathway (C3, C5 and C5aR1 already mapped) and the bradykinin (already mapped) kinin-kallikrein axis; deficiency worsens mucosal oedema and complement-mediated epithelial (already mapped) injury in IBD.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia-of-IBD therapy: erythropoietin, responding to the anaemia of chronic disease (already mapped) and iron-deficiency anaemia (already mapped) complicating IBD, stimulates erythrocyte (already mapped) production and can suppress mucosal NF-κB (already mapped) inflammation.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Intestinal fibrosis mediator: periostin, from intestinal fibroblasts (fibrosis already mapped) under TGF-β (already mapped) and IL-13 (already mapped) stimulation, promotes subepithelial collagen (already mapped) deposition and the stricturing phenotype of Crohn's disease.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Enteric melatonin: melatonin produced by enterochromaffin cells of the gut epithelium (already mapped) activates MT1/MT2 receptors on mast cells (already mapped) and immune cells, attenuating the NF-κB (already mapped) and NLRP3 (already mapped) mucosal inflammation of IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

@@ -492,6 +492,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Erythropoiesis coupling: erythropoietin shares JAK2 (already mapped) signalling with thrombopoietin (MPL already mapped); anaemia commonly accompanies ITP (hepcidin and erythrocyte already mapped) and EPO levels rise in response to ITP-related blood loss."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Stromal niche periostin: periostin, secreted by spleen (already mapped) and bone-marrow (already mapped) stromal fibroblasts under TGF-β (already mapped) stimulation, shapes the haematopoietic niche where the anti-platelet (already mapped) immune response of ITP is amplified."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Anti-platelet autoimmune suppression: melatonin, via MT1/MT2 receptors on regulatory T cells (already mapped) and B cells (already mapped), attenuates the anti-platelet IgG (immunoglobulin G already mapped) production driving platelet (already mapped) destruction in ITP."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Autoimmune-permissive hormone: prolactin, via PRL-R on B cells (already mapped), promotes their survival and anti-platelet IgG (immunoglobulin G already mapped) production; hyperprolactinaemia is a recognised co-factor amplifying the autoimmune thrombocytopenia of ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -785,6 +794,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Platelet-promoting alarmin: TSLP activates dendritic cells (already mapped) and B cells (already mapped) that produce anti-platelet IgG (immunoglobulin G already mapped), amplifying the autoimmune platelet (already mapped) destruction of immune thrombocytopenia.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-mediated bleeding: bradykinin, via B2 receptors on endothelial cells and platelets (both already mapped), amplifies vascular permeability and mucocutaneous bleeding in severe ITP; ACE-inhibitor co-medication worsens bleeding by impairing bradykinin catabolism.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoiesis coupling: erythropoietin shares JAK2 (already mapped) signalling with thrombopoietin (MPL already mapped); anaemia commonly accompanies ITP (hepcidin and erythrocyte already mapped) and EPO levels rise in response to ITP-related blood loss.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Stromal niche periostin: periostin, secreted by spleen (already mapped) and bone-marrow (already mapped) stromal fibroblasts under TGF-β (already mapped) stimulation, shapes the haematopoietic niche where the anti-platelet (already mapped) immune response of ITP is amplified.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Anti-platelet autoimmune suppression: melatonin, via MT1/MT2 receptors on regulatory T cells (already mapped) and B cells (already mapped), attenuates the anti-platelet IgG (immunoglobulin G already mapped) production driving platelet (already mapped) destruction in ITP.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Autoimmune-permissive hormone: prolactin, via PRL-R on B cells (already mapped), promotes their survival and anti-platelet IgG (immunoglobulin G already mapped) production; hyperprolactinaemia is a recognised co-factor amplifying the autoimmune thrombocytopenia of ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
