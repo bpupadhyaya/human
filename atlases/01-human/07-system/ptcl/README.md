@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "PTCL sodium: sodium-driven Th17 polarisation via osmotic sodium sensing in T cells (already mapped) amplifies the inflammatory cytokine (NF-κB already mapped) milieu of peripheral T-cell lymphoma, with high-salt microenvironments promoting tumour-promoting T-helper skewing."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "PTCL magnesium: magnesium, as mTOR (already mapped) kinase cofactor in malignant T cells and macrophages (already mapped), restrains tumour proliferation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "PTCL copper: copper, as lysyl oxidase cofactor in endothelial cells (already mapped) and macrophages (already mapped), drives tumour angiogenesis; copper deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of peripheral T-cell lymphoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "PTCL zinc: zinc, as co-factor of immune-regulatory metalloproteinases in macrophages (already mapped) and NK cells (already mapped), supports anti-tumour cytotoxicity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PTCL."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -820,6 +829,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PTCL selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving NF-κB (already mapped)-mediated genomic instability and survival signalling in the malignant T cells of peripheral T-cell lymphoma.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PTCL iodine: iodine-dependent thyroid hormones modulate T-cell (already mapped) differentiation and NK-cell (already mapped) cytotoxic activity within the PTCL tumour microenvironment, with hypothyroidism blunting anti-tumour immune surveillance of peripheral T-cell lymphoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PTCL sodium: sodium-driven Th17 polarisation via osmotic sodium sensing in T cells (already mapped) amplifies the inflammatory cytokine (NF-κB already mapped) milieu of peripheral T-cell lymphoma, with high-salt microenvironments promoting tumour-promoting T-helper skewing.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PTCL magnesium: magnesium, as mTOR (already mapped) kinase cofactor in malignant T cells and macrophages (already mapped), restrains tumour proliferation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PTCL copper: copper, as lysyl oxidase cofactor in endothelial cells (already mapped) and macrophages (already mapped), drives tumour angiogenesis; copper deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of peripheral T-cell lymphoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — PTCL zinc: zinc, as co-factor of immune-regulatory metalloproteinases in macrophages (already mapped) and NK cells (already mapped), supports anti-tumour cytotoxicity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PTCL.
 
 ---
 

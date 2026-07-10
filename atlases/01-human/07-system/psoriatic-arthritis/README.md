@@ -519,6 +519,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "PsA prolactin: prolactin promotes Th17 (IL-17A already mapped) and Th1 (IFN-γ already mapped) polarisation and stimulates synoviocyte (already mapped) proliferation, amplifying the NF-κB (already mapped) and TNF-α (already mapped)-driven joint inflammation of psoriatic arthritis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PsA iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and dendritic-cell (already mapped) differentiation; iodine deficiency amplifies the NF-κB (already mapped) and IL-17A (already mapped) joint-inflammatory cascade of psoriatic arthritis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "PsA magnesium: magnesium, as ATP cofactor in osteoclasts (already mapped) and fibroblasts (already mapped), modulates bone-remodelling; magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) erosive cascade of psoriatic arthritis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "PsA copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped) and osteoblasts (already mapped), drives synovial ECM crosslinking; copper deficiency amplifies NF-κB (already mapped) and IL-17A (already mapped) bone-erosion cascade of psoriatic arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -833,6 +842,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PsA oxytocin: oxytocin modulates neuroimmune crosstalk and mast-cell (already mapped) degranulation in the psoriatic synovium, intersecting the IL-17A (already mapped) and TNF-α (already mapped)-driven joint inflammation of psoriatic arthritis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PsA vasopressin: vasopressin via V1aR on synoviocytes and mast cells (already mapped) potentiates HPA-axis stress-inflammatory responses, amplifying the TNF-α (already mapped) and IL-17A (already mapped)-driven synovial inflammation and bone erosion of psoriatic arthritis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PsA prolactin: prolactin promotes Th17 (IL-17A already mapped) and Th1 (IFN-γ already mapped) polarisation and stimulates synoviocyte (already mapped) proliferation, amplifying the NF-κB (already mapped) and TNF-α (already mapped)-driven joint inflammation of psoriatic arthritis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PsA iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and dendritic-cell (already mapped) differentiation; iodine deficiency amplifies the NF-κB (already mapped) and IL-17A (already mapped) joint-inflammatory cascade of psoriatic arthritis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PsA magnesium: magnesium, as ATP cofactor in osteoclasts (already mapped) and fibroblasts (already mapped), modulates bone-remodelling; magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) erosive cascade of psoriatic arthritis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PsA copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped) and osteoblasts (already mapped), drives synovial ECM crosslinking; copper deficiency amplifies NF-κB (already mapped) and IL-17A (already mapped) bone-erosion cascade of psoriatic arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
