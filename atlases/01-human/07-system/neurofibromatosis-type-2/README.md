@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Schwannoma periostin stroma: periostin secreted by the NF2 schwannoma-associated fibroblasts promotes the integrin-AKT (already mapped) and TGF-β (already mapped) desmoplastic remodelling of the internal auditory canal stroma and the invasive meningioma component of NF2."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "NF2 antioxidant melatonin: melatonin receptor activation in NF2 vestibular schwannoma cells suppresses VEGF-driven (already mapped) angiogenesis and merlin (NF2 already mapped) loss-driven PI3K/AKT (already mapped) proliferative signalling, attenuating schwannoma growth."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "NF2 androgen signalling: testosterone via androgen receptor modulates Schwann-cell proliferation and mast-cell (already mapped) infiltration in NF2 vestibular schwannomas, intersecting merlin (NF2 already mapped) loss-driven YAP (already mapped) growth control."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "NF2 serotonin signalling: serotonin via 5-HT receptors modulates cAMP-PKA signalling in NF2 Schwann cells, amplifying the merlin (NF2 already mapped) loss-driven MAPK proliferative cascade and endolymphatic ion homeostasis in neurofibromatosis-type-2 vestibular schwannomas."
 ---
 
 # Neurofibromatosis Type 2
@@ -771,6 +780,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Schwannoma complement: C1-INH controls the classical complement pathway in the NF2 vestibular schwannoma microenvironment, limiting complement-mediated Schwann-cell lysis and modulating the VEGF-driven (already mapped) oedema and endolymphatic hydrops of NF2.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Schwannoma EPOR neuroprotection: erythropoietin, via EPOR on NF2 vestibular Schwann cells, activates the JAK2/STAT3 pro-survival pathway, promoting Schwann-cell survival against the VEGF-driven (already mapped) oedema and the auditory-nerve compression of NF2 schwannomas.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Schwannoma periostin stroma: periostin secreted by the NF2 schwannoma-associated fibroblasts promotes the integrin-AKT (already mapped) and TGF-β (already mapped) desmoplastic remodelling of the internal auditory canal stroma and the invasive meningioma component of NF2.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — NF2 antioxidant melatonin: melatonin receptor activation in NF2 vestibular schwannoma cells suppresses VEGF-driven (already mapped) angiogenesis and merlin (NF2 already mapped) loss-driven PI3K/AKT (already mapped) proliferative signalling, attenuating schwannoma growth.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — NF2 androgen signalling: testosterone via androgen receptor modulates Schwann-cell proliferation and mast-cell (already mapped) infiltration in NF2 vestibular schwannomas, intersecting merlin (NF2 already mapped) loss-driven YAP (already mapped) growth control.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — NF2 serotonin signalling: serotonin via 5-HT receptors modulates cAMP-PKA signalling in NF2 Schwann cells, amplifying the merlin (NF2 already mapped) loss-driven MAPK proliferative cascade and endolymphatic ion homeostasis in neurofibromatosis-type-2 vestibular schwannomas.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)

@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Noonan complement regulation: C1-INH controls the classical complement pathway in the Noonan syndrome immune microenvironment, limiting complement-driven lymphatic endothelial injury and the mast-cell (already mapped) mediated hypertrophic cardiomyopathy of Noonan."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Noonan antioxidant: melatonin receptor activation suppresses the PTPN11 (already mapped) RAS/MAPK-driven oxidative stress in Noonan syndrome cardiac (already mapped) and endothelial cells, attenuating hypertrophic cardiomyopathy progression and lymphatic oedema."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Noonan serotonin axis: serotonin via 5-HT receptors on Noonan cardiac cells and platelet precursors (already mapped) modulates cAMP-PKA and RAS/MAPK (PTPN11 already mapped) signalling, amplifying the hypertrophic cardiomyopathy of Noonan syndrome."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Noonan prolactin: prolactin via JAK2/STAT5 signalling intersects the PTPN11 (already mapped) SHP2-driven RAS/MAPK pathway in Noonan syndrome haematopoietic and cardiac progenitor cells, potentially amplifying the juvenile myelomonocytic leukaemia (JMML) risk of Noonan."
 ---
 
 # Noonan Syndrome
@@ -789,6 +798,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Mast-cell alarmin: TSLP, from Noonan skin (already mapped) and cardiac epithelium, activates mast cells (already mapped) and drives a Th2 cytokine microenvironment that amplifies the PTPN11 (already mapped) RAS/MAPK hypertrophic cardiomyopathy and lymphatic dysplasia.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Lymphatic permeability: bradykinin, via B2 receptor, amplifies the lymphatic vascular permeability and oedema of Noonan syndrome; kinin-kallikrein activation enhances the VEGF-driven (already mapped) lymphatic dysplasia and cardiac (already mapped) oedema of Noonan.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Noonan complement regulation: C1-INH controls the classical complement pathway in the Noonan syndrome immune microenvironment, limiting complement-driven lymphatic endothelial injury and the mast-cell (already mapped) mediated hypertrophic cardiomyopathy of Noonan.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Noonan antioxidant: melatonin receptor activation suppresses the PTPN11 (already mapped) RAS/MAPK-driven oxidative stress in Noonan syndrome cardiac (already mapped) and endothelial cells, attenuating hypertrophic cardiomyopathy progression and lymphatic oedema.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Noonan serotonin axis: serotonin via 5-HT receptors on Noonan cardiac cells and platelet precursors (already mapped) modulates cAMP-PKA and RAS/MAPK (PTPN11 already mapped) signalling, amplifying the hypertrophic cardiomyopathy of Noonan syndrome.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Noonan prolactin: prolactin via JAK2/STAT5 signalling intersects the PTPN11 (already mapped) SHP2-driven RAS/MAPK pathway in Noonan syndrome haematopoietic and cardiac progenitor cells, potentially amplifying the juvenile myelomonocytic leukaemia (JMML) risk of Noonan.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
