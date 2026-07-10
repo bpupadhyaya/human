@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "CLL iodine: iodine-dependent thyroid hormones modulate B-cell (already mapped) immune activation and NF-κB (already mapped) signalling; iodine deficiency amplifies the TNF-α (already mapped) survival cascade of chronic lymphocytic leukaemia."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "CLL sodium: sodium dysregulation in B-cells (already mapped) and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) tumour-promoting cascade of CLL."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "CLL magnesium: magnesium cofactors kinase signalling in B-cells (already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CLL."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "CLL copper: copper, via ceruloplasmin in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative cascade of CLL."
 ---
 
 # CLL
@@ -800,6 +809,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CLL vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the CLL vascular microenvironment; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) survival cascade of CLL.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CLL selenium: selenium, as GPx in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) oxidative survival cascade of CLL.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CLL iodine: iodine-dependent thyroid hormones modulate B-cell (already mapped) immune activation and NF-κB (already mapped) signalling; iodine deficiency amplifies the TNF-α (already mapped) survival cascade of chronic lymphocytic leukaemia.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CLL sodium: sodium dysregulation in B-cells (already mapped) and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) tumour-promoting cascade of CLL.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — CLL magnesium: magnesium cofactors kinase signalling in B-cells (already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CLL.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CLL copper: copper, via ceruloplasmin in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative cascade of CLL.
 
 ---
 

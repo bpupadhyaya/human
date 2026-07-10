@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "CML selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges BCR-ABL-driven ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative leukaemia cascade of CML."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "CML iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL leukaemia cascade of CML."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "CML sodium: sodium dysregulation in macrophages (already mapped) and leukaemic stem cells (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL tumour-promoting cascade of CML."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "CML magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic signalling cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -800,6 +809,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CML oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the BCR-ABL (already mapped)-driven TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CML.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CML vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the CML marrow vascular milieu; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL cascade of CML.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CML selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges BCR-ABL-driven ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative leukaemia cascade of CML.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CML iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL leukaemia cascade of CML.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CML sodium: sodium dysregulation in macrophages (already mapped) and leukaemic stem cells (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL tumour-promoting cascade of CML.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — CML magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic signalling cascade of CML.
 
 ---
 
