@@ -510,6 +510,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "IGD potassium: potassium channels regulate neuronal (already mapped) excitability and dopamine (already mapped) signalling; potassium depletion amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of internet gaming disorder."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "IGD iron: iron, as cofactor of dopamine (already mapped) synthesis in neurons (already mapped) and microglia (already mapped), regulates reward circuitry; iron deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of IGD."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "IGD phosphorus: phosphorus, as ATP in neurons (already mapped) and microglia (already mapped), fuels dopamine (already mapped) signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of internet gaming disorder."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "IGD chloride: chloride regulates neuronal (already mapped) membrane potential; chloride dysregulation in microglia (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) signalling cascade of internet gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -848,6 +857,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — IGD copper: copper, as cofactor of dopamine-β-hydroxylase in neurons (already mapped), supports catecholamine synthesis; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of internet gaming disorder.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — IGD zinc: zinc modulates NMDA receptor function in neurons (already mapped) and dopamine (already mapped) release; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory and reward-circuit cascade of internet gaming disorder.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IGD potassium: potassium channels regulate neuronal (already mapped) excitability and dopamine (already mapped) signalling; potassium depletion amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of internet gaming disorder.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — IGD iron: iron, as cofactor of dopamine (already mapped) synthesis in neurons (already mapped) and microglia (already mapped), regulates reward circuitry; iron deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of IGD.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IGD phosphorus: phosphorus, as ATP in neurons (already mapped) and microglia (already mapped), fuels dopamine (already mapped) signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of internet gaming disorder.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IGD chloride: chloride regulates neuronal (already mapped) membrane potential; chloride dysregulation in microglia (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) signalling cascade of internet gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
