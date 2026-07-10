@@ -492,6 +492,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Entheseal ECM remodelling: periostin, induced by IL-13 and TGF-β in the psoriatic entheses and synovium, promotes the fibroblast invasion and new bone formation of the enthesitis-driven joint damage that distinguishes psoriatic arthritis."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Synovial kinin: bradykinin generated in the inflamed psoriatic synovium activates B1/B2 receptors on synoviocytes and nociceptors, amplifying joint pain, oedema and the IL-17A (already mapped)-driven inflammatory cascade of psoriatic arthritis flares."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement regulation: C1-esterase inhibitor restrains the classical complement (C3, C5 and C5aR1 already mapped) within the psoriatic synovium, limiting complement-driven myeloid recruitment and the angiogenesis (VEGF already mapped) of joint inflammation."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Chronic-disease anaemia support: erythropoietin addresses the normocytic anaemia of chronic psoriatic arthritis inflammation (TNF-α and IL-6 already mapped); EPOR expression on synoviocytes additionally modulates joint inflammation."
 ---
 
 # Psoriatic Arthritis
@@ -797,6 +806,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Skin–joint alarmin: TSLP released by keratinocytes drives the Th2 and Th17 (IL-17A already mapped) polarisation that links psoriatic skin inflammation to the synovial and entheseal disease of psoriatic arthritis.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Synovial mast-cell effector: histamine from the abundant mast cells of the psoriatic synovium amplifies vascular permeability, IL-17A (already mapped) release and the joint swelling central to psoriatic arthritis flares.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Entheseal ECM remodelling: periostin, induced by IL-13 and TGF-β in the psoriatic entheses and synovium, promotes the fibroblast invasion and new bone formation of the enthesitis-driven joint damage that distinguishes psoriatic arthritis.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Synovial kinin: bradykinin generated in the inflamed psoriatic synovium activates B1/B2 receptors on synoviocytes and nociceptors, amplifying joint pain, oedema and the IL-17A (already mapped)-driven inflammatory cascade of psoriatic arthritis flares.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the classical complement (C3, C5 and C5aR1 already mapped) within the psoriatic synovium, limiting complement-driven myeloid recruitment and the angiogenesis (VEGF already mapped) of joint inflammation.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chronic-disease anaemia support: erythropoietin addresses the normocytic anaemia of chronic psoriatic arthritis inflammation (TNF-α and IL-6 already mapped); EPOR expression on synoviocytes additionally modulates joint inflammation.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
