@@ -504,6 +504,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Nutritional iron axis: transferrin, the iron carrier, reflects the malnutritional iron depletion of the purging-driven dietary restriction of bulimia nervosa."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "BN selenium: selenium, via selenoproteins in neurons (already mapped) and microglia (already mapped), attenuates oxidative neuroinflammation; selenium deficiency amplifies the serotonin (already mapped) and dopamine (already mapped) dysregulation of bulimia nervosa."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "BN iodine: iodine, via thyroid hormones (already mapped) on neurons (already mapped) and stomach (already mapped), modulates metabolic signalling; iodine deficiency amplifies the dopamine (already mapped) and serotonin (already mapped) reward dysregulation of bulimia nervosa."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "BN copper: copper, via cuproenzymes in neurons (already mapped) and cardiomyocytes (already mapped), modulates the dopaminergic neurotransmission; copper deficiency amplifies the serotonin (already mapped) and dopamine (already mapped) reward dysregulation of bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -795,6 +804,9 @@ All of the following must be met:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine dysregulation: prolactin, elevated under the stress and the hypothalamic disruption (already mapped) of bulimia nervosa, amplifies the dopaminergic (dopamine already mapped) reward dysregulation and the binge-purge cycle.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone appetite axis: testosterone, via androgen receptors on hypothalamic nuclei (already mapped), modulates the appetite and the reward-drive (dopamine already mapped) of the binge-eating behaviour of bulimia nervosa.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional iron axis: transferrin, the iron carrier, reflects the malnutritional iron depletion of the purging-driven dietary restriction of bulimia nervosa.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — BN selenium: selenium, via selenoproteins in neurons (already mapped) and microglia (already mapped), attenuates oxidative neuroinflammation; selenium deficiency amplifies the serotonin (already mapped) and dopamine (already mapped) dysregulation of bulimia nervosa.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — BN iodine: iodine, via thyroid hormones (already mapped) on neurons (already mapped) and stomach (already mapped), modulates metabolic signalling; iodine deficiency amplifies the dopamine (already mapped) and serotonin (already mapped) reward dysregulation of bulimia nervosa.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — BN copper: copper, via cuproenzymes in neurons (already mapped) and cardiomyocytes (already mapped), modulates the dopaminergic neurotransmission; copper deficiency amplifies the serotonin (already mapped) and dopamine (already mapped) reward dysregulation of bulimia nervosa.
 
 ## Treatment
 

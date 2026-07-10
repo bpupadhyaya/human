@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the inflammatory milieu of the infection-prone immune dysregulation of Bloom syndrome."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Bloom testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Bloom syndrome."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Bloom serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates antitumour immunity; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Bloom syndrome."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Bloom prolactin: prolactin, via PRLR on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates antitumour immune surveillance; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) immune cascade of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -801,6 +810,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell inflammatory axis: histamine, from mast cells (already mapped), amplifies the vascular permeability and the immunosuppressive cytokine milieu of the infection-prone and chronic-inflammatory dimension of Bloom syndrome.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-genotoxic axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the oxidative DNA damage that compounds the BLM-helicase (already mapped) repair deficiency of Bloom syndrome.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the inflammatory milieu of the infection-prone immune dysregulation of Bloom syndrome.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Bloom testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Bloom syndrome.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Bloom serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates antitumour immunity; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Bloom syndrome.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Bloom prolactin: prolactin, via PRLR on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates antitumour immune surveillance; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) immune cascade of Bloom syndrome.
 
 ---
 
