@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "TTP oxytocin: oxytocin modulates platelet aggregation and VWF release from endothelial Weibel-Palade bodies (VWF already mapped) in TTP; oxytocin-driven platelet-endothelial signalling also mediates endothelial (already mapped) repair after microvascular injury."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "TTP vasopressin: vasopressin induces VWF (already mapped) secretion from Weibel-Palade bodies, amplifying ADAMTS13 (already mapped)-cleavage demand overwhelmed in TTP; V1A receptor signalling promotes platelet (already mapped) activation and microvascular occlusion."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "TTP iodine: iodine-dependent thyroid hormones modulate platelet (already mapped) aggregation and ADAMTS13 (already mapped) activity; hypothyroidism-associated platelet hyperaggregability and impaired VWF (already mapped) cleavage may trigger or exacerbate acquired TTP episodes."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "TTP sodium: sodium-driven Th17 polarisation amplifies NF-κB (already mapped)-mediated endothelial (already mapped) activation and VWF (already mapped) release initiating TTP microthrombus formation; high dietary sodium exacerbates autoimmune ADAMTS13 (already mapped) suppression."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -826,6 +835,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — TTP testosterone: testosterone modulates platelet aggregation via androgen-receptor signalling on platelets (already mapped) and endothelial cells (already mapped); androgen-mediated ADAMTS13 (already mapped) regulation may explain the marked female predominance of TTP.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — TTP prolactin: prolactin is elevated in a subset of TTP patients and amplifies the autoimmune anti-ADAMTS13 (already mapped) response via B-cell (already mapped) and plasma-cell (already mapped) antibody secretion, paralleling its pathogenic role in other autoimmune diseases.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — TTP oxytocin: oxytocin modulates platelet aggregation and VWF release from endothelial Weibel-Palade bodies (VWF already mapped) in TTP; oxytocin-driven platelet-endothelial signalling also mediates endothelial (already mapped) repair after microvascular injury.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — TTP vasopressin: vasopressin induces VWF (already mapped) secretion from Weibel-Palade bodies, amplifying ADAMTS13 (already mapped)-cleavage demand overwhelmed in TTP; V1A receptor signalling promotes platelet (already mapped) activation and microvascular occlusion.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — TTP iodine: iodine-dependent thyroid hormones modulate platelet (already mapped) aggregation and ADAMTS13 (already mapped) activity; hypothyroidism-associated platelet hyperaggregability and impaired VWF (already mapped) cleavage may trigger or exacerbate acquired TTP episodes.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — TTP sodium: sodium-driven Th17 polarisation amplifies NF-κB (already mapped)-mediated endothelial (already mapped) activation and VWF (already mapped) release initiating TTP microthrombus formation; high dietary sodium exacerbates autoimmune ADAMTS13 (already mapped) suppression.
 
 ---
 

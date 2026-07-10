@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Thyroid-cancer serotonin: serotonin is co-secreted in neuroendocrine-differentiated thyroid tumours; autocrine 5-HT receptor signalling amplifies proliferation via ERK1/2 (already mapped) and mTOR (already mapped), contributing to aggressive thyroid cancer growth and invasion."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Thyroid-cancer oxytocin: oxytocin receptor on thyroid-cancer cells suppresses proliferation via cAMP/PKA inhibition of BRAF (already mapped)/MAPK and mTOR (already mapped) pathways; oxytocin attenuates VEGF (already mapped)-driven angiogenesis in the tumour microenvironment."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Thyroid-cancer vasopressin: vasopressin V1A/V2 receptors on thyroid-follicular cells modulate hormone secretion; V1A signalling in thyroid cancer intersects AKT (already mapped)/mTOR (already mapped) pathways, influencing tumour-cell survival and differentiation state."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Thyroid-cancer prolactin: prolactin via JAK2/STAT3 (already mapped) on thyroid-cancer cells promotes tumour survival and NF-κB (already mapped)-mediated anti-apoptotic expression, amplifying the oncogenic drive of BRAF (already mapped)- and RET-rearranged thyroid cancers."
 ---
 
 # Thyroid Cancer
@@ -807,6 +816,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Thyroid-cancer melatonin: melatonin suppresses thyroid-cancer proliferation via MT1/MT2 receptor-mediated inhibition of mTOR (already mapped) and AKT (already mapped) signalling; it also augments NK-cell (already mapped) cytotoxicity and restrains thyroid-cancer invasion.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Thyroid-cancer testosterone: androgen receptor in thyroid cancer promotes proliferation via BRAF (already mapped)-driven MAPK signalling; testosterone suppresses apoptosis and may explain the more aggressive course in males with papillary and follicular thyroid cancer.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Thyroid-cancer serotonin: serotonin is co-secreted in neuroendocrine-differentiated thyroid tumours; autocrine 5-HT receptor signalling amplifies proliferation via ERK1/2 (already mapped) and mTOR (already mapped), contributing to aggressive thyroid cancer growth and invasion.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Thyroid-cancer oxytocin: oxytocin receptor on thyroid-cancer cells suppresses proliferation via cAMP/PKA inhibition of BRAF (already mapped)/MAPK and mTOR (already mapped) pathways; oxytocin attenuates VEGF (already mapped)-driven angiogenesis in the tumour microenvironment.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Thyroid-cancer vasopressin: vasopressin V1A/V2 receptors on thyroid-follicular cells modulate hormone secretion; V1A signalling in thyroid cancer intersects AKT (already mapped)/mTOR (already mapped) pathways, influencing tumour-cell survival and differentiation state.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Thyroid-cancer prolactin: prolactin via JAK2/STAT3 (already mapped) on thyroid-cancer cells promotes tumour survival and NF-κB (already mapped)-mediated anti-apoptotic expression, amplifying the oncogenic drive of BRAF (already mapped)- and RET-rearranged thyroid cancers.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
