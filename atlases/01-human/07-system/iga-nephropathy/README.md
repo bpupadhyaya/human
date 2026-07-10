@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "IgAN chloride: chloride, regulating NKCC1-mediated ion transport in macrophages (already mapped) and neutrophils (already mapped), maintains renal homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "IgAN sulfur: sulfur, as hydrogen sulfide and cysteine in macrophages (already mapped) and neutrophils (already mapped), modulates renal oxidative stress; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "IgAN nitrogen: nitrogen, as reactive nitrogen species in macrophages (already mapped) and neutrophils (already mapped), modulates renal inflammation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "IgAN oxygen: oxygen, via ROS in macrophages (already mapped) and neutrophils (already mapped), drives mesangial and tubular oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -771,6 +780,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — IgAN copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises glomerular ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of IgA nephropathy.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — IgAN zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and mast cells (already mapped), attenuates glomerular oxidative stress; zinc deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of IgA nephropathy.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IgAN chloride: chloride, regulating NKCC1-mediated ion transport in macrophages (already mapped) and neutrophils (already mapped), maintains renal homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IgAN sulfur: sulfur, as hydrogen sulfide and cysteine in macrophages (already mapped) and neutrophils (already mapped), modulates renal oxidative stress; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IgAN nitrogen: nitrogen, as reactive nitrogen species in macrophages (already mapped) and neutrophils (already mapped), modulates renal inflammation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — IgAN oxygen: oxygen, via ROS in macrophages (already mapped) and neutrophils (already mapped), drives mesangial and tubular oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy.
 
 ---
 

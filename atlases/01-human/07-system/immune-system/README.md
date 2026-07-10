@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "IS calcium: calcium, as a second messenger in T-helper cells (already mapped) and B-cells (already mapped), drives lymphocyte activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "IS potassium: potassium regulates T-helper cells (already mapped) and B-cells (already mapped) membrane potential and lymphocyte activation; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "IS phosphorus: phosphorus, as ATP in T-helper cells (already mapped) and B-cells (already mapped), fuels lymphocyte proliferation; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "IS chloride: chloride regulates T-helper cells (already mapped) and B-cells (already mapped) ion homeostasis and intracellular signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades."
 ---
 
 # Immune System
@@ -721,6 +730,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — IS magnesium: magnesium supports macrophage (already mapped) anti-inflammatory function and neutrophil (already mapped) activation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) immune dysregulation.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — IS copper: copper, via ceruloplasmin and SOD in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune-cell dysfunction.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — IS calcium: calcium, as a second messenger in T-helper cells (already mapped) and B-cells (already mapped), drives lymphocyte activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IS potassium: potassium regulates T-helper cells (already mapped) and B-cells (already mapped) membrane potential and lymphocyte activation; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IS phosphorus: phosphorus, as ATP in T-helper cells (already mapped) and B-cells (already mapped), fuels lymphocyte proliferation; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IS chloride: chloride regulates T-helper cells (already mapped) and B-cells (already mapped) ion homeostasis and intracellular signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades.
 
 ## Pathology
 
