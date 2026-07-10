@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Insomnia sulfur: sulfur, as cysteine precursor in neurons (already mapped) and microglia (already mapped), supports GABA (already mapped) modulation; sulfur deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of insomnia."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Insomnia nitrogen: nitrogen, as RNS in neurons (already mapped) and microglia (already mapped), drives neuroinflammatory stress; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of insomnia disorder."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Insomnia oxygen: oxygen, via ROS in neurons (already mapped) and microglia (already mapped), drives neuroinflammatory oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of insomnia disorder."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Insomnia carbon: carbon, as backbone of GABA (already mapped) in neurons (already mapped) and microglia (already mapped), modulates sleep regulation; carbon imbalance amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of insomnia."
 ---
 
 # Insomnia Disorder
@@ -844,6 +853,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Insomnia phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports synaptic energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Insomnia chloride: chloride, via GABA-A Cl⁻ influx in neurons (already mapped), maintains inhibitory tone; chloride dysregulation in microglia (already mapped) amplifies the NF-κB (already mapped) and IL-6 (already mapped) arousal cascade of insomnia disorder.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Insomnia sulfur: sulfur, as cysteine precursor in neurons (already mapped) and microglia (already mapped), supports GABA (already mapped) modulation; sulfur deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of insomnia.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Insomnia nitrogen: nitrogen, as RNS in neurons (already mapped) and microglia (already mapped), drives neuroinflammatory stress; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of insomnia disorder.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Insomnia oxygen: oxygen, via ROS in neurons (already mapped) and microglia (already mapped), drives neuroinflammatory oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of insomnia disorder.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Insomnia carbon: carbon, as backbone of GABA (already mapped) in neurons (already mapped) and microglia (already mapped), modulates sleep regulation; carbon imbalance amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

@@ -521,6 +521,12 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "IS carbon: carbon, forming the backbone of ceramide lipids and melanin in skin (already mapped) and fibroblasts (already mapped), maintains epidermal barrier; carbon-skeleton insufficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) skin-barrier cascade."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "IS oxygen: oxygen, via ROS in fibroblasts (already mapped) and macrophages (already mapped), drives epidermal oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the integumentary system."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "IS hydrogen: hydrogen, as water framework in skin (already mapped) and fibroblasts (already mapped), maintains epidermal hydration; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and wound-healing (already mapped) cascade."
 ---
 
 # Integumentary System
@@ -794,6 +800,8 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IS chloride: chloride, via ion channels in macrophages (already mapped) and mast cells (already mapped), maintains epidermal homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the integumentary system.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IS nitrogen: nitrogen, as backbone of collagen (already mapped) in fibroblasts (already mapped) and skin (already mapped), supports structural integrity; nitrogen deficiency impairs wound-healing (already mapped) and amplifies the IL-6 (already mapped) inflammatory cascade.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IS carbon: carbon, forming the backbone of ceramide lipids and melanin in skin (already mapped) and fibroblasts (already mapped), maintains epidermal barrier; carbon-skeleton insufficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) skin-barrier cascade.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — IS oxygen: oxygen, via ROS in fibroblasts (already mapped) and macrophages (already mapped), drives epidermal oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the integumentary system.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IS hydrogen: hydrogen, as water framework in skin (already mapped) and fibroblasts (already mapped), maintains epidermal hydration; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and wound-healing (already mapped) cascade.
 
 ## Pathology
 
