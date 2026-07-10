@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement gating: complement C5 cleavage in the intestinal lamina propria generates C5a (C5aR1 already mapped) and C5b-9 MAC, amplifying inflammatory responses to dysbiosis and shaping the innate defence of the gut-microbiome ecosystem."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "GM testosterone: testosterone shapes gut-microbiome composition via regulatory-T-cell (already mapped) and B-cell (already mapped) modulation; androgen signalling suppresses IL-6 (already mapped) and TNF-α (already mapped) intestinal inflammation (IBD already mapped)."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "GM prolactin: prolactin receptors on intestinal epithelium (already mapped) and liver (already mapped) modulate mucosal immunity; prolactin drives IL-6 (already mapped) production in mast cells (already mapped) and shapes regulatory-T-cell (already mapped) gut tolerance."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "GM vasopressin: vasopressin (ADH) acts on intestinal epithelium (already mapped) to modulate fluid transport and barrier integrity; vasopressin also suppresses IL-1β (already mapped) and TNF-α (already mapped) intestinal inflammation (IBD already mapped)."
 ---
 
 # Gut Microbiome
@@ -733,6 +742,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Gut EPO axis: erythropoietin, produced by intestinal epithelium under hypoxic stress (HIF-1α already mapped), supports epithelial repair and modulates the enteric immune tone, linking gut oxygenation to the systemic haematopoietic response.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Crypt stromal ECM: periostin, secreted by subepithelial fibroblasts of the intestinal crypt niche, maintains basement-membrane integrity and supports epithelial regeneration and stem-cell quiescence of the gut-microbiome ecosystem.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement gating: complement C5 cleavage in the intestinal lamina propria generates C5a (C5aR1 already mapped) and C5b-9 MAC, amplifying inflammatory responses to dysbiosis and shaping the innate defence of the gut-microbiome ecosystem.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — GM testosterone: testosterone shapes gut-microbiome composition via regulatory-T-cell (already mapped) and B-cell (already mapped) modulation; androgen signalling suppresses IL-6 (already mapped) and TNF-α (already mapped) intestinal inflammation (IBD already mapped).
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — GM prolactin: prolactin receptors on intestinal epithelium (already mapped) and liver (already mapped) modulate mucosal immunity; prolactin drives IL-6 (already mapped) production in mast cells (already mapped) and shapes regulatory-T-cell (already mapped) gut tolerance.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — GM vasopressin: vasopressin (ADH) acts on intestinal epithelium (already mapped) to modulate fluid transport and barrier integrity; vasopressin also suppresses IL-1β (already mapped) and TNF-α (already mapped) intestinal inflammation (IBD already mapped).
 
 ## Pathology
 
