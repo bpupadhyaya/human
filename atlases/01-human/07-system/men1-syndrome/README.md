@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Pancreatic islet modulation: oxytocin, via OXT-R on pancreatic beta cells and MEN1 insulinoma cells (pancreatic-cancer and islet already mapped), modulates insulin secretion and amplifies the endocrine hyperactivity in the gastrinoma and insulinoma spectrum of MEN1."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MEN1 vasopressin neuroendocrine: vasopressin, via V1bR on pituitary adenoma cells (already mapped) and macrophages (already mapped), modulates the hypothalamic-pituitary axis; dysregulation amplifies IL-6 (already mapped) and mTOR (already mapped) signalling in MEN1 syndrome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "MEN1 selenium antioxidant: selenium, via GPx/TrxR selenoproteins in MEN1 neuroendocrine tumour cells and macrophages (already mapped), quenches oxidative stress that amplifies mTOR (already mapped) and VEGF (already mapped) pro-tumour angiogenesis in MEN1 syndrome."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MEN1 iodine thyroid: iodine, as the key substrate for thyroid hormone biosynthesis, supports the HPT axis; iodine insufficiency amplifies the neuroendocrine IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade in MEN1 syndrome."
 ---
 
 # MEN1 Syndrome
@@ -783,6 +792,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Neuroendocrine melatonin: melatonin, via MT1/MT2 receptors on MEN1 neuroendocrine tumour cells, suppresses cAMP-mediated (already mapped) proliferative signalling and promotes apoptosis in the pancreatic and pituitary (already mapped) neuroendocrine tumours of MEN1 syndrome.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-pituitary axis: testosterone, via androgen receptor on MEN1 pituitary adenoma cells (pituitary-adenoma already mapped) and hypothalamic-pituitary axis, modulates the prolactinoma and GH-secreting tumour (already mapped) development in MEN1 syndrome.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Pancreatic islet modulation: oxytocin, via OXT-R on pancreatic beta cells and MEN1 insulinoma cells (pancreatic-cancer and islet already mapped), modulates insulin secretion and amplifies the endocrine hyperactivity in the gastrinoma and insulinoma spectrum of MEN1.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MEN1 vasopressin neuroendocrine: vasopressin, via V1bR on pituitary adenoma cells (already mapped) and macrophages (already mapped), modulates the hypothalamic-pituitary axis; dysregulation amplifies IL-6 (already mapped) and mTOR (already mapped) signalling in MEN1 syndrome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MEN1 selenium antioxidant: selenium, via GPx/TrxR selenoproteins in MEN1 neuroendocrine tumour cells and macrophages (already mapped), quenches oxidative stress that amplifies mTOR (already mapped) and VEGF (already mapped) pro-tumour angiogenesis in MEN1 syndrome.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MEN1 iodine thyroid: iodine, as the key substrate for thyroid hormone biosynthesis, supports the HPT axis; iodine insufficiency amplifies the neuroendocrine IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade in MEN1 syndrome.
 
 ---
 

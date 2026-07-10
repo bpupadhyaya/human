@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Tumour-promoting prolactin: prolactin, via PRL-R on melanoma cells and tumour-associated macrophages (already mapped), activates the JAK2/STAT3 (already mapped) pro-survival pathway and promotes the VEGF-driven (already mapped) angiogenesis and immune evasion of melanoma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Melanoma oxytocin anti-tumour: oxytocin, via OXTR on tumour-associated macrophages (already mapped) and mast cells (already mapped), attenuates the NF-κB (already mapped) and VEGF (already mapped) pro-tumour cascade, reducing immune evasion and angiogenesis in melanoma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Melanoma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) pro-tumour angiogenic signalling in melanoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Melanoma selenium antioxidant: selenium, via GPx/TrxR selenoproteins in melanoma cells and macrophages (already mapped), quenches ROS that amplifies BRAF (already mapped) and NF-κB (already mapped) proliferative signalling, reducing the oxidative-stress phenotype of melanoma."
 ---
 
 # Melanoma
@@ -761,6 +770,9 @@ cross_links:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-melanoma axis: testosterone, via androgen receptor on melanoma cells and macrophages (already mapped), modulates BRAF/VEGF (both already mapped) proliferative signalling and contributes to the sex-dimorphic incidence and checkpoint-inhibitor response of melanoma.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Melanocyte 5-HT axis: serotonin from UV-induced tryptophan metabolism in melanocytes (already mapped) activates 5-HT2 receptors on melanoma cells and tumour-infiltrating lymphocytes (already mapped), modulating immune evasion and the BRAF (already mapped) proliferative cascade.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Tumour-promoting prolactin: prolactin, via PRL-R on melanoma cells and tumour-associated macrophages (already mapped), activates the JAK2/STAT3 (already mapped) pro-survival pathway and promotes the VEGF-driven (already mapped) angiogenesis and immune evasion of melanoma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Melanoma oxytocin anti-tumour: oxytocin, via OXTR on tumour-associated macrophages (already mapped) and mast cells (already mapped), attenuates the NF-κB (already mapped) and VEGF (already mapped) pro-tumour cascade, reducing immune evasion and angiogenesis in melanoma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Melanoma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) pro-tumour angiogenic signalling in melanoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Melanoma selenium antioxidant: selenium, via GPx/TrxR selenoproteins in melanoma cells and macrophages (already mapped), quenches ROS that amplifies BRAF (already mapped) and NF-κB (already mapped) proliferative signalling, reducing the oxidative-stress phenotype of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
