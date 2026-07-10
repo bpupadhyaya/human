@@ -492,6 +492,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "IGD transferrin: transferrin delivers iron for dopamine (already mapped) and norepinephrine (already mapped) synthesis; iron deficiency amplifies glutamate (already mapped) excitotoxicity and BDNF (already mapped) signalling deficit in the IGD brain (already mapped)."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "IGD iodine: thyroid hormones regulate neuronal dopamine (already mapped) and norepinephrine (already mapped) synthesis; iodine deficiency amplifies NF-κB (already mapped) neuroinflammation and impairs BDNF (already mapped) signalling in the IGD brain (already mapped)."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "IGD sodium: sodium homeostasis modulates glutamate (already mapped) receptor excitability and neuronal firing in the reward circuitry; sodium dysregulation amplifies NF-κB (already mapped) neuroinflammation and disrupts dopamine (already mapped) mediated impulsivity control."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "IGD magnesium: magnesium blocks NMDA-mediated glutamate (already mapped) excitotoxicity in the IGD brain (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and worsens dopamine (already mapped) dysregulation."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -824,6 +833,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — IGD prolactin: prolactin modulates the cortisol (already mapped) HPA axis and amplifies dopamine (already mapped) reward dysregulation in internet gaming disorder; elevated prolactin worsens BDNF (already mapped) signalling and NF-κB (already mapped) neuroinflammation.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — IGD selenium: selenoprotein antioxidants counter the neuroinflammatory oxidative stress (TNF-α already mapped) in internet gaming disorder; selenium supports dopamine (already mapped) and norepinephrine (already mapped) synthesis and ameliorates the BDNF (already mapped) deficit.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — IGD transferrin: transferrin delivers iron for dopamine (already mapped) and norepinephrine (already mapped) synthesis; iron deficiency amplifies glutamate (already mapped) excitotoxicity and BDNF (already mapped) signalling deficit in the IGD brain (already mapped).
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IGD iodine: thyroid hormones regulate neuronal dopamine (already mapped) and norepinephrine (already mapped) synthesis; iodine deficiency amplifies NF-κB (already mapped) neuroinflammation and impairs BDNF (already mapped) signalling in the IGD brain (already mapped).
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — IGD sodium: sodium homeostasis modulates glutamate (already mapped) receptor excitability and neuronal firing in the reward circuitry; sodium dysregulation amplifies NF-κB (already mapped) neuroinflammation and disrupts dopamine (already mapped) mediated impulsivity control.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — IGD magnesium: magnesium blocks NMDA-mediated glutamate (already mapped) excitotoxicity in the IGD brain (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and worsens dopamine (already mapped) dysregulation.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

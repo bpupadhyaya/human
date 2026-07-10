@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Leish magnesium: magnesium supports macrophage (already mapped) nitric-oxide (already mapped) production and IFN-γ (already mapped) leishmanicidal activity; magnesium deficiency amplifies IL-10 (already mapped) tolerance in the liver (already mapped) and spleen (already mapped)."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Leish iodine: thyroid-hormone signalling modulates macrophage (already mapped) activation and nitric-oxide (already mapped) production during leishmaniasis; iodine deficiency impairs NF-κB (already mapped) and IFN-γ (already mapped) driven leishmanicidal responses."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Leish potassium: potassium efflux from macrophages (already mapped) activates NLRP3 (already mapped) inflammasome and IL-1β (already mapped) secretion; potassium dysregulation dampens NF-κB (already mapped) and nitric-oxide (already mapped) driven leishmanicidal clearance."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Leish phosphorus: phosphorus is required for ATP-driven macrophage (already mapped) nitric-oxide (already mapped) production against Leishmania donovani (already mapped); phosphorus deficiency impairs IFN-γ (already mapped) and NF-κB (already mapped) leishmanicidal signalling."
 ---
 
 # Leishmaniasis
@@ -769,3 +778,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Leish serotonin: serotonin modulates macrophage (already mapped) nitric-oxide (already mapped) production in leishmaniasis; 5-HT receptor signalling shifts macrophage polarisation from the IFN-γ (already mapped) leishmanicidal phenotype toward IL-10 (already mapped) tolerance.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Leish vasopressin: vasopressin (ADH) modulates macrophage (already mapped) activation and nitric-oxide (already mapped) production during leishmaniasis; vasopressin also influences the liver (already mapped) and spleen (already mapped) reticuloendothelial immune response.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Leish magnesium: magnesium supports macrophage (already mapped) nitric-oxide (already mapped) production and IFN-γ (already mapped) leishmanicidal activity; magnesium deficiency amplifies IL-10 (already mapped) tolerance in the liver (already mapped) and spleen (already mapped).
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Leish iodine: thyroid-hormone signalling modulates macrophage (already mapped) activation and nitric-oxide (already mapped) production during leishmaniasis; iodine deficiency impairs NF-κB (already mapped) and IFN-γ (already mapped) driven leishmanicidal responses.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Leish potassium: potassium efflux from macrophages (already mapped) activates NLRP3 (already mapped) inflammasome and IL-1β (already mapped) secretion; potassium dysregulation dampens NF-κB (already mapped) and nitric-oxide (already mapped) driven leishmanicidal clearance.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Leish phosphorus: phosphorus is required for ATP-driven macrophage (already mapped) nitric-oxide (already mapped) production against Leishmania donovani (already mapped); phosphorus deficiency impairs IFN-γ (already mapped) and NF-κB (already mapped) leishmanicidal signalling.
