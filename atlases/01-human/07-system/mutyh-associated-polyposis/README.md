@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Gut neuroendocrine axis: serotonin from enterochromaffin cells in the MUTYH-deficient colorectal mucosa regulates bowel motility and mucosal immune responses (already mapped), shaping the inflammatory microenvironment of the MAP polyp stroma and adenoma progression."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "MAP prolactin immune: prolactin, via PRLR on MUTYH-deficient colorectal epithelial cells (already mapped) and macrophages (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory signalling, promoting the inflammatory TME of MAP polyposis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "MAP oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped) in the MAP colorectal polyp stroma, attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory signalling in MUTYH-associated polyposis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MAP vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MAP polyp stroma, modulates the colorectal vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) in MUTYH polyposis."
 ---
 
 # MUTYH-Associated Polyposis
@@ -780,6 +789,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Colorectal antiproliferative: melatonin, via MT1/MT2 receptors on MUTYH-deficient colorectal cells (already mapped), suppresses WNT/β-catenin (already mapped) and NF-κB (already mapped) signalling, reducing polyp proliferation and adenoma-to-carcinoma progression in MAP.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen receptor in MAP: testosterone, via androgen receptor on MUTYH-deficient colorectal epithelial cells (already mapped), modulates WNT/β-catenin (already mapped) proliferative signalling and may contribute to the male-skewed colorectal cancer risk of MAP.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut neuroendocrine axis: serotonin from enterochromaffin cells in the MUTYH-deficient colorectal mucosa regulates bowel motility and mucosal immune responses (already mapped), shaping the inflammatory microenvironment of the MAP polyp stroma and adenoma progression.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — MAP prolactin immune: prolactin, via PRLR on MUTYH-deficient colorectal epithelial cells (already mapped) and macrophages (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory signalling, promoting the inflammatory TME of MAP polyposis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MAP oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped) in the MAP colorectal polyp stroma, attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory signalling in MUTYH-associated polyposis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MAP vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MAP polyp stroma, modulates the colorectal vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) in MUTYH polyposis.
 
 ---
 

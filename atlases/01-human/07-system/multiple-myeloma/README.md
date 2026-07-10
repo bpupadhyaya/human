@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Plasma-cell trophic prolactin: prolactin, via PRL-R on myeloma plasma cells (already mapped) and bone-marrow stromal cells (already mapped), activates JAK2/STAT3 (already mapped) and IL-6 (already mapped) pro-survival signalling, promoting myeloma persistence and drug resistance."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "MM oxytocin anti-myeloma: oxytocin, via OXTR on myeloma macrophages (already mapped) and bone-marrow stroma, attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling in the myeloma microenvironment, reducing immune evasion in multiple myeloma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MM vasopressin vascular: vasopressin, via V1aR on myeloma macrophages (already mapped) and the bone-marrow endothelium, modulates the myeloma vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling in multiple myeloma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "MM selenium antioxidant: selenium, via GPx/TrxR selenoproteins in myeloma plasma cells (already mapped) and macrophages (already mapped), quenches ROS that amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling in the bone-marrow niche of myeloma."
 ---
 
 # Multiple Myeloma
@@ -800,6 +809,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-bone marrow axis: testosterone, via androgen receptor on myeloma plasma cells (already mapped) and osteoblasts (already mapped), modulates the IL-6 (already mapped) bone-marrow niche and contributes to the sex-dimorphic incidence and bone-disease of multiple myeloma.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Plasma-cell 5-HT signalling: serotonin from platelets (already mapped) in the myeloma vasculature signals via 5-HT2 receptors on plasma cells (already mapped) and macrophages (already mapped), modulating the IL-6 (already mapped) pro-survival cytokine milieu of multiple myeloma.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Plasma-cell trophic prolactin: prolactin, via PRL-R on myeloma plasma cells (already mapped) and bone-marrow stromal cells (already mapped), activates JAK2/STAT3 (already mapped) and IL-6 (already mapped) pro-survival signalling, promoting myeloma persistence and drug resistance.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MM oxytocin anti-myeloma: oxytocin, via OXTR on myeloma macrophages (already mapped) and bone-marrow stroma, attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling in the myeloma microenvironment, reducing immune evasion in multiple myeloma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MM vasopressin vascular: vasopressin, via V1aR on myeloma macrophages (already mapped) and the bone-marrow endothelium, modulates the myeloma vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling in multiple myeloma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MM selenium antioxidant: selenium, via GPx/TrxR selenoproteins in myeloma plasma cells (already mapped) and macrophages (already mapped), quenches ROS that amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling in the bone-marrow niche of myeloma.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
