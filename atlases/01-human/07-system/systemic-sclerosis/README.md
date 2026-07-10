@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Vascular neuromodulator: oxytocin receptors on endothelial and smooth-muscle cells (already mapped) modulate vascular tone; oxytocin deficiency may contribute to the Raynaud's vasospasm and the endothelial dysfunction of systemic sclerosis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "SSc testosterone: testosterone exerts anti-fibrotic effects in systemic sclerosis; androgen deficiency contributes to the female sex predominance, and androgen-receptor signalling on fibroblasts (already mapped) modulates TGF-β (already mapped)-driven collagen deposition."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "SSc vasopressin: vasopressin (ADH) modulates renal water retention (kidney already mapped) and vascular tone in systemic sclerosis; in scleroderma renal crisis, AVP-mediated vasoconstriction amplifies the angiotensin-II (already mapped)-driven hypertensive emergency."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "SSc selenium: selenium selenoproteins counter the oxidative stress driving endothelial injury and fibroblast (already mapped) activation in systemic sclerosis; selenium deficiency amplifies NF-κB (already mapped) inflammation and worsens the pulmonary fibrosis of the disease."
 ---
 
 # Systemic Sclerosis
@@ -773,6 +782,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antifibrotic: melatonin is reduced in systemic sclerosis and exerts antifibrotic effects by suppressing TGF-β (already mapped) signalling and fibroblast (already mapped) collagen production, while modulating the Th1/Th2 imbalance.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Profibrotic autoimmune amplifier: prolactin is elevated in a subset of systemic sclerosis patients and modulates the B-cell (BAFF already mapped) and T-cell autoimmunity driving the fibrosis and endothelial injury of the disease.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Vascular neuromodulator: oxytocin receptors on endothelial and smooth-muscle cells (already mapped) modulate vascular tone; oxytocin deficiency may contribute to the Raynaud's vasospasm and the endothelial dysfunction of systemic sclerosis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — SSc testosterone: testosterone exerts anti-fibrotic effects in systemic sclerosis; androgen deficiency contributes to the female sex predominance, and androgen-receptor signalling on fibroblasts (already mapped) modulates TGF-β (already mapped)-driven collagen deposition.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SSc vasopressin: vasopressin (ADH) modulates renal water retention (kidney already mapped) and vascular tone in systemic sclerosis; in scleroderma renal crisis, AVP-mediated vasoconstriction amplifies the angiotensin-II (already mapped)-driven hypertensive emergency.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — SSc selenium: selenium selenoproteins counter the oxidative stress driving endothelial injury and fibroblast (already mapped) activation in systemic sclerosis; selenium deficiency amplifies NF-κB (already mapped) inflammation and worsens the pulmonary fibrosis of the disease.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
