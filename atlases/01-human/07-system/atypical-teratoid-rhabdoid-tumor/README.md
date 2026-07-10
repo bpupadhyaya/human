@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 already mapped) whose activation contributes to the tumour-promoting neuroinflammation and the immunosuppressive complement dimension of ATRT."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "ATRT testosterone: testosterone, via androgen receptors on neurons (already mapped) and microglia (already mapped), modulates the TME; testosterone deficiency amplifies the T-cytotoxic (already mapped) and complement-C5 (already mapped) antitumour cascade impairment of ATRT."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "ATRT serotonin: serotonin, via 5-HT receptors on microglia (already mapped) and neurons (already mapped), modulates the neuroinflammatory TME; serotonin dysregulation amplifies the T-cytotoxic (already mapped) and mast-cell (already mapped) antitumour cascade of ATRT."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "ATRT prolactin: prolactin, via PRLR on microglia (already mapped) and T-cytotoxic cells (already mapped), modulates the neuroimmune TME; prolactin dysregulation amplifies the neuroinflammatory (neuron already mapped) and mast-cell (already mapped) tumour cascade of ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -782,6 +791,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell TME axis: histamine, from mast cells (already mapped) in the ATRT tumour microenvironment, amplifies the vascular permeability, the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the tumour stroma.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-survivorship axis: melatonin, via MT1/MT2 receptors on tumour cells and neural progenitors (already mapped), exerts antitumour and neuroprotective effects relevant to the craniospinal-radiation survivorship of ATRT.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 already mapped) whose activation contributes to the tumour-promoting neuroinflammation and the immunosuppressive complement dimension of ATRT.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — ATRT testosterone: testosterone, via androgen receptors on neurons (already mapped) and microglia (already mapped), modulates the TME; testosterone deficiency amplifies the T-cytotoxic (already mapped) and complement-C5 (already mapped) antitumour cascade impairment of ATRT.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — ATRT serotonin: serotonin, via 5-HT receptors on microglia (already mapped) and neurons (already mapped), modulates the neuroinflammatory TME; serotonin dysregulation amplifies the T-cytotoxic (already mapped) and mast-cell (already mapped) antitumour cascade of ATRT.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — ATRT prolactin: prolactin, via PRLR on microglia (already mapped) and T-cytotoxic cells (already mapped), modulates the neuroimmune TME; prolactin dysregulation amplifies the neuroinflammatory (neuron already mapped) and mast-cell (already mapped) tumour cascade of ATRT.
 
 ---
 

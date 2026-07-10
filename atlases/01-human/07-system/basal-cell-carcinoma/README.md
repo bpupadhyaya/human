@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-skin-tumour axis: testosterone, via androgen receptors on basal-cell-carcinoma keratinocytes (already mapped) and stromal cells, modulates the immunosuppressive tumour microenvironment and the sex-differential BCC risk."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "BCC serotonin: serotonin, via 5-HT receptors on keratinocytes (already mapped) and macrophages (already mapped), modulates skin immunity; serotonin dysregulation amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour-promoting cascade of basal-cell carcinoma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "BCC prolactin: prolactin, via PRLR on keratinocytes (already mapped) and macrophages (already mapped), promotes tumour immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour-promoting cascade of basal-cell carcinoma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "BCC oxytocin: oxytocin, via OXTR on keratinocytes (already mapped) and macrophages (already mapped), attenuates skin TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour cascade of basal-cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -785,6 +794,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell BCC TME axis: histamine, from mast cells (already mapped) in the basal-cell-carcinoma stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu that support tumour progression.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-UV axis: melatonin, via MT1/MT2 receptors on keratinocytes (already mapped), modulates the DNA-damage response to the ultraviolet (UV/photon already mapped) radiation of the skin carcinogenesis of basal-cell carcinoma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-skin-tumour axis: testosterone, via androgen receptors on basal-cell-carcinoma keratinocytes (already mapped) and stromal cells, modulates the immunosuppressive tumour microenvironment and the sex-differential BCC risk.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — BCC serotonin: serotonin, via 5-HT receptors on keratinocytes (already mapped) and macrophages (already mapped), modulates skin immunity; serotonin dysregulation amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour-promoting cascade of basal-cell carcinoma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — BCC prolactin: prolactin, via PRLR on keratinocytes (already mapped) and macrophages (already mapped), promotes tumour immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour-promoting cascade of basal-cell carcinoma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — BCC oxytocin: oxytocin, via OXTR on keratinocytes (already mapped) and macrophages (already mapped), attenuates skin TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour cascade of basal-cell carcinoma.
 
 ---
 
