@@ -523,6 +523,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "MDS magnesium: magnesium, as cofactor of nucleotide repair enzymes in erythrocytes (already mapped) and macrophages (already mapped), supports haematopoiesis; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of MDS."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "MDS calcium: calcium, as second messenger in macrophages (already mapped) and erythrocytes (already mapped), regulates haematopoietic signalling; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of MDS."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "MDS potassium: potassium regulates macrophage (already mapped) and neutrophil (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and bone-marrow (already mapped) haematopoietic cascade of MDS."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "MDS phosphorus: phosphorus, as ATP in macrophages (already mapped) and erythrocytes (already mapped), fuels haematopoiesis and DNA repair; phosphorus deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and bone-marrow (already mapped) cascade of MDS."
 ---
 
 # Myelodysplastic Syndromes
@@ -802,6 +811,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MDS iodine: iodine-dependent thyroid hormones regulate erythropoietin (already mapped) mediated erythropoiesis; iodine deficiency impairs the NF-κB (already mapped) and IL-6 (already mapped) macrophage (already mapped) immune surveillance in myelodysplastic syndrome.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MDS sodium: sodium-driven macrophage (already mapped) and neutrophil (already mapped) activation amplifies the NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of MDS; excess sodium worsens bone-marrow (already mapped) haematopoietic dysregulation.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MDS magnesium: magnesium, as cofactor of nucleotide repair enzymes in erythrocytes (already mapped) and macrophages (already mapped), supports haematopoiesis; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of MDS.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — MDS calcium: calcium, as second messenger in macrophages (already mapped) and erythrocytes (already mapped), regulates haematopoietic signalling; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of MDS.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MDS potassium: potassium regulates macrophage (already mapped) and neutrophil (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and bone-marrow (already mapped) haematopoietic cascade of MDS.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MDS phosphorus: phosphorus, as ATP in macrophages (already mapped) and erythrocytes (already mapped), fuels haematopoiesis and DNA repair; phosphorus deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and bone-marrow (already mapped) cascade of MDS.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
