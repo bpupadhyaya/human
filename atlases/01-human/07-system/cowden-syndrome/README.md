@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 already mapped) whose activation contributes to the inflammatory milieu of the PTEN-driven hamartoma microenvironment of Cowden syndrome."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Cowden testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Cowden serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Cowden prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -843,6 +852,9 @@ cross_links:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell hamartoma axis: histamine, from mast cells (already mapped) in the PTEN-deficient hamartoma stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the Cowden-syndrome tumours.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-PI3K axis: melatonin, via MT1/MT2 receptors and its antioxidant activity, modulates the PI3K/AKT/mTOR (already mapped) signalling and the genomic instability of the PTEN-deficient (already mapped) tumour cells of Cowden syndrome.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 already mapped) whose activation contributes to the inflammatory milieu of the PTEN-driven hamartoma microenvironment of Cowden syndrome.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Cowden testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of Cowden syndrome.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Cowden serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of Cowden syndrome.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Cowden prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of Cowden syndrome.
 
 ---
 

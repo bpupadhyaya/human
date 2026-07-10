@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-CF axis: testosterone, via androgen receptors on CF airway epithelial cells (already mapped), modulates the sex-differential CF lung disease severity (females worse at puberty) and the airway inflammatory tone of cystic fibrosis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "CF prolactin: prolactin, via PRLR on macrophages (already mapped) and neutrophils (already mapped), modulates the airway inflammation; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of cystic fibrosis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "CF oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neutrophils (already mapped), attenuates airway inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of cystic fibrosis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "CF vasopressin: vasopressin, via V2R on macrophages (already mapped) and mast cells (already mapped), modulates airway fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophilic cascade of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -791,6 +800,9 @@ AND
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell CF-airway axis: histamine, from mast cells (already mapped) in the CF airway, amplifies the bronchoconstriction, the mucus secretion, and the eosinophilic-inflammatory overlay of the neutrophilic airway disease of cystic fibrosis.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-CF axis: melatonin, via MT1/MT2 receptors on CF airway epithelium (already mapped) and immune effectors, modulates the oxidative stress of the CFTR-dysfunctional (already mapped) airway inflammation of cystic fibrosis.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-CF axis: testosterone, via androgen receptors on CF airway epithelial cells (already mapped), modulates the sex-differential CF lung disease severity (females worse at puberty) and the airway inflammatory tone of cystic fibrosis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CF prolactin: prolactin, via PRLR on macrophages (already mapped) and neutrophils (already mapped), modulates the airway inflammation; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of cystic fibrosis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CF oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neutrophils (already mapped), attenuates airway inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of cystic fibrosis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CF vasopressin: vasopressin, via V2R on macrophages (already mapped) and mast cells (already mapped), modulates airway fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophilic cascade of cystic fibrosis.
 
 ---
 
