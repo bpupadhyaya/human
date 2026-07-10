@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "FAP oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates colonic tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "FAP vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the colonic TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "FAP selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative polyp cascade of FAP."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "FAP iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of FAP."
 ---
 
 # Familial Adenomatous Polyposis
@@ -815,6 +824,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — FAP serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the colonic TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — FAP prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the colonic immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — FAP oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates colonic tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — FAP vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the colonic TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of FAP.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — FAP selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative polyp cascade of FAP.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — FAP iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of FAP.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

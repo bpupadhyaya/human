@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "ES vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "ES serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "ES testosterone: testosterone, via AR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "ES selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) oxidative cascade of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -798,6 +807,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — ES prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — ES oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — ES vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — ES serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — ES testosterone: testosterone, via AR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — ES selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) oxidative cascade of Ewing sarcoma.
 
 ---
 
