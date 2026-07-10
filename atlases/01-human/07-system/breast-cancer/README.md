@@ -523,6 +523,9 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "BC selenium: selenium, via selenoproteins (GPx, thioredoxin reductase), suppresses ROS driving NF-κB (already mapped) and HIF-1α (already mapped) tumour-angiogenic signalling; selenium induces apoptosis in breast-cancer cells via p53 (already mapped) pathway activation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "BC iodine: thyroid hormones regulate macrophage (already mapped) and dendritic-cell (already mapped) anti-tumour immunity; thyroid deficiency amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped)-driven tumour angiogenesis in breast cancer."
 ---
 
 # Breast Cancer
@@ -797,6 +800,7 @@ cross_links:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — BC oxytocin: oxytocin, via OXTR on breast-cancer cells, suppresses NF-κB (already mapped) and HIF-1α (already mapped) tumour-promoting signalling; oxytocin attenuates the mTOR (already mapped)-driven proliferation and VEGF (already mapped) angiogenesis of breast cancer.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — BC vasopressin: vasopressin, via V1/V2 receptors on breast-cancer cells, promotes survival and oestrogen (estrogen already mapped) signalling; vasopressin amplifies NF-κB (already mapped) and mTOR (already mapped) tumourigenic drive and VEGF (already mapped) angiogenesis of BC.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — BC selenium: selenium, via selenoproteins (GPx, thioredoxin reductase), suppresses ROS driving NF-κB (already mapped) and HIF-1α (already mapped) tumour-angiogenic signalling; selenium induces apoptosis in breast-cancer cells via p53 (already mapped) pathway activation.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — BC iodine: thyroid hormones regulate macrophage (already mapped) and dendritic-cell (already mapped) anti-tumour immunity; thyroid deficiency amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped)-driven tumour angiogenesis in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
