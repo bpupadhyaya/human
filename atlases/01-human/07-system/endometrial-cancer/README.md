@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Anaemia of cancer: erythropoietin corrects the cancer-related and chemotherapy-induced anaemia of endometrial cancer; EpoR expression on tumour cells also modulates a potential direct proliferative signal."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell stroma: mast cells (already mapped) in the endometrial-cancer stroma release histamine that amplifies VEGF (already mapped)-driven angiogenesis and the type-2 microenvironment (IL-4, IL-13 already mapped) of the tumour."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Stromal matricellular: periostin, secreted by cancer-associated fibroblasts (already mapped) in the endometrial-cancer stroma, promotes invasive myometrial penetration and TGF-β (already mapped)-linked epithelial-mesenchymal transition."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3, C5 and C5aR1 already mapped) within the endometrial-cancer microenvironment, attenuating complement-driven myeloid recruitment."
 ---
 
 # Endometrial Cancer
@@ -772,6 +781,9 @@ cross_links:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-tumour axis: TSLP, from cancer-associated fibroblasts (already mapped) and tumour stroma, primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 immunosuppressive bias of the endometrial-cancer microenvironment.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via the kallikrein-kinin system in the tumour microenvironment, amplifies the vascular permeability and the pro-tumorigenic myeloid (macrophage already mapped) recruitment in endometrial cancer.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia of cancer: erythropoietin corrects the cancer-related and chemotherapy-induced anaemia of endometrial cancer; EpoR expression on tumour cells also modulates a potential direct proliferative signal.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell stroma: mast cells (already mapped) in the endometrial-cancer stroma release histamine that amplifies VEGF (already mapped)-driven angiogenesis and the type-2 microenvironment (IL-4, IL-13 already mapped) of the tumour.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Stromal matricellular: periostin, secreted by cancer-associated fibroblasts (already mapped) in the endometrial-cancer stroma, promotes invasive myometrial penetration and TGF-β (already mapped)-linked epithelial-mesenchymal transition.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3, C5 and C5aR1 already mapped) within the endometrial-cancer microenvironment, attenuating complement-driven myeloid recruitment.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the synaptic complement-mediated pruning excess of the epileptogenesis of epilepsy."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective: EPO crosses the blood-brain barrier (endothelial-cell already mapped) and protects neurons (already mapped) from seizure-induced excitotoxicity, attenuating hippocampal neuronal loss (hippocampus already mapped) driving epileptogenesis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Glial remodelling: periostin, from reactive astrocytes (already mapped) at epileptic foci, contributes to the extracellular-matrix remodelling that sustains the epileptogenic scar and impairs seizure-limiting mechanisms."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement brake: factor H (complement C3 and C5 already mapped) limits synaptic complement-mediated pruning excess in epileptogenesis, counteracting C3/C5-driven microglial (already mapped) phagocytosis of excitatory and inhibitory synapses."
 ---
 
 # Epilepsy
@@ -811,6 +820,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-epilepsy axis: TSLP, from gut-epithelium (gut-microbiome already mapped) and mast cells (already mapped), is part of the type-2 alarmin axis linking the gut-brain and the microbiome-neuroinflammation of drug-resistant epilepsy.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-seizure axis: bradykinin, via B2R on CNS microglia (already mapped) and neurons (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the seizure threshold reduction of epilepsy.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the synaptic complement-mediated pruning excess of the epileptogenesis of epilepsy.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective: EPO crosses the blood-brain barrier (endothelial-cell already mapped) and protects neurons (already mapped) from seizure-induced excitotoxicity, attenuating hippocampal neuronal loss (hippocampus already mapped) driving epileptogenesis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Glial remodelling: periostin, from reactive astrocytes (already mapped) at epileptic foci, contributes to the extracellular-matrix remodelling that sustains the epileptogenic scar and impairs seizure-limiting mechanisms.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement brake: factor H (complement C3 and C5 already mapped) limits synaptic complement-mediated pruning excess in epileptogenesis, counteracting C3/C5-driven microglial (already mapped) phagocytosis of excitatory and inhibitory synapses.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
