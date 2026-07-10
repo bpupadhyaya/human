@@ -532,6 +532,12 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "DS iodine: intestinal lactoperoxidase (iodine-dependent) in the epithelium (already mapped) limits pathogen colonisation; iodine deficiency amplifies NF-κB (already mapped) driven gut-microbiome (already mapped) dysbiosis and impairs macrophage (already mapped) mucosal defence."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "DS phosphorus: phosphorus fuels epithelial-cell (already mapped) and macrophage (already mapped) ATP; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation and gut-microbiome (already mapped) dysbiosis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "DS copper: copper, via ceruloplasmin and SOD in intestinal epithelial cells (already mapped), counters oxidative injury; copper deficiency impairs gut-microbiome (already mapped) balance and amplifies NF-κB (already mapped) macrophage (already mapped) mucosal inflammation."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -792,6 +798,8 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Vasopressin](../../03-molecular/vasopressin/README.md) — DS vasopressin: vasopressin (ADH) regulates intestinal water absorption via V2/aquaporin-2 in the intestinal epithelium (already mapped); AVP-driven cAMP pathway modulates gut-microbiome (already mapped) colonisation resistance and NF-κB (already mapped) mucosal immunity.
 - **Connects to:** [Selenium](../../02-atomic/selenium/README.md) — DS selenium: selenoproteins in the intestinal epithelium (already mapped) counter NF-κB (already mapped) oxidative stress; selenium deficiency impairs gut-microbiome (already mapped) diversity and amplifies macrophage (already mapped) mediated mucosal inflammation.
 - **Connects to:** [Iodine](../../02-atomic/iodine/README.md) — DS iodine: intestinal lactoperoxidase (iodine-dependent) in the epithelium (already mapped) limits pathogen colonisation; iodine deficiency amplifies NF-κB (already mapped) driven gut-microbiome (already mapped) dysbiosis and impairs macrophage (already mapped) mucosal defence.
+- **Connects to:** [Phosphorus](../../02-atomic/phosphorus/README.md) — DS phosphorus: phosphorus fuels epithelial-cell (already mapped) and macrophage (already mapped) ATP; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation and gut-microbiome (already mapped) dysbiosis.
+- **Connects to:** [Copper](../../02-atomic/copper/README.md) — DS copper: copper, via ceruloplasmin and SOD in intestinal epithelial cells (already mapped), counters oxidative injury; copper deficiency impairs gut-microbiome (already mapped) balance and amplifies NF-κB (already mapped) macrophage (already mapped) mucosal inflammation.
 
 ## Pathology
 
