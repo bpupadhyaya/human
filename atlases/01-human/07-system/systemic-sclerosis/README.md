@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Scleroderma anaemia: erythropoietin addresses the anaemia of chronic inflammation and the renal-crisis-driven erythropoietin deficiency of systemic sclerosis; EPO may also modulate the pulmonary-artery vascular remodelling (PAH already mapped)."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian antifibrotic: melatonin is reduced in systemic sclerosis and exerts antifibrotic effects by suppressing TGF-β (already mapped) signalling and fibroblast (already mapped) collagen production, while modulating the Th1/Th2 imbalance."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Profibrotic autoimmune amplifier: prolactin is elevated in a subset of systemic sclerosis patients and modulates the B-cell (BAFF already mapped) and T-cell autoimmunity driving the fibrosis and endothelial injury of the disease."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Vascular neuromodulator: oxytocin receptors on endothelial and smooth-muscle cells (already mapped) modulate vascular tone; oxytocin deficiency may contribute to the Raynaud's vasospasm and the endothelial dysfunction of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -761,6 +770,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vasomotor mediator: bradykinin, released by kallikrein activation in the ischaemia-reperfusion cycles of Raynaud's phenomenon, amplifies the vascular permeability and digital pain that accompany the microvascular disease of systemic sclerosis.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3, C5 and C5aR1 already mapped) activated by the anti-endothelial autoantibodies on the sclerotic vascular wall of systemic sclerosis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Scleroderma anaemia: erythropoietin addresses the anaemia of chronic inflammation and the renal-crisis-driven erythropoietin deficiency of systemic sclerosis; EPO may also modulate the pulmonary-artery vascular remodelling (PAH already mapped).
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antifibrotic: melatonin is reduced in systemic sclerosis and exerts antifibrotic effects by suppressing TGF-β (already mapped) signalling and fibroblast (already mapped) collagen production, while modulating the Th1/Th2 imbalance.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Profibrotic autoimmune amplifier: prolactin is elevated in a subset of systemic sclerosis patients and modulates the B-cell (BAFF already mapped) and T-cell autoimmunity driving the fibrosis and endothelial injury of the disease.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Vascular neuromodulator: oxytocin receptors on endothelial and smooth-muscle cells (already mapped) modulate vascular tone; oxytocin deficiency may contribute to the Raynaud's vasospasm and the endothelial dysfunction of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
