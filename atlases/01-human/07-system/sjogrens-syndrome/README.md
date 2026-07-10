@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "SjS vasopressin: vasopressin (ADH) regulates aquaporin-4 (already mapped) water transport in salivary and lacrimal glands; in Sjögren's syndrome the inflammatory destruction of glandular parenchyma impairs this vasopressin-driven secretion, worsening the sicca phenotype."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "SjS iodine: iodine-dependent thyroid hormones modulate Th17/Treg (IL-17A already mapped) and BAFF (already mapped)-driven autoimmune B-cell activation in Sjögren syndrome; hypothyroidism amplifies exocrine-gland inflammation and the sicca phenotype."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "SjS sodium: sodium-driven osmotic Th17 polarisation amplifies the IL-17A (already mapped) and NF-κB (already mapped)-mediated salivary and lacrimal-gland inflammation of Sjögren syndrome; high-salt diet promotes Th17/Treg imbalance worsening sicca symptoms."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "SjS magnesium: magnesium deficiency amplifies the NF-κB (already mapped) and BAFF (already mapped)-driven B-cell survival and autoantibody production of Sjögren syndrome; magnesium is required for salivary-gland secretory enzyme activity and mucosal repair in the sicca phenotype."
 ---
 
 # Sjögren's Syndrome
@@ -801,6 +810,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — SjS testosterone: testosterone exerts anti-inflammatory effects via androgen receptor on the salivary and lacrimal-gland-infiltrating lymphocytes; androgen deficiency in females underlies the sex predominance and exocrine-gland vulnerability of Sjögren's syndrome.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — SjS serotonin: serotonin drives neurogenic dysautonomia and glandular secretory dysfunction in Sjögren's syndrome via 5-HT2 receptor-mediated modulation of autonomic innervation; altered serotonin metabolism amplifies the fatigue, pain and depressive symptoms of the disease.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SjS vasopressin: vasopressin (ADH) regulates aquaporin-4 (already mapped) water transport in salivary and lacrimal glands; in Sjögren's syndrome the inflammatory destruction of glandular parenchyma impairs this vasopressin-driven secretion, worsening the sicca phenotype.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SjS iodine: iodine-dependent thyroid hormones modulate Th17/Treg (IL-17A already mapped) and BAFF (already mapped)-driven autoimmune B-cell activation in Sjögren syndrome; hypothyroidism amplifies exocrine-gland inflammation and the sicca phenotype.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SjS sodium: sodium-driven osmotic Th17 polarisation amplifies the IL-17A (already mapped) and NF-κB (already mapped)-mediated salivary and lacrimal-gland inflammation of Sjögren syndrome; high-salt diet promotes Th17/Treg imbalance worsening sicca symptoms.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — SjS magnesium: magnesium deficiency amplifies the NF-κB (already mapped) and BAFF (already mapped)-driven B-cell survival and autoantibody production of Sjögren syndrome; magnesium is required for salivary-gland secretory enzyme activity and mucosal repair in the sicca phenotype.
 
 ---
 
