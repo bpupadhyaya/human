@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "DICER1 vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of DICER1 syndrome."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "DICER1 serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of DICER1 syndrome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "DICER1 selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) oxidative TME cascade of DICER1 syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "DICER1 sodium: high dietary sodium promotes Th17 polarisation and disrupts T-cytotoxic (already mapped) immune tolerance; sodium-induced IL-6 (already mapped) and mast-cell (already mapped) skewing amplifies the inflammatory cascade of DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -790,6 +799,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — DICER1 prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of DICER1 syndrome.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — DICER1 oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of DICER1 syndrome.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — DICER1 vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of DICER1 syndrome.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — DICER1 serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of DICER1 syndrome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — DICER1 selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) oxidative TME cascade of DICER1 syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — DICER1 sodium: high dietary sodium promotes Th17 polarisation and disrupts T-cytotoxic (already mapped) immune tolerance; sodium-induced IL-6 (already mapped) and mast-cell (already mapped) skewing amplifies the inflammatory cascade of DICER1 syndrome.
 
 ---
 

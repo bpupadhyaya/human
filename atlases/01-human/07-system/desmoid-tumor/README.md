@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Desmoid prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) fibroblast-proliferative cascade of desmoid tumour."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Desmoid oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the fibroblast-promoting TME; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Desmoid vasopressin: vasopressin, via V1aR on mast cells (already mapped) and macrophages (already mapped), modulates the tumour vascular milieu; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Desmoid selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative stromal fibroblast cascade of desmoid tumour."
 ---
 
 # Desmoid Tumor
@@ -809,6 +818,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Desmoid testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Desmoid serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Desmoid prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) fibroblast-proliferative cascade of desmoid tumour.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Desmoid oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the fibroblast-promoting TME; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Desmoid vasopressin: vasopressin, via V1aR on mast cells (already mapped) and macrophages (already mapped), modulates the tumour vascular milieu; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Desmoid selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative stromal fibroblast cascade of desmoid tumour.
 
 ---
 
