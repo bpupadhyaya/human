@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Lynch iodine: iodine, via thyroid hormone biosynthesis, modulates intestinal epithelial (already mapped) and macrophage (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Lynch syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Lynch sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of Lynch syndrome."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Lynch magnesium: magnesium, as enzymatic cofactor in macrophages (already mapped) and mast cells (already mapped), restrains NF-κB (already mapped) and IL-6 (already mapped) signalling; magnesium deficiency amplifies the T-cytotoxic (already mapped) cascade of Lynch syndrome."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Lynch copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative T-cytotoxic (already mapped) cascade of Lynch syndrome."
 ---
 
 # Lynch Syndrome
@@ -815,6 +824,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Lynch oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Lynch syndrome.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Lynch vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the tumour; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Lynch syndrome.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Lynch iodine: iodine, via thyroid hormone biosynthesis, modulates intestinal epithelial (already mapped) and macrophage (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Lynch syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Lynch sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of Lynch syndrome.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Lynch magnesium: magnesium, as enzymatic cofactor in macrophages (already mapped) and mast cells (already mapped), restrains NF-κB (already mapped) and IL-6 (already mapped) signalling; magnesium deficiency amplifies the T-cytotoxic (already mapped) cascade of Lynch syndrome.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Lynch copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative T-cytotoxic (already mapped) cascade of Lynch syndrome.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
