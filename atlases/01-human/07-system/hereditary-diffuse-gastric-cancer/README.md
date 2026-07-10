@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-HDGC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and iron-deficiency anaemia of HDGC, activates the EPOR on CDH1-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the HDGC microenvironment."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-HDGC axis: histamine, from mast cells in the CDH1-deficient (already mapped) HDGC gastric stroma, signals via H2 receptors on tumour cells and endothelium, modulating acid secretion, angiogenesis, and the pro-tumourigenic milieu of signet-ring-cell HDGC."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-HDGC axis: melatonin, produced by gastric enterochromaffin cells, suppresses CDH1-deficient (already mapped) tumour-cell proliferation, modulates H. pylori co-stimulatory oxidative stress, and enhances apoptotic sensitivity in HDGC signet-ring cells."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-HDGC axis: testosterone, via androgen receptor signalling on CDH1-mutant (already mapped) gastric tumour cells and stroma, modulates E-cadherin-loss-driven invasiveness and the sex-biased clinical presentation of hereditary diffuse gastric cancer."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -759,6 +768,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-HDGC axis: TSLP, from the CDH1-mutant (already mapped) gastric epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of HDGC signet-ring-cell tumours.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-HDGC axis: bradykinin, via B1/B2 receptors on HDGC tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability and the inflammatory milieu of the CDH1-deficient (already mapped) HDGC gastric stroma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-HDGC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and iron-deficiency anaemia of HDGC, activates the EPOR on CDH1-mutant (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the HDGC microenvironment.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-HDGC axis: histamine, from mast cells in the CDH1-deficient (already mapped) HDGC gastric stroma, signals via H2 receptors on tumour cells and endothelium, modulating acid secretion, angiogenesis, and the pro-tumourigenic milieu of signet-ring-cell HDGC.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-HDGC axis: melatonin, produced by gastric enterochromaffin cells, suppresses CDH1-deficient (already mapped) tumour-cell proliferation, modulates H. pylori co-stimulatory oxidative stress, and enhances apoptotic sensitivity in HDGC signet-ring cells.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-HDGC axis: testosterone, via androgen receptor signalling on CDH1-mutant (already mapped) gastric tumour cells and stroma, modulates E-cadherin-loss-driven invasiveness and the sex-biased clinical presentation of hereditary diffuse gastric cancer.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

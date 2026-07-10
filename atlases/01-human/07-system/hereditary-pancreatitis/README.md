@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell histamine: histamine, released by the activated mast cells (already mapped) in the inflamed pancreas, augments acinar-cell secretion, vascular permeability, and the acute-on-chronic inflammatory flares of hereditary pancreatitis."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-HP axis: melatonin, via MT1/MT2 receptors on pancreatic acinar cells and stellate cells (already mapped), suppresses the NLRP3 (already mapped) inflammasome and oxidative-stress amplification of the recurrent pancreatitis of hereditary pancreatitis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-HP axis: testosterone, via androgen receptor signalling on pancreatic stellate cells (already mapped) and acinar cells, modulates the fibrosis-promoting (TGF-β already mapped) response and the sex-biased severity of hereditary pancreatitis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonin-HP axis: serotonin, released by enterochromaffin cells in the duodenum and acinar cells in the pancreas, modulates pancreatic enzyme secretion, ductal bicarbonate output, and the pain signalling of the recurrent inflammatory episodes of hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -795,6 +804,9 @@ cross_links:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-HP axis: TSLP, from the PRSS1/SPINK1-mutant (already mapped) pancreatic ductal epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the inflammatory immune response of hereditary pancreatitis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-HP axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the fibrotic pancreatic tissue, modulates macrophage (already mapped) polarisation and erythroid response to the anaemia of chronic inflammation in hereditary pancreatitis.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine: histamine, released by the activated mast cells (already mapped) in the inflamed pancreas, augments acinar-cell secretion, vascular permeability, and the acute-on-chronic inflammatory flares of hereditary pancreatitis.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-HP axis: melatonin, via MT1/MT2 receptors on pancreatic acinar cells and stellate cells (already mapped), suppresses the NLRP3 (already mapped) inflammasome and oxidative-stress amplification of the recurrent pancreatitis of hereditary pancreatitis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-HP axis: testosterone, via androgen receptor signalling on pancreatic stellate cells (already mapped) and acinar cells, modulates the fibrosis-promoting (TGF-β already mapped) response and the sex-biased severity of hereditary pancreatitis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-HP axis: serotonin, released by enterochromaffin cells in the duodenum and acinar cells in the pancreas, modulates pancreatic enzyme secretion, ductal bicarbonate output, and the pain signalling of the recurrent inflammatory episodes of hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
