@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine B-cell axis: prolactin, acting via PRLR on B cells (already mapped) and plasmacytic cells, promotes immunoglobulin production (IgM already mapped) and the survival of the malignant clone in the marrow niche of Waldenström macroglobulinaemia."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "WM testosterone: testosterone, via androgen receptors on B cells (already mapped) and plasma cells (already mapped), modulates the MYD88 (already mapped)/NF-κB (already mapped) signalling; androgen deficiency amplifies WM clone expansion in the bone-marrow (already mapped) niche."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "WM serotonin: mast-cell (already mapped) serotonin promotes the hyperviscosity and vascular complications of WM; 5-HT2 signalling on platelet (already mapped) and erythrocyte (already mapped) surfaces amplifies the NF-κB (already mapped) inflammatory niche of Waldenström."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "WM oxytocin: oxytocin, via OXTR on bone-marrow (already mapped) stromal cells and regulatory T cells (already mapped), attenuates the MYD88 (already mapped)/NF-κB (already mapped) pro-tumour microenvironment and the B-cell (already mapped) clone survival of Waldenström."
 ---
 
 # Waldenström Macroglobulinemia
@@ -773,6 +782,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Marrow ECM scaffold: periostin, expressed by stromal fibroblasts and bone marrow mesenchymal cells (already mapped) in the Waldenström niche, promotes the fibrotic extracellular matrix remodelling that supports the MYD88-mutant B-cell/plasmacytic infiltration of the disease.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian haematopoietic protection: melatonin, via MT1/MT2 receptors on haematopoietic progenitors (already mapped) and NK cells (already mapped), suppresses the pro-tumour cytokine milieu and the CXCL13-driven (already mapped) B-cell trafficking of Waldenström macroglobulinaemia.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine B-cell axis: prolactin, acting via PRLR on B cells (already mapped) and plasmacytic cells, promotes immunoglobulin production (IgM already mapped) and the survival of the malignant clone in the marrow niche of Waldenström macroglobulinaemia.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — WM testosterone: testosterone, via androgen receptors on B cells (already mapped) and plasma cells (already mapped), modulates the MYD88 (already mapped)/NF-κB (already mapped) signalling; androgen deficiency amplifies WM clone expansion in the bone-marrow (already mapped) niche.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — WM serotonin: mast-cell (already mapped) serotonin promotes the hyperviscosity and vascular complications of WM; 5-HT2 signalling on platelet (already mapped) and erythrocyte (already mapped) surfaces amplifies the NF-κB (already mapped) inflammatory niche of Waldenström.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — WM oxytocin: oxytocin, via OXTR on bone-marrow (already mapped) stromal cells and regulatory T cells (already mapped), attenuates the MYD88 (already mapped)/NF-κB (already mapped) pro-tumour microenvironment and the B-cell (already mapped) clone survival of Waldenström.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

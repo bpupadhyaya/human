@@ -498,6 +498,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen sex-differential severity: testosterone, via androgen receptors on microglia (already mapped) and astrocytes (already mapped), modulates the neuroinflammatory response and contributes to the greater severity and higher mortality of WNV encephalitis in males vs. females."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "WNV serotonin: serotonin, via 5-HT2 receptors on neurons (already mapped) and microglia (already mapped), modulates neuroinflammation; 5-HT dysregulation amplifies the TNF-α (already mapped) and IL-6 (already mapped) encephalitis and mood sequelae of West Nile virus."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "WNV vasopressin: vasopressin, released during WNV encephalitis, promotes SIADH and brain (already mapped) oedema; V1A receptors on microglia (already mapped) and neurons (already mapped) modulate the neuroinflammatory and neurotoxic sequelae of West Nile encephalitis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "WNV copper: copper, via superoxide dismutase and ceruloplasmin, provides antioxidant defence against the ROS-driven neuronal (neuron already mapped) injury of WNV; copper dyshomeostasis amplifies microglia (already mapped) and astrocyte (already mapped) neuroinflammation."
 ---
 
 # West Nile Virus
@@ -778,3 +787,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine antiviral modulator: prolactin, acting via PRLR on macrophages (already mapped), NK cells (already mapped) and T cells (already mapped), promotes innate antiviral effector responses and modulates the neuroinflammatory milieu of West Nile virus encephalitis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune neuroprotection: oxytocin, via oxytocin receptors on microglia (already mapped) and astrocytes (already mapped), suppresses the pro-inflammatory cytokine (TNF-α and IL-6 already mapped) cascade and the BBB-disrupting neuroinflammation of West Nile virus encephalitis.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen sex-differential severity: testosterone, via androgen receptors on microglia (already mapped) and astrocytes (already mapped), modulates the neuroinflammatory response and contributes to the greater severity and higher mortality of WNV encephalitis in males vs. females.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — WNV serotonin: serotonin, via 5-HT2 receptors on neurons (already mapped) and microglia (already mapped), modulates neuroinflammation; 5-HT dysregulation amplifies the TNF-α (already mapped) and IL-6 (already mapped) encephalitis and mood sequelae of West Nile virus.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — WNV vasopressin: vasopressin, released during WNV encephalitis, promotes SIADH and brain (already mapped) oedema; V1A receptors on microglia (already mapped) and neurons (already mapped) modulate the neuroinflammatory and neurotoxic sequelae of West Nile encephalitis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — WNV copper: copper, via superoxide dismutase and ceruloplasmin, provides antioxidant defence against the ROS-driven neuronal (neuron already mapped) injury of WNV; copper dyshomeostasis amplifies microglia (already mapped) and astrocyte (already mapped) neuroinflammation.
