@@ -485,6 +485,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Epidermal EPO axis: erythropoietin, produced locally by dermal fibroblasts (already mapped) and keratinocytes under hypoxic stress (HIF-1α already mapped), supports wound healing (already mapped), epithelial repair, and angiogenesis of the integumentary system."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Cutaneous immune modulator: prolactin, secreted by keratinocytes (already mapped) and dermal fibroblasts (already mapped) in addition to the pituitary, modulates the mast-cell (already mapped) and T-cell (already mapped) responses of the skin immune barrier."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroimmune skin axis: oxytocin, via OXT receptors on keratinocytes (already mapped), melanocytes (already mapped) and dermal fibroblasts (already mapped), promotes wound healing (already mapped) and collagen remodelling of the integumentary system."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sebaceous-follicular androgen: testosterone, converted to DHT by 5α-reductase in sebaceous glands (already mapped) and hair follicles (already mapped), drives sebum production and the androgenic regulation of the pilosebaceous unit of the integumentary system."
 ---
 
 # Integumentary System
@@ -746,6 +755,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Cutaneous kinin signalling: bradykinin, released from skin mast cells (already mapped) and by kallikrein-driven contact activation in wounded epidermis, amplifies the vasodilatation, pruritus, and neurogenic inflammation of the integumentary system.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor restrains classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) activation at the epidermal barrier, controlling the inflammatory response of the integumentary system.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Epidermal EPO axis: erythropoietin, produced locally by dermal fibroblasts (already mapped) and keratinocytes under hypoxic stress (HIF-1α already mapped), supports wound healing (already mapped), epithelial repair, and angiogenesis of the integumentary system.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Cutaneous immune modulator: prolactin, secreted by keratinocytes (already mapped) and dermal fibroblasts (already mapped) in addition to the pituitary, modulates the mast-cell (already mapped) and T-cell (already mapped) responses of the skin immune barrier.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune skin axis: oxytocin, via OXT receptors on keratinocytes (already mapped), melanocytes (already mapped) and dermal fibroblasts (already mapped), promotes wound healing (already mapped) and collagen remodelling of the integumentary system.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sebaceous-follicular androgen: testosterone, converted to DHT by 5α-reductase in sebaceous glands (already mapped) and hair follicles (already mapped), drives sebum production and the androgenic regulation of the pilosebaceous unit of the integumentary system.
 
 ## Pathology
 
