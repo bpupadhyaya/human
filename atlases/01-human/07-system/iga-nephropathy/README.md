@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Renoprotective oxytocin: oxytocin, released from the posterior pituitary, attenuates renal NF-kB (already mapped) signalling and mast-cell (already mapped) activation, reducing proteinuria and the inflammatory injury at the glomerulus (already mapped) of IgA nephropathy."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-IgAN axis: testosterone, via androgen receptor signalling on mesangial cells (already mapped) and B cells (already mapped), modulates IgA class-switching, galactose-deficient IgA1 production, and the well-established male sex predominance of IgA nephropathy."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonin-IgAN axis: serotonin, released by platelets (already mapped) activated during IgA1-IC mesangial deposition, amplifies the mesangial cell (already mapped) proliferation, complement activation (already mapped), and the glomerular haematuria of IgA nephropathy."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Vasopressin-IgAN axis: vasopressin, via V2 receptors on the renal collecting duct, modulates water reabsorption and urinary IgA excretion, and its dysregulation contributes to the hypertension (already mapped) and renal progression of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -735,6 +744,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Mesangial antioxidant: melatonin scavenges reactive oxygen species and suppresses NF-κB (already mapped) and NLRP3 (already mapped) inflammasome in mesangial cells, limiting the oxidative-stress component of the IgA immune-complex injury at the glomerulus (already mapped).
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunostimulatory prolactin: prolactin acts on its receptor (PRL-R) on B cells (already mapped) and lymphocytes, potentiating the mucosal immunity and IgA class-switching (secretory IgA already mapped) that underlies the galactose-deficient IgA1 production of IgA nephropathy.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Renoprotective oxytocin: oxytocin, released from the posterior pituitary, attenuates renal NF-κB (already mapped) signalling and mast-cell (already mapped) activation, reducing proteinuria and the inflammatory injury at the glomerulus (already mapped) of IgA nephropathy.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-IgAN axis: testosterone, via androgen receptor signalling on mesangial cells (already mapped) and B cells (already mapped), modulates IgA class-switching, galactose-deficient IgA1 production, and the well-established male sex predominance of IgA nephropathy.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-IgAN axis: serotonin, released by platelets (already mapped) activated during IgA1-IC mesangial deposition, amplifies the mesangial cell (already mapped) proliferation, complement activation (already mapped), and the glomerular haematuria of IgA nephropathy.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin-IgAN axis: vasopressin, via V2 receptors on the renal collecting duct, modulates water reabsorption and urinary IgA excretion, and its dysregulation contributes to the hypertension (already mapped) and renal progression of IgA nephropathy.
 
 ---
 

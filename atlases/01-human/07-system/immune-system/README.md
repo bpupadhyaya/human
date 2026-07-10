@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Lactogenic immunostimulant: prolactin, secreted by the pituitary, binds PRL-R on lymphocytes (B cell, T cell and NK cell already mapped), amplifying proliferation, antibody (already mapped) production and the systemic immune response to infection."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen immunomodulator: testosterone, via androgen receptor on T cells (already mapped), B cells (already mapped), and macrophages (already mapped), suppresses Th1/Th17 inflammation and antibody (already mapped) production, underlying the sex-biased immune response."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonin-immune axis: serotonin, released by platelets (already mapped) and mast cells (already mapped), signals via 5-HT receptors on T cells (already mapped) and dendritic cells (already mapped), modulating cytokine (already mapped) secretion and immune activation."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Oxytocin immunomodulator: oxytocin, via its receptor on T cells (already mapped), B cells (already mapped), and NK cells (already mapped), modulates lymphocyte proliferation, cytokine (already mapped) secretion, and the neuroimmune cross-talk of the immune system."
 ---
 
 # Immune System
@@ -685,6 +694,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Immunomodulatory EPO: erythropoietin signals via EPOR on dendritic cells (already mapped) and T cells (already mapped), suppressing excess immune activation and complementing the erythrocyte (already mapped) production arm coordinated by the bone marrow (already mapped).
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian immunomodulator: melatonin synchronises circadian immune rhythms (cortisol already mapped), stimulates NK cells (already mapped) and T cells (already mapped), and attenuates the NF-κB (already mapped) pro-inflammatory signalling of the immune system.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Lactogenic immunostimulant: prolactin, secreted by the pituitary, binds PRL-R on lymphocytes (B cell, T cell and NK cell already mapped), amplifying proliferation, antibody (already mapped) production and the systemic immune response to infection.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen immunomodulator: testosterone, via androgen receptor on T cells (already mapped), B cells (already mapped), and macrophages (already mapped), suppresses Th1/Th17 inflammation and antibody (already mapped) production, underlying the sex-biased immune response.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-immune axis: serotonin, released by platelets (already mapped) and mast cells (already mapped), signals via 5-HT receptors on T cells (already mapped) and dendritic cells (already mapped), modulating cytokine (already mapped) secretion and immune activation.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin immunomodulator: oxytocin, via its receptor on T cells (already mapped), B cells (already mapped), and NK cells (already mapped), modulates lymphocyte proliferation, cytokine (already mapped) secretion, and the neuroimmune cross-talk of the immune system.
 
 ## Pathology
 
