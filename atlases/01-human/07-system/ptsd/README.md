@@ -513,6 +513,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "PTSD iron: iron supports brain (already mapped) myelination and dopamine (already mapped) synthesis; iron deficiency amplifies hippocampal (already mapped) neurodegeneration and cortisol (already mapped) HPA-axis dysregulation in PTSD."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "PTSD selenium: selenoprotein P reduces hippocampal (already mapped) neuron (already mapped) oxidative stress and microglial activation; selenium deficiency amplifies the NF-κB (already mapped) neuroinflammation and the cortisol (already mapped) HPA-axis dysregulation of PTSD."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PTSD iodine: iodine-dependent thyroid hormones regulate hippocampal (already mapped) neurogenesis and cortisol (already mapped) HPA-axis homeostasis; thyroid-hormone deficiency amplifies the NF-κB (already mapped) neuroinflammation and worsens trauma memory consolidation in PTSD."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "PTSD sodium: sodium regulates GABAergic (already mapped) and glutamatergic (already mapped) neurotransmission in hippocampal (already mapped) fear circuits; sodium-driven aldosterone (already mapped) excess amplifies the NF-κB (already mapped) neuroinflammation of PTSD."
 ---
 
 # PTSD
@@ -813,6 +822,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — PTSD factor-h: factor H limits alternative complement (C5 already mapped) in the neuroinflamed brain (already mapped); impaired factor H amplifies microglial (already mapped) and astrocyte (already mapped) complement-driven hippocampal (already mapped) damage of PTSD.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — PTSD transferrin: transferrin supports brain (already mapped) iron homeostasis and dopamine (already mapped) synthesis; iron dyshomeostasis amplifies hippocampal (already mapped) neurodegeneration and cortisol (already mapped) HPA-axis disruption of PTSD.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — PTSD iron: iron supports brain (already mapped) myelination and dopamine (already mapped) synthesis; iron deficiency amplifies hippocampal (already mapped) neurodegeneration and cortisol (already mapped) HPA-axis dysregulation in PTSD.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PTSD selenium: selenoprotein P reduces hippocampal (already mapped) neuron (already mapped) oxidative stress and microglial activation; selenium deficiency amplifies the NF-κB (already mapped) neuroinflammation and the cortisol (already mapped) HPA-axis dysregulation of PTSD.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PTSD iodine: iodine-dependent thyroid hormones regulate hippocampal (already mapped) neurogenesis and cortisol (already mapped) HPA-axis homeostasis; thyroid-hormone deficiency amplifies the NF-κB (already mapped) neuroinflammation and worsens trauma memory consolidation in PTSD.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PTSD sodium: sodium regulates GABAergic (already mapped) and glutamatergic (already mapped) neurotransmission in hippocampal (already mapped) fear circuits; sodium-driven aldosterone (already mapped) excess amplifies the NF-κB (already mapped) neuroinflammation of PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

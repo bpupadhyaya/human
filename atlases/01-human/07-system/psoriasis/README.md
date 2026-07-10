@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "PsO oxytocin: oxytocin, via OXTR on regulatory T cells (already mapped) and dendritic cells (already mapped), attenuates IL-23 (already mapped)/Th17 axis; oxytocin also suppresses NF-κB (already mapped) and skin (already mapped) keratinocyte hyperproliferation of psoriasis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PsO vasopressin: vasopressin, via V1a receptors on keratinocytes and dendritic cells (already mapped), amplifies NF-κB (already mapped) plaque inflammation; vasopressin also modulates vascular permeability and the IL-17A (already mapped) Th17 axis of psoriasis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PsO iodine: iodine-dependent thyroid hormones regulate keratinocyte (already mapped) proliferation and skin (already mapped) barrier; thyroid-hormone deficiency amplifies the NF-κB (already mapped) plaque inflammation and the IL-17A (already mapped) Th17 axis of psoriasis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "PsO magnesium: magnesium regulates NF-κB (already mapped) activity and mast-cell (already mapped) degranulation driving psoriatic plaque formation; magnesium deficiency amplifies keratinocyte hyperproliferation and the IL-17A (already mapped) inflammatory axis of psoriasis."
 ---
 
 # Psoriasis
@@ -790,6 +799,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PsO testosterone: testosterone, via androgen receptors on skin (already mapped) keratinocytes, suppresses the IL-17A (already mapped)/NF-κB (already mapped) axis; androgen deficiency amplifies T-helper-cell (already mapped) Th17 activation and the plaque burden of psoriasis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PsO serotonin: serotonin, via 5-HT2 on skin (already mapped) keratinocytes, amplifies keratinocyte hyperproliferation and T-helper-cell (already mapped) Th17 activation; 5-HT also promotes NF-κB (already mapped) plaque inflammation and the vascular permeability of psoriasis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PsO oxytocin: oxytocin, via OXTR on regulatory T cells (already mapped) and dendritic cells (already mapped), attenuates IL-23 (already mapped)/Th17 axis; oxytocin also suppresses NF-κB (already mapped) and skin (already mapped) keratinocyte hyperproliferation of psoriasis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PsO vasopressin: vasopressin, via V1a receptors on keratinocytes and dendritic cells (already mapped), amplifies NF-κB (already mapped) plaque inflammation; vasopressin also modulates vascular permeability and the IL-17A (already mapped) Th17 axis of psoriasis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PsO iodine: iodine-dependent thyroid hormones regulate keratinocyte (already mapped) proliferation and skin (already mapped) barrier; thyroid-hormone deficiency amplifies the NF-κB (already mapped) plaque inflammation and the IL-17A (already mapped) Th17 axis of psoriasis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PsO magnesium: magnesium regulates NF-κB (already mapped) activity and mast-cell (already mapped) degranulation driving psoriatic plaque formation; magnesium deficiency amplifies keratinocyte hyperproliferation and the IL-17A (already mapped) inflammatory axis of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
