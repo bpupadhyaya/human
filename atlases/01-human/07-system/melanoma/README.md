@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Melanoma selenium antioxidant: selenium, via GPx/TrxR selenoproteins in melanoma cells and macrophages (already mapped), quenches ROS that amplifies BRAF (already mapped) and NF-κB (already mapped) proliferative signalling, reducing the oxidative-stress phenotype of melanoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Melanoma iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive tumour cascade of melanoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Melanoma sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of melanoma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Melanoma magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of melanoma."
 ---
 
 # Melanoma
@@ -773,6 +782,9 @@ cross_links:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Melanoma oxytocin anti-tumour: oxytocin, via OXTR on tumour-associated macrophages (already mapped) and mast cells (already mapped), attenuates the NF-κB (already mapped) and VEGF (already mapped) pro-tumour cascade, reducing immune evasion and angiogenesis in melanoma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Melanoma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) pro-tumour angiogenic signalling in melanoma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Melanoma selenium antioxidant: selenium, via GPx/TrxR selenoproteins in melanoma cells and macrophages (already mapped), quenches ROS that amplifies BRAF (already mapped) and NF-κB (already mapped) proliferative signalling, reducing the oxidative-stress phenotype of melanoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Melanoma iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive tumour cascade of melanoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Melanoma sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Melanoma magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

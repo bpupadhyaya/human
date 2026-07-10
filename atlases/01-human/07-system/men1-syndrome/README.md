@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "MEN1 iodine thyroid: iodine, as the key substrate for thyroid hormone biosynthesis, supports the HPT axis; iodine insufficiency amplifies the neuroendocrine IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade in MEN1 syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "MEN1 sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of MEN1 syndrome."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "MEN1 potassium: potassium channels regulate macrophage (already mapped) and fibroblast (already mapped) function in the MEN1 tumour microenvironment; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of MEN1 syndrome."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MEN1 copper: copper, as cofactor of SOD1 in macrophages (already mapped) and endothelial cells (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative tumour cascade of MEN1 syndrome."
 ---
 
 # MEN1 Syndrome
@@ -795,6 +804,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MEN1 vasopressin neuroendocrine: vasopressin, via V1bR on pituitary adenoma cells (already mapped) and macrophages (already mapped), modulates the hypothalamic-pituitary axis; dysregulation amplifies IL-6 (already mapped) and mTOR (already mapped) signalling in MEN1 syndrome.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MEN1 selenium antioxidant: selenium, via GPx/TrxR selenoproteins in MEN1 neuroendocrine tumour cells and macrophages (already mapped), quenches oxidative stress that amplifies mTOR (already mapped) and VEGF (already mapped) pro-tumour angiogenesis in MEN1 syndrome.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MEN1 iodine thyroid: iodine, as the key substrate for thyroid hormone biosynthesis, supports the HPT axis; iodine insufficiency amplifies the neuroendocrine IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade in MEN1 syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MEN1 sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of MEN1 syndrome.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MEN1 potassium: potassium channels regulate macrophage (already mapped) and fibroblast (already mapped) function in the MEN1 tumour microenvironment; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of MEN1 syndrome.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MEN1 copper: copper, as cofactor of SOD1 in macrophages (already mapped) and endothelial cells (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative tumour cascade of MEN1 syndrome.
 
 ---
 
