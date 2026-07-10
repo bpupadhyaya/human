@@ -509,6 +509,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Lymphatic copper: copper, as an essential cofactor for SOD1 antioxidant defence and macrophage (already mapped) function, attenuates lymphatic oxidative stress; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Lymphatic potassium: potassium channels regulate B-cell (already mapped) and macrophage (already mapped) activation; potassium depletion amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of lymphatic dysfunction."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Lymphatic zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and B-cells (already mapped), attenuates oxidative stress; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Lymphatic iron: iron, regulating macrophage (already mapped) and B-cell (already mapped) enzyme activity, supports immune defence; iron deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) lymphatic inflammatory cascade."
 ---
 
 # Lymphatic System
@@ -782,6 +791,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Lymphatic iodine: iodine, via thyroid hormone, modulates lymphocyte (already mapped) and macrophage (already mapped) activity; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of lymphatic dysfunction.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Lymphatic magnesium: magnesium, as a cofactor for lymphocyte (already mapped) and NK-cell (already mapped) function, attenuates lymphatic inflammation; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of lymphatic dysfunction.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Lymphatic copper: copper, as an essential cofactor for SOD1 antioxidant defence and macrophage (already mapped) function, attenuates lymphatic oxidative stress; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Lymphatic potassium: potassium channels regulate B-cell (already mapped) and macrophage (already mapped) activation; potassium depletion amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of lymphatic dysfunction.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Lymphatic zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and B-cells (already mapped), attenuates oxidative stress; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Lymphatic iron: iron, regulating macrophage (already mapped) and B-cell (already mapped) enzyme activity, supports immune defence; iron deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) lymphatic inflammatory cascade.
 
 ## Pathology
 
