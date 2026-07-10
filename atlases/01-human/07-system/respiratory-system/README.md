@@ -522,6 +522,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Potassium, via K⁺ channels on airway smooth-muscle cells (already mapped) and type-II pneumocytes (already mapped), sets airway tone and epithelial secretion; potassium dysregulation amplifies the bronchoconstriction and IL-6 (already mapped) cascade of the respiratory system."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Zinc, as metalloproteinase cofactor in macrophages (already mapped) and neutrophils (already mapped), maintains innate immunity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the respiratory system."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Iron, as haem cofactor in erythrocytes (already mapped) and macrophages (already mapped), enables oxygen transport; iron deficiency impairs the NF-κB (already mapped) anti-microbial response and amplifies the IL-6 (already mapped) inflammatory cascade of the respiratory system."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Phosphorus, as ATP precursor in type-II pneumocytes (already mapped) and macrophages (already mapped), supports surfactant synthesis and innate immunity; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -771,6 +780,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Sodium](../../02-atomic/sodium/README.md): ENaC-airway homeostasis: sodium, via ENaC-driven airway-surface liquid homeostasis in lung-epithelium (already mapped), maintains mucociliary clearance; sodium dysregulation amplifies the IL-6 (already mapped) and neutrophil (already mapped) inflammatory cascade of the respiratory system.
 - **Connects-to** → [Copper](../../02-atomic/copper/README.md): Mitochondrial-innate immunity: copper, as cofactor of cytochrome-c oxidase in type-II pneumocytes (already mapped) and macrophages (already mapped), supports oxidative phosphorylation and innate immunity; copper deficiency impairs the antioxidant and phagocytic defences of the respiratory system.
 - **Connects-to** → [Potassium](../../02-atomic/potassium/README.md): Airway-tone excitability: potassium, via K⁺ channels on airway smooth-muscle cells (already mapped) and type-II pneumocytes (already mapped), sets airway tone and epithelial secretion; potassium dysregulation amplifies the bronchoconstriction and IL-6 (already mapped) cascade of the respiratory system.
+- **Connects-to** → [Zinc](../../02-atomic/zinc/README.md): Mucosal-innate immunity: zinc, as metalloproteinase cofactor in macrophages (already mapped) and neutrophils (already mapped), maintains innate immunity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the respiratory system.
+- **Connects-to** → [Iron](../../02-atomic/iron/README.md): Oxygen-transport immunity: iron, as haem cofactor in erythrocytes (already mapped) and macrophages (already mapped), enables oxygen transport; iron deficiency impairs the NF-κB (already mapped) anti-microbial response and amplifies the IL-6 (already mapped) cascade of the respiratory system.
+- **Connects-to** → [Phosphorus](../../02-atomic/phosphorus/README.md): Surfactant-ATP: phosphorus, as ATP precursor in type-II pneumocytes (already mapped) and macrophages (already mapped), supports surfactant synthesis and innate immunity; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

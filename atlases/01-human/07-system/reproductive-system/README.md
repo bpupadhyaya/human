@@ -509,6 +509,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Reproductive potassium: potassium channels (Kir7.1) on placental syncytiotrophoblast regulate membrane potential and hormone secretion; uterine smooth-muscle (already mapped) potassium conductance governs uterine quiescence and the onset of parturition."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Reproductive phosphorus: phosphorus, as ATP precursor in smooth-muscle cells (already mapped) and macrophages (already mapped), supports uterine contractility; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Reproductive chloride: chloride, via CFTR channels in uterine epithelium and neurons (already mapped), regulates fluid secretion and sperm motility; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Reproductive sulfur: hydrogen sulfide from smooth-muscle cells (already mapped) and endothelial cells (already mapped) promotes uteroplacental vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system."
 ---
 
 # Reproductive System
@@ -788,6 +797,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Reproductive iodine: iodine-dependent thyroid hormones are essential for ovarian folliculogenesis, embryo development and placental function in the reproductive system; maternal iodine deficiency causes fetal hypothyroidism, neurodevelopmental delay and miscarriage.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Reproductive sodium: sodium homeostasis via aldosterone (already mapped) and vasopressin (already mapped) governs plasma-volume expansion in pregnancy, and sodium-mediated RAAS activation regulates uteroplacental blood flow in the reproductive system.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Reproductive potassium: potassium channels (Kir7.1) on placental syncytiotrophoblast regulate membrane potential and hormone secretion; uterine smooth-muscle (already mapped) potassium conductance governs uterine quiescence and the onset of parturition.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Reproductive phosphorus: phosphorus, as ATP precursor in smooth-muscle cells (already mapped) and macrophages (already mapped), supports uterine contractility; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Reproductive chloride: chloride, via CFTR channels in uterine epithelium and neurons (already mapped), regulates fluid secretion and sperm motility; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Reproductive sulfur: hydrogen sulfide from smooth-muscle cells (already mapped) and endothelial cells (already mapped) promotes uteroplacental vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system.
 
 ## Pathology
 
