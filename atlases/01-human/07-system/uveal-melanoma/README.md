@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Invasion ECM scaffold: periostin is upregulated in the uveal-melanoma stromal niche and the hepatic (liver already mapped) metastatic microenvironment, promoting the extracellular matrix remodelling and the invasion of the GNAQ/GNA11-driven melanoma cells."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Intraocular kinin: bradykinin, generated in the choroidal vasculature by kallikrein-kinin activation, amplifies vascular permeability and the inflammatory microenvironment of uveal melanoma, promoting tumour growth and metastatic spread."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement-contact brake: C1-esterase inhibitor restrains the classical complement C1 and the contact system (C3/C5/C5aR1/factor-H already mapped) activated in the uveal-melanoma microenvironment and its hepatic metastatic niche."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Choroidal mast-cell effector: histamine released by mast cells (already mapped) in the choroidal uveal-melanoma stroma amplifies local vascular permeability and the immunosuppressive microenvironment that blunts cytotoxic T-cell surveillance."
 ---
 
 # Uveal Melanoma
@@ -776,6 +785,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stromal alarmin: TSLP released from the uveal-melanoma stromal fibroblasts (already mapped) and choroidal stroma activates mast cells (already mapped) and dendritic cells (already mapped), sustaining the type-2 immunosuppressive microenvironment that blunts cytotoxic immunity.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour anaemia and EPO-R: erythropoietin corrects the anaemia of chronic disease (already mapped) of advanced uveal melanoma, and EPOR expression on choroidal melanocytes has been reported, suggesting possible direct trophic effects on tumour growth.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Invasion ECM scaffold: periostin is upregulated in the uveal-melanoma stromal niche and the hepatic (liver already mapped) metastatic microenvironment, promoting the extracellular matrix remodelling and the invasion of the GNAQ/GNA11-driven melanoma cells.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Intraocular kinin: bradykinin, generated in the choroidal vasculature by kallikrein-kinin activation, amplifies vascular permeability and the inflammatory microenvironment of uveal melanoma, promoting tumour growth and metastatic spread.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-contact brake: C1-esterase inhibitor restrains the classical complement C1 and the contact system (C3/C5/C5aR1/factor-H already mapped) activated in the uveal-melanoma microenvironment and its hepatic metastatic niche.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Choroidal mast-cell effector: histamine released by mast cells (already mapped) in the choroidal uveal-melanoma stroma amplifies local vascular permeability and the immunosuppressive microenvironment that blunts cytotoxic T-cell surveillance.
 
 ---
 
