@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Enteric melatonin: melatonin produced by enterochromaffin cells of the gut epithelium (already mapped) activates MT1/MT2 receptors on mast cells (already mapped) and immune cells, attenuating the NF-κB (already mapped) and NLRP3 (already mapped) mucosal inflammation of IBD."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-IBD axis: testosterone, via androgen receptor signalling on intestinal epithelial cells (already mapped) and mucosal macrophages (already mapped), modulates Th17/Treg balance and the sex-biased clinical phenotype and extraintestinal manifestations of IBD."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Prolactin-IBD axis: prolactin, via PRL-R on intestinal macrophages (already mapped) and T cells (already mapped), amplifies mucosal Th1/Th17 (already mapped) cytokine production and the autoimmune intestinal inflammation of inflammatory bowel disease."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Oxytocin-IBD axis: oxytocin, via its receptor on intestinal epithelial cells (already mapped) and mast cells (already mapped), promotes gut-barrier integrity, attenuates NFκB (already mapped) mucosal inflammation, and modulates the pain and motility of IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -787,6 +796,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia-of-IBD therapy: erythropoietin, responding to the anaemia of chronic disease (already mapped) and iron-deficiency anaemia (already mapped) complicating IBD, stimulates erythrocyte (already mapped) production and can suppress mucosal NF-κB (already mapped) inflammation.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Intestinal fibrosis mediator: periostin, from intestinal fibroblasts (fibrosis already mapped) under TGF-β (already mapped) and IL-13 (already mapped) stimulation, promotes subepithelial collagen (already mapped) deposition and the stricturing phenotype of Crohn's disease.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Enteric melatonin: melatonin produced by enterochromaffin cells of the gut epithelium (already mapped) activates MT1/MT2 receptors on mast cells (already mapped) and immune cells, attenuating the NF-κB (already mapped) and NLRP3 (already mapped) mucosal inflammation of IBD.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-IBD axis: testosterone, via androgen receptor signalling on intestinal epithelial cells (already mapped) and mucosal macrophages (already mapped), modulates Th17/Treg balance and the sex-biased clinical phenotype and extraintestinal manifestations of IBD.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-IBD axis: prolactin, via PRL-R on intestinal macrophages (already mapped) and T cells (already mapped), amplifies mucosal Th1/Th17 (already mapped) cytokine production and the autoimmune intestinal inflammation of inflammatory bowel disease.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin-IBD axis: oxytocin, via its receptor on intestinal epithelial cells (already mapped) and mast cells (already mapped), promotes gut-barrier integrity, attenuates NFκB (already mapped) mucosal inflammation, and modulates the pain and motility of IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

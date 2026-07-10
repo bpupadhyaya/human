@@ -501,6 +501,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Autoimmune-permissive hormone: prolactin, via PRL-R on B cells (already mapped), promotes their survival and anti-platelet IgG (immunoglobulin G already mapped) production; hyperprolactinaemia is a recognised co-factor amplifying the autoimmune thrombocytopenia of ITP."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-ITP axis: testosterone, via androgen receptor on B cells (already mapped) and regulatory T cells (already mapped), suppresses anti-platelet autoantibody production and contributes to the male-protective effect on ITP incidence and disease severity."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Oxytocin-ITP axis: oxytocin, via its receptor on regulatory T cells (already mapped) and B cells (already mapped), modulates immune tolerance, attenuates anti-platelet IgG (already mapped) autoantibody production, and regulates the neuroimmune milieu of ITP."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Vasopressin-ITP axis: vasopressin, via V1b receptors on immune cells (already mapped), modulates HPA-axis stress-immune cross-talk, T-cell (already mapped) activation, and the corticosteroid-responsive dimension of immune thrombocytopenia."
 ---
 
 # Immune Thrombocytopenia
@@ -797,6 +806,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Stromal niche periostin: periostin, secreted by spleen (already mapped) and bone-marrow (already mapped) stromal fibroblasts under TGF-β (already mapped) stimulation, shapes the haematopoietic niche where the anti-platelet (already mapped) immune response of ITP is amplified.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Anti-platelet autoimmune suppression: melatonin, via MT1/MT2 receptors on regulatory T cells (already mapped) and B cells (already mapped), attenuates the anti-platelet IgG (immunoglobulin G already mapped) production driving platelet (already mapped) destruction in ITP.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Autoimmune-permissive hormone: prolactin, via PRL-R on B cells (already mapped), promotes their survival and anti-platelet IgG (immunoglobulin G already mapped) production; hyperprolactinaemia is a recognised co-factor amplifying the autoimmune thrombocytopenia of ITP.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-ITP axis: testosterone, via androgen receptor on B cells (already mapped) and regulatory T cells (already mapped), suppresses anti-platelet autoantibody production and contributes to the male-protective effect on ITP incidence and disease severity.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin-ITP axis: oxytocin, via its receptor on regulatory T cells (already mapped) and B cells (already mapped), modulates immune tolerance, attenuates anti-platelet IgG (already mapped) autoantibody production, and regulates the neuroimmune milieu of ITP.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin-ITP axis: vasopressin, via V1b receptors on immune cells (already mapped), modulates HPA-axis stress-immune cross-talk, T-cell (already mapped) activation, and the corticosteroid-responsive dimension of immune thrombocytopenia.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
