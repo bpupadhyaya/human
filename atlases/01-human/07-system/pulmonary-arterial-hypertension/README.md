@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "PAH selenium: selenium-dependent glutathione peroxidase (GPX) quenches endothelial reactive-oxygen-species driving eNOS (nitric oxide already mapped) uncoupling and PDGF (already mapped)-mediated smooth muscle cell (already mapped) proliferation in PAH."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PAH iodine: iodine-dependent thyroid hormones regulate endothelial cells (already mapped) and smooth muscle cells (already mapped); thyroid-hormone deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular remodelling cascade of PAH."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "PAH sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the PDGF (already mapped) and endothelin-1 (already mapped) vascular remodelling cascade of PAH."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "PAH magnesium: magnesium, as eNOS (nitric-oxide already mapped) cofactor in endothelial cells (already mapped) and smooth muscle cells (already mapped), supports vasodilation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -806,6 +815,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PAH oxytocin: oxytocin via OXTR on pulmonary vascular endothelium (endothelin-1 already mapped) and smooth muscle cells (already mapped) promotes vasodilation, counteracting the endothelin-1 and PDGF (already mapped)-driven vascular remodelling of PAH.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PAH vasopressin: vasopressin via V1aR on pulmonary arterial smooth muscle cells (already mapped) promotes vasoconstriction and proliferation, amplifying the endothelin-1 (already mapped) and PDGF (already mapped)-driven pulmonary vascular remodelling of PAH.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PAH selenium: selenium-dependent glutathione peroxidase (GPX) quenches endothelial reactive-oxygen-species driving eNOS (nitric oxide already mapped) uncoupling and PDGF (already mapped)-mediated smooth muscle cell (already mapped) proliferation in PAH.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PAH iodine: iodine-dependent thyroid hormones regulate endothelial cells (already mapped) and smooth muscle cells (already mapped); thyroid-hormone deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular remodelling cascade of PAH.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PAH sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the PDGF (already mapped) and endothelin-1 (already mapped) vascular remodelling cascade of PAH.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PAH magnesium: magnesium, as eNOS (nitric-oxide already mapped) cofactor in endothelial cells (already mapped) and smooth muscle cells (already mapped), supports vasodilation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
