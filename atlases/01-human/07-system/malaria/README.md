@@ -501,6 +501,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine coupling: prolactin, elevated during the acute febrile response of malaria, potentiates macrophage (already mapped) and NK-cell (already mapped) activation, contributing to the Th1/IFN-γ (already mapped) immunity and the immunopathology of severe malaria."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "MAL testosterone: androgen signalling suppresses the IFN-γ (already mapped) Th1 response to Plasmodium (already mapped), increasing male susceptibility to severe malaria; testosterone modulates erythrocyte (already mapped) membrane deformability in the infected red cell."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "MAL serotonin: platelet (already mapped) serotonin released during haemolysis in malaria amplifies vascular permeability and the thromboinflammation of severe malaria; 5-HT2 signalling on endothelial cells (already mapped) promotes Plasmodium (already mapped) rosetting."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MAL vasopressin: vasopressin released during severe malaria drives cerebral oedema via brain (already mapped) swelling and hyponatraemia via sodium (already mapped) dysregulation; V2-receptor signalling on the kidney (already mapped) modulates renal water retention."
 ---
 
 # Malaria
@@ -820,6 +829,9 @@ cross_links:
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Hepatosplenic fibrosis: periostin, induced by TGF-β (already mapped) in the spleen (already mapped) and liver (already mapped) during Plasmodium (already mapped) infection, promotes the fibrotic remodelling and hypersplenism sequelae of chronic malaria.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian fever synchrony: melatonin regulates the circadian pattern of the Plasmodium (already mapped) release from erythrocytes (already mapped), synchronising the periodic fever paroxysms (complement already mapped) of malaria to nocturnal peaks of melatonin.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine coupling: prolactin, elevated during the acute febrile response of malaria, potentiates macrophage (already mapped) and NK-cell (already mapped) activation, contributing to the Th1/IFN-γ (already mapped) immunity and the immunopathology of severe malaria.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — MAL testosterone: androgen signalling suppresses the IFN-γ (already mapped) Th1 response to Plasmodium (already mapped), increasing male susceptibility to severe malaria; testosterone modulates erythrocyte (already mapped) membrane deformability in the infected red cell.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — MAL serotonin: platelet (already mapped) serotonin released during haemolysis in malaria amplifies vascular permeability and the thromboinflammation of severe malaria; 5-HT2 signalling on endothelial cells (already mapped) promotes Plasmodium (already mapped) rosetting.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MAL vasopressin: vasopressin released during severe malaria drives cerebral oedema via brain (already mapped) swelling and hyponatraemia via sodium (already mapped) dysregulation; V2-receptor signalling on the kidney (already mapped) modulates renal water retention.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
