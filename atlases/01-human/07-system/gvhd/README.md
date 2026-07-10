@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Engraftment anaemia: erythropoietin drives red-cell regeneration to correct the anaemia of the conditioning regimen, the myelosuppression (bone-marrow already mapped), and the haemolysis (already mapped) complicating graft-versus-host disease."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell target-organ effector: mast cells (already mapped) in the target organs of GVHD — gut, skin, liver — release histamine that amplifies the vascular permeability and the tissue oedema of acute graft-versus-host disease."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian transplant biology: circadian disruption is common in transplant patients; melatonin has immunomodulatory effects on T-cell (already mapped) differentiation and alloreactivity, a property studied in the alloimmune context of GVHD."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Stress-immune axis: prolactin, elevated by transplant stress and the immunosuppressive (calcineurin, cortisol already mapped) regimen, modulates T-cell (already mapped) and natural-killer-cell (already mapped) activity in the allograft context."
 ---
 
 # Graft-Versus-Host Disease
@@ -793,6 +802,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-alloimmune axis: TSLP, from damaged intestinal (already mapped) and skin (already mapped) epithelium of the conditioning regimen, primes host dendritic cells (already mapped) toward alloreactive Th2 and Th17 (already mapped) responses in graft-versus-host disease.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-vascular axis: bradykinin, from the contact-pathway activation in the conditioned endothelium (already mapped), amplifies the vascular permeability and the tissue oedema contributing to the endothelial injury of graft-versus-host disease.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Engraftment anaemia: erythropoietin drives red-cell regeneration to correct the anaemia of the conditioning regimen, the myelosuppression (bone-marrow already mapped), and the haemolysis (already mapped) complicating graft-versus-host disease.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell target-organ effector: mast cells (already mapped) in the target organs of GVHD — gut, skin, liver — release histamine that amplifies the vascular permeability and the tissue oedema of acute graft-versus-host disease.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian transplant biology: circadian disruption is common in transplant patients; melatonin has immunomodulatory effects on T-cell (already mapped) differentiation and alloreactivity, a property studied in the alloimmune context of GVHD.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-immune axis: prolactin, elevated by transplant stress and the immunosuppressive (calcineurin, cortisol already mapped) regimen, modulates T-cell (already mapped) and natural-killer-cell (already mapped) activity in the allograft context.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

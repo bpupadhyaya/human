@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3, C5 and factor-H already mapped) contributing to the neuroinflammation and the complement-mediated synaptic pruning of generalized anxiety disorder."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Stress erythropoiesis: chronic anxiety and HPA-axis (cortisol already mapped) dysregulation can alter erythropoietin signalling; EpoR on neurons (already mapped) also mediates neuroprotective effects relevant to the hippocampal (already mapped) changes of GAD."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Neuroimmune matrix: periostin, from astrocytes (already mapped) and the CNS extracellular matrix, contributes to the glial remodelling and the neuroinflammation (IL-6, TNF, IL-1 already mapped) implicated in the synaptic changes of GAD."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Stress neuroendocrine probe: prolactin reflects serotonergic (already mapped) and dopaminergic tone — challenge tests use its release as a monoamine readout — and its dysregulation under chronic stress links the HPA-serotonin axis to GAD."
 ---
 
 # Generalized Anxiety Disorder
@@ -797,6 +806,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-anxiety axis: TSLP, from gut-epithelium (gut-microbiome already mapped) and mast cells (already mapped), amplifies the neuroinflammatory and the Th2/mast-cell stress axis implicated in the HPA-axis (cortisol already mapped) dysregulation of generalized anxiety disorder.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-autonomic axis: bradykinin, via B2R on CNS neurons (already mapped) and microglia (already mapped), modulates the neuroinflammation and the autonomic hyperarousal contributing to the somatic symptoms of generalized anxiety disorder.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3, C5 and factor-H already mapped) contributing to the neuroinflammation and the complement-mediated synaptic pruning of generalized anxiety disorder.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Stress erythropoiesis: chronic anxiety and HPA-axis (cortisol already mapped) dysregulation can alter erythropoietin signalling; EpoR on neurons (already mapped) also mediates neuroprotective effects relevant to the hippocampal (already mapped) changes of GAD.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Neuroimmune matrix: periostin, from astrocytes (already mapped) and the CNS extracellular matrix, contributes to the glial remodelling and the neuroinflammation (IL-6, TNF, IL-1 already mapped) implicated in the synaptic changes of GAD.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress neuroendocrine probe: prolactin reflects serotonergic (already mapped) and dopaminergic tone — challenge tests use its release as a monoamine readout — and its dysregulation under chronic stress links the HPA-serotonin axis to GAD.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
