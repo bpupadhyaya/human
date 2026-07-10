@@ -510,6 +510,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine cardiac axis: prolactin, acting via PRLR on cardiomyocytes (already mapped) and macrophages (already mapped), modulates the cardiac inflammatory cytokine milieu and is linked to peripartum cardiomyopathy and heart failure of the cardiovascular system."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "CV testosterone: testosterone, via androgen receptors on cardiomyocytes (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) cardiomyopathic signalling; testosterone deficiency amplifies CVD risk and heart-failure (already mapped) morbidity."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "CV serotonin: serotonin, via 5-HT receptors on cardiomyocytes (already mapped) and endothelial cells (already mapped), modulates cardiac rhythm and vascular tone; serotonin excess amplifies the NF-κB (already mapped) and IL-6 (already mapped) cardiovascular inflammation."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "CV oxytocin: oxytocin, via OXTR on cardiomyocytes (already mapped) and endothelial cells (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation; oxytocin promotes nitric-oxide (already mapped) vasodilation and cardioprotection."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -756,6 +765,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Cardiac ECM remodelling: periostin, expressed by cardiac fibroblasts (already mapped) under mechanical and ischaemic stress, promotes collagen deposition and the adverse ventricular remodelling that drives hypertrophy and heart failure progression of the cardiovascular system.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian cardioprotection: melatonin, via MT1/MT2 receptors on cardiomyocytes (already mapped) and endothelial cells (already mapped), scavenges ROS, attenuates ischaemia-reperfusion injury and synchronises the circadian cardiac rhythms of the cardiovascular system.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine cardiac axis: prolactin, acting via PRLR on cardiomyocytes (already mapped) and macrophages (already mapped), modulates the cardiac inflammatory cytokine milieu and is linked to peripartum cardiomyopathy and heart failure of the cardiovascular system.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — CV testosterone: testosterone, via androgen receptors on cardiomyocytes (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) cardiomyopathic signalling; testosterone deficiency amplifies CVD risk and heart-failure (already mapped) morbidity.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CV serotonin: serotonin, via 5-HT receptors on cardiomyocytes (already mapped) and endothelial cells (already mapped), modulates cardiac rhythm and vascular tone; serotonin excess amplifies the NF-κB (already mapped) and IL-6 (already mapped) cardiovascular inflammation.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CV oxytocin: oxytocin, via OXTR on cardiomyocytes (already mapped) and endothelial cells (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation; oxytocin promotes nitric-oxide (already mapped) vasodilation and cardioprotection.
 
 ## Pathology
 

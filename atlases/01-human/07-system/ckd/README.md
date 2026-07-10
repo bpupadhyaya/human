@@ -504,6 +504,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian renoprotection: melatonin, via MT1/MT2 receptors on tubular cells and mesangial cells (already mapped), scavenges ROS (already mapped) and attenuates the oxidative and inflammatory tubulointerstitial injury driving the progression of CKD."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "CKD testosterone: testosterone, via androgen receptors on tubular cells and mesangial cells, attenuates TGF-β (already mapped) and NF-κB (already mapped) renal fibrosis; androgen deficiency amplifies macrophage (already mapped) and IL-6 (already mapped) fibrotic injury of CKD."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "CKD serotonin: serotonin, via 5-HT receptors on mesangial cells and macrophages (already mapped), modulates glomerular (already mapped) haemodynamics; serotonin dysregulation amplifies the TGF-β (already mapped) and NF-κB (already mapped) tubulointerstitial fibrosis of CKD."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "CKD prolactin: prolactin, via PRLR on macrophages (already mapped), promotes TGF-β (already mapped) and NF-κB (already mapped) fibrotic signalling; hyperprolactinaemia amplifies the erythropoietin (already mapped) resistance and iron (already mapped) deficiency anaemia of CKD."
 ---
 
 # Chronic Kidney Disease
@@ -742,6 +751,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell renal effector: histamine, released by peritubular mast cells (already mapped) in the interstitium of CKD, promotes vascular permeability and amplifies the pro-inflammatory cytokine milieu (TGF-β and IL-6 already mapped) driving the tubulointerstitial fibrosis of CKD.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Fibrotic ECM scaffold: periostin, expressed by renal fibroblasts (already mapped) under TGF-β (already mapped) stimulation, is a key driver of the extracellular matrix deposition and the interstitial fibrosis-driven nephron loss of chronic kidney disease.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian renoprotection: melatonin, via MT1/MT2 receptors on tubular cells and mesangial cells (already mapped), scavenges ROS (already mapped) and attenuates the oxidative and inflammatory tubulointerstitial injury driving the progression of CKD.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — CKD testosterone: testosterone, via androgen receptors on tubular cells and mesangial cells, attenuates TGF-β (already mapped) and NF-κB (already mapped) renal fibrosis; androgen deficiency amplifies macrophage (already mapped) and IL-6 (already mapped) fibrotic injury of CKD.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CKD serotonin: serotonin, via 5-HT receptors on mesangial cells and macrophages (already mapped), modulates glomerular (already mapped) haemodynamics; serotonin dysregulation amplifies the TGF-β (already mapped) and NF-κB (already mapped) tubulointerstitial fibrosis of CKD.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CKD prolactin: prolactin, via PRLR on macrophages (already mapped), promotes TGF-β (already mapped) and NF-κB (already mapped) fibrotic signalling; hyperprolactinaemia amplifies the erythropoietin (already mapped) resistance and iron (already mapped) deficiency anaemia of CKD.
 
 ## Pathology
 
