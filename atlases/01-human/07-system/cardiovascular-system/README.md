@@ -528,6 +528,9 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "CV phosphorus: phosphorus drives ATP (already mapped) synthesis and SERCA2a (already mapped) calcium-pump function in cardiomyocytes (already mapped); hyperphosphataemia amplifies NF-κB (already mapped) vascular calcification and endothelial cell (already mapped) dysfunction."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "CV zinc: zinc, via SOD and cardiomyocyte (already mapped) metalloenzymes, quenches oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and endothelial-cell (already mapped) dysfunction in cardiovascular disease."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -780,6 +783,7 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CV selenium: selenium, via GPx and thioredoxin reductase, scavenges ROS in cardiomyocytes (already mapped) and endothelial cells (already mapped); selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and heart-failure severity.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CV copper: copper, via ceruloplasmin and SOD, protects cardiomyocytes (already mapped) from oxidative injury; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and the cardiac fibrosis of heart failure (already mapped).
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CV phosphorus: phosphorus drives ATP (already mapped) synthesis and SERCA2a (already mapped) calcium-pump function in cardiomyocytes (already mapped); hyperphosphataemia amplifies NF-κB (already mapped) vascular calcification and endothelial cell (already mapped) dysfunction.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — CV zinc: zinc, via SOD and cardiomyocyte (already mapped) metalloenzymes, quenches oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and endothelial-cell (already mapped) dysfunction in cardiovascular disease.
 
 ## Pathology
 
