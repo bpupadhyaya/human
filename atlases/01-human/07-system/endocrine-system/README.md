@@ -491,6 +491,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement (C3 already mapped) and the contact-kinin system (bradykinin above) at the glandular vasculature of the endocrine organs, tempering autoimmune endocrine injury."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation-endocrine axis: factor H, produced by the liver and adrenal gland, limits alternative-pathway complement amplification at endocrine glandular surfaces, protecting the thyroid, pancreas, and adrenal cortex from complement-mediated autoimmune injury."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Periostin-endocrine axis: periostin, expressed in the stromal matrix of the thyroid, adrenal gland, and pancreatic islets, promotes epithelial-mesenchymal crosstalk and glandular fibrosis in autoimmune and neoplastic endocrine disease."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron-endocrine axis: transferrin shuttles iron to the thyroid for thyroid-peroxidase-catalysed thyroid-hormone synthesis and to the adrenal gland for steroidogenesis, linking systemic iron metabolism to endocrine hormone output."
 ---
 
 # Endocrine System
@@ -806,6 +815,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-endocrine axis: TSLP, from the thymic (already mapped) and thyroid (already mapped) epithelium, primes dendritic-cell Th2 polarisation and amplifies the autoimmune attack on the hormone-producing cells of the endocrine system.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-endocrine axis: bradykinin, via B1/B2 receptors on the vasculature of the adrenal gland (already mapped), thyroid (already mapped) and pancreas (already mapped), modulates glandular blood flow and the inflammatory response in the autoimmune endocrinopathies.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/contact regulation: the C1-esterase inhibitor regulates the classical complement (C3 already mapped) and the contact-kinin system (bradykinin above) at the glandular vasculature of the endocrine organs, tempering autoimmune endocrine injury.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation-endocrine axis: factor H, produced by the liver and adrenal gland, limits alternative-pathway complement amplification at endocrine glandular surfaces, protecting the thyroid, pancreas, and adrenal cortex from complement-mediated autoimmune injury.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin-endocrine axis: periostin, expressed in the stromal matrix of the thyroid, adrenal gland, and pancreatic islets, promotes epithelial-mesenchymal crosstalk and glandular fibrosis in autoimmune and neoplastic endocrine disease.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-endocrine axis: transferrin shuttles iron to the thyroid for thyroid-peroxidase-catalysed thyroid-hormone synthesis and to the adrenal gland for steroidogenesis, linking systemic iron metabolism to endocrine hormone output.
 
 ## Pathology
 

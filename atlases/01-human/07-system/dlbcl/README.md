@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-DLBCL axis: erythropoietin, via the EPOR on DLBCL tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates macrophage (already mapped) polarisation and the anaemia of the DLBCL tumour microenvironment."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-DLBCL axis: histamine, released by mast cells in the tumour microenvironment, signals via H1/H2 receptors on DLBCL cells, modulating B-cell activation, NFκB-driven proliferation, and the immunosuppressive milieu of diffuse-large-B-cell-lymphoma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-DLBCL axis: melatonin, via MT1/MT2 receptors on DLBCL cells, modulates circadian immune rhythms, suppresses NFκB-driven tumour proliferation, and enhances apoptotic sensitivity to anthracycline-based chemotherapy in diffuse-large-B-cell-lymphoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-DLBCL axis: testosterone, via androgen receptor signalling on DLBCL tumour cells and stromal macrophages, modulates lymphocyte survival, immune evasion, and the sex-biased incidence and prognosis of diffuse-large-B-cell-lymphoma."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -773,6 +782,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-DLBCL axis: TSLP, from the DLBCL stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2-skewed immunosuppressive microenvironment of the diffuse-large-B-cell-lymphoma tumour niche.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-DLBCL axis: bradykinin, via B1/B2 receptors on DLBCL tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability, tumour oedema, and the pro-inflammatory stromal milieu of diffuse-large-B-cell-lymphoma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-DLBCL axis: erythropoietin, via the EPOR on DLBCL tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates macrophage (already mapped) polarisation and the anaemia of the DLBCL tumour microenvironment.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-DLBCL axis: histamine, released by mast cells in the tumour microenvironment, signals via H1/H2 receptors on DLBCL cells, modulating B-cell activation, NFκB-driven proliferation, and the immunosuppressive milieu of diffuse-large-B-cell-lymphoma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-DLBCL axis: melatonin, via MT1/MT2 receptors on DLBCL cells, modulates circadian immune rhythms, suppresses NFκB-driven tumour proliferation, and enhances apoptotic sensitivity to anthracycline-based chemotherapy in diffuse-large-B-cell-lymphoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-DLBCL axis: testosterone, via androgen receptor signalling on DLBCL tumour cells and stromal macrophages, modulates lymphocyte survival, immune evasion, and the sex-biased incidence and prognosis of diffuse-large-B-cell-lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
