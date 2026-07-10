@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant neurodevelopment: selenium, incorporated into selenoproteins (thioredoxin reductase and GPx), scavenges ROS in developing neurons (already mapped) and supports the glutathione (already mapped) redox balance disrupted in the oxidative stress hypothesis of ASD."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "ASD iodine: iodine, via thyroid (already mapped) hormone synthesis, supports myelination and synapse (already mapped) maturation critical in ASD; iodine deficiency amplifies IL-6 (already mapped) and mTOR (already mapped) neurodevelopmental disruption of ASD."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "ASD sodium: sodium, via neuronal Na+ channels, maintains glutamate (already mapped)/GABA (already mapped) excitatory-inhibitory balance; sodium dysregulation amplifies NF-κB (already mapped) neuroinflammation and synapse (already mapped) dysfunction of ASD."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "ASD transferrin: transferrin supplies iron (already mapped) to neurons (already mapped) and oligodendrocytes (already mapped) for myelination; transferrin deficiency amplifies NF-κB (already mapped) neuroinflammation and iron-deficiency-anemia (already mapped) of ASD."
 ---
 
 # Autism Spectrum Disorder
@@ -808,6 +817,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Synapse ECM scaffold: periostin, expressed by astrocytes (already mapped) in the synaptic extracellular matrix, modulates the perineuronal nets that regulate synaptic pruning (microglia already mapped) and the excitatory/inhibitory balance of autism spectrum disorder.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroimmune developmental axis: prolactin, acting via PRLR on microglia (already mapped) and astrocytes (already mapped), modulates the neuroinflammatory cytokine milieu (TNF-α and IL-6 already mapped) and may influence the sex-differential prevalence of autism spectrum disorder.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant neurodevelopment: selenium, incorporated into selenoproteins (thioredoxin reductase and GPx), scavenges ROS in developing neurons (already mapped) and supports the glutathione (already mapped) redox balance disrupted in the oxidative stress hypothesis of ASD.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-mediated myelination: iodine, via thyroid hormone synthesis, supports myelination and synapse maturation critical in ASD; iodine deficiency amplifies IL-6 and mTOR neurodevelopmental disruption of ASD.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Neuronal excitatory-inhibitory balance: sodium, via neuronal Na+ channels, maintains glutamate/GABA excitatory-inhibitory balance; sodium dysregulation amplifies NF-κB neuroinflammation and synapse dysfunction of ASD.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron delivery for myelination: transferrin supplies iron to neurons and oligodendrocytes for myelination; transferrin deficiency amplifies NF-κB neuroinflammation and iron-deficiency-anaemia burden of ASD.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

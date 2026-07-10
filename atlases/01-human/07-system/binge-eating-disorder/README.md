@@ -486,6 +486,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Satiety-immune coupling: prolactin, elevated by stress and acute food intake in binge-eating disorder, modulates T-cell (already mapped) function and interacts with the serotonin (already mapped) and dopamine (already mapped) reward pathways of binge-eating disorder."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "BED copper: copper, via ceruloplasmin, supports dopamine (already mapped) and serotonin (already mapped) reward-circuit synthesis; copper deficiency amplifies the IL-6 (already mapped) and cortisol (already mapped) metabolic disruption and binge-purge neurochemistry of BED."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "BED selenium: selenium, via GPx, shields reward-circuit neurons (already mapped) from oxidative stress; selenium deficiency amplifies the IL-6 (already mapped) and cortisol (already mapped) neuroinflammation and the dopamine (already mapped) reward-deficit vulnerability of BED."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "BED iodine: iodine, via thyroid hormone metabolism, modulates the serotonin (already mapped) and dopamine (already mapped) appetite set-point; iodine deficiency amplifies the cortisol (already mapped) and leptin (already mapped) metabolic dysregulation of BED."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -803,6 +812,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM remodelling in the reward circuitry: periostin, expressed by astrocytes (already mapped) and microglia (already mapped), modulates the perineuronal net organisation of the nucleus accumbens and prefrontal cortex governing impulse control in binge-eating disorder.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via EPOR on dopaminergic neurons (already mapped) and astrocytes (already mapped), promotes neuronal survival and limits the neuroinflammation-driven disruption of the reward circuitry in binge-eating disorder.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Satiety-immune coupling: prolactin, elevated by stress and acute food intake in binge-eating disorder, modulates T-cell (already mapped) function and interacts with the serotonin (already mapped) and dopamine (already mapped) reward pathways of binge-eating disorder.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Dopamine-serotonin synthesis support: copper, via ceruloplasmin, supports dopamine and serotonin reward-circuit synthesis; copper deficiency amplifies IL-6 and cortisol metabolic disruption and binge-purge neurochemistry of BED.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant reward-circuit protection: selenium, via GPx, shields reward-circuit neurons from oxidative stress; selenium deficiency amplifies IL-6 and cortisol neuroinflammation and dopamine reward-deficit vulnerability of BED.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid appetite set-point: iodine, via thyroid hormone metabolism, modulates the serotonin and dopamine appetite set-point; iodine deficiency amplifies cortisol and leptin metabolic dysregulation of BED.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
