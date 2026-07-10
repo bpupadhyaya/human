@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Prolactin-hypertension axis: prolactin, via prolactin receptors on endothelial (already mapped) and smooth-muscle cells (already mapped), promotes oxidative stress, endothelin (already mapped) release, and salt retention, linking hyperprolactinaemia to hypertension."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Hypertension oxytocin: oxytocin, via OXTR on cardiomyocytes (already mapped) and macrophages (already mapped), attenuates inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of hypertension."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Hypertension selenium: selenium, as an antioxidant cofactor for glutathione peroxidases, attenuates oxidative vascular stress; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) endothelial (already mapped) cascade of hypertension."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Hypertension iodine: iodine, via thyroid hormone biosynthesis, modulates cardiomyocyte (already mapped) contractility and vascular tone; iodine deficiency amplifies the NF-κB (already mapped) and aldosterone (already mapped) cardiovascular cascade of hypertension."
 ---
 
 # Hypertension
@@ -754,6 +763,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-hypertension axis: melatonin, via MT1 receptors on vascular smooth-muscle cells (already mapped), suppresses renin secretion (renin already mapped), modulates the nocturnal blood-pressure dip, and attenuates angiotensin II (already mapped) vasoconstriction.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-hypertension axis: testosterone, via androgen receptor on vascular smooth-muscle cells (already mapped) and kidney (already mapped), upregulates ACE (already mapped) and promotes sodium retention, driving the male sex predominance of hypertension.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-hypertension axis: prolactin, via prolactin receptors on endothelial (already mapped) and smooth-muscle cells (already mapped), promotes oxidative stress, endothelin (already mapped) release, and salt retention, linking hyperprolactinaemia to hypertension.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Hypertension oxytocin: oxytocin, via OXTR on cardiomyocytes (already mapped) and macrophages (already mapped), attenuates inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of hypertension.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Hypertension selenium: selenium, as an antioxidant cofactor for glutathione peroxidases, attenuates oxidative vascular stress; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) endothelial (already mapped) cascade of hypertension.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Hypertension iodine: iodine, via thyroid hormone biosynthesis, modulates cardiomyocyte (already mapped) contractility and vascular tone; iodine deficiency amplifies the NF-κB (already mapped) and aldosterone (already mapped) cardiovascular cascade of hypertension.
 
 ## Pathology
 

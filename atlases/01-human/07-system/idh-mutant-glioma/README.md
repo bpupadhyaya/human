@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-IDH-glioma axis: erythropoietin, via the EPOR on IDH-mutant glioma cells (already mapped), activates the JAK-STAT (already mapped) neuroprotective pathway and modulates microglia/macrophage (already mapped) polarisation in the IDH-mutant glioma microenvironment."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "IDH-glioma prolactin: prolactin, via PRLR on microglia (already mapped) and macrophages (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and mast-cell (already mapped) T-cytotoxic (already mapped) cascade of IDH-mutant glioma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "IDH-glioma oxytocin: oxytocin, via OXTR on microglia (already mapped) and macrophages (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) T-cytotoxic (already mapped) cascade of IDH-mutant glioma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "IDH-glioma vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and mast-cell (already mapped) cascade of IDH-mutant glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -795,6 +804,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-IDH-glioma axis: histamine, released by microglia (already mapped) and mast cells in the IDH-mutant glioma microenvironment, signals via H3 receptors on neurons (already mapped) and H1/H2 on tumour cells, modulating 2-HG-mediated immunosuppression.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-IDH-glioma axis: melatonin, crossing the blood-brain barrier, suppresses IDH-mutant glioma cell proliferation, modulates the 2-HG (IDH1/2 already mapped) metabolic milieu and its epigenetic silencing, and enhances apoptotic sensitivity to temozolomide.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-IDH-glioma axis: erythropoietin, via the EPOR on IDH-mutant glioma cells (already mapped), activates the JAK-STAT (already mapped) neuroprotective pathway and modulates microglia/macrophage (already mapped) polarisation in the IDH-mutant glioma microenvironment.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — IDH-glioma prolactin: prolactin, via PRLR on microglia (already mapped) and macrophages (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and mast-cell (already mapped) T-cytotoxic (already mapped) cascade of IDH-mutant glioma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — IDH-glioma oxytocin: oxytocin, via OXTR on microglia (already mapped) and macrophages (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) T-cytotoxic (already mapped) cascade of IDH-mutant glioma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — IDH-glioma vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and mast-cell (already mapped) cascade of IDH-mutant glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
