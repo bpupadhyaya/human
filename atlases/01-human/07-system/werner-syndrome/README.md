@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Senescent fibrotic matrix: periostin, downstream of TGF-β (already mapped) in the senescent fibroblasts (already mapped) of Werner syndrome, promotes the peri-vascular fibrosis and the cutaneous ulcer-prone ECM remodelling of the disorder."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Werner melatonin: melatonin opposes the oxidative DNA damage accumulation (WRN already mapped) in Werner syndrome by scavenging ROS; melatonin also suppresses the NF-κB (already mapped) and TNF-α (already mapped) driven SASP, slowing the inflammaging and progeroid phenotype."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Werner serotonin: serotonin signalling modulates mTOR (already mapped) activity and the insulin (already mapped) sensitivity axis in Werner syndrome; serotonin deficiency amplifies the NF-κB (already mapped) driven inflammaging and the accelerated metabolic dysfunction."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Werner prolactin: prolactin modulates the insulin (already mapped) sensitivity and mTOR (already mapped) signalling dysregulation in Werner syndrome; elevated prolactin in progeroid states amplifies the NF-κB (already mapped) driven inflammaging and worsens the metabolic triad."
 ---
 
 # Werner Syndrome
@@ -814,6 +823,9 @@ cross_links:
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-contact senescent regulation: C1-esterase inhibitor restrains the classical complement C1 and the contact system (C3/C5aR1 already mapped) activated in the inflammaging and the atherosclerotic (already mapped) vasculopathy of Werner syndrome.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Inflammaging mast-cell effector: histamine released by mast cells (already mapped) in the chronically inflamed senescent skin and adipose tissue of Werner syndrome amplifies local vascular permeability and the SASP-driven inflammaging cycle.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Senescent fibrotic matrix: periostin, downstream of TGF-β (already mapped) in the senescent fibroblasts (already mapped) of Werner syndrome, promotes the peri-vascular fibrosis and the cutaneous ulcer-prone ECM remodelling of the disorder.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Werner melatonin: melatonin opposes the oxidative DNA damage accumulation (WRN already mapped) in Werner syndrome by scavenging ROS; melatonin also suppresses the NF-κB (already mapped) and TNF-α (already mapped) driven SASP, slowing the inflammaging and progeroid phenotype.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Werner serotonin: serotonin signalling modulates mTOR (already mapped) activity and the insulin (already mapped) sensitivity axis in Werner syndrome; serotonin deficiency amplifies the NF-κB (already mapped) driven inflammaging and the accelerated metabolic dysfunction.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Werner prolactin: prolactin modulates the insulin (already mapped) sensitivity and mTOR (already mapped) signalling dysregulation in Werner syndrome; elevated prolactin in progeroid states amplifies the NF-κB (already mapped) driven inflammaging and worsens the metabolic triad.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
