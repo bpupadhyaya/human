@@ -520,6 +520,12 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "HIT magnesium: magnesium inhibits platelet (already mapped) activation and PF4 (already mapped) release; magnesium deficiency amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic signalling in the HIT cascade."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HIT copper: copper, via ceruloplasmin, modulates platelet (already mapped) activation and PF4 (already mapped) release; copper deficiency amplifies NF-κB (already mapped) endothelial cell (already mapped) prothrombotic signalling and thrombin (already mapped) cascade in HIT."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HIT phosphorus: phosphate fuels platelet (already mapped) ATP and PF4 (already mapped) exocytosis; phosphorus deficiency amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic cascade in HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -831,6 +837,8 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HIT iodine: thyroid hormones (iodine-dependent) modulate platelet (already mapped) activation thresholds; iodine deficiency amplifies NF-κB (already mapped) endothelial cell (already mapped) prothrombotic activation and TNF-α (already mapped) thrombin (already mapped) cascade.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HIT sodium: platelet (already mapped) ionic sodium modulates PF4 (already mapped) release and thrombin (already mapped) generation; sodium dysregulation amplifies NF-κB (already mapped) endothelial cell (already mapped) prothrombotic activation and IL-6 (already mapped) cascade.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HIT magnesium: magnesium inhibits platelet (already mapped) activation and PF4 (already mapped) release; magnesium deficiency amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic signalling in the HIT cascade.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HIT copper: copper, via ceruloplasmin, modulates platelet (already mapped) activation and PF4 (already mapped) release; copper deficiency amplifies NF-κB (already mapped) endothelial cell (already mapped) prothrombotic signalling and thrombin (already mapped) cascade in HIT.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HIT phosphorus: phosphate fuels platelet (already mapped) ATP and PF4 (already mapped) exocytosis; phosphorus deficiency amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic cascade in HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
