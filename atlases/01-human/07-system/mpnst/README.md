@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "MPNST sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of MPNST."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "MPNST magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and fibroblasts (already mapped), attenuates oxidative stress; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of MPNST."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MPNST copper: copper, as cofactor of SOD1 in macrophages (already mapped) and mast cells (already mapped), scavenges TME ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour cascade of MPNST."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "MPNST zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates Schwann cell matrix; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of MPNST."
 ---
 
 # MPNST
@@ -819,6 +828,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MPNST selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade of MPNST.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MPNST iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of MPNST.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MPNST sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of MPNST.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MPNST magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and fibroblasts (already mapped), attenuates oxidative stress; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of MPNST.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MPNST copper: copper, as cofactor of SOD1 in macrophages (already mapped) and mast cells (already mapped), scavenges TME ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour cascade of MPNST.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MPNST zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates Schwann cell matrix; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
