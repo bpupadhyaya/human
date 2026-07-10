@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "NET phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and macrophages (already mapped), supports neuroendocrine tumour immune surveillance; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "NET iron: iron, via ferritin in macrophages (already mapped) and fibroblasts (already mapped), modulates redox balance in the neuroendocrine tumour microenvironment; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "NET chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the neuroendocrine TME; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NET."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "NET sulfur: sulfur-containing amino acids in macrophages (already mapped) and fibroblasts (already mapped) maintain redox buffering; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of neuroendocrine tumors."
 ---
 
 # Neuroendocrine Tumors
@@ -792,6 +801,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NET sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) neuroendocrine tumour cascade.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NET copper: copper, as cofactor of SOD1 in macrophages (already mapped) and endothelial cells (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative tumour cascade of neuroendocrine tumours.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — NET phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and macrophages (already mapped), supports neuroendocrine tumour immune surveillance; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — NET iron: iron, via ferritin in macrophages (already mapped) and fibroblasts (already mapped), modulates redox balance in the neuroendocrine tumour microenvironment; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NET chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the neuroendocrine TME; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NET.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NET sulfur: sulfur-containing amino acids in macrophages (already mapped) and fibroblasts (already mapped) maintain redox buffering; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of neuroendocrine tumors.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
