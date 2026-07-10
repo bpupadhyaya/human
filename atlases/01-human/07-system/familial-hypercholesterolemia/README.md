@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Cardiovascular chronobiology: melatonin has cardioprotective and antioxidant effects, opposing the oxidative LDL modification (xanthine oxidase and NRF2 already mapped) that drives the atherogenesis of FH, and disrupted melatonin rhythm is linked to cardiovascular risk."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "FH testosterone: testosterone, via androgen receptors on hepatocytes (already mapped) and smooth-muscle cells (already mapped), modulates cholesterol (already mapped) metabolism; androgen deficiency amplifies the macrophage (already mapped) foam-cell atherogenesis of FH."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "FH serotonin: serotonin, via 5-HT receptors on smooth-muscle cells (already mapped) and endothelial cells (already mapped), modulates vascular tone; serotonin-driven platelet activation amplifies the atherosclerosis (already mapped) and cardiovascular risk of FH."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "FH prolactin: prolactin, via PRLR on hepatocytes (already mapped) and macrophages (already mapped), modulates cholesterol (already mapped) synthesis and foam-cell formation; hyperprolactinaemia amplifies the dyslipidaemia and atherosclerosis (already mapped) burden of FH."
 ---
 
 # Familial Hypercholesterolemia
@@ -775,6 +784,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Plaque mast-cell effector: mast cells (already mapped) in the atherosclerotic plaque of FH release histamine that destabilises the fibrous cap (collagen already mapped), amplifying the macrophage-foam-cell inflammation and the protease-driven rupture risk.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Tendon and plaque stroma: periostin, secreted by the fibroblasts (already mapped) in the tendon xanthomas and atherosclerotic plaque of FH, reinforces the extracellular matrix of cholesterol-laden deposits and is induced by the atherogenic milieu.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Cardiovascular chronobiology: melatonin has cardioprotective and antioxidant effects, opposing the oxidative LDL modification (xanthine oxidase and NRF2 already mapped) that drives the atherogenesis of FH, and disrupted melatonin rhythm is linked to cardiovascular risk.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — FH testosterone: testosterone, via androgen receptors on hepatocytes (already mapped) and smooth-muscle cells (already mapped), modulates cholesterol (already mapped) metabolism; androgen deficiency amplifies the macrophage (already mapped) foam-cell atherogenesis of FH.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — FH serotonin: serotonin, via 5-HT receptors on smooth-muscle cells (already mapped) and endothelial cells (already mapped), modulates vascular tone; serotonin-driven platelet activation amplifies the atherosclerosis (already mapped) and cardiovascular risk of FH.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — FH prolactin: prolactin, via PRLR on hepatocytes (already mapped) and macrophages (already mapped), modulates cholesterol (already mapped) synthesis and foam-cell formation; hyperprolactinaemia amplifies the dyslipidaemia and atherosclerosis (already mapped) burden of FH.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
