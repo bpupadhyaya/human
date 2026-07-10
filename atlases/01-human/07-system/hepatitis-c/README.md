@@ -522,6 +522,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "HCV iodine: thyroid hormones (iodine-dependent) modulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) antiviral clearance; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation and TGF-β (already mapped) fibrosis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HCV copper: copper, as cofactor of ceruloplasmin in hepatocytes (already mapped) and macrophages (already mapped), modulates oxidative stress; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic fibrosis in HCV."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HCV potassium: potassium regulates hepatocyte (already mapped) and macrophage (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation and fibrosis in HCV."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "HCV calcium: calcium signals hepatocyte (already mapped) and macrophage (already mapped) inflammatory activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic fibrosis in chronic HCV."
 ---
 
 # Hepatitis C
@@ -816,3 +825,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HCV selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and IL-6 (already mapped) mediated hepatic inflammation; selenium deficiency accelerates fibrosis via TGF-β (already mapped) and impairs macrophage (already mapped) antiviral clearance in chronic HCV.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HCV magnesium: magnesium supports hepatocyte (already mapped) ATP synthesis and macrophage (already mapped) anti-inflammatory function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HCV iodine: thyroid hormones (iodine-dependent) modulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) antiviral clearance; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation and TGF-β (already mapped) fibrosis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HCV copper: copper, as cofactor of ceruloplasmin in hepatocytes (already mapped) and macrophages (already mapped), modulates oxidative stress; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic fibrosis in HCV.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HCV potassium: potassium regulates hepatocyte (already mapped) and macrophage (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation and fibrosis in HCV.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HCV calcium: calcium signals hepatocyte (already mapped) and macrophage (already mapped) inflammatory activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic fibrosis in chronic HCV.

@@ -522,6 +522,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "HBV iodine: thyroid hormones (iodine-dependent) modulate natural-killer-cell (already mapped) and T-cytotoxic-cell (already mapped) antiviral activity; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in chronic HBV."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HBV copper: copper, as cofactor of ceruloplasmin in hepatocytes (already mapped) and macrophages (already mapped), modulates oxidative stress; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in HBV."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HBV potassium: potassium regulates hepatocyte (already mapped) and macrophage (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in chronic HBV."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "HBV calcium: calcium signals hepatocyte (already mapped) and macrophage (already mapped) inflammatory activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in chronic HBV."
 ---
 
 # Hepatitis B
@@ -825,3 +834,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HBV selenium: selenoproteins counter NF-κB (already mapped) oxidative stress in HBV-infected hepatocytes (already mapped); selenium deficiency amplifies TNF-α (already mapped) and IL-6 (already mapped) hepatic inflammation and impairs T-cytotoxic-cell (already mapped) clearance.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HBV magnesium: magnesium supports hepatocyte (already mapped) ATP synthesis and macrophage (already mapped) anti-inflammatory function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HBV iodine: thyroid hormones (iodine-dependent) modulate natural-killer-cell (already mapped) and T-cytotoxic-cell (already mapped) antiviral activity; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in chronic HBV.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HBV copper: copper, as cofactor of ceruloplasmin in hepatocytes (already mapped) and macrophages (already mapped), modulates oxidative stress; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in HBV.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HBV potassium: potassium regulates hepatocyte (already mapped) and macrophage (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in chronic HBV.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HBV calcium: calcium signals hepatocyte (already mapped) and macrophage (already mapped) inflammatory activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in chronic HBV.
