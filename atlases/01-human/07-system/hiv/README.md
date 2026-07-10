@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell-histamine axis: histamine, from the mast cells (already mapped) that are HIV reservoirs, modulates the mucosal IgE (already mapped) and the Th2 immune bias contributing to the allergic hypersensitivity and the immune dysregulation of HIV."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Mucosal ECM remodelling: periostin, from gut-epithelial fibroblasts (already mapped) at the disrupted intestinal (already mapped) barrier of HIV, contributes to ECM remodelling of the gut-mucosal immune interface mediating HIV pathogenesis."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "HIV-associated anaemia: erythropoietin corrects the multifactorial anaemia of HIV, driven by direct viral bone-marrow (already mapped) suppression, hepcidin elevation, opportunistic infections and ART toxicity—a major cause of morbidity."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian immune axis: melatonin, whose nocturnal peak is blunted in HIV infection, has immunomodulatory and antioxidant effects that partially counter the chronic immune activation and oxidative stress of HIV."
 ---
 
 # HIV
@@ -794,6 +803,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-mucosal axis: TSLP, from gut-epithelium (gut-microbiome already mapped) disrupted by HIV, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the Th2/Treg (already mapped) bias contributing to HIV immune dysregulation.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-endothelial axis: bradykinin, via the kallikrein-kinin system activated by the HIV-associated endothelial (already mapped) injury and the HIV-associated vasculopathy, amplifies the vascular permeability and the neuroinflammation of HIV infection.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell-histamine axis: histamine, from the mast cells (already mapped) that are HIV reservoirs, modulates the mucosal IgE (already mapped) and the Th2 immune bias contributing to the allergic hypersensitivity and the immune dysregulation of HIV.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Mucosal ECM remodelling: periostin, from gut-epithelial fibroblasts (already mapped) at the disrupted intestinal (already mapped) barrier of HIV, contributes to ECM remodelling of the gut-mucosal immune interface mediating HIV pathogenesis.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — HIV-associated anaemia: erythropoietin corrects the multifactorial anaemia of HIV, driven by direct viral bone-marrow (already mapped) suppression, hepcidin elevation, opportunistic infections and ART toxicity—a major cause of morbidity.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian immune axis: melatonin, whose nocturnal peak is blunted in HIV infection, has immunomodulatory and antioxidant effects that partially counter the chronic immune activation and oxidative stress of HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

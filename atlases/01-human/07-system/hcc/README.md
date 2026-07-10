@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Anaemia of cancer: erythropoietin corrects the cancer-related anaemia (hepcidin already mapped) of hepatocellular carcinoma; EpoR expression on hepatoma cells also modulates a potential direct proliferative signal."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell cirrhotic effector: mast cells (already mapped) in the cirrhotic stroma of HCC release histamine that amplifies VEGF (already mapped)-driven angiogenesis and the Th2-immunosuppressive tumour microenvironment of the HCC niche."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Cirrhotic ECM: periostin, from cancer-associated fibroblasts (already mapped) and the activated hepatic stellate cells of the cirrhotic stroma, promotes myofibroblastic remodelling and the desmoplastic HCC niche."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: C1-esterase inhibitor modulates the classical complement pathway (C3 and C5aR1 already mapped) in the cirrhotic stroma, tempering the complement-driven myeloid recruitment of the HCC microenvironment."
 ---
 
 # Hepatocellular Carcinoma
@@ -785,6 +794,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-tumour axis: TSLP, from cancer-associated fibroblasts (already mapped) and the cirrhotic stroma (liver already mapped), primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 immunosuppressive bias of the HCC microenvironment.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via the kallikrein-kinin system in the cirrhotic and tumour microenvironment, amplifies the vascular permeability and the myeloid (macrophage already mapped) recruitment in hepatocellular carcinoma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia of cancer: erythropoietin corrects the cancer-related anaemia (hepcidin already mapped) of hepatocellular carcinoma; EpoR expression on hepatoma cells also modulates a potential direct proliferative signal.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell cirrhotic effector: mast cells (already mapped) in the cirrhotic stroma of HCC release histamine that amplifies VEGF (already mapped)-driven angiogenesis and the Th2-immunosuppressive tumour microenvironment of the HCC niche.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Cirrhotic ECM: periostin, from cancer-associated fibroblasts (already mapped) and the activated hepatic stellate cells of the cirrhotic stroma, promotes myofibroblastic remodelling and the desmoplastic HCC niche.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-esterase inhibitor modulates the classical complement pathway (C3 and C5aR1 already mapped) in the cirrhotic stroma, tempering the complement-driven myeloid recruitment of the HCC microenvironment.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
