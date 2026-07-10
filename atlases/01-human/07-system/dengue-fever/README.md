@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Dengue vasopressin: vasopressin, via V2R on macrophages (already mapped) and neutrophils (already mapped), modulates vascular fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of dengue fever."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Dengue selenium: selenium, as GPx in macrophages (already mapped) and endothelial cells (already mapped), scavenges NS1-driven ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) vascular-leak cascade of dengue fever."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Dengue iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and endothelial (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) vascular-leak cascade of dengue fever."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Dengue magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and T cells (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the hyperinflammatory vascular-leak cascade of dengue fever."
 ---
 
 # Dengue Fever
@@ -787,3 +796,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Dengue prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune response; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) hyperinflammatory cascade of dengue fever.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Dengue oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates vascular inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) hyperinflammatory cascade of dengue fever.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Dengue vasopressin: vasopressin, via V2R on macrophages (already mapped) and neutrophils (already mapped), modulates vascular fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of dengue fever.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Dengue selenium: selenium, as GPx in macrophages (already mapped) and endothelial cells (already mapped), scavenges NS1-driven ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) vascular-leak cascade of dengue fever.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Dengue iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and endothelial (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) vascular-leak cascade of dengue fever.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Dengue magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and T cells (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the hyperinflammatory vascular-leak cascade of dengue fever.

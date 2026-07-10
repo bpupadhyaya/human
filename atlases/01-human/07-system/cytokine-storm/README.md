@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Cytokine-storm serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the inflammatory tone; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cytokine storm."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Cytokine-storm selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) reactive-oxygen-driven hyperinflammatory cascade of cytokine storm."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Cytokine-storm iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) signalling, worsening the hyperinflammatory tissue-injury cascade of cytokine storm."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Cytokine-storm sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the hyperinflammatory organ-injury cascade of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -766,6 +775,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Cytokine-storm oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the hyperinflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cytokine storm.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Cytokine-storm vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) hyperinflammatory cascade of cytokine storm.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Cytokine-storm serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the inflammatory tone; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cytokine storm.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Cytokine-storm selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) reactive-oxygen-driven hyperinflammatory cascade of cytokine storm.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Cytokine-storm iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) signalling, worsening the hyperinflammatory tissue-injury cascade of cytokine storm.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Cytokine-storm sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the hyperinflammatory organ-injury cascade of cytokine storm.
 
 ## Pathology
 
