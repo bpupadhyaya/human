@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement regulation in bone: factor H limits alternative-pathway activation on the bone-marrow (already mapped) surface and osteoclast (already mapped) progenitors, regulating the complement (complement C5 already mapped) contribution to the bone resorption of osteoporosis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Osteoporosis prolactin: prolactin, via PRLR on osteoblasts (already mapped), modulates bone formation; hyperprolactinaemia suppresses estrogen (already mapped) and testosterone (already mapped), amplifying RANKL (already mapped)-driven osteoclastogenesis of osteoporosis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Osteoporosis oxytocin: oxytocin, via OXTR on osteoblasts (already mapped) and osteoclasts (already mapped), promotes bone formation and inhibits resorption; oxytocin deficiency amplifies RANKL (already mapped) and TNF-α (already mapped) bone loss of osteoporosis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Osteoporosis vasopressin: vasopressin, via V1aR on osteoblasts (already mapped) and osteoclasts (already mapped), modulates bone density; vasopressin dysregulation amplifies RANKL (already mapped) and IL-6 (already mapped) osteoclast resorption of osteoporosis."
 ---
 
 # Osteoporosis
@@ -775,6 +784,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Bone-protective chronobiology: melatonin, produced by bone-marrow (already mapped) stromal cells, acts on MT2 receptors on osteoblasts (already mapped) to stimulate bone formation and inhibit osteoclast (already mapped) resorption, directly opposing the bone loss of osteoporosis.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-bone axis: C1-esterase inhibitor regulates the classical-complement (complement C5 already mapped) activation in the bone microenvironment, tempering complement-driven osteoclast (already mapped) recruitment and the inflammatory bone resorption of osteoporosis.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation in bone: factor H limits alternative-pathway activation on the bone-marrow (already mapped) surface and osteoclast (already mapped) progenitors, regulating the complement (complement C5 already mapped) contribution to the bone resorption of osteoporosis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Bone-remodelling neuroendocrine: prolactin, via PRLR on osteoblasts (already mapped), modulates bone formation; hyperprolactinaemia suppresses estrogen (already mapped) and testosterone (already mapped), amplifying RANKL (already mapped)-driven osteoclastogenesis of osteoporosis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Bone formation promoter: oxytocin, via OXTR on osteoblasts (already mapped) and osteoclasts (already mapped), promotes bone formation and inhibits resorption; oxytocin deficiency amplifies RANKL (already mapped) and TNF-α (already mapped) bone loss of osteoporosis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Bone density modulator: vasopressin, via V1aR on osteoblasts (already mapped) and osteoclasts (already mapped), modulates bone density; vasopressin dysregulation amplifies RANKL (already mapped) and IL-6 (already mapped) osteoclast resorption of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
