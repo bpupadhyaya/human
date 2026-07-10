@@ -520,6 +520,12 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "AML prolactin: prolactin via JAK2/STAT5 on AML blasts promotes leukaemia-cell survival through mTOR (already mapped) and IL-6 (already mapped) crosstalk; prolactin modulates the bone-marrow (already mapped) niche and NF-κB (already mapped) anti-apoptotic expression."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "AML selenium: selenoproteins counter ROS-driven DNA damage in AML blasts and bone-marrow (already mapped) stromal cells; selenium deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) blast proliferation and survival cascade of AML."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "AML iodine: thyroid hormones regulate NK-cell (already mapped) and dendritic-cell (already mapped) anti-leukaemic immunity; thyroid deficiency amplifies IL-6 (already mapped) and STAT3 (already mapped) and mTOR (already mapped) blast survival cascade in the AML bone-marrow niche."
 ---
 
 # AML
@@ -798,6 +804,8 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — AML oxytocin: oxytocin receptor on AML blasts activates cAMP/PKA signalling that attenuates FLT3 (already mapped) and mTOR (already mapped) driven proliferation; oxytocin also modulates NK-cell (already mapped) cytotoxicity against AML in the bone-marrow (already mapped) niche.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AML vasopressin: vasopressin V1A/V1B receptors on AML blasts intersect the IL-6 (already mapped)/STAT3 and mTOR (already mapped) proliferative axes; AVP-mediated calcium signalling amplifies AML blast survival signals in the bone-marrow (already mapped) leukaemic niche.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — AML prolactin: prolactin via JAK2/STAT5 on AML blasts promotes leukaemia-cell survival through mTOR (already mapped) and IL-6 (already mapped) crosstalk; prolactin modulates the bone-marrow (already mapped) niche and NF-κB (already mapped) anti-apoptotic expression.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — AML selenium: selenoproteins counter ROS-driven DNA damage in AML blasts and bone-marrow (already mapped) stromal cells; selenium deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) blast proliferation and survival cascade of AML.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AML iodine: thyroid hormones regulate NK-cell (already mapped) and dendritic-cell (already mapped) anti-leukaemic immunity; thyroid deficiency amplifies IL-6 (already mapped) and STAT3 (already mapped) and mTOR (already mapped) blast survival cascade in the AML bone-marrow niche.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

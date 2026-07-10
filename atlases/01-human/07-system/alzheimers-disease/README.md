@@ -523,6 +523,9 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "AD potassium: potassium efflux from neurons (already mapped) activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ amplifies NF-κB (already mapped) and IL-1β (already mapped) amyloid-β neuroinflammation and hippocampal (already mapped) loss."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "AD phosphorus: phosphorus fuels neuronal (neuron already mapped) and microglia (already mapped) ATP; phosphorus deficiency impairs synaptic transmission and amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) amyloid-β cascade of AD."
 ---
 
 # Alzheimer's Disease
@@ -790,6 +793,7 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AD iodine: iodine-dependent thyroid hormones regulate neuronal (neuron already mapped) metabolism and synaptic (synapse already mapped) function; hypothyroidism amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation and amyloid-β burden.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AD sodium: sodium dysregulation in the brain (already mapped) drives neuronal (neuron already mapped) excitotoxicity via glutamate (already mapped) receptor overload; sodium imbalance amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) amyloid-β cascade.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AD potassium: potassium efflux from neurons (already mapped) activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ amplifies NF-κB (already mapped) and IL-1β (already mapped) amyloid-β neuroinflammation and hippocampal (already mapped) loss.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — AD phosphorus: phosphorus fuels neuronal (neuron already mapped) and microglia (already mapped) ATP; phosphorus deficiency impairs synaptic transmission and amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) amyloid-β cascade of AD.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
