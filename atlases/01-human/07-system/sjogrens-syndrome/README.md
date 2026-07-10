@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Lacrimal-salivary neuromodulator: oxytocin receptors on acinar cells regulate lacrimal and salivary secretory function; oxytocin deficiency contributes to the sicca phenotype and the autonomic-nerve dysfunction of Sjögren's syndrome."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "SjS testosterone: testosterone exerts anti-inflammatory effects via androgen receptor on the salivary and lacrimal-gland-infiltrating lymphocytes; androgen deficiency in females underlies the sex predominance and exocrine-gland vulnerability of Sjögren's syndrome."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "SjS serotonin: serotonin drives neurogenic dysautonomia and glandular secretory dysfunction in Sjögren's syndrome via 5-HT2 receptor-mediated modulation of autonomic innervation; altered serotonin metabolism amplifies the fatigue, pain and depressive symptoms of the disease."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "SjS vasopressin: vasopressin (ADH) regulates aquaporin-4 (already mapped) water transport in salivary and lacrimal glands; in Sjögren's syndrome the inflammatory destruction of glandular parenchyma impairs this vasopressin-driven secretion, worsening the sicca phenotype."
 ---
 
 # Sjögren's Syndrome
@@ -789,6 +798,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian immune modulator: melatonin is reduced in active Sjögren's syndrome; it down-regulates IFN-γ and IL-17A (already mapped) production by autoreactive lymphocytes and exerts cytoprotective effects on the glandular epithelium.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine autoimmune amplifier: prolactin is elevated in a subset of Sjögren's patients and drives B-cell survival and anti-Ro/La autoantibody production (BAFF already mapped), paralleling its pathogenic role in other systemic autoimmune diseases.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Lacrimal-salivary neuromodulator: oxytocin receptors on acinar cells regulate lacrimal and salivary secretory function; oxytocin deficiency contributes to the sicca phenotype and the autonomic-nerve dysfunction of Sjögren's syndrome.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — SjS testosterone: testosterone exerts anti-inflammatory effects via androgen receptor on the salivary and lacrimal-gland-infiltrating lymphocytes; androgen deficiency in females underlies the sex predominance and exocrine-gland vulnerability of Sjögren's syndrome.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — SjS serotonin: serotonin drives neurogenic dysautonomia and glandular secretory dysfunction in Sjögren's syndrome via 5-HT2 receptor-mediated modulation of autonomic innervation; altered serotonin metabolism amplifies the fatigue, pain and depressive symptoms of the disease.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SjS vasopressin: vasopressin (ADH) regulates aquaporin-4 (already mapped) water transport in salivary and lacrimal glands; in Sjögren's syndrome the inflammatory destruction of glandular parenchyma impairs this vasopressin-driven secretion, worsening the sicca phenotype.
 
 ---
 
