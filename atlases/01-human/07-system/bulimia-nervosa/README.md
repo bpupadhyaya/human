@@ -513,6 +513,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "BN copper: copper, via cuproenzymes in neurons (already mapped) and cardiomyocytes (already mapped), modulates the dopaminergic neurotransmission; copper deficiency amplifies the serotonin (already mapped) and dopamine (already mapped) reward dysregulation of bulimia nervosa."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "BN iron: iron deficiency causes anaemia and impairs dopamine (already mapped) and serotonin (already mapped) neurotransmitter synthesis in neurons (already mapped); iron dysregulation amplifies the cortisol (already mapped) and IL-6 (already mapped) cascade of bulimia nervosa."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "BN zinc: zinc, as cofactor of digestive enzymes in stomach (already mapped) and neurons (already mapped), modulates appetite signalling; zinc deficiency amplifies the dopamine (already mapped) and serotonin (already mapped) reward dysregulation of bulimia nervosa."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "BN sulfur: sulfur, as substrate for glutathione synthesis in neurons (already mapped) and microglia (already mapped), scavenges ROS driving neuroinflammation; sulfur deficiency amplifies the serotonin (already mapped) and IL-6 (already mapped) cascade of bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -807,6 +816,9 @@ All of the following must be met:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — BN selenium: selenium, via selenoproteins in neurons (already mapped) and microglia (already mapped), attenuates oxidative neuroinflammation; selenium deficiency amplifies the serotonin (already mapped) and dopamine (already mapped) dysregulation of bulimia nervosa.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — BN iodine: iodine, via thyroid hormones (already mapped) on neurons (already mapped) and stomach (already mapped), modulates metabolic signalling; iodine deficiency amplifies the dopamine (already mapped) and serotonin (already mapped) reward dysregulation of bulimia nervosa.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — BN copper: copper, via cuproenzymes in neurons (already mapped) and cardiomyocytes (already mapped), modulates the dopaminergic neurotransmission; copper deficiency amplifies the serotonin (already mapped) and dopamine (already mapped) reward dysregulation of bulimia nervosa.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — BN iron: iron deficiency causes anaemia and impairs dopamine (already mapped) and serotonin (already mapped) neurotransmitter synthesis in neurons (already mapped); iron dysregulation amplifies the cortisol (already mapped) and IL-6 (already mapped) cascade of bulimia nervosa.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — BN zinc: zinc, as cofactor of digestive enzymes in stomach (already mapped) and neurons (already mapped), modulates appetite signalling; zinc deficiency amplifies the dopamine (already mapped) and serotonin (already mapped) reward dysregulation of bulimia nervosa.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — BN sulfur: sulfur, as substrate for glutathione synthesis in neurons (already mapped) and microglia (already mapped), scavenges ROS driving neuroinflammation; sulfur deficiency amplifies the serotonin (already mapped) and IL-6 (already mapped) cascade of bulimia nervosa.
 
 ## Treatment
 

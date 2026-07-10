@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Bloom prolactin: prolactin, via PRLR on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates antitumour immune surveillance; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) immune cascade of Bloom syndrome."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Bloom oxytocin: oxytocin, via OXTR on macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates the antitumour immune cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) tumour-promoting cascade of Bloom syndrome."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Bloom vasopressin: vasopressin, via V1aR on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates antitumour immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) tumour-promoting cascade of Bloom syndrome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Bloom selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS driving genomic instability; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) tumour-promoting cascade of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -813,6 +822,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Bloom testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Bloom syndrome.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Bloom serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates antitumour immunity; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Bloom syndrome.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Bloom prolactin: prolactin, via PRLR on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates antitumour immune surveillance; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) immune cascade of Bloom syndrome.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Bloom oxytocin: oxytocin, via OXTR on macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates the antitumour immune cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) tumour-promoting cascade of Bloom syndrome.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Bloom vasopressin: vasopressin, via V1aR on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates antitumour immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) tumour-promoting cascade of Bloom syndrome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Bloom selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS driving genomic instability; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) tumour-promoting cascade of Bloom syndrome.
 
 ---
 
