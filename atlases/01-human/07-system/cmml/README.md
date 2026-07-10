@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell/basophil marrow: histamine, from mast cells (already mapped) and basophils of the CMML myeloid output, amplifies the vascular permeability and the inflammatory milieu of the CMML marrow microenvironment."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-myeloid axis: melatonin, via MT1/MT2 receptors on CMML myeloid progenitors and monocytes (already mapped), modulates the inflammatory cytokine milieu (TNF-alpha and IL-6 already mapped) of the clonal myeloproliferation of CMML."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-myeloid axis: testosterone, via androgen receptors on myeloid cells (already mapped) and marrow stromal cells, modulates the sex-differential CMML incidence (higher in males) and the myeloproliferative inflammatory marrow niche."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immunomodulatory prolactin: prolactin, via PRL receptors on monocytes (already mapped) and T cells (already mapped), modulates the myeloid cytokine amplification and the immune dysregulation of the chronic myelomonocytic leukaemia."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -777,6 +786,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-marrow axis: TSLP, from marrow stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the inflammatory myelomonocytic marrow microenvironment of CMML.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and monocytic cells, amplifies the vascular permeability and the inflammatory cytokine milieu of the chronic myelomonocytic leukaemia marrow.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell/basophil marrow: histamine, from mast cells (already mapped) and basophils of the CMML myeloid output, amplifies the vascular permeability and the inflammatory milieu of the CMML marrow microenvironment.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-myeloid axis: melatonin, via MT1/MT2 receptors on CMML myeloid progenitors and monocytes (already mapped), modulates the inflammatory cytokine milieu (TNF-alpha and IL-6 already mapped) of the clonal myeloproliferation of CMML.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-myeloid axis: testosterone, via androgen receptors on myeloid cells (already mapped) and marrow stromal cells, modulates the sex-differential CMML incidence (higher in males) and the myeloproliferative inflammatory marrow niche.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunomodulatory prolactin: prolactin, via PRL receptors on monocytes (already mapped) and T cells (already mapped), modulates the myeloid cytokine amplification and the immune dysregulation of the chronic myelomonocytic leukaemia.
 
 ---
 
