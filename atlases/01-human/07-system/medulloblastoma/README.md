@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Cerebellar neuromodulator: serotonin, via 5-HT3 receptors on cerebellar granule cells (already mapped), modulates the neuronal signalling of the medulloblastoma microenvironment; 5-HT3-driven nausea from craniospinal radiation (already mapped) is a major treatment morbidity."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Medulloblastoma prolactin neuro-immune: prolactin, via PRLR on tumour-associated macrophages (already mapped) and mast cells (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in the paediatric medulloblastoma microenvironment."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Medulloblastoma oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in the medulloblastoma cerebellar microenvironment."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Medulloblastoma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in medulloblastoma."
 ---
 
 # Medulloblastoma
@@ -793,6 +802,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antitumour melatonin: melatonin, via MT1/MT2 receptors on medulloblastoma cells and the cerebellar tumour vasculature (already mapped), suppresses SHH-pathway (already mapped) proliferation and VEGF-driven (already mapped) angiogenesis in paediatric medulloblastoma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-SHH axis: testosterone, via androgen receptor on SHH-subgroup (already mapped) medulloblastoma cells, modulates the hedgehog proliferative pathway (already mapped) and the sex-dimorphic vulnerability to medulloblastoma in the paediatric posterior fossa.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Cerebellar neuromodulator: serotonin, via 5-HT3 receptors on cerebellar granule cells (already mapped), modulates the neuronal signalling of the medulloblastoma microenvironment; 5-HT3-driven nausea from craniospinal radiation (already mapped) is a major treatment morbidity.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Medulloblastoma prolactin neuro-immune: prolactin, via PRLR on tumour-associated macrophages (already mapped) and mast cells (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in the paediatric medulloblastoma microenvironment.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Medulloblastoma oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in the medulloblastoma cerebellar microenvironment.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Medulloblastoma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in medulloblastoma.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

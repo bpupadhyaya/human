@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Cardioprotective neuropeptide: oxytocin, via OXT-R on Marfan cardiomyocytes (already mapped) and endothelial cells (already mapped), activates PI3K/Akt (already mapped) cardioprotection and attenuates the mitral-valve prolapse and cardiac arrhythmia burden of Marfan syndrome."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Marfan vasopressin cardiac: vasopressin, via V1aR on aortic smooth muscle cells (already mapped) and macrophages (already mapped), modulates vascular tone; dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) aortic remodelling in Marfan syndrome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Marfan selenium antioxidant: selenium, via GPx/TrxR selenoproteins in Marfan endothelial cells (already mapped) and macrophages (already mapped), quenches oxidative stress that amplifies TGF-β (already mapped) and NF-κB (already mapped) matrix remodelling in Marfan syndrome."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Marfan iodine thyroid: iodine, the key substrate for thyroid hormone biosynthesis, supports fibroblast (already mapped) and smooth muscle (already mapped) matrix homeostasis; iodine insufficiency amplifies TGF-β (already mapped) and NF-κB (already mapped) remodelling in Marfan."
 ---
 
 # Marfan Syndrome
@@ -802,6 +811,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-aortic axis: testosterone, via androgen receptor on aortic smooth muscle cells (already mapped), modulates TGF-β (already mapped) and NF-κB (already mapped) in the fibrillin-1-deficient Marfan aortic wall, contributing to the sex-dimorphic aortic-dilatation risk.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Perinatal cardiovascular risk: prolactin, elevated in pregnancy, signals via PRL-R on Marfan cardiovascular fibroblasts (already mapped) and endothelial cells (already mapped), potentiating aortic-root dilatation and regurgitation risk in pregnant Marfan syndrome patients.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Cardioprotective neuropeptide: oxytocin, via OXT-R on Marfan cardiomyocytes (already mapped) and endothelial cells (already mapped), activates PI3K/Akt (already mapped) cardioprotection and attenuates the mitral-valve prolapse and cardiac arrhythmia burden of Marfan syndrome.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Marfan vasopressin cardiac: vasopressin, via V1aR on aortic smooth muscle cells (already mapped) and macrophages (already mapped), modulates vascular tone; dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) aortic remodelling in Marfan syndrome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Marfan selenium antioxidant: selenium, via GPx/TrxR selenoproteins in Marfan endothelial cells (already mapped) and macrophages (already mapped), quenches oxidative stress that amplifies TGF-β (already mapped) and NF-κB (already mapped) matrix remodelling in Marfan syndrome.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Marfan iodine thyroid: iodine, the key substrate for thyroid hormone biosynthesis, supports fibroblast (already mapped) and smooth muscle (already mapped) matrix homeostasis; iodine insufficiency amplifies TGF-β (already mapped) and NF-κB (already mapped) remodelling in Marfan.
 
 ---
 
