@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "CF vasopressin: vasopressin, via V2R on macrophages (already mapped) and mast cells (already mapped), modulates airway fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophilic cascade of cystic fibrosis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "CF serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates airway inflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of cystic fibrosis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "CF selenium: selenium, as GPx in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) oxidative neutrophilic cascade of cystic fibrosis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "CF iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and airway epithelial (already mapped) repair; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) CF airway cascade."
 ---
 
 # Cystic Fibrosis
@@ -803,6 +812,9 @@ AND
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CF prolactin: prolactin, via PRLR on macrophages (already mapped) and neutrophils (already mapped), modulates the airway inflammation; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of cystic fibrosis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CF oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neutrophils (already mapped), attenuates airway inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of cystic fibrosis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CF vasopressin: vasopressin, via V2R on macrophages (already mapped) and mast cells (already mapped), modulates airway fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophilic cascade of cystic fibrosis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CF serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates airway inflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of cystic fibrosis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CF selenium: selenium, as GPx in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) oxidative neutrophilic cascade of cystic fibrosis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CF iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and airway epithelial (already mapped) repair; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) CF airway cascade.
 
 ---
 

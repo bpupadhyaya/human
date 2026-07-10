@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Cowden prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Cowden oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the PTEN-hamartoma TME inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Cowden vasopressin: vasopressin, via V1aR on mast cells (already mapped) and endothelium (already mapped), modulates the hamartoma vascular milieu; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Cowden sodium: high dietary sodium promotes Th17 polarisation and disrupts T-cytotoxic (already mapped) immune tolerance; sodium-induced NF-κB and IL-6 (already mapped) skewing amplifies the mast-cell (already mapped) cascade of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -855,6 +864,9 @@ cross_links:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Cowden testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of Cowden syndrome.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Cowden serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of Cowden syndrome.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Cowden prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of Cowden syndrome.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Cowden oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the PTEN-hamartoma TME inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of Cowden syndrome.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Cowden vasopressin: vasopressin, via V1aR on mast cells (already mapped) and endothelium (already mapped), modulates the hamartoma vascular milieu; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Cowden sodium: high dietary sodium promotes Th17 polarisation and disrupts T-cytotoxic (already mapped) immune tolerance; sodium-induced NF-κB and IL-6 (already mapped) skewing amplifies the mast-cell (already mapped) cascade of Cowden syndrome.
 
 ---
 
