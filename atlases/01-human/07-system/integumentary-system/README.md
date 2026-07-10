@@ -512,6 +512,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "IS phosphorus: phosphorus supports ATP-driven synthesis of collagen (already mapped) by fibroblasts (already mapped) and keratinocyte integrity; hypophosphataemia impairs skin (already mapped) wound-healing (already mapped) and amplifies NF-κB (already mapped) inflammation."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "IS chloride: chloride, via ion channels in macrophages (already mapped) and mast cells (already mapped), maintains epidermal homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the integumentary system."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "IS nitrogen: nitrogen, as backbone of collagen (already mapped) in fibroblasts (already mapped) and skin (already mapped), supports structural integrity; nitrogen deficiency impairs wound-healing (already mapped) and amplifies the IL-6 (already mapped) inflammatory cascade."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "IS carbon: carbon, forming the backbone of ceramide lipids and melanin in skin (already mapped) and fibroblasts (already mapped), maintains epidermal barrier; carbon-skeleton insufficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) skin-barrier cascade."
 ---
 
 # Integumentary System
@@ -782,6 +791,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IS iodine: thyroid-hormone signalling drives keratinocyte differentiation and skin (already mapped) barrier integrity; iodine deficiency impairs wound-healing (already mapped) via NF-κB (already mapped) and IL-6 (already mapped) mediated fibroblast (already mapped) dysfunction.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IS potassium: potassium channels regulate keratinocyte proliferation and skin (already mapped) barrier; potassium imbalance disrupts NF-κB (already mapped) and IL-6 (already mapped) mediated mast-cell (already mapped) responses and impairs collagen (already mapped) deposition.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IS phosphorus: phosphorus supports ATP-driven synthesis of collagen (already mapped) by fibroblasts (already mapped) and keratinocyte integrity; hypophosphataemia impairs skin (already mapped) wound-healing (already mapped) and amplifies NF-κB (already mapped) inflammation.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IS chloride: chloride, via ion channels in macrophages (already mapped) and mast cells (already mapped), maintains epidermal homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the integumentary system.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IS nitrogen: nitrogen, as backbone of collagen (already mapped) in fibroblasts (already mapped) and skin (already mapped), supports structural integrity; nitrogen deficiency impairs wound-healing (already mapped) and amplifies the IL-6 (already mapped) inflammatory cascade.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IS carbon: carbon, forming the backbone of ceramide lipids and melanin in skin (already mapped) and fibroblasts (already mapped), maintains epidermal barrier; carbon-skeleton insufficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) skin-barrier cascade.
 
 ## Pathology
 
