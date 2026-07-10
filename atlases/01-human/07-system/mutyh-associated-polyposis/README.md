@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Colonic inflammation: bradykinin activates B2 receptors in the MAP colorectal mucosa (intestinal-epithelium already mapped), amplifying the prostaglandin (already mapped) and NF-kB (already mapped) inflammation of the MUTYH-deficient polyposis stroma and colonic pain."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Colonic complement regulation: C1-INH controls the classical and alternative complement pathways (complement C5 already mapped) in the MUTYH-associated polyposis tumour microenvironment, modulating complement-dependent cytotoxicity against MAP colorectal adenoma cells."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell histamine in polyposis: histamine from the mast cells infiltrating the MAP colorectal polyp stroma promotes VEGF (already mapped) angiogenesis and prostaglandin (already mapped) inflammation of the MUTYH-deficient adenoma mucosa."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Polyposis stroma periostin: periostin secreted by MAP cancer-associated fibroblasts and downstream of TGF-β (already mapped) activates the integrin-AKT (already mapped) pathway, promoting the MUTYH-deficient colorectal adenoma-to-carcinoma invasive progression."
 ---
 
 # MUTYH-Associated Polyposis
@@ -756,6 +765,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Colorectal mucosal alarmin: TSLP from the MAP intestinal epithelium (already mapped) activates dendritic cells and mast cells, driving the inflammatory stroma of MUTYH-deficient polyposis and the adenoma-carcinoma progression to colorectal cancer (already mapped).
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Bleeding anaemia: erythropoietin supports erythropoiesis in the iron-deficiency anaemia from the chronic occult blood loss of the multiple adenomas of MAP; EPO is used adjunctively in MAP patients undergoing repeated colonoscopy and polypectomy for polyp surveillance.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Colonic inflammation: bradykinin activates B2 receptors in the MAP colorectal mucosa (intestinal-epithelium already mapped), amplifying the prostaglandin (already mapped) and NF-kB (already mapped) inflammation of the MUTYH-deficient polyposis stroma and colonic pain.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Colonic complement regulation: C1-INH controls the classical and alternative complement pathways (complement C5 already mapped) in the MUTYH-associated polyposis tumour microenvironment, modulating complement-dependent cytotoxicity against MAP colorectal adenoma cells.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine in polyposis: histamine from the mast cells infiltrating the MAP colorectal polyp stroma promotes VEGF (already mapped) angiogenesis and prostaglandin (already mapped) inflammation of the MUTYH-deficient adenoma mucosa.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Polyposis stroma periostin: periostin secreted by MAP cancer-associated fibroblasts and downstream of TGF-β (already mapped) activates the integrin-AKT (already mapped) pathway, promoting the MUTYH-deficient colorectal adenoma-to-carcinoma invasive progression.
 
 ---
 

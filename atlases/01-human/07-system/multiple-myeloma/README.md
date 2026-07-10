@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Bone marrow ECM: periostin in the myeloma bone-marrow stroma, downstream of TGF-β (already mapped), promotes integrin αV-mediated plasma-cell (already mapped) homing and adhesion-mediated drug resistance; elevated myeloma-stroma periostin correlates with disease progression."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Myeloma bone pain: bradykinin, via B2 receptor, amplifies prostaglandin (already mapped) and VEGF-driven (already mapped) bone pain and osteolysis in the myeloma bone microenvironment; kinins enhance osteoclast (already mapped) activation in myeloma bone lesions."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Myeloma complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the myeloma bone-marrow microenvironment, complementing factor H (already mapped) to limit complement-mediated bystander lysis of bone-marrow stromal cells."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Anti-myeloma melatonin: melatonin, via MT1 receptors on plasma cells (already mapped), triggers mitochondrial apoptosis (caspase-3 already mapped), reduces IL-6 (already mapped) signalling and augments NK-cell (already mapped) cytotoxicity against multiple myeloma."
 ---
 
 # Multiple Myeloma
@@ -776,6 +785,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Bone marrow stroma alarmin: TSLP from bone-marrow stromal cells promotes the plasma-cell (already mapped) survival and IMiD-resistance in multiple myeloma; TSLP-driven STAT3 (already mapped) signalling augments the bone-marrow niche support for the malignant plasma-cell clone.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell angiogenesis: histamine from the bone-marrow mast cells promotes VEGF (already mapped) angiogenesis and osteoclast activation in myeloma; H2 receptor signalling amplifies the NF-kB (already mapped) survival axis of the malignant plasma cells (already mapped).
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Bone marrow ECM: periostin in the myeloma bone-marrow stroma, downstream of TGF-β (already mapped), promotes integrin αV-mediated plasma-cell (already mapped) homing and adhesion-mediated drug resistance; elevated myeloma-stroma periostin correlates with disease progression.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Myeloma bone pain: bradykinin, via B2 receptor, amplifies prostaglandin (already mapped) and VEGF-driven (already mapped) bone pain and osteolysis in the myeloma bone microenvironment; kinins enhance osteoclast (already mapped) activation in myeloma bone lesions.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Myeloma complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the myeloma bone-marrow microenvironment, complementing factor H (already mapped) to limit complement-mediated bystander lysis of bone-marrow stromal cells.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Anti-myeloma melatonin: melatonin, via MT1 receptors on plasma cells (already mapped), triggers mitochondrial apoptosis (caspase-3 already mapped), reduces IL-6 (already mapped) signalling and augments NK-cell (already mapped) cytotoxicity against multiple myeloma.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
