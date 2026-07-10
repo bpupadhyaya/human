@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the tumour-promoting inflammatory milieu of the Carney-complex tumour microenvironment."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Carney serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the neuroendocrine TME; serotonin dysregulation amplifies the NF-κB (already mapped) and ACTH (already mapped) hormonal cascade of Carney complex."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Carney oxytocin: oxytocin, via OXTR on macrophages (already mapped) and endothelial cells (already mapped), attenuates neuroendocrine tumour inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and ACTH (already mapped) tumour cascade of Carney complex."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Carney vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates adrenal vascular tone; vasopressin dysregulation amplifies the ACTH (already mapped) and cortisol (already mapped) hormonal cascade of Carney complex."
 ---
 
 # Carney Complex
@@ -785,6 +794,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell myxoma axis: histamine, from mast cells (already mapped) in the cardiac myxoma and the skin tumour stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the Carney-complex tumours.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-cAMP axis: melatonin, via MT1/MT2 receptors on PRKAR1A-deficient (already mapped) tumour cells, modulates the cAMP/PKA (already mapped) signalling and the circadian disruption of the neuroendocrine tumours of Carney complex.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the tumour-promoting inflammatory milieu of the Carney-complex tumour microenvironment.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Carney serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the neuroendocrine TME; serotonin dysregulation amplifies the NF-κB (already mapped) and ACTH (already mapped) hormonal cascade of Carney complex.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Carney oxytocin: oxytocin, via OXTR on macrophages (already mapped) and endothelial cells (already mapped), attenuates neuroendocrine tumour inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and ACTH (already mapped) tumour cascade of Carney complex.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Carney vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates adrenal vascular tone; vasopressin dysregulation amplifies the ACTH (already mapped) and cortisol (already mapped) hormonal cascade of Carney complex.
 
 ---
 

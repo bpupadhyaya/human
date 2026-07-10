@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-lymphoma axis: testosterone, via androgen receptors on tumour B-cells (already mapped) and stromal cells, modulates the sex-differential incidence and the immunosuppressive microenvironment of Burkitt lymphoma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Burkitt serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the lymphoma TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) proliferative cascade of Burkitt lymphoma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Burkitt prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), promotes lymphoma immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Burkitt lymphoma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Burkitt oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates lymphoma TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -798,6 +807,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell lymphoma axis: histamine, from mast cells (already mapped) in the Burkitt-lymphoma microenvironment, amplifies the MYC-driven (already mapped) angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the tumour stroma.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-lymphoma axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the oxidative stress of the MYC-driven (already mapped) rapid proliferation and the genomic instability of Burkitt lymphoma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-lymphoma axis: testosterone, via androgen receptors on tumour B-cells (already mapped) and stromal cells, modulates the sex-differential incidence and the immunosuppressive microenvironment of Burkitt lymphoma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Burkitt serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the lymphoma TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) proliferative cascade of Burkitt lymphoma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Burkitt prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), promotes lymphoma immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Burkitt lymphoma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Burkitt oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates lymphoma TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Burkitt lymphoma.
 
 ---
 
