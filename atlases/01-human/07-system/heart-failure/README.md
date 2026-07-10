@@ -514,6 +514,24 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "HF selenium: glutathione peroxidase (selenium-dependent) protects cardiomyocytes (already mapped) from NF-κB (already mapped) oxidative stress; selenium deficiency impairs myocardial (already mapped) function and amplifies TNF-α (already mapped) cardiac inflammation."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "HF zinc: zinc cofactors NRF2 (already mapped) antioxidant defence in cardiomyocytes (already mapped); zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) cardiac inflammation and impairs myocardial (already mapped) mitochondrial ATP synthesis in HF."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HF copper: copper, via SOD2 in cardiomyocytes (already mapped), scavenges mitochondrial ROS; copper dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and impairs myocardial (already mapped) contractility in HF."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HF iodine: thyroid hormones (iodine-dependent) regulate myocardial (already mapped) contractility and heart rate; iodine deficiency impairs cardiac output and amplifies NF-κB (already mapped) and endothelin-1 (already mapped) neurohormonal activation in heart failure."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HF phosphorus: phosphorus fuels cardiomyocyte (already mapped) ATP and creatine-phosphate stores; phosphorus deficiency impairs myocardial (already mapped) contractility and amplifies NF-κB (already mapped) and IL-6 (already mapped) neurohormonal activation in HF."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HF nitrogen: nitric oxide (eNOS nitrogen) regulates cardiomyocyte (already mapped) contractility and myocardial (already mapped) vasodilation; nitric-oxide deficiency amplifies NF-κB (already mapped) and endothelin-1 (already mapped) vasoconstriction in heart failure."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HF chloride: chloride channels in cardiomyocytes (already mapped) modulate cell volume and action potential; chloride dysregulation amplifies NF-κB (already mapped) and aldosterone (already mapped) volume overload and IL-6 (already mapped) cardiac inflammation in HF."
 ---
 
 # Heart Failure
@@ -752,6 +770,12 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HF oxytocin: oxytocin suppresses NF-κB (already mapped) driven IL-6 (already mapped) and TNF-α (already mapped) cardiac inflammation in heart failure; oxytocin attenuates angiotensin-II (already mapped) cardiac hypertrophy and norepinephrine (already mapped) cardiotoxicity.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HF prolactin: 16-kDa prolactin drives VEGF (already mapped) microvasculature rarefaction; prolactin activates NF-κB (already mapped) in cardiomyocytes (already mapped) and amplifies endothelin-1 (already mapped) vasoconstriction in peripartum cardiomyopathy.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HF selenium: glutathione peroxidase (selenium-dependent) protects cardiomyocytes (already mapped) from NF-κB (already mapped) oxidative stress; selenium deficiency impairs myocardial (already mapped) function and amplifies TNF-α (already mapped) cardiac inflammation.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HF zinc: zinc cofactors NRF2 (already mapped) antioxidant defence in cardiomyocytes (already mapped); zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) cardiac inflammation and impairs myocardial (already mapped) mitochondrial ATP synthesis in HF.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HF copper: copper, via SOD2 in cardiomyocytes (already mapped), scavenges mitochondrial ROS; copper dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and impairs myocardial (already mapped) contractility in HF.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HF iodine: thyroid hormones (iodine-dependent) regulate myocardial (already mapped) contractility and heart rate; iodine deficiency impairs cardiac output and amplifies NF-κB (already mapped) and endothelin-1 (already mapped) neurohormonal activation in heart failure.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HF phosphorus: phosphorus fuels cardiomyocyte (already mapped) ATP and creatine-phosphate stores; phosphorus deficiency impairs myocardial (already mapped) contractility and amplifies NF-κB (already mapped) and IL-6 (already mapped) neurohormonal activation in HF.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HF nitrogen: nitric oxide (eNOS nitrogen) regulates cardiomyocyte (already mapped) contractility and myocardial (already mapped) vasodilation; nitric-oxide deficiency amplifies NF-κB (already mapped) and endothelin-1 (already mapped) vasoconstriction in heart failure.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HF chloride: chloride channels in cardiomyocytes (already mapped) modulate cell volume and action potential; chloride dysregulation amplifies NF-κB (already mapped) and aldosterone (already mapped) volume overload and IL-6 (already mapped) cardiac inflammation in HF.
 
 ## Pathology
 

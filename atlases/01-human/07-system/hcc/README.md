@@ -517,6 +517,9 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "HCC selenium: selenium, via GPx and NRF2 (already mapped) antioxidant systems, suppresses ROS-driven NF-κB (already mapped) and STAT3 (already mapped) hepatocarcinogenesis; selenium attenuates VEGF (already mapped) angiogenesis and apoptotic resistance of HCC."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "HCC zinc: zinc cofactors NRF2 (already mapped) antioxidant defence and macrophage (already mapped) anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and STAT3 (already mapped)-driven hepatocellular proliferation and VEGF (already mapped) angiogenesis in HCC."
 ---
 
 # Hepatocellular Carcinoma
@@ -821,6 +824,7 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HCC oxytocin: oxytocin, via OXTR on hepatocytes and macrophages (already mapped), suppresses NF-κB (already mapped) and STAT3 (already mapped) oncogenic signalling; oxytocin attenuates mTOR (already mapped) HCC proliferation and VEGF (already mapped) angiogenesis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HCC vasopressin: vasopressin, via V1aR on hepatocytes (already mapped), modulates NF-κB (already mapped) and STAT3 (already mapped) hepatic oncogenic signalling; vasopressin amplifies IL-6 (already mapped) and mTOR (already mapped) tumour-proliferative milieu of HCC.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HCC selenium: selenium, via GPx and NRF2 (already mapped) antioxidant systems, suppresses ROS-driven NF-κB (already mapped) and STAT3 (already mapped) hepatocarcinogenesis; selenium attenuates VEGF (already mapped) angiogenesis and apoptotic resistance of HCC.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HCC zinc: zinc cofactors NRF2 (already mapped) antioxidant defence and macrophage (already mapped) anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and STAT3 (already mapped)-driven hepatocellular proliferation and VEGF (already mapped) angiogenesis in HCC.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
