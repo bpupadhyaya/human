@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Pancreatic neuroendocrine serotonin: serotonin co-produced by serotonin-secreting pancreatic neuroendocrine cells modulates cAMP-PKA signalling; elevated 5-HIAA in KRAS (already mapped)-driven tumours reflects neuroendocrine differentiation in pancreatic cancer."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Pancreatic cancer prolactin: prolactin via JAK2/STAT3 (already mapped) activates pancreatic cancer cells and tumour-associated macrophages (already mapped), augmenting NF-κB (already mapped)-driven desmoplastic stroma and mTOR (already mapped) pro-proliferative signalling."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Pancreatic cancer oxytocin: oxytocin receptors on pancreatic cancer cells and stellate cells couple to Gαq-PKC, cross-activating KRAS (already mapped) and mTOR (already mapped) signalling to promote desmoplastic stroma remodelling and cancer cell invasion."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Pancreatic cancer vasopressin: vasopressin via V1a receptors on pancreatic cancer stroma activates Gαq-PKC signalling, promoting VEGF (already mapped)-driven tumour angiogenesis and NF-κB (already mapped)-mediated cancer-associated fibroblast (already mapped) activation."
 ---
 
 # Pancreatic Cancer
@@ -791,6 +800,9 @@ cross_links:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Pancreatic cancer melatonin: melatonin inhibits KRAS (already mapped)-driven pancreatic cancer proliferation by suppressing the mTOR (already mapped) and Wnt/β-catenin (already mapped) pathways via MT1/MT2-mediated cAMP reduction, counteracting the desmoplastic stroma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Pancreatic cancer androgen axis: testosterone via androgen receptor modulates pancreatic stellate-cell (already mapped) activation and the desmoplastic stroma, and AR signalling intersects the KRAS (already mapped) and mTOR (already mapped) growth pathways in pancreatic cancer.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Pancreatic neuroendocrine serotonin: serotonin co-produced by serotonin-secreting pancreatic neuroendocrine cells modulates cAMP-PKA signalling; elevated 5-HIAA in KRAS (already mapped)-driven tumours reflects neuroendocrine differentiation in pancreatic cancer.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Pancreatic cancer prolactin: prolactin via JAK2/STAT3 (already mapped) activates pancreatic cancer cells and tumour-associated macrophages (already mapped), augmenting NF-κB (already mapped)-driven desmoplastic stroma and mTOR (already mapped) pro-proliferative signalling.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Pancreatic cancer oxytocin: oxytocin receptors on pancreatic cancer cells and stellate cells couple to Gαq-PKC, cross-activating KRAS (already mapped) and mTOR (already mapped) signalling to promote desmoplastic stroma remodelling and cancer cell invasion.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Pancreatic cancer vasopressin: vasopressin via V1a receptors on pancreatic cancer stroma activates Gαq-PKC signalling, promoting VEGF (already mapped)-driven tumour angiogenesis and NF-κB (already mapped)-mediated cancer-associated fibroblast (already mapped) activation.
 
 ---
 
