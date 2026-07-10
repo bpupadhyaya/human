@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "RTS serotonin: serotonin via 5-HT2A receptors on RECQL4-deficient skin and immune cells modulates the mast-cell activation (histamine already mapped) and the UV-photosensitivity inflammatory cascade, contributing to the pruritus and erythema of Rothmund-Thomson poikiloderma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "RTS oxytocin: oxytocin modulates skin immune homeostasis and mast-cell (histamine already mapped) regulation, reducing the inflammatory poikiloderma cascade in RECQL4-deficient skin; oxytocin-receptor signalling on keratinocytes intersects the UV-photoprotection axis of RTS."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "RTS vasopressin: vasopressin via V1aR on immune and skin endothelial cells modulates the HPA-axis stress-response and mast-cell (histamine already mapped) degranulation driving the vascular permeability and erythema of the Rothmund-Thomson poikiloderma cascade."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "RTS prolactin: prolactin via JAK2/STAT5 signalling on RECQL4-deficient skin cells and osteoblasts (osteosarcoma already mapped) promotes immune activation and mast-cell (histamine already mapped)-driven inflammatory cascade of the Rothmund-Thomson skin and bone phenotype."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -800,6 +809,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — RTS melatonin: melatonin, as a powerful antioxidant, quenches the ROS burden (xanthine-oxidase already mapped) in RECQL4-deficient skin, reducing UV-induced DNA damage and the inflammatory poikiloderma cascade of Rothmund-Thomson syndrome.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — RTS androgen axis: testosterone via androgen receptor on RECQL4-deficient osteoblasts and skin cells modulates the bone mineral density (osteosarcoma risk already mapped) and immune-surveillance of the skin in Rothmund-Thomson syndrome.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — RTS serotonin: serotonin via 5-HT2A receptors on RECQL4-deficient skin and immune cells modulates the mast-cell activation (histamine already mapped) and the UV-photosensitivity inflammatory cascade, contributing to the pruritus and erythema of Rothmund-Thomson poikiloderma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — RTS oxytocin: oxytocin modulates skin immune homeostasis and mast-cell (histamine already mapped) regulation, reducing the inflammatory poikiloderma cascade in RECQL4-deficient skin; oxytocin-receptor signalling on keratinocytes intersects the UV-photoprotection axis of RTS.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — RTS vasopressin: vasopressin via V1aR on immune and skin endothelial cells modulates the HPA-axis stress-response and mast-cell (histamine already mapped) degranulation driving the vascular permeability and erythema of the Rothmund-Thomson poikiloderma cascade.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — RTS prolactin: prolactin via JAK2/STAT5 signalling on RECQL4-deficient skin cells and osteoblasts (osteosarcoma already mapped) promotes immune activation and mast-cell (histamine already mapped)-driven inflammatory cascade of the Rothmund-Thomson skin and bone phenotype.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

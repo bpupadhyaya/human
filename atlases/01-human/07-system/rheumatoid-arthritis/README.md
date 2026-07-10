@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "RA magnesium: magnesium deficiency amplifies the IL-1β (already mapped) and TNF-α (already mapped) synovial inflammation in rheumatoid arthritis; magnesium is also required for matrix-metalloproteinase activity and cartilage proteoglycan synthesis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "RA iodine: iodine-dependent thyroid hormones modulate the Th1/Th17 (IL-17A already mapped) and Treg balance that governs the autoimmune synovitis of rheumatoid arthritis; hypothyroidism (autoimmune-thyroid comorbidity) amplifies RA inflammation via TNF-α (already mapped)."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "RA sodium: sodium-driven osmotic Th17 polarisation amplifies the IL-17A (already mapped) and IL-23 (already mapped)-driven synovial inflammation of rheumatoid arthritis; high-salt diet promotes Th17/Treg imbalance and NF-κB (already mapped)-mediated synoviocyte activation in RA."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "RA copper: copper supports ceruloplasmin-mediated reactive-oxygen-species scavenging; elevated serum copper in active RA reflects acute-phase (CRP/IL-6 already mapped) response, and copper-dependent lysyl oxidase promotes the pannus (already mapped) collagen remodelling of RA."
 ---
 
 # Rheumatoid Arthritis
@@ -813,6 +822,9 @@ RA patients have:
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — RA serotonin: serotonin via 5-HT2A/5-HT3 receptors on synovial fibroblasts, macrophages and platelets modulates the IL-6 (already mapped) and TNF-α (already mapped) production in the rheumatoid synovium, with low serum serotonin correlating with higher RA disease activity.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — RA vasopressin: vasopressin via V1aR on synoviocytes and T cells (already mapped) modulates the IL-6 (already mapped) and TNF-α (already mapped) synovial cytokine cascade; elevated synovial-fluid vasopressin correlates with joint swelling and RA flares.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — RA magnesium: magnesium deficiency amplifies the IL-1β (already mapped) and TNF-α (already mapped) synovial inflammation in rheumatoid arthritis; magnesium is also required for matrix-metalloproteinase activity and cartilage proteoglycan synthesis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — RA iodine: iodine-dependent thyroid hormones modulate the Th1/Th17 (IL-17A already mapped) and Treg balance that governs the autoimmune synovitis of rheumatoid arthritis; hypothyroidism (autoimmune-thyroid comorbidity) amplifies RA inflammation via TNF-α (already mapped).
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — RA sodium: sodium-driven osmotic Th17 polarisation amplifies the IL-17A (already mapped) and IL-23 (already mapped)-driven synovial inflammation of rheumatoid arthritis; high-salt diet promotes Th17/Treg imbalance and NF-κB (already mapped)-mediated synoviocyte activation in RA.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — RA copper: copper supports ceruloplasmin-mediated reactive-oxygen-species scavenging; elevated serum copper in active RA reflects acute-phase (CRP/IL-6 already mapped) response, and copper-dependent lysyl oxidase promotes the pannus (already mapped) collagen remodelling of RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
