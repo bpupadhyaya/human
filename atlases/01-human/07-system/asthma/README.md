@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Asthma iodine: iodide, via airway lactoperoxidase (lung already mapped), scavenges reactive oxygen species in the asthmatic airway; iodine deficiency amplifies IgE (already mapped) mediated inflammation and mast-cell (already mapped) hyperresponsiveness."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Asthma sodium: airway ENaC channels regulate surface liquid volume; sodium hyperabsorption dehydrates mucus, impairing mucociliary clearance and amplifying mast-cell (already mapped) and eosinophil (already mapped) driven NF-κB (already mapped) airway inflammation."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Asthma copper: superoxide dismutase (SOD) neutralises reactive oxygen species in asthmatic airways; copper deficiency amplifies eosinophil (already mapped) oxidative burst and impairs IL-4 (already mapped) signalling, worsening NF-κB (already mapped) airway remodelling."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Asthma phosphorus: ATP-purinergic receptor signalling on mast cells (already mapped) and eosinophils (already mapped) amplifies IL-5 (already mapped) mediated airway inflammation; phosphorus-dependent PI3K/AKT pathway sustains NF-κB (already mapped) driven bronchoconstriction."
 ---
 
 # Asthma
@@ -784,6 +793,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Asthma vasopressin: vasopressin (AVP) contracts airway smooth muscle via V1 receptor signalling and potentiates mast-cell (already mapped) degranulation; elevated AVP in exercise-induced asthma amplifies IgE (already mapped) mediated bronchoconstriction.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Asthma iron: iron sequestration in airway cells amplifies hydroxyl radical generation in the eosinophilic (IL-5 already mapped) airway; iron-dependent mast-cell (already mapped) activation also promotes histamine (already mapped) release and bronchoconstriction.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Asthma iodine: iodide, via airway lactoperoxidase (lung already mapped), scavenges reactive oxygen species in the asthmatic airway; iodine deficiency amplifies IgE (already mapped) mediated inflammation and mast-cell (already mapped) hyperresponsiveness.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Asthma sodium: airway ENaC channels regulate surface liquid volume; sodium hyperabsorption dehydrates mucus, impairing mucociliary clearance and amplifying mast-cell (already mapped) and eosinophil (already mapped) driven NF-κB (already mapped) airway inflammation.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Asthma copper: superoxide dismutase (SOD) neutralises reactive oxygen species in asthmatic airways; copper deficiency amplifies eosinophil (already mapped) oxidative burst and impairs IL-4 (already mapped) signalling, worsening NF-κB (already mapped) airway remodelling.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Asthma phosphorus: ATP-purinergic receptor signalling on mast cells (already mapped) and eosinophils (already mapped) amplifies IL-5 (already mapped) mediated airway inflammation; phosphorus-dependent PI3K/AKT pathway sustains NF-κB (already mapped) driven bronchoconstriction.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
