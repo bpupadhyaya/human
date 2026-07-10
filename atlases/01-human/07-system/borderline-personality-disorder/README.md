@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "BPD phosphorus: phosphorus fuels neuron (already mapped) ATP and synaptic vesicle cycling; phosphorus deficiency impairs dopamine (already mapped) and GABA (already mapped) synthesis and amplifies cortisol (already mapped) and IL-6 (already mapped) stress cascade in BPD."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "BPD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates dopamine (already mapped) and serotonin (already mapped) tone; NO dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) stress cascade in BPD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "BPD chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate GABA (already mapped) tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) cascade in BPD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "BPD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and cortisol (already mapped) dysregulation in BPD."
 ---
 
 # Borderline Personality Disorder
@@ -835,6 +844,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — BPD potassium: potassium channel repolarisation sets the threshold for dopamine (already mapped) and serotonin (already mapped) release; potassium dysregulation amplifies cortisol (already mapped) driven HPA-axis reactivity and impairs GABA (already mapped) inhibitory tone.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — BPD calcium: calcium channels on neurons (already mapped) regulate dopamine (already mapped) and serotonin (already mapped) release; calcium dysregulation amplifies NLRP3 inflammasome (already mapped) and IL-6 (already mapped) and NF-κB (already mapped) neuroinflammation in BPD.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — BPD phosphorus: phosphorus fuels neuron (already mapped) ATP and synaptic vesicle cycling; phosphorus deficiency impairs dopamine (already mapped) and GABA (already mapped) synthesis and amplifies cortisol (already mapped) and IL-6 (already mapped) stress cascade in BPD.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BPD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates dopamine (already mapped) and serotonin (already mapped) tone; NO dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) stress cascade in BPD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BPD chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate GABA (already mapped) tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) cascade in BPD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — BPD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and cortisol (already mapped) dysregulation in BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

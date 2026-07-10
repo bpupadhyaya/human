@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Bloom selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS driving genomic instability; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) tumour-promoting cascade of Bloom syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Bloom sodium: sodium dysregulation in bone-marrow (already mapped) stroma and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Bloom syndrome."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Bloom calcium: calcium regulates macrophage (already mapped) and bone-marrow (already mapped) stromal cell signalling; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and VEGF (already mapped) tumour-promoting cascade of Bloom syndrome."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Bloom magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma; magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and mTOR (already mapped) tumour-promoting cascade of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -825,6 +834,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Bloom oxytocin: oxytocin, via OXTR on macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates the antitumour immune cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) tumour-promoting cascade of Bloom syndrome.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Bloom vasopressin: vasopressin, via V1aR on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates antitumour immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) tumour-promoting cascade of Bloom syndrome.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Bloom selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS driving genomic instability; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) tumour-promoting cascade of Bloom syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Bloom sodium: sodium dysregulation in bone-marrow (already mapped) stroma and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Bloom syndrome.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bloom calcium: calcium regulates macrophage (already mapped) and bone-marrow (already mapped) stromal cell signalling; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and VEGF (already mapped) tumour-promoting cascade of Bloom syndrome.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Bloom magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma; magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and mTOR (already mapped) tumour-promoting cascade of Bloom syndrome.
 
 ---
 
