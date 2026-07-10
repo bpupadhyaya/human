@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "GM magnesium: magnesium supports intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) anti-inflammatory function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "GM copper: copper supports intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) anti-inflammatory function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "GM potassium: potassium regulates intestinal epithelium (already mapped) membrane potential and macrophage (already mapped) ion homeostasis; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "GM calcium: calcium signals intestinal epithelium (already mapped) tight-junction assembly and macrophage (already mapped) activation; calcium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis."
 ---
 
 # Gut Microbiome
@@ -765,6 +774,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — GM sodium: high dietary sodium depletes Lactobacillus (already mapped) and amplifies IL-17A (already mapped) responses; sodium-driven NF-κB (already mapped) activation impairs intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) homeostasis.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — GM zinc: zinc supports intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) resolution; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — GM magnesium: magnesium supports intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) anti-inflammatory function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — GM copper: copper supports intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) anti-inflammatory function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — GM potassium: potassium regulates intestinal epithelium (already mapped) membrane potential and macrophage (already mapped) ion homeostasis; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — GM calcium: calcium signals intestinal epithelium (already mapped) tight-junction assembly and macrophage (already mapped) activation; calcium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
 
 ## Pathology
 
