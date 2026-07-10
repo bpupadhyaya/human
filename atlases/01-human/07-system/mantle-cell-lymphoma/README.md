@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "MCL vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MCL stroma, modulates the vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in mantle-cell lymphoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "MCL selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative B-cell (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MCL iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "MCL sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the B-cell (already mapped) tumour cascade of mantle-cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -797,6 +806,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — MCL prolactin B-cell: prolactin, via PRLR on MCL B cells (already mapped) and tumour-associated macrophages (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling, promoting the immunosuppressive TME of mantle-cell lymphoma.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MCL oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped) in the MCL stroma, attenuates the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour immune cascade in mantle-cell lymphoma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MCL vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MCL stroma, modulates the vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in mantle-cell lymphoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MCL selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative B-cell (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MCL iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MCL sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the B-cell (already mapped) tumour cascade of mantle-cell lymphoma.
 
 ---
 

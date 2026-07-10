@@ -519,6 +519,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "MAL iodine: thyroid hormones modulate macrophage (already mapped) and nitric-oxide (already mapped) driven immune responses during malaria; iodine deficiency impairs NF-κB (already mapped) and IL-6 (already mapped) driven defence against Plasmodium falciparum (already mapped)."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "MAL magnesium: magnesium, as enzymatic cofactor in macrophages (already mapped) and erythrocytes (already mapped), supports immune and oxygen-transport function; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) haemolytic cascade of malaria."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MAL copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) oxidative haemolytic cascade of malaria."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "MAL phosphorus: phosphorus, as ATP precursor in erythrocytes (already mapped) and macrophages (already mapped), supports cellular energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of malaria."
 ---
 
 # Malaria
@@ -844,6 +853,9 @@ cross_links:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MAL oxytocin: oxytocin suppresses NF-κB (already mapped) and TNF-α (already mapped) driven endothelial-cell (already mapped) activation during severe malaria; oxytocin attenuates macrophage (already mapped) inflammatory cytokine release and platelet (already mapped) aggregation.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MAL selenium: selenoproteins attenuate ROS-driven NF-κB (already mapped) and TNF-α (already mapped) mediated endothelial-cell (already mapped) damage during malaria; selenium deficiency worsens haemolytic anaemia via erythrocyte (already mapped) membrane oxidative stress.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MAL iodine: thyroid hormones modulate macrophage (already mapped) and nitric-oxide (already mapped) driven immune responses during malaria; iodine deficiency impairs NF-κB (already mapped) and IL-6 (already mapped) driven defence against Plasmodium falciparum (already mapped).
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MAL magnesium: magnesium, as enzymatic cofactor in macrophages (already mapped) and erythrocytes (already mapped), supports immune and oxygen-transport function; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) haemolytic cascade of malaria.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MAL copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) oxidative haemolytic cascade of malaria.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MAL phosphorus: phosphorus, as ATP precursor in erythrocytes (already mapped) and macrophages (already mapped), supports cellular energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
