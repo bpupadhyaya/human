@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "MB sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of medulloblastoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MB copper: copper, via SOD1 in macrophages (already mapped) and microglia (already mapped), scavenges tumour ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of medulloblastoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "MB zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and microglia (already mapped), attenuates brain tumour oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "MB potassium: potassium regulates macrophage (already mapped) and T-cytotoxic cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of medulloblastoma."
 ---
 
 # Medulloblastoma
@@ -817,6 +826,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MB selenium: selenium, as GPx in microglia (already mapped) and macrophages (already mapped), scavenges ROS in the tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of medulloblastoma.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MB iodine: iodine-dependent thyroid hormones modulate microglia (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of medulloblastoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MB sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of medulloblastoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MB copper: copper, via SOD1 in macrophages (already mapped) and microglia (already mapped), scavenges tumour ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of medulloblastoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MB zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and microglia (already mapped), attenuates brain tumour oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MB potassium: potassium regulates macrophage (already mapped) and T-cytotoxic cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of medulloblastoma.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
