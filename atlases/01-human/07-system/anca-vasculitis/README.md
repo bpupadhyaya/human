@@ -523,6 +523,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "ANCA iodine: iodine-dependent thyroid hormones modulate neutrophil (already mapped) and T-cell (already mapped) autoimmune activation; iodine deficiency impairs the cortisol (already mapped) and IL-6 (already mapped) regulatory axis of the autoimmune cascade of ANCA vasculitis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "ANCA sodium: high dietary sodium promotes Th17 (T-helper cell already mapped) polarisation and neutrophil (already mapped) activation; sodium-induced IL-17 (already mapped) and NF-κB (already mapped) dysregulation amplifies the autoimmune vascular inflammation of ANCA vasculitis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "ANCA magnesium: magnesium, as cofactor of immune enzymes in T-helper cells (already mapped) and neutrophils (already mapped), restrains NLRP3 (already mapped) and NF-κB (already mapped); magnesium deficiency amplifies the autoimmune vascular inflammation of ANCA vasculitis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "ANCA copper: copper, as SOD cofactor, scavenges ROS in endothelial cells (already mapped) and neutrophils (already mapped) driving vascular injury; copper deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) complement-driven inflammation of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -823,6 +832,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — ANCA oxytocin: oxytocin, via OXTR on neutrophils (already mapped) and regulatory T cells (already mapped), attenuates autoimmune vascular inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and NLRP3 (already mapped) vasculitic cascade of ANCA vasculitis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — ANCA vasopressin: vasopressin, via V1aR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), modulates vascular tone; vasopressin dysregulation amplifies the nitric-oxide (already mapped) and complement C3 (already mapped) cascade of ANCA vasculitis.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — ANCA iodine: iodine-dependent thyroid hormones modulate neutrophil (already mapped) and T-cell (already mapped) autoimmune activation; iodine deficiency impairs the cortisol (already mapped) and IL-6 (already mapped) regulatory axis of the autoimmune cascade of ANCA vasculitis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Th17 amplifier: high dietary sodium promotes Th17 (T-helper cell already mapped) polarisation and neutrophil (already mapped) activation; sodium-induced IL-17 (already mapped) and NF-κB (already mapped) dysregulation amplifies the autoimmune vascular inflammation of ANCA vasculitis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Immune-enzyme cofactor: magnesium, as cofactor of immune enzymes in T-helper cells (already mapped) and neutrophils (already mapped), restrains NLRP3 (already mapped) and NF-κB (already mapped); magnesium deficiency amplifies the autoimmune vascular inflammation of ANCA vasculitis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Vascular antioxidant: copper, as SOD cofactor, scavenges ROS in endothelial cells (already mapped) and neutrophils (already mapped) driving vascular injury; copper deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) complement-driven inflammation of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

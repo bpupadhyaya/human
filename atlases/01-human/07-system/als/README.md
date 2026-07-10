@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "ALS prolactin: prolactin, via PRLR on motor neurons (already mapped) and microglia (already mapped), modulates neuroimmune activation; prolactin deficiency amplifies the TDP-43 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ALS."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "ALS oxytocin: oxytocin, via OXTR on motor neurons (already mapped) and microglia (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the TDP-43 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ALS."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "ALS vasopressin: vasopressin, via V1aR on astrocytes (already mapped) and motor neurons (already mapped), modulates glutamate (already mapped) excitotoxicity; vasopressin dysregulation amplifies the TDP-43 (already mapped) and NLRP3 (already mapped) cascade of ALS."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "ALS iodine: iodine-dependent thyroid hormones modulate motor-neuron (neuron already mapped) survival and astrocyte (already mapped) function; iodine deficiency impairs thyroid-mediated regulation of the TDP-43 (already mapped) and NF-κB (already mapped) cascade of ALS."
 ---
 
 # ALS
@@ -827,6 +836,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — ALS testosterone: testosterone, via androgen receptors on motor neurons (already mapped) and microglia (already mapped), exerts neuroprotective effects; testosterone deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ALS.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — ALS serotonin: serotonin, via 5-HT receptors on motor neurons (already mapped) and astrocytes (already mapped), modulates neuroinflammatory tone; serotonin dysregulation amplifies the TDP-43 (already mapped) and NLRP3 (already mapped) neuroinflammatory cascade of ALS.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — ALS prolactin: prolactin, via PRLR on motor neurons (already mapped) and microglia (already mapped), modulates neuroimmune activation; prolactin deficiency amplifies the TDP-43 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ALS.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroprotective attenuator: oxytocin, via OXTR on motor neurons (already mapped) and microglia (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the TDP-43 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ALS.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Glutamate excitotoxicity modulator: vasopressin, via V1aR on astrocytes (already mapped) and motor neurons (already mapped), modulates glutamate (already mapped) excitotoxicity; vasopressin dysregulation amplifies the TDP-43 (already mapped) and NLRP3 (already mapped) cascade of ALS.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-motor neuron axis: iodine-dependent thyroid hormones modulate motor-neuron (neuron already mapped) survival and astrocyte (already mapped) function; iodine deficiency impairs thyroid-mediated regulation of the TDP-43 (already mapped) and NF-κB (already mapped) cascade of ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
