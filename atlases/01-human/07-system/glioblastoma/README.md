@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-GBM axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the glioblastoma core, activates the EPOR on tumour cells (already mapped) and modulates microglia/macrophage (already mapped) polarisation toward a pro-tumour M2 phenotype."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-GBM axis: histamine, released by microglia (already mapped) and mast cells in the glioblastoma microenvironment, signals via H1/H2 receptors on tumour cells and endothelium (already mapped), modulating blood-brain-barrier permeability and immunosuppressive milieu."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-GBM axis: melatonin, crossing the blood-brain barrier, suppresses EGFR (already mapped) and HIF-1α (already mapped) signalling in glioblastoma cells, modulates the circadian immune clock, and enhances sensitivity to temozolomide chemotherapy."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement regulation-GBM axis: the C1-esterase inhibitor limits classical and contact-pathway complement activation in the glioblastoma microenvironment (complement C3/C5/C5aR1 already mapped), modulating the neuroinflammatory and tumour milieu."
 ---
 
 # Glioblastoma
@@ -781,6 +790,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-GBM axis: TSLP, from the glioblastoma stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the EGFR-amplified (already mapped) glioblastoma tumour niche.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-GBM axis: bradykinin, via B1/B2 receptors on glioblastoma endothelium (already mapped) and microglia (already mapped), augments blood-brain-barrier permeability, tumour oedema, and the pro-inflammatory milieu of the glioblastoma microenvironment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-GBM axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia of the glioblastoma core, activates the EPOR on tumour cells (already mapped) and modulates microglia/macrophage (already mapped) polarisation toward a pro-tumour M2 phenotype.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-GBM axis: histamine, released by microglia (already mapped) and mast cells in the glioblastoma microenvironment, signals via H1/H2 receptors on tumour cells and endothelium (already mapped), modulating blood-brain-barrier permeability and immunosuppressive milieu.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-GBM axis: melatonin, crossing the blood-brain barrier, suppresses EGFR (already mapped) and HIF-1α (already mapped) signalling in glioblastoma cells, modulates the circadian immune clock, and enhances sensitivity to temozolomide chemotherapy.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation-GBM axis: the C1-esterase inhibitor limits classical and contact-pathway complement activation in the glioblastoma microenvironment (complement C3/C5/C5aR1 already mapped), modulating the neuroinflammatory and tumour milieu.
 
 ---
 
