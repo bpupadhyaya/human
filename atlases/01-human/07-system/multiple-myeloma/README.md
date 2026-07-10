@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "MM selenium antioxidant: selenium, via GPx/TrxR selenoproteins in myeloma plasma cells (already mapped) and macrophages (already mapped), quenches ROS that amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling in the bone-marrow niche of myeloma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MM iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and B-cell (already mapped) function in the myeloma bone-marrow niche; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) myeloma cascade of multiple myeloma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "MM magnesium: magnesium, as cofactor of DNA-repair enzymes in macrophages (already mapped) and plasma cells (already mapped), supports haematopoiesis; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-myeloma cascade of multiple myeloma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MM copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative myeloma cascade of multiple myeloma."
 ---
 
 # Multiple Myeloma
@@ -812,6 +821,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MM oxytocin anti-myeloma: oxytocin, via OXTR on myeloma macrophages (already mapped) and bone-marrow stroma, attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling in the myeloma microenvironment, reducing immune evasion in multiple myeloma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MM vasopressin vascular: vasopressin, via V1aR on myeloma macrophages (already mapped) and the bone-marrow endothelium, modulates the myeloma vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling in multiple myeloma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MM selenium antioxidant: selenium, via GPx/TrxR selenoproteins in myeloma plasma cells (already mapped) and macrophages (already mapped), quenches ROS that amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling in the bone-marrow niche of myeloma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MM iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and B-cell (already mapped) function in the myeloma bone-marrow niche; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) myeloma cascade of multiple myeloma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MM magnesium: magnesium, as cofactor of DNA-repair enzymes in macrophages (already mapped) and plasma cells (already mapped), supports haematopoiesis; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-myeloma cascade of multiple myeloma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MM copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative myeloma cascade of multiple myeloma.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

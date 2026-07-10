@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "MAP vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MAP polyp stroma, modulates the colorectal vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) in MUTYH polyposis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MAP iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MUTYH-associated polyposis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "MAP sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) polyp cascade of MAP."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "MAP magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP."
 ---
 
 # MUTYH-Associated Polyposis
@@ -792,6 +801,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — MAP prolactin immune: prolactin, via PRLR on MUTYH-deficient colorectal epithelial cells (already mapped) and macrophages (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory signalling, promoting the inflammatory TME of MAP polyposis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MAP oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped) in the MAP colorectal polyp stroma, attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory signalling in MUTYH-associated polyposis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MAP vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MAP polyp stroma, modulates the colorectal vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) in MUTYH polyposis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MAP iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MUTYH-associated polyposis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MAP sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MAP magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP.
 
 ---
 
