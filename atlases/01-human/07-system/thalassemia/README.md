@@ -522,6 +522,9 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Thalassaemia sodium: sodium, via Na⁺/K⁺-ATPase on erythrocytes (already mapped) and endothelial cells (already mapped), regulates red-cell hydration; sodium dysregulation amplifies haemolysis and the nitric-oxide (already mapped) vascular cascade of thalassaemia."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Thal magnesium: magnesium supports erythrocyte (already mapped) membrane integrity and macrophage (already mapped) anti-inflammatory resolution; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic inflammation in thalassemia."
 ---
 
 # Thalassemia
@@ -834,6 +837,7 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Haemolysis ROS scavenger: selenium, as GPx in erythrocytes (already mapped) and macrophages (already mapped), limits haemolysis-driven ROS; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) iron-loading and vasculopathy cascade of thalassaemia.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-erythropoiesis axis: iodine-dependent thyroid hormones regulate erythropoiesis (erythropoietin already mapped) and bone-marrow (already mapped) haematopoietic activity; iodine deficiency amplifies the hepcidin (already mapped) and IL-6 (already mapped) cascade of thalassaemia.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Red-cell hydration: sodium, via Na⁺/K⁺-ATPase on erythrocytes (already mapped) and endothelial cells (already mapped), regulates red-cell hydration; sodium dysregulation amplifies haemolysis and the nitric-oxide (already mapped) vascular cascade of thalassaemia.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Thal magnesium: magnesium supports erythrocyte (already mapped) membrane integrity and macrophage (already mapped) anti-inflammatory resolution; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic inflammation in thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
