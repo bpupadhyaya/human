@@ -474,6 +474,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Neurotrophic EPO: erythropoietin, signalling through EPOR on neurons (already mapped), exerts neuroprotective and analgesic effects, modulating the central sensitisation and nociceptive threshold of fibromyalgia."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Contact-pathway pain modulation: the C1-esterase inhibitor controls the contact-pathway activation (bradykinin already mapped) and classical complement in the central sensitisation of fibromyalgia, regulating the kinin-driven amplification of the nociceptive signal."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Connective-tissue ECM: periostin, expressed in peritendinous and fascial connective tissue, may contribute to the tender-point ECM remodelling and the altered mechanical nociception (CGRP and substance P already mapped) of fibromyalgia."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Neuroinflammatory complement: complement C5, upstream of MAC and C5aR1 (already mapped), amplifies the neuroimmune and glial (microglia already mapped) inflammation that sustains the central sensitisation and widespread pain of fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -786,6 +795,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Mast-cell sensitiser: TSLP, released from keratinocytes and connective-tissue cells, activates mast cells (already mapped) in fibromyalgia, promoting the central-sensitisation cascade driven by IL-4 and IL-13 (already mapped).
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin pain amplifier: bradykinin, acting through B1 and B2 receptors, lowers the nociceptive threshold and amplifies the CGRP (already mapped) and substance P (already mapped) pain signals of fibromyalgia.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neurotrophic EPO: erythropoietin, signalling through EPOR on neurons (already mapped), exerts neuroprotective and analgesic effects, modulating the central sensitisation and nociceptive threshold of fibromyalgia.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact-pathway pain modulation: the C1-esterase inhibitor controls the contact-pathway activation (bradykinin already mapped) and classical complement in the central sensitisation of fibromyalgia, regulating the kinin-driven amplification of the nociceptive signal.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Connective-tissue ECM: periostin, expressed in peritendinous and fascial connective tissue, may contribute to the tender-point ECM remodelling and the altered mechanical nociception (CGRP and substance P already mapped) of fibromyalgia.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Neuroinflammatory complement: complement C5, upstream of MAC and C5aR1 (already mapped), amplifies the neuroimmune and glial (microglia already mapped) inflammation that sustains the central sensitisation and widespread pain of fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
