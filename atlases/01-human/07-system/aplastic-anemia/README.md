@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "AA magnesium: magnesium, as cofactor of immune enzymes in T cells (already mapped) and NK cells (already mapped), restrains IFN-γ (already mapped) and NF-κB (already mapped); magnesium deficiency amplifies the autoimmune marrow destruction of aplastic anaemia."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "AA potassium: potassium regulates macrophage (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated bone-marrow (already mapped) suppression in AA."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "AA calcium: calcium regulates macrophage (already mapped) NLRP3 (already mapped) inflammasome activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated haematopoietic failure in aplastic anaemia."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "AA phosphorus: phosphorus fuels erythropoietin (already mapped) signalling and bone-marrow (already mapped) haematopoiesis; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated marrow suppression in AA."
 ---
 
 # Aplastic Anemia
@@ -800,6 +809,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AA iodine: iodine-dependent thyroid hormones modulate bone-marrow (already mapped) haematopoiesis; iodine deficiency impairs thyroid regulation of the IFN-γ (already mapped) and NF-κB (already mapped) autoimmune marrow destruction of aplastic anaemia.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AA sodium: high dietary sodium promotes Th17 polarisation and disrupts T-cell (already mapped) immune tolerance; sodium-induced NF-κB (already mapped) and IFN-γ (already mapped) skewing amplifies the autoimmune marrow destruction of aplastic anaemia.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — AA magnesium: magnesium, as cofactor of immune enzymes in T cells (already mapped) and NK cells (already mapped), restrains IFN-γ (already mapped) and NF-κB (already mapped); magnesium deficiency amplifies the autoimmune marrow destruction of aplastic anaemia.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AA potassium: potassium regulates macrophage (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated bone-marrow (already mapped) suppression in AA.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — AA calcium: calcium regulates macrophage (already mapped) NLRP3 (already mapped) inflammasome activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated haematopoietic failure in aplastic anaemia.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — AA phosphorus: phosphorus fuels erythropoietin (already mapped) signalling and bone-marrow (already mapped) haematopoiesis; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated marrow suppression in AA.
 
 ---
 
