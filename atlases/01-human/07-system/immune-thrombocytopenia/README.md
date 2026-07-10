@@ -519,6 +519,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "ITP magnesium: magnesium, as a cofactor for complement regulation and NK-cell (already mapped) cytotoxicity, attenuates thrombocytopenic injury; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) macrophage (already mapped) cascade of ITP."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "ITP copper: copper, as cofactor of SOD1 in macrophages (already mapped) and platelets (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) autoimmune thrombocytopenic cascade of immune thrombocytopenia."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "ITP zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates autoimmune injury; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) platelet (already mapped) cascade of ITP."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "ITP potassium: potassium depletion promotes macrophage (already mapped) and platelet (already mapped) dysfunction; potassium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of immune thrombocytopenia."
 ---
 
 # Immune Thrombocytopenia
@@ -821,6 +830,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — ITP iodine: iodine, via thyroid hormone biosynthesis, modulates macrophage (already mapped) and platelet (already mapped) production; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of immune thrombocytopenia.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ITP sodium: sodium, via high dietary intake, shifts macrophages (already mapped) and NK cells (already mapped) to pro-inflammatory states; excess sodium amplifies the NF-κB (already mapped) and TNF-α (already mapped) platelet (already mapped) cascade of immune thrombocytopenia.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — ITP magnesium: magnesium, as a cofactor for complement regulation and NK-cell (already mapped) cytotoxicity, attenuates thrombocytopenic injury; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) macrophage (already mapped) cascade of ITP.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — ITP copper: copper, as cofactor of SOD1 in macrophages (already mapped) and platelets (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) autoimmune thrombocytopenic cascade of immune thrombocytopenia.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ITP zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates autoimmune injury; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) platelet (already mapped) cascade of ITP.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ITP potassium: potassium depletion promotes macrophage (already mapped) and platelet (already mapped) dysfunction; potassium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of immune thrombocytopenia.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

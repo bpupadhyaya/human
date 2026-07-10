@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "IgAN magnesium: magnesium, as an essential cofactor for complement regulation and endothelial (already mapped) function, attenuates glomerular (already mapped) injury; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "IgAN copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises glomerular ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of IgA nephropathy."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "IgAN zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and mast cells (already mapped), attenuates glomerular oxidative stress; zinc deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of IgA nephropathy."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "IgAN chloride: chloride, regulating NKCC1-mediated ion transport in macrophages (already mapped) and neutrophils (already mapped), maintains renal homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -759,6 +768,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — IgAN selenium: selenium, as a cofactor for glutathione peroxidases and thioredoxin reductases, attenuates glomerular oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) podocyte (already mapped) cascade of IgA nephropathy.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IgAN iodine: iodine, via thyroid hormone biosynthesis, modulates podocyte (already mapped) barrier function and renal filtration; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) glomerular (already mapped) cascade of IgA nephropathy.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — IgAN magnesium: magnesium, as an essential cofactor for complement regulation and endothelial (already mapped) function, attenuates glomerular (already mapped) injury; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — IgAN copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises glomerular ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of IgA nephropathy.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — IgAN zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and mast cells (already mapped), attenuates glomerular oxidative stress; zinc deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of IgA nephropathy.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IgAN chloride: chloride, regulating NKCC1-mediated ion transport in macrophages (already mapped) and neutrophils (already mapped), maintains renal homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy.
 
 ---
 
