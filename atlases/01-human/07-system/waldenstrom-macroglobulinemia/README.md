@@ -514,6 +514,12 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "WM iodine: iodine-dependent thyroid hormones modulate B-cell (already mapped) differentiation and haematopoietic cycling in the bone-marrow (already mapped); hypothyroidism amplifies the pro-tumour macrophage (already mapped) and NF-κB (already mapped) signalling niche of WM."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "WM zinc: zinc cofactors macrophage (already mapped) anti-tumour function and B-cell (already mapped) homeostasis; zinc deficiency amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) B-cell (already mapped) clonal expansion in WM."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "WM magnesium: magnesium supports macrophage (already mapped) anti-inflammatory resolution and B-cell (already mapped) regulation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) tumour-promoting cascade in WM."
 ---
 
 # Waldenström Macroglobulinemia
@@ -797,6 +803,8 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — WM vasopressin: vasopressin, via V1B receptors on plasma cells (already mapped) and B cells (already mapped), modulates the bone-marrow (already mapped) microenvironment and amplifies NF-κB (already mapped)/MYD88 (already mapped) clone-survival signalling in Waldenström.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — WM selenium: selenium-dependent GPx suppresses the ROS amplifying NF-κB (already mapped)/MYD88 (already mapped) tumour microenvironment in the bone-marrow (already mapped); selenium deficiency promotes oxidative vascular injury and IgM (already mapped) hyperviscosity of WM.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — WM iodine: iodine-dependent thyroid hormones modulate B-cell (already mapped) differentiation and haematopoietic cycling in the bone-marrow (already mapped); hypothyroidism amplifies the pro-tumour macrophage (already mapped) and NF-κB (already mapped) signalling niche of WM.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — WM zinc: zinc cofactors macrophage (already mapped) anti-tumour function and B-cell (already mapped) homeostasis; zinc deficiency amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) B-cell (already mapped) clonal expansion in WM.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — WM magnesium: magnesium supports macrophage (already mapped) anti-inflammatory resolution and B-cell (already mapped) regulation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) tumour-promoting cascade in WM.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)

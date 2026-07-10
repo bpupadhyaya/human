@@ -520,6 +520,12 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "T1D iodine: iodine-dependent thyroid hormones regulate beta-cell (pancreas already mapped) function and insulin (already mapped) secretion; hypothyroidism co-occurs with T1D via shared autoimmune mechanisms and amplifies NF-κB (already mapped) inflammatory insulitis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "T1D iron: iron supports macrophage (already mapped) and T-helper-cell (already mapped) differentiation; iron deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) beta-cell destruction in T1D."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "T1D copper: copper, via ceruloplasmin and SOD in macrophages (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TNF-α (already mapped) driven autoimmune beta-cell destruction and IL-6 (already mapped) cascade in T1D."
 ---
 
 # Type 1 Diabetes
@@ -783,6 +789,8 @@ cross_links:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — T1D oxytocin: oxytocin, via OXTR on pancreatic beta cells (pancreas already mapped) and regulatory T-cells (already mapped), suppresses the NF-κB (already mapped) insulitis-driving macrophage (already mapped) and T-helper-cell (already mapped) autoreactivity in type 1 diabetes.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — T1D vasopressin: vasopressin, via V1b receptors on beta cells (pancreas already mapped), modulates insulin (already mapped) secretion; vasopressin amplifies the adrenal (cortisol already mapped) stress axis and worsens NF-κB (already mapped) autoimmune insulitis.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — T1D iodine: iodine-dependent thyroid hormones regulate beta-cell (pancreas already mapped) function and insulin (already mapped) secretion; hypothyroidism co-occurs with T1D via shared autoimmune mechanisms and amplifies NF-κB (already mapped) inflammatory insulitis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — T1D iron: iron supports macrophage (already mapped) and T-helper-cell (already mapped) differentiation; iron deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) beta-cell destruction in T1D.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — T1D copper: copper, via ceruloplasmin and SOD in macrophages (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TNF-α (already mapped) driven autoimmune beta-cell destruction and IL-6 (already mapped) cascade in T1D.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
