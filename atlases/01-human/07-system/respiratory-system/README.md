@@ -513,6 +513,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Thyroid-respiratory axis: iodine-dependent thyroid hormones modulate mucociliary clearance and alveolar (already mapped) surfactant (already mapped) production; iodine deficiency impairs the respiratory-epithelial defence and the macrophage (already mapped) innate immunity."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sodium, via ENaC-driven airway-surface liquid homeostasis in lung-epithelium (already mapped), maintains mucociliary clearance; sodium dysregulation amplifies the IL-6 (already mapped) and neutrophil (already mapped) inflammatory cascade of the respiratory system."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Copper, as cofactor of cytochrome-c oxidase in type-II pneumocytes (already mapped) and macrophages (already mapped), supports oxidative phosphorylation and innate immunity; copper deficiency impairs the antioxidant and phagocytic defences of the respiratory system."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Potassium, via K⁺ channels on airway smooth-muscle cells (already mapped) and type-II pneumocytes (already mapped), sets airway tone and epithelial secretion; potassium dysregulation amplifies the bronchoconstriction and IL-6 (already mapped) cascade of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -759,6 +768,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Oxytocin](../../03-molecular/oxytocin/README.md): Airway-immune neuropeptide: oxytocin, via OXTR on mast cells (already mapped) and smooth-muscle cells (already mapped), attenuates airway inflammation; oxytocin modulates the IL-5 (already mapped) and IL-13 (already mapped) type-2 airway response of the respiratory system.
 - **Connects-to** → [Vasopressin](../../03-molecular/vasopressin/README.md): Vasomotor-airway axis: vasopressin, via V1aR on smooth-muscle cells (already mapped) and endothelial cells, modulates pulmonary vascular tone; vasopressin dysregulation amplifies the pulmonary arterial hypertension (already mapped) of the respiratory system.
 - **Connects-to** → [Iodine](../../02-atomic/iodine/README.md): Thyroid-respiratory axis: iodine-dependent thyroid hormones modulate mucociliary clearance and alveolar (already mapped) surfactant (already mapped) production; iodine deficiency impairs the respiratory-epithelial defence and the macrophage (already mapped) innate immunity.
+- **Connects-to** → [Sodium](../../02-atomic/sodium/README.md): ENaC-airway homeostasis: sodium, via ENaC-driven airway-surface liquid homeostasis in lung-epithelium (already mapped), maintains mucociliary clearance; sodium dysregulation amplifies the IL-6 (already mapped) and neutrophil (already mapped) inflammatory cascade of the respiratory system.
+- **Connects-to** → [Copper](../../02-atomic/copper/README.md): Mitochondrial-innate immunity: copper, as cofactor of cytochrome-c oxidase in type-II pneumocytes (already mapped) and macrophages (already mapped), supports oxidative phosphorylation and innate immunity; copper deficiency impairs the antioxidant and phagocytic defences of the respiratory system.
+- **Connects-to** → [Potassium](../../02-atomic/potassium/README.md): Airway-tone excitability: potassium, via K⁺ channels on airway smooth-muscle cells (already mapped) and type-II pneumocytes (already mapped), sets airway tone and epithelial secretion; potassium dysregulation amplifies the bronchoconstriction and IL-6 (already mapped) cascade of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
