@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Choroidal mast-cell effector: histamine released by mast cells (already mapped) in the choroidal uveal-melanoma stroma amplifies local vascular permeability and the immunosuppressive microenvironment that blunts cytotoxic T-cell surveillance."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "UM melatonin: melatonin suppresses uveal-melanoma proliferation via MT1/MT2 receptor-mediated inhibition of cAMP and mTOR (already mapped) signalling; it also augments NK-cell (already mapped) cytotoxicity against the immunosuppressive uveal-melanoma tumour microenvironment."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "UM testosterone: androgen receptor signalling in uveal melanoma promotes tumour-cell proliferation and survival; testosterone drives the liver (already mapped) metastatic niche via androgen-mediated hepatic immune reprogramming that blunts NK-cell (already mapped) surveillance."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "UM serotonin: serotonin, co-produced by neuroendocrine uveal tissue, acts on 5-HT receptors on uveal melanoma cells driving autocrine proliferative signalling and promotes the liver (already mapped) metastatic niche via serotonin-mediated hepatic immunosuppression."
 ---
 
 # Uveal Melanoma
@@ -788,6 +797,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Intraocular kinin: bradykinin, generated in the choroidal vasculature by kallikrein-kinin activation, amplifies vascular permeability and the inflammatory microenvironment of uveal melanoma, promoting tumour growth and metastatic spread.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-contact brake: C1-esterase inhibitor restrains the classical complement C1 and the contact system (C3/C5/C5aR1/factor-H already mapped) activated in the uveal-melanoma microenvironment and its hepatic metastatic niche.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Choroidal mast-cell effector: histamine released by mast cells (already mapped) in the choroidal uveal-melanoma stroma amplifies local vascular permeability and the immunosuppressive microenvironment that blunts cytotoxic T-cell surveillance.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — UM melatonin: melatonin suppresses uveal-melanoma proliferation via MT1/MT2 receptor-mediated inhibition of cAMP and mTOR (already mapped) signalling; it also augments NK-cell (already mapped) cytotoxicity against the immunosuppressive uveal-melanoma tumour microenvironment.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — UM testosterone: androgen receptor signalling in uveal melanoma promotes tumour-cell proliferation and survival; testosterone drives the liver (already mapped) metastatic niche via androgen-mediated hepatic immune reprogramming that blunts NK-cell (already mapped) surveillance.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — UM serotonin: serotonin, co-produced by neuroendocrine uveal tissue, acts on 5-HT receptors on uveal melanoma cells driving autocrine proliferative signalling and promotes the liver (already mapped) metastatic niche via serotonin-mediated hepatic immunosuppression.
 
 ---
 

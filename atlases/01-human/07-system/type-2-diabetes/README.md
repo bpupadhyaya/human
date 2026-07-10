@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Adipose fibrosis scaffold: periostin, downstream of TGF-β (already mapped) signalling in the inflamed adipose tissue, promotes the peri-adipocyte fibrosis that impairs adipose expandability and worsens insulin resistance in type 2 diabetes."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "T2D prolactin: prolactin acts as a pancreatic (already mapped) beta-cell survival factor; gestational hyperprolactinaemia promotes beta-cell mass expansion, while elevated prolactin in T2D amplifies insulin resistance and worsens the metabolic dysfunction."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "T2D oxytocin: oxytocin receptors on pancreatic (already mapped) beta-cells modulate insulin (already mapped) secretion in type 2 diabetes; intranasal oxytocin reduces food intake and adiponectin/leptin (already mapped) adipose inflammation, worsening insulin resistance."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "T2D vasopressin: vasopressin (ADH) drives hepatic (already mapped) glucose production via V1b receptor on pancreatic (already mapped) alpha-cells; elevated copeptin predicts T2D risk, and AVP-driven osmotic signalling amplifies the AMPK (already mapped) pathway dysfunction."
 ---
 
 # Type 2 Diabetes
@@ -762,6 +771,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact-complement regulation: C1-esterase inhibitor restrains the classical complement C1 (with C3/C5aR1 already mapped) and the kallikrein-kinin system (bradykinin already mapped) activated in the inflamed adipose tissue and vasculopathy of type 2 diabetes.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Adipose mast-cell effector: histamine released by mast cells (already mapped) in the inflamed adipose tissue of T2D amplifies insulin resistance through H1R on adipocytes, driving the vicious cycle of adipose inflammation and metabolic dysfunction.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Adipose fibrosis scaffold: periostin, downstream of TGF-β (already mapped) signalling in the inflamed adipose tissue, promotes the peri-adipocyte fibrosis that impairs adipose expandability and worsens insulin resistance in type 2 diabetes.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — T2D prolactin: prolactin acts as a pancreatic (already mapped) beta-cell survival factor; gestational hyperprolactinaemia promotes beta-cell mass expansion, while elevated prolactin in T2D amplifies insulin resistance and worsens the metabolic dysfunction.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — T2D oxytocin: oxytocin receptors on pancreatic (already mapped) beta-cells modulate insulin (already mapped) secretion in type 2 diabetes; intranasal oxytocin reduces food intake and adiponectin/leptin (already mapped) adipose inflammation, worsening insulin resistance.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — T2D vasopressin: vasopressin (ADH) drives hepatic (already mapped) glucose production via V1b receptor on pancreatic (already mapped) alpha-cells; elevated copeptin predicts T2D risk, and AVP-driven osmotic signalling amplifies the AMPK (already mapped) pathway dysfunction.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
