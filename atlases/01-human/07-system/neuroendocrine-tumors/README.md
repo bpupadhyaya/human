@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Alternative complement: factor H limits alternative-pathway complement activation (complement C3, C5 and C5aR1 already mapped) in the neuroendocrine-tumour stroma, preventing excessive complement-driven inflammation and protecting the carcinoid vascular endothelium."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Carcinoid melatonin: melatonin co-secreted by enterochromaffin cells alongside serotonin (already mapped) inhibits NET proliferation through MT1/MT2 receptor-mediated cAMP suppression, counteracting the mTOR (already mapped) and VEGF (already mapped) pro-survival NET signalling."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone microenvironment: testosterone modulates the NET tumour immune microenvironment through androgen receptor signalling on tumour-infiltrating mast cells (already mapped) and macrophages (already mapped), influencing the carcinoid inflammatory cascade."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Neuroendocrine prolactin: prolactin binds prolactin receptors on NET cells to activate JAK2/STAT3 (already mapped) and mTOR (already mapped) pro-proliferative signalling; pituitary prolactinomas (hypothalamus already mapped) represent the archetype NET hypersecretion syndrome."
 ---
 
 # Neuroendocrine Tumors
@@ -756,6 +765,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — NET complement regulation: C1-INH controls the classical-pathway arm (complement C3, C5 and C5aR1 already mapped) in the NET tumour microenvironment, modulating complement-dependent cytotoxicity against somatostatin-receptor (sstr2 already mapped) NET cells.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroendocrine EPO signalling: erythropoietin receptor (EPOR) on neuroendocrine tumour cells activates the JAK2/STAT3 (already mapped) pro-survival pathway, complementing the mTOR (already mapped) and VEGF (already mapped) signalling in NET tumour growth and treatment anaemia.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Alternative complement: factor H limits alternative-pathway complement activation (complement C3, C5 and C5aR1 already mapped) in the neuroendocrine-tumour stroma, preventing excessive complement-driven inflammation and protecting the carcinoid vascular endothelium.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Carcinoid melatonin: melatonin co-secreted by enterochromaffin cells alongside serotonin (already mapped) inhibits NET proliferation through MT1/MT2 receptor-mediated cAMP suppression, counteracting the mTOR (already mapped) and VEGF (already mapped) pro-survival NET signalling.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone microenvironment: testosterone modulates the NET tumour immune microenvironment through androgen receptor signalling on tumour-infiltrating mast cells (already mapped) and macrophages (already mapped), influencing the carcinoid inflammatory cascade.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine prolactin: prolactin binds prolactin receptors on NET cells to activate JAK2/STAT3 (already mapped) and mTOR (already mapped) pro-proliferative signalling; pituitary prolactinomas (hypothalamus already mapped) represent the archetype NET hypersecretion syndrome.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
