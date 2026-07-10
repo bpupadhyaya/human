@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-DLBCL axis: testosterone, via androgen receptor signalling on DLBCL tumour cells and stromal macrophages, modulates lymphocyte survival, immune evasion, and the sex-biased incidence and prognosis of diffuse-large-B-cell-lymphoma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "DLBCL serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) lymphoma cascade of DLBCL."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "DLBCL oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of DLBCL."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "DLBCL vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) proliferation cascade of DLBCL."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -785,6 +794,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-DLBCL axis: histamine, released by mast cells in the tumour microenvironment, signals via H1/H2 receptors on DLBCL cells, modulating B-cell activation, NFκB-driven proliferation, and the immunosuppressive milieu of diffuse-large-B-cell-lymphoma.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-DLBCL axis: melatonin, via MT1/MT2 receptors on DLBCL cells, modulates circadian immune rhythms, suppresses NFκB-driven tumour proliferation, and enhances apoptotic sensitivity to anthracycline-based chemotherapy in diffuse-large-B-cell-lymphoma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-DLBCL axis: testosterone, via androgen receptor signalling on DLBCL tumour cells and stromal macrophages, modulates lymphocyte survival, immune evasion, and the sex-biased incidence and prognosis of diffuse-large-B-cell-lymphoma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — DLBCL serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) lymphoma cascade of DLBCL.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — DLBCL oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of DLBCL.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — DLBCL vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) proliferation cascade of DLBCL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

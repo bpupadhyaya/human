@@ -500,6 +500,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Iron-endocrine axis: transferrin shuttles iron to the thyroid for thyroid-peroxidase-catalysed thyroid-hormone synthesis and to the adrenal gland for steroidogenesis, linking systemic iron metabolism to endocrine hormone output."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Endocrine prolactin: prolactin, via PRLR on macrophages (already mapped) and osteoblasts (already mapped), modulates the adrenal-gonadal axis; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of endocrine disease."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Endocrine oxytocin: oxytocin, via OXTR on macrophages (already mapped) and hepatocytes (already mapped), attenuates adrenal and thyroid autoimmune inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) endocrine cascade."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Endocrine vasopressin: vasopressin, via V2R on macrophages (already mapped) and hepatocytes (already mapped), modulates fluid-hormone homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) endocrine inflammatory cascade."
 ---
 
 # Endocrine System
@@ -818,6 +827,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation-endocrine axis: factor H, produced by the liver and adrenal gland, limits alternative-pathway complement amplification at endocrine glandular surfaces, protecting the thyroid, pancreas, and adrenal cortex from complement-mediated autoimmune injury.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Periostin-endocrine axis: periostin, expressed in the stromal matrix of the thyroid, adrenal gland, and pancreatic islets, promotes epithelial-mesenchymal crosstalk and glandular fibrosis in autoimmune and neoplastic endocrine disease.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-endocrine axis: transferrin shuttles iron to the thyroid for thyroid-peroxidase-catalysed thyroid-hormone synthesis and to the adrenal gland for steroidogenesis, linking systemic iron metabolism to endocrine hormone output.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Endocrine prolactin: prolactin, via PRLR on macrophages (already mapped) and osteoblasts (already mapped), modulates the adrenal-gonadal axis; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of endocrine disease.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Endocrine oxytocin: oxytocin, via OXTR on macrophages (already mapped) and hepatocytes (already mapped), attenuates adrenal and thyroid autoimmune inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) endocrine cascade.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Endocrine vasopressin: vasopressin, via V2R on macrophages (already mapped) and hepatocytes (already mapped), modulates fluid-hormone homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) endocrine inflammatory cascade.
 
 ## Pathology
 
