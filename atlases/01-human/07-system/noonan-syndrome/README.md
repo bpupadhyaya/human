@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Noonan prolactin: prolactin via JAK2/STAT5 signalling intersects the PTPN11 (already mapped) SHP2-driven RAS/MAPK pathway in Noonan syndrome haematopoietic and cardiac progenitor cells, potentially amplifying the juvenile myelomonocytic leukaemia (JMML) risk of Noonan."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Noonan oxytocin: oxytocin receptors on Noonan cardiomyocytes and vascular endothelial cells (already mapped) couple to Gαq-PKC, cross-activating the PTPN11 (already mapped) SHP2-driven RAS/MAPK cascade, amplifying hypertrophic cardiomyopathy."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Noonan vasopressin: vasopressin via V2 receptors on Noonan syndrome renal (already mapped) and vascular cells modulates fluid retention and cAMP-PKA signalling converging on PTPN11 (already mapped) RAS/MAPK, amplifying lymphoedema and cardiomyopathy."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Noonan selenium: selenium via GPX and selenoprotein P suppresses PTPN11 (already mapped) SHP2-driven ROS in Noonan syndrome cardiomyocytes and endothelial cells (already mapped), attenuating hypertrophic cardiomyopathy progression."
 ---
 
 # Noonan Syndrome
@@ -801,6 +810,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Noonan antioxidant: melatonin receptor activation suppresses the PTPN11 (already mapped) RAS/MAPK-driven oxidative stress in Noonan syndrome cardiac (already mapped) and endothelial cells, attenuating hypertrophic cardiomyopathy progression and lymphatic oedema.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Noonan serotonin axis: serotonin via 5-HT receptors on Noonan cardiac cells and platelet precursors (already mapped) modulates cAMP-PKA and RAS/MAPK (PTPN11 already mapped) signalling, amplifying the hypertrophic cardiomyopathy of Noonan syndrome.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Noonan prolactin: prolactin via JAK2/STAT5 signalling intersects the PTPN11 (already mapped) SHP2-driven RAS/MAPK pathway in Noonan syndrome haematopoietic and cardiac progenitor cells, potentially amplifying the juvenile myelomonocytic leukaemia (JMML) risk of Noonan.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Noonan oxytocin: oxytocin receptors on Noonan cardiomyocytes and vascular endothelial cells (already mapped) couple to Gαq-PKC, cross-activating the PTPN11 (already mapped) SHP2-driven RAS/MAPK cascade, amplifying hypertrophic cardiomyopathy.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Noonan vasopressin: vasopressin via V2 receptors on Noonan syndrome renal (already mapped) and vascular cells modulates fluid retention and cAMP-PKA signalling converging on PTPN11 (already mapped) RAS/MAPK, amplifying lymphoedema and cardiomyopathy.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Noonan selenium: selenium via GPX and selenoprotein P suppresses PTPN11 (already mapped) SHP2-driven ROS in Noonan syndrome cardiomyocytes and endothelial cells (already mapped), attenuating hypertrophic cardiomyopathy progression.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
