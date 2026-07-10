@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Perineural EPO signalling: erythropoietin, via EPOR expressed on Schwann cells and perineural cells, exerts anti-apoptotic and anti-inflammatory effects that modulate the neuropathic pain and nerve dysfunction of schwannomatosis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Schwannoma stroma scaffold: periostin secreted by fibroblastic stroma of schwannomatosis tumours promotes Schwann-cell survival and tumour-cell integrin-αv signalling, amplifying nerve-sheath tumour growth driven by SMARCB1/LZTR1 loss."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement in schwannoma: complement C5a, generated from C3 (already mapped) and acting via C5aR1 (already mapped) on the macrophage-rich schwannomatosis stroma, amplifies the neuroinflammation and chronic neuropathic pain of the disease."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement-evasion scaffold: schwannomatosis tumour cells recruit factor H to shield against complement lysis, exploiting the same C3/C5aR1 complement cascade already mapped and limiting immune clearance of merlin-deficient nerve-sheath tumours."
 ---
 
 # Schwannomatosis
@@ -741,6 +750,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Perineural alarmin: TSLP released by the schwannoma's perineurial fibroblasts and macrophages (already mapped) activates mast cells (present in schwannoma stroma) to promote the type-2 microenvironment and the chronic pain that defines schwannomatosis.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3 and C5aR1 already mapped) activated on the macrophage-rich (already mapped) schwannoma stroma of schwannomatosis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Perineural EPO signalling: erythropoietin, via EPOR expressed on Schwann cells and perineural cells, exerts anti-apoptotic and anti-inflammatory effects that modulate the neuropathic pain and nerve dysfunction of schwannomatosis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Schwannoma stroma scaffold: periostin secreted by fibroblastic stroma of schwannomatosis tumours promotes Schwann-cell survival and tumour-cell integrin-αv signalling, amplifying nerve-sheath tumour growth driven by SMARCB1/LZTR1 loss.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement in schwannoma: complement C5a, generated from C3 (already mapped) and acting via C5aR1 (already mapped) on the macrophage-rich schwannomatosis stroma, amplifies the neuroinflammation and chronic neuropathic pain of the disease.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement-evasion scaffold: schwannomatosis tumour cells recruit factor H to shield against complement lysis, exploiting the same C3/C5aR1 complement cascade already mapped and limiting immune clearance of merlin-deficient nerve-sheath tumours.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

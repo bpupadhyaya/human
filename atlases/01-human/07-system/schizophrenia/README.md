@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Neuroprotective EPO: erythropoietin exerts neuroprotective effects on schizophrenia-relevant circuits via EPOR on neurons and glia; clinical trials of EPO have targeted the cognitive deficits and white-matter pathology of the disorder."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM neuroinflammatory matrix: periostin is elevated in schizophrenia brain tissue; it modulates integrin signalling on astrocytes and microglia, contributing to the synaptic remodelling and neuroinflammatory milieu of the disorder."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen dysregulation: testosterone levels are reduced in male schizophrenia patients and inversely correlate with positive-symptom severity; androgen receptor signalling on dopaminergic neurons modulates D2 receptor density and antipsychotic sensitivity."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Brain iron transport: transferrin-mediated iron delivery is impaired in schizophrenia; prenatal iron deficiency (a risk factor) disrupts monoaminergic maturation, and CSF transferrin levels correlate with cognitive impairment in affected patients."
 ---
 
 # Schizophrenia
@@ -815,6 +824,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroimmune alarmin: TSLP levels reflect the type-2 and mast-cell activation implicated in the maternal immune-activation hypothesis of schizophrenia, and the comorbid allergic/atopic conditions that frequently accompany the disorder.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — BBB neuroinflammation: bradykinin, elevated in the CSF and plasma of schizophrenia patients, increases blood-brain barrier permeability and contributes to the microglial (already mapped) neuroinflammation and complement (already mapped) activation.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin exerts neuroprotective effects on schizophrenia-relevant circuits via EPOR on neurons and glia; clinical trials of EPO have targeted the cognitive deficits and white-matter pathology of the disorder.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM neuroinflammatory matrix: periostin is elevated in schizophrenia brain tissue; it modulates integrin signalling on astrocytes and microglia, contributing to the synaptic remodelling and neuroinflammatory milieu of the disorder.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen dysregulation: testosterone levels are reduced in male schizophrenia patients and inversely correlate with positive-symptom severity; androgen receptor signalling on dopaminergic neurons modulates D2 receptor density and antipsychotic sensitivity.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Brain iron transport: transferrin-mediated iron delivery is impaired in schizophrenia; prenatal iron deficiency (a risk factor) disrupts monoaminergic maturation, and CSF transferrin levels correlate with cognitive impairment in affected patients.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
