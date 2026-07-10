@@ -491,6 +491,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement at the fetal interface: C5 cleavage generates C5a, whose tight regulation by placental complement-control proteins prevents the complement attack (C3 already mapped) against the semi-allogeneic trophoblast of the placenta."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Placental complement shield: factor H on trophoblast surfaces is the primary alternative-pathway regulator protecting the semi-allogeneic placenta from complement (C3 and C5 already mapped) attack, with factor-H deficiency linked to pre-eclampsia in the reproductive system."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Reproductive iron economy: transferrin mediates iron (already mapped) transfer across the placenta to the fetus via TfR1, is regulated by erythropoietin (already mapped) in maternal erythropoiesis, and is critical for embryonic neural and haematopoietic development."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Reproductive copper: copper (via ceruloplasmin in placental syncytiotrophoblast) is essential for cytochrome c oxidase activity (mitochondrial respiration), fetal neurodevelopment and the oestrogen (already mapped)-biosynthetic CYP19A1 aromatase in the reproductive system."
 ---
 
 # Reproductive System
@@ -764,6 +773,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement and kinin brake: C1-esterase inhibitor regulates the classical complement (C3 already mapped) and kallikrein-kinin (bradykinin already mapped) pathways whose tight control at the maternal-fetal interface prevents placental damage and pre-eclampsia.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Decidual ECM scaffold: periostin, expressed in the decidualised endometrial stroma, promotes endometrial fibroblast differentiation, embryo implantation and the trophoblast invasion required for normal placentation in the reproductive system.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement at the fetal interface: C5 cleavage generates C5a, whose tight regulation by placental complement-control proteins prevents the complement attack (C3 already mapped) against the semi-allogeneic trophoblast of the placenta.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Placental complement shield: factor H on trophoblast surfaces is the primary alternative-pathway regulator protecting the semi-allogeneic placenta from complement (C3 and C5 already mapped) attack, with factor-H deficiency linked to pre-eclampsia in the reproductive system.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Reproductive iron economy: transferrin mediates iron (already mapped) transfer across the placenta to the fetus via TfR1, is regulated by erythropoietin (already mapped) in maternal erythropoiesis, and is critical for embryonic neural and haematopoietic development.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Reproductive copper: copper (via ceruloplasmin in placental syncytiotrophoblast) is essential for cytochrome c oxidase activity (mitochondrial respiration), fetal neurodevelopment and the oestrogen (already mapped)-biosynthetic CYP19A1 aromatase in the reproductive system.
 
 ## Pathology
 
