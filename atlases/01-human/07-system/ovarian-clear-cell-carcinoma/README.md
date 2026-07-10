@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "OCCC ascites serotonin: serotonin accumulates in the clear-cell-carcinoma peritoneal ascites and activates 5-HT receptors on peritoneal deposits to promote adhesion and mTOR (already mapped)-driven proliferation in the ovarian-clear-cell-carcinoma microenvironment."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "OCCC prolactin: prolactin via JAK2/STAT3 activates ovarian-clear-cell-carcinoma cells and macrophages (already mapped), amplifying mTOR (already mapped) and NF-κB (already mapped)-driven proliferation in the ARID1A (already mapped)-deficient microenvironment."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "OCCC oxytocin: oxytocin receptors on ovarian-clear-cell-carcinoma cells couple to Gαq-PKC, cross-activating mTOR (already mapped) and PI3K/AKT (already mapped) proliferative cascades in the chemoresistant ARID1A (already mapped)-mutant microenvironment."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "OCCC vasopressin: vasopressin via V1a receptors on ovarian-clear-cell-carcinoma stroma activates Gαq-PKC-IP3 signalling, converging on mTOR (already mapped) and NF-κB (already mapped) pro-survival cascades in the peritoneal implantation microenvironment."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -805,6 +814,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — OCCC melatonin: melatonin suppresses ovarian-clear-cell-carcinoma proliferation by inhibiting the PI3K/AKT (already mapped) and mTOR (already mapped) pathways through MT1/MT2-mediated cAMP suppression, counteracting the ARID1A-driven (already mapped) carcinogenesis.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — OCCC androgen axis: testosterone via androgen receptor promotes ovarian-clear-cell-carcinoma proliferation and intersects the PI3K/AKT (already mapped) and mTOR (already mapped) pathways upregulated in the ARID1A (already mapped)-mutant clear cell carcinoma.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — OCCC ascites serotonin: serotonin accumulates in the clear-cell-carcinoma peritoneal ascites and activates 5-HT receptors on peritoneal deposits to promote adhesion and mTOR (already mapped)-driven proliferation in the ovarian-clear-cell-carcinoma microenvironment.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — OCCC prolactin: prolactin via JAK2/STAT3 activates ovarian-clear-cell-carcinoma cells and macrophages (already mapped), amplifying mTOR (already mapped) and NF-κB (already mapped)-driven proliferation in the ARID1A (already mapped)-deficient microenvironment.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — OCCC oxytocin: oxytocin receptors on ovarian-clear-cell-carcinoma cells couple to Gαq-PKC, cross-activating mTOR (already mapped) and PI3K/AKT (already mapped) proliferative cascades in the chemoresistant ARID1A (already mapped)-mutant microenvironment.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — OCCC vasopressin: vasopressin via V1a receptors on ovarian-clear-cell-carcinoma stroma activates Gαq-PKC-IP3 signalling, converging on mTOR (already mapped) and NF-κB (already mapped) pro-survival cascades in the peritoneal implantation microenvironment.
 
 ---
 
