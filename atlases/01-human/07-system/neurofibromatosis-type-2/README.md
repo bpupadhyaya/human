@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "NF2 vasopressin: vasopressin via V1a/V2 receptors on NF2 schwannoma stroma activates Gαq-PKC and cAMP-PKA signalling converging on the merlin (NF2 already mapped) loss-driven MAPK and PI3K/AKT (already mapped) cascade."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "NF2 selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the NF2 tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "NF2 iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of neurofibromatosis type 2."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "NF2 sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of NF2."
 ---
 
 # Neurofibromatosis Type 2
@@ -795,6 +804,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — NF2 prolactin: prolactin via JAK2/STAT5 activates NF2 vestibular schwannoma Schwann cells and mast cells (already mapped), augmenting the merlin (NF2 already mapped) loss-driven PI3K/AKT (already mapped) and MAPK proliferative cascade.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — NF2 oxytocin: oxytocin receptors on NF2 vestibular schwannoma cells couple to Gαq-PKC, converging on the merlin (NF2 already mapped) loss-driven MAPK and YAP (already mapped) proliferative cascades.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — NF2 vasopressin: vasopressin via V1a/V2 receptors on NF2 schwannoma stroma activates Gαq-PKC and cAMP-PKA signalling converging on the merlin (NF2 already mapped) loss-driven MAPK and PI3K/AKT (already mapped) cascade.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — NF2 selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the NF2 tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NF2 iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of neurofibromatosis type 2.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NF2 sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of NF2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
