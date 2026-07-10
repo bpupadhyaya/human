@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Mesothelioma selenium antioxidant: selenium, via GPx/TrxR selenoproteins in mesothelioma cells and macrophages (already mapped), quenches ROS that amplifies NF-κB (already mapped) and VEGF-driven (already mapped) angiogenesis in the pleural mesothelioma microenvironment."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Mesothelioma iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of mesothelioma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Mesothelioma sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the T-cytotoxic (already mapped) cascade of mesothelioma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Mesothelioma potassium: potassium channels regulate macrophage (already mapped) and neutrophil (already mapped) function in the mesothelioma TME; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of mesothelioma."
 ---
 
 # Mesothelioma
@@ -794,6 +803,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Mesothelioma oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the NF-κB (already mapped) and VEGF (already mapped) pro-tumour immune cascade, reducing the immunosuppressive phenotype of pleural mesothelioma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Mesothelioma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the pleural tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic signalling in mesothelioma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Mesothelioma selenium antioxidant: selenium, via GPx/TrxR selenoproteins in mesothelioma cells and macrophages (already mapped), quenches ROS that amplifies NF-κB (already mapped) and VEGF-driven (already mapped) angiogenesis in the pleural mesothelioma microenvironment.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Mesothelioma iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of mesothelioma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Mesothelioma sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the T-cytotoxic (already mapped) cascade of mesothelioma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Mesothelioma potassium: potassium channels regulate macrophage (already mapped) and neutrophil (already mapped) function in the mesothelioma TME; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)

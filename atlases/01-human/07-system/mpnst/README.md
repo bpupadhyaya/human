@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "MPNST vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MPNST stroma, modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) pro-tumour signalling in MPNST."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "MPNST selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade of MPNST."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MPNST iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of MPNST."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "MPNST sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of MPNST."
 ---
 
 # MPNST
@@ -807,6 +816,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — MPNST prolactin sarcoma: prolactin, via PRLR on NF1-deficient MPNST cells and macrophages (already mapped), upregulates NF-κB (already mapped) and VEGF-driven (already mapped) signalling, promoting immunosuppression in malignant peripheral nerve sheath tumour.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MPNST oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped) in the MPNST stroma, attenuates NF-κB (already mapped) and VEGF-driven (already mapped) pro-tumour signalling in NF1-deficient malignant peripheral nerve sheath tumour.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MPNST vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MPNST stroma, modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) pro-tumour signalling in MPNST.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MPNST selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade of MPNST.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MPNST iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of MPNST.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MPNST sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
