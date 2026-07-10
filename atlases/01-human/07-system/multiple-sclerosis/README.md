@@ -523,6 +523,12 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "MS copper: copper, as cofactor of cytochrome-c oxidase in oligodendrocytes (already mapped) and superoxide dismutase (already mapped), is essential for myelin synthesis; copper deficiency recapitulates the demyelinating cascade of multiple sclerosis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "MS zinc: zinc cofactors NRF2 (already mapped) antioxidant defence in oligodendrocytes (already mapped); zinc deficiency amplifies NF-κB (already mapped) and IL-17a (already mapped) and NLRP3 (already mapped) neuroinflammation and demyelinating cascade in multiple sclerosis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "MS phosphorus: phosphorus fuels oligodendrocyte (already mapped) ATP and myelin biosynthesis; phosphorus deficiency impairs remyelination and amplifies NF-κB (already mapped) and microglia (already mapped)-driven neuroinflammation in multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -801,6 +807,8 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-myelin axis: iodine-dependent thyroid hormones regulate oligodendrocyte (already mapped) differentiation and myelin synthesis; iodine deficiency amplifies the remyelination failure and IL-6 (already mapped) neuroinflammatory cascade of multiple sclerosis.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Glutamate-excitotoxicity brake: magnesium, via NMDA-receptor (already mapped) blockade on oligodendrocytes (already mapped), reduces glutamate-driven excitotoxicity; magnesium deficiency amplifies the NLRP3 (already mapped) and IL-17a (already mapped) cascade of multiple sclerosis.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Myelin-synthesis cofactor: copper, as cofactor of cytochrome-c oxidase in oligodendrocytes (already mapped) and superoxide dismutase (already mapped), is essential for myelin synthesis; copper deficiency recapitulates the demyelinating cascade of multiple sclerosis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MS zinc: zinc cofactors NRF2 (already mapped) antioxidant defence in oligodendrocytes (already mapped); zinc deficiency amplifies NF-κB (already mapped) and IL-17a (already mapped) and NLRP3 (already mapped) neuroinflammation and demyelinating cascade in multiple sclerosis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MS phosphorus: phosphorus fuels oligodendrocyte (already mapped) ATP and myelin biosynthesis; phosphorus deficiency impairs remyelination and amplifies NF-κB (already mapped) and microglia (already mapped)-driven neuroinflammation in multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
