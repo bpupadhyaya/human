@@ -489,6 +489,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Antiviral chronobiotic: melatonin, via MT1/MT2 receptors on macrophages (already mapped) and NK cells (already mapped), inhibits NLRP3 inflammasome (already mapped) activation and reduces the neuroinflammatory cytokine storm of West Nile virus encephalitis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune-endocrine antiviral modulator: prolactin, acting via PRLR on macrophages (already mapped), NK cells (already mapped) and T cells (already mapped), promotes innate antiviral effector responses and modulates the neuroinflammatory milieu of West Nile virus encephalitis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroimmune neuroprotection: oxytocin, via oxytocin receptors on microglia (already mapped) and astrocytes (already mapped), suppresses the pro-inflammatory cytokine (TNF-α and IL-6 already mapped) cascade and the BBB-disrupting neuroinflammation of West Nile virus encephalitis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen sex-differential severity: testosterone, via androgen receptors on microglia (already mapped) and astrocytes (already mapped), modulates the neuroinflammatory response and contributes to the greater severity and higher mortality of WNV encephalitis in males vs. females."
 ---
 
 # West Nile Virus
@@ -766,3 +775,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuro-epithelial alarmin: TSLP, released from the skin (already mapped) and mucosal barriers at the site of mosquito inoculation and during viraemia, activates mast cells (already mapped) and dendritic cells (already mapped), shaping the early innate response to West Nile virus.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective signal: erythropoietin, acting via EPOR on neurons (already mapped) and astrocytes (already mapped), attenuates the oxidative and neuroinflammatory damage of the West Nile virus encephalitis and promotes neuronal survival.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Antiviral chronobiotic: melatonin, via MT1/MT2 receptors on macrophages (already mapped) and NK cells (already mapped), inhibits NLRP3 inflammasome (already mapped) activation and reduces the neuroinflammatory cytokine storm of West Nile virus encephalitis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine antiviral modulator: prolactin, acting via PRLR on macrophages (already mapped), NK cells (already mapped) and T cells (already mapped), promotes innate antiviral effector responses and modulates the neuroinflammatory milieu of West Nile virus encephalitis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune neuroprotection: oxytocin, via oxytocin receptors on microglia (already mapped) and astrocytes (already mapped), suppresses the pro-inflammatory cytokine (TNF-α and IL-6 already mapped) cascade and the BBB-disrupting neuroinflammation of West Nile virus encephalitis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen sex-differential severity: testosterone, via androgen receptors on microglia (already mapped) and astrocytes (already mapped), modulates the neuroinflammatory response and contributes to the greater severity and higher mortality of WNV encephalitis in males vs. females.
