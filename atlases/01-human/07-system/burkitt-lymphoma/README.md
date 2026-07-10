@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Erythropoietic support: erythropoietin supports the management of the myelosuppressive-chemotherapy-induced anaemia of the intensive treatment of Burkitt lymphoma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell lymphoma axis: histamine, from mast cells (already mapped) in the Burkitt-lymphoma microenvironment, amplifies the MYC-driven (already mapped) angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the tumour stroma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-lymphoma axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the oxidative stress of the MYC-driven (already mapped) rapid proliferation and the genomic instability of Burkitt lymphoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-lymphoma axis: testosterone, via androgen receptors on tumour B-cells (already mapped) and stromal cells, modulates the sex-differential incidence and the immunosuppressive microenvironment of Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -786,6 +795,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the Burkitt-lymphoma microenvironment.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-lymphoma axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the cytokine milieu of the Burkitt-lymphoma microenvironment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic support: erythropoietin supports the management of the myelosuppressive-chemotherapy-induced anaemia of the intensive treatment of Burkitt lymphoma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell lymphoma axis: histamine, from mast cells (already mapped) in the Burkitt-lymphoma microenvironment, amplifies the MYC-driven (already mapped) angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the tumour stroma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-lymphoma axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the oxidative stress of the MYC-driven (already mapped) rapid proliferation and the genomic instability of Burkitt lymphoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-lymphoma axis: testosterone, via androgen receptors on tumour B-cells (already mapped) and stromal cells, modulates the sex-differential incidence and the immunosuppressive microenvironment of Burkitt lymphoma.
 
 ---
 

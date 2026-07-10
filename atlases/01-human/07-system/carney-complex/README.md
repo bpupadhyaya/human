@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Tumour-EPO axis: erythropoietin, via the EPOR on tumour stromal cells (already mapped) and endothelium (already mapped), modulates the angiogenic (already mapped) and the survival dimension of the Carney-complex tumours."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell myxoma axis: histamine, from mast cells (already mapped) in the cardiac myxoma and the skin tumour stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the Carney-complex tumours."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-cAMP axis: melatonin, via MT1/MT2 receptors on PRKAR1A-deficient (already mapped) tumour cells, modulates the cAMP/PKA (already mapped) signalling and the circadian disruption of the neuroendocrine tumours of Carney complex."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the tumour-promoting inflammatory milieu of the Carney-complex tumour microenvironment."
 ---
 
 # Carney Complex
@@ -773,6 +782,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from skin and cardiac myxoma stromal cells (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the Carney-complex tumours.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the cytokine milieu of the cardiac myxoma and the skin tumour microenvironment of Carney complex.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour-EPO axis: erythropoietin, via the EPOR on tumour stromal cells (already mapped) and endothelium (already mapped), modulates the angiogenic (already mapped) and the survival dimension of the Carney-complex tumours.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell myxoma axis: histamine, from mast cells (already mapped) in the cardiac myxoma and the skin tumour stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the Carney-complex tumours.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-cAMP axis: melatonin, via MT1/MT2 receptors on PRKAR1A-deficient (already mapped) tumour cells, modulates the cAMP/PKA (already mapped) signalling and the circadian disruption of the neuroendocrine tumours of Carney complex.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the tumour-promoting inflammatory milieu of the Carney-complex tumour microenvironment.
 
 ---
 
