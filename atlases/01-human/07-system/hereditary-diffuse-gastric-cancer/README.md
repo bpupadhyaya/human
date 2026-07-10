@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "HDGC magnesium: magnesium supports macrophage (already mapped) anti-tumour resolution and mast-cell (already mapped) stability; magnesium deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting inflammation and angiogenesis in HDGC."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HDGC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and mast-cell (already mapped) stability; iodine deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade of HDGC."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "HDGC sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium-induced IL-6 (already mapped) and TGF-β (already mapped) amplifies tumour-promoting microenvironment of HDGC."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HDGC copper: copper supports macrophage (already mapped) anti-tumour function and mast-cell (already mapped) regulation; copper deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade and angiogenesis in HDGC."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -795,6 +804,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HDGC selenium: selenium, via GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies IL-6 (already mapped) and STAT3 (already mapped) tumour-promoting inflammation in hereditary diffuse gastric cancer.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HDGC zinc: zinc cofactors macrophage (already mapped) anti-tumour function and T-cytotoxic (already mapped) cytotoxicity; zinc deficiency amplifies IL-6 (already mapped) and STAT3 (already mapped) tumour-promoting inflammation and impairs CDH1 (already mapped) signalling in HDGC.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HDGC magnesium: magnesium supports macrophage (already mapped) anti-tumour resolution and mast-cell (already mapped) stability; magnesium deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting inflammation and angiogenesis in HDGC.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HDGC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and mast-cell (already mapped) stability; iodine deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade of HDGC.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HDGC sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium-induced IL-6 (already mapped) and TGF-β (already mapped) amplifies tumour-promoting microenvironment of HDGC.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HDGC copper: copper supports macrophage (already mapped) anti-tumour function and mast-cell (already mapped) regulation; copper deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade and angiogenesis in HDGC.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)

@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "HP sodium: sodium channels regulate pancreatic duct fluid secretion; sodium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) and macrophage (already mapped) inflammation in hereditary pancreatitis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HP potassium: potassium regulates pancreatic duct secretion and neutrophil (already mapped) activation; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) macrophage (already mapped) cascade in hereditary pancreatitis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HP phosphorus: phosphorus, as ATP in neutrophils (already mapped) and macrophages (already mapped), fuels inflammatory signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in hereditary pancreatitis."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HP chloride: chloride channels regulate pancreatic duct fluid secretion; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) and macrophage (already mapped) cascade in hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -831,6 +840,9 @@ cross_links:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HP copper: copper, via ceruloplasmin and SOD, scavenges macrophage (already mapped) and neutrophil (already mapped) ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) pancreatic inflammation in hereditary pancreatitis.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HP iodine: thyroid hormones (iodine-dependent) modulate macrophage (already mapped) anti-inflammatory function; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) cascade in hereditary pancreatitis.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HP sodium: sodium channels regulate pancreatic duct fluid secretion; sodium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) and macrophage (already mapped) inflammation in hereditary pancreatitis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HP potassium: potassium regulates pancreatic duct secretion and neutrophil (already mapped) activation; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) macrophage (already mapped) cascade in hereditary pancreatitis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HP phosphorus: phosphorus, as ATP in neutrophils (already mapped) and macrophages (already mapped), fuels inflammatory signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in hereditary pancreatitis.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HP chloride: chloride channels regulate pancreatic duct fluid secretion; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) and macrophage (already mapped) cascade in hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
