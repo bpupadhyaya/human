@@ -528,6 +528,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "ITP potassium: potassium depletion promotes macrophage (already mapped) and platelet (already mapped) dysfunction; potassium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of immune thrombocytopenia."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "ITP calcium: calcium, as a second messenger in macrophages (already mapped) and T-cytotoxic cells (already mapped), regulates platelet (already mapped) activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of ITP."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "ITP phosphorus: phosphorus, as ATP fuelling macrophages (already mapped) and T-cytotoxic cells (already mapped) phagocytosis, sustains platelet (already mapped) clearance; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of ITP."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "ITP chloride: chloride regulates macrophage (already mapped) and T-cytotoxic cell (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade of ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -833,6 +842,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — ITP copper: copper, as cofactor of SOD1 in macrophages (already mapped) and platelets (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) autoimmune thrombocytopenic cascade of immune thrombocytopenia.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ITP zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates autoimmune injury; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) platelet (already mapped) cascade of ITP.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ITP potassium: potassium depletion promotes macrophage (already mapped) and platelet (already mapped) dysfunction; potassium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of immune thrombocytopenia.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — ITP calcium: calcium, as a second messenger in macrophages (already mapped) and T-cytotoxic cells (already mapped), regulates platelet (already mapped) activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of ITP.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ITP phosphorus: phosphorus, as ATP fuelling macrophages (already mapped) and T-cytotoxic cells (already mapped) phagocytosis, sustains platelet (already mapped) clearance; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of ITP.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — ITP chloride: chloride regulates macrophage (already mapped) and T-cytotoxic cell (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade of ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
