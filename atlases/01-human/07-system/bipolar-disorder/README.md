@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the synaptic pruning excess and the neuroinflammation of the mood episodes of bipolar disorder."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM remodelling in mood circuits: periostin, expressed by astrocytes (already mapped) and microglia (already mapped), modulates the perineuronal net matrix in limbic circuitry and contributes to the synaptic dysregulation underlying mood episodes of bipolar disorder."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective cytokine: erythropoietin, via EPOR on neurons (already mapped) and astrocytes (already mapped), promotes neuronal survival, limits the neurotoxic cytokine burden (TNF-α and IL-6 already mapped) and attenuates the hippocampal volume loss of bipolar disorder."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Antipsychotic-immune axis: prolactin, elevated by antipsychotic medications used in BD (dopamine already mapped), modulates T-cell (already mapped) and NK-cell (already mapped) immune function and contributes to the metabolic side-effect burden of bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -789,6 +798,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroinflammatory axis: TSLP, from epithelial barriers, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the Th17 (already mapped) neuroinflammatory bias implicated in the mood episodes of bipolar disorder.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammatory axis: bradykinin, via B2R on CNS microglia (already mapped) and endothelium (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the mood episodes of bipolar disorder.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the synaptic pruning excess and the neuroinflammation of the mood episodes of bipolar disorder.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM remodelling in mood circuits: periostin, expressed by astrocytes (already mapped) and microglia (already mapped), modulates the perineuronal net matrix in limbic circuitry and contributes to the synaptic dysregulation underlying mood episodes of bipolar disorder.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via EPOR on neurons (already mapped) and astrocytes (already mapped), promotes neuronal survival, limits the neurotoxic cytokine burden (TNF-α and IL-6 already mapped) and attenuates the hippocampal volume loss of bipolar disorder.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Antipsychotic-immune axis: prolactin, elevated by antipsychotic medications used in BD (dopamine already mapped), modulates T-cell (already mapped) and NK-cell (already mapped) immune function and contributes to the metabolic side-effect burden of bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

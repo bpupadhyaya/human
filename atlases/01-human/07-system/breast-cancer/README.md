@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Anaemia of cancer: erythropoietin corrects the cancer-related and chemotherapy-induced anaemia of breast cancer; EpoR expression on tumour cells also confers a potential direct growth signal."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell TME effector: histamine, released by mast cells (already mapped) in the breast-cancer TME, promotes tumour angiogenesis (VEGF already mapped) and the immunosuppressive cytokine milieu (IL-10 and TGF-β already mapped) that supports immune evasion of breast cancer."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Metastatic ECM scaffold: periostin, overexpressed in the breast-cancer stroma, promotes tumour invasion, activates the PI3K/AKT signalling (already mapped) pathway in cancer cells and facilitates the colonisation of the lung and bone pre-metastatic niches of breast cancer."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian oncostatic protection: melatonin, via MT1 receptors on breast-cancer cells and via epigenetic suppression of oestrogen-receptor (already mapped) signalling, suppresses cancer cell proliferation and the night-shift-work-linked circadian disruption risk of breast cancer."
 ---
 
 # Breast Cancer
@@ -761,6 +770,9 @@ cross_links:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-tumour axis: TSLP, secreted by cancer-associated fibroblasts (already mapped) and tumour stroma, primes dendritic cells (already mapped) and mast cells (already mapped) toward the Th2 immunosuppressive bias of the breast-cancer microenvironment.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via the kallikrein-kinin system in the breast-cancer microenvironment, amplifies the vascular permeability and the pro-tumorigenic myeloid (macrophage already mapped) recruitment via B1R and B2R.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia of cancer: erythropoietin corrects the cancer-related and chemotherapy-induced anaemia of breast cancer; EpoR expression on tumour cells also confers a potential direct growth signal.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell TME effector: histamine, released by mast cells (already mapped) in the breast-cancer TME, promotes tumour angiogenesis (VEGF already mapped) and the immunosuppressive cytokine milieu (IL-10 and TGF-β already mapped) that supports immune evasion of breast cancer.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Metastatic ECM scaffold: periostin, overexpressed in the breast-cancer stroma, promotes tumour invasion, activates the PI3K/AKT signalling (already mapped) pathway in cancer cells and facilitates the colonisation of the lung and bone pre-metastatic niches of breast cancer.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian oncostatic protection: melatonin, via MT1 receptors on breast-cancer cells and via epigenetic suppression of oestrogen-receptor (already mapped) signalling, suppresses cancer cell proliferation and the night-shift-work-linked circadian disruption risk of breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
