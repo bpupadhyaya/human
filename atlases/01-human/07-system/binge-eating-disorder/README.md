@@ -507,6 +507,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "BED phosphorus: phosphorus fuels neuron (already mapped) and synapse (already mapped) ATP; phosphorus deficiency impairs dopamine (already mapped) and amplifies NLRP3 inflammasome (already mapped) and IL-6 (already mapped) neuroinflammation in binge-eating disorder."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "BED iron: iron in neurons (already mapped) and microglia (already mapped) is essential for dopamine (already mapped) synthesis; iron deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation in binge-eating disorder."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "BED nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates dopamine (already mapped) reward signalling; NO excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in BED."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "BED chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate GABAergic tone; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) signalling cascade in binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -831,6 +840,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — BED potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ homeostasis amplifies IL-6 (already mapped) neuroinflammation and the dopamine (already mapped) reward-circuit dysfunction underlying binge-eating disorder.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — BED calcium: calcium signalling regulates dopamine (already mapped) and serotonin (already mapped) release at synapses (already mapped); calcium dysregulation amplifies the NLRP3 inflammasome (already mapped) and CRH (already mapped) stress cascade of binge-eating disorder.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — BED phosphorus: phosphorus fuels neuron (already mapped) and synapse (already mapped) ATP; phosphorus deficiency impairs dopamine (already mapped) and amplifies NLRP3 inflammasome (already mapped) and IL-6 (already mapped) neuroinflammation in binge-eating disorder.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — BED iron: iron in neurons (already mapped) and microglia (already mapped) is essential for dopamine (already mapped) synthesis; iron deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation in binge-eating disorder.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BED nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates dopamine (already mapped) reward signalling; NO excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in BED.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BED chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate GABAergic tone; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) signalling cascade in binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

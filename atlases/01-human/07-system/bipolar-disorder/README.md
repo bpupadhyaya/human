@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "BD phosphorus: phosphorus fuels neuron (already mapped) and synapse (already mapped) ATP; phosphorus deficiency impairs dopamine (already mapped) and serotonin (already mapped) synthesis and amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation in BD."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "BD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) amplifies neuroinflammation; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) worsening serotonin (already mapped) in BD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "BD chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) and serotonin (already mapped) signalling in BD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "BD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in BD."
 ---
 
 # Bipolar Disorder
@@ -829,6 +838,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — BD potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ and Na+ (sodium already mapped) homeostasis at synapses (already mapped) amplifies NF-κB (already mapped) and IL-1β (already mapped) neuroinflammation in BD.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — BD iron: iron is required for dopamine (already mapped) and serotonin (already mapped) synthesis; iron deficiency impairs hippocampal (already mapped) neuronal (neuron already mapped) energy and worsens the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation in BD.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — BD phosphorus: phosphorus fuels neuron (already mapped) and synapse (already mapped) ATP; phosphorus deficiency impairs dopamine (already mapped) and serotonin (already mapped) synthesis and amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation in BD.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) amplifies neuroinflammation; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) worsening serotonin (already mapped) in BD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BD chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) and serotonin (already mapped) signalling in BD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — BD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in BD.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
