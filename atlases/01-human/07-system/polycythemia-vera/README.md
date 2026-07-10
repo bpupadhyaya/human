@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "JAK2 cross-activation: prolactin signals through the JAK2 (already mapped) receptor, directly intersecting the pathogenic JAK2-V617F hyperactivation; prolactin also stimulates erythropoiesis (EPO already mapped), amplifying the clonal erythrocytosis of polycythaemia vera."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "PV androgen axis: testosterone via androgen receptor modulates erythropoiesis and iron metabolism (transferrin already mapped); the male sex predominance of polycythaemia vera reflects androgen-driven amplification of the JAK2-V617F (already mapped) erythroid clone."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "PV oxytocin: oxytocin via OXTR on megakaryocytes (platelet already mapped) and bone-marrow (already mapped) progenitors modulates platelet production and thrombopoiesis, intersecting the JAK2 (already mapped)-driven thrombocytosis of polycythaemia vera."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PV vasopressin: vasopressin via V2R on collecting-duct cells (kidney already mapped) and megakaryocytes (platelet already mapped) modulates blood viscosity and platelet activation, amplifying the thrombotic risk of the erythrocytosis of polycythaemia vera."
 ---
 
 # Polycythemia Vera
@@ -773,6 +782,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Marrow fibrosis ECM: periostin, a TGF-β-induced ECM component, contributes to the marrow fibrosis (TGF-β already mapped) in polycythaemia vera progression toward myelofibrosis (already mapped), reinforcing the desmoplastic niche of the JAK2-mutant clone.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian erythropoiesis modulator: melatonin regulates the circadian rhythm of erythropoiesis (EPO already mapped) and platelet (already mapped) production, with circadian disruption amplifying the JAK2-mutant erythrocytosis and thrombotic risk of polycythaemia vera.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — JAK2 cross-activation: prolactin signals through the JAK2 (already mapped) receptor, directly intersecting the pathogenic JAK2-V617F hyperactivation; prolactin also stimulates erythropoiesis (EPO already mapped), amplifying the clonal erythrocytosis of polycythaemia vera.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PV androgen axis: testosterone via androgen receptor modulates erythropoiesis and iron metabolism (transferrin already mapped); the male sex predominance of polycythaemia vera reflects androgen-driven amplification of the JAK2-V617F (already mapped) erythroid clone.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PV oxytocin: oxytocin via OXTR on megakaryocytes (platelet already mapped) and bone-marrow (already mapped) progenitors modulates platelet production and thrombopoiesis, intersecting the JAK2 (already mapped)-driven thrombocytosis of polycythaemia vera.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PV vasopressin: vasopressin via V2R on collecting-duct cells (kidney already mapped) and megakaryocytes (platelet already mapped) modulates blood viscosity and platelet activation, amplifying the thrombotic risk of the erythrocytosis of polycythaemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

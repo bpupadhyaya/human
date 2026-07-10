@@ -501,6 +501,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Chronic-disease anaemia support: erythropoietin addresses the normocytic anaemia of chronic psoriatic arthritis inflammation (TNF-α and IL-6 already mapped); EPOR expression on synoviocytes additionally modulates joint inflammation."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "PsA melatonin: melatonin regulates circadian TNF-α (already mapped) and IL-17A (already mapped)-driven synovial inflammation, with nocturnal inflammatory peaks in psoriatic arthritis corresponding to melatonin's anti-inflammatory MT2 receptor signalling."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "PsA androgen axis: testosterone exerts immunosuppressive effects on the IL-17A (already mapped) and TNF-α (already mapped)-driven psoriatic arthritis inflammation, modulating Th17/Th1 (already mapped) balance and the sex-dimorphic joint vs skin involvement of PsA."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "PsA serotonin: serotonin from psoriatic skin (already mapped) mast cells and platelets (already mapped) activates 5-HT2 receptors on synoviocytes and nociceptors, amplifying joint pain and the IL-17A (already mapped)-driven synovial inflammatory cascade of psoriatic arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -809,6 +818,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Synovial kinin: bradykinin generated in the inflamed psoriatic synovium activates B1/B2 receptors on synoviocytes and nociceptors, amplifying joint pain, oedema and the IL-17A (already mapped)-driven inflammatory cascade of psoriatic arthritis flares.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the classical complement (C3, C5 and C5aR1 already mapped) within the psoriatic synovium, limiting complement-driven myeloid recruitment and the angiogenesis (VEGF already mapped) of joint inflammation.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chronic-disease anaemia support: erythropoietin addresses the normocytic anaemia of chronic psoriatic arthritis inflammation (TNF-α and IL-6 already mapped); EPOR expression on synoviocytes additionally modulates joint inflammation.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PsA melatonin: melatonin regulates circadian TNF-α (already mapped) and IL-17A (already mapped)-driven synovial inflammation, with nocturnal inflammatory peaks in psoriatic arthritis corresponding to melatonin's anti-inflammatory MT2 receptor signalling.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PsA androgen axis: testosterone exerts immunosuppressive effects on the IL-17A (already mapped) and TNF-α (already mapped)-driven psoriatic arthritis inflammation, modulating Th17/Th1 (already mapped) balance and the sex-dimorphic joint vs skin involvement of PsA.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PsA serotonin: serotonin from psoriatic skin (already mapped) mast cells and platelets (already mapped) activates 5-HT2 receptors on synoviocytes and nociceptors, amplifying joint pain and the IL-17A (already mapped)-driven synovial inflammatory cascade of psoriatic arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
