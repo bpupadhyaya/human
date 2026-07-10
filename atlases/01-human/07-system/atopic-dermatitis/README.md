@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Stress-itch-mast cell axis: vasopressin, via V1aR on mast cells (already mapped), amplifies the CRH/HPA-stress-triggered mast-cell histamine (already mapped) degranulation and neuroinflammatory pruritus of atopic dermatitis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "AD iodine: iodine-dependent thyroid hormones modulate keratinocyte (already mapped) barrier function and mast cell (already mapped) reactivity; iodine deficiency amplifies the IL-4 (already mapped) and IL-13 (already mapped) Th2 cascade of atopic dermatitis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "AD sodium: sodium, via NaCl sensing on keratinocytes (already mapped) and dendritic cells (already mapped), modulates Th2-skewing; sodium excess amplifies the IL-4 (already mapped) and IL-13 (already mapped) type-2 inflammatory cascade of atopic dermatitis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "AD magnesium: magnesium, as cofactor for skin-barrier enzymes in keratinocytes (already mapped), modulates ceramide synthesis and barrier function; magnesium deficiency amplifies the IgE (already mapped) and IL-4 (already mapped) Th2 cascade of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -786,6 +795,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-skin barrier: testosterone, via androgen receptors on keratinocytes (already mapped) and sebocytes (already mapped), modulates the skin-barrier lipid composition and the inflammatory tone of the neuroimmune-skin axis of atopic dermatitis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune anti-inflammatory: oxytocin, via OxTR on mast cells (already mapped) and T-helper cells (already mapped), attenuates the IgE-mediated (already mapped) and Th2-driven neuroinflammatory pruritus and flares of atopic dermatitis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress-itch-mast cell axis: vasopressin, via V1aR on mast cells (already mapped), amplifies the CRH/HPA-stress-triggered mast-cell histamine (already mapped) degranulation and neuroinflammatory pruritus of atopic dermatitis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AD iodine: iodine-dependent thyroid hormones modulate keratinocyte (already mapped) barrier function and mast cell (already mapped) reactivity; iodine deficiency amplifies the IL-4 (already mapped) and IL-13 (already mapped) Th2 cascade of atopic dermatitis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AD sodium: sodium, via NaCl sensing on keratinocytes (already mapped) and dendritic cells (already mapped), modulates Th2-skewing; sodium excess amplifies the IL-4 (already mapped) and IL-13 (already mapped) type-2 inflammatory cascade of atopic dermatitis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — AD magnesium: magnesium, as cofactor for skin-barrier enzymes in keratinocytes (already mapped), modulates ceramide synthesis and barrier function; magnesium deficiency amplifies the IgE (already mapped) and IL-4 (already mapped) Th2 cascade of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
