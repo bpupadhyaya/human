@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "AS oxytocin: oxytocin exerts anti-inflammatory effects by suppressing NF-κB-driven TNF-α (already mapped) and IL-23 (already mapped) production; oxytocin receptor on osteoblasts promotes cortical bone (already mapped) formation, countering the ankylosing structural damage."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "AS vasopressin: vasopressin V1A receptors on entheseal cells modulate pain sensitisation and inflammation in ankylosing spondylitis; AVP signalling intersects NF-κB (already mapped) and IL-17A (already mapped) driven pro-inflammatory cascades in axial spondyloarthritis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "AS selenium: selenium-dependent GPX antioxidant activity counters the oxidative stress driving NF-κB (already mapped) and TNF-α (already mapped) mediated entheseal inflammation and bone-marrow (already mapped) osteoproliferation in ankylosing spondylitis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "AS iodine: iodine-dependent thyroid hormones modulate NF-κB (already mapped) and IL-17A (already mapped) entheseal inflammation in ankylosing spondylitis; hypothyroidism (autoimmune-thyroid comorbidity) amplifies musculoskeletal pain and the osteoproliferative structural damage."
 ---
 
 # Ankylosing Spondylitis
@@ -784,6 +793,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — AS testosterone: testosterone suppresses IL-17A (already mapped) and TNF-α (already mapped) driven inflammation, partially explaining male-sex protection in ankylosing spondylitis; androgen deficiency promotes bone-marrow (already mapped) driven osteoproliferation.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — AS serotonin: serotonin modulates the pain sensitisation of ankylosing spondylitis via 5-HT receptors on the dorsal horn; serotonin also influences the Th17/Treg balance (IL-17A and TGF-β already mapped) and bone-marrow (already mapped) immune dysregulation.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — AS oxytocin: oxytocin exerts anti-inflammatory effects by suppressing NF-κB-driven TNF-α (already mapped) and IL-23 (already mapped) production; oxytocin receptor on osteoblasts promotes cortical bone (already mapped) formation, countering the ankylosing structural damage.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AS vasopressin: vasopressin V1A receptors on entheseal cells modulate pain sensitisation and inflammation in ankylosing spondylitis; AVP signalling intersects NF-κB (already mapped) and IL-17A (already mapped) driven pro-inflammatory cascades in axial spondyloarthritis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — AS selenium: selenium-dependent GPX antioxidant activity counters the oxidative stress driving NF-κB (already mapped) and TNF-α (already mapped) mediated entheseal inflammation and bone-marrow (already mapped) osteoproliferation in ankylosing spondylitis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AS iodine: iodine-dependent thyroid hormones modulate NF-κB (already mapped) and IL-17A (already mapped) entheseal inflammation in ankylosing spondylitis; hypothyroidism (autoimmune-thyroid comorbidity) amplifies musculoskeletal pain and the osteoproliferative structural damage.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
