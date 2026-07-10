@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "DIC magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and neutrophils (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the systemic inflammatory coagulopathy cascade of DIC."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "DIC copper: copper supports macrophage (already mapped) and neutrophil (already mapped) antioxidant function; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) systemic consumptive coagulopathy cascade of DIC."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "DIC potassium: potassium regulates macrophage (already mapped) and platelet (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive coagulopathy cascade of DIC."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "DIC phosphorus: phosphorus, as ATP in macrophages (already mapped) and neutrophils (already mapped), fuels coagulation and inflammatory signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -826,6 +835,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — DIC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and coagulation mediators; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) consumptive coagulopathy cascade of DIC.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — DIC sodium: high dietary sodium promotes macrophage (already mapped) and neutrophil (already mapped) hyperactivation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the systemic consumptive coagulopathy cascade of DIC.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — DIC magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and neutrophils (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the systemic inflammatory coagulopathy cascade of DIC.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — DIC copper: copper supports macrophage (already mapped) and neutrophil (already mapped) antioxidant function; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) systemic consumptive coagulopathy cascade of DIC.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — DIC potassium: potassium regulates macrophage (already mapped) and platelet (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive coagulopathy cascade of DIC.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — DIC phosphorus: phosphorus, as ATP in macrophages (already mapped) and neutrophils (already mapped), fuels coagulation and inflammatory signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of DIC.
 
 ---
 
