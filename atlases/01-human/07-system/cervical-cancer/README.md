@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Cervical sodium: high dietary sodium promotes macrophage (already mapped) M2 polarisation and mast-cell (already mapped) activation; sodium dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Cervical calcium: calcium regulates macrophage (already mapped) activation and mast-cell (already mapped) degranulation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of cervical cancer."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Cervical magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and regulatory T-cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of cervical cancer."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Cervical copper: copper supports macrophage (already mapped) and regulatory T-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade of cervical cancer."
 ---
 
 # Cervical Cancer
@@ -810,6 +819,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Cervical vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates cervical TME immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Cervical iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Cervical sodium: high dietary sodium promotes macrophage (already mapped) M2 polarisation and mast-cell (already mapped) activation; sodium dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Cervical calcium: calcium regulates macrophage (already mapped) activation and mast-cell (already mapped) degranulation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of cervical cancer.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cervical magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and regulatory T-cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of cervical cancer.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Cervical copper: copper supports macrophage (already mapped) and regulatory T-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade of cervical cancer.
 
 ---
 

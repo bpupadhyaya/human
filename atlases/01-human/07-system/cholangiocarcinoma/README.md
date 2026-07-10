@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "CCA iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) biliary immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "CCA sodium: sodium dysregulation in bone-marrow (already mapped) stroma and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of cholangiocarcinoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "CCA potassium: potassium regulates macrophage (already mapped) and regulatory T-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour cascade of cholangiocarcinoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "CCA zinc: zinc cofactors macrophage (already mapped) anti-tumour function and mast-cell (already mapped) homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and TGF-β (already mapped) cascade of cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -784,6 +793,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CCA serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates biliary TME neuroinflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cholangiocarcinoma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CCA selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges ROS driving TME oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CCA iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) biliary immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CCA sodium: sodium dysregulation in bone-marrow (already mapped) stroma and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of cholangiocarcinoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CCA potassium: potassium regulates macrophage (already mapped) and regulatory T-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour cascade of cholangiocarcinoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — CCA zinc: zinc cofactors macrophage (already mapped) anti-tumour function and mast-cell (already mapped) homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and TGF-β (already mapped) cascade of cholangiocarcinoma.
 
 ---
 
