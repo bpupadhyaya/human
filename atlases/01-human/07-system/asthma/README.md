@@ -520,6 +520,12 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Asthma phosphorus: ATP-purinergic receptor signalling on mast cells (already mapped) and eosinophils (already mapped) amplifies IL-5 (already mapped) mediated airway inflammation; phosphorus-dependent PI3K/AKT pathway sustains NF-κB (already mapped) driven bronchoconstriction."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Asthma sulfur: sulfur-containing antioxidants (glutathione, NAC) quench the ROS burst in asthmatic airways; sulfur deficiency amplifies mast-cell (already mapped) and eosinophil (already mapped) oxidative injury and NF-κB (already mapped) and IL-5 (already mapped) airway cascade."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Asthma nitrogen: nitric oxide (NO, nitrogen-derived) regulates airway smooth-muscle tone via bronchodilation; exhaled NO (FeNO) is a biomarker of eosinophil (already mapped) and IL-5 (already mapped) airway inflammation and NF-κB (already mapped)-driven bronchoconstriction."
 ---
 
 # Asthma
@@ -796,6 +802,8 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Asthma sodium: airway ENaC channels regulate surface liquid volume; sodium hyperabsorption dehydrates mucus, impairing mucociliary clearance and amplifying mast-cell (already mapped) and eosinophil (already mapped) driven NF-κB (already mapped) airway inflammation.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Asthma copper: superoxide dismutase (SOD) neutralises reactive oxygen species in asthmatic airways; copper deficiency amplifies eosinophil (already mapped) oxidative burst and impairs IL-4 (already mapped) signalling, worsening NF-κB (already mapped) airway remodelling.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Asthma phosphorus: ATP-purinergic receptor signalling on mast cells (already mapped) and eosinophils (already mapped) amplifies IL-5 (already mapped) mediated airway inflammation; phosphorus-dependent PI3K/AKT pathway sustains NF-κB (already mapped) driven bronchoconstriction.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Asthma sulfur: sulfur-containing antioxidants (glutathione, NAC) quench the ROS burst in asthmatic airways; sulfur deficiency amplifies mast-cell (already mapped) and eosinophil (already mapped) oxidative injury and NF-κB (already mapped) and IL-5 (already mapped) airway cascade.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Asthma nitrogen: nitric oxide (NO, nitrogen-derived) regulates airway smooth-muscle tone via bronchodilation; exhaled NO (FeNO) is a biomarker of eosinophil (already mapped) and IL-5 (already mapped) airway inflammation and NF-κB (already mapped)-driven bronchoconstriction.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
