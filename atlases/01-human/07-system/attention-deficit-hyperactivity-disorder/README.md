@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "ADHD phosphorus: phosphorus, as ATP in neurons (already mapped) and astrocytes (already mapped), sustains dopaminergic (dopamine already mapped) neurotransmission; phosphorus deficiency impairs norepinephrine (already mapped) signalling and the prefrontal resilience of ADHD."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "ADHD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates dopamine (already mapped) neurotransmission; NO dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in ADHD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "ADHD chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate membrane excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) signalling cascade in ADHD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "ADHD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dysregulation in ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -845,6 +854,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ADHD sodium: high dietary sodium amplifies neuroinflammation in neurons (already mapped) and microglia (already mapped); sodium dysregulation amplifies NF-κB (already mapped) and worsens the dopamine (already mapped) and norepinephrine (already mapped) dysfunction of ADHD.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ADHD potassium: potassium, via Kv channels on neurons (already mapped), regulates GABAergic interneuron tone; potassium dysregulation amplifies neural excitability and the dopamine (already mapped) and norepinephrine (already mapped) executive-dysfunction cascade of ADHD.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ADHD phosphorus: phosphorus, as ATP in neurons (already mapped) and astrocytes (already mapped), sustains dopaminergic (dopamine already mapped) neurotransmission; phosphorus deficiency impairs norepinephrine (already mapped) signalling and the prefrontal resilience of ADHD.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — ADHD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates dopamine (already mapped) neurotransmission; NO dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in ADHD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — ADHD chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate membrane excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) signalling cascade in ADHD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — ADHD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dysregulation in ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

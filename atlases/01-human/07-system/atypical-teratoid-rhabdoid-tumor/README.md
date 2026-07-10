@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "ATRT selenium: selenium, as GPx in neurons (already mapped) and microglia (already mapped), scavenges ROS driving the neuroinflammatory TME; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of ATRT."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "ATRT sodium: sodium dysregulation in bone-marrow (already mapped) stroma and tumour cells amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade in ATRT."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "ATRT potassium: potassium regulates macrophage (already mapped) and tumour cell membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade in ATRT."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "ATRT zinc: zinc cofactors macrophage (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) and VEGF (already mapped) tumour-promoting cascade in ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -806,6 +815,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — ATRT oxytocin: oxytocin, via OXTR on microglia (already mapped) and T-cytotoxic cells (already mapped), attenuates the neuroinflammatory TME; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of ATRT.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — ATRT vasopressin: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates the neuroimmune TME of ATRT; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade of ATRT.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — ATRT selenium: selenium, as GPx in neurons (already mapped) and microglia (already mapped), scavenges ROS driving the neuroinflammatory TME; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of ATRT.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ATRT sodium: sodium dysregulation in bone-marrow (already mapped) stroma and tumour cells amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade in ATRT.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ATRT potassium: potassium regulates macrophage (already mapped) and tumour cell membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ATRT zinc: zinc cofactors macrophage (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) and VEGF (already mapped) tumour-promoting cascade in ATRT.
 
 ---
 
