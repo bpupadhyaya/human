@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "TB oxytocin: oxytocin receptors on macrophages (already mapped) and T cells (already mapped) modulate cytokine secretion and granuloma formation in tuberculosis; oxytocin deficiency contributes to the social withdrawal, anxiety and depression complicating active tuberculosis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "TB vasopressin: vasopressin modulates macrophage (already mapped) cytokine secretion and granuloma vascular tone in tuberculosis; V1A receptor activation intersects NF-κB (already mapped) and IL-1β (already mapped)-driven inflammatory cascades in active TB."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "TB iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) antimycobacterial killing and NF-κB (already mapped) cytokine production in tuberculosis; hypothyroidism impairs granuloma competence and worsens control of Mycobacterium tuberculosis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "TB sodium: high dietary sodium amplifies Th17 polarisation and NF-κB (already mapped)-mediated pro-inflammatory cytokine production in tuberculosis, potentially worsening granuloma-associated tissue damage and exacerbating the inflammatory lung pathology of active disease."
 ---
 
 # Tuberculosis
@@ -797,6 +806,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — TB testosterone: testosterone suppresses macrophage (already mapped) antimycobacterial killing via androgen-receptor signalling, promoting mycobacterial immune evasion; androgen-mediated immunosuppression contributes to the male predominance and severity of tuberculosis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — TB serotonin: serotonin modulates macrophage (already mapped) activation and Mycobacterium tuberculosis phagocytosis via 5-HT receptors; altered serotonin metabolism in active TB also contributes to the neuropsychiatric symptoms and social withdrawal of the disease.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — TB oxytocin: oxytocin receptors on macrophages (already mapped) and T cells (already mapped) modulate cytokine secretion and granuloma formation in tuberculosis; oxytocin deficiency contributes to the social withdrawal, anxiety and depression complicating active tuberculosis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — TB vasopressin: vasopressin modulates macrophage (already mapped) cytokine secretion and granuloma vascular tone in tuberculosis; V1A receptor activation intersects NF-κB (already mapped) and IL-1β (already mapped)-driven inflammatory cascades in active TB.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — TB iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) antimycobacterial killing and NF-κB (already mapped) cytokine production in tuberculosis; hypothyroidism impairs granuloma competence and worsens control of Mycobacterium tuberculosis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — TB sodium: high dietary sodium amplifies Th17 polarisation and NF-κB (already mapped)-mediated pro-inflammatory cytokine production in tuberculosis, potentially worsening granuloma-associated tissue damage and exacerbating the inflammatory lung pathology of active disease.
 
 ## See Also
 

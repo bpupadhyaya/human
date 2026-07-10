@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "TSC prolactin: prolactin modulates cortical-tuber neuroinflammation in tuberous sclerosis via immunomodulatory effects on microglia (already mapped); prolactin-driven astrocyte (already mapped) activation amplifies the seizure susceptibility of TSC cortical dysplasia."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "TSC oxytocin: oxytocin receptor-cAMP/PKA signalling on TSC neurons attenuates mTOR (already mapped) hyperactivation downstream of TSC1/TSC2 (already mapped) loss-of-function; oxytocin also modulates the autism spectrum and social-behaviour deficits of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "TSC vasopressin: vasopressin V1A receptors on TSC neurons intersect mTOR (already mapped)/S6K signalling, modulating synaptic plasticity and the epileptic activity of cortical tubers; V1A-mediated calcium signalling may amplify TSC seizure susceptibility."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "TSC selenium: selenium-dependent GPX suppresses oxidative stress and NF-κB (already mapped)-mediated neuroinflammation in TSC cortical tubers; selenium deficiency worsens mTOR (already mapped)-driven VEGF (already mapped) upregulation and angiomyolipoma growth in TSC."
 ---
 
 # Tuberous Sclerosis Complex
@@ -803,6 +812,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — TSC testosterone: androgen receptor signalling modulates mTOR (already mapped) pathway activity in tuberous sclerosis; testosterone may amplify mTOR-driven hamartoma growth in renal angiomyolipomas, and androgen-deprivation therapy reduces angiomyolipoma progression in TSC.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — TSC serotonin: serotonin signalling is dysregulated in the autism spectrum disorder complicating tuberous sclerosis; mTOR (already mapped) hyperactivation in TSC neurons impairs serotonergic neurotransmission, and SSRI treatment addresses the associated behavioural symptoms.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — TSC prolactin: prolactin modulates cortical-tuber neuroinflammation in tuberous sclerosis via immunomodulatory effects on microglia (already mapped); prolactin-driven astrocyte (already mapped) activation amplifies the seizure susceptibility of TSC cortical dysplasia.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — TSC oxytocin: oxytocin receptor-cAMP/PKA signalling on TSC neurons attenuates mTOR (already mapped) hyperactivation downstream of TSC1/TSC2 (already mapped) loss-of-function; oxytocin also modulates the autism spectrum and social-behaviour deficits of tuberous sclerosis complex.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — TSC vasopressin: vasopressin V1A receptors on TSC neurons intersect mTOR (already mapped)/S6K signalling, modulating synaptic plasticity and the epileptic activity of cortical tubers; V1A-mediated calcium signalling may amplify TSC seizure susceptibility.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — TSC selenium: selenium-dependent GPX suppresses oxidative stress and NF-κB (already mapped)-mediated neuroinflammation in TSC cortical tubers; selenium deficiency worsens mTOR (already mapped)-driven VEGF (already mapped) upregulation and angiomyolipoma growth in TSC.
 
 ---
 
