@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine coupling: prolactin, elevated during chronic inflammation, potentiates B-cell and T-cell activation (IL-17 and TNF already mapped) and may amplify the systemic immune dysregulation of ankylosing spondylitis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "AS testosterone: testosterone suppresses IL-17A (already mapped) and TNF-α (already mapped) driven inflammation, partially explaining male-sex protection in ankylosing spondylitis; androgen deficiency promotes bone-marrow (already mapped) driven osteoproliferation."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "AS serotonin: serotonin modulates the pain sensitisation of ankylosing spondylitis via 5-HT receptors on the dorsal horn; serotonin also influences the Th17/Treg balance (IL-17A and TGF-β already mapped) and bone-marrow (already mapped) immune dysregulation."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "AS oxytocin: oxytocin exerts anti-inflammatory effects by suppressing NF-κB-driven TNF-α (already mapped) and IL-23 (already mapped) production; oxytocin receptor on osteoblasts promotes cortical bone (already mapped) formation, countering the ankylosing structural damage."
 ---
 
 # Ankylosing Spondylitis
@@ -772,6 +781,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell enthesitis: histamine, released by mast cells (already mapped) infiltrating the inflamed entheses of ankylosing spondylitis, amplifies the local vascular permeability and nociceptive signalling (bradykinin already mapped) of the enthesitis.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian–immune axis: melatonin modulates the Th17/Treg balance (IL-17 and TGF-β already mapped) and exhibits anti-inflammatory effects that may influence the nocturnal pain pattern of ankylosing spondylitis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine coupling: prolactin, elevated during chronic inflammation, potentiates B-cell and T-cell activation (IL-17 and TNF already mapped) and may amplify the systemic immune dysregulation of ankylosing spondylitis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — AS testosterone: testosterone suppresses IL-17A (already mapped) and TNF-α (already mapped) driven inflammation, partially explaining male-sex protection in ankylosing spondylitis; androgen deficiency promotes bone-marrow (already mapped) driven osteoproliferation.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — AS serotonin: serotonin modulates the pain sensitisation of ankylosing spondylitis via 5-HT receptors on the dorsal horn; serotonin also influences the Th17/Treg balance (IL-17A and TGF-β already mapped) and bone-marrow (already mapped) immune dysregulation.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — AS oxytocin: oxytocin exerts anti-inflammatory effects by suppressing NF-κB-driven TNF-α (already mapped) and IL-23 (already mapped) production; oxytocin receptor on osteoblasts promotes cortical bone (already mapped) formation, countering the ankylosing structural damage.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

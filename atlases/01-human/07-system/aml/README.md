@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Matricellular niche factor: periostin, secreted by the bone-marrow stromal niche (already mapped) of AML, promotes leukaemia stem-cell (LSC) adhesion and quiescence through integrin αvβ3/αvβ5 signalling, contributing to chemotherapy resistance."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "AML melatonin: melatonin induces AML blast apoptosis via MT1/MT2-mediated mTOR (already mapped) inhibition; melatonin also enhances FLT3 (already mapped) mutant AML sensitivity to targeted therapy and reduces bone-marrow (already mapped) immunosuppression."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "AML testosterone: androgen receptor signalling in AML blasts promotes leukaemia survival via mTOR (already mapped) and IL-6 (already mapped) driven STAT3 activation; androgen-deprivation therapy sensitises AML to venetoclax in the bone-marrow (already mapped) niche."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "AML serotonin: serotonin, released by activated platelets (already mapped) in the AML bone-marrow (already mapped) niche, signals through 5-HT2 receptors on AML blasts promoting proliferative and anti-apoptotic signalling via the IL-6 (already mapped) pathway."
 ---
 
 # AML
@@ -774,6 +783,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact/lectin pathway regulation: the C1-esterase inhibitor controls the contact-pathway activation (bradykinin already mapped) and classical complement in the hypercoagulable state and DIC complicating AML, limiting the vascular permeability cascade.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell–leukaemia crosstalk: histamine, released by mast cells (already mapped) in the bone-marrow microenvironment of AML, signals through H2 receptors on AML blasts, promoting leukaemia cell survival and immunosuppression in the marrow niche.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Matricellular niche factor: periostin, secreted by the bone-marrow stromal niche (already mapped) of AML, promotes leukaemia stem-cell (LSC) adhesion and quiescence through integrin αvβ3/αvβ5 signalling, contributing to chemotherapy resistance.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — AML melatonin: melatonin induces AML blast apoptosis via MT1/MT2-mediated mTOR (already mapped) inhibition; melatonin also enhances FLT3 (already mapped) mutant AML sensitivity to targeted therapy and reduces bone-marrow (already mapped) immunosuppression.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — AML testosterone: androgen receptor signalling in AML blasts promotes leukaemia survival via mTOR (already mapped) and IL-6 (already mapped) driven STAT3 activation; androgen-deprivation therapy sensitises AML to venetoclax in the bone-marrow (already mapped) niche.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — AML serotonin: serotonin, released by activated platelets (already mapped) in the AML bone-marrow (already mapped) niche, signals through 5-HT2 receptors on AML blasts promoting proliferative and anti-apoptotic signalling via the IL-6 (already mapped) pathway.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
