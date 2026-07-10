@@ -523,6 +523,9 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "ACD sodium: sodium dysregulation amplifies the macrophage (already mapped) NF-κB (already mapped) inflammatory signalling that upregulates hepcidin (already mapped); sodium excess activates the IL-6 (already mapped) cascade driving iron-sequestration of anemia of chronic disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "ACD magnesium: magnesium supports erythropoietin (already mapped) signalling in erythropoiesis; magnesium deficiency amplifies macrophage (already mapped) NF-κB (already mapped) and IL-6 (already mapped)-hepcidin (already mapped) iron-sequestration of anemia of chronic disease."
 ---
 
 # Anemia of Chronic Disease
@@ -815,6 +818,7 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Inflammatory ROS scavenger: selenium, as GPx in macrophages (already mapped) and erythrocyte (already mapped) precursors, scavenges inflammatory ROS; selenium deficiency amplifies the hepcidin (already mapped) and NF-κB (already mapped) iron-sequestration cascade of anemia of chronic disease.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-erythropoiesis axis: iodine-dependent thyroid hormones regulate erythropoiesis (erythropoietin already mapped) and erythrocyte (already mapped); iodine deficiency amplifies the IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of anemia of chronic disease.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Hepcidin-inflammatory amplifier: sodium dysregulation amplifies the macrophage (already mapped) NF-κB (already mapped) inflammatory signalling that upregulates hepcidin (already mapped); sodium excess activates the IL-6 (already mapped) cascade driving iron-sequestration of anemia of chronic disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — ACD magnesium: magnesium supports erythropoietin (already mapped) signalling in erythropoiesis; magnesium deficiency amplifies macrophage (already mapped) NF-κB (already mapped) and IL-6 (already mapped)-hepcidin (already mapped) iron-sequestration of anemia of chronic disease.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

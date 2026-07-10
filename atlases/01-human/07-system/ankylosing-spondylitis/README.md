@@ -520,6 +520,12 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "AS iodine: iodine-dependent thyroid hormones modulate NF-κB (already mapped) and IL-17A (already mapped) entheseal inflammation in ankylosing spondylitis; hypothyroidism (autoimmune-thyroid comorbidity) amplifies musculoskeletal pain and the osteoproliferative structural damage."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "AS sodium: excess sodium promotes macrophage (already mapped) and t-helper-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-17A (already mapped) amplify TNF-α (already mapped) and IL-6 (already mapped) osteoproliferative cascade of AS."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "AS magnesium: magnesium, as cofactor for osteoblast (already mapped) mineralisation, supports bone formation; magnesium deficiency amplifies osteoclast (already mapped) RANKL and NF-κB (already mapped) and TNF-α (already mapped) osteoproliferative structural damage cascade of AS."
 ---
 
 # Ankylosing Spondylitis
@@ -796,6 +802,8 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AS vasopressin: vasopressin V1A receptors on entheseal cells modulate pain sensitisation and inflammation in ankylosing spondylitis; AVP signalling intersects NF-κB (already mapped) and IL-17A (already mapped) driven pro-inflammatory cascades in axial spondyloarthritis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — AS selenium: selenium-dependent GPX antioxidant activity counters the oxidative stress driving NF-κB (already mapped) and TNF-α (already mapped) mediated entheseal inflammation and bone-marrow (already mapped) osteoproliferation in ankylosing spondylitis.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AS iodine: iodine-dependent thyroid hormones modulate NF-κB (already mapped) and IL-17A (already mapped) entheseal inflammation in ankylosing spondylitis; hypothyroidism (autoimmune-thyroid comorbidity) amplifies musculoskeletal pain and the osteoproliferative structural damage.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AS sodium: excess sodium promotes macrophage (already mapped) and t-helper-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-17A (already mapped) amplify TNF-α (already mapped) and IL-6 (already mapped) osteoproliferative cascade of AS.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — AS magnesium: magnesium, as cofactor for osteoblast (already mapped) mineralisation, supports bone formation; magnesium deficiency amplifies osteoclast (already mapped) RANKL and NF-κB (already mapped) and TNF-α (already mapped) osteoproliferative structural damage cascade of AS.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
