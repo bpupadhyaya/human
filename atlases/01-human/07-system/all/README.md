@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "ALL selenium: selenium, as GPx in bone-marrow (already mapped) stromal cells and leukaemic blasts, scavenges ROS driving leukaemic proliferation; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) leukaemia-niche inflammatory cascade of ALL."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "ALL sodium: sodium dysregulation in bone-marrow (already mapped) stroma and B-cell (already mapped) precursors amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic blast proliferation in ALL."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "ALL zinc: zinc cofactors macrophage (already mapped) anti-tumour function and B-cell (already mapped) homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic blast expansion in ALL."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "ALL copper: copper, via ceruloplasmin and SOD in macrophages (already mapped) and bone-marrow (already mapped) stroma, scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic proliferation in ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -827,6 +836,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Leukaemia-niche immunomodulator: oxytocin, via OXTR on bone-marrow (already mapped) stromal cells and regulatory T cells (already mapped), modulates leukaemic-niche immune suppression; oxytocin deficiency amplifies the IL-6 (already mapped) and NF-κB (already mapped) activation of ALL.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Haematopoietic niche regulator: vasopressin, via V1aR on bone-marrow (already mapped) stromal cells and megakaryocyte progenitors (platelet already mapped), modulates haematopoiesis; vasopressin dysregulation amplifies the IL-6 (already mapped) and NF-κB (already mapped) leukaemia-niche of ALL.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Leukaemic ROS scavenger: selenium, as GPx in bone-marrow (already mapped) stromal cells and leukaemic blasts, scavenges ROS driving leukaemic proliferation; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) leukaemia-niche inflammatory cascade of ALL.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ALL sodium: sodium dysregulation in bone-marrow (already mapped) stroma and B-cell (already mapped) precursors amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic blast proliferation in ALL.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ALL zinc: zinc cofactors macrophage (already mapped) anti-tumour function and B-cell (already mapped) homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic blast expansion in ALL.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — ALL copper: copper, via ceruloplasmin and SOD in macrophages (already mapped) and bone-marrow (already mapped) stroma, scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic proliferation in ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

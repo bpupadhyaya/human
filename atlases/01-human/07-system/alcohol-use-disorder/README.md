@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "AUD copper: copper, as SOD cofactor, scavenges alcohol-induced ROS in hepatocytes (already mapped) and neurons (already mapped); copper dyshomeostasis amplifies the NF-κB (already mapped) and NLRP3 (already mapped) hepatic neuroinflammatory cascade of alcohol use disorder."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "AUD calcium: calcium regulates neuron (already mapped) excitability and dopamine (already mapped) signalling; calcium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) hepatocyte (already mapped) liver injury in AUD."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "AUD nitrogen: nitric oxide (NO, nitrogen-derived) in macrophages (already mapped) and hepatocytes (already mapped) modulates liver inflammation; NO excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AUD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "AUD chloride: chloride channels in macrophages (already mapped) and hepatocytes (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade in AUD."
 ---
 
 # Alcohol Use Disorder
@@ -879,6 +888,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-hepatic axis: iodine-dependent thyroid hormones modulate hepatic alcohol metabolism and neuronal GABA (already mapped) tone; iodine deficiency impairs thyroid regulation of the CRH (already mapped) and dopamine (already mapped) craving cascade of alcohol use disorder.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — RAAS-sodium dysregulation: heavy alcohol use activates renin-angiotensin-aldosterone, causing sodium retention and hypertension (already mapped); sodium dysregulation amplifies the CRH (already mapped) and NF-κB (already mapped) cascade of alcohol use disorder.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Hepatic antioxidant cofactor: copper, as SOD cofactor, scavenges alcohol-induced ROS in hepatocytes (already mapped) and neurons (already mapped); copper dyshomeostasis amplifies the NF-κB (already mapped) and NLRP3 (already mapped) hepatic neuroinflammatory cascade of alcohol use disorder.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — AUD calcium: calcium regulates neuron (already mapped) excitability and dopamine (already mapped) signalling; calcium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) hepatocyte (already mapped) liver injury in AUD.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — AUD nitrogen: nitric oxide (NO, nitrogen-derived) in macrophages (already mapped) and hepatocytes (already mapped) modulates liver inflammation; NO excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AUD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — AUD chloride: chloride channels in macrophages (already mapped) and hepatocytes (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade in AUD.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
