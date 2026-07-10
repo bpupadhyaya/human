@@ -503,6 +503,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "MS vasopressin: vasopressin, acting on V1/V2 receptors on smooth-muscle cells, modulates the vascular tone in the musculoskeletal system; vasopressin also regulates sodium (already mapped) and water balance that affects synovial fluid composition and joint lubrication."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "MS oxytocin: oxytocin receptors on osteoblasts (already mapped) suppress NF-κB (already mapped) and promote bone anabolism; oxytocin also modulates muscle regeneration and collagen (already mapped) synthesis via IL-6 (already mapped) and TNF-α (already mapped) signalling."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MS iodine: thyroid-hormone signalling drives bone-turnover balance (osteoblast/already mapped vs osteoclast/already mapped) and muscle protein synthesis; iodine deficiency impairs collagen (already mapped) synthesis and amplifies NF-κB (already mapped) inflammatory remodelling."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "MS sulfur: sulfur-containing amino acids are essential for collagen (already mapped) cross-linking and cartilage proteoglycan synthesis; sulfur deficiency impairs musculoskeletal repair and amplifies NF-κB (already mapped) and TNF-α (already mapped) driven catabolic signalling."
 ---
 
 # Musculoskeletal System
@@ -801,6 +810,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — MS melatonin: melatonin, via MT1/MT2 receptors on osteoblasts (already mapped), attenuates RANKL (already mapped) osteoclastogenesis and promotes bone anabolism; melatonin also modulates the bone-marrow (already mapped) haematopoietic niche and reduces musculoskeletal pain.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — MS prolactin: prolactin, via prolactin receptors on osteoblasts (already mapped), promotes bone anabolism and muscle protein synthesis; prolactin modulates the reproductive (already mapped) and immune (already mapped) crosstalk of the musculoskeletal system.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MS vasopressin: vasopressin, acting on V1/V2 receptors on smooth-muscle cells, modulates the vascular tone in the musculoskeletal system; vasopressin also regulates sodium (already mapped) and water balance that affects synovial fluid composition and joint lubrication.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MS oxytocin: oxytocin receptors on osteoblasts (already mapped) suppress NF-κB (already mapped) and promote bone anabolism; oxytocin also modulates muscle regeneration and collagen (already mapped) synthesis via IL-6 (already mapped) and TNF-α (already mapped) signalling.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MS iodine: thyroid-hormone signalling drives bone-turnover balance (osteoblast/already mapped vs osteoclast/already mapped) and muscle protein synthesis; iodine deficiency impairs collagen (already mapped) synthesis and amplifies NF-κB (already mapped) inflammatory remodelling.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MS sulfur: sulfur-containing amino acids are essential for collagen (already mapped) cross-linking and cartilage proteoglycan synthesis; sulfur deficiency impairs musculoskeletal repair and amplifies NF-κB (already mapped) and TNF-α (already mapped) driven catabolic signalling.
 
 ## Pathology
 

@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "MF oxytocin: oxytocin receptors on bone-marrow (already mapped) stromal cells modulate the immune-inflammatory microenvironment of myelofibrosis; oxytocin attenuates the macrophage (already mapped) and fibroblast (already mapped) TGF-β (already mapped) fibrotic signalling."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MF vasopressin: vasopressin (ADH) modulates the bone-marrow (already mapped) stromal microenvironment via V1/V2 receptor signalling; vasopressin amplifies NF-κB (already mapped) and TGF-β (already mapped) driven fibroblast (already mapped) activation in the myelofibrotic marrow."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "MF selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and TGF-β (already mapped) fibrotic signalling in myelofibrosis; selenium deficiency amplifies macrophage (already mapped) inflammatory cytokine release and bone-marrow (already mapped) oxidative stress."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MF iodine: thyroid-hormone signalling modulates bone-marrow (already mapped) erythropoiesis and macrophage (already mapped) immune surveillance; iodine deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) driven fibroblast (already mapped) fibrotic activity."
 ---
 
 # Myelofibrosis
@@ -795,6 +804,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — MF testosterone: androgen signalling on haematopoietic progenitors attenuates the TGF-β (already mapped) fibrotic drive in the marrow; testosterone deficiency worsens the JAK2 (already mapped) MPN anaemia and bone-marrow (already mapped) failure of myelofibrosis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — MF serotonin: platelet (already mapped) serotonin amplifies the thrombopoietin (already mapped) megakaryocyte hyperplasia and thrombotic risk; 5-HT2 signalling on fibroblasts (already mapped) potentiates the TGF-β (already mapped) fibrotic cascade of myelofibrosis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MF oxytocin: oxytocin receptors on bone-marrow (already mapped) stromal cells modulate the immune-inflammatory microenvironment of myelofibrosis; oxytocin attenuates the macrophage (already mapped) and fibroblast (already mapped) TGF-β (already mapped) fibrotic signalling.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MF vasopressin: vasopressin (ADH) modulates the bone-marrow (already mapped) stromal microenvironment via V1/V2 receptor signalling; vasopressin amplifies NF-κB (already mapped) and TGF-β (already mapped) driven fibroblast (already mapped) activation in the myelofibrotic marrow.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MF selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and TGF-β (already mapped) fibrotic signalling in myelofibrosis; selenium deficiency amplifies macrophage (already mapped) inflammatory cytokine release and bone-marrow (already mapped) oxidative stress.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MF iodine: thyroid-hormone signalling modulates bone-marrow (already mapped) erythropoiesis and macrophage (already mapped) immune surveillance; iodine deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) driven fibroblast (already mapped) fibrotic activity.
 
 ---
 
