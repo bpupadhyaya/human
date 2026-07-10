@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian airway gating: melatonin orchestrates the nocturnal circadian dip in airway calibre that underlies night-time asthma, and melatonin receptor signalling on mast cells (already mapped) and smooth muscle (already mapped) modulates the overnight bronchoconstriction."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroimmune bronchodilation: oxytocin, via OXT receptors on bronchial smooth muscle (already mapped) and mast cells (already mapped), exerts anti-inflammatory and bronchodilatory effects that may attenuate the mast-cell-driven bronchoconstriction of asthma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone protection: testosterone attenuates the Th2 skewing (IL-4 and IL-13 already mapped) and mast-cell (already mapped) responsiveness that contribute to the female-predominant prevalence and greater severity of asthma after puberty."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonin-bronchospasm: serotonin (5-HT), released from activated mast cells (already mapped) and platelets in the asthmatic airway, contracts bronchial smooth muscle (already mapped) via 5-HT2 receptors and amplifies the neurogenic bronchoconstriction."
 ---
 
 # Asthma
@@ -760,6 +769,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Airway EPO-R: erythropoietin receptors are expressed on bronchial epithelial cells and alveolar macrophages (already mapped); EPO and its tissue-protective isoforms attenuate the eosinophilic airway inflammation and bronchial hyperresponsiveness of asthma.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroimmune Th2 modulator: prolactin, elevated in active asthma, potentiates the mast-cell (already mapped) degranulation, IgE (already mapped) production and Th2 (IL-4/IL-13 already mapped) skewing that drive eosinophilic airway inflammation in asthma.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian airway gating: melatonin orchestrates the nocturnal circadian dip in airway calibre that underlies night-time asthma, and melatonin receptor signalling on mast cells (already mapped) and smooth muscle (already mapped) modulates the overnight bronchoconstriction.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune bronchodilation: oxytocin, via OXT receptors on bronchial smooth muscle (already mapped) and mast cells (already mapped), exerts anti-inflammatory and bronchodilatory effects that may attenuate the mast-cell-driven bronchoconstriction of asthma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone protection: testosterone attenuates the Th2 skewing (IL-4 and IL-13 already mapped) and mast-cell (already mapped) responsiveness that contribute to the female-predominant prevalence and greater severity of asthma after puberty.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-bronchospasm: serotonin (5-HT), released from activated mast cells (already mapped) and platelets in the asthmatic airway, contracts bronchial smooth muscle (already mapped) via 5-HT2 receptors and amplifies the neurogenic bronchoconstriction.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
