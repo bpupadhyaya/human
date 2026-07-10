@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Platelet-serotonin effector: serotonin, released by the platelets (already mapped) upon the endothelial (already mapped) injury of sepsis, amplifies the vasoconstriction and the microvascular thrombosis of septic shock and the organ-failure cascade."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Sepsis prolactin: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies the IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of sepsis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Sepsis oxytocin: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates the cytokine-storm (already mapped) and NLRP3 (already mapped) inflammatory cascade; oxytocin deficiency amplifies the organ-failure progression of sepsis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Sepsis selenium: selenium, as GPx in macrophages (already mapped) and endothelial cells (already mapped), scavenges the reactive-oxygen-species burst of sepsis; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade of sepsis."
 ---
 
 # Sepsis
@@ -773,6 +782,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-immune-sepsis: melatonin has potent antioxidant and immunomodulatory properties; circadian disruption is near-universal in septic ICU patients, and melatonin supplementation reduces oxidative stress and the excessive inflammatory response of sepsis.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-immune dimorphism: testosterone is immunosuppressive; the male sex-hormone disadvantage in sepsis survival reflects testosterone-mediated impairment of the macrophage (already mapped) and T-cell (already mapped) early pro-inflammatory clearance response.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-serotonin effector: serotonin, released by the platelets (already mapped) upon the endothelial (already mapped) injury of sepsis, amplifies the vasoconstriction and the microvascular thrombosis of septic shock and the organ-failure cascade.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Innate immune neuroendocrine: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies the IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of sepsis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Anti-inflammatory neuropeptide: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates the cytokine-storm (already mapped) and NLRP3 (already mapped) inflammatory cascade; oxytocin deficiency amplifies the organ-failure progression of sepsis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, as GPx in macrophages (already mapped) and endothelial cells (already mapped), scavenges the reactive-oxygen-species burst of sepsis; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
