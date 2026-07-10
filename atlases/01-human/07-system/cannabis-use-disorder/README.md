@@ -483,6 +483,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Neuroinflammatory ECM: periostin, expressed in the brain extracellular matrix, participates in the neuroinflammatory remodelling (microglia and TNF already mapped) of the prefrontal and limbic circuits disrupted by chronic cannabis exposure."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "CUD complement-c5: complement C5 activation in the neuroinflammatory brain (already mapped) microenvironment of cannabis use disorder amplifies the microglial (already mapped) damage and the synaptic loss triggered by chronic endocannabinoid (already mapped) system disruption."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "CUD factor-h: factor H regulates alternative complement activation (C5 already mapped) in the neuroinflamed brain (already mapped); factor H deficiency amplifies mast-cell (already mapped) neuroinflammation and the IL-6 (already mapped) neuroinflammatory cascade."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "CUD transferrin: transferrin-mediated iron delivery supports dopaminergic (dopamine already mapped) neurotransmission in cannabis use disorder; iron deficiency amplifies the brain (already mapped) neuroinflammatory burden and endocannabinoid (already mapped) dysregulation."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -793,6 +802,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact-pathway neuroimmune: the C1-esterase inhibitor controls the contact-pathway (bradykinin already mapped) and complement-driven neuroinflammation implicated in the reward-circuit (dopamine and nucleus-accumbens already mapped) pathology of cannabis use disorder.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic–endocannabinoid axis: histamine (H1 and H3 receptors mapped) modulates the hypothalamic–pituitary axis and the mesolimbic reward circuits (dopamine and nucleus-accumbens already mapped) that are dysregulated in cannabis use disorder.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Neuroinflammatory ECM: periostin, expressed in the brain extracellular matrix, participates in the neuroinflammatory remodelling (microglia and TNF already mapped) of the prefrontal and limbic circuits disrupted by chronic cannabis exposure.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — CUD complement-c5: complement C5 activation in the neuroinflammatory brain (already mapped) microenvironment of cannabis use disorder amplifies the microglial (already mapped) damage and the synaptic loss triggered by chronic endocannabinoid (already mapped) system disruption.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — CUD factor-h: factor H regulates alternative complement activation (C5 already mapped) in the neuroinflamed brain (already mapped); factor H deficiency amplifies mast-cell (already mapped) neuroinflammation and the IL-6 (already mapped) neuroinflammatory cascade.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — CUD transferrin: transferrin-mediated iron delivery supports dopaminergic (dopamine already mapped) neurotransmission in cannabis use disorder; iron deficiency amplifies the brain (already mapped) neuroinflammatory burden and endocannabinoid (already mapped) dysregulation.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
