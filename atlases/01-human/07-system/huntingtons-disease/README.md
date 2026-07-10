@@ -480,6 +480,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Neuroprotective EPO: erythropoietin crosses the blood-brain barrier and activates JAK-STAT (JAK1/2 already mapped) and anti-apoptotic pathways in the striatal neurons (already mapped), conferring neuroprotection against mHTT toxicity in Huntington's disease."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-HD axis: histamine, released by microglia (already mapped) and mast cells in the HD striatum, signals via H3 receptors on neurons (already mapped), modulating striatal dopamine (already mapped) and glutamate (already mapped) transmission in Huntington's disease."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Prolactin-HD axis: prolactin, via prolactin receptors on striatal neurons (already mapped) and microglia (already mapped), modulates neuroinflammation, hypothalamic-pituitary dysfunction (already mapped), and the immune-neuroendocrine cross-talk of Huntington's disease."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Oxytocin-HD axis: oxytocin, from the hypothalamic nuclei (already mapped) depleted by mHTT toxicity, modulates striatal dopamine (already mapped) signalling, social behaviour circuits, and the anxiety and depression (already mapped) comorbidities of Huntington's disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -685,3 +694,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Gut-epithelial alarmin: TSLP from the gut epithelium (already mapped) in the dysbiosis (microbiome already mapped) of Huntington's disease primes dendritic cells (already mapped) toward a Th2 (IL-4, IL-13 already mapped) tone that dampens neuroinflammation.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement brake: C1-INH controls the classical-pathway arm (C3, C5, C5aR1 and factor H already mapped) of the complement-mediated synaptic pruning that amplifies the striatal neurodegeneration of Huntington's disease.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin crosses the blood-brain barrier and activates JAK-STAT (JAK1/2 already mapped) and anti-apoptotic pathways in the striatal neurons (already mapped), conferring neuroprotection against mHTT toxicity in Huntington's disease.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-HD axis: histamine, released by microglia (already mapped) and mast cells in the HD striatum, signals via H3 receptors on neurons (already mapped), modulating striatal dopamine (already mapped) and glutamate (already mapped) transmission in Huntington's disease.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-HD axis: prolactin, via prolactin receptors on striatal neurons (already mapped) and microglia (already mapped), modulates neuroinflammation, hypothalamic-pituitary dysfunction (already mapped), and the immune-neuroendocrine cross-talk of Huntington's disease.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin-HD axis: oxytocin, from the hypothalamic nuclei (already mapped) depleted by mHTT toxicity, modulates striatal dopamine (already mapped) signalling, social behaviour circuits, and the anxiety and depression (already mapped) comorbidities of Huntington's disease.

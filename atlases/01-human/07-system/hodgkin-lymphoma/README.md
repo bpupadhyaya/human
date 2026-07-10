@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Stromal matricellular remodelling: periostin, secreted by the fibroblasts (fibrosis already mapped) of the reactive stromal microenvironment of Hodgkin lymphoma, promotes the collagen (already mapped) deposition and the desmoplastic niche of the Reed-Sternberg cells."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-HL axis: melatonin, via MT1/MT2 receptors on Reed-Sternberg cells and tumour-microenvironment lymphocytes (already mapped), modulates circadian immune rhythms, suppresses NFκB (already mapped) signalling, and enhances the apoptotic sensitivity to ABVD chemotherapy."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-HL axis: testosterone, via androgen receptor signalling on Reed-Sternberg cells and tumour-microenvironment T cells (already mapped), modulates EBV (already mapped)-driven oncogenesis and the male sex bias in Hodgkin-lymphoma incidence and prognosis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonin-HL axis: serotonin, released by activated platelets (already mapped) in the Reed-Sternberg tumour microenvironment, amplifies mast-cell (already mapped) histamine secretion, vascular permeability, and the B-symptom complex of Hodgkin lymphoma."
 ---
 
 # Hodgkin Lymphoma
@@ -773,6 +782,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vasoactive kinin in reactive stroma: bradykinin, from the kallikrein-kinin system activated within the reactive microenvironment of Hodgkin lymphoma, promotes vascular permeability and augments the prostaglandin (already mapped) and histamine (already mapped) B-symptom mediators.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia-of-cancer treatment: erythropoietin corrects the anemia of chronic disease (already mapped) and cancer-chemotherapy-induced (already mapped) anaemia in Hodgkin lymphoma; monitoring of EPO levels aids in distinguishing inflammatory from iron-deficiency anaemia.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Stromal matricellular remodelling: periostin, secreted by the fibroblasts (fibrosis already mapped) of the reactive stromal microenvironment of Hodgkin lymphoma, promotes the collagen (already mapped) deposition and the desmoplastic niche of the Reed-Sternberg cells.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-HL axis: melatonin, via MT1/MT2 receptors on Reed-Sternberg cells and tumour-microenvironment lymphocytes (already mapped), modulates circadian immune rhythms, suppresses NFκB (already mapped) signalling, and enhances the apoptotic sensitivity to ABVD chemotherapy.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-HL axis: testosterone, via androgen receptor signalling on Reed-Sternberg cells and tumour-microenvironment T cells (already mapped), modulates EBV (already mapped)-driven oncogenesis and the male sex bias in Hodgkin-lymphoma incidence and prognosis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-HL axis: serotonin, released by activated platelets (already mapped) in the Reed-Sternberg tumour microenvironment, amplifies mast-cell (already mapped) histamine secretion, vascular permeability, and the B-symptom complex of Hodgkin lymphoma.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
