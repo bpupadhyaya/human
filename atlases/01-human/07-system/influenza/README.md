@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Stress-immune neuroendocrine: prolactin, elevated by the febrile stress of influenza infection, enhances lymphocyte (T-helper-cell and B-cell already mapped) activation and the antibody (already mapped) response against the influenza virus."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Influenza testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-helper cells (already mapped), attenuates the cytokine-storm (already mapped) and IL-6 (already mapped) immunopathology; androgen deficiency worsens influenza ARDS severity."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Influenza serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the cytokine-storm (already mapped) and NLRP3-inflammasome (already mapped) inflammatory axes; serotonin sets the influenza innate immune response severity."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Influenza oxytocin: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates the cytokine-storm (already mapped) and IL-6 (already mapped) immunopathology; oxytocin promotes immune resolution after severe influenza infection."
 ---
 
 # Influenza
@@ -795,3 +804,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Post-viral airway remodelling: periostin, induced in airway epithelium and fibroblasts by the IL-4/IL-13 (already mapped) Th2 response to influenza, drives the ECM remodelling and the post-influenza asthma-exacerbation (already mapped) airway hyperresponsiveness.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antiviral immunity: melatonin has antiviral and immunomodulatory properties; influenza follows a circadian pattern of severity, and melatonin modulates the innate antiviral type-I-interferon (already mapped) and the NLRP3-inflammasome (already mapped) responses.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-immune neuroendocrine: prolactin, elevated by the febrile stress of influenza infection, enhances lymphocyte (T-helper-cell and B-cell already mapped) activation and the antibody (already mapped) response against the influenza virus.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen immunomodulation: testosterone, via androgen receptors on macrophages (already mapped) and T-helper cells (already mapped), attenuates the cytokine-storm (already mapped) and IL-6 (already mapped) immunopathology; androgen deficiency worsens influenza ARDS severity.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic innate axis: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the cytokine-storm (already mapped) and NLRP3-inflammasome (already mapped) inflammatory axes; serotonin sets the influenza innate immune response severity.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Tolerogenic neuropeptide: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates the cytokine-storm (already mapped) and IL-6 (already mapped) immunopathology; oxytocin promotes immune resolution after severe influenza infection.

@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian-immune axis: melatonin, whose nocturnal peak is blunted by chronic HIV infection and ART, has immunomodulatory and antioxidant effects that partially counter the T-cell (already mapped) exhaustion and oxidative stress of AIDS."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "AIDS testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-helper cells (already mapped), attenuates IL-6 (already mapped) and TNF-α (already mapped) activation; androgen deficiency worsens STAT3 (already mapped)-driven AIDS immune exhaustion."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "AIDS serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the neuroinflammatory (IL-6 and TNF-α already mapped) cascade; serotonin dysregulation amplifies gut-microbiome (already mapped) dysbiosis in HIV/AIDS."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "AIDS prolactin: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -774,6 +783,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell reservoir effector: mast cells (already mapped) serve as HIV reservoirs and release histamine that amplifies the mucosal vascular permeability and the Th2 immune dysregulation (IgE already mapped) of the AIDS immunodeficiency.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Mucosal fibrosis matrix: periostin, from gut-mucosal fibroblasts at the chronically inflamed intestinal (large-intestine already mapped) barrier of AIDS, contributes to ECM remodelling and the gut-mucosal immune dysfunction of HIV/AIDS.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-immune axis: melatonin, whose nocturnal peak is blunted by chronic HIV infection and ART, has immunomodulatory and antioxidant effects that partially counter the T-cell (already mapped) exhaustion and oxidative stress of AIDS.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen immunomodulation: testosterone, via androgen receptors on macrophages (already mapped) and T-helper cells (already mapped), attenuates IL-6 (already mapped) and TNF-α (already mapped) activation; androgen deficiency worsens STAT3 (already mapped)-driven AIDS immune exhaustion.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic neuroimmune axis: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the neuroinflammatory (IL-6 and TNF-α already mapped) cascade; serotonin dysregulation amplifies gut-microbiome (already mapped) dysbiosis in HIV/AIDS.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-immune neuroendocrine: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV/AIDS.
 
 ## See Also
 
