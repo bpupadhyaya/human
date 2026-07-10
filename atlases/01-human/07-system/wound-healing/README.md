@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Inflammatory-phase C5a: complement C5 (upstream of C5aR1 already mapped) is activated at the wound site, generating C5a that amplifies the early neutrophil (already mapped) and mast-cell (already mapped) recruitment into the inflammatory phase of wound healing."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian wound repair: melatonin accelerates wound healing by promoting keratinocyte (skin already mapped) migration and fibroblast (already mapped) collagen synthesis, with antioxidant effects that reduce the oxidative damage of the inflammatory phase."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Epithelial re-epithelialisation: prolactin receptors on keratinocytes (skin already mapped) and fibroblasts (already mapped) promote cell proliferation and migration in the proliferative phase; wound-fluid prolactin is elevated above circulating levels."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroendocrine wound modulator: oxytocin receptors on keratinocytes (skin already mapped) and fibroblasts (already mapped) accelerate re-epithelialisation and collagen (already mapped) remodelling; oxytocin deficiency in stress and aging impairs wound healing."
 ---
 
 # Wound Healing
@@ -766,6 +775,9 @@ cross_links:
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-complement regulation: C1-esterase inhibitor restrains the classical complement pathway (complement C3 and C5aR1 already mapped) at the wound site, limiting collateral tissue destruction and facilitating the transition from inflammation to repair in wound healing.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tissue-protective EPO: erythropoietin, acting via EPOR on keratinocytes (skin already mapped) and endothelial cells (already mapped), accelerates re-epithelialisation and angiogenesis (VEGF already mapped) and reduces the oxidative-stress burden during wound healing.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Inflammatory-phase C5a: complement C5 (upstream of C5aR1 already mapped) is activated at the wound site, generating C5a that amplifies the early neutrophil (already mapped) and mast-cell (already mapped) recruitment into the inflammatory phase of wound healing.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian wound repair: melatonin accelerates wound healing by promoting keratinocyte (skin already mapped) migration and fibroblast (already mapped) collagen synthesis, with antioxidant effects that reduce the oxidative damage of the inflammatory phase.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Epithelial re-epithelialisation: prolactin receptors on keratinocytes (skin already mapped) and fibroblasts (already mapped) promote cell proliferation and migration in the proliferative phase; wound-fluid prolactin is elevated above circulating levels.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroendocrine wound modulator: oxytocin receptors on keratinocytes (skin already mapped) and fibroblasts (already mapped) accelerate re-epithelialisation and collagen (already mapped) remodelling; oxytocin deficiency in stress and aging impairs wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
