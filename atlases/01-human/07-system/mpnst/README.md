@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Peripheral nervous system 5-HT: serotonin from mast cells (already mapped) in the MPNST stroma activates 5-HT2 receptors on NF1-deficient tumour cells, amplifying RAS/MAPK (already mapped) proliferative signalling and VEGF-driven (already mapped) angiogenesis in MPNST."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "MPNST prolactin sarcoma: prolactin, via PRLR on NF1-deficient MPNST cells and macrophages (already mapped), upregulates NF-κB (already mapped) and VEGF-driven (already mapped) signalling, promoting immunosuppression in malignant peripheral nerve sheath tumour."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "MPNST oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped) in the MPNST stroma, attenuates NF-κB (already mapped) and VEGF-driven (already mapped) pro-tumour signalling in NF1-deficient malignant peripheral nerve sheath tumour."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MPNST vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MPNST stroma, modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) pro-tumour signalling in MPNST."
 ---
 
 # MPNST
@@ -795,6 +804,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Oncostatic melatonin: melatonin, via MT1/MT2 receptors on NF1-deficient MPNST cells, suppresses RAS/MAPK (already mapped) and NF-κB (already mapped) proliferative signalling, reducing VEGF-driven (already mapped) angiogenesis and invasiveness in malignant nerve sheath tumours.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-sarcoma axis: testosterone, via androgen receptor on MPNST cells and macrophages (already mapped), modulates RAS/MAPK (already mapped) and NF-κB (already mapped) signalling in NF1-deficient malignant peripheral nerve sheath tumours.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Peripheral nervous system 5-HT: serotonin from mast cells (already mapped) in the MPNST stroma activates 5-HT2 receptors on NF1-deficient tumour cells, amplifying RAS/MAPK (already mapped) proliferative signalling and VEGF-driven (already mapped) angiogenesis in MPNST.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — MPNST prolactin sarcoma: prolactin, via PRLR on NF1-deficient MPNST cells and macrophages (already mapped), upregulates NF-κB (already mapped) and VEGF-driven (already mapped) signalling, promoting immunosuppression in malignant peripheral nerve sheath tumour.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MPNST oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped) in the MPNST stroma, attenuates NF-κB (already mapped) and VEGF-driven (already mapped) pro-tumour signalling in NF1-deficient malignant peripheral nerve sheath tumour.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MPNST vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MPNST stroma, modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) pro-tumour signalling in MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

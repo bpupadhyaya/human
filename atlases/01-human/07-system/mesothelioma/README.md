@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-escape prolactin: prolactin, via PRL-R on mesothelioma cells and macrophages (already mapped), activates JAK2/STAT3 (already mapped) pro-survival and immune-checkpoint (already mapped) pathways, promoting the immunosuppressive phenotype of pleural mesothelioma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Mesothelioma oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the NF-κB (already mapped) and VEGF (already mapped) pro-tumour immune cascade, reducing the immunosuppressive phenotype of pleural mesothelioma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Mesothelioma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the pleural tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic signalling in mesothelioma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Mesothelioma selenium antioxidant: selenium, via GPx/TrxR selenoproteins in mesothelioma cells and macrophages (already mapped), quenches ROS that amplifies NF-κB (already mapped) and VEGF-driven (already mapped) angiogenesis in the pleural mesothelioma microenvironment."
 ---
 
 # Mesothelioma
@@ -782,6 +791,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-mesothelioma axis: testosterone, via androgen receptor on mesothelioma cells and macrophages (already mapped), modulates NF-κB (already mapped) and VEGF-driven (already mapped) signalling and partly explains the male-predominant incidence of pleural mesothelioma.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Neuroendocrine 5-HT axis: serotonin from mast cells (already mapped) and mesothelioma-associated neuroendocrine cells signals via 5-HT2 receptors on endothelial cells (already mapped), amplifying the VEGF-driven (already mapped) angiogenic niche of pleural mesothelioma.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-escape prolactin: prolactin, via PRL-R on mesothelioma cells and macrophages (already mapped), activates JAK2/STAT3 (already mapped) pro-survival and immune-checkpoint (already mapped) pathways, promoting the immunosuppressive phenotype of pleural mesothelioma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Mesothelioma oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the NF-κB (already mapped) and VEGF (already mapped) pro-tumour immune cascade, reducing the immunosuppressive phenotype of pleural mesothelioma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Mesothelioma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the pleural tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic signalling in mesothelioma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Mesothelioma selenium antioxidant: selenium, via GPx/TrxR selenoproteins in mesothelioma cells and macrophages (already mapped), quenches ROS that amplifies NF-κB (already mapped) and VEGF-driven (already mapped) angiogenesis in the pleural mesothelioma microenvironment.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
