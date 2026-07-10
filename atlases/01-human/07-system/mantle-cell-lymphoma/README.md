@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Tumour-microenvironment 5-HT: serotonin released from activated platelets (already mapped) in the MCL vasculature binds 5-HT2 receptors on MCL B cells and macrophages (already mapped), modulating pro-tumour NF-κB (already mapped) inflammation in mantle-cell lymphoma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "MCL prolactin B-cell: prolactin, via PRLR on MCL B cells (already mapped) and tumour-associated macrophages (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling, promoting the immunosuppressive TME of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "MCL oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped) in the MCL stroma, attenuates the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour immune cascade in mantle-cell lymphoma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MCL vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MCL stroma, modulates the vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in mantle-cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -785,6 +794,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian lymphoma regulation: melatonin, via MT1/MT2 receptors on MCL B cells and tumour-associated macrophages (already mapped), suppresses cyclin D1-driven (already mapped) cell-cycle progression and NF-κB (already mapped) anti-apoptotic signalling in mantle-cell lymphoma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-B-cell axis: testosterone, via androgen receptor on MCL B cells (already mapped), suppresses anti-tumour immune surveillance and modulates the NF-κB (already mapped) and cyclin D1-overexpressing (already mapped) proliferative programme of mantle-cell lymphoma.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Tumour-microenvironment 5-HT: serotonin released from activated platelets (already mapped) in the MCL vasculature binds 5-HT2 receptors on MCL B cells and macrophages (already mapped), modulating pro-tumour NF-κB (already mapped) inflammation in mantle-cell lymphoma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — MCL prolactin B-cell: prolactin, via PRLR on MCL B cells (already mapped) and tumour-associated macrophages (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling, promoting the immunosuppressive TME of mantle-cell lymphoma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MCL oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped) in the MCL stroma, attenuates the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour immune cascade in mantle-cell lymphoma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MCL vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped) in the MCL stroma, modulates the vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in mantle-cell lymphoma.
 
 ---
 

@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement C5: complement C5, cleaved to C5a (C5aR1 already mapped) and MAC, drives neuroinflammatory astrocytic (already mapped) activation and C1q-mediated synaptic pruning linking inflammatory MDD to hippocampal grey-matter loss and cognitive impairment."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MDD iodine HPT axis: iodine, as the essential substrate for thyroid hormone (already mapped) biosynthesis, supports the HPT axis; iodine insufficiency deepens the neuroimmune NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory burden of major depressive disorder."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "MDD sodium neuroimmune: sodium, at supraphysiological levels, activates microglial (already mapped) NF-κB (already mapped) and IL-6 (already mapped) signalling toward a pro-inflammatory macrophage (already mapped) state, amplifying the neuroinflammatory burden of MDD."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "MDD potassium neuronal: potassium maintains synaptic (already mapped) resting potential and BDNF (already mapped) signalling; potassium dyshomeostasis in the MDD hippocampus (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation in MDD."
 ---
 
 # Major Depressive Disorder
@@ -832,6 +841,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenoprotein antidepressant: selenium, via neuronal and microglial (both already mapped) selenoproteins (GPx/TrxR), quenches the reactive oxygen species and neuroinflammatory IL-6 (already mapped) burden underlying the oxidative-stress phenotype of major depressive disorder.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Neurocomplement factor H: factor H, the key complement regulator (C3 and C5aR1 already mapped), controls complement-mediated synaptic pruning and microglial (already mapped) activation in the MDD brain, limiting the neuroimmune cascade at the blood-brain barrier.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement C5: complement C5, cleaved to C5a (C5aR1 already mapped) and MAC, drives neuroinflammatory astrocytic (already mapped) activation and C1q-mediated synaptic pruning linking inflammatory MDD to hippocampal grey-matter loss and cognitive impairment.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MDD iodine HPT axis: iodine, as the essential substrate for thyroid hormone (already mapped) biosynthesis, supports the HPT axis; iodine insufficiency deepens the neuroimmune NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory burden of major depressive disorder.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MDD sodium neuroimmune: sodium, at supraphysiological levels, activates microglial (already mapped) NF-κB (already mapped) and IL-6 (already mapped) signalling toward a pro-inflammatory macrophage (already mapped) state, amplifying the neuroinflammatory burden of MDD.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MDD potassium neuronal: potassium maintains synaptic (already mapped) resting potential and BDNF (already mapped) signalling; potassium dyshomeostasis in the MDD hippocampus (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation in MDD.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
