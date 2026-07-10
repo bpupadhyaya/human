@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "GCA serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the arteritic inflammatory tone; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "GCA iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) Th1/Th17-driven arteritic cascade of giant-cell arteritis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "GCA sodium: high dietary sodium promotes macrophage (already mapped) activation and Th17 polarisation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the arteritic inflammatory cascade of giant-cell arteritis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "GCA magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped) signalling; magnesium deficiency amplifies the Th1/Th17-driven arteritic cascade of giant-cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -790,6 +799,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — GCA oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the arteritic inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) T-cytotoxic (already mapped) cascade of GCA.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — GCA vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates arterial vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of GCA.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — GCA serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the arteritic inflammatory tone; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — GCA iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) Th1/Th17-driven arteritic cascade of giant-cell arteritis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — GCA sodium: high dietary sodium promotes macrophage (already mapped) activation and Th17 polarisation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the arteritic inflammatory cascade of giant-cell arteritis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — GCA magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped) signalling; magnesium deficiency amplifies the Th1/Th17-driven arteritic cascade of giant-cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

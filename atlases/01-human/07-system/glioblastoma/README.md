@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "GBM vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "GBM testosterone: testosterone, via AR on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) glioblastoma cascade."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "GBM selenium: selenium, as GPx in microglia (already mapped) and macrophages (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative T-cytotoxic (already mapped) cascade of glioblastoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "GBM iodine: iodine-dependent thyroid hormones modulate microglia (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of glioblastoma."
 ---
 
 # Glioblastoma
@@ -805,6 +814,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — GBM prolactin: prolactin, via PRLR on microglia (already mapped) and macrophages (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of glioblastoma.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — GBM oxytocin: oxytocin, via OXTR on microglia (already mapped) and macrophages (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of glioblastoma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — GBM vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — GBM testosterone: testosterone, via AR on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) glioblastoma cascade.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — GBM selenium: selenium, as GPx in microglia (already mapped) and macrophages (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative T-cytotoxic (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — GBM iodine: iodine-dependent thyroid hormones modulate microglia (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of glioblastoma.
 
 ---
 
