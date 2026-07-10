@@ -504,6 +504,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Platelet-serotonin thrombosis: serotonin, released by the hyperactivated platelets (already mapped) of thalassaemia, amplifies the vasoconstriction and the microvascular thrombosis of the thromboembolism (venous-thromboembolism already mapped) risk of thalassaemia."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Thalassaemia prolactin: prolactin, via PRLR on macrophages (already mapped) and erythrocyte (already mapped) precursors, modulates haematopoiesis; hyperprolactinaemia amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration of thalassaemia."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Thalassaemia oxytocin: oxytocin, via OXTR on macrophages (already mapped) and erythrocyte (already mapped) precursors, attenuates haemolytic inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and TNF-α (already mapped) vasculopathy of thalassaemia."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Thalassaemia vasopressin: vasopressin, via V2 receptors on erythrocytes (already mapped) and endothelial cells (already mapped), modulates red-cell hydration; vasopressin excess amplifies haemolysis and the nitric-oxide (already mapped) vascular cascade of thalassaemia."
 ---
 
 # Thalassemia
@@ -810,6 +819,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell haemolytic effector: mast cells (already mapped), activated by cell-free haem from ineffective erythropoiesis, release histamine that amplifies the endothelial (already mapped) vasodilation and the vascular inflammation of the haemolytic vasculopathy of thalassaemia.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Iron-overload antioxidant: melatonin, with its potent antioxidant and iron-chelation-related properties, is studied in thalassaemia for protection against the ROS-driven cardiac (already mapped) and hepatic (liver already mapped) iron-overload injury of thalassaemia.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-serotonin thrombosis: serotonin, released by the hyperactivated platelets (already mapped) of thalassaemia, amplifies the vasoconstriction and the microvascular thrombosis of the thromboembolism (venous-thromboembolism already mapped) risk of thalassaemia.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Thalassaemia prolactin: prolactin, via PRLR on macrophages (already mapped) and erythrocyte (already mapped) precursors, modulates haematopoiesis; hyperprolactinaemia amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration of thalassaemia.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Thalassaemia oxytocin: oxytocin, via OXTR on macrophages (already mapped) and erythrocyte (already mapped) precursors, attenuates haemolytic inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and TNF-α (already mapped) vasculopathy of thalassaemia.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Thalassaemia vasopressin: vasopressin, via V2 receptors on erythrocytes (already mapped) and endothelial cells (already mapped), modulates red-cell hydration; vasopressin excess amplifies haemolysis and the nitric-oxide (already mapped) vascular cascade of thalassaemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

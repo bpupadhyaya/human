@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Thrombus organisation matrix: periostin, from fibroblasts and endothelial cells (already mapped) at the organising thrombus, contributes to the ECM remodelling and the fibrous transformation of the venous thrombus in venous thromboembolism."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "VTE prolactin: prolactin, via PRLR on endothelial cells (already mapped) and macrophages (already mapped), promotes platelet (already mapped) activation; hyperprolactinaemia amplifies the thrombin (already mapped) and IL-6 (already mapped) thrombosis of venous thromboembolism."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "VTE oxytocin: oxytocin, via OXTR on endothelial cells (already mapped) and macrophages (already mapped), attenuates thromboinflammation; oxytocin deficiency amplifies the thrombin (already mapped) and NF-κB (already mapped) coagulation cascade of venous thromboembolism."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "VTE vasopressin: vasopressin, via V1aR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), modulates vascular tone; vasopressin dysregulation amplifies the thrombin (already mapped) and platelet (already mapped) coagulation cascade of VTE."
 ---
 
 # Venous Thromboembolism
@@ -786,6 +795,9 @@ cross_links:
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian coagulation: melatonin has antithrombotic and antioxidant effects, reducing platelet (already mapped) activation and the endothelial (already mapped) oxidative stress that prime the nocturnal hypercoagulability and the thrombotic risk of venous thromboembolism.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone coagulation: testosterone promotes erythropoiesis (EPO already mapped) and haematocrit elevation, increases blood viscosity and venous stasis; male sex-hormone levels and androgen-therapy are recognised risk factors for venous thromboembolism.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Thrombus organisation matrix: periostin, from fibroblasts and endothelial cells (already mapped) at the organising thrombus, contributes to the ECM remodelling and the fibrous transformation of the venous thrombus in venous thromboembolism.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — VTE prolactin: prolactin, via PRLR on endothelial cells (already mapped) and macrophages (already mapped), promotes platelet (already mapped) activation; hyperprolactinaemia amplifies the thrombin (already mapped) and IL-6 (already mapped) thrombosis of venous thromboembolism.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — VTE oxytocin: oxytocin, via OXTR on endothelial cells (already mapped) and macrophages (already mapped), attenuates thromboinflammation; oxytocin deficiency amplifies the thrombin (already mapped) and NF-κB (already mapped) coagulation cascade of venous thromboembolism.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — VTE vasopressin: vasopressin, via V1aR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), modulates vascular tone; vasopressin dysregulation amplifies the thrombin (already mapped) and platelet (already mapped) coagulation cascade of VTE.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
