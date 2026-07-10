@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Stroma mast-cell mediator: histamine released by stromal mast cells (already mapped) amplifies angiogenesis (VEGF already mapped) and prostaglandin-mediated immune evasion in the osteosarcoma microenvironment."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Osteosarcoma melatonin: melatonin inhibits osteosarcoma proliferation and metastasis by suppressing PI3K/AKT (already mapped) and Wnt/β-catenin (already mapped) pathways through MT1/MT2 receptor-mediated cAMP reduction and apoptosis induction in osteosarcoma cells."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Osteosarcoma androgen axis: testosterone via androgen receptor modulates osteosarcoma cell proliferation and mTOR (already mapped) signalling, and the male adolescent peak of osteosarcoma incidence implicates androgen-driven bone growth as a tumour co-driver."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Osteosarcoma serotonin signalling: serotonin via 5-HT2 receptors on osteosarcoma cells activates cAMP-PKA and Wnt/β-catenin (already mapped) pathways, promoting osteosarcoma proliferation and matrix invasion via the bone tumour neuroendocrine axis."
 ---
 
 # Osteosarcoma
@@ -782,6 +791,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stroma alarmin: TSLP released by the inflamed periosteum and marrow stroma activates dendritic cells (already mapped) and mast cells (already mapped) to shape the type-2 microenvironment of osteosarcoma.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the complement cascade whose C5a/C5aR1 arm (both already mapped) promotes myeloid recruitment and M2 macrophage polarisation in the osteosarcoma stroma.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Stroma mast-cell mediator: histamine released by stromal mast cells (already mapped) amplifies angiogenesis (VEGF already mapped) and prostaglandin-mediated immune evasion in the osteosarcoma microenvironment.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Osteosarcoma melatonin: melatonin inhibits osteosarcoma proliferation and metastasis by suppressing PI3K/AKT (already mapped) and Wnt/β-catenin (already mapped) pathways through MT1/MT2 receptor-mediated cAMP reduction and apoptosis induction in osteosarcoma cells.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Osteosarcoma androgen axis: testosterone via androgen receptor modulates osteosarcoma cell proliferation and mTOR (already mapped) signalling, and the male adolescent peak of osteosarcoma incidence implicates androgen-driven bone growth as a tumour co-driver.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Osteosarcoma serotonin signalling: serotonin via 5-HT2 receptors on osteosarcoma cells activates cAMP-PKA and Wnt/β-catenin (already mapped) pathways, promoting osteosarcoma proliferation and matrix invasion via the bone tumour neuroendocrine axis.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
