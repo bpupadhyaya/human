@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical pathway regulation: C1-INH controls the classical-pathway arm (C3, C5, C5aR1 and factor H already mapped) of the complement cascade activated against the FH-deficient HLRCC renal tumour cells, limiting complement-mediated lysis."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-HLRCC axis: histamine, released by mast cells in the HLRCC tumour microenvironment, signals via H1/H2 receptors on FH-mutant (already mapped) tumour cells and endothelium, modulating angiogenesis and the immunosuppressive milieu of HLRCC renal cancers."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-HLRCC axis: melatonin, via MT1/MT2 receptors on FH-mutant (already mapped) HLRCC cells, modulates the HIF-1α-driven (already mapped) pseudohypoxic metabolism, suppresses Warburg-effect-dependent proliferation, and enhances apoptotic sensitivity."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-HLRCC axis: testosterone, via androgen receptor signalling on FH-mutant (already mapped) renal and uterine tumour cells, modulates HIF-1α (already mapped) target-gene expression and the sex-biased aggressiveness of HLRCC-associated renal cell carcinoma."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -783,6 +792,9 @@ Cutaneous:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin in leiomyomas: TSLP secreted by the uterine smooth-muscle cells (already mapped) of HLRCC leiomyomas primes the mast cells (already mapped) to sustain the type-2 inflammatory stromal microenvironment.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vasoactive kinin in pseudohypoxic tumours: bradykinin promotes vasodilation and VEGF-driven angiogenesis (VEGF already mapped) in the pseudohypoxic (HIF-1α already mapped) HLRCC papillary renal tumours.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical pathway regulation: C1-INH controls the classical-pathway arm (C3, C5, C5aR1 and factor H already mapped) of the complement cascade activated against the FH-deficient HLRCC renal tumour cells, limiting complement-mediated lysis.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-HLRCC axis: histamine, released by mast cells in the HLRCC tumour microenvironment, signals via H1/H2 receptors on FH-mutant (already mapped) tumour cells and endothelium, modulating angiogenesis and the immunosuppressive milieu of HLRCC renal cancers.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-HLRCC axis: melatonin, via MT1/MT2 receptors on FH-mutant (already mapped) HLRCC cells, modulates the HIF-1α-driven (already mapped) pseudohypoxic metabolism, suppresses Warburg-effect-dependent proliferation, and enhances apoptotic sensitivity.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-HLRCC axis: testosterone, via androgen receptor signalling on FH-mutant (already mapped) renal and uterine tumour cells, modulates HIF-1α (already mapped) target-gene expression and the sex-biased aggressiveness of HLRCC-associated renal cell carcinoma.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
