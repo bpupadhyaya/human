@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "MAP magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MAP copper: copper, as cofactor of SOD1 in macrophages (already mapped) and mast cells (already mapped), scavenges mucosal ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) polyp cascade of MAP."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "MAP zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and mast cells (already mapped), modulates mucosal matrix; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) polyp cascade of MAP."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "MAP potassium: potassium channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the MAP colonic microenvironment; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP."
 ---
 
 # MUTYH-Associated Polyposis
@@ -804,6 +813,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MAP iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MUTYH-associated polyposis.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MAP sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MAP magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MAP copper: copper, as cofactor of SOD1 in macrophages (already mapped) and mast cells (already mapped), scavenges mucosal ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MAP zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and mast cells (already mapped), modulates mucosal matrix; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MAP potassium: potassium channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the MAP colonic microenvironment; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP.
 
 ---
 

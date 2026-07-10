@@ -518,6 +518,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "MSK chloride: chloride channels on osteoclasts (already mapped) and fibroblasts (already mapped) maintain pH homeostasis for bone resorption; chloride dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) musculoskeletal remodelling."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "MSK oxygen: oxygen drives aerobic energy in osteoblasts (already mapped) and macrophages (already mapped); oxygen deprivation activates HIF-1α, amplifying NF-κB (already mapped) and IL-6 (already mapped) osteoclast-driven bone resorption cascade."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "MSK carbon: carbon, as backbone of collagen (already mapped) and proteoglycans, forms the organic matrix of bone and cartilage; carbon metabolism in osteoblasts (already mapped) shapes NF-κB (already mapped) and IL-6 (already mapped) repair cascade."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "MSK hydrogen: hydrogen, as water in cartilage matrix and H₂ in synovial joints, maintains viscoelastic properties; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) musculoskeletal inflammatory cascade."
 ---
 
 # Musculoskeletal System
@@ -821,6 +830,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MS sulfur: sulfur-containing amino acids are essential for collagen (already mapped) cross-linking and cartilage proteoglycan synthesis; sulfur deficiency impairs musculoskeletal repair and amplifies NF-κB (already mapped) and TNF-α (already mapped) driven catabolic signalling.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MSK nitrogen: nitric oxide (NO, nitrogen-derived) in osteoblasts (already mapped) and macrophages (already mapped) regulates bone remodelling and skeletal vasodilation; NO imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) osteoclast-driven resorption.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MSK chloride: chloride channels on osteoclasts (already mapped) and fibroblasts (already mapped) maintain pH homeostasis for bone resorption; chloride dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) musculoskeletal remodelling.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MSK oxygen: oxygen drives aerobic energy in osteoblasts (already mapped) and macrophages (already mapped); oxygen deprivation activates HIF-1α, amplifying NF-κB (already mapped) and IL-6 (already mapped) osteoclast-driven bone resorption cascade.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MSK carbon: carbon, as backbone of collagen (already mapped) and proteoglycans, forms the organic matrix of bone and cartilage; carbon metabolism in osteoblasts (already mapped) shapes NF-κB (already mapped) and IL-6 (already mapped) repair cascade.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MSK hydrogen: hydrogen, as water in cartilage matrix and H₂ in synovial joints, maintains viscoelastic properties; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) musculoskeletal inflammatory cascade.
 
 ## Pathology
 
