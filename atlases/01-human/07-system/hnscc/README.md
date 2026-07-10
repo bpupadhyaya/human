@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Serotonin-HNSCC axis: serotonin, released by enterochromaffin-like cells in the oropharyngeal mucosa and platelets (already mapped), amplifies pain signalling and angiogenesis in HNSCC, and modulates the serotonin-receptor-expressing tumour and stromal cells."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "HNSCC prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of HNSCC."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "HNSCC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the tumour inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of HNSCC."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HNSCC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the tumour; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of HNSCC."
 ---
 
 # HNSCC
@@ -778,6 +787,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-HNSCC axis: melatonin, via MT1/MT2 receptors on HNSCC tumour cells, suppresses EGFR (already mapped) and NFκB (already mapped) signalling, modulates circadian immune function, and enhances the apoptotic sensitivity to platinum-based chemotherapy.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-HNSCC axis: testosterone, via androgen receptor signalling on HNSCC tumour cells, modulates EGFR (already mapped) and HPV (already mapped)-driven oncogenesis and the male sex predominance in HNSCC incidence and prognosis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-HNSCC axis: serotonin, released by enterochromaffin-like cells in the oropharyngeal mucosa and platelets (already mapped), amplifies pain signalling and angiogenesis in HNSCC, and modulates the serotonin-receptor-expressing tumour and stromal cells.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HNSCC prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of HNSCC.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HNSCC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the tumour inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of HNSCC.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HNSCC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the tumour; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of HNSCC.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
