@@ -510,6 +510,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "PsA serotonin: serotonin from psoriatic skin (already mapped) mast cells and platelets (already mapped) activates 5-HT2 receptors on synoviocytes and nociceptors, amplifying joint pain and the IL-17A (already mapped)-driven synovial inflammatory cascade of psoriatic arthritis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "PsA oxytocin: oxytocin modulates neuroimmune crosstalk and mast-cell (already mapped) degranulation in the psoriatic synovium, intersecting the IL-17A (already mapped) and TNF-α (already mapped)-driven joint inflammation of psoriatic arthritis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PsA vasopressin: vasopressin via V1aR on synoviocytes and mast cells (already mapped) potentiates HPA-axis stress-inflammatory responses, amplifying the TNF-α (already mapped) and IL-17A (already mapped)-driven synovial inflammation and bone erosion of psoriatic arthritis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "PsA prolactin: prolactin promotes Th17 (IL-17A already mapped) and Th1 (IFN-γ already mapped) polarisation and stimulates synoviocyte (already mapped) proliferation, amplifying the NF-κB (already mapped) and TNF-α (already mapped)-driven joint inflammation of psoriatic arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -821,6 +830,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PsA melatonin: melatonin regulates circadian TNF-α (already mapped) and IL-17A (already mapped)-driven synovial inflammation, with nocturnal inflammatory peaks in psoriatic arthritis corresponding to melatonin's anti-inflammatory MT2 receptor signalling.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PsA androgen axis: testosterone exerts immunosuppressive effects on the IL-17A (already mapped) and TNF-α (already mapped)-driven psoriatic arthritis inflammation, modulating Th17/Th1 (already mapped) balance and the sex-dimorphic joint vs skin involvement of PsA.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PsA serotonin: serotonin from psoriatic skin (already mapped) mast cells and platelets (already mapped) activates 5-HT2 receptors on synoviocytes and nociceptors, amplifying joint pain and the IL-17A (already mapped)-driven synovial inflammatory cascade of psoriatic arthritis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PsA oxytocin: oxytocin modulates neuroimmune crosstalk and mast-cell (already mapped) degranulation in the psoriatic synovium, intersecting the IL-17A (already mapped) and TNF-α (already mapped)-driven joint inflammation of psoriatic arthritis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PsA vasopressin: vasopressin via V1aR on synoviocytes and mast cells (already mapped) potentiates HPA-axis stress-inflammatory responses, amplifying the TNF-α (already mapped) and IL-17A (already mapped)-driven synovial inflammation and bone erosion of psoriatic arthritis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PsA prolactin: prolactin promotes Th17 (IL-17A already mapped) and Th1 (IFN-γ already mapped) polarisation and stimulates synoviocyte (already mapped) proliferation, amplifying the NF-κB (already mapped) and TNF-α (already mapped)-driven joint inflammation of psoriatic arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
