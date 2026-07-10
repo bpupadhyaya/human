@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian thrombotic risk: melatonin regulates the circadian pattern of haemostasis (platelet and coagulation already mapped), with overnight melatonin-driven platelet aggregation surges amplifying the morning peak thrombotic risk of inherited thrombophilia."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "IT prolactin: prolactin activates endothelial cells (already mapped) and drives NF-κB (already mapped) pro-thrombotic signalling; prolactin also promotes platelet (already mapped) aggregation and thrombin (already mapped) generation in inherited thrombophilia."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "IT oxytocin: oxytocin reduces thrombin (already mapped) driven endothelial-cell (already mapped) activation by suppressing NF-κB (already mapped) and TNF-α (already mapped); oxytocin also attenuates platelet (already mapped) aggregation in the inherited thrombophilia milieu."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "IT vasopressin: vasopressin (ADH) potentiates thrombin (already mapped) generation and platelet (already mapped) aggregation via V1a receptor; vasopressin also amplifies the endothelial-cell (already mapped) prothrombotic NF-κB (already mapped) signalling in thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -822,6 +831,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell thrombosis amplifier: histamine, released by mast cells (already mapped) at venous stasis and injury sites, activates endothelial cells (already mapped) and platelets (already mapped) and amplifies the thromboinflammatory milieu of inherited thrombophilia.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Vascular remodelling ECM: periostin, induced by TGF-β (already mapped) in the vascular wall after thrombosis, promotes post-thrombotic fibrovascular remodelling and contributes to the chronic post-thrombotic syndrome of inherited thrombophilia.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian thrombotic risk: melatonin regulates the circadian pattern of haemostasis (platelet and coagulation already mapped), with overnight melatonin-driven platelet aggregation surges amplifying the morning peak thrombotic risk of inherited thrombophilia.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — IT prolactin: prolactin activates endothelial cells (already mapped) and drives NF-κB (already mapped) pro-thrombotic signalling; prolactin also promotes platelet (already mapped) aggregation and thrombin (already mapped) generation in inherited thrombophilia.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — IT oxytocin: oxytocin reduces thrombin (already mapped) driven endothelial-cell (already mapped) activation by suppressing NF-κB (already mapped) and TNF-α (already mapped); oxytocin also attenuates platelet (already mapped) aggregation in the inherited thrombophilia milieu.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — IT vasopressin: vasopressin (ADH) potentiates thrombin (already mapped) generation and platelet (already mapped) aggregation via V1a receptor; vasopressin also amplifies the endothelial-cell (already mapped) prothrombotic NF-κB (already mapped) signalling in thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

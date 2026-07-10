@@ -494,6 +494,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sebaceous-follicular androgen: testosterone, converted to DHT by 5α-reductase in sebaceous glands (already mapped) and hair follicles (already mapped), drives sebum production and the androgenic regulation of the pilosebaceous unit of the integumentary system."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "IS vasopressin: vasopressin (ADH) constricts cutaneous microvessels via V1 receptor on skin (already mapped) endothelium; vasopressin also modulates mast-cell (already mapped) degranulation and the wound-healing (already mapped) fibroblast (already mapped) response."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "IS transferrin: transferrin delivers iron for collagen (already mapped) synthesis by fibroblasts (already mapped) in skin (already mapped) wound-healing (already mapped); iron deficiency impairs skin (already mapped) barrier repair and IL-6 (already mapped) regeneration."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "IS magnesium: magnesium supports collagen (already mapped) crosslinking and fibroblast (already mapped) function in skin (already mapped); magnesium deficiency amplifies mast-cell (already mapped) degranulation and IL-6 (already mapped) cutaneous inflammation."
 ---
 
 # Integumentary System
@@ -758,6 +767,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Cutaneous immune modulator: prolactin, secreted by keratinocytes (already mapped) and dermal fibroblasts (already mapped) in addition to the pituitary, modulates the mast-cell (already mapped) and T-cell (already mapped) responses of the skin immune barrier.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune skin axis: oxytocin, via OXT receptors on keratinocytes (already mapped), melanocytes (already mapped) and dermal fibroblasts (already mapped), promotes wound healing (already mapped) and collagen remodelling of the integumentary system.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sebaceous-follicular androgen: testosterone, converted to DHT by 5α-reductase in sebaceous glands (already mapped) and hair follicles (already mapped), drives sebum production and the androgenic regulation of the pilosebaceous unit of the integumentary system.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — IS vasopressin: vasopressin (ADH) constricts cutaneous microvessels via V1 receptor on skin (already mapped) endothelium; vasopressin also modulates mast-cell (already mapped) degranulation and the wound-healing (already mapped) fibroblast (already mapped) response.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — IS transferrin: transferrin delivers iron for collagen (already mapped) synthesis by fibroblasts (already mapped) in skin (already mapped) wound-healing (already mapped); iron deficiency impairs skin (already mapped) barrier repair and IL-6 (already mapped) regeneration.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — IS magnesium: magnesium supports collagen (already mapped) crosslinking and fibroblast (already mapped) function in skin (already mapped); magnesium deficiency amplifies mast-cell (already mapped) degranulation and IL-6 (already mapped) cutaneous inflammation.
 
 ## Pathology
 
