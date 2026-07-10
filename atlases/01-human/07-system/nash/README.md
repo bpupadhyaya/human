@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "NASH calcium: calcium regulates hepatocyte (already mapped) mitochondrial bioenergetics and lipid metabolism; calcium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) macrophage (already mapped) hepatic inflammation in NASH."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "NASH potassium: potassium channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion homeostasis; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic fibrotic cascade in NASH."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "NASH phosphorus: phosphorus, as phospholipid in hepatocytes (already mapped) and ATP in macrophages (already mapped), drives lipid metabolism; phosphorus depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) and TGF-β (already mapped) cascade in NASH."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "NASH chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion homeostasis; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammatory cascade in NASH."
 ---
 
 # NASH
@@ -784,6 +793,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NASH iodine: thyroid-hormone deficiency impairs lipid oxidation and amplifies NASH-driven lipotoxicity; iodine deficiency worsens NF-κB (already mapped) and TNF-α (already mapped) driven macrophage (already mapped) inflammatory cascades and TGF-β (already mapped) fibrosis.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NASH magnesium: magnesium supports hepatocyte (already mapped) mitochondrial function and macrophage (already mapped) anti-inflammatory resolution; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — NASH calcium: calcium regulates hepatocyte (already mapped) mitochondrial bioenergetics and lipid metabolism; calcium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) macrophage (already mapped) hepatic inflammation in NASH.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — NASH potassium: potassium channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion homeostasis; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic fibrotic cascade in NASH.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — NASH phosphorus: phosphorus, as phospholipid in hepatocytes (already mapped) and ATP in macrophages (already mapped), drives lipid metabolism; phosphorus depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) and TGF-β (already mapped) cascade in NASH.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NASH chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion homeostasis; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammatory cascade in NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
