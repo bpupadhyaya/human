@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "BHD prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates renal tumour immune surveillance; hyperprolactinaemia amplifies the T-cytotoxic (already mapped) and mTOR (already mapped) antitumour immune cascade of BHD."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "BHD oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates renal TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "BHD vasopressin: vasopressin, via V1aR on macrophages (already mapped) and endothelial cells (already mapped), modulates renal tumour vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and mTOR (already mapped) tumour cascade of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "BHD selenium: selenium, as GPx in kidney (already mapped) cells and macrophages (already mapped), scavenges ROS driving the renal TME; selenium deficiency amplifies the NF-κB (already mapped) and mTOR (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -816,6 +825,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — BHD testosterone: testosterone, via androgen receptors on renal tumour cells (FLCN already mapped) and macrophages (already mapped), modulates the TME; testosterone deficiency amplifies the T-cytotoxic (already mapped) and mTOR (already mapped) immune cascade of BHD.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — BHD serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the renal TME neuroinflammation; serotonin dysregulation amplifies the T-cytotoxic (already mapped) and mTOR (already mapped) antitumour cascade of BHD.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — BHD prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates renal tumour immune surveillance; hyperprolactinaemia amplifies the T-cytotoxic (already mapped) and mTOR (already mapped) antitumour immune cascade of BHD.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — BHD oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates renal TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — BHD vasopressin: vasopressin, via V1aR on macrophages (already mapped) and endothelial cells (already mapped), modulates renal tumour vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and mTOR (already mapped) tumour cascade of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — BHD selenium: selenium, as GPx in kidney (already mapped) cells and macrophages (already mapped), scavenges ROS driving the renal TME; selenium deficiency amplifies the NF-κB (already mapped) and mTOR (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome.
 
 ---
 

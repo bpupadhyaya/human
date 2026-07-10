@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Bladder vasopressin: vasopressin, via V2R on smooth-muscle cells (already mapped) and endothelium (already mapped), modulates urothelial tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour cascade of bladder cancer."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Bladder serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates urothelial TME neuroinflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of bladder cancer."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Bladder selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges ROS driving urothelial TME oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of bladder cancer."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Bladder iodine: iodine-dependent thyroid hormones modulate urothelial cell proliferation and macrophage (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of bladder cancer."
 ---
 
 # Bladder Cancer
@@ -804,6 +813,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Bladder prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the urothelial TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and T-cytotoxic (already mapped) antitumour cascade of bladder cancer.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Bladder oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates bladder TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and T-cytotoxic (already mapped) antitumour immune cascade of bladder cancer.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Bladder vasopressin: vasopressin, via V2R on smooth-muscle cells (already mapped) and endothelium (already mapped), modulates urothelial tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and mast-cell (already mapped) tumour cascade of bladder cancer.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Bladder serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates urothelial TME neuroinflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of bladder cancer.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Bladder selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges ROS driving urothelial TME oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of bladder cancer.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Bladder iodine: iodine-dependent thyroid hormones modulate urothelial cell proliferation and macrophage (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of bladder cancer.
 
 ---
 
