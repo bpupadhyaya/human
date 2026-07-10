@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical-complement and contact brake: C1-esterase inhibitor limits complement and bradykinin (already mapped) activation after ischaemia-reperfusion, reducing the BBB breakdown and the post-ischaemic oedema of the ischaemic brain in stroke."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Stroke testosterone: testosterone, via androgen receptors on neurons (already mapped) and microglia (already mapped), exerts neuroprotection; testosterone deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) post-ischaemic neuroinflammation of stroke."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Stroke serotonin: serotonin, via 5-HT receptors on neurons (already mapped) and astrocytes (already mapped), modulates ischaemic neuroinflammation; serotonin reuptake inhibitors reduce post-stroke depression and amplify the stroke recovery neuroplasticity axis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Stroke prolactin: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates post-ischaemic neuroprotection; hyperprolactinaemia amplifies the IL-6 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of post-ischaemic stroke."
 ---
 
 # Stroke
@@ -771,6 +780,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — BBB-permeability mediator: histamine, from mast cells (already mapped) at the post-ischaemic blood-brain barrier, amplifies the vasogenic oedema and the neurogenic inflammation of the ischaemic penumbra in the acute and subacute phases of stroke.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Neuroprotective antioxidant: melatonin reduces ROS-driven ischaemia-reperfusion injury, attenuates the NLRP3-inflammasome (already mapped) and NF-κB (already mapped) activation, and modulates the post-stroke circadian disruption of stroke.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical-complement and contact brake: C1-esterase inhibitor limits complement and bradykinin (already mapped) activation after ischaemia-reperfusion, reducing the BBB breakdown and the post-ischaemic oedema of the ischaemic brain in stroke.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Stroke testosterone: testosterone, via androgen receptors on neurons (already mapped) and microglia (already mapped), exerts neuroprotection; testosterone deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) post-ischaemic neuroinflammation of stroke.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Stroke serotonin: serotonin, via 5-HT receptors on neurons (already mapped) and astrocytes (already mapped), modulates ischaemic neuroinflammation; serotonin reuptake inhibitors reduce post-stroke depression and amplify the stroke recovery neuroplasticity axis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stroke prolactin: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates post-ischaemic neuroprotection; hyperprolactinaemia amplifies the IL-6 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of post-ischaemic stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)

@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement-contact brake: C1-esterase inhibitor regulates the classical-complement and contact-system (bradykinin already mapped) activation contributing to the neuroinflammation and the microglial (already mapped) TLR4-driven neuroinflammation of stimulant use disorder."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "SUD testosterone: testosterone, via androgen receptors on neurons (already mapped) and microglia (already mapped), modulates dopaminergic reward; testosterone deficiency amplifies the CRH (already mapped) and norepinephrine (already mapped) cascade of stimulant use disorder."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "SUD prolactin: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates dopaminergic reward; hyperprolactinaemia amplifies the CRH (already mapped) and norepinephrine (already mapped) cascade of stimulant use disorder."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "SUD vasopressin: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates HPA-axis (CRH already mapped) tone; vasopressin dysregulation amplifies norepinephrine (already mapped) and NLRP3 (already mapped) cascade of stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -785,6 +794,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-reward axis: histamine, from tuberomammillary-nucleus (brain already mapped) neurons and mast cells (already mapped), modulates the dopaminergic (dopamine already mapped) reward circuitry and the sleep-wake dysregulation of stimulant use disorder.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-reward axis: stimulant use profoundly disrupts the circadian rhythm and melatonin secretion; melatonin dysregulation perpetuates the insomnia-sleep fragmentation (already mapped) and the dopaminergic (dopamine already mapped) reward-clock coupling of stimulant use disorder.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-contact brake: C1-esterase inhibitor regulates the classical-complement and contact-system (bradykinin already mapped) activation contributing to the neuroinflammation and the microglial (already mapped) TLR4-driven neuroinflammation of stimulant use disorder.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — SUD testosterone: testosterone, via androgen receptors on neurons (already mapped) and microglia (already mapped), modulates dopaminergic reward; testosterone deficiency amplifies the CRH (already mapped) and norepinephrine (already mapped) cascade of stimulant use disorder.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — SUD prolactin: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates dopaminergic reward; hyperprolactinaemia amplifies the CRH (already mapped) and norepinephrine (already mapped) cascade of stimulant use disorder.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SUD vasopressin: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates HPA-axis (CRH already mapped) tone; vasopressin dysregulation amplifies norepinephrine (already mapped) and NLRP3 (already mapped) cascade of stimulant use disorder.
 
 ## Treatment
 
