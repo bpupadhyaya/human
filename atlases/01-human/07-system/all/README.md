@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Erythropoietic failure: erythropoietin signalling is impaired by the marrow infiltration of the ALL blasts (already mapped), contributing to the hypoproliferative anaemia and the transfusion dependence of ALL."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell marrow niche: mast cells (already mapped) in the bone marrow (already mapped) niche of ALL release histamine that amplifies the vascular permeability and the inflammatory cytokine milieu that sustains the leukaemia-promoting microenvironment of ALL."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Oncostatic chronobiology: melatonin has pro-apoptotic and anti-proliferative effects on leukaemic cells; disrupted melatonin rhythm (common in paediatric cancer) amplifies the immune dysregulation (T-cell already mapped) and the oxidative stress of ALL."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement-contact regulation: C1-esterase inhibitor regulates the classical complement (C3, C5 and factor H already mapped) pathway exploited by ALL blasts for complement evasion and the leukaemia-promoting marrow-niche inflammatory activation."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -791,6 +800,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-leukaemia axis: TSLP, from marrow stroma (already mapped) and thymic epithelium, drives CRLF2-rearranged ALL blasts and primes the marrow (already mapped) microenvironment for leukaemia-promoting Th2 skewing.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and leukaemia blasts, amplifies the vascular permeability and the inflammatory cytokine milieu of the leukaemia marrow of ALL.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic failure: erythropoietin signalling is impaired by the marrow infiltration of the ALL blasts (already mapped), contributing to the hypoproliferative anaemia and the transfusion dependence of ALL.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell marrow niche: mast cells (already mapped) in the bone marrow (already mapped) niche of ALL release histamine that amplifies the vascular permeability and the inflammatory cytokine milieu that sustains the leukaemia-promoting microenvironment of ALL.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Oncostatic chronobiology: melatonin has pro-apoptotic and anti-proliferative effects on leukaemic cells; disrupted melatonin rhythm (common in paediatric cancer) amplifies the immune dysregulation (T-cell already mapped) and the oxidative stress of ALL.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-contact regulation: C1-esterase inhibitor regulates the classical complement (C3, C5 and factor H already mapped) pathway exploited by ALL blasts for complement evasion and the leukaemia-promoting marrow-niche inflammatory activation.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
