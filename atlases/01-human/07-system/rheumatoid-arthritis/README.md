@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Neuroendocrine autoimmune amplifier: hyperprolactinaemia worsens RA by stimulating B-cell survival and autoantibody (ACPA) production; prolactin is elevated in active disease and correlates with synovitis severity."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian joint clock: nocturnal melatonin surges correlate with morning stiffness in RA; melatonin suppresses synovial macrophage TNF-α output and alters HPA-axis cortisol rhythmicity, linking circadian biology to the diurnal pattern of RA symptoms."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroimmune joint modulator: oxytocin receptors on synovial fibroblasts and macrophages allow this neuropeptide to dampen NF-κB-mediated TNF-α release; serum oxytocin is reduced in active RA, implicating the oxytocin axis in immune tolerance failure."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen deficiency axis: testosterone levels are depressed in male RA patients and inversely correlate with disease activity; androgen receptor signalling on T-helper cells suppresses IL-17A transcription, partly explaining the female predominance of RA."
 ---
 
 # Rheumatoid Arthritis
@@ -789,6 +798,9 @@ RA patients have:
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Synovial kinin: bradykinin, released at the rheumatoid synovium by the tissue-kallikrein cascade activated by inflammatory proteases, amplifies the joint pain and hyperalgesia via B2-receptor signalling on synoviocytes and sensory nerves.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia of chronic disease: erythropoietin is used to treat the hepcidin-mediated (already mapped) anaemia of chronic inflammation in rheumatoid arthritis, and EPOR on synoviocytes has led to questions about a direct anti-inflammatory EPO effect.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine autoimmune amplifier: hyperprolactinaemia worsens RA by stimulating B-cell survival and autoantibody (ACPA) production; prolactin is elevated in active disease and correlates with synovitis severity.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian joint clock: nocturnal melatonin surges correlate with morning stiffness in RA; melatonin suppresses synovial macrophage TNF-α output and alters HPA-axis cortisol rhythmicity, linking circadian biology to the diurnal pattern of RA symptoms.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune joint modulator: oxytocin receptors on synovial fibroblasts and macrophages allow this neuropeptide to dampen NF-κB-mediated TNF-α release; serum oxytocin is reduced in active RA, implicating the oxytocin axis in immune tolerance failure.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen deficiency axis: testosterone levels are depressed in male RA patients and inversely correlate with disease activity; androgen receptor signalling on T-helper cells suppresses IL-17A transcription, partly explaining the female predominance of RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

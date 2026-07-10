@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Skin-oedema mediator: bradykinin from the kallikrein-kinin system amplifies the oedema and vascular permeability of the inflammatory flares accompanying the acute skin lesions and the photosensitivity reactions of Rothmund-Thomson syndrome."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Contact-system brake: C1-esterase inhibitor restrains the kallikrein-kinin and complement C1 cascades dysregulated in Rothmund-Thomson syndrome, limiting the bradykinin-driven skin oedema and the C3 activation already mapped in RTS."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Poikiloderma mast-cell mediator: histamine released from mast cells activated by TSLP in the inflamed skin of Rothmund-Thomson syndrome drives the erythema, pruritus, and vascular permeability of the early poikiloderma lesions."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Osteosarcoma microenvironment: periostin secreted by stromal fibroblasts of RECQL4-deficient osteosarcomas promotes tumour cell survival via integrin-αv signalling, amplifying the osteosarcoma risk that defines the Rothmund-Thomson cancer phenotype."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -776,6 +785,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Poikiloderma alarmin: TSLP released by the damaged keratinocytes of the RTS poikiloderma activates mast cells and dendritic cells, promoting the type-2 skin inflammation that accompanies the RECQL4-driven photosensitivity and early sun damage.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Osteosarcoma chemotherapy anaemia: the osteosarcoma risk of Rothmund-Thomson syndrome means erythropoietin is frequently used to manage the MAP-chemotherapy anaemia; EPOR expression on the tumour cells has been documented.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Skin-oedema mediator: bradykinin from the kallikrein-kinin system amplifies the oedema and vascular permeability of the inflammatory flares accompanying the acute skin lesions and the photosensitivity reactions of Rothmund-Thomson syndrome.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact-system brake: C1-esterase inhibitor restrains the kallikrein-kinin and complement C1 cascades dysregulated in Rothmund-Thomson syndrome, limiting the bradykinin-driven skin oedema and the C3 activation already mapped in RTS.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Poikiloderma mast-cell mediator: histamine released from mast cells activated by TSLP in the inflamed skin of Rothmund-Thomson syndrome drives the erythema, pruritus, and vascular permeability of the early poikiloderma lesions.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Osteosarcoma microenvironment: periostin secreted by stromal fibroblasts of RECQL4-deficient osteosarcomas promotes tumour cell survival via integrin-αv signalling, amplifying the osteosarcoma risk that defines the Rothmund-Thomson cancer phenotype.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
