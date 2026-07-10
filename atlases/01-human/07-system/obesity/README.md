@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "OB vasopressin: vasopressin, via V1 receptors on adipocytes (already mapped), promotes adipose inflammation and insulin resistance; V2-receptor signalling on the kidney (already mapped) drives the fluid retention and blood-pressure elevation of the obese cardiometabolic state."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "OB selenium: selenoprotein P controls adipocyte (already mapped) lipotoxic oxidative stress and macrophage (already mapped) adipose metainflammation; selenium deficiency amplifies the NF-κB (already mapped) inflammatory cascade and worsens insulin resistance in obesity."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "OB iodine: iodine-dependent thyroid hormones regulate the basal metabolic rate and adipocyte (already mapped) lipid turnover; thyroid-hormone deficiency amplifies the NF-κB (already mapped) adipose inflammation and deepens the energy-balance dysregulation of obesity."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "OB sodium: excess dietary sodium promotes adipocyte (already mapped) fluid retention and vascular inflammation through RAAS activation; sodium-driven hypertension amplifies the NF-κB (already mapped) adipose inflammatory cascade and the cardiometabolic burden of obesity."
 ---
 
 # Obesity
@@ -819,6 +828,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — OB factor-h: factor H regulates the alternative complement (C3 and C5 already mapped) in adipose tissue; impaired factor H activity amplifies the adipocyte (already mapped) lipotoxic and macrophage (already mapped) inflammatory phenotype of obesity.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — OB prolactin: prolactin modulates the gut-microbiome (already mapped) composition and leptin (already mapped) sensitivity in obesity; elevated prolactin promotes adipocyte (already mapped) lipogenesis and macrophage (already mapped) adipose inflammation.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — OB vasopressin: vasopressin, via V1 receptors on adipocytes (already mapped), promotes adipose inflammation and insulin resistance; V2-receptor signalling on the kidney (already mapped) drives the fluid retention and blood-pressure elevation of the obese cardiometabolic state.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — OB selenium: selenoprotein P controls adipocyte (already mapped) lipotoxic oxidative stress and macrophage (already mapped) adipose metainflammation; selenium deficiency amplifies the NF-κB (already mapped) inflammatory cascade and worsens insulin resistance in obesity.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — OB iodine: iodine-dependent thyroid hormones regulate the basal metabolic rate and adipocyte (already mapped) lipid turnover; thyroid-hormone deficiency amplifies the NF-κB (already mapped) adipose inflammation and deepens the energy-balance dysregulation of obesity.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — OB sodium: excess dietary sodium promotes adipocyte (already mapped) fluid retention and vascular inflammation through RAAS activation; sodium-driven hypertension amplifies the NF-κB (already mapped) adipose inflammatory cascade and the cardiometabolic burden of obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

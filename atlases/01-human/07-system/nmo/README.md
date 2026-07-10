@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "NMO oxytocin: oxytocin, via OXTR on astrocytes (already mapped) and regulatory T cells (already mapped), attenuates the neuroinflammatory cascade and promotes AQP4-IgG-mediated lesion repair; oxytocin also modulates the B-cell (already mapped) autoimmune skew of NMO."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "NMO vasopressin: vasopressin, via V1a receptors on astrocytes, amplifies the AQP4-mediated oedema and NF-κB (already mapped) neuroinflammatory cascade of NMO lesions; V2-receptor signalling modulates fluid dysregulation and worsens spinal-cord injury in NMOSD."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "NMO iodine: iodine-dependent thyroid hormones regulate myelination of astrocytes (already mapped) and oligodendrocytes in the spinal cord; thyroid-hormone deficiency amplifies the NF-κB (already mapped) cascade and AQP4-IgG-mediated demyelination of NMO lesions."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "NMO copper: copper-dependent superoxide dismutase controls the oxidative stress amplifying AQP4-IgG-mediated astrocyte (already mapped) injury; copper deficiency impairs myelin synthesis and exacerbates the NF-κB (already mapped) neuroinflammation of NMO lesions."
 ---
 
 # NMOSD
@@ -829,6 +838,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — NMO testosterone: testosterone suppresses the B-cell (already mapped) AQP4-IgG production and plasma-cell (already mapped) autoantibody responses; androgen deficiency amplifies the complement C5 (already mapped) tissue injury and the female-predominant relapse risk of NMO.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — NMO serotonin: serotonin, via 5-HT receptors on astrocytes (already mapped) and microglia (already mapped), modulates the neuroinflammatory activation of NMO lesions; 5-HT also suppresses the B-cell (already mapped) autoimmune skew driving AQP4-IgG production in NMO.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — NMO oxytocin: oxytocin, via OXTR on astrocytes (already mapped) and regulatory T cells (already mapped), attenuates the neuroinflammatory cascade and promotes AQP4-IgG-mediated lesion repair; oxytocin also modulates the B-cell (already mapped) autoimmune skew of NMO.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — NMO vasopressin: vasopressin, via V1a receptors on astrocytes, amplifies the AQP4-mediated oedema and NF-κB (already mapped) neuroinflammatory cascade of NMO lesions; V2-receptor signalling modulates fluid dysregulation and worsens spinal-cord injury in NMOSD.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NMO iodine: iodine-dependent thyroid hormones regulate myelination of astrocytes (already mapped) and oligodendrocytes in the spinal cord; thyroid-hormone deficiency amplifies the NF-κB (already mapped) cascade and AQP4-IgG-mediated demyelination of NMO lesions.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NMO copper: copper-dependent superoxide dismutase controls the oxidative stress amplifying AQP4-IgG-mediated astrocyte (already mapped) injury; copper deficiency impairs myelin synthesis and exacerbates the NF-κB (already mapped) neuroinflammation of NMO lesions.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
