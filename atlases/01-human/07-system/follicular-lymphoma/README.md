@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "FL vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) proliferation cascade of FL."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "FL serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) survival cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "FL iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and B-cell (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) survival cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "FL sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the B-cell (already mapped) survival cascade of follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -801,6 +810,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — FL prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) survival cascade of follicular lymphoma.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — FL oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) cascade of follicular lymphoma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — FL vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) proliferation cascade of FL.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — FL serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) survival cascade of follicular lymphoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — FL iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and B-cell (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) survival cascade of follicular lymphoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — FL sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the B-cell (already mapped) survival cascade of follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
