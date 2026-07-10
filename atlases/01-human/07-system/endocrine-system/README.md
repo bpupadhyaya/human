@@ -518,6 +518,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "Endocrine chloride: chloride, via chloride channels in thyroid follicular cells and macrophages (already mapped), regulates thyroid hormone secretion and immune activation; chloride dysregulation amplifies the NF-κB (already mapped) endocrine cascade."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Endocrine nitrogen: nitric oxide (NO, nitrogen-derived) in endothelial cells and macrophages (already mapped) regulates hormone secretion; NO dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) endocrine cascade."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Endocrine oxygen: mitochondrial ROS in hepatocytes (already mapped) and macrophages (already mapped) amplifies oxidative stress; ROS excess worsens NF-κB (already mapped) and IL-6 (already mapped) and thyroid (already mapped) endocrine inflammatory cascade."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Endocrine carbon: carbon-backbone metabolites in hepatocytes (already mapped) fuel acetyl-CoA and steroid hormone biosynthesis; carbon metabolic imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) endocrine cascade."
 ---
 
 # Endocrine System
@@ -842,6 +851,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Endocrine copper: copper, as cofactor of cuproenzymes in hepatocytes (already mapped) and thyroid follicular cells, supports thyroid hormone synthesis; copper deficiency impairs the NF-κB (already mapped) and IL-6 (already mapped) endocrine immune-regulation cascade.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Endocrine sulfur: sulfur, as component of glutathione in hepatocytes (already mapped) and macrophages (already mapped), scavenges ROS; sulfur deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative endocrine inflammatory cascade.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Endocrine chloride: chloride, via chloride channels in thyroid follicular cells and macrophages (already mapped), regulates thyroid hormone secretion and immune activation; chloride dysregulation amplifies the NF-κB (already mapped) endocrine cascade.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Endocrine nitrogen: nitric oxide (NO, nitrogen-derived) in endothelial cells and macrophages (already mapped) regulates hormone secretion; NO dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) endocrine cascade.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Endocrine oxygen: mitochondrial ROS in hepatocytes (already mapped) and macrophages (already mapped) amplifies oxidative stress; ROS excess worsens NF-κB (already mapped) and IL-6 (already mapped) and thyroid (already mapped) endocrine inflammatory cascade.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Endocrine carbon: carbon-backbone metabolites in hepatocytes (already mapped) fuel acetyl-CoA and steroid hormone biosynthesis; carbon metabolic imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) endocrine cascade.
 
 ## Pathology
 
