@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "HP vasopressin: vasopressin, via V2R on macrophages (already mapped) and neutrophils (already mapped), modulates pancreatic fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of hereditary pancreatitis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HP copper: copper, via ceruloplasmin and SOD, scavenges macrophage (already mapped) and neutrophil (already mapped) ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) pancreatic inflammation in hereditary pancreatitis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HP iodine: thyroid hormones (iodine-dependent) modulate macrophage (already mapped) anti-inflammatory function; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) cascade in hereditary pancreatitis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "HP sodium: sodium channels regulate pancreatic duct fluid secretion; sodium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) and macrophage (already mapped) inflammation in hereditary pancreatitis."
 ---
 
 # Hereditary Pancreatitis
@@ -819,6 +828,9 @@ cross_links:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HP prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the pancreatic inflammatory milieu; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) acinar-injury cascade of hereditary pancreatitis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HP oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates pancreatic inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neutrophil-dominated cascade of hereditary pancreatitis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HP vasopressin: vasopressin, via V2R on macrophages (already mapped) and neutrophils (already mapped), modulates pancreatic fluid homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of hereditary pancreatitis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HP copper: copper, via ceruloplasmin and SOD, scavenges macrophage (already mapped) and neutrophil (already mapped) ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) pancreatic inflammation in hereditary pancreatitis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HP iodine: thyroid hormones (iodine-dependent) modulate macrophage (already mapped) anti-inflammatory function; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) cascade in hereditary pancreatitis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HP sodium: sodium channels regulate pancreatic duct fluid secretion; sodium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) and macrophage (already mapped) inflammation in hereditary pancreatitis.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

@@ -526,6 +526,9 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "HIV iodine: iodine, a thyroid-hormone precursor (thyroid already mapped), supports selenoprotein antioxidant defence against oxidative stress of HIV; iodine deficiency amplifies immune dysfunction and the HIV-associated metabolic disruption."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "HIV magnesium: magnesium supports macrophage (already mapped) anti-inflammatory function and natural-killer-cell (already mapped) cytotoxicity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV."
 ---
 
 # HIV
@@ -830,6 +833,7 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune attenuator: oxytocin, via OXTR on macrophages (already mapped) and NK cells (already mapped), attenuates IL-6 (already mapped) and TNF-α (already mapped) immune activation; oxytocin deficiency amplifies neuroinflammation driving HIV-associated neurocognitive disorder.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress-immune axis: vasopressin, via V1aR on macrophages (already mapped) and NK cells (already mapped), modulates innate IL-6 (already mapped) and TNF-α (already mapped) immune signalling; vasopressin dysregulation amplifies the stress-immune cascade driving HIV infection.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-antioxidant link: iodine, a thyroid-hormone precursor (thyroid already mapped), supports selenoprotein antioxidant defence against oxidative stress of HIV; iodine deficiency amplifies immune dysfunction and the HIV-associated metabolic disruption.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HIV magnesium: magnesium supports macrophage (already mapped) anti-inflammatory function and natural-killer-cell (already mapped) cytotoxicity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
