@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian beta-cell protection: melatonin, via MT1/MT2 receptors on pancreatic beta cells (already mapped), modulates insulin secretion rhythm and suppresses the oxidative stress (ROS already mapped) driving the autoimmune beta-cell destruction of type 1 diabetes."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "T1D testosterone: testosterone, via androgen receptors on pancreatic beta cells, attenuates T-helper-cell (already mapped) and B-cell (already mapped) autoreactivity; androgen deficiency worsens the TNF-α (already mapped) and macrophage (already mapped) insulitis in T1D."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "T1D serotonin: serotonin, synthesised by pancreatic (pancreas already mapped) beta cells, primes insulin (already mapped) secretion and islet mass; 5-HT also modulates T-helper-cell (already mapped) and macrophage (already mapped) autoreactive insulitis of type 1 diabetes."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "T1D prolactin: prolactin, via PRLR on pancreatic (pancreas already mapped) beta cells, promotes beta-cell survival and insulin (already mapped) secretion; prolactin modulates regulatory T-cell (already mapped) and macrophage (already mapped) immune protection against insulitis."
 ---
 
 # Type 1 Diabetes
@@ -759,6 +768,9 @@ cross_links:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell islet effector: histamine, released by mast cells (already mapped) in the pancreatic islets under inflammatory stimuli, promotes the vascular permeability and amplifies the cytokine (IFN-γ and TNF-α already mapped) cascade driving the beta-cell destruction of type 1 diabetes.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Islet ECM remodelling: periostin, expressed by pancreatic stellate cells (already mapped) and fibroblasts under TGF-β (already mapped), promotes the peri-islet fibrotic remodelling that impairs beta-cell survival and insulin secretion in type 1 diabetes.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian beta-cell protection: melatonin, via MT1/MT2 receptors on pancreatic beta cells (already mapped), modulates insulin secretion rhythm and suppresses the oxidative stress (ROS already mapped) driving the autoimmune beta-cell destruction of type 1 diabetes.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — T1D testosterone: testosterone, via androgen receptors on pancreatic beta cells, attenuates T-helper-cell (already mapped) and B-cell (already mapped) autoreactivity; androgen deficiency worsens the TNF-α (already mapped) and macrophage (already mapped) insulitis in T1D.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — T1D serotonin: serotonin, synthesised by pancreatic (pancreas already mapped) beta cells, primes insulin (already mapped) secretion and islet mass; 5-HT also modulates T-helper-cell (already mapped) and macrophage (already mapped) autoreactive insulitis of type 1 diabetes.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — T1D prolactin: prolactin, via PRLR on pancreatic (pancreas already mapped) beta cells, promotes beta-cell survival and insulin (already mapped) secretion; prolactin modulates regulatory T-cell (already mapped) and macrophage (already mapped) immune protection against insulitis.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

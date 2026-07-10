@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Neuroimmune anti-inflammatory axis: oxytocin, via oxytocin receptors on T regulatory cells and macrophages (already mapped), attenuates the NF-κB-driven (already mapped) pro-inflammatory cytokine cascade and promotes immune tolerance in systemic lupus erythematosus."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "SLE testosterone: testosterone suppresses B-cell (already mapped) and T-helper-cell (already mapped) autoimmunity in SLE; androgen deficiency amplifies the type-I IFN (already mapped) and NF-κB (already mapped) flare cascade and the female-predominant SLE relapse risk."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "SLE serotonin: serotonin modulates the T-regulatory (already mapped) and macrophage (already mapped) anti-inflammatory balance of SLE; 5-HT suppresses B-cell (already mapped) autoreactive expansion and attenuates NF-κB (already mapped) type-I IFN (already mapped) flare."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "SLE vasopressin: vasopressin, via V1A receptors on T-helper cells (already mapped) and macrophages (already mapped), modulates the pro-inflammatory cytokine drive; vasopressin also interacts with the kidney (already mapped) fluid homeostasis dysregulated in lupus nephritis."
 ---
 
 # Systemic Lupus Erythematosus
@@ -787,6 +796,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell vascular effector: histamine, released by mast cells (already mapped) at sites of immune complex deposition in lupus vasculitis, amplifies vascular permeability and the inflammatory cytokine milieu (IFN-γ and IL-6 already mapped) of systemic lupus erythematosus.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian immunomodulation: melatonin, via MT1/MT2 receptors on lymphocytes (B-cell and T-helper already mapped) and plasmacytoid dendritic cells (already mapped), suppresses type-I-IFN (already mapped) production and the nocturnal flare amplification of SLE.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune anti-inflammatory axis: oxytocin, via oxytocin receptors on T regulatory cells and macrophages (already mapped), attenuates the NF-κB-driven (already mapped) pro-inflammatory cytokine cascade and promotes immune tolerance in systemic lupus erythematosus.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — SLE testosterone: testosterone suppresses B-cell (already mapped) and T-helper-cell (already mapped) autoimmunity in SLE; androgen deficiency amplifies the type-I IFN (already mapped) and NF-κB (already mapped) flare cascade and the female-predominant SLE relapse risk.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — SLE serotonin: serotonin modulates the T-regulatory (already mapped) and macrophage (already mapped) anti-inflammatory balance of SLE; 5-HT suppresses B-cell (already mapped) autoreactive expansion and attenuates NF-κB (already mapped) type-I IFN (already mapped) flare.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SLE vasopressin: vasopressin, via V1A receptors on T-helper cells (already mapped) and macrophages (already mapped), modulates the pro-inflammatory cytokine drive; vasopressin also interacts with the kidney (already mapped) fluid homeostasis dysregulated in lupus nephritis.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
