@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "MPN sodium inflammatory: sodium, at supraphysiological concentrations in the myeloid marrow, activates macrophage (already mapped) NF-κB (already mapped) and IL-6 (already mapped) signalling, promoting the pro-inflammatory myeloid shift in myeloproliferative neoplasms."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "MPN magnesium: magnesium, as cofactor of JAK2 regulatory enzymes in macrophages (already mapped) and erythrocytes (already mapped), supports haematopoiesis; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MPN copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative oxidative cascade."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "MPN zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and platelets (already mapped), attenuates oxidative stress; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) haematopoietic myeloproliferative cascade."
 ---
 
 # Myeloproliferative Neoplasms
@@ -819,6 +828,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MPN selenium antioxidant: selenium, via GPx/TrxR selenoproteins in JAK2-V617F-mutant (already mapped) cells and macrophages (already mapped), quenches oxidative stress that amplifies NF-κB (already mapped) and IL-6 (already mapped) signalling in myeloproliferative neoplasms.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MPN iodine thyroid: iodine, as the key substrate for thyroid hormone biosynthesis, supports bone-marrow (already mapped) haematopoiesis; iodine insufficiency amplifies the IL-6 (already mapped) and NF-κB (already mapped) myeloid drive of myeloproliferative neoplasms.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MPN sodium inflammatory: sodium, at supraphysiological concentrations in the myeloid marrow, activates macrophage (already mapped) NF-κB (already mapped) and IL-6 (already mapped) signalling, promoting the pro-inflammatory myeloid shift in myeloproliferative neoplasms.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MPN magnesium: magnesium, as cofactor of JAK2 regulatory enzymes in macrophages (already mapped) and erythrocytes (already mapped), supports haematopoiesis; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MPN copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative oxidative cascade.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MPN zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and platelets (already mapped), attenuates oxidative stress; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) haematopoietic myeloproliferative cascade.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

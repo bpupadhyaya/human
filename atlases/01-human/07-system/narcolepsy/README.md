@@ -498,6 +498,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Narcolepsy calcium neuronal: calcium, the essential intracellular ion in hypothalamic orexin (already mapped) and dopaminergic (already mapped) neurons, regulates sleep-wake firing; calcium dyshomeostasis amplifies IL-6 (already mapped) and TNF-α (already mapped) in narcolepsy."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Narcolepsy phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports orexin neuron energy; phosphorus deficiency amplifies the TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy disorder."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Narcolepsy chloride: chloride, via GABA-A Cl⁻ influx in neurons (already mapped), maintains inhibitory tone; chloride dysregulation in microglia (already mapped) amplifies the TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory arousal cascade of narcolepsy."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Narcolepsy sulfur: sulfur, as cysteine precursor in neurons (already mapped) and microglia (already mapped), supports glutathione antioxidant defence; sulfur deficiency amplifies the TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -798,6 +807,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Narcolepsy iodine thyroid: iodine, via thyroid hormone biosynthesis, supports orexin (already mapped) and dopamine (already mapped) signalling; iodine insufficiency amplifies the IL-6 (already mapped) and TNF-α (already mapped) autoimmune burden in narcolepsy type 1.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Narcolepsy potassium neuronal: potassium maintains hypothalamic orexin (already mapped) neuron resting potential and GABA-mediated inhibition; potassium dyshomeostasis amplifies IL-6 (already mapped) and TNF-α (already mapped) autoimmune burden in narcolepsy type 1.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Narcolepsy calcium neuronal: calcium, the essential intracellular ion in hypothalamic orexin (already mapped) and dopaminergic (already mapped) neurons, regulates sleep-wake firing; calcium dyshomeostasis amplifies IL-6 (already mapped) and TNF-α (already mapped) in narcolepsy.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Narcolepsy phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports orexin neuron energy; phosphorus deficiency amplifies the TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy disorder.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Narcolepsy chloride: chloride, via GABA-A Cl⁻ influx in neurons (already mapped), maintains inhibitory tone; chloride dysregulation in microglia (already mapped) amplifies the TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory arousal cascade of narcolepsy.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Narcolepsy sulfur: sulfur, as cysteine precursor in neurons (already mapped) and microglia (already mapped), supports glutathione antioxidant defence; sulfur deficiency amplifies the TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
