@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell venous inflammation: histamine, from mast cells (already mapped), increases venous endothelial permeability and primes the coagulation–inflammation interface of the immunothrombosis of venous thromboembolism."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian coagulation: melatonin has antithrombotic and antioxidant effects, reducing platelet (already mapped) activation and the endothelial (already mapped) oxidative stress that prime the nocturnal hypercoagulability and the thrombotic risk of venous thromboembolism."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone coagulation: testosterone promotes erythropoiesis (EPO already mapped) and haematocrit elevation, increases blood viscosity and venous stasis; male sex-hormone levels and androgen-therapy are recognised risk factors for venous thromboembolism."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Thrombus organisation matrix: periostin, from fibroblasts and endothelial cells (already mapped) at the organising thrombus, contributes to the ECM remodelling and the fibrous transformation of the venous thrombus in venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -774,6 +783,9 @@ cross_links:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-thromboinflammation axis: TSLP, from activated endothelium (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/eosinophil imbalance of the thromboinflammation of venous thromboembolism.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Thrombogenic erythropoiesis: erythropoietin drives erythrocytosis and increases blood viscosity, amplifying the venous stasis and the hypercoagulability of the thrombotic-risk context of venous thromboembolism.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell venous inflammation: histamine, from mast cells (already mapped), increases venous endothelial permeability and primes the coagulation–inflammation interface of the immunothrombosis of venous thromboembolism.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian coagulation: melatonin has antithrombotic and antioxidant effects, reducing platelet (already mapped) activation and the endothelial (already mapped) oxidative stress that prime the nocturnal hypercoagulability and the thrombotic risk of venous thromboembolism.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone coagulation: testosterone promotes erythropoiesis (EPO already mapped) and haematocrit elevation, increases blood viscosity and venous stasis; male sex-hormone levels and androgen-therapy are recognised risk factors for venous thromboembolism.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Thrombus organisation matrix: periostin, from fibroblasts and endothelial cells (already mapped) at the organising thrombus, contributes to the ECM remodelling and the fibrous transformation of the venous thrombus in venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

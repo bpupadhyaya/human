@@ -495,6 +495,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Contact/complement brake: the C1-esterase inhibitor regulates the classical complement pathway (complement C3 already mapped) whose activation is challenged by the cell-free haem and the haemolytic vasculopathy of thalassaemia."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell haemolytic effector: mast cells (already mapped), activated by cell-free haem from ineffective erythropoiesis, release histamine that amplifies the endothelial (already mapped) vasodilation and the vascular inflammation of the haemolytic vasculopathy of thalassaemia."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Iron-overload antioxidant: melatonin, with its potent antioxidant and iron-chelation-related properties, is studied in thalassaemia for protection against the ROS-driven cardiac (already mapped) and hepatic (liver already mapped) iron-overload injury of thalassaemia."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Platelet-serotonin thrombosis: serotonin, released by the hyperactivated platelets (already mapped) of thalassaemia, amplifies the vasoconstriction and the microvascular thrombosis of the thromboembolism (venous-thromboembolism already mapped) risk of thalassaemia."
 ---
 
 # Thalassemia
@@ -798,6 +807,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-erythroid axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the chronic inflammation of the ineffective erythropoiesis of thalassaemia.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-haemolytic axis: bradykinin, via B1/B2 receptors on mast cells (already mapped) and endothelium, amplifies the vascular inflammation and the iron-overload vasculopathy of thalassaemia.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact/complement brake: the C1-esterase inhibitor regulates the classical complement pathway (complement C3 already mapped) whose activation is challenged by the cell-free haem and the haemolytic vasculopathy of thalassaemia.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell haemolytic effector: mast cells (already mapped), activated by cell-free haem from ineffective erythropoiesis, release histamine that amplifies the endothelial (already mapped) vasodilation and the vascular inflammation of the haemolytic vasculopathy of thalassaemia.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Iron-overload antioxidant: melatonin, with its potent antioxidant and iron-chelation-related properties, is studied in thalassaemia for protection against the ROS-driven cardiac (already mapped) and hepatic (liver already mapped) iron-overload injury of thalassaemia.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-serotonin thrombosis: serotonin, released by the hyperactivated platelets (already mapped) of thalassaemia, amplifies the vasoconstriction and the microvascular thrombosis of the thromboembolism (venous-thromboembolism already mapped) risk of thalassaemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
