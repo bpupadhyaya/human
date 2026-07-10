@@ -531,6 +531,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "CV zinc: zinc, via SOD and cardiomyocyte (already mapped) metalloenzymes, quenches oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and endothelial-cell (already mapped) dysfunction in cardiovascular disease."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "CV nitrogen: nitric oxide (NO, nitrogen-derived) in endothelial cells (already mapped) and macrophages (already mapped) regulates vasodilation; NO deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) aggregation cascade."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "CV chloride: chloride channels on cardiomyocytes (already mapped) and smooth muscle cells (already mapped) regulate membrane excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cardiac fibrosis cascade."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "CV sulfur: sulfur-containing glutathione in cardiomyocytes (already mapped) and endothelial cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) and macrophage (already mapped) cascade."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -784,6 +793,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CV copper: copper, via ceruloplasmin and SOD, protects cardiomyocytes (already mapped) from oxidative injury; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and the cardiac fibrosis of heart failure (already mapped).
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CV phosphorus: phosphorus drives ATP (already mapped) synthesis and SERCA2a (already mapped) calcium-pump function in cardiomyocytes (already mapped); hyperphosphataemia amplifies NF-κB (already mapped) vascular calcification and endothelial cell (already mapped) dysfunction.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — CV zinc: zinc, via SOD and cardiomyocyte (already mapped) metalloenzymes, quenches oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation and endothelial-cell (already mapped) dysfunction in cardiovascular disease.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — CV nitrogen: nitric oxide (NO, nitrogen-derived) in endothelial cells (already mapped) and macrophages (already mapped) regulates vasodilation; NO deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) aggregation cascade.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — CV chloride: chloride channels on cardiomyocytes (already mapped) and smooth muscle cells (already mapped) regulate membrane excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cardiac fibrosis cascade.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — CV sulfur: sulfur-containing glutathione in cardiomyocytes (already mapped) and endothelial cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) and macrophage (already mapped) cascade.
 
 ## Pathology
 
