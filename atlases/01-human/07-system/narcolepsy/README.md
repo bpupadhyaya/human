@@ -489,6 +489,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Magnesium neuronal sleep: magnesium (02-atomic) activates GABA-A receptors (already mapped) and blocks NMDA receptors in the hypothalamic sleep-wake (already mapped) circuitry, reducing the arousal-system hyperactivation and cataplexy-promoting inflammation of narcolepsy."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Narcolepsy iodine thyroid: iodine, via thyroid hormone biosynthesis, supports orexin (already mapped) and dopamine (already mapped) signalling; iodine insufficiency amplifies the IL-6 (already mapped) and TNF-α (already mapped) autoimmune burden in narcolepsy type 1."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Narcolepsy potassium neuronal: potassium maintains hypothalamic orexin (already mapped) neuron resting potential and GABA-mediated inhibition; potassium dyshomeostasis amplifies IL-6 (already mapped) and TNF-α (already mapped) autoimmune burden in narcolepsy type 1."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Narcolepsy calcium neuronal: calcium, the essential intracellular ion in hypothalamic orexin (already mapped) and dopaminergic (already mapped) neurons, regulates sleep-wake firing; calcium dyshomeostasis amplifies IL-6 (already mapped) and TNF-α (already mapped) in narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -786,6 +795,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-transport transferrin: transferrin, the serum iron carrier (iron already mapped), delivers iron to dopaminergic neurons (already mapped) of the arousal circuitry; iron-deficiency impairs dopamine synthesis and the reward–wake cycle dysregulated in narcolepsy.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Zinc-sleep modulation: zinc (02-atomic) promotes NREM sleep depth by potentiating GABA-A receptors (already mapped) in the hypothalamus and forebrain; zinc deficiency exacerbates the orexin-deficient (already mapped) sleep–wake instability and cataplexy of narcolepsy.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Magnesium neuronal sleep: magnesium (02-atomic) activates GABA-A receptors (already mapped) and blocks NMDA receptors in the hypothalamic sleep-wake (already mapped) circuitry, reducing the arousal-system hyperactivation and cataplexy-promoting inflammation of narcolepsy.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Narcolepsy iodine thyroid: iodine, via thyroid hormone biosynthesis, supports orexin (already mapped) and dopamine (already mapped) signalling; iodine insufficiency amplifies the IL-6 (already mapped) and TNF-α (already mapped) autoimmune burden in narcolepsy type 1.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Narcolepsy potassium neuronal: potassium maintains hypothalamic orexin (already mapped) neuron resting potential and GABA-mediated inhibition; potassium dyshomeostasis amplifies IL-6 (already mapped) and TNF-α (already mapped) autoimmune burden in narcolepsy type 1.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Narcolepsy calcium neuronal: calcium, the essential intracellular ion in hypothalamic orexin (already mapped) and dopaminergic (already mapped) neurons, regulates sleep-wake firing; calcium dyshomeostasis amplifies IL-6 (already mapped) and TNF-α (already mapped) in narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

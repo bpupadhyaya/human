@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Platelet-vasopressin axis: vasopressin, via V1a receptors on platelets (already mapped) and endothelial cells (already mapped), amplifies the thrombotic risk and platelet activation of the essential-thrombocythemia and polycythemia-vera spectrum of myeloproliferative neoplasms."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "MPN selenium antioxidant: selenium, via GPx/TrxR selenoproteins in JAK2-V617F-mutant (already mapped) cells and macrophages (already mapped), quenches oxidative stress that amplifies NF-κB (already mapped) and IL-6 (already mapped) signalling in myeloproliferative neoplasms."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MPN iodine thyroid: iodine, as the key substrate for thyroid hormone biosynthesis, supports bone-marrow (already mapped) haematopoiesis; iodine insufficiency amplifies the IL-6 (already mapped) and NF-κB (already mapped) myeloid drive of myeloproliferative neoplasms."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "MPN sodium inflammatory: sodium, at supraphysiological concentrations in the myeloid marrow, activates macrophage (already mapped) NF-κB (already mapped) and IL-6 (already mapped) signalling, promoting the pro-inflammatory myeloid shift in myeloproliferative neoplasms."
 ---
 
 # Myeloproliferative Neoplasms
@@ -807,6 +816,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-erythrocyte axis: testosterone, via androgen receptor on JAK2-V617F-mutant (already mapped) erythroid progenitor cells (already mapped), potentiates the erythrocytosis and myeloid proliferative drive of the polycythemia vera spectrum of myeloproliferative neoplasms.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Haematopoietic neuropeptide: oxytocin, via OXT-R on bone-marrow stromal cells (already mapped) and megakaryocytes (already mapped), modulates haematopoietic niche signalling and the thrombopoiesis dysregulated in essential thrombocythemia of myeloproliferative neoplasms.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Platelet-vasopressin axis: vasopressin, via V1a receptors on platelets (already mapped) and endothelial cells (already mapped), amplifies the thrombotic risk and platelet activation of the essential-thrombocythemia and polycythemia-vera spectrum of myeloproliferative neoplasms.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MPN selenium antioxidant: selenium, via GPx/TrxR selenoproteins in JAK2-V617F-mutant (already mapped) cells and macrophages (already mapped), quenches oxidative stress that amplifies NF-κB (already mapped) and IL-6 (already mapped) signalling in myeloproliferative neoplasms.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MPN iodine thyroid: iodine, as the key substrate for thyroid hormone biosynthesis, supports bone-marrow (already mapped) haematopoiesis; iodine insufficiency amplifies the IL-6 (already mapped) and NF-κB (already mapped) myeloid drive of myeloproliferative neoplasms.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MPN sodium inflammatory: sodium, at supraphysiological concentrations in the myeloid marrow, activates macrophage (already mapped) NF-κB (already mapped) and IL-6 (already mapped) signalling, promoting the pro-inflammatory myeloid shift in myeloproliferative neoplasms.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
