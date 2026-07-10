@@ -484,6 +484,15 @@ cross_links:
   - target: 03-medicine/03-food/vitamin-d
     relation: connects-to
     note: "Anti-polyposis VDR: vitamin D (VDR modulates WNT/beta-catenin already mapped) reduces colorectal cancer risk in polyposis syndromes; low serum vitamin D associates with accelerated adenoma progression in SMAD4/BMPR1A germline carriers."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Mucosal pain and permeability: bradykinin, via B1/B2 receptors on intestinal epithelial cells (already mapped) and mast cells (already mapped), amplifies vascular permeability and the inflammatory juvenile-polyp stroma, worsening the GI blood loss of JPS."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: C1-INH controls the classical and lectin complement pathways (C3 and C5aR1 already mapped) that amplify the inflammatory activation of the juvenile-polyp stroma and the vascular permeability of the JPS gastrointestinal mucosa."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "GI-blood-loss anaemia: erythropoietin corrects the iron-deficiency anaemia (already mapped) from the chronic gastrointestinal blood loss of the juvenile polyps; the EPO response reflects the severity of the haematological burden of JPS."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -769,6 +778,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Epithelial alarmin: TSLP released by the inflamed JPS intestinal epithelium activates mast cells and dendritic cells, promoting the type-2 inflammatory stroma of juvenile polyps and accelerating the SMAD4-mutant adenoma-carcinoma transition.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Hamartomatous stroma: periostin, a SMAD4-downstream ECM protein, drives the mesenchymal overgrowth and fibroblast invasion of the juvenile polyp stroma; elevated periostin in JPS lesions correlates with stroma-driven polyp expansion.
 - `connects-to` → **[Vitamin D](../../../03-medicine/03-food/vitamin-d/README.md)** — Anti-polyposis VDR: vitamin D (VDR modulates WNT/beta-catenin already mapped) reduces colorectal cancer risk in polyposis syndromes; low serum vitamin D associates with accelerated adenoma progression in SMAD4/BMPR1A germline carriers.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Mucosal pain and permeability: bradykinin, via B1/B2 receptors on intestinal epithelial cells (already mapped) and mast cells (already mapped), amplifies vascular permeability and the inflammatory juvenile-polyp stroma, worsening the GI blood loss of JPS.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical and lectin complement pathways (C3 and C5aR1 already mapped) that amplify the inflammatory activation of the juvenile-polyp stroma and the vascular permeability of the JPS gastrointestinal mucosa.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — GI-blood-loss anaemia: erythropoietin corrects the iron-deficiency anaemia (already mapped) from the chronic gastrointestinal blood loss of the juvenile polyps; the EPO response reflects the severity of the haematological burden of JPS.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

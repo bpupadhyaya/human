@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Tumour-microenvironment mast cells: histamine released by the mast cells infiltrating LFS sarcoma and carcinoma stroma amplifies the IL-6 and NF-kB pro-tumour inflammation and promotes VEGF-driven angiogenesis of Li-Fraumeni tumours."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Tumour-promoting kinin: bradykinin, via B1/B2 kinin receptors on the endothelial cells and macrophages (both already mapped) of the Li-Fraumeni tumour stroma, amplifies angiogenesis (VEGF already mapped) and the pro-tumour NF-kB (already mapped) inflammatory cascade."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: C1-INH controls the classical complement pathway (C3 and C5aR1 already mapped) activated by anti-tumour antibodies (already mapped) across the diverse TP53-mutant Li-Fraumeni cancers, modulating the complement-mediated anti-tumour cytotoxicity."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Sarcoma stromal periostin: periostin, highly expressed in the fibroblast (already mapped) stroma of the TP53-mutant Li-Fraumeni sarcomas (osteosarcoma and rhabdomyosarcoma already mapped), drives the desmoplastic niche and promotes invasion and metastasis."
 ---
 
 # Li-Fraumeni Syndrome
@@ -790,6 +799,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Immune-surveillance alarmin: TSLP activates NK cells and T cells, promoting anti-tumour immune surveillance that partially compensates for the p53-deficient apoptosis and immune-escape across the Li-Fraumeni tumour spectrum.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Treatment-related anaemia: erythropoietin counters the myelosuppression from chemoradiotherapy across the multiple primary cancers of Li-Fraumeni syndrome; EPO supports erythropoiesis and mitigates fatigue in TP53-germline carriers undergoing multimodal therapy.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Tumour-microenvironment mast cells: histamine released by the mast cells infiltrating LFS sarcoma and carcinoma stroma amplifies the IL-6 and NF-kB pro-tumour inflammation and promotes VEGF-driven angiogenesis of Li-Fraumeni tumours.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Tumour-promoting kinin: bradykinin, via B1/B2 kinin receptors on the endothelial cells and macrophages (both already mapped) of the Li-Fraumeni tumour stroma, amplifies angiogenesis (VEGF already mapped) and the pro-tumour NF-κB (already mapped) inflammatory cascade.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical complement pathway (C3 and C5aR1 already mapped) activated by anti-tumour antibodies (already mapped) across the diverse TP53-mutant Li-Fraumeni cancers, modulating the complement-mediated anti-tumour cytotoxicity.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Sarcoma stromal periostin: periostin, highly expressed in the fibroblast (already mapped) stroma of the TP53-mutant Li-Fraumeni sarcomas (osteosarcoma and rhabdomyosarcoma already mapped), drives the desmoplastic niche and promotes invasion and metastasis.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
