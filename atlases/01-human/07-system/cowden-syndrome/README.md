@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Tumour-EPO axis: erythropoietin, via the EPOR on PTEN-deficient tumour cells (already mapped), modulates the PI3K/AKT survival, proliferation, and the angiogenic (already mapped) dimension of the Cowden-syndrome hamartomas."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell hamartoma axis: histamine, from mast cells (already mapped) in the PTEN-deficient hamartoma stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the Cowden-syndrome tumours."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-PI3K axis: melatonin, via MT1/MT2 receptors and its antioxidant activity, modulates the PI3K/AKT/mTOR (already mapped) signalling and the genomic instability of the PTEN-deficient (already mapped) tumour cells of Cowden syndrome."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 already mapped) whose activation contributes to the inflammatory milieu of the PTEN-driven hamartoma microenvironment of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -831,6 +840,9 @@ cross_links:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from hamartoma stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the PTEN-driven hamartoma tumour microenvironment of Cowden syndrome.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory milieu of the hamartoma stroma of Cowden syndrome.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour-EPO axis: erythropoietin, via the EPOR on PTEN-deficient tumour cells (already mapped), modulates the PI3K/AKT survival, proliferation, and the angiogenic (already mapped) dimension of the Cowden-syndrome hamartomas.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell hamartoma axis: histamine, from mast cells (already mapped) in the PTEN-deficient hamartoma stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the Cowden-syndrome tumours.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-PI3K axis: melatonin, via MT1/MT2 receptors and its antioxidant activity, modulates the PI3K/AKT/mTOR (already mapped) signalling and the genomic instability of the PTEN-deficient (already mapped) tumour cells of Cowden syndrome.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 already mapped) whose activation contributes to the inflammatory milieu of the PTEN-driven hamartoma microenvironment of Cowden syndrome.
 
 ---
 

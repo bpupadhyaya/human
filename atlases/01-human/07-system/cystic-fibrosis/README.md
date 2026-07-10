@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Hypoxia-EPO axis: erythropoietin, induced by mucus-plug hypoxia in the CF airway, mobilises erythroid progenitors and modulates macrophage (already mapped) polarisation, linking the chronic anaemia of inflammation to lung disease in cystic fibrosis."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell CF-airway axis: histamine, from mast cells (already mapped) in the CF airway, amplifies the bronchoconstriction, the mucus secretion, and the eosinophilic-inflammatory overlay of the neutrophilic airway disease of cystic fibrosis."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-CF axis: melatonin, via MT1/MT2 receptors on CF airway epithelium (already mapped) and immune effectors, modulates the oxidative stress of the CFTR-dysfunctional (already mapped) airway inflammation of cystic fibrosis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-CF axis: testosterone, via androgen receptors on CF airway epithelial cells (already mapped), modulates the sex-differential CF lung disease severity (females worse at puberty) and the airway inflammatory tone of cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -779,6 +788,9 @@ AND
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-CF axis: TSLP, released from the CFTR-dysfunctional airway epithelium, drives dendritic-cell (already mapped) Th2 priming and amplifies the eosinophilic airway inflammation that overlays the neutrophilic core of cystic fibrosis.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-CF axis: bradykinin, via B1/B2 receptors on CF airway epithelium and mast cells (already mapped), augments mucus secretion, neutrophil (already mapped) recruitment, and the inflammatory vascular permeability of cystic fibrosis airways.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Hypoxia-EPO axis: erythropoietin, induced by mucus-plug hypoxia in the CF airway, mobilises erythroid progenitors and modulates macrophage (already mapped) polarisation, linking the chronic anaemia of inflammation to lung disease in cystic fibrosis.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell CF-airway axis: histamine, from mast cells (already mapped) in the CF airway, amplifies the bronchoconstriction, the mucus secretion, and the eosinophilic-inflammatory overlay of the neutrophilic airway disease of cystic fibrosis.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-CF axis: melatonin, via MT1/MT2 receptors on CF airway epithelium (already mapped) and immune effectors, modulates the oxidative stress of the CFTR-dysfunctional (already mapped) airway inflammation of cystic fibrosis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-CF axis: testosterone, via androgen receptors on CF airway epithelial cells (already mapped), modulates the sex-differential CF lung disease severity (females worse at puberty) and the airway inflammatory tone of cystic fibrosis.
 
 ---
 
