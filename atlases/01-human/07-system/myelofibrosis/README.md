@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "MF copper: copper, via ceruloplasmin and SOD, scavenges ROS in bone-marrow (already mapped) macrophages (already mapped) and fibroblasts (already mapped); copper deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic signalling in myelofibrosis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "MF sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the neutrophil (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "MF potassium: potassium channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the myelofibrosis bone marrow; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "MF chloride: chloride channels regulate macrophage (already mapped) and neutrophil (already mapped) ion homeostasis in the myelofibrosis bone marrow; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -815,6 +824,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MF iodine: thyroid-hormone signalling modulates bone-marrow (already mapped) erythropoiesis and macrophage (already mapped) immune surveillance; iodine deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) driven fibroblast (already mapped) fibrotic activity.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MF magnesium: magnesium supports bone-marrow (already mapped) haematopoiesis and macrophage (already mapped) anti-inflammatory resolution; magnesium deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic signalling in myelofibrosis.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MF copper: copper, via ceruloplasmin and SOD, scavenges ROS in bone-marrow (already mapped) macrophages (already mapped) and fibroblasts (already mapped); copper deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic signalling in myelofibrosis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MF sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the neutrophil (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MF potassium: potassium channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the myelofibrosis bone marrow; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MF chloride: chloride channels regulate macrophage (already mapped) and neutrophil (already mapped) ion homeostasis in the myelofibrosis bone marrow; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
 
 ---
 

@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "MG iron: iron supports macrophage (already mapped) function and T-helper-cell (already mapped) differentiation; iron deficiency amplifies NF-κB (already mapped) and complement-C3 (already mapped)-driven endplate damage and T-cytotoxic (already mapped) cascade in MG."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "MG phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), drives immune-activation energy; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in myasthenia gravis."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "MG chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis at the NMJ; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) cascade in myasthenia gravis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "MG sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) support redox buffering at the NMJ; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in myasthenia gravis."
 ---
 
 # Myasthenia Gravis
@@ -806,6 +815,9 @@ cross_links:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid co-morbidity link: iodine, a thyroid-hormone precursor (thyroid already mapped), links the autoimmune thyroiditis co-morbidity of myasthenia gravis; iodine deficiency disrupts thyroid-immune crosstalk amplifying the anti-AChR B-cell (already mapped) response.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NMJ antioxidant cofactor: copper, a cofactor of superoxide dismutase (SOD), scavenges the ROS mediating NMJ oxidative stress in myasthenia gravis; copper deficiency amplifies complement (C3 and C5 already mapped)-driven endplate damage and the immune dysregulation of the disease.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — MG iron: iron supports macrophage (already mapped) function and T-helper-cell (already mapped) differentiation; iron deficiency amplifies NF-κB (already mapped) and complement-C3 (already mapped)-driven endplate damage and T-cytotoxic (already mapped) cascade in MG.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MG phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), drives immune-activation energy; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in myasthenia gravis.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MG chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis at the NMJ; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) cascade in myasthenia gravis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MG sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) support redox buffering at the NMJ; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in myasthenia gravis.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
