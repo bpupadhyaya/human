@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Vascular matricellular remodelling: periostin, induced by thromboinflammatory cytokines (IL-6 already mapped) in endothelial (already mapped) and smooth-muscle cells (already mapped), promotes vascular-wall fibrosis at thrombus sites in heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian platelet axis: melatonin, via MT1/MT2 receptors on platelets (already mapped), modulates platelet aggregation and the circadian oscillation of thrombotic risk, with overnight surges of coagulation (already mapped) activity amplifying HIT thrombosis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune-endocrine coupling: prolactin, elevated during acute-phase inflammation (IL-6 already mapped) of HIT, potentiates B-cell (already mapped) autoantibody production (anti-PF4/heparin IgG) and may amplify the thromboinflammatory cascade."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroimmune anti-thrombotic: oxytocin, via OXT receptors on platelets (already mapped) and endothelial cells (already mapped), modulates platelet activation and the thromboinflammatory signalling at the PF4-heparin antibody complex sites of HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -795,6 +804,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Thromboinflammatory alarmin: TSLP, released from endothelial cells (already mapped) and mast cells (already mapped) during the thromboinflammatory cascade, amplifies the type-2 immune polarisation at the platelet-thrombus interface of heparin-induced thrombocytopenia.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Platelet-EPO crosstalk: erythropoietin, secreted in response to the anaemia of the consumptive thrombocytopenia, also signals through EPOR on megakaryocytes to support the compensatory thrombopoiesis (thrombopoietin already mapped) in heparin-induced thrombocytopenia.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Vascular matricellular remodelling: periostin, induced by thromboinflammatory cytokines (IL-6 already mapped) in endothelial (already mapped) and smooth-muscle cells (already mapped), promotes vascular-wall fibrosis at thrombus sites in heparin-induced thrombocytopenia.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian platelet axis: melatonin, via MT1/MT2 receptors on platelets (already mapped), modulates platelet aggregation and the circadian oscillation of thrombotic risk, with overnight surges of coagulation (already mapped) activity amplifying HIT thrombosis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine coupling: prolactin, elevated during acute-phase inflammation (IL-6 already mapped) of HIT, potentiates B-cell (already mapped) autoantibody production (anti-PF4/heparin IgG) and may amplify the thromboinflammatory cascade.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune anti-thrombotic: oxytocin, via OXT receptors on platelets (already mapped) and endothelial cells (already mapped), modulates platelet activation and the thromboinflammatory signalling at the PF4-heparin antibody complex sites of HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
