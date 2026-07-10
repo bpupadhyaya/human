@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "HBOC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HBOC."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "HBOC sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) and T-helper-cell (already mapped) tumour cascade of HBOC."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "HBOC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting cascade of HBOC."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HBOC copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting cascade of HBOC."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -823,6 +832,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — HBOC serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; serotonin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HBOC.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HBOC selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) oxidative tumour cascade of HBOC.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HBOC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HBOC.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HBOC sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) and T-helper-cell (already mapped) tumour cascade of HBOC.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HBOC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting cascade of HBOC.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HBOC copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting cascade of HBOC.
 
 ---
 

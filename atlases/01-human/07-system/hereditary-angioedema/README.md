@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "HAE phosphorus: phosphate fuels mast-cell (already mapped) ATP and degranulation; phosphorus deficiency impairs C1-esterase-inhibitor (already mapped) function and amplifies bradykinin (already mapped) and IL-6 (already mapped) driven oedema in HAE."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HAE potassium: potassium regulates mast-cell (already mapped) degranulation and membrane potential; potassium dysregulation amplifies bradykinin (already mapped) release and IL-6 (already mapped) and C1-esterase-inhibitor (already mapped) dysfunction in HAE."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "HAE iron: iron, via ferritin in macrophages (already mapped) and mast cells (already mapped), modulates immune tone; iron dysregulation amplifies bradykinin (already mapped) and IL-6 (already mapped) and C1-esterase-inhibitor (already mapped) dysfunction in HAE."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HAE chloride: chloride, as a key ionic co-factor of mast-cell (already mapped) degranulation, modulates bradykinin (already mapped) release; chloride dysregulation amplifies IL-6 (already mapped) and C1-esterase-inhibitor (already mapped) dysfunction in HAE."
 ---
 
 # Hereditary Angioedema
@@ -830,6 +839,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HAE magnesium: magnesium stabilises endothelial-cell (already mapped) membranes and suppresses NF-κB (already mapped) mediated mast-cell (already mapped) activation; deficiency heightens bradykinin (already mapped) sensitivity and amplifies IL-6 (already mapped) driven oedema.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HAE copper: copper, via ceruloplasmin and SOD in endothelial cells (already mapped), counters oxidative stress; copper deficiency amplifies bradykinin (already mapped) release and impairs C1-esterase-inhibitor (already mapped) function and IL-6 (already mapped) oedema in HAE.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HAE phosphorus: phosphate fuels mast-cell (already mapped) ATP and degranulation; phosphorus deficiency impairs C1-esterase-inhibitor (already mapped) function and amplifies bradykinin (already mapped) and IL-6 (already mapped) driven oedema in HAE.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HAE potassium: potassium regulates mast-cell (already mapped) degranulation and membrane potential; potassium dysregulation amplifies bradykinin (already mapped) release and IL-6 (already mapped) and C1-esterase-inhibitor (already mapped) dysfunction in HAE.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — HAE iron: iron, via ferritin in macrophages (already mapped) and mast cells (already mapped), modulates immune tone; iron dysregulation amplifies bradykinin (already mapped) and IL-6 (already mapped) and C1-esterase-inhibitor (already mapped) dysfunction in HAE.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HAE chloride: chloride, as a key ionic co-factor of mast-cell (already mapped) degranulation, modulates bradykinin (already mapped) release; chloride dysregulation amplifies IL-6 (already mapped) and C1-esterase-inhibitor (already mapped) dysfunction in HAE.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
