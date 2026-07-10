@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Pancreatic cancer vasopressin: vasopressin via V1a receptors on pancreatic cancer stroma activates Gαq-PKC signalling, promoting VEGF (already mapped)-driven tumour angiogenesis and NF-κB (already mapped)-mediated cancer-associated fibroblast (already mapped) activation."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Pancreatic cancer selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the pancreatic tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Pancreatic cancer iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade in pancreatic cancer."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Pancreatic cancer sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the T-cytotoxic (already mapped) suppression in pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -803,6 +812,9 @@ cross_links:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Pancreatic cancer prolactin: prolactin via JAK2/STAT3 (already mapped) activates pancreatic cancer cells and tumour-associated macrophages (already mapped), augmenting NF-κB (already mapped)-driven desmoplastic stroma and mTOR (already mapped) pro-proliferative signalling.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Pancreatic cancer oxytocin: oxytocin receptors on pancreatic cancer cells and stellate cells couple to Gαq-PKC, cross-activating KRAS (already mapped) and mTOR (already mapped) signalling to promote desmoplastic stroma remodelling and cancer cell invasion.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Pancreatic cancer vasopressin: vasopressin via V1a receptors on pancreatic cancer stroma activates Gαq-PKC signalling, promoting VEGF (already mapped)-driven tumour angiogenesis and NF-κB (already mapped)-mediated cancer-associated fibroblast (already mapped) activation.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Pancreatic cancer selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the pancreatic tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Pancreatic cancer iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade in pancreatic cancer.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Pancreatic cancer sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the T-cytotoxic (already mapped) suppression in pancreatic cancer.
 
 ---
 
