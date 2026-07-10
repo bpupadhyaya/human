@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-CLL axis: testosterone, via androgen receptors on CLL B-cells (already mapped) and tumour stromal cells, modulates the sex-differential CLL incidence (higher in males) and the immunosuppressive marrow microenvironment."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "CLL serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the CLL TME; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) survival cascade of CLL."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "CLL prolactin: prolactin, via PRLR on macrophages (already mapped) and B-cells (already mapped), promotes CLL immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) survival cascade of chronic lymphocytic leukaemia."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "CLL oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates CLL TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) survival cascade of CLL."
 ---
 
 # CLL
@@ -776,6 +785,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell CLL microenvironment: histamine, from mast cells (already mapped) in the CLL marrow and lymph-node stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu that supports CLL-cell survival.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-CLL axis: melatonin, via MT1/MT2 receptors on CLL B-cells (already mapped), modulates the survival signalling and the circadian disruption associated with the immunosuppression and the disease progression of chronic lymphocytic leukaemia.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-CLL axis: testosterone, via androgen receptors on CLL B-cells (already mapped) and tumour stromal cells, modulates the sex-differential CLL incidence (higher in males) and the immunosuppressive marrow microenvironment.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CLL serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the CLL TME; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) survival cascade of CLL.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CLL prolactin: prolactin, via PRLR on macrophages (already mapped) and B-cells (already mapped), promotes CLL immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) survival cascade of chronic lymphocytic leukaemia.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CLL oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates CLL TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) survival cascade of CLL.
 
 ---
 

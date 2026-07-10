@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the inflammatory leukaemia marrow microenvironment of chronic myeloid leukaemia."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "CML testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the CML TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL survival cascade of CML."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "CML serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the CML TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL cascade of CML."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "CML prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), promotes CML immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -776,6 +785,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell CML marrow axis: histamine, from the expanded mast-cell pool (already mapped) in the CML marrow niche, amplifies the BCR-ABL-driven (already mapped) angiogenesis (already mapped) and the inflammatory cytokine milieu of the CML stroma.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-BCR-ABL axis: melatonin, via MT1/MT2 receptors on CML haematopoietic progenitors (already mapped), modulates the oxidative stress of the BCR-ABL-driven (already mapped) clonal expansion and the inflammatory marrow niche of CML.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the inflammatory leukaemia marrow microenvironment of chronic myeloid leukaemia.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — CML testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the CML TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL survival cascade of CML.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CML serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the CML TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL cascade of CML.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CML prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), promotes CML immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CML.
 
 ---
 
