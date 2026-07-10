@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "MDS prolactin: prolactin synergises with erythropoietin (already mapped) to stimulate erythropoiesis in the dysplastic bone-marrow (already mapped); prolactin also modulates the T-helper cell (already mapped) and macrophage (already mapped) immune surveillance of MDS clones."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "MDS oxytocin: oxytocin modulates NF-κB (already mapped) and TNF-α (already mapped) driven bone-marrow (already mapped) signalling in MDS; oxytocin also supports erythropoietin (already mapped) mediated erythropoiesis and macrophage (already mapped) immune surveillance."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MDS vasopressin: vasopressin (ADH) amplifies NF-κB (already mapped) and IL-6 (already mapped) driven bone-marrow (already mapped) inflammation; vasopressin modulates macrophage (already mapped) TGF-β (already mapped) and erythropoietin (already mapped) mediated erythropoiesis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "MDS selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and TNF-α (already mapped) mediated bone-marrow (already mapped) inflammation; selenium deficiency amplifies oxidative DNA damage and worsens macrophage (already mapped) immune dysregulation."
 ---
 
 # Myelodysplastic Syndromes
@@ -778,6 +787,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — MDS testosterone: androgen signalling on haematopoietic progenitors supports erythroid differentiation and attenuates TGF-β (already mapped) suppression; testosterone deficiency worsens the MDS anaemia in the dysplastic bone-marrow (already mapped) niche.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — MDS serotonin: serotonin released by dysplastic megakaryocytes modulates haematopoietic progenitor proliferation via 5-HT receptors; platelet (already mapped) serotonin promotes marrow fibrosis via TGF-β (already mapped) activation in MDS.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — MDS prolactin: prolactin synergises with erythropoietin (already mapped) to stimulate erythropoiesis in the dysplastic bone-marrow (already mapped); prolactin also modulates the T-helper cell (already mapped) and macrophage (already mapped) immune surveillance of MDS clones.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MDS oxytocin: oxytocin modulates NF-κB (already mapped) and TNF-α (already mapped) driven bone-marrow (already mapped) signalling in MDS; oxytocin also supports erythropoietin (already mapped) mediated erythropoiesis and macrophage (already mapped) immune surveillance.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — MDS vasopressin: vasopressin (ADH) amplifies NF-κB (already mapped) and IL-6 (already mapped) driven bone-marrow (already mapped) inflammation; vasopressin modulates macrophage (already mapped) TGF-β (already mapped) and erythropoietin (already mapped) mediated erythropoiesis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MDS selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and TNF-α (already mapped) mediated bone-marrow (already mapped) inflammation; selenium deficiency amplifies oxidative DNA damage and worsens macrophage (already mapped) immune dysregulation.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
