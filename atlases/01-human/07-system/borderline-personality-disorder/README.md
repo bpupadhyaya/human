@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement neuroimmune: complement C5, upstream of the membrane-attack complex, is implicated in the synaptic pruning (synapse and microglia already mapped) and neuroimmune activation of the corticolimbic circuits dysregulated in BPD."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "BPD transferrin: iron (as transferrin-bound Fe) is essential for dopamine (already mapped) and norepinephrine (already mapped) synthesis; transferrin-mediated iron delivery to neurons (already mapped) supports BDNF (already mapped) signalling and the affective instability of BPD."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "BPD selenium: selenoprotein antioxidants counter the neuroinflammatory oxidative stress (TNF-α already mapped) in BPD; selenium deficiency impairs serotonin (already mapped) and dopamine (already mapped) biosynthesis and amplifies the cortisol (already mapped) stress axis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "BPD iron: iron is required for tyrosine hydroxylase activity in dopamine (already mapped) and norepinephrine (already mapped) synthesis; iron deficiency impairs monoamine neurotransmission, amplifies GABA (already mapped) signalling imbalance, and worsens mood instability in BPD."
 ---
 
 # Borderline Personality Disorder
@@ -803,6 +812,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Contact-pathway neuroimmune: the C1-esterase inhibitor regulates the contact-pathway activation (bradykinin already mapped) and complement-driven neuroimmune inflammation implicated in the corticolimbic (amygdala already mapped) dysregulation of BPD.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Neuroinflammatory ECM: periostin, a matricellular protein in the brain extracellular matrix, is involved in the neuroinflammatory remodelling (microglia and TNF already mapped) of the emotional regulation networks of borderline personality disorder.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement neuroimmune: complement C5, upstream of the membrane-attack complex, is implicated in the synaptic pruning (synapse and microglia already mapped) and neuroimmune activation of the corticolimbic circuits dysregulated in BPD.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — BPD transferrin: iron (as transferrin-bound Fe) is essential for dopamine (already mapped) and norepinephrine (already mapped) synthesis; transferrin-mediated iron delivery to neurons (already mapped) supports BDNF (already mapped) signalling and the affective instability of BPD.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — BPD selenium: selenoprotein antioxidants counter the neuroinflammatory oxidative stress (TNF-α already mapped) in BPD; selenium deficiency impairs serotonin (already mapped) and dopamine (already mapped) biosynthesis and amplifies the cortisol (already mapped) stress axis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — BPD iron: iron is required for tyrosine hydroxylase activity in dopamine (already mapped) and norepinephrine (already mapped) synthesis; iron deficiency impairs monoamine neurotransmission, amplifies GABA (already mapped) signalling imbalance, and worsens mood instability in BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

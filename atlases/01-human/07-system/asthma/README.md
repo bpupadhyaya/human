@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Serotonin-bronchospasm: serotonin (5-HT), released from activated mast cells (already mapped) and platelets in the asthmatic airway, contracts bronchial smooth muscle (already mapped) via 5-HT2 receptors and amplifies the neurogenic bronchoconstriction."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Asthma vasopressin: vasopressin (AVP) contracts airway smooth muscle via V1 receptor signalling and potentiates mast-cell (already mapped) degranulation; elevated AVP in exercise-induced asthma amplifies IgE (already mapped) mediated bronchoconstriction."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Asthma iron: iron sequestration in airway cells amplifies hydroxyl radical generation in the eosinophilic (IL-5 already mapped) airway; iron-dependent mast-cell (already mapped) activation also promotes histamine (already mapped) release and bronchoconstriction."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Asthma iodine: iodide, via airway lactoperoxidase (lung already mapped), scavenges reactive oxygen species in the asthmatic airway; iodine deficiency amplifies IgE (already mapped) mediated inflammation and mast-cell (already mapped) hyperresponsiveness."
 ---
 
 # Asthma
@@ -772,6 +781,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune bronchodilation: oxytocin, via OXT receptors on bronchial smooth muscle (already mapped) and mast cells (already mapped), exerts anti-inflammatory and bronchodilatory effects that may attenuate the mast-cell-driven bronchoconstriction of asthma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone protection: testosterone attenuates the Th2 skewing (IL-4 and IL-13 already mapped) and mast-cell (already mapped) responsiveness that contribute to the female-predominant prevalence and greater severity of asthma after puberty.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-bronchospasm: serotonin (5-HT), released from activated mast cells (already mapped) and platelets in the asthmatic airway, contracts bronchial smooth muscle (already mapped) via 5-HT2 receptors and amplifies the neurogenic bronchoconstriction.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Asthma vasopressin: vasopressin (AVP) contracts airway smooth muscle via V1 receptor signalling and potentiates mast-cell (already mapped) degranulation; elevated AVP in exercise-induced asthma amplifies IgE (already mapped) mediated bronchoconstriction.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Asthma iron: iron sequestration in airway cells amplifies hydroxyl radical generation in the eosinophilic (IL-5 already mapped) airway; iron-dependent mast-cell (already mapped) activation also promotes histamine (already mapped) release and bronchoconstriction.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Asthma iodine: iodide, via airway lactoperoxidase (lung already mapped), scavenges reactive oxygen species in the asthmatic airway; iodine deficiency amplifies IgE (already mapped) mediated inflammation and mast-cell (already mapped) hyperresponsiveness.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
