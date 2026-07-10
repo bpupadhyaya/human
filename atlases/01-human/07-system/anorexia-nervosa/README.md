@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "AN selenium: selenium, via GPx, protects bone-marrow (already mapped) progenitors and neurons (already mapped) from the starvation-induced oxidative stress; selenium deficiency amplifies the anaemia and the cortisol (already mapped)-driven catabolism of anorexia nervosa."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "AN iodine: iodine-dependent thyroid hormones are frequently low in anorexia nervosa due to starvation-mediated euthyroid-sick syndrome; hypothyroidism amplifies the cortisol (already mapped) catabolic drive, bone loss (cortical-bone already mapped), and amenorrhea of starvation."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "AN iron: iron deficiency, worsened by hepcidin (already mapped) dysregulation, amplifies anaemia and brain (already mapped) dopamine (already mapped) synthesis; iron is essential for haemoglobin (already mapped) and erythropoietin (already mapped) response in anorexia nervosa."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "AN sulfur: sulfur-containing amino acids (cysteine, methionine) are depleted by starvation; sulfur deficiency impairs glutathione synthesis, worsening oxidative stress and cortisol (already mapped) catabolism and bone-marrow (already mapped) suppression in anorexia nervosa."
 ---
 
 # Anorexia Nervosa
@@ -824,6 +833,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen catabolism counteraction: testosterone deficiency amplifies IL-6 and cortisol catabolism; androgens, via bone-marrow androgen receptors, counteract the starvation-induced bone loss and muscle wasting of anorexia nervosa.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Neurotransmitter biosynthesis support: copper, via ceruloplasmin and cuproproteins, supports dopamine and serotonin synthesis in the malnourished brain; copper deficiency amplifies anaemia and neurocognitive dysfunction of anorexia nervosa.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant starvation defence: selenium, via GPx, protects bone-marrow progenitors and neurons from starvation-induced oxidative stress; selenium deficiency amplifies anaemia and cortisol-driven catabolism of anorexia nervosa.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AN iodine: iodine-dependent thyroid hormones are frequently low in anorexia nervosa due to starvation-mediated euthyroid-sick syndrome; hypothyroidism amplifies the cortisol (already mapped) catabolic drive, bone loss (cortical-bone already mapped), and amenorrhea of starvation.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — AN iron: iron deficiency, worsened by hepcidin (already mapped) dysregulation, amplifies anaemia and brain (already mapped) dopamine (already mapped) synthesis; iron is essential for haemoglobin (already mapped) and erythropoietin (already mapped) response in anorexia nervosa.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — AN sulfur: sulfur-containing amino acids (cysteine, methionine) are depleted by starvation; sulfur deficiency impairs glutathione synthesis, worsening oxidative stress and cortisol (already mapped) catabolism and bone-marrow (already mapped) suppression in anorexia nervosa.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
