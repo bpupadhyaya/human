@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Erythropoiesis support: erythropoietin counteracts the anaemia of chronic disease (hepcidin and transferrin already mapped) driven by the sustained systemic inflammation and the cytokine (IL-6 already mapped) burden of psoriasis."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell skin effector: histamine, released by mast cells (already mapped) in psoriatic skin, promotes keratinocyte (already mapped) proliferation via H1/H4 receptors and amplifies the vascular permeability and pruritogenic signalling of psoriasis."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian anti-inflammatory protection: melatonin, via MT1/MT2 receptors on keratinocytes (already mapped) and T cells (already mapped), suppresses the NF-κB/TNF-α axis (already mapped) and reduces the oxidative stress driving the inflammatory plaque of psoriasis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune-endocrine skin axis: prolactin, acting via PRLR on keratinocytes (already mapped) and T-helper cells (already mapped), potentiates the Th17/IL-17 axis (already mapped) and the female-predominant hormonal amplification of the chronic plaque inflammation of psoriasis."
 ---
 
 # Psoriasis
@@ -766,6 +775,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-itch axis: bradykinin, released in the inflamed psoriatic skin by the kallikrein-kinin system, activates B2 receptors on keratinocytes (skin already mapped) and sensory neurons (already mapped), amplifying itch and the neuro-inflammatory dimension of psoriasis.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3, C5 and C5aR1 already mapped) and contact-kinin (bradykinin already mapped) over-activation in the inflamed psoriatic skin, moderating the immune-driven keratinocyte proliferation of psoriasis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoiesis support: erythropoietin counteracts the anaemia of chronic disease (hepcidin and transferrin already mapped) driven by the sustained systemic inflammation and the cytokine (IL-6 already mapped) burden of psoriasis.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell skin effector: histamine, released by mast cells (already mapped) in psoriatic skin, promotes keratinocyte (already mapped) proliferation via H1/H4 receptors and amplifies the vascular permeability and pruritogenic signalling of psoriasis.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian anti-inflammatory protection: melatonin, via MT1/MT2 receptors on keratinocytes (already mapped) and T cells (already mapped), suppresses the NF-κB/TNF-α axis (already mapped) and reduces the oxidative stress driving the inflammatory plaque of psoriasis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine skin axis: prolactin, acting via PRLR on keratinocytes (already mapped) and T-helper cells (already mapped), potentiates the Th17/IL-17 axis (already mapped) and the female-predominant hormonal amplification of the chronic plaque inflammation of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
