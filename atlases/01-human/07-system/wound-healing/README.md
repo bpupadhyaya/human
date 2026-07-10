@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Wound magnesium: magnesium is required for fibroblast (already mapped) collagen (already mapped) cross-linking and matrix metalloproteinase activity in wound remodelling; magnesium deficiency impairs macrophage (already mapped) M2 polarisation and delays wound closure."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Wound potassium: potassium efflux activates macrophage (already mapped) NLRP3 inflammasome in wound inflammation; potassium signalling modulates NF-κB (already mapped) and IL-6 (already mapped) cytokine output and fibroblast (already mapped) proliferation in wound healing."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Wound phosphorus: phosphorus fuels fibroblast (already mapped) collagen synthesis and macrophage (already mapped) phagocytosis; phosphorus deficiency impairs TGF-β (already mapped) and VEGF (already mapped) and mTOR (already mapped)-driven proliferative phase of wound healing."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Wound chloride: chloride channels on macrophages (already mapped) and neutrophils (already mapped) modulate ROS burst and bacterial killing; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory signalling in the wound inflammatory phase."
 ---
 
 # Wound Healing
@@ -802,6 +811,9 @@ cross_links:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Wound iodine: topical iodine (cadexomer-iodide) provides antimicrobial activity in wound care; systemic iodine-dependent thyroid hormones regulate macrophage (already mapped) polarisation and fibroblast (already mapped) proliferative responses in wound healing.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Wound sodium: sodium-driven osmotic signalling modulates macrophage (already mapped) inflammatory polarisation and NF-κB (already mapped) cytokine production in the wound inflammatory phase; local sodium accumulation amplifies pro-inflammatory and anti-fibrotic responses.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Wound magnesium: magnesium is required for fibroblast (already mapped) collagen (already mapped) cross-linking and matrix metalloproteinase activity in wound remodelling; magnesium deficiency impairs macrophage (already mapped) M2 polarisation and delays wound closure.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Wound potassium: potassium efflux activates macrophage (already mapped) NLRP3 inflammasome in wound inflammation; potassium signalling modulates NF-κB (already mapped) and IL-6 (already mapped) cytokine output and fibroblast (already mapped) proliferation in wound healing.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Wound phosphorus: phosphorus fuels fibroblast (already mapped) collagen synthesis and macrophage (already mapped) phagocytosis; phosphorus deficiency impairs TGF-β (already mapped) and VEGF (already mapped) and mTOR (already mapped)-driven proliferative phase of wound healing.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Wound chloride: chloride channels on macrophages (already mapped) and neutrophils (already mapped) modulate ROS burst and bacterial killing; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory signalling in the wound inflammatory phase.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
