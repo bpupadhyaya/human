@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Neuroimmune TB amplifier: prolactin is elevated in active tuberculosis and stimulates macrophage (already mapped) activation, T-cell proliferation, and the anti-mycobacterial Th1 (IFN-γ and IL-12 already mapped) immune response essential for bacterial containment."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "TB testosterone: testosterone suppresses macrophage (already mapped) antimycobacterial killing via androgen-receptor signalling, promoting mycobacterial immune evasion; androgen-mediated immunosuppression contributes to the male predominance and severity of tuberculosis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "TB serotonin: serotonin modulates macrophage (already mapped) activation and Mycobacterium tuberculosis phagocytosis via 5-HT receptors; altered serotonin metabolism in active TB also contributes to the neuropsychiatric symptoms and social withdrawal of the disease."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "TB oxytocin: oxytocin receptors on macrophages (already mapped) and T cells (already mapped) modulate cytokine secretion and granuloma formation in tuberculosis; oxytocin deficiency contributes to the social withdrawal, anxiety and depression complicating active tuberculosis."
 ---
 
 # Tuberculosis
@@ -785,6 +794,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Granuloma mast-cell mediator: histamine from mast cells recruited to the tuberculosis granuloma amplifies the local type-2 regulatory immune response and vascular permeability, contributing to the containment-versus-immunopathology balance within the TB lesion.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian TB immunity: melatonin stimulates macrophage (already mapped) antimycobacterial killing; reduced nocturnal melatonin during active TB impairs the phagocytic burst and contributes to the immunological dysregulation of tuberculosis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroimmune TB amplifier: prolactin is elevated in active tuberculosis and stimulates macrophage (already mapped) activation, T-cell proliferation, and the anti-mycobacterial Th1 (IFN-γ and IL-12 already mapped) immune response essential for bacterial containment.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — TB testosterone: testosterone suppresses macrophage (already mapped) antimycobacterial killing via androgen-receptor signalling, promoting mycobacterial immune evasion; androgen-mediated immunosuppression contributes to the male predominance and severity of tuberculosis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — TB serotonin: serotonin modulates macrophage (already mapped) activation and Mycobacterium tuberculosis phagocytosis via 5-HT receptors; altered serotonin metabolism in active TB also contributes to the neuropsychiatric symptoms and social withdrawal of the disease.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — TB oxytocin: oxytocin receptors on macrophages (already mapped) and T cells (already mapped) modulate cytokine secretion and granuloma formation in tuberculosis; oxytocin deficiency contributes to the social withdrawal, anxiety and depression complicating active tuberculosis.
 
 ## See Also
 
