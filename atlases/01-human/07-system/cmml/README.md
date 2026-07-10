@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "CMML vasopressin: vasopressin, via V1aR on endothelial cells (already mapped) and macrophages (already mapped), modulates marrow vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "CMML selenium: selenium, as GPx in macrophages (already mapped) and monocytes (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) inflammasome-driven myeloproliferative cascade of CMML."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "CMML iodine: iodine-dependent thyroid hormones modulate myeloid-cell (already mapped) differentiation and NF-κB (already mapped) signalling; iodine deficiency amplifies the TNF-α (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "CMML sodium: high dietary sodium promotes Th17 polarisation and monocyte (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the inflammatory myeloproliferative cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -801,6 +810,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CMML serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the CMML marrow niche; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative cascade of CMML.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CMML oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates marrow niche inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative cascade of CMML.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CMML vasopressin: vasopressin, via V1aR on endothelial cells (already mapped) and macrophages (already mapped), modulates marrow vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CMML selenium: selenium, as GPx in macrophages (already mapped) and monocytes (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) inflammasome-driven myeloproliferative cascade of CMML.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CMML iodine: iodine-dependent thyroid hormones modulate myeloid-cell (already mapped) differentiation and NF-κB (already mapped) signalling; iodine deficiency amplifies the TNF-α (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CMML sodium: high dietary sodium promotes Th17 polarisation and monocyte (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the inflammatory myeloproliferative cascade of CMML.
 
 ---
 

@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "COPD selenium: selenium, via selenoproteins in macrophages (already mapped) and neutrophils (already mapped), attenuates the oxidative airway inflammation; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) emphysematous cascade of COPD."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "COPD iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and airway epithelial (already mapped) repair; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) emphysematous cascade of COPD."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "COPD sodium: high dietary sodium promotes neutrophil (already mapped) and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the oxidative emphysematous cascade of COPD."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "COPD magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and neutrophils (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the emphysematous airway cascade of COPD."
 ---
 
 # COPD
@@ -826,6 +835,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — COPD oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neutrophils (already mapped), attenuates airway inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) emphysematous cascade of COPD.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — COPD vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates the airway vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) pulmonary cascade of COPD.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — COPD selenium: selenium, via selenoproteins in macrophages (already mapped) and neutrophils (already mapped), attenuates the oxidative airway inflammation; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) emphysematous cascade of COPD.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — COPD iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and airway epithelial (already mapped) repair; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) emphysematous cascade of COPD.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — COPD sodium: high dietary sodium promotes neutrophil (already mapped) and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the oxidative emphysematous cascade of COPD.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — COPD magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and neutrophils (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the emphysematous airway cascade of COPD.
 
 ---
 
