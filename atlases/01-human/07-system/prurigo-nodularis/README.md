@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "PN vasopressin: vasopressin, via V1aR on sensory neurons (already mapped) and mast cells (already mapped), modulates neuroimmune itch tone; vasopressin dysregulation amplifies the CGRP (already mapped) and substance-P (already mapped) itch cascade of prurigo nodularis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "PN selenium: selenium, as GPx cofactor in sensory neurons (already mapped) and keratinocytes, scavenges ROS driving neuroinflammatory itch sensitisation; selenium deficiency amplifies the IL-31 (already mapped) and substance-P (already mapped) itch cascade of prurigo nodularis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PN iodine: iodine-dependent thyroid hormones modulate keratinocyte (skin already mapped) and mast-cell (already mapped) function; iodine deficiency impairs thyroid-mediated regulation of the IL-31 (already mapped) and neuroinflammatory itch cascade of prurigo nodularis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "PN sodium: high dietary sodium amplifies Th2/Th17 cutaneous inflammation and the mast-cell (already mapped) activation of prurigo nodularis; sodium-induced IL-17 (already mapped) and IL-4 (already mapped) skewing worsens the itch-scratch cycle."
 ---
 
 # Prurigo Nodularis
@@ -754,6 +763,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroimmune itch amplifier: prolactin, via PRLR on mast cells (already mapped) and sensory neurons (already mapped), amplifies neuroinflammatory itch signalling; hyperprolactinaemia worsens the IL-31 (already mapped) and IL-4 (already mapped) neuroimmune cascade of prurigo nodularis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Anti-pruritic neuropeptide: oxytocin, via OXTR on mast cells (already mapped) and sensory neurons (already mapped), attenuates neuroinflammatory itch signalling; oxytocin deficiency amplifies the IL-31 (already mapped) and substance-P (already mapped) itch cascade of prurigo nodularis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Neuroimmune itch tone: vasopressin, via V1aR on sensory neurons (already mapped) and mast cells (already mapped), modulates neuroimmune itch tone; vasopressin dysregulation amplifies the CGRP (already mapped) and substance-P (already mapped) itch cascade of prurigo nodularis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Neuroinflammatory ROS scavenger: selenium, as GPx cofactor in sensory neurons (already mapped) and keratinocytes, scavenges ROS driving neuroinflammatory itch sensitisation; selenium deficiency amplifies the IL-31 (already mapped) and substance-P (already mapped) itch cascade of prurigo nodularis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-mast-cell axis: iodine-dependent thyroid hormones modulate keratinocyte (skin already mapped) and mast-cell (already mapped) function; iodine deficiency impairs thyroid-mediated regulation of the IL-31 (already mapped) and neuroinflammatory itch cascade of prurigo nodularis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Cutaneous inflammatory amplifier: high dietary sodium amplifies Th2/Th17 cutaneous inflammation and the mast-cell (already mapped) activation of prurigo nodularis; sodium-induced IL-17 (already mapped) and IL-4 (already mapped) skewing worsens the itch-scratch cycle.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

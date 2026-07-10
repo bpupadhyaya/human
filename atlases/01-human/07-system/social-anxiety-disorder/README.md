@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "SAD iodine: iodine-dependent thyroid hormones modulate serotonergic (serotonin already mapped) and dopaminergic (dopamine already mapped) tone; iodine deficiency impairs cortisol (already mapped) and norepinephrine (already mapped) regulation of social anxiety disorder."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "SAD sodium: high dietary sodium activates brain renin-angiotensin (angiotensin-II already mapped) and the HPA (cortisol already mapped) axis; sodium dysregulation amplifies aldosterone (already mapped) and the norepinephrine (already mapped) cascade of social anxiety disorder."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "SAD potassium: potassium, via Kv channels on neurons (already mapped), regulates GABA (already mapped) interneuron tone; potassium dysregulation amplifies amygdala hyperreactivity and the norepinephrine (already mapped) HPA cascade of social anxiety disorder."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "SAD phosphorus: phosphorus, as ATP in neurons (already mapped) and synapses (already mapped), sustains the energetics of HPA (cortisol already mapped) and amygdala fear-circuit signalling; phosphorus deficiency impairs the neuronal resilience of social anxiety disorder."
 ---
 
 # Social Anxiety Disorder
@@ -809,6 +818,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Amygdala reactivity modulator: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates amygdala reactivity; hyperprolactinaemia amplifies the cortisol (already mapped) and norepinephrine (already mapped) cascade of social anxiety disorder.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Neuroprotective antioxidant: selenium, as neuroprotective GPx in neurons (already mapped) and microglia (already mapped), scavenges neuroinflammatory ROS; selenium deficiency impairs GABA (already mapped) tone and amplifies the amygdala hyperreactivity of social anxiety disorder.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-neurotransmitter axis: iodine-dependent thyroid hormones modulate serotonergic (serotonin already mapped) and dopaminergic (dopamine already mapped) tone; iodine deficiency impairs cortisol (already mapped) and norepinephrine (already mapped) regulation of social anxiety disorder.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HPA-renin-angiotensin link: high dietary sodium activates brain renin-angiotensin (angiotensin-II already mapped) and the HPA (cortisol already mapped) axis; sodium dysregulation amplifies aldosterone (already mapped) and the norepinephrine (already mapped) cascade of social anxiety disorder.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — GABA interneuron tone: potassium, via Kv channels on neurons (already mapped), regulates GABA (already mapped) interneuron tone; potassium dysregulation amplifies amygdala hyperreactivity and the norepinephrine (already mapped) HPA cascade of social anxiety disorder.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Neuronal energy substrate: phosphorus, as ATP in neurons (already mapped) and synapses (already mapped), sustains the energetics of HPA (cortisol already mapped) and amygdala fear-circuit signalling; phosphorus deficiency impairs the neuronal resilience of social anxiety disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
