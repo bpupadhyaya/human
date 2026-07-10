@@ -512,6 +512,12 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "MS sulfur: sulfur-containing amino acids are essential for collagen (already mapped) cross-linking and cartilage proteoglycan synthesis; sulfur deficiency impairs musculoskeletal repair and amplifies NF-κB (already mapped) and TNF-α (already mapped) driven catabolic signalling."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MSK nitrogen: nitric oxide (NO, nitrogen-derived) in osteoblasts (already mapped) and macrophages (already mapped) regulates bone remodelling and skeletal vasodilation; NO imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) osteoclast-driven resorption."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "MSK chloride: chloride channels on osteoclasts (already mapped) and fibroblasts (already mapped) maintain pH homeostasis for bone resorption; chloride dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) musculoskeletal remodelling."
 ---
 
 # Musculoskeletal System
@@ -813,6 +819,8 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — MS oxytocin: oxytocin receptors on osteoblasts (already mapped) suppress NF-κB (already mapped) and promote bone anabolism; oxytocin also modulates muscle regeneration and collagen (already mapped) synthesis via IL-6 (already mapped) and TNF-α (already mapped) signalling.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MS iodine: thyroid-hormone signalling drives bone-turnover balance (osteoblast/already mapped vs osteoclast/already mapped) and muscle protein synthesis; iodine deficiency impairs collagen (already mapped) synthesis and amplifies NF-κB (already mapped) inflammatory remodelling.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MS sulfur: sulfur-containing amino acids are essential for collagen (already mapped) cross-linking and cartilage proteoglycan synthesis; sulfur deficiency impairs musculoskeletal repair and amplifies NF-κB (already mapped) and TNF-α (already mapped) driven catabolic signalling.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MSK nitrogen: nitric oxide (NO, nitrogen-derived) in osteoblasts (already mapped) and macrophages (already mapped) regulates bone remodelling and skeletal vasodilation; NO imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) osteoclast-driven resorption.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MSK chloride: chloride channels on osteoclasts (already mapped) and fibroblasts (already mapped) maintain pH homeostasis for bone resorption; chloride dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) musculoskeletal remodelling.
 
 ## Pathology
 

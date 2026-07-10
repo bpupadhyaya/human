@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Immune-system sodium: sodium, via high dietary intake, shifts macrophages (already mapped) and T-helper cells (already mapped) toward pro-inflammatory states; excess sodium amplifies the NF-κB (already mapped) and IL-17A (already mapped) cascade of immune dysfunction."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "IS magnesium: magnesium supports macrophage (already mapped) anti-inflammatory function and neutrophil (already mapped) activation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) immune dysregulation."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "IS copper: copper, via ceruloplasmin and SOD in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune-cell dysfunction."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "IS calcium: calcium, as a second messenger in T-helper cells (already mapped) and B-cells (already mapped), drives lymphocyte activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades."
 ---
 
 # Immune System
@@ -709,6 +718,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Immune-system vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates immune vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of immune dysfunction.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Immune-system iodine: iodine, via thyroid hormone biosynthesis, modulates macrophage (already mapped) and NK-cell (already mapped) activity; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of immune dysfunction.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Immune-system sodium: sodium, via high dietary intake, shifts macrophages (already mapped) and T-helper cells (already mapped) toward pro-inflammatory states; excess sodium amplifies the NF-κB (already mapped) and IL-17A (already mapped) cascade of immune dysfunction.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — IS magnesium: magnesium supports macrophage (already mapped) anti-inflammatory function and neutrophil (already mapped) activation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) immune dysregulation.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — IS copper: copper, via ceruloplasmin and SOD in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune-cell dysfunction.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — IS calcium: calcium, as a second messenger in T-helper cells (already mapped) and B-cells (already mapped), drives lymphocyte activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades.
 
 ## Pathology
 
