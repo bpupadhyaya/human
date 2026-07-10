@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "MG oxytocin: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates IL-6 (already mapped) and TNF (already mapped) cascades; oxytocin deficiency amplifies anti-AChR B-cell (already mapped) autoimmunity of myasthenia gravis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MG vasopressin: vasopressin, via V1aR on macrophages (already mapped) and regulatory T cells (already mapped), modulates IL-6 (already mapped) and TNF (already mapped) thymic inflammation; vasopressin dysregulation amplifies the autoimmune cascade of myasthenia gravis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MG iodine: iodine, a thyroid-hormone precursor (thyroid already mapped), links the autoimmune thyroiditis co-morbidity of myasthenia gravis; iodine deficiency disrupts thyroid-immune crosstalk amplifying the anti-AChR B-cell (already mapped) response."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MG copper: copper, a cofactor of superoxide dismutase (SOD), scavenges the ROS mediating NMJ oxidative stress in myasthenia gravis; copper deficiency amplifies complement (C3 and C5 already mapped)-driven endplate damage and the immune dysregulation of the disease."
 ---
 
 # Myasthenia Gravis
@@ -790,6 +799,9 @@ cross_links:
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Autoimmune cytokine modulator: serotonin, via 5-HT receptors on macrophages (already mapped) and T-helper cells (already mapped), modulates IL-6 (already mapped) and TNF (already mapped) cascades; serotonin dysregulation amplifies B-cell (already mapped) anti-AChR response of myasthenia gravis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-neuroendocrine driver: prolactin, via PRLR on macrophages (already mapped) and T-helper cells (already mapped), enhances IL-6 (already mapped) and the B-cell (already mapped) anti-AChR antibody response; hyperprolactinaemia amplifies the autoimmune drive of myasthenia gravis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Immunosuppressive neuropeptide: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates IL-6 (already mapped) and TNF (already mapped) cascades; oxytocin deficiency amplifies anti-AChR B-cell (already mapped) autoimmunity of myasthenia gravis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress-autoimmune axis: vasopressin, via V1aR on macrophages (already mapped) and regulatory T cells (already mapped), modulates IL-6 (already mapped) and TNF (already mapped) thymic inflammation; vasopressin dysregulation amplifies the autoimmune cascade of myasthenia gravis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid co-morbidity link: iodine, a thyroid-hormone precursor (thyroid already mapped), links the autoimmune thyroiditis co-morbidity of myasthenia gravis; iodine deficiency disrupts thyroid-immune crosstalk amplifying the anti-AChR B-cell (already mapped) response.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NMJ antioxidant cofactor: copper, a cofactor of superoxide dismutase (SOD), scavenges the ROS mediating NMJ oxidative stress in myasthenia gravis; copper deficiency amplifies complement (C3 and C5 already mapped)-driven endplate damage and the immune dysregulation of the disease.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

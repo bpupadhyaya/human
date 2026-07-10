@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "HIV prolactin: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "HIV oxytocin: oxytocin, via OXTR on macrophages (already mapped) and NK cells (already mapped), attenuates IL-6 (already mapped) and TNF-α (already mapped) immune activation; oxytocin deficiency amplifies neuroinflammation driving HIV-associated neurocognitive disorder."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HIV vasopressin: vasopressin, via V1aR on macrophages (already mapped) and NK cells (already mapped), modulates innate IL-6 (already mapped) and TNF-α (already mapped) immune signalling; vasopressin dysregulation amplifies the stress-immune cascade driving HIV infection."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HIV iodine: iodine, a thyroid-hormone precursor (thyroid already mapped), supports selenoprotein antioxidant defence against oxidative stress of HIV; iodine deficiency amplifies immune dysfunction and the HIV-associated metabolic disruption."
 ---
 
 # HIV
@@ -818,6 +827,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen immunomodulation: testosterone, via androgen receptors on macrophages (already mapped) and T-helper cells (already mapped), attenuates IL-6 (already mapped) and TNF-α (already mapped) activation; androgen deficiency amplifies STAT3 (already mapped)-driven HIV pathogenesis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic neuroimmune axis: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the neuroinflammatory (IL-6 and TNF-α already mapped) cascade; serotonin dysregulation amplifies gut-microbiome (already mapped) dysbiosis in HIV.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-immune neuroendocrine: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune attenuator: oxytocin, via OXTR on macrophages (already mapped) and NK cells (already mapped), attenuates IL-6 (already mapped) and TNF-α (already mapped) immune activation; oxytocin deficiency amplifies neuroinflammation driving HIV-associated neurocognitive disorder.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress-immune axis: vasopressin, via V1aR on macrophages (already mapped) and NK cells (already mapped), modulates innate IL-6 (already mapped) and TNF-α (already mapped) immune signalling; vasopressin dysregulation amplifies the stress-immune cascade driving HIV infection.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-antioxidant link: iodine, a thyroid-hormone precursor (thyroid already mapped), supports selenoprotein antioxidant defence against oxidative stress of HIV; iodine deficiency amplifies immune dysfunction and the HIV-associated metabolic disruption.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
