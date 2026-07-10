@@ -523,6 +523,12 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Leish nitrogen: nitrogen, as the precursor of nitric oxide via iNOS in macrophages (already mapped) and neutrophils (already mapped), drives leishmanicidal activity; nitrogen deficiency impairs NF-κB (already mapped) and IFN-γ (already mapped) driven clearance."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Leish carbon: carbon, as backbone of SCFA and lipid metabolites in macrophages (already mapped) and neutrophils (already mapped), shapes leishmanicidal metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Leish hydrogen: hydrogen, as water and H₂S in macrophages (already mapped) and neutrophils (already mapped), modulates redox homeostasis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leishmanicidal cascade."
 ---
 
 # Leishmaniasis
@@ -793,3 +799,5 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Leish chloride: chloride, via NKCC1-mediated ion flux in macrophages (already mapped) and neutrophils (already mapped), modulates leishmanicidal activity; chloride dysregulation impairs the NF-κB (already mapped) and TNF-α (already mapped) macrophage activation of leishmaniasis.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Leish sulfur: sulfur, as cysteine and glutathione precursor in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; sulfur deficiency impairs the NF-κB (already mapped) and nitric-oxide (already mapped) leishmanicidal oxidative burst.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Leish nitrogen: nitrogen, as the precursor of nitric oxide via iNOS in macrophages (already mapped) and neutrophils (already mapped), drives leishmanicidal activity; nitrogen deficiency impairs NF-κB (already mapped) and IFN-γ (already mapped) driven clearance.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Leish carbon: carbon, as backbone of SCFA and lipid metabolites in macrophages (already mapped) and neutrophils (already mapped), shapes leishmanicidal metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Leish hydrogen: hydrogen, as water and H₂S in macrophages (already mapped) and neutrophils (already mapped), modulates redox homeostasis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leishmanicidal cascade.
