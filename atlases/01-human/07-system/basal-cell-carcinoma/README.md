@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "BCC sodium: high dietary sodium promotes keratinocyte (skin already mapped) inflammation and macrophage (already mapped) M2-skewing; sodium dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of basal-cell carcinoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "BCC iron: iron, via ferritin and transferrin in macrophages (already mapped), fuels keratinocyte (skin already mapped) proliferation; iron excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of basal-cell carcinoma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "BCC magnesium: magnesium cofactors kinase signalling in keratinocytes (skin already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of basal-cell carcinoma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "BCC phosphorus: phosphorus, as ATP in keratinocytes (skin already mapped) and macrophages (already mapped), fuels proliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) of basal-cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -809,6 +818,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — BCC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates skin TME immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of basal-cell carcinoma.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — BCC iodine: iodine-dependent thyroid hormones modulate keratinocyte proliferation and skin (already mapped) immune surveillance; iodine deficiency impairs thyroid-mediated regulation of the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of basal-cell carcinoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — BCC sodium: high dietary sodium promotes keratinocyte (skin already mapped) inflammation and macrophage (already mapped) M2-skewing; sodium dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of basal-cell carcinoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — BCC iron: iron, via ferritin and transferrin in macrophages (already mapped), fuels keratinocyte (skin already mapped) proliferation; iron excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of basal-cell carcinoma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — BCC magnesium: magnesium cofactors kinase signalling in keratinocytes (skin already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of basal-cell carcinoma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — BCC phosphorus: phosphorus, as ATP in keratinocytes (skin already mapped) and macrophages (already mapped), fuels proliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) of basal-cell carcinoma.
 
 ---
 

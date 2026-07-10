@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "ASD chloride: chloride homeostasis via GABA(A) and KCC2 on neurons (already mapped) governs inhibitory tone; chloride dysregulation converts GABA to excitatory, amplifying mTOR (already mapped) and NF-κB (already mapped) hyperexcitability and the E/I imbalance of ASD."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "ASD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) amplifies neuroinflammation; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) dysregulation of ASD."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "ASD oxygen: mitochondrial oxygen metabolism in neurons (already mapped) and astrocytes (already mapped) generates ROS; ROS excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) dysregulation, worsening BDNF (already mapped) deficits in ASD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "ASD carbon: carbon-backbone metabolites in neurons (already mapped) and astrocytes (already mapped) fuel acetyl-CoA and mTOR (already mapped) anabolic signalling; carbon metabolic imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade in ASD."
 ---
 
 # Autism Spectrum Disorder
@@ -836,6 +845,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ASD phosphorus: phosphorus, as phospholipid and ATP, is essential for synapse (already mapped) integrity and neuronal (neuron already mapped) energy; phosphorus dysregulation impairs mTOR (already mapped) anabolic signalling and the synaptic pruning disrupted in ASD.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — ASD sulfur: glutathione (sulfur-containing) is depleted in ASD; sulfur deficiency impairs ROS quenching in neurons (already mapped) and astrocytes (already mapped), worsening oxidative stress that amplifies NF-κB (already mapped) and mTOR (already mapped) disruption.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — ASD chloride: chloride homeostasis via GABA(A) and KCC2 on neurons (already mapped) governs inhibitory tone; chloride dysregulation converts GABA to excitatory, amplifying mTOR (already mapped) and NF-κB (already mapped) hyperexcitability and the E/I imbalance of ASD.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — ASD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) amplifies neuroinflammation; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) dysregulation of ASD.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ASD oxygen: mitochondrial oxygen metabolism in neurons (already mapped) and astrocytes (already mapped) generates ROS; ROS excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) dysregulation, worsening BDNF (already mapped) deficits in ASD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ASD carbon: carbon-backbone metabolites in neurons (already mapped) and astrocytes (already mapped) fuel acetyl-CoA and mTOR (already mapped) anabolic signalling; carbon metabolic imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade in ASD.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
