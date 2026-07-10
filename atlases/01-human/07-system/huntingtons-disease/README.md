@@ -489,6 +489,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Oxytocin-HD axis: oxytocin, from the hypothalamic nuclei (already mapped) depleted by mHTT toxicity, modulates striatal dopamine (already mapped) signalling, social behaviour circuits, and the anxiety and depression (already mapped) comorbidities of Huntington's disease."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HD vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates neuroinflammatory tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Huntington disease."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "HD selenium: selenium, as a cofactor for glutathione peroxidases and thioredoxin reductases, attenuates oxidative neuronal stress; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Huntington disease."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HD iodine: iodine, via thyroid hormone biosynthesis, modulates neuronal mitochondrial function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Huntington disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -697,3 +706,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-HD axis: histamine, released by microglia (already mapped) and mast cells in the HD striatum, signals via H3 receptors on neurons (already mapped), modulating striatal dopamine (already mapped) and glutamate (already mapped) transmission in Huntington's disease.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-HD axis: prolactin, via prolactin receptors on striatal neurons (already mapped) and microglia (already mapped), modulates neuroinflammation, hypothalamic-pituitary dysfunction (already mapped), and the immune-neuroendocrine cross-talk of Huntington's disease.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin-HD axis: oxytocin, from the hypothalamic nuclei (already mapped) depleted by mHTT toxicity, modulates striatal dopamine (already mapped) signalling, social behaviour circuits, and the anxiety and depression (already mapped) comorbidities of Huntington's disease.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HD vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates neuroinflammatory tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Huntington disease.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HD selenium: selenium, as a cofactor for glutathione peroxidases and thioredoxin reductases, attenuates oxidative neuronal stress; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Huntington disease.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HD iodine: iodine, via thyroid hormone biosynthesis, modulates neuronal mitochondrial function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Huntington disease.
