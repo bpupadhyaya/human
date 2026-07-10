@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "SWN selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species in SMARCB1/LZTR1-deficient schwannoma cells, reducing oxidative-stress-driven mTOR (already mapped) and EGFR (already mapped) proliferative signalling in schwannomatosis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "SWN iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies VEGF (already mapped) and mTOR (already mapped) schwannoma growth and IL-6 (already mapped) cascade of schwannomatosis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "SWN copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped), drives tumour stromal remodelling; copper angiogenesis amplifies VEGF (already mapped); copper deficiency impairs macrophage (already mapped) and T-cytotoxic-cell (already mapped) immunity in SWN."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "SWN zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and mast-cell (already mapped), modulates schwannoma invasion; zinc deficiency amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped)-driven cascade of schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -777,6 +786,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — SWN oxytocin: oxytocin via OXTR on schwannomatosis Schwann cells (already mapped) modulates the neuroinflammatory pain cascade, reducing the substance-P (already mapped) and bradykinin (already mapped)-driven chronic neuropathic pain of schwannomatosis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SWN vasopressin: vasopressin via V1aR on schwannomatosis macrophages (already mapped) modulates neuroinflammatory bradykinin (already mapped) and substance-P (already mapped)-driven pain sensitisation of peripheral nerve-sheath tumours in schwannomatosis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — SWN selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species in SMARCB1/LZTR1-deficient schwannoma cells, reducing oxidative-stress-driven mTOR (already mapped) and EGFR (already mapped) proliferative signalling in schwannomatosis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SWN iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies VEGF (already mapped) and mTOR (already mapped) schwannoma growth and IL-6 (already mapped) cascade of schwannomatosis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SWN copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped), drives tumour stromal remodelling; copper angiogenesis amplifies VEGF (already mapped); copper deficiency impairs macrophage (already mapped) and T-cytotoxic-cell (already mapped) immunity in SWN.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — SWN zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and mast-cell (already mapped), modulates schwannoma invasion; zinc deficiency amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped)-driven cascade of schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

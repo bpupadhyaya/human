@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Sz sulfur: hyperhomocysteinaemia — a schizophrenia risk biomarker — impairs glutamatergic (already mapped) NMDAR function and dopamine (already mapped) metabolism, amplifying the oxidative stress (xanthine-oxidase already mapped) of schizophrenia."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Sz chloride: KCC2/NKCC1 chloride dysregulation shifts GABA (already mapped) from inhibitory to excitatory; chloride imbalance amplifies glutamate (already mapped) excitotoxicity and IL-6 (already mapped) neuroinflammation in neurons (already mapped) of schizophrenia."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Sz nitrogen: nitric oxide modulates dopamine (already mapped) and glutamate (already mapped) neurotransmission; NOS dysfunction in neurons (already mapped) and microglia (already mapped) amplifies IL-6 (already mapped) and mTOR (already mapped) cascade of schizophrenia."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Sz carbon: glycine and serine carbon scaffolds act as NMDA co-agonists modulating glutamate (already mapped); one-carbon metabolism deficits amplify BDNF (already mapped) signalling and IL-6 (already mapped) neuroinflammation in neurons (already mapped) of schizophrenia."
 ---
 
 # Schizophrenia
@@ -851,6 +860,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Sz sodium: sodium-channel-mediated interneuron firing governs dopaminergic (already mapped) and glutamatergic (already mapped) neurotransmission; sodium dysregulation amplifies cortical hypofrontality and the positive-symptom burden of schizophrenia.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Sz phosphorus: phosphorus as ATP fuels PI3K/AKT (already mapped) signalling and synaptic vesicle cycling underlying dopamine (already mapped) and glutamate (already mapped) neurotransmission; membrane phospholipid abnormalities are a replicated schizophrenia biomarker.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Sz sulfur: hyperhomocysteinaemia — a schizophrenia risk biomarker — impairs glutamatergic (already mapped) NMDAR function and dopamine (already mapped) metabolism, amplifying the oxidative stress (xanthine-oxidase already mapped) of schizophrenia.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Sz chloride: KCC2/NKCC1 chloride dysregulation shifts GABA (already mapped) from inhibitory to excitatory; chloride imbalance amplifies glutamate (already mapped) excitotoxicity and IL-6 (already mapped) neuroinflammation in neurons (already mapped) of schizophrenia.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Sz nitrogen: nitric oxide modulates dopamine (already mapped) and glutamate (already mapped) neurotransmission; NOS dysfunction in neurons (already mapped) and microglia (already mapped) amplifies IL-6 (already mapped) and mTOR (already mapped) cascade of schizophrenia.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Sz carbon: glycine and serine carbon scaffolds act as NMDA co-agonists modulating glutamate (already mapped); one-carbon metabolism deficits amplify BDNF (already mapped) signalling and IL-6 (already mapped) neuroinflammation in neurons (already mapped) of schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
