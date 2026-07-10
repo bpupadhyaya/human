@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "T1D prolactin: prolactin, via PRLR on pancreatic (pancreas already mapped) beta cells, promotes beta-cell survival and insulin (already mapped) secretion; prolactin modulates regulatory T-cell (already mapped) and macrophage (already mapped) immune protection against insulitis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "T1D oxytocin: oxytocin, via OXTR on pancreatic beta cells (pancreas already mapped) and regulatory T-cells (already mapped), suppresses the NF-κB (already mapped) insulitis-driving macrophage (already mapped) and T-helper-cell (already mapped) autoreactivity in type 1 diabetes."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "T1D vasopressin: vasopressin, via V1b receptors on beta cells (pancreas already mapped), modulates insulin (already mapped) secretion; vasopressin amplifies the adrenal (cortisol already mapped) stress axis and worsens NF-κB (already mapped) autoimmune insulitis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "T1D iodine: iodine-dependent thyroid hormones regulate beta-cell (pancreas already mapped) function and insulin (already mapped) secretion; hypothyroidism co-occurs with T1D via shared autoimmune mechanisms and amplifies NF-κB (already mapped) inflammatory insulitis."
 ---
 
 # Type 1 Diabetes
@@ -771,6 +780,9 @@ cross_links:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — T1D testosterone: testosterone, via androgen receptors on pancreatic beta cells, attenuates T-helper-cell (already mapped) and B-cell (already mapped) autoreactivity; androgen deficiency worsens the TNF-α (already mapped) and macrophage (already mapped) insulitis in T1D.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — T1D serotonin: serotonin, synthesised by pancreatic (pancreas already mapped) beta cells, primes insulin (already mapped) secretion and islet mass; 5-HT also modulates T-helper-cell (already mapped) and macrophage (already mapped) autoreactive insulitis of type 1 diabetes.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — T1D prolactin: prolactin, via PRLR on pancreatic (pancreas already mapped) beta cells, promotes beta-cell survival and insulin (already mapped) secretion; prolactin modulates regulatory T-cell (already mapped) and macrophage (already mapped) immune protection against insulitis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — T1D oxytocin: oxytocin, via OXTR on pancreatic beta cells (pancreas already mapped) and regulatory T-cells (already mapped), suppresses the NF-κB (already mapped) insulitis-driving macrophage (already mapped) and T-helper-cell (already mapped) autoreactivity in type 1 diabetes.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — T1D vasopressin: vasopressin, via V1b receptors on beta cells (pancreas already mapped), modulates insulin (already mapped) secretion; vasopressin amplifies the adrenal (cortisol already mapped) stress axis and worsens NF-κB (already mapped) autoimmune insulitis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — T1D iodine: iodine-dependent thyroid hormones regulate beta-cell (pancreas already mapped) function and insulin (already mapped) secretion; hypothyroidism co-occurs with T1D via shared autoimmune mechanisms and amplifies NF-κB (already mapped) inflammatory insulitis.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

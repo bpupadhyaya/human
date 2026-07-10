@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "SLE vasopressin: vasopressin, via V1A receptors on T-helper cells (already mapped) and macrophages (already mapped), modulates the pro-inflammatory cytokine drive; vasopressin also interacts with the kidney (already mapped) fluid homeostasis dysregulated in lupus nephritis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "SLE iodine: iodine-dependent thyroid hormones modulate the type-I IFN (already mapped) and NF-κB (already mapped) signalling of SLE; hypothyroidism, common in SLE, amplifies the B-cell (already mapped) autoreactive drive and lupus-nephritis (kidney already mapped) progression."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "SLE sodium: high dietary sodium amplifies the Th17 (IL-17A already mapped) and NF-κB (already mapped) inflammatory flare; sodium promotes macrophage (already mapped) activation and worsens endothelial cell (already mapped) dysfunction and lupus-nephritis (kidney already mapped)."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "SLE magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) complement-driven (C3/C5 already mapped) flares in SLE; magnesium deficiency worsens type-I IFN (already mapped) and B-cell (already mapped) autoreactive expansion."
 ---
 
 # Systemic Lupus Erythematosus
@@ -799,6 +808,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — SLE testosterone: testosterone suppresses B-cell (already mapped) and T-helper-cell (already mapped) autoimmunity in SLE; androgen deficiency amplifies the type-I IFN (already mapped) and NF-κB (already mapped) flare cascade and the female-predominant SLE relapse risk.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — SLE serotonin: serotonin modulates the T-regulatory (already mapped) and macrophage (already mapped) anti-inflammatory balance of SLE; 5-HT suppresses B-cell (already mapped) autoreactive expansion and attenuates NF-κB (already mapped) type-I IFN (already mapped) flare.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SLE vasopressin: vasopressin, via V1A receptors on T-helper cells (already mapped) and macrophages (already mapped), modulates the pro-inflammatory cytokine drive; vasopressin also interacts with the kidney (already mapped) fluid homeostasis dysregulated in lupus nephritis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SLE iodine: iodine-dependent thyroid hormones modulate the type-I IFN (already mapped) and NF-κB (already mapped) signalling of SLE; hypothyroidism, common in SLE, amplifies the B-cell (already mapped) autoreactive drive and lupus-nephritis (kidney already mapped) progression.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SLE sodium: high dietary sodium amplifies the Th17 (IL-17A already mapped) and NF-κB (already mapped) inflammatory flare; sodium promotes macrophage (already mapped) activation and worsens endothelial cell (already mapped) dysfunction and lupus-nephritis (kidney already mapped).
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — SLE magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) complement-driven (C3/C5 already mapped) flares in SLE; magnesium deficiency worsens type-I IFN (already mapped) and B-cell (already mapped) autoreactive expansion.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
