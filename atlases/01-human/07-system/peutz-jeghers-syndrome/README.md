@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Polyp mast-cell effector: histamine from the abundant stromal mast cells of Peutz-Jeghers polyps promotes angiogenesis and mucous secretion, contributing to the obstructive and intussusception episodes that dominate the clinical course."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Polyp-pain kinin: bradykinin generated in the inflamed stroma of Peutz-Jeghers intestinal polyps activates nociceptive B1/B2 receptors, amplifying visceral pain and the obstructive and intussusception episodes that drive emergency presentations."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement regulation: C1-esterase inhibitor restrains the classical complement pathway (C3 and C5aR1 already mapped) within the inflammatory polyp stroma of Peutz-Jeghers syndrome, limiting complement-driven myeloid recruitment and mucosal oedema."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Iron-deficiency anaemia support: erythropoietin addresses the chronic iron-deficiency anaemia (iron and IDA already mapped) driven by repeated haemorrhage from the large vascular Peutz-Jeghers polyps, when endoscopic resection cannot keep pace."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -763,6 +772,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Intestinal alarmin: TSLP released by the inflamed intestinal epithelium of Peutz-Jeghers polyps activates mast cells and dendritic cells, promoting the type-2 inflammatory stroma and accelerating the STK11-mutant adenoma transition.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Hamartomatous ECM: periostin, a downstream target of the PI3K pathway (mTOR already mapped) dysregulated by STK11 loss, drives the mesenchymal overgrowth and fibroblast expansion of the Peutz-Jeghers polyp stroma.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Polyp mast-cell effector: histamine from the abundant stromal mast cells of Peutz-Jeghers polyps promotes angiogenesis and mucous secretion, contributing to the obstructive and intussusception episodes that dominate the clinical course.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Polyp-pain kinin: bradykinin generated in the inflamed stroma of Peutz-Jeghers intestinal polyps activates nociceptive B1/B2 receptors, amplifying visceral pain and the obstructive and intussusception episodes that drive emergency presentations.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the classical complement pathway (C3 and C5aR1 already mapped) within the inflammatory polyp stroma of Peutz-Jeghers syndrome, limiting complement-driven myeloid recruitment and mucosal oedema.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Iron-deficiency anaemia support: erythropoietin addresses the chronic iron-deficiency anaemia (iron and IDA already mapped) driven by repeated haemorrhage from the large vascular Peutz-Jeghers polyps, when endoscopic resection cannot keep pace.
 
 ---
 

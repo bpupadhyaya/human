@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Vasomotor crisis amplifier: bradykinin, released from intratumoural mast cells and the kinin–kallikrein cascade activated during pheochromocytoma catecholamine surges, amplifies the vasodilation and hypotension of the post-crisis nadir."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement-contact brake: C1-esterase inhibitor restrains the complement and kallikrein-kinin (bradykinin already mapped) activation triggered by catecholamine-mediated endothelial injury in the pheochromocytoma-paraganglioma catecholamine-crisis vasculopathy."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Vascular stroma remodelling: periostin, upregulated in the highly vascular PPGL stroma downstream of VEGF (already mapped) and TGF-β (already mapped), promotes endothelial cell (already mapped) maturation and angiogenesis of these tumours."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement: C5 cleavage generates C5a, which with the C3 (already mapped) complement activation contributes to the myeloid-infiltrated inflammatory microenvironment and endothelial vasodilation of the highly vascular pheochromocytoma-paraganglioma."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -781,6 +790,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroendocrine–immune alarmin: TSLP released in the adrenal medullary and paraganglionic microenvironment is modulated by the catecholamine-driven (noradrenaline/adrenaline already mapped) sympathetic-immune axis of pheochromocytoma-paraganglioma.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Catecholamine-co-secreted mediator: histamine is co-secreted with catecholamines by PPGL chromaffin cells and by the abundant intratumoural mast cells, contributing to the flushing and hypertensive crises that mimic carcinoid syndrome.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vasomotor crisis amplifier: bradykinin, released from intratumoural mast cells and the kinin–kallikrein cascade activated during pheochromocytoma catecholamine surges, amplifies the vasodilation and hypotension of the post-crisis nadir.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-contact brake: C1-esterase inhibitor restrains the complement and kallikrein-kinin (bradykinin already mapped) activation triggered by catecholamine-mediated endothelial injury in the pheochromocytoma-paraganglioma catecholamine-crisis vasculopathy.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Vascular stroma remodelling: periostin, upregulated in the highly vascular PPGL stroma downstream of VEGF (already mapped) and TGF-β (already mapped), promotes endothelial cell (already mapped) maturation and angiogenesis of these tumours.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: C5 cleavage generates C5a, which with the C3 (already mapped) complement activation contributes to the myeloid-infiltrated inflammatory microenvironment and endothelial vasodilation of the highly vascular pheochromocytoma-paraganglioma.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
