@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Tumour-EPO axis: erythropoietin, via the EPOR on urothelial tumour cells (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of bladder cancer."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell urothelial axis: histamine, from mast cells (already mapped) in the bladder-cancer stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu that support urothelial tumour progression."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-urothelial axis: melatonin, via MT1/MT2 receptors on urothelial cells (already mapped), modulates the oxidative stress and the angiogenic (already mapped) dimension of bladder cancer."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-urothelial axis: testosterone, via androgen receptors on urothelial tumour cells (already mapped), modulates the sex-differential bladder-cancer risk (higher in males) and the immunosuppressive tumour microenvironment."
 ---
 
 # Bladder Cancer
@@ -780,6 +789,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from urothelial cells (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the bladder-cancer tumour microenvironment.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-urothelial axis: bradykinin, via B1/B2 receptors on urothelium (already mapped) and endothelium (already mapped), amplifies the vascular permeability and the inflammatory cytokine milieu of the bladder-cancer stroma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour-EPO axis: erythropoietin, via the EPOR on urothelial tumour cells (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of bladder cancer.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell urothelial axis: histamine, from mast cells (already mapped) in the bladder-cancer stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu that support urothelial tumour progression.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-urothelial axis: melatonin, via MT1/MT2 receptors on urothelial cells (already mapped), modulates the oxidative stress and the angiogenic (already mapped) dimension of bladder cancer.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-urothelial axis: testosterone, via androgen receptors on urothelial tumour cells (already mapped), modulates the sex-differential bladder-cancer risk (higher in males) and the immunosuppressive tumour microenvironment.
 
 ---
 
