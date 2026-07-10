@@ -482,6 +482,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Parturition kinin: bradykinin, released by uterine mast cells (already mapped) and kallikrein activation at term, amplifies prostaglandin-driven myometrial contractions and the cervical ripening of labour onset in the reproductive system."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement and kinin brake: C1-esterase inhibitor regulates the classical complement (C3 already mapped) and kallikrein-kinin (bradykinin already mapped) pathways whose tight control at the maternal-fetal interface prevents placental damage and pre-eclampsia."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Decidual ECM scaffold: periostin, expressed in the decidualised endometrial stroma, promotes endometrial fibroblast differentiation, embryo implantation and the trophoblast invasion required for normal placentation in the reproductive system."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement at the fetal interface: C5 cleavage generates C5a, whose tight regulation by placental complement-control proteins prevents the complement attack (C3 already mapped) against the semi-allogeneic trophoblast of the placenta."
 ---
 
 # Reproductive System
@@ -752,6 +761,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Implantation immune bias: TSLP released by the decidual stroma promotes the tolerogenic Th2 and regulatory-T-cell (already mapped) environment required for embryo implantation and the maintenance of maternal-fetal tolerance.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Gonadal and gestational EPO: erythropoietin supports spermatogenesis in the testis and increases 2-3-fold in pregnancy to meet the expanded red-cell demand, with EPOR expressed on trophoblast and placental cells.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Parturition kinin: bradykinin, released by uterine mast cells (already mapped) and kallikrein activation at term, amplifies prostaglandin-driven myometrial contractions and the cervical ripening of labour onset in the reproductive system.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement and kinin brake: C1-esterase inhibitor regulates the classical complement (C3 already mapped) and kallikrein-kinin (bradykinin already mapped) pathways whose tight control at the maternal-fetal interface prevents placental damage and pre-eclampsia.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Decidual ECM scaffold: periostin, expressed in the decidualised endometrial stroma, promotes endometrial fibroblast differentiation, embryo implantation and the trophoblast invasion required for normal placentation in the reproductive system.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement at the fetal interface: C5 cleavage generates C5a, whose tight regulation by placental complement-control proteins prevents the complement attack (C3 already mapped) against the semi-allogeneic trophoblast of the placenta.
 
 ## Pathology
 
