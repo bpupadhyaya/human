@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "DM vasopressin: vasopressin (ADH) suppresses T-cytotoxic-cell (already mapped) mediated muscle fibre cytolysis; vasopressin also modulates mast-cell (already mapped) driven skin (already mapped) vascular permeability in the dermatomyositis cutaneous phenotype."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "DM selenium: selenoproteins counter IFN-γ (already mapped) and NF-κB (already mapped) driven oxidative stress in dermatomyositis; selenium deficiency amplifies mast-cell (already mapped) perimysial inflammation and impairs TGF-β (already mapped) fibrotic repair."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "DM iodine: thyroid hormones (iodine-dependent) modulate the IFN-γ (already mapped) and NF-κB (already mapped) autoimmune axis; iodine deficiency amplifies mast-cell (already mapped) skin (already mapped) inflammation and impairs macrophage (already mapped) resolution."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "DM sodium: high dietary sodium amplifies Th17 polarisation and IL-17A (already mapped) production in dermatomyositis; sodium-driven NF-κB (already mapped) activation sustains macrophage (already mapped) and mast-cell (already mapped) perimysial inflammation."
 ---
 ---
 
@@ -809,6 +818,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — DM testosterone: testosterone suppresses Th1/Th17 cytokine production (IFN-γ and IL-17A already mapped) in dermatomyositis, explaining female-sex predominance; androgen deficiency amplifies macrophage (already mapped) and T-helper (already mapped) driven myositis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — DM serotonin: serotonin activates mast cells (already mapped) to amplify perimysial inflammation via 5-HT2 receptor-mediated macrophage (already mapped) activation; serotonin also modulates the skin (already mapped) inflammatory cascade in the cutaneous DM phenotype.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — DM vasopressin: vasopressin (ADH) suppresses T-cytotoxic-cell (already mapped) mediated muscle fibre cytolysis; vasopressin also modulates mast-cell (already mapped) driven skin (already mapped) vascular permeability in the dermatomyositis cutaneous phenotype.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — DM selenium: selenoproteins counter IFN-γ (already mapped) and NF-κB (already mapped) driven oxidative stress in dermatomyositis; selenium deficiency amplifies mast-cell (already mapped) perimysial inflammation and impairs TGF-β (already mapped) fibrotic repair.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — DM iodine: thyroid hormones (iodine-dependent) modulate the IFN-γ (already mapped) and NF-κB (already mapped) autoimmune axis; iodine deficiency amplifies mast-cell (already mapped) skin (already mapped) inflammation and impairs macrophage (already mapped) resolution.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — DM sodium: high dietary sodium amplifies Th17 polarisation and IL-17A (already mapped) production in dermatomyositis; sodium-driven NF-κB (already mapped) activation sustains macrophage (already mapped) and mast-cell (already mapped) perimysial inflammation.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

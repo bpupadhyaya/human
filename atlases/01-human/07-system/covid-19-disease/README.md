@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "COVID oxytocin: oxytocin reduces SARS-CoV-2 cytokine storm by suppressing IL-6 (already mapped) and TNF-α (already mapped) production; oxytocin also protects the endothelium (already mapped) and lung (already mapped) from COVID-19 thromboinflammatory injury."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "COVID vasopressin: vasopressin (ADH) modulates renal (already mapped) fluid balance in COVID-19 ARDS; AVP-driven V1 receptor activation amplifies pulmonary vascular inflammation and contributes to NF-κB (already mapped) cytokine storm (already mapped) in severe disease."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "COVID iodine: SARS-CoV-2 (already mapped) disrupts thyroid (already mapped) iodine metabolism; iodine deficiency amplifies NF-κB (already mapped) cytokine storm (already mapped) and impairs lung (already mapped) surfactant (already mapped) antioxidant defence via lactoperoxidase."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "COVID sodium: hypernatraemia in severe COVID-19 ARDS activates NF-κB (already mapped) and amplifies IL-6 (already mapped) driven cytokine storm (already mapped); sodium-glucose cotransporter inhibition reduces cardiac (already mapped) and renal (already mapped) complication risk."
 ---
 
 # COVID-19 Disease
@@ -740,6 +749,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — COVID testosterone: androgen receptor signalling upregulates ACE2 (already mapped) in the lung (already mapped), amplifying viral entry; testosterone-driven immunosuppression worsens the male-sex COVID-19 IL-6 (already mapped) driven cytokine storm.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — COVID serotonin: SARS-CoV-2 depletes platelet serotonin via ACE2 (already mapped) mediated enterochromaffin cell damage; serotonin deficiency impairs the endothelial (already mapped) and lung (already mapped) vasoregulation, contributing to the post-COVID dysautonomia phenotype.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — COVID oxytocin: oxytocin reduces SARS-CoV-2 cytokine storm by suppressing IL-6 (already mapped) and TNF-α (already mapped) production; oxytocin also protects the endothelium (already mapped) and lung (already mapped) from COVID-19 thromboinflammatory injury.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — COVID vasopressin: vasopressin (ADH) modulates renal (already mapped) fluid balance in COVID-19 ARDS; AVP-driven V1 receptor activation amplifies pulmonary vascular inflammation and contributes to NF-κB (already mapped) cytokine storm (already mapped) in severe disease.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — COVID iodine: SARS-CoV-2 (already mapped) disrupts thyroid (already mapped) iodine metabolism; iodine deficiency amplifies NF-κB (already mapped) cytokine storm (already mapped) and impairs lung (already mapped) surfactant (already mapped) antioxidant defence via lactoperoxidase.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — COVID sodium: hypernatraemia in severe COVID-19 ARDS activates NF-κB (already mapped) and amplifies IL-6 (already mapped) driven cytokine storm (already mapped); sodium-glucose cotransporter inhibition reduces cardiac (already mapped) and renal (already mapped) complication risk.
 
 ## Pathology
 
