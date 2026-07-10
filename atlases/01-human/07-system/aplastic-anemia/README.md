@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell marrow inflammation: histamine, from mast cells (already mapped), amplifies the marrow stromal and vascular permeability of the T-cell-mediated autoimmune marrow failure of aplastic anaemia."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-marrow axis: melatonin, via MT1/MT2 receptors on haematopoietic progenitors (already mapped), modulates the redox balance and the immune tone of the T-cell-mediated autoimmune marrow failure of aplastic anaemia."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonin-marrow axis: serotonin, via 5-HT receptors on marrow stromal cells and immune effectors (T cells already mapped), modulates the cytokine milieu and the megakaryocyte (thrombocytopenia already mapped) function in aplastic anaemia."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immunomodulatory prolactin: prolactin, via PRL receptors on T cells (already mapped) and NK cells (already mapped), amplifies the autoimmune lymphocyte-mediated marrow destruction of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -764,6 +773,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-marrow axis: TSLP, from marrow stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the T-cell-mediated autoimmune marrow failure of aplastic anaemia.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and stromal cells, amplifies the vascular permeability and the inflammatory cytokine milieu of the autoimmune marrow failure of aplastic anaemia.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell marrow inflammation: histamine, from mast cells (already mapped), amplifies the marrow stromal and vascular permeability of the T-cell-mediated autoimmune marrow failure of aplastic anaemia.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-marrow axis: melatonin, via MT1/MT2 receptors on haematopoietic progenitors (already mapped), modulates the redox balance and the immune tone of the T-cell-mediated autoimmune marrow failure of aplastic anaemia.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-marrow axis: serotonin, via 5-HT receptors on marrow stromal cells and immune effectors (T cells already mapped), modulates the cytokine milieu and the megakaryocyte (thrombocytopenia already mapped) function in aplastic anaemia.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunomodulatory prolactin: prolactin, via PRL receptors on T cells (already mapped) and NK cells (already mapped), amplifies the autoimmune lymphocyte-mediated marrow destruction of aplastic anaemia.
 
 ---
 

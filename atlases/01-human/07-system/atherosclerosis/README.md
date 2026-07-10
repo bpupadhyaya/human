@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Vascular erythropoietin: erythropoietin, via the EPOR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), exerts cardioprotective and anti-inflammatory effects that modulate the vascular damage of atherosclerosis."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell plaque: histamine, from mast cells in the atherosclerotic plaque (already mapped), degrades the fibrous cap (collagen already mapped) and amplifies the intraplaque inflammation and vulnerable-plaque formation of atherosclerosis."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Antioxidant-plaque axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, reduces the oxidised-LDL (LDL already mapped) load and the endothelial dysfunction that drive the progression of atherosclerosis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone vascular axis: testosterone, via androgen receptors on endothelium (already mapped) and smooth-muscle cells (already mapped), modulates the lipid profile (LDL and HDL already mapped) and vascular tone of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -773,6 +782,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-plaque axis: TSLP, from activated endothelium (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/eosinophil plaque inflammation and the vulnerable-plaque formation of atherosclerosis.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-vascular axis: bradykinin, via B2 receptors on arterial endothelium (already mapped), releases NO and prostacyclin and modulates the vasotension and endothelial dysfunction of the atherosclerotic risk dimension of atherosclerosis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Vascular erythropoietin: erythropoietin, via the EPOR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), exerts cardioprotective and anti-inflammatory effects that modulate the vascular damage of atherosclerosis.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell plaque: histamine, from mast cells in the atherosclerotic plaque (already mapped), degrades the fibrous cap (collagen already mapped) and amplifies the intraplaque inflammation and vulnerable-plaque formation of atherosclerosis.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Antioxidant-plaque axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, reduces the oxidised-LDL (LDL already mapped) load and the endothelial dysfunction that drive the progression of atherosclerosis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone vascular axis: testosterone, via androgen receptors on endothelium (already mapped) and smooth-muscle cells (already mapped), modulates the lipid profile (LDL and HDL already mapped) and vascular tone of atherosclerosis.
 
 ---
 
