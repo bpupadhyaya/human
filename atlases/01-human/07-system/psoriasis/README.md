@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "PsO magnesium: magnesium regulates NF-κB (already mapped) activity and mast-cell (already mapped) degranulation driving psoriatic plaque formation; magnesium deficiency amplifies keratinocyte hyperproliferation and the IL-17A (already mapped) inflammatory axis of psoriasis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "PsO copper: copper, as lysyl oxidase cofactor in fibroblasts and endothelial cells (already mapped), drives angiogenesis in psoriatic plaques; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-17A (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "PsO iron: iron, as ribonucleotide reductase cofactor in keratinocytes and macrophages (already mapped), drives psoriatic hyperproliferation; iron overload amplifies NF-κB (already mapped) and IL-17A (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "PsO potassium: potassium, via Kir channels in keratinocytes and mast cells (already mapped), regulates inflammatory signalling; potassium dysregulation amplifies NF-κB (already mapped) and IL-17A (already mapped) and TNF-α (already mapped) plaque cascade of psoriasis."
 ---
 
 # Psoriasis
@@ -802,6 +811,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PsO vasopressin: vasopressin, via V1a receptors on keratinocytes and dendritic cells (already mapped), amplifies NF-κB (already mapped) plaque inflammation; vasopressin also modulates vascular permeability and the IL-17A (already mapped) Th17 axis of psoriasis.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PsO iodine: iodine-dependent thyroid hormones regulate keratinocyte (already mapped) proliferation and skin (already mapped) barrier; thyroid-hormone deficiency amplifies the NF-κB (already mapped) plaque inflammation and the IL-17A (already mapped) Th17 axis of psoriasis.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PsO magnesium: magnesium regulates NF-κB (already mapped) activity and mast-cell (already mapped) degranulation driving psoriatic plaque formation; magnesium deficiency amplifies keratinocyte hyperproliferation and the IL-17A (already mapped) inflammatory axis of psoriasis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PsO copper: copper, as lysyl oxidase cofactor in fibroblasts and endothelial cells (already mapped), drives angiogenesis in psoriatic plaques; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-17A (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — PsO iron: iron, as ribonucleotide reductase cofactor in keratinocytes and macrophages (already mapped), drives psoriatic hyperproliferation; iron overload amplifies NF-κB (already mapped) and IL-17A (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PsO potassium: potassium, via Kir channels in keratinocytes and mast cells (already mapped), regulates inflammatory signalling; potassium dysregulation amplifies NF-κB (already mapped) and IL-17A (already mapped) and TNF-α (already mapped) plaque cascade of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

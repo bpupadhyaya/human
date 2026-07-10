@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "PN sodium: high dietary sodium amplifies Th2/Th17 cutaneous inflammation and the mast-cell (already mapped) activation of prurigo nodularis; sodium-induced IL-17 (already mapped) and IL-4 (already mapped) skewing worsens the itch-scratch cycle."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "PN magnesium: magnesium, as NMDA-receptor cofactor in sensory neurons (already mapped) and mast cells (already mapped), modulates itch sensitisation; magnesium deficiency amplifies NF-κB (already mapped) and IL-31 (already mapped) cascade of prurigo nodularis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "PN copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped) and keratinocytes, supports cutaneous ECM integrity; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of prurigo nodularis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "PN potassium: potassium, via Kv7 channels in sensory neurons (already mapped) and mast cells (already mapped), modulates itch-signal transmission; potassium dysregulation amplifies NF-κB (already mapped) and IL-31 (already mapped) cascade of prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -766,6 +775,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Neuroinflammatory ROS scavenger: selenium, as GPx cofactor in sensory neurons (already mapped) and keratinocytes, scavenges ROS driving neuroinflammatory itch sensitisation; selenium deficiency amplifies the IL-31 (already mapped) and substance-P (already mapped) itch cascade of prurigo nodularis.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-mast-cell axis: iodine-dependent thyroid hormones modulate keratinocyte (skin already mapped) and mast-cell (already mapped) function; iodine deficiency impairs thyroid-mediated regulation of the IL-31 (already mapped) and neuroinflammatory itch cascade of prurigo nodularis.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Cutaneous inflammatory amplifier: high dietary sodium amplifies Th2/Th17 cutaneous inflammation and the mast-cell (already mapped) activation of prurigo nodularis; sodium-induced IL-17 (already mapped) and IL-4 (already mapped) skewing worsens the itch-scratch cycle.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PN magnesium: magnesium, as NMDA-receptor cofactor in sensory neurons (already mapped) and mast cells (already mapped), modulates itch sensitisation; magnesium deficiency amplifies NF-κB (already mapped) and IL-31 (already mapped) cascade of prurigo nodularis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PN copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped) and keratinocytes, supports cutaneous ECM integrity; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of prurigo nodularis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PN potassium: potassium, via Kv7 channels in sensory neurons (already mapped) and mast cells (already mapped), modulates itch-signal transmission; potassium dysregulation amplifies NF-κB (already mapped) and IL-31 (already mapped) cascade of prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
