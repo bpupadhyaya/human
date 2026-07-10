@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "DLBCL vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) proliferation cascade of DLBCL."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "DLBCL prolactin: prolactin, via PRLR on macrophages (already mapped) and B-cells (already mapped), promotes DLBCL immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) malignant B-cell survival cascade of DLBCL."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "DLBCL selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative B-cell (already mapped) survival cascade of DLBCL."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "DLBCL iodine: iodine-dependent thyroid hormones modulate B-cell (already mapped) differentiation and NF-κB (already mapped) signalling; iodine deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) survival cascade of DLBCL."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -797,6 +806,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — DLBCL serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) lymphoma cascade of DLBCL.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — DLBCL oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of DLBCL.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — DLBCL vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) proliferation cascade of DLBCL.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — DLBCL prolactin: prolactin, via PRLR on macrophages (already mapped) and B-cells (already mapped), promotes DLBCL immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) malignant B-cell survival cascade of DLBCL.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — DLBCL selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative B-cell (already mapped) survival cascade of DLBCL.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — DLBCL iodine: iodine-dependent thyroid hormones modulate B-cell (already mapped) differentiation and NF-κB (already mapped) signalling; iodine deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) survival cascade of DLBCL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

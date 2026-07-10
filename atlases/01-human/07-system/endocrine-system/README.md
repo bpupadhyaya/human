@@ -509,6 +509,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Endocrine vasopressin: vasopressin, via V2R on macrophages (already mapped) and hepatocytes (already mapped), modulates fluid-hormone homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) endocrine inflammatory cascade."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Endocrine copper: copper, as cofactor of cuproenzymes in hepatocytes (already mapped) and thyroid follicular cells, supports thyroid hormone synthesis; copper deficiency impairs the NF-κB (already mapped) and IL-6 (already mapped) endocrine immune-regulation cascade."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Endocrine sulfur: sulfur, as component of glutathione in hepatocytes (already mapped) and macrophages (already mapped), scavenges ROS; sulfur deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative endocrine inflammatory cascade."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Endocrine chloride: chloride, via chloride channels in thyroid follicular cells and macrophages (already mapped), regulates thyroid hormone secretion and immune activation; chloride dysregulation amplifies the NF-κB (already mapped) endocrine cascade."
 ---
 
 # Endocrine System
@@ -830,6 +839,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Endocrine prolactin: prolactin, via PRLR on macrophages (already mapped) and osteoblasts (already mapped), modulates the adrenal-gonadal axis; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of endocrine disease.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Endocrine oxytocin: oxytocin, via OXTR on macrophages (already mapped) and hepatocytes (already mapped), attenuates adrenal and thyroid autoimmune inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) endocrine cascade.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Endocrine vasopressin: vasopressin, via V2R on macrophages (already mapped) and hepatocytes (already mapped), modulates fluid-hormone homeostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) endocrine inflammatory cascade.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Endocrine copper: copper, as cofactor of cuproenzymes in hepatocytes (already mapped) and thyroid follicular cells, supports thyroid hormone synthesis; copper deficiency impairs the NF-κB (already mapped) and IL-6 (already mapped) endocrine immune-regulation cascade.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Endocrine sulfur: sulfur, as component of glutathione in hepatocytes (already mapped) and macrophages (already mapped), scavenges ROS; sulfur deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative endocrine inflammatory cascade.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Endocrine chloride: chloride, via chloride channels in thyroid follicular cells and macrophages (already mapped), regulates thyroid hormone secretion and immune activation; chloride dysregulation amplifies the NF-κB (already mapped) endocrine cascade.
 
 ## Pathology
 
