@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-neuroendocrine modulation: prolactin modulates T-cell (already mapped) and B-cell (already mapped) autoimmune activation and postpartum rebound is linked to MS relapse, placing prolactin in the hormonal sex-immune dimension of multiple sclerosis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "MS serotonin: serotonin, via 5-HT receptors on microglia (already mapped) and oligodendrocytes (already mapped), modulates neuroinflammation and remyelination; serotonin dysregulation amplifies the IL-6 (already mapped) and NLRP3 (already mapped) cascade of multiple sclerosis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "MS oxytocin: oxytocin, via OXTR on microglia (already mapped) and regulatory T cells (already mapped), attenuates neuroinflammation and promotes remyelination; oxytocin deficiency amplifies the IL-17a (already mapped) and IL-6 (already mapped) cascade of multiple sclerosis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "MS vasopressin: vasopressin, via V1aR on microglia (already mapped) and oligodendrocytes (already mapped), modulates BBB osmolality and neuroinflammation; vasopressin dysregulation amplifies NLRP3 (already mapped) and IL-6 (already mapped) cascade of multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -777,6 +786,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-immune axis: melatonin has immunomodulatory and neuroprotective effects on T-cell (already mapped) and microglial (already mapped) activity; disrupted melatonin rhythm is associated with MS relapse rate and the circadian immune dysregulation of multiple sclerosis.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Neuroprotective androgen: testosterone exerts neuroprotective and anti-inflammatory effects on oligodendrocytes (already mapped) and T cells (already mapped); low testosterone is associated with faster MS disability progression and the male sex-hormone dimension of MS.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-neuroendocrine modulation: prolactin modulates T-cell (already mapped) and B-cell (already mapped) autoimmune activation and postpartum rebound is linked to MS relapse, placing prolactin in the hormonal sex-immune dimension of multiple sclerosis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Neuroinflammatory modulator: serotonin, via 5-HT receptors on microglia (already mapped) and oligodendrocytes (already mapped), modulates neuroinflammation and remyelination; serotonin dysregulation amplifies the IL-6 (already mapped) and NLRP3 (already mapped) cascade of multiple sclerosis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Anti-inflammatory remyelination: oxytocin, via OXTR on microglia (already mapped) and regulatory T cells (already mapped), attenuates neuroinflammation and promotes remyelination; oxytocin deficiency amplifies the IL-17a (already mapped) and IL-6 (already mapped) cascade of multiple sclerosis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — BBB osmolality modulator: vasopressin, via V1aR on microglia (already mapped) and oligodendrocytes (already mapped), modulates BBB osmolality and neuroinflammation; vasopressin dysregulation amplifies NLRP3 (already mapped) and IL-6 (already mapped) cascade of multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
