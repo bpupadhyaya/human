@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-DICER1 axis: erythropoietin, via the EPOR on DICER1-syndrome tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates the angiogenic dimension of the DICER1-driven tumour stroma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell DICER1 axis: histamine, from mast cells (already mapped) in the DICER1-syndrome tumour stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the pleuropulmonary and other DICER1-driven tumours."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-DICER1 axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the miRNA-processing (DICER1 already mapped) dysregulation and the oxidative stress of the DICER1-syndrome tumours."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory milieu of the DICER1-syndrome tumour microenvironment."
 ---
 
 # DICER1 Syndrome
@@ -766,6 +775,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-DICER1 axis: TSLP, from the DICER1-deficient tumour stromal cells and mast cells (already mapped), primes dendritic-cell (already mapped) Th2 polarisation and shapes the immune microenvironment of the DICER1-syndrome tumours.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability and the inflammatory stromal milieu of the DICER1-syndrome tumours including pleuropulmonary blastoma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-DICER1 axis: erythropoietin, via the EPOR on DICER1-syndrome tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and modulates the angiogenic dimension of the DICER1-driven tumour stroma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell DICER1 axis: histamine, from mast cells (already mapped) in the DICER1-syndrome tumour stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the pleuropulmonary and other DICER1-driven tumours.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-DICER1 axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the miRNA-processing (DICER1 already mapped) dysregulation and the oxidative stress of the DICER1-syndrome tumours.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory milieu of the DICER1-syndrome tumour microenvironment.
 
 ---
 

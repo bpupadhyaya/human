@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-desmoid axis: erythropoietin, via the EPOR on the CTNNB1-activated desmoid tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and the angiogenic (VEGF already mapped) dimension of the desmoid tumour stroma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell desmoid axis: histamine, from the mast cells (already mapped) in the CTNNB1-driven desmoid stroma, amplifies the fibroblast (already mapped) activation and the vascular permeability of the inflammatory desmoid tumour microenvironment."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-Wnt axis: melatonin, via MT1/MT2 receptors and its antioxidant activity, modulates the oxidative stress and the CTNNB1/Wnt (already mapped) signalling of the desmoid-tumour fibroblasts (already mapped) and stromal cells."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory stromal milieu of the desmoid tumour microenvironment."
 ---
 
 # Desmoid Tumor
@@ -785,6 +794,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-desmoid axis: TSLP, from the CTNNB1-mutant desmoid stromal cells and the mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of the desmoid tumour.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-desmoid axis: bradykinin, via B1/B2 receptors on the desmoid endothelium (already mapped) and mast cells (already mapped), amplifies the vascular permeability, the tumour oedema, and the inflammatory stromal milieu of the desmoid tumour.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-desmoid axis: erythropoietin, via the EPOR on the CTNNB1-activated desmoid tumour cells (already mapped), activates the PI3K/AKT (already mapped) survival axis and the angiogenic (VEGF already mapped) dimension of the desmoid tumour stroma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell desmoid axis: histamine, from the mast cells (already mapped) in the CTNNB1-driven desmoid stroma, amplifies the fibroblast (already mapped) activation and the vascular permeability of the inflammatory desmoid tumour microenvironment.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-Wnt axis: melatonin, via MT1/MT2 receptors and its antioxidant activity, modulates the oxidative stress and the CTNNB1/Wnt (already mapped) signalling of the desmoid-tumour fibroblasts (already mapped) and stromal cells.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory stromal milieu of the desmoid tumour microenvironment.
 
 ---
 
