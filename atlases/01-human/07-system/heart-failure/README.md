@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "HF serotonin: serotonin vasoconstriction amplifies the endothelin-1 (already mapped) and angiotensin-II (already mapped) axis in heart failure; 5-HT2 receptor signalling on cardiomyocytes potentiates TNF-α (already mapped) and IL-6 (already mapped) cardiac dysfunction."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "HF oxytocin: oxytocin suppresses NF-κB (already mapped) driven IL-6 (already mapped) and TNF-α (already mapped) cardiac inflammation in heart failure; oxytocin attenuates angiotensin-II (already mapped) cardiac hypertrophy and norepinephrine (already mapped) cardiotoxicity."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "HF prolactin: 16-kDa prolactin drives VEGF (already mapped) microvasculature rarefaction; prolactin activates NF-κB (already mapped) in cardiomyocytes (already mapped) and amplifies endothelin-1 (already mapped) vasoconstriction in peripartum cardiomyopathy."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "HF selenium: glutathione peroxidase (selenium-dependent) protects cardiomyocytes (already mapped) from NF-κB (already mapped) oxidative stress; selenium deficiency impairs myocardial (already mapped) function and amplifies TNF-α (already mapped) cardiac inflammation."
 ---
 
 # Heart Failure
@@ -740,6 +749,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — HF melatonin: melatonin reduces TGF-β (already mapped) driven cardiac fibrosis in heart failure; melatonin also suppresses TNF-α (already mapped) and IL-6 (already mapped) mediated cardiomyocyte apoptosis and protects the cardiac-conduction system (already mapped).
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — HF testosterone: testosterone deficiency worsens heart failure prognosis; androgen receptor signalling suppresses IL-6 (already mapped) driven cardiac cachexia and modulates the angiotensin-II (already mapped) neurohormonal axis and norepinephrine (already mapped) toxicity.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — HF serotonin: serotonin vasoconstriction amplifies the endothelin-1 (already mapped) and angiotensin-II (already mapped) axis in heart failure; 5-HT2 receptor signalling on cardiomyocytes potentiates TNF-α (already mapped) and IL-6 (already mapped) cardiac dysfunction.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HF oxytocin: oxytocin suppresses NF-κB (already mapped) driven IL-6 (already mapped) and TNF-α (already mapped) cardiac inflammation in heart failure; oxytocin attenuates angiotensin-II (already mapped) cardiac hypertrophy and norepinephrine (already mapped) cardiotoxicity.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HF prolactin: 16-kDa prolactin drives VEGF (already mapped) microvasculature rarefaction; prolactin activates NF-κB (already mapped) in cardiomyocytes (already mapped) and amplifies endothelin-1 (already mapped) vasoconstriction in peripartum cardiomyopathy.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HF selenium: glutathione peroxidase (selenium-dependent) protects cardiomyocytes (already mapped) from NF-κB (already mapped) oxidative stress; selenium deficiency impairs myocardial (already mapped) function and amplifies TNF-α (already mapped) cardiac inflammation.
 
 ## Pathology
 

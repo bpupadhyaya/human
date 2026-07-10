@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "HA serotonin: platelet (already mapped) serotonin release modulates thrombin (already mapped) generation in haemophilia A; 5-HT2A on endothelial cells (already mapped) amplifies the TNF-α (already mapped) and IL-6 (already mapped) joint inflammatory cascade."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "HA oxytocin: oxytocin promotes VWF (already mapped) release and platelet (already mapped) aggregation via endothelial cell (already mapped) V1 receptors; oxytocin-driven NF-κB (already mapped) attenuation reduces macrophage (already mapped) synovial inflammation in arthropathy."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "HA vasopressin: DDAVP (synthetic AVP) triggers VWF (already mapped) and factor VIII release from endothelial cells (already mapped); V2 receptor signalling mobilises platelet (already mapped) cofactors and modulates NF-κB (already mapped) haemostatic inflammation."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "HA prolactin: prolactin signalling on B-cells (already mapped) amplifies anti-FVIII inhibitor development; prolactin-driven NF-κB (already mapped) activation promotes macrophage (already mapped) synovial inflammation and thrombin (already mapped) dysregulation in arthropathy."
 ---
 
 # Hemophilia A
@@ -796,6 +805,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — HA melatonin: melatonin suppresses TNF-α (already mapped) and IL-6 (already mapped) driven synovial inflammation in haemophilic arthropathy; melatonin also reduces macrophage (already mapped) activation and attenuates the cortical-bone (already mapped) erosion cascade.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — HA testosterone: androgen receptor signalling modulates platelet (already mapped) and thrombin (already mapped) activity in haemophilia A; testosterone also drives macrophage (already mapped) and B-cell (already mapped) activity in the inhibitor-development cascade.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — HA serotonin: platelet (already mapped) serotonin release modulates thrombin (already mapped) generation in haemophilia A; 5-HT2A on endothelial cells (already mapped) amplifies the TNF-α (already mapped) and IL-6 (already mapped) joint inflammatory cascade.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HA oxytocin: oxytocin promotes VWF (already mapped) release and platelet (already mapped) aggregation via endothelial cell (already mapped) V1 receptors; oxytocin-driven NF-κB (already mapped) attenuation reduces macrophage (already mapped) synovial inflammation in arthropathy.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HA vasopressin: DDAVP (synthetic AVP) triggers VWF (already mapped) and factor VIII release from endothelial cells (already mapped); V2 receptor signalling mobilises platelet (already mapped) cofactors and modulates NF-κB (already mapped) haemostatic inflammation.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — HA prolactin: prolactin signalling on B-cells (already mapped) amplifies anti-FVIII inhibitor development; prolactin-driven NF-κB (already mapped) activation promotes macrophage (already mapped) synovial inflammation and thrombin (already mapped) dysregulation in arthropathy.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
