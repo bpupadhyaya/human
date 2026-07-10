@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "PJS selenium: selenium-dependent selenoprotein antioxidants quench reactive-oxygen-species arising from STK11/LKB1 (already mapped) loss-driven mTOR (already mapped) hyperactivation in Peutz-Jeghers polyp epithelium, reducing oncogenic transformation risk."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Peutz-Jeghers iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Peutz-Jeghers sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the T-cytotoxic (already mapped) cancer cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Peutz-Jeghers magnesium: magnesium, as LKB1/STK11 (already mapped) kinase cofactor in fibroblasts (already mapped) and macrophages (already mapped), supports tumour-suppression; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -799,6 +808,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PJS oxytocin: oxytocin modulates intestinal motility and mucosal barrier integrity in the GI tract bearing the Peutz-Jeghers hamartomatous polyps, and oxytocin receptor signalling on enteric neurons (already mapped) intersects STK11/LKB1 (already mapped) epithelial homeostasis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PJS vasopressin: vasopressin via V2R modulates intestinal fluid absorption and mucosal homeostasis in the GI tract harbouring the Peutz-Jeghers hamartomatous polyps, intersecting the STK11/LKB1 (already mapped) and mTOR (already mapped) epithelial proliferation axis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PJS selenium: selenium-dependent selenoprotein antioxidants quench reactive-oxygen-species arising from STK11/LKB1 (already mapped) loss-driven mTOR (already mapped) hyperactivation in Peutz-Jeghers polyp epithelium, reducing oncogenic transformation risk.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Peutz-Jeghers iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Peutz-Jeghers sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the T-cytotoxic (already mapped) cancer cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Peutz-Jeghers magnesium: magnesium, as LKB1/STK11 (already mapped) kinase cofactor in fibroblasts (already mapped) and macrophages (already mapped), supports tumour-suppression; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS.
 
 ---
 
