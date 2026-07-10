@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "BD selenium: selenium, via GPx and thioredoxin reductase, protects neurons (already mapped) from oxidative injury; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory burden and the mood-episode severity of bipolar disorder."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "BD iodine: iodine-dependent thyroid hormones regulate neuronal (neuron already mapped) metabolism and hippocampal (already mapped) plasticity; hypothyroidism, common in BD, amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and mood-episode severity."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "BD potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ and Na+ (sodium already mapped) homeostasis at synapses (already mapped) amplifies NF-κB (already mapped) and IL-1β (already mapped) neuroinflammation in BD."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "BD iron: iron is required for dopamine (already mapped) and serotonin (already mapped) synthesis; iron deficiency impairs hippocampal (already mapped) neuronal (neuron already mapped) energy and worsens the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation in BD."
 ---
 
 # Bipolar Disorder
@@ -813,6 +822,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen neuroinflammation suppression: testosterone, via androgen receptors on neurons, suppresses NF-κB and IL-6 neuroinflammation; androgen deficiency amplifies complement-C5-mediated mood-circuit synaptic-pruning excess of BD.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Dopamine-serotonin mood modulation: oxytocin, via OXTR on neurons, modulates the dopamine/serotonin mood circuitry and neuroplasticity; oxytocin deficiency amplifies NF-κB neuroinflammation and BDNF deficit of BD.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Neuroprotective antioxidant: selenium, via GPx and thioredoxin reductase, protects neurons from oxidative injury; selenium deficiency amplifies NF-κB and IL-6 neuroinflammatory burden and mood-episode severity of bipolar disorder.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — BD iodine: iodine-dependent thyroid hormones regulate neuronal (neuron already mapped) metabolism and hippocampal (already mapped) plasticity; hypothyroidism, common in BD, amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and mood-episode severity.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — BD potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ and Na+ (sodium already mapped) homeostasis at synapses (already mapped) amplifies NF-κB (already mapped) and IL-1β (already mapped) neuroinflammation in BD.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — BD iron: iron is required for dopamine (already mapped) and serotonin (already mapped) synthesis; iron deficiency impairs hippocampal (already mapped) neuronal (neuron already mapped) energy and worsens the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation in BD.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

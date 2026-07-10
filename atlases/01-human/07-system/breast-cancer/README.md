@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "BC prolactin: prolactin, via PRLR on breast-cancer cells, amplifies mTOR (already mapped) and NF-κB (already mapped) tumour-promoting survival signalling; prolactin also promotes oestrogen-receptor upregulation and VEGF (already mapped) angiogenesis of breast cancer."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "BC oxytocin: oxytocin, via OXTR on breast-cancer cells, suppresses NF-κB (already mapped) and HIF-1α (already mapped) tumour-promoting signalling; oxytocin attenuates the mTOR (already mapped)-driven proliferation and VEGF (already mapped) angiogenesis of breast cancer."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "BC vasopressin: vasopressin, via V1/V2 receptors on breast-cancer cells, promotes survival and oestrogen (estrogen already mapped) signalling; vasopressin amplifies NF-κB (already mapped) and mTOR (already mapped) tumourigenic drive and VEGF (already mapped) angiogenesis of BC."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "BC selenium: selenium, via selenoproteins (GPx, thioredoxin reductase), suppresses ROS driving NF-κB (already mapped) and HIF-1α (already mapped) tumour-angiogenic signalling; selenium induces apoptosis in breast-cancer cells via p53 (already mapped) pathway activation."
 ---
 
 # Breast Cancer
@@ -785,6 +794,9 @@ cross_links:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen tumour-suppressive axis: testosterone, via androgen-receptor, counteracts oestrogen-driven tumour proliferation and attenuates the NF-κB and IL-6 pro-tumourigenic cytokine cascade of breast cancer.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-oestrogen tumour axis: serotonin, via 5-HT receptors on breast-cancer cells, modulates tumour proliferation and interacts with oestrogen signalling; serotonin also amplifies the NF-κB pro-tumourigenic milieu of breast cancer.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin tumour-survival amplification: prolactin, via PRLR on breast-cancer cells, amplifies mTOR and NF-κB tumour-promoting survival signalling and promotes oestrogen-receptor upregulation and VEGF angiogenesis of breast cancer.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — BC oxytocin: oxytocin, via OXTR on breast-cancer cells, suppresses NF-κB (already mapped) and HIF-1α (already mapped) tumour-promoting signalling; oxytocin attenuates the mTOR (already mapped)-driven proliferation and VEGF (already mapped) angiogenesis of breast cancer.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — BC vasopressin: vasopressin, via V1/V2 receptors on breast-cancer cells, promotes survival and oestrogen (estrogen already mapped) signalling; vasopressin amplifies NF-κB (already mapped) and mTOR (already mapped) tumourigenic drive and VEGF (already mapped) angiogenesis of BC.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — BC selenium: selenium, via selenoproteins (GPx, thioredoxin reductase), suppresses ROS driving NF-κB (already mapped) and HIF-1α (already mapped) tumour-angiogenic signalling; selenium induces apoptosis in breast-cancer cells via p53 (already mapped) pathway activation.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
