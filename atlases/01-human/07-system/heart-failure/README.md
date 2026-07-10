@@ -487,6 +487,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Cardioprotective EPO: erythropoietin, beyond its haematopoietic role, signals through EPOR on cardiomyocytes (already mapped) exerting anti-apoptotic and cardioprotective effects, and supports anaemia correction (hepcidin already mapped) in heart failure."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell cardiac mediator: histamine, released by the cardiac mast cells (already mapped) during the ischaemia-reperfusion injury and pressure-overload remodelling of heart failure, amplifies ventricular fibrosis (TGF-β and BNP already mapped) and the inflammatory cascade."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement myocardial injury: complement C5, upstream of the membrane-attack complex, is activated by the ischaemia-reperfusion injury (complement C3 and C5aR1 already mapped) of heart failure, contributing to the cardiomyocyte (already mapped) loss and dysfunction."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) in the failing myocardium, limiting the complement-driven cardiomyocyte (already mapped) injury and the inflammatory remodelling of heart failure."
 ---
 
 # Heart Failure
@@ -716,6 +725,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Cardiac alarmin: TSLP, released from cardiac fibroblasts (already mapped) and cardiomyocytes (already mapped) under mechanical stretch and ischaemic stress, activates mast cells (already mapped) and promotes the fibrotic remodelling of heart failure.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin regulation: C1-esterase inhibitor limits the classical complement (complement C3 and C5aR1 already mapped) and the contact-kinin (bradykinin already mapped) cascades activated by myocardial ischaemia and remodelling of heart failure.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Cardioprotective EPO: erythropoietin, beyond its haematopoietic role, signals through EPOR on cardiomyocytes (already mapped) exerting anti-apoptotic and cardioprotective effects, and supports anaemia correction (hepcidin already mapped) in heart failure.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell cardiac mediator: histamine, released by the cardiac mast cells (already mapped) during the ischaemia-reperfusion injury and pressure-overload remodelling of heart failure, amplifies ventricular fibrosis (TGF-β and BNP already mapped) and the inflammatory cascade.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement myocardial injury: complement C5, upstream of the membrane-attack complex, is activated by the ischaemia-reperfusion injury (complement C3 and C5aR1 already mapped) of heart failure, contributing to the cardiomyocyte (already mapped) loss and dysfunction.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H regulates the alternative complement pathway (complement C3 and C5aR1 already mapped) in the failing myocardium, limiting the complement-driven cardiomyocyte (already mapped) injury and the inflammatory remodelling of heart failure.
 
 ## Pathology
 
