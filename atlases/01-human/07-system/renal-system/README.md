@@ -523,6 +523,12 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "RS copper: copper-dependent SOD in tubular cells and endothelial cells (already mapped) quenches the ROS amplifying NF-κB (already mapped) renal inflammation; copper deficiency impairs iron (already mapped) handling via ceruloplasmin and worsens CKD (already mapped) anaemia."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "RS zinc: zinc, as metalloproteinase cofactor in podocytes (already mapped) and macrophages (already mapped), maintains glomerular filtration barrier integrity; zinc deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of renal disease."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "RS sulfur: hydrogen sulfide, generated from sulfur-amino acids in tubular cells and endothelial cells (already mapped), promotes vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) renal fibrosis of CKD (already mapped)."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -786,6 +792,8 @@ Natriuretic counterpoint:
 - **Connects to:** [Selenium](../../02-atomic/selenium/README.md) — RS selenium: selenium, via glutathione peroxidase (GPx) in tubular cells and podocytes (already mapped), quenches ROS and attenuates NF-κB (already mapped) and TGF-β (already mapped) renal fibrosis; selenium deficiency accelerates CKD (already mapped) progression and proteinuria.
 - **Connects to:** [Iodine](../../02-atomic/iodine/README.md) — RS iodine: iodine-dependent thyroid hormones regulate GFR and podocyte (already mapped) metabolism in the kidney (already mapped); hypothyroidism worsens TGF-β (already mapped) fibrosis and amplifies NF-κB (already mapped) inflammatory tubular injury in CKD (already mapped).
 - **Connects to:** [Copper](../../02-atomic/copper/README.md) — RS copper: copper-dependent SOD in tubular cells and endothelial cells (already mapped) quenches the ROS amplifying NF-κB (already mapped) renal inflammation; copper deficiency impairs iron (already mapped) handling via ceruloplasmin and worsens CKD (already mapped) anaemia.
+- **Connects to:** [Zinc](../../02-atomic/zinc/README.md) — RS zinc: zinc, as metalloproteinase cofactor in podocytes (already mapped) and macrophages (already mapped), maintains glomerular filtration barrier integrity; zinc deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of renal disease.
+- **Connects to:** [Sulfur](../../02-atomic/sulfur/README.md) — RS sulfur: hydrogen sulfide, generated from sulfur-amino acids in tubular cells and endothelial cells (already mapped), promotes vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) renal fibrosis of CKD (already mapped).
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
