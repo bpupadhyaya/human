@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Lymphoma dissemination: bradykinin promotes vascular permeability and transendothelial migration of MCL cells, facilitating the aggressive dissemination into peripheral blood, marrow, and extranodal sites that characterise the blastoid variant of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "C1-INH complement regulation: C1-INH modulates the classical pathway (C3, C5 and C5aR1 already mapped) activated by anti-CD20 (CD20 already mapped) therapies in MCL, balancing rituximab complement-dependent cytotoxicity and minimising complement-mediated adverse effects."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell mediator in MCL stroma: histamine from mast cells (already mapped) in the MCL stroma promotes VEGF-driven (already mapped) angiogenesis and immunosuppression, while H2-receptor signalling on MCL B cells (already mapped) reduces cAMP-mediated apoptosis."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Lymphoma-niche periostin: periostin, secreted by cancer-associated fibroblasts (already mapped) in the MCL stroma under TGF-β (already mapped) stimulation, reinforces the lymphoma niche and promotes the B-cell (already mapped) proliferative advantage in mantle-cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -761,6 +770,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Lymph node stroma alarmin: TSLP from lymph-node stromal cells activates the dendritic cells and B cells of the mantle zone, promoting the BCR survival signalling and NF-kB-mediated apoptosis resistance that drive the aggressive expansion of mantle-cell lymphoma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemoimmunotherapy anaemia: erythropoietin counters the myelosuppression induced by the RCHOP and bendamustine-rituximab regimens used in MCL; EPO-stimulating agents are a standard supportive measure to maintain haemoglobin and treatment tolerance in mantle-cell lymphoma.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Lymphoma dissemination: bradykinin promotes vascular permeability and transendothelial migration of MCL cells, facilitating the aggressive dissemination into peripheral blood, marrow, and extranodal sites that characterise the blastoid variant of mantle-cell lymphoma.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — C1-INH complement regulation: C1-INH modulates the classical pathway (C3, C5 and C5aR1 already mapped) activated by anti-CD20 (CD20 already mapped) therapies in MCL, balancing rituximab complement-dependent cytotoxicity and minimising complement-mediated adverse effects.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell mediator in MCL stroma: histamine from mast cells (already mapped) in the MCL stroma promotes VEGF-driven (already mapped) angiogenesis and immunosuppression, while H2-receptor signalling on MCL B cells (already mapped) reduces cAMP-mediated apoptosis.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Lymphoma-niche periostin: periostin, secreted by cancer-associated fibroblasts (already mapped) in the MCL stroma under TGF-β (already mapped) stimulation, reinforces the lymphoma niche and promotes the B-cell (already mapped) proliferative advantage in mantle-cell lymphoma.
 
 ---
 
