@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "SUD vasopressin: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates HPA-axis (CRH already mapped) tone; vasopressin dysregulation amplifies norepinephrine (already mapped) and NLRP3 (already mapped) cascade of stimulant use disorder."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "SUD selenium: selenium, as GPx in neurons (already mapped) and microglia (already mapped), scavenges dopaminergic (dopamine already mapped) neuroinflammatory ROS; selenium deficiency amplifies the CRH (already mapped) and NLRP3 (already mapped) cascade of stimulant use disorder."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "SUD iodine: iodine-dependent thyroid hormones modulate dopaminergic (dopamine already mapped) and serotonergic (serotonin already mapped) tone; iodine deficiency impairs thyroid-mediated regulation of the CRH (already mapped) stress axis of stimulant use disorder."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "SUD phosphorus: phosphorus, as ATP in neurons (already mapped) and synapses (already mapped), sustains dopaminergic (dopamine already mapped) vesicle release; phosphorus deficiency amplifies the NLRP3 (already mapped) neuroinflammation of stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -797,6 +806,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — SUD testosterone: testosterone, via androgen receptors on neurons (already mapped) and microglia (already mapped), modulates dopaminergic reward; testosterone deficiency amplifies the CRH (already mapped) and norepinephrine (already mapped) cascade of stimulant use disorder.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — SUD prolactin: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates dopaminergic reward; hyperprolactinaemia amplifies the CRH (already mapped) and norepinephrine (already mapped) cascade of stimulant use disorder.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SUD vasopressin: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates HPA-axis (CRH already mapped) tone; vasopressin dysregulation amplifies norepinephrine (already mapped) and NLRP3 (already mapped) cascade of stimulant use disorder.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Dopaminergic ROS scavenger: selenium, as GPx in neurons (already mapped) and microglia (already mapped), scavenges dopaminergic (dopamine already mapped) neuroinflammatory ROS; selenium deficiency amplifies the CRH (already mapped) and NLRP3 (already mapped) cascade of stimulant use disorder.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-reward axis: iodine-dependent thyroid hormones modulate dopaminergic (dopamine already mapped) and serotonergic (serotonin already mapped) tone; iodine deficiency impairs thyroid-mediated regulation of the CRH (already mapped) stress axis of stimulant use disorder.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Synaptic energy substrate: phosphorus, as ATP in neurons (already mapped) and synapses (already mapped), sustains dopaminergic (dopamine already mapped) vesicle release; phosphorus deficiency amplifies the NLRP3 (already mapped) neuroinflammation of stimulant use disorder.
 
 ## Treatment
 
