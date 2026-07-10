@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "NF2 sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of NF2."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "NF2 magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and fibroblasts (already mapped), attenuates oxidative stress; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF2."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "NF2 copper: copper, as cofactor of SOD1 in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges TME ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF2."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "NF2 zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates matrix remodelling; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of neurofibromatosis type 2."
 ---
 
 # Neurofibromatosis Type 2
@@ -807,6 +816,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — NF2 selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the NF2 tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NF2 iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of neurofibromatosis type 2.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NF2 sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of NF2.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NF2 magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and fibroblasts (already mapped), attenuates oxidative stress; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF2.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NF2 copper: copper, as cofactor of SOD1 in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges TME ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF2.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — NF2 zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates matrix remodelling; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of neurofibromatosis type 2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
