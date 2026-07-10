@@ -521,6 +521,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "OCD factor-h: factor H regulates the alternative complement pathway (C5 and C5aR1 already mapped) over-activation in the neuroinflammatory basal-ganglia environment of OCD; reduced factor H activity amplifies the complement-driven microglial (already mapped) activation."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "OCD selenium: selenoprotein P reduces neuronal (already mapped) and microglial (already mapped) oxidative stress in the cortico-striatal circuit; selenium deficiency amplifies the NF-κB (already mapped) neuroinflammation and the dopaminergic (already mapped) dysfunction of OCD."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "OCD iodine: iodine-dependent thyroid hormones modulate neuronal (already mapped) excitability and serotonin (already mapped) tone in the cortico-striatal circuit; thyroid-hormone deficiency amplifies the NF-κB (already mapped) neuroinflammation and compulsive severity in OCD."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "OCD sodium: sodium modulates GABAergic (already mapped) and glutamatergic (already mapped) transmission in the cortico-striatal circuit; sodium dysregulation from psychiatric medications amplifies the NF-κB (already mapped) neuroinflammation and disrupts ion homeostasis in OCD."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -813,6 +822,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — OCD vasopressin: vasopressin V1A receptors in the cortico-striatal circuit (brain already mapped) modulate the anxiety-driven repetitive behaviours of OCD; vasopressin interacts with oxytocin (already mapped) to co-regulate social threat processing and compulsivity.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — OCD transferrin: transferrin supports neuronal (already mapped) iron metabolism and myelin integrity in the fronto-striatal circuitry; iron deficiency via disordered transferrin amplifies the dopaminergic (already mapped) dysfunction and compulsivity of OCD.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — OCD factor-h: factor H regulates the alternative complement pathway (C5 and C5aR1 already mapped) over-activation in the neuroinflammatory basal-ganglia environment of OCD; reduced factor H activity amplifies the complement-driven microglial (already mapped) activation.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — OCD selenium: selenoprotein P reduces neuronal (already mapped) and microglial (already mapped) oxidative stress in the cortico-striatal circuit; selenium deficiency amplifies the NF-κB (already mapped) neuroinflammation and the dopaminergic (already mapped) dysfunction of OCD.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — OCD iodine: iodine-dependent thyroid hormones modulate neuronal (already mapped) excitability and serotonin (already mapped) tone in the cortico-striatal circuit; thyroid-hormone deficiency amplifies the NF-κB (already mapped) neuroinflammation and compulsive severity in OCD.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — OCD sodium: sodium modulates GABAergic (already mapped) and glutamatergic (already mapped) transmission in the cortico-striatal circuit; sodium dysregulation from psychiatric medications amplifies the NF-κB (already mapped) neuroinflammation and disrupts ion homeostasis in OCD.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "PD vasopressin: vasopressin V1A receptors on dopaminergic neurons (already mapped) modulate striatal activity and dopamine (already mapped) release; vasopressin deficiency amplifies the neuroinflammatory and autonomic (brain already mapped) dysfunction of Parkinson's disease."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "PD prolactin: prolactin modulates dopaminergic (already mapped) neuron survival and microglial (already mapped) neuroinflammation in the substantia nigra; prolactin interacts with SNCA (already mapped) aggregation and the NF-κB (already mapped) cascade of Parkinson's disease."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "PD selenium: selenoprotein P reduces the oxidative stress driving SNCA (already mapped) aggregation and dopaminergic (already mapped) neurodegeneration; selenium deficiency amplifies the NF-κB (already mapped) neuroinflammation and accelerates Parkinson's disease progression."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PD iodine: iodine-dependent thyroid hormones sustain dopaminergic (already mapped) neuron energy metabolism in the substantia nigra; thyroid-hormone deficiency amplifies the NF-κB (already mapped) cascade and worsens SNCA (already mapped) aggregation in Parkinson's disease."
 ---
 
 # Parkinson's Disease
@@ -814,6 +823,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PD testosterone: testosterone attenuates SNCA (already mapped) aggregation and microglial (already mapped) neuroinflammation in the substantia nigra; androgen deficiency accelerates the dopaminergic neuron (already mapped) loss of Parkinson's disease.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PD oxytocin: oxytocin receptors on astrocytes (already mapped) and dopaminergic neurons (already mapped) attenuate SNCA (already mapped) aggregation; oxytocin also modulates the dopamine (already mapped) and serotonin (already mapped) circuits of Parkinson's disease.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PD vasopressin: vasopressin V1A receptors on dopaminergic neurons (already mapped) modulate striatal activity and dopamine (already mapped) release; vasopressin deficiency amplifies the neuroinflammatory and autonomic (brain already mapped) dysfunction of Parkinson's disease.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PD prolactin: prolactin modulates dopaminergic (already mapped) neuron survival and microglial (already mapped) neuroinflammation in the substantia nigra; prolactin interacts with SNCA (already mapped) aggregation and the NF-κB (already mapped) cascade of Parkinson's disease.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PD selenium: selenoprotein P reduces the oxidative stress driving SNCA (already mapped) aggregation and dopaminergic (already mapped) neurodegeneration; selenium deficiency amplifies the NF-κB (already mapped) neuroinflammation and accelerates Parkinson's disease progression.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PD iodine: iodine-dependent thyroid hormones sustain dopaminergic (already mapped) neuron energy metabolism in the substantia nigra; thyroid-hormone deficiency amplifies the NF-κB (already mapped) cascade and worsens SNCA (already mapped) aggregation in Parkinson's disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
