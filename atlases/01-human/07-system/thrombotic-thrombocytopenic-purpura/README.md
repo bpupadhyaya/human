@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Platelet circadian regulator: melatonin modulates platelet reactivity and platelet-endothelial interactions via melatonin receptors on platelets; reduced melatonin rhythmicity may amplify the platelet hyper-reactivity of TTP."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "TTP testosterone: testosterone modulates platelet aggregation via androgen-receptor signalling on platelets (already mapped) and endothelial cells (already mapped); androgen-mediated ADAMTS13 (already mapped) regulation may explain the marked female predominance of TTP."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "TTP prolactin: prolactin is elevated in a subset of TTP patients and amplifies the autoimmune anti-ADAMTS13 (already mapped) response via B-cell (already mapped) and plasma-cell (already mapped) antibody secretion, paralleling its pathogenic role in other autoimmune diseases."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "TTP oxytocin: oxytocin modulates platelet aggregation and VWF release from endothelial Weibel-Palade bodies (VWF already mapped) in TTP; oxytocin-driven platelet-endothelial signalling also mediates endothelial (already mapped) repair after microvascular injury."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -814,6 +823,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell vascular permeability: histamine from mast cells activated in the inflamed TTP endothelium amplifies vascular permeability and contributes to the thrombocytopenic microangiopathy, complementing the bradykinin (already mapped) kinin axis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Endothelial matrix remodelling: periostin is expressed in the vascular wall remodelled by ULVWF-mediated platelet aggregation in TTP, modulating integrin signalling on endothelial cells during the thrombotic microangiopathy.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Platelet circadian regulator: melatonin modulates platelet reactivity and platelet-endothelial interactions via melatonin receptors on platelets; reduced melatonin rhythmicity may amplify the platelet hyper-reactivity of TTP.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — TTP testosterone: testosterone modulates platelet aggregation via androgen-receptor signalling on platelets (already mapped) and endothelial cells (already mapped); androgen-mediated ADAMTS13 (already mapped) regulation may explain the marked female predominance of TTP.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — TTP prolactin: prolactin is elevated in a subset of TTP patients and amplifies the autoimmune anti-ADAMTS13 (already mapped) response via B-cell (already mapped) and plasma-cell (already mapped) antibody secretion, paralleling its pathogenic role in other autoimmune diseases.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — TTP oxytocin: oxytocin modulates platelet aggregation and VWF release from endothelial Weibel-Palade bodies (VWF already mapped) in TTP; oxytocin-driven platelet-endothelial signalling also mediates endothelial (already mapped) repair after microvascular injury.
 
 ---
 
