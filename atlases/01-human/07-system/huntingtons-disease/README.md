@@ -498,6 +498,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "HD iodine: iodine, via thyroid hormone biosynthesis, modulates neuronal mitochondrial function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Huntington disease."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "HD sodium: high dietary sodium promotes microglial (already mapped) and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the neuroinflammatory cascade of Huntington disease."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HD potassium: potassium depletion promotes microglial (already mapped) and macrophage (already mapped) activation; potassium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Huntington disease."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports cellular energy; phosphorus deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Huntington disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -709,3 +718,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HD vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates neuroinflammatory tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Huntington disease.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HD selenium: selenium, as a cofactor for glutathione peroxidases and thioredoxin reductases, attenuates oxidative neuronal stress; selenium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Huntington disease.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HD iodine: iodine, via thyroid hormone biosynthesis, modulates neuronal mitochondrial function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Huntington disease.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HD sodium: high dietary sodium promotes microglial (already mapped) and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the neuroinflammatory cascade of Huntington disease.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HD potassium: potassium depletion promotes microglial (already mapped) and macrophage (already mapped) activation; potassium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Huntington disease.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), supports cellular energy; phosphorus deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of Huntington disease.
