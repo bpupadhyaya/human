@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Opioid-anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) common in opioid use disorder, driven by nutritional deficiency, anaemia, and the chronic inflammatory state of addiction."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "OUD vasopressin: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates HPA-axis (cortisol already mapped) tone; vasopressin dysregulation amplifies the CRH (already mapped) and norepinephrine (already mapped) cascade of opioid use disorder."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "OUD selenium: selenium, as neuroprotective GPx in neurons (already mapped) and microglia (already mapped), scavenges neuroinflammatory ROS; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of opioid use disorder."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "OUD iodine: iodine-dependent thyroid hormones regulate dopaminergic (dopamine already mapped) and serotonergic (serotonin already mapped) tone; iodine deficiency amplifies the HPA (cortisol already mapped) and CRH (already mapped) cascade of opioid use disorder."
 ---
 
 # Opioid Use Disorder
@@ -826,6 +835,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-opioid neuroprotection: erythropoietin and its receptor on neurons (already mapped) and microglia (already mapped) exert neuroprotective anti-apoptotic effects on the opioid-injured dopaminergic (dopamine already mapped) neurons of the reward circuitry.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — CNS-border ECM: periostin, from astrocytes (already mapped) and meningeal fibroblasts, contributes to the perivascular ECM remodelling and the neuroinflammation (IL-1b, IL-6 already mapped) of the opioid-remodelled reward circuitry of opioid use disorder.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Opioid-anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) common in opioid use disorder, driven by nutritional deficiency, anaemia, and the chronic inflammatory state of addiction.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HPA-axis stress modulator: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates HPA-axis (cortisol already mapped) tone; vasopressin dysregulation amplifies the CRH (already mapped) and norepinephrine (already mapped) cascade of opioid use disorder.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Neuroprotective antioxidant: selenium, as neuroprotective GPx in neurons (already mapped) and microglia (already mapped), scavenges neuroinflammatory ROS; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of opioid use disorder.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-reward axis: iodine-dependent thyroid hormones regulate dopaminergic (dopamine already mapped) and serotonergic (serotonin already mapped) tone; iodine deficiency amplifies the HPA (cortisol already mapped) and CRH (already mapped) cascade of opioid use disorder.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)

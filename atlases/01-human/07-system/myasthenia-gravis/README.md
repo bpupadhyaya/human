@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sex-hormone autoimmune modulation: testosterone exerts anti-inflammatory effects on T-cell (already mapped) and B-cell (already mapped) activity; the female preponderance and the hormonal triggers of myasthenia gravis implicate androgen-mediated immune modulation."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "MG serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and T-helper cells (already mapped), modulates IL-6 (already mapped) and TNF (already mapped) cascades; serotonin dysregulation amplifies B-cell (already mapped) anti-AChR response of myasthenia gravis."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "MG prolactin: prolactin, via PRLR on macrophages (already mapped) and T-helper cells (already mapped), enhances IL-6 (already mapped) and the B-cell (already mapped) anti-AChR antibody response; hyperprolactinaemia amplifies the autoimmune drive of myasthenia gravis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "MG oxytocin: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates IL-6 (already mapped) and TNF (already mapped) cascades; oxytocin deficiency amplifies anti-AChR B-cell (already mapped) autoimmunity of myasthenia gravis."
 ---
 
 # Myasthenia Gravis
@@ -778,6 +787,9 @@ cross_links:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell thymic effector: mast cells (already mapped) in the hyperplastic thymus and thymoma (thymus already mapped) of myasthenia gravis release histamine that amplifies the local inflammatory milieu driving the self-reactive B-cell (already mapped) priming against AChR.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian immune modulation: melatonin, with its immunomodulatory properties on T-cell (already mapped) and B-cell (already mapped) autoimmunity, may modulate the circadian oscillation of weakness and the autoimmune activation of myasthenia gravis.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone autoimmune modulation: testosterone exerts anti-inflammatory effects on T-cell (already mapped) and B-cell (already mapped) activity; the female preponderance and the hormonal triggers of myasthenia gravis implicate androgen-mediated immune modulation.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Autoimmune cytokine modulator: serotonin, via 5-HT receptors on macrophages (already mapped) and T-helper cells (already mapped), modulates IL-6 (already mapped) and TNF (already mapped) cascades; serotonin dysregulation amplifies B-cell (already mapped) anti-AChR response of myasthenia gravis.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-neuroendocrine driver: prolactin, via PRLR on macrophages (already mapped) and T-helper cells (already mapped), enhances IL-6 (already mapped) and the B-cell (already mapped) anti-AChR antibody response; hyperprolactinaemia amplifies the autoimmune drive of myasthenia gravis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Immunosuppressive neuropeptide: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates IL-6 (already mapped) and TNF (already mapped) cascades; oxytocin deficiency amplifies anti-AChR B-cell (already mapped) autoimmunity of myasthenia gravis.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
