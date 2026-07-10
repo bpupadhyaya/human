@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement: C5 cleavage generates C5a, which alongside C5aR1 (already mapped) amplifies myeloid recruitment and M2 macrophage polarisation in the osteosarcoma stroma, reinforcing immunosuppression."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Stroma alarmin: TSLP released by the inflamed periosteum and marrow stroma activates dendritic cells (already mapped) and mast cells (already mapped) to shape the type-2 microenvironment of osteosarcoma."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement regulation: C1-esterase inhibitor restrains the complement cascade whose C5a/C5aR1 arm (both already mapped) promotes myeloid recruitment and M2 macrophage polarisation in the osteosarcoma stroma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Stroma mast-cell mediator: histamine released by stromal mast cells (already mapped) amplifies angiogenesis (VEGF already mapped) and prostaglandin-mediated immune evasion in the osteosarcoma microenvironment."
 ---
 
 # Osteosarcoma
@@ -770,6 +779,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia: erythropoietin corrects the severe anaemia induced by MAP chemotherapy in osteosarcoma patients and its receptor (EPOR) on tumour cells suggests a potential direct mitogenic effect.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Bone-pain mediator: bradykinin released at the tumour-bone interface activates B1/B2 receptors on periosteal nociceptors, driving the deep aching bone pain of osteosarcoma—the commonest presenting symptom.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: C5 cleavage generates C5a, which alongside C5aR1 (already mapped) amplifies myeloid recruitment and M2 macrophage polarisation in the osteosarcoma stroma, reinforcing immunosuppression.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stroma alarmin: TSLP released by the inflamed periosteum and marrow stroma activates dendritic cells (already mapped) and mast cells (already mapped) to shape the type-2 microenvironment of osteosarcoma.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the complement cascade whose C5a/C5aR1 arm (both already mapped) promotes myeloid recruitment and M2 macrophage polarisation in the osteosarcoma stroma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Stroma mast-cell mediator: histamine released by stromal mast cells (already mapped) amplifies angiogenesis (VEGF already mapped) and prostaglandin-mediated immune evasion in the osteosarcoma microenvironment.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
