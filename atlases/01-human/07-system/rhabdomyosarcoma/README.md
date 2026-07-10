@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "RMS serotonin: serotonin via 5-HT receptors on rhabdomyosarcoma cells and tumour-associated macrophages modulates the IGF-1 (already mapped) and mTOR (already mapped) signalling and the prostaglandin (already mapped)-driven immune evasion of the rhabdomyosarcoma microenvironment."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "RMS oxytocin: oxytocin modulates muscle (already mapped) progenitor cell differentiation and immune surveillance in the rhabdomyosarcoma tumour microenvironment, intersecting the IGF-1 (already mapped) and mTOR (already mapped) myogenic growth axis of rhabdomyosarcoma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "RMS vasopressin: vasopressin via V1aR on rhabdomyosarcoma-associated endothelial cells modulates tumour vasculature formation, intersecting the VEGF (already mapped) and mTOR (already mapped)-driven angiogenic programme of this paediatric soft-tissue sarcoma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "RMS prolactin: prolactin via JAK2/STAT5 signalling on rhabdomyosarcoma cells promotes tumour survival and activates the IGF-1 (already mapped) and mTOR (already mapped) axes, amplifying the PAX3-FOXO1 (FOXO1 already mapped) oncogenic program of alveolar rhabdomyosarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -791,6 +800,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — RMS melatonin: melatonin via MT1/MT2 receptors on rhabdomyosarcoma cells modulates the IGF-1 (already mapped) and mTOR (already mapped) myogenic differentiation axes, exerting anti-proliferative effects and reducing the desmoplastic tumour microenvironment of rhabdomyosarcoma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — RMS androgen axis: testosterone via androgen receptor on rhabdomyosarcoma cells promotes myogenic proliferation through IGF-1 (already mapped) and mTOR (already mapped) crosstalk, intersecting the PAX3-FOXO1 (FOXO1 already mapped) oncogenic axis of the alveolar subtype.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — RMS serotonin: serotonin via 5-HT receptors on rhabdomyosarcoma cells and tumour-associated macrophages modulates the IGF-1 (already mapped) and mTOR (already mapped) signalling and the prostaglandin (already mapped)-driven immune evasion of the rhabdomyosarcoma microenvironment.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — RMS oxytocin: oxytocin modulates muscle (already mapped) progenitor cell differentiation and immune surveillance in the rhabdomyosarcoma tumour microenvironment, intersecting the IGF-1 (already mapped) and mTOR (already mapped) myogenic growth axis of rhabdomyosarcoma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — RMS vasopressin: vasopressin via V1aR on rhabdomyosarcoma-associated endothelial cells modulates tumour vasculature formation, intersecting the VEGF (already mapped) and mTOR (already mapped)-driven angiogenic programme of this paediatric soft-tissue sarcoma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — RMS prolactin: prolactin via JAK2/STAT5 signalling on rhabdomyosarcoma cells promotes tumour survival and activates the IGF-1 (already mapped) and mTOR (already mapped) axes, amplifying the PAX3-FOXO1 (FOXO1 already mapped) oncogenic program of alveolar rhabdomyosarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
