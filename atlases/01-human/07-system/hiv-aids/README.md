@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "AIDS prolactin: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV/AIDS."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "AIDS oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neurons (already mapped), attenuates NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation; oxytocin buffers IL-6 (already mapped) and TNF-α (already mapped) immune exhaustion in HIV/AIDS."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "AIDS vasopressin: vasopressin, via V1aR on macrophages (already mapped) and neurons (already mapped), modulates NF-κB (already mapped) neuroinflammation and HPA-axis dysregulation; vasopressin amplifies IL-6 (already mapped) and TNF-α (already mapped) immunopathology in HIV/AIDS."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "AIDS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and natural-killer cell (already mapped) immune function; iodine deficiency, common in AIDS, amplifies NF-κB (already mapped) and IL-6 (already mapped) chronic immune activation in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -786,6 +795,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen immunomodulation: testosterone, via androgen receptors on macrophages (already mapped) and T-helper cells (already mapped), attenuates IL-6 (already mapped) and TNF-α (already mapped) activation; androgen deficiency worsens STAT3 (already mapped)-driven AIDS immune exhaustion.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic neuroimmune axis: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the neuroinflammatory (IL-6 and TNF-α already mapped) cascade; serotonin dysregulation amplifies gut-microbiome (already mapped) dysbiosis in HIV/AIDS.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-immune neuroendocrine: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies IL-6 (already mapped) and TNF-α (already mapped) chronic immune dysregulation in HIV/AIDS.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — AIDS oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neurons (already mapped), attenuates NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation; oxytocin buffers IL-6 (already mapped) and TNF-α (already mapped) immune exhaustion in HIV/AIDS.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AIDS vasopressin: vasopressin, via V1aR on macrophages (already mapped) and neurons (already mapped), modulates NF-κB (already mapped) neuroinflammation and HPA-axis dysregulation; vasopressin amplifies IL-6 (already mapped) and TNF-α (already mapped) immunopathology in HIV/AIDS.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AIDS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and natural-killer cell (already mapped) immune function; iodine deficiency, common in AIDS, amplifies NF-κB (already mapped) and IL-6 (already mapped) chronic immune activation in HIV/AIDS.
 
 ## See Also
 
