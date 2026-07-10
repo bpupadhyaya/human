@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Inflammation-pain axis: bradykinin activates B2 receptors in the colorectal mucosa, amplifying prostaglandin (already mapped) and NF-kB (already mapped) signalling in the Lynch tumour microenvironment and contributing to neuropathic pain (already mapped) and inflammatory flares."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: C1-INH controls the classical and lectin complement pathways (C3, C5, C5aR1 and factor H already mapped) that contribute to anti-tumour immunity against the highly immunogenic MSI-H Lynch-spectrum colorectal and endometrial cancers."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Anaemia-of-cancer correction: erythropoietin, rising in response to the anaemia of chronic disease (already mapped) and iron-deficiency anaemia (already mapped) from occult GI bleeding, guides transfusion decisions in Lynch colorectal cancer chemotherapy (already mapped)."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Anti-colorectal-cancer melatonin: melatonin suppresses Wnt/β-catenin (wnt-beta-catenin already mapped) and NF-kB (already mapped) in Lynch MMR-deficient colorectal cells, reducing proliferation and potentiating the anti-tumour immune response of MSI-H tumours."
 ---
 
 # Lynch Syndrome
@@ -778,7 +787,10 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Bleeding iron: transferrin, the iron carrier, reflects the iron-deficiency anaemia from the occult gastrointestinal blood loss that often heralds the colorectal cancer (already mapped) of Lynch syndrome.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Colorectal mucosal alarmin: TSLP from the intestinal epithelium (already mapped) activates dendritic cells (already mapped) and mast cells (already mapped), shaping the mucosal type-2 immune environment of the MSI-H colorectal and endometrial Lynch-spectrum cancers.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Pericolorectal stroma: periostin, a SMAD4-downstream ECM protein (SMAD4 already mapped), drives cancer-associated fibroblast activation in the Lynch colorectal stroma; elevated tumour-adjacent periostin correlates with invasiveness of Lynch-spectrum cancers.
-- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Inflammation-pain axis: bradykinin activates B2 receptors in the colorectal mucosa, amplifying prostaglandin (already mapped) and NF-kB (already mapped) signalling in the Lynch tumour microenvironment and contributing to neuropathic pain (already mapped) and inflammatory flares.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Inflammation-pain axis: bradykinin activates B2 receptors in the colorectal mucosa, amplifying prostaglandin (already mapped) and NF-κB (already mapped) signalling in the Lynch tumour microenvironment and contributing to neuropathic pain (already mapped) and inflammatory flares.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical and lectin complement pathways (C3, C5, C5aR1 and factor H already mapped) that contribute to anti-tumour immunity against the highly immunogenic MSI-H Lynch-spectrum colorectal and endometrial cancers.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia-of-cancer correction: erythropoietin, rising in response to the anaemia of chronic disease (already mapped) and iron-deficiency anaemia (already mapped) from occult GI bleeding, guides transfusion decisions in Lynch colorectal cancer chemotherapy (already mapped).
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Anti-colorectal-cancer melatonin: melatonin suppresses Wnt/β-catenin (wnt-beta-catenin already mapped) and NF-κB (already mapped) in Lynch MMR-deficient colorectal cells, reducing proliferation and potentiating the anti-tumour immune response of MSI-H tumours.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

@@ -482,6 +482,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Lymphocyte antioxidant defence: selenium (selenoproteins in lymphocytes and NK cells already mapped) protects lymphatic endothelium from reactive oxygen species; selenium deficiency impairs NK-cell cytotoxicity and lymph-node immune surveillance."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian lymphocyte regulation: melatonin synchronises circadian lymphocyte (T-cell, B-cell and NK-cell already mapped) homing through lymph nodes, attenuates NF-kB (already mapped) in lymphatic endothelium, and supports nocturnal immune surveillance."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Lymphocyte proliferation hormone: prolactin, via PRL-R on B cells (already mapped) and T cells (already mapped), stimulates lymphocyte proliferation and antibody (already mapped) production in lymph-node germinal centres (already mapped), supporting systemic humoral immunity."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Immunomodulatory neuropeptide: oxytocin, via OXT-R on lymphocytes (T-cell and B-cell already mapped) and NK cells (already mapped), attenuates excessive lymph-node immune activation and supports regulatory T-cell (already mapped) mediated immune tolerance."
 ---
 
 # Lymphatic System
@@ -746,6 +755,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Lymphangiogenesis: EPO receptors on lymphatic endothelial cells mediate JAK2/STAT5 signalling (JAK1-2 already mapped) that promotes lymphangiogenesis; EPO also counters the anaemia of chronic-disease (already mapped) arising from lymphoma-related marrow infiltration.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron transport via lymph: transferrin-bound iron is carried through the intestinal lacteals and lymph after gut absorption; the lymphatic system supports the redistribution of transferrin iron to marrow and spleen (already mapped) during haematopoiesis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Lymphocyte antioxidant defence: selenium (selenoproteins in lymphocytes and NK cells already mapped) protects lymphatic endothelium from reactive oxygen species; selenium deficiency impairs NK-cell cytotoxicity and lymph-node immune surveillance.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian lymphocyte regulation: melatonin synchronises circadian lymphocyte (T-cell, B-cell and NK-cell already mapped) homing through lymph nodes, attenuates NF-κB (already mapped) in lymphatic endothelium, and supports nocturnal immune surveillance.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Lymphocyte proliferation hormone: prolactin, via PRL-R on B cells (already mapped) and T cells (already mapped), stimulates lymphocyte proliferation and antibody (already mapped) production in lymph-node germinal centres (already mapped), supporting systemic humoral immunity.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Immunomodulatory neuropeptide: oxytocin, via OXT-R on lymphocytes (T-cell and B-cell already mapped) and NK cells (already mapped), attenuates excessive lymph-node immune activation and supports regulatory T-cell (already mapped) mediated immune tolerance.
 
 ## Pathology
 
