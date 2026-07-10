@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "UM prolactin: prolactin via JAK2/STAT3 (already mapped) on uveal melanoma cells promotes tumour-cell survival and NF-κB (already mapped)-mediated anti-apoptotic expression; prolactin also modulates the hepatic (already mapped) metastatic niche of uveal melanoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "UM selenium: selenoproteins quench ROS from mTOR (already mapped) and VEGF (already mapped) in uveal melanoma; selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs T-cytotoxic-cell (already mapped) and macrophage (already mapped) immunity."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "UM iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies VEGF (already mapped) and mTOR (already mapped)-driven uveal melanoma growth and NF-κB (already mapped) cascade."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "UM sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplify VEGF (already mapped) and mTOR (already mapped) and STAT3 (already mapped)-driven cascade of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -812,6 +821,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — UM oxytocin: oxytocin receptor on uveal melanoma cells attenuates GNAQ (already mapped)-driven cAMP/PKA and mTOR (already mapped) oncogenic signalling; oxytocin also enhances NK-cell (already mapped) cytotoxicity against the immune-evading uveal-melanoma microenvironment.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — UM vasopressin: vasopressin V1A receptor on uveal melanoma cells intersects GNAQ (already mapped)/PLC/PKC and mTOR (already mapped) oncogenic axes; V1A-driven calcium-PKC signalling amplifies uveal-melanoma proliferation and immune evasion in the ocular microenvironment.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — UM prolactin: prolactin via JAK2/STAT3 (already mapped) on uveal melanoma cells promotes tumour-cell survival and NF-κB (already mapped)-mediated anti-apoptotic expression; prolactin also modulates the hepatic (already mapped) metastatic niche of uveal melanoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — UM selenium: selenoproteins quench ROS from mTOR (already mapped) and VEGF (already mapped) in uveal melanoma; selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs T-cytotoxic-cell (already mapped) and macrophage (already mapped) immunity.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — UM iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies VEGF (already mapped) and mTOR (already mapped)-driven uveal melanoma growth and NF-κB (already mapped) cascade.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — UM sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplify VEGF (already mapped) and mTOR (already mapped) and STAT3 (already mapped)-driven cascade of uveal melanoma.
 
 ---
 

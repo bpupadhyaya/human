@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "T2D phosphorus: phosphorus is essential for ATP-mediated insulin (already mapped) signalling and AMPK (already mapped) activation in T2D; hyperphosphaturia accelerates CKD (already mapped) progression and FGF-23/phosphate dysregulation amplifies cardiovascular risk in diabetes."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "T2D iron: iron overload promotes hepatocyte (already mapped) and macrophage (already mapped) oxidative stress; iron-induced NF-κB (already mapped) and IL-6 (already mapped) amplify adipocyte (already mapped) inflammation and insulin (already mapped) resistance cascade of T2D."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "T2D chloride: chloride, via CFTR in pancreatic and hepatocyte (already mapped) cells, regulates insulin (already mapped) secretion; chloride dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of type 2 diabetes."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "T2D sulfur: glutathione buffers oxidative stress from NF-κB (already mapped) and AMPK (already mapped) in macrophages (already mapped) and hepatocytes (already mapped); hyperhomocysteinaemia amplifies insulin (already mapped) resistance and IL-6 (already mapped) cascade of T2D."
 ---
 
 # Type 2 Diabetes
@@ -786,6 +795,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — T2D iodine: iodine-dependent thyroid hormones regulate insulin (already mapped) sensitivity and AMPK (already mapped) signalling in type 2 diabetes; hypothyroidism worsens hepatic (already mapped) glucose output and NF-κB (already mapped)-driven adipose inflammation in T2D.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — T2D copper: copper-dependent superoxide dismutase (SOD) combats oxidative stress driving NF-κB (already mapped)-mediated beta-cell (already mapped) damage and insulin (already mapped) resistance in type 2 diabetes; copper dysregulation worsens T2D vascular complications.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — T2D phosphorus: phosphorus is essential for ATP-mediated insulin (already mapped) signalling and AMPK (already mapped) activation in T2D; hyperphosphaturia accelerates CKD (already mapped) progression and FGF-23/phosphate dysregulation amplifies cardiovascular risk in diabetes.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — T2D iron: iron overload promotes hepatocyte (already mapped) and macrophage (already mapped) oxidative stress; iron-induced NF-κB (already mapped) and IL-6 (already mapped) amplify adipocyte (already mapped) inflammation and insulin (already mapped) resistance cascade of T2D.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — T2D chloride: chloride, via CFTR in pancreatic and hepatocyte (already mapped) cells, regulates insulin (already mapped) secretion; chloride dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of type 2 diabetes.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — T2D sulfur: glutathione buffers oxidative stress from NF-κB (already mapped) and AMPK (already mapped) in macrophages (already mapped) and hepatocytes (already mapped); hyperhomocysteinaemia amplifies insulin (already mapped) resistance and IL-6 (already mapped) cascade of T2D.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
