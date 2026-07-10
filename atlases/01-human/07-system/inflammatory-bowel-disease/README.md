@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Oxytocin-IBD axis: oxytocin, via its receptor on intestinal epithelial cells (already mapped) and mast cells (already mapped), promotes gut-barrier integrity, attenuates NFκB (already mapped) mucosal inflammation, and modulates the pain and motility of IBD."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "IBD vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates intestinal vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of inflammatory bowel disease."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "IBD iodine: iodine, via thyroid hormone biosynthesis, modulates intestinal epithelial (already mapped) and macrophage (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of inflammatory bowel disease."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "IBD copper: copper, as a cofactor for SOD1-mediated antioxidant defence and macrophage (already mapped) function, attenuates mucosal oxidative stress; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of inflammatory bowel disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -799,6 +808,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-IBD axis: testosterone, via androgen receptor signalling on intestinal epithelial cells (already mapped) and mucosal macrophages (already mapped), modulates Th17/Treg balance and the sex-biased clinical phenotype and extraintestinal manifestations of IBD.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-IBD axis: prolactin, via PRL-R on intestinal macrophages (already mapped) and T cells (already mapped), amplifies mucosal Th1/Th17 (already mapped) cytokine production and the autoimmune intestinal inflammation of inflammatory bowel disease.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin-IBD axis: oxytocin, via its receptor on intestinal epithelial cells (already mapped) and mast cells (already mapped), promotes gut-barrier integrity, attenuates NFκB (already mapped) mucosal inflammation, and modulates the pain and motility of IBD.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — IBD vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates intestinal vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of inflammatory bowel disease.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IBD iodine: iodine, via thyroid hormone biosynthesis, modulates intestinal epithelial (already mapped) and macrophage (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of inflammatory bowel disease.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — IBD copper: copper, as a cofactor for SOD1-mediated antioxidant defence and macrophage (already mapped) function, attenuates mucosal oxidative stress; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of inflammatory bowel disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

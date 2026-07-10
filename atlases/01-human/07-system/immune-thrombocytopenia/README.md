@@ -510,6 +510,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Vasopressin-ITP axis: vasopressin, via V1b receptors on immune cells (already mapped), modulates HPA-axis stress-immune cross-talk, T-cell (already mapped) activation, and the corticosteroid-responsive dimension of immune thrombocytopenia."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "ITP iodine: iodine, via thyroid hormone biosynthesis, modulates macrophage (already mapped) and platelet (already mapped) production; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of immune thrombocytopenia."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "ITP sodium: sodium, via high dietary intake, shifts macrophages (already mapped) and NK cells (already mapped) to pro-inflammatory states; excess sodium amplifies the NF-κB (already mapped) and TNF-α (already mapped) platelet (already mapped) cascade of immune thrombocytopenia."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "ITP magnesium: magnesium, as a cofactor for complement regulation and NK-cell (already mapped) cytotoxicity, attenuates thrombocytopenic injury; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) macrophage (already mapped) cascade of ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -809,6 +818,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-ITP axis: testosterone, via androgen receptor on B cells (already mapped) and regulatory T cells (already mapped), suppresses anti-platelet autoantibody production and contributes to the male-protective effect on ITP incidence and disease severity.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin-ITP axis: oxytocin, via its receptor on regulatory T cells (already mapped) and B cells (already mapped), modulates immune tolerance, attenuates anti-platelet IgG (already mapped) autoantibody production, and regulates the neuroimmune milieu of ITP.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin-ITP axis: vasopressin, via V1b receptors on immune cells (already mapped), modulates HPA-axis stress-immune cross-talk, T-cell (already mapped) activation, and the corticosteroid-responsive dimension of immune thrombocytopenia.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — ITP iodine: iodine, via thyroid hormone biosynthesis, modulates macrophage (already mapped) and platelet (already mapped) production; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of immune thrombocytopenia.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ITP sodium: sodium, via high dietary intake, shifts macrophages (already mapped) and NK cells (already mapped) to pro-inflammatory states; excess sodium amplifies the NF-κB (already mapped) and TNF-α (already mapped) platelet (already mapped) cascade of immune thrombocytopenia.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — ITP magnesium: magnesium, as a cofactor for complement regulation and NK-cell (already mapped) cytotoxicity, attenuates thrombocytopenic injury; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) macrophage (already mapped) cascade of ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
