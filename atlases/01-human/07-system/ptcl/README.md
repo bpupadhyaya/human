@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Chemotherapy anaemia: erythropoietin corrects the cytopenias of CHOP-based chemotherapy used in peripheral T-cell lymphoma, and its receptor on lymphoma T cells raises the question of a potential direct tumour-trophic effect."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian immune surveillance: melatonin modulates NK cell (already mapped) and CD8 T-cell activity, with circadian disruption—common in lymphoma patients—impairing immune control of the peripheral T-cell lymphoma clone."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Lymphocyte activation: prolactin, via JAK2 (already mapped) signalling, promotes T-cell and B-cell proliferation within the reactive infiltrate of peripheral T-cell lymphoma; hyperprolactinaemia has been associated with lymphoma risk in autoimmune contexts."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroendocrine immune modulation: oxytocin modulates the NK cell (already mapped) and T-cell activity restraining the peripheral T-cell lymphoma clone, with psychosocial stress—which suppresses oxytocin—being an immunosuppressive co-factor."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -784,6 +793,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Lymphomagenesis kinin: bradykinin, released from the kallikrein–kinin system activated by the protease-rich PTCL microenvironment, amplifies tumour vasodilation and the vascular permeability that characterises the reactive angioedema variants of this lymphoma.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement brake: C1-esterase inhibitor modulates the classical complement pathway (C3, C5 and C5aR1 already mapped) activated on the polymorphous reactive infiltrate and tumour surface of peripheral T-cell lymphoma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia: erythropoietin corrects the cytopenias of CHOP-based chemotherapy used in peripheral T-cell lymphoma, and its receptor on lymphoma T cells raises the question of a potential direct tumour-trophic effect.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian immune surveillance: melatonin modulates NK cell (already mapped) and CD8 T-cell activity, with circadian disruption—common in lymphoma patients—impairing immune control of the peripheral T-cell lymphoma clone.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Lymphocyte activation: prolactin, via JAK2 (already mapped) signalling, promotes T-cell and B-cell proliferation within the reactive infiltrate of peripheral T-cell lymphoma; hyperprolactinaemia has been associated with lymphoma risk in autoimmune contexts.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroendocrine immune modulation: oxytocin modulates the NK cell (already mapped) and T-cell activity restraining the peripheral T-cell lymphoma clone, with psychosocial stress—which suppresses oxytocin—being an immunosuppressive co-factor.
 
 ---
 

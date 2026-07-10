@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Hypoxia erythrocytosis: erythropoietin, upregulated by the chronic pulmonary hypoxia (HIF-1α already mapped) of PAH, drives the secondary polycythaemia that initially compensates oxygen delivery but ultimately worsens blood viscosity."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement and contact-activation brake: C1-esterase inhibitor restrains the complement (C3, C5 and C5aR1 already mapped) and kallikrein-kinin (bradykinin already mapped) pathways that amplify the endothelial injury and perivascular inflammation of PAH."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Perivascular mast-cell mediator: histamine released by perivascular mast cells (already mapped) promotes endothelial permeability (endothelin-1 already mapped), smooth muscle cell (already mapped) proliferation and angiogenesis in PAH lesions."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Vascular remodelling ECM: periostin, induced by TGF-β and PDGF (both already mapped) in the PAH vascular wall, promotes smooth muscle cell (already mapped) migration and the matrix stiffness that drives the progressive vascular occlusion of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -770,6 +779,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Perivascular alarmin: TSLP released by inflamed pulmonary vascular endothelium promotes mast-cell degranulation and Th2 skewing within the perivascular infiltrates that drive the vascular remodelling of pulmonary arterial hypertension.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Vasodilatory paradox: bradykinin, whose pulmonary degradation by ACE is impaired in PAH, accumulates at the remodelling vascular wall, driving the cough and paradoxical vasodilation that limits ACE-inhibitor use in this condition.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Hypoxia erythrocytosis: erythropoietin, upregulated by the chronic pulmonary hypoxia (HIF-1α already mapped) of PAH, drives the secondary polycythaemia that initially compensates oxygen delivery but ultimately worsens blood viscosity.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement and contact-activation brake: C1-esterase inhibitor restrains the complement (C3, C5 and C5aR1 already mapped) and kallikrein-kinin (bradykinin already mapped) pathways that amplify the endothelial injury and perivascular inflammation of PAH.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Perivascular mast-cell mediator: histamine released by perivascular mast cells (already mapped) promotes endothelial permeability (endothelin-1 already mapped), smooth muscle cell (already mapped) proliferation and angiogenesis in PAH lesions.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Vascular remodelling ECM: periostin, induced by TGF-β and PDGF (both already mapped) in the PAH vascular wall, promotes smooth muscle cell (already mapped) migration and the matrix stiffness that drives the progressive vascular occlusion of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
