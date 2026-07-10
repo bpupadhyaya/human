@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian immunomodulation: melatonin, via its anti-inflammatory and antioxidant effects, modulates the neutrophil (already mapped) activation and the oxidative injury of the systemic autoimmune inflammation of ANCA vasculitis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone vasculitis: testosterone exerts anti-inflammatory effects on neutrophil (already mapped) and T-cell (already mapped) autoimmunity; the male sex predisposition to GPA and the female-to-MPA ratio implicate androgen-mediated immune modulation in ANCA vasculitis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Platelet-serotonin vascular injury: serotonin, released by platelets (already mapped) upon the endothelial (already mapped) injury of necrotising vasculitis, amplifies the vasoconstriction and the thrombotic occlusion of the ANCA-damaged vessel wall."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune neuroendocrine: prolactin modulates T-cell (already mapped) and B-cell (already mapped) autoimmune activation; its elevation in active systemic autoimmune disease contributes to the sex-immune-neuroendocrine dimension of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -799,6 +808,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-vasculitis axis: bradykinin, via B1/B2 receptors on vascular endothelium (already mapped) and neutrophils (already mapped), amplifies the vascular permeability and the necrotising inflammation of ANCA vasculitis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia of inflammation: erythropoietin response is blunted by the chronic inflammation (IL-6, TNF already mapped) of ANCA vasculitis, contributing to the normocytic anaemia of the active disease.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian immunomodulation: melatonin, via its anti-inflammatory and antioxidant effects, modulates the neutrophil (already mapped) activation and the oxidative injury of the systemic autoimmune inflammation of ANCA vasculitis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone vasculitis: testosterone exerts anti-inflammatory effects on neutrophil (already mapped) and T-cell (already mapped) autoimmunity; the male sex predisposition to GPA and the female-to-MPA ratio implicate androgen-mediated immune modulation in ANCA vasculitis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-serotonin vascular injury: serotonin, released by platelets (already mapped) upon the endothelial (already mapped) injury of necrotising vasculitis, amplifies the vasoconstriction and the thrombotic occlusion of the ANCA-damaged vessel wall.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune neuroendocrine: prolactin modulates T-cell (already mapped) and B-cell (already mapped) autoimmune activation; its elevation in active systemic autoimmune disease contributes to the sex-immune-neuroendocrine dimension of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
