@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell immunosuppression: histamine from the mast cells (already mapped) infiltrating melanoma stroma promotes VEGF (already mapped) angiogenesis and suppresses NK-cell cytotoxicity via H2 receptor signalling, contributing to the immune-evasion of melanoma."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Tumour vascular permeability: bradykinin, via B2 receptor, amplifies VEGF-driven (already mapped) angiogenesis and peritumoral oedema in melanoma; kinin-kallikrein activation enhances mast-cell (already mapped) and fibroblast (already mapped) stromal recruitment."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Tumour EPOR signalling: erythropoietin receptor (EPOR) on melanoma cells activates JAK2/STAT3 (already mapped) pro-survival signalling, promotes VEGF (already mapped) angiogenesis, and blunts the apoptotic response to checkpoint-inhibitor (already mapped) immunotherapy."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Oncostatic melatonin: melatonin, via MT1/MT2 receptors on melanoma cells, suppresses BRAF (already mapped) and VEGF-driven (already mapped) proliferation and invasion, reduces MMP activity and augments NK-cell (already mapped) cytotoxicity against melanoma."
 ---
 
 # Melanoma
@@ -737,6 +746,9 @@ cross_links:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Immune-polarisation alarmin: TSLP from keratinocytes and stromal cells skews the melanoma microenvironment toward Th2, suppressing the anti-tumour Th1 and NK-cell (already mapped) immunity and reducing the efficacy of the PD-1 (already mapped) checkpoint inhibitors.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Melanoma invasion stroma: periostin secreted by cancer-associated fibroblasts and TGF-β (already mapped) signalling promotes the stromal remodelling and integrin αV-mediated invasiveness of melanoma cells, facilitating the locoregional spread and metastasis of melanoma.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell immunosuppression: histamine from the mast cells (already mapped) infiltrating melanoma stroma promotes VEGF (already mapped) angiogenesis and suppresses NK-cell cytotoxicity via H2 receptor signalling, contributing to the immune-evasion of melanoma.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Tumour vascular permeability: bradykinin, via B2 receptor, amplifies VEGF-driven (already mapped) angiogenesis and peritumoral oedema in melanoma; kinin-kallikrein activation enhances mast-cell (already mapped) and fibroblast (already mapped) stromal recruitment.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour EPOR signalling: erythropoietin receptor (EPOR) on melanoma cells activates JAK2/STAT3 (already mapped) pro-survival signalling, promotes VEGF (already mapped) angiogenesis, and blunts the apoptotic response to checkpoint-inhibitor (already mapped) immunotherapy.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Oncostatic melatonin: melatonin, via MT1/MT2 receptors on melanoma cells, suppresses BRAF (already mapped) and VEGF-driven (already mapped) proliferation and invasion, reduces MMP activity and augments NK-cell (already mapped) cytotoxicity against melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
