@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "MS vasopressin: vasopressin, via V1aR on microglia (already mapped) and oligodendrocytes (already mapped), modulates BBB osmolality and neuroinflammation; vasopressin dysregulation amplifies NLRP3 (already mapped) and IL-6 (already mapped) cascade of multiple sclerosis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MS iodine: iodine-dependent thyroid hormones regulate oligodendrocyte (already mapped) differentiation and myelin synthesis; iodine deficiency amplifies the remyelination failure and IL-6 (already mapped) neuroinflammatory cascade of multiple sclerosis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "MS magnesium: magnesium, via NMDA-receptor (already mapped) blockade on oligodendrocytes (already mapped), reduces glutamate-driven excitotoxicity; magnesium deficiency amplifies the NLRP3 (already mapped) and IL-17a (already mapped) cascade of multiple sclerosis."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "MS copper: copper, as cofactor of cytochrome-c oxidase in oligodendrocytes (already mapped) and superoxide dismutase (already mapped), is essential for myelin synthesis; copper deficiency recapitulates the demyelinating cascade of multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -789,6 +798,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Neuroinflammatory modulator: serotonin, via 5-HT receptors on microglia (already mapped) and oligodendrocytes (already mapped), modulates neuroinflammation and remyelination; serotonin dysregulation amplifies the IL-6 (already mapped) and NLRP3 (already mapped) cascade of multiple sclerosis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Anti-inflammatory remyelination: oxytocin, via OXTR on microglia (already mapped) and regulatory T cells (already mapped), attenuates neuroinflammation and promotes remyelination; oxytocin deficiency amplifies the IL-17a (already mapped) and IL-6 (already mapped) cascade of multiple sclerosis.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — BBB osmolality modulator: vasopressin, via V1aR on microglia (already mapped) and oligodendrocytes (already mapped), modulates BBB osmolality and neuroinflammation; vasopressin dysregulation amplifies NLRP3 (already mapped) and IL-6 (already mapped) cascade of multiple sclerosis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-myelin axis: iodine-dependent thyroid hormones regulate oligodendrocyte (already mapped) differentiation and myelin synthesis; iodine deficiency amplifies the remyelination failure and IL-6 (already mapped) neuroinflammatory cascade of multiple sclerosis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Glutamate-excitotoxicity brake: magnesium, via NMDA-receptor (already mapped) blockade on oligodendrocytes (already mapped), reduces glutamate-driven excitotoxicity; magnesium deficiency amplifies the NLRP3 (already mapped) and IL-17a (already mapped) cascade of multiple sclerosis.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Myelin-synthesis cofactor: copper, as cofactor of cytochrome-c oxidase in oligodendrocytes (already mapped) and superoxide dismutase (already mapped), is essential for myelin synthesis; copper deficiency recapitulates the demyelinating cascade of multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
