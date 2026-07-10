@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "AUD selenium: selenium, as GPx in hepatocytes (already mapped) and neurons (already mapped), scavenges alcohol-induced ROS; selenium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) hepatic neuroinflammatory cascade of alcohol use disorder."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "AUD iodine: iodine-dependent thyroid hormones modulate hepatic alcohol metabolism and neuronal GABA (already mapped) tone; iodine deficiency impairs thyroid regulation of the CRH (already mapped) and dopamine (already mapped) craving cascade of alcohol use disorder."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "AUD sodium: heavy alcohol use activates renin-angiotensin-aldosterone, causing sodium retention and hypertension (already mapped); sodium dysregulation amplifies the CRH (already mapped) and NF-κB (already mapped) cascade of alcohol use disorder."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "AUD copper: copper, as SOD cofactor, scavenges alcohol-induced ROS in hepatocytes (already mapped) and neurons (already mapped); copper dyshomeostasis amplifies the NF-κB (already mapped) and NLRP3 (already mapped) hepatic neuroinflammatory cascade of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -867,6 +876,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — AUD prolactin: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates HPA-axis (CRH already mapped) tone; hyperprolactinaemia amplifies the cortisol (already mapped) and dopamine (already mapped) craving cascade of alcohol use disorder.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AUD vasopressin: vasopressin, via V1aR on neurons (already mapped) and astrocytes (already mapped), modulates HPA-axis stress; vasopressin excess amplifies the CRH (already mapped) and cortisol (already mapped) withdrawal cascade of alcohol use disorder.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — AUD selenium: selenium, as GPx in hepatocytes (already mapped) and neurons (already mapped), scavenges alcohol-induced ROS; selenium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) hepatic neuroinflammatory cascade of alcohol use disorder.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-hepatic axis: iodine-dependent thyroid hormones modulate hepatic alcohol metabolism and neuronal GABA (already mapped) tone; iodine deficiency impairs thyroid regulation of the CRH (already mapped) and dopamine (already mapped) craving cascade of alcohol use disorder.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — RAAS-sodium dysregulation: heavy alcohol use activates renin-angiotensin-aldosterone, causing sodium retention and hypertension (already mapped); sodium dysregulation amplifies the CRH (already mapped) and NF-κB (already mapped) cascade of alcohol use disorder.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Hepatic antioxidant cofactor: copper, as SOD cofactor, scavenges alcohol-induced ROS in hepatocytes (already mapped) and neurons (already mapped); copper dyshomeostasis amplifies the NF-κB (already mapped) and NLRP3 (already mapped) hepatic neuroinflammatory cascade of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
