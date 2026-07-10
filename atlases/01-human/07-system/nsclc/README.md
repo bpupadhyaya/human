@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "NSCLC vasopressin: vasopressin via V1a receptors on NSCLC stroma and macrophages (already mapped) activates Gαq-PLC-IP3 signalling, cross-activating VEGF (already mapped) and mTOR (already mapped) angiogenic cascades in non-small-cell lung cancer."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "NSCLC selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the NSCLC tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "NSCLC iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NSCLC."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "NSCLC sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) anti-tumour cascade of NSCLC."
 ---
 
 # NSCLC
@@ -784,6 +793,9 @@ cross_links:
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — NSCLC prolactin: prolactin via JAK2/STAT3 (already mapped) and mTOR (already mapped) activates NSCLC tumour cells and macrophages (already mapped), promoting PD-L1 (already mapped) upregulation and immunosuppressive microenvironment in non-small-cell lung cancer.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — NSCLC oxytocin: oxytocin receptors on NSCLC tumour and mast cells (already mapped) couple to Gαq-PKC, activating KRAS (already mapped) and EGFR (already mapped) downstream proliferative signalling in non-small-cell lung cancer.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — NSCLC vasopressin: vasopressin via V1a receptors on NSCLC stroma and macrophages (already mapped) activates Gαq-PLC-IP3 signalling, cross-activating VEGF (already mapped) and mTOR (already mapped) angiogenic cascades in non-small-cell lung cancer.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — NSCLC selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the NSCLC tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NSCLC iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NSCLC.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NSCLC sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) anti-tumour cascade of NSCLC.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

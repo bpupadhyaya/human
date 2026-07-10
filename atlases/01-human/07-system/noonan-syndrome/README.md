@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Noonan selenium: selenium via GPX and selenoprotein P suppresses PTPN11 (already mapped) SHP2-driven ROS in Noonan syndrome cardiomyocytes and endothelial cells (already mapped), attenuating hypertrophic cardiomyopathy progression."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Noonan iodine: iodine-dependent thyroid hormones regulate cardiomyocyte (already mapped) and endothelial-cell (already mapped) development; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) congenital RASopathy cascade of Noonan syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Noonan sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies endothelial-cell (already mapped) dysfunction in Noonan syndrome."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Noonan copper: copper, as co-factor of lysyl oxidase in endothelial cells (already mapped) and cardiomyocytes (already mapped), supports ECM crosslinking; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac-developmental dysregulation."
 ---
 
 # Noonan Syndrome
@@ -813,6 +822,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Noonan oxytocin: oxytocin receptors on Noonan cardiomyocytes and vascular endothelial cells (already mapped) couple to Gαq-PKC, cross-activating the PTPN11 (already mapped) SHP2-driven RAS/MAPK cascade, amplifying hypertrophic cardiomyopathy.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Noonan vasopressin: vasopressin via V2 receptors on Noonan syndrome renal (already mapped) and vascular cells modulates fluid retention and cAMP-PKA signalling converging on PTPN11 (already mapped) RAS/MAPK, amplifying lymphoedema and cardiomyopathy.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Noonan selenium: selenium via GPX and selenoprotein P suppresses PTPN11 (already mapped) SHP2-driven ROS in Noonan syndrome cardiomyocytes and endothelial cells (already mapped), attenuating hypertrophic cardiomyopathy progression.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Noonan iodine: iodine-dependent thyroid hormones regulate cardiomyocyte (already mapped) and endothelial-cell (already mapped) development; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) congenital RASopathy cascade of Noonan syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Noonan sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies endothelial-cell (already mapped) dysfunction in Noonan syndrome.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Noonan copper: copper, as co-factor of lysyl oxidase in endothelial cells (already mapped) and cardiomyocytes (already mapped), supports ECM crosslinking; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac-developmental dysregulation.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
