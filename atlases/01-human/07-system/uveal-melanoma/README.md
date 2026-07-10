@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "UM serotonin: serotonin, co-produced by neuroendocrine uveal tissue, acts on 5-HT receptors on uveal melanoma cells driving autocrine proliferative signalling and promotes the liver (already mapped) metastatic niche via serotonin-mediated hepatic immunosuppression."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "UM oxytocin: oxytocin receptor on uveal melanoma cells attenuates GNAQ (already mapped)-driven cAMP/PKA and mTOR (already mapped) oncogenic signalling; oxytocin also enhances NK-cell (already mapped) cytotoxicity against the immune-evading uveal-melanoma microenvironment."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "UM vasopressin: vasopressin V1A receptor on uveal melanoma cells intersects GNAQ (already mapped)/PLC/PKC and mTOR (already mapped) oncogenic axes; V1A-driven calcium-PKC signalling amplifies uveal-melanoma proliferation and immune evasion in the ocular microenvironment."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "UM prolactin: prolactin via JAK2/STAT3 (already mapped) on uveal melanoma cells promotes tumour-cell survival and NF-κB (already mapped)-mediated anti-apoptotic expression; prolactin also modulates the hepatic (already mapped) metastatic niche of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -800,6 +809,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — UM melatonin: melatonin suppresses uveal-melanoma proliferation via MT1/MT2 receptor-mediated inhibition of cAMP and mTOR (already mapped) signalling; it also augments NK-cell (already mapped) cytotoxicity against the immunosuppressive uveal-melanoma tumour microenvironment.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — UM testosterone: androgen receptor signalling in uveal melanoma promotes tumour-cell proliferation and survival; testosterone drives the liver (already mapped) metastatic niche via androgen-mediated hepatic immune reprogramming that blunts NK-cell (already mapped) surveillance.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — UM serotonin: serotonin, co-produced by neuroendocrine uveal tissue, acts on 5-HT receptors on uveal melanoma cells driving autocrine proliferative signalling and promotes the liver (already mapped) metastatic niche via serotonin-mediated hepatic immunosuppression.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — UM oxytocin: oxytocin receptor on uveal melanoma cells attenuates GNAQ (already mapped)-driven cAMP/PKA and mTOR (already mapped) oncogenic signalling; oxytocin also enhances NK-cell (already mapped) cytotoxicity against the immune-evading uveal-melanoma microenvironment.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — UM vasopressin: vasopressin V1A receptor on uveal melanoma cells intersects GNAQ (already mapped)/PLC/PKC and mTOR (already mapped) oncogenic axes; V1A-driven calcium-PKC signalling amplifies uveal-melanoma proliferation and immune evasion in the ocular microenvironment.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — UM prolactin: prolactin via JAK2/STAT3 (already mapped) on uveal melanoma cells promotes tumour-cell survival and NF-κB (already mapped)-mediated anti-apoptotic expression; prolactin also modulates the hepatic (already mapped) metastatic niche of uveal melanoma.
 
 ---
 

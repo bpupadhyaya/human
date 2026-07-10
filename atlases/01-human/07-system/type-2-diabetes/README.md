@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "T2D vasopressin: vasopressin (ADH) drives hepatic (already mapped) glucose production via V1b receptor on pancreatic (already mapped) alpha-cells; elevated copeptin predicts T2D risk, and AVP-driven osmotic signalling amplifies the AMPK (already mapped) pathway dysfunction."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "T2D iodine: iodine-dependent thyroid hormones regulate insulin (already mapped) sensitivity and AMPK (already mapped) signalling in type 2 diabetes; hypothyroidism worsens hepatic (already mapped) glucose output and NF-κB (already mapped)-driven adipose inflammation in T2D."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "T2D copper: copper-dependent superoxide dismutase (SOD) combats oxidative stress driving NF-κB (already mapped)-mediated beta-cell (already mapped) damage and insulin (already mapped) resistance in type 2 diabetes; copper dysregulation worsens T2D vascular complications."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "T2D phosphorus: phosphorus is essential for ATP-mediated insulin (already mapped) signalling and AMPK (already mapped) activation in T2D; hyperphosphaturia accelerates CKD (already mapped) progression and FGF-23/phosphate dysregulation amplifies cardiovascular risk in diabetes."
 ---
 
 # Type 2 Diabetes
@@ -774,6 +783,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — T2D prolactin: prolactin acts as a pancreatic (already mapped) beta-cell survival factor; gestational hyperprolactinaemia promotes beta-cell mass expansion, while elevated prolactin in T2D amplifies insulin resistance and worsens the metabolic dysfunction.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — T2D oxytocin: oxytocin receptors on pancreatic (already mapped) beta-cells modulate insulin (already mapped) secretion in type 2 diabetes; intranasal oxytocin reduces food intake and adiponectin/leptin (already mapped) adipose inflammation, worsening insulin resistance.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — T2D vasopressin: vasopressin (ADH) drives hepatic (already mapped) glucose production via V1b receptor on pancreatic (already mapped) alpha-cells; elevated copeptin predicts T2D risk, and AVP-driven osmotic signalling amplifies the AMPK (already mapped) pathway dysfunction.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — T2D iodine: iodine-dependent thyroid hormones regulate insulin (already mapped) sensitivity and AMPK (already mapped) signalling in type 2 diabetes; hypothyroidism worsens hepatic (already mapped) glucose output and NF-κB (already mapped)-driven adipose inflammation in T2D.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — T2D copper: copper-dependent superoxide dismutase (SOD) combats oxidative stress driving NF-κB (already mapped)-mediated beta-cell (already mapped) damage and insulin (already mapped) resistance in type 2 diabetes; copper dysregulation worsens T2D vascular complications.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — T2D phosphorus: phosphorus is essential for ATP-mediated insulin (already mapped) signalling and AMPK (already mapped) activation in T2D; hyperphosphaturia accelerates CKD (already mapped) progression and FGF-23/phosphate dysregulation amplifies cardiovascular risk in diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
