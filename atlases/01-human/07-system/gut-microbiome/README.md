@@ -514,6 +514,12 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "GM sodium: high dietary sodium depletes Lactobacillus (already mapped) and amplifies IL-17A (already mapped) responses; sodium-driven NF-κB (already mapped) activation impairs intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) homeostasis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "GM zinc: zinc supports intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) resolution; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "GM magnesium: magnesium supports intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) anti-inflammatory function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis."
 ---
 
 # Gut Microbiome
@@ -757,6 +763,8 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — GM selenium: selenoproteins in intestinal epithelium (already mapped) counter NF-κB (already mapped) oxidative stress; selenium deficiency impairs Akkermansia (already mapped) colonisation resistance and amplifies macrophage (already mapped) mucosal inflammation.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — GM iodine: intestinal lactoperoxidase (iodine-dependent) limits pathogen colonisation in the epithelium (already mapped); iodine deficiency amplifies NF-κB (already mapped) driven IL-6 (already mapped) mucosal inflammation and impairs macrophage (already mapped) homeostasis.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — GM sodium: high dietary sodium depletes Lactobacillus (already mapped) and amplifies IL-17A (already mapped) responses; sodium-driven NF-κB (already mapped) activation impairs intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) homeostasis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — GM zinc: zinc supports intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) resolution; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — GM magnesium: magnesium supports intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) anti-inflammatory function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
 
 ## Pathology
 
