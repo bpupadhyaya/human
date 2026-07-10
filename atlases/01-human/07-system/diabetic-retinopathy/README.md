@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "DR oxytocin: oxytocin receptors on retinal endothelial cells (already mapped) attenuate VEGF (already mapped)-driven neovascularisation; oxytocin suppresses the IL-6 (already mapped) neuroinflammation in the diabetic eye (already mapped) and reduces pericyte apoptosis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "DR vasopressin: vasopressin V1 receptor activation on retinal endothelial cells (already mapped) amplifies VEGF (already mapped) neovascularisation; AVP-driven aquaporin-4 (already mapped) upregulation worsens macular oedema and NF-κB (already mapped) retinal neuroinflammation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "DR iodine: thyroid hormones (iodine-dependent) modulate retinal VEGF (already mapped) expression; iodine deficiency amplifies NF-κB (already mapped) retinal neuroinflammation and impairs insulin (already mapped) receptor signalling in the diabetic eye (already mapped)."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "DR sodium: hypernatraemia amplifies retinal VEGF (already mapped) expression via osmotic stress on endothelial cells (already mapped); sodium-driven NF-κB (already mapped) activation sustains the IL-6 (already mapped) neuroinflammatory cascade and worsens diabetic macular oedema."
 ---
 
 # Diabetic Retinopathy
@@ -785,6 +794,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — DR testosterone: androgen receptor signalling modulates VEGF (already mapped)-driven retinal angiogenesis and pericyte loss in diabetic retinopathy; testosterone amplifies the IL-6 (already mapped) mediated neuroinflammation in the diabetic eye (already mapped).
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — DR serotonin: platelet (already mapped) serotonin aggregation in the diabetic retinal microcirculation amplifies VEGF (already mapped)-mediated vascular permeability; 5-HT2 receptor signalling on endothelial cells (already mapped) impairs retinal blood-flow autoregulation in DR.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — DR oxytocin: oxytocin receptors on retinal endothelial cells (already mapped) attenuate VEGF (already mapped)-driven neovascularisation; oxytocin suppresses the IL-6 (already mapped) neuroinflammation in the diabetic eye (already mapped) and reduces pericyte apoptosis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — DR vasopressin: vasopressin V1 receptor activation on retinal endothelial cells (already mapped) amplifies VEGF (already mapped) neovascularisation; AVP-driven aquaporin-4 (already mapped) upregulation worsens macular oedema and NF-κB (already mapped) retinal neuroinflammation.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — DR iodine: thyroid hormones (iodine-dependent) modulate retinal VEGF (already mapped) expression; iodine deficiency amplifies NF-κB (already mapped) retinal neuroinflammation and impairs insulin (already mapped) receptor signalling in the diabetic eye (already mapped).
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — DR sodium: hypernatraemia amplifies retinal VEGF (already mapped) expression via osmotic stress on endothelial cells (already mapped); sodium-driven NF-κB (already mapped) activation sustains the IL-6 (already mapped) neuroinflammatory cascade and worsens diabetic macular oedema.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

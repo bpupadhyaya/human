@@ -523,6 +523,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "DS oxytocin: oxytocin regulates gut motility by modulating smooth-muscle-cell (already mapped) contractility and the enteric nervous system; oxytocin also enhances intestinal epithelium (already mapped) barrier integrity and the gut-microbiome (already mapped) microbial balance."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "DS vasopressin: vasopressin (ADH) regulates intestinal water absorption via V2/aquaporin-2 in the intestinal epithelium (already mapped); AVP-driven cAMP pathway modulates gut-microbiome (already mapped) colonisation resistance and NF-κB (already mapped) mucosal immunity."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "DS selenium: selenoproteins in the intestinal epithelium (already mapped) counter NF-κB (already mapped) oxidative stress; selenium deficiency impairs gut-microbiome (already mapped) diversity and amplifies macrophage (already mapped) mediated mucosal inflammation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "DS iodine: intestinal lactoperoxidase (iodine-dependent) in the epithelium (already mapped) limits pathogen colonisation; iodine deficiency amplifies NF-κB (already mapped) driven gut-microbiome (already mapped) dysbiosis and impairs macrophage (already mapped) mucosal defence."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -780,6 +789,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Testosterone](../../03-molecular/testosterone/README.md) — DS testosterone: testosterone modulates liver (already mapped) bile metabolism and smooth-muscle-cell (already mapped) motility in the gut; androgen signalling shapes the gut microbiome (already mapped) composition and the IL-6 (already mapped) intestinal inflammatory tone.
 - **Connects to:** [Prolactin](../../03-molecular/prolactin/README.md) — DS prolactin: prolactin receptors on intestinal epithelium (already mapped) promote mucosal cell proliferation; prolactin also stimulates pancreatic (already mapped) enzyme secretion and modulates the gut-microbiome (already mapped) composition via immune crosstalk.
 - **Connects to:** [Oxytocin](../../03-molecular/oxytocin/README.md) — DS oxytocin: oxytocin regulates gut motility by modulating smooth-muscle-cell (already mapped) contractility and the enteric nervous system; oxytocin also enhances intestinal epithelium (already mapped) barrier integrity and the gut-microbiome (already mapped) microbial balance.
+- **Connects to:** [Vasopressin](../../03-molecular/vasopressin/README.md) — DS vasopressin: vasopressin (ADH) regulates intestinal water absorption via V2/aquaporin-2 in the intestinal epithelium (already mapped); AVP-driven cAMP pathway modulates gut-microbiome (already mapped) colonisation resistance and NF-κB (already mapped) mucosal immunity.
+- **Connects to:** [Selenium](../../02-atomic/selenium/README.md) — DS selenium: selenoproteins in the intestinal epithelium (already mapped) counter NF-κB (already mapped) oxidative stress; selenium deficiency impairs gut-microbiome (already mapped) diversity and amplifies macrophage (already mapped) mediated mucosal inflammation.
+- **Connects to:** [Iodine](../../02-atomic/iodine/README.md) — DS iodine: intestinal lactoperoxidase (iodine-dependent) in the epithelium (already mapped) limits pathogen colonisation; iodine deficiency amplifies NF-κB (already mapped) driven gut-microbiome (already mapped) dysbiosis and impairs macrophage (already mapped) mucosal defence.
 
 ## Pathology
 
