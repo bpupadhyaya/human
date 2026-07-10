@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "VHL oxytocin: oxytocin receptor expression on VHL-associated clear cell renal carcinoma (kidney already mapped) and haemangioblastoma cells may modulate tumour angiogenesis via VEGF (already mapped) suppression and immune microenvironment remodelling in VHL-disease."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "VHL vasopressin: vasopressin modulates renal tubular water reabsorption via aquaporin-2 (kidney already mapped); in VHL disease, AVP V2 receptor signalling intersects HIF-1α (already mapped) and VEGF (already mapped) axes in ccRCC and pNET-associated ectopic hormone secretion."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "VHL selenium: selenium-dependent GPX4 protects VHL-deficient ccRCC cells from ferroptosis; GPX4 upregulation is a resistance mechanism downstream of the HIF-1α (already mapped)-VEGF (already mapped) axis in VHL tumours, and selenium status modulates tumour oxidative stress."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "VHL iodine: iodine-dependent thyroid hormones modulate VEGF (already mapped) and HIF-1α (already mapped) pathway activity in VHL-associated ccRCC and haemangioblastoma; hypothyroidism may alter the angiogenic milieu and metabolic rate of VHL tumour cells."
 ---
 
 # VHL Disease
@@ -785,6 +794,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — VHL testosterone: androgen receptor (AR) signalling promotes the growth of VHL-associated clear cell renal cell carcinoma (kidney already mapped); testosterone-driven AR activity upregulates HIF-1α (already mapped) target genes and the VEGF (already mapped) angiogenic axis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — VHL serotonin: serotonin-secreting pNETs (pancreatic neuroendocrine tumours) are a manifestation of VHL disease; 5-HT receptor signalling on ccRCC cells (kidney already mapped) promotes tumour proliferation and modulates HIF-1α (already mapped) driven therapeutic resistance.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — VHL oxytocin: oxytocin receptor expression on VHL-associated clear cell renal carcinoma (kidney already mapped) and haemangioblastoma cells may modulate tumour angiogenesis via VEGF (already mapped) suppression and immune microenvironment remodelling in VHL-disease.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — VHL vasopressin: vasopressin modulates renal tubular water reabsorption via aquaporin-2 (kidney already mapped); in VHL disease, AVP V2 receptor signalling intersects HIF-1α (already mapped) and VEGF (already mapped) axes in ccRCC and pNET-associated ectopic hormone secretion.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — VHL selenium: selenium-dependent GPX4 protects VHL-deficient ccRCC cells from ferroptosis; GPX4 upregulation is a resistance mechanism downstream of the HIF-1α (already mapped)-VEGF (already mapped) axis in VHL tumours, and selenium status modulates tumour oxidative stress.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — VHL iodine: iodine-dependent thyroid hormones modulate VEGF (already mapped) and HIF-1α (already mapped) pathway activity in VHL-associated ccRCC and haemangioblastoma; hypothyroidism may alter the angiogenic milieu and metabolic rate of VHL tumour cells.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
