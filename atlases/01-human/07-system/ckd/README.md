@@ -522,6 +522,9 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "CKD selenium: selenium, as GPx in renal tubular cells and macrophages (already mapped), scavenges CKD oxidative-stress; selenium deficiency amplifies the NF-κB (already mapped) and TGF-β (already mapped) tubulointerstitial fibrosis and hepcidin (already mapped) anaemia of CKD."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "CKD zinc: zinc supports macrophage (already mapped) anti-inflammatory resolution and tubular cell integrity; zinc deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) glomerular fibrosis and hepcidin (already mapped)-mediated anaemia in chronic kidney disease."
 ---
 
 # Chronic Kidney Disease
@@ -766,6 +769,7 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Anti-fibrotic neuropeptide: oxytocin, via OXTR on tubular cells and macrophages (already mapped), attenuates TGF-β (already mapped) and NF-κB (already mapped) fibrotic signalling; oxytocin deficiency amplifies the glomerular (already mapped) and tubulointerstitial injury cascade of CKD.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Hyperfiltration driver: vasopressin, via V2 receptors on renal tubular cells, drives hyperfiltration and renin (already mapped) activation of CKD; vasopressin excess amplifies TGF-β (already mapped) and NF-κB (already mapped) glomerular (already mapped) fibrosis of CKD.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Renal antioxidant: selenium, as GPx in renal tubular cells and macrophages (already mapped), scavenges CKD oxidative-stress; selenium deficiency amplifies the NF-κB (already mapped) and TGF-β (already mapped) tubulointerstitial fibrosis and hepcidin (already mapped) anaemia of CKD.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — CKD zinc: zinc supports macrophage (already mapped) anti-inflammatory resolution and tubular cell integrity; zinc deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) glomerular fibrosis and hepcidin (already mapped)-mediated anaemia in chronic kidney disease.
 
 ## Pathology
 
