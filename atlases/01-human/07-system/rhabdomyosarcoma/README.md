@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Chemotherapy anaemia: erythropoietin corrects the cytopenias of VAC/ifosfamide chemotherapy regimens in rhabdomyosarcoma, and EPOR expression on tumour cells raises the question of a direct EPO-driven proliferative effect."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Tumour-pain kinin: bradykinin generated in the rhabdomyosarcoma stroma activates B1/B2 receptors on peritumoral nociceptors and endothelial cells, amplifying the vasodilation, oedema and the pain (neuropathic pain already mapped) of the bulky soft-tissue mass."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement regulation: C1-esterase inhibitor restrains the classical complement (C3 and C5aR1 already mapped) within the rhabdomyosarcoma stroma, modulating complement-driven myeloid recruitment and the angiogenesis (VEGF already mapped) of the desmoplastic microenvironment."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Stromal mast-cell mediator: histamine released by stromal mast cells (already mapped) in the rhabdomyosarcoma tumour bed promotes the VEGF-driven angiogenesis and prostaglandin-mediated immune evasion that sustain the growth of this paediatric soft-tissue sarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -767,6 +776,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Myogenic stroma alarmin: TSLP released by the rhabdomyosarcoma tumour stroma activates mast cells and promotes the Th2 and immunosuppressive microenvironment that dampens cytotoxic anti-tumour immunity in this paediatric soft-tissue sarcoma.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Muscle ECM modulator: periostin, an ECM glycoprotein expressed in the rhabdomyosarcoma tumour stroma, promotes invasion and metastasis of the dedifferentiated rhabdomyoblasts and contributes to the desmoplastic microenvironment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia: erythropoietin corrects the cytopenias of VAC/ifosfamide chemotherapy regimens in rhabdomyosarcoma, and EPOR expression on tumour cells raises the question of a direct EPO-driven proliferative effect.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Tumour-pain kinin: bradykinin generated in the rhabdomyosarcoma stroma activates B1/B2 receptors on peritumoral nociceptors and endothelial cells, amplifying the vasodilation, oedema and the pain (neuropathic pain already mapped) of the bulky soft-tissue mass.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the classical complement (C3 and C5aR1 already mapped) within the rhabdomyosarcoma stroma, modulating complement-driven myeloid recruitment and the angiogenesis (VEGF already mapped) of the desmoplastic microenvironment.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Stromal mast-cell mediator: histamine released by stromal mast cells (already mapped) in the rhabdomyosarcoma tumour bed promotes the VEGF-driven angiogenesis and prostaglandin-mediated immune evasion that sustain the growth of this paediatric soft-tissue sarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

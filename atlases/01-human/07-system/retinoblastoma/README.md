@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/bradykinin
     relation: connects-to
     note: "Blood-ocular-barrier modulation: bradykinin B2-receptor agonists increase the permeability of the blood-ocular barrier, a pharmacological strategy explored to enhance intra-arterial and intravitreal chemotherapy delivery in retinoblastoma."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Intraocular alarmin: TSLP released by the retinoblastoma tumour microenvironment activates mast cells (already mapped) and dendritic cells to promote the immunosuppressive Th2-skewed microenvironment that impairs immune surveillance against retinoblastoma."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement-cascade regulation: C1-esterase inhibitor restrains the classical complement pathway (C3 and C5aR1 already mapped) within the intraocular retinoblastoma microenvironment, modulating the complement-driven inflammation of retinal tumour growth."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Retinal ECM scaffold: periostin, expressed in the optic nerve and retinal stromal cells, is induced in the retinoblastoma tumour bed where it promotes tumour-cell adhesion, invasion and the choroidal and optic-nerve spread of advanced-stage retinoblastoma."
 ---
 
 # Retinoblastoma
@@ -752,6 +761,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia support: erythropoietin corrects the anaemia from VAC-based chemotherapy in retinoblastoma, and EPOR expression on retinal progenitor cells hints at a developmental role in the retinoblastoma cell of origin.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Intraocular mast-cell mediator: histamine from intraocular mast cells promotes the angiogenesis (VEGF already mapped) and the vascular permeability that sustain the highly vascular growth pattern of retinoblastoma within the vitreous.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Blood-ocular-barrier modulation: bradykinin B2-receptor agonists increase the permeability of the blood-ocular barrier, a pharmacological strategy explored to enhance intra-arterial and intravitreal chemotherapy delivery in retinoblastoma.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Intraocular alarmin: TSLP released by the retinoblastoma tumour microenvironment activates mast cells (already mapped) and dendritic cells to promote the immunosuppressive Th2-skewed microenvironment that impairs immune surveillance against retinoblastoma.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-cascade regulation: C1-esterase inhibitor restrains the classical complement pathway (C3 and C5aR1 already mapped) within the intraocular retinoblastoma microenvironment, modulating the complement-driven inflammation of retinal tumour growth.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Retinal ECM scaffold: periostin, expressed in the optic nerve and retinal stromal cells, is induced in the retinoblastoma tumour bed where it promotes tumour-cell adhesion, invasion and the choroidal and optic-nerve spread of advanced-stage retinoblastoma.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
