@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Neuroprotective cytokine: erythropoietin, via the EPOR on neurons and microglia (already mapped), modulates the neuronal survival and the neuroinflammatory dimension of the neurodevelopmental disorder of ADHD."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C3/C5 already mapped) whose activation contributes to the neuroinflammatory signalling and synaptic pruning of the neurodevelopmental disorder of ADHD."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Alternative complement regulation: factor H regulates the alternative complement pathway (C3/C5 already mapped) whose dysregulation amplifies the microglial neuroinflammation and synaptic pruning of the neurodevelopmental dimension of ADHD."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Neuroendocrine-immune axis: prolactin, via PRL receptors on microglia (already mapped) and T cells (already mapped), modulates the neuroinflammatory cytokine milieu (dopamine already mapped) of the neurodevelopmental disorder of ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -809,6 +818,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroimmune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the neuroinflammatory dimension of ADHD.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammation axis: bradykinin, via B1/B2 receptors on microglia (already mapped) and brain endothelium, amplifies the blood-brain-barrier disruption and the neuroinflammatory milieu of ADHD.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via the EPOR on neurons and microglia (already mapped), modulates the neuronal survival and the neuroinflammatory dimension of the neurodevelopmental disorder of ADHD.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C3/C5 already mapped) whose activation contributes to the neuroinflammatory signalling and synaptic pruning of the neurodevelopmental disorder of ADHD.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Alternative complement regulation: factor H regulates the alternative complement pathway (C3/C5 already mapped) whose dysregulation amplifies the microglial neuroinflammation and synaptic pruning of the neurodevelopmental dimension of ADHD.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine-immune axis: prolactin, via PRL receptors on microglia (already mapped) and T cells (already mapped), modulates the neuroinflammatory cytokine milieu (dopamine already mapped) of the neurodevelopmental disorder of ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

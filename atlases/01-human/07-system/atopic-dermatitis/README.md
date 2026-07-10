@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Neuroendocrine-immune: prolactin, elevated under stress (already mapped), amplifies the T-helper cell (already mapped) and mast-cell (already mapped) activation of the neuroendocrine-immune dimension of atopic dermatitis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-skin barrier: testosterone, via androgen receptors on keratinocytes (already mapped) and sebocytes (already mapped), modulates the skin-barrier lipid composition and the inflammatory tone of the neuroimmune-skin axis of atopic dermatitis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroimmune anti-inflammatory: oxytocin, via OxTR on mast cells (already mapped) and T-helper cells (already mapped), attenuates the IgE-mediated (already mapped) and Th2-driven neuroinflammatory pruritus and flares of atopic dermatitis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Stress-itch-mast cell axis: vasopressin, via V1aR on mast cells (already mapped), amplifies the CRH/HPA-stress-triggered mast-cell histamine (already mapped) degranulation and neuroinflammatory pruritus of atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -774,6 +783,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-skin axis: bradykinin, via B1/B2 receptors on keratinocytes (already mapped) and mast cells (already mapped), amplifies the pruritus and the vascular permeability of the acutely inflamed skin of atopic dermatitis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Itch/neuroimmune: erythropoietin, via the EPOR on keratinocytes (already mapped) and neurons (already mapped), modulates the skin neuroimmune response and the barrier-repair dimension of atopic dermatitis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine-immune: prolactin, elevated under stress (already mapped), amplifies the T-helper cell (already mapped) and mast-cell (already mapped) activation of the neuroendocrine-immune dimension of atopic dermatitis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-skin barrier: testosterone, via androgen receptors on keratinocytes (already mapped) and sebocytes (already mapped), modulates the skin-barrier lipid composition and the inflammatory tone of the neuroimmune-skin axis of atopic dermatitis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune anti-inflammatory: oxytocin, via OxTR on mast cells (already mapped) and T-helper cells (already mapped), attenuates the IgE-mediated (already mapped) and Th2-driven neuroinflammatory pruritus and flares of atopic dermatitis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Stress-itch-mast cell axis: vasopressin, via V1aR on mast cells (already mapped), amplifies the CRH/HPA-stress-triggered mast-cell histamine (already mapped) degranulation and neuroinflammatory pruritus of atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
