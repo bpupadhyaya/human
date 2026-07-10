@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal complement: C5 cleavage generates C5a, which with the C3 (already mapped) complement activation contributes to the myeloid-infiltrated inflammatory microenvironment and endothelial vasodilation of the highly vascular pheochromocytoma-paraganglioma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "PPGL melatonin: melatonin receptor expression in pheochromocytoma-paraganglioma cells suppresses the catecholamine-stimulated cAMP production and the VHL/HIF (HIF already mapped) and SDHA/VEGF (already mapped) pseudohypoxic proliferative signalling."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "PPGL androgen axis: testosterone via androgen receptor modulates pheochromocytoma catecholamine synthesis from chromaffin cells (adrenal-gland already mapped); adrenal androgens share the steroidogenic pathway (CYP enzymes) with catecholamine biosynthesis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "PPGL serotonin co-secretion: serotonin is co-secreted with catecholamines by a subset of pheochromocytoma-paraganglioma tumours, producing a serotonin syndrome-like carcinoid phenotype; SERT (already mapped) and MAO regulate the PPGL serotonin excess."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -793,6 +802,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement-contact brake: C1-esterase inhibitor restrains the complement and kallikrein-kinin (bradykinin already mapped) activation triggered by catecholamine-mediated endothelial injury in the pheochromocytoma-paraganglioma catecholamine-crisis vasculopathy.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Vascular stroma remodelling: periostin, upregulated in the highly vascular PPGL stroma downstream of VEGF (already mapped) and TGF-β (already mapped), promotes endothelial cell (already mapped) maturation and angiogenesis of these tumours.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: C5 cleavage generates C5a, which with the C3 (already mapped) complement activation contributes to the myeloid-infiltrated inflammatory microenvironment and endothelial vasodilation of the highly vascular pheochromocytoma-paraganglioma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PPGL melatonin: melatonin receptor expression in pheochromocytoma-paraganglioma cells suppresses the catecholamine-stimulated cAMP production and the VHL/HIF (HIF already mapped) and SDHA/VEGF (already mapped) pseudohypoxic proliferative signalling.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PPGL androgen axis: testosterone via androgen receptor modulates pheochromocytoma catecholamine synthesis from chromaffin cells (adrenal-gland already mapped); adrenal androgens share the steroidogenic pathway (CYP enzymes) with catecholamine biosynthesis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PPGL serotonin co-secretion: serotonin is co-secreted with catecholamines by a subset of pheochromocytoma-paraganglioma tumours, producing a serotonin syndrome-like carcinoid phenotype; SERT (already mapped) and MAO regulate the PPGL serotonin excess.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

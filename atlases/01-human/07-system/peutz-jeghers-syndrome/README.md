@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Iron-deficiency anaemia support: erythropoietin addresses the chronic iron-deficiency anaemia (iron and IDA already mapped) driven by repeated haemorrhage from the large vascular Peutz-Jeghers polyps, when endoscopic resection cannot keep pace."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "PJS circadian-oncology: melatonin inhibits the STK11/LKB1 (already mapped) loss-driven mTOR (already mapped) hyperactivation underlying Peutz-Jeghers polyp growth, and melatonin receptor expression on the hamartomatous polyp epithelium modulates polyp cell proliferation."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "PJS enterochromaffin serotonin: serotonin secreted by the abundant enterochromaffin cells in the Peutz-Jeghers gastrointestinal polyps modulates secretory diarrhoea, motility and visceral pain (bradykinin already mapped) in the hamartomatous polyposis syndrome."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "PJS prolactin: prolactin via JAK2/STAT5 signalling activates the mTOR (already mapped) pathway in the Peutz-Jeghers hamartomatous polyp epithelium, and hyperprolactinaemia amplifies the STK11/LKB1 (already mapped) loss-driven epithelial proliferation."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -775,6 +784,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Polyp-pain kinin: bradykinin generated in the inflamed stroma of Peutz-Jeghers intestinal polyps activates nociceptive B1/B2 receptors, amplifying visceral pain and the obstructive and intussusception episodes that drive emergency presentations.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the classical complement pathway (C3 and C5aR1 already mapped) within the inflammatory polyp stroma of Peutz-Jeghers syndrome, limiting complement-driven myeloid recruitment and mucosal oedema.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Iron-deficiency anaemia support: erythropoietin addresses the chronic iron-deficiency anaemia (iron and IDA already mapped) driven by repeated haemorrhage from the large vascular Peutz-Jeghers polyps, when endoscopic resection cannot keep pace.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PJS circadian-oncology: melatonin inhibits the STK11/LKB1 (already mapped) loss-driven mTOR (already mapped) hyperactivation underlying Peutz-Jeghers polyp growth, and melatonin receptor expression on the hamartomatous polyp epithelium modulates polyp cell proliferation.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PJS enterochromaffin serotonin: serotonin secreted by the abundant enterochromaffin cells in the Peutz-Jeghers gastrointestinal polyps modulates secretory diarrhoea, motility and visceral pain (bradykinin already mapped) in the hamartomatous polyposis syndrome.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PJS prolactin: prolactin via JAK2/STAT5 signalling activates the mTOR (already mapped) pathway in the Peutz-Jeghers hamartomatous polyp epithelium, and hyperprolactinaemia amplifies the STK11/LKB1 (already mapped) loss-driven epithelial proliferation.
 
 ---
 
