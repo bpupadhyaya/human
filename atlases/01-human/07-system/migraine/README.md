@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and microglia (already mapped), exerts anti-inflammatory and neuroprotective effects relevant to the central sensitisation and the chronic neuroinflammation of migraine."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Meningeal ECM: periostin, from meningeal fibroblasts and trigeminal-ganglion stroma, contributes to the extracellular-matrix remodelling at the meningeal neuroimmune interface of the neurogenic inflammation and sensitisation of migraine."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Hormonal migraine trigger: prolactin modulates nociception via PRLR on trigeminal neurons (already mapped) and correlates with menstrual migraine, complementing the oestrogen/progesterone (already mapped) hormonal dimension of migraine susceptibility."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron-migraine metabolism: transferrin, the iron carrier, reflects the iron deficiency that is a recognised migraine risk; dysregulated brain iron handling is linked to cortical spreading depression and the structural brain changes of chronic migraine."
 ---
 
 # Migraine
@@ -796,6 +805,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-meningeal axis: TSLP, from meningeal mast cells (already mapped) and the trigeminal epithelium, primes dendritic cells (already mapped) and amplifies the neurogenic and meningeal inflammation underlying the migraine attack.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement and contact-pathway activation (complement C3, C5 and bradykinin already mapped) contributing to the neurogenic oedema and vasodilation of the migraine attack.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and microglia (already mapped), exerts anti-inflammatory and neuroprotective effects relevant to the central sensitisation and the chronic neuroinflammation of migraine.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Meningeal ECM: periostin, from meningeal fibroblasts and trigeminal-ganglion stroma, contributes to the extracellular-matrix remodelling at the meningeal neuroimmune interface of the neurogenic inflammation and sensitisation of migraine.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Hormonal migraine trigger: prolactin modulates nociception via PRLR on trigeminal neurons (already mapped) and correlates with menstrual migraine, complementing the oestrogen/progesterone (already mapped) hormonal dimension of migraine susceptibility.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron-migraine metabolism: transferrin, the iron carrier, reflects the iron deficiency that is a recognised migraine risk; dysregulated brain iron handling is linked to cortical spreading depression and the structural brain changes of chronic migraine.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and oligodendrocytes (already mapped), promotes remyelination and exerts anti-inflammatory neuroprotection relevant to the relapsing-remitting course of multiple sclerosis."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-immune axis: melatonin has immunomodulatory and neuroprotective effects on T-cell (already mapped) and microglial (already mapped) activity; disrupted melatonin rhythm is associated with MS relapse rate and the circadian immune dysregulation of multiple sclerosis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Neuroprotective androgen: testosterone exerts neuroprotective and anti-inflammatory effects on oligodendrocytes (already mapped) and T cells (already mapped); low testosterone is associated with faster MS disability progression and the male sex-hormone dimension of MS."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune-neuroendocrine modulation: prolactin modulates T-cell (already mapped) and B-cell (already mapped) autoimmune activation and postpartum rebound is linked to MS relapse, placing prolactin in the hormonal sex-immune dimension of multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -765,6 +774,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-BBB axis: TSLP, from choroid-plexus and CNS-border epithelium disrupted in MS, primes dendritic cells (already mapped) toward Th17 (already mapped) priming and amplifies the BBB breach driving the lesion formation of multiple sclerosis.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-demyelination axis: bradykinin, via B2R on CNS neurons (already mapped) and oligodendrocytes (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the oligodendrocyte loss and the demyelination of multiple sclerosis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and oligodendrocytes (already mapped), promotes remyelination and exerts anti-inflammatory neuroprotection relevant to the relapsing-remitting course of multiple sclerosis.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-immune axis: melatonin has immunomodulatory and neuroprotective effects on T-cell (already mapped) and microglial (already mapped) activity; disrupted melatonin rhythm is associated with MS relapse rate and the circadian immune dysregulation of multiple sclerosis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Neuroprotective androgen: testosterone exerts neuroprotective and anti-inflammatory effects on oligodendrocytes (already mapped) and T cells (already mapped); low testosterone is associated with faster MS disability progression and the male sex-hormone dimension of MS.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-neuroendocrine modulation: prolactin modulates T-cell (already mapped) and B-cell (already mapped) autoimmune activation and postpartum rebound is linked to MS relapse, placing prolactin in the hormonal sex-immune dimension of multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
