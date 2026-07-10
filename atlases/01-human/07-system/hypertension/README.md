@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Profibrotic matricellular protein: periostin, secreted by cardiac fibroblasts (fibrosis already mapped) under the profibrotic TGF-β (already mapped) drive of chronic pressure overload, promotes the cardiomyocyte (already mapped) hypertrophy and cardiac fibrosis of hypertension."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-hypertension axis: melatonin, via MT1 receptors on vascular smooth-muscle cells (already mapped), suppresses renin secretion (renin already mapped), modulates the nocturnal blood-pressure dip, and attenuates angiotensin II (already mapped) vasoconstriction."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-hypertension axis: testosterone, via androgen receptor on vascular smooth-muscle cells (already mapped) and kidney (already mapped), upregulates ACE (already mapped) and promotes sodium retention, driving the male sex predominance of hypertension."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Prolactin-hypertension axis: prolactin, via prolactin receptors on endothelial (already mapped) and smooth-muscle cells (already mapped), promotes oxidative stress, endothelin (already mapped) release, and salt retention, linking hyperprolactinaemia to hypertension."
 ---
 
 # Hypertension
@@ -742,6 +751,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Perivascular alarmin: TSLP released by tubular epithelial cells during hypertensive nephrosclerosis primes dendritic cells (already mapped) and mast cells (already mapped) to sustain the Th2 (IL-4, IL-13 already mapped) inflammatory milieu.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Vasoactive mast-cell mediator: histamine, released by the perivascular mast cells (already mapped) in hypertension, acts on vascular H1 receptors to promote vasodilation counteracting the renin-angiotensin (angiotensin II and renin already mapped) vasoconstriction.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Profibrotic matricellular protein: periostin, secreted by cardiac fibroblasts (fibrosis already mapped) under the profibrotic TGF-β drive of chronic pressure overload, promotes the cardiomyocyte (already mapped) hypertrophy and cardiac fibrosis of hypertension.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-hypertension axis: melatonin, via MT1 receptors on vascular smooth-muscle cells (already mapped), suppresses renin secretion (renin already mapped), modulates the nocturnal blood-pressure dip, and attenuates angiotensin II (already mapped) vasoconstriction.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-hypertension axis: testosterone, via androgen receptor on vascular smooth-muscle cells (already mapped) and kidney (already mapped), upregulates ACE (already mapped) and promotes sodium retention, driving the male sex predominance of hypertension.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-hypertension axis: prolactin, via prolactin receptors on endothelial (already mapped) and smooth-muscle cells (already mapped), promotes oxidative stress, endothelin (already mapped) release, and salt retention, linking hyperprolactinaemia to hypertension.
 
 ## Pathology
 
