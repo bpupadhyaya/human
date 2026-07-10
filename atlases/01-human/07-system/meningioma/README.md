@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Meningioma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates dural tumour vascular tone; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic signalling in meningioma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Meningioma selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the meningioma TME; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade of meningioma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Meningioma iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of meningioma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Meningioma sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of meningioma."
 ---
 
 # Meningioma
@@ -792,6 +801,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Meningioma prolactin receptor: prolactin, via PRL-R on meningioma cells and macrophages (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-survival signalling and promotes VEGF-driven (already mapped) angiogenesis in meningioma.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Meningioma oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in the peritumoral meningeal microenvironment of meningioma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Meningioma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates dural tumour vascular tone; dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic signalling in meningioma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Meningioma selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the meningioma TME; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory tumour cascade of meningioma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Meningioma iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of meningioma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Meningioma sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of meningioma.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
