@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Desmoplastic stroma: periostin, secreted by fibroblasts in the MEN4 neuroendocrine tumour stroma, activates the integrin-AKT (already mapped) pathway and promotes tumour invasiveness across pituitary and pancreatic neuroendocrine tumour sites of MEN4 syndrome."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Neuroendocrine melatonin: melatonin, via MT1/MT2 receptors on MEN4 pituitary and pancreatic neuroendocrine tumour cells (pituitary-adenoma already mapped), suppresses cAMP-mediated (already mapped) cell-cycle progression driven by the CDKN1B/p27Kip1 loss of MEN4."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-parathyroid axis: testosterone, via androgen receptor on MEN4 pituitary adenoma (already mapped) and parathyroid tumour cells (already mapped), modulates the hormonal crosstalk and mTOR (already mapped) proliferative signalling of the MEN4 endocrine tumour spectrum."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroendocrine oxytocin: oxytocin, via OXT-R on MEN4 pituitary (already mapped) and pancreatic neuroendocrine tumour cells, modulates intracellular cAMP (already mapped) and the hormonal secretory activity of the MEN4 neuroendocrine tumour spectrum."
 ---
 
 # MEN4 Syndrome
@@ -763,6 +772,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Neuroendocrine vasomotor syndrome: bradykinin, via B2 receptor, contributes to the vasomotor flushing and secretory diarrhoea of MEN4 neuroendocrine tumours; kinin-kallikrein activation (amplifying the VIP and somatostatin already mapped) drives the hormonal crises of MEN4.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — MEN4 complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the MEN4 neuroendocrine tumour microenvironment, modulating complement-dependent cytotoxicity and the mTOR-driven (already mapped) tumour cell survival.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Desmoplastic stroma: periostin, secreted by fibroblasts in the MEN4 neuroendocrine tumour stroma, activates the integrin-AKT (already mapped) pathway and promotes tumour invasiveness across pituitary and pancreatic neuroendocrine tumour sites of MEN4 syndrome.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Neuroendocrine melatonin: melatonin, via MT1/MT2 receptors on MEN4 pituitary and pancreatic neuroendocrine tumour cells (pituitary-adenoma already mapped), suppresses cAMP-mediated (already mapped) cell-cycle progression driven by the CDKN1B/p27Kip1 loss of MEN4.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-parathyroid axis: testosterone, via androgen receptor on MEN4 pituitary adenoma (already mapped) and parathyroid tumour cells (already mapped), modulates the hormonal crosstalk and mTOR (already mapped) proliferative signalling of the MEN4 endocrine tumour spectrum.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroendocrine oxytocin: oxytocin, via OXT-R on MEN4 pituitary (already mapped) and pancreatic neuroendocrine tumour cells, modulates intracellular cAMP (already mapped) and the hormonal secretory activity of the MEN4 neuroendocrine tumour spectrum.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

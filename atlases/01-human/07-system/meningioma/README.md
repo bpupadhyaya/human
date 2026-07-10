@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Meningeal EPO signalling: erythropoietin receptor (EPOR) on meningioma cells activates the JAK2/STAT3 (already mapped) pathway, upregulates VEGF-driven (already mapped) angiogenesis and promotes the hypervascular phenotype of WHO grade II-III meningioma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Meningeal oncostasis: melatonin, via MT1/MT2 receptors on meningioma cells and the dural tumour vasculature (already mapped), suppresses VEGF-driven (already mapped) angiogenesis and NF-κB (already mapped) signalling, reducing the peritumoral oedema burden of meningioma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-meningioma axis: testosterone, via androgen receptor on meningioma cells, modulates VEGF-driven (already mapped) and AKT1 (already mapped) proliferative signalling and contributes to the sex-dimorphic incidence and hormone-receptor positivity of meningioma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Meningeal 5-HT signalling: serotonin from mast cells (already mapped) in meningioma stroma signals via 5-HT2 receptors on meningioma cells and endothelial cells (already mapped), amplifying the VEGF (already mapped) angiogenic and peritumoral oedema cascade."
 ---
 
 # Meningioma
@@ -768,6 +777,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Meningeal alarmin: TSLP released by the meningioma-associated stromal cells activates dendritic cells and mast cells in the tumour microenvironment, amplifying the TGF-β (already mapped) and VEGF (already mapped) driven peritumoral inflammation and angiogenesis of meningioma.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the meningioma microenvironment, modulating complement-mediated tumour-cell lysis and the tumour-associated macrophage (already mapped) inflammatory response.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Meningeal EPO signalling: erythropoietin receptor (EPOR) on meningioma cells activates the JAK2/STAT3 (already mapped) pathway, upregulates VEGF-driven (already mapped) angiogenesis and promotes the hypervascular phenotype of WHO grade II-III meningioma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Meningeal oncostasis: melatonin, via MT1/MT2 receptors on meningioma cells and the dural tumour vasculature (already mapped), suppresses VEGF-driven (already mapped) angiogenesis and NF-κB (already mapped) signalling, reducing the peritumoral oedema burden of meningioma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-meningioma axis: testosterone, via androgen receptor on meningioma cells, modulates VEGF-driven (already mapped) and AKT1 (already mapped) proliferative signalling and contributes to the sex-dimorphic incidence and hormone-receptor positivity of meningioma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Meningeal 5-HT signalling: serotonin from mast cells (already mapped) in meningioma stroma signals via 5-HT2 receptors on meningioma cells and endothelial cells (already mapped), amplifying the VEGF (already mapped) angiogenic and peritumoral oedema cascade.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
