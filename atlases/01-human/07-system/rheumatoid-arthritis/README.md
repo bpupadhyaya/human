@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "RA copper: copper supports ceruloplasmin-mediated reactive-oxygen-species scavenging; elevated serum copper in active RA reflects acute-phase (CRP/IL-6 already mapped) response, and copper-dependent lysyl oxidase promotes the pannus (already mapped) collagen remodelling of RA."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "RA potassium: potassium efflux via NLRP3 inflammasome in macrophages (already mapped) drives IL-1β and IL-6 (already mapped) secretion; potassium channel dysregulation in fibroblasts (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of RA."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "RA phosphorus: phosphorus, as ATP precursor in osteoclasts (already mapped) and fibroblasts (already mapped), fuels bone erosion; phosphorus deficiency impairs T-cytotoxic-cell (already mapped) energy and amplifies IL-17A (already mapped) and NF-κB (already mapped) cascade of RA."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "RA chloride: chloride, via CFTR and chloride channels in macrophages (already mapped) and neutrophils (already mapped), modulates ROS burst and synovial inflammation; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of RA."
 ---
 
 # Rheumatoid Arthritis
@@ -825,6 +834,9 @@ RA patients have:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — RA iodine: iodine-dependent thyroid hormones modulate the Th1/Th17 (IL-17A already mapped) and Treg balance that governs the autoimmune synovitis of rheumatoid arthritis; hypothyroidism (autoimmune-thyroid comorbidity) amplifies RA inflammation via TNF-α (already mapped).
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — RA sodium: sodium-driven osmotic Th17 polarisation amplifies the IL-17A (already mapped) and IL-23 (already mapped)-driven synovial inflammation of rheumatoid arthritis; high-salt diet promotes Th17/Treg imbalance and NF-κB (already mapped)-mediated synoviocyte activation in RA.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — RA copper: copper supports ceruloplasmin-mediated reactive-oxygen-species scavenging; elevated serum copper in active RA reflects acute-phase (CRP/IL-6 already mapped) response, and copper-dependent lysyl oxidase promotes the pannus (already mapped) collagen remodelling of RA.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — RA potassium: potassium efflux via NLRP3 inflammasome in macrophages (already mapped) drives IL-1β and IL-6 (already mapped) secretion; potassium channel dysregulation in fibroblasts (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of RA.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — RA phosphorus: phosphorus, as ATP precursor in osteoclasts (already mapped) and fibroblasts (already mapped), fuels bone erosion; phosphorus deficiency impairs T-cytotoxic-cell (already mapped) energy and amplifies IL-17A (already mapped) and NF-κB (already mapped) cascade of RA.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — RA chloride: chloride, via CFTR and chloride channels in macrophages (already mapped) and neutrophils (already mapped), modulates ROS burst and synovial inflammation; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "RTS prolactin: prolactin via JAK2/STAT5 signalling on RECQL4-deficient skin cells and osteoblasts (osteosarcoma already mapped) promotes immune activation and mast-cell (histamine already mapped)-driven inflammatory cascade of the Rothmund-Thomson skin and bone phenotype."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "RTS selenium: selenoproteins quench ROS from RECQL4 deficiency in fibroblasts (already mapped) and osteoblasts (already mapped); selenium deficiency amplifies p53 (already mapped)-mediated instability and mTOR (already mapped) and IL-6 (already mapped) cascade of RTS."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "RTS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance in RTS; thyroid-hormone deficiency amplifies VEGF (already mapped) and mTOR (already mapped) cascade of osteosarcoma in RTS."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "RTS sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies VEGF (already mapped) and mTOR (already mapped)-driven tumour-promotion cascade of RTS osteosarcoma."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -812,6 +821,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — RTS oxytocin: oxytocin modulates skin immune homeostasis and mast-cell (histamine already mapped) regulation, reducing the inflammatory poikiloderma cascade in RECQL4-deficient skin; oxytocin-receptor signalling on keratinocytes intersects the UV-photoprotection axis of RTS.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — RTS vasopressin: vasopressin via V1aR on immune and skin endothelial cells modulates the HPA-axis stress-response and mast-cell (histamine already mapped) degranulation driving the vascular permeability and erythema of the Rothmund-Thomson poikiloderma cascade.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — RTS prolactin: prolactin via JAK2/STAT5 signalling on RECQL4-deficient skin cells and osteoblasts (osteosarcoma already mapped) promotes immune activation and mast-cell (histamine already mapped)-driven inflammatory cascade of the Rothmund-Thomson skin and bone phenotype.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — RTS selenium: selenoproteins quench ROS from RECQL4 deficiency in fibroblasts (already mapped) and osteoblasts (already mapped); selenium deficiency amplifies p53 (already mapped)-mediated instability and mTOR (already mapped) and IL-6 (already mapped) cascade of RTS.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — RTS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance in RTS; thyroid-hormone deficiency amplifies VEGF (already mapped) and mTOR (already mapped) cascade of osteosarcoma in RTS.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — RTS sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies VEGF (already mapped) and mTOR (already mapped)-driven tumour-promotion cascade of RTS osteosarcoma.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
