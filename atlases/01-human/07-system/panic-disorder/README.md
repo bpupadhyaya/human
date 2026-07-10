@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Terminal neuroinflammation: C5 cleavage generates C5a, which via C5aR1 (already mapped) amplifies the low-grade neuroinflammation of the locus coeruleus and limbic circuits that regulate the fear-suffocation alarm implicated in panic disorder."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Kallikrein-kinin control: C1-esterase inhibitor modulates the kallikrein-kinin system (bradykinin already mapped) and the classical complement (C3/C5 already mapped), constraining the neuroimmune contact cascade implicated in panic attacks."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective EPO axis: erythropoietin, acting through EPOR in the brain, exerts neuroprotective and anxiolytic effects on the amygdala and hippocampus (already mapped), attenuating fear-memory consolidation in panic-disorder circuits."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Post-attack anxiolytic: prolactin surges after panic attacks, exerting acute anxiolytic effects via the GABAergic (GABA already mapped) and serotonin (already mapped) systems, modulating the neuroendocrine recovery phase after panic episodes."
 ---
 
 # Panic Disorder
@@ -792,6 +801,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Airway-CNS axis: TSLP-driven airway inflammation underpins the asthma-panic disorder comorbidity; the shared sensitisation of the brainstem's CO2-sensitive locus coeruleus by airway alarmins links asthma and panic attacks.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Dyspnoea–panic trigger: bradykinin, released during respiratory inflammation, activates bronchial C-fibres that signal brainstem suffocation-detection circuits, directly precipitating panic attacks in sensitised individuals.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal neuroinflammation: C5 cleavage generates C5a, which via C5aR1 (already mapped) amplifies the low-grade neuroinflammation of the locus coeruleus and limbic circuits that regulate the fear-suffocation alarm implicated in panic disorder.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Kallikrein-kinin control: C1-esterase inhibitor modulates the kallikrein-kinin system (bradykinin already mapped) and the classical complement (C3/C5 already mapped), constraining the neuroimmune contact cascade implicated in panic attacks.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO axis: erythropoietin, acting through EPOR in the brain, exerts neuroprotective and anxiolytic effects on the amygdala and hippocampus (already mapped), attenuating fear-memory consolidation in panic-disorder circuits.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Post-attack anxiolytic: prolactin surges after panic attacks, exerting acute anxiolytic effects via the GABAergic (GABA already mapped) and serotonin (already mapped) systems, modulating the neuroendocrine recovery phase after panic episodes.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Cancer-cachexia anaemia: erythropoietin addresses the anaemia of the cancer-cachexia and chemotherapy-related marrow suppression in pancreatic cancer; EPOR expression on tumour cells has been documented."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Tumour-pain kinin: bradykinin released by the kallikrein-kinin system in the desmoplastic stroma activates nociceptive B1/B2 receptors on peripancreatic and coeliac nerve fibres, driving the intractable pain of pancreatic cancer."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Complement regulation: C1-esterase inhibitor restrains the complement and contact-activation pathways in the pancreatic-cancer stroma, limiting the C3/C5/C5aR1 (all already mapped) cascade sustaining the immunosuppressive microenvironment."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Stromal mast-cell mediator: histamine from mast cells (already mapped) in the desmoplastic stroma promotes angiogenesis (VEGF already mapped) and T-cell suppression, reinforcing the immunologically cold microenvironment of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -767,6 +776,9 @@ cross_links:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Stromal alarmin: TSLP released from the desmoplastic pancreatic stroma activates mast cells and promotes the Th2-skewed, immunosuppressive microenvironment that enables pancreatic cancer to evade cytotoxic immunity.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Desmoplastic scaffold: periostin, a TGF-β-induced ECM component, is a major constituent of the desmoplastic stroma that encases pancreatic cancer, promoting tumour cell survival, invasion and resistance to gemcitabine.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Cancer-cachexia anaemia: erythropoietin addresses the anaemia of the cancer-cachexia and chemotherapy-related marrow suppression in pancreatic cancer; EPOR expression on tumour cells has been documented.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Tumour-pain kinin: bradykinin released by the kallikrein-kinin system in the desmoplastic stroma activates nociceptive B1/B2 receptors on peripancreatic and coeliac nerve fibres, driving the intractable pain of pancreatic cancer.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the complement and contact-activation pathways in the pancreatic-cancer stroma, limiting the C3/C5/C5aR1 (all already mapped) cascade sustaining the immunosuppressive microenvironment.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Stromal mast-cell mediator: histamine from mast cells (already mapped) in the desmoplastic stroma promotes angiogenesis (VEGF already mapped) and T-cell suppression, reinforcing the immunologically cold microenvironment of pancreatic cancer.
 
 ---
 
