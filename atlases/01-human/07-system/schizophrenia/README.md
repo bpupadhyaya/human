@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "Brain iron transport: transferrin-mediated iron delivery is impaired in schizophrenia; prenatal iron deficiency (a risk factor) disrupts monoaminergic maturation, and CSF transferrin levels correlate with cognitive impairment in affected patients."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Sz vasopressin: vasopressin via V1aR and V1bR in limbic circuits (already mapped) and hypothalamus modulates the oxytocin (already mapped)-social-cognition axis and antipsychotic-responsive positive symptoms, with CSF vasopressin inversely correlating with schizophrenia severity."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Sz selenium: selenium deficiency amplifies the oxidative stress (xanthine-oxidase and nfe2l2 already mapped) in schizophrenia brain tissue; selenoproteins (GPx1, GPx4) protect dopaminergic (already mapped) and glutamatergic (already mapped) neurons from lipid peroxidation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Sz iodine: iodine regulates neurodevelopment disrupted in schizophrenia through thyroid-hormone-mediated cortical myelination; maternal iodine deficiency impairs monoaminergic maturation (dopamine already mapped) and increases schizophrenia risk via prenatal hypothyroidism."
 ---
 
 # Schizophrenia
@@ -827,6 +836,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM neuroinflammatory matrix: periostin is elevated in schizophrenia brain tissue; it modulates integrin signalling on astrocytes and microglia, contributing to the synaptic remodelling and neuroinflammatory milieu of the disorder.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen dysregulation: testosterone levels are reduced in male schizophrenia patients and inversely correlate with positive-symptom severity; androgen receptor signalling on dopaminergic neurons modulates D2 receptor density and antipsychotic sensitivity.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Brain iron transport: transferrin-mediated iron delivery is impaired in schizophrenia; prenatal iron deficiency (a risk factor) disrupts monoaminergic maturation, and CSF transferrin levels correlate with cognitive impairment in affected patients.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Sz vasopressin: vasopressin via V1aR and V1bR in limbic circuits (already mapped) and hypothalamus modulates the oxytocin (already mapped)-social-cognition axis and antipsychotic-responsive positive symptoms, with CSF vasopressin inversely correlating with schizophrenia severity.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Sz selenium: selenium deficiency amplifies the oxidative stress (xanthine-oxidase and nfe2l2 already mapped) in schizophrenia brain tissue; selenoproteins (GPx1, GPx4) protect dopaminergic (already mapped) and glutamatergic (already mapped) neurons from lipid peroxidation.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Sz iodine: iodine regulates neurodevelopment disrupted in schizophrenia through thyroid-hormone-mediated cortical myelination; maternal iodine deficiency impairs monoaminergic maturation (dopamine already mapped) and increases schizophrenia risk via prenatal hypothyroidism.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
