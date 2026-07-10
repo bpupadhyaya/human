@@ -519,6 +519,9 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "AGS selenium: selenium-dependent GPx in neurons (already mapped) and astrocytes (already mapped) quenches ROS amplifying cGAS-STING (already mapped) and NF-κB (already mapped); selenium deficiency worsens the type-I IFN (already mapped) neuroinflammatory burden of AGS."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "AGS iodine: thyroid hormones regulate microglia (already mapped) and astrocyte (already mapped) neuroinflammatory activation; thyroid deficiency amplifies cGAS-STING (already mapped) and type-I IFN (already mapped) and NF-κB (already mapped) interferonopathy cascade of AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -780,6 +783,7 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — AGS oxytocin: oxytocin, via OXTR on microglia (already mapped) and astrocytes (already mapped), attenuates cGAS-STING (already mapped) and type-I interferon (already mapped) neuroinflammation; oxytocin promotes regulatory T-cell (already mapped) tolerance in AGS.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AGS vasopressin: vasopressin modulates the NF-κB (already mapped) and STAT1 (already mapped) cytokine-driven encephalopathic state; vasopressin also interacts with the brain (already mapped) fluid and type-I interferon (already mapped) cerebrospinal-fluid dysregulation of AGS.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — AGS selenium: selenium-dependent GPx in neurons (already mapped) and astrocytes (already mapped) quenches ROS amplifying cGAS-STING (already mapped) and NF-κB (already mapped); selenium deficiency worsens the type-I IFN (already mapped) neuroinflammatory burden of AGS.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AGS iodine: thyroid hormones regulate microglia (already mapped) and astrocyte (already mapped) neuroinflammatory activation; thyroid deficiency amplifies cGAS-STING (already mapped) and type-I IFN (already mapped) and NF-κB (already mapped) interferonopathy cascade of AGS.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

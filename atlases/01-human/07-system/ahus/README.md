@@ -523,6 +523,9 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "aHUS copper: copper, as cofactor of superoxide dismutase in endothelial cells (already mapped) and kidney (already mapped) tubular cells, scavenges complement-C5 (already mapped)-driven ROS; copper deficiency amplifies the microangiopathic and haemolytic cascade of aHUS."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "aHUS phosphorus: phosphorus fuels endothelial-cell (already mapped) and platelet (already mapped) ATP; phosphorus deficiency impairs complement-C5 (already mapped) regulation and amplifies NF-κB (already mapped) and IL-6 (already mapped) microangiopathic cascade of aHUS."
 ---
 
 # Atypical HUS
@@ -853,6 +856,7 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-endothelial axis: iodine-dependent thyroid hormones modulate endothelial-cell (already mapped) function and platelet (already mapped) reactivity; iodine deficiency amplifies the complement-C5 (already mapped) and NF-κB (already mapped) microangiopathic cascade of aHUS.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Osmotic microangiopathic amplifier: sodium dysregulation amplifies hypertension (already mapped) and endothelial-cell (already mapped) injury in aHUS; hypernatraemia-driven osmotic stress activates the NF-κB (already mapped) and complement-C5 (already mapped) microangiopathic cascade of aHUS.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Superoxide dismutase cofactor: copper, as cofactor of superoxide dismutase in endothelial cells (already mapped) and kidney (already mapped) tubular cells, scavenges complement-C5 (already mapped)-driven ROS; copper deficiency amplifies the microangiopathic and haemolytic cascade of aHUS.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — aHUS phosphorus: phosphorus fuels endothelial-cell (already mapped) and platelet (already mapped) ATP; phosphorus deficiency impairs complement-C5 (already mapped) regulation and amplifies NF-κB (already mapped) and IL-6 (already mapped) microangiopathic cascade of aHUS.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)
