@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Erythropoietic support: erythropoietin supports the management of the chemoradiation-induced anaemia of the combined modality treatment of locally advanced cervical cancer."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell tumour axis: histamine, from mast cells (already mapped) in the HPV-driven (HPV-16 already mapped) cervical-cancer stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the tumour microenvironment."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-cervical axis: melatonin, via MT1/MT2 receptors on cervical epithelium (already mapped), modulates the HPV-driven (already mapped) oxidative stress and the circadian disruption associated with the risk and progression of cervical cancer."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Reproductive-hormone axis: prolactin, via PRL receptors on cervical epithelium (already mapped), modulates the immune surveillance and the HPV-driven (already mapped) malignant transformation of the reproductive tract in cervical cancer."
 ---
 
 # Cervical Cancer
@@ -774,6 +783,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from cervical epithelium (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the HPV-driven cervical-cancer microenvironment.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-tumour axis: bradykinin, via B1/B2 receptors on cervical endothelium (already mapped) and tumour stromal cells, amplifies the vascular permeability and the inflammatory milieu of the cervical-cancer microenvironment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic support: erythropoietin supports the management of the chemoradiation-induced anaemia of the combined modality treatment of locally advanced cervical cancer.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell tumour axis: histamine, from mast cells (already mapped) in the HPV-driven (HPV-16 already mapped) cervical-cancer stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the tumour microenvironment.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-cervical axis: melatonin, via MT1/MT2 receptors on cervical epithelium (already mapped), modulates the HPV-driven (already mapped) oxidative stress and the circadian disruption associated with the risk and progression of cervical cancer.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Reproductive-hormone axis: prolactin, via PRL receptors on cervical epithelium (already mapped), modulates the immune surveillance and the HPV-driven (already mapped) malignant transformation of the reproductive tract in cervical cancer.
 
 ---
 

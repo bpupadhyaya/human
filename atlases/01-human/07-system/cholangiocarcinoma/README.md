@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Tumour-EPO axis: erythropoietin, via the EPOR on biliary tumour cells (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of cholangiocarcinoma."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell biliary axis: histamine, from mast cells (already mapped) in the cholangiocarcinoma stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive inflammatory milieu of the biliary tumour microenvironment."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-biliary axis: melatonin, via MT1/MT2 receptors on biliary epithelium (already mapped), modulates the oxidative stress and the cholestasis-driven (already mapped) carcinogenesis of cholangiocarcinoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone biliary axis: testosterone, via androgen receptors on biliary tumour cells (already mapped), modulates the sex-differential cholangiocarcinoma risk (higher in males) and the immunosuppressive tumour microenvironment."
 ---
 
 # Cholangiocarcinoma
@@ -748,6 +757,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from biliary epithelium (already mapped) and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppression of the biliary tumour microenvironment of cholangiocarcinoma.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-biliary axis: bradykinin, via B1/B2 receptors on biliary endothelium (already mapped) and tumour stromal cells, amplifies the vascular permeability and the inflammatory milieu of the cholangiocarcinoma stroma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Tumour-EPO axis: erythropoietin, via the EPOR on biliary tumour cells (already mapped), modulates the survival, proliferation, and the angiogenic (already mapped) dimension of cholangiocarcinoma.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell biliary axis: histamine, from mast cells (already mapped) in the cholangiocarcinoma stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive inflammatory milieu of the biliary tumour microenvironment.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-biliary axis: melatonin, via MT1/MT2 receptors on biliary epithelium (already mapped), modulates the oxidative stress and the cholestasis-driven (already mapped) carcinogenesis of cholangiocarcinoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone biliary axis: testosterone, via androgen receptors on biliary tumour cells (already mapped), modulates the sex-differential cholangiocarcinoma risk (higher in males) and the immunosuppressive tumour microenvironment.
 
 ---
 
