@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "CCA vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates biliary vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "CCA serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates biliary TME neuroinflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cholangiocarcinoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "CCA selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges ROS driving TME oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "CCA iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) biliary immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -772,6 +781,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CCA prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), promotes biliary tumour immune escape; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cholangiocarcinoma.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CCA oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates biliary TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cholangiocarcinoma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CCA vasopressin: vasopressin, via V2R on endothelial cells (already mapped) and macrophages (already mapped), modulates biliary vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CCA serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates biliary TME neuroinflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cholangiocarcinoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — CCA selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges ROS driving TME oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CCA iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) biliary immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cholangiocarcinoma.
 
 ---
 

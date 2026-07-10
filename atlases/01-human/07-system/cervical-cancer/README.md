@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Cervical oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates cervical TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Cervical vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates cervical TME immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Cervical iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Cervical sodium: high dietary sodium promotes macrophage (already mapped) M2 polarisation and mast-cell (already mapped) activation; sodium dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer."
 ---
 
 # Cervical Cancer
@@ -798,6 +807,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Cervical testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of cervical cancer.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Cervical serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the cervical TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Cervical oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates cervical TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Cervical vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates cervical TME immune tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Cervical iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and mast-cell (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Cervical sodium: high dietary sodium promotes macrophage (already mapped) M2 polarisation and mast-cell (already mapped) activation; sodium dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of cervical cancer.
 
 ---
 
