@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-oesophageal axis: testosterone, via androgen receptor signalling on oesophageal squamous and adenocarcinoma cells, modulates tumour proliferation, immune evasion, and the well-established male sex bias in oesophageal-cancer incidence and mortality."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "EC prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of esophageal cancer."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "EC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of esophageal cancer."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "EC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of esophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -801,6 +810,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-oesophageal axis: histamine, released by mast cells in the Barrett's-oesophagus and oesophageal-tumour stroma, signals via H1/H2 receptors on tumour cells and endothelium, modulating angiogenesis, immune evasion, and the pro-tumourigenic milieu of oesophageal cancer.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-oesophageal axis: melatonin, produced by enterochromaffin cells in the oesophageal mucosa, suppresses acid-reflux-driven oxidative stress, limits Barrett's-oesophagus progression, and enhances apoptotic sensitivity in oesophageal-cancer cells.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-oesophageal axis: testosterone, via androgen receptor signalling on oesophageal squamous and adenocarcinoma cells, modulates tumour proliferation, immune evasion, and the well-established male sex bias in oesophageal-cancer incidence and mortality.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — EC prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of esophageal cancer.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — EC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of esophageal cancer.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — EC vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of esophageal cancer.
 
 ---
 
