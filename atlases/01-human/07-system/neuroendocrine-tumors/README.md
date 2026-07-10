@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Carcinoid desmoplastic stroma: periostin, downstream of TGF-β (already mapped), drives the fibrotic peritoneal carcinomatosis and cardiac fibrosis (heart already mapped) of the desmoplastic response to the carcinoid syndrome of midgut neuroendocrine tumours."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "NET complement regulation: C1-INH controls the classical-pathway arm (complement C3, C5 and C5aR1 already mapped) in the NET tumour microenvironment, modulating complement-dependent cytotoxicity against somatostatin-receptor (sstr2 already mapped) NET cells."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroendocrine EPO signalling: erythropoietin receptor (EPOR) on neuroendocrine tumour cells activates the JAK2/STAT3 (already mapped) pro-survival pathway, complementing the mTOR (already mapped) and VEGF (already mapped) signalling in NET tumour growth and treatment anaemia."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Alternative complement: factor H limits alternative-pathway complement activation (complement C3, C5 and C5aR1 already mapped) in the neuroendocrine-tumour stroma, preventing excessive complement-driven inflammation and protecting the carcinoid vascular endothelium."
 ---
 
 # Neuroendocrine Tumors
@@ -744,6 +753,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroendocrine stroma alarmin: TSLP from the desmoplastic NET stroma activates dendritic cells (already mapped) and mast cells (already mapped), shaping the immune microenvironment and driving the type-2 inflammatory stromal response of carcinoid and pancreatic NETs.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — NET immune surveillance: complement C5 (with C3 already mapped) drives complement-dependent cytotoxicity against NETs; C5a–C5aR1 (already mapped) recruits the myeloid infiltrate into the somatostatin-receptor-expressing carcinoid tumour stroma for immune surveillance.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Carcinoid desmoplastic stroma: periostin, downstream of TGF-β (already mapped), drives the fibrotic peritoneal carcinomatosis and cardiac fibrosis (heart already mapped) of the desmoplastic response to the carcinoid syndrome of midgut neuroendocrine tumours.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — NET complement regulation: C1-INH controls the classical-pathway arm (complement C3, C5 and C5aR1 already mapped) in the NET tumour microenvironment, modulating complement-dependent cytotoxicity against somatostatin-receptor (sstr2 already mapped) NET cells.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroendocrine EPO signalling: erythropoietin receptor (EPOR) on neuroendocrine tumour cells activates the JAK2/STAT3 (already mapped) pro-survival pathway, complementing the mTOR (already mapped) and VEGF (already mapped) signalling in NET tumour growth and treatment anaemia.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Alternative complement: factor H limits alternative-pathway complement activation (complement C3, C5 and C5aR1 already mapped) in the neuroendocrine-tumour stroma, preventing excessive complement-driven inflammation and protecting the carcinoid vascular endothelium.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

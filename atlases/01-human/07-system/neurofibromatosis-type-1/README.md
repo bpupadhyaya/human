@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Neurofibroma ECM: periostin secreted by the NF1 neurofibroma-associated fibroblasts (already mapped) and mast cells (already mapped) promotes the integrin αV-mediated invasion and the fibrous matrix accumulation of the plexiform neurofibromas of neurofibromatosis type 1."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "NF1 complement regulation: C1-INH controls the classical complement pathway in the NF1 neurofibroma stroma, limiting complement-mediated lysis of mast cells (already mapped) and Schwann cells (already mapped) and dampening the NF1 (already mapped) inflammatory progression."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "NF1 EPO signalling: erythropoietin receptor (EPOR) on NF1 neurofibroma Schwann cells activates JAK2/STAT3 pro-survival signalling, amplifying the NF1 (already mapped) loss-driven RAS/MAPK hyperactivation and the VEGF-driven (already mapped) neurofibroma angiogenesis."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Neurofibroma complement C5: complement C5 and its C5a effector amplify the mast-cell (already mapped) and macrophage (already mapped) driven inflammatory cascade in the NF1 neurofibroma stroma; C5a recruits the myeloid cells that sustain the plexiform neurofibroma growth."
 ---
 
 # Neurofibromatosis Type 1
@@ -752,6 +761,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — NF1 nerve stroma alarmin: TSLP from the NF1-deficient peripheral nerve stroma activates mast cells (already mapped) and modulates the type-2 inflammatory microenvironment of the plexiform neurofibromas; TSLP-driven mast-cell activation promotes the NF1 neurofibroma growth.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Neurofibroma pain: bradykinin activates B2 receptors on NF1 neurofibroma cells and peripheral sensory neurons, amplifying the neuropathic pain (already mapped) and mechanical allodynia of the plexiform and dermal neurofibromas of neurofibromatosis type 1.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Neurofibroma ECM: periostin secreted by the NF1 neurofibroma-associated fibroblasts (already mapped) and mast cells (already mapped) promotes the integrin αV-mediated invasion and the fibrous matrix accumulation of the plexiform neurofibromas of neurofibromatosis type 1.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — NF1 complement regulation: C1-INH controls the classical complement pathway in the NF1 neurofibroma stroma, limiting complement-mediated lysis of mast cells (already mapped) and Schwann cells (already mapped) and dampening the NF1 (already mapped) inflammatory progression.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — NF1 EPO signalling: erythropoietin receptor (EPOR) on NF1 neurofibroma Schwann cells activates JAK2/STAT3 pro-survival signalling, amplifying the NF1 (already mapped) loss-driven RAS/MAPK hyperactivation and the VEGF-driven (already mapped) neurofibroma angiogenesis.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Neurofibroma complement C5: complement C5 and its C5a effector amplify the mast-cell (already mapped) and macrophage (already mapped) driven inflammatory cascade in the NF1 neurofibroma stroma; C5a recruits the myeloid cells that sustain the plexiform neurofibroma growth.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
