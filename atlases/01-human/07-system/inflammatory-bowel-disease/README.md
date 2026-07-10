@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "IBD copper: copper, as a cofactor for SOD1-mediated antioxidant defence and macrophage (already mapped) function, attenuates mucosal oxidative stress; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of inflammatory bowel disease."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "IBD phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and neutrophils (already mapped), supports immune energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) mucosal cascade of inflammatory bowel disease."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "IBD chloride: chloride, regulating NKCC1-mediated ion transport in macrophages (already mapped) and intestinal epithelial (already mapped) cells, maintains mucosal homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of IBD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "IBD sulfur: sulfur, as cysteine and glutathione precursor in macrophages (already mapped) and mast cells (already mapped), attenuates mucosal ROS; sulfur deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of inflammatory bowel disease."
 ---
 
 # Inflammatory Bowel Disease
@@ -811,6 +820,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — IBD vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates intestinal vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of inflammatory bowel disease.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IBD iodine: iodine, via thyroid hormone biosynthesis, modulates intestinal epithelial (already mapped) and macrophage (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of inflammatory bowel disease.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — IBD copper: copper, as a cofactor for SOD1-mediated antioxidant defence and macrophage (already mapped) function, attenuates mucosal oxidative stress; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of inflammatory bowel disease.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IBD phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and neutrophils (already mapped), supports immune energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) mucosal cascade of inflammatory bowel disease.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IBD chloride: chloride, regulating NKCC1-mediated ion transport in macrophages (already mapped) and intestinal epithelial (already mapped) cells, maintains mucosal homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of IBD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IBD sulfur: sulfur, as cysteine and glutathione precursor in macrophages (already mapped) and mast cells (already mapped), attenuates mucosal ROS; sulfur deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of inflammatory bowel disease.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Influenza magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) and cytokine-storm (already mapped) immunopathology; magnesium deficiency impairs macrophage (already mapped) and NK-cell (already mapped) antiviral function."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Influenza calcium: calcium, as second messenger in macrophages (already mapped) and neutrophils (already mapped), coordinates antiviral signalling; calcium dysregulation amplifies the NF-κB (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Influenza iron: iron, regulating innate immune enzyme activity in macrophages (already mapped) and NK cells (already mapped), supports antiviral defence; iron deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cytokine cascade of influenza."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Influenza potassium: potassium depletion promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; potassium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) cytokine-storm (already mapped) cascade of influenza."
 ---
 
 # Influenza
@@ -819,3 +828,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Influenza vasopressin: vasopressin, via V1aR on macrophages (already mapped) and neurons (already mapped), modulates cytokine-storm (already mapped) and NF-κB (already mapped) immunopathology; vasopressin excess amplifies IL-6 (already mapped) and NLRP3 (already mapped) cascade.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Influenza iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and dendritic-cell (already mapped) antiviral innate immunity; iodine deficiency impairs type-I-interferon (already mapped) and NF-κB (already mapped) antiviral responses against influenza.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Influenza magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) and cytokine-storm (already mapped) immunopathology; magnesium deficiency impairs macrophage (already mapped) and NK-cell (already mapped) antiviral function.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Influenza calcium: calcium, as second messenger in macrophages (already mapped) and neutrophils (already mapped), coordinates antiviral signalling; calcium dysregulation amplifies the NF-κB (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Influenza iron: iron, regulating innate immune enzyme activity in macrophages (already mapped) and NK cells (already mapped), supports antiviral defence; iron deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cytokine cascade of influenza.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Influenza potassium: potassium depletion promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; potassium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) cytokine-storm (already mapped) cascade of influenza.
