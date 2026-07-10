@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "EPO-HBOC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and anaemia of HBOC-associated cancers, activates the EPOR on BRCA-deficient (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the tumour microenvironment."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histamine-HBOC axis: histamine, from mast cells in the HBOC tumour stroma, signals via H1/H2 receptors on BRCA-deficient (already mapped) tumour cells, promoting angiogenesis, immune evasion, and the pro-tumourigenic milieu of HBOC-associated breast and ovarian cancers."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Melatonin-HBOC axis: melatonin, via MT1/MT2 receptors on BRCA-deficient (already mapped) tumour cells, suppresses HIF-1α (already mapped) and oestrogen-receptor-driven proliferation, modulates circadian breast-cancer risk, and enhances PARP-inhibitor sensitivity."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-HBOC axis: testosterone, via androgen receptor signalling on BRCA-deficient (already mapped) breast and ovarian tumour cells, modulates HER2 (already mapped) and PARP-inhibitor sensitivity, and the sex-biased hormonal milieu of HBOC-associated cancers."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -787,6 +796,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-HBOC axis: TSLP, from the BRCA-deficient (already mapped) tumour stroma and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2 immunosuppressive microenvironment of HBOC-associated breast and ovarian cancers.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-HBOC axis: bradykinin, via B1/B2 receptors on tumour endothelium (already mapped) and mast cells (already mapped), augments vascular permeability and the inflammatory stromal milieu of HBOC-associated breast and ovarian cancers.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-HBOC axis: erythropoietin, induced by the HIF-1α (already mapped) hypoxia and anaemia of HBOC-associated cancers, activates the EPOR on BRCA-deficient (already mapped) tumour cells and modulates macrophage (already mapped) polarisation in the tumour microenvironment.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-HBOC axis: histamine, from mast cells in the HBOC tumour stroma, signals via H1/H2 receptors on BRCA-deficient (already mapped) tumour cells, promoting angiogenesis, immune evasion, and the pro-tumourigenic milieu of HBOC-associated breast and ovarian cancers.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-HBOC axis: melatonin, via MT1/MT2 receptors on BRCA-deficient (already mapped) tumour cells, suppresses HIF-1α (already mapped) and oestrogen-receptor-driven proliferation, modulates circadian breast-cancer risk, and enhances PARP-inhibitor sensitivity.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-HBOC axis: testosterone, via androgen receptor signalling on BRCA-deficient (already mapped) breast and ovarian tumour cells, modulates HER2 (already mapped) and PARP-inhibitor sensitivity, and the sex-biased hormonal milieu of HBOC-associated cancers.
 
 ---
 

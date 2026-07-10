@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Melatonin-gout axis: melatonin, via its anti-inflammatory action on macrophages (already mapped) and mast cells (already mapped), attenuates NLRP3 (already mapped) inflammasome activation and the ROS (xanthine oxidase already mapped) dimension of the acute gouty inflammation."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-gout axis: testosterone, via androgen receptor signalling on renal tubular urate transporters (SLC22A12/URAT1 pathway) and macrophages (already mapped), modulates renal urate reabsorption and the well-established male sex predominance of gout."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Serotonin-gout axis: serotonin, released by activated platelets (already mapped) during the acute gouty attack, amplifies the periarticular vascular response, pain signalling, and the NLRP3 (already mapped) inflammasome-driven inflammatory cascade of gout."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Prolactin-gout axis: prolactin, acting on macrophage (already mapped) prolactin receptors, amplifies NLRP3 (already mapped) inflammasome priming and the IL-1β (already mapped) cytokine burst of the acute gouty inflammatory attack."
 ---
 
 # Gout
@@ -752,6 +761,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-gout axis: TSLP, from the urate crystal-stimulated mast cells (already mapped) and synovial epithelium, primes dendritic cells (already mapped) and amplifies the Th2 dimension of the gouty inflammation beyond the canonical NLRP3 (already mapped) neutrophilic flare.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-gout axis: erythropoietin, modulated by the CKD (already mapped) comorbidity and the HIF-1α (already mapped) renal hypoxia of gout-related nephropathy, links the renal anaemia and the disordered iron handling (hepcidin already mapped) of chronic tophaceous gout.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-gout axis: melatonin, via its anti-inflammatory action on macrophages (already mapped) and mast cells (already mapped), attenuates NLRP3 (already mapped) inflammasome activation and the ROS (xanthine oxidase already mapped) dimension of the acute gouty inflammation.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-gout axis: testosterone, via androgen receptor signalling on renal tubular urate transporters (SLC22A12/URAT1 pathway) and macrophages (already mapped), modulates renal urate reabsorption and the well-established male sex predominance of gout.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-gout axis: serotonin, released by activated platelets (already mapped) during the acute gouty attack, amplifies the periarticular vascular response, pain signalling, and the NLRP3 (already mapped) inflammasome-driven inflammatory cascade of gout.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-gout axis: prolactin, acting on macrophage (already mapped) prolactin receptors, amplifies NLRP3 (already mapped) inflammasome priming and the IL-1β (already mapped) cytokine burst of the acute gouty inflammatory attack.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
