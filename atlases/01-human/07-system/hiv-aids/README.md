@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "AIDS anaemia therapy: erythropoietin corrects the multifactorial AIDS-related anaemia (hepcidin and transferrin already mapped), restoring haematopoiesis (bone-marrow already mapped) suppressed by the chronic infection and opportunistic pathogens."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell reservoir effector: mast cells (already mapped) serve as HIV reservoirs and release histamine that amplifies the mucosal vascular permeability and the Th2 immune dysregulation (IgE already mapped) of the AIDS immunodeficiency."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Mucosal fibrosis matrix: periostin, from gut-mucosal fibroblasts at the chronically inflamed intestinal (large-intestine already mapped) barrier of AIDS, contributes to ECM remodelling and the gut-mucosal immune dysfunction of HIV/AIDS."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-immune axis: melatonin, whose nocturnal peak is blunted by chronic HIV infection and ART, has immunomodulatory and antioxidant effects that partially counter the T-cell (already mapped) exhaustion and oxidative stress of AIDS."
 ---
 
 # HIV/AIDS
@@ -762,6 +771,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-mucosal axis: TSLP, from gut-epithelium (gut-microbiome already mapped) chronically disrupted in AIDS, primes dendritic cells (already mapped) toward the Th2/Treg (already mapped) bias that accelerates the immunodeficiency of HIV/AIDS.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-vasculopathy axis: bradykinin, via the kallikrein-kinin system activated in HIV-associated endothelial (already mapped) injury, amplifies the vascular permeability and the neuroinflammation (brain already mapped) of HIV/AIDS.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — AIDS anaemia therapy: erythropoietin corrects the multifactorial AIDS-related anaemia (hepcidin and transferrin already mapped), restoring haematopoiesis (bone-marrow already mapped) suppressed by the chronic infection and opportunistic pathogens.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell reservoir effector: mast cells (already mapped) serve as HIV reservoirs and release histamine that amplifies the mucosal vascular permeability and the Th2 immune dysregulation (IgE already mapped) of the AIDS immunodeficiency.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Mucosal fibrosis matrix: periostin, from gut-mucosal fibroblasts at the chronically inflamed intestinal (large-intestine already mapped) barrier of AIDS, contributes to ECM remodelling and the gut-mucosal immune dysfunction of HIV/AIDS.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-immune axis: melatonin, whose nocturnal peak is blunted by chronic HIV infection and ART, has immunomodulatory and antioxidant effects that partially counter the T-cell (already mapped) exhaustion and oxidative stress of AIDS.
 
 ## See Also
 

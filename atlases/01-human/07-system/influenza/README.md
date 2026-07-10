@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell-histamine axis: histamine, from mast cells (already mapped) degranulated by the influenza NA protein, amplifies the bronchospasm and the vascular permeability of the influenza-associated airway inflammation and post-viral asthma (already mapped) exacerbation."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Post-viral airway remodelling: periostin, induced in airway epithelium and fibroblasts by the IL-4/IL-13 (already mapped) Th2 response to influenza, drives the ECM remodelling and the post-influenza asthma-exacerbation (already mapped) airway hyperresponsiveness."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian antiviral immunity: melatonin has antiviral and immunomodulatory properties; influenza follows a circadian pattern of severity, and melatonin modulates the innate antiviral type-I-interferon (already mapped) and the NLRP3-inflammasome (already mapped) responses."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Stress-immune neuroendocrine: prolactin, elevated by the febrile stress of influenza infection, enhances lymphocyte (T-helper-cell and B-cell already mapped) activation and the antibody (already mapped) response against the influenza virus."
 ---
 
 # Influenza
@@ -783,3 +792,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-lung axis: TSLP, from airway epithelium (already mapped) damaged by influenza, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the Th2/eosinophil (already mapped) airway inflammation during and after influenza infection.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Post-influenza anaemia: erythropoietin drives red-cell recovery after the influenza-associated haemophagocytic lymphohistiocytosis (bone-marrow already mapped) and the cytokine-storm (IL-6 already mapped) -driven anaemia of severe influenza.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell-histamine axis: histamine, from mast cells (already mapped) degranulated by the influenza NA protein, amplifies the bronchospasm and the vascular permeability of the influenza-associated airway inflammation and post-viral asthma (already mapped) exacerbation.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Post-viral airway remodelling: periostin, induced in airway epithelium and fibroblasts by the IL-4/IL-13 (already mapped) Th2 response to influenza, drives the ECM remodelling and the post-influenza asthma-exacerbation (already mapped) airway hyperresponsiveness.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antiviral immunity: melatonin has antiviral and immunomodulatory properties; influenza follows a circadian pattern of severity, and melatonin modulates the innate antiviral type-I-interferon (already mapped) and the NLRP3-inflammasome (already mapped) responses.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-immune neuroendocrine: prolactin, elevated by the febrile stress of influenza infection, enhances lymphocyte (T-helper-cell and B-cell already mapped) activation and the antibody (already mapped) response against the influenza virus.
