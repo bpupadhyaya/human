@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "LFS sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of Li–Fraumeni syndrome."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "LFS magnesium: magnesium cofactors DNA-repair kinases in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of Li–Fraumeni syndrome."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "LFS copper: copper, via SOD1 in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of Li–Fraumeni syndrome."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "LFS zinc: zinc, as cofactor of p53 (already mapped) and antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports tumour suppression; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of LFS."
 ---
 
 # Li-Fraumeni Syndrome
@@ -838,6 +847,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — LFS selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative tumour cascade of Li–Fraumeni syndrome.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — LFS iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Li–Fraumeni syndrome.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — LFS sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of Li–Fraumeni syndrome.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — LFS magnesium: magnesium cofactors DNA-repair kinases in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of Li–Fraumeni syndrome.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — LFS copper: copper, via SOD1 in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of Li–Fraumeni syndrome.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — LFS zinc: zinc, as cofactor of p53 (already mapped) and antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports tumour suppression; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of LFS.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)

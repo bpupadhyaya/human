@@ -518,6 +518,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Lymphatic iron: iron, regulating macrophage (already mapped) and B-cell (already mapped) enzyme activity, supports immune defence; iron deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) lymphatic inflammatory cascade."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Lymphatic phosphorus: phosphorus, as ATP in macrophages (already mapped) and B-cells (already mapped), fuels lymphocyte proliferation and lymph transport; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Lymphatic chloride: chloride regulates macrophage (already mapped) and B-cell (already mapped) ion homeostasis and intracellular signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Lymphatic sulfur: sulfur, as glutathione precursor in macrophages (already mapped) and B-cells (already mapped), scavenges lymphatic ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic dysfunction."
 ---
 
 # Lymphatic System
@@ -794,6 +803,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Lymphatic potassium: potassium channels regulate B-cell (already mapped) and macrophage (already mapped) activation; potassium depletion amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of lymphatic dysfunction.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Lymphatic zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and B-cells (already mapped), attenuates oxidative stress; zinc deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Lymphatic iron: iron, regulating macrophage (already mapped) and B-cell (already mapped) enzyme activity, supports immune defence; iron deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) lymphatic inflammatory cascade.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Lymphatic phosphorus: phosphorus, as ATP in macrophages (already mapped) and B-cells (already mapped), fuels lymphocyte proliferation and lymph transport; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Lymphatic chloride: chloride regulates macrophage (already mapped) and B-cell (already mapped) ion homeostasis and intracellular signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Lymphatic sulfur: sulfur, as glutathione precursor in macrophages (already mapped) and B-cells (already mapped), scavenges lymphatic ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic dysfunction.
 
 ## Pathology
 
