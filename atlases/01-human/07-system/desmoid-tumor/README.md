@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Desmoid selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative stromal fibroblast cascade of desmoid tumour."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Desmoid iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and mast-cell (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) fibroblast-proliferative cascade of desmoid tumour."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Desmoid sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the stromal fibroblast cascade of desmoid tumour."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Desmoid magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and mast cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) stromal fibroblast-proliferative cascade of desmoid tumour."
 ---
 
 # Desmoid Tumor
@@ -821,6 +830,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Desmoid oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the fibroblast-promoting TME; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Desmoid vasopressin: vasopressin, via V1aR on mast cells (already mapped) and macrophages (already mapped), modulates the tumour vascular milieu; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Desmoid selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative stromal fibroblast cascade of desmoid tumour.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Desmoid iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and mast-cell (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) fibroblast-proliferative cascade of desmoid tumour.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Desmoid sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the stromal fibroblast cascade of desmoid tumour.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Desmoid magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and mast cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) stromal fibroblast-proliferative cascade of desmoid tumour.
 
 ---
 
