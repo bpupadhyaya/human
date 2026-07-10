@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Anti-colorectal-cancer melatonin: melatonin suppresses Wnt/β-catenin (wnt-beta-catenin already mapped) and NF-kB (already mapped) in Lynch MMR-deficient colorectal cells, reducing proliferation and potentiating the anti-tumour immune response of MSI-H tumours."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-MMR axis: testosterone, via androgen receptor on Lynch MMR-deficient colorectal and endometrial cells (endometrial cancer already mapped), modulates MMR gene expression and promotes the androgen-driven tumour proliferation contributing to sex-dependent Lynch cancer risk."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Gut neuroendocrine modulation: serotonin from enterochromaffin cells in Lynch MMR-deficient colorectal mucosa regulates bowel motility and mucosal immune responses (already mapped) that shape the MSI-H tumour microenvironment of Lynch syndrome."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Tumour-promoting prolactin: prolactin, via PRL-R on Lynch MMR-deficient endometrial (already mapped) and colorectal cells, activates JAK2/STAT5 proliferative signalling and contributes to the endometrial cancer penetrance of Lynch syndrome."
 ---
 
 # Lynch Syndrome
@@ -791,6 +800,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical and lectin complement pathways (C3, C5, C5aR1 and factor H already mapped) that contribute to anti-tumour immunity against the highly immunogenic MSI-H Lynch-spectrum colorectal and endometrial cancers.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Anaemia-of-cancer correction: erythropoietin, rising in response to the anaemia of chronic disease (already mapped) and iron-deficiency anaemia (already mapped) from occult GI bleeding, guides transfusion decisions in Lynch colorectal cancer chemotherapy (already mapped).
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Anti-colorectal-cancer melatonin: melatonin suppresses Wnt/β-catenin (wnt-beta-catenin already mapped) and NF-κB (already mapped) in Lynch MMR-deficient colorectal cells, reducing proliferation and potentiating the anti-tumour immune response of MSI-H tumours.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-MMR axis: testosterone, via androgen receptor on Lynch MMR-deficient colorectal and endometrial cells (endometrial cancer already mapped), modulates MMR gene expression and promotes the androgen-driven tumour proliferation contributing to sex-dependent Lynch cancer risk.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut neuroendocrine modulation: serotonin from enterochromaffin cells in Lynch MMR-deficient colorectal mucosa regulates bowel motility and mucosal immune responses (already mapped) that shape the MSI-H tumour microenvironment of Lynch syndrome.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Tumour-promoting prolactin: prolactin, via PRL-R on Lynch MMR-deficient endometrial (already mapped) and colorectal cells, activates JAK2/STAT5 proliferative signalling and contributes to the endometrial cancer penetrance of Lynch syndrome.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

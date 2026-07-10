@@ -491,6 +491,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Immunomodulatory neuropeptide: oxytocin, via OXT-R on lymphocytes (T-cell and B-cell already mapped) and NK cells (already mapped), attenuates excessive lymph-node immune activation and supports regulatory T-cell (already mapped) mediated immune tolerance."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-lymphocyte axis: testosterone, via androgen receptor on lymphocytes and lymphatic endothelial cells (already mapped), dampens germinal-centre B-cell (already mapped) antibody responses and contributes to the sex-dimorphic immunity of the lymphatic system."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Lymphocyte 5-HT signalling: serotonin, via 5-HT receptors on T cells, B cells and NK cells (already mapped), modulates lymphocyte migration and activation in lymph nodes; 5-HT also regulates the vascular tone of the lymphatic vasculature via smooth-muscle 5-HT2A receptors."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Vasopressin-lymphocyte immunomodulation: vasopressin, via V1a and V1b receptors on lymphocytes and lymphatic endothelial cells, enhances NK-cell (already mapped) cytotoxicity and T-cell (already mapped) proliferation, linking hypothalamic stress signals to lymph-node immunity."
 ---
 
 # Lymphatic System
@@ -758,6 +767,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian lymphocyte regulation: melatonin synchronises circadian lymphocyte (T-cell, B-cell and NK-cell already mapped) homing through lymph nodes, attenuates NF-κB (already mapped) in lymphatic endothelium, and supports nocturnal immune surveillance.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Lymphocyte proliferation hormone: prolactin, via PRL-R on B cells (already mapped) and T cells (already mapped), stimulates lymphocyte proliferation and antibody (already mapped) production in lymph-node germinal centres (already mapped), supporting systemic humoral immunity.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Immunomodulatory neuropeptide: oxytocin, via OXT-R on lymphocytes (T-cell and B-cell already mapped) and NK cells (already mapped), attenuates excessive lymph-node immune activation and supports regulatory T-cell (already mapped) mediated immune tolerance.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-lymphocyte axis: testosterone, via androgen receptor on lymphocytes and lymphatic endothelial cells (already mapped), dampens germinal-centre B-cell (already mapped) antibody responses and contributes to the sex-dimorphic immunity of the lymphatic system.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Lymphocyte 5-HT signalling: serotonin, via 5-HT receptors on T cells, B cells and NK cells (already mapped), modulates lymphocyte migration and activation in lymph nodes; 5-HT also regulates the vascular tone of the lymphatic vasculature via smooth-muscle 5-HT2A receptors.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin-lymphocyte immunomodulation: vasopressin, via V1a and V1b receptors on lymphocytes and lymphatic endothelial cells, enhances NK-cell (already mapped) cytotoxicity and T-cell (already mapped) proliferation, linking hypothalamic stress signals to lymph-node immunity.
 
 ## Pathology
 
