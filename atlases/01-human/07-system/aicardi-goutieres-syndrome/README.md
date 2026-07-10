@@ -522,6 +522,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "AGS iodine: thyroid hormones regulate microglia (already mapped) and astrocyte (already mapped) neuroinflammatory activation; thyroid deficiency amplifies cGAS-STING (already mapped) and type-I IFN (already mapped) and NF-κB (already mapped) interferonopathy cascade of AGS."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "AGS sodium: sodium dysregulation in neurons (already mapped) and astrocytes (already mapped) amplifies ionic stress; osmotic disturbances worsen cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "AGS potassium: potassium regulates neuronal (already mapped) and microglial (already mapped) membrane excitability; potassium dysregulation amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy cascade of AGS."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "AGS copper: copper, via ceruloplasmin and SOD in neurons (already mapped) and astrocytes (already mapped), quenches ROS amplifying cGAS-STING (already mapped); copper deficiency amplifies NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -784,6 +793,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AGS vasopressin: vasopressin modulates the NF-κB (already mapped) and STAT1 (already mapped) cytokine-driven encephalopathic state; vasopressin also interacts with the brain (already mapped) fluid and type-I interferon (already mapped) cerebrospinal-fluid dysregulation of AGS.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — AGS selenium: selenium-dependent GPx in neurons (already mapped) and astrocytes (already mapped) quenches ROS amplifying cGAS-STING (already mapped) and NF-κB (already mapped); selenium deficiency worsens the type-I IFN (already mapped) neuroinflammatory burden of AGS.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AGS iodine: thyroid hormones regulate microglia (already mapped) and astrocyte (already mapped) neuroinflammatory activation; thyroid deficiency amplifies cGAS-STING (already mapped) and type-I IFN (already mapped) and NF-κB (already mapped) interferonopathy cascade of AGS.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AGS sodium: sodium dysregulation in neurons (already mapped) and astrocytes (already mapped) amplifies ionic stress; osmotic disturbances worsen cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AGS potassium: potassium regulates neuronal (already mapped) and microglial (already mapped) membrane excitability; potassium dysregulation amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy cascade of AGS.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — AGS copper: copper, via ceruloplasmin and SOD in neurons (already mapped) and astrocytes (already mapped), quenches ROS amplifying cGAS-STING (already mapped); copper deficiency amplifies NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
