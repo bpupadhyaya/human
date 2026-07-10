@@ -495,6 +495,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Erythropoietic support: erythropoietin supports the management of the anaemia of the malnutrition and the iron deficiency of the purging-driven nutritional depletion of bulimia nervosa."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Neuroendocrine dysregulation: prolactin, elevated under the stress and the hypothalamic disruption (already mapped) of bulimia nervosa, amplifies the dopaminergic (dopamine already mapped) reward dysregulation and the binge-purge cycle."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone appetite axis: testosterone, via androgen receptors on hypothalamic nuclei (already mapped), modulates the appetite and the reward-drive (dopamine already mapped) of the binge-eating behaviour of bulimia nervosa."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Nutritional iron axis: transferrin, the iron carrier, reflects the malnutritional iron depletion of the purging-driven dietary restriction of bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -783,6 +792,9 @@ All of the following must be met:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-gut axis: TSLP, from gut epithelium (already mapped) under the dysbiosis and the purging-induced barrier disruption, primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the neuroinflammation of bulimia nervosa.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-gut axis: bradykinin, via B1/B2 receptors on gut epithelium (already mapped) and mast cells (already mapped), amplifies the mucosal permeability and the neuroinflammatory milieu of the purging-induced dysbiosis of bulimia nervosa.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic support: erythropoietin supports the management of the anaemia of the malnutrition and the iron deficiency of the purging-driven nutritional depletion of bulimia nervosa.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine dysregulation: prolactin, elevated under the stress and the hypothalamic disruption (already mapped) of bulimia nervosa, amplifies the dopaminergic (dopamine already mapped) reward dysregulation and the binge-purge cycle.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone appetite axis: testosterone, via androgen receptors on hypothalamic nuclei (already mapped), modulates the appetite and the reward-drive (dopamine already mapped) of the binge-eating behaviour of bulimia nervosa.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nutritional iron axis: transferrin, the iron carrier, reflects the malnutritional iron depletion of the purging-driven dietary restriction of bulimia nervosa.
 
 ## Treatment
 

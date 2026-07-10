@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Erythropoietic support: erythropoietin supports the management of the anaemia of the chronic disease and the myelosuppressive treatment of the cancer predisposition dimension of Bloom syndrome."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell inflammatory axis: histamine, from mast cells (already mapped), amplifies the vascular permeability and the immunosuppressive cytokine milieu of the infection-prone and chronic-inflammatory dimension of Bloom syndrome."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-genotoxic axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the oxidative DNA damage that compounds the BLM-helicase (already mapped) repair deficiency of Bloom syndrome."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the inflammatory milieu of the infection-prone immune dysregulation of Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -789,6 +798,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-immune axis: TSLP, from barrier epithelium and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the immune dysregulation of the recurrent infections of Bloom syndrome.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-inflammatory axis: bradykinin, via B1/B2 receptors on mast cells (already mapped) and endothelium (already mapped), amplifies the vascular permeability and the inflammatory milieu of the recurrent infections of Bloom syndrome.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic support: erythropoietin supports the management of the anaemia of the chronic disease and the myelosuppressive treatment of the cancer predisposition dimension of Bloom syndrome.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell inflammatory axis: histamine, from mast cells (already mapped), amplifies the vascular permeability and the immunosuppressive cytokine milieu of the infection-prone and chronic-inflammatory dimension of Bloom syndrome.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-genotoxic axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the oxidative DNA damage that compounds the BLM-helicase (already mapped) repair deficiency of Bloom syndrome.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the inflammatory milieu of the infection-prone immune dysregulation of Bloom syndrome.
 
 ---
 
