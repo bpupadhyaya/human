@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "ES selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) oxidative cascade of Ewing sarcoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "ES iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and mast-cell (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "ES sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of Ewing sarcoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "ES copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -810,6 +819,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — ES serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — ES testosterone: testosterone, via AR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — ES selenium: selenium, as GPx in macrophages (already mapped) and mast cells (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) oxidative cascade of Ewing sarcoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — ES iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and mast-cell (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ES sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of Ewing sarcoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — ES copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Ewing sarcoma.
 
 ---
 
