@@ -535,6 +535,12 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "NMO iron: iron, as cofactor of cytochrome c in astrocytes (already mapped) and macrophages (already mapped), supports mitochondrial function; iron deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of NMO."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "NMO chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis at the blood-brain barrier; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) astrocytopathic cascade of NMO."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "NMO nitrogen: nitrogen, as nitric oxide in astrocytes (already mapped) and macrophages (already mapped), drives CNS inflammatory stress; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of NMO."
 ---
 
 # NMOSD
@@ -853,6 +859,8 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — NMO zinc: zinc, as co-factor of SOD3 in astrocytes (already mapped) and macrophages (already mapped), scavenges ROS at the blood-brain barrier; zinc deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) astrocytopathic cascade of NMO.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — NMO phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and macrophages (already mapped), supports astrocyte (already mapped) energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of NMO.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — NMO iron: iron, as cofactor of cytochrome c in astrocytes (already mapped) and macrophages (already mapped), supports mitochondrial function; iron deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of NMO.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NMO chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis at the blood-brain barrier; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) astrocytopathic cascade of NMO.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NMO nitrogen: nitrogen, as nitric oxide in astrocytes (already mapped) and macrophages (already mapped), drives CNS inflammatory stress; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of NMO.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)

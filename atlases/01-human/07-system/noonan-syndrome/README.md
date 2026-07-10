@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Noonan copper: copper, as co-factor of lysyl oxidase in endothelial cells (already mapped) and cardiomyocytes (already mapped), supports ECM crosslinking; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac-developmental dysregulation."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Noonan zinc: zinc, as cofactor of metalloproteinases in endothelial cells (already mapped) and macrophages (already mapped), supports RASopathy-related vascular remodelling; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) Noonan cascade."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Noonan phosphorus: phosphorus, as phospholipid in cardiomyocytes (already mapped) and ATP in macrophages (already mapped), drives cardiac energy; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of Noonan syndrome."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Noonan iron: iron, via ferritin in macrophages (already mapped) and mast cells (already mapped), modulates redox balance; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) RASopathy cascade of Noonan syndrome."
 ---
 
 # Noonan Syndrome
@@ -825,6 +834,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Noonan iodine: iodine-dependent thyroid hormones regulate cardiomyocyte (already mapped) and endothelial-cell (already mapped) development; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) congenital RASopathy cascade of Noonan syndrome.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Noonan sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies endothelial-cell (already mapped) dysfunction in Noonan syndrome.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Noonan copper: copper, as co-factor of lysyl oxidase in endothelial cells (already mapped) and cardiomyocytes (already mapped), supports ECM crosslinking; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac-developmental dysregulation.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Noonan zinc: zinc, as cofactor of metalloproteinases in endothelial cells (already mapped) and macrophages (already mapped), supports RASopathy-related vascular remodelling; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) Noonan cascade.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Noonan phosphorus: phosphorus, as phospholipid in cardiomyocytes (already mapped) and ATP in macrophages (already mapped), drives cardiac energy; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of Noonan syndrome.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Noonan iron: iron, via ferritin in macrophages (already mapped) and mast cells (already mapped), modulates redox balance; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) RASopathy cascade of Noonan syndrome.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
