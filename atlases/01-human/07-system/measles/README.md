@@ -506,6 +506,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Stress-immune neuroendocrine: prolactin, elevated by the febrile stress of measles infection, enhances lymphocyte (T-helper-cell and B-cell already mapped) activation and the antibody (immunoglobulin-G already mapped) response against the measles virus."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Measles serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates type-I-interferon (already mapped) and NLRP3 (already mapped) antiviral responses; serotonin dysregulation amplifies the measles cytokine-storm severity."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Measles oxytocin: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates the cytokine-storm (already mapped) and NLRP3 (already mapped) immunopathology; oxytocin promotes immune resolution after severe measles infection."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Measles vasopressin: vasopressin, via V2 receptors on macrophages (already mapped) and neurons (already mapped), modulates fluid balance and innate immune tone; vasopressin amplifies the NLRP3 (already mapped) and IL-6 (already mapped) febrile cytokine-storm of measles."
 ---
 
 # Measles
@@ -813,6 +822,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antiviral immunity: melatonin has antiviral and immunomodulatory properties, modulating the innate antiviral type-I-interferon (already mapped) and the NLRP3-inflammasome (already mapped) responses; disrupted melatonin is seen in the febrile phase of measles.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone immune modulation: testosterone modulates the T-cell (already mapped) and NK-cell (already mapped) antiviral response; the age/sex differences in measles severity include an androgen-mediated component affecting the innate and adaptive immune defence.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-immune neuroendocrine: prolactin, elevated by the febrile stress of measles infection, enhances lymphocyte (T-helper-cell and B-cell already mapped) activation and the antibody (immunoglobulin-G already mapped) response against the measles virus.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Antiviral immune modulator: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates type-I-interferon (already mapped) and NLRP3 (already mapped) antiviral responses; serotonin dysregulation amplifies the measles cytokine-storm severity.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Immune-resolution neuropeptide: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates the cytokine-storm (already mapped) and NLRP3 (already mapped) immunopathology; oxytocin promotes immune resolution after severe measles infection.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Febrile fluid-immune axis: vasopressin, via V2 receptors on macrophages (already mapped) and neurons (already mapped), modulates fluid balance and innate immune tone; vasopressin amplifies the NLRP3 (already mapped) and IL-6 (already mapped) febrile cytokine-storm of measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

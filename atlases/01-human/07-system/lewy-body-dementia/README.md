@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Neuroprotective androgen: testosterone and its metabolite DHT exert neuroprotective effects on dopaminergic neurons (already mapped); falling testosterone in ageing is associated with greater α-synuclein (already mapped) pathology and Lewy body dementia risk."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "LBD prolactin: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates neuroinflammation; prolactin deficiency amplifies the dopamine (already mapped) dysregulation and the melatonin (already mapped) sleep-wake disruption of Lewy body dementia."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "LBD oxytocin: oxytocin, via OXTR on neurons (already mapped) and microglia (already mapped), reduces neuroinflammation and α-synuclein (already mapped) spread; oxytocin attenuates the norepinephrine (already mapped) and IL-6 (already mapped) hyperarousal of Lewy body dementia."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "LBD vasopressin: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates CSF osmolality; vasopressin dysregulation amplifies norepinephrine (already mapped) and NLRP3 (already mapped) neuroinflammation of Lewy body dementia."
 ---
 
 # Lewy Body Dementia
@@ -797,6 +806,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic sleep-wake: histamine, from the tuberomammillary nucleus (already mapped as hypothalamus-linked brain circuit), is a principal wake-promoting transmitter; the severe REM-sleep-behaviour disorder of Lewy body dementia disrupts the histaminergic arousal circuit.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — CNS-border ECM: periostin, from astrocytes (already mapped) and meningeal fibroblasts, contributes to the perivascular ECM remodelling and the neuroinflammation (IL-1b, TNF already mapped) of the Lewy body dementia brain.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Neuroprotective androgen: testosterone and its metabolite DHT exert neuroprotective effects on dopaminergic neurons (already mapped); falling testosterone in ageing is associated with greater α-synuclein (already mapped) pathology and Lewy body dementia risk.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroinflammatory neuroendocrine: prolactin, via PRLR on neurons (already mapped) and microglia (already mapped), modulates neuroinflammation; prolactin deficiency amplifies the dopamine (already mapped) dysregulation and the melatonin (already mapped) sleep-wake disruption of Lewy body dementia.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Anti-neuroinflammatory: oxytocin, via OXTR on neurons (already mapped) and microglia (already mapped), reduces neuroinflammation and α-synuclein (already mapped) spread; oxytocin attenuates the norepinephrine (already mapped) and IL-6 (already mapped) hyperarousal of Lewy body dementia.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CSF osmolality modulator: vasopressin, via V1aR on neurons (already mapped) and microglia (already mapped), modulates CSF osmolality; vasopressin dysregulation amplifies norepinephrine (already mapped) and NLRP3 (already mapped) neuroinflammation of Lewy body dementia.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
