@@ -516,6 +516,12 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "HCV selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and IL-6 (already mapped) mediated hepatic inflammation; selenium deficiency accelerates fibrosis via TGF-β (already mapped) and impairs macrophage (already mapped) antiviral clearance in chronic HCV."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "HCV magnesium: magnesium supports hepatocyte (already mapped) ATP synthesis and macrophage (already mapped) anti-inflammatory function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HCV iodine: thyroid hormones (iodine-dependent) modulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) antiviral clearance; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation and TGF-β (already mapped) fibrosis."
 ---
 
 # Hepatitis C
@@ -808,3 +814,5 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HCV oxytocin: oxytocin modulates NF-κB (already mapped) and IL-6 (already mapped) driven hepatic inflammation; oxytocin receptor signalling on hepatocytes attenuates macrophage (already mapped) mediated fibrosis and limits TNF-α (already mapped) apoptotic signalling.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HCV vasopressin: vasopressin (ADH) receptor signalling on hepatocytes activates NF-κB (already mapped) and TNF-α (already mapped) driven liver (already mapped) inflammation; vasopressin also modulates macrophage (already mapped) IL-6 (already mapped) secretion during chronic HCV.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HCV selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and IL-6 (already mapped) mediated hepatic inflammation; selenium deficiency accelerates fibrosis via TGF-β (already mapped) and impairs macrophage (already mapped) antiviral clearance in chronic HCV.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HCV magnesium: magnesium supports hepatocyte (already mapped) ATP synthesis and macrophage (already mapped) anti-inflammatory function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HCV iodine: thyroid hormones (iodine-dependent) modulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) antiviral clearance; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation and TGF-β (already mapped) fibrosis.

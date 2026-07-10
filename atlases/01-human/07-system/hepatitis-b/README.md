@@ -516,6 +516,12 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "HBV selenium: selenoproteins counter NF-κB (already mapped) oxidative stress in HBV-infected hepatocytes (already mapped); selenium deficiency amplifies TNF-α (already mapped) and IL-6 (already mapped) hepatic inflammation and impairs T-cytotoxic-cell (already mapped) clearance."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "HBV magnesium: magnesium supports hepatocyte (already mapped) ATP synthesis and macrophage (already mapped) anti-inflammatory function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "HBV iodine: thyroid hormones (iodine-dependent) modulate natural-killer-cell (already mapped) and T-cytotoxic-cell (already mapped) antiviral activity; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in chronic HBV."
 ---
 
 # Hepatitis B
@@ -817,3 +823,5 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — HBV oxytocin: oxytocin suppresses NF-κB (already mapped) driven TNF-α (already mapped) and IL-6 (already mapped) hepatic inflammation; oxytocin enhances regulatory-T-cell (already mapped) immune tolerance to HBV and reduces macrophage (already mapped) driven hepatic damage.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — HBV vasopressin: vasopressin V1 receptor on hepatocytes (already mapped) modulates NF-κB (already mapped) IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation; AVP modulates macrophage (already mapped) and natural-killer-cell (already mapped) antiviral function.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — HBV selenium: selenoproteins counter NF-κB (already mapped) oxidative stress in HBV-infected hepatocytes (already mapped); selenium deficiency amplifies TNF-α (already mapped) and IL-6 (already mapped) hepatic inflammation and impairs T-cytotoxic-cell (already mapped) clearance.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HBV magnesium: magnesium supports hepatocyte (already mapped) ATP synthesis and macrophage (already mapped) anti-inflammatory function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HBV iodine: thyroid hormones (iodine-dependent) modulate natural-killer-cell (already mapped) and T-cytotoxic-cell (already mapped) antiviral activity; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in chronic HBV.
