@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "PCNSL selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving genomic instability and lymphoma-promoting NF-κB (already mapped) signalling in the malignant B cells of primary CNS lymphoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PCNSL iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of primary CNS lymphoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "PCNSL sodium: excess sodium promotes macrophage (already mapped) and microglia (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) CNS lymphoma cascade."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "PCNSL magnesium: magnesium, as cofactor of DNA repair enzymes in neurons (already mapped) and macrophages (already mapped), supports brain-immune homeostasis; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of PCNSL."
 ---
 
 # Primary CNS Lymphoma
@@ -789,6 +798,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PCNSL oxytocin: oxytocin modulates CNS immune surveillance and blood-brain barrier integrity, intersecting the neuroinflammatory microenvironment (microglia already mapped) and B-cell proliferation (BCR already mapped) underlying primary CNS lymphoma compartmentalisation.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PCNSL vasopressin: vasopressin via AVPR modulates blood-brain barrier permeability and CNS fluid homeostasis, influencing the immune-privileged compartment that permits primary CNS lymphoma escape from systemic immune surveillance (NF-κB already mapped).
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PCNSL selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving genomic instability and lymphoma-promoting NF-κB (already mapped) signalling in the malignant B cells of primary CNS lymphoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PCNSL iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of primary CNS lymphoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PCNSL sodium: excess sodium promotes macrophage (already mapped) and microglia (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) CNS lymphoma cascade.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PCNSL magnesium: magnesium, as cofactor of DNA repair enzymes in neurons (already mapped) and macrophages (already mapped), supports brain-immune homeostasis; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of PCNSL.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
