@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "GM vasopressin: vasopressin (ADH) acts on intestinal epithelium (already mapped) to modulate fluid transport and barrier integrity; vasopressin also suppresses IL-1β (already mapped) and TNF-α (already mapped) intestinal inflammation (IBD already mapped)."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "GM selenium: selenoproteins in intestinal epithelium (already mapped) counter NF-κB (already mapped) oxidative stress; selenium deficiency impairs Akkermansia (already mapped) colonisation resistance and amplifies macrophage (already mapped) mucosal inflammation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "GM iodine: intestinal lactoperoxidase (iodine-dependent) limits pathogen colonisation in the epithelium (already mapped); iodine deficiency amplifies NF-κB (already mapped) driven IL-6 (already mapped) mucosal inflammation and impairs macrophage (already mapped) homeostasis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "GM sodium: high dietary sodium depletes Lactobacillus (already mapped) and amplifies IL-17A (already mapped) responses; sodium-driven NF-κB (already mapped) activation impairs intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) homeostasis."
 ---
 
 # Gut Microbiome
@@ -745,6 +754,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — GM testosterone: testosterone shapes gut-microbiome composition via regulatory-T-cell (already mapped) and B-cell (already mapped) modulation; androgen signalling suppresses IL-6 (already mapped) and TNF-α (already mapped) intestinal inflammation (IBD already mapped).
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — GM prolactin: prolactin receptors on intestinal epithelium (already mapped) and liver (already mapped) modulate mucosal immunity; prolactin drives IL-6 (already mapped) production in mast cells (already mapped) and shapes regulatory-T-cell (already mapped) gut tolerance.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — GM vasopressin: vasopressin (ADH) acts on intestinal epithelium (already mapped) to modulate fluid transport and barrier integrity; vasopressin also suppresses IL-1β (already mapped) and TNF-α (already mapped) intestinal inflammation (IBD already mapped).
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — GM selenium: selenoproteins in intestinal epithelium (already mapped) counter NF-κB (already mapped) oxidative stress; selenium deficiency impairs Akkermansia (already mapped) colonisation resistance and amplifies macrophage (already mapped) mucosal inflammation.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — GM iodine: intestinal lactoperoxidase (iodine-dependent) limits pathogen colonisation in the epithelium (already mapped); iodine deficiency amplifies NF-κB (already mapped) driven IL-6 (already mapped) mucosal inflammation and impairs macrophage (already mapped) homeostasis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — GM sodium: high dietary sodium depletes Lactobacillus (already mapped) and amplifies IL-17A (already mapped) responses; sodium-driven NF-κB (already mapped) activation impairs intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) homeostasis.
 
 ## Pathology
 

@@ -492,6 +492,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "FM transferrin: transferrin delivers iron for dopamine (already mapped) and norepinephrine (already mapped) synthesis; iron deficiency amplifies glutamate (already mapped) excitotoxicity and worsens BDNF (already mapped) signalling in the fibromyalgia brain (already mapped)."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "FM iodine: thyroid hormones (iodine-dependent) modulate serotonin (already mapped) and dopamine (already mapped) sensitivity; iodine deficiency amplifies NF-κB (already mapped) neuroinflammation and worsens glutamate (already mapped) excitotoxicity in central sensitisation."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "FM potassium: potassium channels regulate the threshold for substance P (already mapped) and glutamate (already mapped) central sensitisation; potassium dysregulation amplifies NF-κB (already mapped) neuroinflammation and impairs dopamine (already mapped) neurotransmission."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "FM phosphorus: ATP-phosphate metabolism drives NF-κB (already mapped) neuroinflammatory signalling; phosphorus-dependent PI3K/AKT sustains BDNF (already mapped) neurotrophic support and modulates glutamate (already mapped) excitotoxicity in fibromyalgia central sensitisation."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -810,6 +819,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — FM testosterone: testosterone deficiency amplifies substance-p (already mapped) driven central sensitisation in fibromyalgia; androgen receptor signalling also modulates the cortisol (already mapped) HPA axis dysregulation and the norepinephrine (already mapped) imbalance.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — FM prolactin: prolactin modulates the HPA axis (cortisol already mapped) and amplifies IL-6 (already mapped) neuroinflammation in fibromyalgia; elevated prolactin worsens substance-p (already mapped) driven central sensitisation and impairs BDNF (already mapped) signalling.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — FM transferrin: transferrin delivers iron for dopamine (already mapped) and norepinephrine (already mapped) synthesis; iron deficiency amplifies glutamate (already mapped) excitotoxicity and worsens BDNF (already mapped) signalling in the fibromyalgia brain (already mapped).
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — FM iodine: thyroid hormones (iodine-dependent) modulate serotonin (already mapped) and dopamine (already mapped) sensitivity; iodine deficiency amplifies NF-κB (already mapped) neuroinflammation and worsens glutamate (already mapped) excitotoxicity in central sensitisation.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — FM potassium: potassium channels regulate the threshold for substance P (already mapped) and glutamate (already mapped) central sensitisation; potassium dysregulation amplifies NF-κB (already mapped) neuroinflammation and impairs dopamine (already mapped) neurotransmission.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — FM phosphorus: ATP-phosphate metabolism drives NF-κB (already mapped) neuroinflammatory signalling; phosphorus-dependent PI3K/AKT sustains BDNF (already mapped) neurotrophic support and modulates glutamate (already mapped) excitotoxicity in fibromyalgia central sensitisation.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
