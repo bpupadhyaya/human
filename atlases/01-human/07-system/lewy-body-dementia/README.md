@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and oligodendrocytes (already mapped), exerts neuroprotective and anti-apoptotic effects relevant to the dopaminergic (dopamine already mapped) and non-dopaminergic neurodegeneration of Lewy body dementia."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Histaminergic sleep-wake: histamine, from the tuberomammillary nucleus (already mapped as hypothalamus-linked brain circuit), is a principal wake-promoting transmitter; the severe REM-sleep-behaviour disorder of Lewy body dementia disrupts the histaminergic arousal circuit."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "CNS-border ECM: periostin, from astrocytes (already mapped) and meningeal fibroblasts, contributes to the perivascular ECM remodelling and the neuroinflammation (IL-1b, TNF already mapped) of the Lewy body dementia brain."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Neuroprotective androgen: testosterone and its metabolite DHT exert neuroprotective effects on dopaminergic neurons (already mapped); falling testosterone in ageing is associated with greater α-synuclein (already mapped) pathology and Lewy body dementia risk."
 ---
 
 # Lewy Body Dementia
@@ -785,6 +794,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroinflammatory axis: TSLP, from gut-epithelium (gut-microbiome already mapped) under the autonomic dysfunction and dysbiosis of Lewy body dementia, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the gut-brain neuroinflammation.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammatory axis: bradykinin, via B2R on CNS microglia (already mapped) and neurons (already mapped), amplifies the BBB permeability and the neuroinflammation contributing to the α-synuclein (already mapped) propagation of Lewy body dementia.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin, via EpoR on neurons (already mapped) and oligodendrocytes (already mapped), exerts neuroprotective and anti-apoptotic effects relevant to the dopaminergic (dopamine already mapped) and non-dopaminergic neurodegeneration of Lewy body dementia.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histaminergic sleep-wake: histamine, from the tuberomammillary nucleus (already mapped as hypothalamus-linked brain circuit), is a principal wake-promoting transmitter; the severe REM-sleep-behaviour disorder of Lewy body dementia disrupts the histaminergic arousal circuit.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — CNS-border ECM: periostin, from astrocytes (already mapped) and meningeal fibroblasts, contributes to the perivascular ECM remodelling and the neuroinflammation (IL-1b, TNF already mapped) of the Lewy body dementia brain.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Neuroprotective androgen: testosterone and its metabolite DHT exert neuroprotective effects on dopaminergic neurons (already mapped); falling testosterone in ageing is associated with greater α-synuclein (already mapped) pathology and Lewy body dementia risk.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

@@ -497,6 +497,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Post-measles anaemia: erythropoietin drives red-cell regeneration to correct the anaemia driven by the cytokine-storm (IL-6 already mapped) and the haemophagocytic (bone-marrow already mapped) suppression of the severe measles infection."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian antiviral immunity: melatonin has antiviral and immunomodulatory properties, modulating the innate antiviral type-I-interferon (already mapped) and the NLRP3-inflammasome (already mapped) responses; disrupted melatonin is seen in the febrile phase of measles."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone immune modulation: testosterone modulates the T-cell (already mapped) and NK-cell (already mapped) antiviral response; the age/sex differences in measles severity include an androgen-mediated component affecting the innate and adaptive immune defence."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Stress-immune neuroendocrine: prolactin, elevated by the febrile stress of measles infection, enhances lymphocyte (T-helper-cell and B-cell already mapped) activation and the antibody (immunoglobulin-G already mapped) response against the measles virus."
 ---
 
 # Measles
@@ -801,6 +810,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-airway axis: TSLP, from airway epithelium (already mapped) damaged by measles virus, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the type-2 airway inflammation underlying the croup and the post-measles wheezing exacerbation.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-airway axis: bradykinin, via the kallikrein-kinin system activated by the measles-associated vascular endothelial (already mapped) injury, amplifies the airway oedema and the vascular permeability of the measles bronchopneumonia.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Post-measles anaemia: erythropoietin drives red-cell regeneration to correct the anaemia driven by the cytokine-storm (IL-6 already mapped) and the haemophagocytic (bone-marrow already mapped) suppression of the severe measles infection.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antiviral immunity: melatonin has antiviral and immunomodulatory properties, modulating the innate antiviral type-I-interferon (already mapped) and the NLRP3-inflammasome (already mapped) responses; disrupted melatonin is seen in the febrile phase of measles.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone immune modulation: testosterone modulates the T-cell (already mapped) and NK-cell (already mapped) antiviral response; the age/sex differences in measles severity include an androgen-mediated component affecting the innate and adaptive immune defence.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-immune neuroendocrine: prolactin, elevated by the febrile stress of measles infection, enhances lymphocyte (T-helper-cell and B-cell already mapped) activation and the antibody (immunoglobulin-G already mapped) response against the measles virus.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
