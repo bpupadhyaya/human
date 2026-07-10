@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory milieu and the immune evasion of the chordoma microenvironment."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Chordoma testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) cascade of chordoma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Chordoma serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the chordoma TME; serotonin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of chordoma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Chordoma prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the chordoma immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of chordoma."
 ---
 
 # Chordoma
@@ -798,6 +807,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell chordoma axis: histamine, from mast cells (already mapped) in the notochordal tumour microenvironment, amplifies the vascular permeability, the angiogenesis (already mapped) and the immunosuppressive milieu of chordoma.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-notochordal axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the oxidative stress of the brachyury/TBXT-driven (already mapped) slow proliferation and angiogenic dimension of chordoma.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory milieu and the immune evasion of the chordoma microenvironment.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Chordoma testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) cascade of chordoma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Chordoma serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the chordoma TME; serotonin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of chordoma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Chordoma prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the chordoma immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of chordoma.
 
 ---
 

@@ -510,6 +510,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sex-hormone neuro-immunomodulatory axis: testosterone, via androgen receptors on Schwann cells (already mapped) and immune effectors (T cells already mapped), modulates the sex-differential autoimmune demyelination and neuroprotection of CIDP."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "CIDP prolactin: prolactin, via PRLR on macrophages (already mapped) and neurons (already mapped), modulates the neuroinflammatory TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "CIDP oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neurons (already mapped), attenuates peripheral neuroinflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "CIDP vasopressin: vasopressin, via V1aR on macrophages (already mapped) and endothelial cells (already mapped), modulates peripheral nerve vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of CIDP."
 ---
 
 # CIDP
@@ -816,6 +825,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell nerve-barrier axis: histamine, from mast cells (already mapped) in the endoneurium, amplifies the blood-nerve-barrier disruption and the inflammatory cytokine milieu of the autoimmune demyelination of CIDP.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-neuroimmune axis: melatonin, via MT1/MT2 receptors on Schwann cells and peripheral immune effectors (T cells and macrophages already mapped), modulates the autoimmune inflammatory tone and the demyelination of CIDP.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone neuro-immunomodulatory axis: testosterone, via androgen receptors on Schwann cells (already mapped) and immune effectors (T cells already mapped), modulates the sex-differential autoimmune demyelination and neuroprotection of CIDP.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CIDP prolactin: prolactin, via PRLR on macrophages (already mapped) and neurons (already mapped), modulates the neuroinflammatory TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CIDP oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neurons (already mapped), attenuates peripheral neuroinflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CIDP vasopressin: vasopressin, via V1aR on macrophages (already mapped) and endothelial cells (already mapped), modulates peripheral nerve vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of CIDP.
 
 ---
 
