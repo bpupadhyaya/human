@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "ASD transferrin: transferrin supplies iron (already mapped) to neurons (already mapped) and oligodendrocytes (already mapped) for myelination; transferrin deficiency amplifies NF-κB (already mapped) neuroinflammation and iron-deficiency-anemia (already mapped) of ASD."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "ASD potassium: potassium channels regulate GABA (already mapped) and glutamate (already mapped) excitatory-inhibitory balance at synapses (already mapped); channel dysfunction amplifies NF-κB (already mapped) neuroinflammation and neurodevelopmental disruption of ASD."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "ASD phosphorus: phosphorus, as phospholipid and ATP, is essential for synapse (already mapped) integrity and neuronal (neuron already mapped) energy; phosphorus dysregulation impairs mTOR (already mapped) anabolic signalling and the synaptic pruning disrupted in ASD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "ASD sulfur: glutathione (sulfur-containing) is depleted in ASD; sulfur deficiency impairs ROS quenching in neurons (already mapped) and astrocytes (already mapped), worsening oxidative stress that amplifies NF-κB (already mapped) and mTOR (already mapped) disruption."
 ---
 
 # Autism Spectrum Disorder
@@ -820,6 +829,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-mediated myelination: iodine, via thyroid hormone synthesis, supports myelination and synapse maturation critical in ASD; iodine deficiency amplifies IL-6 and mTOR neurodevelopmental disruption of ASD.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Neuronal excitatory-inhibitory balance: sodium, via neuronal Na+ channels, maintains glutamate/GABA excitatory-inhibitory balance; sodium dysregulation amplifies NF-κB neuroinflammation and synapse dysfunction of ASD.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Iron delivery for myelination: transferrin supplies iron to neurons and oligodendrocytes for myelination; transferrin deficiency amplifies NF-κB neuroinflammation and iron-deficiency-anaemia burden of ASD.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ASD potassium: potassium channels regulate GABA (already mapped) and glutamate (already mapped) excitatory-inhibitory balance at synapses (already mapped); channel dysfunction amplifies NF-κB (already mapped) neuroinflammation and neurodevelopmental disruption of ASD.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ASD phosphorus: phosphorus, as phospholipid and ATP, is essential for synapse (already mapped) integrity and neuronal (neuron already mapped) energy; phosphorus dysregulation impairs mTOR (already mapped) anabolic signalling and the synaptic pruning disrupted in ASD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — ASD sulfur: glutathione (sulfur-containing) is depleted in ASD; sulfur deficiency impairs ROS quenching in neurons (already mapped) and astrocytes (already mapped), worsening oxidative stress that amplifies NF-κB (already mapped) and mTOR (already mapped) disruption.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

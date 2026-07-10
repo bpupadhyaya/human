@@ -495,6 +495,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "BED iodine: iodine, via thyroid hormone metabolism, modulates the serotonin (already mapped) and dopamine (already mapped) appetite set-point; iodine deficiency amplifies the cortisol (already mapped) and leptin (already mapped) metabolic dysregulation of BED."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "BED sodium: sodium regulates hypothalamic (brain already mapped) satiety signalling; sodium dysregulation amplifies cortisol (already mapped) and CRH (already mapped) stress drive and dopamine (already mapped) and serotonin (already mapped) reward dysregulation of BED."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "BED potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ homeostasis amplifies IL-6 (already mapped) neuroinflammation and the dopamine (already mapped) reward-circuit dysfunction underlying binge-eating disorder."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "BED calcium: calcium signalling regulates dopamine (already mapped) and serotonin (already mapped) release at synapses (already mapped); calcium dysregulation amplifies the NLRP3 inflammasome (already mapped) and CRH (already mapped) stress cascade of binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -815,6 +824,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Dopamine-serotonin synthesis support: copper, via ceruloplasmin, supports dopamine and serotonin reward-circuit synthesis; copper deficiency amplifies IL-6 and cortisol metabolic disruption and binge-purge neurochemistry of BED.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant reward-circuit protection: selenium, via GPx, shields reward-circuit neurons from oxidative stress; selenium deficiency amplifies IL-6 and cortisol neuroinflammation and dopamine reward-deficit vulnerability of BED.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid appetite set-point: iodine, via thyroid hormone metabolism, modulates the serotonin and dopamine appetite set-point; iodine deficiency amplifies cortisol and leptin metabolic dysregulation of BED.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — BED sodium: sodium regulates hypothalamic (brain already mapped) satiety signalling; sodium dysregulation amplifies cortisol (already mapped) and CRH (already mapped) stress drive and dopamine (already mapped) and serotonin (already mapped) reward dysregulation of BED.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — BED potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ homeostasis amplifies IL-6 (already mapped) neuroinflammation and the dopamine (already mapped) reward-circuit dysfunction underlying binge-eating disorder.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — BED calcium: calcium signalling regulates dopamine (already mapped) and serotonin (already mapped) release at synapses (already mapped); calcium dysregulation amplifies the NLRP3 inflammasome (already mapped) and CRH (already mapped) stress cascade of binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
