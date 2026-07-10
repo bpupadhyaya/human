@@ -504,6 +504,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Stress-endocrine coupling: prolactin, elevated after acute trauma and stress (HPA-axis already mapped), modulates the T-cell (already mapped) and NK-cell (already mapped) immune function and contributes to the female-predominant vulnerability to PTSD."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "PTSD factor-h: factor H limits alternative complement (C5 already mapped) in the neuroinflamed brain (already mapped); impaired factor H amplifies microglial (already mapped) and astrocyte (already mapped) complement-driven hippocampal (already mapped) damage of PTSD."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "PTSD transferrin: transferrin supports brain (already mapped) iron homeostasis and dopamine (already mapped) synthesis; iron dyshomeostasis amplifies hippocampal (already mapped) neurodegeneration and cortisol (already mapped) HPA-axis disruption of PTSD."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "PTSD iron: iron supports brain (already mapped) myelination and dopamine (already mapped) synthesis; iron deficiency amplifies hippocampal (already mapped) neurodegeneration and cortisol (already mapped) HPA-axis dysregulation in PTSD."
 ---
 
 # PTSD
@@ -801,6 +810,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM remodelling in the fear-memory circuit: periostin, expressed by astrocytes (already mapped) and microglia (already mapped) in the amygdala and hippocampus, modulates the extracellular matrix perineuronal nets that consolidate the maladaptive fear memories of PTSD.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuro-protective cytokine: erythropoietin, via EPOR on hippocampal neurons and astrocytes (already mapped), promotes neurogenesis and limits the HPA-axis-driven (cortisol already mapped) hippocampal volume loss and the neuroinflammatory burden of PTSD.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Stress-endocrine coupling: prolactin, elevated after acute trauma and stress (HPA-axis already mapped), modulates the T-cell (already mapped) and NK-cell (already mapped) immune function and contributes to the female-predominant vulnerability to PTSD.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — PTSD factor-h: factor H limits alternative complement (C5 already mapped) in the neuroinflamed brain (already mapped); impaired factor H amplifies microglial (already mapped) and astrocyte (already mapped) complement-driven hippocampal (already mapped) damage of PTSD.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — PTSD transferrin: transferrin supports brain (already mapped) iron homeostasis and dopamine (already mapped) synthesis; iron dyshomeostasis amplifies hippocampal (already mapped) neurodegeneration and cortisol (already mapped) HPA-axis disruption of PTSD.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — PTSD iron: iron supports brain (already mapped) myelination and dopamine (already mapped) synthesis; iron deficiency amplifies hippocampal (already mapped) neurodegeneration and cortisol (already mapped) HPA-axis dysregulation in PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

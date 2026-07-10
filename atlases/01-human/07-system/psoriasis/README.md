@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine skin axis: prolactin, acting via PRLR on keratinocytes (already mapped) and T-helper cells (already mapped), potentiates the Th17/IL-17 axis (already mapped) and the female-predominant hormonal amplification of the chronic plaque inflammation of psoriasis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "PsO testosterone: testosterone, via androgen receptors on skin (already mapped) keratinocytes, suppresses the IL-17A (already mapped)/NF-κB (already mapped) axis; androgen deficiency amplifies T-helper-cell (already mapped) Th17 activation and the plaque burden of psoriasis."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "PsO serotonin: serotonin, via 5-HT2 on skin (already mapped) keratinocytes, amplifies keratinocyte hyperproliferation and T-helper-cell (already mapped) Th17 activation; 5-HT also promotes NF-κB (already mapped) plaque inflammation and the vascular permeability of psoriasis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "PsO oxytocin: oxytocin, via OXTR on regulatory T cells (already mapped) and dendritic cells (already mapped), attenuates IL-23 (already mapped)/Th17 axis; oxytocin also suppresses NF-κB (already mapped) and skin (already mapped) keratinocyte hyperproliferation of psoriasis."
 ---
 
 # Psoriasis
@@ -778,6 +787,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell skin effector: histamine, released by mast cells (already mapped) in psoriatic skin, promotes keratinocyte (already mapped) proliferation via H1/H4 receptors and amplifies the vascular permeability and pruritogenic signalling of psoriasis.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian anti-inflammatory protection: melatonin, via MT1/MT2 receptors on keratinocytes (already mapped) and T cells (already mapped), suppresses the NF-κB/TNF-α axis (already mapped) and reduces the oxidative stress driving the inflammatory plaque of psoriasis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine skin axis: prolactin, acting via PRLR on keratinocytes (already mapped) and T-helper cells (already mapped), potentiates the Th17/IL-17 axis (already mapped) and the female-predominant hormonal amplification of the chronic plaque inflammation of psoriasis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PsO testosterone: testosterone, via androgen receptors on skin (already mapped) keratinocytes, suppresses the IL-17A (already mapped)/NF-κB (already mapped) axis; androgen deficiency amplifies T-helper-cell (already mapped) Th17 activation and the plaque burden of psoriasis.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PsO serotonin: serotonin, via 5-HT2 on skin (already mapped) keratinocytes, amplifies keratinocyte hyperproliferation and T-helper-cell (already mapped) Th17 activation; 5-HT also promotes NF-κB (already mapped) plaque inflammation and the vascular permeability of psoriasis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PsO oxytocin: oxytocin, via OXTR on regulatory T cells (already mapped) and dendritic cells (already mapped), attenuates IL-23 (already mapped)/Th17 axis; oxytocin also suppresses NF-κB (already mapped) and skin (already mapped) keratinocyte hyperproliferation of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
