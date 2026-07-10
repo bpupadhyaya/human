@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Melanoma magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of melanoma."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Melanoma calcium: calcium signals in macrophages (already mapped) and mast cells (already mapped) regulate immune activation; calcium flux amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of melanoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Melanoma potassium: potassium channels regulate macrophage (already mapped) and T-cytotoxic (already mapped) antitumour function; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of melanoma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Melanoma phosphorus: phosphorus, as phospholipid and ATP in macrophages (already mapped) and mast cells (already mapped), supports antitumour signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of melanoma."
 ---
 
 # Melanoma
@@ -785,6 +794,9 @@ cross_links:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Melanoma iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive tumour cascade of melanoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Melanoma sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Melanoma magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Melanoma calcium: calcium signals in macrophages (already mapped) and mast cells (already mapped) regulate immune activation; calcium flux amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Melanoma potassium: potassium channels regulate macrophage (already mapped) and T-cytotoxic (already mapped) antitumour function; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Melanoma phosphorus: phosphorus, as phospholipid and ATP in macrophages (already mapped) and mast cells (already mapped), supports antitumour signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

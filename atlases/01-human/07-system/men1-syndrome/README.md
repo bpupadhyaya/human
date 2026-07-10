@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "MEN1 copper: copper, as cofactor of SOD1 in macrophages (already mapped) and endothelial cells (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative tumour cascade of MEN1 syndrome."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "MEN1 iron: iron, via ferritin in macrophages (already mapped) and fibroblasts (already mapped), modulates redox balance in the MEN1 tumour microenvironment; iron dysregulation amplifies IL-6 (already mapped) and mTOR (already mapped) cascade of MEN1 syndrome."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "MEN1 chloride: chloride channels regulate macrophage (already mapped) and endothelial cell (already mapped) ion homeostasis in the MEN1 neuroendocrine microenvironment; chloride imbalance amplifies IL-6 (already mapped) and VEGF (already mapped) cascade."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "MEN1 sulfur: sulfur-containing amino acids in macrophages (already mapped) and fibroblasts (already mapped) maintain redox buffering; sulfur depletion amplifies IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of MEN1 syndrome."
 ---
 
 # MEN1 Syndrome
@@ -807,6 +816,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MEN1 sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of MEN1 syndrome.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MEN1 potassium: potassium channels regulate macrophage (already mapped) and fibroblast (already mapped) function in the MEN1 tumour microenvironment; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of MEN1 syndrome.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MEN1 copper: copper, as cofactor of SOD1 in macrophages (already mapped) and endothelial cells (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative tumour cascade of MEN1 syndrome.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — MEN1 iron: iron, via ferritin in macrophages (already mapped) and fibroblasts (already mapped), modulates redox balance in the MEN1 tumour microenvironment; iron dysregulation amplifies IL-6 (already mapped) and mTOR (already mapped) cascade of MEN1 syndrome.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MEN1 chloride: chloride channels regulate macrophage (already mapped) and endothelial cell (already mapped) ion homeostasis in the MEN1 neuroendocrine microenvironment; chloride imbalance amplifies IL-6 (already mapped) and VEGF (already mapped) cascade.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MEN1 sulfur: sulfur-containing amino acids in macrophages (already mapped) and fibroblasts (already mapped) maintain redox buffering; sulfur depletion amplifies IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of MEN1 syndrome.
 
 ---
 
