@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "VHL iodine: iodine-dependent thyroid hormones modulate VEGF (already mapped) and HIF-1α (already mapped) pathway activity in VHL-associated ccRCC and haemangioblastoma; hypothyroidism may alter the angiogenic milieu and metabolic rate of VHL tumour cells."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "VHL sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplify HIF-1α (already mapped) and VEGF (already mapped) and mTOR (already mapped) angiogenic cascade of VHL disease."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "VHL magnesium: magnesium, as mTOR (already mapped) cofactor in endothelial-cell (already mapped) and macrophages (already mapped), supports angiogenesis; magnesium deficiency amplifies HIF-1α (already mapped) and VEGF (already mapped) and NF-κB (already mapped) cascade of VHL."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "VHL copper: copper, as lysyl oxidase cofactor in endothelial-cell (already mapped), drives VEGF (already mapped) angiogenesis in VHL tumours; copper deficiency impairs macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour immunity in VHL disease."
 ---
 
 # VHL Disease
@@ -797,6 +806,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — VHL vasopressin: vasopressin modulates renal tubular water reabsorption via aquaporin-2 (kidney already mapped); in VHL disease, AVP V2 receptor signalling intersects HIF-1α (already mapped) and VEGF (already mapped) axes in ccRCC and pNET-associated ectopic hormone secretion.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — VHL selenium: selenium-dependent GPX4 protects VHL-deficient ccRCC cells from ferroptosis; GPX4 upregulation is a resistance mechanism downstream of the HIF-1α (already mapped)-VEGF (already mapped) axis in VHL tumours, and selenium status modulates tumour oxidative stress.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — VHL iodine: iodine-dependent thyroid hormones modulate VEGF (already mapped) and HIF-1α (already mapped) pathway activity in VHL-associated ccRCC and haemangioblastoma; hypothyroidism may alter the angiogenic milieu and metabolic rate of VHL tumour cells.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — VHL sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplify HIF-1α (already mapped) and VEGF (already mapped) and mTOR (already mapped) angiogenic cascade of VHL disease.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — VHL magnesium: magnesium, as mTOR (already mapped) cofactor in endothelial-cell (already mapped) and macrophages (already mapped), supports angiogenesis; magnesium deficiency amplifies HIF-1α (already mapped) and VEGF (already mapped) and NF-κB (already mapped) cascade of VHL.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — VHL copper: copper, as lysyl oxidase cofactor in endothelial-cell (already mapped), drives VEGF (already mapped) angiogenesis in VHL tumours; copper deficiency impairs macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour immunity in VHL disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Werner selenium: selenium-dependent GPX and TrxR enzymes counter ROS-driven DNA damage accumulation in Werner syndrome (WRN already mapped); selenium deficiency worsens NF-κB (already mapped)-mediated SASP and accelerates the progeroid inflammaging phenotype."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Werner iodine: thyroid hormones regulate macrophage (already mapped) and mast-cell (already mapped) immune surveillance; thyroid deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) SASP cascade of Werner syndrome."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Werner sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) amplifies IL-6 (already mapped) and mTOR (already mapped) SASP cascade of WRN (already mapped)-deficient Werner fibroblasts (already mapped)."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Werner magnesium: magnesium, as WRN (already mapped) cofactor in fibroblasts (already mapped) and osteoblasts (already mapped), supports DNA repair; deficiency amplifies p53 (already mapped) instability, NF-κB (already mapped) and IL-6 (already mapped) cascade of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -838,6 +847,9 @@ cross_links:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Werner oxytocin: oxytocin receptor-cAMP/PKA signalling on Werner syndrome fibroblasts (WRN already mapped) attenuates NF-κB (already mapped) driven SASP and oxidative DNA damage; oxytocin modulates the premature-ageing phenotype and accelerated atherosclerosis of Werner syndrome.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Werner vasopressin: vasopressin V1A receptor in Werner syndrome intersects mTOR (already mapped) and NF-κB (already mapped) pathways; AVP-mediated calcium signalling amplifies the SASP and the progeroid metabolic triad of insulin (already mapped) resistance and dyslipidaemia.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Werner selenium: selenium-dependent GPX and TrxR enzymes counter ROS-driven DNA damage accumulation in Werner syndrome (WRN already mapped); selenium deficiency worsens NF-κB (already mapped)-mediated SASP and accelerates the progeroid inflammaging phenotype.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Werner iodine: thyroid hormones regulate macrophage (already mapped) and mast-cell (already mapped) immune surveillance; thyroid deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) SASP cascade of Werner syndrome.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Werner sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) amplifies IL-6 (already mapped) and mTOR (already mapped) SASP cascade of WRN (already mapped)-deficient Werner fibroblasts (already mapped).
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Werner magnesium: magnesium, as WRN (already mapped) cofactor in fibroblasts (already mapped) and osteoblasts (already mapped), supports DNA repair; deficiency amplifies p53 (already mapped) instability, NF-κB (already mapped) and IL-6 (already mapped) cascade of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
