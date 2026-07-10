@@ -523,6 +523,9 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Osteoporosis potassium: potassium alkalinity buffers the acid load that drives osteoclast (already mapped) RANKL (already mapped)-mediated bone resorption; potassium deficiency amplifies the acid-driven IL-6 (already mapped) and TNF-α (already mapped) bone loss of osteoporosis."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "OP iron: iron supports macrophage (already mapped) and osteoclast (already mapped) regulation; iron deficiency amplifies NF-κB (already mapped) and RANKL (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) driven osteoclastic bone resorption in osteoporosis."
 ---
 
 # Osteoporosis
@@ -799,6 +802,7 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant bone-remodelling: selenium, as selenoprotein antioxidant in osteoblasts (already mapped) and osteoclasts (already mapped), limits the ROS-driven RANKL (already mapped) and TNF-α (already mapped) signalling of the bone-resorption cascade of osteoporosis.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-bone axis: iodine-dependent thyroid hormones regulate osteoblast (already mapped) activity and bone mineral density; iodine deficiency amplifies the RANKL (already mapped) and IL-6 (already mapped) osteoclast resorption of osteoporosis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Acid-buffering bone protection: potassium alkalinity buffers the acid load that drives osteoclast (already mapped) RANKL (already mapped)-mediated bone resorption; potassium deficiency amplifies the acid-driven IL-6 (already mapped) and TNF-α (already mapped) bone loss of osteoporosis.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — OP iron: iron supports macrophage (already mapped) and osteoclast (already mapped) regulation; iron deficiency amplifies NF-κB (already mapped) and RANKL (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) driven osteoclastic bone resorption in osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

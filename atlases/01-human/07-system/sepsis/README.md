@@ -523,6 +523,9 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Sepsis magnesium: magnesium, via NMDA-receptor (already mapped) blockade and mitochondrial ROS attenuation in macrophages (already mapped) and endothelial cells (already mapped), limits the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade of sepsis."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Sepsis zinc: zinc cofactors macrophage (already mapped) anti-inflammatory resolution and neutrophil (already mapped) function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) systemic inflammation in sepsis."
 ---
 
 # Sepsis
@@ -797,6 +800,7 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-immune axis: iodine-dependent thyroid hormones modulate the macrophage (already mapped) and neutrophil (already mapped) oxidative burst; iodine deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade and organ-failure of sepsis.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NLRP3 inflammasome modulator: sodium, via NLRP3 (already mapped) inflammasome activation in macrophages (already mapped) and endothelial cells (already mapped), modulates cytokine secretion; sodium dysregulation amplifies the IL-6 (already mapped) and TNF-α (already mapped) storm of sepsis.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Mitochondrial ROS brake: magnesium, via NMDA-receptor (already mapped) blockade and mitochondrial ROS attenuation in macrophages (already mapped) and endothelial cells (already mapped), limits the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade of sepsis.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Sepsis zinc: zinc cofactors macrophage (already mapped) anti-inflammatory resolution and neutrophil (already mapped) function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) systemic inflammation in sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
