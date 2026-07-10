@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Antipsychotic-immune axis: prolactin, elevated by antipsychotic medications used in BD (dopamine already mapped), modulates T-cell (already mapped) and NK-cell (already mapped) immune function and contributes to the metabolic side-effect burden of bipolar disorder."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "BD testosterone: testosterone, via androgen receptors on neurons (already mapped), suppresses NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation; androgen deficiency amplifies the complement-C5 (already mapped)-mediated mood-circuit synaptic-pruning excess of BD."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "BD oxytocin: oxytocin, via OXTR on neurons (already mapped), modulates the dopamine (already mapped)/serotonin (already mapped) mood circuitry and neuroplasticity; oxytocin deficiency amplifies NF-κB (already mapped) neuroinflammation and BDNF (already mapped) deficit of BD."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "BD selenium: selenium, via GPx and thioredoxin reductase, protects neurons (already mapped) from oxidative injury; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory burden and the mood-episode severity of bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -801,6 +810,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM remodelling in mood circuits: periostin, expressed by astrocytes (already mapped) and microglia (already mapped), modulates the perineuronal net matrix in limbic circuitry and contributes to the synaptic dysregulation underlying mood episodes of bipolar disorder.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via EPOR on neurons (already mapped) and astrocytes (already mapped), promotes neuronal survival, limits the neurotoxic cytokine burden (TNF-α and IL-6 already mapped) and attenuates the hippocampal volume loss of bipolar disorder.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Antipsychotic-immune axis: prolactin, elevated by antipsychotic medications used in BD (dopamine already mapped), modulates T-cell (already mapped) and NK-cell (already mapped) immune function and contributes to the metabolic side-effect burden of bipolar disorder.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen neuroinflammation suppression: testosterone, via androgen receptors on neurons, suppresses NF-κB and IL-6 neuroinflammation; androgen deficiency amplifies complement-C5-mediated mood-circuit synaptic-pruning excess of BD.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Dopamine-serotonin mood modulation: oxytocin, via OXTR on neurons, modulates the dopamine/serotonin mood circuitry and neuroplasticity; oxytocin deficiency amplifies NF-κB neuroinflammation and BDNF deficit of BD.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Neuroprotective antioxidant: selenium, via GPx and thioredoxin reductase, protects neurons from oxidative injury; selenium deficiency amplifies NF-κB and IL-6 neuroinflammatory burden and mood-episode severity of bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

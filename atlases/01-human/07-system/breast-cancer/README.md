@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian oncostatic protection: melatonin, via MT1 receptors on breast-cancer cells and via epigenetic suppression of oestrogen-receptor (already mapped) signalling, suppresses cancer cell proliferation and the night-shift-work-linked circadian disruption risk of breast cancer."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "BC testosterone: testosterone, via androgen-receptor (already mapped), counteracts oestrogen (estrogen already mapped)-driven tumour proliferation and attenuates the NF-κB (already mapped) and IL-6 (already mapped) pro-tumourigenic cytokine cascade of breast cancer."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "BC serotonin: serotonin, via 5-HT receptors on breast-cancer cells, modulates tumour proliferation and interacts with oestrogen (estrogen already mapped) signalling; serotonin also amplifies the NF-κB (already mapped) pro-tumourigenic milieu of breast cancer."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "BC prolactin: prolactin, via PRLR on breast-cancer cells, amplifies mTOR (already mapped) and NF-κB (already mapped) tumour-promoting survival signalling; prolactin also promotes oestrogen-receptor upregulation and VEGF (already mapped) angiogenesis of breast cancer."
 ---
 
 # Breast Cancer
@@ -773,6 +782,9 @@ cross_links:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell TME effector: histamine, released by mast cells (already mapped) in the breast-cancer TME, promotes tumour angiogenesis (VEGF already mapped) and the immunosuppressive cytokine milieu (IL-10 and TGF-β already mapped) that supports immune evasion of breast cancer.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Metastatic ECM scaffold: periostin, overexpressed in the breast-cancer stroma, promotes tumour invasion, activates the PI3K/AKT signalling (already mapped) pathway in cancer cells and facilitates the colonisation of the lung and bone pre-metastatic niches of breast cancer.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian oncostatic protection: melatonin, via MT1 receptors on breast-cancer cells and via epigenetic suppression of oestrogen-receptor (already mapped) signalling, suppresses cancer cell proliferation and the night-shift-work-linked circadian disruption risk of breast cancer.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen tumour-suppressive axis: testosterone, via androgen-receptor, counteracts oestrogen-driven tumour proliferation and attenuates the NF-κB and IL-6 pro-tumourigenic cytokine cascade of breast cancer.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-oestrogen tumour axis: serotonin, via 5-HT receptors on breast-cancer cells, modulates tumour proliferation and interacts with oestrogen signalling; serotonin also amplifies the NF-κB pro-tumourigenic milieu of breast cancer.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin tumour-survival amplification: prolactin, via PRLR on breast-cancer cells, amplifies mTOR and NF-κB tumour-promoting survival signalling and promotes oestrogen-receptor upregulation and VEGF angiogenesis of breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
