@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement regulation-GBM axis: the C1-esterase inhibitor limits classical and contact-pathway complement activation in the glioblastoma microenvironment (complement C3/C5/C5aR1 already mapped), modulating the neuroinflammatory and tumour milieu."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "GBM prolactin: prolactin, via PRLR on microglia (already mapped) and macrophages (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "GBM oxytocin: oxytocin, via OXTR on microglia (already mapped) and macrophages (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "GBM vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of glioblastoma."
 ---
 
 # Glioblastoma
@@ -793,6 +802,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-GBM axis: histamine, released by microglia (already mapped) and mast cells in the glioblastoma microenvironment, signals via H1/H2 receptors on tumour cells and endothelium (already mapped), modulating blood-brain-barrier permeability and immunosuppressive milieu.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-GBM axis: melatonin, crossing the blood-brain barrier, suppresses EGFR (already mapped) and HIF-1α (already mapped) signalling in glioblastoma cells, modulates the circadian immune clock, and enhances sensitivity to temozolomide chemotherapy.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation-GBM axis: the C1-esterase inhibitor limits classical and contact-pathway complement activation in the glioblastoma microenvironment (complement C3/C5/C5aR1 already mapped), modulating the neuroinflammatory and tumour milieu.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — GBM prolactin: prolactin, via PRLR on microglia (already mapped) and macrophages (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — GBM oxytocin: oxytocin, via OXTR on microglia (already mapped) and macrophages (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — GBM vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of glioblastoma.
 
 ---
 

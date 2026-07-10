@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Prolactin-GCA axis: prolactin, acting on macrophage (already mapped) prolactin receptors in the arteritic adventitia, amplifies the Th1/Th17-driven (already mapped) immune activation and the autoimmune neuroendocrine cross-talk of giant cell arteritis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "GCA oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the arteritic inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) T-cytotoxic (already mapped) cascade of GCA."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "GCA vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates arterial vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of GCA."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "GCA serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the arteritic inflammatory tone; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -778,6 +787,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-GCA axis: melatonin, via MT1/MT2 receptors on adventitial macrophages (already mapped) and large-vessel endothelium, suppresses Th1/Th17 (already mapped) arteritic inflammation, modulates GCA flare circadian rhythms, and regulates IL-6 (already mapped) secretion.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-GCA axis: testosterone, via androgen receptor signalling on adventitial macrophages and T cells (already mapped), modulates the Th1/Th17-driven (already mapped) arteritic inflammation and the female sex predominance of giant cell arteritis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Prolactin-GCA axis: prolactin, acting on macrophage (already mapped) prolactin receptors in the arteritic adventitia, amplifies the Th1/Th17-driven (already mapped) immune activation and the autoimmune neuroendocrine cross-talk of giant cell arteritis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — GCA oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the arteritic inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) T-cytotoxic (already mapped) cascade of GCA.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — GCA vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates arterial vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of GCA.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — GCA serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the arteritic inflammatory tone; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
