@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "AN chloride: chloride channels on neurons (already mapped) regulate membrane potential; chloride imbalance in starvation disrupts cardiac excitability and IL-6 (already mapped) signalling; chloride deficiency amplifies cortisol (already mapped) catabolism in anorexia nervosa."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "AN nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and macrophages (already mapped) regulates neurotransmission; NO dysregulation amplifies serotonin (already mapped) and dopamine (already mapped) and NF-κB (already mapped) cascade in AN."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "AN oxygen: oxygen deprivation from starvation-induced anaemia (iron already mapped) amplifies neuron (already mapped) oxidative stress; hypoxia upregulates NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in AN."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "AN carbon: carbon-skeleton catabolism in starvation depletes glucogenic amino acids fuelling neuron (already mapped) and macrophage (already mapped) function; carbon deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol neuroinflammatory cascade in AN."
 ---
 
 # Anorexia Nervosa
@@ -840,6 +849,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — AN iron: iron deficiency, worsened by hepcidin (already mapped) dysregulation, amplifies anaemia and brain (already mapped) dopamine (already mapped) synthesis; iron is essential for haemoglobin (already mapped) and erythropoietin (already mapped) response in anorexia nervosa.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — AN sulfur: sulfur-containing amino acids (cysteine, methionine) are depleted by starvation; sulfur deficiency impairs glutathione synthesis, worsening oxidative stress and cortisol (already mapped) catabolism and bone-marrow (already mapped) suppression in anorexia nervosa.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — AN chloride: chloride channels on neurons (already mapped) regulate membrane potential; chloride imbalance in starvation disrupts cardiac excitability and IL-6 (already mapped) signalling; chloride deficiency amplifies cortisol (already mapped) catabolism in anorexia nervosa.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — AN nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and macrophages (already mapped) regulates neurotransmission; NO dysregulation amplifies serotonin (already mapped) and dopamine (already mapped) and NF-κB (already mapped) cascade in AN.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — AN oxygen: oxygen deprivation from starvation-induced anaemia (iron already mapped) amplifies neuron (already mapped) oxidative stress; hypoxia upregulates NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in AN.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — AN carbon: carbon-skeleton catabolism in starvation depletes glucogenic amino acids fuelling neuron (already mapped) and macrophage (already mapped) function; carbon deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol neuroinflammatory cascade in AN.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
