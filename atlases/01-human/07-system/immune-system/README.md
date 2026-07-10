@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Oxytocin immunomodulator: oxytocin, via its receptor on T cells (already mapped), B cells (already mapped), and NK cells (already mapped), modulates lymphocyte proliferation, cytokine (already mapped) secretion, and the neuroimmune cross-talk of the immune system."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Immune-system vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates immune vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of immune dysfunction."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Immune-system iodine: iodine, via thyroid hormone biosynthesis, modulates macrophage (already mapped) and NK-cell (already mapped) activity; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of immune dysfunction."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Immune-system sodium: sodium, via high dietary intake, shifts macrophages (already mapped) and T-helper cells (already mapped) toward pro-inflammatory states; excess sodium amplifies the NF-κB (already mapped) and IL-17A (already mapped) cascade of immune dysfunction."
 ---
 
 # Immune System
@@ -697,6 +706,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen immunomodulator: testosterone, via androgen receptor on T cells (already mapped), B cells (already mapped), and macrophages (already mapped), suppresses Th1/Th17 inflammation and antibody (already mapped) production, underlying the sex-biased immune response.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-immune axis: serotonin, released by platelets (already mapped) and mast cells (already mapped), signals via 5-HT receptors on T cells (already mapped) and dendritic cells (already mapped), modulating cytokine (already mapped) secretion and immune activation.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Oxytocin immunomodulator: oxytocin, via its receptor on T cells (already mapped), B cells (already mapped), and NK cells (already mapped), modulates lymphocyte proliferation, cytokine (already mapped) secretion, and the neuroimmune cross-talk of the immune system.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Immune-system vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates immune vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of immune dysfunction.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Immune-system iodine: iodine, via thyroid hormone biosynthesis, modulates macrophage (already mapped) and NK-cell (already mapped) activity; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of immune dysfunction.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Immune-system sodium: sodium, via high dietary intake, shifts macrophages (already mapped) and T-helper cells (already mapped) toward pro-inflammatory states; excess sodium amplifies the NF-κB (already mapped) and IL-17A (already mapped) cascade of immune dysfunction.
 
 ## Pathology
 

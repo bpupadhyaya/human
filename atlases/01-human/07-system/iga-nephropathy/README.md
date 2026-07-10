@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Vasopressin-IgAN axis: vasopressin, via V2 receptors on the renal collecting duct, modulates water reabsorption and urinary IgA excretion, and its dysregulation contributes to the hypertension (already mapped) and renal progression of IgA nephropathy."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "IgAN selenium: selenium, as a cofactor for glutathione peroxidases and thioredoxin reductases, attenuates glomerular oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) podocyte (already mapped) cascade of IgA nephropathy."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "IgAN iodine: iodine, via thyroid hormone biosynthesis, modulates podocyte (already mapped) barrier function and renal filtration; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) glomerular (already mapped) cascade of IgA nephropathy."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "IgAN magnesium: magnesium, as an essential cofactor for complement regulation and endothelial (already mapped) function, attenuates glomerular (already mapped) injury; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -747,6 +756,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-IgAN axis: testosterone, via androgen receptor signalling on mesangial cells (already mapped) and B cells (already mapped), modulates IgA class-switching, galactose-deficient IgA1 production, and the well-established male sex predominance of IgA nephropathy.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonin-IgAN axis: serotonin, released by platelets (already mapped) activated during IgA1-IC mesangial deposition, amplifies the mesangial cell (already mapped) proliferation, complement activation (already mapped), and the glomerular haematuria of IgA nephropathy.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin-IgAN axis: vasopressin, via V2 receptors on the renal collecting duct, modulates water reabsorption and urinary IgA excretion, and its dysregulation contributes to the hypertension (already mapped) and renal progression of IgA nephropathy.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — IgAN selenium: selenium, as a cofactor for glutathione peroxidases and thioredoxin reductases, attenuates glomerular oxidative stress; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) podocyte (already mapped) cascade of IgA nephropathy.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IgAN iodine: iodine, via thyroid hormone biosynthesis, modulates podocyte (already mapped) barrier function and renal filtration; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) glomerular (already mapped) cascade of IgA nephropathy.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — IgAN magnesium: magnesium, as an essential cofactor for complement regulation and endothelial (already mapped) function, attenuates glomerular (already mapped) injury; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy.
 
 ---
 
