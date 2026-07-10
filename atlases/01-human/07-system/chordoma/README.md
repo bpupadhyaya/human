@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Chordoma selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) oxidative TME cascade of chordoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Chordoma iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) surveillance; iodine deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of chordoma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Chordoma magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting signalling cascade of chordoma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Chordoma phosphorus: phosphorus, as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped), fuels proliferative and cytotoxic signalling; phosphorus dysregulation amplifies the IL-6 (already mapped) and mast-cell (already mapped) TME of chordoma."
 ---
 
 # Chordoma
@@ -822,6 +831,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Chordoma oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the tumour-promoting inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of chordoma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Chordoma vasopressin: vasopressin, via V1aR on mast cells (already mapped) and macrophages (already mapped), modulates the tumour vascular milieu; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of chordoma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Chordoma selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; selenium deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) oxidative TME cascade of chordoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Chordoma iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) surveillance; iodine deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of chordoma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Chordoma magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting signalling cascade of chordoma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Chordoma phosphorus: phosphorus, as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped), fuels proliferative and cytotoxic signalling; phosphorus dysregulation amplifies the IL-6 (already mapped) and mast-cell (already mapped) TME of chordoma.
 
 ---
 

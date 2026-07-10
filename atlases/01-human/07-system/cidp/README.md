@@ -528,6 +528,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "CIDP magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and T cells (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the demyelinating autoimmune cascade of CIDP."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "CIDP sodium: sodium dysregulation in macrophages (already mapped) and neurons (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) demyelinating cascade of CIDP."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "CIDP zinc: zinc cofactors macrophage (already mapped) and T-cell (already mapped) immune function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) demyelinating autoimmune cascade of CIDP."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "CIDP potassium: potassium regulates macrophage (already mapped) and neuron (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) demyelinating cascade of CIDP."
 ---
 
 # CIDP
@@ -840,6 +849,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CIDP serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and T cells (already mapped), modulates peripheral neuroinflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CIDP iodine: iodine-dependent thyroid hormones modulate Schwann-cell myelination and T-cell (already mapped) immune tolerance; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — CIDP magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and T cells (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the demyelinating autoimmune cascade of CIDP.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CIDP sodium: sodium dysregulation in macrophages (already mapped) and neurons (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) demyelinating cascade of CIDP.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — CIDP zinc: zinc cofactors macrophage (already mapped) and T-cell (already mapped) immune function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) demyelinating autoimmune cascade of CIDP.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CIDP potassium: potassium regulates macrophage (already mapped) and neuron (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) demyelinating cascade of CIDP.
 
 ---
 
