@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "PAH prolactin: prolactin, via JAK2 (already mapped) signalling on pulmonary arterial smooth muscle cells (already mapped), promotes their survival and proliferation, amplifying the anti-apoptotic vascular remodelling driven by PDGF (already mapped) in PAH."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "PAH oxytocin: oxytocin via OXTR on pulmonary vascular endothelium (endothelin-1 already mapped) and smooth muscle cells (already mapped) promotes vasodilation, counteracting the endothelin-1 and PDGF (already mapped)-driven vascular remodelling of PAH."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PAH vasopressin: vasopressin via V1aR on pulmonary arterial smooth muscle cells (already mapped) promotes vasoconstriction and proliferation, amplifying the endothelin-1 (already mapped) and PDGF (already mapped)-driven pulmonary vascular remodelling of PAH."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "PAH selenium: selenium-dependent glutathione peroxidase (GPX) quenches endothelial reactive-oxygen-species driving eNOS (nitric oxide already mapped) uncoupling and PDGF (already mapped)-mediated smooth muscle cell (already mapped) proliferation in PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -794,6 +803,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PAH melatonin: melatonin via MT1/MT2 on pulmonary arterial smooth muscle cells (already mapped) and endothelium (endothelin-1 already mapped) modulates circadian vasoconstriction and ROS (xanthine-oxidase already mapped)-driven vascular remodelling of PAH.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PAH androgen axis: testosterone via androgen receptor on pulmonary vascular smooth muscle cells (already mapped) exerts vasodilatory effects that contrast the estrogen (already mapped)-driven PAH susceptibility and female sex predominance.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PAH prolactin: prolactin, via JAK2 (already mapped) signalling on pulmonary arterial smooth muscle cells (already mapped), promotes their survival and proliferation, amplifying the anti-apoptotic vascular remodelling driven by PDGF (already mapped) in PAH.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PAH oxytocin: oxytocin via OXTR on pulmonary vascular endothelium (endothelin-1 already mapped) and smooth muscle cells (already mapped) promotes vasodilation, counteracting the endothelin-1 and PDGF (already mapped)-driven vascular remodelling of PAH.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PAH vasopressin: vasopressin via V1aR on pulmonary arterial smooth muscle cells (already mapped) promotes vasoconstriction and proliferation, amplifying the endothelin-1 (already mapped) and PDGF (already mapped)-driven pulmonary vascular remodelling of PAH.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PAH selenium: selenium-dependent glutathione peroxidase (GPX) quenches endothelial reactive-oxygen-species driving eNOS (nitric oxide already mapped) uncoupling and PDGF (already mapped)-mediated smooth muscle cell (already mapped) proliferation in PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "PTCL vasopressin: vasopressin via V1aR on T cells (already mapped) and endothelial cells (nitric oxide already mapped) modulates lymphocyte trafficking, vascular tone and the haemophagocytic syndrome (HLH) complicating aggressive peripheral T-cell lymphoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "PTCL selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving NF-κB (already mapped)-mediated genomic instability and survival signalling in the malignant T cells of peripheral T-cell lymphoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "PTCL iodine: iodine-dependent thyroid hormones modulate T-cell (already mapped) differentiation and NK-cell (already mapped) cytotoxic activity within the PTCL tumour microenvironment, with hypothyroidism blunting anti-tumour immune surveillance of peripheral T-cell lymphoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "PTCL sodium: sodium-driven Th17 polarisation via osmotic sodium sensing in T cells (already mapped) amplifies the inflammatory cytokine (NF-κB already mapped) milieu of peripheral T-cell lymphoma, with high-salt microenvironments promoting tumour-promoting T-helper skewing."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -808,6 +817,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PTCL androgen axis: testosterone via androgen receptor on T cells (already mapped) modulates Th1/Th17 (already mapped) differentiation and cytotoxic T-cell function, with androgen-driven immunosuppression contributing to the immune evasion of peripheral T-cell lymphoma.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PTCL serotonin: serotonin via 5-HT receptors on T cells (already mapped) and NK cells (already mapped) modulates the cytotoxic immune response against the PTCL clone, with platelet (already mapped)-derived serotonin shaping the tumour microenvironment.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PTCL vasopressin: vasopressin via V1aR on T cells (already mapped) and endothelial cells (nitric oxide already mapped) modulates lymphocyte trafficking, vascular tone and the haemophagocytic syndrome (HLH) complicating aggressive peripheral T-cell lymphoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PTCL selenium: selenium-dependent glutathione peroxidase (GPX) quenches reactive-oxygen-species driving NF-κB (already mapped)-mediated genomic instability and survival signalling in the malignant T cells of peripheral T-cell lymphoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PTCL iodine: iodine-dependent thyroid hormones modulate T-cell (already mapped) differentiation and NK-cell (already mapped) cytotoxic activity within the PTCL tumour microenvironment, with hypothyroidism blunting anti-tumour immune surveillance of peripheral T-cell lymphoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PTCL sodium: sodium-driven Th17 polarisation via osmotic sodium sensing in T cells (already mapped) amplifies the inflammatory cytokine (NF-κB already mapped) milieu of peripheral T-cell lymphoma, with high-salt microenvironments promoting tumour-promoting T-helper skewing.
 
 ---
 
