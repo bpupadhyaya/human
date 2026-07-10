@@ -526,6 +526,9 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "Epilepsy iodine: iodine-dependent thyroid hormones regulate neuronal (already mapped) GABAergic (GABA already mapped) and glutamatergic (glutamate already mapped) differentiation; iodine deficiency amplifies the NLRP3 (already mapped) cascade of epilepsy."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Epilepsy copper: copper, via SOD and ceruloplasmin, scavenges seizure-driven ROS in neurons (already mapped) and astrocytes (already mapped); copper deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of epilepsy."
 ---
 
 # Epilepsy
@@ -847,6 +850,7 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Neuronal excitability modulator: vasopressin, via V1aR on neurons (already mapped) and astrocytes (already mapped), modulates neuronal excitability; vasopressin dysregulation amplifies the NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of epilepsy.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Seizure-ROS antioxidant: selenium, as GPx in neurons (already mapped) and astrocytes (already mapped), scavenges seizure-driven ROS; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of epilepsy.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-neuroexcitability axis: iodine-dependent thyroid hormones regulate neuronal (already mapped) GABAergic (GABA already mapped) and glutamatergic (glutamate already mapped) differentiation; iodine deficiency amplifies the NLRP3 (already mapped) cascade of epilepsy.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Epilepsy copper: copper, via SOD and ceruloplasmin, scavenges seizure-driven ROS in neurons (already mapped) and astrocytes (already mapped); copper deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

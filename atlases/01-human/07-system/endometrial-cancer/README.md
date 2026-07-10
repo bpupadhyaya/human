@@ -517,6 +517,9 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "EC selenium: selenium, via GPx and selenoproteins, suppresses ROS-driven NF-κB (already mapped) and mTOR (already mapped) tumour-proliferative signalling; selenium induces apoptosis and attenuates estrogen (already mapped)-linked carcinogenesis in endometrial cancer."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "EC zinc: zinc cofactors estrogen receptor (already mapped) signalling and macrophage (already mapped) anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and mTOR (already mapped)-driven endometrial tumour proliferation and angiogenesis in endometrial cancer."
 ---
 
 # Endometrial Cancer
@@ -808,6 +811,7 @@ cross_links:
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — EC oxytocin: oxytocin, via OXTR on endometrial-cancer cells, suppresses mTOR (already mapped) and NF-κB (already mapped) tumour-proliferative signalling; oxytocin attenuates estrogen (already mapped)-driven angiogenesis and the VEGF (already mapped) pro-tumourigenic milieu.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — EC vasopressin: vasopressin, via V1bR on endometrial cells, promotes CRH-cortisol (already mapped) immune suppression in the tumour microenvironment; vasopressin amplifies the mTOR (already mapped) and NF-κB (already mapped) pro-tumourigenic milieu of endometrial cancer.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — EC selenium: selenium, via GPx and selenoproteins, suppresses ROS-driven NF-κB (already mapped) and mTOR (already mapped) tumour-proliferative signalling; selenium induces apoptosis and attenuates estrogen (already mapped)-linked carcinogenesis in endometrial cancer.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — EC zinc: zinc cofactors estrogen receptor (already mapped) signalling and macrophage (already mapped) anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and mTOR (already mapped)-driven endometrial tumour proliferation and angiogenesis in endometrial cancer.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
