@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "PJS prolactin: prolactin via JAK2/STAT5 signalling activates the mTOR (already mapped) pathway in the Peutz-Jeghers hamartomatous polyp epithelium, and hyperprolactinaemia amplifies the STK11/LKB1 (already mapped) loss-driven epithelial proliferation."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "PJS oxytocin: oxytocin modulates intestinal motility and mucosal barrier integrity in the GI tract bearing the Peutz-Jeghers hamartomatous polyps, and oxytocin receptor signalling on enteric neurons (already mapped) intersects STK11/LKB1 (already mapped) epithelial homeostasis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PJS vasopressin: vasopressin via V2R modulates intestinal fluid absorption and mucosal homeostasis in the GI tract harbouring the Peutz-Jeghers hamartomatous polyps, intersecting the STK11/LKB1 (already mapped) and mTOR (already mapped) epithelial proliferation axis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "PJS selenium: selenium-dependent selenoprotein antioxidants quench reactive-oxygen-species arising from STK11/LKB1 (already mapped) loss-driven mTOR (already mapped) hyperactivation in Peutz-Jeghers polyp epithelium, reducing oncogenic transformation risk."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -787,6 +796,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PJS circadian-oncology: melatonin inhibits the STK11/LKB1 (already mapped) loss-driven mTOR (already mapped) hyperactivation underlying Peutz-Jeghers polyp growth, and melatonin receptor expression on the hamartomatous polyp epithelium modulates polyp cell proliferation.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PJS enterochromaffin serotonin: serotonin secreted by the abundant enterochromaffin cells in the Peutz-Jeghers gastrointestinal polyps modulates secretory diarrhoea, motility and visceral pain (bradykinin already mapped) in the hamartomatous polyposis syndrome.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PJS prolactin: prolactin via JAK2/STAT5 signalling activates the mTOR (already mapped) pathway in the Peutz-Jeghers hamartomatous polyp epithelium, and hyperprolactinaemia amplifies the STK11/LKB1 (already mapped) loss-driven epithelial proliferation.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PJS oxytocin: oxytocin modulates intestinal motility and mucosal barrier integrity in the GI tract bearing the Peutz-Jeghers hamartomatous polyps, and oxytocin receptor signalling on enteric neurons (already mapped) intersects STK11/LKB1 (already mapped) epithelial homeostasis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PJS vasopressin: vasopressin via V2R modulates intestinal fluid absorption and mucosal homeostasis in the GI tract harbouring the Peutz-Jeghers hamartomatous polyps, intersecting the STK11/LKB1 (already mapped) and mTOR (already mapped) epithelial proliferation axis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PJS selenium: selenium-dependent selenoprotein antioxidants quench reactive-oxygen-species arising from STK11/LKB1 (already mapped) loss-driven mTOR (already mapped) hyperactivation in Peutz-Jeghers polyp epithelium, reducing oncogenic transformation risk.
 
 ---
 

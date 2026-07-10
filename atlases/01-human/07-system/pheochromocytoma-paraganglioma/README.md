@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "PPGL serotonin co-secretion: serotonin is co-secreted with catecholamines by a subset of pheochromocytoma-paraganglioma tumours, producing a serotonin syndrome-like carcinoid phenotype; SERT (already mapped) and MAO regulate the PPGL serotonin excess."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "PPGL oxytocin: oxytocin modulates adrenal chromaffin cell (adrenal-gland already mapped) function and catecholamine secretion, intersecting the sympathoadrenal axis that drives the hypertensive crisis phenotype of pheochromocytoma-paraganglioma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PPGL vasopressin: vasopressin via V1aR on adrenal chromaffin cells (adrenal-gland already mapped) potentiates catecholamine release from pheochromocytoma-paraganglioma, amplifying the HIF (already mapped)-driven pseudohypoxic transcriptional program."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "PPGL prolactin: prolactin via JAK2/STAT5 signalling promotes chromaffin cell (adrenal-gland already mapped) survival and activates the VEGF (already mapped) and HIF (already mapped) pseudohypoxic proliferative axis in pheochromocytoma-paraganglioma."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -805,6 +814,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PPGL melatonin: melatonin receptor expression in pheochromocytoma-paraganglioma cells suppresses the catecholamine-stimulated cAMP production and the VHL/HIF (HIF already mapped) and SDHA/VEGF (already mapped) pseudohypoxic proliferative signalling.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PPGL androgen axis: testosterone via androgen receptor modulates pheochromocytoma catecholamine synthesis from chromaffin cells (adrenal-gland already mapped); adrenal androgens share the steroidogenic pathway (CYP enzymes) with catecholamine biosynthesis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PPGL serotonin co-secretion: serotonin is co-secreted with catecholamines by a subset of pheochromocytoma-paraganglioma tumours, producing a serotonin syndrome-like carcinoid phenotype; SERT (already mapped) and MAO regulate the PPGL serotonin excess.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PPGL oxytocin: oxytocin modulates adrenal chromaffin cell (adrenal-gland already mapped) function and catecholamine secretion, intersecting the sympathoadrenal axis that drives the hypertensive crisis phenotype of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PPGL vasopressin: vasopressin via V1aR on adrenal chromaffin cells (adrenal-gland already mapped) potentiates catecholamine release from pheochromocytoma-paraganglioma, amplifying the HIF (already mapped)-driven pseudohypoxic transcriptional program.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PPGL prolactin: prolactin via JAK2/STAT5 signalling promotes chromaffin cell (adrenal-gland already mapped) survival and activates the VEGF (already mapped) and HIF (already mapped) pseudohypoxic proliferative axis in pheochromocytoma-paraganglioma.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
