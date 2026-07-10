@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-GIST axis: testosterone, via androgen receptor signalling on GIST tumour cells and stromal macrophages (already mapped), modulates KIT/PDGFRA-driven (already mapped) proliferation and the sex-biased incidence and natural history of GIST."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "GIST prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "GIST oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "GIST vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of GIST."
 ---
 
 # GIST
@@ -794,6 +803,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-GIST axis: histamine, released by the ICC-derived (already mapped) mast cells in the GIST microenvironment, signals via H1/H2 receptors on KIT-mutant (already mapped) tumour cells and stroma, modulating angiogenesis and the immunosuppressive milieu of GIST.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-GIST axis: melatonin, via MT1/MT2 receptors on KIT-mutant (already mapped) GIST cells, modulates circadian cell-cycle control, suppresses HIF-1α-driven (already mapped) proliferation, and enhances apoptotic sensitivity to imatinib in GIST.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-GIST axis: testosterone, via androgen receptor signalling on GIST tumour cells and stromal macrophages (already mapped), modulates KIT/PDGFRA-driven (already mapped) proliferation and the sex-biased incidence and natural history of GIST.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — GIST prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of GIST.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — GIST oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of GIST.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — GIST vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

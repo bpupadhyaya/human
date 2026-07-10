@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-Gorlin axis: testosterone, via androgen receptor signalling on PTCH1-mutant (already mapped) BCC and medulloblastoma (already mapped) cells, modulates SHH-driven (already mapped) proliferation and the male sex bias in Gorlin-syndrome tumour burden and aggressiveness."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Gorlin prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Gorlin oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Gorlin vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -774,6 +783,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-Gorlin axis: histamine, released by mast cells in the BCC and odontogenic-keratocyst stroma of Gorlin syndrome, signals via H1/H2 receptors on PTCH1-mutant (already mapped) tumour cells, promoting SHH-driven (already mapped) proliferation and angiogenesis.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-Gorlin axis: melatonin, via MT1/MT2 receptors on PTCH1-mutant (already mapped) tumour cells, suppresses SHH/GLI (already mapped) signalling, promotes apoptosis, and modulates the DNA-repair response to the UV-induced (already mapped) mutagenesis of Gorlin-syndrome BCCs.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-Gorlin axis: testosterone, via androgen receptor signalling on PTCH1-mutant (already mapped) BCC and medulloblastoma (already mapped) cells, modulates SHH-driven (already mapped) proliferation and the male sex bias in Gorlin-syndrome tumour burden and aggressiveness.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Gorlin prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Gorlin oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the TME inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Gorlin vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome.
 
 ---
 
