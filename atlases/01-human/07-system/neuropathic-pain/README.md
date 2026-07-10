@@ -492,6 +492,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "NP copper: copper deficiency impairs the myelination of peripheral nerves (already mapped) and reduces superoxide dismutase-mediated antioxidant protection; copper dyshomeostasis amplifies the neuroinflammatory sensitisation and oxidative injury of neuropathic pain."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "NP selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation; selenium deficiency amplifies microglia (already mapped) and astrocyte (already mapped) activation and peripheral-nerve (already mapped) oxidative injury."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "NP iodine: thyroid-hormone signalling maintains peripheral-nerve (already mapped) myelin integrity and axonal conduction; iodine deficiency impairs nerve regeneration and amplifies NF-κB (already mapped) and IL-6 (already mapped) driven neuroinflammatory sensitisation."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "NP phosphorus: phosphorus is required for ATP-driven axonal membrane potential maintenance and synaptic vesicle release at peripheral-nerve (already mapped) termini; phosphorus deficiency impairs BDNF (already mapped) and NF-κB (already mapped) driven neuronal repair signalling."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -813,6 +822,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — NP vasopressin: vasopressin V1A receptors in dorsal horn neurons modulate spinal nociception; vasopressin interacts with oxytocin (already mapped) antinociceptive circuits and attenuates the serotonin (already mapped) descending pain-inhibitory dysfunction of neuropathic pain.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — NP transferrin: transferrin-mediated iron transport is essential for myelin synthesis and axonal function (peripheral nerve already mapped); iron dyshomeostasis amplifies the oxidative stress driving the neuroinflammatory sensitisation and axonal damage of neuropathic pain.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NP copper: copper deficiency impairs the myelination of peripheral nerves (already mapped) and reduces superoxide dismutase-mediated antioxidant protection; copper dyshomeostasis amplifies the neuroinflammatory sensitisation and oxidative injury of neuropathic pain.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — NP selenium: selenoproteins suppress ROS-driven NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation; selenium deficiency amplifies microglia (already mapped) and astrocyte (already mapped) activation and peripheral-nerve (already mapped) oxidative injury.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NP iodine: thyroid-hormone signalling maintains peripheral-nerve (already mapped) myelin integrity and axonal conduction; iodine deficiency impairs nerve regeneration and amplifies NF-κB (already mapped) and IL-6 (already mapped) driven neuroinflammatory sensitisation.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — NP phosphorus: phosphorus is required for ATP-driven axonal membrane potential maintenance and synaptic vesicle release at peripheral-nerve (already mapped) termini; phosphorus deficiency impairs BDNF (already mapped) and NF-κB (already mapped) driven neuronal repair signalling.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

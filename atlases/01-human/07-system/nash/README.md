@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "NASH prolactin: prolactin, acting via PRLR on hepatocytes (already mapped), promotes hepatic lipid synthesis; prolactin also sensitises the insulin-receptor (already mapped) pathway to the lipotoxic and macrophage (already mapped) inflammatory signals of NASH."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "NASH oxytocin: oxytocin attenuates hepatic NF-κB (already mapped) and TNF-α (already mapped) driven macrophage (already mapped) inflammation and hepatocyte (already mapped) lipotoxicity; oxytocin also suppresses TGF-β (already mapped) mediated hepatic stellate-cell fibrosis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "NASH vasopressin: vasopressin (ADH) via V1b receptor signalling promotes hepatic glycogen release and lipogenesis in hepatocytes (already mapped); vasopressin amplifies NF-κB (already mapped) and IL-6 (already mapped) driven macrophage (already mapped) inflammatory activation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "NASH iodine: thyroid-hormone deficiency impairs lipid oxidation and amplifies NASH-driven lipotoxicity; iodine deficiency worsens NF-κB (already mapped) and TNF-α (already mapped) driven macrophage (already mapped) inflammatory cascades and TGF-β (already mapped) fibrosis."
 ---
 
 # NASH
@@ -764,6 +773,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — NASH testosterone: androgen signalling on hepatocytes (already mapped) attenuates TGF-β (already mapped) fibrogenesis and macrophage (already mapped) lipotoxic activation; testosterone deficiency worsens the steatoinflammatory injury of NASH.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — NASH serotonin: gut-microbiome (already mapped) serotonin promotes hepatic lipogenesis via 5-HT2A receptors on hepatocytes (already mapped); 5-HT also activates macrophage (already mapped) signalling and accelerates the TGF-β (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — NASH prolactin: prolactin, acting via PRLR on hepatocytes (already mapped), promotes hepatic lipid synthesis; prolactin also sensitises the insulin-receptor (already mapped) pathway to the lipotoxic and macrophage (already mapped) inflammatory signals of NASH.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — NASH oxytocin: oxytocin attenuates hepatic NF-κB (already mapped) and TNF-α (already mapped) driven macrophage (already mapped) inflammation and hepatocyte (already mapped) lipotoxicity; oxytocin also suppresses TGF-β (already mapped) mediated hepatic stellate-cell fibrosis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — NASH vasopressin: vasopressin (ADH) via V1b receptor signalling promotes hepatic glycogen release and lipogenesis in hepatocytes (already mapped); vasopressin amplifies NF-κB (already mapped) and IL-6 (already mapped) driven macrophage (already mapped) inflammatory activation.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NASH iodine: thyroid-hormone deficiency impairs lipid oxidation and amplifies NASH-driven lipotoxicity; iodine deficiency worsens NF-κB (already mapped) and TNF-α (already mapped) driven macrophage (already mapped) inflammatory cascades and TGF-β (already mapped) fibrosis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
