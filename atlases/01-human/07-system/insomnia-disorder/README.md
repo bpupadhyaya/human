@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Complement gate: factor H limits alternative-pathway activation at the blood-brain barrier, restraining complement-mediated synaptic pruning and the microglial (already mapped) activation (C3 and C5 already mapped) of the hyperarousal of insomnia."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Insomnia prolactin: prolactin, sleep-entrained with melatonin (already mapped), promotes NREM slow-wave sleep via GABA (already mapped) and adenosine (already mapped) pathways; prolactin deficiency amplifies the cortisol (already mapped) HPA hyperarousal of insomnia."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Insomnia oxytocin: oxytocin, via OXTR on neurons (already mapped) and astrocytes (already mapped), reduces hypothalamic arousal and promotes sleep onset; oxytocin attenuates the cortisol (already mapped) and norepinephrine (already mapped) hyperarousal of chronic insomnia."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Insomnia selenium: selenium, as neuroprotective GPx in neurons (already mapped) and astrocytes (already mapped), scavenges neuroinflammatory (IL-6 and TNF already mapped) ROS; selenium deficiency impairs the GABA (already mapped) inhibitory tone and worsens insomnia hyperarousal."
 ---
 
 # Insomnia Disorder
@@ -808,6 +817,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Sleep-EPO axis: EPO and its receptor on neurons (already mapped) and microglia (already mapped) have neuroprotective effects; the anaemia comorbid with insomnia elevates EPO, adding a neuroendocrine dimension to the hyperarousal of insomnia.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — CNS-border matrix: periostin, from astrocytes (already mapped) and meningeal fibroblasts, remodels the neuroimmune-interface ECM and contributes to the low-grade neuroinflammation (IL-6, TNF already mapped) implicated in chronic insomnia.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement gate: factor H limits alternative-pathway activation at the blood-brain barrier, restraining complement-mediated synaptic pruning and the microglial (already mapped) activation (C3 and C5 already mapped) of the hyperarousal of insomnia.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Sleep neuroendocrine: prolactin, sleep-entrained with melatonin (already mapped), promotes NREM slow-wave sleep via GABA (already mapped) and adenosine (already mapped) pathways; prolactin deficiency amplifies the cortisol (already mapped) HPA hyperarousal of insomnia.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Hypothalamic anti-arousal: oxytocin, via OXTR on neurons (already mapped) and astrocytes (already mapped), reduces hypothalamic arousal and promotes sleep onset; oxytocin attenuates the cortisol (already mapped) and norepinephrine (already mapped) hyperarousal of chronic insomnia.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Neuroprotective antioxidant: selenium, as neuroprotective GPx in neurons (already mapped) and astrocytes (already mapped), scavenges neuroinflammatory (IL-6 and TNF already mapped) ROS; selenium deficiency impairs the GABA (already mapped) inhibitory tone and worsens insomnia hyperarousal.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

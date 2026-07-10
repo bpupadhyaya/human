@@ -498,6 +498,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Gut-mucosal fibrosis matrix: periostin, from intestinal fibroblasts at the hookworm-damaged gut mucosa (intestinal-epithelium already mapped) of iron-deficiency anaemia, promotes type-2 mucosal repair and is a Th2/type-2 biomarker of the helminth response."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "IDA prolactin: prolactin, via PRLR on macrophages (already mapped) and intestinal epithelium (already mapped), modulates iron absorption and immune responses; hyperprolactinaemia amplifies the IL-6 (already mapped) and hepcidin (already mapped) axis of iron sequestration in IDA."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "IDA oxytocin: oxytocin, via OXTR on macrophages (already mapped) and intestinal epithelium (already mapped), attenuates gut inflammation and promotes mucosal iron absorption; oxytocin reduces the IL-6 (already mapped) and hepcidin (already mapped) iron sequestration in IDA."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "IDA vasopressin: vasopressin, via V2 receptors on macrophages (already mapped) and renal tubular cells, modulates fluid-iron homeostasis; elevated vasopressin in anaemic states amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration response of IDA."
 ---
 
 # Iron Deficiency Anemia
@@ -778,6 +787,9 @@ Iron is essential for:
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement regulation: factor H limits alternative-pathway activation on erythrocytes (already mapped) and gut mucosal surfaces, regulating the complement (C3 and C5aR1 already mapped) contribution to the haemolytic and mucosal injury of iron-deficiency anaemia.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement: complement C5 activation (with C3 already mapped) contributes to the intravascular haemolysis and the complement-driven mucosal injury that aggravate blood loss and iron malabsorption in iron-deficiency anaemia.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Gut-mucosal fibrosis matrix: periostin, from intestinal fibroblasts at the hookworm-damaged gut mucosa (intestinal-epithelium already mapped) of iron-deficiency anaemia, promotes type-2 mucosal repair and is a Th2/type-2 biomarker of the helminth response.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Iron-immune neuroendocrine: prolactin, via PRLR on macrophages (already mapped) and intestinal epithelium (already mapped), modulates iron absorption and immune responses; hyperprolactinaemia amplifies the IL-6 (already mapped) and hepcidin (already mapped) axis of iron sequestration in IDA.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Gut mucosal oxytocin: oxytocin, via OXTR on macrophages (already mapped) and intestinal epithelium (already mapped), attenuates gut inflammation and promotes mucosal iron absorption; oxytocin reduces the IL-6 (already mapped) and hepcidin (already mapped) iron sequestration in IDA.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Fluid-iron homeostasis: vasopressin, via V2 receptors on macrophages (already mapped) and renal tubular cells, modulates fluid-iron homeostasis; elevated vasopressin in anaemic states amplifies the hepcidin (already mapped) and IL-6 (already mapped) iron-sequestration response of IDA.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
