@@ -498,6 +498,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Antioxidant antiviral micronutrient: selenium, incorporated into selenoproteins (GPx and thioredoxin reductase), suppresses the ROS-driven oxidative stress and the NF-κB-mediated (already mapped) inflammatory cytokine burst in the airway epithelium during RSV infection."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "RSV serotonin: mast-cell (already mapped) serotonin amplifies the IgE (already mapped) and IL-33 (already mapped) airway hyperresponsiveness of RSV; 5-HT2 on smooth-muscle cells (already mapped) promotes bronchospasm and T-helper-cell (already mapped) Th2 skew."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "RSV vasopressin: vasopressin, released during severe RSV-induced respiratory distress, promotes SIADH and the sodium (already mapped) hyponatraemia of RSV in infants; vasopressin also modulates the lung (already mapped) vascular tone and brain (already mapped) oedema of RSV."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "RSV magnesium: magnesium acts as a bronchodilator by inhibiting calcium-mediated smooth-muscle cell (already mapped) constriction; magnesium deficiency amplifies the IL-33 (already mapped) and type-I IFN (already mapped) inflammatory airway response to RSV."
 ---
 
 # RSV
@@ -802,3 +811,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune antiviral modulator: oxytocin, via oxytocin receptors on macrophages (already mapped) and T cells (already mapped), suppresses the pro-inflammatory cytokine (IL-6 and TNF-α already mapped) storm and the airway hyperreactivity of severe RSV infection.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-mediated sex-differential severity: testosterone, acting via androgen receptors on innate immune cells, suppresses the pro-inflammatory cytokine (IL-6 and TNF-α already mapped) responses and underlies the greater severity of RSV disease in males vs. females.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant antiviral micronutrient: selenium, incorporated into selenoproteins (GPx and thioredoxin reductase), suppresses the ROS-driven oxidative stress and the NF-κB-mediated (already mapped) inflammatory cytokine burst in the airway epithelium during RSV infection.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — RSV serotonin: mast-cell (already mapped) serotonin amplifies the IgE (already mapped) and IL-33 (already mapped) airway hyperresponsiveness of RSV; 5-HT2 on smooth-muscle cells (already mapped) promotes bronchospasm and T-helper-cell (already mapped) Th2 skew.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — RSV vasopressin: vasopressin, released during severe RSV-induced respiratory distress, promotes SIADH and the sodium (already mapped) hyponatraemia of RSV in infants; vasopressin also modulates the lung (already mapped) vascular tone and brain (already mapped) oedema of RSV.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — RSV magnesium: magnesium acts as a bronchodilator by inhibiting calcium-mediated smooth-muscle cell (already mapped) constriction; magnesium deficiency amplifies the IL-33 (already mapped) and type-I IFN (already mapped) inflammatory airway response to RSV.

@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine renal axis: prolactin, acting via PRLR on immune cells (macrophage and T-helper already mapped) and tubular cells, modulates the immune infiltrate and the fibrogenic cytokine (TGF-β already mapped) signalling of the renal system."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "RS testosterone: testosterone, via androgen receptors on podocytes (already mapped), modulates angiotensin-II (already mapped) signalling; testosterone attenuates TGF-β (already mapped) renal fibrosis and macrophage (already mapped) tubulointerstitial injury."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "RS serotonin: serotonin, via 5-HT2A receptors on glomerular (glomerulus already mapped) endothelial cells (already mapped), promotes vasoconstriction and proteinuria; 5-HT modulates vasopressin (already mapped) and sodium (already mapped) renal fluid balance."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "RS oxytocin: oxytocin, via OXTR on endothelial cells (already mapped) and tubular cells, modulates vasopressin (already mapped) and aldosterone (already mapped) interactions in the kidney (already mapped); oxytocin also attenuates TGF-β (already mapped) glomerular fibrosis."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -762,6 +771,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Periostin](../../03-molecular/periostin/README.md) — ECM remodelling in the tubulointerstitium: periostin, expressed by renal fibroblasts and tubular epithelial cells (already mapped) under TGF-β (already mapped) stimulation, promotes the fibrotic extracellular matrix deposition that drives CKD progression of the renal system.
 - **Connects to:** [Melatonin](../../03-molecular/melatonin/README.md) — Circadian renoprotective antioxidant: melatonin, via MT1/MT2 receptors on proximal tubular cells and mesangial cells (already mapped), scavenges ROS (already mapped) and attenuates the oxidative and inflammatory tubulointerstitial injury of the renal system.
 - **Connects to:** [Prolactin](../../03-molecular/prolactin/README.md) — Immune-endocrine renal axis: prolactin, acting via PRLR on immune cells (macrophage and T-helper already mapped) and tubular cells, modulates the immune infiltrate and the fibrogenic cytokine (TGF-β already mapped) signalling of the renal system.
+- **Connects to:** [Testosterone](../../03-molecular/testosterone/README.md) — RS testosterone: testosterone, via androgen receptors on podocytes (already mapped), modulates angiotensin-II (already mapped) signalling; testosterone attenuates TGF-β (already mapped) renal fibrosis and macrophage (already mapped) tubulointerstitial injury.
+- **Connects to:** [Serotonin](../../03-molecular/serotonin/README.md) — RS serotonin: serotonin, via 5-HT2A receptors on glomerular (glomerulus already mapped) endothelial cells (already mapped), promotes vasoconstriction and proteinuria; 5-HT modulates vasopressin (already mapped) and sodium (already mapped) renal fluid balance.
+- **Connects to:** [Oxytocin](../../03-molecular/oxytocin/README.md) — RS oxytocin: oxytocin, via OXTR on endothelial cells (already mapped) and tubular cells, modulates vasopressin (already mapped) and aldosterone (already mapped) interactions in the kidney (already mapped); oxytocin also attenuates TGF-β (already mapped) glomerular fibrosis.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
