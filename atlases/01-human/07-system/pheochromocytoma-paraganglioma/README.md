@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "PPGL prolactin: prolactin via JAK2/STAT5 signalling promotes chromaffin cell (adrenal-gland already mapped) survival and activates the VEGF (already mapped) and HIF (already mapped) pseudohypoxic proliferative axis in pheochromocytoma-paraganglioma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "PPGL selenium: selenium-dependent selenoprotein antioxidants quench ROS arising from HIF (already mapped)-driven pseudohypoxia in chromaffin cells; selenium deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) catecholamine-excess cascade of PPGL."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "PPGL sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the HIF (already mapped) and VEGF (already mapped) pseudohypoxic cascade of pheochromocytoma-paraganglioma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "PPGL zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and endothelial cells (already mapped), regulates stromal remodelling; zinc deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenesis in pheochromocytoma-paraganglioma."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -817,6 +826,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PPGL oxytocin: oxytocin modulates adrenal chromaffin cell (adrenal-gland already mapped) function and catecholamine secretion, intersecting the sympathoadrenal axis that drives the hypertensive crisis phenotype of pheochromocytoma-paraganglioma.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PPGL vasopressin: vasopressin via V1aR on adrenal chromaffin cells (adrenal-gland already mapped) potentiates catecholamine release from pheochromocytoma-paraganglioma, amplifying the HIF (already mapped)-driven pseudohypoxic transcriptional program.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PPGL prolactin: prolactin via JAK2/STAT5 signalling promotes chromaffin cell (adrenal-gland already mapped) survival and activates the VEGF (already mapped) and HIF (already mapped) pseudohypoxic proliferative axis in pheochromocytoma-paraganglioma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PPGL selenium: selenium-dependent selenoprotein antioxidants quench ROS arising from HIF (already mapped)-driven pseudohypoxia in chromaffin cells; selenium deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) catecholamine-excess cascade of PPGL.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PPGL sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the HIF (already mapped) and VEGF (already mapped) pseudohypoxic cascade of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — PPGL zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and endothelial cells (already mapped), regulates stromal remodelling; zinc deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenesis in pheochromocytoma-paraganglioma.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

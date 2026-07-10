@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "PNH iodine: iodine-dependent thyroid hormones regulate bone-marrow (already mapped) erythropoiesis and erythrocyte (already mapped) mitochondrial function; thyroid-hormone deficiency amplifies the NF-κB (already mapped) cascade and worsens haemolytic anaemia in PNH."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "PNH sodium: excess sodium promotes macrophage (already mapped) and neutrophil (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the complement-C5 (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "PNH magnesium: magnesium, as ATP-synthesis cofactor in erythrocytes (already mapped) and platelets (already mapped), maintains haematopoietic homeostasis; magnesium deficiency amplifies NF-κB (already mapped) and complement-C5 (already mapped) haemolysis in PNH."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "PNH copper: copper, as ceruloplasmin cofactor in macrophages (already mapped) and hepatocytes (already mapped), supports iron (already mapped) recycling from haemolysed erythrocytes (already mapped); copper deficiency amplifies the IL-6 (already mapped) cascade of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -771,6 +780,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PNH vasopressin: vasopressin, via V2 receptors on endothelial cells (already mapped) and platelets (already mapped), amplifies the thrombotic risk of PNH; vasopressin activates the NF-κB (already mapped) vascular cascade and the complement-C5 (already mapped) haemolytic axis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — PNH selenium: selenoprotein P reduces the complement-C5 (already mapped) and NF-κB (already mapped) driven oxidative injury to erythrocytes (already mapped) in PNH; selenium deficiency impairs erythropoiesis (erythropoietin already mapped) and amplifies anaemia severity.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PNH iodine: iodine-dependent thyroid hormones regulate bone-marrow (already mapped) erythropoiesis and erythrocyte (already mapped) mitochondrial function; thyroid-hormone deficiency amplifies the NF-κB (already mapped) cascade and worsens haemolytic anaemia in PNH.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PNH sodium: excess sodium promotes macrophage (already mapped) and neutrophil (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the complement-C5 (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PNH magnesium: magnesium, as ATP-synthesis cofactor in erythrocytes (already mapped) and platelets (already mapped), maintains haematopoietic homeostasis; magnesium deficiency amplifies NF-κB (already mapped) and complement-C5 (already mapped) haemolysis in PNH.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PNH copper: copper, as ceruloplasmin cofactor in macrophages (already mapped) and hepatocytes (already mapped), supports iron (already mapped) recycling from haemolysed erythrocytes (already mapped); copper deficiency amplifies the IL-6 (already mapped) cascade of PNH.
 
 ---
 
