@@ -519,6 +519,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "CIDP vasopressin: vasopressin, via V1aR on macrophages (already mapped) and endothelial cells (already mapped), modulates peripheral nerve vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of CIDP."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "CIDP serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and T cells (already mapped), modulates peripheral neuroinflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "CIDP iodine: iodine-dependent thyroid hormones modulate Schwann-cell myelination and T-cell (already mapped) immune tolerance; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "CIDP magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and T cells (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the demyelinating autoimmune cascade of CIDP."
 ---
 
 # CIDP
@@ -828,6 +837,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CIDP prolactin: prolactin, via PRLR on macrophages (already mapped) and neurons (already mapped), modulates the neuroinflammatory TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — CIDP oxytocin: oxytocin, via OXTR on macrophages (already mapped) and neurons (already mapped), attenuates peripheral neuroinflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — CIDP vasopressin: vasopressin, via V1aR on macrophages (already mapped) and endothelial cells (already mapped), modulates peripheral nerve vascular tone; vasopressin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of CIDP.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — CIDP serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and T cells (already mapped), modulates peripheral neuroinflammation; serotonin dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CIDP iodine: iodine-dependent thyroid hormones modulate Schwann-cell myelination and T-cell (already mapped) immune tolerance; iodine deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) demyelinating cascade of CIDP.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — CIDP magnesium: magnesium, as cofactor of immune enzymes in macrophages (already mapped) and T cells (already mapped), restrains NF-κB (already mapped) and TNF-α (already mapped); magnesium deficiency amplifies the demyelinating autoimmune cascade of CIDP.
 
 ---
 
