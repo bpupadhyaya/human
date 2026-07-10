@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "IT vasopressin: vasopressin (ADH) potentiates thrombin (already mapped) generation and platelet (already mapped) aggregation via V1a receptor; vasopressin also amplifies the endothelial-cell (already mapped) prothrombotic NF-κB (already mapped) signalling in thrombophilia."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "IT selenium: selenoprotein antioxidants suppress ROS-driven NF-κB (already mapped) and TNF-α (already mapped) mediated endothelial-cell (already mapped) activation; selenium deficiency amplifies thrombin (already mapped) generation and platelet (already mapped) aggregation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "IT iodine: thyroid hormones modulate coagulation factor synthesis in the liver; iodine deficiency impairs thrombin (already mapped) regulation and amplifies NF-κB (already mapped) driven endothelial-cell (already mapped) prothrombotic signalling in inherited thrombophilia."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "IT sodium: sodium-driven endothelial-cell (already mapped) stiffness amplifies NF-κB (already mapped) and TNF-α (already mapped) mediated prothrombotic signalling; high sodium impairs protein-c (already mapped) function and promotes platelet (already mapped) aggregation."
 ---
 
 # Inherited Thrombophilia
@@ -834,6 +843,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — IT prolactin: prolactin activates endothelial cells (already mapped) and drives NF-κB (already mapped) pro-thrombotic signalling; prolactin also promotes platelet (already mapped) aggregation and thrombin (already mapped) generation in inherited thrombophilia.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — IT oxytocin: oxytocin reduces thrombin (already mapped) driven endothelial-cell (already mapped) activation by suppressing NF-κB (already mapped) and TNF-α (already mapped); oxytocin also attenuates platelet (already mapped) aggregation in the inherited thrombophilia milieu.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — IT vasopressin: vasopressin (ADH) potentiates thrombin (already mapped) generation and platelet (already mapped) aggregation via V1a receptor; vasopressin also amplifies the endothelial-cell (already mapped) prothrombotic NF-κB (already mapped) signalling in thrombophilia.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — IT selenium: selenoprotein antioxidants suppress ROS-driven NF-κB (already mapped) and TNF-α (already mapped) mediated endothelial-cell (already mapped) activation; selenium deficiency amplifies thrombin (already mapped) generation and platelet (already mapped) aggregation.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IT iodine: thyroid hormones modulate coagulation factor synthesis in the liver; iodine deficiency impairs thrombin (already mapped) regulation and amplifies NF-κB (already mapped) driven endothelial-cell (already mapped) prothrombotic signalling in inherited thrombophilia.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — IT sodium: sodium-driven endothelial-cell (already mapped) stiffness amplifies NF-κB (already mapped) and TNF-α (already mapped) mediated prothrombotic signalling; high sodium impairs protein-c (already mapped) function and promotes platelet (already mapped) aggregation.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

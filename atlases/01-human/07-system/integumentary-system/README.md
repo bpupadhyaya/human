@@ -503,6 +503,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "IS magnesium: magnesium supports collagen (already mapped) crosslinking and fibroblast (already mapped) function in skin (already mapped); magnesium deficiency amplifies mast-cell (already mapped) degranulation and IL-6 (already mapped) cutaneous inflammation."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "IS iodine: thyroid-hormone signalling drives keratinocyte differentiation and skin (already mapped) barrier integrity; iodine deficiency impairs wound-healing (already mapped) via NF-κB (already mapped) and IL-6 (already mapped) mediated fibroblast (already mapped) dysfunction."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "IS potassium: potassium channels regulate keratinocyte proliferation and skin (already mapped) barrier; potassium imbalance disrupts NF-κB (already mapped) and IL-6 (already mapped) mediated mast-cell (already mapped) responses and impairs collagen (already mapped) deposition."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "IS phosphorus: phosphorus supports ATP-driven synthesis of collagen (already mapped) by fibroblasts (already mapped) and keratinocyte integrity; hypophosphataemia impairs skin (already mapped) wound-healing (already mapped) and amplifies NF-κB (already mapped) inflammation."
 ---
 
 # Integumentary System
@@ -770,6 +779,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — IS vasopressin: vasopressin (ADH) constricts cutaneous microvessels via V1 receptor on skin (already mapped) endothelium; vasopressin also modulates mast-cell (already mapped) degranulation and the wound-healing (already mapped) fibroblast (already mapped) response.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — IS transferrin: transferrin delivers iron for collagen (already mapped) synthesis by fibroblasts (already mapped) in skin (already mapped) wound-healing (already mapped); iron deficiency impairs skin (already mapped) barrier repair and IL-6 (already mapped) regeneration.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — IS magnesium: magnesium supports collagen (already mapped) crosslinking and fibroblast (already mapped) function in skin (already mapped); magnesium deficiency amplifies mast-cell (already mapped) degranulation and IL-6 (already mapped) cutaneous inflammation.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — IS iodine: thyroid-hormone signalling drives keratinocyte differentiation and skin (already mapped) barrier integrity; iodine deficiency impairs wound-healing (already mapped) via NF-κB (already mapped) and IL-6 (already mapped) mediated fibroblast (already mapped) dysfunction.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IS potassium: potassium channels regulate keratinocyte proliferation and skin (already mapped) barrier; potassium imbalance disrupts NF-κB (already mapped) and IL-6 (already mapped) mediated mast-cell (already mapped) responses and impairs collagen (already mapped) deposition.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IS phosphorus: phosphorus supports ATP-driven synthesis of collagen (already mapped) by fibroblasts (already mapped) and keratinocyte integrity; hypophosphataemia impairs skin (already mapped) wound-healing (already mapped) and amplifies NF-κB (already mapped) inflammation.
 
 ## Pathology
 
