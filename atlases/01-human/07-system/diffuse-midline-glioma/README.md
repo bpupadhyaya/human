@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the neuroinflammatory milieu and the blood-brain-barrier disruption of DMG."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "DMG oxytocin: oxytocin, via OXTR on microglia (already mapped) and macrophages (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "DMG vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates neuroinflammation; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) glioma-promoting cascade of diffuse midline glioma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "DMG selenium: selenium, via selenoprotein activity in microglia (already mapped) and glioma cells, suppresses the oxidative stress that amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive neuroinflammatory cascade of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -802,6 +811,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell DMG axis: histamine, from the mast cells (already mapped) in the DMG tumour microenvironment and brain border compartments, amplifies the blood-brain-barrier permeability and the immunosuppressive neuroinflammatory milieu of DMG.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-H3K27M axis: melatonin, via MT1/MT2 receptors on H3K27M-mutant (already mapped) glioma cells and microglia (already mapped), modulates the epigenetic-hypoxic (HIF-1α already mapped) stress and the immunosuppressive milieu of DMG.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the neuroinflammatory milieu and the blood-brain-barrier disruption of DMG.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — DMG oxytocin: oxytocin, via OXTR on microglia (already mapped) and macrophages (already mapped), attenuates neuroinflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of diffuse midline glioma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — DMG vasopressin: vasopressin, via V1aR on microglia (already mapped) and macrophages (already mapped), modulates neuroinflammation; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) glioma-promoting cascade of diffuse midline glioma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — DMG selenium: selenium, via selenoprotein activity in microglia (already mapped) and glioma cells, suppresses the oxidative stress that amplifies the NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive neuroinflammatory cascade of diffuse midline glioma.
 
 ---
 

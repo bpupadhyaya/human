@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immunostimulatory prolactin axis: prolactin, via PRL receptors on T cells (already mapped) and macrophages (already mapped), amplifies the cytokine production and the systemic inflammatory activation that can trigger the consumptive coagulopathy of DIC."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "DIC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the systemic inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) coagulopathic cascade of DIC."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "DIC vasopressin: vasopressin, via V2R on endothelium (already mapped) and macrophages (already mapped), modulates vascular tone and haemostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) consumptive coagulopathy of DIC."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "DIC selenium: selenium, via selenoprotein antioxidant activity in macrophages (already mapped) and neutrophils (already mapped), suppresses the oxidative amplification of the NF-κB (already mapped) and TNF-α (already mapped) systemic inflammatory cascade of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -802,6 +811,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-coagulopathy axis: melatonin, via MT1/MT2 receptors and its antioxidant activity, modulates the oxidative stress of the systemic inflammatory response (cytokine-storm already mapped) and the endothelial injury that triggers DIC.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone coagulation axis: testosterone, via androgen receptors on endothelium (already mapped) and platelets (already mapped), modulates the coagulation cascade and the sex-differential thrombotic risk of the consumptive coagulopathy of DIC.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immunostimulatory prolactin axis: prolactin, via PRL receptors on T cells (already mapped) and macrophages (already mapped), amplifies the cytokine production and the systemic inflammatory activation that can trigger the consumptive coagulopathy of DIC.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — DIC oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the systemic inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) coagulopathic cascade of DIC.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — DIC vasopressin: vasopressin, via V2R on endothelium (already mapped) and macrophages (already mapped), modulates vascular tone and haemostasis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) consumptive coagulopathy of DIC.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — DIC selenium: selenium, via selenoprotein antioxidant activity in macrophages (already mapped) and neutrophils (already mapped), suppresses the oxidative amplification of the NF-κB (already mapped) and TNF-α (already mapped) systemic inflammatory cascade of DIC.
 
 ---
 
