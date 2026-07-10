@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Gorlin sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Gorlin magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Gorlin potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Gorlin iron: iron, via ferritin in macrophages (already mapped) and mast cells (already mapped), fuels cell proliferation; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -798,6 +807,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gorlin serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Gorlin iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Gorlin sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Gorlin magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Gorlin potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Gorlin iron: iron, via ferritin in macrophages (already mapped) and mast cells (already mapped), fuels cell proliferation; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome.
 
 ---
 
