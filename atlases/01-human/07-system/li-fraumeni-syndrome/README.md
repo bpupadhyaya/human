@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Sarcoma stromal periostin: periostin, highly expressed in the fibroblast (already mapped) stroma of the TP53-mutant Li-Fraumeni sarcomas (osteosarcoma and rhabdomyosarcoma already mapped), drives the desmoplastic niche and promotes invasion and metastasis."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-oncology: melatonin, via MT1/MT2 receptors on TP53-mutant tumour cells, suppresses VEGF-driven angiogenesis (already mapped) and promotes apoptosis, partially compensating for p53-deficient apoptosis across the Li-Fraumeni tumour spectrum."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sarcoma androgen axis: testosterone, via androgen receptor on the TP53-mutant osteosarcoma and rhabdomyosarcoma cells (already mapped) of Li-Fraumeni syndrome, modulates tumour proliferative signalling and partly explains the male-skewed sarcoma penetrance in LFS."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Psycho-oncology: serotonin, via 5-HT receptors on LFS tumour cells and neuroimmune axis, modulates the NF-κB inflammatory signalling (already mapped) of the Li-Fraumeni tumour microenvironment and contributes to the psychological burden of LFS survivorship."
 ---
 
 # Li-Fraumeni Syndrome
@@ -802,6 +811,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Tumour-promoting kinin: bradykinin, via B1/B2 kinin receptors on the endothelial cells and macrophages (both already mapped) of the Li-Fraumeni tumour stroma, amplifies angiogenesis (VEGF already mapped) and the pro-tumour NF-κB (already mapped) inflammatory cascade.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical complement pathway (C3 and C5aR1 already mapped) activated by anti-tumour antibodies (already mapped) across the diverse TP53-mutant Li-Fraumeni cancers, modulating the complement-mediated anti-tumour cytotoxicity.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Sarcoma stromal periostin: periostin, highly expressed in the fibroblast (already mapped) stroma of the TP53-mutant Li-Fraumeni sarcomas (osteosarcoma and rhabdomyosarcoma already mapped), drives the desmoplastic niche and promotes invasion and metastasis.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-oncology: melatonin, via MT1/MT2 receptors on TP53-mutant tumour cells, suppresses VEGF-driven angiogenesis (already mapped) and promotes apoptosis, partially compensating for p53-deficient apoptosis across the Li-Fraumeni tumour spectrum.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sarcoma androgen axis: testosterone, via androgen receptor on the TP53-mutant osteosarcoma and rhabdomyosarcoma cells (already mapped) of Li-Fraumeni syndrome, modulates tumour proliferative signalling and partly explains the male-skewed sarcoma penetrance in LFS.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Psycho-oncology: serotonin, via 5-HT receptors on LFS tumour cells and neuroimmune axis, modulates the NF-κB inflammatory signalling (already mapped) of the Li-Fraumeni tumour microenvironment and contributes to the psychological burden of LFS survivorship.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
