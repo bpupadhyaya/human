@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/factor-h
     relation: connects-to
     note: "Synaptic complement control: factor H limits alternative complement activation (complement C3, C5 and C5aR1 already mapped) at the CNS synapse and blood-brain-barrier, preventing excessive complement-mediated synaptic pruning in nervous-system neurodegeneration."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Neurosteroid modulation: testosterone and its CNS metabolite DHT bind androgen receptors to promote myelination, neuroprotection and sex-dimorphic GABAergic signalling, influencing susceptibility to neurodegenerative and psychiatric disorders in the nervous system."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Neuroprotective cytokine: prolactin receptors on neurons and microglia mediate neuroprotection, axon regeneration and myelin repair, and prolactin elevations during pregnancy drive adult hippocampal neurogenesis in the nervous system."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant selenoprotein axis: selenium incorporates into GPX4 and selenoproteins that protect neurons from ferroptosis and oxidative lipid damage; GPx4 deficiency triggers degeneration in motor and sensory neurons of the nervous system."
 ---
 
 # Nervous System
@@ -714,6 +723,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 | **Schizophrenia** | CNS | DA dysregulation, NMDA hypofunction, PV interneuron loss → psychosis and cognitive deficit | ~24 million; lifetime prevalence ~0.5–1% |
 | **Peripheral neuropathy** | PNS | Axonal degeneration/demyelination from diabetes, chemotherapy, autoimmune causes | >20 million in USA alone; diabetic neuropathy most common |
 | **Guillain-Barré syndrome** | PNS | Autoimmune demyelination of peripheral nerves → ascending paralysis | ~1–2/100,000/year; often post-infectious |
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Neurosteroid modulation: testosterone and its CNS metabolite DHT bind androgen receptors to promote myelination, neuroprotection and sex-dimorphic GABAergic signalling, influencing susceptibility to neurodegenerative and psychiatric disorders in the nervous system.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroprotective cytokine: prolactin receptors on neurons and microglia mediate neuroprotection, axon regeneration and myelin repair, and prolactin elevations during pregnancy drive adult hippocampal neurogenesis in the nervous system.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant selenoprotein axis: selenium incorporates into GPX4 and selenoproteins that protect neurons from ferroptosis and oxidative lipid damage; GPx4 deficiency triggers degeneration in motor and sensory neurons of the nervous system.
 
 [^kandel-principles-ns]: Kandel ER, Koester JD, Mack SH, Siegelbaum SA. *Principles of Neural Science.* 6th ed. McGraw-Hill; 2021.
 [^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.

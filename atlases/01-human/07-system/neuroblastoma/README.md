@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Bone marrow niche periostin: periostin secreted by the bone-marrow (already mapped) stromal fibroblasts in neuroblastoma metastases activates integrin-AKT (already mapped) pro-survival signalling and promotes VEGF-driven (already mapped) angiogenesis in high-risk neuroblastoma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Tumour-suppressive pineal hormone: melatonin inhibits neuroblastoma proliferation through MT1/MT2 receptor-mediated cAMP-PKA suppression and p53 (already mapped)-dependent apoptosis, counteracting MYCN (already mapped) oncogenic drive."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Catecholamine cross-talk: neuroblastoma arises from sympathoadrenal precursors sharing the catecholamine pathway with adrenal androgen production; testosterone converges on AR signalling to modulate NB differentiation and MYCN (already mapped) expression."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Catecholamine pathway co-regulator: neuroblastoma tumour cells express the serotonin transporter (SERT; already mapped) and metabolise 5-HIAA alongside catecholamines; serotonin receptor activation modulates cAMP-PKA signalling (MYCN already mapped) and NB cell proliferation."
 ---
 
 # Neuroblastoma
@@ -788,6 +797,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Tumour-immune alarmin: TSLP released by the neuroblastoma stroma activates dendritic cells (already mapped) toward a Th2 (IL-4 already mapped) immune microenvironment, amplifying TGF-β (already mapped) immunosuppression and attenuating NK-cell (already mapped) cytotoxicity.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement immunotherapy modulation: C1-INH controls the classical-pathway arm (complement C3, C5 and C5aR1 already mapped) in neuroblastoma, modulating the complement-dependent cytotoxicity triggered by dinutuximab (antibody already mapped) anti-GD2 immunotherapy.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Bone marrow niche periostin: periostin secreted by the bone-marrow (already mapped) stromal fibroblasts in neuroblastoma metastases activates integrin-AKT (already mapped) pro-survival signalling and promotes VEGF-driven (already mapped) angiogenesis in high-risk neuroblastoma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Tumour-suppressive pineal hormone: melatonin inhibits neuroblastoma proliferation through MT1/MT2 receptor-mediated cAMP-PKA suppression and p53 (already mapped)-dependent apoptosis, counteracting MYCN (already mapped) oncogenic drive.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Catecholamine cross-talk: neuroblastoma arises from sympathoadrenal precursors sharing the catecholamine pathway with adrenal androgen production; testosterone converges on AR signalling to modulate NB differentiation and MYCN (already mapped) expression.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Catecholamine pathway co-regulator: neuroblastoma tumour cells express the serotonin transporter (SERT; already mapped) and metabolise 5-HIAA alongside catecholamines; serotonin receptor activation modulates cAMP-PKA signalling (MYCN already mapped) and NB cell proliferation.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
