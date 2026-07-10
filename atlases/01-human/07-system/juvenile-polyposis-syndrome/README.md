@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen receptor in JPS: testosterone, via androgen receptor on SMAD4-mutant colonic epithelial cells (already mapped), modulates WNT/β-catenin proliferative signalling and may contribute to the male-skewed colorectal cancer risk in juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "JPS prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "JPS oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the polyposis inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of JPS."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "JPS vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the polyposis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of juvenile polyposis syndrome."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -793,6 +802,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mucosal mast-cell histamine: histamine released by mast cells in the juvenile polyp stroma activates H1/H2 receptors on SMAD4-mutant intestinal epithelial cells (already mapped), amplifying mucosal inflammation and the vascular permeability of the hamartomatous JPS polyps.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Colorectal antiproliferative: melatonin suppresses WNT/β-catenin signalling (already mapped) via MT1/MT2 receptors on SMAD4-mutant (already mapped) colonic epithelial cells, reducing polyp proliferation and the adenoma-carcinoma transition risk in juvenile polyposis syndrome.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen receptor in JPS: testosterone, via androgen receptor on SMAD4-mutant colonic epithelial cells (already mapped), modulates WNT/β-catenin proliferative signalling and may contribute to the male-skewed colorectal cancer risk in juvenile polyposis syndrome.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — JPS prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of juvenile polyposis syndrome.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — JPS oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates the polyposis inflammatory cascade; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of JPS.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — JPS vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the polyposis; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of juvenile polyposis syndrome.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

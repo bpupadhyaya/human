@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/serotonin
     relation: connects-to
     note: "Psycho-oncology: serotonin, via 5-HT receptors on LFS tumour cells and neuroimmune axis, modulates the NF-κB inflammatory signalling (already mapped) of the Li-Fraumeni tumour microenvironment and contributes to the psychological burden of LFS survivorship."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "LFS prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the tumour immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Li–Fraumeni syndrome."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "LFS oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Li–Fraumeni syndrome."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "LFS vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the tumour; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Li–Fraumeni syndrome."
 ---
 
 # Li-Fraumeni Syndrome
@@ -814,6 +823,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-oncology: melatonin, via MT1/MT2 receptors on TP53-mutant tumour cells, suppresses VEGF-driven angiogenesis (already mapped) and promotes apoptosis, partially compensating for p53-deficient apoptosis across the Li-Fraumeni tumour spectrum.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sarcoma androgen axis: testosterone, via androgen receptor on the TP53-mutant osteosarcoma and rhabdomyosarcoma cells (already mapped) of Li-Fraumeni syndrome, modulates tumour proliferative signalling and partly explains the male-skewed sarcoma penetrance in LFS.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Psycho-oncology: serotonin, via 5-HT receptors on LFS tumour cells and neuroimmune axis, modulates the NF-κB inflammatory signalling (already mapped) of the Li-Fraumeni tumour microenvironment and contributes to the psychological burden of LFS survivorship.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — LFS prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the tumour immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Li–Fraumeni syndrome.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — LFS oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Li–Fraumeni syndrome.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — LFS vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the tumour; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Li–Fraumeni syndrome.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
