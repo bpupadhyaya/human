@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3 and C5 already mapped) and contact-kinin (bradykinin already mapped) activation in the tumour microenvironment, moderating complement-driven immunosuppression of prostate cancer."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "PC serotonin: serotonin, via 5-HT receptors on prostate cancer cells and macrophages (already mapped), promotes tumour proliferation and the immunosuppressive tumour microenvironment; 5-HT also modulates the androgen-receptor (already mapped) signalling axis of prostate cancer."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "PC melatonin: melatonin, via MT1/MT2 receptors, attenuates androgen-receptor (already mapped) signalling and tumour proliferation in prostate cancer; melatonin also suppresses osteoblast (already mapped) RANKL (already mapped) bone-metastatic niche formation."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "PC prolactin: prolactin, via PRLR on prostate cancer cells, activates mTOR (already mapped) and promotes tumour survival; prolactin also modulates macrophage (already mapped) polarisation and androgen-receptor (already mapped) signalling crosstalk in prostate cancer."
 ---
 
 # Prostate Cancer
@@ -790,6 +799,9 @@ cross_links:
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell TME effector: histamine, released by mast cells (already mapped) in the tumour microenvironment of prostate cancer, promotes angiogenesis (VEGF already mapped), immunosuppression and androgen-receptor (already mapped) signalling crosstalk of prostate cancer.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Bone metastasis ECM scaffold: periostin, highly expressed in the bone microenvironment, promotes osteoblastic (already mapped) and mixed prostate cancer bone metastasis by facilitating tumour cell adhesion and the fibrotic remodelling of bone lesions.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement/kinin gate: C1-esterase inhibitor limits classical complement (C3 and C5 already mapped) and contact-kinin (bradykinin already mapped) activation in the tumour microenvironment, moderating complement-driven immunosuppression of prostate cancer.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PC serotonin: serotonin, via 5-HT receptors on prostate cancer cells and macrophages (already mapped), promotes tumour proliferation and the immunosuppressive tumour microenvironment; 5-HT also modulates the androgen-receptor (already mapped) signalling axis of prostate cancer.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — PC melatonin: melatonin, via MT1/MT2 receptors, attenuates androgen-receptor (already mapped) signalling and tumour proliferation in prostate cancer; melatonin also suppresses osteoblast (already mapped) RANKL (already mapped) bone-metastatic niche formation.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PC prolactin: prolactin, via PRLR on prostate cancer cells, activates mTOR (already mapped) and promotes tumour survival; prolactin also modulates macrophage (already mapped) polarisation and androgen-receptor (already mapped) signalling crosstalk in prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

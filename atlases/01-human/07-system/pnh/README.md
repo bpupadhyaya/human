@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine haematopoietic axis: prolactin, acting via PRLR on haematopoietic progenitors (already mapped) and T-helper cells (already mapped), modulates the immune-mediated selection of the GPI-deficient PNH clone in the marrow failure of PNH."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "PNH testosterone: testosterone, via androgen receptors on erythrocytes (already mapped), suppresses complement-C5 (already mapped) activation; androgens (danazol) reduce the haemolytic burden by promoting erythropoiesis (erythropoietin already mapped) in PNH."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "PNH serotonin: platelet (already mapped) serotonin amplifies the thrombotic risk and vascular inflammation of PNH; 5-HT2 signalling on endothelial cells (already mapped) promotes nitric-oxide (already mapped) scavenging and the haemolytic vascular injury of PNH."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "PNH oxytocin: oxytocin, via OXTR on bone-marrow (already mapped) stromal cells, attenuates macrophage (already mapped) NF-κB (already mapped) activation; oxytocin also modulates regulatory T cells (already mapped) to suppress erythrocyte (already mapped) destruction in PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -747,6 +756,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Marrow ECM scaffold: periostin, expressed in the bone marrow stroma (already mapped) supporting the expanded PNH clone, modulates the extracellular matrix niche and fibrotic remodelling in the haematopoietic failure of PNH.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian haemolysis modulation: melatonin, via MT1/MT2 receptors on erythrocytes (already mapped) and complement-regulatory cells, influences the nocturnal complement activation surge (C5 and eculizumab target already mapped) that drives the episodic haemolysis of PNH.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine haematopoietic axis: prolactin, acting via PRLR on haematopoietic progenitors (already mapped) and T-helper cells (already mapped), modulates the immune-mediated selection of the GPI-deficient PNH clone in the marrow failure of PNH.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PNH testosterone: testosterone, via androgen receptors on erythrocytes (already mapped), suppresses complement-C5 (already mapped) activation; androgens (danazol) reduce the haemolytic burden by promoting erythropoiesis (erythropoietin already mapped) in PNH.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PNH serotonin: platelet (already mapped) serotonin amplifies the thrombotic risk and vascular inflammation of PNH; 5-HT2 signalling on endothelial cells (already mapped) promotes nitric-oxide (already mapped) scavenging and the haemolytic vascular injury of PNH.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — PNH oxytocin: oxytocin, via OXTR on bone-marrow (already mapped) stromal cells, attenuates macrophage (already mapped) NF-κB (already mapped) activation; oxytocin also modulates regulatory T cells (already mapped) to suppress erythrocyte (already mapped) destruction in PNH.
 
 ---
 
