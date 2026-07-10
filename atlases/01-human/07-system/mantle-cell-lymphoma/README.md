@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Lymphoma-niche periostin: periostin, secreted by cancer-associated fibroblasts (already mapped) in the MCL stroma under TGF-β (already mapped) stimulation, reinforces the lymphoma niche and promotes the B-cell (already mapped) proliferative advantage in mantle-cell lymphoma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian lymphoma regulation: melatonin, via MT1/MT2 receptors on MCL B cells and tumour-associated macrophages (already mapped), suppresses cyclin D1-driven (already mapped) cell-cycle progression and NF-κB (already mapped) anti-apoptotic signalling in mantle-cell lymphoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-B-cell axis: testosterone, via androgen receptor on MCL B cells (already mapped), suppresses anti-tumour immune surveillance and modulates the NF-κB (already mapped) and cyclin D1-overexpressing (already mapped) proliferative programme of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Tumour-microenvironment 5-HT: serotonin released from activated platelets (already mapped) in the MCL vasculature binds 5-HT2 receptors on MCL B cells and macrophages (already mapped), modulating pro-tumour NF-κB (already mapped) inflammation in mantle-cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -773,6 +782,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — C1-INH complement regulation: C1-INH modulates the classical pathway (C3, C5 and C5aR1 already mapped) activated by anti-CD20 (CD20 already mapped) therapies in MCL, balancing rituximab complement-dependent cytotoxicity and minimising complement-mediated adverse effects.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell mediator in MCL stroma: histamine from mast cells (already mapped) in the MCL stroma promotes VEGF-driven (already mapped) angiogenesis and immunosuppression, while H2-receptor signalling on MCL B cells (already mapped) reduces cAMP-mediated apoptosis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Lymphoma-niche periostin: periostin, secreted by cancer-associated fibroblasts (already mapped) in the MCL stroma under TGF-β (already mapped) stimulation, reinforces the lymphoma niche and promotes the B-cell (already mapped) proliferative advantage in mantle-cell lymphoma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian lymphoma regulation: melatonin, via MT1/MT2 receptors on MCL B cells and tumour-associated macrophages (already mapped), suppresses cyclin D1-driven (already mapped) cell-cycle progression and NF-κB (already mapped) anti-apoptotic signalling in mantle-cell lymphoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-B-cell axis: testosterone, via androgen receptor on MCL B cells (already mapped), suppresses anti-tumour immune surveillance and modulates the NF-κB (already mapped) and cyclin D1-overexpressing (already mapped) proliferative programme of mantle-cell lymphoma.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Tumour-microenvironment 5-HT: serotonin released from activated platelets (already mapped) in the MCL vasculature binds 5-HT2 receptors on MCL B cells and macrophages (already mapped), modulating pro-tumour NF-κB (already mapped) inflammation in mantle-cell lymphoma.
 
 ---
 

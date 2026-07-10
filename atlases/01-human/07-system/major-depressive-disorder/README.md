@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Astrocyte ECM remodelling: periostin, expressed by reactive astrocytes (already mapped) in the neuroinflamed brain (already mapped) of MDD, promotes the extracellular matrix changes that accompany glial morphology shifts and synaptic (already mapped) remodelling in depression."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Selenoprotein antidepressant: selenium, via neuronal and microglial (both already mapped) selenoproteins (GPx/TrxR), quenches the reactive oxygen species and neuroinflammatory IL-6 (already mapped) burden underlying the oxidative-stress phenotype of major depressive disorder."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Neurocomplement factor H: factor H, the key complement regulator (C3 and C5aR1 already mapped), controls complement-mediated synaptic pruning and microglial (already mapped) activation in the MDD brain, limiting the neuroimmune cascade at the blood-brain barrier."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Terminal complement C5: complement C5, cleaved to C5a (C5aR1 already mapped) and MAC, drives neuroinflammatory astrocytic (already mapped) activation and C1q-mediated synaptic pruning linking inflammatory MDD to hippocampal grey-matter loss and cognitive impairment."
 ---
 
 # Major Depressive Disorder
@@ -820,6 +829,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Neurocomplement brake: C1-INH controls the classical complement pathway (C3 and C5aR1 already mapped) at the blood-brain barrier and in the choroid plexus, limiting the complement-mediated synaptic pruning and the neuroimmune inflammation of major depressive disorder.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin, via EPOR on neurons (already mapped) and microglia (already mapped), activates the JAK2/STAT3 (JAK1/2 already mapped) anti-apoptotic pathway and reduces the neuroinflammatory IL-6 (already mapped) burden of major depressive disorder.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Astrocyte ECM remodelling: periostin, expressed by reactive astrocytes (already mapped) in the neuroinflamed brain (already mapped) of MDD, promotes the extracellular matrix changes that accompany glial morphology shifts and synaptic (already mapped) remodelling in depression.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Selenoprotein antidepressant: selenium, via neuronal and microglial (both already mapped) selenoproteins (GPx/TrxR), quenches the reactive oxygen species and neuroinflammatory IL-6 (already mapped) burden underlying the oxidative-stress phenotype of major depressive disorder.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Neurocomplement factor H: factor H, the key complement regulator (C3 and C5aR1 already mapped), controls complement-mediated synaptic pruning and microglial (already mapped) activation in the MDD brain, limiting the neuroimmune cascade at the blood-brain barrier.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Terminal complement C5: complement C5, cleaved to C5a (C5aR1 already mapped) and MAC, drives neuroinflammatory astrocytic (already mapped) activation and C1q-mediated synaptic pruning linking inflammatory MDD to hippocampal grey-matter loss and cognitive impairment.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
