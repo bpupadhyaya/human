@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "NET selenium redox: selenium via GPX and thioredoxin reductase suppresses ROS that stabilise HIF-1α and drive VEGF (already mapped) and mTOR (already mapped) pro-angiogenic signalling in neuroendocrine tumours."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "NET sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) neuroendocrine tumour cascade."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "NET copper: copper, as cofactor of SOD1 in macrophages (already mapped) and endothelial cells (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative tumour cascade of neuroendocrine tumours."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "NET phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and macrophages (already mapped), supports neuroendocrine tumour immune surveillance; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade."
 ---
 
 # Neuroendocrine Tumors
@@ -780,6 +789,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — NET oxytocin signalling: oxytocin receptors on enterochromaffin NETs couple to Gαq-IP3-PKC, cross-activating mTOR (already mapped) and VEGF (already mapped) pro-proliferative cascades in the carcinoid microenvironment.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — NET vasopressin secretion: NETs co-secrete vasopressin-like peptides activating V1b/V2 receptors on NET stroma, promoting angiogenesis via VEGF (already mapped) upregulation and macrophage (already mapped) recruitment.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — NET selenium redox: selenium via GPX and thioredoxin reductase suppresses ROS that stabilise HIF-1α and drive VEGF (already mapped) and mTOR (already mapped) pro-angiogenic signalling in neuroendocrine tumours.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NET sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) neuroendocrine tumour cascade.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NET copper: copper, as cofactor of SOD1 in macrophages (already mapped) and endothelial cells (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative tumour cascade of neuroendocrine tumours.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — NET phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and macrophages (already mapped), supports neuroendocrine tumour immune surveillance; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
