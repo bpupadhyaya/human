@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "FH prolactin: prolactin, via PRLR on hepatocytes (already mapped) and macrophages (already mapped), modulates cholesterol (already mapped) synthesis and foam-cell formation; hyperprolactinaemia amplifies the dyslipidaemia and atherosclerosis (already mapped) burden of FH."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "FH oxytocin: oxytocin, via OXTR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), attenuates NF-κB (already mapped) atherogenic signalling; oxytocin deficiency amplifies macrophage (already mapped) foam-cell and atherosclerosis in FH."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "FH vasopressin: vasopressin, via V1aR on smooth-muscle cells (already mapped) and hepatocytes (already mapped), modulates cholesterol (already mapped) metabolism and vascular tone; vasopressin excess amplifies NF-κB (already mapped) and atherosclerosis (already mapped) in FH."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "FH selenium: selenium, via GPx and NRF2 (already mapped) antioxidant systems, attenuates LDL oxidation driving atherosclerosis (already mapped); selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) plaque inflammation and cardiovascular risk of FH."
 ---
 
 # Familial Hypercholesterolemia
@@ -787,6 +796,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — FH testosterone: testosterone, via androgen receptors on hepatocytes (already mapped) and smooth-muscle cells (already mapped), modulates cholesterol (already mapped) metabolism; androgen deficiency amplifies the macrophage (already mapped) foam-cell atherogenesis of FH.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — FH serotonin: serotonin, via 5-HT receptors on smooth-muscle cells (already mapped) and endothelial cells (already mapped), modulates vascular tone; serotonin-driven platelet activation amplifies the atherosclerosis (already mapped) and cardiovascular risk of FH.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — FH prolactin: prolactin, via PRLR on hepatocytes (already mapped) and macrophages (already mapped), modulates cholesterol (already mapped) synthesis and foam-cell formation; hyperprolactinaemia amplifies the dyslipidaemia and atherosclerosis (already mapped) burden of FH.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — FH oxytocin: oxytocin, via OXTR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), attenuates NF-κB (already mapped) atherogenic signalling; oxytocin deficiency amplifies macrophage (already mapped) foam-cell and atherosclerosis in FH.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — FH vasopressin: vasopressin, via V1aR on smooth-muscle cells (already mapped) and hepatocytes (already mapped), modulates cholesterol (already mapped) metabolism and vascular tone; vasopressin excess amplifies NF-κB (already mapped) and atherosclerosis (already mapped) in FH.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — FH selenium: selenium, via GPx and NRF2 (already mapped) antioxidant systems, attenuates LDL oxidation driving atherosclerosis (already mapped); selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) plaque inflammation and cardiovascular risk of FH.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)

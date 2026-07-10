@@ -495,6 +495,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "GD sodium: sodium, via voltage-gated channels on neurons (already mapped) and astrocytes (already mapped), determines action-potential firing; dysregulated sodium from microglial (already mapped) neuroinflammation amplifies reward-circuit hypersensitivity of gambling disorder."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "GD potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ at neurons (already mapped) and synapses (already mapped) amplifies NF-κB (already mapped) and IL-1β (already mapped) neuroinflammation in gambling disorder."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "GD phosphorus: phosphorus drives ATP (already mapped)-dependent synaptic (already mapped) plasticity in neurons (already mapped); phosphate dysregulation impairs BDNF (already mapped) signalling and worsens reward-circuit neuroadaptations in gambling disorder."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "GD iron: iron is essential for dopamine (already mapped) synthesis in neurons (already mapped); iron deficiency impairs prefrontal dopaminergic (already mapped) circuitry and hippocampal (already mapped) neuroplasticity, amplifying impulsivity of gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -800,6 +809,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — GD selenium: selenium, as the neuroprotective antioxidant GPx in neurons (already mapped) and microglia (already mapped), scavenges ROS from neuroinflammation (IL-6 and TNF already mapped); selenium deficiency worsens reward-circuit oxidative dysfunction of gambling disorder.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — GD iodine: iodine-dependent thyroid hormones modulate dopaminergic reward neurons (already mapped) and neuroinflammatory tone (IL-6 and TNF already mapped); iodine deficiency impairs prefrontal inhibitory control, lowering the behavioural threshold of gambling disorder.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — GD sodium: sodium, via voltage-gated channels on neurons (already mapped) and astrocytes (already mapped), determines action-potential firing; dysregulated sodium from microglial (already mapped) neuroinflammation amplifies reward-circuit hypersensitivity of gambling disorder.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — GD potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ at neurons (already mapped) and synapses (already mapped) amplifies NF-κB (already mapped) and IL-1β (already mapped) neuroinflammation in gambling disorder.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GD phosphorus: phosphorus drives ATP (already mapped)-dependent synaptic (already mapped) plasticity in neurons (already mapped); phosphate dysregulation impairs BDNF (already mapped) signalling and worsens reward-circuit neuroadaptations in gambling disorder.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — GD iron: iron is essential for dopamine (already mapped) synthesis in neurons (already mapped); iron deficiency impairs prefrontal dopaminergic (already mapped) circuitry and hippocampal (already mapped) neuroplasticity, amplifying impulsivity of gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
