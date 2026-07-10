@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Mast-cell histamine storm: histamine, released by the mast cells (already mapped) activated by the SARS-CoV-2 (already mapped) spike protein, amplifies the vascular permeability, bronchoconstriction and the inflammatory cytokine (IL-6 already mapped) storm of severe COVID-19."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM/fibrosis alarmin: periostin, induced by IL-4 and IL-13 (already mapped) in the post-COVID pulmonary fibrosis (fibroblast already mapped), promotes type-2 ECM remodelling of the alveoli (already mapped) and contributes to the long-COVID fibrotic lung complication."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian antioxidant: melatonin scavenges mitochondrial ROS (already mapped) and modulates the cytokine storm (IL-6 already mapped) of severe COVID-19; disrupted circadian rhythms worsen disease severity and melatonin deficiency is observed in critically ill patients."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Immune-endocrine coupling: prolactin, elevated during the acute-phase response of severe COVID-19, potentiates macrophage (already mapped) and lymphocyte activation, contributing to the cytokine storm (IL-6 already mapped) and the hyperinflammatory state."
 ---
 
 # COVID-19 Disease
@@ -716,6 +725,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Airway epithelial alarmin: TSLP released from the SARS-CoV-2 (already mapped)-infected airway epithelium (alveolus already mapped) and bronchial epithelium activates mast cells (already mapped) and pDCs (dendritic-cell already mapped), amplifying the type-2 hypersensitivity and cytokine storm of severe COVID-19.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Hypoxia-driven EPO: erythropoietin, induced by the severe hypoxia (oxygen already mapped) of COVID-19 ARDS via HIF-1α (already mapped), supports erythropoiesis and tissue-protective signalling; EPO may also modulate the pulmonary-artery vascular remodelling of long-COVID PAH (already mapped).
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell histamine storm: histamine, released by the mast cells (already mapped) activated by the SARS-CoV-2 (already mapped) spike protein, amplifies the vascular permeability, bronchoconstriction and the inflammatory cytokine (IL-6 already mapped) storm of severe COVID-19.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM/fibrosis alarmin: periostin, induced by IL-4 and IL-13 (already mapped) in the post-COVID pulmonary fibrosis (fibroblast already mapped), promotes type-2 ECM remodelling of the alveoli (already mapped) and contributes to the long-COVID fibrotic lung complication.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian antioxidant: melatonin scavenges mitochondrial ROS (already mapped) and modulates the cytokine storm (IL-6 already mapped) of severe COVID-19; disrupted circadian rhythms worsen disease severity and melatonin deficiency is observed in critically ill patients.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine coupling: prolactin, elevated during the acute-phase response of severe COVID-19, potentiates macrophage (already mapped) and lymphocyte activation, contributing to the cytokine storm (IL-6 already mapped) and the hyperinflammatory state.
 
 ## Pathology
 
