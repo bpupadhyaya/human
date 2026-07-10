@@ -490,6 +490,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Autoimmune amplifier: hyperprolactinaemia can exacerbate autoimmune bullous diseases including pemphigus vulgaris by promoting B-cell survival and autoantibody production, a recognised neuro-endocrine–immune axis in organ-specific autoimmunity."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian autoimmune modulator: melatonin modulates T-helper-cell (already mapped) and B-cell (already mapped) activity, influencing IgG autoantibody production against desmoglein-3 in pemphigus vulgaris, with nocturnal flare patterns reported."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroendocrine skin-immune axis: oxytocin modulates the stress-immune axis and keratinocyte (skin already mapped) integrity; psychosocial stress is a recognised pemphigus-vulgaris trigger, implicating the hypothalamic–skin neuroendocrine pathway."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone immune modulation: testosterone exerts an immunosuppressive effect on the Th2-skewed (IL-4, IL-13 already mapped) autoimmune response of pemphigus vulgaris, consistent with the female sex predominance of this bullous disease."
 ---
 
 # Pemphigus Vulgaris
@@ -791,6 +800,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Blister-fluid kinin: bradykinin accumulates in the blister fluid of pemphigus vulgaris, amplifying the painful mucosal oedema and pain at desmosome-disrupted erosions where the kallikrein-kinin system is activated by local proteases.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erosion-related anaemia: the chronic cutaneous and mucosal protein loss of extensive pemphigus vulgaris drives a normocytic anaemia; erythropoietin supports erythropoiesis in patients requiring prolonged immunosuppressive therapy.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Autoimmune amplifier: hyperprolactinaemia can exacerbate autoimmune bullous diseases including pemphigus vulgaris by promoting B-cell survival and autoantibody production, a recognised neuro-endocrine–immune axis in organ-specific autoimmunity.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian autoimmune modulator: melatonin modulates T-helper-cell (already mapped) and B-cell (already mapped) activity, influencing IgG autoantibody production against desmoglein-3 in pemphigus vulgaris, with nocturnal flare patterns reported.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroendocrine skin-immune axis: oxytocin modulates the stress-immune axis and keratinocyte (skin already mapped) integrity; psychosocial stress is a recognised pemphigus-vulgaris trigger, implicating the hypothalamic–skin neuroendocrine pathway.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone immune modulation: testosterone exerts an immunosuppressive effect on the Th2-skewed (IL-4, IL-13 already mapped) autoimmune response of pemphigus vulgaris, consistent with the female sex predominance of this bullous disease.
 
 ---
 
