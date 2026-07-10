@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Sepsis selenium: selenium, as GPx in macrophages (already mapped) and endothelial cells (already mapped), scavenges the reactive-oxygen-species burst of sepsis; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade of sepsis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Sepsis iodine: iodine-dependent thyroid hormones modulate the macrophage (already mapped) and neutrophil (already mapped) oxidative burst; iodine deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade and organ-failure of sepsis."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Sepsis sodium: sodium, via NLRP3 (already mapped) inflammasome activation in macrophages (already mapped) and endothelial cells (already mapped), modulates cytokine secretion; sodium dysregulation amplifies the IL-6 (already mapped) and TNF-α (already mapped) storm of sepsis."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Sepsis magnesium: magnesium, via NMDA-receptor (already mapped) blockade and mitochondrial ROS attenuation in macrophages (already mapped) and endothelial cells (already mapped), limits the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade of sepsis."
 ---
 
 # Sepsis
@@ -785,6 +794,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Innate immune neuroendocrine: prolactin, via PRLR on macrophages (already mapped) and natural-killer cells (already mapped), modulates innate immune activation; hyperprolactinaemia amplifies the IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of sepsis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Anti-inflammatory neuropeptide: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates the cytokine-storm (already mapped) and NLRP3 (already mapped) inflammatory cascade; oxytocin deficiency amplifies the organ-failure progression of sepsis.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant micronutrient: selenium, as GPx in macrophages (already mapped) and endothelial cells (already mapped), scavenges the reactive-oxygen-species burst of sepsis; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade of sepsis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-immune axis: iodine-dependent thyroid hormones modulate the macrophage (already mapped) and neutrophil (already mapped) oxidative burst; iodine deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade and organ-failure of sepsis.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NLRP3 inflammasome modulator: sodium, via NLRP3 (already mapped) inflammasome activation in macrophages (already mapped) and endothelial cells (already mapped), modulates cytokine secretion; sodium dysregulation amplifies the IL-6 (already mapped) and TNF-α (already mapped) storm of sepsis.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Mitochondrial ROS brake: magnesium, via NMDA-receptor (already mapped) blockade and mitochondrial ROS attenuation in macrophages (already mapped) and endothelial cells (already mapped), limits the NLRP3 (already mapped) and NF-κB (already mapped) inflammatory cascade of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
