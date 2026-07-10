@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "SSc magnesium: magnesium deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped)-driven fibroblast (already mapped) activation in systemic sclerosis; magnesium-dependent enzymes regulate collagen cross-linking and fibrotic remodelling of scleroderma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "SSc copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped), drives collagen cross-linking; copper amplifies VEGF (already mapped); copper excess amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of systemic sclerosis."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "SSc potassium: potassium efflux via NLRP3 inflammasome in macrophages (already mapped) and mast-cell (already mapped) drives IL-6 (already mapped) secretion; potassium dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of SSc."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "SSc phosphorus: phosphorus, as ATP precursor in fibroblasts (already mapped) and endothelial-cell (already mapped), fuels TGF-β (already mapped) collagen synthesis; phosphorus deficiency impairs dendritic-cell (already mapped) and amplifies NF-κB (already mapped) cascade of SSc."
 ---
 
 # Systemic Sclerosis
@@ -797,6 +806,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SSc iodine: iodine-dependent thyroid hormones modulate fibroblast (already mapped) and TGF-β (already mapped)-driven collagen deposition in systemic sclerosis; autoimmune thyroid disease (Hashimoto thyroiditis) coexists in SSc and amplifies fibrotic and vascular manifestations.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SSc sodium: sodium-driven osmotic Th17 polarisation amplifies NF-κB (already mapped) and IL-17A (already mapped)-mediated vascular and fibroblast (already mapped) activation in systemic sclerosis; high dietary sodium worsens inflammatory and fibrotic phases of scleroderma.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — SSc magnesium: magnesium deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped)-driven fibroblast (already mapped) activation in systemic sclerosis; magnesium-dependent enzymes regulate collagen cross-linking and fibrotic remodelling of scleroderma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SSc copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped), drives collagen cross-linking; copper amplifies VEGF (already mapped); copper excess amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of systemic sclerosis.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — SSc potassium: potassium efflux via NLRP3 inflammasome in macrophages (already mapped) and mast-cell (already mapped) drives IL-6 (already mapped) secretion; potassium dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of SSc.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — SSc phosphorus: phosphorus, as ATP precursor in fibroblasts (already mapped) and endothelial-cell (already mapped), fuels TGF-β (already mapped) collagen synthesis; phosphorus deficiency impairs dendritic-cell (already mapped) and amplifies NF-κB (already mapped) cascade of SSc.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

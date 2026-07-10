@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "SyS selenium: selenium-dependent GPX4 suppresses ferroptosis-resistance in synovial-sarcoma; GPX4 inhibition synergises with EZH2 (already mapped) targeted therapy to overcome epigenetic reprogramming driven by the SS18-SSX (already mapped) fusion oncoprotein."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "SyS iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies VEGF (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-promotion cascade of synovial sarcoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "SyS sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the VEGF (already mapped) and mTOR (already mapped) and YAP1 (already mapped)-driven proliferative cascade of synovial sarcoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "SyS copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped), drives stromal remodelling; copper amplifies VEGF (already mapped) angiogenesis; copper deficiency impairs macrophage (already mapped) and T-cytotoxic-cell (already mapped) immunity in SyS."
 ---
 
 # Synovial Sarcoma
@@ -801,6 +810,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — SyS oxytocin: oxytocin receptor on synovial-sarcoma cells attenuates SS18-SSX (already mapped) transcriptional reprogramming and WNT/β-catenin (already mapped) signalling; oxytocin-driven cAMP/PKA activation limits YAP1 (already mapped) co-activator-mediated tumour proliferation.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — SyS vasopressin: vasopressin V1A receptors on synovial-sarcoma cells activate SRC-kinase (already mapped) and ERK1/2 (already mapped), amplifying the SS18-SSX (already mapped)-driven transcriptional reprogramming of this SYT-rearranged soft-tissue sarcoma.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — SyS selenium: selenium-dependent GPX4 suppresses ferroptosis-resistance in synovial-sarcoma; GPX4 inhibition synergises with EZH2 (already mapped) targeted therapy to overcome epigenetic reprogramming driven by the SS18-SSX (already mapped) fusion oncoprotein.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SyS iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies VEGF (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-promotion cascade of synovial sarcoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SyS sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the VEGF (already mapped) and mTOR (already mapped) and YAP1 (already mapped)-driven proliferative cascade of synovial sarcoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SyS copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped), drives stromal remodelling; copper amplifies VEGF (already mapped) angiogenesis; copper deficiency impairs macrophage (already mapped) and T-cytotoxic-cell (already mapped) immunity in SyS.
 
 ---
 
