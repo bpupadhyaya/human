@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/histamine
     relation: connects-to
     note: "Stromal mast-cell mediator: histamine from mast cells (already mapped) in the desmoplastic stroma promotes angiogenesis (VEGF already mapped) and T-cell suppression, reinforcing the immunologically cold microenvironment of pancreatic cancer."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Pancreatic cancer melatonin: melatonin inhibits KRAS (already mapped)-driven pancreatic cancer proliferation by suppressing the mTOR (already mapped) and Wnt/β-catenin (already mapped) pathways via MT1/MT2-mediated cAMP reduction, counteracting the desmoplastic stroma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Pancreatic cancer androgen axis: testosterone via androgen receptor modulates pancreatic stellate-cell (already mapped) activation and the desmoplastic stroma, and AR signalling intersects the KRAS (already mapped) and mTOR (already mapped) growth pathways in pancreatic cancer."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Pancreatic neuroendocrine serotonin: serotonin co-produced by serotonin-secreting pancreatic neuroendocrine cells modulates cAMP-PKA signalling; elevated 5-HIAA in KRAS (already mapped)-driven tumours reflects neuroendocrine differentiation in pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -779,6 +788,9 @@ cross_links:
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Tumour-pain kinin: bradykinin released by the kallikrein-kinin system in the desmoplastic stroma activates nociceptive B1/B2 receptors on peripancreatic and coeliac nerve fibres, driving the intractable pain of pancreatic cancer.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement regulation: C1-esterase inhibitor restrains the complement and contact-activation pathways in the pancreatic-cancer stroma, limiting the C3/C5/C5aR1 (all already mapped) cascade sustaining the immunosuppressive microenvironment.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Stromal mast-cell mediator: histamine from mast cells (already mapped) in the desmoplastic stroma promotes angiogenesis (VEGF already mapped) and T-cell suppression, reinforcing the immunologically cold microenvironment of pancreatic cancer.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Pancreatic cancer melatonin: melatonin inhibits KRAS (already mapped)-driven pancreatic cancer proliferation by suppressing the mTOR (already mapped) and Wnt/β-catenin (already mapped) pathways via MT1/MT2-mediated cAMP reduction, counteracting the desmoplastic stroma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Pancreatic cancer androgen axis: testosterone via androgen receptor modulates pancreatic stellate-cell (already mapped) activation and the desmoplastic stroma, and AR signalling intersects the KRAS (already mapped) and mTOR (already mapped) growth pathways in pancreatic cancer.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Pancreatic neuroendocrine serotonin: serotonin co-produced by serotonin-secreting pancreatic neuroendocrine cells modulates cAMP-PKA signalling; elevated 5-HIAA in KRAS (already mapped)-driven tumours reflects neuroendocrine differentiation in pancreatic cancer.
 
 ---
 

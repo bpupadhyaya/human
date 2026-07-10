@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Post-attack anxiolytic: prolactin surges after panic attacks, exerting acute anxiolytic effects via the GABAergic (GABA already mapped) and serotonin (already mapped) systems, modulating the neuroendocrine recovery phase after panic episodes."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Panic testosterone axis: testosterone exerts anxiolytic effects via androgen receptor in the amygdala (already mapped) and hippocampus (already mapped), modulating the HPA-axis CRH (already mapped) response and GABAergic interneuron activity in panic-disorder circuits."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Panic selenium: selenium via GPX4 and selenoproteins reduces oxidative stress in amygdala (already mapped) and locus coeruleus neurons, attenuating the noradrenergic and serotonin (already mapped) circuit vulnerability of panic disorder."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Panic iron axis: transferrin-mediated iron delivery is required for tryptophan hydroxylase (for serotonin already mapped) and tyrosine hydroxylase (for dopamine already mapped) activity in the raphe nuclei and locus coeruleus; iron deficiency amplifies panic-disorder risk."
 ---
 
 # Panic Disorder
@@ -804,6 +813,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Kallikrein-kinin control: C1-esterase inhibitor modulates the kallikrein-kinin system (bradykinin already mapped) and the classical complement (C3/C5 already mapped), constraining the neuroimmune contact cascade implicated in panic attacks.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO axis: erythropoietin, acting through EPOR in the brain, exerts neuroprotective and anxiolytic effects on the amygdala and hippocampus (already mapped), attenuating fear-memory consolidation in panic-disorder circuits.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Post-attack anxiolytic: prolactin surges after panic attacks, exerting acute anxiolytic effects via the GABAergic (GABA already mapped) and serotonin (already mapped) systems, modulating the neuroendocrine recovery phase after panic episodes.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Panic testosterone axis: testosterone exerts anxiolytic effects via androgen receptor in the amygdala (already mapped) and hippocampus (already mapped), modulating the HPA-axis CRH (already mapped) response and GABAergic interneuron activity in panic-disorder circuits.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Panic selenium: selenium via GPX4 and selenoproteins reduces oxidative stress in amygdala (already mapped) and locus coeruleus neurons, attenuating the noradrenergic and serotonin (already mapped) circuit vulnerability of panic disorder.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Panic iron axis: transferrin-mediated iron delivery is required for tryptophan hydroxylase (for serotonin already mapped) and tyrosine hydroxylase (for dopamine already mapped) activity in the raphe nuclei and locus coeruleus; iron deficiency amplifies panic-disorder risk.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
