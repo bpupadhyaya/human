@@ -496,6 +496,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Inflammatory matricellular: periostin, downstream of the IL-13 (already mapped) and TGF-β (already mapped) signalling of the tissue repair response, contributes to the organ fibrosis and the remodelling of the sepsis-associated acute lung injury."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-immune-sepsis: melatonin has potent antioxidant and immunomodulatory properties; circadian disruption is near-universal in septic ICU patients, and melatonin supplementation reduces oxidative stress and the excessive inflammatory response of sepsis."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-immune dimorphism: testosterone is immunosuppressive; the male sex-hormone disadvantage in sepsis survival reflects testosterone-mediated impairment of the macrophage (already mapped) and T-cell (already mapped) early pro-inflammatory clearance response."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Platelet-serotonin effector: serotonin, released by the platelets (already mapped) upon the endothelial (already mapped) injury of sepsis, amplifies the vasoconstriction and the microvascular thrombosis of septic shock and the organ-failure cascade."
 ---
 
 # Sepsis
@@ -761,6 +770,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-sepsis axis: TSLP, from gut-epithelium (already mapped) and skin (already mapped) disrupted in sepsis, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the Th2/Treg-bias immunoparalysis of sepsis.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Sepsis anaemia: erythropoietin drives red-cell regeneration to correct the multifactorial sepsis-associated anaemia (hepcidin already mapped) of critical illness; EpoR signalling on macrophages (already mapped) also modulates the innate-immune response of sepsis.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Inflammatory matricellular: periostin, downstream of the IL-13 (already mapped) and TGF-β (already mapped) signalling of the tissue repair response, contributes to the organ fibrosis and the remodelling of the sepsis-associated acute lung injury.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-immune-sepsis: melatonin has potent antioxidant and immunomodulatory properties; circadian disruption is near-universal in septic ICU patients, and melatonin supplementation reduces oxidative stress and the excessive inflammatory response of sepsis.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-immune dimorphism: testosterone is immunosuppressive; the male sex-hormone disadvantage in sepsis survival reflects testosterone-mediated impairment of the macrophage (already mapped) and T-cell (already mapped) early pro-inflammatory clearance response.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-serotonin effector: serotonin, released by the platelets (already mapped) upon the endothelial (already mapped) injury of sepsis, amplifies the vasoconstriction and the microvascular thrombosis of septic shock and the organ-failure cascade.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

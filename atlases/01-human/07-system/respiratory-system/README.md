@@ -495,6 +495,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Mucosal immunity: prolactin, from the pituitary (already mapped) and local airway epithelium, modulates the respiratory mucosal IgA (already mapped) secretion and the mast-cell (already mapped) responsiveness of the immune surveillance of the respiratory system."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Sex-hormone lung axis: testosterone modulates the alveolar and bronchial epithelial response; sex-based differences in respiratory mechanics, asthma (already mapped) severity, and COPD (already mapped) outcomes are in part mediated by androgen-testosterone-immune interactions."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Iron-lung metabolism: transferrin, the iron carrier, reflects the iron handling that governs the alveolar macrophage (already mapped) function and the mucociliary defence; iron overload and deficiency each impair the respiratory-epithelial barrier and innate immunity."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant micronutrient: selenium, via selenoproteins in the lung-epithelium (already mapped), protects against ROS-driven alveolar injury and modulates the type-2 and type-1 airway-immune balance of the respiratory system (asthma, COPD already mapped)."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -735,6 +744,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md): Airway kinin brake: C1-esterase inhibitor, by controlling the contact-pathway kinin cascade (bradykinin already mapped) and the classical complement, moderates the airway oedema, the bronchospasm, and the hereditary angioedema exacerbations of the respiratory system.
 - **Connects-to** → [Melatonin](../../03-molecular/melatonin/README.md): Antioxidant-airway axis: melatonin, from the pineal (already mapped) and local bronchial epithelium, exerts antioxidant and anti-inflammatory effects on the airway, modulating the nocturnal bronchoconstriction and the ROS-driven mucosal injury of the respiratory system.
 - **Connects-to** → [Prolactin](../../03-molecular/prolactin/README.md): Mucosal immunity: prolactin, from the pituitary (already mapped) and local airway epithelium, modulates the respiratory mucosal IgA (already mapped) secretion and the mast-cell (already mapped) responsiveness of the immune surveillance of the respiratory system.
+- **Connects-to** → [Testosterone](../../03-molecular/testosterone/README.md): Sex-hormone lung axis: testosterone modulates the alveolar and bronchial epithelial response; sex-based differences in respiratory mechanics, asthma (already mapped) severity, and COPD (already mapped) outcomes are in part mediated by androgen-testosterone-immune interactions.
+- **Connects-to** → [Transferrin](../../03-molecular/transferrin/README.md): Iron-lung metabolism: transferrin, the iron carrier, reflects the iron handling that governs the alveolar macrophage (already mapped) function and the mucociliary defence; iron overload and deficiency each impair the respiratory-epithelial barrier and innate immunity.
+- **Connects-to** → [Selenium](../../02-atomic/selenium/README.md): Antioxidant micronutrient: selenium, via selenoproteins in the lung-epithelium (already mapped), protects against ROS-driven alveolar injury and modulates the type-2 and type-1 airway-immune balance of the respiratory system (asthma, COPD already mapped).
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
