@@ -507,6 +507,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "RSV magnesium: magnesium acts as a bronchodilator by inhibiting calcium-mediated smooth-muscle cell (already mapped) constriction; magnesium deficiency amplifies the IL-33 (already mapped) and type-I IFN (already mapped) inflammatory airway response to RSV."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "RSV iodine: iodine-dependent thyroid hormones upregulate type-I IFN (already mapped) antiviral signalling on airway epithelium; hypothyroidism impairs the NF-κB (already mapped) response and amplifies the IL-6 (already mapped) and IL-33 (already mapped) cytokine storm of RSV."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "RSV copper: copper, as SOD and ceruloplasmin cofactor, suppresses the ROS amplifying NF-κB (already mapped) and NLRP3 inflammasome (already mapped) airway cytokine burst of RSV; copper deficiency impairs macrophage (already mapped) bactericidal and antiviral function."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "RSV potassium: potassium efflux is the canonical activating signal for NLRP3 inflammasome (already mapped) in macrophages (already mapped); disrupted K⁺ homeostasis amplifies NF-κB (already mapped) and IL-1β (already mapped) cytokine storm of severe RSV infection."
 ---
 
 # RSV
@@ -814,3 +823,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — RSV serotonin: mast-cell (already mapped) serotonin amplifies the IgE (already mapped) and IL-33 (already mapped) airway hyperresponsiveness of RSV; 5-HT2 on smooth-muscle cells (already mapped) promotes bronchospasm and T-helper-cell (already mapped) Th2 skew.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — RSV vasopressin: vasopressin, released during severe RSV-induced respiratory distress, promotes SIADH and the sodium (already mapped) hyponatraemia of RSV in infants; vasopressin also modulates the lung (already mapped) vascular tone and brain (already mapped) oedema of RSV.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — RSV magnesium: magnesium acts as a bronchodilator by inhibiting calcium-mediated smooth-muscle cell (already mapped) constriction; magnesium deficiency amplifies the IL-33 (already mapped) and type-I IFN (already mapped) inflammatory airway response to RSV.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — RSV iodine: iodine-dependent thyroid hormones upregulate type-I IFN (already mapped) antiviral signalling on airway epithelium; hypothyroidism impairs the NF-κB (already mapped) response and amplifies the IL-6 (already mapped) and IL-33 (already mapped) cytokine storm of RSV.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — RSV copper: copper, as SOD and ceruloplasmin cofactor, suppresses the ROS amplifying NF-κB (already mapped) and NLRP3 inflammasome (already mapped) airway cytokine burst of RSV; copper deficiency impairs macrophage (already mapped) bactericidal and antiviral function.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — RSV potassium: potassium efflux is the canonical activating signal for NLRP3 inflammasome (already mapped) in macrophages (already mapped); disrupted K⁺ homeostasis amplifies NF-κB (already mapped) and IL-1β (already mapped) cytokine storm of severe RSV infection.

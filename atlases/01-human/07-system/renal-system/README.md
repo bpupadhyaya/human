@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "RS oxytocin: oxytocin, via OXTR on endothelial cells (already mapped) and tubular cells, modulates vasopressin (already mapped) and aldosterone (already mapped) interactions in the kidney (already mapped); oxytocin also attenuates TGF-β (already mapped) glomerular fibrosis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "RS selenium: selenium, via glutathione peroxidase (GPx) in tubular cells and podocytes (already mapped), quenches ROS and attenuates NF-κB (already mapped) and TGF-β (already mapped) renal fibrosis; selenium deficiency accelerates CKD (already mapped) progression and proteinuria."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "RS iodine: iodine-dependent thyroid hormones regulate GFR and podocyte (already mapped) metabolism in the kidney (already mapped); hypothyroidism worsens TGF-β (already mapped) fibrosis and amplifies NF-κB (already mapped) inflammatory tubular injury in CKD (already mapped)."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "RS copper: copper-dependent SOD in tubular cells and endothelial cells (already mapped) quenches the ROS amplifying NF-κB (already mapped) renal inflammation; copper deficiency impairs iron (already mapped) handling via ceruloplasmin and worsens CKD (already mapped) anaemia."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -774,6 +783,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Testosterone](../../03-molecular/testosterone/README.md) — RS testosterone: testosterone, via androgen receptors on podocytes (already mapped), modulates angiotensin-II (already mapped) signalling; testosterone attenuates TGF-β (already mapped) renal fibrosis and macrophage (already mapped) tubulointerstitial injury.
 - **Connects to:** [Serotonin](../../03-molecular/serotonin/README.md) — RS serotonin: serotonin, via 5-HT2A receptors on glomerular (glomerulus already mapped) endothelial cells (already mapped), promotes vasoconstriction and proteinuria; 5-HT modulates vasopressin (already mapped) and sodium (already mapped) renal fluid balance.
 - **Connects to:** [Oxytocin](../../03-molecular/oxytocin/README.md) — RS oxytocin: oxytocin, via OXTR on endothelial cells (already mapped) and tubular cells, modulates vasopressin (already mapped) and aldosterone (already mapped) interactions in the kidney (already mapped); oxytocin also attenuates TGF-β (already mapped) glomerular fibrosis.
+- **Connects to:** [Selenium](../../02-atomic/selenium/README.md) — RS selenium: selenium, via glutathione peroxidase (GPx) in tubular cells and podocytes (already mapped), quenches ROS and attenuates NF-κB (already mapped) and TGF-β (already mapped) renal fibrosis; selenium deficiency accelerates CKD (already mapped) progression and proteinuria.
+- **Connects to:** [Iodine](../../02-atomic/iodine/README.md) — RS iodine: iodine-dependent thyroid hormones regulate GFR and podocyte (already mapped) metabolism in the kidney (already mapped); hypothyroidism worsens TGF-β (already mapped) fibrosis and amplifies NF-κB (already mapped) inflammatory tubular injury in CKD (already mapped).
+- **Connects to:** [Copper](../../02-atomic/copper/README.md) — RS copper: copper-dependent SOD in tubular cells and endothelial cells (already mapped) quenches the ROS amplifying NF-κB (already mapped) renal inflammation; copper deficiency impairs iron (already mapped) handling via ceruloplasmin and worsens CKD (already mapped) anaemia.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
