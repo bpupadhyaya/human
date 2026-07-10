@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Tumour-promoting prolactin: prolactin, via PRL-R on Lynch MMR-deficient endometrial (already mapped) and colorectal cells, activates JAK2/STAT5 proliferative signalling and contributes to the endometrial cancer penetrance of Lynch syndrome."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Lynch oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Lynch syndrome."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Lynch vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the tumour; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Lynch syndrome."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Lynch iodine: iodine, via thyroid hormone biosynthesis, modulates intestinal epithelial (already mapped) and macrophage (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Lynch syndrome."
 ---
 
 # Lynch Syndrome
@@ -803,6 +812,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-MMR axis: testosterone, via androgen receptor on Lynch MMR-deficient colorectal and endometrial cells (endometrial cancer already mapped), modulates MMR gene expression and promotes the androgen-driven tumour proliferation contributing to sex-dependent Lynch cancer risk.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Gut neuroendocrine modulation: serotonin from enterochromaffin cells in Lynch MMR-deficient colorectal mucosa regulates bowel motility and mucosal immune responses (already mapped) that shape the MSI-H tumour microenvironment of Lynch syndrome.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Tumour-promoting prolactin: prolactin, via PRL-R on Lynch MMR-deficient endometrial (already mapped) and colorectal cells, activates JAK2/STAT5 proliferative signalling and contributes to the endometrial cancer penetrance of Lynch syndrome.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Lynch oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Lynch syndrome.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Lynch vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates vascular tone in the tumour; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Lynch syndrome.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Lynch iodine: iodine, via thyroid hormone biosynthesis, modulates intestinal epithelial (already mapped) and macrophage (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of Lynch syndrome.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

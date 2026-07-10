@@ -500,6 +500,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Vasopressin-lymphocyte immunomodulation: vasopressin, via V1a and V1b receptors on lymphocytes and lymphatic endothelial cells, enhances NK-cell (already mapped) cytotoxicity and T-cell (already mapped) proliferation, linking hypothalamic stress signals to lymph-node immunity."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Lymphatic iodine: iodine, via thyroid hormone, modulates lymphocyte (already mapped) and macrophage (already mapped) activity; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of lymphatic dysfunction."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Lymphatic magnesium: magnesium, as a cofactor for lymphocyte (already mapped) and NK-cell (already mapped) function, attenuates lymphatic inflammation; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of lymphatic dysfunction."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Lymphatic copper: copper, as an essential cofactor for SOD1 antioxidant defence and macrophage (already mapped) function, attenuates lymphatic oxidative stress; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction."
 ---
 
 # Lymphatic System
@@ -770,6 +779,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-lymphocyte axis: testosterone, via androgen receptor on lymphocytes and lymphatic endothelial cells (already mapped), dampens germinal-centre B-cell (already mapped) antibody responses and contributes to the sex-dimorphic immunity of the lymphatic system.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Lymphocyte 5-HT signalling: serotonin, via 5-HT receptors on T cells, B cells and NK cells (already mapped), modulates lymphocyte migration and activation in lymph nodes; 5-HT also regulates the vascular tone of the lymphatic vasculature via smooth-muscle 5-HT2A receptors.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Vasopressin-lymphocyte immunomodulation: vasopressin, via V1a and V1b receptors on lymphocytes and lymphatic endothelial cells, enhances NK-cell (already mapped) cytotoxicity and T-cell (already mapped) proliferation, linking hypothalamic stress signals to lymph-node immunity.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Lymphatic iodine: iodine, via thyroid hormone, modulates lymphocyte (already mapped) and macrophage (already mapped) activity; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of lymphatic dysfunction.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Lymphatic magnesium: magnesium, as a cofactor for lymphocyte (already mapped) and NK-cell (already mapped) function, attenuates lymphatic inflammation; magnesium deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) cascade of lymphatic dysfunction.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Lymphatic copper: copper, as an essential cofactor for SOD1 antioxidant defence and macrophage (already mapped) function, attenuates lymphatic oxidative stress; copper deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction.
 
 ## Pathology
 
