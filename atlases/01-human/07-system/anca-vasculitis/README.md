@@ -514,6 +514,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune neuroendocrine: prolactin modulates T-cell (already mapped) and B-cell (already mapped) autoimmune activation; its elevation in active systemic autoimmune disease contributes to the sex-immune-neuroendocrine dimension of ANCA vasculitis."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "ANCA oxytocin: oxytocin, via OXTR on neutrophils (already mapped) and regulatory T cells (already mapped), attenuates autoimmune vascular inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and NLRP3 (already mapped) vasculitic cascade of ANCA vasculitis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "ANCA vasopressin: vasopressin, via V1aR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), modulates vascular tone; vasopressin dysregulation amplifies the nitric-oxide (already mapped) and complement C3 (already mapped) cascade of ANCA vasculitis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "ANCA iodine: iodine-dependent thyroid hormones modulate neutrophil (already mapped) and T-cell (already mapped) autoimmune activation; iodine deficiency impairs the cortisol (already mapped) and IL-6 (already mapped) regulatory axis of the autoimmune cascade of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -811,6 +820,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone vasculitis: testosterone exerts anti-inflammatory effects on neutrophil (already mapped) and T-cell (already mapped) autoimmunity; the male sex predisposition to GPA and the female-to-MPA ratio implicate androgen-mediated immune modulation in ANCA vasculitis.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Platelet-serotonin vascular injury: serotonin, released by platelets (already mapped) upon the endothelial (already mapped) injury of necrotising vasculitis, amplifies the vasoconstriction and the thrombotic occlusion of the ANCA-damaged vessel wall.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune neuroendocrine: prolactin modulates T-cell (already mapped) and B-cell (already mapped) autoimmune activation; its elevation in active systemic autoimmune disease contributes to the sex-immune-neuroendocrine dimension of ANCA vasculitis.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — ANCA oxytocin: oxytocin, via OXTR on neutrophils (already mapped) and regulatory T cells (already mapped), attenuates autoimmune vascular inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and NLRP3 (already mapped) vasculitic cascade of ANCA vasculitis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — ANCA vasopressin: vasopressin, via V1aR on endothelial cells (already mapped) and smooth-muscle cells (already mapped), modulates vascular tone; vasopressin dysregulation amplifies the nitric-oxide (already mapped) and complement C3 (already mapped) cascade of ANCA vasculitis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — ANCA iodine: iodine-dependent thyroid hormones modulate neutrophil (already mapped) and T-cell (already mapped) autoimmune activation; iodine deficiency impairs the cortisol (already mapped) and IL-6 (already mapped) regulatory axis of the autoimmune cascade of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)

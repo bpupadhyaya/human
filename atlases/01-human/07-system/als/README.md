@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Motor-neuron EPO: erythropoietin, via EpoR on motor neurons (already mapped) and microglia (already mapped), exerts anti-apoptotic neuroprotection and reduces the neuroinflammation relevant to the motor-neuron degeneration of ALS."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "ALS testosterone: testosterone, via androgen receptors on motor neurons (already mapped) and microglia (already mapped), exerts neuroprotective effects; testosterone deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ALS."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "ALS serotonin: serotonin, via 5-HT receptors on motor neurons (already mapped) and astrocytes (already mapped), modulates neuroinflammatory tone; serotonin dysregulation amplifies the TDP-43 (already mapped) and NLRP3 (already mapped) neuroinflammatory cascade of ALS."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "ALS prolactin: prolactin, via PRLR on motor neurons (already mapped) and microglia (already mapped), modulates neuroimmune activation; prolactin deficiency amplifies the TDP-43 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ALS."
 ---
 
 # ALS
@@ -815,6 +824,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell neuroinflammation: mast cells (already mapped) in the spinal-cord (nervous-system already mapped) perivascular niche release histamine that amplifies the blood-spinal-cord barrier permeability and the neuroinflammation of ALS.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Neuroprotective antioxidant: melatonin reduces mitochondrial ROS in motor neurons (already mapped), attenuates the NLRP3-inflammasome (already mapped) and NF-κB activation, and modulates the circadian-clock disruption of ALS.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Motor-neuron EPO: erythropoietin, via EpoR on motor neurons (already mapped) and microglia (already mapped), exerts anti-apoptotic neuroprotection and reduces the neuroinflammation relevant to the motor-neuron degeneration of ALS.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — ALS testosterone: testosterone, via androgen receptors on motor neurons (already mapped) and microglia (already mapped), exerts neuroprotective effects; testosterone deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ALS.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — ALS serotonin: serotonin, via 5-HT receptors on motor neurons (already mapped) and astrocytes (already mapped), modulates neuroinflammatory tone; serotonin dysregulation amplifies the TDP-43 (already mapped) and NLRP3 (already mapped) neuroinflammatory cascade of ALS.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — ALS prolactin: prolactin, via PRLR on motor neurons (already mapped) and microglia (already mapped), modulates neuroimmune activation; prolactin deficiency amplifies the TDP-43 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
