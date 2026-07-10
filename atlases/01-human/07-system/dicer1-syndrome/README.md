@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory milieu of the DICER1-syndrome tumour microenvironment."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "DICER1 prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of DICER1 syndrome."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "DICER1 oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of DICER1 syndrome."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "DICER1 vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -778,6 +787,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell DICER1 axis: histamine, from mast cells (already mapped) in the DICER1-syndrome tumour stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu of the pleuropulmonary and other DICER1-driven tumours.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-DICER1 axis: melatonin, via MT1/MT2 receptors and its radical-scavenging activity, modulates the miRNA-processing (DICER1 already mapped) dysregulation and the oxidative stress of the DICER1-syndrome tumours.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory milieu of the DICER1-syndrome tumour microenvironment.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — DICER1 prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of DICER1 syndrome.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — DICER1 oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of DICER1 syndrome.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — DICER1 vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the IL-6 (already mapped) and T-cytotoxic (already mapped) antitumour cascade of DICER1 syndrome.
 
 ---
 

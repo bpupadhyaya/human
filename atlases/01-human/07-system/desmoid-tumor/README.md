@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory stromal milieu of the desmoid tumour microenvironment."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Desmoid testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "Desmoid serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Desmoid prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) fibroblast-proliferative cascade of desmoid tumour."
 ---
 
 # Desmoid Tumor
@@ -797,6 +806,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell desmoid axis: histamine, from the mast cells (already mapped) in the CTNNB1-driven desmoid stroma, amplifies the fibroblast (already mapped) activation and the vascular permeability of the inflammatory desmoid tumour microenvironment.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-Wnt axis: melatonin, via MT1/MT2 receptors and its antioxidant activity, modulates the oxidative stress and the CTNNB1/Wnt (already mapped) signalling of the desmoid-tumour fibroblasts (already mapped) and stromal cells.
 - `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation can contribute to the inflammatory stromal milieu of the desmoid tumour microenvironment.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Desmoid testosterone: testosterone, via androgen receptors on macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates the TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Desmoid serotonin: serotonin, via 5-HT receptors on macrophages (already mapped) and mast cells (already mapped), modulates the TME; serotonin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) stromal cascade of desmoid tumour.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Desmoid prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) fibroblast-proliferative cascade of desmoid tumour.
 
 ---
 
