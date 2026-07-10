@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Nervous-system sulfur redox: sulfur, the backbone of glutathione and cysteine in neurons (already mapped) and microglia (already mapped), quenches oxidative stress; sulfur dyshomeostasis amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory burden."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Nervous-system nitrogen: nitrogen forms the backbone of GABA (already mapped) and glutamate (already mapped) neurotransmitters and is the precursor of nitric oxide (already mapped), mediating synaptic plasticity in neurons (already mapped) and microglia (already mapped)."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Nervous-system carbon: carbon forms the backbone of neurotransmitters — dopamine (already mapped) and serotonin (already mapped) — and myelin lipids; carbon-skeleton sufficiency in neurons (already mapped) and astrocytes (already mapped) sustains the neuroimmune balance."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Nervous-system oxygen: oxygen, as substrate for mitochondrial ATP synthesis in neurons (already mapped) and astrocytes (already mapped), sustains synaptic function; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in the nervous system."
 ---
 
 # Nervous System
@@ -738,6 +747,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Nervous-system iron: iron, the cofactor for dopamine synthesis and myelin formation in neurons (already mapped) and oligodendrocytes (already mapped), supports neural function; iron dyshomeostasis amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Nervous-system phosphorus energy: phosphorus, the backbone of ATP and phospholipids in neurons (already mapped) and oligodendrocytes (already mapped), sustains neural metabolism; phosphorus dyshomeostasis amplifies NF-κB (already mapped) and IL-6 (already mapped) signalling.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Nervous-system sulfur redox: sulfur, the backbone of glutathione and cysteine in neurons (already mapped) and microglia (already mapped), quenches oxidative stress; sulfur dyshomeostasis amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory burden.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Nervous-system nitrogen: nitrogen forms the backbone of GABA (already mapped) and glutamate (already mapped) neurotransmitters and is the precursor of nitric oxide (already mapped), mediating synaptic plasticity in neurons (already mapped) and microglia (already mapped).
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Nervous-system carbon: carbon forms the backbone of neurotransmitters — dopamine (already mapped) and serotonin (already mapped) — and myelin lipids; carbon-skeleton sufficiency in neurons (already mapped) and astrocytes (already mapped) sustains the neuroimmune balance.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Nervous-system oxygen: oxygen, as substrate for mitochondrial ATP synthesis in neurons (already mapped) and astrocytes (already mapped), sustains synaptic function; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in the nervous system.
 
 [^kandel-principles-ns]: Kandel ER, Koester JD, Mack SH, Siegelbaum SA. *Principles of Neural Science.* 6th ed. McGraw-Hill; 2021.
 [^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.

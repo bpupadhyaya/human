@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "NB vasopressin vascular: vasopressin, via V1aR on neuroblastoma macrophages (already mapped) and mast cells (already mapped), modulates the tumour vascular niche; dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) pro-tumour signalling in neuroblastoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "NB selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the neuroblastoma TME; selenium deficiency amplifies the IL-6 (already mapped) and mTOR (already mapped) oxidative tumour cascade of neuroblastoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "NB sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced IL-6 (already mapped) and mTOR (already mapped) signalling amplifies the T-cytotoxic (already mapped) tumour cascade of neuroblastoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "NB zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and neutrophils (already mapped), attenuates oxidative stress; zinc deficiency amplifies the IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of neuroblastoma."
 ---
 
 # Neuroblastoma
@@ -812,6 +821,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — NB prolactin neuro-immune: prolactin, via PRLR on neuroblastoma macrophages (already mapped) and mast cells (already mapped), upregulates IL-6 (already mapped) and VEGF-driven (already mapped) pro-tumour signalling, promoting the immunosuppressive TME of neuroblastoma.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — NB oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped) in the neuroblastoma stroma, attenuates IL-6 (already mapped) and VEGF-driven (already mapped) pro-tumour signalling in the neuroblastoma microenvironment.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — NB vasopressin vascular: vasopressin, via V1aR on neuroblastoma macrophages (already mapped) and mast cells (already mapped), modulates the tumour vascular niche; dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) pro-tumour signalling in neuroblastoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — NB selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the neuroblastoma TME; selenium deficiency amplifies the IL-6 (already mapped) and mTOR (already mapped) oxidative tumour cascade of neuroblastoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NB sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced IL-6 (already mapped) and mTOR (already mapped) signalling amplifies the T-cytotoxic (already mapped) tumour cascade of neuroblastoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — NB zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and neutrophils (already mapped), attenuates oxidative stress; zinc deficiency amplifies the IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of neuroblastoma.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
