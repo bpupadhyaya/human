@@ -516,6 +516,12 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "WNV iron: iron supports WNV RNA replication in neurons (already mapped); transferrin (already mapped) sequesters iron to restrict viral load; iron dyshomeostasis amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation of West Nile encephalitis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "WNV phosphorus: phosphorus fuels neuronal and microglia (already mapped) ATP; phosphorus deficiency impairs type-I IFN (already mapped) and amplifies NLRP3 inflammasome (already mapped), NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation of West Nile encephalitis."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "WNV chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate excitability; chloride imbalance amplifies NLRP3 inflammasome (already mapped), NF-κB (already mapped) and IL-6 (already mapped) cascade of West Nile encephalitis."
 ---
 
 # West Nile Virus
@@ -802,3 +808,5 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — WNV iodine: iodine-dependent thyroid hormones upregulate type-I IFN (already mapped) antiviral signalling and maintain CNS myelin; hypothyroidism amplifies the NF-κB (already mapped) neuroinflammatory cascade and astrocyte (already mapped) reactivity of West Nile encephalitis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — WNV potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ amplifies NF-κB (already mapped) and IL-1β (already mapped) neuroinflammation and hippocampal (already mapped) excitotoxicity of West Nile encephalitis.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — WNV iron: iron supports WNV RNA replication in neurons (already mapped); transferrin (already mapped) sequesters iron to restrict viral load; iron dyshomeostasis amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation of West Nile encephalitis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — WNV phosphorus: phosphorus fuels neuronal and microglia (already mapped) ATP; phosphorus deficiency impairs type-I IFN (already mapped) and amplifies NLRP3 inflammasome (already mapped), NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation of West Nile encephalitis.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — WNV chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate excitability; chloride imbalance amplifies NLRP3 inflammasome (already mapped), NF-κB (already mapped) and IL-6 (already mapped) cascade of West Nile encephalitis.
