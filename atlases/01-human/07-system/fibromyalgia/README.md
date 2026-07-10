@@ -501,6 +501,12 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "FM phosphorus: ATP-phosphate metabolism drives NF-κB (already mapped) neuroinflammatory signalling; phosphorus-dependent PI3K/AKT sustains BDNF (already mapped) neurotrophic support and modulates glutamate (already mapped) excitotoxicity in fibromyalgia central sensitisation."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "FM iron: iron, via ferroptosis-signalling and monoamine synthesis, regulates dopamine (already mapped) and serotonin (already mapped) neurotransmission; iron deficiency amplifies NF-κB (already mapped) central sensitisation and BDNF (already mapped) deficit in fibromyalgia."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "FM chloride: chloride homeostasis via GABA(A) receptors (GABA already mapped) sets the inhibitory tone; chloride dysregulation amplifies glutamate (already mapped) excitotoxicity and NF-κB (already mapped) and substance P (already mapped) central sensitisation in fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -822,6 +828,8 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — FM iodine: thyroid hormones (iodine-dependent) modulate serotonin (already mapped) and dopamine (already mapped) sensitivity; iodine deficiency amplifies NF-κB (already mapped) neuroinflammation and worsens glutamate (already mapped) excitotoxicity in central sensitisation.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — FM potassium: potassium channels regulate the threshold for substance P (already mapped) and glutamate (already mapped) central sensitisation; potassium dysregulation amplifies NF-κB (already mapped) neuroinflammation and impairs dopamine (already mapped) neurotransmission.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — FM phosphorus: ATP-phosphate metabolism drives NF-κB (already mapped) neuroinflammatory signalling; phosphorus-dependent PI3K/AKT sustains BDNF (already mapped) neurotrophic support and modulates glutamate (already mapped) excitotoxicity in fibromyalgia central sensitisation.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — FM iron: iron, via ferroptosis-signalling and monoamine synthesis, regulates dopamine (already mapped) and serotonin (already mapped) neurotransmission; iron deficiency amplifies NF-κB (already mapped) central sensitisation and BDNF (already mapped) deficit in fibromyalgia.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — FM chloride: chloride homeostasis via GABA(A) receptors (GABA already mapped) sets the inhibitory tone; chloride dysregulation amplifies glutamate (already mapped) excitotoxicity and NF-κB (already mapped) and substance P (already mapped) central sensitisation in fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
