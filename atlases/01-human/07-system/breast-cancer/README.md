@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "BC iodine: thyroid hormones regulate macrophage (already mapped) and dendritic-cell (already mapped) anti-tumour immunity; thyroid deficiency amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped)-driven tumour angiogenesis in breast cancer."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "BC sodium: high dietary sodium promotes macrophage (already mapped) M2-polarisation and bone-marrow (already mapped) skewing; sodium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade in breast cancer."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "BC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade in breast cancer."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "BC zinc: zinc cofactors macrophage (already mapped) anti-tumour function and bone-marrow (already mapped) immune homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade in breast cancer."
 ---
 
 # Breast Cancer
@@ -801,6 +810,9 @@ cross_links:
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — BC vasopressin: vasopressin, via V1/V2 receptors on breast-cancer cells, promotes survival and oestrogen (estrogen already mapped) signalling; vasopressin amplifies NF-κB (already mapped) and mTOR (already mapped) tumourigenic drive and VEGF (already mapped) angiogenesis of BC.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — BC selenium: selenium, via selenoproteins (GPx, thioredoxin reductase), suppresses ROS driving NF-κB (already mapped) and HIF-1α (already mapped) tumour-angiogenic signalling; selenium induces apoptosis in breast-cancer cells via p53 (already mapped) pathway activation.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — BC iodine: thyroid hormones regulate macrophage (already mapped) and dendritic-cell (already mapped) anti-tumour immunity; thyroid deficiency amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped)-driven tumour angiogenesis in breast cancer.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — BC sodium: high dietary sodium promotes macrophage (already mapped) M2-polarisation and bone-marrow (already mapped) skewing; sodium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade in breast cancer.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — BC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade in breast cancer.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — BC zinc: zinc cofactors macrophage (already mapped) anti-tumour function and bone-marrow (already mapped) immune homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

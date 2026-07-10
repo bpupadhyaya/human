@@ -522,6 +522,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "BN sulfur: sulfur, as substrate for glutathione synthesis in neurons (already mapped) and microglia (already mapped), scavenges ROS driving neuroinflammation; sulfur deficiency amplifies the serotonin (already mapped) and IL-6 (already mapped) cascade of bulimia nervosa."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "BN nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates serotonin (already mapped) tone; NO dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of bulimia nervosa."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "BN oxygen: mitochondrial ROS in neurons (already mapped) and microglia (already mapped) amplifies oxidative stress; ROS excess worsens serotonin (already mapped) and BDNF (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of bulimia nervosa."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "BN carbon: carbon-backbone metabolites in neurons (already mapped) fuel acetyl-CoA and serotonin (already mapped) synthesis; carbon metabolic imbalance amplifies IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -819,6 +828,9 @@ All of the following must be met:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — BN iron: iron deficiency causes anaemia and impairs dopamine (already mapped) and serotonin (already mapped) neurotransmitter synthesis in neurons (already mapped); iron dysregulation amplifies the cortisol (already mapped) and IL-6 (already mapped) cascade of bulimia nervosa.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — BN zinc: zinc, as cofactor of digestive enzymes in stomach (already mapped) and neurons (already mapped), modulates appetite signalling; zinc deficiency amplifies the dopamine (already mapped) and serotonin (already mapped) reward dysregulation of bulimia nervosa.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — BN sulfur: sulfur, as substrate for glutathione synthesis in neurons (already mapped) and microglia (already mapped), scavenges ROS driving neuroinflammation; sulfur deficiency amplifies the serotonin (already mapped) and IL-6 (already mapped) cascade of bulimia nervosa.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BN nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates serotonin (already mapped) tone; NO dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of bulimia nervosa.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — BN oxygen: mitochondrial ROS in neurons (already mapped) and microglia (already mapped) amplifies oxidative stress; ROS excess worsens serotonin (already mapped) and BDNF (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of bulimia nervosa.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — BN carbon: carbon-backbone metabolites in neurons (already mapped) fuel acetyl-CoA and serotonin (already mapped) synthesis; carbon metabolic imbalance amplifies IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in bulimia nervosa.
 
 ## Treatment
 
