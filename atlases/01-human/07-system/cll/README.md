@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Erythropoietic support: erythropoietin supports the management of the autoimmune haemolytic and the myelosuppressive-treatment-induced anaemia of chronic lymphocytic leukaemia."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell CLL microenvironment: histamine, from mast cells (already mapped) in the CLL marrow and lymph-node stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu that supports CLL-cell survival."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-CLL axis: melatonin, via MT1/MT2 receptors on CLL B-cells (already mapped), modulates the survival signalling and the circadian disruption associated with the immunosuppression and the disease progression of chronic lymphocytic leukaemia."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Androgen-CLL axis: testosterone, via androgen receptors on CLL B-cells (already mapped) and tumour stromal cells, modulates the sex-differential CLL incidence (higher in males) and the immunosuppressive marrow microenvironment."
 ---
 
 # CLL
@@ -764,6 +773,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-TME axis: TSLP, from marrow stromal cells and mast cells (already mapped), drives CLL-cell survival and proliferation via the TSLPR/JAK2/STAT5 axis, promoting the immunosuppressive microenvironment of CLL.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and stromal cells, amplifies the vascular permeability and the cytokine milieu of the CLL marrow microenvironment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic support: erythropoietin supports the management of the autoimmune haemolytic and the myelosuppressive-treatment-induced anaemia of chronic lymphocytic leukaemia.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell CLL microenvironment: histamine, from mast cells (already mapped) in the CLL marrow and lymph-node stroma, amplifies the angiogenesis (already mapped) and the immunosuppressive cytokine milieu that supports CLL-cell survival.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-CLL axis: melatonin, via MT1/MT2 receptors on CLL B-cells (already mapped), modulates the survival signalling and the circadian disruption associated with the immunosuppression and the disease progression of chronic lymphocytic leukaemia.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-CLL axis: testosterone, via androgen receptors on CLL B-cells (already mapped) and tumour stromal cells, modulates the sex-differential CLL incidence (higher in males) and the immunosuppressive marrow microenvironment.
 
 ---
 

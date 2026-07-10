@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Erythropoietic failure: the BCR-ABL-driven CML leukaemia marrow (already mapped) displaces the normal erythropoiesis, and erythropoietin supports the management of the anaemia of CML."
+  - target: 01-human/03-molecular/histamine
+    relation: connects-to
+    note: "Mast-cell CML marrow axis: histamine, from the expanded mast-cell pool (already mapped) in the CML marrow niche, amplifies the BCR-ABL-driven (already mapped) angiogenesis (already mapped) and the inflammatory cytokine milieu of the CML stroma."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian-BCR-ABL axis: melatonin, via MT1/MT2 receptors on CML haematopoietic progenitors (already mapped), modulates the oxidative stress of the BCR-ABL-driven (already mapped) clonal expansion and the inflammatory marrow niche of CML."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the inflammatory leukaemia marrow microenvironment of chronic myeloid leukaemia."
 ---
 
 # Chronic Myeloid Leukemia
@@ -764,6 +773,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-marrow axis: TSLP, from marrow stromal cells and mast cells (already mapped), primes dendritic cells (already mapped) and amplifies the Th2/Treg imbalance of the inflammatory leukaemia marrow microenvironment of CML.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-marrow axis: bradykinin, via B1/B2 receptors on marrow endothelium (already mapped) and BCR-ABL-driven stromal cells, amplifies the vascular permeability and the cytokine milieu of the CML marrow microenvironment.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Erythropoietic failure: the BCR-ABL-driven CML leukaemia marrow (already mapped) displaces the normal erythropoiesis, and erythropoietin supports the management of the anaemia of CML.
+- `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell CML marrow axis: histamine, from the expanded mast-cell pool (already mapped) in the CML marrow niche, amplifies the BCR-ABL-driven (already mapped) angiogenesis (already mapped) and the inflammatory cytokine milieu of the CML stroma.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-BCR-ABL axis: melatonin, via MT1/MT2 receptors on CML haematopoietic progenitors (already mapped), modulates the oxidative stress of the BCR-ABL-driven (already mapped) clonal expansion and the inflammatory marrow niche of CML.
+- `connects-to` → **[C1-esterase inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: the C1-esterase inhibitor regulates the classical complement pathway (C5 and C5aR1 already mapped) whose activation contributes to the inflammatory leukaemia marrow microenvironment of chronic myeloid leukaemia.
 
 ---
 
