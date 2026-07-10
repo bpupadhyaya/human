@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Multi-tumour treatment anaemia: erythropoietin supports erythropoiesis suppressed by the surgical, radiation, and pharmacological treatments used across the multiple endocrine neoplasms of MEN4 syndrome; EPO is a standard supportive care measure in MEN4 multimodal therapy."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "Neuroendocrine vasomotor syndrome: bradykinin, via B2 receptor, contributes to the vasomotor flushing and secretory diarrhoea of MEN4 neuroendocrine tumours; kinin-kallikrein activation (amplifying the VIP and somatostatin already mapped) drives the hormonal crises of MEN4."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "MEN4 complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the MEN4 neuroendocrine tumour microenvironment, modulating complement-dependent cytotoxicity and the mTOR-driven (already mapped) tumour cell survival."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Desmoplastic stroma: periostin, secreted by fibroblasts in the MEN4 neuroendocrine tumour stroma, activates the integrin-AKT (already mapped) pathway and promotes tumour invasiveness across pituitary and pancreatic neuroendocrine tumour sites of MEN4 syndrome."
 ---
 
 # MEN4 Syndrome
@@ -751,6 +760,9 @@ When clinical MEN features are present:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Neuroendocrine stroma alarmin: TSLP from the MEN4 pituitary and parathyroid tumour stroma activates dendritic cells and mast cells, shaping the inflammatory microenvironment of the CDKN1B-mutant (p27 already mapped) endocrine neoplasms of MEN4 syndrome.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Neuroendocrine complement effector: complement C5 (with C3 already mapped) mediates complement-dependent cytotoxicity against the MEN4 pituitary and parathyroid tumours; C5a–C5aR1 (already mapped) recruits the myeloid infiltrate into the MEN4 neuroendocrine tumour stroma.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Multi-tumour treatment anaemia: erythropoietin supports erythropoiesis suppressed by the surgical, radiation, and pharmacological treatments used across the multiple endocrine neoplasms of MEN4 syndrome; EPO is a standard supportive care measure in MEN4 multimodal therapy.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Neuroendocrine vasomotor syndrome: bradykinin, via B2 receptor, contributes to the vasomotor flushing and secretory diarrhoea of MEN4 neuroendocrine tumours; kinin-kallikrein activation (amplifying the VIP and somatostatin already mapped) drives the hormonal crises of MEN4.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — MEN4 complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the MEN4 neuroendocrine tumour microenvironment, modulating complement-dependent cytotoxicity and the mTOR-driven (already mapped) tumour cell survival.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Desmoplastic stroma: periostin, secreted by fibroblasts in the MEN4 neuroendocrine tumour stroma, activates the integrin-AKT (already mapped) pathway and promotes tumour invasiveness across pituitary and pancreatic neuroendocrine tumour sites of MEN4 syndrome.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

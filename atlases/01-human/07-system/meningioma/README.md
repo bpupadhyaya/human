@@ -484,6 +484,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Invasive meningeal stroma: periostin secreted by the meningioma-associated fibroblasts and TGF-β (already mapped) signalling promotes the dural adhesion and invasiveness of meningioma; elevated periostin in skull-base meningioma correlates with the WHO grade and recurrence risk."
+  - target: 01-human/03-molecular/tslp
+    relation: connects-to
+    note: "Meningeal alarmin: TSLP released by the meningioma-associated stromal cells activates dendritic cells and mast cells in the tumour microenvironment, amplifying the TGF-β (already mapped) and VEGF (already mapped) driven peritumoral inflammation and angiogenesis of meningioma."
+  - target: 01-human/03-molecular/c1-esterase-inhibitor
+    relation: connects-to
+    note: "Classical complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the meningioma microenvironment, modulating complement-mediated tumour-cell lysis and the tumour-associated macrophage (already mapped) inflammatory response."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Meningeal EPO signalling: erythropoietin receptor (EPOR) on meningioma cells activates the JAK2/STAT3 (already mapped) pathway, upregulates VEGF-driven (already mapped) angiogenesis and promotes the hypervascular phenotype of WHO grade II-III meningioma."
 ---
 
 # Meningioma
@@ -756,6 +765,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Peritumoral oedema: bradykinin (B2 receptor) increases blood–brain barrier permeability in the peritumoral zone, driving the cerebral oedema that is a major cause of neurological symptoms in meningioma; bradykinin blockade reduces the vasogenic oedema around meningioma.
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Mast-cell stroma: histamine from the mast cells that are notably abundant in meningioma stroma promotes VEGF (already mapped) angiogenesis and matrix-remodelling; mast-cell-derived histamine contributes to the peritumoral oedema and dural invasiveness of meningioma.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Invasive meningeal stroma: periostin secreted by the meningioma-associated fibroblasts and TGF-β (already mapped) signalling promotes the dural adhesion and invasiveness of meningioma; elevated periostin in skull-base meningioma correlates with the WHO grade and recurrence risk.
+- `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Meningeal alarmin: TSLP released by the meningioma-associated stromal cells activates dendritic cells and mast cells in the tumour microenvironment, amplifying the TGF-β (already mapped) and VEGF (already mapped) driven peritumoral inflammation and angiogenesis of meningioma.
+- `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Classical complement regulation: C1-INH controls the classical-pathway arm (C3, C5 and C5aR1 already mapped) in the meningioma microenvironment, modulating complement-mediated tumour-cell lysis and the tumour-associated macrophage (already mapped) inflammatory response.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Meningeal EPO signalling: erythropoietin receptor (EPOR) on meningioma cells activates the JAK2/STAT3 (already mapped) pathway, upregulates VEGF-driven (already mapped) angiogenesis and promotes the hypervascular phenotype of WHO grade II-III meningioma.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
