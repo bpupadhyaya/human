@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor regulates the classical-complement and contact activation (C3 and C5 already mapped) contributing to the opioid-associated neuroinflammation and the microglial (already mapped) TLR4-driven immune dysregulation of opioid use disorder."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "EPO-opioid neuroprotection: erythropoietin and its receptor on neurons (already mapped) and microglia (already mapped) exert neuroprotective anti-apoptotic effects on the opioid-injured dopaminergic (dopamine already mapped) neurons of the reward circuitry."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "CNS-border ECM: periostin, from astrocytes (already mapped) and meningeal fibroblasts, contributes to the perivascular ECM remodelling and the neuroinflammation (IL-1b, IL-6 already mapped) of the opioid-remodelled reward circuitry of opioid use disorder."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "Opioid-anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) common in opioid use disorder, driven by nutritional deficiency, anaemia, and the chronic inflammatory state of addiction."
 ---
 
 # Opioid Use Disorder
@@ -814,6 +823,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-gut axis: TSLP, from gut-epithelium (gut-microbiome already mapped) disrupted by the opioid-induced constipation and dysbiosis of opioid use disorder, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the gut-brain neuroinflammation.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammatory axis: bradykinin, via B2R on CNS microglia (already mapped) and neurons (already mapped), modulates the neuroinflammation and the autonomic dysregulation contributing to the withdrawal hyperalgesia of opioid use disorder.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement and contact activation (C3 and C5 already mapped) contributing to the opioid-associated neuroinflammation and the microglial (already mapped) TLR4-driven immune dysregulation of opioid use disorder.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — EPO-opioid neuroprotection: erythropoietin and its receptor on neurons (already mapped) and microglia (already mapped) exert neuroprotective anti-apoptotic effects on the opioid-injured dopaminergic (dopamine already mapped) neurons of the reward circuitry.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — CNS-border ECM: periostin, from astrocytes (already mapped) and meningeal fibroblasts, contributes to the perivascular ECM remodelling and the neuroinflammation (IL-1b, IL-6 already mapped) of the opioid-remodelled reward circuitry of opioid use disorder.
+- `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Opioid-anaemia iron: transferrin, the iron carrier, reflects the disordered iron handling (hepcidin already mapped) common in opioid use disorder, driven by nutritional deficiency, anaemia, and the chronic inflammatory state of addiction.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
