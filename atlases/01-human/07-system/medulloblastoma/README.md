@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/03-molecular/vasopressin
     relation: connects-to
     note: "Medulloblastoma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in medulloblastoma."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "MB selenium: selenium, as GPx in microglia (already mapped) and macrophages (already mapped), scavenges ROS in the tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of medulloblastoma."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "MB iodine: iodine-dependent thyroid hormones modulate microglia (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of medulloblastoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "MB sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of medulloblastoma."
 ---
 
 # Medulloblastoma
@@ -805,6 +814,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Medulloblastoma prolactin neuro-immune: prolactin, via PRLR on tumour-associated macrophages (already mapped) and mast cells (already mapped), upregulates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in the paediatric medulloblastoma microenvironment.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Medulloblastoma oxytocin anti-tumour: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in the medulloblastoma cerebellar microenvironment.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Medulloblastoma vasopressin vascular: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the tumour vascular niche; dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling in medulloblastoma.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — MB selenium: selenium, as GPx in microglia (already mapped) and macrophages (already mapped), scavenges ROS in the tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of medulloblastoma.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — MB iodine: iodine-dependent thyroid hormones modulate microglia (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of medulloblastoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MB sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of medulloblastoma.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

@@ -524,6 +524,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Measles magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) cytokine-storm (already mapped) immunopathology; magnesium deficiency impairs macrophage (already mapped) and NK-cell (already mapped) antiviral immunity in measles."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Measles copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of measles."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Measles potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in macrophages (already mapped) and dendritic cells (already mapped); potassium depletion amplifies the NF-κB (already mapped) and IL-6 (already mapped) cytokine cascade of measles."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Measles phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports antiviral immune energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of measles."
 ---
 
 # Measles
@@ -837,6 +846,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Measles iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and NK-cell (already mapped) antiviral innate immunity; iodine deficiency impairs type-I-interferon (already mapped) and NF-κB (already mapped) antiviral signalling in measles immunopathology.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Measles sodium: sodium, via voltage-gated channels on macrophages (already mapped) and neurons (already mapped), shapes NF-κB (already mapped) innate immune activation; dysregulated sodium amplifies NLRP3 (already mapped) and IL-6 (already mapped) cytokine-storm of measles.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Measles magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) cytokine-storm (already mapped) immunopathology; magnesium deficiency impairs macrophage (already mapped) and NK-cell (already mapped) antiviral immunity in measles.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Measles copper: copper, as cofactor of SOD1 in macrophages (already mapped) and neutrophils (already mapped), neutralises ROS; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of measles.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Measles potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in macrophages (already mapped) and dendritic cells (already mapped); potassium depletion amplifies the NF-κB (already mapped) and IL-6 (already mapped) cytokine cascade of measles.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Measles phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports antiviral immune energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
