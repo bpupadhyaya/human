@@ -511,6 +511,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "AA selenium: selenium, as GPx in bone-marrow (already mapped) progenitors and T cells (already mapped), scavenges immunomodulatory ROS; selenium deficiency amplifies the IFN-γ (already mapped) and NLRP3 (already mapped) autoimmune marrow destruction of aplastic anaemia."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "AA iodine: iodine-dependent thyroid hormones modulate bone-marrow (already mapped) haematopoiesis; iodine deficiency impairs thyroid regulation of the IFN-γ (already mapped) and NF-κB (already mapped) autoimmune marrow destruction of aplastic anaemia."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "AA sodium: high dietary sodium promotes Th17 polarisation and disrupts T-cell (already mapped) immune tolerance; sodium-induced NF-κB (already mapped) and IFN-γ (already mapped) skewing amplifies the autoimmune marrow destruction of aplastic anaemia."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "AA magnesium: magnesium, as cofactor of immune enzymes in T cells (already mapped) and NK cells (already mapped), restrains IFN-γ (already mapped) and NF-κB (already mapped); magnesium deficiency amplifies the autoimmune marrow destruction of aplastic anaemia."
 ---
 
 # Aplastic Anemia
@@ -788,6 +797,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — AA oxytocin: oxytocin, via OXTR on T cells (already mapped) and natural-killer cells (already mapped), attenuates the autoimmune marrow destruction; oxytocin deficiency amplifies the IFN-γ (already mapped) and TNF-α (already mapped) cytokine cascade of aplastic anaemia.
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — AA vasopressin: vasopressin, via V1aR on bone-marrow (already mapped) stromal cells and T cells (already mapped), modulates marrow immune tone; vasopressin dysregulation amplifies the IFN-γ (already mapped) and IL-6 (already mapped) autoimmune cascade of aplastic anaemia.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — AA selenium: selenium, as GPx in bone-marrow (already mapped) progenitors and T cells (already mapped), scavenges immunomodulatory ROS; selenium deficiency amplifies the IFN-γ (already mapped) and NLRP3 (already mapped) autoimmune marrow destruction of aplastic anaemia.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — AA iodine: iodine-dependent thyroid hormones modulate bone-marrow (already mapped) haematopoiesis; iodine deficiency impairs thyroid regulation of the IFN-γ (already mapped) and NF-κB (already mapped) autoimmune marrow destruction of aplastic anaemia.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AA sodium: high dietary sodium promotes Th17 polarisation and disrupts T-cell (already mapped) immune tolerance; sodium-induced NF-κB (already mapped) and IFN-γ (already mapped) skewing amplifies the autoimmune marrow destruction of aplastic anaemia.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — AA magnesium: magnesium, as cofactor of immune enzymes in T cells (already mapped) and NK cells (already mapped), restrains IFN-γ (already mapped) and NF-κB (already mapped); magnesium deficiency amplifies the autoimmune marrow destruction of aplastic anaemia.
 
 ---
 

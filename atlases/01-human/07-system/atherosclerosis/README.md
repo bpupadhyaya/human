@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Atherosclerosis oxytocin: oxytocin, via OXTR on endothelium (already mapped) and macrophages (already mapped), attenuates atherogenic inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) inflammatory plaque cascade of atherosclerosis."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Atherosclerosis vasopressin: vasopressin, via V1aR on smooth-muscle cells (already mapped) and endothelium (already mapped), promotes vasoconstriction; vasopressin dysregulation amplifies the NF-κB (already mapped) and NLRP3 (already mapped) plaque cascade of atherosclerosis."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Atherosclerosis selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges atherogenic ROS; selenium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) inflammatory plaque cascade of atherosclerosis."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Atherosclerosis iodine: iodine-dependent thyroid hormones modulate cholesterol (already mapped) homeostasis and endothelial (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) atherogenic plaque cascade of atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -797,6 +806,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Atherosclerosis serotonin: serotonin, via 5-HT receptors on platelets (already mapped) and smooth-muscle cells (already mapped), amplifies vasoconstriction; serotonin worsens the nitric-oxide (already mapped) and NF-κB (already mapped) atherogenic cascade of atherosclerosis.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Atherosclerosis prolactin: prolactin, via PRLR on endothelium (already mapped) and macrophages (already mapped), promotes foam-cell formation; hyperprolactinaemia amplifies the NF-κB (already mapped) and NLRP3 (already mapped) atherogenic inflammatory cascade of atherosclerosis.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Atherosclerosis oxytocin: oxytocin, via OXTR on endothelium (already mapped) and macrophages (already mapped), attenuates atherogenic inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) inflammatory plaque cascade of atherosclerosis.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Atherosclerosis vasopressin: vasopressin, via V1aR on smooth-muscle cells (already mapped) and endothelium (already mapped), promotes vasoconstriction; vasopressin dysregulation amplifies the NF-κB (already mapped) and NLRP3 (already mapped) plaque cascade of atherosclerosis.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Atherosclerosis selenium: selenium, as GPx in endothelial cells (already mapped) and macrophages (already mapped), scavenges atherogenic ROS; selenium deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) inflammatory plaque cascade of atherosclerosis.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Atherosclerosis iodine: iodine-dependent thyroid hormones modulate cholesterol (already mapped) homeostasis and endothelial (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and NLRP3 (already mapped) atherogenic plaque cascade of atherosclerosis.
 
 ---
 
