@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Immune-endocrine erythropoiesis modulator: prolactin, acting via PRLR on haematopoietic progenitors (already mapped) and macrophages (already mapped), modulates the erythropoiesis-inflammation balance and the cytokine-driven hepcidin (already mapped) induction of ACD."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "ACD serotonin: serotonin, via 5-HT receptors on macrophages (already mapped), modulates erythropoietin (already mapped) and iron (already mapped) homeostasis; 5-HT dysregulation amplifies hepcidin (already mapped) and NF-κB (already mapped) erythroid suppression in ACD."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "ACD oxytocin: oxytocin, via OXTR on macrophages (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) hepcidin (already mapped) upregulation; oxytocin also promotes erythropoietin (already mapped) response and erythrocyte (already mapped) survival in ACD."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "ACD vasopressin: vasopressin modulates renal fluid balance in ACD; vasopressin-induced renal ischaemia amplifies erythropoietin (already mapped) suppression and exacerbates the macrophage (already mapped) iron (already mapped) sequestration of ACD."
 ---
 
 # Anemia of Chronic Disease
@@ -791,6 +800,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM remodelling in fibrotic marrow: periostin, expressed by fibroblasts and stromal cells in the bone marrow (already mapped) under chronic inflammation, promotes the fibrotic niche remodelling that impairs haematopoietic progenitor (already mapped) expansion in ACD.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian haematopoietic protection: melatonin, via MT1/MT2 receptors on erythroid progenitors (already mapped) and macrophages (already mapped), scavenges ROS (already mapped) and attenuates the pro-inflammatory cytokine (IL-6 and TNF-α already mapped) burden of ACD.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Immune-endocrine erythropoiesis modulator: prolactin, acting via PRLR on haematopoietic progenitors (already mapped) and macrophages (already mapped), modulates the erythropoiesis-inflammation balance and the cytokine-driven hepcidin (already mapped) induction of ACD.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Macrophage iron-cycle modulation: serotonin, via 5-HT receptors on macrophages (already mapped), modulates erythropoietin (already mapped) and iron (already mapped) homeostasis; 5-HT dysregulation amplifies hepcidin (already mapped) and NF-κB (already mapped) erythroid suppression in ACD.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Anti-inflammatory erythropoiesis support: oxytocin, via OXTR on macrophages (already mapped), attenuates NF-κB (already mapped) and IL-6 (already mapped) hepcidin (already mapped) upregulation; oxytocin also promotes erythropoietin (already mapped) response and erythrocyte (already mapped) survival in ACD.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Renal ischaemia axis: vasopressin modulates renal fluid balance in ACD; vasopressin-induced renal ischaemia amplifies erythropoietin (already mapped) suppression and exacerbates the macrophage (already mapped) iron (already mapped) sequestration of ACD.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)

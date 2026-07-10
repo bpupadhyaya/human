@@ -505,6 +505,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Hippocampal neuroprotection: oxytocin, via oxytocin receptors on hippocampal neurons and microglia (already mapped), suppresses the NF-κB/TNF-α (already mapped) neuroinflammatory cascade and improves the synaptic plasticity impaired by amyloid in Alzheimer's disease."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "AD testosterone: testosterone suppresses NF-κB (already mapped) neuroinflammation and amyloid-β production in neurons (already mapped); androgen deficiency amplifies microglia (already mapped) and complement-C5 (already mapped) neurodegeneration in Alzheimer's."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "AD vasopressin: vasopressin, via V1/V2 receptors on neurons (already mapped), modulates brain (already mapped) fluid and synaptic homeostasis; vasopressin dysregulation amplifies NF-κB (already mapped) and microglia (already mapped) neuroinflammatory damage in Alzheimer's."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "AD selenium: selenium, via GPx/thioredoxin reductase, protects neurons (already mapped) and astrocytes (already mapped) from oxidative injury; selenium deficiency amplifies NF-κB (already mapped) and microglia (already mapped) amyloid-β-driven neurodegeneration in Alzheimer's."
 ---
 
 # Alzheimer's Disease
@@ -766,6 +775,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM remodelling in neuritic plaques: periostin, expressed by reactive astrocytes (already mapped) and microglia (already mapped) around amyloid deposits, modulates the peri-plaque extracellular matrix and promotes the fibrotic neuroinflammatory remodelling of Alzheimer's disease.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroendocrine-immune coupling: prolactin, acting via PRLR on microglia (already mapped) and astrocytes (already mapped), modulates the neuroinflammatory cytokine (TNF-α and IL-6 already mapped) milieu and may influence the female-predominant prevalence of Alzheimer's disease.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Hippocampal neuroprotection: oxytocin, via oxytocin receptors on hippocampal neurons and microglia (already mapped), suppresses the NF-κB/TNF-α (already mapped) neuroinflammatory cascade and improves the synaptic plasticity impaired by amyloid in Alzheimer's disease.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen neuroprotection: testosterone suppresses NF-κB (already mapped) neuroinflammation and amyloid-β production in neurons (already mapped); androgen deficiency amplifies microglia (already mapped) and complement-C5 (already mapped) neurodegeneration in Alzheimer's.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Brain fluid homeostasis: vasopressin, via V1/V2 receptors on neurons (already mapped), modulates brain (already mapped) fluid and synaptic homeostasis; vasopressin dysregulation amplifies NF-κB (already mapped) and microglia (already mapped) neuroinflammatory damage in Alzheimer's.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant neuroprotection: selenium, via GPx/thioredoxin reductase, protects neurons (already mapped) and astrocytes (already mapped) from oxidative injury; selenium deficiency amplifies NF-κB (already mapped) and microglia (already mapped) amyloid-β-driven neurodegeneration in Alzheimer's.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
