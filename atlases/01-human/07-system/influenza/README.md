@@ -508,6 +508,15 @@ cross_links:
   - target: 01-human/03-molecular/oxytocin
     relation: connects-to
     note: "Influenza oxytocin: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates the cytokine-storm (already mapped) and IL-6 (already mapped) immunopathology; oxytocin promotes immune resolution after severe influenza infection."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "Influenza vasopressin: vasopressin, via V1aR on macrophages (already mapped) and neurons (already mapped), modulates cytokine-storm (already mapped) and NF-κB (already mapped) immunopathology; vasopressin excess amplifies IL-6 (already mapped) and NLRP3 (already mapped) cascade."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Influenza iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and dendritic-cell (already mapped) antiviral innate immunity; iodine deficiency impairs type-I-interferon (already mapped) and NF-κB (already mapped) antiviral responses against influenza."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "Influenza magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) and cytokine-storm (already mapped) immunopathology; magnesium deficiency impairs macrophage (already mapped) and NK-cell (already mapped) antiviral function."
 ---
 
 # Influenza
@@ -807,3 +816,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen immunomodulation: testosterone, via androgen receptors on macrophages (already mapped) and T-helper cells (already mapped), attenuates the cytokine-storm (already mapped) and IL-6 (already mapped) immunopathology; androgen deficiency worsens influenza ARDS severity.
 - `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — Serotonergic innate axis: serotonin, via 5-HT receptors on macrophages (already mapped) and neurons (already mapped), modulates the cytokine-storm (already mapped) and NLRP3-inflammasome (already mapped) inflammatory axes; serotonin sets the influenza innate immune response severity.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Tolerogenic neuropeptide: oxytocin, via OXTR on macrophages (already mapped) and regulatory T cells (already mapped), attenuates the cytokine-storm (already mapped) and IL-6 (already mapped) immunopathology; oxytocin promotes immune resolution after severe influenza infection.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Influenza vasopressin: vasopressin, via V1aR on macrophages (already mapped) and neurons (already mapped), modulates cytokine-storm (already mapped) and NF-κB (already mapped) immunopathology; vasopressin excess amplifies IL-6 (already mapped) and NLRP3 (already mapped) cascade.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Influenza iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and dendritic-cell (already mapped) antiviral innate immunity; iodine deficiency impairs type-I-interferon (already mapped) and NF-κB (already mapped) antiviral responses against influenza.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Influenza magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) and cytokine-storm (already mapped) immunopathology; magnesium deficiency impairs macrophage (already mapped) and NK-cell (already mapped) antiviral function.

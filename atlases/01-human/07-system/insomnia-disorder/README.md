@@ -517,6 +517,15 @@ cross_links:
   - target: 01-human/02-atomic/selenium
     relation: connects-to
     note: "Insomnia selenium: selenium, as neuroprotective GPx in neurons (already mapped) and astrocytes (already mapped), scavenges neuroinflammatory (IL-6 and TNF already mapped) ROS; selenium deficiency impairs the GABA (already mapped) inhibitory tone and worsens insomnia hyperarousal."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Insomnia iodine: iodine-dependent thyroid hormones regulate neuronal (neuron already mapped) excitability and GABA (already mapped) inhibitory tone; hypothyroidism, common in insomnia, amplifies NF-κB (already mapped) and cortisol (already mapped) HPA hyperarousal."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "Insomnia sodium: sodium, via voltage-gated channels on neurons (already mapped) and astrocytes (already mapped), determines action-potential firing in sleep-wake circuits; disrupted sodium from microglial (already mapped) NF-κB (already mapped) neuroinflammation worsens insomnia."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Insomnia potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ at synapses (already mapped) and neurons (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and insomnia."
 ---
 
 # Insomnia Disorder
@@ -820,6 +829,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Sleep neuroendocrine: prolactin, sleep-entrained with melatonin (already mapped), promotes NREM slow-wave sleep via GABA (already mapped) and adenosine (already mapped) pathways; prolactin deficiency amplifies the cortisol (already mapped) HPA hyperarousal of insomnia.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Hypothalamic anti-arousal: oxytocin, via OXTR on neurons (already mapped) and astrocytes (already mapped), reduces hypothalamic arousal and promotes sleep onset; oxytocin attenuates the cortisol (already mapped) and norepinephrine (already mapped) hyperarousal of chronic insomnia.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Neuroprotective antioxidant: selenium, as neuroprotective GPx in neurons (already mapped) and astrocytes (already mapped), scavenges neuroinflammatory (IL-6 and TNF already mapped) ROS; selenium deficiency impairs the GABA (already mapped) inhibitory tone and worsens insomnia hyperarousal.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Insomnia iodine: iodine-dependent thyroid hormones regulate neuronal (neuron already mapped) excitability and GABA (already mapped) inhibitory tone; hypothyroidism, common in insomnia, amplifies NF-κB (already mapped) and cortisol (already mapped) HPA hyperarousal.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Insomnia sodium: sodium, via voltage-gated channels on neurons (already mapped) and astrocytes (already mapped), determines action-potential firing in sleep-wake circuits; disrupted sodium from microglial (already mapped) NF-κB (already mapped) neuroinflammation worsens insomnia.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Insomnia potassium: potassium efflux activates NLRP3 inflammasome (already mapped) in microglia (already mapped); disrupted K⁺ at synapses (already mapped) and neurons (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
