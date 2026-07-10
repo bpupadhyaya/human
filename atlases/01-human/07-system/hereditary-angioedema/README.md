@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/periostin
     relation: connects-to
     note: "Submucosal remodelling: periostin, induced by the IL-4 and IL-13 (already mapped) released during oedematous attacks in the submucosal connective tissue, promotes the matricellular remodelling of the swollen tissues in hereditary angioedema."
+  - target: 01-human/03-molecular/melatonin
+    relation: connects-to
+    note: "Circadian oedema rhythm: melatonin regulates the circadian pattern of the contact-kinin system (bradykinin and C1-esterase inhibitor already mapped), and disrupted circadian rhythms may influence the nocturnal attack frequency of hereditary angioedema."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Hormonal oedema trigger: prolactin, a physiological trigger of oedematous attacks in some women with hereditary angioedema, stimulates the hepatic oestrogen response element that drives the C1-esterase-inhibitor (already mapped) deficiency and bradykinin excess."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "Neuroimmune–kinin modulation: oxytocin, acting via OXT receptors on vascular endothelium (already mapped), modulates the contact-kinin (bradykinin and C1-esterase inhibitor already mapped) pathway and may influence the oedema susceptibility of hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -786,6 +795,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Mast-cell independent alarmin: TSLP, released by epithelial cells during the oedematous attacks, amplifies the type-2 polarisation of dendritic cells (already mapped) independently of histamine (already mapped) in the immune landscape of hereditary angioedema.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Androgen-EPO axis: erythropoietin synthesis in the liver (already mapped) is enhanced by the androgen therapies (testosterone and danazol) used as prophylaxis in hereditary angioedema, linking the hormonal prevention strategy to the hepatic EPO production of the disease.
 - `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Submucosal remodelling: periostin, induced by IL-4 and IL-13 (already mapped) released during oedematous attacks in the submucosal connective tissue, promotes the matricellular remodelling of the swollen tissues in hereditary angioedema.
+- `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian oedema rhythm: melatonin regulates the circadian pattern of the contact-kinin system (bradykinin and C1-esterase inhibitor already mapped), and disrupted circadian rhythms may influence the nocturnal attack frequency of hereditary angioedema.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Hormonal oedema trigger: prolactin, a physiological trigger of oedematous attacks in some women with hereditary angioedema, stimulates the hepatic oestrogen response element that drives the C1-esterase-inhibitor (already mapped) deficiency and bradykinin excess.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroimmune–kinin modulation: oxytocin, acting via OXT receptors on vascular endothelium (already mapped), modulates the contact-kinin (bradykinin and C1-esterase inhibitor already mapped) pathway and may influence the oedema susceptibility of hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)
