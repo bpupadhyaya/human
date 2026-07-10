@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the neuroinflammation and the complement-mediated synaptic pruning of the hyperarousal circuitry of insomnia."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Sleep-EPO axis: EPO and its receptor on neurons (already mapped) and microglia (already mapped) have neuroprotective effects; the anaemia comorbid with insomnia elevates EPO, adding a neuroendocrine dimension to the hyperarousal of insomnia."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "CNS-border matrix: periostin, from astrocytes (already mapped) and meningeal fibroblasts, remodels the neuroimmune-interface ECM and contributes to the low-grade neuroinflammation (IL-6, TNF already mapped) implicated in chronic insomnia."
+  - target: 01-human/03-molecular/factor-h
+    relation: connects-to
+    note: "Complement gate: factor H limits alternative-pathway activation at the blood-brain barrier, restraining complement-mediated synaptic pruning and the microglial (already mapped) activation (C3 and C5 already mapped) of the hyperarousal of insomnia."
 ---
 
 # Insomnia Disorder
@@ -796,6 +805,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-hyperarousal axis: TSLP, from skin (already mapped) and gut (already mapped) epithelial barriers under the chronic stress of insomnia, primes mast cells (already mapped) and dendritic cells (already mapped) and amplifies the neuroinflammatory hyperarousal of insomnia.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-sleep axis: bradykinin, via B2R on CNS neurons (already mapped) and microglia (already mapped), modulates the neuroinflammation and the autonomic arousal contributing to the sleep-onset and sleep-maintenance difficulties of insomnia disorder.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement pathway (C3 and C5 already mapped) contributing to the neuroinflammation and the complement-mediated synaptic pruning of the hyperarousal circuitry of insomnia.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Sleep-EPO axis: EPO and its receptor on neurons (already mapped) and microglia (already mapped) have neuroprotective effects; the anaemia comorbid with insomnia elevates EPO, adding a neuroendocrine dimension to the hyperarousal of insomnia.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — CNS-border matrix: periostin, from astrocytes (already mapped) and meningeal fibroblasts, remodels the neuroimmune-interface ECM and contributes to the low-grade neuroinflammation (IL-6, TNF already mapped) implicated in chronic insomnia.
+- `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement gate: factor H limits alternative-pathway activation at the blood-brain barrier, restraining complement-mediated synaptic pruning and the microglial (already mapped) activation (C3 and C5 already mapped) of the hyperarousal of insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
