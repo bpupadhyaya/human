@@ -477,6 +477,15 @@ cross_links:
   - target: 01-human/03-molecular/c1-esterase-inhibitor
     relation: connects-to
     note: "Complement brake: C1-esterase inhibitor regulates the classical-complement activation (C3 and C5 already mapped) contributing to the low-grade neuroinflammation and the microglial (already mapped) activation of the reward circuitry in binge-eating disorder."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "ECM remodelling in the reward circuitry: periostin, expressed by astrocytes (already mapped) and microglia (already mapped), modulates the perineuronal net organisation of the nucleus accumbens and prefrontal cortex governing impulse control in binge-eating disorder."
+  - target: 01-human/03-molecular/erythropoietin
+    relation: connects-to
+    note: "Neuroprotective cytokine: erythropoietin, via EPOR on dopaminergic neurons (already mapped) and astrocytes (already mapped), promotes neuronal survival and limits the neuroinflammation-driven disruption of the reward circuitry in binge-eating disorder."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Satiety-immune coupling: prolactin, elevated by stress and acute food intake in binge-eating disorder, modulates T-cell (already mapped) function and interacts with the serotonin (already mapped) and dopamine (already mapped) reward pathways of binge-eating disorder."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -791,6 +800,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-gut axis: TSLP, from gut epithelium (already mapped) under the dysbiosis and inflammation of binge-eating disorder, primes dendritic cells (already mapped) and mast cells (already mapped), linking the gut-microbiome (already mapped) axis to reward-circuit dysfunction.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-reward axis: bradykinin, via the kallikrein-kinin system activated under the autonomic and metabolic stress of binge-eating disorder, modulates the vascular and the neuroendocrine tone contributing to the binge-purge cycle.
 - `connects-to` → **[C1-Esterase Inhibitor](../../03-molecular/c1-esterase-inhibitor/README.md)** — Complement brake: C1-esterase inhibitor regulates the classical-complement activation (C3 and C5 already mapped) contributing to the low-grade neuroinflammation and the microglial (already mapped) activation of the reward circuitry in binge-eating disorder.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — ECM remodelling in the reward circuitry: periostin, expressed by astrocytes (already mapped) and microglia (already mapped), modulates the perineuronal net organisation of the nucleus accumbens and prefrontal cortex governing impulse control in binge-eating disorder.
+- `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective cytokine: erythropoietin, via EPOR on dopaminergic neurons (already mapped) and astrocytes (already mapped), promotes neuronal survival and limits the neuroinflammation-driven disruption of the reward circuitry in binge-eating disorder.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Satiety-immune coupling: prolactin, elevated by stress and acute food intake in binge-eating disorder, modulates T-cell (already mapped) function and interacts with the serotonin (already mapped) and dopamine (already mapped) reward pathways of binge-eating disorder.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

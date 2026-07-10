@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/erythropoietin
     relation: connects-to
     note: "Neuroprotective EPO: erythropoietin signals through EpoR on neurons (already mapped) and oligodendrocytes (already mapped), supporting the myelination and the synaptic plasticity (already mapped) implicated in the neurodevelopmental dimension of autism spectrum disorder."
+  - target: 01-human/03-molecular/periostin
+    relation: connects-to
+    note: "Synapse ECM scaffold: periostin, expressed by astrocytes (already mapped) in the synaptic extracellular matrix, modulates the perineuronal nets that regulate synaptic pruning (microglia already mapped) and the excitatory/inhibitory balance of autism spectrum disorder."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Neuroimmune developmental axis: prolactin, acting via PRLR on microglia (already mapped) and astrocytes (already mapped), modulates the neuroinflammatory cytokine milieu (TNF-α and IL-6 already mapped) and may influence the sex-differential prevalence of autism spectrum disorder."
+  - target: 01-human/02-atomic/selenium
+    relation: connects-to
+    note: "Antioxidant neurodevelopment: selenium, incorporated into selenoproteins (thioredoxin reductase and GPx), scavenges ROS in developing neurons (already mapped) and supports the glutathione (already mapped) redox balance disrupted in the oxidative stress hypothesis of ASD."
 ---
 
 # Autism Spectrum Disorder
@@ -796,6 +805,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[TSLP](../../03-molecular/tslp/README.md)** — Alarmin-neuroimmune axis: TSLP, from skin (already mapped) and gut (already mapped) barriers, primes dendritic cells (already mapped) and mast cells (already mapped) and amplifies the Th2/Treg (already mapped) imbalance of the maternal-immune-activation of ASD.
 - `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — Kinin-neuroinflammation axis: bradykinin, via the B2R on CNS microglia (already mapped) and neurons (already mapped), amplifies the neuroinflammation and the BBB permeability contributing to the immune-activation dimension of autism spectrum disorder.
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Neuroprotective EPO: erythropoietin signals through EpoR on neurons (already mapped) and oligodendrocytes (already mapped), supporting the myelination and the synaptic plasticity (already mapped) implicated in the neurodevelopmental dimension of autism spectrum disorder.
+- `connects-to` → **[Periostin](../../03-molecular/periostin/README.md)** — Synapse ECM scaffold: periostin, expressed by astrocytes (already mapped) in the synaptic extracellular matrix, modulates the perineuronal nets that regulate synaptic pruning (microglia already mapped) and the excitatory/inhibitory balance of autism spectrum disorder.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Neuroimmune developmental axis: prolactin, acting via PRLR on microglia (already mapped) and astrocytes (already mapped), modulates the neuroinflammatory cytokine milieu (TNF-α and IL-6 already mapped) and may influence the sex-differential prevalence of autism spectrum disorder.
+- `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Antioxidant neurodevelopment: selenium, incorporated into selenoproteins (thioredoxin reductase and GPx), scavenges ROS in developing neurons (already mapped) and supports the glutathione (already mapped) redox balance disrupted in the oxidative stress hypothesis of ASD.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
