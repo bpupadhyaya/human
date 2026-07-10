@@ -493,6 +493,15 @@ cross_links:
   - target: 01-human/03-molecular/melatonin
     relation: connects-to
     note: "Circadian-immune axis: melatonin modulates CNS immune surveillance (microglia already mapped), regulating natural killer cell activity (already mapped) and the B-cell proliferation underlying the immune dysregulation of primary CNS lymphoma."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "PCNSL androgen axis: testosterone via androgen receptor modulates CNS B-cell proliferation and the blood-brain barrier permeability governing PCNSL compartmentalisation, intersecting the BCR (already mapped) and PI3K/AKT (already mapped) signalling pathways."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "PCNSL serotonin: serotonin modulates CNS immune microenvironment and B-cell proliferation underlying primary CNS lymphoma, and serotonin receptor signalling on CNS B-cell lymphoma cells intersects the BCR (already mapped) and PI3K/AKT (already mapped) pathways."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "PCNSL prolactin: prolactin promotes B-cell survival and class-switching via JAK2/STAT5 (already mapped) signalling, amplifying the malignant CNS B-cell proliferation and CXCR4 (already mapped)-mediated CNS compartmentalisation of primary CNS lymphoma."
 ---
 
 # Primary CNS Lymphoma
@@ -765,6 +774,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Erythropoietin](../../03-molecular/erythropoietin/README.md)** — Chemotherapy anaemia: erythropoietin corrects the high-dose methotrexate- and rituximab-induced marrow suppression anaemia of primary CNS lymphoma; EPOR expression in the CNS lymphoma B cells has also been reported.
 - `connects-to` → **[Factor H](../../03-molecular/factor-h/README.md)** — Complement evasion in CSF: primary CNS lymphoma cells recruit factor H to limit the C3/C5/C5aR1 (all already mapped) complement-dependent cytotoxicity of rituximab within the immune-privileged CNS compartment.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian-immune axis: melatonin modulates CNS immune surveillance (microglia already mapped), regulating natural killer cell activity (already mapped) and the B-cell proliferation underlying the immune dysregulation of primary CNS lymphoma.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — PCNSL androgen axis: testosterone via androgen receptor modulates CNS B-cell proliferation and the blood-brain barrier permeability governing PCNSL compartmentalisation, intersecting the BCR (already mapped) and PI3K/AKT (already mapped) signalling pathways.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PCNSL serotonin: serotonin modulates CNS immune microenvironment and B-cell proliferation underlying primary CNS lymphoma, and serotonin receptor signalling on CNS B-cell lymphoma cells intersects the BCR (already mapped) and PI3K/AKT (already mapped) pathways.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — PCNSL prolactin: prolactin promotes B-cell survival and class-switching via JAK2/STAT5 (already mapped) signalling, amplifying the malignant CNS B-cell proliferation and CXCR4 (already mapped)-mediated CNS compartmentalisation of primary CNS lymphoma.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

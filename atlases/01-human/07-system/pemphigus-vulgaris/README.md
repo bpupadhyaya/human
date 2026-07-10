@@ -499,6 +499,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Sex-hormone immune modulation: testosterone exerts an immunosuppressive effect on the Th2-skewed (IL-4, IL-13 already mapped) autoimmune response of pemphigus vulgaris, consistent with the female sex predominance of this bullous disease."
+  - target: 01-human/03-molecular/serotonin
+    relation: connects-to
+    note: "PV serotonin: serotonin modulates mast-cell (already mapped) degranulation and Th2 (IL-4 already mapped) activity in pemphigus-vulgaris skin lesions; stress-induced serotonin fluctuations amplify the desmoglein-directed autoimmune IgG response of pemphigus vulgaris."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "PV vasopressin: vasopressin via V1aR on keratinocytes (skin already mapped) and T cells (already mapped) modulates the HPA-axis stress-immune response, influencing the psychosocial-stress triggered autoimmune flares of pemphigus vulgaris."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "PV calcium: calcium is required for desmoglein-3 (DSG3; the target autoantigen of pemphigus vulgaris) cadherin-based keratinocyte adhesion; calcium-dependent desmosomal assembly is disrupted by the anti-DSG3 IgG (B cell already mapped) autoantibody, triggering acantholysis."
 ---
 
 # Pemphigus Vulgaris
@@ -803,6 +812,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Circadian autoimmune modulator: melatonin modulates T-helper-cell (already mapped) and B-cell (already mapped) activity, influencing IgG autoantibody production against desmoglein-3 in pemphigus vulgaris, with nocturnal flare patterns reported.
 - `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — Neuroendocrine skin-immune axis: oxytocin modulates the stress-immune axis and keratinocyte (skin already mapped) integrity; psychosocial stress is a recognised pemphigus-vulgaris trigger, implicating the hypothalamic–skin neuroendocrine pathway.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Sex-hormone immune modulation: testosterone exerts an immunosuppressive effect on the Th2-skewed (IL-4, IL-13 already mapped) autoimmune response of pemphigus vulgaris, consistent with the female sex predominance of this bullous disease.
+- `connects-to` → **[Serotonin](../../03-molecular/serotonin/README.md)** — PV serotonin: serotonin modulates mast-cell (already mapped) degranulation and Th2 (IL-4 already mapped) activity in pemphigus-vulgaris skin lesions; stress-induced serotonin fluctuations amplify the desmoglein-directed autoimmune IgG response of pemphigus vulgaris.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — PV vasopressin: vasopressin via V1aR on keratinocytes (skin already mapped) and T cells (already mapped) modulates the HPA-axis stress-immune response, influencing the psychosocial-stress triggered autoimmune flares of pemphigus vulgaris.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — PV calcium: calcium is required for desmoglein-3 (DSG3; the target autoantigen of pemphigus vulgaris) cadherin-based keratinocyte adhesion; calcium-dependent desmosomal assembly is disrupted by the anti-DSG3 IgG (B cell already mapped) autoantibody, triggering acantholysis.
 
 ---
 
