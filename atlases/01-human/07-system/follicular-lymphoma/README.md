@@ -502,6 +502,15 @@ cross_links:
   - target: 01-human/03-molecular/testosterone
     relation: connects-to
     note: "Androgen-FL axis: testosterone, via androgen receptor signalling on follicular-lymphoma B cells and stromal cells, modulates BCL2-driven (already mapped) lymphoma-cell survival and the sex-biased immune microenvironment of follicular lymphoma."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "FL prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) survival cascade of follicular lymphoma."
+  - target: 01-human/03-molecular/oxytocin
+    relation: connects-to
+    note: "FL oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) cascade of follicular lymphoma."
+  - target: 01-human/03-molecular/vasopressin
+    relation: connects-to
+    note: "FL vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) proliferation cascade of FL."
 ---
 
 # Follicular Lymphoma
@@ -789,6 +798,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Histamine](../../03-molecular/histamine/README.md)** — Histamine-FL axis: histamine, from mast cells in the follicular-lymphoma microenvironment, signals via H1/H2 receptors on malignant B cells (already mapped) and tumour endothelium, modulating BCL2-driven (already mapped) survival and the immunosuppressive FL milieu.
 - `connects-to` → **[Melatonin](../../03-molecular/melatonin/README.md)** — Melatonin-FL axis: melatonin, via MT1/MT2 receptors on follicular-lymphoma B cells, modulates circadian immune rhythms, suppresses BCL2-driven (already mapped) anti-apoptotic signalling, and enhances the sensitivity to anti-CD20 (rituximab) chemoimmunotherapy.
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Androgen-FL axis: testosterone, via androgen receptor signalling on follicular-lymphoma B cells and stromal cells, modulates BCL2-driven (already mapped) lymphoma-cell survival and the sex-biased immune microenvironment of follicular lymphoma.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — FL prolactin: prolactin, via PRLR on macrophages (already mapped) and mast cells (already mapped), modulates the immune TME; hyperprolactinaemia amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) survival cascade of follicular lymphoma.
+- `connects-to` → **[Oxytocin](../../03-molecular/oxytocin/README.md)** — FL oxytocin: oxytocin, via OXTR on macrophages (already mapped) and mast cells (already mapped), attenuates tumour-promoting inflammation; oxytocin deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) cascade of follicular lymphoma.
+- `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — FL vasopressin: vasopressin, via V1aR on macrophages (already mapped) and mast cells (already mapped), modulates the TME; vasopressin dysregulation amplifies the NF-κB (already mapped) and IL-6 (already mapped) B-cell (already mapped) proliferation cascade of FL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
