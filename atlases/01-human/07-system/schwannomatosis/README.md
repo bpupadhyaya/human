@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "SWN chloride: chloride channels in macrophages (already mapped) and mast-cell (already mapped) regulate tumour-immune homeostasis; chloride dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "SWN carbon: carbon, as metabolic backbone of mTOR (already mapped) and EGFR (already mapped) in macrophages (already mapped) and mast-cell (already mapped), drives proliferative signalling; carbon dysregulation amplifies IL-6 (already mapped) cascade of schwannomatosis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "SWN hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and mast-cell (already mapped), modulates tumour-immune balance; hydrogen dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "SWN nitrogen: nitrogen, as purine backbone in macrophages (already mapped) and mast-cell (already mapped), fuels nucleotide synthesis; nitrogen dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -801,6 +810,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — SWN iron: iron, as ribonucleotide reductase cofactor in macrophages (already mapped) and mast-cell (already mapped), supports DNA repair; iron overload amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) tumour cascade of schwannomatosis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — SWN phosphorus: phosphorus, as ATP donor in mTOR (already mapped) signalling in macrophages (already mapped) and mast-cell (already mapped), fuels tumour proliferation; phosphorus dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) cascade of schwannomatosis.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — SWN chloride: chloride channels in macrophages (already mapped) and mast-cell (already mapped) regulate tumour-immune homeostasis; chloride dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SWN carbon: carbon, as metabolic backbone of mTOR (already mapped) and EGFR (already mapped) in macrophages (already mapped) and mast-cell (already mapped), drives proliferative signalling; carbon dysregulation amplifies IL-6 (already mapped) cascade of schwannomatosis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — SWN hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and mast-cell (already mapped), modulates tumour-immune balance; hydrogen dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SWN nitrogen: nitrogen, as purine backbone in macrophages (already mapped) and mast-cell (already mapped), fuels nucleotide synthesis; nitrogen dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

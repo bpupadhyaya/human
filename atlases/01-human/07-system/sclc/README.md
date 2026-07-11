@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "SCLC sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature promotes HIF-1α (already mapped)-driven angiogenesis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of SCLC."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "SCLC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), modulates tumour oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of SCLC."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "SCLC nitrogen: nitric oxide from macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulates tumour immune tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of SCLC."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "SCLC oxygen: HIF-1α (already mapped) senses tumour hypoxia in macrophages (already mapped) and tumour vasculature; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of SCLC."
 ---
 
 # Small Cell Lung Cancer
@@ -809,6 +818,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — SCLC phosphorus: phosphorus, as ATP donor in mTOR (already mapped) kinase signalling in macrophages (already mapped) and T-cytotoxic-cell (already mapped), fuels proliferation; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of SCLC.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — SCLC chloride: chloride channels in macrophages (already mapped) and T-cytotoxic-cell (already mapped) regulate tumour-immune tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of SCLC.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SCLC sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature promotes HIF-1α (already mapped)-driven angiogenesis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of SCLC.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — SCLC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), modulates tumour oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of SCLC.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SCLC nitrogen: nitric oxide from macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulates tumour immune tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of SCLC.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SCLC oxygen: HIF-1α (already mapped) senses tumour hypoxia in macrophages (already mapped) and tumour vasculature; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of SCLC.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
