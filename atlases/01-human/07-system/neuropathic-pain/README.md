@@ -516,6 +516,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "NP oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) and microglia (already mapped) for BDNF (already mapped) neurotrophic support; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade in neuropathic pain."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "NP carbon: carbon as backbone of BDNF (already mapped) and TRPV1 structural proteins in neurons (already mapped) sustains nociceptor signalling; carbon depletion amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade in neuropathic pain."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "NP hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and microglia (already mapped), supports BDNF (already mapped) neurotrophin release; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) sensitisation in neuropathic pain."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "NP angiotensin-II: angiotensin-II via AT1R on microglia (already mapped) and astrocytes (already mapped) amplifies spinal cord neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -845,6 +854,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NP chloride: chloride via GABA(A) receptors (GABA already mapped) and KCC2 on neurons (already mapped) sets inhibitory tone; chloride dysregulation shifts GABA to excitatory, amplifying NLRP3 (already mapped) and NF-κB (already mapped) central sensitisation in neuropathic pain.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NP sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) promotes neuroprotection via K-ATP channels; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory sensitisation in neuropathic pain.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — NP oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) and microglia (already mapped) for BDNF (already mapped) neurotrophic support; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade in neuropathic pain.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — NP carbon: carbon as backbone of BDNF (already mapped) and TRPV1 structural proteins in neurons (already mapped) sustains nociceptor signalling; carbon depletion amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade in neuropathic pain.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — NP hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and microglia (already mapped), supports BDNF (already mapped) neurotrophin release; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) sensitisation in neuropathic pain.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — NP angiotensin-II: angiotensin-II via AT1R on microglia (already mapped) and astrocytes (already mapped) amplifies spinal cord neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
