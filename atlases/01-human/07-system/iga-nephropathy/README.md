@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "IgAN oxygen: oxygen, via ROS in macrophages (already mapped) and neutrophils (already mapped), drives mesangial and tubular oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "IgAN carbon: carbon backbone of IgA molecules and cytokines (already mapped) sustains mesangial immune-complex signalling; carbon metabolites in macrophages (already mapped) and neutrophils (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in IgAN."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "IgAN hydrogen: hydrogen as proton gradient in mesangial and tubular mitochondria drives ATP synthesis; hydrogen-ion acidosis amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) glomerular and tubulointerstitial injury in IgA nephropathy."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "IgAN PD-1: PD-1-mediated checkpoint restrains T-cytotoxic-cell (already mapped) mesangial cytotoxicity; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immune-complex-driven glomerulonephritis in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -783,6 +792,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IgAN sulfur: sulfur, as hydrogen sulfide and cysteine in macrophages (already mapped) and neutrophils (already mapped), modulates renal oxidative stress; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IgAN nitrogen: nitrogen, as reactive nitrogen species in macrophages (already mapped) and neutrophils (already mapped), modulates renal inflammation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — IgAN oxygen: oxygen, via ROS in macrophages (already mapped) and neutrophils (already mapped), drives mesangial and tubular oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IgA nephropathy.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IgAN carbon: carbon backbone of IgA molecules and cytokines (already mapped) sustains mesangial immune-complex signalling; carbon metabolites in macrophages (already mapped) and neutrophils (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in IgAN.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IgAN hydrogen: hydrogen as proton gradient in mesangial and tubular mitochondria drives ATP synthesis; hydrogen-ion acidosis amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) glomerular and tubulointerstitial injury in IgA nephropathy.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — IgAN PD-1: PD-1-mediated checkpoint restrains T-cytotoxic-cell (already mapped) mesangial cytotoxicity; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immune-complex-driven glomerulonephritis in IgA nephropathy.
 
 ---
 

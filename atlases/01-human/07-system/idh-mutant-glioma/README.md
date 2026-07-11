@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "IDH-glioma zinc: zinc cofactors antioxidant enzymes in microglia (already mapped) and T-cytotoxic cells (already mapped); zinc deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of IDH-mutant glioma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "IDH-glioma chloride: chloride channels regulate microglia (already mapped) and T-cytotoxic (already mapped) volume during tumour microenvironment stress; chloride dysregulation amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour cascade in IDH-mutant glioma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "IDH-glioma nitrogen: nitrogen as backbone of IDH-mutant oncoproteins and cytokines (already mapped) sustains oncometabolite signalling; nitrogen-derived RNS from microglia (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) in IDH-mutant glioma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "IDH-glioma phosphorus: phosphorus as ATP in microglia (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies IL-6 (already mapped) and mast-cell (already mapped) cascade in IDH-mutant glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -831,6 +840,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — IDH-glioma sodium: high dietary sodium promotes microglia (already mapped) and mast-cell (already mapped) activation; sodium-induced IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of IDH-mutant glioma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — IDH-glioma copper: copper supports microglia (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of IDH-mutant glioma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — IDH-glioma zinc: zinc cofactors antioxidant enzymes in microglia (already mapped) and T-cytotoxic cells (already mapped); zinc deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of IDH-mutant glioma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IDH-glioma chloride: chloride channels regulate microglia (already mapped) and T-cytotoxic (already mapped) volume during tumour microenvironment stress; chloride dysregulation amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour cascade in IDH-mutant glioma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IDH-glioma nitrogen: nitrogen as backbone of IDH-mutant oncoproteins and cytokines (already mapped) sustains oncometabolite signalling; nitrogen-derived RNS from microglia (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) in IDH-mutant glioma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IDH-glioma phosphorus: phosphorus as ATP in microglia (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies IL-6 (already mapped) and mast-cell (already mapped) cascade in IDH-mutant glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
