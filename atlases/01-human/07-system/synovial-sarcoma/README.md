@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "SyS phosphorus: phosphorus, as ATP donor in mTOR (already mapped) kinase signalling in fibroblasts (already mapped) and macrophages (already mapped), fuels sarcoma proliferation; phosphorus dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) in SyS."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "SyS carbon: carbon, as metabolic backbone of mTOR (already mapped) and VEGF (already mapped) in fibroblasts (already mapped) and macrophages (already mapped), drives proliferative signalling; carbon dysregulation amplifies IL-6 (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "SyS chloride: chloride channels in macrophages (already mapped) and fibroblasts (already mapped) regulate tumour-immune homeostasis; chloride dysregulation amplifies IL-6 (already mapped) and WNT (already mapped) and mTOR (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "SyS hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), modulates tumour immune balance; hydrogen dysregulation amplifies IL-6 (already mapped) and WNT (already mapped) and VEGF (already mapped) cascade of synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -825,6 +834,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — SyS zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and T-cytotoxic-cell (already mapped), supports anti-tumour immunity; zinc deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — SyS potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies IL-6 (already mapped) and WNT (already mapped) and mTOR (already mapped) proliferative cascade and suppresses T-cytotoxic-cell (already mapped) immunity in SyS.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — SyS phosphorus: phosphorus, as ATP donor in mTOR (already mapped) kinase signalling in fibroblasts (already mapped) and macrophages (already mapped), fuels sarcoma proliferation; phosphorus dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) in SyS.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SyS carbon: carbon, as metabolic backbone of mTOR (already mapped) and VEGF (already mapped) in fibroblasts (already mapped) and macrophages (already mapped), drives proliferative signalling; carbon dysregulation amplifies IL-6 (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — SyS chloride: chloride channels in macrophages (already mapped) and fibroblasts (already mapped) regulate tumour-immune homeostasis; chloride dysregulation amplifies IL-6 (already mapped) and WNT (already mapped) and mTOR (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — SyS hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), modulates tumour immune balance; hydrogen dysregulation amplifies IL-6 (already mapped) and WNT (already mapped) and VEGF (already mapped) cascade of synovial sarcoma.
 
 ---
 
