@@ -534,6 +534,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Respiratory sulfur: H2S from sulfur-amino acids in type-II pneumocytes (already mapped) and endothelial cells (already mapped) promotes airway vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Respiratory PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates airway immune surveillance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) airway inflammatory cascade of the respiratory system."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Respiratory GLP-1: GLP-1 signalling in type-II pneumocytes (already mapped) and endothelial cells (already mapped) modulates airway metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Respiratory Wnt/β-catenin: Wnt/β-catenin signalling supports type-II pneumocyte (already mapped) repair and airway epithelial regeneration; Wnt dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -787,6 +796,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [Iron](../../02-atomic/iron/README.md): Oxygen-transport immunity: iron, as haem cofactor in erythrocytes (already mapped) and macrophages (already mapped), enables oxygen transport; iron deficiency impairs the NF-κB (already mapped) anti-microbial response and amplifies the IL-6 (already mapped) cascade of the respiratory system.
 - **Connects-to** → [Phosphorus](../../02-atomic/phosphorus/README.md): Surfactant-ATP: phosphorus, as ATP precursor in type-II pneumocytes (already mapped) and macrophages (already mapped), supports surfactant synthesis and innate immunity; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system.
 - **Connects-to** → [Sulfur](../../02-atomic/sulfur/README.md): Respiratory sulfur: H2S from sulfur-amino acids in type-II pneumocytes (already mapped) and endothelial cells (already mapped) promotes airway vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system.
+- **Connects-to** → [PD-1](../../03-molecular/pd-1/README.md): Respiratory PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates airway immune surveillance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) airway inflammatory cascade of the respiratory system.
+- **Connects-to** → [GLP-1](../../03-molecular/glp-1/README.md): Respiratory GLP-1: GLP-1 signalling in type-II pneumocytes (already mapped) and endothelial cells (already mapped) modulates airway metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system.
+- **Connects-to** → [Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md): Respiratory Wnt/β-catenin: Wnt/β-catenin signalling supports type-II pneumocyte (already mapped) repair and airway epithelial regeneration; Wnt dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

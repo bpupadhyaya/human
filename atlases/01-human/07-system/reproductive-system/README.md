@@ -527,6 +527,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Reproductive carbon: carbon, as steroid-hormone backbone in gonadal cells and endothelial cells (already mapped), drives oestrogen and progesterone synthesis; carbon substrate depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and disrupts HPG-axis cascade."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Reproductive hydrogen: hydrogen, via redox homeostasis in gonadal cells and macrophages (already mapped), supports steroidogenesis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of the reproductive system."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Reproductive PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) maintains immune tolerance at the maternal-fetal interface; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of reproductive system."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Reproductive GLP-1: GLP-1 signalling in endothelial cells (already mapped) and gonadal cells modulates metabolic-reproductive crosstalk; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the reproductive system."
 ---
 
 # Reproductive System
@@ -812,6 +821,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Reproductive nitrogen: nitric oxide from arginine in endothelial cells (already mapped) and smooth-muscle cells (already mapped) drives uteroplacental vasodilation; nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Reproductive oxygen: ROS from smooth-muscle cells (already mapped) and macrophages (already mapped) drive inflammatory signalling; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs steroidogenesis in the reproductive system.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Reproductive carbon: carbon, as steroid-hormone backbone in gonadal cells and endothelial cells (already mapped), drives oestrogen and progesterone synthesis; carbon substrate depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and disrupts HPG-axis cascade.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Reproductive hydrogen: hydrogen, via redox homeostasis in gonadal cells and macrophages (already mapped), supports steroidogenesis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of the reproductive system.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Reproductive PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) maintains immune tolerance at the maternal-fetal interface; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of reproductive system.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Reproductive GLP-1: GLP-1 signalling in endothelial cells (already mapped) and gonadal cells modulates metabolic-reproductive crosstalk; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the reproductive system.
 
 ## Pathology
 
