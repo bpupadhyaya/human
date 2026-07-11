@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "WM magnesium: magnesium supports macrophage (already mapped) anti-inflammatory resolution and B-cell (already mapped) regulation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) tumour-promoting cascade in WM."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "WM copper: copper-dependent SOD in macrophages (already mapped) and B-cell (already mapped) quenches ROS; copper deficiency amplifies MYD88 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Waldenström."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "WM potassium: potassium efflux from macrophages (already mapped) and B-cell (already mapped) modulates NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) clonal survival cascade of Waldenström."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "WM calcium: calcium signalling in B-cell (already mapped) and plasma-cell (already mapped) drives MYD88 (already mapped)/NF-κB (already mapped) clonal activation; calcium dysregulation amplifies IL-6 (already mapped) and IgM (already mapped) hyperviscosity cascade of WM."
 ---
 
 # Waldenström Macroglobulinemia
@@ -805,6 +814,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — WM iodine: iodine-dependent thyroid hormones modulate B-cell (already mapped) differentiation and haematopoietic cycling in the bone-marrow (already mapped); hypothyroidism amplifies the pro-tumour macrophage (already mapped) and NF-κB (already mapped) signalling niche of WM.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — WM zinc: zinc cofactors macrophage (already mapped) anti-tumour function and B-cell (already mapped) homeostasis; zinc deficiency amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) B-cell (already mapped) clonal expansion in WM.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — WM magnesium: magnesium supports macrophage (already mapped) anti-inflammatory resolution and B-cell (already mapped) regulation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) tumour-promoting cascade in WM.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — WM copper: copper-dependent SOD in macrophages (already mapped) and B-cell (already mapped) quenches ROS; copper deficiency amplifies MYD88 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Waldenström.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — WM potassium: potassium efflux from macrophages (already mapped) and B-cell (already mapped) modulates NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) clonal survival cascade of Waldenström.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — WM calcium: calcium signalling in B-cell (already mapped) and plasma-cell (already mapped) drives MYD88 (already mapped)/NF-κB (already mapped) clonal activation; calcium dysregulation amplifies IL-6 (already mapped) and IgM (already mapped) hyperviscosity cascade of WM.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
