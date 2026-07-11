@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "MF chloride: chloride channels regulate macrophage (already mapped) and neutrophil (already mapped) ion homeostasis in the myelofibrosis bone marrow; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "MF carbon: carbon as backbone of JAK2 (already mapped) and calreticulin structural proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "MF hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and megakaryocytes (already mapped), supports JAK2 (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MF nitrogen: nitrogen in amino-acid scaffold of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -827,6 +836,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — MF sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the neutrophil (already mapped) fibrotic cascade of myelofibrosis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MF potassium: potassium channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the myelofibrosis bone marrow; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MF chloride: chloride channels regulate macrophage (already mapped) and neutrophil (already mapped) ion homeostasis in the myelofibrosis bone marrow; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MF carbon: carbon as backbone of JAK2 (already mapped) and calreticulin structural proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MF hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and megakaryocytes (already mapped), supports JAK2 (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MF nitrogen: nitrogen in amino-acid scaffold of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
 
 ---
 
