@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Meningioma zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates matrix remodelling; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of meningioma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Meningioma carbon: carbon as backbone of NF2 (already mapped) and merlin structural proteins in meningeal cells (already mapped) sustains tumour suppression; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) meningioma cascade."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Meningioma chloride: chloride regulates meningeal cells (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) protumorigenic cascade of meningioma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Meningioma nitrogen: nitrogen in amino-acid scaffold of NF2 (already mapped) and TRAF7 proteins sustains meningeal cell (already mapped) proliferation control; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of meningioma."
 ---
 
 # Meningioma
@@ -816,6 +825,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Meningioma magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and fibroblasts (already mapped), supports matrix homeostasis; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of meningioma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Meningioma copper: copper, as cofactor of SOD1 in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges TME ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of meningioma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Meningioma zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates matrix remodelling; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of meningioma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Meningioma carbon: carbon as backbone of NF2 (already mapped) and merlin structural proteins in meningeal cells (already mapped) sustains tumour suppression; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) meningioma cascade.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Meningioma chloride: chloride regulates meningeal cells (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) protumorigenic cascade of meningioma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Meningioma nitrogen: nitrogen in amino-acid scaffold of NF2 (already mapped) and TRAF7 proteins sustains meningeal cell (already mapped) proliferation control; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of meningioma.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

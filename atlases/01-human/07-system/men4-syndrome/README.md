@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "MEN4 sulfur: sulfur-containing amino acids in macrophages (already mapped) and fibroblasts (already mapped) maintain redox buffering; sulfur depletion amplifies IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of MEN4 syndrome."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "MEN4 carbon: carbon as backbone of CDKN1B protein scaffold sustains neuroendocrine (already mapped) cell-cycle arrest; carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) neuroendocrine tumour cascade of MEN4 syndrome."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MEN4 nitrogen: nitrogen in amino-acid scaffold of CDKN1B and CDKN2C proteins modulates pituitary (already mapped) and parathyroid cell-cycle control; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumourigenic cascade of MEN4 syndrome."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "MEN4 oxygen: oxygen, via ROS in neuroendocrine cells (already mapped) and macrophages (already mapped), drives oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumourigenic cascade of MEN4 syndrome."
 ---
 
 # MEN4 Syndrome
@@ -811,6 +820,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — MEN4 iron: iron, via ferritin in macrophages (already mapped) and fibroblasts (already mapped), modulates redox balance in the MEN4 tumour microenvironment; iron dysregulation amplifies IL-6 (already mapped) and mTOR (already mapped) cascade of MEN4 syndrome.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MEN4 chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the MEN4 neuroendocrine microenvironment; chloride imbalance amplifies IL-6 (already mapped) and mTOR (already mapped) cascade.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MEN4 sulfur: sulfur-containing amino acids in macrophages (already mapped) and fibroblasts (already mapped) maintain redox buffering; sulfur depletion amplifies IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of MEN4 syndrome.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MEN4 carbon: carbon as backbone of CDKN1B protein scaffold sustains neuroendocrine (already mapped) cell-cycle arrest; carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) neuroendocrine tumour cascade of MEN4 syndrome.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MEN4 nitrogen: nitrogen in amino-acid scaffold of CDKN1B and CDKN2C proteins modulates pituitary (already mapped) and parathyroid cell-cycle control; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumourigenic cascade of MEN4 syndrome.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MEN4 oxygen: oxygen, via ROS in neuroendocrine cells (already mapped) and macrophages (already mapped), drives oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumourigenic cascade of MEN4 syndrome.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
