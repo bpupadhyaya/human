@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "BC zinc: zinc cofactors macrophage (already mapped) anti-tumour function and bone-marrow (already mapped) immune homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade in breast cancer."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "potassium channels in T-cytotoxic cell (already mapped) and osteoblast (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies HER2 (already mapped) and RANKL (already mapped) and PD-1 (already mapped) cascade in breast cancer."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus in osteoblast (already mapped) and T-cytotoxic cell (already mapped) fuels ATP-driven HER2 (already mapped) and PIK3CA (already mapped) signalling; phosphate dysregulation amplifies CDK4/6 (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on T-cytotoxic cell (already mapped) and osteoblast (already mapped) regulate anti-tumour immunity; chloride dysregulation amplifies HER2 (already mapped) and CXCL12 (already mapped) and RANKL (already mapped) cascade in breast cancer."
 ---
 
 # Breast Cancer
@@ -813,6 +822,9 @@ cross_links:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — BC sodium: high dietary sodium promotes macrophage (already mapped) M2-polarisation and bone-marrow (already mapped) skewing; sodium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade in breast cancer.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — BC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade in breast cancer.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — BC zinc: zinc cofactors macrophage (already mapped) anti-tumour function and bone-marrow (already mapped) immune homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade in breast cancer.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels in T-cytotoxic cell (already mapped) and osteoblast (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies HER2 (already mapped) and RANKL (already mapped) and PD-1 (already mapped) cascade in breast cancer.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus in osteoblast (already mapped) and T-cytotoxic cell (already mapped) fuels ATP-driven HER2 (already mapped) and PIK3CA (already mapped) signalling; phosphate dysregulation amplifies CDK4/6 (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on T-cytotoxic cell (already mapped) and osteoblast (already mapped) regulate anti-tumour immunity; chloride dysregulation amplifies HER2 (already mapped) and CXCL12 (already mapped) and RANKL (already mapped) cascade in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

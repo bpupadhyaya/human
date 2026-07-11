@@ -531,6 +531,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "BN carbon: carbon-backbone metabolites in neurons (already mapped) fuel acetyl-CoA and serotonin (already mapped) synthesis; carbon metabolic imbalance amplifies IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in bulimia nervosa."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "NF-κB activation in microglia (already mapped) and neuron (already mapped) amplifies neuroinflammation; NF-κB excess drives IL-6 (already mapped) and TNF-α (already mapped) cascade worsening serotonin (already mapped) dysregulation in bulimia nervosa."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF-driven angiogenesis in brain (already mapped) reward circuits amplifies dopamine (already mapped) and serotonin (already mapped) signalling; VEGF excess promotes mTOR (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "IL-2 from T-cytotoxic cell (already mapped) and dendritic cell (already mapped) modulates neuroimmune tone; IL-2 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and cortisol (already mapped) cascade in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -831,6 +840,9 @@ All of the following must be met:
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BN nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates serotonin (already mapped) tone; NO dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of bulimia nervosa.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — BN oxygen: mitochondrial ROS in neurons (already mapped) and microglia (already mapped) amplifies oxidative stress; ROS excess worsens serotonin (already mapped) and BDNF (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of bulimia nervosa.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — BN carbon: carbon-backbone metabolites in neurons (already mapped) fuel acetyl-CoA and serotonin (already mapped) synthesis; carbon metabolic imbalance amplifies IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in bulimia nervosa.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB activation in microglia (already mapped) and neuron (already mapped) amplifies neuroinflammation; NF-κB excess drives IL-6 (already mapped) and TNF-α (already mapped) cascade worsening serotonin (already mapped) dysregulation in bulimia nervosa.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis in brain (already mapped) reward circuits amplifies dopamine (already mapped) and serotonin (already mapped) signalling; VEGF excess promotes mTOR (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 from T-cytotoxic cell (already mapped) and dendritic cell (already mapped) modulates neuroimmune tone; IL-2 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and cortisol (already mapped) cascade in bulimia nervosa.
 
 ## Treatment
 
