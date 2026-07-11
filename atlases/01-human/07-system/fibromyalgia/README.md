@@ -507,6 +507,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "FM chloride: chloride homeostasis via GABA(A) receptors (GABA already mapped) sets the inhibitory tone; chloride dysregulation amplifies glutamate (already mapped) excitotoxicity and NF-κB (already mapped) and substance P (already mapped) central sensitisation in fibromyalgia."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "FM sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) modulates GABA (already mapped) inhibitory tone; sulfur deficiency amplifies NF-κB (already mapped) and substance P (already mapped) and glutamate (already mapped) excitotoxicity."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "FM nitrogen: nitric oxide from iNOS in microglia (already mapped) modulates glutamate (already mapped) central sensitisation; nitrogen excess amplifies NF-κB (already mapped) and substance P (already mapped) and NLRP3 (already mapped) neuroinflammation in fibromyalgia."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "FM oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) for GABA (already mapped) inhibitory tone; hypoxia amplifies NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation and substance P (already mapped) sensitisation in fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -830,6 +839,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — FM phosphorus: ATP-phosphate metabolism drives NF-κB (already mapped) neuroinflammatory signalling; phosphorus-dependent PI3K/AKT sustains BDNF (already mapped) neurotrophic support and modulates glutamate (already mapped) excitotoxicity in fibromyalgia central sensitisation.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — FM iron: iron, via ferroptosis-signalling and monoamine synthesis, regulates dopamine (already mapped) and serotonin (already mapped) neurotransmission; iron deficiency amplifies NF-κB (already mapped) central sensitisation and BDNF (already mapped) deficit in fibromyalgia.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — FM chloride: chloride homeostasis via GABA(A) receptors (GABA already mapped) sets the inhibitory tone; chloride dysregulation amplifies glutamate (already mapped) excitotoxicity and NF-κB (already mapped) and substance P (already mapped) central sensitisation in fibromyalgia.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — FM sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) modulates GABA (already mapped) inhibitory tone; sulfur deficiency amplifies NF-κB (already mapped) and substance P (already mapped) and glutamate (already mapped) excitotoxicity.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — FM nitrogen: nitric oxide from iNOS in microglia (already mapped) modulates glutamate (already mapped) central sensitisation; nitrogen excess amplifies NF-κB (already mapped) and substance P (already mapped) and NLRP3 (already mapped) neuroinflammation in fibromyalgia.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — FM oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) for GABA (already mapped) inhibitory tone; hypoxia amplifies NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation and substance P (already mapped) sensitisation in fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

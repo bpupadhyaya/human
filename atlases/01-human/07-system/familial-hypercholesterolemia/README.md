@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "FH zinc: zinc cofactors NRF2 (already mapped) antioxidant defence and macrophage (already mapped) anti-inflammatory function; zinc deficiency amplifies LDL oxidation and NF-κB (already mapped) and IL-6 (already mapped) plaque inflammation in FH."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "FH iodine: thyroid hormones (iodine-dependent) modulate hepatocyte (already mapped) LDL-receptor expression and cholesterol (already mapped) metabolism; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation in FH."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "FH sodium: excess sodium promotes hypertension in endothelial cells (already mapped) and amplifies NF-κB (already mapped) atherogenic oxidative stress; sodium-driven IL-6 (already mapped) worsens the LDL-cholesterol (already mapped) plaque burden in FH."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "FH magnesium: magnesium stabilises smooth-muscle-cell (already mapped) vascular tone and inhibits LDL oxidation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation and accelerates atherosclerosis (already mapped) in FH."
 ---
 
 # Familial Hypercholesterolemia
@@ -803,6 +812,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — FH vasopressin: vasopressin, via V1aR on smooth-muscle cells (already mapped) and hepatocytes (already mapped), modulates cholesterol (already mapped) metabolism and vascular tone; vasopressin excess amplifies NF-κB (already mapped) and atherosclerosis (already mapped) in FH.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — FH selenium: selenium, via GPx and NRF2 (already mapped) antioxidant systems, attenuates LDL oxidation driving atherosclerosis (already mapped); selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) plaque inflammation and cardiovascular risk of FH.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — FH zinc: zinc cofactors NRF2 (already mapped) antioxidant defence and macrophage (already mapped) anti-inflammatory function; zinc deficiency amplifies LDL oxidation and NF-κB (already mapped) and IL-6 (already mapped) plaque inflammation in FH.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — FH iodine: thyroid hormones (iodine-dependent) modulate hepatocyte (already mapped) LDL-receptor expression and cholesterol (already mapped) metabolism; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation in FH.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — FH sodium: excess sodium promotes hypertension in endothelial cells (already mapped) and amplifies NF-κB (already mapped) atherogenic oxidative stress; sodium-driven IL-6 (already mapped) worsens the LDL-cholesterol (already mapped) plaque burden in FH.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — FH magnesium: magnesium stabilises smooth-muscle-cell (already mapped) vascular tone and inhibits LDL oxidation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation and accelerates atherosclerosis (already mapped) in FH.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
