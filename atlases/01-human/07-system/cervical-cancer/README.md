@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Cervical copper: copper supports macrophage (already mapped) and regulatory T-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade of cervical cancer."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "potassium channels on T-cytotoxic cell (already mapped) and macrophage (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cervical cancer."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus in macrophage (already mapped) and T-cytotoxic cell (already mapped) fuels ATP-driven PIK3CA (already mapped) signalling; phosphate dysregulation amplifies NF-κB (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in cervical cancer."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on T-cytotoxic cell (already mapped) and macrophage (already mapped) regulate anti-tumour immune tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
 ---
 
 # Cervical Cancer
@@ -822,6 +831,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Cervical calcium: calcium regulates macrophage (already mapped) activation and mast-cell (already mapped) degranulation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of cervical cancer.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cervical magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and regulatory T-cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of cervical cancer.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Cervical copper: copper supports macrophage (already mapped) and regulatory T-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade of cervical cancer.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels on T-cytotoxic cell (already mapped) and macrophage (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus in macrophage (already mapped) and T-cytotoxic cell (already mapped) fuels ATP-driven PIK3CA (already mapped) signalling; phosphate dysregulation amplifies NF-κB (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on T-cytotoxic cell (already mapped) and macrophage (already mapped) regulate anti-tumour immune tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 
 ---
 

@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "CCA zinc: zinc cofactors macrophage (already mapped) anti-tumour function and mast-cell (already mapped) homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and TGF-β (already mapped) cascade of cholangiocarcinoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "iron in hepatocyte (already mapped) and macrophage (already mapped) fuels oxidative tumour microenvironment; iron excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus in hepatocyte (already mapped) and fibroblast (already mapped) fuels ATP-driven FGFR (already mapped) and mTOR (already mapped) signalling; phosphate dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on macrophage (already mapped) and fibroblast (already mapped) regulate tumour stroma; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -796,6 +805,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CCA sodium: sodium dysregulation in bone-marrow (already mapped) stroma and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of cholangiocarcinoma.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CCA potassium: potassium regulates macrophage (already mapped) and regulatory T-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour cascade of cholangiocarcinoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — CCA zinc: zinc cofactors macrophage (already mapped) anti-tumour function and mast-cell (already mapped) homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and TGF-β (already mapped) cascade of cholangiocarcinoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — iron in hepatocyte (already mapped) and macrophage (already mapped) fuels oxidative tumour microenvironment; iron excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus in hepatocyte (already mapped) and fibroblast (already mapped) fuels ATP-driven FGFR (already mapped) and mTOR (already mapped) signalling; phosphate dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and fibroblast (already mapped) regulate tumour stroma; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 
 ---
 
