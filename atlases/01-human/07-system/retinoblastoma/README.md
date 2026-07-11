@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Rb zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports anti-tumour cytotoxicity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Rb potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and suppresses T-cytotoxic (already mapped) anti-tumour surveillance in retinoblastoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Rb chloride: chloride channels in macrophages (already mapped) and T-cytotoxic cells (already mapped) regulate tumour-immune homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Rb sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and E2F1 (already mapped) proliferative cascade of retinoblastoma."
 ---
 
 # Retinoblastoma
@@ -800,6 +809,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Rb sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the mTOR (already mapped) and E2F1 (already mapped) proliferative cascade of retinoblastoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Rb copper: copper, as lysyl oxidase cofactor in endothelial cells (already mapped) and macrophages (already mapped), drives tumour angiogenesis; copper deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of retinoblastoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Rb zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports anti-tumour cytotoxicity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Rb potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and suppresses T-cytotoxic (already mapped) anti-tumour surveillance in retinoblastoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Rb chloride: chloride channels in macrophages (already mapped) and T-cytotoxic cells (already mapped) regulate tumour-immune homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Rb sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and E2F1 (already mapped) proliferative cascade of retinoblastoma.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

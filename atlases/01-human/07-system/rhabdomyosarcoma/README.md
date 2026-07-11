@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "RMS sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the IGF-1 (already mapped) and mTOR (already mapped)-driven proliferative cascade of rhabdomyosarcoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "RMS copper: copper-dependent SOD in macrophages (already mapped) and tumour cells quenches ROS; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped)-mTOR (already mapped) proliferative cascade of rhabdomyosarcoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "RMS zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped), supports anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped)-mTOR (already mapped) cascade of rhabdomyosarcoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "RMS potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped)-mTOR (already mapped) proliferative cascade of rhabdomyosarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -815,6 +824,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — RMS selenium: selenoproteins quench ROS from IGF-1 (already mapped) and mTOR (already mapped)-driven hyperactivation in rhabdomyosarcoma cells; selenium deficiency amplifies IL-6 (already mapped) and FOXO1 (already mapped) apoptosis-resistance cascade of RMS.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — RMS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immunity; thyroid-hormone deficiency amplifies IGF-1 (already mapped) and mTOR (already mapped) cascade of rhabdomyosarcoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — RMS sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the IGF-1 (already mapped) and mTOR (already mapped)-driven proliferative cascade of rhabdomyosarcoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — RMS copper: copper-dependent SOD in macrophages (already mapped) and tumour cells quenches ROS; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped)-mTOR (already mapped) proliferative cascade of rhabdomyosarcoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — RMS zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped), supports anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped)-mTOR (already mapped) cascade of rhabdomyosarcoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — RMS potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped)-mTOR (already mapped) proliferative cascade of rhabdomyosarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
