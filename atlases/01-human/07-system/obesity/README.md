@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Obesity phosphorus: phosphorus-dependent ATP and signalling lipids in macrophages (already mapped) and adipocytes (already mapped) govern energy partitioning; phosphate imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) adipose metabolic-inflammatory cascade."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Obesity carbon: carbon as backbone of adipokine and NF-κB (already mapped) proteins in adipocytes (already mapped) sustains adipose signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of obesity."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Obesity chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in adipose tissue; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) adipose inflammatory cascade of obesity."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Obesity nitrogen: nitrogen in amino-acid scaffold of adipokines (already mapped) and NF-κB (already mapped) proteins in adipocytes (already mapped) sustains adipose signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of obesity."
 ---
 
 # Obesity
@@ -851,6 +860,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Obesity zinc: zinc, as co-factor of insulin-signalling enzymes in adipocytes (already mapped) and macrophages (already mapped), modulates fat metabolism; zinc deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) metabolic-inflammatory adipose cascade.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Obesity calcium: calcium signals regulate macrophage (already mapped) and adipocyte (already mapped) lipid metabolism; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) adipose inflammation driving the mast-cell (already mapped) cascade of obesity.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Obesity phosphorus: phosphorus-dependent ATP and signalling lipids in macrophages (already mapped) and adipocytes (already mapped) govern energy partitioning; phosphate imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) adipose metabolic-inflammatory cascade.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Obesity carbon: carbon as backbone of adipokine and NF-κB (already mapped) proteins in adipocytes (already mapped) sustains adipose signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of obesity.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Obesity chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in adipose tissue; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) adipose inflammatory cascade of obesity.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Obesity nitrogen: nitrogen in amino-acid scaffold of adipokines (already mapped) and NF-κB (already mapped) proteins in adipocytes (already mapped) sustains adipose signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
