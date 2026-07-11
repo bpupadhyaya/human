@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "RTS sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies VEGF (already mapped) and mTOR (already mapped)-driven tumour-promotion cascade of RTS osteosarcoma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "RTS magnesium: magnesium, as DNA-repair cofactor in macrophages (already mapped) and mast-cell (already mapped), maintains genome integrity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in RTS."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "RTS copper: copper-dependent SOD in macrophages (already mapped) and mast-cell (already mapped) quenches ROS from RECQL4-deficient cells; copper imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) osteosarcoma cascade in RTS."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "RTS zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and mast-cell (already mapped), supports anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped)-VEGF (already mapped) cascade in RTS."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -824,6 +833,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — RTS selenium: selenoproteins quench ROS from RECQL4 deficiency in fibroblasts (already mapped) and osteoblasts (already mapped); selenium deficiency amplifies p53 (already mapped)-mediated instability and mTOR (already mapped) and IL-6 (already mapped) cascade of RTS.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — RTS iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance in RTS; thyroid-hormone deficiency amplifies VEGF (already mapped) and mTOR (already mapped) cascade of osteosarcoma in RTS.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — RTS sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies VEGF (already mapped) and mTOR (already mapped)-driven tumour-promotion cascade of RTS osteosarcoma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — RTS magnesium: magnesium, as DNA-repair cofactor in macrophages (already mapped) and mast-cell (already mapped), maintains genome integrity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in RTS.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — RTS copper: copper-dependent SOD in macrophages (already mapped) and mast-cell (already mapped) quenches ROS from RECQL4-deficient cells; copper imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) osteosarcoma cascade in RTS.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — RTS zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and mast-cell (already mapped), supports anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped)-VEGF (already mapped) cascade in RTS.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

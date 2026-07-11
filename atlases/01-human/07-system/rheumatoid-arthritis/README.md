@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "RA chloride: chloride, via CFTR and chloride channels in macrophages (already mapped) and neutrophils (already mapped), modulates ROS burst and synovial inflammation; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of RA."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "RA sulfur: hydrogen sulfide from synoviocytes and macrophages (already mapped) attenuates oxidative stress in inflamed joints; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade and worsens joint destruction in RA."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "RA nitrogen: nitric oxide from macrophages (already mapped) and neutrophils (already mapped) in the synovium mediates vasodilation; excess nitrogen drives oxidative burst amplifying NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of RA."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "RA oxygen: synovial hypoxia drives ROS in macrophages (already mapped) and neutrophils (already mapped); oxygen-induced ROS amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade and synovial pannus formation in RA."
 ---
 
 # Rheumatoid Arthritis
@@ -837,6 +846,9 @@ RA patients have:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — RA potassium: potassium efflux via NLRP3 inflammasome in macrophages (already mapped) drives IL-1β and IL-6 (already mapped) secretion; potassium channel dysregulation in fibroblasts (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of RA.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — RA phosphorus: phosphorus, as ATP precursor in osteoclasts (already mapped) and fibroblasts (already mapped), fuels bone erosion; phosphorus deficiency impairs T-cytotoxic-cell (already mapped) energy and amplifies IL-17A (already mapped) and NF-κB (already mapped) cascade of RA.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — RA chloride: chloride, via CFTR and chloride channels in macrophages (already mapped) and neutrophils (already mapped), modulates ROS burst and synovial inflammation; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of RA.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — RA sulfur: hydrogen sulfide from synoviocytes and macrophages (already mapped) attenuates oxidative stress in inflamed joints; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade and worsens joint destruction in RA.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — RA nitrogen: nitric oxide from macrophages (already mapped) and neutrophils (already mapped) in the synovium mediates vasodilation; excess nitrogen drives oxidative burst amplifying NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of RA.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — RA oxygen: synovial hypoxia drives ROS in macrophages (already mapped) and neutrophils (already mapped); oxygen-induced ROS amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade and synovial pannus formation in RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
