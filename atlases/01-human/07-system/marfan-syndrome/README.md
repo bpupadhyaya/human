@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Marfan sulfur: sulfur, as cysteine in fibroblasts (already mapped) and smooth-muscle cells (already mapped), supports fibrillin-1 (already mapped) disulfide bonding; sulfur deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) remodelling cascade."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Marfan carbon: carbon as backbone of fibrillin-1 (already mapped) and elastin structural proteins in aortic SMCs (already mapped) sustains aortic wall integrity; carbon disruption amplifies TGF-β (already mapped) and IL-6 (already mapped) and MMP (already mapped) cascade of MFS."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Marfan hydrogen: hydrogen-ion pH in aortic fibroblasts (already mapped) and SMCs (already mapped) modulates collagen (already mapped) cross-linking; hydrogen dysregulation amplifies TGF-β (already mapped) and IL-6 (already mapped) fibrotic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Marfan PD-1: PD-1 checkpoint on T-cells (already mapped) modulates aortic inflammatory infiltrate; PD-1 dysregulation amplifies TGF-β (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated cascade of Marfan aortopathy."
 ---
 
 # Marfan Syndrome
@@ -838,6 +847,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Marfan iron: iron, via ferritin in fibroblasts (already mapped) and macrophages (already mapped), modulates ROS in the Marfan aortic wall; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) remodelling cascade.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Marfan chloride: chloride regulates smooth-muscle cell (already mapped) and endothelial cell (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) aortic remodelling cascade of Marfan syndrome.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Marfan sulfur: sulfur, as cysteine in fibroblasts (already mapped) and smooth-muscle cells (already mapped), supports fibrillin-1 (already mapped) disulfide bonding; sulfur deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) remodelling cascade.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Marfan carbon: carbon as backbone of fibrillin-1 (already mapped) and elastin structural proteins in aortic SMCs (already mapped) sustains aortic wall integrity; carbon disruption amplifies TGF-β (already mapped) and IL-6 (already mapped) and MMP (already mapped) cascade of MFS.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Marfan hydrogen: hydrogen-ion pH in aortic fibroblasts (already mapped) and SMCs (already mapped) modulates collagen (already mapped) cross-linking; hydrogen dysregulation amplifies TGF-β (already mapped) and IL-6 (already mapped) fibrotic cascade of Marfan syndrome.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Marfan PD-1: PD-1 checkpoint on T-cells (already mapped) modulates aortic inflammatory infiltrate; PD-1 dysregulation amplifies TGF-β (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated cascade of Marfan aortopathy.
 
 ---
 
