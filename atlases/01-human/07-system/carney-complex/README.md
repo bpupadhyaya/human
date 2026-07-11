@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Carney magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and adrenal (already mapped) cells; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade of Carney complex."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "zinc cofactors fibroblast (already mapped) and cardiomyocyte (already mapped) signalling; zinc deficiency disrupts mTOR (already mapped) and IGF-1 (already mapped) and PRKAR1A (already mapped) cascade amplifying NF-κB (already mapped) signalling in Carney complex."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus in cardiomyocyte (already mapped) and fibroblast (already mapped) fuels ATP-driven PRKAR1A (already mapped) signalling; phosphate dysregulation amplifies mTOR (already mapped) and IGF-1 (already mapped) and NF-κB (already mapped) cascade in Carney complex."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on cardiomyocyte (already mapped) and macrophage (already mapped) regulate myocardial excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
 ---
 
 # Carney Complex
@@ -821,6 +830,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Carney copper: copper supports macrophage (already mapped) and adrenal (already mapped) cell function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade of Carney complex.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Carney iron: iron, via ferritin in macrophages (already mapped) and bone-marrow (already mapped) stroma, fuels cell proliferation; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of Carney complex.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Carney magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and adrenal (already mapped) cells; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade of Carney complex.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — zinc cofactors fibroblast (already mapped) and cardiomyocyte (already mapped) signalling; zinc deficiency disrupts mTOR (already mapped) and IGF-1 (already mapped) and PRKAR1A (already mapped) cascade amplifying NF-κB (already mapped) signalling in Carney complex.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus in cardiomyocyte (already mapped) and fibroblast (already mapped) fuels ATP-driven PRKAR1A (already mapped) signalling; phosphate dysregulation amplifies mTOR (already mapped) and IGF-1 (already mapped) and NF-κB (already mapped) cascade in Carney complex.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on cardiomyocyte (already mapped) and macrophage (already mapped) regulate myocardial excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 
 ---
 

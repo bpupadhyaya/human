@@ -540,6 +540,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "CV sulfur: sulfur-containing glutathione in cardiomyocytes (already mapped) and endothelial cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) and macrophage (already mapped) cascade."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carbon-based fatty acids in smooth-muscle cell (already mapped) and macrophage (already mapped) fuel vascular ATP; disrupted carbon metabolism amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "hydrogen ion dysregulation in smooth-muscle cell (already mapped) and macrophage (already mapped) amplifies vascular tone; proton excess disrupts NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) signalling cascade in cardiovascular disease."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "TNF-α from macrophage (already mapped) amplifies endothelial inflammation; TNF-α excess drives NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade worsening smooth-muscle cell (already mapped) dysfunction in cardiovascular disease."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -796,6 +805,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — CV nitrogen: nitric oxide (NO, nitrogen-derived) in endothelial cells (already mapped) and macrophages (already mapped) regulates vasodilation; NO deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) aggregation cascade.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — CV chloride: chloride channels on cardiomyocytes (already mapped) and smooth muscle cells (already mapped) regulate membrane excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cardiac fibrosis cascade.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — CV sulfur: sulfur-containing glutathione in cardiomyocytes (already mapped) and endothelial cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) and macrophage (already mapped) cascade.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon-based fatty acids in smooth-muscle cell (already mapped) and macrophage (already mapped) fuel vascular ATP; disrupted carbon metabolism amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen ion dysregulation in smooth-muscle cell (already mapped) and macrophage (already mapped) amplifies vascular tone; proton excess disrupts NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) signalling cascade in cardiovascular disease.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — TNF-α from macrophage (already mapped) amplifies endothelial inflammation; TNF-α excess drives NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade worsening smooth-muscle cell (already mapped) dysfunction in cardiovascular disease.
 
 ## Pathology
 
