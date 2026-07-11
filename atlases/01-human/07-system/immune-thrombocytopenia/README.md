@@ -537,6 +537,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "ITP chloride: chloride regulates macrophage (already mapped) and T-cytotoxic cell (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade of ITP."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "ITP carbon: carbon as backbone of anti-platelet antibodies and cytokines (already mapped) sustains autoimmune cascade; carbon metabolites in macrophages (already mapped) and T-cytotoxic cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in ITP."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "ITP nitrogen: nitrogen as backbone of anti-platelet antibodies and cytokines (already mapped) sustains autoimmune signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) in ITP."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "ITP oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and T-cytotoxic cells (already mapped) drives platelet oxidative damage; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) cascade in ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -845,6 +854,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — ITP calcium: calcium, as a second messenger in macrophages (already mapped) and T-cytotoxic cells (already mapped), regulates platelet (already mapped) activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of ITP.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ITP phosphorus: phosphorus, as ATP fuelling macrophages (already mapped) and T-cytotoxic cells (already mapped) phagocytosis, sustains platelet (already mapped) clearance; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of ITP.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — ITP chloride: chloride regulates macrophage (already mapped) and T-cytotoxic cell (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade of ITP.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ITP carbon: carbon as backbone of anti-platelet antibodies and cytokines (already mapped) sustains autoimmune cascade; carbon metabolites in macrophages (already mapped) and T-cytotoxic cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in ITP.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — ITP nitrogen: nitrogen as backbone of anti-platelet antibodies and cytokines (already mapped) sustains autoimmune signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) in ITP.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ITP oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and T-cytotoxic cells (already mapped) drives platelet oxidative damage; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) cascade in ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

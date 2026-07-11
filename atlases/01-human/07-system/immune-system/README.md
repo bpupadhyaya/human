@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "IS chloride: chloride regulates T-helper cells (already mapped) and B-cells (already mapped) ion homeostasis and intracellular signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "IS carbon: carbon as backbone of immunoglobulins (already mapped) and cytokines (already mapped) sustains adaptive immune signalling; carbon metabolites in macrophages (already mapped) and T-helper cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped)."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "IS nitrogen: nitrogen as backbone of all immune proteins and cytokines (already mapped) sustains T-helper (already mapped) and B-cell (already mapped) signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped)."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "IS oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and neutrophils (already mapped) drives oxidative burst; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades."
 ---
 
 # Immune System
@@ -733,6 +742,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IS potassium: potassium regulates T-helper cells (already mapped) and B-cells (already mapped) membrane potential and lymphocyte activation; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IS phosphorus: phosphorus, as ATP in T-helper cells (already mapped) and B-cells (already mapped), fuels lymphocyte proliferation; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IS chloride: chloride regulates T-helper cells (already mapped) and B-cells (already mapped) ion homeostasis and intracellular signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IS carbon: carbon as backbone of immunoglobulins (already mapped) and cytokines (already mapped) sustains adaptive immune signalling; carbon metabolites in macrophages (already mapped) and T-helper cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped).
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IS nitrogen: nitrogen as backbone of all immune proteins and cytokines (already mapped) sustains T-helper (already mapped) and B-cell (already mapped) signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped).
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — IS oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and neutrophils (already mapped) drives oxidative burst; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades.
 
 ## Pathology
 
