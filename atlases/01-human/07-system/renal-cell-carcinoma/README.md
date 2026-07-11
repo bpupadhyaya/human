@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "RCC phosphorus: phosphorus, as ATP donor in mTOR (already mapped) kinase signalling in tumour cells, drives proliferation; phosphate dysregulation amplifies HIF-1α (already mapped) and VEGF (already mapped) angiogenic cascade in renal-cell carcinoma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "RCC carbon: carbon as backbone of HIF-1α (already mapped) and VEGF (already mapped) proteins in tumour cells sustains angiogenic signalling; carbon depletion amplifies NF-κB (already mapped) and VEGF (already mapped) cascade of renal-cell carcinoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "RCC chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride imbalance amplifies NF-κB (already mapped) and VEGF (already mapped) inflammatory cascade of renal-cell carcinoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "RCC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and tumour cells, supports HIF-1α (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) oxidative cascade of renal-cell carcinoma."
 ---
 
 # Renal Cell Carcinoma
@@ -818,6 +827,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — RCC copper: copper-dependent SOD in tumour cells and macrophages (already mapped) quenches HIF-1α (already mapped)-driven ROS; copper excess amplifies VEGF (already mapped) and mTOR (already mapped) angiogenic cascade suppressing T-cytotoxic (already mapped) immunity in RCC.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — RCC potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies HIF-1α (already mapped) and VEGF (already mapped) angiogenic cascade and suppresses T-cytotoxic (already mapped) anti-tumour response in renal-cell carcinoma.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — RCC phosphorus: phosphorus, as ATP donor in mTOR (already mapped) kinase signalling in tumour cells, drives proliferation; phosphate dysregulation amplifies HIF-1α (already mapped) and VEGF (already mapped) angiogenic cascade in renal-cell carcinoma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — RCC carbon: carbon as backbone of HIF-1α (already mapped) and VEGF (already mapped) proteins in tumour cells sustains angiogenic signalling; carbon depletion amplifies NF-κB (already mapped) and VEGF (already mapped) cascade of renal-cell carcinoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — RCC chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride imbalance amplifies NF-κB (already mapped) and VEGF (already mapped) inflammatory cascade of renal-cell carcinoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — RCC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and tumour cells, supports HIF-1α (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) oxidative cascade of renal-cell carcinoma.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

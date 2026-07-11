@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/03-molecular/transferrin
     relation: connects-to
     note: "RS transferrin: transferrin mediates iron (already mapped) transport to tubular cells and macrophages (already mapped); transferrin saturation imbalance amplifies NF-κB (already mapped) renal oxidative stress and TGF-β (already mapped) fibrosis in CKD (already mapped)."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "RS PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates renal immune surveillance; PD-1 dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) inflammatory fibrosis of the renal system."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "RS RANKL: RANKL signalling in macrophages (already mapped) and tubular cells regulates calcium (already mapped) and phosphorus (already mapped) mineral homeostasis in the kidney; RANKL dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) cascade of CKD."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "RS IL-2: IL-2 expands T-cytotoxic cells (already mapped) and regulatory T-cells in renal immune surveillance; IL-2 dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) inflammatory fibrosis in CKD (already mapped) and the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -806,6 +815,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Nitrogen](../../02-atomic/nitrogen/README.md) — RS nitrogen: nitric oxide, synthesised from nitrogenous arginine in endothelial cells (already mapped), maintains GFR; nitrogen deficiency impairs podocyte (already mapped) and tubular integrity, amplifying NF-κB (already mapped) and TGF-β (already mapped) fibrosis.
 - **Connects to:** [Carbon](../../02-atomic/carbon/README.md) — RS carbon: carbon, as the backbone of organic acids in tubular cells, drives mitochondrial ATP; carbon substrate depletion amplifies NF-κB (already mapped) and TGF-β (already mapped) inflammatory fibrosis and worsens CKD (already mapped) progression.
 - **Connects to:** [Transferrin](../../03-molecular/transferrin/README.md) — RS transferrin: transferrin mediates iron (already mapped) transport to tubular cells and macrophages (already mapped); transferrin saturation imbalance amplifies NF-κB (already mapped) renal oxidative stress and TGF-β (already mapped) fibrosis in CKD (already mapped).
+- **Connects to:** [PD-1](../../03-molecular/pd-1/README.md) — RS PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates renal immune surveillance; PD-1 dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) inflammatory fibrosis of the renal system.
+- **Connects to:** [RANKL](../../03-molecular/rankl/README.md) — RS RANKL: RANKL signalling in macrophages (already mapped) and tubular cells regulates calcium (already mapped) and phosphorus (already mapped) mineral homeostasis in the kidney; RANKL dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) cascade of CKD.
+- **Connects to:** [IL-2](../../03-molecular/il-2/README.md) — RS IL-2: IL-2 expands T-cytotoxic cells (already mapped) and regulatory T-cells in renal immune surveillance; IL-2 dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) inflammatory fibrosis in CKD (already mapped) and the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
