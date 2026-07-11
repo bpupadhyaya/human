@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "RA oxygen: synovial hypoxia drives ROS in macrophages (already mapped) and neutrophils (already mapped); oxygen-induced ROS amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade and synovial pannus formation in RA."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "RA carbon: carbon, as metabolic backbone of T-helper cells (already mapped) and macrophages (already mapped) in the synovium, drives pro-inflammatory signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) synovial cascade of RA."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "RA hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and neutrophils (already mapped), modulates synovial oxidative burden; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of RA."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "RA PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) regulates autoimmune tolerance in the synovium; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RA."
 ---
 
 # Rheumatoid Arthritis
@@ -849,6 +858,9 @@ RA patients have:
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — RA sulfur: hydrogen sulfide from synoviocytes and macrophages (already mapped) attenuates oxidative stress in inflamed joints; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade and worsens joint destruction in RA.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — RA nitrogen: nitric oxide from macrophages (already mapped) and neutrophils (already mapped) in the synovium mediates vasodilation; excess nitrogen drives oxidative burst amplifying NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of RA.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — RA oxygen: synovial hypoxia drives ROS in macrophages (already mapped) and neutrophils (already mapped); oxygen-induced ROS amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade and synovial pannus formation in RA.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — RA carbon: carbon, as metabolic backbone of T-helper cells (already mapped) and macrophages (already mapped) in the synovium, drives pro-inflammatory signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) synovial cascade of RA.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — RA hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and neutrophils (already mapped), modulates synovial oxidative burden; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of RA.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — RA PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) regulates autoimmune tolerance in the synovium; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

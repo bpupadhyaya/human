@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "RTS zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and mast-cell (already mapped), supports anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped)-VEGF (already mapped) cascade in RTS."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "RTS carbon: carbon, as metabolic backbone of mTOR (already mapped) and VEGF (already mapped) in macrophages (already mapped), drives proliferative signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in RTS."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "RTS chloride: chloride channels in macrophages (already mapped) and mast-cell (already mapped) regulate immune homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in RTS."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "RTS hydrogen: hydrogen, via redox homeostasis in RECQL4-deficient cells and macrophages (already mapped), quenches genotoxic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in RTS."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -836,6 +845,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — RTS magnesium: magnesium, as DNA-repair cofactor in macrophages (already mapped) and mast-cell (already mapped), maintains genome integrity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in RTS.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — RTS copper: copper-dependent SOD in macrophages (already mapped) and mast-cell (already mapped) quenches ROS from RECQL4-deficient cells; copper imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) osteosarcoma cascade in RTS.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — RTS zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and mast-cell (already mapped), supports anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped)-VEGF (already mapped) cascade in RTS.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — RTS carbon: carbon, as metabolic backbone of mTOR (already mapped) and VEGF (already mapped) in macrophages (already mapped), drives proliferative signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in RTS.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — RTS chloride: chloride channels in macrophages (already mapped) and mast-cell (already mapped) regulate immune homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in RTS.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — RTS hydrogen: hydrogen, via redox homeostasis in RECQL4-deficient cells and macrophages (already mapped), quenches genotoxic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in RTS.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
