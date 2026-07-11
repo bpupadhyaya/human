@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "AN carbon: carbon-skeleton catabolism in starvation depletes glucogenic amino acids fuelling neuron (already mapped) and macrophage (already mapped) function; carbon deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol neuroinflammatory cascade in AN."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "hydrogen, via H2O2 and ROS balance in neurons (already mapped) and macrophages (already mapped), sets redox tone; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade in AN."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "norepinephrine from locus-coeruleus neurons (already mapped) drives stress-induced cortisol (already mapped) hypercortisolism; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory restriction in AN."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "glutamate excitotoxicity in neurons (already mapped) from starvation-induced energy deficit amplifies BDNF (already mapped) suppression; glutamate excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) neuroinflammatory burden in AN."
 ---
 
 # Anorexia Nervosa
@@ -852,6 +861,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — AN nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and macrophages (already mapped) regulates neurotransmission; NO dysregulation amplifies serotonin (already mapped) and dopamine (already mapped) and NF-κB (already mapped) cascade in AN.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — AN oxygen: oxygen deprivation from starvation-induced anaemia (iron already mapped) amplifies neuron (already mapped) oxidative stress; hypoxia upregulates NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in AN.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — AN carbon: carbon-skeleton catabolism in starvation depletes glucogenic amino acids fuelling neuron (already mapped) and macrophage (already mapped) function; carbon deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol neuroinflammatory cascade in AN.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen, via H2O2 and ROS balance in neurons (already mapped) and macrophages (already mapped), sets redox tone; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade in AN.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — norepinephrine from locus-coeruleus neurons (already mapped) drives stress-induced cortisol (already mapped) hypercortisolism; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory restriction in AN.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — glutamate excitotoxicity in neurons (already mapped) from starvation-induced energy deficit amplifies BDNF (already mapped) suppression; glutamate excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) neuroinflammatory burden in AN.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
