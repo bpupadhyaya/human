@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/04-cellular/type-ii-pneumocyte
     relation: connects-to
     note: "Asthma type-ii-pneumocyte: type-II pneumocytes produce surfactant and IL-33 (already mapped) activating mast cells (already mapped) and IgE (already mapped); their injury amplifies TSLP (already mapped) and IL-5 (already mapped) and TGF-β (already mapped) cascade in asthma."
+  - target: 01-human/03-molecular/glutamate
+    relation: connects-to
+    note: "glutamate signalling in airway sensory neurons amplifies C-fibre reflexes and mast-cell (already mapped) degranulation; glutamate excess upregulates NF-κB (already mapped) and IL-5 (already mapped) and IL-13 (already mapped) eosinophilic airway hyperresponsiveness in asthma."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "norepinephrine from sympathetic neurons acts on β2-adrenoceptors of smooth-muscle-cell (already mapped) to mediate bronchodilation; norepinephrine deficiency amplifies IL-13 (already mapped) and IL-5 (already mapped) and TSLP (already mapped) bronchoconstriction in asthma."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "IL-2 from T-helper cells (already mapped) drives Th2 polarisation amplifying IL-4 (already mapped) and IL-5 (already mapped) and IgE (already mapped); IL-2 excess sustains the eosinophilic NLRP3 (already mapped) and NF-κB (already mapped) airway inflammatory cascade in asthma."
 ---
 
 # Asthma
@@ -816,6 +825,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Asthma carbon: carbon-based organic acids regulate airway epithelial pH; disrupted carbon metabolism in mast cells (already mapped) fuels leukotriene synthesis amplifying IL-5 (already mapped) and IgE (already mapped) and IL-13 (already mapped) eosinophilic airway inflammation.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Asthma hydrogen: hydrogen ion dysregulation from airway acidosis in asthma amplifies smooth-muscle-cell (already mapped) contraction; proton excess activates NLRP3 (already mapped) and NF-κB (already mapped) and IL-13 (already mapped) and IL-5 (already mapped) cascade in asthma.
 - `connects-to` → **[Type-II Pneumocyte](../../04-cellular/type-ii-pneumocyte/README.md)** — Asthma type-ii-pneumocyte: type-II pneumocytes produce surfactant and IL-33 (already mapped) activating mast cells (already mapped) and IgE (already mapped); their injury amplifies TSLP (already mapped) and IL-5 (already mapped) and TGF-β (already mapped) cascade in asthma.
+- `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — glutamate signalling in airway sensory neurons amplifies C-fibre reflexes and mast-cell (already mapped) degranulation; glutamate excess upregulates NF-κB (already mapped) and IL-5 (already mapped) and IL-13 (already mapped) eosinophilic airway hyperresponsiveness in asthma.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — norepinephrine from sympathetic neurons acts on β2-adrenoceptors of smooth-muscle-cell (already mapped) to mediate bronchodilation; norepinephrine deficiency amplifies IL-13 (already mapped) and IL-5 (already mapped) and TSLP (already mapped) bronchoconstriction in asthma.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 from T-helper cells (already mapped) drives Th2 polarisation amplifying IL-4 (already mapped) and IL-5 (already mapped) and IgE (already mapped); IL-2 excess sustains the eosinophilic NLRP3 (already mapped) and NF-κB (already mapped) airway inflammatory cascade in asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

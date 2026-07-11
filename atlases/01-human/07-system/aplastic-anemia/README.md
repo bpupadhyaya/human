@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "AA phosphorus: phosphorus fuels erythropoietin (already mapped) signalling and bone-marrow (already mapped) haematopoiesis; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated marrow suppression in AA."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on macrophages (already mapped) and bone-marrow (already mapped) stroma regulate intracellular pH; chloride dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TNF-α (already mapped) immune-mediated haematopoietic failure in AA."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "H2S from sulfur-amino acids in macrophages (already mapped) and bone-marrow (already mapped) stroma scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated haematopoietic failure in AA."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates haematopoietic stem-cell niche; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) marrow suppression in AA."
 ---
 
 # Aplastic Anemia
@@ -812,6 +821,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AA potassium: potassium regulates macrophage (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated bone-marrow (already mapped) suppression in AA.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — AA calcium: calcium regulates macrophage (already mapped) NLRP3 (already mapped) inflammasome activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated haematopoietic failure in aplastic anaemia.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — AA phosphorus: phosphorus fuels erythropoietin (already mapped) signalling and bone-marrow (already mapped) haematopoiesis; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated marrow suppression in AA.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophages (already mapped) and bone-marrow (already mapped) stroma regulate intracellular pH; chloride dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TNF-α (already mapped) immune-mediated haematopoietic failure in AA.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — H2S from sulfur-amino acids in macrophages (already mapped) and bone-marrow (already mapped) stroma scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated haematopoietic failure in AA.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates haematopoietic stem-cell niche; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) marrow suppression in AA.
 
 ---
 
