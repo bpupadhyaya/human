@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "CRC potassium: potassium efflux from macrophages (already mapped) and tumour cells drives NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) tumour cascade of colorectal cancer."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus, as ATP in macrophage (already mapped), fuels WNT/β-catenin (already mapped) and VEGF (already mapped) proliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade in colorectal cancer."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on macrophage (already mapped) and intestinal epithelium (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade of colorectal cancer."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur, as glutathione precursor in macrophage (already mapped) and intestinal epithelium (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
 ---
 
 # Colorectal Cancer
@@ -823,6 +832,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CRC copper: copper-dependent SOD and lysyl oxidase in macrophages (already mapped) and tumour cells modulate ROS and VEGF (already mapped) angiogenesis; copper deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) tumour cascade of colorectal cancer.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CRC sodium: high dietary sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplify WNT/β-catenin (already mapped) and mTOR (already mapped) tumour proliferation of colorectal cancer.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CRC potassium: potassium efflux from macrophages (already mapped) and tumour cells drives NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) tumour cascade of colorectal cancer.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped), fuels WNT/β-catenin (already mapped) and VEGF (already mapped) proliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade in colorectal cancer.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and intestinal epithelium (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade of colorectal cancer.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and intestinal epithelium (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
 
 ---
 

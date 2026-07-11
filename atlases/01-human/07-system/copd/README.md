@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "COPD calcium: calcium regulates macrophage (already mapped) activation and airway smooth-muscle (already mapped) tone; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus, as ATP in macrophage (already mapped) and smooth-muscle cell (already mapped), fuels inflammatory signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on smooth-muscle cell (already mapped) and macrophage (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur, as glutathione precursor in macrophage (already mapped) and smooth-muscle cell (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
 ---
 
 # COPD
@@ -850,6 +859,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — COPD zinc: zinc cofactors macrophage (already mapped) and neutrophil (already mapped) anti-inflammatory function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysematous airway cascade of COPD.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — COPD potassium: potassium regulates macrophage (already mapped) and airway epithelial (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) airway remodelling of COPD.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — COPD calcium: calcium regulates macrophage (already mapped) activation and airway smooth-muscle (already mapped) tone; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped) and smooth-muscle cell (already mapped), fuels inflammatory signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on smooth-muscle cell (already mapped) and macrophage (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and smooth-muscle cell (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
 
 ---
 
