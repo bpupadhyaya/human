@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "PAH magnesium: magnesium, as eNOS (nitric-oxide already mapped) cofactor in endothelial cells (already mapped) and smooth muscle cells (already mapped), supports vasodilation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "PAH copper: copper, as lysyl oxidase cofactor in endothelial cells (already mapped) and smooth muscle cells (already mapped), drives pulmonary vascular ECM remodelling; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "PAH phosphorus: phosphorus-dependent ATP in endothelial cells (already mapped) and smooth muscle cells (already mapped) sustains vascular-tone signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "PAH zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and smooth muscle cells (already mapped), regulates pulmonary ECM remodelling; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -818,6 +827,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PAH iodine: iodine-dependent thyroid hormones regulate endothelial cells (already mapped) and smooth muscle cells (already mapped); thyroid-hormone deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular remodelling cascade of PAH.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PAH sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the PDGF (already mapped) and endothelin-1 (already mapped) vascular remodelling cascade of PAH.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PAH magnesium: magnesium, as eNOS (nitric-oxide already mapped) cofactor in endothelial cells (already mapped) and smooth muscle cells (already mapped), supports vasodilation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PAH copper: copper, as lysyl oxidase cofactor in endothelial cells (already mapped) and smooth muscle cells (already mapped), drives pulmonary vascular ECM remodelling; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PAH phosphorus: phosphorus-dependent ATP in endothelial cells (already mapped) and smooth muscle cells (already mapped) sustains vascular-tone signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — PAH zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and smooth muscle cells (already mapped), regulates pulmonary ECM remodelling; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
