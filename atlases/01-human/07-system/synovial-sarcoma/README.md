@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "SyS copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped), drives stromal remodelling; copper amplifies VEGF (already mapped) angiogenesis; copper deficiency impairs macrophage (already mapped) and T-cytotoxic-cell (already mapped) immunity in SyS."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "SyS zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and T-cytotoxic-cell (already mapped), supports anti-tumour immunity; zinc deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "SyS potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies IL-6 (already mapped) and WNT (already mapped) and mTOR (already mapped) proliferative cascade and suppresses T-cytotoxic-cell (already mapped) immunity in SyS."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "SyS phosphorus: phosphorus, as ATP donor in mTOR (already mapped) kinase signalling in fibroblasts (already mapped) and macrophages (already mapped), fuels sarcoma proliferation; phosphorus dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) in SyS."
 ---
 
 # Synovial Sarcoma
@@ -813,6 +822,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SyS iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies VEGF (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-promotion cascade of synovial sarcoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SyS sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the VEGF (already mapped) and mTOR (already mapped) and YAP1 (already mapped)-driven proliferative cascade of synovial sarcoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SyS copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped), drives stromal remodelling; copper amplifies VEGF (already mapped) angiogenesis; copper deficiency impairs macrophage (already mapped) and T-cytotoxic-cell (already mapped) immunity in SyS.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — SyS zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and T-cytotoxic-cell (already mapped), supports anti-tumour immunity; zinc deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — SyS potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies IL-6 (already mapped) and WNT (already mapped) and mTOR (already mapped) proliferative cascade and suppresses T-cytotoxic-cell (already mapped) immunity in SyS.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — SyS phosphorus: phosphorus, as ATP donor in mTOR (already mapped) kinase signalling in fibroblasts (already mapped) and macrophages (already mapped), fuels sarcoma proliferation; phosphorus dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) in SyS.
 
 ---
 

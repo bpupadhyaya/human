@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "SLE copper: copper, via ceruloplasmin and SOD in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and complement-c3 (already mapped) and IL-6 (already mapped) autoimmune inflammation in SLE."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "SLE phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and neutrophils (already mapped), fuels autoimmune effector function; phosphorus deficiency amplifies NF-κB (already mapped) and complement-c3 (already mapped) and IL-6 (already mapped) cascade of SLE."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "SLE chloride: chloride, via chloride channels in macrophages (already mapped) and neutrophils (already mapped), regulates ROS burst; chloride dysregulation amplifies NF-κB (already mapped) and complement-c3 (already mapped) and IL-6 (already mapped) autoimmune cascade of SLE."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "SLE sulfur: hydrogen sulfide from endothelial cells (already mapped) and macrophages (already mapped) modulates autoimmune vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and complement-c3 (already mapped) and IL-6 (already mapped) cascade of SLE."
 ---
 
 # Systemic Lupus Erythematosus
@@ -819,6 +828,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — SLE magnesium: magnesium stabilises NLRP3 inflammasome (already mapped) and attenuates NF-κB (already mapped) complement-driven (C3/C5 already mapped) flares in SLE; magnesium deficiency worsens type-I IFN (already mapped) and B-cell (already mapped) autoreactive expansion.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — SLE zinc: zinc cofactors macrophage (already mapped) anti-inflammatory function and regulatory homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-i-interferon (already mapped) driven B-cell (already mapped) autoimmune cascade in SLE.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SLE copper: copper, via ceruloplasmin and SOD in macrophages (already mapped) and neutrophils (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and complement-c3 (already mapped) and IL-6 (already mapped) autoimmune inflammation in SLE.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — SLE phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and neutrophils (already mapped), fuels autoimmune effector function; phosphorus deficiency amplifies NF-κB (already mapped) and complement-c3 (already mapped) and IL-6 (already mapped) cascade of SLE.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — SLE chloride: chloride, via chloride channels in macrophages (already mapped) and neutrophils (already mapped), regulates ROS burst; chloride dysregulation amplifies NF-κB (already mapped) and complement-c3 (already mapped) and IL-6 (already mapped) autoimmune cascade of SLE.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SLE sulfur: hydrogen sulfide from endothelial cells (already mapped) and macrophages (already mapped) modulates autoimmune vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and complement-c3 (already mapped) and IL-6 (already mapped) cascade of SLE.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
