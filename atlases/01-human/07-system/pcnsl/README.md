@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "PCNSL magnesium: magnesium, as cofactor of DNA repair enzymes in neurons (already mapped) and macrophages (already mapped), supports brain-immune homeostasis; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of PCNSL."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "PCNSL copper: copper-dependent enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustain CNS tumour-immune balance; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in the primary CNS lymphoma microenvironment."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "PCNSL phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) drives lymphoma-infiltrating immune responses; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in PCNSL."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "PCNSL zinc: zinc co-factors in macrophage (already mapped) and T-cytotoxic (already mapped) immune effector functions; zinc depletion exacerbates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling and microglia (already mapped) activation in PCNSL."
 ---
 
 # Primary CNS Lymphoma
@@ -801,6 +810,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — PCNSL iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of primary CNS lymphoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PCNSL sodium: excess sodium promotes macrophage (already mapped) and microglia (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) CNS lymphoma cascade.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PCNSL magnesium: magnesium, as cofactor of DNA repair enzymes in neurons (already mapped) and macrophages (already mapped), supports brain-immune homeostasis; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of PCNSL.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PCNSL copper: copper-dependent enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustain CNS tumour-immune balance; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in the primary CNS lymphoma microenvironment.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PCNSL phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) drives lymphoma-infiltrating immune responses; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in PCNSL.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — PCNSL zinc: zinc co-factors in macrophage (already mapped) and T-cytotoxic (already mapped) immune effector functions; zinc depletion exacerbates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling and microglia (already mapped) activation in PCNSL.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

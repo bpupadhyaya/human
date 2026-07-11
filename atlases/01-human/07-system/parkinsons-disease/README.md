@@ -529,6 +529,12 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "PD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), maintains dopaminergic neuron energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Parkinson's disease."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "PD chloride: chloride via GABA-A Cl⁻ channels sets neuronal inhibitory tone in neurons (already mapped) and microglia (already mapped); chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Parkinson's disease."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "PD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) buffers α-synuclein oxidative stress; sulfur deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Parkinson's disease."
 ---
 
 # Parkinson's Disease
@@ -838,6 +844,8 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PD sodium: excess sodium promotes microglia (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) skewing amplifies the neuroinflammatory cascade of Parkinson's disease.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PD potassium: potassium regulates neuron (already mapped) and microglia (already mapped) membrane excitability; potassium dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade and dopaminergic degeneration of Parkinson's disease.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), maintains dopaminergic neuron energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Parkinson's disease.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PD chloride: chloride via GABA-A Cl⁻ channels sets neuronal inhibitory tone in neurons (already mapped) and microglia (already mapped); chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Parkinson's disease.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) buffers α-synuclein oxidative stress; sulfur deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Parkinson's disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
