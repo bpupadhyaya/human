@@ -523,6 +523,12 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "PNH copper: copper, as ceruloplasmin cofactor in macrophages (already mapped) and hepatocytes (already mapped), supports iron (already mapped) recycling from haemolysed erythrocytes (already mapped); copper deficiency amplifies the IL-6 (already mapped) cascade of PNH."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "PNH phosphorus: phosphorus-dependent ATP in erythrocytes (already mapped) and platelets (already mapped) sustains membrane integrity against complement-C5 (already mapped) haemolysis; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PNH."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "PNH chloride: chloride via anion exchangers in erythrocytes (already mapped) maintains osmotic haemoglobin integrity; chloride dysregulation amplifies the complement-C5 (already mapped) haemolysis and NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -783,6 +789,8 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — PNH sodium: excess sodium promotes macrophage (already mapped) and neutrophil (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the complement-C5 (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PNH magnesium: magnesium, as ATP-synthesis cofactor in erythrocytes (already mapped) and platelets (already mapped), maintains haematopoietic homeostasis; magnesium deficiency amplifies NF-κB (already mapped) and complement-C5 (already mapped) haemolysis in PNH.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PNH copper: copper, as ceruloplasmin cofactor in macrophages (already mapped) and hepatocytes (already mapped), supports iron (already mapped) recycling from haemolysed erythrocytes (already mapped); copper deficiency amplifies the IL-6 (already mapped) cascade of PNH.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PNH phosphorus: phosphorus-dependent ATP in erythrocytes (already mapped) and platelets (already mapped) sustains membrane integrity against complement-C5 (already mapped) haemolysis; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PNH.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PNH chloride: chloride via anion exchangers in erythrocytes (already mapped) maintains osmotic haemoglobin integrity; chloride dysregulation amplifies the complement-C5 (already mapped) haemolysis and NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of PNH.
 
 ---
 
