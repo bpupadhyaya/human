@@ -527,6 +527,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Lymphatic sulfur: sulfur, as glutathione precursor in macrophages (already mapped) and B-cells (already mapped), scavenges lymphatic ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic dysfunction."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Lymphatic carbon: carbon as backbone of cytokines (already mapped) and lymphocyte (already mapped) receptor proteins sustains immune surveillance; carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic system."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Lymphatic hydrogen: hydrogen-ion pH in lymph fluid and macrophages (already mapped) maintains lysosomal (already mapped) antigen processing; hydrogen-ion dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic system."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Lymphatic nitrogen: nitrogen in nitric oxide (already mapped) modulates lymph vessel (already mapped) tone and lymphocyte (already mapped) trafficking; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic system."
 ---
 
 # Lymphatic System
@@ -806,6 +815,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Lymphatic phosphorus: phosphorus, as ATP in macrophages (already mapped) and B-cells (already mapped), fuels lymphocyte proliferation and lymph transport; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Lymphatic chloride: chloride regulates macrophage (already mapped) and B-cell (already mapped) ion homeostasis and intracellular signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic dysfunction.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Lymphatic sulfur: sulfur, as glutathione precursor in macrophages (already mapped) and B-cells (already mapped), scavenges lymphatic ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic dysfunction.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Lymphatic carbon: carbon as backbone of cytokines (already mapped) and lymphocyte (already mapped) receptor proteins sustains immune surveillance; carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic system.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Lymphatic hydrogen: hydrogen-ion pH in lymph fluid and macrophages (already mapped) maintains lysosomal (already mapped) antigen processing; hydrogen-ion dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic system.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Lymphatic nitrogen: nitrogen in nitric oxide (already mapped) modulates lymph vessel (already mapped) tone and lymphocyte (already mapped) trafficking; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic system.
 
 ## Pathology
 
