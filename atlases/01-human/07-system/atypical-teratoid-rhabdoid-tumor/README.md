@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "ATRT zinc: zinc cofactors macrophage (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) and VEGF (already mapped) tumour-promoting cascade in ATRT."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "ATRT iodine: iodine supports thyroid-hormone-driven differentiation in brain (already mapped) tumour cells; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) and VEGF (already mapped) cascade in ATRT."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "ATRT copper: copper is a cofactor of antioxidant enzymes in macrophages (already mapped) and tumour cells; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "ATRT phosphorus: phosphorus fuels PI3K/AKT/mTOR (already mapped) signalling and energy metabolism in brain (already mapped) tumour cells; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -818,6 +827,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ATRT sodium: sodium dysregulation in bone-marrow (already mapped) stroma and tumour cells amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade in ATRT.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ATRT potassium: potassium regulates macrophage (already mapped) and tumour cell membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade in ATRT.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ATRT zinc: zinc cofactors macrophage (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) and VEGF (already mapped) tumour-promoting cascade in ATRT.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — ATRT iodine: iodine supports thyroid-hormone-driven differentiation in brain (already mapped) tumour cells; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) and VEGF (already mapped) cascade in ATRT.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — ATRT copper: copper is a cofactor of antioxidant enzymes in macrophages (already mapped) and tumour cells; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ATRT phosphorus: phosphorus fuels PI3K/AKT/mTOR (already mapped) signalling and energy metabolism in brain (already mapped) tumour cells; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in ATRT.
 
 ---
 
