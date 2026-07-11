@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Melanoma phosphorus: phosphorus, as phospholipid and ATP in macrophages (already mapped) and mast cells (already mapped), supports antitumour signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of melanoma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Melanoma carbon: carbon as backbone of BRAF (already mapped) and MITF signalling proteins in melanocytes (already mapped) sustains proliferative control; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) oncogenic cascade of melanoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Melanoma chloride: chloride regulates melanocyte (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immunosuppressive tumour cascade of melanoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Melanoma nitrogen: nitrogen in amino-acid scaffold of BRAF (already mapped) and PD-L1 proteins modulates T-cell (already mapped) immune evasion; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of melanoma."
 ---
 
 # Melanoma
@@ -797,6 +806,9 @@ cross_links:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Melanoma calcium: calcium signals in macrophages (already mapped) and mast cells (already mapped) regulate immune activation; calcium flux amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Melanoma potassium: potassium channels regulate macrophage (already mapped) and T-cytotoxic (already mapped) antitumour function; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Melanoma phosphorus: phosphorus, as phospholipid and ATP in macrophages (already mapped) and mast cells (already mapped), supports antitumour signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of melanoma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Melanoma carbon: carbon as backbone of BRAF (already mapped) and MITF signalling proteins in melanocytes (already mapped) sustains proliferative control; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) oncogenic cascade of melanoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Melanoma chloride: chloride regulates melanocyte (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immunosuppressive tumour cascade of melanoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Melanoma nitrogen: nitrogen in amino-acid scaffold of BRAF (already mapped) and PD-L1 proteins modulates T-cell (already mapped) immune evasion; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

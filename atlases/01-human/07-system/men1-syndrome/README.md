@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "MEN1 sulfur: sulfur-containing amino acids in macrophages (already mapped) and fibroblasts (already mapped) maintain redox buffering; sulfur depletion amplifies IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of MEN1 syndrome."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "MEN1 carbon: carbon as backbone of menin and MLL protein scaffold sustains histone (already mapped) methylation and tumour suppression; carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) neuroendocrine cascade of MEN1."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MEN1 nitrogen: nitrogen in amino-acid scaffold of menin and CDKN1B proteins modulates neuroendocrine (already mapped) cell-cycle control; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and gastrin (already mapped) cascade of MEN1 syndrome."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "MEN1 oxygen: oxygen, via ROS in neuroendocrine cells (already mapped) and macrophages (already mapped), drives oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumourigenic cascade of MEN1 syndrome."
 ---
 
 # MEN1 Syndrome
@@ -819,6 +828,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — MEN1 iron: iron, via ferritin in macrophages (already mapped) and fibroblasts (already mapped), modulates redox balance in the MEN1 tumour microenvironment; iron dysregulation amplifies IL-6 (already mapped) and mTOR (already mapped) cascade of MEN1 syndrome.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MEN1 chloride: chloride channels regulate macrophage (already mapped) and endothelial cell (already mapped) ion homeostasis in the MEN1 neuroendocrine microenvironment; chloride imbalance amplifies IL-6 (already mapped) and VEGF (already mapped) cascade.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MEN1 sulfur: sulfur-containing amino acids in macrophages (already mapped) and fibroblasts (already mapped) maintain redox buffering; sulfur depletion amplifies IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of MEN1 syndrome.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MEN1 carbon: carbon as backbone of menin and MLL protein scaffold sustains histone (already mapped) methylation and tumour suppression; carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) neuroendocrine cascade of MEN1.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MEN1 nitrogen: nitrogen in amino-acid scaffold of menin and CDKN1B proteins modulates neuroendocrine (already mapped) cell-cycle control; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and gastrin (already mapped) cascade of MEN1 syndrome.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MEN1 oxygen: oxygen, via ROS in neuroendocrine cells (already mapped) and macrophages (already mapped), drives oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumourigenic cascade of MEN1 syndrome.
 
 ---
 
