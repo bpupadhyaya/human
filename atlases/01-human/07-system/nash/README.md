@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "NASH chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion homeostasis; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammatory cascade in NASH."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "NASH carbon: carbon as backbone of lipid-metabolising enzymes (FASN, PNPLA3) and NF-κB (already mapped) proteins in hepatocytes (already mapped) sustains steatosis; carbon depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade in NASH."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "NASH hydrogen: hydrogen, via NADPH redox in hepatocytes (already mapped) and Kupffer macrophages (already mapped), drives fatty-acid oxidation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade in NASH."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "NASH nitrogen: nitrogen in amino-acid scaffold of lipid-metabolising enzymes and NF-κB (already mapped) proteins in hepatocytes (already mapped) sustains lipid homeostasis; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade in NASH."
 ---
 
 # NASH
@@ -796,6 +805,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — NASH potassium: potassium channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion homeostasis; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic fibrotic cascade in NASH.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — NASH phosphorus: phosphorus, as phospholipid in hepatocytes (already mapped) and ATP in macrophages (already mapped), drives lipid metabolism; phosphorus depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) and TGF-β (already mapped) cascade in NASH.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NASH chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion homeostasis; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammatory cascade in NASH.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — NASH carbon: carbon as backbone of lipid-metabolising enzymes (FASN, PNPLA3) and NF-κB (already mapped) proteins in hepatocytes (already mapped) sustains steatosis; carbon depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade in NASH.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — NASH hydrogen: hydrogen, via NADPH redox in hepatocytes (already mapped) and Kupffer macrophages (already mapped), drives fatty-acid oxidation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade in NASH.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NASH nitrogen: nitrogen in amino-acid scaffold of lipid-metabolising enzymes and NF-κB (already mapped) proteins in hepatocytes (already mapped) sustains lipid homeostasis; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade in NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Nervous-system adiponectin: adiponectin, signalling via AMPK in neurons (already mapped) and microglia (already mapped), attenuates neuroinflammation; adiponectin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Nervous-system PD-1: PD-1 checkpoint on T-regulatory (already mapped) and cytotoxic T-cells (already mapped) modulates CNS neuroinflammation and neurodegeneration; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Nervous-system angiotensin-II: angiotensin-II via AT1R on microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Nervous-system WNT: WNT/β-catenin signalling in neurons (already mapped) and astrocytes (already mapped) governs CNS development and repair; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of the nervous system."
 ---
 
 # Nervous System
@@ -762,6 +771,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Nervous-system hydrogen: hydrogen, as water and H₂S in neurons (already mapped) and microglia (already mapped), maintains redox homeostasis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of the nervous system.
 - `connects-to` → **[Transferrin](../../03-molecular/transferrin/README.md)** — Nervous-system transferrin: transferrin shuttles iron (already mapped) to neurons (already mapped) and microglia (already mapped) for myelination; transferrin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Nervous-system adiponectin: adiponectin, signalling via AMPK in neurons (already mapped) and microglia (already mapped), attenuates neuroinflammation; adiponectin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Nervous-system PD-1: PD-1 checkpoint on T-regulatory (already mapped) and cytotoxic T-cells (already mapped) modulates CNS neuroinflammation and neurodegeneration; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Nervous-system angiotensin-II: angiotensin-II via AT1R on microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Nervous-system WNT: WNT/β-catenin signalling in neurons (already mapped) and astrocytes (already mapped) governs CNS development and repair; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of the nervous system.
 
 [^kandel-principles-ns]: Kandel ER, Koester JD, Mack SH, Siegelbaum SA. *Principles of Neural Science.* 6th ed. McGraw-Hill; 2021.
 [^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.
