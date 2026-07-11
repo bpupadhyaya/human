@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "AS copper: copper, via SOD in macrophages (already mapped) and osteoblasts (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-17A (already mapped) and NLRP3 (already mapped) and TNF-α (already mapped) osteoproliferative cascade in AS."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on macrophages (already mapped) and osteoblasts (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "H2S from sulfur-amino acids in macrophages (already mapped) and osteoblasts (already mapped) promotes cytoprotection; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitric oxide from iNOS in macrophages (already mapped) and osteoblasts (already mapped) modulates bone turnover; nitrogen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) and TNF-α (already mapped) spondylitic cascade in AS."
 ---
 
 # Ankylosing Spondylitis
@@ -816,6 +825,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AS potassium: potassium regulates macrophage (already mapped) and osteoblast (already mapped) membrane function; potassium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) and IL-6 (already mapped) cascade in AS.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — AS zinc: zinc cofactors macrophage (already mapped) anti-inflammatory function and osteoblast (already mapped) mineralisation; zinc deficiency amplifies NF-κB (already mapped) and IL-17A (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AS.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — AS copper: copper, via SOD in macrophages (already mapped) and osteoblasts (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-17A (already mapped) and NLRP3 (already mapped) and TNF-α (already mapped) osteoproliferative cascade in AS.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophages (already mapped) and osteoblasts (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — H2S from sulfur-amino acids in macrophages (already mapped) and osteoblasts (already mapped) promotes cytoprotection; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide from iNOS in macrophages (already mapped) and osteoblasts (already mapped) modulates bone turnover; nitrogen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) and TNF-α (already mapped) spondylitic cascade in AS.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
