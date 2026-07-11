@@ -541,6 +541,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "DM chloride: chloride, via ClC channels on macrophages (already mapped) and mast-cell (already mapped), regulates cytosolic pH for lysosomal killing; chloride imbalance amplifies NF-κB (already mapped) and IFN-γ (already mapped) perimysial inflammation of dermatomyositis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur, as glutathione precursor in macrophage (already mapped) and mast-cell (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) perimysial inflammation of dermatomyositis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitrogen in macrophage (already mapped) and mast-cell (already mapped) drives nitric-oxide-mediated muscle inflammation; nitrogen dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) perimysial cascade of dermatomyositis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carbon metabolism in macrophage (already mapped) and mast-cell (already mapped) drives oxidative phosphorylation; carbon dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) perimysial inflammation of dermatomyositis."
 ---
 ---
 
@@ -841,6 +850,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — DM copper: copper-dependent SOD in macrophages (already mapped) and mast-cell (already mapped) counters oxidative stress; copper deficiency amplifies NF-κB (already mapped) and IFN-γ (already mapped) and TGF-β (already mapped) perimysial inflammation in dermatomyositis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — DM potassium: potassium efflux from macrophages (already mapped) and mast-cell (already mapped) drives NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-17A (already mapped) perimysial inflammation of dermatomyositis.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — DM chloride: chloride, via ClC channels on macrophages (already mapped) and mast-cell (already mapped), regulates cytosolic pH for lysosomal killing; chloride imbalance amplifies NF-κB (already mapped) and IFN-γ (already mapped) perimysial inflammation of dermatomyositis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and mast-cell (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) perimysial inflammation of dermatomyositis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen in macrophage (already mapped) and mast-cell (already mapped) drives nitric-oxide-mediated muscle inflammation; nitrogen dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) perimysial cascade of dermatomyositis.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon metabolism in macrophage (already mapped) and mast-cell (already mapped) drives oxidative phosphorylation; carbon dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) perimysial inflammation of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Dengue phosphorus: phosphorus, as ATP in macrophages (already mapped) and endothelial cells (already mapped), fuels repair signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on macrophage (already mapped) and endothelial cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur, as glutathione precursor in macrophage (already mapped) and endothelial cell (already mapped), counters NS1-driven ROS; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitrogen, as nitric oxide (already mapped) precursor in macrophage (already mapped) and endothelial cell (already mapped), modulates antiviral innate immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of dengue fever."
 ---
 
 # Dengue Fever
@@ -811,3 +820,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Dengue copper: copper in macrophages (already mapped) and endothelial cells (already mapped) scavenges NS1-driven ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Dengue zinc: zinc cofactors macrophage (already mapped) and endothelial (already mapped) anti-inflammatory function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) hyperinflammatory vascular cascade of dengue fever.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Dengue phosphorus: phosphorus, as ATP in macrophages (already mapped) and endothelial cells (already mapped), fuels repair signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and endothelial cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and endothelial cell (already mapped), counters NS1-driven ROS; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen, as nitric oxide (already mapped) precursor in macrophage (already mapped) and endothelial cell (already mapped), modulates antiviral innate immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of dengue fever.
