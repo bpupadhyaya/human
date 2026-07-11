@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "MPN sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) maintain redox buffering; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative oxidative cascade."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "MPN carbon: carbon as backbone of JAK2 (already mapped) and calreticulin structural proteins in megakaryocytes (already mapped) sustains clonal myeloid expansion; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "MPN hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and neutrophils (already mapped), supports JAK2 (already mapped) signalling in myeloproliferative bone marrow; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MPN nitrogen: nitrogen in amino-acid scaffold of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade."
 ---
 
 # Myeloproliferative Neoplasms
@@ -843,6 +852,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — MPN calcium: calcium, as second messenger in macrophages (already mapped) and mast cells (already mapped), regulates myeloid cell activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haematopoietic cascade of myeloproliferative neoplasms.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MPN chloride: chloride channels regulate macrophage (already mapped) and neutrophil (already mapped) ion homeostasis in the myeloproliferative bone marrow; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MPN sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) maintain redox buffering; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative oxidative cascade.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MPN carbon: carbon as backbone of JAK2 (already mapped) and calreticulin structural proteins in megakaryocytes (already mapped) sustains clonal myeloid expansion; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MPN hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and neutrophils (already mapped), supports JAK2 (already mapped) signalling in myeloproliferative bone marrow; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MPN nitrogen: nitrogen in amino-acid scaffold of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

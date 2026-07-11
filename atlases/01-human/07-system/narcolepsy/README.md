@@ -516,6 +516,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Narcolepsy carbon: carbon, as backbone of orexin peptide in neurons (already mapped) and microglia (already mapped)-derived metabolites, shapes hypocretin synthesis; carbon dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) cascade of narcolepsy."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Narcolepsy hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), supports orexin receptor signalling; hydrogen dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Narcolepsy angiotensin-II: angiotensin-II via AT1R on microglia (already mapped) and hypothalamic neurons (already mapped) modulates orexin circuit vascular tone; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of narcolepsy."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Narcolepsy VEGF: VEGF from microglia (already mapped) and T-cytotoxic cells (already mapped) modulates hypothalamic blood-brain barrier integrity; VEGF dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) orexin-loss cascade of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -822,6 +831,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Narcolepsy nitrogen: nitrogen, as nitric oxide in neurons (already mapped) and microglia (already mapped), regulates cerebral blood flow; nitrogen dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory arousal cascade of narcolepsy.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Narcolepsy oxygen: oxygen drives aerobic energy in orexin neurons (already mapped) and microglia (already mapped); hypoxia amplifies TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy disorder.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Narcolepsy carbon: carbon, as backbone of orexin peptide in neurons (already mapped) and microglia (already mapped)-derived metabolites, shapes hypocretin synthesis; carbon dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) cascade of narcolepsy.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Narcolepsy hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), supports orexin receptor signalling; hydrogen dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Narcolepsy angiotensin-II: angiotensin-II via AT1R on microglia (already mapped) and hypothalamic neurons (already mapped) modulates orexin circuit vascular tone; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of narcolepsy.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Narcolepsy VEGF: VEGF from microglia (already mapped) and T-cytotoxic cells (already mapped) modulates hypothalamic blood-brain barrier integrity; VEGF dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) orexin-loss cascade of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
