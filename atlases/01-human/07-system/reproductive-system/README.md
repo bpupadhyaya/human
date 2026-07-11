@@ -518,6 +518,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Reproductive sulfur: hydrogen sulfide from smooth-muscle cells (already mapped) and endothelial cells (already mapped) promotes uteroplacental vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Reproductive nitrogen: nitric oxide from arginine in endothelial cells (already mapped) and smooth-muscle cells (already mapped) drives uteroplacental vasodilation; nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Reproductive oxygen: ROS from smooth-muscle cells (already mapped) and macrophages (already mapped) drive inflammatory signalling; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs steroidogenesis in the reproductive system."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Reproductive carbon: carbon, as steroid-hormone backbone in gonadal cells and endothelial cells (already mapped), drives oestrogen and progesterone synthesis; carbon substrate depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and disrupts HPG-axis cascade."
 ---
 
 # Reproductive System
@@ -800,6 +809,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Reproductive phosphorus: phosphorus, as ATP precursor in smooth-muscle cells (already mapped) and macrophages (already mapped), supports uterine contractility; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Reproductive chloride: chloride, via CFTR channels in uterine epithelium and neurons (already mapped), regulates fluid secretion and sperm motility; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Reproductive sulfur: hydrogen sulfide from smooth-muscle cells (already mapped) and endothelial cells (already mapped) promotes uteroplacental vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Reproductive nitrogen: nitric oxide from arginine in endothelial cells (already mapped) and smooth-muscle cells (already mapped) drives uteroplacental vasodilation; nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Reproductive oxygen: ROS from smooth-muscle cells (already mapped) and macrophages (already mapped) drive inflammatory signalling; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs steroidogenesis in the reproductive system.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Reproductive carbon: carbon, as steroid-hormone backbone in gonadal cells and endothelial cells (already mapped), drives oestrogen and progesterone synthesis; carbon substrate depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and disrupts HPG-axis cascade.
 
 ## Pathology
 
