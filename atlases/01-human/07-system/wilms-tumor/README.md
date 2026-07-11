@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Wilms calcium: calcium signalling in nephroblastoma cells (kidney already mapped) drives WNT/β-catenin (already mapped) and mTOR (already mapped) blastemal proliferation; calcium dysregulation amplifies IL-6 (already mapped) and IGF-1 (already mapped) growth in Wilms tumour."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Wilms carbon: carbon, as metabolic backbone of WT1 (already mapped) in nephroblastoma cells (kidney already mapped) and macrophages (already mapped), drives blastemal growth; carbon dysregulation amplifies IGF-1 (already mapped) and IL-6 (already mapped) of Wilms tumour."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Wilms chloride: chloride channels in macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulate tumour-immune homeostasis; chloride dysregulation amplifies IL-6 (already mapped) and IGF-1 (already mapped) blastemal growth cascade of Wilms tumour."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Wilms hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), quenches tumour ROS; hydrogen dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) blastemal cascade of Wilms tumour."
 ---
 
 # Wilms Tumor
@@ -828,6 +837,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Wilms zinc: zinc-dependent MMPs in macrophages (already mapped) remodel the tumour stroma; zinc deficiency amplifies IGF-1 (already mapped) and mTOR (already mapped) and VEGF (already mapped) blastema proliferation and impairs t-cytotoxic-cell (already mapped) in Wilms tumour.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Wilms potassium: potassium efflux from macrophages (already mapped) and tumour cells drives NLRP3-IL-1β; potassium dysregulation amplifies IGF-1 (already mapped) and mTOR (already mapped) and IL-6 (already mapped) blastema tumour cascade of Wilms tumour.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Wilms calcium: calcium signalling in nephroblastoma cells (kidney already mapped) drives WNT/β-catenin (already mapped) and mTOR (already mapped) blastemal proliferation; calcium dysregulation amplifies IL-6 (already mapped) and IGF-1 (already mapped) growth in Wilms tumour.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Wilms carbon: carbon, as metabolic backbone of WT1 (already mapped) in nephroblastoma cells (kidney already mapped) and macrophages (already mapped), drives blastemal growth; carbon dysregulation amplifies IGF-1 (already mapped) and IL-6 (already mapped) of Wilms tumour.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Wilms chloride: chloride channels in macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulate tumour-immune homeostasis; chloride dysregulation amplifies IL-6 (already mapped) and IGF-1 (already mapped) blastemal growth cascade of Wilms tumour.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Wilms hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), quenches tumour ROS; hydrogen dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) blastemal cascade of Wilms tumour.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

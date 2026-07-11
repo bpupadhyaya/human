@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Wound carbon: CO2 in bicarbonate buffering of macrophages (already mapped) and fibroblasts (already mapped) regulates pH for collagen (already mapped) synthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory phase of wound healing."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Wound PD-1: PD-1 on macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulates wound-immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) resolution transition of wound healing."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Wound GLP-1: GLP-1 signalling in macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic homeostasis of wound repair; GLP-1 dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade of wound healing."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Wound angiotensin-II: angiotensin-II in fibroblasts (already mapped) and macrophages (already mapped) promotes TGF-β (already mapped)-driven wound contraction and scarring; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of wound healing."
 ---
 
 # Wound Healing
@@ -826,6 +835,9 @@ cross_links:
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Wound sulfur: H2S from sulfur-amino acids in fibroblasts (already mapped) and macrophages (already mapped) promotes vasodilation; sulfur deficiency impairs TGF-β (already mapped) and VEGF (already mapped) collagen (already mapped) synthesis and prolongs wound inflammation.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Wound nitrogen: nitric oxide from iNOS in macrophages (already mapped) and fibroblasts (already mapped) promotes vasodilation and collagen (already mapped) crosslinking; nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of wound healing.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Wound carbon: CO2 in bicarbonate buffering of macrophages (already mapped) and fibroblasts (already mapped) regulates pH for collagen (already mapped) synthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory phase of wound healing.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Wound PD-1: PD-1 on macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulates wound-immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) resolution transition of wound healing.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Wound GLP-1: GLP-1 signalling in macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic homeostasis of wound repair; GLP-1 dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade of wound healing.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Wound angiotensin-II: angiotensin-II in fibroblasts (already mapped) and macrophages (already mapped) promotes TGF-β (already mapped)-driven wound contraction and scarring; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
