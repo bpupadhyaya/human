@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "AUD chloride: chloride channels in macrophages (already mapped) and hepatocytes (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade in AUD."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "mitochondrial oxygen in hepatocytes (already mapped) and neurons (already mapped) sustains ATP for ethanol metabolism; hypoxia amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TGF-β (already mapped) hepatic neuroinflammatory fibrotic cascade in AUD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carbon, via bicarbonate in hepatocytes (already mapped) and macrophages (already mapped), maintains pH homeostasis during ethanol metabolism; carbon dioxide excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TGF-β (already mapped) fibrotic cascade in AUD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "H2S from sulfur-amino acids in hepatocytes (already mapped) and neurons (already mapped) promotes cytoprotection; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TGF-β (already mapped) hepatic fibrotic neuroinflammatory cascade in AUD."
 ---
 
 # Alcohol Use Disorder
@@ -891,6 +900,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — AUD calcium: calcium regulates neuron (already mapped) excitability and dopamine (already mapped) signalling; calcium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) hepatocyte (already mapped) liver injury in AUD.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — AUD nitrogen: nitric oxide (NO, nitrogen-derived) in macrophages (already mapped) and hepatocytes (already mapped) modulates liver inflammation; NO excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AUD.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — AUD chloride: chloride channels in macrophages (already mapped) and hepatocytes (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade in AUD.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — mitochondrial oxygen in hepatocytes (already mapped) and neurons (already mapped) sustains ATP for ethanol metabolism; hypoxia amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TGF-β (already mapped) hepatic neuroinflammatory fibrotic cascade in AUD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon, via bicarbonate in hepatocytes (already mapped) and macrophages (already mapped), maintains pH homeostasis during ethanol metabolism; carbon dioxide excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TGF-β (already mapped) fibrotic cascade in AUD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — H2S from sulfur-amino acids in hepatocytes (already mapped) and neurons (already mapped) promotes cytoprotection; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TGF-β (already mapped) hepatic fibrotic neuroinflammatory cascade in AUD.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
