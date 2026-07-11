@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "DMG zinc: zinc cofactors microglia (already mapped) and macrophage (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive glioma cascade of diffuse midline glioma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus, as ATP in microglia (already mapped) and macrophage (already mapped), fuels mTOR (already mapped) glioma proliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and p53 (already mapped) immunosuppressive cascade."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on microglia (already mapped) and macrophage (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) immunosuppressive glioma cascade of diffuse midline glioma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur, as glutathione precursor in microglia (already mapped) and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) glioma cascade of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -838,6 +847,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — DMG magnesium: magnesium cofactors kinase signalling in microglia (already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive neuroinflammatory glioma cascade of diffuse midline glioma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — DMG copper: copper supports microglia (already mapped) and macrophage (already mapped) antioxidant function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive neuroinflammatory cascade of diffuse midline glioma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — DMG zinc: zinc cofactors microglia (already mapped) and macrophage (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive glioma cascade of diffuse midline glioma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in microglia (already mapped) and macrophage (already mapped), fuels mTOR (already mapped) glioma proliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and p53 (already mapped) immunosuppressive cascade.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on microglia (already mapped) and macrophage (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) immunosuppressive glioma cascade of diffuse midline glioma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in microglia (already mapped) and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) glioma cascade of diffuse midline glioma.
 
 ---
 

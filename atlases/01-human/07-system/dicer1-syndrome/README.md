@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "DICER1 zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) immune surveillance; zinc deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of DICER1 syndrome."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "potassium channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of DICER1 syndrome."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "calcium, as second messenger in macrophage (already mapped) and T-cytotoxic cell (already mapped), modulates mTOR (already mapped) and IGF-1 (already mapped) signalling; calcium dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of DICER1 syndrome."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus, as ATP in macrophage (already mapped) and T-cytotoxic cell (already mapped), fuels mTOR (already mapped) and IGF-1 (already mapped) proliferative signalling; phosphorus dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -814,6 +823,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — DICER1 magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and mast cells (already mapped); magnesium deficiency amplifies IL-6 (already mapped) and T-cytotoxic (already mapped) and mast-cell (already mapped) cascade of DICER1 syndrome.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — DICER1 copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of DICER1 syndrome.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — DICER1 zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) immune surveillance; zinc deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of DICER1 syndrome.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of DICER1 syndrome.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — calcium, as second messenger in macrophage (already mapped) and T-cytotoxic cell (already mapped), modulates mTOR (already mapped) and IGF-1 (already mapped) signalling; calcium dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of DICER1 syndrome.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped) and T-cytotoxic cell (already mapped), fuels mTOR (already mapped) and IGF-1 (already mapped) proliferative signalling; phosphorus dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of DICER1 syndrome.
 
 ---
 
