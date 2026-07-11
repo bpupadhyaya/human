@@ -531,6 +531,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "WNV oxygen: mitochondrial oxygen in neurons (already mapped) and astrocytes (already mapped) sustains ATP for type-I IFN (already mapped) antiviral signalling; hypoxia amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) neuroinflammation of West Nile virus."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "WNV carbon: carbon, as metabolic backbone of viral envelope lipids in macrophages (already mapped) and neurons (already mapped), drives WNV replication; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of West Nile virus."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "WNV hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches WNV-induced ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation of West Nile virus."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "WNV GLP-1: GLP-1 signalling in macrophages (already mapped) and microglia (already mapped) modulates neuroinflammatory metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of West Nile virus."
 ---
 
 # West Nile Virus
@@ -822,3 +831,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — WNV sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) promotes neuroprotection; sulfur deficiency amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation of WNV.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — WNV nitrogen: nitric oxide from iNOS in microglia (already mapped) and astrocytes (already mapped) has antiviral and cytotoxic effects; nitrogen imbalance amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) neuroinflammation of WNV.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — WNV oxygen: mitochondrial oxygen in neurons (already mapped) and astrocytes (already mapped) sustains ATP for type-I IFN (already mapped) antiviral signalling; hypoxia amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) neuroinflammation of West Nile virus.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — WNV carbon: carbon, as metabolic backbone of viral envelope lipids in macrophages (already mapped) and neurons (already mapped), drives WNV replication; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of West Nile virus.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — WNV hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches WNV-induced ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation of West Nile virus.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — WNV GLP-1: GLP-1 signalling in macrophages (already mapped) and microglia (already mapped) modulates neuroinflammatory metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of West Nile virus.
