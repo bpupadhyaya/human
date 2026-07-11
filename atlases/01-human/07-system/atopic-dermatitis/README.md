@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "AD sulfur: sulfur-containing glutathione in keratinocytes and macrophages (already mapped) scavenges skin ROS; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) and TSLP (already mapped) eczematous cascade in AD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carbon-based ceramides and fatty acids in skin (already mapped) form the epidermal barrier; disrupted carbon metabolism amplifies NF-κB (already mapped) and IL-4 (already mapped) and IgE (already mapped) and TSLP (already mapped) eczematous cascade in atopic dermatitis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "hydrogen ion dysregulation from skin (already mapped) acidosis in atopic dermatitis amplifies mast-cell (already mapped) degranulation; proton excess activates NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) and IgE (already mapped) eczematous cascade."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "ROS from NADPH oxidase in mast cells (already mapped) and macrophages (already mapped) perpetuate skin (already mapped) barrier breakdown; oxygen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) eczematous cascade in atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -822,6 +831,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — AD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and macrophages (already mapped) regulates neuroinflammation; NO dysregulation amplifies NF-κB (already mapped) and IL-4 (already mapped) and IL-13 (already mapped) and TSLP (already mapped) cascade.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — AD chloride: chloride channels on mast cells (already mapped) and macrophages (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) and IgE (already mapped) cascade in AD.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — AD sulfur: sulfur-containing glutathione in keratinocytes and macrophages (already mapped) scavenges skin ROS; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) and TSLP (already mapped) eczematous cascade in AD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon-based ceramides and fatty acids in skin (already mapped) form the epidermal barrier; disrupted carbon metabolism amplifies NF-κB (already mapped) and IL-4 (already mapped) and IgE (already mapped) and TSLP (already mapped) eczematous cascade in atopic dermatitis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen ion dysregulation from skin (already mapped) acidosis in atopic dermatitis amplifies mast-cell (already mapped) degranulation; proton excess activates NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) and IgE (already mapped) eczematous cascade.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ROS from NADPH oxidase in mast cells (already mapped) and macrophages (already mapped) perpetuate skin (already mapped) barrier breakdown; oxygen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) eczematous cascade in atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Atherosclerosis magnesium: magnesium stabilises endothelial-cell (already mapped) function and attenuates platelet (already mapped) aggregation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and fibrinogen (already mapped) atherogenic cascade."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on macrophages (already mapped) and smooth-muscle cells (already mapped) regulate intracellular pH; chloride dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) atherogenic plaque cascade in atherosclerosis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "H2S from sulfur-amino acids in macrophages (already mapped) and smooth-muscle cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) atherogenic plaque cascade in atherosclerosis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitric oxide from iNOS in macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular tone; nitrogen excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) atherogenic plaque cascade in atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -821,6 +830,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Atherosclerosis sodium: excess dietary sodium drives endothelial-cell (already mapped) inflammation; sodium amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic plaque and thrombin (already mapped) cascade.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Atherosclerosis potassium: potassium regulates endothelial-cell (already mapped) membrane function; potassium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) atherogenic cascade in atherosclerosis.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Atherosclerosis magnesium: magnesium stabilises endothelial-cell (already mapped) function and attenuates platelet (already mapped) aggregation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and fibrinogen (already mapped) atherogenic cascade.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophages (already mapped) and smooth-muscle cells (already mapped) regulate intracellular pH; chloride dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) atherogenic plaque cascade in atherosclerosis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — H2S from sulfur-amino acids in macrophages (already mapped) and smooth-muscle cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) atherogenic plaque cascade in atherosclerosis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide from iNOS in macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular tone; nitrogen excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) atherogenic plaque cascade in atherosclerosis.
 
 ---
 
