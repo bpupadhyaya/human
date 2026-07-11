@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "GM calcium: calcium signals intestinal epithelium (already mapped) tight-junction assembly and macrophage (already mapped) activation; calcium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "GM chloride: chloride maintains intestinal epithelium (already mapped) electrolyte balance and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "GM phosphorus: phosphorus as ATP in intestinal epithelium (already mapped) and macrophages (already mapped) fuels mucosal repair and immune signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) gut-microbiome inflammation."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "GM VEGF: gut-microbiome short-chain fatty acids stimulate VEGF-driven intestinal villus angiogenesis and mucosal-barrier repair; dysbiosis-induced IL-6 (already mapped) and NF-κB (already mapped) suppress VEGF homeostasis, impairing mucosal integrity."
 ---
 
 # Gut Microbiome
@@ -777,6 +786,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — GM copper: copper supports intestinal epithelium (already mapped) barrier integrity and macrophage (already mapped) anti-inflammatory function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — GM potassium: potassium regulates intestinal epithelium (already mapped) membrane potential and macrophage (already mapped) ion homeostasis; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — GM calcium: calcium signals intestinal epithelium (already mapped) tight-junction assembly and macrophage (already mapped) activation; calcium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GM chloride: chloride maintains intestinal epithelium (already mapped) electrolyte balance and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GM phosphorus: phosphorus as ATP in intestinal epithelium (already mapped) and macrophages (already mapped) fuels mucosal repair and immune signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) gut-microbiome inflammation.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — GM VEGF: gut-microbiome short-chain fatty acids stimulate VEGF-driven intestinal villus angiogenesis and mucosal-barrier repair; dysbiosis-induced IL-6 (already mapped) and NF-κB (already mapped) suppress VEGF homeostasis, impairing mucosal integrity.
 
 ## Pathology
 

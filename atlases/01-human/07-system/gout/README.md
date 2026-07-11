@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Gout phosphorus: phosphorus, as ATP in macrophages (already mapped) and neutrophils (already mapped), fuels kinase signalling; phosphorus dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) NLRP3-inflammasome cascade of gout."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Gout carbon: carbon backbone of purine rings and urate anchors xanthine-oxidase flux in macrophages (already mapped) and neutrophils (already mapped); carbon-driven metabolite accumulation amplifies the NF-κB (already mapped) and NLRP3 inflammasome cascade of gout."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Gout chloride: chloride channels regulate macrophage (already mapped) and neutrophil (already mapped) volume during urate-crystal phagocytosis; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) NLRP3-inflammasome signalling in gout."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Gout oxygen: NADPH-oxidase generates ROS in macrophages (already mapped) and neutrophils (already mapped) during urate-crystal phagocytosis; oxygen-derived ROS amplifies NF-κB (already mapped) and TNF-α (already mapped) NLRP3-inflammasome cascade of gout."
 ---
 
 # Gout
@@ -800,6 +809,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Gout zinc: zinc cofactors antioxidant enzymes in macrophages (already mapped) and neutrophils (already mapped); zinc deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) NLRP3-inflammasome cascade of gout.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Gout iron: iron excess drives ROS generation in macrophages (already mapped) and neutrophils (already mapped), amplifying oxidative stress; iron dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) NLRP3-inflammasome cascade of gout.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Gout phosphorus: phosphorus, as ATP in macrophages (already mapped) and neutrophils (already mapped), fuels kinase signalling; phosphorus dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) NLRP3-inflammasome cascade of gout.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Gout carbon: carbon backbone of purine rings and urate anchors xanthine-oxidase flux in macrophages (already mapped) and neutrophils (already mapped); carbon-driven metabolite accumulation amplifies the NF-κB (already mapped) and NLRP3 inflammasome cascade of gout.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Gout chloride: chloride channels regulate macrophage (already mapped) and neutrophil (already mapped) volume during urate-crystal phagocytosis; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) NLRP3-inflammasome signalling in gout.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Gout oxygen: NADPH-oxidase generates ROS in macrophages (already mapped) and neutrophils (already mapped) during urate-crystal phagocytosis; oxygen-derived ROS amplifies NF-κB (already mapped) and TNF-α (already mapped) NLRP3-inflammasome cascade of gout.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
