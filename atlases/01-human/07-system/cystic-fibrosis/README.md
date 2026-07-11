@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "CF sulfur: sulfur-containing glutathione in macrophages (already mapped) and neutrophils (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative airway cascade of CF."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carbon metabolism in macrophage (already mapped) and neutrophil (already mapped) drives oxidative phosphorylation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitrogen, as nitric oxide (already mapped) precursor in macrophage (already mapped) and neutrophil (already mapped), modulates innate immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "AKT, downstream of CFTR (already mapped) and PI3K, integrates survival signalling in macrophage (already mapped) and neutrophil (already mapped); AKT dysregulation amplifies NF-κB (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -827,6 +836,9 @@ AND
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CF copper: copper supports macrophage (already mapped) and neutrophil (already mapped) bactericidal function; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) airway infection cascade of cystic fibrosis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — CF phosphorus: phosphorus, as ATP in macrophages (already mapped) and neutrophils (already mapped), fuels antimicrobial signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) airway cascade of CF.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — CF sulfur: sulfur-containing glutathione in macrophages (already mapped) and neutrophils (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative airway cascade of CF.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon metabolism in macrophage (already mapped) and neutrophil (already mapped) drives oxidative phosphorylation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen, as nitric oxide (already mapped) precursor in macrophage (already mapped) and neutrophil (already mapped), modulates innate immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT, downstream of CFTR (already mapped) and PI3K, integrates survival signalling in macrophage (already mapped) and neutrophil (already mapped); AKT dysregulation amplifies NF-κB (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis.
 
 ---
 

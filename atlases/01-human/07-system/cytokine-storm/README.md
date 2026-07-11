@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Cytokine-storm zinc: zinc cofactors macrophage (already mapped) and mast-cell (already mapped) anti-inflammatory function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyperinflammatory cascade of cytokine storm."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "potassium efflux from macrophage (already mapped) and T-cytotoxic cell (already mapped) activates NLRP3 (already mapped) inflammasome; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm cascade."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus, as ATP in macrophage (already mapped) and T-helper cell (already mapped), fuels cytokine secretion; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyper-inflammatory cascade of cytokine storm."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on macrophage (already mapped) and endothelial cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyper-inflammatory cascade of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -790,6 +799,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cytokine-storm magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and mast cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyperinflammatory cascade of cytokine storm.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Cytokine-storm copper: copper supports macrophage (already mapped) and mast-cell (already mapped) antioxidant function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) organ-injury cascade of cytokine storm.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Cytokine-storm zinc: zinc cofactors macrophage (already mapped) and mast-cell (already mapped) anti-inflammatory function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyperinflammatory cascade of cytokine storm.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium efflux from macrophage (already mapped) and T-cytotoxic cell (already mapped) activates NLRP3 (already mapped) inflammasome; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm cascade.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped) and T-helper cell (already mapped), fuels cytokine secretion; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyper-inflammatory cascade of cytokine storm.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and endothelial cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyper-inflammatory cascade of cytokine storm.
 
 ## Pathology
 
