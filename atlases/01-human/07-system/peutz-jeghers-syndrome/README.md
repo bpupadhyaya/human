@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Peutz-Jeghers magnesium: magnesium, as LKB1/STK11 (already mapped) kinase cofactor in fibroblasts (already mapped) and macrophages (already mapped), supports tumour-suppression; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Peutz-Jeghers potassium: potassium governs macrophage (already mapped) and mast-cell (already mapped) polyp immune tone; potassium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade suppressing T-cytotoxic (already mapped) function in PJS."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Peutz-Jeghers phosphorus: phosphorus as ATP cofactor in macrophages (already mapped) and fibroblasts (already mapped) sustains LKB1/STK11 (already mapped) signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp-cancer cascade of PJS."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Peutz-Jeghers chloride: chloride in macrophages (already mapped) and mast-cell (already mapped) regulates stromal inflammation; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and suppresses T-cytotoxic (already mapped) surveillance in PJS."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -811,6 +820,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Peutz-Jeghers iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of Peutz-Jeghers syndrome.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Peutz-Jeghers sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the T-cytotoxic (already mapped) cancer cascade of Peutz-Jeghers syndrome.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Peutz-Jeghers magnesium: magnesium, as LKB1/STK11 (already mapped) kinase cofactor in fibroblasts (already mapped) and macrophages (already mapped), supports tumour-suppression; magnesium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Peutz-Jeghers potassium: potassium governs macrophage (already mapped) and mast-cell (already mapped) polyp immune tone; potassium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade suppressing T-cytotoxic (already mapped) function in PJS.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Peutz-Jeghers phosphorus: phosphorus as ATP cofactor in macrophages (already mapped) and fibroblasts (already mapped) sustains LKB1/STK11 (already mapped) signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp-cancer cascade of PJS.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Peutz-Jeghers chloride: chloride in macrophages (already mapped) and mast-cell (already mapped) regulates stromal inflammation; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and suppresses T-cytotoxic (already mapped) surveillance in PJS.
 
 ---
 
