@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Bloom magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma; magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and mTOR (already mapped) tumour-promoting cascade of Bloom syndrome."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "bloom iodine: iodine-dependent thyroid hormones in macrophage (already mapped) and dendritic cell (already mapped) regulate BLM (already mapped) helicase activity; iodine deficiency amplifies RAD51 (already mapped) and P53 (already mapped) cascade in Bloom syndrome."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "bloom copper: copper-dependent cuproenzymes in macrophage (already mapped) and dendritic cell (already mapped) regulate DNA repair; copper excess amplifies BLM (already mapped) and BRCA2 (already mapped) and P53 (already mapped) cascade in Bloom syndrome."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "bloom zinc: zinc finger domains of BLM (already mapped) and RAD51 (already mapped) coordinate DNA repair; zinc deficiency disrupts BRCA1 (already mapped) and P53 (already mapped) and BRCA2 (already mapped) cascade in Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -837,6 +846,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Bloom sodium: sodium dysregulation in bone-marrow (already mapped) stroma and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Bloom syndrome.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bloom calcium: calcium regulates macrophage (already mapped) and bone-marrow (already mapped) stromal cell signalling; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and VEGF (already mapped) tumour-promoting cascade of Bloom syndrome.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Bloom magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma; magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and mTOR (already mapped) tumour-promoting cascade of Bloom syndrome.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — bloom iodine: iodine-dependent thyroid hormones in macrophage (already mapped) and dendritic cell (already mapped) regulate BLM (already mapped) helicase activity; iodine deficiency amplifies RAD51 (already mapped) and P53 (already mapped) cascade in Bloom syndrome.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — bloom copper: copper-dependent cuproenzymes in macrophage (already mapped) and dendritic cell (already mapped) regulate DNA repair; copper excess amplifies BLM (already mapped) and BRCA2 (already mapped) and P53 (already mapped) cascade in Bloom syndrome.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — bloom zinc: zinc finger domains of BLM (already mapped) and RAD51 (already mapped) coordinate DNA repair; zinc deficiency disrupts BRCA1 (already mapped) and P53 (already mapped) and BRCA2 (already mapped) cascade in Bloom syndrome.
 
 ---
 

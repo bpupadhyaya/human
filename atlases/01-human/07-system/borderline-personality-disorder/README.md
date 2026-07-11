@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "BPD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and cortisol (already mapped) dysregulation in BPD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carbon-based fatty acids in neuron (already mapped) and brain (already mapped) fuel dopamine (already mapped) and serotonin (already mapped) signalling; disrupted carbon metabolism amplifies BDNF (already mapped) and cortisol (already mapped) dysregulation in BPD."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "hydrogen ion dysregulation in brain (already mapped) and neuron (already mapped) amplifies mood instability; proton excess disrupts serotonin (already mapped) and norepinephrine (already mapped) and BDNF (already mapped) and dopamine (already mapped) signalling in BPD."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "ROS from NADPH oxidase in neuron (already mapped) and brain (already mapped) amplifies oxidative stress; oxygen excess disrupts dopamine (already mapped) and serotonin (already mapped) and BDNF (already mapped) and cortisol (already mapped) cascade in BPD."
 ---
 
 # Borderline Personality Disorder
@@ -847,6 +856,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BPD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates dopamine (already mapped) and serotonin (already mapped) tone; NO dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) stress cascade in BPD.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BPD chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate GABA (already mapped) tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) cascade in BPD.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — BPD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and cortisol (already mapped) dysregulation in BPD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon-based fatty acids in neuron (already mapped) and brain (already mapped) fuel dopamine (already mapped) and serotonin (already mapped) signalling; disrupted carbon metabolism amplifies BDNF (already mapped) and cortisol (already mapped) dysregulation in BPD.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen ion dysregulation in brain (already mapped) and neuron (already mapped) amplifies mood instability; proton excess disrupts serotonin (already mapped) and norepinephrine (already mapped) and BDNF (already mapped) and dopamine (already mapped) signalling in BPD.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ROS from NADPH oxidase in neuron (already mapped) and brain (already mapped) amplifies oxidative stress; oxygen excess disrupts dopamine (already mapped) and serotonin (already mapped) and BDNF (already mapped) and cortisol (already mapped) cascade in BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
