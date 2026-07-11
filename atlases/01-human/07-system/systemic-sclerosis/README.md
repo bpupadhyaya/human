@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "SSc phosphorus: phosphorus, as ATP precursor in fibroblasts (already mapped) and endothelial-cell (already mapped), fuels TGF-β (already mapped) collagen synthesis; phosphorus deficiency impairs dendritic-cell (already mapped) and amplifies NF-κB (already mapped) cascade of SSc."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "SSc chloride: chloride channels in fibroblasts (already mapped) and endothelial-cell (already mapped) regulate stromal fluid balance; chloride dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) fibrotic cascade and worsens pulmonary hypertension of SSc."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "SSc sulfur: hydrogen sulfide from endothelial-cell (already mapped) and fibroblasts (already mapped) promotes vasodilation; sulfur deficiency amplifies TGF-β (already mapped) and NF-κB (already mapped) fibrotic cascade and worsens pulmonary vascular remodelling of SSc."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "SSc nitrogen: nitric oxide from endothelial-cell (already mapped) and macrophages (already mapped) maintains vascular tone; nitrogen imbalance amplifies TGF-β (already mapped) and NF-κB (already mapped) fibrotic cascade and pulmonary hypertension of SSc."
 ---
 
 # Systemic Sclerosis
@@ -809,6 +818,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SSc copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped), drives collagen cross-linking; copper amplifies VEGF (already mapped); copper excess amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of systemic sclerosis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — SSc potassium: potassium efflux via NLRP3 inflammasome in macrophages (already mapped) and mast-cell (already mapped) drives IL-6 (already mapped) secretion; potassium dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of SSc.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — SSc phosphorus: phosphorus, as ATP precursor in fibroblasts (already mapped) and endothelial-cell (already mapped), fuels TGF-β (already mapped) collagen synthesis; phosphorus deficiency impairs dendritic-cell (already mapped) and amplifies NF-κB (already mapped) cascade of SSc.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — SSc chloride: chloride channels in fibroblasts (already mapped) and endothelial-cell (already mapped) regulate stromal fluid balance; chloride dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) fibrotic cascade and worsens pulmonary hypertension of SSc.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SSc sulfur: hydrogen sulfide from endothelial-cell (already mapped) and fibroblasts (already mapped) promotes vasodilation; sulfur deficiency amplifies TGF-β (already mapped) and NF-κB (already mapped) fibrotic cascade and worsens pulmonary vascular remodelling of SSc.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SSc nitrogen: nitric oxide from endothelial-cell (already mapped) and macrophages (already mapped) maintains vascular tone; nitrogen imbalance amplifies TGF-β (already mapped) and NF-κB (already mapped) fibrotic cascade and pulmonary hypertension of SSc.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)

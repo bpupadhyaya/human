@@ -525,6 +525,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Thal magnesium: magnesium supports erythrocyte (already mapped) membrane integrity and macrophage (already mapped) anti-inflammatory resolution; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic inflammation in thalassemia."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Thal copper: copper, via ceruloplasmin and SOD in erythrocytes (already mapped) and macrophages (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and iron (already mapped) overload haemolytic cascade in thalassemia."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Thal potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic inflammation and worsens erythrocyte (already mapped) membrane fragility in thalassemia."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Thal phosphorus: phosphorus, as ATP precursor in erythrocytes (already mapped) and macrophages (already mapped), maintains red-cell membrane integrity; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of thalassemia."
 ---
 
 # Thalassemia
@@ -838,6 +847,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-erythropoiesis axis: iodine-dependent thyroid hormones regulate erythropoiesis (erythropoietin already mapped) and bone-marrow (already mapped) haematopoietic activity; iodine deficiency amplifies the hepcidin (already mapped) and IL-6 (already mapped) cascade of thalassaemia.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Red-cell hydration: sodium, via Na⁺/K⁺-ATPase on erythrocytes (already mapped) and endothelial cells (already mapped), regulates red-cell hydration; sodium dysregulation amplifies haemolysis and the nitric-oxide (already mapped) vascular cascade of thalassaemia.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Thal magnesium: magnesium supports erythrocyte (already mapped) membrane integrity and macrophage (already mapped) anti-inflammatory resolution; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic inflammation in thalassemia.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Thal copper: copper, via ceruloplasmin and SOD in erythrocytes (already mapped) and macrophages (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and iron (already mapped) overload haemolytic cascade in thalassemia.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Thal potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic inflammation and worsens erythrocyte (already mapped) membrane fragility in thalassemia.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Thal phosphorus: phosphorus, as ATP precursor in erythrocytes (already mapped) and macrophages (already mapped), maintains red-cell membrane integrity; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
