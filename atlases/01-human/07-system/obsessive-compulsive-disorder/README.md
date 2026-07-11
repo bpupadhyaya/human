@@ -539,6 +539,12 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "OCD iron: iron, as cofactor of dopamine-β-hydroxylase in neurons (already mapped) and microglia (already mapped), supports dopaminergic tone; iron deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of OCD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "OCD chloride: chloride, via KCC2 in GABAergic (already mapped) interneurons, sets cortico-striatal inhibitory tone; chloride dysregulation impairs GABA (already mapped) restraint, amplifying NF-κB (already mapped) neuroinflammation and compulsive severity in OCD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "OCD sulfur: sulfur-containing amino acids sustain glutathione antioxidant defence in neurons (already mapped) and microglia (already mapped); sulfur deficiency amplifies oxidative NF-κB (already mapped) neuroinflammatory stress driving the TNF-α (already mapped) cascade of OCD."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -837,6 +843,8 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — OCD potassium: potassium regulates neuron (already mapped) and microglia (already mapped) membrane excitability and glutamate release; potassium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of OCD circuitry dysfunction.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — OCD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), maintains cortico-striato-thalamic circuit energy; phosphorus deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of OCD.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — OCD iron: iron, as cofactor of dopamine-β-hydroxylase in neurons (already mapped) and microglia (already mapped), supports dopaminergic tone; iron deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of OCD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — OCD chloride: chloride-gating of GABAergic (already mapped) interneurons via KCC2 sets inhibitory tone in the cortico-striatal circuit; chloride dysregulation impairs GABA (already mapped) restraint, amplifying NF-κB (already mapped) neuroinflammation and compulsive severity in OCD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — OCD sulfur: sulfur-containing amino acids sustain glutathione antioxidant defence in neurons (already mapped) and microglia (already mapped); sulfur deficiency amplifies oxidative NF-κB (already mapped) neuroinflammatory stress driving the TNF-α (already mapped) cascade of OCD.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)

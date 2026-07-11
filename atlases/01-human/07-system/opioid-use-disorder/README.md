@@ -535,6 +535,9 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "OUD iron: iron, as cofactor of dopamine-β-hydroxylase in neurons (already mapped) and microglia (already mapped), supports dopaminergic reward tone; iron deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of OUD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "OUD chloride: chloride, via KCC2 in GABAergic (GABA already mapped) interneurons of the reward circuit, sets inhibitory tone; chloride dysregulation amplifies NF-κB (already mapped) neuroinflammation and TNF-α (already mapped) withdrawal signalling in opioid use disorder."
 ---
 
 # Opioid Use Disorder
@@ -862,6 +865,7 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — OUD calcium: calcium channel activation in neurons (already mapped) and microglia (already mapped) modulates opioid-dependent synaptic plasticity; calcium dysregulation by opioids amplifies the NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of OUD.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — OUD phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), sustains reward-circuit energy; phosphorus deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of opioid use disorder.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — OUD iron: iron, as cofactor of dopamine-β-hydroxylase in neurons (already mapped) and microglia (already mapped), supports dopaminergic reward tone; iron deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of OUD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — OUD chloride: chloride, via KCC2 in GABAergic (GABA already mapped) interneurons of the reward circuit, sets inhibitory tone; chloride dysregulation amplifies NF-κB (already mapped) neuroinflammation and TNF-α (already mapped) withdrawal signalling in opioid use disorder.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
