@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "Gorlin iron: iron, via ferritin in macrophages (already mapped) and mast cells (already mapped), fuels cell proliferation; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Gorlin chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Gorlin sulfur: glutathione from sulfur amino acids in macrophages (already mapped) and mast cells (already mapped) counters ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Gorlin nitrogen: nitric oxide from iNOS in macrophages (already mapped) and mast cells (already mapped) modulates tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -810,6 +819,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Gorlin magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Gorlin potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Gorlin iron: iron, via ferritin in macrophages (already mapped) and mast cells (already mapped), fuels cell proliferation; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Gorlin chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Gorlin sulfur: glutathione from sulfur amino acids in macrophages (already mapped) and mast cells (already mapped) counters ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Gorlin nitrogen: nitric oxide from iNOS in macrophages (already mapped) and mast cells (already mapped) modulates tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome.
 
 ---
 

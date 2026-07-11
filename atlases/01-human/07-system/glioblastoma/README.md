@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "GBM zinc: zinc, via SOD and NF-κB (already mapped) modulation in microglia (already mapped) and T-cytotoxic cells (already mapped), attenuates tumour neuroinflammation; zinc deficiency amplifies VEGF (already mapped) and IL-6 (already mapped) glioblastoma cascade."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "GBM phosphorus: phosphorus, as ATP in microglia (already mapped) and macrophages (already mapped), fuels neuroinflammatory signalling; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) glioblastoma tumour growth cascade."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "GBM chloride: chloride channels on microglia (already mapped) and macrophages (already mapped) regulate volume-regulated apoptosis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of glioblastoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "GBM nitrogen: nitric oxide from iNOS in microglia (already mapped) and macrophages (already mapped) modulates tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of glioblastoma."
 ---
 
 # Glioblastoma
@@ -829,6 +838,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — GBM sodium: sodium-driven osmotic stress on glioma cells and microglia (already mapped) amplifies NF-κB (already mapped) and VEGF (already mapped) tumour-proliferative signalling; sodium excess worsens the IL-6 (already mapped) neuroinflammatory TME of glioblastoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — GBM copper: copper, via ceruloplasmin and SOD in microglia (already mapped) and macrophages (already mapped), scavenges ROS; copper excess amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) glioblastoma tumour growth and neovascularisation.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — GBM zinc: zinc, via SOD and NF-κB (already mapped) modulation in microglia (already mapped) and T-cytotoxic cells (already mapped), attenuates tumour neuroinflammation; zinc deficiency amplifies VEGF (already mapped) and IL-6 (already mapped) glioblastoma cascade.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GBM phosphorus: phosphorus, as ATP in microglia (already mapped) and macrophages (already mapped), fuels neuroinflammatory signalling; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) glioblastoma tumour growth cascade.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GBM chloride: chloride channels on microglia (already mapped) and macrophages (already mapped) regulate volume-regulated apoptosis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of glioblastoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — GBM nitrogen: nitric oxide from iNOS in microglia (already mapped) and macrophages (already mapped) modulates tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 
 ---
 
