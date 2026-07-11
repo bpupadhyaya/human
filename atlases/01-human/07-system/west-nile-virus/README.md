@@ -522,6 +522,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "WNV chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate excitability; chloride imbalance amplifies NLRP3 inflammasome (already mapped), NF-κB (already mapped) and IL-6 (already mapped) cascade of West Nile encephalitis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "WNV sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) promotes neuroprotection; sulfur deficiency amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation of WNV."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "WNV nitrogen: nitric oxide from iNOS in microglia (already mapped) and astrocytes (already mapped) has antiviral and cytotoxic effects; nitrogen imbalance amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) neuroinflammation of WNV."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "WNV oxygen: mitochondrial oxygen in neurons (already mapped) and astrocytes (already mapped) sustains ATP for type-I IFN (already mapped) antiviral signalling; hypoxia amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) neuroinflammation of West Nile virus."
 ---
 
 # West Nile Virus
@@ -810,3 +819,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — WNV iron: iron supports WNV RNA replication in neurons (already mapped); transferrin (already mapped) sequesters iron to restrict viral load; iron dyshomeostasis amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation of West Nile encephalitis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — WNV phosphorus: phosphorus fuels neuronal and microglia (already mapped) ATP; phosphorus deficiency impairs type-I IFN (already mapped) and amplifies NLRP3 inflammasome (already mapped), NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation of West Nile encephalitis.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — WNV chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate excitability; chloride imbalance amplifies NLRP3 inflammasome (already mapped), NF-κB (already mapped) and IL-6 (already mapped) cascade of West Nile encephalitis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — WNV sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) promotes neuroprotection; sulfur deficiency amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation of WNV.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — WNV nitrogen: nitric oxide from iNOS in microglia (already mapped) and astrocytes (already mapped) has antiviral and cytotoxic effects; nitrogen imbalance amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) neuroinflammation of WNV.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — WNV oxygen: mitochondrial oxygen in neurons (already mapped) and astrocytes (already mapped) sustains ATP for type-I IFN (already mapped) antiviral signalling; hypoxia amplifies NLRP3 inflammasome (already mapped) and NF-κB (already mapped) neuroinflammation of West Nile virus.

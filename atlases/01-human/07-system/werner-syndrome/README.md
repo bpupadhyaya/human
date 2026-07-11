@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "Werner magnesium: magnesium, as WRN (already mapped) cofactor in fibroblasts (already mapped) and osteoblasts (already mapped), supports DNA repair; deficiency amplifies p53 (already mapped) instability, NF-κB (already mapped) and IL-6 (already mapped) cascade of Werner syndrome."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Werner copper: copper-dependent SOD in fibroblasts (already mapped) and macrophages (already mapped) quenches ROS-driven DNA damage amplifying WRN (already mapped) instability; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) SASP of Werner syndrome."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "Werner zinc: zinc-dependent SOD in fibroblasts (already mapped) and macrophages (already mapped) counters ROS amplifying WRN (already mapped) instability; zinc deficiency amplifies p53 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) SASP of Werner syndrome."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Werner potassium: potassium efflux from fibroblasts (already mapped) and macrophages (already mapped) drives NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) SASP cascade of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -850,6 +859,9 @@ cross_links:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Werner iodine: thyroid hormones regulate macrophage (already mapped) and mast-cell (already mapped) immune surveillance; thyroid deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) SASP cascade of Werner syndrome.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Werner sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) amplifies IL-6 (already mapped) and mTOR (already mapped) SASP cascade of WRN (already mapped)-deficient Werner fibroblasts (already mapped).
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Werner magnesium: magnesium, as WRN (already mapped) cofactor in fibroblasts (already mapped) and osteoblasts (already mapped), supports DNA repair; deficiency amplifies p53 (already mapped) instability, NF-κB (already mapped) and IL-6 (already mapped) cascade of Werner syndrome.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Werner copper: copper-dependent SOD in fibroblasts (already mapped) and macrophages (already mapped) quenches ROS-driven DNA damage amplifying WRN (already mapped) instability; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) SASP of Werner syndrome.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Werner zinc: zinc-dependent SOD in fibroblasts (already mapped) and macrophages (already mapped) counters ROS amplifying WRN (already mapped) instability; zinc deficiency amplifies p53 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) SASP of Werner syndrome.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Werner potassium: potassium efflux from fibroblasts (already mapped) and macrophages (already mapped) drives NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) SASP cascade of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)
