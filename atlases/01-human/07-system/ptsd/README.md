@@ -537,6 +537,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "PTSD nitrogen: nitrogen, as backbone of GABA (already mapped) and glutamate (already mapped) neurotransmitters in neurons (already mapped), maintains inhibitory tone; nitrogen deficiency amplifies NF-κB (already mapped) and cortisol (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PTSD carbon: carbon as backbone of cortisol (already mapped) and NF-κB (already mapped) proteins in neurons (already mapped) sustains stress-response signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of PTSD."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PTSD hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and microglia (already mapped), supports BDNF (already mapped) neurotrophic function; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of PTSD."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "PTSD oxygen: oxygen powers neuron (already mapped) and microglia (already mapped) mitochondria in corticolimbic circuits; hypoxic stress amplifies NF-κB (already mapped) and cortisol (already mapped) HPA-axis neuroinflammatory cascade of PTSD."
 ---
 
 # PTSD
@@ -845,6 +854,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PTSD chloride: chloride, via KCC2 in GABAergic (already mapped) neurons (already mapped), sets inhibitory-excitatory balance in fear circuits; chloride dysregulation amplifies NF-κB (already mapped) and cortisol (already mapped) HPA-axis neuroinflammatory cascade of PTSD.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PTSD sulfur: sulfur, as glutathione in neurons (already mapped) and microglia (already mapped), quenches HPA-axis (cortisol already mapped)-induced oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of PTSD.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PTSD nitrogen: nitrogen, as backbone of GABA (already mapped) and glutamate (already mapped) neurotransmitters in neurons (already mapped), maintains inhibitory tone; nitrogen deficiency amplifies NF-κB (already mapped) and cortisol (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PTSD carbon: carbon as backbone of cortisol (already mapped) and NF-κB (already mapped) proteins in neurons (already mapped) sustains stress-response signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of PTSD.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PTSD hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and microglia (already mapped), supports BDNF (already mapped) neurotrophic function; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of PTSD.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PTSD oxygen: oxygen powers neuron (already mapped) and microglia (already mapped) mitochondria in corticolimbic circuits; hypoxic stress amplifies NF-κB (already mapped) and cortisol (already mapped) HPA-axis neuroinflammatory cascade of PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "PAH zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and smooth muscle cells (already mapped), regulates pulmonary ECM remodelling; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PAH carbon: carbon as backbone of VEGF (already mapped) and NF-κB (already mapped) proteins in endothelial cells (already mapped) sustains vascular signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "PAH chloride: chloride channels in smooth muscle cells (already mapped) and macrophages (already mapped) regulate pulmonary vascular tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PAH hydrogen: hydrogen, via redox homeostasis in endothelial cells (already mapped) and macrophages (already mapped), supports nitric-oxide-mediated vasodilation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -830,6 +839,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PAH copper: copper, as lysyl oxidase cofactor in endothelial cells (already mapped) and smooth muscle cells (already mapped), drives pulmonary vascular ECM remodelling; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PAH phosphorus: phosphorus-dependent ATP in endothelial cells (already mapped) and smooth muscle cells (already mapped) sustains vascular-tone signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — PAH zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and smooth muscle cells (already mapped), regulates pulmonary ECM remodelling; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PAH carbon: carbon as backbone of VEGF (already mapped) and NF-κB (already mapped) proteins in endothelial cells (already mapped) sustains vascular signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PAH chloride: chloride channels in smooth muscle cells (already mapped) and macrophages (already mapped) regulate pulmonary vascular tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PAH hydrogen: hydrogen, via redox homeostasis in endothelial cells (already mapped) and macrophages (already mapped), supports nitric-oxide-mediated vasodilation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
