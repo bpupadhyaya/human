@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "Pancreatic cancer potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade suppressing mast-cell (already mapped) and T-cytotoxic (already mapped) function in pancreatic cancer."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Pancreatic cancer chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of pancreatic cancer."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Pancreatic cancer hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and tumour cells, supports lipid signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of pancreatic cancer."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Pancreatic cancer nitrogen: nitrogen in amino-acid scaffold of KRAS and NF-κB (already mapped) proteins in tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -827,6 +836,9 @@ cross_links:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Pancreatic cancer calcium: calcium signalling in macrophages (already mapped) and mast-cells (already mapped) governs immune activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade suppressing T-cytotoxic (already mapped) killing in pancreatic cancer.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Pancreatic cancer copper: copper enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustain tumour immunity; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) mast-cell (already mapped) skewing cascade in pancreatic cancer.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Pancreatic cancer potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour inflammation and suppresses mast-cell (already mapped) and T-cytotoxic (already mapped) function in pancreatic cancer.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Pancreatic cancer chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of pancreatic cancer.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Pancreatic cancer hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and tumour cells, supports lipid signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of pancreatic cancer.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Pancreatic cancer nitrogen: nitrogen in amino-acid scaffold of KRAS and NF-κB (already mapped) proteins in tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of pancreatic cancer.
 
 ---
 
