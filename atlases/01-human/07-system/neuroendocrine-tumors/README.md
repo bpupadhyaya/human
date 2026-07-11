@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "NET sulfur: sulfur-containing amino acids in macrophages (already mapped) and fibroblasts (already mapped) maintain redox buffering; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of neuroendocrine tumors."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "NET carbon: carbon as backbone of chromogranin (already mapped) and NF-κB (already mapped) proteins in neuroendocrine cells and macrophages (already mapped) sustains tumour proliferation; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NET."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "NET hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and mast cells (already mapped) in the NET TME, supports neuroendocrine cell signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NET."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "NET nitrogen: nitrogen in amino-acid scaffold of chromogranin (already mapped) and NF-κB (already mapped) proteins in neuroendocrine cells sustains hormone production; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NET."
 ---
 
 # Neuroendocrine Tumors
@@ -804,6 +813,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — NET iron: iron, via ferritin in macrophages (already mapped) and fibroblasts (already mapped), modulates redox balance in the neuroendocrine tumour microenvironment; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NET chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the neuroendocrine TME; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NET.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NET sulfur: sulfur-containing amino acids in macrophages (already mapped) and fibroblasts (already mapped) maintain redox buffering; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of neuroendocrine tumors.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — NET carbon: carbon as backbone of chromogranin (already mapped) and NF-κB (already mapped) proteins in neuroendocrine cells and macrophages (already mapped) sustains tumour proliferation; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NET.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — NET hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and mast cells (already mapped) in the NET TME, supports neuroendocrine cell signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NET.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NET nitrogen: nitrogen in amino-acid scaffold of chromogranin (already mapped) and NF-κB (already mapped) proteins in neuroendocrine cells sustains hormone production; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NET.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
