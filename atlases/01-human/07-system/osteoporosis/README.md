@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "OP iron: iron supports macrophage (already mapped) and osteoclast (already mapped) regulation; iron deficiency amplifies NF-κB (already mapped) and RANKL (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) driven osteoclastic bone resorption in osteoporosis."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Osteoporosis chloride: chloride, via osteoclast (already mapped) V-type H⁺-ATPase, acidifies the resorption lacuna; chloride imbalance amplifies the RANKL (already mapped) and NF-κB (already mapped) osteoclast drive and IL-6 (already mapped) bone-loss cascade of osteoporosis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Osteoporosis sulfur: sulfur-containing GAGs form the proteoglycan matrix anchoring osteoblast (already mapped) mineralisation; sulfur deficiency amplifies the RANKL (already mapped) and TNF-α (already mapped) osteoclastic bone resorption cascade of osteoporosis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Osteoporosis nitrogen: nitrogen is the backbone of collagen (already mapped) and proteoglycan in bone; nitrogen deficiency (protein malnutrition) amplifies the RANKL (already mapped) and IL-6 (already mapped) osteoclastic cascade and impairs osteoblast (already mapped) repair."
 ---
 
 # Osteoporosis
@@ -803,6 +812,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-bone axis: iodine-dependent thyroid hormones regulate osteoblast (already mapped) activity and bone mineral density; iodine deficiency amplifies the RANKL (already mapped) and IL-6 (already mapped) osteoclast resorption of osteoporosis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Acid-buffering bone protection: potassium alkalinity buffers the acid load that drives osteoclast (already mapped) RANKL (already mapped)-mediated bone resorption; potassium deficiency amplifies the acid-driven IL-6 (already mapped) and TNF-α (already mapped) bone loss of osteoporosis.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — OP iron: iron supports macrophage (already mapped) and osteoclast (already mapped) regulation; iron deficiency amplifies NF-κB (already mapped) and RANKL (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) driven osteoclastic bone resorption in osteoporosis.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Osteoporosis chloride: chloride, via osteoclast (already mapped) V-type H⁺-ATPase, acidifies the resorption lacuna; chloride imbalance amplifies the RANKL (already mapped) and NF-κB (already mapped) osteoclast drive and IL-6 (already mapped) bone-loss cascade of osteoporosis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Osteoporosis sulfur: sulfur-containing GAGs form the proteoglycan matrix anchoring osteoblast (already mapped) mineralisation; sulfur deficiency amplifies the RANKL (already mapped) and TNF-α (already mapped) osteoclastic bone resorption cascade of osteoporosis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Osteoporosis nitrogen: nitrogen is the backbone of collagen (already mapped) and proteoglycan in bone; nitrogen deficiency (protein malnutrition) amplifies the RANKL (already mapped) and IL-6 (already mapped) osteoclastic cascade and impairs osteoblast (already mapped) repair.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

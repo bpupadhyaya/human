@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Osteosarcoma sodium: excess sodium promotes macrophage (already mapped) and T-cytotoxic (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the VEGF (already mapped) and mTOR (already mapped) angiogenic cascade of osteosarcoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Osteosarcoma potassium: potassium regulates macrophage (already mapped) and T-cytotoxic (already mapped) membrane excitability in the tumour microenvironment; potassium deficiency amplifies the IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of osteosarcoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Osteosarcoma chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic signalling in the osteosarcoma microenvironment."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Osteosarcoma sulfur: sulfur-containing collagen (already mapped) cross-links and glutathione in macrophages (already mapped) limit oxidative stress; sulfur deficiency amplifies mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of osteosarcoma."
 ---
 
 # Osteosarcoma
@@ -818,6 +827,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Osteosarcoma selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the osteosarcoma tumour microenvironment; selenium deficiency amplifies the IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Osteosarcoma iodine: iodine-dependent thyroid hormones regulate osteoblast (already mapped) differentiation and T-cytotoxic (already mapped) immune surveillance; iodine deficiency amplifies the IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of osteosarcoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Osteosarcoma sodium: excess sodium promotes macrophage (already mapped) and T-cytotoxic (already mapped) pro-inflammatory skewing; sodium-induced IL-6 (already mapped) amplifies the VEGF (already mapped) and mTOR (already mapped) angiogenic cascade of osteosarcoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Osteosarcoma potassium: potassium regulates macrophage (already mapped) and T-cytotoxic (already mapped) membrane excitability in the tumour microenvironment; potassium deficiency amplifies the IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of osteosarcoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Osteosarcoma chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic signalling in the osteosarcoma microenvironment.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Osteosarcoma sulfur: sulfur-containing collagen (already mapped) cross-links and glutathione in macrophages (already mapped) limit oxidative stress; sulfur deficiency amplifies mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of osteosarcoma.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)
