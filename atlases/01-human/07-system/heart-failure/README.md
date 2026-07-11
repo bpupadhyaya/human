@@ -532,6 +532,12 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "HF chloride: chloride channels in cardiomyocytes (already mapped) modulate cell volume and action potential; chloride dysregulation amplifies NF-κB (already mapped) and aldosterone (already mapped) volume overload and IL-6 (already mapped) cardiac inflammation in HF."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HF carbon: carbon as backbone of myocardial energy metabolites and lipid membranes in cardiomyocytes (already mapped) supports cardiac ATP synthesis; carbon-derived metabolite dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation in HF."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HF hydrogen: hydrogen as proton gradient in cardiomyocyte (already mapped) mitochondria drives ATP synthesis; hydrogen-ion accumulation in ischaemia amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial dysfunction in HF."
 ---
 
 # Heart Failure
@@ -776,6 +782,8 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HF phosphorus: phosphorus fuels cardiomyocyte (already mapped) ATP and creatine-phosphate stores; phosphorus deficiency impairs myocardial (already mapped) contractility and amplifies NF-κB (already mapped) and IL-6 (already mapped) neurohormonal activation in HF.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HF nitrogen: nitric oxide (eNOS nitrogen) regulates cardiomyocyte (already mapped) contractility and myocardial (already mapped) vasodilation; nitric-oxide deficiency amplifies NF-κB (already mapped) and endothelin-1 (already mapped) vasoconstriction in heart failure.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HF chloride: chloride channels in cardiomyocytes (already mapped) modulate cell volume and action potential; chloride dysregulation amplifies NF-κB (already mapped) and aldosterone (already mapped) volume overload and IL-6 (already mapped) cardiac inflammation in HF.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HF carbon: carbon as backbone of myocardial energy metabolites and lipid membranes in cardiomyocytes (already mapped) supports cardiac ATP synthesis; carbon-derived metabolite dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation in HF.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HF hydrogen: hydrogen as proton gradient in cardiomyocyte (already mapped) mitochondria drives ATP synthesis; hydrogen-ion accumulation in ischaemia amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial dysfunction in HF.
 
 ## Pathology
 

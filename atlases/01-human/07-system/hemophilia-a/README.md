@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "HA magnesium: magnesium cofactors hepatocyte (already mapped) coagulation-protein synthesis and endothelial cell (already mapped) function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HA chloride: chloride channels regulate hepatocyte (already mapped) and endothelial cell (already mapped) volume and ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HA nitrogen: nitrogen as backbone of coagulation proteins and cytokines (already mapped) sustains haemostatic signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory bleeding cascade in HA."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HA phosphorus: phosphorus as ATP in hepatocytes (already mapped) and endothelial cells (already mapped) fuels coagulation-protein synthesis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) in HA."
 ---
 
 # Hemophilia A
@@ -828,6 +837,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HA iodine: iodine-dependent thyroid hormones modulate hepatocyte (already mapped) coagulation-protein synthesis; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) and VWF (already mapped) generation in HA.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HA sodium: high dietary sodium promotes endothelial cell (already mapped) activation and macrophage (already mapped) inflammation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies haemostatic impairment and thrombin (already mapped) dysfunction in HA.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HA magnesium: magnesium cofactors hepatocyte (already mapped) coagulation-protein synthesis and endothelial cell (already mapped) function; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HA chloride: chloride channels regulate hepatocyte (already mapped) and endothelial cell (already mapped) volume and ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HA nitrogen: nitrogen as backbone of coagulation proteins and cytokines (already mapped) sustains haemostatic signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory bleeding cascade in HA.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HA phosphorus: phosphorus as ATP in hepatocytes (already mapped) and endothelial cells (already mapped) fuels coagulation-protein synthesis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) in HA.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
