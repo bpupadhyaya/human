@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "HIT chloride: chloride, as a key ionic regulator, maintains platelet (already mapped) and endothelial cell (already mapped) ion balance; chloride dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and PF4 (already mapped) prothrombotic cascade in HIT."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HIT carbon: carbon as backbone of PF4 (already mapped) and thrombin (already mapped) proteins anchors prothrombotic signalling; carbon-derived metabolites in platelets (already mapped) and endothelial cells (already mapped) amplify NF-κB (already mapped) cascade in HIT."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HIT nitrogen: nitrogen as backbone of PF4 (already mapped) and thrombin (already mapped) sustains prothrombotic signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) endothelial damage in HIT."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "HIT sulfur: sulfur in disulfide bonds of PF4 (already mapped) and thrombin (already mapped) stabilises their prothrombotic conformations; sulfur-derived ROS in platelets (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -851,6 +860,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HIT potassium: potassium regulates platelet (already mapped) and endothelial cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and PF4 (already mapped) prothrombotic cascade in HIT.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — HIT iron: iron, via ferritin in macrophages (already mapped) and platelet (already mapped) stores, modulates coagulation; iron dysregulation amplifies thrombin (already mapped) generation and NF-κB (already mapped) endothelial cell (already mapped) prothrombotic cascade in HIT.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HIT chloride: chloride, as a key ionic regulator, maintains platelet (already mapped) and endothelial cell (already mapped) ion balance; chloride dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and PF4 (already mapped) prothrombotic cascade in HIT.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HIT carbon: carbon as backbone of PF4 (already mapped) and thrombin (already mapped) proteins anchors prothrombotic signalling; carbon-derived metabolites in platelets (already mapped) and endothelial cells (already mapped) amplify NF-κB (already mapped) cascade in HIT.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HIT nitrogen: nitrogen as backbone of PF4 (already mapped) and thrombin (already mapped) sustains prothrombotic signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) endothelial damage in HIT.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HIT sulfur: sulfur in disulfide bonds of PF4 (already mapped) and thrombin (already mapped) stabilises their prothrombotic conformations; sulfur-derived ROS in platelets (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

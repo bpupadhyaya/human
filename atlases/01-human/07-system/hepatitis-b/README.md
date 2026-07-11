@@ -531,6 +531,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "HBV calcium: calcium signals hepatocyte (already mapped) and macrophage (already mapped) inflammatory activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in chronic HBV."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HBV chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in chronic HBV."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HBV nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HBV."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HBV phosphorus: phosphorus as ATP in hepatocytes (already mapped) and macrophages (already mapped) fuels viral replication and immune signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HBV."
 ---
 
 # Hepatitis B
@@ -837,3 +846,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HBV copper: copper, as cofactor of ceruloplasmin in hepatocytes (already mapped) and macrophages (already mapped), modulates oxidative stress; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in HBV.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HBV potassium: potassium regulates hepatocyte (already mapped) and macrophage (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in chronic HBV.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HBV calcium: calcium signals hepatocyte (already mapped) and macrophage (already mapped) inflammatory activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in chronic HBV.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HBV chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammation in chronic HBV.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HBV nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HBV.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HBV phosphorus: phosphorus as ATP in hepatocytes (already mapped) and macrophages (already mapped) fuels viral replication and immune signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HBV.
