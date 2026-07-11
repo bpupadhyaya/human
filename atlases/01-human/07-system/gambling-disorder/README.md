@@ -516,6 +516,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "GD oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) and astrocytes (already mapped) for dopamine (already mapped) synthesis and BDNF (already mapped) support; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammation in GD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "GD carbon: carbon, as metabolic backbone of dopamine (already mapped) and neurotransmitters in neurons (already mapped) and astrocytes (already mapped), drives reward signalling; carbon dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) in GD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "GD chloride: chloride channels in neurons (already mapped) and astrocytes (already mapped) modulate GABA (already mapped) inhibitory tone; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) reward-sensitisation cascade in gambling disorder."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "GD hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches neuroinflammatory ROS; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) cascade in gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -828,6 +837,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — GD sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) modulates GABA (already mapped) inhibitory tone; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-1β (already mapped) neuroinflammation in GD.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — GD nitrogen: nitric oxide from iNOS in microglia (already mapped) modulates dopamine (already mapped) and glutamate (already mapped) reward signalling; nitrogen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammation in gambling disorder.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — GD oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) and astrocytes (already mapped) for dopamine (already mapped) synthesis and BDNF (already mapped) support; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammation in GD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — GD carbon: carbon, as metabolic backbone of dopamine (already mapped) and neurotransmitters in neurons (already mapped) and astrocytes (already mapped), drives reward signalling; carbon dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) in GD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GD chloride: chloride channels in neurons (already mapped) and astrocytes (already mapped) modulate GABA (already mapped) inhibitory tone; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) reward-sensitisation cascade in gambling disorder.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — GD hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches neuroinflammatory ROS; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) cascade in gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
