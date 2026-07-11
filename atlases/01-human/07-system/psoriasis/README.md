@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "PsO chloride: chloride channels in macrophages (already mapped) and mast cells (already mapped) modulate psoriatic inflammation; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-17A (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PsO carbon: carbon as backbone of IL-17A (already mapped) and NF-κB (already mapped) proteins in keratinocytes and macrophages (already mapped) sustains psoriatic signalling; carbon depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PsO hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and keratinocytes, supports IL-17A (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) oxidative plaque cascade of psoriasis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "PsO nitrogen: nitrogen in amino-acid scaffold of IL-17A (already mapped) and NF-κB (already mapped) proteins in macrophages (already mapped) and keratinocytes sustains psoriatic immune signalling; nitrogen dysregulation amplifies TNF-α (already mapped) cascade of psoriasis."
 ---
 
 # Psoriasis
@@ -822,6 +831,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PsO potassium: potassium, via Kir channels in keratinocytes and mast cells (already mapped), regulates inflammatory signalling; potassium dysregulation amplifies NF-κB (already mapped) and IL-17A (already mapped) and TNF-α (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PsO phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and mast cells (already mapped), sustains psoriatic immune-keratinocyte crosstalk; phosphorus deficiency amplifies NF-κB (already mapped) and IL-17A (already mapped) cascade of psoriasis.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PsO chloride: chloride channels in macrophages (already mapped) and mast cells (already mapped) modulate psoriatic inflammation; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-17A (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PsO carbon: carbon as backbone of IL-17A (already mapped) and NF-κB (already mapped) proteins in keratinocytes and macrophages (already mapped) sustains psoriatic signalling; carbon depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PsO hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and keratinocytes, supports IL-17A (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) oxidative plaque cascade of psoriasis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PsO nitrogen: nitrogen in amino-acid scaffold of IL-17A (already mapped) and NF-κB (already mapped) proteins in macrophages (already mapped) and keratinocytes sustains psoriatic immune signalling; nitrogen dysregulation amplifies TNF-α (already mapped) cascade of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

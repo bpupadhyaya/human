@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "PN phosphorus: phosphorus, as ATP precursor in sensory neurons (already mapped) and mast cells (already mapped), powers itch-signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-31 (already mapped) neuroinflammatory itch cascade of prurigo nodularis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PN carbon: carbon as backbone of IL-31 (already mapped) and NF-κB (already mapped) proteins in sensory neurons (already mapped) and mast cells (already mapped) sustains itch signalling; carbon depletion amplifies NF-κB (already mapped) and IL-31 (already mapped) cascade of PN."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "PN chloride: chloride via GABA-A channels in sensory neurons (already mapped) and mast cells (already mapped) modulates itch-signal tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-31 (already mapped) neuroinflammatory itch cascade of prurigo nodularis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PN hydrogen: hydrogen, via redox homeostasis in sensory neurons (already mapped) and mast cells (already mapped), supports neuropeptide synthesis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-31 (already mapped) oxidative itch cascade of prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -782,6 +791,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PN copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped) and keratinocytes, supports cutaneous ECM integrity; copper deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of prurigo nodularis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PN potassium: potassium, via Kv7 channels in sensory neurons (already mapped) and mast cells (already mapped), modulates itch-signal transmission; potassium dysregulation amplifies NF-κB (already mapped) and IL-31 (already mapped) cascade of prurigo nodularis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PN phosphorus: phosphorus, as ATP precursor in sensory neurons (already mapped) and mast cells (already mapped), powers itch-signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-31 (already mapped) neuroinflammatory itch cascade of prurigo nodularis.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PN carbon: carbon as backbone of IL-31 (already mapped) and NF-κB (already mapped) proteins in sensory neurons (already mapped) and mast cells (already mapped) sustains itch signalling; carbon depletion amplifies NF-κB (already mapped) and IL-31 (already mapped) cascade of PN.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PN chloride: chloride via GABA-A channels in sensory neurons (already mapped) and mast cells (already mapped) modulates itch-signal tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-31 (already mapped) neuroinflammatory itch cascade of prurigo nodularis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PN hydrogen: hydrogen, via redox homeostasis in sensory neurons (already mapped) and mast cells (already mapped), supports neuropeptide synthesis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-31 (already mapped) oxidative itch cascade of prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
