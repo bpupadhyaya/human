@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "MB potassium: potassium regulates macrophage (already mapped) and T-cytotoxic cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of medulloblastoma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "MB carbon: carbon as backbone of sonic-hedgehog (already mapped) signalling proteins in cerebellar granule cells (already mapped) sustains proliferative control; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "MB chloride: chloride regulates cerebellar granule cells (already mapped) and microglia (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and sonic-hedgehog (already mapped) oncogenic cascade of medulloblastoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MB nitrogen: nitrogen in amino-acid scaffold of sonic-hedgehog (already mapped) and PTCH1 proteins sustains cerebellar granule cell (already mapped) differentiation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma."
 ---
 
 # Medulloblastoma
@@ -829,6 +838,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MB copper: copper, via SOD1 in macrophages (already mapped) and microglia (already mapped), scavenges tumour ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of medulloblastoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MB zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and microglia (already mapped), attenuates brain tumour oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MB potassium: potassium regulates macrophage (already mapped) and T-cytotoxic cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of medulloblastoma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MB carbon: carbon as backbone of sonic-hedgehog (already mapped) signalling proteins in cerebellar granule cells (already mapped) sustains proliferative control; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MB chloride: chloride regulates cerebellar granule cells (already mapped) and microglia (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and sonic-hedgehog (already mapped) oncogenic cascade of medulloblastoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MB nitrogen: nitrogen in amino-acid scaffold of sonic-hedgehog (already mapped) and PTCH1 proteins sustains cerebellar granule cell (already mapped) differentiation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

@@ -542,6 +542,9 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "Measles chloride: chloride regulates macrophage (already mapped) and NK-cell (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) antiviral cascade of measles."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Measles carbon: carbon as backbone of measles-virus nucleocapsid and viral glycoproteins sustains replication in lymphocytes (already mapped); carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of measles."
 ---
 
 # Measles
@@ -861,6 +864,7 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Measles iron: iron, as cofactor of macrophage (already mapped) and NK-cell (already mapped) antiviral enzymes, supports innate immunity; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) immune cascade of measles.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Measles calcium: calcium, as second messenger in macrophages (already mapped) and T-cytotoxic cells (already mapped), coordinates antiviral signalling; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine cascade of measles.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Measles chloride: chloride regulates macrophage (already mapped) and NK-cell (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) antiviral cascade of measles.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Measles carbon: carbon as backbone of measles-virus nucleocapsid and viral glycoproteins sustains replication in lymphocytes (already mapped); carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
