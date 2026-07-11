@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Pancreatic cancer sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the T-cytotoxic (already mapped) suppression in pancreatic cancer."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "Pancreatic cancer calcium: calcium gates NLRP3 in macrophages (already mapped) and mast-cells (already mapped); calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and suppresses T-cytotoxic (already mapped) anti-tumour function in pancreatic cancer."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Pancreatic cancer copper: copper enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustain tumour immunity; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) mast-cell (already mapped) skewing cascade in pancreatic cancer."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Pancreatic cancer potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade suppressing mast-cell (already mapped) and T-cytotoxic (already mapped) function in pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -815,6 +824,9 @@ cross_links:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Pancreatic cancer selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the pancreatic tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Pancreatic cancer iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade in pancreatic cancer.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Pancreatic cancer sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies the T-cytotoxic (already mapped) suppression in pancreatic cancer.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Pancreatic cancer calcium: calcium signalling in macrophages (already mapped) and mast-cells (already mapped) governs immune activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade suppressing T-cytotoxic (already mapped) killing in pancreatic cancer.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Pancreatic cancer copper: copper enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustain tumour immunity; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) mast-cell (already mapped) skewing cascade in pancreatic cancer.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Pancreatic cancer potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour inflammation and suppresses mast-cell (already mapped) and T-cytotoxic (already mapped) function in pancreatic cancer.
 
 ---
 

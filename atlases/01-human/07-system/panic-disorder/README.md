@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Panic disorder sulfur: sulfur, as component of glutathione in neurons (already mapped) and astrocytes (already mapped), buffers oxidative stress; sulfur deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of panic disorder."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Panic disorder nitrogen: nitrogen is the backbone of GABA (already mapped) and glutamate (already mapped) in neurons (already mapped); nitrogen deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of panic disorder."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Panic disorder oxygen: oxygen powers neuron (already mapped) and astrocyte (already mapped) mitochondria in the corticolimbic circuit; hypoxic stress amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of panic disorder."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "Panic disorder dopamine: dopamine modulates norepinephrine (already mapped) release and fear-salience signalling in the locus coeruleus; dopamine dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory tone of panic disorder."
 ---
 
 # Panic Disorder
@@ -840,6 +849,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Panic disorder iron: iron, as cofactor of monoamine oxidase in neurons (already mapped) and microglia (already mapped), supports monoamine catabolism; iron deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of panic disorder.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Panic disorder chloride: chloride via GABA-A Cl⁻ channels on neurons (already mapped) and astrocytes (already mapped) sets inhibitory tone; chloride dysregulation impairs GABAergic control, amplifying the NF-κB (already mapped) hyperexcitability cascade of panic disorder.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Panic disorder sulfur: sulfur, as component of glutathione in neurons (already mapped) and astrocytes (already mapped), buffers oxidative stress; sulfur deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of panic disorder.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Panic disorder nitrogen: nitrogen is the backbone of GABA (already mapped) and glutamate (already mapped) in neurons (already mapped); nitrogen deficiency amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of panic disorder.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Panic disorder oxygen: oxygen powers neuron (already mapped) and astrocyte (already mapped) mitochondria in the corticolimbic circuit; hypoxic stress amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of panic disorder.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — Panic disorder dopamine: dopamine modulates norepinephrine (already mapped) release and fear-salience signalling in the locus coeruleus; dopamine dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory tone of panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
