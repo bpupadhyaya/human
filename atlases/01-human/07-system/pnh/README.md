@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "PNH chloride: chloride via anion exchangers in erythrocytes (already mapped) maintains osmotic haemoglobin integrity; chloride dysregulation amplifies the complement-C5 (already mapped) haemolysis and NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of PNH."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PNH carbon: carbon as backbone of GPI-anchor proteins and NF-κB (already mapped) in erythrocytes (already mapped) and platelets (already mapped) sustains membrane protection; carbon depletion amplifies complement-C5 (already mapped) and IL-6 (already mapped) cascade of PNH."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "PNH nitrogen: nitrogen in amino-acid scaffold of GPI-anchor proteins and complement regulators in erythrocytes (already mapped) sustains membrane protection; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "PNH oxygen: reactive oxygen species from complement-C5 (already mapped) activation in erythrocytes (already mapped) amplify haemolysis; oxygen dysregulation worsens NF-κB (already mapped) and IL-6 (already mapped) inflammatory and thrombotic cascade of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -791,6 +800,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PNH copper: copper, as ceruloplasmin cofactor in macrophages (already mapped) and hepatocytes (already mapped), supports iron (already mapped) recycling from haemolysed erythrocytes (already mapped); copper deficiency amplifies the IL-6 (already mapped) cascade of PNH.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PNH phosphorus: phosphorus-dependent ATP in erythrocytes (already mapped) and platelets (already mapped) sustains membrane integrity against complement-C5 (already mapped) haemolysis; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PNH.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PNH chloride: chloride via anion exchangers in erythrocytes (already mapped) maintains osmotic haemoglobin integrity; chloride dysregulation amplifies the complement-C5 (already mapped) haemolysis and NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of PNH.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PNH carbon: carbon as backbone of GPI-anchor proteins and NF-κB (already mapped) in erythrocytes (already mapped) and platelets (already mapped) sustains membrane protection; carbon depletion amplifies complement-C5 (already mapped) and IL-6 (already mapped) cascade of PNH.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PNH nitrogen: nitrogen in amino-acid scaffold of GPI-anchor proteins and complement regulators in erythrocytes (already mapped) sustains membrane protection; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PNH oxygen: reactive oxygen species from complement-C5 (already mapped) activation in erythrocytes (already mapped) amplify haemolysis; oxygen dysregulation worsens NF-κB (already mapped) and IL-6 (already mapped) inflammatory and thrombotic cascade of PNH.
 
 ---
 

@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "PPGL nitrogen: nitric oxide from macrophages (already mapped) modulates catecholamine vasoconstriction in endothelial cells (already mapped); nitrogen limitation amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of pheochromocytoma-paraganglioma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PPGL carbon: carbon as backbone of catecholamine and VEGF (already mapped) proteins in chromaffin cells and macrophages (already mapped) sustains tumour signalling; carbon depletion amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of PPGL."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PPGL hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and chromaffin cells, supports catecholamine biosynthesis; hydrogen dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) oxidative cascade of pheochromocytoma-paraganglioma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "PPGL phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and chromaffin cells sustains catecholamine secretion; phosphorus deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic-inflammatory cascade of pheochromocytoma-paraganglioma."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -841,6 +850,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PPGL chloride: chloride channels in macrophages (already mapped) and mast-cells (already mapped) regulate adrenal-stromal inflammation; chloride dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of pheochromocytoma-paraganglioma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PPGL sulfur: sulfur-containing glutathione in macrophages (already mapped) and endothelial cells (already mapped) limits oxidative stress; sulfur deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of pheochromocytoma-paraganglioma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PPGL nitrogen: nitric oxide from macrophages (already mapped) modulates catecholamine vasoconstriction in endothelial cells (already mapped); nitrogen limitation amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PPGL carbon: carbon as backbone of catecholamine and VEGF (already mapped) proteins in chromaffin cells and macrophages (already mapped) sustains tumour signalling; carbon depletion amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of PPGL.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PPGL hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and chromaffin cells, supports catecholamine biosynthesis; hydrogen dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) oxidative cascade of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PPGL phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and chromaffin cells sustains catecholamine secretion; phosphorus deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic-inflammatory cascade of pheochromocytoma-paraganglioma.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
