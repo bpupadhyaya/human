@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "HCC potassium: potassium regulates macrophage (already mapped) and hepatocellular membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped)-driven hepatocellular proliferation and VEGF (already mapped) angiogenesis in HCC."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HCC chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) volume during tumour microenvironment stress; chloride dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped) hepatocellular proliferation in HCC."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HCC nitrogen: nitrogen as backbone of oncoproteins and cytokines (already mapped) sustains tumour signalling; macrophage (already mapped) nitric-oxide-derived RNS amplifies NF-κB (already mapped) and STAT3 (already mapped) hepatocellular proliferation in HCC."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HCC phosphorus: phosphorus as ATP in macrophages (already mapped) and hepatocytes (already mapped) fuels kinase cascades; phosphorus dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped)-driven hepatocellular proliferation and VEGF (already mapped) in HCC."
 ---
 
 # Hepatocellular Carcinoma
@@ -837,6 +846,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HCC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and NRF2 (already mapped) antioxidant pathways; magnesium deficiency amplifies NF-κB (already mapped) and STAT3 (already mapped)-driven hepatocellular proliferation in HCC.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HCC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation; iodine deficiency amplifies NF-κB (already mapped) and STAT3 (already mapped)-driven hepatocellular proliferation and VEGF (already mapped) angiogenesis in HCC.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HCC potassium: potassium regulates macrophage (already mapped) and hepatocellular membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped)-driven hepatocellular proliferation and VEGF (already mapped) angiogenesis in HCC.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HCC chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) volume during tumour microenvironment stress; chloride dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped) hepatocellular proliferation in HCC.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HCC nitrogen: nitrogen as backbone of oncoproteins and cytokines (already mapped) sustains tumour signalling; macrophage (already mapped) nitric-oxide-derived RNS amplifies NF-κB (already mapped) and STAT3 (already mapped) hepatocellular proliferation in HCC.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HCC phosphorus: phosphorus as ATP in macrophages (already mapped) and hepatocytes (already mapped) fuels kinase cascades; phosphorus dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped)-driven hepatocellular proliferation and VEGF (already mapped) in HCC.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

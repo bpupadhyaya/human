@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "GVHD calcium: calcium signals macrophage (already mapped) and regulatory T-cell (already mapped) activation; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) alloreactive cascade of GVHD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "GVHD chloride: chloride channels regulate macrophage (already mapped) and regulatory T-cell (already mapped) volume during alloreactive responses; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "GVHD nitrogen: nitrogen, as protein backbone in cytokines (already mapped) and effector T-cells (already mapped), sustains alloreactive signalling; nitrogen-derived RNS amplifies NF-κB (already mapped) and TNF-α (already mapped) tissue inflammation of GVHD."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "GVHD phosphorus: phosphorus as ATP in macrophages (already mapped) and effector T-cells (already mapped) fuels alloreactive kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
 ---
 
 # Graft-Versus-Host Disease
@@ -845,6 +854,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — GVHD sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) amplifies alloreactive T-cell tissue damage in GVHD.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — GVHD copper: copper cofactors macrophage (already mapped) and regulatory T-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) alloreactive tissue damage in GVHD.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — GVHD calcium: calcium signals macrophage (already mapped) and regulatory T-cell (already mapped) activation; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) alloreactive cascade of GVHD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GVHD chloride: chloride channels regulate macrophage (already mapped) and regulatory T-cell (already mapped) volume during alloreactive responses; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — GVHD nitrogen: nitrogen, as protein backbone in cytokines (already mapped) and effector T-cells (already mapped), sustains alloreactive signalling; nitrogen-derived RNS amplifies NF-κB (already mapped) and TNF-α (already mapped) tissue inflammation of GVHD.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GVHD phosphorus: phosphorus as ATP in macrophages (already mapped) and effector T-cells (already mapped) fuels alloreactive kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
