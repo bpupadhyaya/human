@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "FL potassium: potassium regulates macrophage (already mapped) and B-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "FL chloride: chloride channels on B-cells (already mapped) and macrophages (already mapped) regulate apoptotic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "FL sulfur: glutathione from sulfur amino acids in macrophages (already mapped) and B-cells (already mapped) counters ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "FL nitrogen: nitric oxide from iNOS in macrophages (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell (already mapped) cascade of follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -825,6 +834,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — FL magnesium: magnesium cofactors kinase signalling in B-cells (already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — FL copper: copper, via ceruloplasmin in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — FL potassium: potassium regulates macrophage (already mapped) and B-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — FL chloride: chloride channels on B-cells (already mapped) and macrophages (already mapped) regulate apoptotic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell cascade of follicular lymphoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — FL sulfur: glutathione from sulfur amino acids in macrophages (already mapped) and B-cells (already mapped) counters ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — FL nitrogen: nitric oxide from iNOS in macrophages (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell (already mapped) cascade of follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

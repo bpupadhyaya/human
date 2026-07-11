@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "GC zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of gastric cancer."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "GC calcium: calcium regulates macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of gastric cancer."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "GC phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels gastric tumour-stromal signalling; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of gastric cancer."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "GC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of gastric cancer."
 ---
 
 # Gastric Cancer
@@ -846,6 +855,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — GC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of gastric cancer.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — GC copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of gastric cancer.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — GC zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of gastric cancer.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — GC calcium: calcium regulates macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of gastric cancer.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GC phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels gastric tumour-stromal signalling; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of gastric cancer.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — GC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of gastric cancer.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
