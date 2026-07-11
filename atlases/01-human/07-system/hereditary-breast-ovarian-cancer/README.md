@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "HBOC copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting cascade of HBOC."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HBOC potassium: potassium regulates macrophage (already mapped) and T-cytotoxic (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting cascade in HBOC."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "HBOC zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting inflammatory cascade in HBOC."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HBOC phosphorus: phosphorus as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -835,6 +844,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HBOC sodium: high dietary sodium promotes Th17 polarisation and macrophage (already mapped) activation; sodium-induced IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) and T-helper-cell (already mapped) tumour cascade of HBOC.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HBOC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting cascade of HBOC.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HBOC copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting cascade of HBOC.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HBOC potassium: potassium regulates macrophage (already mapped) and T-cytotoxic (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting cascade in HBOC.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HBOC zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting inflammatory cascade in HBOC.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HBOC phosphorus: phosphorus as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 
 ---
 

@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "HDGC copper: copper supports macrophage (already mapped) anti-tumour function and mast-cell (already mapped) regulation; copper deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade and angiogenesis in HDGC."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HDGC chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) volume during tumour-microenvironment stress; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) in HDGC."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HDGC nitrogen: nitrogen as backbone of oncoproteins and cytokines (already mapped) sustains tumour signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) in HDGC."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HDGC phosphorus: phosphorus as ATP in macrophages (already mapped) and mast cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -807,6 +816,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — HDGC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and mast-cell (already mapped) stability; iodine deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade of HDGC.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HDGC sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium-induced IL-6 (already mapped) and TGF-β (already mapped) amplifies tumour-promoting microenvironment of HDGC.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HDGC copper: copper supports macrophage (already mapped) anti-tumour function and mast-cell (already mapped) regulation; copper deficiency amplifies IL-6 (already mapped) and TGF-β (already mapped) tumour-promoting cascade and angiogenesis in HDGC.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HDGC chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) volume during tumour-microenvironment stress; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) in HDGC.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HDGC nitrogen: nitrogen as backbone of oncoproteins and cytokines (already mapped) sustains tumour signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) in HDGC.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HDGC phosphorus: phosphorus as ATP in macrophages (already mapped) and mast cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
