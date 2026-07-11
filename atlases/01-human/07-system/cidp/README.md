@@ -537,6 +537,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "CIDP potassium: potassium regulates macrophage (already mapped) and neuron (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) demyelinating cascade of CIDP."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "iron in macrophage (already mapped) and neuron (already mapped) fuels myelination pathways; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus in neuron (already mapped) and macrophage (already mapped) fuels ATP-driven myelination; phosphate dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CIDP."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on neuron (already mapped) and macrophage (already mapped) regulate nerve excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP."
 ---
 
 # CIDP
@@ -852,6 +861,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CIDP sodium: sodium dysregulation in macrophages (already mapped) and neurons (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) demyelinating cascade of CIDP.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — CIDP zinc: zinc cofactors macrophage (already mapped) and T-cell (already mapped) immune function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) demyelinating autoimmune cascade of CIDP.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CIDP potassium: potassium regulates macrophage (already mapped) and neuron (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) demyelinating cascade of CIDP.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — iron in macrophage (already mapped) and neuron (already mapped) fuels myelination pathways; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus in neuron (already mapped) and macrophage (already mapped) fuels ATP-driven myelination; phosphate dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CIDP.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on neuron (already mapped) and macrophage (already mapped) regulate nerve excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP.
 
 ---
 

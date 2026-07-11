@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Chordoma phosphorus: phosphorus, as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped), fuels proliferative and cytotoxic signalling; phosphorus dysregulation amplifies the IL-6 (already mapped) and mast-cell (already mapped) TME of chordoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "sodium homeostasis in macrophage (already mapped) and fibroblast (already mapped) regulates tumour ionic microenvironment; sodium dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in chordoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "potassium channels on T-cytotoxic cell (already mapped) and macrophage (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in chordoma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "iron in macrophage (already mapped) and fibroblast (already mapped) fuels oxidative tumour microenvironment; iron excess amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma."
 ---
 
 # Chordoma
@@ -834,6 +843,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Chordoma iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) surveillance; iodine deficiency amplifies the IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of chordoma.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Chordoma magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting signalling cascade of chordoma.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Chordoma phosphorus: phosphorus, as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped), fuels proliferative and cytotoxic signalling; phosphorus dysregulation amplifies the IL-6 (already mapped) and mast-cell (already mapped) TME of chordoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — sodium homeostasis in macrophage (already mapped) and fibroblast (already mapped) regulates tumour ionic microenvironment; sodium dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in chordoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels on T-cytotoxic cell (already mapped) and macrophage (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in chordoma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — iron in macrophage (already mapped) and fibroblast (already mapped) fuels oxidative tumour microenvironment; iron excess amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma.
 
 ---
 
