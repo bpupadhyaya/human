@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Thyroid-cancer sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "TC carbon: carbon, as metabolic backbone of thyroid-hormones (already mapped) and VEGF (already mapped) in macrophages (already mapped), drives proliferative signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of thyroid cancer."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "TC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), modulates tumour oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of thyroid cancer."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "TC nitrogen: nitric oxide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer."
 ---
 
 # Thyroid Cancer
@@ -843,6 +852,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Thyroid-cancer potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and suppresses T-cytotoxic-cell (already mapped) anti-tumour surveillance in thyroid cancer.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Thyroid-cancer chloride: chloride channels in macrophages (already mapped) and T-cytotoxic-cell (already mapped) regulate tumour-immune homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of thyroid cancer.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Thyroid-cancer sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — TC carbon: carbon, as metabolic backbone of thyroid-hormones (already mapped) and VEGF (already mapped) in macrophages (already mapped), drives proliferative signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of thyroid cancer.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — TC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), modulates tumour oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of thyroid cancer.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — TC nitrogen: nitric oxide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

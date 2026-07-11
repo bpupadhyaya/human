@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "TTP nitrogen: nitric oxide from endothelial-cell (already mapped) prevents platelet (already mapped) aggregation; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and worsens ADAMTS13-deficient microvascular thrombosis in TTP."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "TTP carbon: carbon, as metabolic backbone of endothelial-cell (already mapped) and platelets (already mapped), drives coagulation signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and ADAMTS13-deficiency cascade of TTP."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "TTP hydrogen: hydrogen, via redox homeostasis in endothelial-cell (already mapped) and platelets (already mapped), quenches microvascular ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) microvascular thrombosis cascade of TTP."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "TTP GLP-1: GLP-1 signalling in endothelial-cell (already mapped) and macrophages (already mapped) modulates microvascular metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -862,6 +871,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — TTP chloride: chloride channels in platelets (already mapped) and endothelial-cell (already mapped) regulate thrombotic microangiopathy homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of TTP.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — TTP sulfur: hydrogen sulfide from endothelial-cell (already mapped) and platelets (already mapped) promotes vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and worsens microvascular thrombosis in TTP.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — TTP nitrogen: nitric oxide from endothelial-cell (already mapped) prevents platelet (already mapped) aggregation; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and worsens ADAMTS13-deficient microvascular thrombosis in TTP.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — TTP carbon: carbon, as metabolic backbone of endothelial-cell (already mapped) and platelets (already mapped), drives coagulation signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and ADAMTS13-deficiency cascade of TTP.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — TTP hydrogen: hydrogen, via redox homeostasis in endothelial-cell (already mapped) and platelets (already mapped), quenches microvascular ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) microvascular thrombosis cascade of TTP.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — TTP GLP-1: GLP-1 signalling in endothelial-cell (already mapped) and macrophages (already mapped) modulates microvascular metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of TTP.
 
 ---
 
