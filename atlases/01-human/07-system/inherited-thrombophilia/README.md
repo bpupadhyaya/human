@@ -538,6 +538,12 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "IT chloride: chloride regulates macrophage (already mapped) and endothelial cell (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) prothrombotic cascade of inherited thrombophilia."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Thrombophilia carbon: carbon as backbone of fibrinogen (already mapped) and prothrombin sustains clot-forming capacity; carbon-skeleton disruption in platelets (already mapped) and endothelium (already mapped) amplifies thrombosis cascade of inherited thrombophilia."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Thrombophilia nitrogen: nitrogen in nitric oxide (already mapped) and amino-acid cofactors modulates endothelial (already mapped) anticoagulant tone; nitrogen dysregulation amplifies thrombin (already mapped) and PAI-1 (already mapped) clotting cascade of inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -870,6 +876,8 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — IT iron: iron, via ferritin in macrophages (already mapped) and platelets (already mapped), modulates coagulation; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) prothrombotic cascade of inherited thrombophilia.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IT phosphorus: phosphorus, as ATP fuelling macrophages (already mapped) and platelets (already mapped) coagulation signalling, sustains thrombin (already mapped) generation; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) prothrombotic cascade.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IT chloride: chloride regulates macrophage (already mapped) and endothelial cell (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) prothrombotic cascade of inherited thrombophilia.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Thrombophilia carbon: carbon as backbone of fibrinogen (already mapped) and prothrombin sustains clot-forming capacity; carbon-skeleton disruption in platelets (already mapped) and endothelium (already mapped) amplifies thrombosis cascade of inherited thrombophilia.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Thrombophilia nitrogen: nitrogen in nitric oxide (already mapped) and amino-acid cofactors modulates endothelial (already mapped) anticoagulant tone; nitrogen dysregulation amplifies thrombin (already mapped) and PAI-1 (already mapped) clotting cascade of inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
