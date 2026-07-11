@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "T2D sulfur: glutathione buffers oxidative stress from NF-κB (already mapped) and AMPK (already mapped) in macrophages (already mapped) and hepatocytes (already mapped); hyperhomocysteinaemia amplifies insulin (already mapped) resistance and IL-6 (already mapped) cascade of T2D."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "T2D nitrogen: nitric oxide from eNOS in endothelial-cell (already mapped) and macrophages (already mapped) preserves insulin (already mapped) sensitivity; nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular insulin resistance of T2D."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "T2D oxygen: mitochondrial oxygen consumption in hepatocytes (already mapped) and adipocytes (already mapped) drives ATP for insulin (already mapped) signalling; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) adipose inflammation and insulin resistance of T2D."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "T2D carbon: CO2 in bicarbonate buffering of hepatocytes (already mapped) and macrophages (already mapped) regulates pH for insulin (already mapped) secretion; carbon-metabolite excess amplifies NF-κB (already mapped) and AMPK (already mapped) insulin resistance of T2D."
 ---
 
 # Type 2 Diabetes
@@ -798,6 +807,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — T2D iron: iron overload promotes hepatocyte (already mapped) and macrophage (already mapped) oxidative stress; iron-induced NF-κB (already mapped) and IL-6 (already mapped) amplify adipocyte (already mapped) inflammation and insulin (already mapped) resistance cascade of T2D.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — T2D chloride: chloride, via CFTR in pancreatic and hepatocyte (already mapped) cells, regulates insulin (already mapped) secretion; chloride dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of type 2 diabetes.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — T2D sulfur: glutathione buffers oxidative stress from NF-κB (already mapped) and AMPK (already mapped) in macrophages (already mapped) and hepatocytes (already mapped); hyperhomocysteinaemia amplifies insulin (already mapped) resistance and IL-6 (already mapped) cascade of T2D.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — T2D nitrogen: nitric oxide from eNOS in endothelial-cell (already mapped) and macrophages (already mapped) preserves insulin (already mapped) sensitivity; nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular insulin resistance of T2D.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — T2D oxygen: mitochondrial oxygen consumption in hepatocytes (already mapped) and adipocytes (already mapped) drives ATP for insulin (already mapped) signalling; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) adipose inflammation and insulin resistance of T2D.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — T2D carbon: CO2 in bicarbonate buffering of hepatocytes (already mapped) and macrophages (already mapped) regulates pH for insulin (already mapped) secretion; carbon-metabolite excess amplifies NF-κB (already mapped) and AMPK (already mapped) insulin resistance of T2D.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

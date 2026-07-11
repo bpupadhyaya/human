@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "T1D copper: copper, via ceruloplasmin and SOD in macrophages (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TNF-α (already mapped) driven autoimmune beta-cell destruction and IL-6 (already mapped) cascade in T1D."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "T1D phosphorus: phosphorus, as ATP donor for beta-cell function and mTOR (already mapped) in macrophages (already mapped), supports immunoregulation; phosphorus deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) autoimmune insulitis in T1D."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "T1D chloride: chloride, via CFTR in pancreatic beta cells (pancreas already mapped) and macrophages (already mapped), modulates insulin (already mapped) secretion; chloride imbalance amplifies NF-κB (already mapped) and NLRP3 (already mapped) beta-cell destruction in T1D."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "T1D sulfur: glutathione from sulfur-amino acids in macrophages (already mapped) and T-helper-cell (already mapped) quenches ROS; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) autoimmune insulitis of T1D."
 ---
 
 # Type 1 Diabetes
@@ -791,6 +800,9 @@ cross_links:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — T1D iodine: iodine-dependent thyroid hormones regulate beta-cell (pancreas already mapped) function and insulin (already mapped) secretion; hypothyroidism co-occurs with T1D via shared autoimmune mechanisms and amplifies NF-κB (already mapped) inflammatory insulitis.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — T1D iron: iron supports macrophage (already mapped) and T-helper-cell (already mapped) differentiation; iron deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) beta-cell destruction in T1D.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — T1D copper: copper, via ceruloplasmin and SOD in macrophages (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TNF-α (already mapped) driven autoimmune beta-cell destruction and IL-6 (already mapped) cascade in T1D.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — T1D phosphorus: phosphorus, as ATP donor for beta-cell function and mTOR (already mapped) in macrophages (already mapped), supports immunoregulation; phosphorus deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) autoimmune insulitis in T1D.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — T1D chloride: chloride, via CFTR in pancreatic beta cells (pancreas already mapped) and macrophages (already mapped), modulates insulin (already mapped) secretion; chloride imbalance amplifies NF-κB (already mapped) and NLRP3 (already mapped) beta-cell destruction in T1D.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — T1D sulfur: glutathione from sulfur-amino acids in macrophages (already mapped) and T-helper-cell (already mapped) quenches ROS; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) autoimmune insulitis of T1D.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
