@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "EC zinc: zinc cofactors estrogen receptor (already mapped) signalling and macrophage (already mapped) anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and mTOR (already mapped)-driven endometrial tumour proliferation and angiogenesis in endometrial cancer."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "EC iodine: thyroid hormones (iodine-dependent) modulate estrogen-receptor (already mapped) activity in endometrial cells; iodine deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) proliferative signalling and IL-6 (already mapped) tumour inflammation."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "EC sodium: sodium-driven osmotic stress on endometrial cells amplifies NF-κB (already mapped) and mTOR (already mapped) tumour-proliferative signalling; sodium-stimulated IL-6 (already mapped) and VEGF (already mapped) promote the pro-tumourigenic milieu of endometrial cancer."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "EC copper: copper, via ceruloplasmin and SOD, in macrophages (already mapped) and fibroblasts (already mapped), scavenges ROS; copper excess amplifies NF-κB (already mapped) and mTOR (already mapped) endometrial tumour growth via VEGF (already mapped) angiogenesis."
 ---
 
 # Endometrial Cancer
@@ -812,6 +821,9 @@ cross_links:
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — EC vasopressin: vasopressin, via V1bR on endometrial cells, promotes CRH-cortisol (already mapped) immune suppression in the tumour microenvironment; vasopressin amplifies the mTOR (already mapped) and NF-κB (already mapped) pro-tumourigenic milieu of endometrial cancer.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — EC selenium: selenium, via GPx and selenoproteins, suppresses ROS-driven NF-κB (already mapped) and mTOR (already mapped) tumour-proliferative signalling; selenium induces apoptosis and attenuates estrogen (already mapped)-linked carcinogenesis in endometrial cancer.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — EC zinc: zinc cofactors estrogen receptor (already mapped) signalling and macrophage (already mapped) anti-tumour immunity; zinc deficiency amplifies NF-κB (already mapped) and mTOR (already mapped)-driven endometrial tumour proliferation and angiogenesis in endometrial cancer.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — EC iodine: thyroid hormones (iodine-dependent) modulate estrogen-receptor (already mapped) activity in endometrial cells; iodine deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) proliferative signalling and IL-6 (already mapped) tumour inflammation.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — EC sodium: sodium-driven osmotic stress on endometrial cells amplifies NF-κB (already mapped) and mTOR (already mapped) tumour-proliferative signalling; sodium-stimulated IL-6 (already mapped) and VEGF (already mapped) promote the pro-tumourigenic milieu of endometrial cancer.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — EC copper: copper, via ceruloplasmin and SOD, in macrophages (already mapped) and fibroblasts (already mapped), scavenges ROS; copper excess amplifies NF-κB (already mapped) and mTOR (already mapped) endometrial tumour growth via VEGF (already mapped) angiogenesis.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

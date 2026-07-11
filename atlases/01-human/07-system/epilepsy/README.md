@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "Epilepsy copper: copper, via SOD and ceruloplasmin, scavenges seizure-driven ROS in neurons (already mapped) and astrocytes (already mapped); copper deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of epilepsy."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Epilepsy sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) promotes neuroprotection via K-ATP channels; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammation worsening seizure threshold."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Epilepsy nitrogen: nitric oxide (iNOS-derived) in microglia (already mapped) and neurons (already mapped) modulates glutamate (already mapped) excitatory tone; nitrogen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of epilepsy."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Epilepsy oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) and astrocytes (already mapped) for GABAergic (GABA already mapped) inhibitory tone; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory seizure cascade of epilepsy."
 ---
 
 # Epilepsy
@@ -851,6 +860,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Seizure-ROS antioxidant: selenium, as GPx in neurons (already mapped) and astrocytes (already mapped), scavenges seizure-driven ROS; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of epilepsy.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Thyroid-neuroexcitability axis: iodine-dependent thyroid hormones regulate neuronal (already mapped) GABAergic (GABA already mapped) and glutamatergic (glutamate already mapped) differentiation; iodine deficiency amplifies the NLRP3 (already mapped) cascade of epilepsy.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Epilepsy copper: copper, via SOD and ceruloplasmin, scavenges seizure-driven ROS in neurons (already mapped) and astrocytes (already mapped); copper deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of epilepsy.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Epilepsy sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) promotes neuroprotection via K-ATP channels; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammation worsening seizure threshold.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Epilepsy nitrogen: nitric oxide (iNOS-derived) in microglia (already mapped) and neurons (already mapped) modulates glutamate (already mapped) excitatory tone; nitrogen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of epilepsy.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Epilepsy oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) and astrocytes (already mapped) for GABAergic (GABA already mapped) inhibitory tone; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory seizure cascade of epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
