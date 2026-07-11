@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "DS copper: copper, via ceruloplasmin and SOD in intestinal epithelial cells (already mapped), counters oxidative injury; copper deficiency impairs gut-microbiome (already mapped) balance and amplifies NF-κB (already mapped) macrophage (already mapped) mucosal inflammation."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "DS sulfur: H2S from sulfur-amino acids in intestinal epithelial cells (already mapped) and macrophages (already mapped) promotes mucosal barrier integrity; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) gut-microbiome (already mapped) dysbiosis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "DS nitrogen: nitric oxide from iNOS in intestinal epithelial cells (already mapped) and macrophages (already mapped) maintains mucosal vasodilation; nitrogen deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) mucosal inflammation."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "DS oxygen: mitochondrial oxygen in intestinal epithelial cells (already mapped) and macrophages (already mapped) sustains ATP for mucosal repair; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and gut-microbiome (already mapped) dysbiosis."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -800,6 +809,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Iodine](../../02-atomic/iodine/README.md) — DS iodine: intestinal lactoperoxidase (iodine-dependent) in the epithelium (already mapped) limits pathogen colonisation; iodine deficiency amplifies NF-κB (already mapped) driven gut-microbiome (already mapped) dysbiosis and impairs macrophage (already mapped) mucosal defence.
 - **Connects to:** [Phosphorus](../../02-atomic/phosphorus/README.md) — DS phosphorus: phosphorus fuels epithelial-cell (already mapped) and macrophage (already mapped) ATP; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation and gut-microbiome (already mapped) dysbiosis.
 - **Connects to:** [Copper](../../02-atomic/copper/README.md) — DS copper: copper, via ceruloplasmin and SOD in intestinal epithelial cells (already mapped), counters oxidative injury; copper deficiency impairs gut-microbiome (already mapped) balance and amplifies NF-κB (already mapped) macrophage (already mapped) mucosal inflammation.
+- **Connects to:** [Sulfur](../../02-atomic/sulfur/README.md) — DS sulfur: H2S from sulfur-amino acids in intestinal epithelial cells (already mapped) and macrophages (already mapped) promotes mucosal barrier integrity; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) gut-microbiome (already mapped) dysbiosis.
+- **Connects to:** [Nitrogen](../../02-atomic/nitrogen/README.md) — DS nitrogen: nitric oxide from iNOS in intestinal epithelial cells (already mapped) and macrophages (already mapped) maintains mucosal vasodilation; nitrogen deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) mucosal inflammation.
+- **Connects to:** [Oxygen](../../02-atomic/oxygen/README.md) — DS oxygen: mitochondrial oxygen in intestinal epithelial cells (already mapped) and macrophages (already mapped) sustains ATP for mucosal repair; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and gut-microbiome (already mapped) dysbiosis.
 
 ## Pathology
 

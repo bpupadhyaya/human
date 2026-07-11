@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "DR potassium: potassium channels on retinal glial cells regulate osmotic homeostasis; potassium dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) retinal neuroinflammation and worsens macular oedema in diabetic retinopathy."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "DR iron: iron supports retinal pigment epithelium (eye already mapped) function; iron overload promotes Fenton-reaction ROS amplifying VEGF (already mapped) and NF-κB (already mapped) retinal neuroinflammation and pericyte (already mapped) loss in diabetic retinopathy."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "DR chloride: chloride, via CFTR in retinal pigment epithelium (eye already mapped) and Müller glial cells, regulates fluid balance; chloride dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) retinal oedema of diabetic retinopathy."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "DR sulfur: H2S from sulfur-amino acids in retinal pericytes (already mapped) and endothelial cells (already mapped) promotes vasoprotection; sulfur deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) retinal neuroinflammation in diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -805,6 +814,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — DR sodium: hypernatraemia amplifies retinal VEGF (already mapped) expression via osmotic stress on endothelial cells (already mapped); sodium-driven NF-κB (already mapped) activation sustains the IL-6 (already mapped) neuroinflammatory cascade and worsens diabetic macular oedema.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — DR calcium: calcium regulates retinal pericyte (already mapped) and endothelial cell (already mapped) vascular tone; calcium dysregulation amplifies VEGF (already mapped) and NF-κB (already mapped) retinal neuroinflammation and IL-6 (already mapped) macular oedema in DR.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — DR potassium: potassium channels on retinal glial cells regulate osmotic homeostasis; potassium dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) retinal neuroinflammation and worsens macular oedema in diabetic retinopathy.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — DR iron: iron supports retinal pigment epithelium (eye already mapped) function; iron overload promotes Fenton-reaction ROS amplifying VEGF (already mapped) and NF-κB (already mapped) retinal neuroinflammation and pericyte (already mapped) loss in diabetic retinopathy.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — DR chloride: chloride, via CFTR in retinal pigment epithelium (eye already mapped) and Müller glial cells, regulates fluid balance; chloride dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) retinal oedema of diabetic retinopathy.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — DR sulfur: H2S from sulfur-amino acids in retinal pericytes (already mapped) and endothelial cells (already mapped) promotes vasoprotection; sulfur deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) retinal neuroinflammation in diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
