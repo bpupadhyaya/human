@@ -528,6 +528,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "IDA chloride: chloride via band-3 anion exchanger regulates erythrocyte (already mapped) membrane hydration; chloride dysregulation amplifies mast-cell (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration in iron-deficiency anaemia."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "IDA carbon: carbon as backbone of haem (already mapped) and transferrin (already mapped) sustains erythropoiesis (already mapped); carbon depletion in reticulocytes (already mapped) and macrophages (already mapped) amplifies IL-6 (already mapped) anaemic cascade of IDA."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "IDA hydrogen: hydrogen-ion acidosis in iron-deficient erythrocytes (already mapped) and macrophages (already mapped) impairs haemoglobin (already mapped) oxygen transport; hydrogen dysregulation amplifies NF-κB (already mapped) and EPO (already mapped) cascade of IDA."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "IDA nitrogen: nitrogen in amino-acid precursors of haem (already mapped) and transferrin (already mapped) sustains erythropoiesis (already mapped); nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) cascade of IDA."
 ---
 
 # Iron Deficiency Anemia
@@ -818,6 +827,9 @@ Iron is essential for:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — IDA potassium: potassium channels regulate erythrocyte (already mapped) hydration and mast-cell (already mapped) activation; potassium depletion amplifies the IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of iron-deficiency anaemia.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IDA phosphorus: phosphorus, as ATP precursor in erythrocytes (already mapped) and macrophages (already mapped), supports haemoglobin synthesis; phosphorus deficiency amplifies the IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of IDA.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IDA chloride: chloride via band-3 anion exchanger regulates erythrocyte (already mapped) membrane hydration; chloride dysregulation amplifies mast-cell (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration in iron-deficiency anaemia.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IDA carbon: carbon as backbone of haem (already mapped) and transferrin (already mapped) sustains erythropoiesis (already mapped); carbon depletion in reticulocytes (already mapped) and macrophages (already mapped) amplifies IL-6 (already mapped) anaemic cascade of IDA.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IDA hydrogen: hydrogen-ion acidosis in iron-deficient erythrocytes (already mapped) and macrophages (already mapped) impairs haemoglobin (already mapped) oxygen transport; hydrogen dysregulation amplifies NF-κB (already mapped) and EPO (already mapped) cascade of IDA.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IDA nitrogen: nitrogen in amino-acid precursors of haem (already mapped) and transferrin (already mapped) sustains erythropoiesis (already mapped); nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) cascade of IDA.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
