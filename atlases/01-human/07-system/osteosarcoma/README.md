@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Osteosarcoma sulfur: sulfur-containing collagen (already mapped) cross-links and glutathione in macrophages (already mapped) limit oxidative stress; sulfur deficiency amplifies mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of osteosarcoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Osteosarcoma hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and tumour cells, supports collagen (already mapped) synthesis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of osteosarcoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Osteosarcoma nitrogen: nitrogen in amino-acid scaffold of collagen (already mapped) and mTOR (already mapped) proteins in osteoblasts sustains matrix production; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of osteosarcoma."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Osteosarcoma PD-1: PD-1 checkpoint expression on tumour-infiltrating T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses anti-tumour immunity; PD-1 upregulation amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of osteosarcoma."
 ---
 
 # Osteosarcoma
@@ -830,6 +839,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Osteosarcoma potassium: potassium regulates macrophage (already mapped) and T-cytotoxic (already mapped) membrane excitability in the tumour microenvironment; potassium deficiency amplifies the IL-6 (already mapped) and mTOR (already mapped) pro-tumour cascade of osteosarcoma.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Osteosarcoma chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic signalling in the osteosarcoma microenvironment.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Osteosarcoma sulfur: sulfur-containing collagen (already mapped) cross-links and glutathione in macrophages (already mapped) limit oxidative stress; sulfur deficiency amplifies mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of osteosarcoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Osteosarcoma hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and tumour cells, supports collagen (already mapped) synthesis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of osteosarcoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Osteosarcoma nitrogen: nitrogen in amino-acid scaffold of collagen (already mapped) and mTOR (already mapped) proteins in osteoblasts sustains matrix production; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of osteosarcoma.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Osteosarcoma PD-1: PD-1 checkpoint expression on tumour-infiltrating T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses anti-tumour immunity; PD-1 upregulation amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of osteosarcoma.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

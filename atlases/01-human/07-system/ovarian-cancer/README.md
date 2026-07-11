@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Ovarian cancer phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustains tumour immune surveillance; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of ovarian cancer."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Ovarian cancer carbon: carbon as backbone of VEGF (already mapped) and NF-κB (already mapped) proteins in tumour cells and macrophages (already mapped) sustains signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of ovarian cancer."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Ovarian cancer chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of ovarian cancer."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Ovarian cancer hydrogen: hydrogen, via redox homeostasis in tumour cells and macrophages (already mapped), supports VEGF (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of ovarian cancer."
 ---
 
 # Ovarian Cancer
@@ -815,6 +824,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Ovarian cancer copper: copper-dependent enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustain tumour-immune crosstalk; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and mast-cell (already mapped) skewing in ovarian cancer.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Ovarian cancer potassium: potassium efflux gates the macrophage (already mapped) and mast-cell (already mapped) NLRP3 inflammasome; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade and suppresses T-cytotoxic (already mapped) killing in ovarian cancer.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Ovarian cancer phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustains tumour immune surveillance; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of ovarian cancer.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Ovarian cancer carbon: carbon as backbone of VEGF (already mapped) and NF-κB (already mapped) proteins in tumour cells and macrophages (already mapped) sustains signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of ovarian cancer.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Ovarian cancer chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of ovarian cancer.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Ovarian cancer hydrogen: hydrogen, via redox homeostasis in tumour cells and macrophages (already mapped), supports VEGF (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of ovarian cancer.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
