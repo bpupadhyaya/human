@@ -527,6 +527,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Endocrine carbon: carbon-backbone metabolites in hepatocytes (already mapped) fuel acetyl-CoA and steroid hormone biosynthesis; carbon metabolic imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) endocrine cascade."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Endocrine hydrogen: hydrogen ions regulate intracellular pH in hepatocytes (already mapped) and macrophages (already mapped); acid-base imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in endocrine gland tissue."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "Endocrine TNF-α: TNF-α from macrophages (already mapped) amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade, driving autoimmune attack on thyroid, pancreatic islet, and adrenal endocrine glands; TNF-α excess exacerbates endocrine destruction."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Endocrine TGF-β: TGF-β from macrophages (already mapped) and hepatocytes (already mapped) promotes endocrine gland fibrosis; TGF-β excess amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade in autoimmune endocrinopathies."
 ---
 
 # Endocrine System
@@ -854,6 +863,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Endocrine nitrogen: nitric oxide (NO, nitrogen-derived) in endothelial cells and macrophages (already mapped) regulates hormone secretion; NO dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) endocrine cascade.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Endocrine oxygen: mitochondrial ROS in hepatocytes (already mapped) and macrophages (already mapped) amplifies oxidative stress; ROS excess worsens NF-κB (already mapped) and IL-6 (already mapped) and thyroid (already mapped) endocrine inflammatory cascade.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Endocrine carbon: carbon-backbone metabolites in hepatocytes (already mapped) fuel acetyl-CoA and steroid hormone biosynthesis; carbon metabolic imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) endocrine cascade.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Endocrine hydrogen: hydrogen ions regulate intracellular pH in hepatocytes (already mapped) and macrophages (already mapped); acid-base imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in endocrine gland tissue.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Endocrine TNF-α: TNF-α from macrophages (already mapped) amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade, driving autoimmune attack on thyroid, pancreatic islet, and adrenal endocrine glands; TNF-α excess exacerbates endocrine destruction.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Endocrine TGF-β: TGF-β from macrophages (already mapped) and hepatocytes (already mapped) promotes endocrine gland fibrosis; TGF-β excess amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade in autoimmune endocrinopathies.
 
 ## Pathology
 

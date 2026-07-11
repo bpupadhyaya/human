@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "DLBCL copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) survival cascade of DLBCL."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "DLBCL zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; zinc deficiency impairs immune surveillance and amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant survival cascade of DLBCL."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "DLBCL chloride: chloride channels on B-cells (already mapped) and macrophages (already mapped) regulate volume and apoptotic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and bcl-2 (already mapped) survival cascade of DLBCL."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "DLBCL nitrogen: nitric oxide from iNOS in macrophages (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant proliferation cascade of DLBCL."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -821,6 +830,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — DLBCL sodium: sodium dysregulation in B-cells (already mapped) and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) B-cell survival cascade of DLBCL.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — DLBCL magnesium: magnesium cofactors kinase signalling in B-cells (already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) survival cascade of DLBCL.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — DLBCL copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) survival cascade of DLBCL.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — DLBCL zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; zinc deficiency impairs immune surveillance and amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant survival cascade of DLBCL.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — DLBCL chloride: chloride channels on B-cells (already mapped) and macrophages (already mapped) regulate volume and apoptotic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and bcl-2 (already mapped) survival cascade of DLBCL.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — DLBCL nitrogen: nitric oxide from iNOS in macrophages (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant proliferation cascade of DLBCL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
