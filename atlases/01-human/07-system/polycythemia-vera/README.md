@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "PV calcium: calcium, as second-messenger in JAK2 (already mapped)-activated erythroid progenitors and platelets (already mapped), modulates thrombopoiesis; calcium dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) thrombotic risk of PV."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "PV zinc: zinc, as metalloproteinase cofactor in neutrophils (already mapped) and platelets (already mapped), modulates thrombo-inflammatory remodelling; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haematopoietic cascade of polycythaemia vera."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "PV chloride: chloride, via erythrocyte (already mapped) anion exchangers, maintains CO₂ transport and osmotic balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haematological cascade of polycythaemia vera."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "PV sulfur: sulfur, as component of glutathione in erythrocytes (already mapped) and neutrophils (already mapped), limits oxidative haemolysis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haematopoietic inflammatory cascade of polycythaemia vera."
 ---
 
 # Polycythemia Vera
@@ -809,6 +818,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PV magnesium: magnesium, as ATP cofactor in erythrocytes (already mapped) and platelets (already mapped), supports JAK2 (already mapped) kinase fidelity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of polycythaemia vera.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PV copper: copper, as ceruloplasmin cofactor in hepatocytes (already mapped) and neutrophils (already mapped), supports iron (already mapped) recycling; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haematopoietic cascade of polycythaemia vera.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — PV calcium: calcium, as second-messenger in JAK2 (already mapped)-activated erythroid progenitors and platelets (already mapped), modulates thrombopoiesis; calcium dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) thrombotic risk of PV.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — PV zinc: zinc, as metalloproteinase cofactor in neutrophils (already mapped) and platelets (already mapped), modulates thrombo-inflammatory remodelling; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haematopoietic cascade of polycythaemia vera.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PV chloride: chloride, via erythrocyte (already mapped) anion exchangers, maintains CO₂ transport and osmotic balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haematological cascade of polycythaemia vera.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PV sulfur: sulfur, as component of glutathione in erythrocytes (already mapped) and neutrophils (already mapped), limits oxidative haemolysis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haematopoietic inflammatory cascade of polycythaemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
