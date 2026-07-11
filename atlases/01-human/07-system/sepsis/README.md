@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Sepsis phosphorus: phosphorus, as ATP precursor in neutrophils (already mapped) and macrophages (already mapped), fuels phagocytic burst; hypophosphataemia amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Sepsis carbon: carbon, as metabolic backbone of macrophage (already mapped) and neutrophil (already mapped) energy metabolism, fuels the hypermetabolic septic response; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm of sepsis."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Sepsis chloride: chloride, via CFTR in macrophages (already mapped) and neutrophils (already mapped), regulates phagocytic killing; chloride channel dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm of sepsis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Sepsis nitrogen: nitric oxide from macrophages (already mapped) and endothelial cells (already mapped) mediates vasodilation; excess nitrogen amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) vasodilatory cytokine storm of sepsis."
 ---
 
 # Sepsis
@@ -813,6 +822,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Sepsis copper: copper-dependent SOD in macrophages (already mapped) and neutrophils (already mapped) quenches ROS amplifying NF-κB (already mapped) and TNF-α (already mapped); copper deficiency worsens endothelial damage and IL-6 (already mapped) cascade in sepsis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Sepsis potassium: potassium efflux gates macrophage (already mapped) NLRP3 inflammasome; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm and worsens neutrophil (already mapped) dysfunction in sepsis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Sepsis phosphorus: phosphorus, as ATP precursor in neutrophils (already mapped) and macrophages (already mapped), fuels phagocytic burst; hypophosphataemia amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Sepsis carbon: carbon, as metabolic backbone of macrophage (already mapped) and neutrophil (already mapped) energy metabolism, fuels the hypermetabolic septic response; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm of sepsis.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Sepsis chloride: chloride, via CFTR in macrophages (already mapped) and neutrophils (already mapped), regulates phagocytic killing; chloride channel dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm of sepsis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Sepsis nitrogen: nitric oxide from macrophages (already mapped) and endothelial cells (already mapped) mediates vasodilation; excess nitrogen amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) vasodilatory cytokine storm of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

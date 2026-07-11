@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "SCD sulfur: hydrogen sulfide from endothelial cells (already mapped) and macrophages (already mapped) promotes vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) vaso-occlusive cascade of SCD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "SCD carbon: carbon, as metabolic backbone of erythrocytes (already mapped) and macrophages (already mapped), fuels haemoglobin (already mapped) synthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) sickling cascade of SCD."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "SCD nitrogen: nitric oxide from endothelial cells (already mapped) and macrophages (already mapped) promotes vasodilation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) vaso-occlusive cascade of SCD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "SCD PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates immune surveillance of haemolytic erythrocytes; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of SCD."
 ---
 
 # Sickle Cell Disease
@@ -866,6 +875,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — SCD phosphorus: phosphorus, as ATP precursor in erythrocytes (already mapped) and macrophages (already mapped), sustains sickling resistance; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) haemolytic cascade of SCD.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — SCD chloride: chloride, via KCC1 in erythrocytes (already mapped) and endothelial cells (already mapped), regulates red-cell volume; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) sickling and haemolytic cascade of SCD.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SCD sulfur: hydrogen sulfide from endothelial cells (already mapped) and macrophages (already mapped) promotes vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) vaso-occlusive cascade of SCD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SCD carbon: carbon, as metabolic backbone of erythrocytes (already mapped) and macrophages (already mapped), fuels haemoglobin (already mapped) synthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) sickling cascade of SCD.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SCD nitrogen: nitric oxide from endothelial cells (already mapped) and macrophages (already mapped) promotes vasodilation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) vaso-occlusive cascade of SCD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SCD PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates immune surveillance of haemolytic erythrocytes; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of SCD.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
