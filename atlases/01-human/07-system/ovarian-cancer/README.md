@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "Ovarian cancer sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies T-cytotoxic (already mapped) suppression in ovarian cancer."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Ovarian cancer copper: copper enzymes in macrophages (already mapped) and mast-cell (already mapped) sustain tumour-immune balance; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade suppressing T-cytotoxic (already mapped) killing in ovarian cancer."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "Ovarian cancer potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammation and suppresses mast-cell (already mapped) and T-cytotoxic (already mapped) responses in ovarian cancer."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Ovarian cancer phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustains tumour immune surveillance; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of ovarian cancer."
 ---
 
 # Ovarian Cancer
@@ -803,6 +812,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Ovarian cancer selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the ovarian tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Ovarian cancer iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of ovarian cancer.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Ovarian cancer sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies T-cytotoxic (already mapped) suppression in ovarian cancer.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Ovarian cancer copper: copper-dependent enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustain tumour-immune crosstalk; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and mast-cell (already mapped) skewing in ovarian cancer.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Ovarian cancer potassium: potassium efflux gates the macrophage (already mapped) and mast-cell (already mapped) NLRP3 inflammasome; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade and suppresses T-cytotoxic (already mapped) killing in ovarian cancer.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Ovarian cancer phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustains tumour immune surveillance; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of ovarian cancer.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

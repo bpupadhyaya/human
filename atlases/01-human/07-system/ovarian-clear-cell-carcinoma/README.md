@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "OCCC sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) anti-tumour suppression in OCCC."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "OCCC copper: copper-dependent enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustain tumour-immune crosstalk; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and mast-cell (already mapped) skewing in OCCC."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "OCCC potassium: potassium efflux gates the macrophage (already mapped) and mast-cell (already mapped) NLRP3 inflammasome; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade and suppresses T-cytotoxic (already mapped) killing in OCCC."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "OCCC phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustains immune surveillance; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling cascade in OCCC."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -829,6 +838,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — OCCC selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the OCCC tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — OCCC iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of OCCC.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — OCCC sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) anti-tumour suppression in OCCC.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — OCCC copper: copper-dependent enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustain tumour-immune crosstalk; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and mast-cell (already mapped) skewing in OCCC.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — OCCC potassium: potassium efflux gates the macrophage (already mapped) and mast-cell (already mapped) NLRP3 inflammasome; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade and suppresses T-cytotoxic (already mapped) killing in OCCC.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — OCCC phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustains immune surveillance; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling cascade in OCCC.
 
 ---
 
