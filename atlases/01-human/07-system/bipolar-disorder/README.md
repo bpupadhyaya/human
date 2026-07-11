@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "BD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in BD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carbon-based organic acids in neurons (already mapped) fuel mitochondrial energy; disrupted carbon metabolism amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and serotonin (already mapped) mood cascade in bipolar disorder."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "hydrogen ion dysregulation in brain (already mapped) amplifies mood circuit excitability; proton excess disrupts dopamine (already mapped) and serotonin (already mapped) and BDNF (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in bipolar disorder."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "ROS from NADPH oxidase in neurons (already mapped) and microglia (already mapped) amplifies brain (already mapped) neuroinflammation; oxygen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in bipolar disorder."
 ---
 
 # Bipolar Disorder
@@ -841,6 +850,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) amplifies neuroinflammation; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) worsening serotonin (already mapped) in BD.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BD chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) and serotonin (already mapped) signalling in BD.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — BD sulfur: sulfur-containing glutathione in neurons (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in BD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon-based organic acids in neurons (already mapped) fuel mitochondrial energy; disrupted carbon metabolism amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and serotonin (already mapped) mood cascade in bipolar disorder.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen ion dysregulation in brain (already mapped) amplifies mood circuit excitability; proton excess disrupts dopamine (already mapped) and serotonin (already mapped) and BDNF (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in bipolar disorder.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ROS from NADPH oxidase in neurons (already mapped) and microglia (already mapped) amplifies brain (already mapped) neuroinflammation; oxygen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in bipolar disorder.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

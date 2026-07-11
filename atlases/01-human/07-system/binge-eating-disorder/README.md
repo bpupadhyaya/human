@@ -516,6 +516,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "BED chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate GABAergic tone; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) signalling cascade in binge-eating disorder."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carbon-based lipid mediators in neurons (already mapped) and brain (already mapped) reward circuits fuel binge behaviour; disrupted carbon metabolism amplifies IL-6 (already mapped) and BDNF (already mapped) and dopamine (already mapped) cascade in binge-eating disorder."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "hydrogen ion dysregulation in brain (already mapped) reward circuits amplifies dopamine (already mapped) and serotonin (already mapped) signalling; proton excess disrupts BDNF (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade in binge-eating disorder."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "ROS from NADPH oxidase in neurons (already mapped) and microglia (already mapped) impairs brain (already mapped) reward-circuit function; oxygen excess amplifies IL-6 (already mapped) and BDNF (already mapped) and dopamine (already mapped) cascade in BED."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -843,6 +852,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — BED iron: iron in neurons (already mapped) and microglia (already mapped) is essential for dopamine (already mapped) synthesis; iron deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation in binge-eating disorder.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BED nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) regulates dopamine (already mapped) reward signalling; NO excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in BED.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BED chloride: chloride channels on neurons (already mapped) and microglia (already mapped) regulate GABAergic tone; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) signalling cascade in binge-eating disorder.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon-based lipid mediators in neurons (already mapped) and brain (already mapped) reward circuits fuel binge behaviour; disrupted carbon metabolism amplifies IL-6 (already mapped) and BDNF (already mapped) and dopamine (already mapped) cascade in binge-eating disorder.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen ion dysregulation in brain (already mapped) reward circuits amplifies dopamine (already mapped) and serotonin (already mapped) signalling; proton excess disrupts BDNF (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade in binge-eating disorder.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ROS from NADPH oxidase in neurons (already mapped) and microglia (already mapped) impairs brain (already mapped) reward-circuit function; oxygen excess amplifies IL-6 (already mapped) and BDNF (already mapped) and dopamine (already mapped) cascade in BED.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
