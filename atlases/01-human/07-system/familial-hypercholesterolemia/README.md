@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "FH magnesium: magnesium stabilises smooth-muscle-cell (already mapped) vascular tone and inhibits LDL oxidation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation and accelerates atherosclerosis (already mapped) in FH."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "FH carbon: carbon, as metabolic backbone of cholesterol (already mapped) and lipoproteins in hepatocytes (already mapped) and macrophages (already mapped), drives LDL accumulation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) in FH."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "FH chloride: chloride channels in macrophages (already mapped) and endothelial cells (already mapped) modulate vascular homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and atherosclerosis (already mapped) cascade in FH."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "FH hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and endothelial cells (already mapped), quenches LDL oxidation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation in FH."
 ---
 
 # Familial Hypercholesterolemia
@@ -815,6 +824,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — FH iodine: thyroid hormones (iodine-dependent) modulate hepatocyte (already mapped) LDL-receptor expression and cholesterol (already mapped) metabolism; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation in FH.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — FH sodium: excess sodium promotes hypertension in endothelial cells (already mapped) and amplifies NF-κB (already mapped) atherogenic oxidative stress; sodium-driven IL-6 (already mapped) worsens the LDL-cholesterol (already mapped) plaque burden in FH.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — FH magnesium: magnesium stabilises smooth-muscle-cell (already mapped) vascular tone and inhibits LDL oxidation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation and accelerates atherosclerosis (already mapped) in FH.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — FH carbon: carbon, as metabolic backbone of cholesterol (already mapped) and lipoproteins in hepatocytes (already mapped) and macrophages (already mapped), drives LDL accumulation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) in FH.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — FH chloride: chloride channels in macrophages (already mapped) and endothelial cells (already mapped) modulate vascular homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and atherosclerosis (already mapped) cascade in FH.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — FH hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and endothelial cells (already mapped), quenches LDL oxidation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation in FH.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
