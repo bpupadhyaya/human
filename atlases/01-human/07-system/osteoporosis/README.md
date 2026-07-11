@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Osteoporosis nitrogen: nitrogen is the backbone of collagen (already mapped) and proteoglycan in bone; nitrogen deficiency (protein malnutrition) amplifies the RANKL (already mapped) and IL-6 (already mapped) osteoclastic cascade and impairs osteoblast (already mapped) repair."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Osteoporosis carbon: carbon as backbone of collagen (already mapped) and proteoglycan scaffold in bone sustains osteoblast (already mapped) matrix production; carbon depletion amplifies the RANKL (already mapped) and IL-6 (already mapped) osteoclastic cascade of osteoporosis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Osteoporosis hydrogen: hydrogen, via redox homeostasis in osteoblasts (already mapped) and osteoclasts, supports collagen (already mapped) cross-linking; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) bone resorption cascade of osteoporosis."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Osteoporosis oxygen: oxygen availability in bone marrow drives osteoblast (already mapped) energy metabolism via mitochondrial oxidative phosphorylation; hypoxia amplifies RANKL (already mapped) and NF-κB (already mapped) osteoclastic resorption cascade of osteoporosis."
 ---
 
 # Osteoporosis
@@ -815,6 +824,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Osteoporosis chloride: chloride, via osteoclast (already mapped) V-type H⁺-ATPase, acidifies the resorption lacuna; chloride imbalance amplifies the RANKL (already mapped) and NF-κB (already mapped) osteoclast drive and IL-6 (already mapped) bone-loss cascade of osteoporosis.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Osteoporosis sulfur: sulfur-containing GAGs form the proteoglycan matrix anchoring osteoblast (already mapped) mineralisation; sulfur deficiency amplifies the RANKL (already mapped) and TNF-α (already mapped) osteoclastic bone resorption cascade of osteoporosis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Osteoporosis nitrogen: nitrogen is the backbone of collagen (already mapped) and proteoglycan in bone; nitrogen deficiency (protein malnutrition) amplifies the RANKL (already mapped) and IL-6 (already mapped) osteoclastic cascade and impairs osteoblast (already mapped) repair.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Osteoporosis carbon: carbon as backbone of collagen (already mapped) and proteoglycan scaffold in bone sustains osteoblast (already mapped) matrix production; carbon depletion amplifies the RANKL (already mapped) and IL-6 (already mapped) osteoclastic cascade of osteoporosis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Osteoporosis hydrogen: hydrogen, via redox homeostasis in osteoblasts (already mapped) and osteoclasts, supports collagen (already mapped) cross-linking; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) bone resorption cascade of osteoporosis.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Osteoporosis oxygen: oxygen availability in bone marrow drives osteoblast (already mapped) energy metabolism via mitochondrial oxidative phosphorylation; hypoxia amplifies RANKL (already mapped) and NF-κB (already mapped) osteoclastic resorption cascade of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
