@@ -537,6 +537,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "PsA phosphorus: phosphorus, as ATP precursor in osteoclasts (already mapped) and macrophages (already mapped), drives bone-remodelling energy; phosphorus deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) erosive cascade of psoriatic arthritis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PsA carbon: carbon as backbone of IL-17A (already mapped) and NF-κB (already mapped) proteins in macrophages (already mapped) sustains joint-erosion signalling; carbon depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of PsA."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "PsA chloride: chloride channels in macrophages (already mapped) and synoviocytes regulate synovial fluid ion balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-17A (already mapped) inflammatory joint-erosion cascade of psoriatic arthritis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PsA hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and osteoclasts (already mapped), supports collagen cross-linking; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) erosive cascade of psoriatic arthritis."
 ---
 
 # Psoriatic Arthritis
@@ -857,6 +866,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — PsA iron: iron supports macrophage (already mapped) and osteoclast (already mapped) activation; iron overload amplifies NF-κB (already mapped) and TNF-α (already mapped) synovial inflammatory cascade driving the IL-17A (already mapped) bone-erosion of psoriatic arthritis.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PsA potassium: potassium, via Kir channels in macrophages (already mapped) and fibroblasts (already mapped), regulates synovial inflammation; potassium dysregulation amplifies NF-κB (already mapped) and IL-17A (already mapped) joint-erosion cascade of psoriatic arthritis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PsA phosphorus: phosphorus, as ATP precursor in osteoclasts (already mapped) and macrophages (already mapped), drives bone-remodelling energy; phosphorus deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) erosive cascade of psoriatic arthritis.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PsA carbon: carbon as backbone of IL-17A (already mapped) and NF-κB (already mapped) proteins in macrophages (already mapped) sustains joint-erosion signalling; carbon depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of PsA.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PsA chloride: chloride channels in macrophages (already mapped) and synoviocytes regulate synovial fluid ion balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-17A (already mapped) inflammatory joint-erosion cascade of psoriatic arthritis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PsA hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and osteoclasts (already mapped), supports collagen cross-linking; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) erosive cascade of psoriatic arthritis.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

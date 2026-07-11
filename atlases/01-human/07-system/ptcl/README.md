@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "PTCL sulfur: sulfur-containing glutathione in macrophages (already mapped) and NK cells (already mapped) limits oxidative stress in the tumour microenvironment; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PTCL carbon: carbon as backbone of NF-κB (already mapped) and BCL-2 proteins in T-lymphoma cells and macrophages (already mapped) sustains tumour survival; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PTCL hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and NK cells (already mapped), supports anti-tumour effector function; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of PTCL."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "PTCL nitrogen: nitrogen in amino-acid scaffold of TCR signalling proteins and NF-κB (already mapped) in T-lymphoma cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -844,6 +853,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PTCL phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and NK cells (already mapped) sustains anti-tumour immune surveillance; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PTCL chloride: chloride channels in macrophages (already mapped) and endothelial cells (already mapped) regulate tumour-stromal homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade in PTCL.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PTCL sulfur: sulfur-containing glutathione in macrophages (already mapped) and NK cells (already mapped) limits oxidative stress in the tumour microenvironment; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PTCL carbon: carbon as backbone of NF-κB (already mapped) and BCL-2 proteins in T-lymphoma cells and macrophages (already mapped) sustains tumour survival; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PTCL hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and NK cells (already mapped), supports anti-tumour effector function; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of PTCL.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PTCL nitrogen: nitrogen in amino-acid scaffold of TCR signalling proteins and NF-κB (already mapped) in T-lymphoma cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
 
 ---
 
