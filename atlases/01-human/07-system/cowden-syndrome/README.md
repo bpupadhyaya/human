@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Cowden zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Cowden syndrome."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "potassium channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) tumour-promoting cascade of Cowden syndrome."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "calcium, as second messenger in macrophage (already mapped) and T-cytotoxic cell (already mapped), modulates PTEN (already mapped) and mTOR (already mapped) signalling; calcium dysregulation amplifies AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus, as ATP in macrophage (already mapped) and T-cytotoxic cell (already mapped), fuels PTEN (already mapped) and mTOR (already mapped) proliferative signalling; phosphorus dysregulation amplifies AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -879,6 +888,9 @@ cross_links:
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — Cowden magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and mast cells (already mapped); magnesium deficiency amplifies IL-6 (already mapped) and T-cytotoxic (already mapped) and mast-cell (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Cowden copper: copper supports macrophage (already mapped) and mast-cell (already mapped) function; copper deficiency amplifies IL-6 (already mapped) and T-cytotoxic (already mapped) and mast-cell (already mapped) anti-tumour cascade of Cowden syndrome.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Cowden zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Cowden syndrome.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) tumour-promoting cascade of Cowden syndrome.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — calcium, as second messenger in macrophage (already mapped) and T-cytotoxic cell (already mapped), modulates PTEN (already mapped) and mTOR (already mapped) signalling; calcium dysregulation amplifies AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped) and T-cytotoxic cell (already mapped), fuels PTEN (already mapped) and mTOR (already mapped) proliferative signalling; phosphorus dysregulation amplifies AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 
 ---
 

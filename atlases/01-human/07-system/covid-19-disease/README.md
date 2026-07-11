@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "COVID phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and type-II pneumocytes (lung already mapped), fuels innate immunity; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) in COVID-19."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on macrophage (already mapped) and type-II pneumocyte (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm of COVID-19."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur, as glutathione precursor in macrophage (already mapped) and type-II pneumocyte (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine cascade of COVID-19."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitrogen, as nitric oxide (already mapped) precursor in macrophage (already mapped) and endothelial cell (already mapped), modulates innate immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of COVID-19."
 ---
 
 # COVID-19 Disease
@@ -772,6 +781,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — COVID potassium: potassium efflux from macrophages (already mapped) and type-II pneumocytes (lung already mapped) drives NLRP3-IL-1β in ARDS; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) of COVID-19.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — COVID calcium: calcium signalling in macrophages (already mapped) and endothelial-cell (already mapped) activates NLRP3 and NF-κB (already mapped); calcium dysregulation amplifies IL-6 (already mapped) cytokine storm (already mapped) and vascular coagulopathy of COVID-19.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — COVID phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and type-II pneumocytes (lung already mapped), fuels innate immunity; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) in COVID-19.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and type-II pneumocyte (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm of COVID-19.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and type-II pneumocyte (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine cascade of COVID-19.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen, as nitric oxide (already mapped) precursor in macrophage (already mapped) and endothelial cell (already mapped), modulates innate immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of COVID-19.
 
 ## Pathology
 
