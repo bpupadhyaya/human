@@ -525,6 +525,12 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "RSV chloride: chloride, via CFTR in airway epithelial and type-ii-pneumocyte (already mapped) cells, regulates mucociliary clearance; chloride channel dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RSV bronchiolitis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "RSV sulfur: hydrogen sulfide, from sulfur-amino acids in type-ii-pneumocytes (already mapped) and macrophages (already mapped), promotes bronchodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) airway inflammatory cascade of RSV bronchiolitis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "RSV nitrogen: nitric oxide from macrophages (already mapped) and type-ii-pneumocytes (already mapped) mediates antiviral vasodilation; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 inflammasome (already mapped) cascade of RSV."
 ---
 
 # RSV
@@ -838,3 +844,5 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — RSV iron: iron, as cofactor for ribonucleotide reductase in type-ii-pneumocytes (already mapped) and macrophages (already mapped), supports antiviral immunity; iron overload amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative-stress cascade of RSV bronchiolitis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — RSV phosphorus: phosphorus, as ATP precursor in neutrophils (already mapped) and macrophages (already mapped), fuels phagocytic burst; phosphorus deficiency impairs dendritic-cell (already mapped) and amplifies IL-6 (already mapped) and NF-κB (already mapped) cascade of RSV.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — RSV chloride: chloride, via CFTR in airway epithelial and type-ii-pneumocyte (already mapped) cells, regulates mucociliary clearance; chloride channel dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RSV bronchiolitis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — RSV sulfur: hydrogen sulfide, from sulfur-amino acids in type-ii-pneumocytes (already mapped) and macrophages (already mapped), promotes bronchodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) airway inflammatory cascade of RSV bronchiolitis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — RSV nitrogen: nitric oxide from macrophages (already mapped) and type-ii-pneumocytes (already mapped) mediates antiviral vasodilation; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 inflammasome (already mapped) cascade of RSV.

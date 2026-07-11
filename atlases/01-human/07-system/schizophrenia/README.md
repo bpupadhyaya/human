@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Sz carbon: glycine and serine carbon scaffolds act as NMDA co-agonists modulating glutamate (already mapped); one-carbon metabolism deficits amplify BDNF (already mapped) signalling and IL-6 (already mapped) neuroinflammation in neurons (already mapped) of schizophrenia."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Sz oxygen: ROS from neurons (already mapped) and macrophages (already mapped) drives neuroinflammatory oxidative stress; oxygen-induced ROS amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and worsens glutamate (already mapped) receptor damage in schizophrenia."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Sz hydrogen: hydrogen bonds stabilise neurotransmitter-receptor complexes in neurons (already mapped); oxidative hydrogen peroxide from macrophages (already mapped) drives NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of schizophrenia."
+  - target: 01-human/03-molecular/nf-kb
+    relation: connects-to
+    note: "Sz NF-κB: NF-κB drives IL-6 (already mapped) and IL-1β (already mapped) transcription in macrophages (already mapped); sustained NF-κB activation amplifies dopamine (already mapped) dysregulation and suppresses BDNF (already mapped) neurotrophic signalling in schizophrenia."
 ---
 
 # Schizophrenia
@@ -863,6 +872,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Sz chloride: KCC2/NKCC1 chloride dysregulation shifts GABA (already mapped) from inhibitory to excitatory; chloride imbalance amplifies glutamate (already mapped) excitotoxicity and IL-6 (already mapped) neuroinflammation in neurons (already mapped) of schizophrenia.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Sz nitrogen: nitric oxide modulates dopamine (already mapped) and glutamate (already mapped) neurotransmission; NOS dysfunction in neurons (already mapped) and microglia (already mapped) amplifies IL-6 (already mapped) and mTOR (already mapped) cascade of schizophrenia.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Sz carbon: glycine and serine carbon scaffolds act as NMDA co-agonists modulating glutamate (already mapped); one-carbon metabolism deficits amplify BDNF (already mapped) signalling and IL-6 (already mapped) neuroinflammation in neurons (already mapped) of schizophrenia.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Sz oxygen: ROS from neurons (already mapped) and macrophages (already mapped) drives neuroinflammatory oxidative stress; oxygen-induced ROS amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade and worsens glutamate (already mapped) receptor damage in schizophrenia.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Sz hydrogen: hydrogen bonds stabilise neurotransmitter-receptor complexes in neurons (already mapped); oxidative hydrogen peroxide from macrophages (already mapped) drives NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of schizophrenia.
+- `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — Sz NF-κB: NF-κB drives IL-6 (already mapped) and IL-1β (already mapped) transcription in macrophages (already mapped); sustained NF-κB activation amplifies dopamine (already mapped) dysregulation and suppresses BDNF (already mapped) neurotrophic signalling in schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
