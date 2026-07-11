@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "CLL copper: copper, via ceruloplasmin in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative cascade of CLL."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "zinc cofactors kinase signalling in B-cell (already mapped) and macrophage (already mapped); zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CLL."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on B-cell (already mapped) and macrophage (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) leukaemic cascade of CLL."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur, as glutathione precursor in B-cell (already mapped) and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CLL."
 ---
 
 # CLL
@@ -812,6 +821,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CLL sodium: sodium dysregulation in B-cells (already mapped) and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) tumour-promoting cascade of CLL.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — CLL magnesium: magnesium cofactors kinase signalling in B-cells (already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CLL.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CLL copper: copper, via ceruloplasmin in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative cascade of CLL.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — zinc cofactors kinase signalling in B-cell (already mapped) and macrophage (already mapped); zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CLL.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on B-cell (already mapped) and macrophage (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) leukaemic cascade of CLL.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in B-cell (already mapped) and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CLL.
 
 ---
 

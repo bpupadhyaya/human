@@ -534,6 +534,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "CKD chloride: chloride, via CFTR and ClC-Ka/Kb in renal tubular cells and macrophages (already mapped), regulates acid-base balance; chloride dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) tubular injury and fibrosis of CKD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carbon metabolism in renal tubular cells and macrophage (already mapped) drives oxidative phosphorylation; carbon dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrosis and hepcidin (already mapped) cascade in CKD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur, as glutathione precursor in renal tubular cells and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) tubulointerstitial fibrosis cascade in CKD."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitrogen, as urea-cycle substrate in renal tubular cells and macrophage (already mapped), governs uraemic toxin clearance; nitrogen retention amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrosis cascade in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -782,6 +791,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CKD copper: copper-dependent SOD in renal tubular cells and macrophages (already mapped) counters ROS; copper deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) tubulointerstitial fibrosis and hepcidin (already mapped) anaemia of chronic kidney disease.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CKD iodine: thyroid hormones regulate macrophage (already mapped) and mesangial cells (glomerulus already mapped); thyroid deficiency amplifies TGF-β (already mapped) and NF-κB (already mapped) fibrosis and erythropoietin (already mapped) suppression of CKD.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — CKD chloride: chloride, via CFTR and ClC-Ka/Kb in renal tubular cells and macrophages (already mapped), regulates acid-base balance; chloride dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) tubular injury and fibrosis of CKD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon metabolism in renal tubular cells and macrophage (already mapped) drives oxidative phosphorylation; carbon dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrosis and hepcidin (already mapped) cascade in CKD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in renal tubular cells and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) tubulointerstitial fibrosis cascade in CKD.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen, as urea-cycle substrate in renal tubular cells and macrophage (already mapped), governs uraemic toxin clearance; nitrogen retention amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrosis cascade in CKD.
 
 ## Pathology
 
