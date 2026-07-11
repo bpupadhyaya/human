@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "Pemphigus-vulgaris hydrogen: hydrogen bonds stabilise desmoglein-3 (already mapped) structure; macrophage (already mapped) hydrogen peroxide drives NF-κB (already mapped) and TNF-α (already mapped) oxidative cascade amplifying the blister response in pemphigus vulgaris."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Pemphigus-vulgaris PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates autoimmune tolerance in skin; PD-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) B-cell-driven desmoglein cascade of PV."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Pemphigus-vulgaris GLP-1: GLP-1 signalling in keratinocytes and macrophages (already mapped) modulates skin barrier immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of pemphigus vulgaris."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Pemphigus-vulgaris Ang-II: angiotensin-II receptor signalling in macrophages (already mapped) and keratinocytes amplifies NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade; Ang-II dysregulation worsens autoimmune blister activity in pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -851,6 +860,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Pemphigus-vulgaris oxygen: oxygen powers T-cytotoxic cell (already mapped) and macrophage (already mapped) autoimmune metabolism; hypoxic stress amplifies the NF-κB (already mapped) and TNF-α (already mapped) blister-forming cascade of pemphigus vulgaris.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Pemphigus-vulgaris carbon: carbon is the elemental backbone of desmoglein-3 (already mapped) and macrophage (already mapped) cytokine proteins; carbon supports NF-κB (already mapped) and TNF-α (already mapped) signalling in the autoimmune cascade of pemphigus vulgaris.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Pemphigus-vulgaris hydrogen: hydrogen bonds stabilise desmoglein-3 (already mapped) structure; macrophage (already mapped) hydrogen peroxide drives NF-κB (already mapped) and TNF-α (already mapped) oxidative cascade amplifying the blister response in pemphigus vulgaris.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Pemphigus-vulgaris PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates autoimmune tolerance in skin; PD-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) B-cell-driven desmoglein cascade of PV.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Pemphigus-vulgaris GLP-1: GLP-1 signalling in keratinocytes and macrophages (already mapped) modulates skin barrier immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of pemphigus vulgaris.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Pemphigus-vulgaris Ang-II: angiotensin-II receptor signalling in macrophages (already mapped) and keratinocytes amplifies NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade; Ang-II dysregulation worsens autoimmune blister activity in pemphigus vulgaris.
 
 ---
 

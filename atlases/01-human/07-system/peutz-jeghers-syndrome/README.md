@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "Peutz-Jeghers chloride: chloride in macrophages (already mapped) and mast-cell (already mapped) regulates stromal inflammation; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and suppresses T-cytotoxic (already mapped) surveillance in PJS."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Peutz-Jeghers carbon: carbon as backbone of LKB1/STK11 (already mapped) and NF-κB (already mapped) proteins in epithelial cells sustains tumour-suppressive signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp-cancer cascade of PJS."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Peutz-Jeghers hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), supports LKB1/STK11 (already mapped) kinase activity; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Peutz-Jeghers nitrogen: nitrogen in amino-acid scaffold of LKB1/STK11 (already mapped) and mTOR (already mapped) proteins in polyp epithelial cells sustains signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -823,6 +832,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Peutz-Jeghers potassium: potassium governs macrophage (already mapped) and mast-cell (already mapped) polyp immune tone; potassium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade suppressing T-cytotoxic (already mapped) function in PJS.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Peutz-Jeghers phosphorus: phosphorus as ATP cofactor in macrophages (already mapped) and fibroblasts (already mapped) sustains LKB1/STK11 (already mapped) signalling; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp-cancer cascade of PJS.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Peutz-Jeghers chloride: chloride in macrophages (already mapped) and mast-cell (already mapped) regulates stromal inflammation; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and suppresses T-cytotoxic (already mapped) surveillance in PJS.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Peutz-Jeghers carbon: carbon as backbone of LKB1/STK11 (already mapped) and NF-κB (already mapped) proteins in epithelial cells sustains tumour-suppressive signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp-cancer cascade of PJS.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Peutz-Jeghers hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), supports LKB1/STK11 (already mapped) kinase activity; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Peutz-Jeghers nitrogen: nitrogen in amino-acid scaffold of LKB1/STK11 (already mapped) and mTOR (already mapped) proteins in polyp epithelial cells sustains signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS.
 
 ---
 
