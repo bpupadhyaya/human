@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "SAD iron: iron supports neuron (already mapped) serotonin (already mapped) and dopamine (already mapped) synthesis; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and BDNF (already mapped) dysregulation in SAD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "SAD chloride: chloride, via KCC2 in GABAergic neurons (already mapped), sets inhibitory tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and serotonin (already mapped) deficits in social anxiety disorder."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "SAD sulfur: hydrogen sulfide from neurons (already mapped) modulates GABAergic tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation, suppressing BDNF (already mapped) and serotonin (already mapped) signalling in SAD."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "SAD nitrogen: nitric oxide, generated in neurons (already mapped), modulates synaptic plasticity; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade and impairs serotonin (already mapped) signalling in SAD."
 ---
 
 # Social Anxiety Disorder
@@ -825,6 +834,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — GABA interneuron tone: potassium, via Kv channels on neurons (already mapped), regulates GABA (already mapped) interneuron tone; potassium dysregulation amplifies amygdala hyperreactivity and the norepinephrine (already mapped) HPA cascade of social anxiety disorder.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Neuronal energy substrate: phosphorus, as ATP in neurons (already mapped) and synapses (already mapped), sustains the energetics of HPA (cortisol already mapped) and amygdala fear-circuit signalling; phosphorus deficiency impairs the neuronal resilience of social anxiety disorder.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — SAD iron: iron supports neuron (already mapped) serotonin (already mapped) and dopamine (already mapped) synthesis; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and BDNF (already mapped) dysregulation in SAD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — SAD chloride: chloride, via KCC2 in GABAergic neurons (already mapped), sets inhibitory tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and serotonin (already mapped) deficits in social anxiety disorder.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SAD sulfur: hydrogen sulfide from neurons (already mapped) modulates GABAergic tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation, suppressing BDNF (already mapped) and serotonin (already mapped) signalling in SAD.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SAD nitrogen: nitric oxide, generated in neurons (already mapped), modulates synaptic plasticity; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade and impairs serotonin (already mapped) signalling in SAD.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)

@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "SjS phosphorus: phosphorus, as ATP precursor in dendritic-cell (already mapped) and T-cytotoxic-cell (already mapped), fuels antigen presentation; phosphorus deficiency amplifies BAFF (already mapped) and NF-κB (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "SjS sulfur: hydrogen sulfide from glandular endothelial cells and macrophages (already mapped) modulates salivary vasodilation; sulfur deficiency amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) exocrinopathy cascade of Sjögren syndrome."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "SjS nitrogen: nitric oxide from macrophages (already mapped) and glandular endothelial cells mediates vasodilation; nitrogen imbalance amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of Sjögren syndrome."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "SjS oxygen: ROS from macrophages (already mapped) and T-cytotoxic-cell (already mapped) drives glandular oxidative stress; oxygen-induced ROS amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -825,6 +834,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — SjS copper: copper, as ceruloplasmin cofactor in macrophages (already mapped) and dendritic-cell (already mapped), modulates ROS and BAFF (already mapped) signalling; copper deficiency impairs T-cytotoxic-cell (already mapped) and B-cell (already mapped) regulation in SjS.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — SjS zinc: zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) in macrophages (already mapped) and mast-cell (already mapped); zinc supports salivary-gland repair and BAFF (already mapped)-mediated B-cell (already mapped) tolerance in Sjögren syndrome.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — SjS phosphorus: phosphorus, as ATP precursor in dendritic-cell (already mapped) and T-cytotoxic-cell (already mapped), fuels antigen presentation; phosphorus deficiency amplifies BAFF (already mapped) and NF-κB (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SjS sulfur: hydrogen sulfide from glandular endothelial cells and macrophages (already mapped) modulates salivary vasodilation; sulfur deficiency amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) exocrinopathy cascade of Sjögren syndrome.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SjS nitrogen: nitric oxide from macrophages (already mapped) and glandular endothelial cells mediates vasodilation; nitrogen imbalance amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of Sjögren syndrome.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SjS oxygen: ROS from macrophages (already mapped) and T-cytotoxic-cell (already mapped) drives glandular oxidative stress; oxygen-induced ROS amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome.
 
 ---
 
