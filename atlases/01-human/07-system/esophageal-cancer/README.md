@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "EC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "EC calcium: calcium regulates macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of esophageal cancer."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "EC phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels tumour-stromal signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of esophageal cancer."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "EC chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -837,6 +846,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — EC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of esophageal cancer.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — EC copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of esophageal cancer.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — EC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — EC calcium: calcium regulates macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of esophageal cancer.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — EC phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels tumour-stromal signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of esophageal cancer.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — EC chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer.
 
 ---
 
