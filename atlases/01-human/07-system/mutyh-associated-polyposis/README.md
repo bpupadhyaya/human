@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "MAP potassium: potassium channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the MAP colonic microenvironment; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "MAP carbon: carbon as backbone of MUTYH base-excision repair (already mapped) proteins in colonocytes (already mapped) sustains genome integrity; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MUTYH-associated polyposis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "MAP hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and colonocytes (already mapped), supports MUTYH (already mapped) repair; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MAP nitrogen: nitrogen in amino-acid scaffold of MUTYH (already mapped) and OGG1 repair proteins in colonocytes (already mapped) sustains base-excision repair; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of MAP."
 ---
 
 # MUTYH-Associated Polyposis
@@ -816,6 +825,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MAP copper: copper, as cofactor of SOD1 in macrophages (already mapped) and mast cells (already mapped), scavenges mucosal ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MAP zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and mast cells (already mapped), modulates mucosal matrix; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — MAP potassium: potassium channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the MAP colonic microenvironment; potassium depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MAP carbon: carbon as backbone of MUTYH base-excision repair (already mapped) proteins in colonocytes (already mapped) sustains genome integrity; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MUTYH-associated polyposis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MAP hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and colonocytes (already mapped), supports MUTYH (already mapped) repair; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MAP nitrogen: nitrogen in amino-acid scaffold of MUTYH (already mapped) and OGG1 repair proteins in colonocytes (already mapped) sustains base-excision repair; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of MAP.
 
 ---
 

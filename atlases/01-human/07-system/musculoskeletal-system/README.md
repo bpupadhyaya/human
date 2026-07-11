@@ -527,6 +527,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "MSK hydrogen: hydrogen, as water in cartilage matrix and H₂ in synovial joints, maintains viscoelastic properties; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) musculoskeletal inflammatory cascade."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "MSK PD-1: PD-1 checkpoint on T-regulatory (already mapped) and cytotoxic T-cells (already mapped) in the musculoskeletal microenvironment modulates autoimmune joint inflammation; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) erosive cascade."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "MSK GLP-1: GLP-1 receptor agonism on osteoblasts (already mapped) and macrophages (already mapped) promotes bone mineral density; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) bone-resorption cascade of musculoskeletal disease."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "MSK angiotensin-II: angiotensin-II via AT1R on osteoblasts (already mapped) and macrophages (already mapped) modulates bone remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade."
 ---
 
 # Musculoskeletal System
@@ -833,6 +842,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MSK oxygen: oxygen drives aerobic energy in osteoblasts (already mapped) and macrophages (already mapped); oxygen deprivation activates HIF-1α, amplifying NF-κB (already mapped) and IL-6 (already mapped) osteoclast-driven bone resorption cascade.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MSK carbon: carbon, as backbone of collagen (already mapped) and proteoglycans, forms the organic matrix of bone and cartilage; carbon metabolism in osteoblasts (already mapped) shapes NF-κB (already mapped) and IL-6 (already mapped) repair cascade.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MSK hydrogen: hydrogen, as water in cartilage matrix and H₂ in synovial joints, maintains viscoelastic properties; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) musculoskeletal inflammatory cascade.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MSK PD-1: PD-1 checkpoint on T-regulatory (already mapped) and cytotoxic T-cells (already mapped) in the musculoskeletal microenvironment modulates autoimmune joint inflammation; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) erosive cascade.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MSK GLP-1: GLP-1 receptor agonism on osteoblasts (already mapped) and macrophages (already mapped) promotes bone mineral density; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) bone-resorption cascade of musculoskeletal disease.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MSK angiotensin-II: angiotensin-II via AT1R on osteoblasts (already mapped) and macrophages (already mapped) modulates bone remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade.
 
 ## Pathology
 
