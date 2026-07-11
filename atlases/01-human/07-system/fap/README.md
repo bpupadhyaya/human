@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "FAP copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) polyp-promoting cascade of FAP."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "FAP zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) polyp-promoting cascade of FAP."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "FAP potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) polyp cascade of familial adenomatous polyposis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "FAP phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels polyp stromal-immune crosstalk; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of FAP."
 ---
 
 # Familial Adenomatous Polyposis
@@ -839,6 +848,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — FAP sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) polyp cascade of FAP.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — FAP magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) polyp cascade of FAP.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — FAP copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) polyp-promoting cascade of FAP.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — FAP zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) polyp-promoting cascade of FAP.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — FAP potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) polyp cascade of familial adenomatous polyposis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — FAP phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels polyp stromal-immune crosstalk; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of FAP.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)

@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "ES copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Ewing sarcoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "ES zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Ewing sarcoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "ES chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of Ewing sarcoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "ES nitrogen: nitric oxide from iNOS in macrophages (already mapped) and mast cells (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -822,6 +831,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — ES iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and mast-cell (already mapped) function; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) T-cytotoxic (already mapped) cascade of Ewing sarcoma.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — ES sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of Ewing sarcoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — ES copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Ewing sarcoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ES zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Ewing sarcoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — ES chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of Ewing sarcoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — ES nitrogen: nitric oxide from iNOS in macrophages (already mapped) and mast cells (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma.
 
 ---
 
