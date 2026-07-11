@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "DIC phosphorus: phosphorus, as ATP in macrophages (already mapped) and neutrophils (already mapped), fuels coagulation and inflammatory signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of DIC."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "DIC chloride: chloride channels on macrophages (already mapped) and neutrophils (already mapped) regulate cell signalling; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive coagulopathy cascade of DIC."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "DIC sulfur: glutathione from sulfur amino acids in macrophages (already mapped) and neutrophils (already mapped) counters oxidative injury; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) consumptive coagulopathy cascade of DIC."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "DIC nitrogen: nitric oxide from iNOS in macrophages (already mapped) and endothelial cells (already mapped) modulates coagulation; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) consumptive coagulopathy cascade of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -838,6 +847,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — DIC copper: copper supports macrophage (already mapped) and neutrophil (already mapped) antioxidant function; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) systemic consumptive coagulopathy cascade of DIC.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — DIC potassium: potassium regulates macrophage (already mapped) and platelet (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive coagulopathy cascade of DIC.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — DIC phosphorus: phosphorus, as ATP in macrophages (already mapped) and neutrophils (already mapped), fuels coagulation and inflammatory signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of DIC.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — DIC chloride: chloride channels on macrophages (already mapped) and neutrophils (already mapped) regulate cell signalling; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive coagulopathy cascade of DIC.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — DIC sulfur: glutathione from sulfur amino acids in macrophages (already mapped) and neutrophils (already mapped) counters oxidative injury; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) consumptive coagulopathy cascade of DIC.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — DIC nitrogen: nitric oxide from iNOS in macrophages (already mapped) and endothelial cells (already mapped) modulates coagulation; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) consumptive coagulopathy cascade of DIC.
 
 ---
 

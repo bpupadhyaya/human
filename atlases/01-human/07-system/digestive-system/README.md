@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "DS oxygen: mitochondrial oxygen in intestinal epithelial cells (already mapped) and macrophages (already mapped) sustains ATP for mucosal repair; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and gut-microbiome (already mapped) dysbiosis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "DS carbon: carbon backbone of amino acids in intestinal epithelial cells (already mapped) and hepatocytes (already mapped) fuels mucosal repair; carbon catabolites in gut-microbiome (already mapped) dysbiosis amplify NF-κB (already mapped) and IL-6 (already mapped) inflammation."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "DS hydrogen: hydrogen ions regulate pH in intestinal epithelial cells (already mapped) and macrophages (already mapped); proton gradient collapse from hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiosis."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "DS VEGF: VEGF from macrophages (already mapped) and intestinal epithelial cells (already mapped) drives mucosal angiogenesis and repair; excess VEGF amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and gut-microbiome (already mapped) dysbiosis."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -812,6 +821,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Sulfur](../../02-atomic/sulfur/README.md) — DS sulfur: H2S from sulfur-amino acids in intestinal epithelial cells (already mapped) and macrophages (already mapped) promotes mucosal barrier integrity; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) gut-microbiome (already mapped) dysbiosis.
 - **Connects to:** [Nitrogen](../../02-atomic/nitrogen/README.md) — DS nitrogen: nitric oxide from iNOS in intestinal epithelial cells (already mapped) and macrophages (already mapped) maintains mucosal vasodilation; nitrogen deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) mucosal inflammation.
 - **Connects to:** [Oxygen](../../02-atomic/oxygen/README.md) — DS oxygen: mitochondrial oxygen in intestinal epithelial cells (already mapped) and macrophages (already mapped) sustains ATP for mucosal repair; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and gut-microbiome (already mapped) dysbiosis.
+- **Connects to:** [Carbon](../../02-atomic/carbon/README.md) — DS carbon: carbon backbone of amino acids in intestinal epithelial cells (already mapped) and hepatocytes (already mapped) fuels mucosal repair; carbon catabolites in gut-microbiome (already mapped) dysbiosis amplify NF-κB (already mapped) and IL-6 (already mapped) inflammation.
+- **Connects to:** [Hydrogen](../../02-atomic/hydrogen/README.md) — DS hydrogen: hydrogen ions regulate pH in intestinal epithelial cells (already mapped) and macrophages (already mapped); proton gradient collapse from hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiosis.
+- **Connects to:** [VEGF](../../03-molecular/vegf/README.md) — DS VEGF: VEGF from macrophages (already mapped) and intestinal epithelial cells (already mapped) drives mucosal angiogenesis and repair; excess VEGF amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and gut-microbiome (already mapped) dysbiosis.
 
 ## Pathology
 
