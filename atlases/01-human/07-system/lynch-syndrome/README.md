@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Lynch phosphorus: phosphorus, as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped), fuels DNA-repair and immune clearance; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of Lynch syndrome."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Lynch carbon: carbon as backbone of MLH1 (already mapped) and MSH2 mismatch-repair proteins sustains genomic fidelity in colonocytes (already mapped); carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) mutagenic cascade of Lynch syndrome."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Lynch chloride: chloride regulates colonocyte (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) protumorigenic microenvironment of Lynch syndrome."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Lynch nitrogen: nitrogen in amino-acid scaffold of MSH6 and PMS2 mismatch-repair proteins sustains genomic stability; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mutagenic cascade of Lynch syndrome."
 ---
 
 # Lynch Syndrome
@@ -839,6 +848,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Lynch zinc: zinc, as cofactor of MMR-associated enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), supports DNA mismatch repair; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of Lynch syndrome.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Lynch potassium: potassium regulates macrophage (already mapped) and T-cytotoxic cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) cascade of Lynch syndrome.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Lynch phosphorus: phosphorus, as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped), fuels DNA-repair and immune clearance; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of Lynch syndrome.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Lynch carbon: carbon as backbone of MLH1 (already mapped) and MSH2 mismatch-repair proteins sustains genomic fidelity in colonocytes (already mapped); carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) mutagenic cascade of Lynch syndrome.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Lynch chloride: chloride regulates colonocyte (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) protumorigenic microenvironment of Lynch syndrome.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Lynch nitrogen: nitrogen in amino-acid scaffold of MSH6 and PMS2 mismatch-repair proteins sustains genomic stability; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mutagenic cascade of Lynch syndrome.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
