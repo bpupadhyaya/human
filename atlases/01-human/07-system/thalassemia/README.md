@@ -534,6 +534,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Thal phosphorus: phosphorus, as ATP precursor in erythrocytes (already mapped) and macrophages (already mapped), maintains red-cell membrane integrity; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of thalassemia."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Thal carbon: carbon, as metabolic backbone of erythrocytes (already mapped) and macrophages (already mapped), drives haemoglobin (already mapped) synthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of thalassemia."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Thal chloride: chloride, via KCC1 in erythrocytes (already mapped) and macrophages (already mapped), regulates red-cell volume; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and haemolytic cascade of thalassemia."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Thal hydrogen: hydrogen, via redox homeostasis in erythrocytes (already mapped) and macrophages (already mapped), quenches haemolytic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic-inflammatory cascade of thalassemia."
 ---
 
 # Thalassemia
@@ -850,6 +859,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Thal copper: copper, via ceruloplasmin and SOD in erythrocytes (already mapped) and macrophages (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and iron (already mapped) overload haemolytic cascade in thalassemia.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Thal potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic inflammation and worsens erythrocyte (already mapped) membrane fragility in thalassemia.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Thal phosphorus: phosphorus, as ATP precursor in erythrocytes (already mapped) and macrophages (already mapped), maintains red-cell membrane integrity; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of thalassemia.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Thal carbon: carbon, as metabolic backbone of erythrocytes (already mapped) and macrophages (already mapped), drives haemoglobin (already mapped) synthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of thalassemia.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Thal chloride: chloride, via KCC1 in erythrocytes (already mapped) and macrophages (already mapped), regulates red-cell volume; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and haemolytic cascade of thalassemia.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Thal hydrogen: hydrogen, via redox homeostasis in erythrocytes (already mapped) and macrophages (already mapped), quenches haemolytic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic-inflammatory cascade of thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
