@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "T1D sulfur: glutathione from sulfur-amino acids in macrophages (already mapped) and T-helper-cell (already mapped) quenches ROS; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) autoimmune insulitis of T1D."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "T1D carbon: carbon, as metabolic backbone of beta-cell (pancreas already mapped) lipid membranes and insulin (already mapped) structure, drives autoimmune targeting; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) insulitis of T1D."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "T1D nitrogen: nitric oxide from iNOS in macrophages (already mapped) and T-cytotoxic-cell (already mapped) mediates beta-cell (pancreas already mapped) apoptosis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) insulitis of T1D."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "T1D oxygen: mitochondrial ROS in beta cells (pancreas already mapped) and macrophages (already mapped) amplifies autoimmune destruction; oxygen dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) insulitis cascade of T1D."
 ---
 
 # Type 1 Diabetes
@@ -803,6 +812,9 @@ cross_links:
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — T1D phosphorus: phosphorus, as ATP donor for beta-cell function and mTOR (already mapped) in macrophages (already mapped), supports immunoregulation; phosphorus deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) autoimmune insulitis in T1D.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — T1D chloride: chloride, via CFTR in pancreatic beta cells (pancreas already mapped) and macrophages (already mapped), modulates insulin (already mapped) secretion; chloride imbalance amplifies NF-κB (already mapped) and NLRP3 (already mapped) beta-cell destruction in T1D.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — T1D sulfur: glutathione from sulfur-amino acids in macrophages (already mapped) and T-helper-cell (already mapped) quenches ROS; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) autoimmune insulitis of T1D.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — T1D carbon: carbon, as metabolic backbone of beta-cell (pancreas already mapped) lipid membranes and insulin (already mapped) structure, drives autoimmune targeting; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) insulitis of T1D.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — T1D nitrogen: nitric oxide from iNOS in macrophages (already mapped) and T-cytotoxic-cell (already mapped) mediates beta-cell (pancreas already mapped) apoptosis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) insulitis of T1D.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — T1D oxygen: mitochondrial ROS in beta cells (pancreas already mapped) and macrophages (already mapped) amplifies autoimmune destruction; oxygen dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) insulitis cascade of T1D.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

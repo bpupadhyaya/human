@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "T2D carbon: CO2 in bicarbonate buffering of hepatocytes (already mapped) and macrophages (already mapped) regulates pH for insulin (already mapped) secretion; carbon-metabolite excess amplifies NF-κB (already mapped) and AMPK (already mapped) insulin resistance of T2D."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "T2D PD-1: PD-1 on macrophages (already mapped) and T-helper-cell (already mapped) modulates adipose immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and GLP-1 (already mapped) resistance cascade of T2D."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "T2D angiotensin-II: angiotensin-II in hepatocytes (already mapped) and adipocytes (already mapped) promotes insulin resistance via RAAS; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of T2D."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "T2D Wnt/β-catenin: Wnt signalling in hepatocytes (already mapped) and adipocytes (already mapped) regulates glucose metabolism; Wnt dysregulation amplifies NF-κB (already mapped) and AMPK (already mapped) and GLP-1 (already mapped) resistance cascade of T2D."
 ---
 
 # Type 2 Diabetes
@@ -810,6 +819,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — T2D nitrogen: nitric oxide from eNOS in endothelial-cell (already mapped) and macrophages (already mapped) preserves insulin (already mapped) sensitivity; nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular insulin resistance of T2D.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — T2D oxygen: mitochondrial oxygen consumption in hepatocytes (already mapped) and adipocytes (already mapped) drives ATP for insulin (already mapped) signalling; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) adipose inflammation and insulin resistance of T2D.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — T2D carbon: CO2 in bicarbonate buffering of hepatocytes (already mapped) and macrophages (already mapped) regulates pH for insulin (already mapped) secretion; carbon-metabolite excess amplifies NF-κB (already mapped) and AMPK (already mapped) insulin resistance of T2D.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — T2D PD-1: PD-1 on macrophages (already mapped) and T-helper-cell (already mapped) modulates adipose immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and GLP-1 (already mapped) resistance cascade of T2D.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — T2D angiotensin-II: angiotensin-II in hepatocytes (already mapped) and adipocytes (already mapped) promotes insulin resistance via RAAS; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of T2D.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — T2D Wnt/β-catenin: Wnt signalling in hepatocytes (already mapped) and adipocytes (already mapped) regulates glucose metabolism; Wnt dysregulation amplifies NF-κB (already mapped) and AMPK (already mapped) and GLP-1 (already mapped) resistance cascade of T2D.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
