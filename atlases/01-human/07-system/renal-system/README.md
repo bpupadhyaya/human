@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "RS sulfur: hydrogen sulfide, generated from sulfur-amino acids in tubular cells and endothelial cells (already mapped), promotes vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) renal fibrosis of CKD (already mapped)."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "RS nitrogen: nitric oxide, synthesised from nitrogenous arginine in endothelial cells (already mapped), maintains GFR; nitrogen deficiency impairs podocyte (already mapped) and tubular integrity, amplifying NF-κB (already mapped) and TGF-β (already mapped) fibrosis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "RS carbon: carbon, as the backbone of organic acids in tubular cells, drives mitochondrial ATP; carbon substrate depletion amplifies NF-κB (already mapped) and TGF-β (already mapped) inflammatory fibrosis and worsens CKD (already mapped) progression."
+  - target: 01-human/03-molecular/transferrin
+    relation: connects-to
+    note: "RS transferrin: transferrin mediates iron (already mapped) transport to tubular cells and macrophages (already mapped); transferrin saturation imbalance amplifies NF-κB (already mapped) renal oxidative stress and TGF-β (already mapped) fibrosis in CKD (already mapped)."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -794,6 +803,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Copper](../../02-atomic/copper/README.md) — RS copper: copper-dependent SOD in tubular cells and endothelial cells (already mapped) quenches the ROS amplifying NF-κB (already mapped) renal inflammation; copper deficiency impairs iron (already mapped) handling via ceruloplasmin and worsens CKD (already mapped) anaemia.
 - **Connects to:** [Zinc](../../02-atomic/zinc/README.md) — RS zinc: zinc, as metalloproteinase cofactor in podocytes (already mapped) and macrophages (already mapped), maintains glomerular filtration barrier integrity; zinc deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of renal disease.
 - **Connects to:** [Sulfur](../../02-atomic/sulfur/README.md) — RS sulfur: hydrogen sulfide, generated from sulfur-amino acids in tubular cells and endothelial cells (already mapped), promotes vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) renal fibrosis of CKD (already mapped).
+- **Connects to:** [Nitrogen](../../02-atomic/nitrogen/README.md) — RS nitrogen: nitric oxide, synthesised from nitrogenous arginine in endothelial cells (already mapped), maintains GFR; nitrogen deficiency impairs podocyte (already mapped) and tubular integrity, amplifying NF-κB (already mapped) and TGF-β (already mapped) fibrosis.
+- **Connects to:** [Carbon](../../02-atomic/carbon/README.md) — RS carbon: carbon, as the backbone of organic acids in tubular cells, drives mitochondrial ATP; carbon substrate depletion amplifies NF-κB (already mapped) and TGF-β (already mapped) inflammatory fibrosis and worsens CKD (already mapped) progression.
+- **Connects to:** [Transferrin](../../03-molecular/transferrin/README.md) — RS transferrin: transferrin mediates iron (already mapped) transport to tubular cells and macrophages (already mapped); transferrin saturation imbalance amplifies NF-κB (already mapped) renal oxidative stress and TGF-β (already mapped) fibrosis in CKD (already mapped).
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

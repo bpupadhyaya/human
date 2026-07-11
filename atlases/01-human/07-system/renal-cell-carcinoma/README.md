@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "RCC magnesium: magnesium, as mTOR (already mapped) kinase cofactor in renal tumour cells and macrophages (already mapped), restrains tumour proliferation; magnesium deficiency amplifies HIF-1α (already mapped) and VEGF (already mapped) angiogenic cascade of renal-cell carcinoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "RCC copper: copper-dependent SOD in tumour cells and macrophages (already mapped) quenches HIF-1α (already mapped)-driven ROS; copper excess amplifies VEGF (already mapped) and mTOR (already mapped) angiogenic cascade suppressing T-cytotoxic (already mapped) immunity in RCC."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "RCC potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies HIF-1α (already mapped) and VEGF (already mapped) angiogenic cascade and suppresses T-cytotoxic (already mapped) anti-tumour response in renal-cell carcinoma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "RCC phosphorus: phosphorus, as ATP donor in mTOR (already mapped) kinase signalling in tumour cells, drives proliferation; phosphate dysregulation amplifies HIF-1α (already mapped) and VEGF (already mapped) angiogenic cascade in renal-cell carcinoma."
 ---
 
 # Renal Cell Carcinoma
@@ -806,6 +815,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — RCC selenium: selenium-dependent selenoproteins quench ROS from HIF-1α (already mapped)-driven pseudohypoxia in VHL (already mapped)-mutant tumour cells; selenium deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of RCC.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — RCC iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immunity; thyroid-hormone deficiency amplifies HIF-1α (already mapped) and mTOR (already mapped) cascade of renal-cell carcinoma.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — RCC magnesium: magnesium, as mTOR (already mapped) kinase cofactor in renal tumour cells and macrophages (already mapped), restrains tumour proliferation; magnesium deficiency amplifies HIF-1α (already mapped) and VEGF (already mapped) angiogenic cascade of renal-cell carcinoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — RCC copper: copper-dependent SOD in tumour cells and macrophages (already mapped) quenches HIF-1α (already mapped)-driven ROS; copper excess amplifies VEGF (already mapped) and mTOR (already mapped) angiogenic cascade suppressing T-cytotoxic (already mapped) immunity in RCC.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — RCC potassium: potassium efflux gates macrophage (already mapped) NLRP3; potassium loss amplifies HIF-1α (already mapped) and VEGF (already mapped) angiogenic cascade and suppresses T-cytotoxic (already mapped) anti-tumour response in renal-cell carcinoma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — RCC phosphorus: phosphorus, as ATP donor in mTOR (already mapped) kinase signalling in tumour cells, drives proliferation; phosphate dysregulation amplifies HIF-1α (already mapped) and VEGF (already mapped) angiogenic cascade in renal-cell carcinoma.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
