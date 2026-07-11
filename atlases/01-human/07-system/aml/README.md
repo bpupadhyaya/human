@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "AML magnesium: magnesium supports macrophage (already mapped) anti-inflammatory resolution and bone-marrow (already mapped) haematopoiesis; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic cascade in AML."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "copper, via ceruloplasmin and SOD in macrophages (already mapped) and bone-marrow (already mapped) stroma, scavenges ROS; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic blast proliferation in AML."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus-driven ATP in bone-marrow (already mapped) blast cells and macrophages (already mapped) sustains leukaemic proliferation; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic blast cascade in AML."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates leukaemic blast apoptosis; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) proliferative blast cascade in AML."
 ---
 
 # AML
@@ -818,6 +827,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AML sodium: sodium dysregulation in bone-marrow (already mapped) stroma and leukaemic blasts amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) and FLT3 (already mapped) blast proliferation in AML.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — AML zinc: zinc cofactors macrophage (already mapped) anti-tumour function and regulatory T-cell (already mapped) homeostasis; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic blast expansion in AML.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — AML magnesium: magnesium supports macrophage (already mapped) anti-inflammatory resolution and bone-marrow (already mapped) haematopoiesis; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic cascade in AML.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — copper, via ceruloplasmin and SOD in macrophages (already mapped) and bone-marrow (already mapped) stroma, scavenges ROS; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic blast proliferation in AML.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus-driven ATP in bone-marrow (already mapped) blast cells and macrophages (already mapped) sustains leukaemic proliferation; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic blast cascade in AML.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates leukaemic blast apoptosis; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) proliferative blast cascade in AML.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

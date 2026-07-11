@@ -541,6 +541,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "ANCA zinc: zinc cofactors macrophage (already mapped) anti-inflammatory function and neutrophil (already mapped) regulation; zinc deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) and complement-C3 (already mapped) cascade in ANCA."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus-driven ATP in neutrophils (already mapped) and macrophages (already mapped) sustains vasculitic immune activation; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-C3 (already mapped) vasculitic cascade in ANCA."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitric oxide from iNOS in neutrophils (already mapped) and macrophages (already mapped) modulates endothelial-cell (already mapped) vasodilation; nitrogen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) vasculitic cascade in ANCA."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on neutrophils (already mapped) and endothelial cells (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) vasculitic cascade in ANCA."
 ---
 
 # ANCA Vasculitis
@@ -847,6 +856,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — ANCA potassium: potassium efflux from neutrophils (already mapped) and macrophages (already mapped) activates NLRP3 (already mapped); potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-C3 (already mapped) vasculitic cascade in ANCA.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — ANCA calcium: calcium activates neutrophil (already mapped) degranulation and endothelial-cell (already mapped) injury; calcium dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and complement-C5 (already mapped) and IL-6 (already mapped) cascade in ANCA.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ANCA zinc: zinc cofactors macrophage (already mapped) anti-inflammatory function and neutrophil (already mapped) regulation; zinc deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) and complement-C3 (already mapped) cascade in ANCA.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus-driven ATP in neutrophils (already mapped) and macrophages (already mapped) sustains vasculitic immune activation; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-C3 (already mapped) vasculitic cascade in ANCA.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide from iNOS in neutrophils (already mapped) and macrophages (already mapped) modulates endothelial-cell (already mapped) vasodilation; nitrogen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) vasculitic cascade in ANCA.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on neutrophils (already mapped) and endothelial cells (already mapped) regulate intracellular pH; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) vasculitic cascade in ANCA.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
