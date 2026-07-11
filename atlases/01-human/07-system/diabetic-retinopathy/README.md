@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "DR sulfur: H2S from sulfur-amino acids in retinal pericytes (already mapped) and endothelial cells (already mapped) promotes vasoprotection; sulfur deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) retinal neuroinflammation in diabetic retinopathy."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus, as ATP in endothelial cell (already mapped) and macrophage (already mapped), fuels angiogenic signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitrogen, as nitric oxide (already mapped) precursor in endothelial cell (already mapped) and macrophage (already mapped), modulates retinal vascular tone; nitrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) cascade of diabetic retinopathy."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carbon metabolism in endothelial cell (already mapped) and neuron (already mapped) drives retinal energy supply; carbon dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -817,6 +826,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — DR iron: iron supports retinal pigment epithelium (eye already mapped) function; iron overload promotes Fenton-reaction ROS amplifying VEGF (already mapped) and NF-κB (already mapped) retinal neuroinflammation and pericyte (already mapped) loss in diabetic retinopathy.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — DR chloride: chloride, via CFTR in retinal pigment epithelium (eye already mapped) and Müller glial cells, regulates fluid balance; chloride dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) retinal oedema of diabetic retinopathy.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — DR sulfur: H2S from sulfur-amino acids in retinal pericytes (already mapped) and endothelial cells (already mapped) promotes vasoprotection; sulfur deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) retinal neuroinflammation in diabetic retinopathy.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in endothelial cell (already mapped) and macrophage (already mapped), fuels angiogenic signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen, as nitric oxide (already mapped) precursor in endothelial cell (already mapped) and macrophage (already mapped), modulates retinal vascular tone; nitrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) cascade of diabetic retinopathy.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon metabolism in endothelial cell (already mapped) and neuron (already mapped) drives retinal energy supply; carbon dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
