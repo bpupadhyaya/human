@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "Bladder calcium: calcium regulates macrophage (already mapped) activation and mast-cell (already mapped) degranulation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of bladder cancer."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "magnesium cofactor in macrophage (already mapped) and smooth-muscle cell (already mapped) supports EGFR (already mapped) signalling; magnesium deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) and P53 (already mapped) cascade in bladder cancer."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "copper-dependent cuproenzymes in macrophage (already mapped) and neutrophil (already mapped) regulate tumour immune response; copper excess amplifies VEGF (already mapped) and NF-κB (already mapped) and EGFR (already mapped) cascade in bladder cancer."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "zinc metalloprotease activity in macrophage (already mapped) and dendritic cell (already mapped) modulates anti-tumour immunity; zinc deficiency disrupts P53 (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade in bladder cancer."
 ---
 
 # Bladder Cancer
@@ -828,6 +837,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Bladder sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of bladder cancer.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Bladder potassium: potassium regulates macrophage (already mapped) and regulatory T-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of bladder cancer.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Bladder calcium: calcium regulates macrophage (already mapped) activation and mast-cell (already mapped) degranulation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of bladder cancer.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — magnesium cofactor in macrophage (already mapped) and smooth-muscle cell (already mapped) supports EGFR (already mapped) signalling; magnesium deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) and P53 (already mapped) cascade in bladder cancer.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — copper-dependent cuproenzymes in macrophage (already mapped) and neutrophil (already mapped) regulate tumour immune response; copper excess amplifies VEGF (already mapped) and NF-κB (already mapped) and EGFR (already mapped) cascade in bladder cancer.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — zinc metalloprotease activity in macrophage (already mapped) and dendritic cell (already mapped) modulates anti-tumour immunity; zinc deficiency disrupts P53 (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade in bladder cancer.
 
 ---
 

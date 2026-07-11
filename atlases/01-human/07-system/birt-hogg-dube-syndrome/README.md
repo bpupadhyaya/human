@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "BHD magnesium: magnesium cofactors kinase signalling in kidney (already mapped) cells and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "BHD iodine: iodine-dependent thyroid hormones in macrophage (already mapped) and fibroblast (already mapped) regulate mTOR (already mapped) signalling; iodine deficiency disrupts HIF-1α (already mapped) and FLCN (already mapped) cascade in Birt-Hogg-Dubé syndrome."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "BHD copper: copper-dependent cuproenzymes in fibroblast (already mapped) and macrophage (already mapped) support collagen (already mapped) remodelling; copper excess amplifies mTOR (already mapped) and AKT (already mapped) cascade in Birt-Hogg-Dubé syndrome."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "BHD zinc: zinc metalloprotease activity in fibroblast (already mapped) and macrophage (already mapped) modulates autophagy (already mapped); zinc deficiency disrupts AMPK (already mapped) and mTOR (already mapped) and PTEN (already mapped) signalling in Birt-Hogg-Dubé syndrome."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -840,6 +849,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — BHD sodium: sodium dysregulation in kidney (already mapped) cells and macrophages (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — BHD potassium: potassium regulates macrophage (already mapped) and kidney (already mapped) cell membrane function; potassium dysregulation amplifies NF-κB (already mapped) and mTOR (already mapped) and VEGF (already mapped) tumour cascade of Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — BHD magnesium: magnesium cofactors kinase signalling in kidney (already mapped) cells and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-promoting cascade of Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — BHD iodine: iodine-dependent thyroid hormones in macrophage (already mapped) and fibroblast (already mapped) regulate mTOR (already mapped) signalling; iodine deficiency disrupts HIF-1α (already mapped) and FLCN (already mapped) cascade in Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — BHD copper: copper-dependent cuproenzymes in fibroblast (already mapped) and macrophage (already mapped) support collagen (already mapped) remodelling; copper excess amplifies mTOR (already mapped) and AKT (already mapped) cascade in Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — BHD zinc: zinc metalloprotease activity in fibroblast (already mapped) and macrophage (already mapped) modulates autophagy (already mapped); zinc deficiency disrupts AMPK (already mapped) and mTOR (already mapped) and PTEN (already mapped) signalling in Birt-Hogg-Dubé syndrome.
 
 ---
 
