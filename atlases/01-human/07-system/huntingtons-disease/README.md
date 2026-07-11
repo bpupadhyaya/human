@@ -516,6 +516,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "HD nitrogen: nitrogen, as the backbone of amino acids in neurons (already mapped) and microglia (already mapped), underpins protein quality; nitrogen imbalance amplifies the NF-κB (already mapped) and TNF-α (already mapped) aggregation cascade of Huntington disease."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HD carbon: carbon as backbone of mutant huntingtin protein and cytokines (already mapped) sustains misfolding cascade; carbon-derived metabolites in neurons (already mapped) and microglia (already mapped) amplify NF-κB (already mapped) and TNF-α (already mapped) in HD."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HD hydrogen: hydrogen as proton gradient in neuron (already mapped) mitochondria drives ATP synthesis; hydrogen-ion dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) mitochondrial dysfunction and excitotoxicity in Huntington disease."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "HD oxygen: ROS from mitochondrial dysfunction in neurons (already mapped) and microglia (already mapped) drives oxidative neurodegeneration; oxygen deprivation amplifies NF-κB (already mapped) and TNF-α (already mapped) aggregation cascade of Huntington disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -733,3 +742,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HD chloride: chloride channels regulate neurons (already mapped) excitability and microglia (already mapped) ion homeostasis; chloride dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Huntington disease.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HD sulfur: sulfur, as methionine and cysteine in neurons (already mapped) and microglia (already mapped), supports protein homeostasis; sulfur dysregulation amplifies the NF-κB (already mapped) and TNF-α (already mapped) neurodegeneration of Huntington disease.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HD nitrogen: nitrogen, as the backbone of amino acids in neurons (already mapped) and microglia (already mapped), underpins protein quality; nitrogen imbalance amplifies the NF-κB (already mapped) and TNF-α (already mapped) aggregation cascade of Huntington disease.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HD carbon: carbon as backbone of mutant huntingtin protein and cytokines (already mapped) sustains misfolding cascade; carbon-derived metabolites in neurons (already mapped) and microglia (already mapped) amplify NF-κB (already mapped) and TNF-α (already mapped) in HD.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HD hydrogen: hydrogen as proton gradient in neuron (already mapped) mitochondria drives ATP synthesis; hydrogen-ion dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) mitochondrial dysfunction and excitotoxicity in Huntington disease.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — HD oxygen: ROS from mitochondrial dysfunction in neurons (already mapped) and microglia (already mapped) drives oxidative neurodegeneration; oxygen deprivation amplifies NF-κB (already mapped) and TNF-α (already mapped) aggregation cascade of Huntington disease.

@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Hypertension nitrogen: nitrogen, as NO (nitric oxide) precursor in macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates vascular tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of hypertension."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Hypertension carbon: carbon as backbone of renin-angiotensin signalling proteins and cytokines (already mapped) sustains vasoconstrictive cascade; carbon-derived metabolites in macrophages (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in hypertension."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Hypertension hydrogen: hydrogen as proton gradient in vascular endothelium mitochondria drives ATP synthesis; hydrogen-ion acidosis amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular remodelling in hypertension."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Hypertension oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and T-cytotoxic cells (already mapped) drives vascular oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) endothelial damage in hypertension."
 ---
 
 # Hypertension
@@ -790,6 +799,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Hypertension iron: iron, via ferritin and ROS in macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates vascular oxidative stress; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of hypertension.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Hypertension sulfur: sulfur, as hydrogen sulfide (H₂S) in macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates vascular tone; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of hypertension.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Hypertension nitrogen: nitrogen, as NO (nitric oxide) precursor in macrophages (already mapped) and T-cytotoxic cells (already mapped), modulates vascular tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of hypertension.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Hypertension carbon: carbon as backbone of renin-angiotensin signalling proteins and cytokines (already mapped) sustains vasoconstrictive cascade; carbon-derived metabolites in macrophages (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in hypertension.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Hypertension hydrogen: hydrogen as proton gradient in vascular endothelium mitochondria drives ATP synthesis; hydrogen-ion acidosis amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular remodelling in hypertension.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypertension oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and T-cytotoxic cells (already mapped) drives vascular oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) endothelial damage in hypertension.
 
 ## Pathology
 
