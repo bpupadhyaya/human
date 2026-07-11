@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "GBM iodine: iodine-dependent thyroid hormones modulate microglia (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of glioblastoma."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "GBM sodium: sodium-driven osmotic stress on glioma cells and microglia (already mapped) amplifies NF-κB (already mapped) and VEGF (already mapped) tumour-proliferative signalling; sodium excess worsens the IL-6 (already mapped) neuroinflammatory TME of glioblastoma."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "GBM copper: copper, via ceruloplasmin and SOD in microglia (already mapped) and macrophages (already mapped), scavenges ROS; copper excess amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) glioblastoma tumour growth and neovascularisation."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "GBM zinc: zinc, via SOD and NF-κB (already mapped) modulation in microglia (already mapped) and T-cytotoxic cells (already mapped), attenuates tumour neuroinflammation; zinc deficiency amplifies VEGF (already mapped) and IL-6 (already mapped) glioblastoma cascade."
 ---
 
 # Glioblastoma
@@ -817,6 +826,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — GBM testosterone: testosterone, via AR on microglia (already mapped) and macrophages (already mapped), modulates the neuroinflammatory TME; testosterone deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) glioblastoma cascade.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — GBM selenium: selenium, as GPx in microglia (already mapped) and macrophages (already mapped), scavenges ROS; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) oxidative T-cytotoxic (already mapped) cascade of glioblastoma.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — GBM iodine: iodine-dependent thyroid hormones modulate microglia (already mapped) polarisation and T-cytotoxic (already mapped) immune activation; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — GBM sodium: sodium-driven osmotic stress on glioma cells and microglia (already mapped) amplifies NF-κB (already mapped) and VEGF (already mapped) tumour-proliferative signalling; sodium excess worsens the IL-6 (already mapped) neuroinflammatory TME of glioblastoma.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — GBM copper: copper, via ceruloplasmin and SOD in microglia (already mapped) and macrophages (already mapped), scavenges ROS; copper excess amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) glioblastoma tumour growth and neovascularisation.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — GBM zinc: zinc, via SOD and NF-κB (already mapped) modulation in microglia (already mapped) and T-cytotoxic cells (already mapped), attenuates tumour neuroinflammation; zinc deficiency amplifies VEGF (already mapped) and IL-6 (already mapped) glioblastoma cascade.
 
 ---
 
