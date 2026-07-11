@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "CML magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic signalling cascade of CML."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "copper, via SOD in macrophage (already mapped) and T-cytotoxic cell (already mapped), counters BCR-ABL-driven ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "zinc cofactors kinase signalling in macrophage (already mapped) and T-cytotoxic cell (already mapped); zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic survival cascade of CML."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on macrophage (already mapped) and leukaemic stem cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -812,6 +821,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CML iodine: iodine-dependent thyroid hormones modulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) BCR-ABL leukaemia cascade of CML.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CML sodium: sodium dysregulation in macrophages (already mapped) and leukaemic stem cells (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL tumour-promoting cascade of CML.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — CML magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic signalling cascade of CML.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — copper, via SOD in macrophage (already mapped) and T-cytotoxic cell (already mapped), counters BCR-ABL-driven ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — zinc cofactors kinase signalling in macrophage (already mapped) and T-cytotoxic cell (already mapped); zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic survival cascade of CML.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and leukaemic stem cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL cascade of CML.
 
 ---
 

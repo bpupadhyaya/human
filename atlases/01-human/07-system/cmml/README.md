@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "CMML zinc: zinc cofactors macrophage (already mapped) and monocyte (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus, as ATP in macrophage (already mapped) and monocyte (already mapped), fuels myeloproliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on macrophage (already mapped) and monocyte (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur, as glutathione precursor in macrophage (already mapped) and monocyte (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -825,6 +834,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — CMML magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and monocytes (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CMML copper: copper, via ceruloplasmin in macrophages (already mapped) and monocytes (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) oxidative myeloproliferative cascade of CMML.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — CMML zinc: zinc cofactors macrophage (already mapped) and monocyte (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped) and monocyte (already mapped), fuels myeloproliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and monocyte (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and monocyte (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 
 ---
 
