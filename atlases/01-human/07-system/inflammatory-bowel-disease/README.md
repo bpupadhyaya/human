@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "IBD carbon: carbon, as backbone of short-chain fatty acids in macrophages (already mapped) and intestinal epithelium (already mapped), modulates mucosal immunity; carbon deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IBD."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "IBD hydrogen: hydrogen as proton gradient in intestinal epithelium (already mapped) and macrophage (already mapped) mitochondria drives ATP synthesis; hydrogen-ion acidosis amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal cascade of IBD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "IBD PD-1: PD-1 checkpoint overexpression on T-cells (already mapped) impairs mucosal immune tolerance; PD-1 blockade amplifies TNF-α (already mapped) and IL-6 (already mapped) signalling, exacerbating intestinal epithelium (already mapped) inflammation in IBD."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "IBD GLP-1: GLP-1 from intestinal L-cells suppresses NF-κB (already mapped) and macrophage (already mapped) activation; GLP-1 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) mucosal inflammation of intestinal epithelium (already mapped) in IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -835,6 +844,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IBD nitrogen: nitrogen, as reactive nitrogen species in macrophages (already mapped) and intestinal epithelium (already mapped), drives mucosal inflammation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of inflammatory bowel disease.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — IBD oxygen: oxygen, via ROS in macrophages (already mapped) and intestinal epithelium (already mapped), amplifies mucosal oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of inflammatory bowel disease.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IBD carbon: carbon, as backbone of short-chain fatty acids in macrophages (already mapped) and intestinal epithelium (already mapped), modulates mucosal immunity; carbon deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of IBD.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IBD hydrogen: hydrogen as proton gradient in intestinal epithelium (already mapped) and macrophage (already mapped) mitochondria drives ATP synthesis; hydrogen-ion acidosis amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal cascade of IBD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — IBD PD-1: PD-1 checkpoint overexpression on T-cells (already mapped) impairs mucosal immune tolerance; PD-1 blockade amplifies TNF-α (already mapped) and IL-6 (already mapped) signalling, exacerbating intestinal epithelium (already mapped) inflammation in IBD.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — IBD GLP-1: GLP-1 from intestinal L-cells suppresses NF-κB (already mapped) and macrophage (already mapped) activation; GLP-1 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) mucosal inflammation of intestinal epithelium (already mapped) in IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

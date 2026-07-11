@@ -535,6 +535,9 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "Influenza chloride: chloride regulates macrophage (already mapped) and NK cells (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) innate immune cascade of influenza."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Influenza carbon: carbon as backbone of viral glycoproteins and cytokines (already mapped) sustains replicative signalling; carbon metabolites in macrophages (already mapped) and NK cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in influenza."
 ---
 
 # Influenza
@@ -843,3 +846,4 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Influenza copper: copper, in macrophages (already mapped) and NK cells (already mapped), scavenges viral-driven ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine cascade of influenza.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Influenza phosphorus: phosphorus, as ATP in macrophages (already mapped) and NK cells (already mapped), fuels antiviral immune responses; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Influenza chloride: chloride regulates macrophage (already mapped) and NK cells (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) innate immune cascade of influenza.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Influenza carbon: carbon as backbone of viral glycoproteins and cytokines (already mapped) sustains replicative signalling; carbon metabolites in macrophages (already mapped) and NK cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in influenza.
