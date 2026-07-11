@@ -532,6 +532,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "SUD sulfur: hydrogen sulfide from neurons (already mapped) modulates dopamine (already mapped) signalling; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) suppression in stimulant use disorder."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "SUD carbon: carbon, as metabolic backbone of dopamine (already mapped) and BDNF (already mapped) in neurons (already mapped), drives synaptic energy metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "SUD hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and macrophages (already mapped), modulates dopamine (already mapped) oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "SUD nitrogen: nitric oxide from neurons (already mapped) modulates dopamine (already mapped) signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and serotonin (already mapped) cascade of stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -825,6 +834,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — SUD calcium: calcium gates neuron (already mapped) dopamine (already mapped) release via vesicular exocytosis; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and BDNF (already mapped) suppression in stimulant use disorder.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — SUD chloride: chloride, via KCC2 in GABAergic neurons (already mapped), sets inhibitory tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and serotonin (already mapped) signalling deficits in stimulant use disorder.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SUD sulfur: hydrogen sulfide from neurons (already mapped) modulates dopamine (already mapped) signalling; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) suppression in stimulant use disorder.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SUD carbon: carbon, as metabolic backbone of dopamine (already mapped) and BDNF (already mapped) in neurons (already mapped), drives synaptic energy metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — SUD hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and macrophages (already mapped), modulates dopamine (already mapped) oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SUD nitrogen: nitric oxide from neurons (already mapped) modulates dopamine (already mapped) signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and serotonin (already mapped) cascade of stimulant use disorder.
 
 ## Treatment
 

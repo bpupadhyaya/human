@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Stroke phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), sustains membrane gradients; phosphorus depletion amplifies NF-κB (already mapped) and glutamate (already mapped) excitotoxicity and IL-6 (already mapped) in stroke."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Stroke carbon: carbon, as metabolic backbone of neurons (already mapped) and microglia (already mapped), fuels neuronal energy metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and glutamate (already mapped) excitotoxicity in stroke."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Stroke chloride: chloride, via KCC2 in neurons (already mapped) and astrocytes (already mapped), regulates inhibitory tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and glutamate (already mapped) excitotoxic cascade of stroke."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Stroke hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and microglia (already mapped), quenches ischaemic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and glutamate (already mapped) excitotoxicity of stroke."
 ---
 
 # Stroke
@@ -811,6 +820,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Stroke copper: copper-dependent SOD in neurons (already mapped) and microglia (already mapped) quenches ROS amplifying NF-κB (already mapped); copper deficiency amplifies glutamate (already mapped) excitotoxicity and IL-6 (already mapped) neuroinflammation in stroke.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Stroke iodine: iodine-dependent thyroid hormones modulate neurons (already mapped) and microglia (already mapped) neuroinflammatory tone; thyroid-hormone deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and glutamate (already mapped) excitotoxicity in stroke.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Stroke phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), sustains membrane gradients; phosphorus depletion amplifies NF-κB (already mapped) and glutamate (already mapped) excitotoxicity and IL-6 (already mapped) in stroke.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Stroke carbon: carbon, as metabolic backbone of neurons (already mapped) and microglia (already mapped), fuels neuronal energy metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and glutamate (already mapped) excitotoxicity in stroke.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Stroke chloride: chloride, via KCC2 in neurons (already mapped) and astrocytes (already mapped), regulates inhibitory tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and glutamate (already mapped) excitotoxic cascade of stroke.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Stroke hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and microglia (already mapped), quenches ischaemic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and glutamate (already mapped) excitotoxicity of stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
