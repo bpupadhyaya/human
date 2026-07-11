@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/iodine
     relation: connects-to
     note: "CRC iodine: thyroid hormones regulate macrophage (already mapped) and NK-cell (already mapped) anti-tumour immunity; thyroid deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) and VEGF (already mapped)-driven tumour angiogenesis in colorectal cancer."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "CRC copper: copper-dependent SOD and lysyl oxidase in macrophages (already mapped) and tumour cells modulate ROS and VEGF (already mapped) angiogenesis; copper deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) tumour cascade of colorectal cancer."
+  - target: 01-human/02-atomic/sodium
+    relation: connects-to
+    note: "CRC sodium: high dietary sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplify WNT/β-catenin (already mapped) and mTOR (already mapped) tumour proliferation of colorectal cancer."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "CRC potassium: potassium efflux from macrophages (already mapped) and tumour cells drives NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) tumour cascade of colorectal cancer."
 ---
 
 # Colorectal Cancer
@@ -811,6 +820,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — CRC prolactin: prolactin receptor signalling activates JAK2/STAT3 (already mapped) tumour survival pathways; prolactin-driven NF-κB (already mapped) activation promotes IL-6 (already mapped) tumour microenvironment remodelling and mTOR (already mapped) angiogenic signalling.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — CRC zinc: zinc supports intestinal epithelial barrier integrity and macrophage (already mapped) tumour surveillance; zinc deficiency amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) colorectal tumour proliferation and angiogenesis.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — CRC iodine: thyroid hormones regulate macrophage (already mapped) and NK-cell (already mapped) anti-tumour immunity; thyroid deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) and VEGF (already mapped)-driven tumour angiogenesis in colorectal cancer.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CRC copper: copper-dependent SOD and lysyl oxidase in macrophages (already mapped) and tumour cells modulate ROS and VEGF (already mapped) angiogenesis; copper deficiency amplifies NF-κB (already mapped) and mTOR (already mapped) tumour cascade of colorectal cancer.
+- `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — CRC sodium: high dietary sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplify WNT/β-catenin (already mapped) and mTOR (already mapped) tumour proliferation of colorectal cancer.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — CRC potassium: potassium efflux from macrophages (already mapped) and tumour cells drives NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) tumour cascade of colorectal cancer.
 
 ---
 
