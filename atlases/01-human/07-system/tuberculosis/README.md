@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "TB phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and dendritic-cell (already mapped), fuels antimycobacterial burst; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs T-cytotoxic-cell (already mapped) in TB."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "TB chloride: chloride flux through CFTR in alveolar macrophages (already mapped) and epithelial cells modulates phagosome acidification and MTB killing; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) granulomatous inflammation of tuberculosis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "TB sulfur: hydrogen sulfide from sulfur-amino acids in macrophages (already mapped) and neutrophils (already mapped) inhibits MTB replication and promotes mitophagy; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) immunopathology of tuberculosis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "TB nitrogen: nitric oxide from iNOS in macrophages (already mapped) directly kills intracellular MTB; nitrogen depletion impairs phagosome-lysosome fusion and amplifies NF-κB (already mapped) and IL-6 (already mapped) granulomatous tissue destruction in tuberculosis."
 ---
 
 # Tuberculosis
@@ -827,6 +836,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - [^who-tb-report-2023] World Health Organization. *Global Tuberculosis Report 2023.* Geneva: WHO; 2023.
 - [^nahid-2016-tb-treatment] Nahid P et al. Official ATS/CDC/IDSA Clinical Practice Guidelines: Treatment of Drug-Susceptible Tuberculosis. *Clin Infect Dis.* 2016;63(7):e147-e195. [doi:10.1093/cid/ciw376](https://doi.org/10.1093/cid/ciw376) · [PubMed 27516382](https://pubmed.ncbi.nlm.nih.gov/27516382/)
 - Related entries: [il-12](../../03-molecular/il-12/README.md), [tnf-alpha](../../03-molecular/tnf-alpha/README.md), [ifn-gamma](../../03-molecular/ifn-gamma/README.md), [anemia-of-chronic-disease](../anemia-of-chronic-disease/README.md), [immune-system](../immune-system/README.md)
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — TB chloride: chloride flux through CFTR in alveolar macrophages (already mapped) and epithelial cells modulates phagosome acidification and MTB killing; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) granulomatous inflammation of tuberculosis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — TB sulfur: hydrogen sulfide from sulfur-amino acids in macrophages (already mapped) and neutrophils (already mapped) inhibits MTB replication and promotes mitophagy; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) immunopathology of tuberculosis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — TB nitrogen: nitric oxide from iNOS in macrophages (already mapped) directly kills intracellular MTB; nitrogen depletion impairs phagosome-lysosome fusion and amplifies NF-κB (already mapped) and IL-6 (already mapped) granulomatous tissue destruction in tuberculosis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

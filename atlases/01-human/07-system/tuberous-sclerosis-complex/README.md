@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "TSC magnesium: magnesium, as mTOR (already mapped) kinase cofactor in neurons (already mapped) and astrocytes (already mapped), supports synaptic function; magnesium deficiency amplifies NF-κB (already mapped) neuroinflammation and IL-6 (already mapped) cascade of TSC epilepsy."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "TSC copper: copper-dependent SOD in neurons (already mapped) and astrocytes (already mapped) quenches mTOR (already mapped)-driven ROS; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and hamartoma growth of TSC."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "TSC zinc: zinc, as mTOR (already mapped) kinase cofactor in neurons (already mapped) and astrocytes (already mapped), supports synaptic transmission; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) seizure susceptibility and hamartoma growth of TSC."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "TSC potassium: potassium efflux in neurons (already mapped) and astrocytes (already mapped) modulates seizure threshold; potassium dysregulation amplifies mTOR (already mapped) and NF-κB (already mapped) cortical excitability and hamartoma cascade of TSC."
 ---
 
 # Tuberous Sclerosis Complex
@@ -827,6 +836,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — TSC iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies mTOR (already mapped) and VEGF (already mapped) hamartoma growth and NF-κB (already mapped) neuroinflammation of TSC.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — TSC sodium: excess sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) amplifies IL-6 (already mapped) and mTOR (already mapped)-driven hamartoma cascade of TSC.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — TSC magnesium: magnesium, as mTOR (already mapped) kinase cofactor in neurons (already mapped) and astrocytes (already mapped), supports synaptic function; magnesium deficiency amplifies NF-κB (already mapped) neuroinflammation and IL-6 (already mapped) cascade of TSC epilepsy.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — TSC copper: copper-dependent SOD in neurons (already mapped) and astrocytes (already mapped) quenches mTOR (already mapped)-driven ROS; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and hamartoma growth of TSC.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — TSC zinc: zinc, as mTOR (already mapped) kinase cofactor in neurons (already mapped) and astrocytes (already mapped), supports synaptic transmission; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) seizure susceptibility and hamartoma growth of TSC.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — TSC potassium: potassium efflux in neurons (already mapped) and astrocytes (already mapped) modulates seizure threshold; potassium dysregulation amplifies mTOR (already mapped) and NF-κB (already mapped) cortical excitability and hamartoma cascade of TSC.
 
 ---
 
