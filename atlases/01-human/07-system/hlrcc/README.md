@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "HLRCC copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HLRCC chloride: chloride channels regulate macrophage (already mapped) and T-cytotoxic (already mapped) volume during tumour-microenvironment stress; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade in HLRCC."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HLRCC nitrogen: nitrogen as backbone of oncoproteins and cytokines (already mapped) sustains tumour signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting inflammatory cascade in HLRCC."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HLRCC potassium: potassium regulates macrophage (already mapped) and T-cytotoxic (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -831,6 +840,9 @@ Cutaneous:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HLRCC sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and T-cytotoxic (already mapped) suppression; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplifies tumour-promoting cascade of HLRCC.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — HLRCC magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HLRCC copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HLRCC chloride: chloride channels regulate macrophage (already mapped) and T-cytotoxic (already mapped) volume during tumour-microenvironment stress; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade in HLRCC.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HLRCC nitrogen: nitrogen as backbone of oncoproteins and cytokines (already mapped) sustains tumour signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting inflammatory cascade in HLRCC.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HLRCC potassium: potassium regulates macrophage (already mapped) and T-cytotoxic (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

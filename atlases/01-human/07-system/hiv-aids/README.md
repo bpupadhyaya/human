@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "AIDS potassium: potassium regulates macrophage (already mapped) and natural-killer-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV/AIDS."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "AIDS calcium: calcium signals macrophage (already mapped) and natural-killer-cell (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune dysregulation in HIV/AIDS."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "AIDS chloride: chloride channels regulate macrophage (already mapped) and natural-killer-cell (already mapped) volume during immune activation; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "AIDS nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in AIDS."
 ---
 
 # HIV/AIDS
@@ -814,6 +823,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — AIDS sodium: high dietary sodium promotes macrophage (already mapped) inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amplifies immune dysregulation and natural-killer-cell (already mapped) dysfunction in HIV/AIDS.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — AIDS copper: copper, as cofactor of ceruloplasmin, supports macrophage (already mapped) and natural-killer-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV/AIDS.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — AIDS potassium: potassium regulates macrophage (already mapped) and natural-killer-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV/AIDS.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — AIDS calcium: calcium signals macrophage (already mapped) and natural-killer-cell (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune dysregulation in HIV/AIDS.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — AIDS chloride: chloride channels regulate macrophage (already mapped) and natural-killer-cell (already mapped) volume during immune activation; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — AIDS nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in AIDS.
 
 ## See Also
 
