@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "UM phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic-cell (already mapped), fuels anti-tumour immunity; phosphorus deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) uveal melanoma cascade."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "UM carbon: carbon, as metabolic backbone of VEGF (already mapped) and tumour lipids in macrophages (already mapped) and uveal melanoma cells, drives tumour growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of uveal melanoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "UM chloride: chloride channels in macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulate tumour-immune homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "UM hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), quenches tumour ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -836,6 +845,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — UM magnesium: magnesium, as mTOR (already mapped) kinase cofactor in macrophages (already mapped) and uveal melanoma cells, supports tumour growth; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — UM potassium: potassium efflux from macrophages (already mapped) and uveal melanoma cells drives NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade of uveal melanoma.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — UM phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic-cell (already mapped), fuels anti-tumour immunity; phosphorus deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) uveal melanoma cascade.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — UM carbon: carbon, as metabolic backbone of VEGF (already mapped) and tumour lipids in macrophages (already mapped) and uveal melanoma cells, drives tumour growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — UM chloride: chloride channels in macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulate tumour-immune homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — UM hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), quenches tumour ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of uveal melanoma.
 
 ---
 

@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "VTE potassium: potassium efflux in endothelial cells (already mapped) and platelets (already mapped) modulates vascular tone; potassium dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) thromboinflammatory cascade of VTE."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "VTE carbon: carbon, as metabolic backbone of clotting factors in endothelial cells (already mapped) and macrophages (already mapped), drives coagulation; carbon dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) procoagulant cascade of VTE."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "VTE chloride: chloride channels in endothelial cells (already mapped) and macrophages (already mapped) regulate vascular tone; chloride dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) cascade of VTE."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "VTE hydrogen: hydrogen, via redox homeostasis in endothelial cells (already mapped) and macrophages (already mapped), quenches procoagulant ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) cascade of VTE."
 ---
 
 # Venous Thromboembolism
@@ -826,6 +835,9 @@ cross_links:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — VTE iron: iron overload promotes endothelial cell (already mapped) and platelet (already mapped) oxidative activation; iron-induced NF-κB (already mapped) and thrombin (already mapped) amplify fibrinogen (already mapped) and coagulation cascade of venous thromboembolism.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — VTE copper: copper-dependent SOD in endothelial cells (already mapped) and macrophages (already mapped) quenches ROS; copper deficiency amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) procoagulant cascade of venous thromboembolism.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — VTE potassium: potassium efflux in endothelial cells (already mapped) and platelets (already mapped) modulates vascular tone; potassium dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) thromboinflammatory cascade of VTE.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — VTE carbon: carbon, as metabolic backbone of clotting factors in endothelial cells (already mapped) and macrophages (already mapped), drives coagulation; carbon dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) procoagulant cascade of VTE.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — VTE chloride: chloride channels in endothelial cells (already mapped) and macrophages (already mapped) regulate vascular tone; chloride dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) cascade of VTE.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — VTE hydrogen: hydrogen, via redox homeostasis in endothelial cells (already mapped) and macrophages (already mapped), quenches procoagulant ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) cascade of VTE.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
