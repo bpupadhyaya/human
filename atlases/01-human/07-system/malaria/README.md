@@ -537,6 +537,12 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "MAL nitrogen: nitrogen, as RNS via iNOS in macrophages (already mapped) and erythrocytes (already mapped), drives haemolytic stress; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of malaria."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Malaria carbon: carbon as backbone of haemoglobin (already mapped) and merozoite structural proteins sustains erythrocyte (already mapped) invasion; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of malaria."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Malaria PD-1: PD-1 checkpoint on T-cells (already mapped) drives immune exhaustion during chronic Plasmodium infection; PD-1 overexpression amplifies IL-10 (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-suppression cascade of malaria."
 ---
 
 # Malaria
@@ -868,6 +874,8 @@ cross_links:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MAL chloride: chloride regulates macrophage (already mapped) and erythrocyte (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemolytic cascade of malaria.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MAL sulfur: sulfur, as glutathione precursor in erythrocytes (already mapped) and macrophages (already mapped), scavenges haemolytic ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of malaria.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MAL nitrogen: nitrogen, as RNS via iNOS in macrophages (already mapped) and erythrocytes (already mapped), drives haemolytic stress; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of malaria.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Malaria carbon: carbon as backbone of haemoglobin (already mapped) and merozoite structural proteins sustains erythrocyte (already mapped) invasion; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of malaria.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Malaria PD-1: PD-1 checkpoint on T-cells (already mapped) drives immune exhaustion during chronic Plasmodium infection; PD-1 overexpression amplifies IL-10 (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-suppression cascade of malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

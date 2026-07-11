@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "MCL zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) cascade of MCL."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "MCL carbon: carbon as backbone of cyclin-D1 (already mapped) and BTK protein scaffold sustains B-cell (already mapped) mantle-zone proliferation; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade of MCL."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "MCL chloride: chloride regulates B-cell (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) protumorigenic microenvironment of mantle-cell lymphoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MCL nitrogen: nitrogen in amino-acid scaffold of cyclin-D1 (already mapped) and BTK proteins sustains B-cell (already mapped) proliferation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of mantle-cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -821,6 +830,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MCL magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and B-cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of mantle-cell lymphoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MCL copper: copper, via SOD1 in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) tumour cascade of mantle-cell lymphoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MCL zinc: zinc, as cofactor of antioxidant enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped), attenuates oxidative stress; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) cascade of MCL.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MCL carbon: carbon as backbone of cyclin-D1 (already mapped) and BTK protein scaffold sustains B-cell (already mapped) mantle-zone proliferation; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade of MCL.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MCL chloride: chloride regulates B-cell (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) protumorigenic microenvironment of mantle-cell lymphoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MCL nitrogen: nitrogen in amino-acid scaffold of cyclin-D1 (already mapped) and BTK proteins sustains B-cell (already mapped) proliferation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of mantle-cell lymphoma.
 
 ---
 
