@@ -531,6 +531,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "RSV nitrogen: nitric oxide from macrophages (already mapped) and type-ii-pneumocytes (already mapped) mediates antiviral vasodilation; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 inflammasome (already mapped) cascade of RSV."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "RSV carbon: carbon, as metabolic backbone of viral envelope lipids and type-ii-pneumocytes (already mapped), enables viral replication; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade of RSV bronchiolitis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "RSV PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates antiviral immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) airway inflammatory cascade of RSV."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "RSV GLP-1: GLP-1 signalling in type-ii-pneumocytes (already mapped) and endothelial cells (already mapped) modulates airway metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of RSV bronchiolitis."
 ---
 
 # RSV
@@ -846,3 +855,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — RSV chloride: chloride, via CFTR in airway epithelial and type-ii-pneumocyte (already mapped) cells, regulates mucociliary clearance; chloride channel dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RSV bronchiolitis.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — RSV sulfur: hydrogen sulfide, from sulfur-amino acids in type-ii-pneumocytes (already mapped) and macrophages (already mapped), promotes bronchodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) airway inflammatory cascade of RSV bronchiolitis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — RSV nitrogen: nitric oxide from macrophages (already mapped) and type-ii-pneumocytes (already mapped) mediates antiviral vasodilation; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 inflammasome (already mapped) cascade of RSV.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — RSV carbon: carbon, as metabolic backbone of viral envelope lipids and type-ii-pneumocytes (already mapped), enables viral replication; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade of RSV bronchiolitis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — RSV PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates antiviral immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) airway inflammatory cascade of RSV.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — RSV GLP-1: GLP-1 signalling in type-ii-pneumocytes (already mapped) and endothelial cells (already mapped) modulates airway metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of RSV bronchiolitis.
