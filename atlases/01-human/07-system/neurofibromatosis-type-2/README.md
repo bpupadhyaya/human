@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "NF2 zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates matrix remodelling; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of neurofibromatosis type 2."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "NF2 carbon: carbon as backbone of merlin (already mapped) and NF-κB (already mapped) structural proteins in Schwann cells (already mapped) sustains tumour suppression; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NF2."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "NF2 chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the schwannoma microenvironment; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF2."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "NF2 nitrogen: nitrogen in amino-acid scaffold of merlin (already mapped) and CDKN2A proteins in Schwann cells (already mapped) sustains tumour-suppressor function; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NF2."
 ---
 
 # Neurofibromatosis Type 2
@@ -819,6 +828,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — NF2 magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and fibroblasts (already mapped), attenuates oxidative stress; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF2.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NF2 copper: copper, as cofactor of SOD1 in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges TME ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF2.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — NF2 zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates matrix remodelling; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of neurofibromatosis type 2.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — NF2 carbon: carbon as backbone of merlin (already mapped) and NF-κB (already mapped) structural proteins in Schwann cells (already mapped) sustains tumour suppression; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NF2.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NF2 chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the schwannoma microenvironment; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF2.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NF2 nitrogen: nitrogen in amino-acid scaffold of merlin (already mapped) and CDKN2A proteins in Schwann cells (already mapped) sustains tumour-suppressor function; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NF2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
