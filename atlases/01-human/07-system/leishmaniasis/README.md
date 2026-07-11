@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "Leish hydrogen: hydrogen, as water and H₂S in macrophages (already mapped) and neutrophils (already mapped), modulates redox homeostasis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leishmanicidal cascade."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Leishmaniasis PD-1: PD-1 checkpoint on T-cells (already mapped) suppresses anti-leishmanial immunity; PD-1 overexpression amplifies IL-10 (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-evasion cascade in leishmaniasis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Leishmaniasis GLP-1: GLP-1 signalling modulates macrophage (already mapped) and NK-cell (already mapped) activation against Leishmania; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) parasitic cascade of leishmaniasis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Leishmaniasis angiotensin-II: angiotensin-II drives macrophage (already mapped) and neutrophil (already mapped) inflammatory activation; angiotensin-II amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune cascade of leishmaniasis."
 ---
 
 # Leishmaniasis
@@ -801,3 +810,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Leish nitrogen: nitrogen, as the precursor of nitric oxide via iNOS in macrophages (already mapped) and neutrophils (already mapped), drives leishmanicidal activity; nitrogen deficiency impairs NF-κB (already mapped) and IFN-γ (already mapped) driven clearance.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Leish carbon: carbon, as backbone of SCFA and lipid metabolites in macrophages (already mapped) and neutrophils (already mapped), shapes leishmanicidal metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Leish hydrogen: hydrogen, as water and H₂S in macrophages (already mapped) and neutrophils (already mapped), modulates redox homeostasis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leishmanicidal cascade.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Leishmaniasis PD-1: PD-1 checkpoint on T-cells (already mapped) suppresses anti-leishmanial immunity; PD-1 overexpression amplifies IL-10 (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-evasion cascade in leishmaniasis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Leishmaniasis GLP-1: GLP-1 signalling modulates macrophage (already mapped) and NK-cell (already mapped) activation against Leishmania; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) parasitic cascade of leishmaniasis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Leishmaniasis angiotensin-II: angiotensin-II drives macrophage (already mapped) and neutrophil (already mapped) inflammatory activation; angiotensin-II amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune cascade of leishmaniasis.
