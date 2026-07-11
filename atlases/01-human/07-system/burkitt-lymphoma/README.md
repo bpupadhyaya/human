@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Burkitt zinc: zinc cofactors macrophage (already mapped) and regulatory T-cell (already mapped) function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade of Burkitt lymphoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on B cell (already mapped) and macrophage (already mapped) regulate lymphoma cell volume; chloride dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour-promoting cascade in Burkitt lymphoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur-containing glutathione in B cell (already mapped) and macrophage (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and MYC (already mapped) and BCL-2 (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "nitric oxide (NO, nitrogen-derived) from macrophage (already mapped) regulates B cell (already mapped) survival; NO excess amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -834,6 +843,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Burkitt sodium: sodium dysregulation in bone-marrow (already mapped) stroma and B-cells (already mapped) amplifies ionic stress; osmotic changes worsen NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade of Burkitt lymphoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Burkitt copper: copper, via ceruloplasmin in macrophages (already mapped) and B-cells (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour-promoting cascade of Burkitt lymphoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Burkitt zinc: zinc cofactors macrophage (already mapped) and regulatory T-cell (already mapped) function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade of Burkitt lymphoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on B cell (already mapped) and macrophage (already mapped) regulate lymphoma cell volume; chloride dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour-promoting cascade in Burkitt lymphoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur-containing glutathione in B cell (already mapped) and macrophage (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and MYC (already mapped) and BCL-2 (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide (NO, nitrogen-derived) from macrophage (already mapped) regulates B cell (already mapped) survival; NO excess amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma.
 
 ---
 

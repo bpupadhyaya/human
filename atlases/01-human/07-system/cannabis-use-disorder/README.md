@@ -516,6 +516,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "CUD iron: iron, via ferritin in neurons (already mapped) and microglia (already mapped), fuels dopamine (already mapped) synthesis; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "phosphorus in neuron (already mapped) and microglia (already mapped) fuels ATP-dependent endocannabinoid (already mapped) signalling; phosphate dysregulation amplifies BDNF (already mapped) and dopamine (already mapped) and mTOR (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chloride channels on neuron (already mapped) and microglia (already mapped) regulate GABAergic tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and GABA (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "sulfur-containing glutathione in neuron (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in cannabis use disorder."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -837,6 +846,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — CUD calcium: calcium regulates neuron (already mapped) excitability and endocannabinoid (already mapped) release; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward cascade in cannabis use disorder.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — CUD copper: copper supports microglial (already mapped) and neuron (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) and BDNF (already mapped) signalling in cannabis use disorder.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — CUD iron: iron, via ferritin in neurons (already mapped) and microglia (already mapped), fuels dopamine (already mapped) synthesis; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus in neuron (already mapped) and microglia (already mapped) fuels ATP-dependent endocannabinoid (already mapped) signalling; phosphate dysregulation amplifies BDNF (already mapped) and dopamine (already mapped) and mTOR (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on neuron (already mapped) and microglia (already mapped) regulate GABAergic tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and GABA (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur-containing glutathione in neuron (already mapped) and microglia (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and BDNF (already mapped) dysregulation in cannabis use disorder.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
