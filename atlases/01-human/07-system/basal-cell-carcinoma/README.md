@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "BCC phosphorus: phosphorus, as ATP in keratinocytes (skin already mapped) and macrophages (already mapped), fuels proliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) of basal-cell carcinoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "BCC potassium: potassium channels on skin (already mapped) keratinocytes regulate intracellular pH; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade in basal-cell carcinoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "BCC chloride: chloride channels on macrophages (already mapped) and skin (already mapped) keratinocytes regulate intracellular pH; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour cascade in basal-cell carcinoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "BCC sulfur: H2S from sulfur-amino acids in macrophages (already mapped) and skin (already mapped) keratinocytes scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in basal-cell carcinoma."
 ---
 
 # Basal Cell Carcinoma
@@ -821,6 +830,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — BCC iron: iron, via ferritin and transferrin in macrophages (already mapped), fuels keratinocyte (skin already mapped) proliferation; iron excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of basal-cell carcinoma.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — BCC magnesium: magnesium cofactors kinase signalling in keratinocytes (skin already mapped) and macrophages (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of basal-cell carcinoma.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — BCC phosphorus: phosphorus, as ATP in keratinocytes (skin already mapped) and macrophages (already mapped), fuels proliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) of basal-cell carcinoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — BCC potassium: potassium channels on skin (already mapped) keratinocytes regulate intracellular pH; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade in basal-cell carcinoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BCC chloride: chloride channels on macrophages (already mapped) and skin (already mapped) keratinocytes regulate intracellular pH; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour cascade in basal-cell carcinoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — BCC sulfur: H2S from sulfur-amino acids in macrophages (already mapped) and skin (already mapped) keratinocytes scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in basal-cell carcinoma.
 
 ---
 

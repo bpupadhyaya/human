@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "ASD carbon: carbon-backbone metabolites in neurons (already mapped) and astrocytes (already mapped) fuel acetyl-CoA and mTOR (already mapped) anabolic signalling; carbon metabolic imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade in ASD."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "norepinephrine from neurons (already mapped) modulates arousal and prefrontal attention; norepinephrine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and oxytocin (already mapped) circuit disruption in autism spectrum disorder."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VEGF from neurons (already mapped) and astrocytes (already mapped) sustains brain (already mapped) vascular development; VEGF excess amplifies NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped) neurodevelopmental cascade in ASD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PD-1 on microglia (already mapped) and neurons (already mapped) limits brain (already mapped) neuroinflammation; PD-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and IFN-γ (already mapped) and TNF-α (already mapped) neuroinflammatory cascade in ASD."
 ---
 
 # Autism Spectrum Disorder
@@ -848,6 +857,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — ASD nitrogen: nitric oxide (NO, nitrogen-derived) in neurons (already mapped) and microglia (already mapped) amplifies neuroinflammation; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) dysregulation of ASD.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ASD oxygen: mitochondrial oxygen metabolism in neurons (already mapped) and astrocytes (already mapped) generates ROS; ROS excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) dysregulation, worsening BDNF (already mapped) deficits in ASD.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ASD carbon: carbon-backbone metabolites in neurons (already mapped) and astrocytes (already mapped) fuel acetyl-CoA and mTOR (already mapped) anabolic signalling; carbon metabolic imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade in ASD.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — norepinephrine from neurons (already mapped) modulates arousal and prefrontal attention; norepinephrine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and oxytocin (already mapped) circuit disruption in autism spectrum disorder.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF from neurons (already mapped) and astrocytes (already mapped) sustains brain (already mapped) vascular development; VEGF excess amplifies NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped) neurodevelopmental cascade in ASD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1 on microglia (already mapped) and neurons (already mapped) limits brain (already mapped) neuroinflammation; PD-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and IFN-γ (already mapped) and TNF-α (already mapped) neuroinflammatory cascade in ASD.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
