@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "SjS oxygen: ROS from macrophages (already mapped) and T-cytotoxic-cell (already mapped) drives glandular oxidative stress; oxygen-induced ROS amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "SjS carbon: carbon, as metabolic backbone of BAFF (already mapped) and NF-κB (already mapped) in macrophages (already mapped) and B-cells (already mapped), drives autoimmune proliferation; carbon dysregulation amplifies IL-6 (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "SjS PD-1: PD-1 checkpoint on T-cytotoxic-cell (already mapped) and macrophages (already mapped) modulates autoimmune surveillance of glandular cells; PD-1 dysregulation amplifies BAFF (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "SjS GLP-1: GLP-1 signalling in glandular endothelial cells and macrophages (already mapped) modulates metabolic-immune homeostasis; GLP-1 dysregulation amplifies BAFF (already mapped) and IL-6 (already mapped) autoimmune cascade of Sjögren syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -837,6 +846,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SjS sulfur: hydrogen sulfide from glandular endothelial cells and macrophages (already mapped) modulates salivary vasodilation; sulfur deficiency amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) exocrinopathy cascade of Sjögren syndrome.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SjS nitrogen: nitric oxide from macrophages (already mapped) and glandular endothelial cells mediates vasodilation; nitrogen imbalance amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of Sjögren syndrome.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SjS oxygen: ROS from macrophages (already mapped) and T-cytotoxic-cell (already mapped) drives glandular oxidative stress; oxygen-induced ROS amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SjS carbon: carbon, as metabolic backbone of BAFF (already mapped) and NF-κB (already mapped) in macrophages (already mapped) and B-cells (already mapped), drives autoimmune proliferation; carbon dysregulation amplifies IL-6 (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SjS PD-1: PD-1 checkpoint on T-cytotoxic-cell (already mapped) and macrophages (already mapped) modulates autoimmune surveillance of glandular cells; PD-1 dysregulation amplifies BAFF (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SjS GLP-1: GLP-1 signalling in glandular endothelial cells and macrophages (already mapped) modulates metabolic-immune homeostasis; GLP-1 dysregulation amplifies BAFF (already mapped) and IL-6 (already mapped) autoimmune cascade of Sjögren syndrome.
 
 ---
 

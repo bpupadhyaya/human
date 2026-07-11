@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "SAD nitrogen: nitric oxide, generated in neurons (already mapped), modulates synaptic plasticity; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade and impairs serotonin (already mapped) signalling in SAD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "SAD carbon: carbon, as metabolic backbone of neurons (already mapped) and macrophages (already mapped), drives synaptic energy metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade of SAD."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "SAD hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and macrophages (already mapped), modulates synaptic oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and serotonin (already mapped) cascade of SAD."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "SAD oxygen: ROS from macrophages (already mapped) and neurons (already mapped) drives neuroinflammatory oxidative stress; oxygen-induced ROS amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) signalling cascade of SAD."
 ---
 
 # Social Anxiety Disorder
@@ -837,6 +846,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — SAD chloride: chloride, via KCC2 in GABAergic neurons (already mapped), sets inhibitory tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and serotonin (already mapped) deficits in social anxiety disorder.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SAD sulfur: hydrogen sulfide from neurons (already mapped) modulates GABAergic tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation, suppressing BDNF (already mapped) and serotonin (already mapped) signalling in SAD.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SAD nitrogen: nitric oxide, generated in neurons (already mapped), modulates synaptic plasticity; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade and impairs serotonin (already mapped) signalling in SAD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SAD carbon: carbon, as metabolic backbone of neurons (already mapped) and macrophages (already mapped), drives synaptic energy metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade of SAD.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — SAD hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and macrophages (already mapped), modulates synaptic oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and serotonin (already mapped) cascade of SAD.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SAD oxygen: ROS from macrophages (already mapped) and neurons (already mapped) drives neuroinflammatory oxidative stress; oxygen-induced ROS amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) signalling cascade of SAD.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
