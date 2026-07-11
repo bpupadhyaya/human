@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "HAE chloride: chloride, as a key ionic co-factor of mast-cell (already mapped) degranulation, modulates bradykinin (already mapped) release; chloride dysregulation amplifies IL-6 (already mapped) and C1-esterase-inhibitor (already mapped) dysfunction in HAE."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HAE carbon: carbon as backbone of bradykinin (already mapped) and C1-esterase-inhibitor (already mapped) sustains kinin-complement signalling; carbon-derived metabolites in mast cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in HAE."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HAE nitrogen: nitrogen as backbone of bradykinin (already mapped) and C1-esterase-inhibitor (already mapped) sustains kinin-complement signalling; nitrogen-derived RNS from mast cells (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) in HAE."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "HAE sulfur: sulfur in disulfide bonds of C1-esterase-inhibitor (already mapped) and bradykinin (already mapped) precursors stabilises their conformations; sulfur-derived ROS in mast cells (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) in HAE."
 ---
 
 # Hereditary Angioedema
@@ -842,6 +851,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HAE potassium: potassium regulates mast-cell (already mapped) degranulation and membrane potential; potassium dysregulation amplifies bradykinin (already mapped) release and IL-6 (already mapped) and C1-esterase-inhibitor (already mapped) dysfunction in HAE.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — HAE iron: iron, via ferritin in macrophages (already mapped) and mast cells (already mapped), modulates immune tone; iron dysregulation amplifies bradykinin (already mapped) and IL-6 (already mapped) and C1-esterase-inhibitor (already mapped) dysfunction in HAE.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HAE chloride: chloride, as a key ionic co-factor of mast-cell (already mapped) degranulation, modulates bradykinin (already mapped) release; chloride dysregulation amplifies IL-6 (already mapped) and C1-esterase-inhibitor (already mapped) dysfunction in HAE.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HAE carbon: carbon as backbone of bradykinin (already mapped) and C1-esterase-inhibitor (already mapped) sustains kinin-complement signalling; carbon-derived metabolites in mast cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in HAE.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HAE nitrogen: nitrogen as backbone of bradykinin (already mapped) and C1-esterase-inhibitor (already mapped) sustains kinin-complement signalling; nitrogen-derived RNS from mast cells (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) in HAE.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HAE sulfur: sulfur in disulfide bonds of C1-esterase-inhibitor (already mapped) and bradykinin (already mapped) precursors stabilises their conformations; sulfur-derived ROS in mast cells (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) in HAE.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

@@ -531,6 +531,15 @@ cross_links:
   - target: 01-human/02-atomic/calcium
     relation: connects-to
     note: "HCV calcium: calcium signals hepatocyte (already mapped) and macrophage (already mapped) inflammatory activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic fibrosis in chronic HCV."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HCV chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation and fibrosis in chronic HCV."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HCV nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HCV."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HCV phosphorus: phosphorus as ATP in hepatocytes (already mapped) and macrophages (already mapped) fuels viral replication and immune signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) in HCV."
 ---
 
 # Hepatitis C
@@ -828,3 +837,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HCV copper: copper, as cofactor of ceruloplasmin in hepatocytes (already mapped) and macrophages (already mapped), modulates oxidative stress; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic fibrosis in HCV.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HCV potassium: potassium regulates hepatocyte (already mapped) and macrophage (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation and fibrosis in HCV.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HCV calcium: calcium signals hepatocyte (already mapped) and macrophage (already mapped) inflammatory activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic fibrosis in chronic HCV.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HCV chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation and fibrosis in chronic HCV.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HCV nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HCV.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HCV phosphorus: phosphorus as ATP in hepatocytes (already mapped) and macrophages (already mapped) fuels viral replication and immune signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) in HCV.
