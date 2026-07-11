@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "HP chloride: chloride channels regulate pancreatic duct fluid secretion; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) and macrophage (already mapped) cascade in hereditary pancreatitis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HP nitrogen: nitrogen as backbone of digestive enzymes and cytokines (already mapped) sustains pancreatic exocrine signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) acinar injury in HP."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "HP oxygen: ROS from NADPH-oxidase in neutrophils (already mapped) and macrophages (already mapped) drives acinar cell oxidative injury; oxygen deprivation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HP."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "HP sulfur: sulfur in disulfide bonds of digestive enzymes and cytokines (already mapped) stabilises pancreatic secretory proteins; sulfur-derived ROS in macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) acinar cascade in HP."
 ---
 
 # Hereditary Pancreatitis
@@ -843,6 +852,9 @@ cross_links:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HP potassium: potassium regulates pancreatic duct secretion and neutrophil (already mapped) activation; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) macrophage (already mapped) cascade in hereditary pancreatitis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HP phosphorus: phosphorus, as ATP in neutrophils (already mapped) and macrophages (already mapped), fuels inflammatory signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in hereditary pancreatitis.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HP chloride: chloride channels regulate pancreatic duct fluid secretion; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neutrophil (already mapped) and macrophage (already mapped) cascade in hereditary pancreatitis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HP nitrogen: nitrogen as backbone of digestive enzymes and cytokines (already mapped) sustains pancreatic exocrine signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) acinar injury in HP.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — HP oxygen: ROS from NADPH-oxidase in neutrophils (already mapped) and macrophages (already mapped) drives acinar cell oxidative injury; oxygen deprivation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HP.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HP sulfur: sulfur in disulfide bonds of digestive enzymes and cytokines (already mapped) stabilises pancreatic secretory proteins; sulfur-derived ROS in macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) acinar cascade in HP.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

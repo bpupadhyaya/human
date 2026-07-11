@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "HIV potassium: potassium regulates macrophage (already mapped) and natural-killer-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "HIV calcium: calcium signals macrophage (already mapped) and natural-killer-cell (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune dysregulation in HIV."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HIV chloride: chloride channels regulate macrophage (already mapped) and natural-killer-cell (already mapped) volume during immune activation; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HIV phosphorus: phosphorus as ATP in macrophages (already mapped) and natural-killer-cells (already mapped) fuels antiviral kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV."
 ---
 
 # HIV
@@ -846,6 +855,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — HIV sodium: high dietary sodium promotes macrophage (already mapped) inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amplifies immune dysregulation and natural-killer-cell (already mapped) dysfunction in HIV.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HIV copper: copper, as cofactor of ceruloplasmin, supports macrophage (already mapped) and natural-killer-cell (already mapped) function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HIV potassium: potassium regulates macrophage (already mapped) and natural-killer-cell (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune dysregulation in HIV.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HIV calcium: calcium signals macrophage (already mapped) and natural-killer-cell (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune dysregulation in HIV.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HIV chloride: chloride channels regulate macrophage (already mapped) and natural-killer-cell (already mapped) volume during immune activation; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HIV phosphorus: phosphorus as ATP in macrophages (already mapped) and natural-killer-cells (already mapped) fuels antiviral kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
