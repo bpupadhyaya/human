@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "PCNSL zinc: zinc co-factors in macrophage (already mapped) and T-cytotoxic (already mapped) immune effector functions; zinc depletion exacerbates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling and microglia (already mapped) activation in PCNSL."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PCNSL carbon: carbon as backbone of NF-κB (already mapped) and BCL-2 proteins in lymphoma cells and microglia (already mapped) sustains tumour survival signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in PCNSL."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "PCNSL chloride: chloride channels in microglia (already mapped) and lymphoma cells modulate cell-volume and invasive potential in the CNS; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of PCNSL."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PCNSL hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and lymphoma cells, supports BCL-2-mediated survival; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of PCNSL."
 ---
 
 # Primary CNS Lymphoma
@@ -813,6 +822,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PCNSL copper: copper-dependent enzymes in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustain CNS tumour-immune balance; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in the primary CNS lymphoma microenvironment.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PCNSL phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) drives lymphoma-infiltrating immune responses; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in PCNSL.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — PCNSL zinc: zinc co-factors in macrophage (already mapped) and T-cytotoxic (already mapped) immune effector functions; zinc depletion exacerbates NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling and microglia (already mapped) activation in PCNSL.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PCNSL carbon: carbon as backbone of NF-κB (already mapped) and BCL-2 proteins in lymphoma cells and microglia (already mapped) sustains tumour survival signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in PCNSL.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PCNSL chloride: chloride channels in microglia (already mapped) and lymphoma cells modulate cell-volume and invasive potential in the CNS; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of PCNSL.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PCNSL hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and lymphoma cells, supports BCL-2-mediated survival; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of PCNSL.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
