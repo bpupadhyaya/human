@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "NSCLC sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) anti-tumour cascade of NSCLC."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "NSCLC copper: copper-dependent enzymes in macrophage (already mapped) and mast-cell (already mapped) immunity; copper imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade promoting T-cytotoxic (already mapped) exhaustion in NSCLC."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "NSCLC zinc: zinc co-factors in macrophage (already mapped) and neutrophil (already mapped) metalloproteases; zinc depletion exacerbates NF-κB (already mapped) and IL-6 (already mapped) tumour-permissive inflammation while impairing T-cytotoxic (already mapped) killing in NSCLC."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "NSCLC potassium: potassium efflux gates macrophage (already mapped) and mast-cell (already mapped) NLRP3 inflammasome; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling while suppressing T-cytotoxic (already mapped) function in NSCLC."
 ---
 
 # NSCLC
@@ -796,6 +805,9 @@ cross_links:
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — NSCLC selenium: selenium, as GPx in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS in the NSCLC tumour microenvironment; selenium deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — NSCLC iodine: iodine-dependent thyroid hormones regulate macrophage (already mapped) polarisation and T-cytotoxic (already mapped) immune surveillance; iodine deficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NSCLC.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — NSCLC sodium: high dietary sodium promotes macrophage (already mapped) and mast-cell (already mapped) pro-inflammatory activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) anti-tumour cascade of NSCLC.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NSCLC copper: copper-dependent enzymes in macrophage (already mapped) and mast-cell (already mapped) immunity; copper imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade promoting T-cytotoxic (already mapped) exhaustion in NSCLC.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — NSCLC zinc: zinc co-factors in macrophage (already mapped) and neutrophil (already mapped) metalloproteases; zinc depletion exacerbates NF-κB (already mapped) and IL-6 (already mapped) tumour-permissive inflammation while impairing T-cytotoxic (already mapped) killing in NSCLC.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — NSCLC potassium: potassium efflux gates macrophage (already mapped) and mast-cell (already mapped) NLRP3 inflammasome; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling while suppressing T-cytotoxic (already mapped) function in NSCLC.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
