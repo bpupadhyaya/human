@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "Stroke zinc: zinc cofactors NRF2 antioxidant defence in neurons (already mapped) and microglia (already mapped); zinc deficiency amplifies NF-κB (already mapped) and glutamate (already mapped) excitotoxicity and IL-6 (already mapped) neuroinflammation in stroke."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "Stroke copper: copper-dependent SOD in neurons (already mapped) and microglia (already mapped) quenches ROS amplifying NF-κB (already mapped); copper deficiency amplifies glutamate (already mapped) excitotoxicity and IL-6 (already mapped) neuroinflammation in stroke."
+  - target: 01-human/02-atomic/iodine
+    relation: connects-to
+    note: "Stroke iodine: iodine-dependent thyroid hormones modulate neurons (already mapped) and microglia (already mapped) neuroinflammatory tone; thyroid-hormone deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and glutamate (already mapped) excitotoxicity in stroke."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Stroke phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), sustains membrane gradients; phosphorus depletion amplifies NF-κB (already mapped) and glutamate (already mapped) excitotoxicity and IL-6 (already mapped) in stroke."
 ---
 
 # Stroke
@@ -799,6 +808,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[Vasopressin](../../03-molecular/vasopressin/README.md)** — Cerebral oedema modulator: vasopressin, via V1aR on astrocytes (already mapped) and neurons (already mapped), modulates cerebral oedema and BBB permeability; vasopressin dysregulation amplifies the NLRP3 (already mapped) and NF-κB (already mapped) ischaemic injury of stroke.
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — Ischaemia-reperfusion antioxidant: selenium, as GPx in neurons (already mapped) and microglia (already mapped), scavenges ischaemia-reperfusion ROS; selenium deficiency amplifies the NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade of ischaemic stroke.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Stroke zinc: zinc cofactors NRF2 antioxidant defence in neurons (already mapped) and microglia (already mapped); zinc deficiency amplifies NF-κB (already mapped) and glutamate (already mapped) excitotoxicity and IL-6 (already mapped) neuroinflammation in stroke.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Stroke copper: copper-dependent SOD in neurons (already mapped) and microglia (already mapped) quenches ROS amplifying NF-κB (already mapped); copper deficiency amplifies glutamate (already mapped) excitotoxicity and IL-6 (already mapped) neuroinflammation in stroke.
+- `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Stroke iodine: iodine-dependent thyroid hormones modulate neurons (already mapped) and microglia (already mapped) neuroinflammatory tone; thyroid-hormone deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and glutamate (already mapped) excitotoxicity in stroke.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Stroke phosphorus: phosphorus, as ATP precursor in neurons (already mapped) and microglia (already mapped), sustains membrane gradients; phosphorus depletion amplifies NF-κB (already mapped) and glutamate (already mapped) excitotoxicity and IL-6 (already mapped) in stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
