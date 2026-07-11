@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "GIST copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of GIST."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "GIST zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of GIST."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "GIST potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of GIST."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "GIST phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels GIST stromal-immune crosstalk; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST."
 ---
 
 # GIST
@@ -830,6 +839,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — GIST sodium: high dietary sodium promotes macrophage (already mapped) M2-skewing and mast-cell (already mapped) activation; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) skewing amplifies the T-cytotoxic (already mapped) tumour cascade of GIST.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — GIST magnesium: magnesium cofactors kinase signalling in macrophages (already mapped) and T-cytotoxic cells (already mapped); magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour cascade of GIST.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — GIST copper: copper supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of GIST.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — GIST zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of GIST.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — GIST potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of GIST.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GIST phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels GIST stromal-immune crosstalk; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

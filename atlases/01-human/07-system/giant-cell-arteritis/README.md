@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "GCA phosphorus: phosphorus-driven ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustains the arteritic immune response; phosphorus deficiency impairs NF-κB (already mapped) resolution and amplifies IL-6 (already mapped) vascular inflammation in GCA."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "GCA chloride: chloride channels on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulate arteritic immune signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) vascular inflammation of GCA."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "GCA sulfur: glutathione from sulfur amino acids in macrophages (already mapped) counters oxidative arteritic injury; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) Th1/Th17 vascular inflammation of giant-cell arteritis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "GCA nitrogen: nitric oxide from iNOS in macrophages (already mapped) regulates arterial vasodilation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) arteritic inflammation of giant-cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -814,6 +823,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — GCA copper: copper, via ceruloplasmin and SOD in macrophages (already mapped) and T-cytotoxic cells (already mapped), scavenges ROS; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) Th1/Th17-driven arteritic cascade of giant-cell arteritis.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — GCA zinc: zinc, via NF-κB (already mapped) inhibitory pathways in macrophages (already mapped), restrains Th1/Th17 polarisation; zinc deficiency amplifies IL-6 (already mapped) and TNF-α (already mapped) arteritic inflammation of giant-cell arteritis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GCA phosphorus: phosphorus-driven ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) sustains the arteritic immune response; phosphorus deficiency impairs NF-κB (already mapped) resolution and amplifies IL-6 (already mapped) vascular inflammation in GCA.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GCA chloride: chloride channels on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulate arteritic immune signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) vascular inflammation of GCA.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — GCA sulfur: glutathione from sulfur amino acids in macrophages (already mapped) counters oxidative arteritic injury; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) Th1/Th17 vascular inflammation of giant-cell arteritis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — GCA nitrogen: nitric oxide from iNOS in macrophages (already mapped) regulates arterial vasodilation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) arteritic inflammation of giant-cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
