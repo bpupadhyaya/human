@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "MPNST zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates Schwann cell matrix; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of MPNST."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "MPNST calcium: calcium as second messenger in NF1 (already mapped) and Ras pathway signalling in Schwann cells (already mapped) and macrophages (already mapped); calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) sarcoma cascade of MPNST."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "MPNST carbon: carbon as backbone of NF1 (already mapped) and neurofibromin structural proteins in Schwann cells (already mapped) sustains Ras-GTPase suppression; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) sarcoma cascade of MPNST."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MPNST nitrogen: nitrogen in amino-acid scaffold of NF1 (already mapped) and CDKN2A proteins modulates Schwann cell (already mapped) proliferation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) sarcoma cascade of MPNST."
 ---
 
 # MPNST
@@ -831,6 +840,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — MPNST magnesium: magnesium, as cofactor of antioxidant enzymes in macrophages (already mapped) and fibroblasts (already mapped), attenuates oxidative stress; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of MPNST.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — MPNST copper: copper, as cofactor of SOD1 in macrophages (already mapped) and mast cells (already mapped), scavenges TME ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour cascade of MPNST.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — MPNST zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates Schwann cell matrix; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of MPNST.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — MPNST calcium: calcium as second messenger in NF1 (already mapped) and Ras pathway signalling in Schwann cells (already mapped) and macrophages (already mapped); calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) sarcoma cascade of MPNST.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MPNST carbon: carbon as backbone of NF1 (already mapped) and neurofibromin structural proteins in Schwann cells (already mapped) sustains Ras-GTPase suppression; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) sarcoma cascade of MPNST.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MPNST nitrogen: nitrogen in amino-acid scaffold of NF1 (already mapped) and CDKN2A proteins modulates Schwann cell (already mapped) proliferation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) sarcoma cascade of MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

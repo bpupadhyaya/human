@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Mesothelioma phosphorus: phosphorus, as phospholipid and ATP in macrophages (already mapped) and mast cells (already mapped), drives immune signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of mesothelioma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Mesothelioma chloride: chloride regulates mesothelial cells (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) asbestos-driven cascade of mesothelioma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Mesothelioma nitrogen: nitrogen in amino-acid scaffold of BAP1 (already mapped) and CDKN2A proteins modulates mesothelial cell (already mapped) growth arrest; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of mesothelioma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Mesothelioma sulfur: sulfur, as cysteine in macrophages (already mapped) and mesothelial cells (already mapped), supports glutathione against asbestos ROS; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of mesothelioma."
 ---
 
 # Mesothelioma
@@ -818,6 +827,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — Mesothelioma copper: copper, as cofactor of SOD1 in macrophages (already mapped) and mast cells (already mapped), scavenges ROS in the mesothelioma TME; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of mesothelioma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — Mesothelioma zinc: zinc, as cofactor of metalloproteinases in macrophages (already mapped) and fibroblasts (already mapped), modulates matrix invasion; zinc depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of mesothelioma.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Mesothelioma phosphorus: phosphorus, as phospholipid and ATP in macrophages (already mapped) and mast cells (already mapped), drives immune signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of mesothelioma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Mesothelioma chloride: chloride regulates mesothelial cells (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) asbestos-driven cascade of mesothelioma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Mesothelioma nitrogen: nitrogen in amino-acid scaffold of BAP1 (already mapped) and CDKN2A proteins modulates mesothelial cell (already mapped) growth arrest; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of mesothelioma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Mesothelioma sulfur: sulfur, as cysteine in macrophages (already mapped) and mesothelial cells (already mapped), supports glutathione against asbestos ROS; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
