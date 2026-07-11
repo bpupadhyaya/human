@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/magnesium
     relation: connects-to
     note: "VTE magnesium: magnesium stabilises endothelial cell (already mapped) function and attenuates platelet (already mapped) aggregation; magnesium deficiency amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) procoagulant cascade in VTE."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "VTE iron: iron overload promotes endothelial cell (already mapped) and platelet (already mapped) oxidative activation; iron-induced NF-κB (already mapped) and thrombin (already mapped) amplify fibrinogen (already mapped) and coagulation cascade of venous thromboembolism."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "VTE copper: copper-dependent SOD in endothelial cells (already mapped) and macrophages (already mapped) quenches ROS; copper deficiency amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) procoagulant cascade of venous thromboembolism."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "VTE potassium: potassium efflux in endothelial cells (already mapped) and platelets (already mapped) modulates vascular tone; potassium dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) thromboinflammatory cascade of VTE."
 ---
 
 # Venous Thromboembolism
@@ -814,6 +823,9 @@ cross_links:
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — Haemostatic thyroid axis: iodine-dependent thyroid hormones modulate haemostatic factor expression (fibrinogen already mapped) and endothelial (already mapped) function; iodine deficiency impairs thyroid-mediated regulation of the thrombin (already mapped) cascade of venous thromboembolism.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — Prothrombotic salt axis: high dietary sodium promotes endothelial (already mapped) dysfunction and a prothrombotic state; sodium-induced aldosterone elevation amplifies the platelet (already mapped) and NF-κB (already mapped) thromboinflammatory cascade of venous thromboembolism.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — VTE magnesium: magnesium stabilises endothelial cell (already mapped) function and attenuates platelet (already mapped) aggregation; magnesium deficiency amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) procoagulant cascade in VTE.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — VTE iron: iron overload promotes endothelial cell (already mapped) and platelet (already mapped) oxidative activation; iron-induced NF-κB (already mapped) and thrombin (already mapped) amplify fibrinogen (already mapped) and coagulation cascade of venous thromboembolism.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — VTE copper: copper-dependent SOD in endothelial cells (already mapped) and macrophages (already mapped) quenches ROS; copper deficiency amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) procoagulant cascade of venous thromboembolism.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — VTE potassium: potassium efflux in endothelial cells (already mapped) and platelets (already mapped) modulates vascular tone; potassium dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) thromboinflammatory cascade of VTE.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

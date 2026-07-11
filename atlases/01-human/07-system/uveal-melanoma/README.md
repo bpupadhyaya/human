@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "UM sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplify VEGF (already mapped) and mTOR (already mapped) and STAT3 (already mapped)-driven cascade of uveal melanoma."
+  - target: 01-human/02-atomic/magnesium
+    relation: connects-to
+    note: "UM magnesium: magnesium, as mTOR (already mapped) kinase cofactor in macrophages (already mapped) and uveal melanoma cells, supports tumour growth; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "UM potassium: potassium efflux from macrophages (already mapped) and uveal melanoma cells drives NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade of uveal melanoma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "UM phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic-cell (already mapped), fuels anti-tumour immunity; phosphorus deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) uveal melanoma cascade."
 ---
 
 # Uveal Melanoma
@@ -824,6 +833,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — UM selenium: selenoproteins quench ROS from mTOR (already mapped) and VEGF (already mapped) in uveal melanoma; selenium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs T-cytotoxic-cell (already mapped) and macrophage (already mapped) immunity.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — UM iodine: thyroid hormones regulate macrophage (already mapped) and T-cytotoxic-cell (already mapped) anti-tumour surveillance; thyroid deficiency amplifies VEGF (already mapped) and mTOR (already mapped)-driven uveal melanoma growth and NF-κB (already mapped) cascade.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — UM sodium: excess sodium promotes macrophage (already mapped) pro-inflammatory skewing; sodium-induced NF-κB (already mapped) and IL-6 (already mapped) amplify VEGF (already mapped) and mTOR (already mapped) and STAT3 (already mapped)-driven cascade of uveal melanoma.
+- `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — UM magnesium: magnesium, as mTOR (already mapped) kinase cofactor in macrophages (already mapped) and uveal melanoma cells, supports tumour growth; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — UM potassium: potassium efflux from macrophages (already mapped) and uveal melanoma cells drives NLRP3-IL-1β; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade of uveal melanoma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — UM phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic-cell (already mapped), fuels anti-tumour immunity; phosphorus deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) uveal melanoma cascade.
 
 ---
 
