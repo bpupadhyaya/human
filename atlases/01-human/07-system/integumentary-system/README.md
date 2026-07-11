@@ -527,6 +527,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "IS hydrogen: hydrogen, as water framework in skin (already mapped) and fibroblasts (already mapped), maintains epidermal hydration; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and wound-healing (already mapped) cascade."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Integumentary PD-1: PD-1 checkpoint on skin-resident T-cells (already mapped) suppresses anti-tumour immunity; PD-1 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and VEGF (already mapped) signalling in integumentary immune surveillance."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Integumentary GLP-1: GLP-1 from skin adipocytes modulates keratinocyte (already mapped) proliferation and wound healing; GLP-1 dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) inflammatory cascade of integumentary barrier."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Integumentary angiotensin-II: angiotensin-II mediates dermal vasoconstriction (already mapped) and fibroblast (already mapped) activation; angiotensin-II amplifies TGF-β (already mapped) and IL-6 (already mapped) fibrotic cascade of integumentary system."
 ---
 
 # Integumentary System
@@ -802,6 +811,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IS carbon: carbon, forming the backbone of ceramide lipids and melanin in skin (already mapped) and fibroblasts (already mapped), maintains epidermal barrier; carbon-skeleton insufficiency amplifies the NF-κB (already mapped) and IL-6 (already mapped) skin-barrier cascade.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — IS oxygen: oxygen, via ROS in fibroblasts (already mapped) and macrophages (already mapped), drives epidermal oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the integumentary system.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IS hydrogen: hydrogen, as water framework in skin (already mapped) and fibroblasts (already mapped), maintains epidermal hydration; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and wound-healing (already mapped) cascade.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Integumentary PD-1: PD-1 checkpoint on skin-resident T-cells (already mapped) suppresses anti-tumour immunity; PD-1 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and VEGF (already mapped) signalling in integumentary immune surveillance.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Integumentary GLP-1: GLP-1 from skin adipocytes modulates keratinocyte (already mapped) proliferation and wound healing; GLP-1 dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) inflammatory cascade of integumentary barrier.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Integumentary angiotensin-II: angiotensin-II mediates dermal vasoconstriction (already mapped) and fibroblast (already mapped) activation; angiotensin-II amplifies TGF-β (already mapped) and IL-6 (already mapped) fibrotic cascade of integumentary system.
 
 ## Pathology
 
