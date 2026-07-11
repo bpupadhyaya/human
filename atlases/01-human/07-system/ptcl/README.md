@@ -520,6 +520,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "PTCL zinc: zinc, as co-factor of immune-regulatory metalloproteinases in macrophages (already mapped) and NK cells (already mapped), supports anti-tumour cytotoxicity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PTCL."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "PTCL phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and NK cells (already mapped) sustains anti-tumour immune surveillance; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "PTCL chloride: chloride channels in macrophages (already mapped) and endothelial cells (already mapped) regulate tumour-stromal homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade in PTCL."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "PTCL sulfur: sulfur-containing glutathione in macrophages (already mapped) and NK cells (already mapped) limits oxidative stress in the tumour microenvironment; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -832,6 +841,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — PTCL magnesium: magnesium, as mTOR (already mapped) kinase cofactor in malignant T cells and macrophages (already mapped), restrains tumour proliferation; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PTCL copper: copper, as lysyl oxidase cofactor in endothelial cells (already mapped) and macrophages (already mapped), drives tumour angiogenesis; copper deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of peripheral T-cell lymphoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — PTCL zinc: zinc, as co-factor of immune-regulatory metalloproteinases in macrophages (already mapped) and NK cells (already mapped), supports anti-tumour cytotoxicity; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PTCL.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PTCL phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and NK cells (already mapped) sustains anti-tumour immune surveillance; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PTCL chloride: chloride channels in macrophages (already mapped) and endothelial cells (already mapped) regulate tumour-stromal homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade in PTCL.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PTCL sulfur: sulfur-containing glutathione in macrophages (already mapped) and NK cells (already mapped) limits oxidative stress in the tumour microenvironment; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
 
 ---
 
