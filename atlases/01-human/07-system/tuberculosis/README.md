@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "TB nitrogen: nitric oxide from iNOS in macrophages (already mapped) directly kills intracellular MTB; nitrogen depletion impairs phagosome-lysosome fusion and amplifies NF-κB (already mapped) and IL-6 (already mapped) granulomatous tissue destruction in tuberculosis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "TB carbon: carbon, as metabolic backbone of mycobacterial lipids in macrophages (already mapped) and neutrophils (already mapped), drives granuloma formation; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) immunopathology of tuberculosis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "TB hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and neutrophils (already mapped), quenches MTB-induced ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) granulomatous damage of tuberculosis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "TB PD-1: PD-1 on T-cytotoxic-cell (already mapped) and T-helper-cell (already mapped) is upregulated during chronic MTB infection; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of tuberculosis."
 ---
 
 # Tuberculosis
@@ -839,6 +848,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — TB chloride: chloride flux through CFTR in alveolar macrophages (already mapped) and epithelial cells modulates phagosome acidification and MTB killing; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) granulomatous inflammation of tuberculosis.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — TB sulfur: hydrogen sulfide from sulfur-amino acids in macrophages (already mapped) and neutrophils (already mapped) inhibits MTB replication and promotes mitophagy; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) immunopathology of tuberculosis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — TB nitrogen: nitric oxide from iNOS in macrophages (already mapped) directly kills intracellular MTB; nitrogen depletion impairs phagosome-lysosome fusion and amplifies NF-κB (already mapped) and IL-6 (already mapped) granulomatous tissue destruction in tuberculosis.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — TB carbon: carbon, as metabolic backbone of mycobacterial lipids in macrophages (already mapped) and neutrophils (already mapped), drives granuloma formation; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) immunopathology of tuberculosis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — TB hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and neutrophils (already mapped), quenches MTB-induced ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) granulomatous damage of tuberculosis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — TB PD-1: PD-1 on T-cytotoxic-cell (already mapped) and T-helper-cell (already mapped) is upregulated during chronic MTB infection; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of tuberculosis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

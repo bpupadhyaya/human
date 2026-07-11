@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "TSC potassium: potassium efflux in neurons (already mapped) and astrocytes (already mapped) modulates seizure threshold; potassium dysregulation amplifies mTOR (already mapped) and NF-κB (already mapped) cortical excitability and hamartoma cascade of TSC."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "TSC carbon: carbon, as metabolic backbone of mTOR (already mapped) lipid synthesis in neurons (already mapped) and astrocytes (already mapped), drives hamartoma growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of TSC."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "TSC chloride: chloride channels in neurons (already mapped) and astrocytes (already mapped) modulate seizure threshold; chloride dysregulation amplifies mTOR (already mapped) and NF-κB (already mapped) cortical excitability and hamartoma cascade of TSC."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "TSC hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and astrocytes (already mapped), quenches ROS from mTOR (already mapped) overactivation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) seizure cascade of TSC."
 ---
 
 # Tuberous Sclerosis Complex
@@ -839,6 +848,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — TSC copper: copper-dependent SOD in neurons (already mapped) and astrocytes (already mapped) quenches mTOR (already mapped)-driven ROS; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammation and hamartoma growth of TSC.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — TSC zinc: zinc, as mTOR (already mapped) kinase cofactor in neurons (already mapped) and astrocytes (already mapped), supports synaptic transmission; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) seizure susceptibility and hamartoma growth of TSC.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — TSC potassium: potassium efflux in neurons (already mapped) and astrocytes (already mapped) modulates seizure threshold; potassium dysregulation amplifies mTOR (already mapped) and NF-κB (already mapped) cortical excitability and hamartoma cascade of TSC.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — TSC carbon: carbon, as metabolic backbone of mTOR (already mapped) lipid synthesis in neurons (already mapped) and astrocytes (already mapped), drives hamartoma growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of TSC.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — TSC chloride: chloride channels in neurons (already mapped) and astrocytes (already mapped) modulate seizure threshold; chloride dysregulation amplifies mTOR (already mapped) and NF-κB (already mapped) cortical excitability and hamartoma cascade of TSC.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — TSC hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and astrocytes (already mapped), quenches ROS from mTOR (already mapped) overactivation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) seizure cascade of TSC.
 
 ---
 
