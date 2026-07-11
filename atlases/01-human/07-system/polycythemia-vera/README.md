@@ -529,6 +529,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "PV sulfur: sulfur, as component of glutathione in erythrocytes (already mapped) and neutrophils (already mapped), limits oxidative haemolysis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haematopoietic inflammatory cascade of polycythaemia vera."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PV carbon: carbon as backbone of JAK2 and NF-κB (already mapped) proteins in erythrocytes (already mapped) and neutrophils (already mapped) sustains myeloproliferative signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PV."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PV hydrogen: hydrogen, via redox homeostasis in erythrocytes (already mapped) and macrophages (already mapped), supports haemoglobin function; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of polycythaemia vera."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "PV nitrogen: nitrogen in amino-acid scaffold of JAK2 and erythropoietin (already mapped) proteins in erythrocytes (already mapped) sustains erythropoietic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PV."
 ---
 
 # Polycythemia Vera
@@ -821,6 +830,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — PV zinc: zinc, as metalloproteinase cofactor in neutrophils (already mapped) and platelets (already mapped), modulates thrombo-inflammatory remodelling; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haematopoietic cascade of polycythaemia vera.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PV chloride: chloride, via erythrocyte (already mapped) anion exchangers, maintains CO₂ transport and osmotic balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haematological cascade of polycythaemia vera.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PV sulfur: sulfur, as component of glutathione in erythrocytes (already mapped) and neutrophils (already mapped), limits oxidative haemolysis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) haematopoietic inflammatory cascade of polycythaemia vera.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PV carbon: carbon as backbone of JAK2 and NF-κB (already mapped) proteins in erythrocytes (already mapped) and neutrophils (already mapped) sustains myeloproliferative signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PV.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PV hydrogen: hydrogen, via redox homeostasis in erythrocytes (already mapped) and macrophages (already mapped), supports haemoglobin function; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of polycythaemia vera.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PV nitrogen: nitrogen in amino-acid scaffold of JAK2 and erythropoietin (already mapped) proteins in erythrocytes (already mapped) sustains erythropoietic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PV.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

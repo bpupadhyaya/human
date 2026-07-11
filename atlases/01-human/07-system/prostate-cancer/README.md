@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "PC chloride: chloride channels in macrophages (already mapped) and fibroblasts (already mapped) modulate tumour-stromal ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of prostate cancer."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "PC carbon: carbon as backbone of androgen receptor and NF-κB (already mapped) proteins in prostate tumour cells and macrophages (already mapped) sustains oncogenic signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of prostate cancer."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "PC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), supports androgen receptor signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of prostate cancer."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "PC nitrogen: nitrogen in amino-acid scaffold of androgen receptor and VEGF (already mapped) proteins in prostate tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of prostate cancer."
 ---
 
 # Prostate Cancer
@@ -834,6 +843,9 @@ cross_links:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — PC copper: copper, as lysyl oxidase cofactor in fibroblasts (already mapped) and osteoblasts (already mapped), drives ECM remodelling and bone metastasis; copper deficiency amplifies the NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of prostate cancer.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — PC potassium: potassium channels in macrophages (already mapped) and prostate tumour cells regulate NLRP3 inflammasome; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade supporting mTOR (already mapped) tumour growth in prostate cancer.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PC chloride: chloride channels in macrophages (already mapped) and fibroblasts (already mapped) modulate tumour-stromal ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of prostate cancer.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PC carbon: carbon as backbone of androgen receptor and NF-κB (already mapped) proteins in prostate tumour cells and macrophages (already mapped) sustains oncogenic signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of prostate cancer.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), supports androgen receptor signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of prostate cancer.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PC nitrogen: nitrogen in amino-acid scaffold of androgen receptor and VEGF (already mapped) proteins in prostate tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
