@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "MS sulfur: sulfur-containing amino acids in microglia (already mapped) and macrophages (already mapped) sustain CNS redox buffering; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of multiple sclerosis."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "MS carbon: carbon as backbone of myelin basic protein and NF-κB (already mapped) structural proteins in oligodendrocytes (already mapped) sustains remyelination; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of multiple sclerosis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "MS hydrogen: hydrogen, via water and redox homeostasis in microglia (already mapped) and oligodendrocytes (already mapped), supports CNS remyelination; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of multiple sclerosis."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "MS nitrogen: nitrogen in amino-acid scaffold of myelin proteins and NF-κB (already mapped) transcription factors modulates oligodendrocyte (already mapped) remyelination; nitrogen dysregulation amplifies IL-6 (already mapped) cascade of multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -817,6 +826,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MS phosphorus: phosphorus fuels oligodendrocyte (already mapped) ATP and myelin biosynthesis; phosphorus deficiency impairs remyelination and amplifies NF-κB (already mapped) and microglia (already mapped)-driven neuroinflammation in multiple sclerosis.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MS chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the CNS; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of multiple sclerosis.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MS sulfur: sulfur-containing amino acids in microglia (already mapped) and macrophages (already mapped) sustain CNS redox buffering; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of multiple sclerosis.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MS carbon: carbon as backbone of myelin basic protein and NF-κB (already mapped) structural proteins in oligodendrocytes (already mapped) sustains remyelination; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of multiple sclerosis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MS hydrogen: hydrogen, via water and redox homeostasis in microglia (already mapped) and oligodendrocytes (already mapped), supports CNS remyelination; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of multiple sclerosis.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MS nitrogen: nitrogen in amino-acid scaffold of myelin proteins and NF-κB (already mapped) transcription factors modulates oligodendrocyte (already mapped) remyelination; nitrogen dysregulation amplifies IL-6 (already mapped) cascade of multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
