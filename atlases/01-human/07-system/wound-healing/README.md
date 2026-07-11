@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "Wound chloride: chloride channels on macrophages (already mapped) and neutrophils (already mapped) modulate ROS burst and bacterial killing; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory signalling in the wound inflammatory phase."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Wound sulfur: H2S from sulfur-amino acids in fibroblasts (already mapped) and macrophages (already mapped) promotes vasodilation; sulfur deficiency impairs TGF-β (already mapped) and VEGF (already mapped) collagen (already mapped) synthesis and prolongs wound inflammation."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Wound nitrogen: nitric oxide from iNOS in macrophages (already mapped) and fibroblasts (already mapped) promotes vasodilation and collagen (already mapped) crosslinking; nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of wound healing."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Wound carbon: CO2 in bicarbonate buffering of macrophages (already mapped) and fibroblasts (already mapped) regulates pH for collagen (already mapped) synthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory phase of wound healing."
 ---
 
 # Wound Healing
@@ -814,6 +823,9 @@ cross_links:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — Wound potassium: potassium efflux activates macrophage (already mapped) NLRP3 inflammasome in wound inflammation; potassium signalling modulates NF-κB (already mapped) and IL-6 (already mapped) cytokine output and fibroblast (already mapped) proliferation in wound healing.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Wound phosphorus: phosphorus fuels fibroblast (already mapped) collagen synthesis and macrophage (already mapped) phagocytosis; phosphorus deficiency impairs TGF-β (already mapped) and VEGF (already mapped) and mTOR (already mapped)-driven proliferative phase of wound healing.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Wound chloride: chloride channels on macrophages (already mapped) and neutrophils (already mapped) modulate ROS burst and bacterial killing; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory signalling in the wound inflammatory phase.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Wound sulfur: H2S from sulfur-amino acids in fibroblasts (already mapped) and macrophages (already mapped) promotes vasodilation; sulfur deficiency impairs TGF-β (already mapped) and VEGF (already mapped) collagen (already mapped) synthesis and prolongs wound inflammation.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Wound nitrogen: nitric oxide from iNOS in macrophages (already mapped) and fibroblasts (already mapped) promotes vasodilation and collagen (already mapped) crosslinking; nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of wound healing.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Wound carbon: CO2 in bicarbonate buffering of macrophages (already mapped) and fibroblasts (already mapped) regulates pH for collagen (already mapped) synthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory phase of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
