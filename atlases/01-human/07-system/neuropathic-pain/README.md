@@ -507,6 +507,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "NP nitrogen: nitric oxide (NO, nitrogen-derived) amplifies glutamate (already mapped) receptor activation and macrophage (already mapped) neuroinflammation; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) sensitisation in neuropathic pain."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "NP chloride: chloride via GABA(A) receptors (GABA already mapped) and KCC2 on neurons (already mapped) sets inhibitory tone; chloride dysregulation shifts GABA to excitatory, amplifying NLRP3 (already mapped) and NF-κB (already mapped) central sensitisation in neuropathic pain."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "NP sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) promotes neuroprotection via K-ATP channels; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory sensitisation in neuropathic pain."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "NP oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) and microglia (already mapped) for BDNF (already mapped) neurotrophic support; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade in neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -833,6 +842,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — NP phosphorus: phosphorus is required for ATP-driven axonal membrane potential maintenance and synaptic vesicle release at peripheral-nerve (already mapped) termini; phosphorus deficiency impairs BDNF (already mapped) and NF-κB (already mapped) driven neuronal repair signalling.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — NP iron: iron supports macrophage (already mapped) and microglia (already mapped) function; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) neuroinflammation and neuron (already mapped) sensitisation in neuropathic pain.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NP nitrogen: nitric oxide (NO, nitrogen-derived) amplifies glutamate (already mapped) receptor activation and macrophage (already mapped) neuroinflammation; NO excess upregulates NF-κB (already mapped) and IL-6 (already mapped) sensitisation in neuropathic pain.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NP chloride: chloride via GABA(A) receptors (GABA already mapped) and KCC2 on neurons (already mapped) sets inhibitory tone; chloride dysregulation shifts GABA to excitatory, amplifying NLRP3 (already mapped) and NF-κB (already mapped) central sensitisation in neuropathic pain.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NP sulfur: H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) promotes neuroprotection via K-ATP channels; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory sensitisation in neuropathic pain.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — NP oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) and microglia (already mapped) for BDNF (already mapped) neurotrophic support; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade in neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
