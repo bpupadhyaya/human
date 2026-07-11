@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "TTP phosphorus: phosphorus, as ATP precursor in platelets (already mapped) and endothelial-cell (already mapped), fuels thrombotic microangiopathy; phosphorus deficiency impairs dendritic-cell (already mapped) and T-cytotoxic-cell (already mapped) in TTP cascade."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "TTP chloride: chloride channels in platelets (already mapped) and endothelial-cell (already mapped) regulate thrombotic microangiopathy homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of TTP."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "TTP sulfur: hydrogen sulfide from endothelial-cell (already mapped) and platelets (already mapped) promotes vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and worsens microvascular thrombosis in TTP."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "TTP nitrogen: nitric oxide from endothelial-cell (already mapped) prevents platelet (already mapped) aggregation; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and worsens ADAMTS13-deficient microvascular thrombosis in TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -850,6 +859,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — TTP copper: copper, as ceruloplasmin cofactor in endothelial-cell (already mapped) and macrophages (already mapped), modulates ROS; copper-dependent von-willebrand-factor (already mapped) multimerisation affects ADAMTS13 (already mapped) cleavage in TTP microthrombus cascade.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — TTP zinc: zinc, as metalloproteinase cofactor, supports ADAMTS13 (already mapped) cleavage of von-willebrand-factor (already mapped) multimers; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) endothelial (already mapped) activation in TTP.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — TTP phosphorus: phosphorus, as ATP precursor in platelets (already mapped) and endothelial-cell (already mapped), fuels thrombotic microangiopathy; phosphorus deficiency impairs dendritic-cell (already mapped) and T-cytotoxic-cell (already mapped) in TTP cascade.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — TTP chloride: chloride channels in platelets (already mapped) and endothelial-cell (already mapped) regulate thrombotic microangiopathy homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of TTP.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — TTP sulfur: hydrogen sulfide from endothelial-cell (already mapped) and platelets (already mapped) promotes vasodilation; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and worsens microvascular thrombosis in TTP.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — TTP nitrogen: nitric oxide from endothelial-cell (already mapped) prevents platelet (already mapped) aggregation; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and worsens ADAMTS13-deficient microvascular thrombosis in TTP.
 
 ---
 
