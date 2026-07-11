@@ -535,6 +535,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "NSCLC potassium: potassium efflux gates macrophage (already mapped) and mast-cell (already mapped) NLRP3 inflammasome; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling while suppressing T-cytotoxic (already mapped) function in NSCLC."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "NSCLC chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the NSCLC TME; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "NSCLC hydrogen: hydrogen, via NADPH redox in macrophages (already mapped) and tumour cells (already mapped), sustains anti-oxidant defence; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "NSCLC nitrogen: nitrogen in amino-acid scaffold of EGFR (already mapped) and NF-κB (already mapped) proteins in NSCLC cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC."
 ---
 
 # NSCLC
@@ -808,6 +817,9 @@ cross_links:
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — NSCLC copper: copper-dependent enzymes in macrophage (already mapped) and mast-cell (already mapped) immunity; copper imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade promoting T-cytotoxic (already mapped) exhaustion in NSCLC.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — NSCLC zinc: zinc co-factors in macrophage (already mapped) and neutrophil (already mapped) metalloproteases; zinc depletion exacerbates NF-κB (already mapped) and IL-6 (already mapped) tumour-permissive inflammation while impairing T-cytotoxic (already mapped) killing in NSCLC.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — NSCLC potassium: potassium efflux gates macrophage (already mapped) and mast-cell (already mapped) NLRP3 inflammasome; potassium loss amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour signalling while suppressing T-cytotoxic (already mapped) function in NSCLC.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NSCLC chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the NSCLC TME; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — NSCLC hydrogen: hydrogen, via NADPH redox in macrophages (already mapped) and tumour cells (already mapped), sustains anti-oxidant defence; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NSCLC nitrogen: nitrogen in amino-acid scaffold of EGFR (already mapped) and NF-κB (already mapped) proteins in NSCLC cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
