@@ -526,6 +526,15 @@ cross_links:
   - target: 01-human/02-atomic/copper
     relation: connects-to
     note: "COVID copper: copper, via SOD and ceruloplasmin, scavenges ARDS oxidative stress in lung (already mapped) epithelial cells; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) and vascular injury in COVID-19."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "COVID potassium: potassium efflux from macrophages (already mapped) and type-II pneumocytes (lung already mapped) drives NLRP3-IL-1β in ARDS; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) of COVID-19."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "COVID calcium: calcium signalling in macrophages (already mapped) and endothelial-cell (already mapped) activates NLRP3 and NF-κB (already mapped); calcium dysregulation amplifies IL-6 (already mapped) cytokine storm (already mapped) and vascular coagulopathy of COVID-19."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "COVID phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and type-II pneumocytes (lung already mapped), fuels innate immunity; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) in COVID-19."
 ---
 
 # COVID-19 Disease
@@ -760,6 +769,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — COVID sodium: hypernatraemia in severe COVID-19 ARDS activates NF-κB (already mapped) and amplifies IL-6 (already mapped) driven cytokine storm (already mapped); sodium-glucose cotransporter inhibition reduces cardiac (already mapped) and renal (already mapped) complication risk.
 - `connects-to` → **[Magnesium](../../02-atomic/magnesium/README.md)** — COVID magnesium: magnesium supports macrophage (already mapped) anti-inflammatory resolution and endothelial integrity; magnesium deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) and worsens ARDS in severe COVID-19.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — COVID copper: copper, via SOD and ceruloplasmin, scavenges ARDS oxidative stress in lung (already mapped) epithelial cells; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) and vascular injury in COVID-19.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — COVID potassium: potassium efflux from macrophages (already mapped) and type-II pneumocytes (lung already mapped) drives NLRP3-IL-1β in ARDS; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) of COVID-19.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — COVID calcium: calcium signalling in macrophages (already mapped) and endothelial-cell (already mapped) activates NLRP3 and NF-κB (already mapped); calcium dysregulation amplifies IL-6 (already mapped) cytokine storm (already mapped) and vascular coagulopathy of COVID-19.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — COVID phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and type-II pneumocytes (lung already mapped), fuels innate immunity; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm (already mapped) in COVID-19.
 
 ## Pathology
 
