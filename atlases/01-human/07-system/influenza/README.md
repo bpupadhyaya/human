@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Influenza notch: Notch signalling on epithelial cells (already mapped) and macrophages (already mapped) regulates antiviral mucosal repair; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Influenza igf-1: IGF-1 from macrophages (already mapped) and epithelial cells (already mapped) modulates pulmonary antiviral repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Influenza activin-a: activin-A from macrophages (already mapped) and epithelial cells (already mapped) promotes pulmonary fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Influenza tgf-beta: TGF-β from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
 ---
 
 # Influenza
@@ -884,3 +893,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Influenza rankl: RANKL from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral immune-bone crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Influenza fibronectin: fibronectin in macrophages (already mapped) and epithelial cells (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Influenza notch: Notch signalling on epithelial cells (already mapped) and macrophages (already mapped) regulates antiviral mucosal repair; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Influenza igf-1: IGF-1 from macrophages (already mapped) and epithelial cells (already mapped) modulates pulmonary antiviral repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Influenza activin-a: activin-A from macrophages (already mapped) and epithelial cells (already mapped) promotes pulmonary fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Influenza tgf-beta: TGF-β from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
