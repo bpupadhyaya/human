@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "HF notch: NOTCH in cardiomyocytes (already mapped) and macrophages (already mapped) regulates cardiac remodelling; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "HF fibronectin: fibronectin in cardiomyocytes (already mapped) and macrophages (already mapped) promotes cardiac ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "HF igf-1: IGF-1 from macrophages (already mapped) and cardiomyocytes (already mapped) promotes cardiac repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "HF activin-a: activin-A from macrophages (already mapped) and cardiomyocytes (already mapped) promotes cardiac fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure."
 ---
 
 # Heart Failure
@@ -808,6 +817,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HF rankl: RANKL from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac bone-immune crosstalk; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade of heart failure.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — HF il-2: IL-2 from T-helper cells (already mapped) and macrophages (already mapped) drives cardiac lymphocyte expansion; il-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HF notch: NOTCH in cardiomyocytes (already mapped) and macrophages (already mapped) regulates cardiac remodelling; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HF fibronectin: fibronectin in cardiomyocytes (already mapped) and macrophages (already mapped) promotes cardiac ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HF igf-1: IGF-1 from macrophages (already mapped) and cardiomyocytes (already mapped) promotes cardiac repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HF activin-a: activin-A from macrophages (already mapped) and cardiomyocytes (already mapped) promotes cardiac fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
 
 ## Pathology
 

@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "HCC rankl: RANKL from macrophages (already mapped) and hepatic stellate cells (already mapped) regulates bone-liver crosstalk; rankl dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular cascade of HCC."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "HCC fibronectin: fibronectin in hepatic stellate cells (already mapped) and macrophages (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular cascade of HCC."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "HCC notch: Notch signalling on hepatic stellate cells (already mapped) and macrophages (already mapped) regulates tumour stemness; notch excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular cascade of HCC."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "HCC activin-a: activin-A from hepatic stellate cells (already mapped) and macrophages (already mapped) promotes tumour-stromal invasion; activin-a excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular cascade of HCC."
 ---
 
 # Hepatocellular Carcinoma
@@ -873,6 +882,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HCC glp-1: GLP-1 from hepatocytes (already mapped) and macrophages (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular proliferation cascade of HCC.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — HCC angiotensin-ii: angiotensin II on hepatic stellate cells (already mapped) and endothelial cells (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HCC rankl: RANKL from macrophages (already mapped) and hepatic stellate cells (already mapped) regulates bone-liver crosstalk; rankl dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular cascade of HCC.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HCC fibronectin: fibronectin in hepatic stellate cells (already mapped) and macrophages (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular cascade of HCC.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HCC notch: Notch signalling on hepatic stellate cells (already mapped) and macrophages (already mapped) regulates tumour stemness; notch excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular cascade of HCC.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HCC activin-a: activin-A from hepatic stellate cells (already mapped) and macrophages (already mapped) promotes tumour-stromal invasion; activin-a excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular cascade of HCC.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
