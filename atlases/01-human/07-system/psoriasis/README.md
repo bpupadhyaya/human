@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "PsO PD-1: PD-1 checkpoint signalling in T-regulatory cells and macrophages (already mapped) dampens IL-17A (already mapped) autoinflammation; PD-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-23 (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "PsO glp-1: GLP-1 from enteroendocrine cells (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory skin tone; glp-1 dysfunction amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "PsO angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives skin vascular tone; angiotensin-ii excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "PsO wnt-beta-catenin: WNT/β-catenin on keratinocytes (already mapped) and macrophages (already mapped) drives keratinocyte proliferation; wnt-beta-catenin loss amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) plaque cascade of psoriasis."
 ---
 
 # Psoriasis
@@ -846,6 +855,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PsO oxygen: oxygen, via mitochondrial respiration in keratinocytes and macrophages (already mapped), sustains IL-17A (already mapped) plaque signalling; oxygen depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) oxidative cascade of psoriasis.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PsO sulfur: sulfur in cysteine residues of IL-17A (already mapped) and NF-κB (already mapped) proteins in keratinocytes sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PsO PD-1: PD-1 checkpoint signalling in T-regulatory cells and macrophages (already mapped) dampens IL-17A (already mapped) autoinflammation; PD-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-23 (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PsO glp-1: GLP-1 from enteroendocrine cells (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory skin tone; glp-1 dysfunction amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PsO angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives skin vascular tone; angiotensin-ii excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PsO wnt-beta-catenin: WNT/β-catenin on keratinocytes (already mapped) and macrophages (already mapped) drives keratinocyte proliferation; wnt-beta-catenin loss amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) plaque cascade of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

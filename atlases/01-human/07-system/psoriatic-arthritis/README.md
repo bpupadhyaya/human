@@ -555,6 +555,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "PsA sulfur: sulfur in cysteine residues of IL-17A (already mapped) and NF-κB (already mapped) proteins in synoviocytes sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) erosive cascade of psoriatic arthritis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PsA pd-1: PD-1 on T-cells (already mapped) and macrophages (already mapped) in joint stroma suppresses erosive immune activation; pd-1 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of psoriatic arthritis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "PsA glp-1: GLP-1 from enteroendocrine cells (already mapped) and macrophages (already mapped) modulates joint inflammatory tone; glp-1 dysfunction amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of psoriatic arthritis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "PsA angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives joint angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA."
 ---
 
 # Psoriatic Arthritis
@@ -881,6 +890,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PsA nitrogen: nitrogen in amino-acid scaffold of IL-17A (already mapped) and TNF-α (already mapped) proteins in macrophages (already mapped) sustains joint-erosion signalling; nitrogen dysregulation amplifies NF-κB (already mapped) cascade of psoriatic arthritis.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PsA oxygen: oxygen, via mitochondrial respiration in macrophages (already mapped) and osteoclasts (already mapped), sustains IL-17A (already mapped) signalling; oxygen depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) erosive cascade of psoriatic arthritis.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PsA sulfur: sulfur in cysteine residues of IL-17A (already mapped) and NF-κB (already mapped) proteins in synoviocytes sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) erosive cascade of psoriatic arthritis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PsA pd-1: PD-1 on T-cells (already mapped) and macrophages (already mapped) in joint stroma suppresses erosive immune activation; pd-1 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of psoriatic arthritis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PsA glp-1: GLP-1 from enteroendocrine cells (already mapped) and macrophages (already mapped) modulates joint inflammatory tone; glp-1 dysfunction amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of psoriatic arthritis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PsA angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives joint angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)
