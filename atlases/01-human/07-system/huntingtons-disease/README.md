@@ -543,6 +543,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "HD il-2: IL-2 from microglia (already mapped) and astrocytes (already mapped) regulates neuroinflammatory T-cell activation; il-2 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "HD fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "HD notch: Notch signalling on neurons (already mapped) and microglia (already mapped) regulates striatal neuroplasticity; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "HD activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -770,3 +779,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates striatal neuroprotection; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of Huntington disease.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — HD il-2: IL-2 from microglia (already mapped) and astrocytes (already mapped) regulates neuroinflammatory T-cell activation; il-2 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HD fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HD notch: Notch signalling on neurons (already mapped) and microglia (already mapped) regulates striatal neuroplasticity; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HD activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.

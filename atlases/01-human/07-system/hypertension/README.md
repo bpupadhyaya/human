@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Hypertension notch: NOTCH in vascular smooth-muscle cells (already mapped) and macrophages (already mapped) drives arterial stiffness; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Hypertension fibronectin: fibronectin in vascular smooth-muscle cells (already mapped) and macrophages (already mapped) promotes remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Hypertension igf-1: IGF-1 from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) promotes arterial repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Hypertension activin-a: activin-A from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) promotes arterial fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension."
 ---
 
 # Hypertension
@@ -826,6 +835,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Hypertension rankl: RANKL from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes vascular inflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade in hypertension.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Hypertension il-2: IL-2 from macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates vascular immune activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Hypertension notch: NOTCH in vascular smooth-muscle cells (already mapped) and macrophages (already mapped) drives arterial stiffness; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Hypertension fibronectin: fibronectin in vascular smooth-muscle cells (already mapped) and macrophages (already mapped) promotes remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Hypertension igf-1: IGF-1 from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) promotes arterial repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Hypertension activin-a: activin-A from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) promotes arterial fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
 
 ## Pathology
 
