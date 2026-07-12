@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "GAD hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches neuroinflammatory ROS; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade in GAD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "GAD pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade of generalized anxiety disorder."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "GAD glp-1: GLP-1 from neurons (already mapped) and astrocytes (already mapped) modulates metabolic-neuroinflammatory tone; glp-1 dysfunction amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade of generalized anxiety disorder."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "GAD vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade of generalized anxiety disorder."
 ---
 
 # Generalized Anxiety Disorder
@@ -861,6 +870,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — GAD carbon: carbon, as metabolic backbone of GABA (already mapped) and neurotransmitters in neurons (already mapped) and astrocytes (already mapped), sustains inhibitory tone; carbon dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) anxiety cascade in GAD.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GAD chloride: chloride channels in neurons (already mapped) and astrocytes (already mapped) modulate GABA (already mapped) inhibitory tone; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade in GAD.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — GAD hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches neuroinflammatory ROS; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade in GAD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — GAD pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade of generalized anxiety disorder.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GAD glp-1: GLP-1 from neurons (already mapped) and astrocytes (already mapped) modulates metabolic-neuroinflammatory tone; glp-1 dysfunction amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade of generalized anxiety disorder.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — GAD vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade of generalized anxiety disorder.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
