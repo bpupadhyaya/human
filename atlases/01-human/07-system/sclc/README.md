@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "SCLC Wnt/β-catenin: Wnt/β-catenin signalling in tumour cells and macrophages (already mapped) sustains cell survival; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of SCLC."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "SCLC rankl: RANKL from macrophages (already mapped) and tumour cells (already mapped) promotes bone metastasis and immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "SCLC fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds SCLC tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "SCLC activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) regulates neuroendocrine tumour proliferation; activin-a loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC."
 ---
 
 # Small Cell Lung Cancer
@@ -833,6 +842,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SCLC GLP-1: GLP-1 receptor signalling in tumour cells and macrophages (already mapped) modulates metabolic and inflammatory tumour risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of SCLC.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — SCLC angiotensin-II: angiotensin-II signalling in tumour vasculature and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of SCLC.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SCLC Wnt/β-catenin: Wnt/β-catenin signalling in tumour cells and macrophages (already mapped) sustains cell survival; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of SCLC.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SCLC rankl: RANKL from macrophages (already mapped) and tumour cells (already mapped) promotes bone metastasis and immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SCLC fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds SCLC tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SCLC activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) regulates neuroendocrine tumour proliferation; activin-a loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
