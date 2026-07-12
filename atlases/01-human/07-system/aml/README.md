@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates leukaemic blast apoptosis; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) proliferative blast cascade in AML."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "AML carbon: carbon, as metabolic backbone of purines and nucleotides in blast cells and macrophages (already mapped), drives leukaemic proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast cascade in AML."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "AML chloride: chloride channels in blast cells and macrophages (already mapped) regulate intracellular pH during leukaemic expansion; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferation in AML."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "AML hydrogen: hydrogen, via redox homeostasis in blast cells and macrophages (already mapped), quenches leukaemic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferative cascade in AML."
 ---
 
 # AML
@@ -830,6 +839,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — copper, via ceruloplasmin and SOD in macrophages (already mapped) and bone-marrow (already mapped) stroma, scavenges ROS; copper excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic blast proliferation in AML.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus-driven ATP in bone-marrow (already mapped) blast cells and macrophages (already mapped) sustains leukaemic proliferation; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic blast cascade in AML.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates leukaemic blast apoptosis; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) proliferative blast cascade in AML.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — AML carbon: carbon, as metabolic backbone of purines and nucleotides in blast cells and macrophages (already mapped), drives leukaemic proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast cascade in AML.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — AML chloride: chloride channels in blast cells and macrophages (already mapped) regulate intracellular pH during leukaemic expansion; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferation in AML.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — AML hydrogen: hydrogen, via redox homeostasis in blast cells and macrophages (already mapped), quenches leukaemic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferative cascade in AML.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
