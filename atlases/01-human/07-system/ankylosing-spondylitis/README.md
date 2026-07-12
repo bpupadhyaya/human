@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "AS notch: Notch in macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal cell fate; Notch dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "AS igf-1: IGF-1 from macrophages (already mapped) and osteoblasts (already mapped) promotes entheseal bone formation; IGF-1 excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) osteoproliferative cascade of AS."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "AS activin-a: activin-A from macrophages (already mapped) and osteoblasts (already mapped) regulates entheseal immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "AS calcitonin: calcitonin from macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS."
 ---
 
 # Ankylosing Spondylitis
@@ -864,6 +873,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — AS IL-2: IL-2 in t-helper-cell (already mapped) and macrophages (already mapped) modulates entheseal immune tolerance; IL-2 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AS fibronectin: fibronectin in macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal extracellular matrix; fibronectin dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade in AS.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AS notch: Notch in macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal cell fate; Notch dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AS igf-1: IGF-1 from macrophages (already mapped) and osteoblasts (already mapped) promotes entheseal bone formation; IGF-1 excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) osteoproliferative cascade of AS.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AS activin-a: activin-A from macrophages (already mapped) and osteoblasts (already mapped) regulates entheseal immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AS calcitonin: calcitonin from macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)
