@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "COPD glp-1: GLP-1 from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates airway metabolic tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "COPD angiotensin-ii: angiotensin II on airway smooth-muscle cells (already mapped) and macrophages (already mapped) promotes remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "COPD il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies pulmonary immune response; il-2 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) inflammatory cascade of COPD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "COPD rankl: RANKL in macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
 ---
 
 # COPD
@@ -874,6 +883,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — COPD nitrogen: nitrogen in DNA bases of macrophages (already mapped) and smooth-muscle cells (already mapped) sustains pulmonary growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — COPD pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses anti-smoking immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — COPD glp-1: GLP-1 from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates airway metabolic tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — COPD angiotensin-ii: angiotensin II on airway smooth-muscle cells (already mapped) and macrophages (already mapped) promotes remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — COPD il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies pulmonary immune response; il-2 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) inflammatory cascade of COPD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — COPD rankl: RANKL in macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
 
 ---
 
