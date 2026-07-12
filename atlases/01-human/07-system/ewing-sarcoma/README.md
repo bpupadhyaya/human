@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "ES sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "ewing-sarcoma pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses antitumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "ewing-sarcoma glp-1: GLP-1 from macrophages (already mapped) and Ewing cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "ewing-sarcoma angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -846,6 +855,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ES carbon: carbon backbone of nucleotides in macrophages (already mapped) and mast cells (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ES hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of Ewing sarcoma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — ES sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — ewing-sarcoma pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses antitumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ewing-sarcoma glp-1: GLP-1 from macrophages (already mapped) and Ewing cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — ewing-sarcoma angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 
 ---
 
