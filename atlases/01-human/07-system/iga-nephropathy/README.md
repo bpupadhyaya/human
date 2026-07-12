@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "IgAN rankl: RANKL from macrophages (already mapped) and T-cytotoxic cells (already mapped) amplifies glomerular immune activation; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "IgAN il-2: IL-2 from T-cytotoxic cells (already mapped) and macrophages (already mapped) regulates mesangial immune activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "IgAN notch: NOTCH in mesangial cells (already mapped) and macrophages (already mapped) drives glomerular fibrotic remodelling; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "IgAN igf-1: IGF-1 from mesangial cells (already mapped) and macrophages (already mapped) promotes mesangial proliferation; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) glomerular fibrosis in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -807,6 +816,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — IgAN glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone in mesangial tissue; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 - `connects-to` → **[Wnt-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IgAN wnt-beta-catenin: Wnt-β-catenin from mesangial cells (already mapped) and macrophages (already mapped) drives glomerular fibrosis; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgAN.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IgAN rankl: RANKL from macrophages (already mapped) and T-cytotoxic cells (already mapped) amplifies glomerular immune activation; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IgAN il-2: IL-2 from T-cytotoxic cells (already mapped) and macrophages (already mapped) regulates mesangial immune activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — IgAN notch: NOTCH in mesangial cells (already mapped) and macrophages (already mapped) drives glomerular fibrotic remodelling; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IgAN igf-1: IGF-1 from mesangial cells (already mapped) and macrophages (already mapped) promotes mesangial proliferation; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) glomerular fibrosis in IgA nephropathy.
 
 ---
 

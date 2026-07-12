@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "IDH-glioma sulfur: sulfur-containing amino acids in microglia (already mapped) and T-cytotoxic cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "IDH-glioma glp-1: GLP-1 from neurons (already mapped) and microglia (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-mutant glioma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "IDH-glioma angiotensin-ii: angiotensin-II from microglia (already mapped) and endothelial cells (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "IDH-glioma wnt-beta-catenin: WNT/β-catenin on microglia (already mapped) and tumour cells (already mapped) regulates invasion; wnt-beta-catenin dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -855,6 +864,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IDH-glioma hydrogen: hydrogen via ROS from microglia (already mapped) and T-cytotoxic cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — IDH-glioma oxygen: ROS from NADPH-oxidase in microglia (already mapped) and T-cytotoxic cells (already mapped) drives tumour oxidative stress; oxygen dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IDH-glioma sulfur: sulfur-containing amino acids in microglia (already mapped) and T-cytotoxic cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — IDH-glioma glp-1: GLP-1 from neurons (already mapped) and microglia (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-mutant glioma.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — IDH-glioma angiotensin-ii: angiotensin-II from microglia (already mapped) and endothelial cells (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IDH-glioma wnt-beta-catenin: WNT/β-catenin on microglia (already mapped) and tumour cells (already mapped) regulates invasion; wnt-beta-catenin dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
