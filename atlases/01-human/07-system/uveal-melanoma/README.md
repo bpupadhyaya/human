@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "UM GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and tumour vasculature modulates metabolic angiogenesis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "UM angiotensin-II: Angiotensin-II in uveal melanocytes (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "UM Wnt/β-catenin: Wnt/β-catenin in uveal melanocytes (already mapped) and macrophages (already mapped) drives tumour proliferation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "UM RANKL: RANKL in macrophages (already mapped) and uveal melanocytes (already mapped) modulates tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -860,6 +869,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — UM nitrogen: nitric oxide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of uveal melanoma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — UM sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — UM GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and tumour vasculature modulates metabolic angiogenesis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — UM angiotensin-II: Angiotensin-II in uveal melanocytes (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — UM Wnt/β-catenin: Wnt/β-catenin in uveal melanocytes (already mapped) and macrophages (already mapped) drives tumour proliferation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — UM RANKL: RANKL in macrophages (already mapped) and uveal melanocytes (already mapped) modulates tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 
 ---
 
