@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "AML GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and blast cells modulates metabolic immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic cascade in AML."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "AML angiotensin-II: angiotensin-II in bone-marrow (already mapped) endothelium and macrophages (already mapped) modulates the leukaemic niche; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic cascade of AML."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "AML RANKL: RANKL in bone-marrow (already mapped) stromal cells and macrophages (already mapped) modulates the osteoclast-leukaemic niche axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic cascade of AML."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "AML fibronectin: fibronectin in bone-marrow (already mapped) matrix and macrophages (already mapped) promotes blast adhesion and chemoresistance; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic cascade of AML."
 ---
 
 # AML
@@ -854,6 +863,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — AML sulfur: H2S from sulfur-amino acids in blast cells and macrophages (already mapped) scavenges ROS promoting apoptosis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferative cascade in AML.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AML PD-1: PD-1 on macrophages (already mapped) and t-cytotoxic-cell (already mapped) modulates leukaemic immune evasion; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferative cascade in AML.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AML GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and blast cells modulates metabolic immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic cascade in AML.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — AML angiotensin-II: angiotensin-II in bone-marrow (already mapped) endothelium and macrophages (already mapped) modulates the leukaemic niche; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic cascade of AML.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AML RANKL: RANKL in bone-marrow (already mapped) stromal cells and macrophages (already mapped) modulates the osteoclast-leukaemic niche axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic cascade of AML.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AML fibronectin: fibronectin in bone-marrow (already mapped) matrix and macrophages (already mapped) promotes blast adhesion and chemoresistance; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic cascade of AML.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
