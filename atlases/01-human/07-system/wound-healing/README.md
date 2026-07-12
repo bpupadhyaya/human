@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Wound IL-2: IL-2 signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune resolution of wound repair; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of wound healing."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "WH activin-A: Activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates wound-bed re-epithelialisation; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "WH calcitonin: Calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates wound angiogenesis and bone repair; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) healing cascade."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "WH FGF23: FGF23 from fibroblasts (already mapped) and macrophages (already mapped) regulates phosphate homeostasis in wound repair; FGF23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
 ---
 
 # Wound Healing
@@ -850,6 +859,9 @@ cross_links:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Wound hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), quenches ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of wound healing.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Wound RANKL: RANKL signalling in macrophages (already mapped) and fibroblasts (already mapped) modulates bone-immune axis during wound repair; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of wound healing.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Wound IL-2: IL-2 signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune resolution of wound repair; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of wound healing.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — WH activin-A: Activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates wound-bed re-epithelialisation; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — WH calcitonin: Calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates wound angiogenesis and bone repair; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) healing cascade.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — WH FGF23: FGF23 from fibroblasts (already mapped) and macrophages (already mapped) regulates phosphate homeostasis in wound repair; FGF23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
