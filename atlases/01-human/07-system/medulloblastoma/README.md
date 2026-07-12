@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "Medullo rankl: RANKL from microglia (already mapped) and macrophages (already mapped) promotes tumour neuroinflammation; rankl excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Medullo fibronectin: fibronectin in microglia (already mapped) and macrophages (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Medullo activin-a: activin-A from microglia (already mapped) and macrophages (already mapped) drives tumour neuroinflammatory signalling; activin-a excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Medullo cgrp: CGRP from microglia (already mapped) and macrophages (already mapped) modulates cerebellar vascular tone; cgrp excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
 ---
 
 # Medulloblastoma
@@ -865,6 +874,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Medullo glp-1: GLP-1 from macrophages (already mapped) and microglia (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Medullo angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and microglia (already mapped) drives tumour vascular remodelling; angiotensin-ii excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Medullo rankl: RANKL from microglia (already mapped) and macrophages (already mapped) promotes tumour neuroinflammation; rankl excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Medullo fibronectin: fibronectin in microglia (already mapped) and macrophages (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Medullo activin-a: activin-A from microglia (already mapped) and macrophages (already mapped) drives tumour neuroinflammatory signalling; activin-a excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Medullo cgrp: CGRP from microglia (already mapped) and macrophages (already mapped) modulates cerebellar vascular tone; cgrp excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)

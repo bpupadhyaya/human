@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "Melanoma fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) anchors tumour-invasive matrix; fibronectin dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) cascade of melanoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Melanoma activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives tumour fibrotic remodelling; activin-a excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Melanoma cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates melanoma vascular tone; cgrp excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Melanoma calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium signalling; calcitonin dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
 ---
 
 # Melanoma
@@ -833,6 +842,9 @@ cross_links:
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Melanoma angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblast (already mapped) drives tumour vascular remodelling; angiotensin-ii excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) cascade of melanoma.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Melanoma rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes melanoma immune evasion; rankl excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Melanoma fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) anchors tumour-invasive matrix; fibronectin dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) cascade of melanoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Melanoma activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives tumour fibrotic remodelling; activin-a excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Melanoma cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates melanoma vascular tone; cgrp excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Melanoma calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium signalling; calcitonin dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
