@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Migraine oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) and astrocytes (already mapped) for trigeminal signalling; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) and CGRP (already mapped) neuroinflammatory cascade of migraine."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Migraine carbon: carbon backbone of glutamate (already mapped) and CGRP (already mapped) in neurons (already mapped) and astrocytes (already mapped) drives trigeminal signalling; carbon dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) cascade of migraine."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Migraine hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches trigeminovascular ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and CGRP (already mapped) cascade of migraine."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Migraine PD-1: PD-1 on microglia (already mapped) and t-cytotoxic-cell (already mapped) modulates neuroinflammatory homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and CGRP (already mapped) neuroinflammatory cascade of migraine."
 ---
 
 # Migraine
@@ -848,6 +857,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Migraine chloride: chloride via GABA(A) receptors (GABA already mapped) on neurons (already mapped) sets cortical inhibitory tone; chloride dysregulation amplifies glutamate (already mapped) and NF-κB (already mapped) and CGRP (already mapped) neuroinflammation in migraine.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Migraine sulfur: H2S from sulfur-amino acids in trigeminal neurons (already mapped) and astrocytes (already mapped) modulates CGRP (already mapped) release; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammation in migraine.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Migraine oxygen: mitochondrial oxygen sustains ATP in neurons (already mapped) and astrocytes (already mapped) for trigeminal signalling; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) and CGRP (already mapped) neuroinflammatory cascade of migraine.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Migraine carbon: carbon backbone of glutamate (already mapped) and CGRP (already mapped) in neurons (already mapped) and astrocytes (already mapped) drives trigeminal signalling; carbon dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) cascade of migraine.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Migraine hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches trigeminovascular ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and CGRP (already mapped) cascade of migraine.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Migraine PD-1: PD-1 on microglia (already mapped) and t-cytotoxic-cell (already mapped) modulates neuroinflammatory homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and CGRP (already mapped) neuroinflammatory cascade of migraine.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
