@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "MDD PD-1: PD-1 checkpoint on T-cells (already mapped) suppresses neuroimmune signalling; PD-1 overexpression amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of major depressive disorder."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "MDD GLP-1: GLP-1 signalling in neurons (already mapped) and microglia (already mapped) promotes neuroprotection and reduces neuroinflammation; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of MDD."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "MDD WNT: WNT-β-catenin signalling in neurons (already mapped) sustains synaptic plasticity and BDNF (already mapped) expression; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) depressive cascade of MDD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "MDD RANKL: RANKL-RANK signalling on microglia (already mapped) and T-cells (already mapped) modulates neuroinflammatory activation; RANKL dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of MDD."
 ---
 
 # Major Depressive Disorder
@@ -880,6 +889,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MDD carbon: carbon as backbone of serotonin (already mapped) and dopamine (already mapped) neurotransmitter amino-acid precursors in neurons (already mapped); carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of MDD.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MDD hydrogen: hydrogen-ion pH in neurons (already mapped) and microglia (already mapped) modulates monoamine reuptake transporter (already mapped) function; hydrogen-ion acidosis amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of MDD.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MDD PD-1: PD-1 checkpoint on T-cells (already mapped) suppresses neuroimmune signalling; PD-1 overexpression amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of major depressive disorder.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MDD GLP-1: GLP-1 signalling in neurons (already mapped) and microglia (already mapped) promotes neuroprotection and reduces neuroinflammation; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of MDD.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MDD WNT: WNT-β-catenin signalling in neurons (already mapped) sustains synaptic plasticity and BDNF (already mapped) expression; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) depressive cascade of MDD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MDD RANKL: RANKL-RANK signalling on microglia (already mapped) and T-cells (already mapped) modulates neuroinflammatory activation; RANKL dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of MDD.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
