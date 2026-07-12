@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "MDS sulfur: sulfur in cysteine residues of RUNX1 and TP53 proteins sustains redox stability in haematopoietic stem cells (already mapped); sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "MDS pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates marrow immune surveillance; pd-1 dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade of MDS."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "MDS glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory marrow tone; glp-1 dysfunction amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade of MDS."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "MDS angiotensin-ii: angiotensin-II from macrophages (already mapped) and hepatocytes (already mapped) drives haematopoietic vascular tone; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade."
 ---
 
 # Myelodysplastic Syndromes
@@ -834,6 +843,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MDS chloride: chloride regulates haematopoietic stem cells (already mapped) and macrophages (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MDS hydrogen: hydrogen in water and redox chemistry of haematopoietic stem cells (already mapped) modulates RUNX1 and TP53 protein folding; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MDS sulfur: sulfur in cysteine residues of RUNX1 and TP53 proteins sustains redox stability in haematopoietic stem cells (already mapped); sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MDS pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates marrow immune surveillance; pd-1 dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade of MDS.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MDS glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory marrow tone; glp-1 dysfunction amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade of MDS.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MDS angiotensin-ii: angiotensin-II from macrophages (already mapped) and hepatocytes (already mapped) drives haematopoietic vascular tone; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

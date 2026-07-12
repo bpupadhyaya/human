@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "MCL sulfur: sulfur in cysteine residues of BTK and NF-κB (already mapped) proteins sustains B-cell (already mapped) signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "MCL pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates lymphoma immune evasion; pd-1 dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) B-cell lymphoma cascade of MCL."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "MCL glp-1: GLP-1 from macrophages (already mapped) and natural killer cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) cascade of mantle cell lymphoma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "MCL angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblasts (already mapped) drives tumour vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) cascade of MCL."
 ---
 
 # Mantle Cell Lymphoma
@@ -845,6 +854,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MCL hydrogen: hydrogen in redox chemistry of B-cells (already mapped) and macrophages (already mapped) modulates cyclin-D1 (already mapped) stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade of MCL.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MCL oxygen: oxygen supports aerobic metabolism in B-cells (already mapped) and macrophages (already mapped) for cyclin-D1 (already mapped) signalling; oxygen deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade of MCL.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MCL sulfur: sulfur in cysteine residues of BTK and NF-κB (already mapped) proteins sustains B-cell (already mapped) signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade of mantle-cell lymphoma.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MCL pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates lymphoma immune evasion; pd-1 dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) B-cell lymphoma cascade of MCL.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MCL glp-1: GLP-1 from macrophages (already mapped) and natural killer cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) cascade of mantle cell lymphoma.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MCL angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblasts (already mapped) drives tumour vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) cascade of MCL.
 
 ---
 
