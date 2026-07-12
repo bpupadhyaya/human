@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "TTP fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) scaffolds thrombotic ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "TTP notch: Notch signalling in endothelial cells (already mapped) and macrophages (already mapped) regulates TTP vascular homeostasis; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "TTP igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes platelet progenitor survival in TTP; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "TTP activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) drives TTP microangiopathic fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -898,6 +907,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TTP smad4: SMAD4 in macrophages (already mapped) and endothelial cells (already mapped) transduces TGF-β signals; smad4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — TTP il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates autoimmune T-cell activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — TTP fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) scaffolds thrombotic ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — TTP notch: Notch signalling in endothelial cells (already mapped) and macrophages (already mapped) regulates TTP vascular homeostasis; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — TTP igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes platelet progenitor survival in TTP; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — TTP activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) drives thrombotic microangiopathic fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 
 ---
 
