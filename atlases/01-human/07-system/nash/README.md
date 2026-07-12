@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "NASH angiotensin-II: angiotensin-II via AT1R on hepatic stellate cells (already mapped) and macrophages (already mapped) drives hepatic fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "NASH wnt-beta-catenin: WNT/β-catenin on hepatocytes (already mapped) and macrophages (already mapped) drives hepatic fibrosis; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "NASH rankl: RANKL from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "NASH il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates hepatic immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
 ---
 
 # NASH
@@ -820,6 +829,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NASH sulfur: sulfur in glutathione and cysteine residues of hepatocytes (already mapped) sustains antioxidant defence against lipotoxic stress; sulfur depletion amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade in NASH.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — NASH PD-1: PD-1 checkpoint on intrahepatic T-cytotoxic cells (already mapped) and Kupffer macrophages (already mapped) modulates hepatic immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — NASH angiotensin-II: angiotensin-II via AT1R on hepatic stellate cells (already mapped) and macrophages (already mapped) drives hepatic fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — NASH wnt-beta-catenin: WNT/β-catenin on hepatocytes (already mapped) and macrophages (already mapped) drives hepatic fibrosis; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — NASH rankl: RANKL from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — NASH il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates hepatic immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

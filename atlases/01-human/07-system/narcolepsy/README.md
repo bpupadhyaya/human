@@ -534,6 +534,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "Narcolepsy SMAD4: SMAD4 in hypothalamic neurons (already mapped) and microglia (already mapped) mediates TGF-β (already mapped) neuroprotective signalling; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) orexin-neuron cascade of narcolepsy."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Narcolepsy fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) remodels neuroinflammatory matrix; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Narcolepsy notch: NOTCH in neurons (already mapped) and microglia (already mapped) regulates hypothalamic neuroprotection; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Narcolepsy igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes orexin-neuron survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -846,6 +855,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Narcolepsy WNT-β-catenin: WNT-β-catenin in hypothalamic neurons (already mapped) and microglia (already mapped) regulates orexin circuit plasticity; WNT-β-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Narcolepsy RANKL: RANKL from T-cytotoxic cells (already mapped) and microglia (already mapped) modulates neuroinflammatory bone-immune crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) orexin-loss cascade of narcolepsy.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Narcolepsy SMAD4: SMAD4 in hypothalamic neurons (already mapped) and microglia (already mapped) mediates TGF-β (already mapped) neuroprotective signalling; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) orexin-neuron cascade of narcolepsy.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Narcolepsy fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) remodels neuroinflammatory matrix; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Narcolepsy notch: NOTCH in neurons (already mapped) and microglia (already mapped) regulates hypothalamic neuroprotection; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Narcolepsy igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes orexin-neuron survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
