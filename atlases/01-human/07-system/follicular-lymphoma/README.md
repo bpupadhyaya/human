@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "FL oxygen: oxygen drives B-cell (already mapped) and macrophage (already mapped) mitochondrial metabolism, supporting tumour growth; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) cascade of follicular lymphoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "follicular-lymphoma glp-1: GLP-1 from macrophages (already mapped) and B-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in follicular lymphoma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "follicular-lymphoma angiotensin-ii: angiotensin II on B-cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "follicular-lymphoma wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) promotes growth; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -849,6 +858,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — FL carbon: carbon in nucleotides of B-cells (already mapped) and macrophages (already mapped) fuels malignant proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell cascade of follicular lymphoma.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — FL hydrogen: hydrogen via ROS from macrophages (already mapped) and B-cells (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell cascade of follicular lymphoma.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — FL oxygen: oxygen drives B-cell (already mapped) and macrophage (already mapped) mitochondrial metabolism, supporting tumour growth; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) cascade of follicular lymphoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — follicular-lymphoma glp-1: GLP-1 from macrophages (already mapped) and B-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in follicular lymphoma.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — follicular-lymphoma angiotensin-ii: angiotensin II on B-cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — follicular-lymphoma wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) promotes growth; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

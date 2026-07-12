@@ -534,6 +534,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "FM vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NF-κB (already mapped) and substance P (already mapped) and IL-6 (already mapped) central sensitisation cascade of fibromyalgia."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "fibromyalgia wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates central sensitisation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade of fibromyalgia."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "fibromyalgia rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "fibromyalgia smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -866,6 +875,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — FM pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and substance P (already mapped) and IL-6 (already mapped) central sensitisation cascade of fibromyalgia.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — FM glp-1: GLP-1 from neurons (already mapped) and astrocytes (already mapped) modulates metabolic-neuroinflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and substance P (already mapped) and IL-6 (already mapped) sensitisation cascade of fibromyalgia.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — FM vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NF-κB (already mapped) and substance P (already mapped) and IL-6 (already mapped) central sensitisation cascade of fibromyalgia.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — fibromyalgia wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates central sensitisation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade of fibromyalgia.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — fibromyalgia rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — fibromyalgia smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
