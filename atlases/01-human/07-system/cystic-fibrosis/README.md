@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "CF activin-a: activin-A from macrophages (already mapped) and airway epithelial cells (already mapped) promotes fibrotic remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "CF cgrp: CGRP from macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "CF calcitonin: calcitonin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates airway calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "CF substance-p: substance-P from macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
 ---
 
 # Cystic Fibrosis
@@ -875,6 +884,9 @@ AND
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — CF notch: Notch signalling on airway epithelial cells (already mapped) and macrophages (already mapped) regulates bronchial repair; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — CF igf-1: IGF-1 from macrophages (already mapped) and airway epithelial cells (already mapped) promotes bronchial repair and growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CF activin-a: activin-A from macrophages (already mapped) and airway epithelial cells (already mapped) promotes fibrotic remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CF cgrp: CGRP from macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CF calcitonin: calcitonin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates airway calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — CF substance-p: substance-P from macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
 
 ---
 

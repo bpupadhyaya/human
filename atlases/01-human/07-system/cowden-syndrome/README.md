@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "cowden notch: Notch in macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates tumour-immune crosstalk in hamartomata; notch excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "cowden activin-a: activin-A from macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates hamartoma immune-fibrotic balance; activin-A excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "cowden cgrp: CGRP from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma neuroimmune tone; cgrp excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "cowden calcitonin: calcitonin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma calcium balance; calcitonin dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -927,6 +936,9 @@ cross_links:
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — cowden rankl: RANKL from osteoclast precursors (already mapped) and macrophages (already mapped) promotes bone resorption in hamartoma-adjacent tissues; rankl excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — cowden fibronectin: fibronectin in tumour-associated macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — cowden notch: Notch in macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates tumour-immune crosstalk in hamartomata; notch excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cowden activin-a: activin-A from macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates hamartoma immune-fibrotic balance; activin-A excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cowden cgrp: CGRP from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma neuroimmune tone; cgrp excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cowden calcitonin: calcitonin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma calcium balance; calcitonin dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 
 ---
 
