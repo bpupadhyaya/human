@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Obesity PD-1: PD-1 on T-cells (already mapped) in adipose tissue suppresses cytotoxic immunity; PD-1 checkpoint dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) adipose inflammatory cascade of obesity."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Obesity wnt-beta-catenin: WNT/β-catenin on adipocytes (already mapped) and macrophages (already mapped) drives adipose lipid storage; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of obesity."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Obesity rankl: RANKL from macrophages (already mapped) and adipocytes (already mapped) promotes adipose immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Obesity il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates adipose immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity."
 ---
 
 # Obesity
@@ -875,6 +884,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Obesity hydrogen: hydrogen, via redox homeostasis in adipocytes (already mapped) and macrophages (already mapped), supports leptin (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) adipose cascade of obesity.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Obesity sulfur: sulfur in cysteine residues of leptin (already mapped) and adiponectin (already mapped) in adipocytes (already mapped) sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of obesity.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Obesity PD-1: PD-1 on T-cells (already mapped) in adipose tissue suppresses cytotoxic immunity; PD-1 checkpoint dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) adipose inflammatory cascade of obesity.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Obesity wnt-beta-catenin: WNT/β-catenin on adipocytes (already mapped) and macrophages (already mapped) drives adipose lipid storage; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of obesity.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Obesity rankl: RANKL from macrophages (already mapped) and adipocytes (already mapped) promotes adipose immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Obesity il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates adipose immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)

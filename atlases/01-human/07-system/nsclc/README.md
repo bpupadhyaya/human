@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "NSCLC sulfur: sulfur in cysteine residues of EGFR (already mapped) and NF-κB (already mapped) proteins in NSCLC cells sustains thiol-redox balance and oncogenic signalling; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "NSCLC glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tumour tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "NSCLC angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives tumour angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "NSCLC wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates NSCLC stromal tumour invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NSCLC."
 ---
 
 # NSCLC
@@ -832,6 +841,9 @@ cross_links:
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — NSCLC iron: iron in haem and iron-sulfur clusters of NSCLC cells (already mapped) and macrophages (already mapped) sustains mitochondrial function; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of NSCLC.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — NSCLC phosphorus: phosphorus in ATP and phospholipid membranes of NSCLC cells (already mapped) and macrophages (already mapped) drives EGFR (already mapped) signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NSCLC sulfur: sulfur in cysteine residues of EGFR (already mapped) and NF-κB (already mapped) proteins in NSCLC cells sustains thiol-redox balance and oncogenic signalling; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — NSCLC glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tumour tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — NSCLC angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives tumour angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — NSCLC wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates NSCLC stromal tumour invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NSCLC.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
