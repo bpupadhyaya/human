@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "IgAN igf-1: IGF-1 from mesangial cells (already mapped) and macrophages (already mapped) promotes mesangial proliferation; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) glomerular fibrosis in IgA nephropathy."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "IgAN fibronectin: fibronectin in mesangial cells (already mapped) and macrophages (already mapped) promotes glomerular ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "IgAN activin-a: activin-A from macrophages (already mapped) and mesangial cells (already mapped) promotes glomerular fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "IgAN cgrp: CGRP from macrophages (already mapped) and mesangial cells (already mapped) modulates glomerular pain and vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -819,6 +828,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IgAN il-2: IL-2 from T-cytotoxic cells (already mapped) and macrophages (already mapped) regulates mesangial immune activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — IgAN notch: NOTCH in mesangial cells (already mapped) and macrophages (already mapped) drives glomerular fibrotic remodelling; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IgAN igf-1: IGF-1 from mesangial cells (already mapped) and macrophages (already mapped) promotes mesangial proliferation; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) glomerular fibrosis in IgA nephropathy.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — IgAN fibronectin: fibronectin in mesangial cells (already mapped) and macrophages (already mapped) promotes glomerular ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — IgAN activin-a: activin-A from macrophages (already mapped) and mesangial cells (already mapped) promotes glomerular fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — IgAN cgrp: CGRP from macrophages (already mapped) and mesangial cells (already mapped) modulates glomerular pain and vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 
 ---
 

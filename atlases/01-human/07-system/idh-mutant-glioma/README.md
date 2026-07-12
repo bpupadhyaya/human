@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "IDH-glioma wnt-beta-catenin: WNT/β-catenin on microglia (already mapped) and tumour cells (already mapped) regulates invasion; wnt-beta-catenin dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "IDH-glioma rankl: RANKL from microglia (already mapped) and tumour cells (already mapped) modulates glioma immune crosstalk; rankl excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "IDH-glioma fibronectin: fibronectin in microglia (already mapped) and tumour cells (already mapped) promotes glioma ECM remodelling; fibronectin excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "IDH-glioma igf-1: IGF-1 from microglia (already mapped) and tumour cells (already mapped) promotes glioma proliferation; igf-1 excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -867,6 +876,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — IDH-glioma glp-1: GLP-1 from neurons (already mapped) and microglia (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-mutant glioma.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — IDH-glioma angiotensin-ii: angiotensin-II from microglia (already mapped) and endothelial cells (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 - `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IDH-glioma wnt-beta-catenin: WNT/β-catenin on microglia (already mapped) and tumour cells (already mapped) regulates invasion; wnt-beta-catenin dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IDH-glioma rankl: RANKL from microglia (already mapped) and tumour cells (already mapped) modulates glioma immune crosstalk; rankl excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — IDH-glioma fibronectin: fibronectin in microglia (already mapped) and tumour cells (already mapped) promotes glioma ECM remodelling; fibronectin excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IDH-glioma igf-1: IGF-1 from microglia (already mapped) and tumour cells (already mapped) promotes glioma proliferation; igf-1 excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
