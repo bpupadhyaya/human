@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "chloride channels on T-cytotoxic cell (already mapped) and macrophage (already mapped) regulate anti-tumour immune tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "cervical hydrogen: hydrogen via ROS from T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "cervical nitrogen: nitrogen in DNA bases of T-cytotoxic cells (already mapped) and macrophages (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "cervical sulfur: sulfur-containing glutathione in T-cytotoxic cells (already mapped) and macrophages (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
 ---
 
 # Cervical Cancer
@@ -834,6 +843,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels on T-cytotoxic cell (already mapped) and macrophage (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cervical cancer.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus in macrophage (already mapped) and T-cytotoxic cell (already mapped) fuels ATP-driven PIK3CA (already mapped) signalling; phosphate dysregulation amplifies NF-κB (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in cervical cancer.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on T-cytotoxic cell (already mapped) and macrophage (already mapped) regulate anti-tumour immune tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — cervical hydrogen: hydrogen via ROS from T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — cervical nitrogen: nitrogen in DNA bases of T-cytotoxic cells (already mapped) and macrophages (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — cervical sulfur: sulfur-containing glutathione in T-cytotoxic cells (already mapped) and macrophages (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 
 ---
 
