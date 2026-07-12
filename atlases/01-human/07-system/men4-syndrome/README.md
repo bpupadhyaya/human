@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "MEN4 angiotensin-II: angiotensin-II drives macrophage (already mapped) and endothelial (already mapped) inflammation in neuroendocrine tissue; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of MEN4."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "MEN4 il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates anti-tumour immune surveillance; il-2 dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "MEN4 fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors neuroendocrine tumour stroma; fibronectin dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "MEN4 activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives neuroendocrine tumour remodelling; activin-a dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome."
 ---
 
 # MEN4 Syndrome
@@ -835,6 +844,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MEN4 hydrogen: hydrogen in redox chemistry of neuroendocrine cells (already mapped) and macrophages (already mapped) modulates CDKN1B protein stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of MEN4.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MEN4 PD-1: PD-1 checkpoint on T-cells (already mapped) and NK-cells (already mapped) modulates immune surveillance of CDKN1B-deficient neuroendocrine tumours; PD-1 overexpression amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of MEN4 syndrome.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MEN4 angiotensin-II: angiotensin-II drives macrophage (already mapped) and endothelial (already mapped) inflammation in neuroendocrine tissue; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of MEN4.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MEN4 il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates anti-tumour immune surveillance; il-2 dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MEN4 fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors neuroendocrine tumour stroma; fibronectin dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MEN4 activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives neuroendocrine tumour remodelling; activin-a dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
