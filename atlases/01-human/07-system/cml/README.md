@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "CML angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes leukaemic angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "CML rankl: RANKL in macrophages (already mapped) and stromal cells (already mapped) modulates CML bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) leukaemic cascade of CML."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "CML fibronectin: fibronectin in stromal cells (already mapped) and macrophages (already mapped) promotes CML microenvironment remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "CML igf-1: IGF-1 on leukaemic stem cells (already mapped) and macrophages (already mapped) promotes CML proliferation; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -848,6 +857,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — CML pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses leukaemia immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL (already mapped) leukaemic cascade of CML.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — CML glp-1: GLP-1 from macrophages (already mapped) and leukaemic stem cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL (already mapped) leukaemic cascade of CML.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — CML angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes leukaemic angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CML rankl: RANKL in macrophages (already mapped) and stromal cells (already mapped) modulates CML bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) leukaemic cascade of CML.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CML fibronectin: fibronectin in stromal cells (already mapped) and macrophages (already mapped) promotes CML microenvironment remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — CML igf-1: IGF-1 on leukaemic stem cells (already mapped) and macrophages (already mapped) promotes CML proliferation; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 
 ---
 

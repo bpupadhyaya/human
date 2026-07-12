@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "CLL wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and stromal cells (already mapped) regulates lymphoma proliferation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "CLL rankl: RANKL in macrophages (already mapped) and stromal cells (already mapped) modulates CLL bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "CLL fibronectin: fibronectin in stromal cells (already mapped) and macrophages (already mapped) promotes CLL microenvironment remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "CLL igf-1: IGF-1 on B-cells (already mapped) and macrophages (already mapped) promotes leukaemic proliferation; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL."
 ---
 
 # CLL
@@ -848,6 +857,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — CLL glp-1: GLP-1 from macrophages (already mapped) and B-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — CLL angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes CLL microenvironment skewing; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — CLL wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and stromal cells (already mapped) regulates lymphoma proliferation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CLL rankl: RANKL in macrophages (already mapped) and stromal cells (already mapped) modulates CLL bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CLL fibronectin: fibronectin in stromal cells (already mapped) and macrophages (already mapped) promotes CLL microenvironment remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — CLL igf-1: IGF-1 on B-cells (already mapped) and macrophages (already mapped) promotes leukaemic proliferation; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL.
 
 ---
 
