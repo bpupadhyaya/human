@@ -549,6 +549,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "RSV RANKL: RANKL signalling in macrophages (already mapped) and airway stromal cells modulates bone-immune crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RSV."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "RSV fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds RSV-infected airway ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "RSV notch: NOTCH on macrophages (already mapped) and airway epithelial cells (already mapped) regulates RSV immune response; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "RSV igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates airway repair after RSV infection; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
 ---
 
 # RSV
@@ -870,3 +879,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — RSV angiotensin-II: angiotensin-II signalling in type-II pneumocytes (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) airway cascade of RSV.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — RSV Wnt/β-catenin: Wnt/β-catenin signalling in type-II pneumocytes (already mapped) supports airway epithelial repair; Wnt dysregulation amplifies NF-κB (already mapped) and TGF-β/SMAD4 (already mapped) fibrotic cascade of RSV bronchiolitis.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — RSV RANKL: RANKL signalling in macrophages (already mapped) and airway stromal cells modulates bone-immune crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RSV.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — RSV fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds RSV-infected airway ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — RSV notch: NOTCH on macrophages (already mapped) and airway epithelial cells (already mapped) regulates RSV immune response; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — RSV igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates airway repair after RSV infection; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
