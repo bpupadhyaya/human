@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "GCA wnt-beta-catenin: WNT/β-catenin on endothelial cells (already mapped) and macrophages (already mapped) regulates tone; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "GCA fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "GCA igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes vascular smooth-muscle repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "GCA activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes vascular remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -850,6 +859,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GCA glp-1: GLP-1 from macrophages (already mapped) and giant cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) arteritis cascade of giant-cell arteritis.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — GCA angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — GCA wnt-beta-catenin: WNT/β-catenin on endothelial cells (already mapped) and macrophages (already mapped) regulates tone; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — GCA fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — GCA igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes vascular smooth-muscle repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — GCA activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes vascular remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)

@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "gastric-cancer rankl: RANKL from gastric epithelial cells (already mapped) and macrophages (already mapped) modulates immune invasion; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "gastric-cancer fibronectin: fibronectin in gastric epithelial cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "gastric-cancer notch: Notch signalling on gastric epithelial cells (already mapped) and macrophages (already mapped) regulates tumour stem-cell renewal; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "gastric-cancer igf-1: IGF-1 from macrophages (already mapped) and gastric epithelial cells (already mapped) promotes tumour growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer."
 ---
 
 # Gastric Cancer
@@ -882,6 +891,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — gastric-cancer glp-1: GLP-1 from gastric cells (already mapped) and macrophages (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — gastric-cancer angiotensin-ii: angiotensin II on gastric epithelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — gastric-cancer rankl: RANKL from gastric epithelial cells (already mapped) and macrophages (already mapped) modulates immune invasion; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — gastric-cancer fibronectin: fibronectin in gastric epithelial cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — gastric-cancer notch: Notch signalling on gastric epithelial cells (already mapped) and macrophages (already mapped) regulates tumour stem-cell renewal; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — gastric-cancer igf-1: IGF-1 from macrophages (already mapped) and gastric epithelial cells (already mapped) promotes tumour growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
