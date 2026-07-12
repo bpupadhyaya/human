@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "carbon metabolism in endothelial cell (already mapped) and neuron (already mapped) drives retinal energy supply; carbon dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "DR hydrogen: hydrogen via ROS from endothelial cell (already mapped) and macrophage (already mapped) modulates retinal redox; hydrogen excess amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "DR pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses retinal immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "DR wnt-beta-catenin: Wnt/β-catenin in endothelial cells (already mapped) and macrophages (already mapped) regulates retinal vascular homeostasis; wnt dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of DR."
 ---
 
 # Diabetic Retinopathy
@@ -829,6 +838,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in endothelial cell (already mapped) and macrophage (already mapped), fuels angiogenic signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen, as nitric oxide (already mapped) precursor in endothelial cell (already mapped) and macrophage (already mapped), modulates retinal vascular tone; nitrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) cascade of diabetic retinopathy.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon metabolism in endothelial cell (already mapped) and neuron (already mapped) drives retinal energy supply; carbon dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — DR hydrogen: hydrogen via ROS from endothelial cell (already mapped) and macrophage (already mapped) modulates retinal redox; hydrogen excess amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — DR pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses retinal immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of diabetic retinopathy.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — DR wnt-beta-catenin: Wnt/β-catenin in endothelial cells (already mapped) and macrophages (already mapped) regulates retinal vascular homeostasis; wnt dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and HIF-1α (already mapped) neovascular cascade of DR.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

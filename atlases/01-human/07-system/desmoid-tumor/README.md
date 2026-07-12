@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "potassium channels on macrophage (already mapped) and fibroblast (already mapped) regulate membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal fibroblast cascade of desmoid tumour."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "desmoid carbon: carbon in nucleotides fuels macrophage (already mapped) and fibroblast (already mapped) proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal fibroblast cascade of desmoid tumour."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "desmoid chloride: chloride channels on macrophage (already mapped) and fibroblast (already mapped) regulate homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal cascade of desmoid tumour."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "desmoid hydrogen: hydrogen via ROS from macrophage (already mapped) and fibroblast (already mapped) modulates stromal oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal cascade of desmoid tumour."
 ---
 
 # Desmoid Tumor
@@ -845,6 +854,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — copper, via SOD in macrophage (already mapped) and fibroblast (already mapped), scavenges ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal fibroblast-proliferative cascade of desmoid tumour.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — zinc cofactors kinase signalling in macrophage (already mapped) and mast-cell (already mapped); zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and WNT/β-catenin (already mapped) stromal fibroblast-proliferative cascade of desmoid tumour.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels on macrophage (already mapped) and fibroblast (already mapped) regulate membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal fibroblast cascade of desmoid tumour.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — desmoid carbon: carbon in nucleotides fuels macrophage (already mapped) and fibroblast (already mapped) proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal fibroblast cascade of desmoid tumour.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — desmoid chloride: chloride channels on macrophage (already mapped) and fibroblast (already mapped) regulate homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal cascade of desmoid tumour.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — desmoid hydrogen: hydrogen via ROS from macrophage (already mapped) and fibroblast (already mapped) modulates stromal oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal cascade of desmoid tumour.
 
 ---
 
