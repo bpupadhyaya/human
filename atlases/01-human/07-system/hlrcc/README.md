@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "HLRCC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "HLRCC wnt-beta-catenin: WNT/β-catenin on endothelial cells (already mapped) and macrophages (already mapped) regulates tumour vascularisation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "HLRCC rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) modulates immune-vascular crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "HLRCC smad4: SMAD4 in macrophages (already mapped) and endothelial cells (already mapped) mediates TGF-β vascular signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -867,6 +876,9 @@ Cutaneous:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — HLRCC pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses FH-deficient tumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HLRCC glp-1: GLP-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) tumour cascade of HLRCC.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — HLRCC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HLRCC wnt-beta-catenin: WNT/β-catenin on endothelial cells (already mapped) and macrophages (already mapped) regulates tumour vascularisation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HLRCC rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) modulates immune-vascular crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — HLRCC smad4: SMAD4 in macrophages (already mapped) and endothelial cells (already mapped) mediates TGF-β vascular signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "HL wnt-beta-catenin: WNT/β-catenin on Reed-Sternberg cells (already mapped) and macrophages (already mapped) regulates invasion; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "HL rankl: RANKL from macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates bone-immune crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "HL fibronectin: fibronectin in Reed-Sternberg cells (already mapped) and macrophages (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "HL igf-1: IGF-1 from macrophages (already mapped) and Reed-Sternberg cells (already mapped) promotes lymphoma survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL."
 ---
 
 # Hodgkin Lymphoma
@@ -857,6 +866,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HL glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) Reed-Sternberg cascade in HL.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — HL angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) Reed-Sternberg cascade in HL.
 - `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HL wnt-beta-catenin: WNT/β-catenin on Reed-Sternberg cells (already mapped) and macrophages (already mapped) regulates invasion; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HL rankl: RANKL from macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates bone-immune crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HL fibronectin: fibronectin in Reed-Sternberg cells (already mapped) and macrophages (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HL igf-1: IGF-1 from macrophages (already mapped) and Reed-Sternberg cells (already mapped) promotes lymphoma survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
