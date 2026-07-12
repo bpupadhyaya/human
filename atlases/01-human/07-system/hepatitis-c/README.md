@@ -540,6 +540,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "HCV phosphorus: phosphorus as ATP in hepatocytes (already mapped) and macrophages (already mapped) fuels viral replication and immune signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) in HCV."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HCV carbon: carbon in nucleotides of hepatocytes (already mapped) and macrophages (already mapped) fuels viral replication and biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HCV hydrogen: hydrogen via ROS from macrophages (already mapped) and hepatocytes (already mapped) modulates oxidative redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "HCV sulfur: sulfur-containing amino acids in hepatocytes (already mapped) and macrophages (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV."
 ---
 
 # Hepatitis C
@@ -840,3 +849,7 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HCV chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) ion balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation and fibrosis in chronic HCV.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HCV nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HCV.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HCV phosphorus: phosphorus as ATP in hepatocytes (already mapped) and macrophages (already mapped) fuels viral replication and immune signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) in HCV.
+
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HCV carbon: carbon in nucleotides of hepatocytes (already mapped) and macrophages (already mapped) fuels viral replication and biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HCV hydrogen: hydrogen via ROS from macrophages (already mapped) and hepatocytes (already mapped) modulates oxidative redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HCV sulfur: sulfur-containing amino acids in hepatocytes (already mapped) and macrophages (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV.
