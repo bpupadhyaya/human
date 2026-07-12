@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "COPD rankl: RANKL in macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "COPD fibronectin: fibronectin in airway epithelial cells (already mapped) and macrophages (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "COPD notch: Notch on airway epithelial cells (already mapped) and macrophages (already mapped) regulates lung cell fate; Notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "COPD igf-1: IGF-1 on airway epithelial cells (already mapped) and macrophages (already mapped) modulates pulmonary repair; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
 ---
 
 # COPD
@@ -886,6 +895,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — COPD angiotensin-ii: angiotensin II on airway smooth-muscle cells (already mapped) and macrophages (already mapped) promotes remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — COPD il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies pulmonary immune response; il-2 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) inflammatory cascade of COPD.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — COPD rankl: RANKL in macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — COPD fibronectin: fibronectin in airway epithelial cells (already mapped) and macrophages (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — COPD notch: Notch on airway epithelial cells (already mapped) and macrophages (already mapped) regulates lung cell fate; Notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — COPD igf-1: IGF-1 on airway epithelial cells (already mapped) and macrophages (already mapped) modulates pulmonary repair; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
 
 ---
 

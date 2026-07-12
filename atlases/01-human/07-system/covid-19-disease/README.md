@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "COVID-19 rankl: RANKL in macrophages (already mapped) and type-II pneumocytes (already mapped) modulates pulmonary immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of COVID-19."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "COVID-19 fibronectin: fibronectin in type-II pneumocytes (already mapped) and macrophages (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "COVID-19 notch: Notch on type-II pneumocytes (already mapped) and macrophages (already mapped) regulates lung cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of COVID-19."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "COVID-19 igf-1: IGF-1 on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary repair; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
 ---
 
 # COVID-19 Disease
@@ -808,6 +817,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — COVID-19 glp-1: GLP-1 from macrophages (already mapped) and type-II pneumocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — COVID-19 wnt-beta-catenin: WNT/β-catenin on type-II pneumocytes (already mapped) and macrophages (already mapped) regulates lung repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — COVID-19 rankl: RANKL in macrophages (already mapped) and type-II pneumocytes (already mapped) modulates pulmonary immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of COVID-19.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — COVID-19 fibronectin: fibronectin in type-II pneumocytes (already mapped) and macrophages (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — COVID-19 notch: Notch on type-II pneumocytes (already mapped) and macrophages (already mapped) regulates lung cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of COVID-19.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — COVID-19 igf-1: IGF-1 on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary repair; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 
 ## Pathology
 
