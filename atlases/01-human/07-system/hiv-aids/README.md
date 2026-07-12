@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "AIDS fibronectin: fibronectin in macrophages (already mapped) and natural-killer-cells (already mapped) promotes immune ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "AIDS notch: NOTCH on macrophages (already mapped) and natural-killer-cells (already mapped) regulates immune lineage commitment; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "AIDS igf-1: IGF-1 from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune tissue repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "AIDS activin-a: activin-A from macrophages (already mapped) and natural-killer-cells (already mapped) promotes immune fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -862,6 +871,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AIDS rankl: RANKL from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune-bone crosstalk in HIV/AIDS; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — AIDS smad4: SMAD4 in macrophages (already mapped) and natural-killer-cells (already mapped) modulates TGF-β antiviral signalling; smad4 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AIDS fibronectin: fibronectin in macrophages (already mapped) and natural-killer-cells (already mapped) promotes immune ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — AIDS notch: NOTCH on macrophages (already mapped) and natural-killer-cells (already mapped) regulates immune lineage commitment; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AIDS igf-1: IGF-1 from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune tissue repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AIDS activin-a: activin-A from macrophages (already mapped) and natural-killer-cells (already mapped) promotes immune fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 
 ## See Also
 
