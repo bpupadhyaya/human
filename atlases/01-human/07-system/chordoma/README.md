@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "chordoma calcitonin: calcitonin in osteoclasts (already mapped) and tumour cells (already mapped) modulates bone remodelling; calcitonin dysregulation amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "chordoma substance-p: substance-P from tumour cells (already mapped) and osteoclasts (already mapped) modulates bone pain signalling; substance-P excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "chordoma insulin-receptor: insulin receptor on tumour cells (already mapped) and osteoclasts (already mapped) drives metabolic tone; insulin-receptor loss amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "chordoma aldosterone: aldosterone in osteoclasts (already mapped) and tumour cells (already mapped) modulates bone fluid balance; aldosterone excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
 ---
 
 # Chordoma
@@ -882,6 +891,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — chordoma activin-a: activin-A in tumour cells (already mapped) and fibroblasts (already mapped) modulates stromal crosstalk; activin-A dysregulation amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — chordoma cgrp: CGRP in neurons (already mapped) and tumour stroma (already mapped) modulates pain and vascular tone; CGRP dysregulation amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — chordoma calcitonin: calcitonin in osteoclasts (already mapped) and tumour cells (already mapped) modulates bone remodelling; calcitonin dysregulation amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — chordoma substance-p: substance-P from tumour cells (already mapped) and osteoclasts (already mapped) modulates bone pain signalling; substance-P excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — chordoma insulin-receptor: insulin receptor on tumour cells (already mapped) and osteoclasts (already mapped) drives metabolic tone; insulin-receptor loss amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — chordoma aldosterone: aldosterone in osteoclasts (already mapped) and tumour cells (already mapped) modulates bone fluid balance; aldosterone excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
 
 ---
 

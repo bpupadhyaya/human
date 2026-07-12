@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "cholangio activin-a: activin-A in cholangiocytes (already mapped) and fibroblasts (already mapped) modulates biliary fibrosis; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "cholangio cgrp: CGRP from cholangiocytes (already mapped) and fibroblasts (already mapped) modulates biliary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "cholangio calcitonin: calcitonin from cholangiocytes (already mapped) and fibroblasts (already mapped) modulates biliary calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "cholangio substance-p: substance-P from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -844,6 +853,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — cholangio fibronectin: fibronectin in cholangiocytes (already mapped) and fibroblasts (already mapped) promotes biliary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — cholangio igf-1: IGF-1 on cholangiocytes (already mapped) and macrophages (already mapped) promotes biliary proliferation; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cholangio activin-a: activin-A in cholangiocytes (already mapped) and fibroblasts (already mapped) modulates biliary fibrosis; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cholangio cgrp: CGRP from cholangiocytes (already mapped) and fibroblasts (already mapped) modulates biliary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cholangio calcitonin: calcitonin from cholangiocytes (already mapped) and fibroblasts (already mapped) modulates biliary calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — cholangio substance-p: substance-P from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 
 ---
 
