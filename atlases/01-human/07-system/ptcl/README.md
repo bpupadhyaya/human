@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "PTCL activin-a: activin-A from T-lymphoma cells (already mapped) and macrophages (already mapped) drives T-lymphoma fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "PTCL cgrp: CGRP from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates T-lymphoma neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "PTCL calcitonin: calcitonin from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates calcium balance in T-cell lymphoma; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "PTCL substance-p: substance P from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates T-lymphoma neuroimmune signalling; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -892,6 +901,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — PTCL notch: Notch signalling on T-lymphoma cells (already mapped) and macrophages (already mapped) regulates T-lymphoma cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PTCL igf-1: IGF-1 from T-lymphoma cells (already mapped) and macrophages (already mapped) promotes T-lymphoma cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PTCL activin-a: activin-A from T-lymphoma cells (already mapped) and macrophages (already mapped) drives T-lymphoma fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PTCL cgrp: CGRP from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates T-lymphoma neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PTCL calcitonin: calcitonin from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates calcium balance in T-cell lymphoma; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PTCL substance-p: substance P from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates T-lymphoma neuroimmune signalling; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 
 ---
 
