@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "IS oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and neutrophils (already mapped) drives oxidative burst; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "IS hydrogen: hydrogen via ROS from macrophages (already mapped) and neutrophils (already mapped) modulates oxidative burst; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "IS sulfur: sulfur in disulfide bonds of immunoglobulins (already mapped) and cytokines (already mapped) stabilises immune-receptor structure; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) cascade."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "IS glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune homeostasis cascade."
 ---
 
 # Immune System
@@ -745,6 +754,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IS carbon: carbon as backbone of immunoglobulins (already mapped) and cytokines (already mapped) sustains adaptive immune signalling; carbon metabolites in macrophages (already mapped) and T-helper cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped).
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IS nitrogen: nitrogen as backbone of all immune proteins and cytokines (already mapped) sustains T-helper (already mapped) and B-cell (already mapped) signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped).
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — IS oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and neutrophils (already mapped) drives oxidative burst; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascades.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IS hydrogen: hydrogen via ROS from macrophages (already mapped) and neutrophils (already mapped) modulates oxidative burst; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IS sulfur: sulfur in disulfide bonds of immunoglobulins (already mapped) and cytokines (already mapped) stabilises immune-receptor structure; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) cascade.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — IS glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune homeostasis cascade.
 
 ## Pathology
 
