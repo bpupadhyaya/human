@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "T2D IGF-1: IGF-1 from hepatocytes (already mapped) and macrophages (already mapped) promotes insulin sensitivity; IGF-1 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "T2D activin-a: activin-A from hepatocytes (already mapped) and macrophages (already mapped) regulates adipose immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "T2D cgrp: CGRP from hepatocytes (already mapped) and macrophages (already mapped) modulates adipose neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "T2D calcitonin: calcitonin from hepatocytes (already mapped) and macrophages (already mapped) modulates adipose calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -846,6 +855,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — T2D Fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds adipose ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — T2D NOTCH: NOTCH on hepatocytes (already mapped) and macrophages (already mapped) regulates adipose metabolic tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — T2D IGF-1: IGF-1 from hepatocytes (already mapped) and macrophages (already mapped) promotes insulin sensitivity; IGF-1 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — T2D activin-a: activin-A from hepatocytes (already mapped) and macrophages (already mapped) regulates adipose immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — T2D cgrp: CGRP from hepatocytes (already mapped) and macrophages (already mapped) modulates adipose neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — T2D calcitonin: calcitonin from hepatocytes (already mapped) and macrophages (already mapped) modulates adipose calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "UM RANKL: RANKL in macrophages (already mapped) and uveal melanocytes (already mapped) modulates tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "UM fibronectin: Fibronectin in uveal melanocytes (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "UM activin-a: activin-A from uveal melanocytes (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "UM cgrp: CGRP from uveal melanocytes (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -872,6 +881,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — UM angiotensin-II: Angiotensin-II in uveal melanocytes (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — UM Wnt/β-catenin: Wnt/β-catenin in uveal melanocytes (already mapped) and macrophages (already mapped) drives tumour proliferation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — UM RANKL: RANKL in macrophages (already mapped) and uveal melanocytes (already mapped) modulates tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — UM fibronectin: Fibronectin in uveal melanocytes (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — UM activin-a: activin-A from uveal melanocytes (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — UM cgrp: CGRP from uveal melanocytes (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 
 ---
 
