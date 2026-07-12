@@ -550,6 +550,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "SUD angiotensin-II: angiotensin-II signalling in neurons (already mapped) and macrophages (already mapped) promotes inflammation; angiotensin-II excess amplifies dopamine (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "SUD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates reward circuit plasticity; wnt-beta-catenin loss amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "SUD rankl: RANKL from macrophages (already mapped) and astrocytes (already mapped) promotes neuroinflammatory immune activation; rankl excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "SUD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) transduces TGF-β signals; smad4 loss amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
 ---
 
 # Stimulant Use Disorder
@@ -849,6 +858,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SUD oxygen: reactive oxygen species in neurons (already mapped) and macrophages (already mapped) drive oxidative neuronal damage; oxygen imbalance amplifies dopamine (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SUD PD-1: PD-1 checkpoint signalling in T-cells (already mapped) and microglia (already mapped) modulates neuroinflammatory tone; PD-1 dysregulation amplifies dopamine (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — SUD angiotensin-II: angiotensin-II signalling in neurons (already mapped) and macrophages (already mapped) promotes inflammation; angiotensin-II excess amplifies dopamine (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SUD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates reward circuit plasticity; wnt-beta-catenin loss amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SUD rankl: RANKL from macrophages (already mapped) and astrocytes (already mapped) promotes neuroinflammatory immune activation; rankl excess amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — SUD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) transduces TGF-β signals; smad4 loss amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
 
 ## Treatment
 
