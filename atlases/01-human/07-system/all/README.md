@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "ALL angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma promotes niche inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of ALL."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "ALL RANKL: RANKL in bone-marrow (already mapped) stromal cells and macrophages (already mapped) modulates the leukaemic niche bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "ALL fibronectin: fibronectin in bone-marrow (already mapped) extracellular matrix and macrophages (already mapped) modulates leukaemic blast adhesion; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "ALL activin-A: activin-A from bone-marrow (already mapped) stromal cells and macrophages (already mapped) modulates haematopoietic differentiation; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -875,6 +884,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ALL oxygen: mitochondrial oxygen in B-cell (already mapped) precursors and macrophages (already mapped) sustains ATP for leukaemic blast proliferation; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in ALL.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ALL GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and B-cell (already mapped) precursors modulates metabolic immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic cascade in ALL.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — ALL angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma promotes niche inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of ALL.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ALL RANKL: RANKL in bone-marrow (already mapped) stromal cells and macrophages (already mapped) modulates the leukaemic niche bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ALL fibronectin: fibronectin in bone-marrow (already mapped) extracellular matrix and macrophages (already mapped) modulates leukaemic blast adhesion; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ALL activin-A: activin-A from bone-marrow (already mapped) stromal cells and macrophages (already mapped) modulates haematopoietic differentiation; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
