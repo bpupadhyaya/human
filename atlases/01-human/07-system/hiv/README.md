@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "HIV phosphorus: phosphorus as ATP in macrophages (already mapped) and natural-killer-cells (already mapped) fuels antiviral kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HIV carbon: carbon in nucleotides of macrophages (already mapped) and natural-killer-cells (already mapped) fuels viral replication and protein biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HIV hydrogen: hydrogen via ROS from macrophages (already mapped) and natural-killer-cells (already mapped) modulates antiviral redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "HIV nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV."
 ---
 
 # HIV
@@ -858,6 +867,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HIV calcium: calcium signals macrophage (already mapped) and natural-killer-cell (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune dysregulation in HIV.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HIV chloride: chloride channels regulate macrophage (already mapped) and natural-killer-cell (already mapped) volume during immune activation; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HIV phosphorus: phosphorus as ATP in macrophages (already mapped) and natural-killer-cells (already mapped) fuels antiviral kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HIV carbon: carbon in nucleotides of macrophages (already mapped) and natural-killer-cells (already mapped) fuels viral replication and protein biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HIV hydrogen: hydrogen via ROS from macrophages (already mapped) and natural-killer-cells (already mapped) modulates antiviral redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HIV nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

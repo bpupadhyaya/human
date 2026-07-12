@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "AIDS nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in AIDS."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "AIDS carbon: carbon in nucleotides of macrophages (already mapped) and natural-killer-cells (already mapped) fuels viral replication and immune biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "AIDS hydrogen: hydrogen via ROS from macrophages (already mapped) and natural-killer-cells (already mapped) modulates antiviral redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "AIDS phosphorus: phosphorus as ATP in macrophages (already mapped) and natural-killer-cells (already mapped) fuels antiviral kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -826,6 +835,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — AIDS calcium: calcium signals macrophage (already mapped) and natural-killer-cell (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune dysregulation in HIV/AIDS.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — AIDS chloride: chloride channels regulate macrophage (already mapped) and natural-killer-cell (already mapped) volume during immune activation; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — AIDS nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in AIDS.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — AIDS carbon: carbon in nucleotides of macrophages (already mapped) and natural-killer-cells (already mapped) fuels viral replication and immune biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — AIDS hydrogen: hydrogen via ROS from macrophages (already mapped) and natural-killer-cells (already mapped) modulates antiviral redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — AIDS phosphorus: phosphorus as ATP in macrophages (already mapped) and natural-killer-cells (already mapped) fuels antiviral kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 
 ## See Also
 
