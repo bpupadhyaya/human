@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "PNH oxygen: reactive oxygen species from complement-C5 (already mapped) activation in erythrocytes (already mapped) amplify haemolysis; oxygen dysregulation worsens NF-κB (already mapped) and IL-6 (already mapped) inflammatory and thrombotic cascade of PNH."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "PNH sulfur: sulfur in cysteine residues of complement regulators CD55 and CD59 in erythrocytes (already mapped) sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PNH PD-1: PD-1 on T-cells (already mapped) in bone marrow (already mapped) modulates immune-mediated haematopoietic stem-cell suppression; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "PNH GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates thromboinflammatory tone; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) thrombotic cascade of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -803,6 +812,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PNH carbon: carbon as backbone of GPI-anchor proteins and NF-κB (already mapped) in erythrocytes (already mapped) and platelets (already mapped) sustains membrane protection; carbon depletion amplifies complement-C5 (already mapped) and IL-6 (already mapped) cascade of PNH.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PNH nitrogen: nitrogen in amino-acid scaffold of GPI-anchor proteins and complement regulators in erythrocytes (already mapped) sustains membrane protection; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PNH oxygen: reactive oxygen species from complement-C5 (already mapped) activation in erythrocytes (already mapped) amplify haemolysis; oxygen dysregulation worsens NF-κB (already mapped) and IL-6 (already mapped) inflammatory and thrombotic cascade of PNH.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PNH sulfur: sulfur in cysteine residues of complement regulators CD55 and CD59 in erythrocytes (already mapped) sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PNH PD-1: PD-1 on T-cells (already mapped) in bone marrow (already mapped) modulates immune-mediated haematopoietic stem-cell suppression; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PNH GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates thromboinflammatory tone; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) thrombotic cascade of PNH.
 
 ---
 
