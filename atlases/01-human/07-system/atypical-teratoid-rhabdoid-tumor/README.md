@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "ATRT phosphorus: phosphorus fuels PI3K/AKT/mTOR (already mapped) signalling and energy metabolism in brain (already mapped) tumour cells; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in ATRT."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "ATRT carbon: carbon backbone of nucleotides in neurons (already mapped) and astrocytes (already mapped) sustains tumour metabolic reprogramming; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth in ATRT."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "ATRT chloride: chloride channels in astrocytes (already mapped) and endothelial cells (already mapped) modulate tumour microenvironment osmolarity; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour invasion in ATRT."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "ATRT hydrogen: hydrogen via ROS balance in macrophages (already mapped) and microglia (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -830,6 +839,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — ATRT iodine: iodine supports thyroid-hormone-driven differentiation in brain (already mapped) tumour cells; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) and VEGF (already mapped) cascade in ATRT.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — ATRT copper: copper is a cofactor of antioxidant enzymes in macrophages (already mapped) and tumour cells; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ATRT phosphorus: phosphorus fuels PI3K/AKT/mTOR (already mapped) signalling and energy metabolism in brain (already mapped) tumour cells; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in ATRT.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ATRT carbon: carbon backbone of nucleotides in neurons (already mapped) and astrocytes (already mapped) sustains tumour metabolic reprogramming; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth in ATRT.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — ATRT chloride: chloride channels in astrocytes (already mapped) and endothelial cells (already mapped) modulate tumour microenvironment osmolarity; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour invasion in ATRT.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ATRT hydrogen: hydrogen via ROS balance in macrophages (already mapped) and microglia (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT.
 
 ---
 
