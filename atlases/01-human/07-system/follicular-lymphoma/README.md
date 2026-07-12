@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "follicular-lymphoma activin-a: activin-A from macrophages (already mapped) and B-cells (already mapped) promotes lymphoma-stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "follicular-lymphoma cgrp: CGRP from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "follicular-lymphoma calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "follicular-lymphoma substance-p: substance-P from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -873,6 +882,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — follicular-lymphoma rankl: RANKL from macrophages (already mapped) and B-cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — follicular-lymphoma igf-1: IGF-1 from macrophages (already mapped) and B-cells (already mapped) promotes lymphoma survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — follicular-lymphoma activin-a: activin-A from macrophages (already mapped) and B-cells (already mapped) promotes lymphoma-stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — follicular-lymphoma cgrp: CGRP from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — follicular-lymphoma calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — follicular-lymphoma substance-p: substance-P from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
