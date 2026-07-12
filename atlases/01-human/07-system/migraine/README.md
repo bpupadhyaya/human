@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Migraine igf-1: IGF-1 from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory neuroprotection; igf-1 dysregulation amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Migraine activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) promotes trigeminal neuroinflammatory fibrosis; activin-a excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Migraine tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates trigeminal neuroimmune resolution; TGF-β excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Migraine insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory metabolic tone; insulin-receptor loss amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
 ---
 
 # Migraine
@@ -896,6 +905,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Migraine fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes trigeminal ECM remodelling; fibronectin excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Migraine notch: Notch signalling on microglia (already mapped) and astrocytes (already mapped) regulates neuroinflammatory fate; notch dysregulation amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Migraine igf-1: IGF-1 from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory neuroprotection; igf-1 dysregulation amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Migraine activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) promotes trigeminal neuroinflammatory fibrosis; activin-a excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Migraine tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates trigeminal neuroimmune resolution; TGF-β excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Migraine insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory metabolic tone; insulin-receptor loss amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
