@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "sulfur, as glutathione precursor in macrophage (already mapped) and intestinal epithelium (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "colorectal carbon: carbon in nucleotides fuels macrophage (already mapped) and intestinal epithelium (already mapped) proliferation; carbon dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "colorectal hydrogen: hydrogen via ROS from macrophages (already mapped) and intestinal epithelium (already mapped) modulates redox; hydrogen excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "colorectal nitrogen: nitrogen in DNA bases sustains macrophage (already mapped) and intestinal epithelium (already mapped) growth; nitrogen dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
 ---
 
 # Colorectal Cancer
@@ -835,6 +844,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped), fuels WNT/β-catenin (already mapped) and VEGF (already mapped) proliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade in colorectal cancer.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and intestinal epithelium (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade of colorectal cancer.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and intestinal epithelium (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — colorectal carbon: carbon in nucleotides fuels macrophage (already mapped) and intestinal epithelium (already mapped) proliferation; carbon dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — colorectal hydrogen: hydrogen via ROS from macrophages (already mapped) and intestinal epithelium (already mapped) modulates redox; hydrogen excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — colorectal nitrogen: nitrogen in DNA bases sustains macrophage (already mapped) and intestinal epithelium (already mapped) growth; nitrogen dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
 
 ---
 

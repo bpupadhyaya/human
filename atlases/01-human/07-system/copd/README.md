@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "sulfur, as glutathione precursor in macrophage (already mapped) and smooth-muscle cell (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "COPD nitrogen: nitrogen in DNA bases of macrophages (already mapped) and smooth-muscle cells (already mapped) sustains pulmonary growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "COPD pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses anti-smoking immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "COPD glp-1: GLP-1 from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates airway metabolic tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD."
 ---
 
 # COPD
@@ -862,6 +871,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped) and smooth-muscle cell (already mapped), fuels inflammatory signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on smooth-muscle cell (already mapped) and macrophage (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and smooth-muscle cell (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — COPD nitrogen: nitrogen in DNA bases of macrophages (already mapped) and smooth-muscle cells (already mapped) sustains pulmonary growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — COPD pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses anti-smoking immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — COPD glp-1: GLP-1 from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates airway metabolic tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) bronchoconstriction cascade of COPD.
 
 ---
 
