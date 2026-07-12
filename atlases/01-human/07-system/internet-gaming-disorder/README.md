@@ -525,6 +525,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Internet-gaming nitrogen: nitrogen in nitric oxide (already mapped) and amino-acid cofactors modulates synaptic (already mapped) reward signalling; nitrogen dysregulation amplifies dopamine (already mapped) and cortisol (already mapped) neuroinflammatory cascade of IGD."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "IGD hydrogen: hydrogen-ion proton gradient in neurons (already mapped) and microglia (already mapped) energises synaptic reward cascade; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) signalling cascade of IGD."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "IGD oxygen: ROS from NADPH-oxidase in microglia (already mapped) and neurons (already mapped) drives neuroinflammatory oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) cascade of IGD."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "IGD sulfur: sulfur-containing amino acids in neurons (already mapped) and microglia (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) signalling cascade of IGD."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -868,6 +877,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IGD chloride: chloride regulates neuronal (already mapped) membrane potential; chloride dysregulation in microglia (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) signalling cascade of internet gaming disorder.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Internet-gaming carbon: carbon as backbone of dopamine (already mapped) and serotonin (already mapped) metabolism in neurons (already mapped); carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of internet-gaming disorder.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Internet-gaming nitrogen: nitrogen in nitric oxide (already mapped) and amino-acid cofactors modulates synaptic (already mapped) reward signalling; nitrogen dysregulation amplifies dopamine (already mapped) and cortisol (already mapped) neuroinflammatory cascade of IGD.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IGD hydrogen: hydrogen-ion proton gradient in neurons (already mapped) and microglia (already mapped) energises synaptic reward cascade; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) signalling cascade of IGD.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — IGD oxygen: ROS from NADPH-oxidase in microglia (already mapped) and neurons (already mapped) drives neuroinflammatory oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) cascade of IGD.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IGD sulfur: sulfur-containing amino acids in neurons (already mapped) and microglia (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) signalling cascade of IGD.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

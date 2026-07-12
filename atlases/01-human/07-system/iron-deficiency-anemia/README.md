@@ -537,6 +537,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "IDA nitrogen: nitrogen in amino-acid precursors of haem (already mapped) and transferrin (already mapped) sustains erythropoiesis (already mapped); nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) cascade of IDA."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "IDA sulfur: sulfur in disulfide bonds of haemoglobin (already mapped) and transferrin (already mapped) stabilises erythropoietic proteins; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) cascade of IDA."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "IDA pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates immune-erythropoietic interface; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) anaemic cascade of IDA."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "IDA glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) erythropoietic cascade of IDA."
 ---
 
 # Iron Deficiency Anemia
@@ -830,6 +839,9 @@ Iron is essential for:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — IDA carbon: carbon as backbone of haem (already mapped) and transferrin (already mapped) sustains erythropoiesis (already mapped); carbon depletion in reticulocytes (already mapped) and macrophages (already mapped) amplifies IL-6 (already mapped) anaemic cascade of IDA.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IDA hydrogen: hydrogen-ion acidosis in iron-deficient erythrocytes (already mapped) and macrophages (already mapped) impairs haemoglobin (already mapped) oxygen transport; hydrogen dysregulation amplifies NF-κB (already mapped) and EPO (already mapped) cascade of IDA.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IDA nitrogen: nitrogen in amino-acid precursors of haem (already mapped) and transferrin (already mapped) sustains erythropoiesis (already mapped); nitrogen deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) cascade of IDA.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IDA sulfur: sulfur in disulfide bonds of haemoglobin (already mapped) and transferrin (already mapped) stabilises erythropoietic proteins; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) cascade of IDA.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — IDA pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates immune-erythropoietic interface; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) anaemic cascade of IDA.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — IDA glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) erythropoietic cascade of IDA.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
