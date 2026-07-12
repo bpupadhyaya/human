@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "JPS angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "JPS rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes polyp inflammatory microenvironment; rankl excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "JPS fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes polyp ECM remodelling; fibronectin excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "JPS notch: Notch signalling on fibroblasts (already mapped) and macrophages (already mapped) regulates polyp epithelial fate; notch excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -865,6 +874,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — JPS pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates polyp immune surveillance; pd-1 dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) tumour-microenvironment cascade in JPS.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — JPS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — JPS angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — JPS rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes polyp inflammatory microenvironment; rankl excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — JPS fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes polyp ECM remodelling; fibronectin excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — JPS notch: Notch signalling on fibroblasts (already mapped) and macrophages (already mapped) regulates polyp epithelial fate; notch excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)

@@ -555,6 +555,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "IDA rankl: RANKL from macrophages (already mapped) and neutrophils (already mapped) amplifies marrow inflammation; rankl excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "IDA il-2: IL-2 from macrophages (already mapped) and erythrocyte (already mapped) modulates immune regulation; il-2 dysregulation amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "IDA fibronectin: fibronectin in macrophages (already mapped) and erythrocyte (already mapped) promotes iron ECM remodelling; fibronectin excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "IDA igf-1: IGF-1 from macrophages (already mapped) and erythrocyte (already mapped) promotes erythroid marrow recovery; igf-1 excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade."
 ---
 
 # Iron Deficiency Anemia
@@ -854,6 +863,9 @@ Iron is essential for:
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — IDA angiotensin-ii: angiotensin-II from hepatocytes (already mapped) and macrophages (already mapped) drives inflammation; angiotensin-ii excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency cascade.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IDA wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and erythrocyte (already mapped) regulates iron homeostasis; wnt-beta-catenin dysregulation amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) cascade of IDA.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IDA rankl: RANKL from macrophages (already mapped) and neutrophils (already mapped) amplifies marrow inflammation; rankl excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IDA il-2: IL-2 from macrophages (already mapped) and erythrocyte (already mapped) modulates immune regulation; il-2 dysregulation amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — IDA fibronectin: fibronectin in macrophages (already mapped) and erythrocyte (already mapped) promotes iron ECM remodelling; fibronectin excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IDA igf-1: IGF-1 from macrophages (already mapped) and erythrocyte (already mapped) promotes erythroid marrow recovery; igf-1 excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
