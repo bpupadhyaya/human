@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "IS rankl: RANKL from macrophages (already mapped) and dendritic cells (already mapped) modulates lymphoid organogenesis; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "IS vegf: VEGF from macrophages (already mapped) and dendritic cells (already mapped) promotes lymphoid vascular development; vegf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "IS fibronectin: fibronectin in macrophages (already mapped) and dendritic cells (already mapped) promotes immune ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "IS notch: Notch signalling on dendritic cells (already mapped) and macrophages (already mapped) regulates lymphocyte fate; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
 ---
 
 # Immune System
@@ -769,6 +778,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — IS angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular tone; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune homeostasis cascade.
 - `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IS wnt-beta-catenin: WNT/β-catenin on B cells (already mapped) and T cells (already mapped) regulates lymphocyte fate; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IS rankl: RANKL from macrophages (already mapped) and dendritic cells (already mapped) modulates lymphoid organogenesis; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — IS vegf: VEGF from macrophages (already mapped) and dendritic cells (already mapped) promotes lymphoid vascular development; vegf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — IS fibronectin: fibronectin in macrophages (already mapped) and dendritic cells (already mapped) promotes immune ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — IS notch: Notch signalling on dendritic cells (already mapped) and macrophages (already mapped) regulates lymphocyte fate; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 
 ## Pathology
 

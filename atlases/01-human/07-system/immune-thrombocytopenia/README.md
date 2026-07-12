@@ -564,6 +564,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "ITP rankl: RANKL from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes platelet destruction; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "ITP fibronectin: fibronectin in macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes immune ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "ITP notch: Notch signalling on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates platelet autoimmunity; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "ITP igf-1: IGF-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes platelet marrow recovery; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -881,6 +890,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — ITP angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular tone; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
 - `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ITP wnt-beta-catenin: WNT/β-catenin on megakaryocytes (already mapped) and macrophages (already mapped) regulates platelet biogenesis; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) cascade in ITP.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ITP rankl: RANKL from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes platelet destruction; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ITP fibronectin: fibronectin in macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes immune ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — ITP notch: Notch signalling on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates platelet autoimmunity; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — ITP igf-1: IGF-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes platelet marrow recovery; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
