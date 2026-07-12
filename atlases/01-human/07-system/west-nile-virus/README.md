@@ -540,6 +540,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "WNV GLP-1: GLP-1 signalling in macrophages (already mapped) and microglia (already mapped) modulates neuroinflammatory metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of West Nile virus."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "WNV angiotensin-II: angiotensin-II signalling in neurons (already mapped) and microglia (already mapped) promotes neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of West Nile virus."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "WNV Wnt/β-catenin: Wnt/β-catenin signalling in microglia (already mapped) and neurons (already mapped) supports neural repair; Wnt dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of West Nile virus."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "WNV RANKL: RANKL signalling in macrophages (already mapped) and microglia (already mapped) modulates neuroimmune bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of West Nile virus."
 ---
 
 # West Nile Virus
@@ -834,3 +843,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — WNV carbon: carbon, as metabolic backbone of viral envelope lipids in macrophages (already mapped) and neurons (already mapped), drives WNV replication; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of West Nile virus.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — WNV hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches WNV-induced ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and NLRP3 inflammasome (already mapped) neuroinflammation of West Nile virus.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — WNV GLP-1: GLP-1 signalling in macrophages (already mapped) and microglia (already mapped) modulates neuroinflammatory metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of West Nile virus.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — WNV angiotensin-II: angiotensin-II signalling in neurons (already mapped) and microglia (already mapped) promotes neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of West Nile virus.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — WNV Wnt/β-catenin: Wnt/β-catenin signalling in microglia (already mapped) and neurons (already mapped) supports neural repair; Wnt dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of West Nile virus.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — WNV RANKL: RANKL signalling in macrophages (already mapped) and microglia (already mapped) modulates neuroimmune bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of West Nile virus.

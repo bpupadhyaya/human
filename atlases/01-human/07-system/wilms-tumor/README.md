@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "Wilms hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), quenches tumour ROS; hydrogen dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) blastemal cascade of Wilms tumour."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Wilms nitrogen: nitric oxide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; nitrogen imbalance amplifies IL-6 (already mapped) and VEGF (already mapped) and IGF-1 (already mapped) blastemal growth cascade of Wilms tumour."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Wilms sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; sulfur deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) and IGF-1 (already mapped) cascade of Wilms tumour."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Wilms phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic-cell (already mapped), fuels anti-tumour immunity; phosphorus deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) blastemal cascade of Wilms tumour."
 ---
 
 # Wilms Tumor
@@ -840,6 +849,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Wilms carbon: carbon, as metabolic backbone of WT1 (already mapped) in nephroblastoma cells (kidney already mapped) and macrophages (already mapped), drives blastemal growth; carbon dysregulation amplifies IGF-1 (already mapped) and IL-6 (already mapped) of Wilms tumour.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Wilms chloride: chloride channels in macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulate tumour-immune homeostasis; chloride dysregulation amplifies IL-6 (already mapped) and IGF-1 (already mapped) blastemal growth cascade of Wilms tumour.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Wilms hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), quenches tumour ROS; hydrogen dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) blastemal cascade of Wilms tumour.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Wilms nitrogen: nitric oxide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; nitrogen imbalance amplifies IL-6 (already mapped) and VEGF (already mapped) and IGF-1 (already mapped) blastemal growth cascade of Wilms tumour.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Wilms sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; sulfur deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) and IGF-1 (already mapped) cascade of Wilms tumour.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Wilms phosphorus: phosphorus, as ATP precursor in macrophages (already mapped) and T-cytotoxic-cell (already mapped), fuels anti-tumour immunity; phosphorus deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) blastemal cascade of Wilms tumour.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
