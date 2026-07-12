@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "GM rankl: RANKL from intestinal epithelium (already mapped) and macrophages (already mapped) regulates mucosal immune-bone crosstalk; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome inflammation cascade."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "gut-microbiome il-2: IL-2 from T-helper cells (already mapped) and macrophages (already mapped) drives mucosal lymphocyte expansion; il-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "gut-microbiome notch: NOTCH on intestinal epithelium (already mapped) and macrophages (already mapped) regulates mucosal barrier renewal; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "gut-microbiome igf-1: IGF-1 from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal metabolic tone; igf-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
 ---
 
 # Gut Microbiome
@@ -801,6 +810,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — GM pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses gut-associated immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and intestinal epithelium (already mapped) dysbiosis cascade.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — GM angiotensin-ii: angiotensin-II from intestinal epithelium (already mapped) and macrophages (already mapped) modulates mucosal vascular tone; angiotensin-ii dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) gut-microbiome inflammation cascade.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — GM rankl: RANKL from intestinal epithelium (already mapped) and macrophages (already mapped) regulates mucosal immune-bone crosstalk; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome inflammation cascade.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — gut-microbiome il-2: IL-2 from T-helper cells (already mapped) and macrophages (already mapped) drives mucosal lymphocyte expansion; il-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — gut-microbiome notch: NOTCH on intestinal epithelium (already mapped) and macrophages (already mapped) regulates mucosal barrier renewal; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — gut-microbiome igf-1: IGF-1 from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal metabolic tone; igf-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 
 ## Pathology
 
