@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "PNH GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates thromboinflammatory tone; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) thrombotic cascade of PNH."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "PNH angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives PNH thrombotic tone; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of PNH."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "PNH wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates PNH vascular tone; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of PNH."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PNH rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes PNH immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -815,6 +824,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PNH sulfur: sulfur in cysteine residues of complement regulators CD55 and CD59 in erythrocytes (already mapped) sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PNH PD-1: PD-1 on T-cells (already mapped) in bone marrow (already mapped) modulates immune-mediated haematopoietic stem-cell suppression; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PNH GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates thromboinflammatory tone; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) thrombotic cascade of PNH.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PNH angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives PNH thrombotic tone; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of PNH.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PNH wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates PNH vascular tone; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of PNH.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PNH rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes PNH immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of PNH.
 
 ---
 
