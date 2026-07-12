@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "DS VEGF: VEGF from macrophages (already mapped) and intestinal epithelial cells (already mapped) drives mucosal angiogenesis and repair; excess VEGF amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and gut-microbiome (already mapped) dysbiosis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "DS pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses mucosal immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiotic cascade in the digestive system."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "DS angiotensin-ii: angiotensin-II from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates gut vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiosis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "DS rankl: RANKL from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates mucosal immune-epithelial crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiosis."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -824,6 +833,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Carbon](../../02-atomic/carbon/README.md) — DS carbon: carbon backbone of amino acids in intestinal epithelial cells (already mapped) and hepatocytes (already mapped) fuels mucosal repair; carbon catabolites in gut-microbiome (already mapped) dysbiosis amplify NF-κB (already mapped) and IL-6 (already mapped) inflammation.
 - **Connects to:** [Hydrogen](../../02-atomic/hydrogen/README.md) — DS hydrogen: hydrogen ions regulate pH in intestinal epithelial cells (already mapped) and macrophages (already mapped); proton gradient collapse from hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiosis.
 - **Connects to:** [VEGF](../../03-molecular/vegf/README.md) — DS VEGF: VEGF from macrophages (already mapped) and intestinal epithelial cells (already mapped) drives mucosal angiogenesis and repair; excess VEGF amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade and gut-microbiome (already mapped) dysbiosis.
+- **Connects to:** [PD-1](../../03-molecular/pd-1/README.md) — DS pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses mucosal immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiotic cascade in the digestive system.
+- **Connects to:** [Angiotensin-II](../../03-molecular/angiotensin-ii/README.md) — DS angiotensin-ii: angiotensin-II from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates gut vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiosis.
+- **Connects to:** [RANKL](../../03-molecular/rankl/README.md) — DS rankl: RANKL from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates mucosal immune-epithelial crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiosis.
 
 ## Pathology
 

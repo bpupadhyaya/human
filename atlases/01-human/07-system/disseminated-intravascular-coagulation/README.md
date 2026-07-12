@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "DIC nitrogen: nitric oxide from iNOS in macrophages (already mapped) and endothelial cells (already mapped) modulates coagulation; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) consumptive coagulopathy cascade of DIC."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "DIC carbon: carbon in nucleotides fuels macrophages (already mapped) and endothelial cells (already mapped) during coagulopathy; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive cascade of DIC."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "DIC pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses immune coagulation control; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive coagulopathy cascade of DIC."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "DIC glp-1: GLP-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic-coagulation tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive cascade of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -850,6 +859,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — DIC chloride: chloride channels on macrophages (already mapped) and neutrophils (already mapped) regulate cell signalling; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive coagulopathy cascade of DIC.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — DIC sulfur: glutathione from sulfur amino acids in macrophages (already mapped) and neutrophils (already mapped) counters oxidative injury; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) consumptive coagulopathy cascade of DIC.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — DIC nitrogen: nitric oxide from iNOS in macrophages (already mapped) and endothelial cells (already mapped) modulates coagulation; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) consumptive coagulopathy cascade of DIC.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — DIC carbon: carbon in nucleotides fuels macrophages (already mapped) and endothelial cells (already mapped) during coagulopathy; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive cascade of DIC.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — DIC pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses immune coagulation control; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive coagulopathy cascade of DIC.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — DIC glp-1: GLP-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic-coagulation tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive cascade of DIC.
 
 ---
 
