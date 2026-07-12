@@ -572,6 +572,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Measles vegf: VEGF from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular permeability; vegf excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Measles fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Measles notch: NOTCH in macrophages (already mapped) and endothelial cells (already mapped) regulates antiviral immune fate; notch dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Measles igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral metabolic repair; igf-1 excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
 ---
 
 # Measles
@@ -901,6 +910,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Measles wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates mucosal repair; wnt-beta-catenin dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Measles rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral immune activation; rankl excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Measles vegf: VEGF from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular permeability; vegf excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Measles fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Measles notch: NOTCH in macrophages (already mapped) and endothelial cells (already mapped) regulates antiviral immune fate; notch dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Measles igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral metabolic repair; igf-1 excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
