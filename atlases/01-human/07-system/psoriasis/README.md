@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "PsO wnt-beta-catenin: WNT/β-catenin on keratinocytes (already mapped) and macrophages (already mapped) drives keratinocyte proliferation; wnt-beta-catenin loss amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PsO rankl: RANKL from keratinocytes (already mapped) and macrophages (already mapped) promotes psoriatic immune activation; rankl excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PsO fibronectin: fibronectin in keratinocytes (already mapped) and macrophages (already mapped) promotes psoriatic ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PsO notch: Notch signalling on keratinocytes (already mapped) and macrophages (already mapped) regulates psoriatic keratinocyte fate; notch dysregulation amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
 ---
 
 # Psoriasis
@@ -858,6 +867,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PsO glp-1: GLP-1 from enteroendocrine cells (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory skin tone; glp-1 dysfunction amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PsO angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives skin vascular tone; angiotensin-ii excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PsO wnt-beta-catenin: WNT/β-catenin on keratinocytes (already mapped) and macrophages (already mapped) drives keratinocyte proliferation; wnt-beta-catenin loss amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PsO rankl: RANKL from keratinocytes (already mapped) and macrophages (already mapped) promotes psoriatic immune activation; rankl excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PsO fibronectin: fibronectin in keratinocytes (already mapped) and macrophages (already mapped) promotes psoriatic ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — PsO notch: Notch signalling on keratinocytes (already mapped) and macrophages (already mapped) regulates psoriatic keratinocyte fate; notch dysregulation amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
