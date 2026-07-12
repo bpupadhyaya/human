@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "FH angiotensin-II: angiotensin-II in endothelium (already mapped) and macrophages (already mapped) drives vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "FH Wnt/β-catenin: Wnt/β-catenin in foam cells (already mapped) and hepatocytes (already mapped) modulates cholesterol metabolism; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "FH RANKL: RANKL from macrophages (already mapped) and osteoclasts (already mapped) modulates the plaque bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of familial hypercholesterolemia."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "FH fibronectin: fibronectin in plaque matrix and macrophages (already mapped) modulates fibrous-cap stability; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of familial hypercholesterolemia."
 ---
 
 # Familial Hypercholesterolemia
@@ -839,6 +848,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — FH PD-1: PD-1 on plaque T-cells (already mapped) modulates immune surveillance of the atherosclerotic lesion; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) plaque cascade of familial hypercholesterolemia.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — FH GLP-1: GLP-1 from gut L-cells (already mapped) and pancreatic tissue modulates metabolic-inflammatory tone in FH; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of familial hypercholesterolemia.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — FH angiotensin-II: angiotensin-II in endothelium (already mapped) and macrophages (already mapped) drives vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — FH Wnt/β-catenin: Wnt/β-catenin in foam cells (already mapped) and hepatocytes (already mapped) modulates cholesterol metabolism; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — FH RANKL: RANKL from macrophages (already mapped) and osteoclasts (already mapped) modulates the plaque bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of familial hypercholesterolemia.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — FH fibronectin: fibronectin in plaque matrix and macrophages (already mapped) modulates fibrous-cap stability; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of familial hypercholesterolemia.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
