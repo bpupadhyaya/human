@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Gorlin pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses Hedgehog-driven tumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Gorlin glp-1: GLP-1 from macrophages (already mapped) and mast cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Gorlin angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Gorlin smad4: SMAD4 in macrophages (already mapped) and fibroblasts (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -834,6 +843,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Gorlin carbon: carbon in nucleotides of macrophages (already mapped) and mast cells (already mapped) fuels Hedgehog-driven proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Gorlin hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Gorlin pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses Hedgehog-driven tumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Gorlin glp-1: GLP-1 from macrophages (already mapped) and mast cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Gorlin angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Gorlin smad4: SMAD4 in macrophages (already mapped) and fibroblasts (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 
 ---
 
