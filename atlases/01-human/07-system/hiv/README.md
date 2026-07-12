@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "HIV nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "HIV glp-1: GLP-1 from macrophages (already mapped) and natural-killer cells (already mapped) modulates metabolic antiviral immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "HIV angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes viral tissue inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "HIV wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and natural-killer cells (already mapped) regulates antiviral signalling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
 ---
 
 # HIV
@@ -870,6 +879,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HIV carbon: carbon in nucleotides of macrophages (already mapped) and natural-killer-cells (already mapped) fuels viral replication and protein biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HIV hydrogen: hydrogen via ROS from macrophages (already mapped) and natural-killer-cells (already mapped) modulates antiviral redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HIV nitrogen: nitrogen as backbone of viral proteins and cytokines (already mapped) sustains replicative signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HIV glp-1: GLP-1 from macrophages (already mapped) and natural-killer cells (already mapped) modulates metabolic antiviral immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — HIV angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes viral tissue inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HIV wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and natural-killer cells (already mapped) regulates antiviral signalling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)
