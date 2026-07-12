@@ -550,6 +550,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "carbon metabolism in macrophage (already mapped) and mast-cell (already mapped) drives oxidative phosphorylation; carbon dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) perimysial inflammation of dermatomyositis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "dermatomyositis hydrogen: hydrogen via ROS from macrophage (already mapped) and mast-cell (already mapped) modulates perimysial oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade of dermatomyositis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "dermatomyositis glp-1: GLP-1 from macrophages (already mapped) and mast-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade of dermatomyositis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "dermatomyositis angiotensin-ii: angiotensin-II from macrophages (already mapped) and mast-cells (already mapped) modulates vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade of dermatomyositis."
 ---
 ---
 
@@ -853,6 +862,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and mast-cell (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) perimysial inflammation of dermatomyositis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen in macrophage (already mapped) and mast-cell (already mapped) drives nitric-oxide-mediated muscle inflammation; nitrogen dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) perimysial cascade of dermatomyositis.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon metabolism in macrophage (already mapped) and mast-cell (already mapped) drives oxidative phosphorylation; carbon dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) perimysial inflammation of dermatomyositis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — dermatomyositis hydrogen: hydrogen via ROS from macrophage (already mapped) and mast-cell (already mapped) modulates perimysial oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade of dermatomyositis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — dermatomyositis glp-1: GLP-1 from macrophages (already mapped) and mast-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade of dermatomyositis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — dermatomyositis angiotensin-ii: angiotensin-II from macrophages (already mapped) and mast-cells (already mapped) modulates vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade of dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

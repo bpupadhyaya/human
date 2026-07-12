@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "nitrogen, as nitric oxide (already mapped) precursor in macrophage (already mapped) and endothelial cell (already mapped), modulates antiviral innate immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of dengue fever."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "dengue carbon: carbon in nucleotides fuels macrophage (already mapped) and endothelial cell (already mapped) viral replication; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "dengue oxygen: oxygen via ROS from macrophage (already mapped) and endothelial cell (already mapped) modulates viral cytopathology; oxygen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "dengue pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses antiviral immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever."
 ---
 
 # Dengue Fever
@@ -823,3 +832,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and endothelial cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and endothelial cell (already mapped), counters NS1-driven ROS; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen, as nitric oxide (already mapped) precursor in macrophage (already mapped) and endothelial cell (already mapped), modulates antiviral innate immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of dengue fever.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — dengue carbon: carbon in nucleotides fuels macrophage (already mapped) and endothelial cell (already mapped) viral replication; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — dengue oxygen: oxygen via ROS from macrophage (already mapped) and endothelial cell (already mapped) modulates viral cytopathology; oxygen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — dengue pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses antiviral immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
