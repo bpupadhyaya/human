@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "SLE GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and T-cells (already mapped) modulates metabolic-immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-I interferon (already mapped) cascade of SLE."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "SLE angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives glomerular inflammation; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SLE."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "SLE wnt-beta-catenin: WNT/β-catenin on T-cells (already mapped) and macrophages (already mapped) regulates autoimmune lymphocyte activation; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SLE."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "SLE rankl: RANKL from macrophages (already mapped) and T-cells (already mapped) promotes autoimmune bone remodelling; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SLE."
 ---
 
 # Systemic Lupus Erythematosus
@@ -855,6 +864,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SLE oxygen: reactive oxygen species in macrophages (already mapped) and neutrophils (already mapped) drive lupus-related oxidative damage; oxygen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-I interferon (already mapped) cascade of SLE.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SLE PD-1: PD-1 checkpoint signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-I interferon (already mapped) cascade of SLE.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SLE GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and T-cells (already mapped) modulates metabolic-immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-I interferon (already mapped) cascade of SLE.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — SLE angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives glomerular inflammation; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of SLE.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SLE wnt-beta-catenin: WNT/β-catenin on T-cells (already mapped) and macrophages (already mapped) regulates autoimmune lymphocyte activation; wnt-beta-catenin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of SLE.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SLE rankl: RANKL from macrophages (already mapped) and T-cells (already mapped) promotes autoimmune bone remodelling; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of SLE.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)

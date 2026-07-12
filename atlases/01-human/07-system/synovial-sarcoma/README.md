@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "SS GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells modulates metabolic-immune balance; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "SS angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives tumour angiogenesis; angiotensin-ii excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "SS rankl: RANKL from macrophages (already mapped) and tumour cells (already mapped) promotes bone remodelling in synovial sarcoma; rankl excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "SS fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds synovial sarcoma ECM; fibronectin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -849,6 +858,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SS nitrogen: nitric oxide from macrophages (already mapped) and tumor-associated endothelial cells modulates vascular tone; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth cascade of synovial sarcoma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SS sulfur: hydrogen sulfide from macrophages (already mapped) and endothelial cells modulates tumour vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SS GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells modulates metabolic-immune balance; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — SS angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives tumour angiogenesis; angiotensin-ii excess amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SS rankl: RANKL from macrophages (already mapped) and tumour cells (already mapped) promotes bone remodelling in synovial sarcoma; rankl excess amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SS fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds synovial sarcoma ECM; fibronectin excess amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of synovial sarcoma.
 
 ---
 
