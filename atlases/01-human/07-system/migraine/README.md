@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Migraine il-2: IL-2 from microglia (already mapped) and t-cytotoxic cells (already mapped) regulates neuroinflammatory immune tone; il-2 dysregulation amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Migraine fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes trigeminal ECM remodelling; fibronectin excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Migraine notch: Notch signalling on microglia (already mapped) and astrocytes (already mapped) regulates neuroinflammatory fate; notch dysregulation amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Migraine igf-1: IGF-1 from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory neuroprotection; igf-1 dysregulation amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
 ---
 
 # Migraine
@@ -884,6 +893,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Migraine rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes trigeminal neuroinflammation; rankl excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Migraine smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) neuroinflammatory cascade of migraine.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Migraine il-2: IL-2 from microglia (already mapped) and t-cytotoxic cells (already mapped) regulates neuroinflammatory immune tone; il-2 dysregulation amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Migraine fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes trigeminal ECM remodelling; fibronectin excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Migraine notch: Notch signalling on microglia (already mapped) and astrocytes (already mapped) regulates neuroinflammatory fate; notch dysregulation amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Migraine igf-1: IGF-1 from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory neuroprotection; igf-1 dysregulation amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)

@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "MM fibronectin: fibronectin in macrophages (already mapped) and osteoblasts (already mapped) anchors bone-marrow tumour matrix; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "MM igf-1: IGF-1 from macrophages (already mapped) and osteoblasts (already mapped) promotes myeloma cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "MM activin-a: activin-A from macrophages (already mapped) and osteoblasts (already mapped) drives myeloma bone fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "MM cgrp: CGRP from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
 ---
 
 # Multiple Myeloma
@@ -872,6 +881,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MM angiotensin-ii: angiotensin-II from macrophages (already mapped) and osteoblasts (already mapped) drives vascular remodelling in bone marrow; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MM wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and plasma cells (already mapped) regulates myeloma proliferation; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MM fibronectin: fibronectin in macrophages (already mapped) and osteoblasts (already mapped) anchors bone-marrow tumour matrix; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MM igf-1: IGF-1 from macrophages (already mapped) and osteoblasts (already mapped) promotes myeloma cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MM activin-a: activin-A from macrophages (already mapped) and osteoblasts (already mapped) drives myeloma bone fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MM cgrp: CGRP from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
