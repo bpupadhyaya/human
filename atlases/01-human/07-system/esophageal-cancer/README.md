@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "esophageal sulfur: sulfur-containing glutathione in macrophages (already mapped) and mast cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of esophageal cancer."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "esophageal-cancer glp-1: GLP-1 from macrophages (already mapped) and esophageal cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "esophageal-cancer angiotensin-ii: angiotensin II on esophageal cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "esophageal-cancer wnt-beta-catenin: WNT/β-catenin on esophageal cells (already mapped) and macrophages (already mapped) promotes progression; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -861,6 +870,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — esophageal hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — esophageal oxygen: oxygen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates oxidative stress; oxygen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — esophageal sulfur: sulfur-containing glutathione in macrophages (already mapped) and mast cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of esophageal cancer.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — esophageal-cancer glp-1: GLP-1 from macrophages (already mapped) and esophageal cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — esophageal-cancer angiotensin-ii: angiotensin II on esophageal cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — esophageal-cancer wnt-beta-catenin: WNT/β-catenin on esophageal cells (already mapped) and macrophages (already mapped) promotes progression; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
 
 ---
 
