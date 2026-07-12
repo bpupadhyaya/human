@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "HAE sulfur: sulfur in disulfide bonds of C1-esterase-inhibitor (already mapped) and bradykinin (already mapped) precursors stabilises their conformations; sulfur-derived ROS in mast cells (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) in HAE."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HAE hydrogen: hydrogen via ROS from mast cells (already mapped) and macrophages (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and bradykinin (already mapped) cascade in HAE."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "HAE pd-1: PD-1 on T-cytotoxic cells (already mapped) and mast cells (already mapped) suppresses kinin-complement immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and bradykinin (already mapped) cascade in HAE."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "HAE glp-1: GLP-1 from neurons (already mapped) and mast cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and bradykinin (already mapped) kinin-complement cascade in HAE."
 ---
 
 # Hereditary Angioedema
@@ -854,6 +863,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HAE carbon: carbon as backbone of bradykinin (already mapped) and C1-esterase-inhibitor (already mapped) sustains kinin-complement signalling; carbon-derived metabolites in mast cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in HAE.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HAE nitrogen: nitrogen as backbone of bradykinin (already mapped) and C1-esterase-inhibitor (already mapped) sustains kinin-complement signalling; nitrogen-derived RNS from mast cells (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) in HAE.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HAE sulfur: sulfur in disulfide bonds of C1-esterase-inhibitor (already mapped) and bradykinin (already mapped) precursors stabilises their conformations; sulfur-derived ROS in mast cells (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) in HAE.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HAE hydrogen: hydrogen via ROS from mast cells (already mapped) and macrophages (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and bradykinin (already mapped) cascade in HAE.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — HAE pd-1: PD-1 on T-cytotoxic cells (already mapped) and mast cells (already mapped) suppresses kinin-complement immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and bradykinin (already mapped) cascade in HAE.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HAE glp-1: GLP-1 from neurons (already mapped) and mast cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and bradykinin (already mapped) kinin-complement cascade in HAE.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

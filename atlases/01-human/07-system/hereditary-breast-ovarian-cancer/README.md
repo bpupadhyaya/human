@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "HBOC phosphorus: phosphorus as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HBOC carbon: carbon in nucleotides of macrophages (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) cascade in HBOC."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "HBOC chloride: chloride channels on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulate ionic anti-tumour signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) cascade in HBOC."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HBOC hydrogen: hydrogen via ROS from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) cascade in HBOC."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -847,6 +856,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HBOC potassium: potassium regulates macrophage (already mapped) and T-cytotoxic (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting cascade in HBOC.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — HBOC zinc: zinc cofactors macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) tumour-promoting inflammatory cascade in HBOC.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HBOC phosphorus: phosphorus as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HBOC carbon: carbon in nucleotides of macrophages (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) cascade in HBOC.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HBOC chloride: chloride channels on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulate ionic anti-tumour signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) cascade in HBOC.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HBOC hydrogen: hydrogen via ROS from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) cascade in HBOC.
 
 ---
 
