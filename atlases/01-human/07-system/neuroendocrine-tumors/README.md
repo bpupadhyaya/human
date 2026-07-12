@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "NET cgrp: CGRP from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "NET substance-p: substance-P from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "NET insulin-receptor: insulin receptor on fibroblasts (already mapped) and endothelial cells (already mapped) drives tumour metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "NET aldosterone: aldosterone from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
 ---
 
 # Neuroendocrine Tumors
@@ -852,6 +861,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NET igf-1: IGF-1 from fibroblasts (already mapped) and endothelial cells (already mapped) promotes neuroendocrine tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NET activin-a: activin-A from fibroblasts (already mapped) and endothelial cells (already mapped) drives neuroendocrine tumour fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — NET cgrp: CGRP from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — NET substance-p: substance-P from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — NET insulin-receptor: insulin receptor on fibroblasts (already mapped) and endothelial cells (already mapped) drives tumour metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — NET aldosterone: aldosterone from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
