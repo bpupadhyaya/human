@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "SjS cgrp: CGRP from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates glandular vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "SjS calcitonin: calcitonin from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "SjS substance-p: substance P from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "SjS insulin-receptor: insulin receptor on macrophages (already mapped) and glandular epithelial cells (already mapped) drives metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
 ---
 
 # Sjögren's Syndrome
@@ -885,6 +894,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SjS activin-a: activin-A from macrophages (already mapped) and glandular epithelial cells (already mapped) drives glandular fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — SjS tgf-beta: TGF-β from macrophages (already mapped) and glandular epithelial cells (already mapped) drives glandular fibrosis; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — SjS cgrp: CGRP from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates glandular vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — SjS calcitonin: calcitonin from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — SjS substance-p: substance P from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — SjS insulin-receptor: insulin receptor on macrophages (already mapped) and glandular epithelial cells (already mapped) drives metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
 
 ---
 
