@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "T1D oxygen: mitochondrial ROS in beta cells (pancreas already mapped) and macrophages (already mapped) amplifies autoimmune destruction; oxygen dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) insulitis cascade of T1D."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "T1D angiotensin-II: angiotensin-II signalling in beta-cells (already mapped) and macrophages (already mapped) promotes islet inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of type 1 diabetes."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "T1D Wnt/β-catenin: Wnt/β-catenin signalling in beta-cells (already mapped) and macrophages (already mapped) modulates islet immune homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of type 1 diabetes."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "T1D RANKL: RANKL signalling in macrophages (already mapped) and beta-cells (already mapped) modulates islet bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -815,6 +824,9 @@ cross_links:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — T1D carbon: carbon, as metabolic backbone of beta-cell (pancreas already mapped) lipid membranes and insulin (already mapped) structure, drives autoimmune targeting; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) insulitis of T1D.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — T1D nitrogen: nitric oxide from iNOS in macrophages (already mapped) and T-cytotoxic-cell (already mapped) mediates beta-cell (pancreas already mapped) apoptosis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) insulitis of T1D.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — T1D oxygen: mitochondrial ROS in beta cells (pancreas already mapped) and macrophages (already mapped) amplifies autoimmune destruction; oxygen dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) insulitis cascade of T1D.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — T1D angiotensin-II: angiotensin-II signalling in beta-cells (already mapped) and macrophages (already mapped) promotes islet inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of type 1 diabetes.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — T1D Wnt/β-catenin: Wnt/β-catenin signalling in beta-cells (already mapped) and macrophages (already mapped) modulates islet immune homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of type 1 diabetes.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — T1D RANKL: RANKL signalling in macrophages (already mapped) and beta-cells (already mapped) modulates islet bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "TSC hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and astrocytes (already mapped), quenches ROS from mTOR (already mapped) overactivation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) seizure cascade of TSC."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "TSC nitrogen: nitric oxide from macrophages (already mapped) and neurons (already mapped) modulates mTOR-driven vascular tone; nitrogen imbalance amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of tuberous sclerosis complex."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "TSC oxygen: reactive oxygen species in macrophages (already mapped) and neurons (already mapped) drive mTOR-linked oxidative stress; oxygen imbalance amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of tuberous sclerosis complex."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "TSC sulfur: hydrogen sulfide from macrophages (already mapped) and neurons (already mapped) modulates mTOR-driven vascular tone; sulfur deficiency amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of tuberous sclerosis complex."
 ---
 
 # Tuberous Sclerosis Complex
@@ -851,6 +860,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — TSC carbon: carbon, as metabolic backbone of mTOR (already mapped) lipid synthesis in neurons (already mapped) and astrocytes (already mapped), drives hamartoma growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of TSC.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — TSC chloride: chloride channels in neurons (already mapped) and astrocytes (already mapped) modulate seizure threshold; chloride dysregulation amplifies mTOR (already mapped) and NF-κB (already mapped) cortical excitability and hamartoma cascade of TSC.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — TSC hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and astrocytes (already mapped), quenches ROS from mTOR (already mapped) overactivation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) seizure cascade of TSC.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — TSC nitrogen: nitric oxide from macrophages (already mapped) and neurons (already mapped) modulates mTOR-driven vascular tone; nitrogen imbalance amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of tuberous sclerosis complex.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — TSC oxygen: reactive oxygen species in macrophages (already mapped) and neurons (already mapped) drive mTOR-linked oxidative stress; oxygen imbalance amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of tuberous sclerosis complex.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — TSC sulfur: hydrogen sulfide from macrophages (already mapped) and neurons (already mapped) modulates mTOR-driven vascular tone; sulfur deficiency amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of tuberous sclerosis complex.
 
 ---
 
