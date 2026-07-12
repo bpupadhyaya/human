@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "BHD zinc: zinc metalloprotease activity in fibroblast (already mapped) and macrophage (already mapped) modulates autophagy (already mapped); zinc deficiency disrupts AMPK (already mapped) and mTOR (already mapped) and PTEN (already mapped) signalling in Birt-Hogg-Dubé syndrome."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "BHD carbon: carbon backbone of lipids in type-ii-pneumocytes (already mapped) and fibroblasts (already mapped) sustains tumour metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour progression in BHD."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "BHD chloride: chloride channels in macrophages (already mapped) and endothelial cells (already mapped) modulate tumour microenvironment; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour cascade in BHD."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "BHD hydrogen: hydrogen via ROS balance in macrophages (already mapped) and fibroblasts (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -852,6 +861,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — BHD iodine: iodine-dependent thyroid hormones in macrophage (already mapped) and fibroblast (already mapped) regulate mTOR (already mapped) signalling; iodine deficiency disrupts HIF-1α (already mapped) and FLCN (already mapped) cascade in Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — BHD copper: copper-dependent cuproenzymes in fibroblast (already mapped) and macrophage (already mapped) support collagen (already mapped) remodelling; copper excess amplifies mTOR (already mapped) and AKT (already mapped) cascade in Birt-Hogg-Dubé syndrome.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — BHD zinc: zinc metalloprotease activity in fibroblast (already mapped) and macrophage (already mapped) modulates autophagy (already mapped); zinc deficiency disrupts AMPK (already mapped) and mTOR (already mapped) and PTEN (already mapped) signalling in Birt-Hogg-Dubé syndrome.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — BHD carbon: carbon backbone of lipids in type-ii-pneumocytes (already mapped) and fibroblasts (already mapped) sustains tumour metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour progression in BHD.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BHD chloride: chloride channels in macrophages (already mapped) and endothelial cells (already mapped) modulate tumour microenvironment; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour cascade in BHD.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — BHD hydrogen: hydrogen via ROS balance in macrophages (already mapped) and fibroblasts (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 
 ---
 
