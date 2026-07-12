@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "SSc fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes ECM accumulation; fibronectin excess amplifies NF-κB (already mapped) and angiotensin-II (already mapped) and IL-6 (already mapped) fibrotic cascade of systemic sclerosis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "SSc notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) regulates dermal fibrotic remodelling; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tgf-beta (already mapped) fibrotic cascade of systemic sclerosis."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "SSc igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes dermal fibroblast proliferation; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tgf-beta (already mapped) fibrotic cascade of systemic sclerosis."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "SSc activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates fibrotic ECM remodelling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tgf-beta (already mapped) fibrotic cascade of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -845,6 +854,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SSc RANKL: RANKL signalling in macrophages (already mapped) and fibroblasts (already mapped) modulates bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and angiotensin-II (already mapped) and IL-6 (already mapped) fibrotic cascade of systemic sclerosis.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — SSc IL-2: IL-2 signalling in T-cells (already mapped) and fibroblasts (already mapped) modulates immune homeostasis; IL-2 deficiency amplifies NF-κB (already mapped) and angiotensin-II (already mapped) and IL-6 (already mapped) fibrotic cascade of systemic sclerosis.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SSc fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes ECM accumulation; fibronectin excess amplifies NF-κB (already mapped) and angiotensin-II (already mapped) and IL-6 (already mapped) fibrotic cascade of systemic sclerosis.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — SSc notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) regulates dermal fibrotic remodelling; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of systemic sclerosis.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SSc igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes dermal fibroblast proliferation; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of systemic sclerosis.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SSc activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates fibrotic ECM remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
