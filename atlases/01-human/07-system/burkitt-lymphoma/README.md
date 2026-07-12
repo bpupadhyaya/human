@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "burkitt glp-1: GLP-1 from macrophages (already mapped) and b-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "burkitt angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and MYC (already mapped) and VEGF (already mapped) tumour cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "burkitt wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) regulates lymphoma proliferation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "burkitt rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-immune lymphoma axis; RANKL excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -858,6 +867,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — burkitt carbon: carbon backbone of nucleotides in b-cells (already mapped) and macrophages (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and BCL-2 (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — burkitt oxygen: oxygen via ROS from macrophages (already mapped) and b-cells (already mapped) modulates oxidative stress; oxygen excess amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — burkitt glp-1: GLP-1 from macrophages (already mapped) and b-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — burkitt angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and MYC (already mapped) and VEGF (already mapped) tumour cascade in Burkitt lymphoma.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — burkitt wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) regulates lymphoma proliferation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — burkitt rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-immune lymphoma axis; RANKL excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma.
 
 ---
 

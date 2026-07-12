@@ -534,6 +534,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "cannabis nitrogen: nitrogen in DNA bases in neurons (already mapped) and microglia (already mapped) sustains neurotransmitter synthesis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "cannabis pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward dysregulation in cannabis use disorder."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "cannabis angiotensin-ii: angiotensin II on astrocytes (already mapped) and microglia (already mapped) modulates cerebrovascular tone; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "cannabis wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates plasticity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade in cannabis use disorder."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -861,6 +870,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — cannabis carbon: carbon in nucleotides in neurons (already mapped) and microglia (already mapped) fuels synaptic plasticity; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade in cannabis use disorder.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — cannabis hydrogen: hydrogen via ROS from microglia (already mapped) and neurons (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory cascade in cannabis use disorder.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — cannabis nitrogen: nitrogen in DNA bases in neurons (already mapped) and microglia (already mapped) sustains neurotransmitter synthesis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — cannabis pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward dysregulation in cannabis use disorder.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — cannabis angiotensin-ii: angiotensin II on astrocytes (already mapped) and microglia (already mapped) modulates cerebrovascular tone; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — cannabis wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates plasticity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade in cannabis use disorder.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)
