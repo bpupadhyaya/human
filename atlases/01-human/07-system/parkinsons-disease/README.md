@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "PD VEGF: VEGF from microglia (already mapped) and astrocytes sustains nigrostriatal neurovascular integrity; VEGF dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Parkinson's disease."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "PD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates dopaminergic synapse maintenance; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of PD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory immune activation; rankl excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) neuroinflammatory cascade of PD."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "PD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotective repair; smad4 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) neuroinflammatory cascade of PD."
 ---
 
 # Parkinson's Disease
@@ -870,6 +879,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PD oxygen: oxygen, via mitochondrial respiration in dopaminergic neurons and microglia (already mapped), sustains dopamine (already mapped) synthesis; oxygen depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) nigrostriatal cascade of Parkinson's disease.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD PD-1: PD-1 on T-cells (already mapped) and microglia (already mapped) in the substantia nigra modulates neuroinflammatory tone; PD-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) α-synuclein cascade of Parkinson's disease.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — PD VEGF: VEGF from microglia (already mapped) and astrocytes sustains nigrostriatal neurovascular integrity; VEGF dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Parkinson's disease.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates dopaminergic synapse maintenance; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of PD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory immune activation; rankl excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) neuroinflammatory cascade of PD.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — PD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotective repair; smad4 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) neuroinflammatory cascade of PD.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
