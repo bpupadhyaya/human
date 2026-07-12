@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "MCL angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblasts (already mapped) drives tumour vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) cascade of MCL."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "MCL wnt-beta-catenin: WNT/β-catenin in B-cells (already mapped) and macrophages (already mapped) drives lymphoma clonal expansion; wnt-beta-catenin dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) cascade of MCL."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "MCL rankl: RANKL in macrophages (already mapped) and fibroblasts (already mapped) modulates MCL bone-immune axis; RANKL excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "MCL fibronectin: Fibronectin in fibroblasts (already mapped) and B-cells (already mapped) scaffolds lymphoma ECM; fibronectin excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL."
 ---
 
 # Mantle Cell Lymphoma
@@ -857,6 +866,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MCL pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates lymphoma immune evasion; pd-1 dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) B-cell lymphoma cascade of MCL.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MCL glp-1: GLP-1 from macrophages (already mapped) and natural killer cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) cascade of mantle cell lymphoma.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MCL angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblasts (already mapped) drives tumour vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) cascade of MCL.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MCL wnt-beta-catenin: WNT/β-catenin in B-cells (already mapped) and macrophages (already mapped) drives lymphoma clonal expansion; wnt-beta-catenin dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) cascade of MCL.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MCL rankl: RANKL in macrophages (already mapped) and fibroblasts (already mapped) modulates MCL bone-immune axis; RANKL excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MCL fibronectin: Fibronectin in fibroblasts (already mapped) and B-cells (already mapped) scaffolds lymphoma ECM; fibronectin excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL.
 
 ---
 
