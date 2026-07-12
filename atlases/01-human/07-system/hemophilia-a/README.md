@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "HA phosphorus: phosphorus as ATP in hepatocytes (already mapped) and endothelial cells (already mapped) fuels coagulation-protein synthesis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) in HA."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HA carbon: carbon in nucleotides of hepatocytes (already mapped) and endothelial cells (already mapped) fuels coagulation-factor biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA."
+  - target: 01-human/02-atomic/copper
+    relation: connects-to
+    note: "HA copper: copper cofactors ceruloplasmin and lysyl oxidase in hepatocytes (already mapped) and endothelial cells (already mapped) support coagulation matrix; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) in HA."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HA hydrogen: hydrogen via ROS from macrophages (already mapped) and endothelial cells (already mapped) modulates haemostatic redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA."
 ---
 
 # Hemophilia A
@@ -840,6 +849,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HA chloride: chloride channels regulate hepatocyte (already mapped) and endothelial cell (already mapped) volume and ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HA nitrogen: nitrogen as backbone of coagulation proteins and cytokines (already mapped) sustains haemostatic signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory bleeding cascade in HA.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HA phosphorus: phosphorus as ATP in hepatocytes (already mapped) and endothelial cells (already mapped) fuels coagulation-protein synthesis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) in HA.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HA carbon: carbon in nucleotides of hepatocytes (already mapped) and endothelial cells (already mapped) fuels coagulation-factor biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA.
+- `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — HA copper: copper cofactors ceruloplasmin and lysyl oxidase in hepatocytes (already mapped) and endothelial cells (already mapped) support coagulation matrix; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) in HA.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HA hydrogen: hydrogen via ROS from macrophages (already mapped) and endothelial cells (already mapped) modulates haemostatic redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and impairs thrombin (already mapped) generation in HA.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

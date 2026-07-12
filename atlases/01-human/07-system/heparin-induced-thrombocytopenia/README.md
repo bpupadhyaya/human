@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "HIT sulfur: sulfur in disulfide bonds of PF4 (already mapped) and thrombin (already mapped) stabilises their prothrombotic conformations; sulfur-derived ROS in platelets (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in HIT."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HIT hydrogen: hydrogen via ROS from platelets (already mapped) and endothelial cells (already mapped) modulates prothrombotic oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PF4 (already mapped) prothrombotic cascade in HIT."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "HIT glp-1: GLP-1 from platelets (already mapped) and endothelial cells (already mapped) modulates thrombotic-metabolic tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and PF4 (already mapped) and thrombin (already mapped) cascade in HIT."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "HIT angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and platelets (already mapped) modulates vascular tone in HIT; angiotensin-ii dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PF4 (already mapped) thrombotic cascade in HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -863,6 +872,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HIT carbon: carbon as backbone of PF4 (already mapped) and thrombin (already mapped) proteins anchors prothrombotic signalling; carbon-derived metabolites in platelets (already mapped) and endothelial cells (already mapped) amplify NF-κB (already mapped) cascade in HIT.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HIT nitrogen: nitrogen as backbone of PF4 (already mapped) and thrombin (already mapped) sustains prothrombotic signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) endothelial damage in HIT.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HIT sulfur: sulfur in disulfide bonds of PF4 (already mapped) and thrombin (already mapped) stabilises their prothrombotic conformations; sulfur-derived ROS in platelets (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in HIT.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HIT hydrogen: hydrogen via ROS from platelets (already mapped) and endothelial cells (already mapped) modulates prothrombotic oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PF4 (already mapped) prothrombotic cascade in HIT.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HIT glp-1: GLP-1 from platelets (already mapped) and endothelial cells (already mapped) modulates thrombotic-metabolic tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and PF4 (already mapped) and thrombin (already mapped) cascade in HIT.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — HIT angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and platelets (already mapped) modulates vascular tone in HIT; angiotensin-ii dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PF4 (already mapped) thrombotic cascade in HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
