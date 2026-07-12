@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "EC chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "esophageal hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "esophageal oxygen: oxygen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates oxidative stress; oxygen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "esophageal sulfur: sulfur-containing glutathione in macrophages (already mapped) and mast cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of esophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -849,6 +858,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — EC calcium: calcium regulates macrophage (already mapped) and T-cytotoxic (already mapped) immune activation; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of esophageal cancer.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — EC phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels tumour-stromal signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of esophageal cancer.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — EC chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic balance; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — esophageal hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — esophageal oxygen: oxygen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates oxidative stress; oxygen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of esophageal cancer.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — esophageal sulfur: sulfur-containing glutathione in macrophages (already mapped) and mast cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of esophageal cancer.
 
 ---
 

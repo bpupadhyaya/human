@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "ET nitrogen: nitric oxide from iNOS in macrophages (already mapped) and neutrophils (already mapped) modulates platelet activation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of ET."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "ET carbon: carbon in nucleotides fuels macrophages (already mapped) and neutrophils (already mapped) megakaryoproliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of ET."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "ET hydrogen: hydrogen via ROS from macrophages (already mapped) and neutrophils (already mapped) modulates megakaryocyte oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of ET."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "ET sulfur: sulfur-containing glutathione in macrophages (already mapped) and neutrophils (already mapped) counters ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) megakaryoproliferative cascade of ET."
 ---
 
 # Essential Thrombocythemia
@@ -829,6 +838,9 @@ Management:
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — ET phosphorus: phosphorus, as ATP in macrophages (already mapped) and neutrophils (already mapped), fuels megakaryocyte-platelet signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of ET.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — ET chloride: chloride channels on macrophages (already mapped) and neutrophils (already mapped) regulate ionic homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) megakaryoproliferative cascade of ET.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — ET nitrogen: nitric oxide from iNOS in macrophages (already mapped) and neutrophils (already mapped) modulates platelet activation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of ET.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ET carbon: carbon in nucleotides fuels macrophages (already mapped) and neutrophils (already mapped) megakaryoproliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of ET.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ET hydrogen: hydrogen via ROS from macrophages (already mapped) and neutrophils (already mapped) modulates megakaryocyte oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of ET.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — ET sulfur: sulfur-containing glutathione in macrophages (already mapped) and neutrophils (already mapped) counters ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) megakaryoproliferative cascade of ET.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
