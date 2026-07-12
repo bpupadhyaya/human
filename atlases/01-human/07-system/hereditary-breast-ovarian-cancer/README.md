@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "HBOC hydrogen: hydrogen via ROS from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "HBOC glp-1: GLP-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) anti-tumour cascade in HBOC."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "HBOC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BRCA1 (already mapped) anti-tumour cascade in HBOC."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "HBOC wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates tumour immune tone; wnt-beta-catenin dysregulation amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -859,6 +868,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HBOC carbon: carbon in nucleotides of macrophages (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) cascade in HBOC.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HBOC chloride: chloride channels on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulate ionic anti-tumour signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) cascade in HBOC.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HBOC hydrogen: hydrogen via ROS from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-helper-cell (already mapped) cascade in HBOC.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HBOC glp-1: GLP-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) anti-tumour cascade in HBOC.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — HBOC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BRCA1 (already mapped) anti-tumour cascade in HBOC.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HBOC wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates tumour immune tone; wnt-beta-catenin dysregulation amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 
 ---
 

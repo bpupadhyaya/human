@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "HDGC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane potential in tumour microenvironment; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "HDGC glp-1: GLP-1 from macrophages (already mapped) and mast cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) anti-tumour cascade in HDGC."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "HDGC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "HDGC rankl: RANKL from macrophages (already mapped) and mast cells (already mapped) regulates bone-immune crosstalk; rankl dysregulation amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) anti-tumour cascade in HDGC."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -831,6 +840,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HDGC carbon: carbon in nucleotides of macrophages (already mapped) and mast cells (already mapped) fuels tumour epithelial proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HDGC hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour cascade in HDGC.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HDGC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane potential in tumour microenvironment; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HDGC glp-1: GLP-1 from macrophages (already mapped) and mast cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) anti-tumour cascade in HDGC.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — HDGC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HDGC rankl: RANKL from macrophages (already mapped) and mast cells (already mapped) regulates bone-immune crosstalk; rankl dysregulation amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) anti-tumour cascade in HDGC.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
