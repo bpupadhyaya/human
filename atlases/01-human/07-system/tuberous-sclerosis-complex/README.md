@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "TSC angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives hamartoma angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "TSC wnt-beta-catenin: WNT/β-catenin on fibroblasts (already mapped) and endothelial cells (already mapped) regulates hamartoma tissue growth; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "TSC rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes TSC-associated bone remodelling; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "TSC il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates TSC immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) hamartoma cascade of tuberous sclerosis complex."
 ---
 
 # Tuberous Sclerosis Complex
@@ -875,6 +884,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — TSC pd-1: PD-1 on T-cells (already mapped) and macrophages (already mapped) modulates anti-tumour immune surveillance; pd-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) hamartoma cascade of tuberous sclerosis complex.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — TSC glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC metabolic-inflammatory tone; glp-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) hamartoma cascade of tuberous sclerosis complex.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — TSC angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives hamartoma angiogenesis; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — TSC wnt-beta-catenin: WNT/β-catenin on fibroblasts (already mapped) and endothelial cells (already mapped) regulates hamartoma tissue growth; wnt-beta-catenin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — TSC rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes TSC-associated bone remodelling; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — TSC il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates TSC immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) hamartoma cascade of tuberous sclerosis complex.
 
 ---
 
