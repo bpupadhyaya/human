@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "HNSCC glp-1: GLP-1 from neurons (already mapped) and mast cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "HNSCC angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "HNSCC wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and tumour cells (already mapped) regulates invasion; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "HNSCC rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes tumour immune evasion; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
 ---
 
 # HNSCC
@@ -838,6 +847,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HNSCC hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HNSCC sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HNSCC glp-1: GLP-1 from neurons (already mapped) and mast cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — HNSCC angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HNSCC wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and tumour cells (already mapped) regulates invasion; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HNSCC rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes tumour immune evasion; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
