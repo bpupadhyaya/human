@@ -545,6 +545,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "Reproductive fibronectin: fibronectin in endometrial and ovarian extracellular matrix sustains reproductive tissue homeostasis; fibronectin dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Rep CGRP: CGRP from uterine sensory neurons and ovarian endothelium modulates reproductive vascular tone; CGRP deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of the reproductive system."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Rep calcitonin: calcitonin from C-cells and placental tissue modulates reproductive calcium homeostasis; calcitonin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Rep substance-P: substance-P from uterine sensory fibres and mast cells modulates reproductive neurogenic inflammation; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
 ---
 
 # Reproductive System
@@ -836,6 +845,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Reproductive RANKL: RANKL signalling in osteoclasts (already mapped) and reproductive stromal cells sustains bone-reproductive axis crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Reproductive IL-2: IL-2 T-cell signalling in reproductive tissue macrophages (already mapped) maintains immune tolerance; IL-2 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of the reproductive system.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Reproductive fibronectin: fibronectin in endometrial and ovarian extracellular matrix sustains reproductive tissue homeostasis; fibronectin dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of the reproductive system.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Rep CGRP: CGRP from uterine sensory neurons and ovarian endothelium modulates reproductive vascular tone; CGRP deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of the reproductive system.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Rep calcitonin: calcitonin from C-cells and placental tissue modulates reproductive calcium homeostasis; calcitonin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Rep substance-P: substance-P from uterine sensory fibres and mast cells modulates reproductive neurogenic inflammation; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 
 ## Pathology
 

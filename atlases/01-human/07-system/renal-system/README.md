@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "RS IGF-1: IGF-1 receptor signalling in renal tubular cells and glomerular cells sustains renal growth and repair; IGF-1 deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of the renal system."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "RS CGRP: CGRP from renal sensory neurons and endothelium modulates renal vascular tone and inflammation; CGRP deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of the renal system."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "RS calcitonin: calcitonin from C-cells and renal tubular cells modulates calcium-phosphate balance; calcitonin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mineral-loss cascade of the renal system."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "RS substance-P: substance-P from renal sensory fibres and mast cells modulates neurogenic inflammation; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) pain-fibrotic cascade of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -830,6 +839,9 @@ Natriuretic counterpoint:
 - **Connects to:** [Fibronectin](../../03-molecular/fibronectin/README.md) — RS fibronectin: fibronectin in glomerular basement membrane and renal interstitium sustains structural homeostasis; fibronectin dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) fibrotic cascade of the renal system.
 - **Connects to:** [Activin-A](../../03-molecular/activin-a/README.md) — RS activin-A: activin-A signalling in renal tubular cells and macrophages (already mapped) modulates inflammatory and fibrotic responses; activin-A excess amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of the renal system.
 - **Connects to:** [IGF-1](../../03-molecular/igf-1/README.md) — RS IGF-1: IGF-1 receptor signalling in renal tubular cells and glomerular cells sustains renal growth and repair; IGF-1 deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of the renal system.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — RS CGRP: CGRP from renal sensory neurons and endothelium modulates renal vascular tone and inflammation; CGRP deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of the renal system.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RS calcitonin: calcitonin from C-cells and renal tubular cells modulates calcium-phosphate balance; calcitonin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mineral-loss cascade of the renal system.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — RS substance-P: substance-P from renal sensory fibres and mast cells modulates neurogenic inflammation; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) pain-fibrotic cascade of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
