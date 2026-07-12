@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "T2D Wnt/β-catenin: Wnt signalling in hepatocytes (already mapped) and adipocytes (already mapped) regulates glucose metabolism; Wnt dysregulation amplifies NF-κB (already mapped) and AMPK (already mapped) and GLP-1 (already mapped) resistance cascade of T2D."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "T2D hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and adipocytes (already mapped), quenches metabolic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) cascade of type 2 diabetes."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "T2D RANKL: RANKL signalling in macrophages (already mapped) and adipocytes (already mapped) modulates metabolic bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) cascade of type 2 diabetes."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "T2D IL-2: IL-2 signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune tolerance; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) cascade of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -822,6 +831,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — T2D PD-1: PD-1 on macrophages (already mapped) and T-helper-cell (already mapped) modulates adipose immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and GLP-1 (already mapped) resistance cascade of T2D.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — T2D angiotensin-II: angiotensin-II in hepatocytes (already mapped) and adipocytes (already mapped) promotes insulin resistance via RAAS; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of T2D.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — T2D Wnt/β-catenin: Wnt signalling in hepatocytes (already mapped) and adipocytes (already mapped) regulates glucose metabolism; Wnt dysregulation amplifies NF-κB (already mapped) and AMPK (already mapped) and GLP-1 (already mapped) resistance cascade of T2D.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — T2D hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and adipocytes (already mapped), quenches metabolic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) cascade of type 2 diabetes.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — T2D RANKL: RANKL signalling in macrophages (already mapped) and adipocytes (already mapped) modulates metabolic bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) cascade of type 2 diabetes.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T2D IL-2: IL-2 signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune tolerance; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) cascade of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

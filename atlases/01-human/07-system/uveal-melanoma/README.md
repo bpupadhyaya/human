@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "UM hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), quenches tumour ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of uveal melanoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "UM nitrogen: nitric oxide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of uveal melanoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "UM sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "UM GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and tumour vasculature modulates metabolic angiogenesis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -848,6 +857,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — UM carbon: carbon, as metabolic backbone of VEGF (already mapped) and tumour lipids in macrophages (already mapped) and uveal melanoma cells, drives tumour growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — UM chloride: chloride channels in macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulate tumour-immune homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — UM hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), quenches tumour ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — UM nitrogen: nitric oxide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of uveal melanoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — UM sulfur: hydrogen sulfide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — UM GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and tumour vasculature modulates metabolic angiogenesis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 
 ---
 
