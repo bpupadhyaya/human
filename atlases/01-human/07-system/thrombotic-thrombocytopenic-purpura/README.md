@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "TTP RANKL: RANKL signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates thrombotic inflammation; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of TTP."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TTP smad4: SMAD4 in macrophages (already mapped) and endothelial cells (already mapped) transduces TGF-β signals; smad4 loss amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "TTP il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates autoimmune T-cell activation; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "TTP fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) scaffolds thrombotic ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -886,6 +895,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — TTP angiotensin-II: angiotensin-II signalling in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of TTP.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — TTP Wnt/β-catenin: Wnt/β-catenin signalling in endothelial cells (already mapped) and macrophages (already mapped) modulates vascular repair; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of TTP.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — TTP RANKL: RANKL signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates thrombotic inflammation; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of TTP.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TTP smad4: SMAD4 in macrophages (already mapped) and endothelial cells (already mapped) transduces TGF-β signals; smad4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — TTP il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates autoimmune T-cell activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — TTP fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) scaffolds thrombotic ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 
 ---
 
