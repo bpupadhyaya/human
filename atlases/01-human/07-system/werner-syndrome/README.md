@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "WS Wnt/β-catenin: Wnt/β-catenin in fibroblasts (already mapped) and macrophages (already mapped) modulates WRN-deficient stem-cell renewal; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "WS il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates WRN-deficient immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "WS fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds WRN-deficient ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "WS notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) regulates WRN-deficient stem-cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -898,6 +907,9 @@ cross_links:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — WS PD-1: PD-1 on macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulates premature ageing immune exhaustion; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of Werner syndrome.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — WS angiotensin-II: Angiotensin-II in fibroblasts (already mapped) and macrophages (already mapped) promotes vascular stiffness in Werner syndrome; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — WS Wnt/β-catenin: Wnt/β-catenin in fibroblasts (already mapped) and macrophages (already mapped) modulates WRN-deficient stem-cell renewal; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — WS il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates WRN-deficient immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — WS fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds WRN-deficient ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — WS notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) regulates WRN-deficient stem-cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

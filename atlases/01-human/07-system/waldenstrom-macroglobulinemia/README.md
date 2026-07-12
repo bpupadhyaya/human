@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "WM Wnt/β-catenin: Wnt/β-catenin in B-cells (already mapped) and macrophages (already mapped) drives lymphoma clonal expansion; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "WM rankl: RANKL in macrophages (already mapped) and B-cells (already mapped) modulates WM bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "WM fibronectin: Fibronectin in B-cells (already mapped) and macrophages (already mapped) scaffolds lymphoma ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "WM notch: NOTCH on B-cells (already mapped) and macrophages (already mapped) regulates WM clonal immune tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
 ---
 
 # Waldenström Macroglobulinemia
@@ -853,6 +862,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — WM GLP-1: GLP-1 from gut L-cells (already mapped) and macrophages (already mapped) modulates lymphoma metabolic homeostasis; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — WM angiotensin-II: Angiotensin-II in B-cells (already mapped) and macrophages (already mapped) promotes lymphoma stroma activation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — WM Wnt/β-catenin: Wnt/β-catenin in B-cells (already mapped) and macrophages (already mapped) drives lymphoma clonal expansion; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — WM rankl: RANKL in macrophages (already mapped) and B-cells (already mapped) modulates WM bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — WM fibronectin: Fibronectin in B-cells (already mapped) and macrophages (already mapped) scaffolds lymphoma ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — WM notch: NOTCH on B-cells (already mapped) and macrophages (already mapped) regulates WM clonal immune tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
