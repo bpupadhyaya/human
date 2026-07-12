@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "AA IGF-1: IGF-1 in bone-marrow stroma (already mapped) and macrophages (already mapped) modulates haematopoietic stem-cell survival; IGF-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "AA activin-a: activin-A from macrophages (already mapped) and bone-marrow stroma (already mapped) regulates haematopoietic immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "AA cgrp: CGRP from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "AA calcitonin: calcitonin from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA."
 ---
 
 # Aplastic Anemia
@@ -860,6 +869,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AA fibronectin: fibronectin in marrow stroma (already mapped) and macrophages (already mapped) modulates haematopoietic niche matrix; fibronectin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AA notch: Notch in haematopoietic stem cells (already mapped) and macrophages (already mapped) modulates bone-marrow progenitor fate; Notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AA IGF-1: IGF-1 in bone-marrow stroma (already mapped) and macrophages (already mapped) modulates haematopoietic stem-cell survival; IGF-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AA activin-a: activin-A from macrophages (already mapped) and bone-marrow stroma (already mapped) regulates haematopoietic immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AA cgrp: CGRP from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AA calcitonin: calcitonin from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
 
 ---
 
