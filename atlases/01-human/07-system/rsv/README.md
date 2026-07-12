@@ -558,6 +558,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "RSV igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates airway repair after RSV infection; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "RSV activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates airway immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "RSV calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "RSV insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives airway metabolic tone; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of RSV."
 ---
 
 # RSV
@@ -882,3 +891,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — RSV fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds RSV-infected airway ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — RSV notch: NOTCH on macrophages (already mapped) and airway epithelial cells (already mapped) regulates RSV immune response; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — RSV igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates airway repair after RSV infection; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RSV activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates airway immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RSV calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — RSV insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives airway metabolic tone; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of RSV.

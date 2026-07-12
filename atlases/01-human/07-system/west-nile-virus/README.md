@@ -558,6 +558,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "WNV IGF-1: IGF-1 from astrocytes (already mapped) and macrophages (already mapped) promotes neuronal survival after WNV neuroinvasion; IGF-1 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "WNV activin-a: activin-A from astrocytes (already mapped) and macrophages (already mapped) regulates neuroinvasion immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "WNV cgrp: CGRP from astrocytes (already mapped) and macrophages (already mapped) modulates neuroinvasion neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "WNV calcitonin: calcitonin from astrocytes (already mapped) and macrophages (already mapped) modulates neuroinvasion calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
 ---
 
 # West Nile Virus
@@ -858,3 +867,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — WNV Fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds BBB ECM during neuroinvasion; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — WNV NOTCH: NOTCH on astrocytes (already mapped) and macrophages (already mapped) regulates neuroinvasion neuroimmune tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — WNV IGF-1: IGF-1 from astrocytes (already mapped) and macrophages (already mapped) promotes neuronal survival after WNV neuroinvasion; IGF-1 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — WNV activin-a: activin-A from astrocytes (already mapped) and macrophages (already mapped) regulates neuroinvasion immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — WNV cgrp: CGRP from astrocytes (already mapped) and macrophages (already mapped) modulates neuroinvasion neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — WNV calcitonin: calcitonin from astrocytes (already mapped) and macrophages (already mapped) modulates neuroinvasion calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
