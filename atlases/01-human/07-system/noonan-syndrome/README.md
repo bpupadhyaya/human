@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Noonan activin-a: activin-A from macrophages (already mapped) and cardiomyocytes (already mapped) drives RASopathy cardiac fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Noonan cgrp: CGRP from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Noonan calcitonin: calcitonin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Noonan substance-p: substance-P from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan."
 ---
 
 # Noonan Syndrome
@@ -885,6 +894,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Noonan il-2: IL-2 from macrophages (already mapped) and cardiomyocytes (already mapped) regulates RASopathy immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Noonan fibronectin: fibronectin in macrophages (already mapped) and cardiomyocytes (already mapped) promotes RASopathy ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Noonan activin-a: activin-A from macrophages (already mapped) and cardiomyocytes (already mapped) drives RASopathy cardiac fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Noonan cgrp: CGRP from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Noonan calcitonin: calcitonin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Noonan substance-p: substance-P from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)

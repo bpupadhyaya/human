@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "NSCLC igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes NSCLC tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "NSCLC activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives NSCLC immunosuppressive stroma; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "NSCLC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "NSCLC calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC."
 ---
 
 # NSCLC
@@ -856,6 +865,9 @@ cross_links:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — NSCLC fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes NSCLC invasive ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — NSCLC notch: Notch signalling on macrophages (already mapped) and fibroblasts (already mapped) regulates NSCLC tumour cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NSCLC igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes NSCLC tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NSCLC activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives NSCLC immunosuppressive stroma; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — NSCLC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — NSCLC calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
