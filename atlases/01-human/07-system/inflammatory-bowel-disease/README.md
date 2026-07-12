@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "IBD GLP-1: GLP-1 from intestinal L-cells suppresses NF-κB (already mapped) and macrophage (already mapped) activation; GLP-1 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) mucosal inflammation of intestinal epithelium (already mapped) in IBD."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "IBD angiotensin-ii: angiotensin-II from macrophages (already mapped) and intestinal epithelium (already mapped) amplifies mucosal inflammation; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "IBD wnt-beta-catenin: Wnt-β-catenin from intestinal epithelium (already mapped) and macrophages (already mapped) drives mucosal dysregulation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "IBD rankl: RANKL from macrophages (already mapped) and T-cells (already mapped) amplifies mucosal immune activation; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) intestinal epithelium (already mapped) cascade in IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -847,6 +856,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IBD hydrogen: hydrogen as proton gradient in intestinal epithelium (already mapped) and macrophage (already mapped) mitochondria drives ATP synthesis; hydrogen-ion acidosis amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal cascade of IBD.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — IBD PD-1: PD-1 checkpoint overexpression on T-cells (already mapped) impairs mucosal immune tolerance; PD-1 blockade amplifies TNF-α (already mapped) and IL-6 (already mapped) signalling, exacerbating intestinal epithelium (already mapped) inflammation in IBD.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — IBD GLP-1: GLP-1 from intestinal L-cells suppresses NF-κB (already mapped) and macrophage (already mapped) activation; GLP-1 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) mucosal inflammation of intestinal epithelium (already mapped) in IBD.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — IBD angiotensin-ii: angiotensin-II from macrophages (already mapped) and intestinal epithelium (already mapped) amplifies mucosal inflammation; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD.
+- `connects-to` → **[Wnt-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IBD wnt-beta-catenin: Wnt-β-catenin from intestinal epithelium (already mapped) and macrophages (already mapped) drives mucosal dysregulation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IBD rankl: RANKL from macrophages (already mapped) and T-cells (already mapped) amplifies mucosal immune activation; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) intestinal epithelium (already mapped) cascade in IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
