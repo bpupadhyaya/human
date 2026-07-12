@@ -554,6 +554,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Rep substance-P: substance-P from uterine sensory fibres and mast cells modulates reproductive neurogenic inflammation; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "Rep fgf23: FGF23 from uterine cells (already mapped) and macrophages (already mapped) regulates phosphate-mineral balance; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Rep angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) drives endometrial angiogenesis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Rep osteopontin: osteopontin from uterine cells (already mapped) and macrophages (already mapped) promotes implantation ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
 ---
 
 # Reproductive System
@@ -848,6 +857,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Rep CGRP: CGRP from uterine sensory neurons and ovarian endothelium modulates reproductive vascular tone; CGRP deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of the reproductive system.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Rep calcitonin: calcitonin from C-cells and placental tissue modulates reproductive calcium homeostasis; calcitonin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Rep substance-P: substance-P from uterine sensory fibres and mast cells modulates reproductive neurogenic inflammation; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — Rep fgf23: FGF23 from uterine cells (already mapped) and macrophages (already mapped) regulates phosphate-mineral balance; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Rep angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) drives endometrial angiogenesis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Rep osteopontin: osteopontin from uterine cells (already mapped) and macrophages (already mapped) promotes implantation ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 
 ## Pathology
 

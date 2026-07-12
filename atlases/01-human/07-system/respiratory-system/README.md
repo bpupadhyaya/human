@@ -561,6 +561,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "RS activin-A: activin-A from lung fibroblasts (already mapped) and macrophages (already mapped) modulates inflammation and fibrosis; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of the respiratory system."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Resp calcitonin: calcitonin from lung cells (already mapped) and macrophages (already mapped) modulates respiratory calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Resp insulin-receptor: insulin receptor on lung cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) respiratory fibrotic cascade."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Resp aldosterone: aldosterone from macrophages (already mapped) and lung fibroblasts (already mapped) modulates respiratory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -823,6 +832,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — RS fibronectin: fibronectin in airway matrix and bronchial epithelial cells modulates lung structural repair; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) remodelling cascade of the respiratory system.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — RS IGF-1: IGF-1 from bronchial epithelium (already mapped) and lung macrophages (already mapped) sustains lung growth and repair; IGF-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RS activin-A: activin-A from lung fibroblasts (already mapped) and macrophages (already mapped) modulates inflammation and fibrosis; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of the respiratory system.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Resp calcitonin: calcitonin from lung cells (already mapped) and macrophages (already mapped) modulates respiratory calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Resp insulin-receptor: insulin receptor on lung cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) respiratory fibrotic cascade.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Resp aldosterone: aldosterone from macrophages (already mapped) and lung fibroblasts (already mapped) modulates respiratory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
