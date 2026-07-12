@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "HP il-2: IL-2 from T-helper cells (already mapped) and macrophages (already mapped) drives pancreatic lymphocyte expansion; il-2 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "HP vegf: VEGF from macrophages (already mapped) and acinar cells (already mapped) promotes pancreatic neo-angiogenesis; vegf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "HP fibronectin: fibronectin in acinar cells (already mapped) and macrophages (already mapped) promotes pancreatic ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "HP notch: Notch signalling on acinar cells (already mapped) and macrophages (already mapped) regulates pancreatic inflammatory repair; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
 ---
 
 # Hereditary Pancreatitis
@@ -879,6 +888,9 @@ cross_links:
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HP wnt-beta-catenin: WNT/β-catenin on acinar cells (already mapped) and macrophages (already mapped) regulates pancreatic repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar cascade in HP.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HP rankl: RANKL from macrophages (already mapped) and acinar cells (already mapped) modulates pancreatic bone-immune crosstalk; rankl dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HP.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — HP il-2: IL-2 from T-helper cells (already mapped) and macrophages (already mapped) drives pancreatic lymphocyte expansion; il-2 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — HP vegf: VEGF from macrophages (already mapped) and acinar cells (already mapped) promotes pancreatic neo-angiogenesis; vegf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HP fibronectin: fibronectin in acinar cells (already mapped) and macrophages (already mapped) promotes pancreatic ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HP notch: Notch signalling on acinar cells (already mapped) and macrophages (already mapped) regulates pancreatic inflammatory repair; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)

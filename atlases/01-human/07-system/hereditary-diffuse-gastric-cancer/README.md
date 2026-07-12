@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "HDGC rankl: RANKL from macrophages (already mapped) and mast cells (already mapped) regulates bone-immune crosstalk; rankl dysregulation amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) anti-tumour cascade in HDGC."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "HDGC fibronectin: fibronectin in macrophages (already mapped) and mast cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "HDGC notch: Notch signalling on macrophages (already mapped) and mast cells (already mapped) regulates tumour immune microenvironment; notch excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "HDGC igf-1: IGF-1 from macrophages (already mapped) and mast cells (already mapped) promotes gastric tumour growth; igf-1 excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -843,6 +852,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HDGC glp-1: GLP-1 from macrophages (already mapped) and mast cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) anti-tumour cascade in HDGC.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — HDGC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HDGC rankl: RANKL from macrophages (already mapped) and mast cells (already mapped) regulates bone-immune crosstalk; rankl dysregulation amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) anti-tumour cascade in HDGC.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HDGC fibronectin: fibronectin in macrophages (already mapped) and mast cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HDGC notch: Notch signalling on macrophages (already mapped) and mast cells (already mapped) regulates tumour immune microenvironment; notch excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HDGC igf-1: IGF-1 from macrophages (already mapped) and mast cells (already mapped) promotes gastric tumour growth; igf-1 excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
