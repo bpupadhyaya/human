@@ -545,6 +545,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Lymphatic angiotensin-II: angiotensin-II regulates lymph vessel (already mapped) tone and macrophage (already mapped) activation; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic system."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "LS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates lymphangiogenic programming; wnt-beta-catenin dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic cascade."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "LS rankl: RANKL from macrophages (already mapped) and dendritic cells (already mapped) modulates lymph-node immune activation; rankl excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic immune cascade."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "LS notch: NOTCH in endothelial cells (already mapped) and macrophages (already mapped) drives lymphangiogenesis; notch dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade of lymphatic system."
 ---
 
 # Lymphatic System
@@ -830,6 +839,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Lymphatic oxygen: oxygen supports aerobic metabolism in lymphocytes (already mapped) and macrophages (already mapped) for immune surveillance; oxygen deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic system.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Lymphatic GLP-1: GLP-1 signalling modulates macrophage (already mapped) and dendritic-cell (already mapped) activation in lymph nodes; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) immune cascade of lymphatic system.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Lymphatic angiotensin-II: angiotensin-II regulates lymph vessel (already mapped) tone and macrophage (already mapped) activation; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic system.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — LS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates lymphangiogenic programming; wnt-beta-catenin dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic cascade.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — LS rankl: RANKL from macrophages (already mapped) and dendritic cells (already mapped) modulates lymph-node immune activation; rankl excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic immune cascade.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — LS notch: NOTCH in endothelial cells (already mapped) and macrophages (already mapped) drives lymphangiogenesis; notch dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade of lymphatic system.
 
 ## Pathology
 

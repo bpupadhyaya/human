@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "LFS phosphorus: phosphorus in PI3K-Akt and TP53 (already mapped) phosphorylation relays governs cell-cycle (already mapped) checkpoint and apoptosis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of LFS."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "LFS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "LFS angiotensin-ii: angiotensin-II from macrophages (already mapped) and smooth-muscle cells (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of LFS."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "LFS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates tumour-stromal interaction; wnt-beta-catenin dysregulation amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) cascade of LFS."
 ---
 
 # Li-Fraumeni Syndrome
@@ -874,6 +883,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — LFS chloride: chloride ion homeostasis in fibroblasts (already mapped) and lymphocytes (already mapped) modulates TP53 (already mapped)-dependent apoptotic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oncogenic cascade of LFS.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — LFS hydrogen: hydrogen in redox chemistry of fibroblasts (already mapped) modulates TP53 (already mapped) and MDM2 stress response; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) mutagenic cascade of Li-Fraumeni.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — LFS phosphorus: phosphorus in PI3K-Akt and TP53 (already mapped) phosphorylation relays governs cell-cycle (already mapped) checkpoint and apoptosis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of LFS.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — LFS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — LFS angiotensin-ii: angiotensin-II from macrophages (already mapped) and smooth-muscle cells (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of LFS.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — LFS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates tumour-stromal interaction; wnt-beta-catenin dysregulation amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) cascade of LFS.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
