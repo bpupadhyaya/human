@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "Bloom hydrogen: hydrogen via ROS balance in fibroblasts (already mapped) and macrophages (already mapped) modulates replication-fork stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) genomic cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Bloom pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) restrains immune response; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour immune evasion cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Bloom glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Bloom angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -861,6 +870,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Bloom carbon: carbon backbone of nucleotides in fibroblasts (already mapped) and b-cells (already mapped) sustains DNA replication; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) genomic instability in Bloom syndrome.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Bloom chloride: chloride channels in macrophages (already mapped) and fibroblasts (already mapped) modulate cellular homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Bloom hydrogen: hydrogen via ROS balance in fibroblasts (already mapped) and macrophages (already mapped) modulates replication-fork stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) genomic cascade in Bloom syndrome.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Bloom pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) restrains immune response; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour immune evasion cascade in Bloom syndrome.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Bloom glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Bloom syndrome.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Bloom angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
 
 ---
 
