@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "PV cgrp: CGRP from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone in pemphigus; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "PV calcitonin: calcitonin from keratinocytes (already mapped) and B-cells (already mapped) modulates calcium tone in pemphigus; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "PV insulin-receptor: insulin receptor on keratinocytes (already mapped) and B-cells (already mapped) drives epidermal metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "PV aldosterone: aldosterone from keratinocytes (already mapped) and B-cells (already mapped) modulates ion balance in pemphigus; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
 ---
 
 # Pemphigus Vulgaris
@@ -899,6 +908,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PV igf-1: IGF-1 from keratinocytes (already mapped) and B-cells (already mapped) promotes epidermal cell survival in pemphigus; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PV activin-a: activin-A from keratinocytes (already mapped) and B-cells (already mapped) drives epidermal fibrotic signalling in pemphigus; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PV cgrp: CGRP from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone in pemphigus; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PV calcitonin: calcitonin from keratinocytes (already mapped) and B-cells (already mapped) modulates calcium tone in pemphigus; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PV insulin-receptor: insulin receptor on keratinocytes (already mapped) and B-cells (already mapped) drives epidermal metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PV aldosterone: aldosterone from keratinocytes (already mapped) and B-cells (already mapped) modulates ion balance in pemphigus; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 
 ---
 
