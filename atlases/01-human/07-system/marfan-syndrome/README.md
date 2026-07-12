@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Marfan IL-2: IL-2 cytokine drives T-cell (already mapped) and regulatory T-cell (already mapped) balance in aortic wall inflammation; IL-2 dysregulation amplifies TGF-β (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune cascade of Marfan aortopathy."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Marfan fibronectin: fibronectin in fibroblasts (already mapped) and smooth-muscle cells (already mapped) anchors ECM; fibronectin dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Marfan notch: NOTCH in smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates aortic wall homeostasis; notch dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Marfan igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes connective tissue growth; igf-1 dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -862,6 +871,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Marfan GLP-1: GLP-1 signalling modulates vascular smooth muscle (already mapped) and macrophage (already mapped) inflammation in the aortic wall; GLP-1 deficit amplifies TGF-β (already mapped) and IL-6 (already mapped) and MMP (already mapped) fibrotic cascade of MFS.
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Marfan WNT: WNT-β-catenin in aortic SMCs (already mapped) and fibroblasts (already mapped) regulates extracellular-matrix remodelling; WNT dysregulation amplifies TGF-β (already mapped) and IL-6 (already mapped) and MMP (already mapped) aortopathic cascade of Marfan syndrome.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Marfan IL-2: IL-2 cytokine drives T-cell (already mapped) and regulatory T-cell (already mapped) balance in aortic wall inflammation; IL-2 dysregulation amplifies TGF-β (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune cascade of Marfan aortopathy.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Marfan fibronectin: fibronectin in fibroblasts (already mapped) and smooth-muscle cells (already mapped) anchors ECM; fibronectin dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Marfan notch: NOTCH in smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates aortic wall homeostasis; notch dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Marfan igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes connective tissue growth; igf-1 dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 
 ---
 

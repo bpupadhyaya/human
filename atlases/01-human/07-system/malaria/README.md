@@ -552,6 +552,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "Malaria RANKL: RANKL drives dendritic-cell (already mapped) and macrophage (already mapped) immune activation against Plasmodium; RANKL dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune cascade of malaria."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Malaria smad4: SMAD4 in hepatocytes (already mapped) and macrophages (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Malaria fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) mediates parasite sequestration; fibronectin dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) cascade of malaria."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Malaria notch: NOTCH in macrophages (already mapped) and dendritic cells (already mapped) regulates anti-malarial immunity; notch dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria."
 ---
 
 # Malaria
@@ -888,6 +897,9 @@ cross_links:
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Malaria angiotensin-II: angiotensin-II drives macrophage (already mapped) and endothelial (already mapped) inflammation in Plasmodium infection; angiotensin-II amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemolytic cascade of malaria.
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Malaria WNT: WNT-β-catenin in macrophages (already mapped) and hepatocytes (already mapped) modulates Plasmodium liver-stage invasion; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune cascade of malaria.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Malaria RANKL: RANKL drives dendritic-cell (already mapped) and macrophage (already mapped) immune activation against Plasmodium; RANKL dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune cascade of malaria.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Malaria smad4: SMAD4 in hepatocytes (already mapped) and macrophages (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Malaria fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) mediates parasite sequestration; fibronectin dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) cascade of malaria.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Malaria notch: NOTCH in macrophages (already mapped) and dendritic cells (already mapped) regulates anti-malarial immunity; notch dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
