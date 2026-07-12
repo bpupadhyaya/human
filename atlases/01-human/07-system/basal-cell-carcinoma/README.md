@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "BCC cgrp: CGRP in keratinocytes (already mapped) and sensory neurons (already mapped) modulates skin neuro-inflammation; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in BCC."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "BCC calcitonin: calcitonin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BCC."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "BCC substance-p: substance-P from sensory neurons (already mapped) and keratinocytes (already mapped) modulates skin nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BCC."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "BCC insulin-receptor: insulin receptor on keratinocytes (already mapped) and fibroblasts (already mapped) drives skin metabolic tumour signalling; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
 ---
 
 # Basal Cell Carcinoma
@@ -869,6 +878,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — BCC fibronectin: fibronectin in keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour ECM remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BCC.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — BCC activin-a: activin-A in keratinocytes (already mapped) and fibroblasts (already mapped) modulates epidermal-stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BCC.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — BCC cgrp: CGRP in keratinocytes (already mapped) and sensory neurons (already mapped) modulates skin neuro-inflammation; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in BCC.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — BCC calcitonin: calcitonin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BCC.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — BCC substance-p: substance-P from sensory neurons (already mapped) and keratinocytes (already mapped) modulates skin nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BCC.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — BCC insulin-receptor: insulin receptor on keratinocytes (already mapped) and fibroblasts (already mapped) drives skin metabolic tumour signalling; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
 
 ---
 
