@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "NET fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors neuroendocrine tumour stroma; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "NET igf-1: IGF-1 from fibroblasts (already mapped) and endothelial cells (already mapped) promotes neuroendocrine tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "NET activin-a: activin-A from fibroblasts (already mapped) and endothelial cells (already mapped) drives neuroendocrine tumour fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "NET cgrp: CGRP from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
 ---
 
 # Neuroendocrine Tumors
@@ -840,6 +849,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — NET rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes neuroendocrine tumour immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NET.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — NET il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates anti-tumour immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NET.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — NET fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors neuroendocrine tumour stroma; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NET igf-1: IGF-1 from fibroblasts (already mapped) and endothelial cells (already mapped) promotes neuroendocrine tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NET activin-a: activin-A from fibroblasts (already mapped) and endothelial cells (already mapped) drives neuroendocrine tumour fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — NET cgrp: CGRP from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
