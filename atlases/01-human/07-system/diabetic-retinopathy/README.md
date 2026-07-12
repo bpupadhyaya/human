@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "DR cgrp: CGRP from pericytes (already mapped) and macrophages (already mapped) modulates retinal neurovascular pain signalling; cgrp excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "DR calcitonin: calcitonin from pericytes (already mapped) and macrophages (already mapped) modulates retinal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "DR substance-p: substance-P from pericytes (already mapped) and macrophages (already mapped) modulates retinal pain tone; substance-P excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "DR insulin-receptor: insulin receptor on pericytes (already mapped) and macrophages (already mapped) drives retinal metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -865,6 +874,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — DR notch: Notch signalling on endothelial cells (already mapped) and macrophages (already mapped) regulates retinal vascular sprouting; notch excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) neovascular cascade in diabetic retinopathy.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — DR activin-a: activin-A from macrophages (already mapped) and pericytes (already mapped) promotes subretinal fibrosis; activin-a excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — DR cgrp: CGRP from pericytes (already mapped) and macrophages (already mapped) modulates retinal neurovascular pain signalling; cgrp excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — DR calcitonin: calcitonin from pericytes (already mapped) and macrophages (already mapped) modulates retinal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — DR substance-p: substance-P from pericytes (already mapped) and macrophages (already mapped) modulates retinal pain tone; substance-P excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — DR insulin-receptor: insulin receptor on pericytes (already mapped) and macrophages (already mapped) drives retinal metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

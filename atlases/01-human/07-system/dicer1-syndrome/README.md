@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "dicer1 calcitonin: calcitonin from thyroid follicular cells (already mapped) and macrophages (already mapped) regulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "dicer1 substance-p: substance-P from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates neuroendocrine pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "dicer1 insulin-receptor: insulin receptor on macrophages (already mapped) and thyroid follicular cells (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "dicer1 aldosterone: aldosterone in macrophages (already mapped) and thyroid follicular cells (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -862,6 +871,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — dicer1 fibronectin: fibronectin in macrophages (already mapped) and thyroid follicular cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — dicer1 cgrp: CGRP from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates neuroendocrine tumour pain; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — dicer1 calcitonin: calcitonin from thyroid follicular cells (already mapped) and macrophages (already mapped) regulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — dicer1 substance-p: substance-P from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates neuroendocrine pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — dicer1 insulin-receptor: insulin receptor on macrophages (already mapped) and thyroid follicular cells (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — dicer1 aldosterone: aldosterone in macrophages (already mapped) and thyroid follicular cells (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 
 ---
 
