@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "carney nitrogen: nitrogen in DNA bases of macrophages (already mapped) and cardiomyocytes (already mapped) sustains myxoma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "carney pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Carney complex."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "carney glp-1: GLP-1 from macrophages (already mapped) and cardiomyocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "carney angiotensin-ii: angiotensin II on cardiomyocytes (already mapped) and macrophages (already mapped) promotes cardiac remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) myxoma cascade in Carney complex."
 ---
 
 # Carney Complex
@@ -845,6 +854,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carney carbon: carbon backbone of nucleotides in macrophages (already mapped) and cardiomyocytes (already mapped) fuels tumour growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — carney hydrogen: hydrogen via ROS from macrophages (already mapped) and cardiomyocytes (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — carney nitrogen: nitrogen in DNA bases of macrophages (already mapped) and cardiomyocytes (already mapped) sustains myxoma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — carney pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Carney complex.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — carney glp-1: GLP-1 from macrophages (already mapped) and cardiomyocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — carney angiotensin-ii: angiotensin II on cardiomyocytes (already mapped) and macrophages (already mapped) promotes cardiac remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) myxoma cascade in Carney complex.
 
 ---
 
