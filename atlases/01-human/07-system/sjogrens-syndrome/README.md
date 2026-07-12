@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "SjS RANKL: RANKL signalling in macrophages (already mapped) and glandular stromal cells modulates bone-immune axis; RANKL excess amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "SjS fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds salivary gland ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "SjS notch: NOTCH on glandular epithelial cells (already mapped) and macrophages (already mapped) regulates glandular autoimmune tone; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "SjS igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes glandular stromal survival; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -861,6 +870,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — SjS angiotensin-II: angiotensin-II signalling in glandular endothelial cells and macrophages (already mapped) promotes glandular inflammation; angiotensin-II excess amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SjS Wnt/β-catenin: Wnt/β-catenin signalling in salivary gland epithelium and macrophages (already mapped) supports glandular repair; Wnt dysregulation amplifies BAFF (already mapped) and IL-6 (already mapped) fibrotic cascade of Sjögren syndrome.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SjS RANKL: RANKL signalling in macrophages (already mapped) and glandular stromal cells modulates bone-immune axis; RANKL excess amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SjS fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds salivary gland ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — SjS notch: NOTCH on glandular epithelial cells (already mapped) and macrophages (already mapped) regulates glandular autoimmune tone; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SjS igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes glandular stromal survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of Sjögren syndrome.
 
 ---
 
