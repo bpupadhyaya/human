@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "BC oxygen: hypoxia-driven HIF in macrophages (already mapped) and endothelial cells (already mapped) promotes tumour angiogenesis; oxygen deprivation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour invasion cascade in bladder cancer."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "BC glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates tumour inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) urothelial tumour cascade in bladder cancer."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "BC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "BC rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-tumour axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in bladder cancer."
 ---
 
 # Bladder Cancer
@@ -852,6 +861,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BC chloride: chloride channels in macrophages (already mapped) and endothelial cells (already mapped) modulate tumour microenvironment; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — BC hydrogen: hydrogen via ROS balance in macrophages (already mapped) and endothelial cells (already mapped) modulates urothelial oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — BC oxygen: hypoxia-driven HIF in macrophages (already mapped) and endothelial cells (already mapped) promotes tumour angiogenesis; oxygen deprivation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour invasion cascade in bladder cancer.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — BC glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates tumour inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) urothelial tumour cascade in bladder cancer.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — BC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — BC rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-tumour axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in bladder cancer.
 
 ---
 

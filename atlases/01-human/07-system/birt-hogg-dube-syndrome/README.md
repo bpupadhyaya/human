@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "BHD hydrogen: hydrogen via ROS balance in macrophages (already mapped) and fibroblasts (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "BHD pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) restrains tumour immune response; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour immune evasion cascade in BHD."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "BHD glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates tumour inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "BHD angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -864,6 +873,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — BHD carbon: carbon backbone of lipids in type-ii-pneumocytes (already mapped) and fibroblasts (already mapped) sustains tumour metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour progression in BHD.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BHD chloride: chloride channels in macrophages (already mapped) and endothelial cells (already mapped) modulate tumour microenvironment; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour cascade in BHD.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — BHD hydrogen: hydrogen via ROS balance in macrophages (already mapped) and fibroblasts (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — BHD pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) restrains tumour immune response; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour immune evasion cascade in BHD.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — BHD glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates tumour inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour cascade in BHD.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — BHD angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 
 ---
 
