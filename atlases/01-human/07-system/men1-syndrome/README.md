@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "MEN1 cgrp: CGRP from macrophages (already mapped) and mast cells (already mapped) modulates neuroendocrine signalling; cgrp dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) tumour cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "MEN1 substance-p: substance-P from macrophages (already mapped) and mast cells (already mapped) amplifies neuroendocrine pain signalling; substance-p excess amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) tumour cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "MEN1 fgf23: FGF23 from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine phosphate balance; fgf23 dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) tumour cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "MEN1 androgen-receptor: androgen-receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates pituitary adenoma signalling; androgen-receptor dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade."
 ---
 
 # MEN1 Syndrome
@@ -855,6 +864,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MEN1 fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors neuroendocrine tumour matrix; fibronectin dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade of MEN1.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MEN1 activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives neuroendocrine tumour remodelling; activin-a dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade of MEN1 syndrome.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MEN1 cgrp: CGRP from macrophages (already mapped) and mast cells (already mapped) modulates neuroendocrine signalling; cgrp dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) tumour cascade of MEN1 syndrome.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MEN1 substance-p: substance-P from macrophages (already mapped) and mast cells (already mapped) amplifies neuroendocrine pain signalling; substance-p excess amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) tumour cascade of MEN1 syndrome.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — MEN1 fgf23: FGF23 from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine phosphate balance; fgf23 dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) tumour cascade of MEN1 syndrome.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — MEN1 androgen-receptor: androgen-receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates pituitary adenoma signalling; androgen-receptor dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade.
 
 ---
 
