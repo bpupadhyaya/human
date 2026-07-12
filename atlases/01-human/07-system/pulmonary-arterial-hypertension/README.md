@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "PAH igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "PAH calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "PAH substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "PAH insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives PAH metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -878,6 +887,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — PAH il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates pulmonary vascular immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PAH fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PAH igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PAH calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PAH substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PAH insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives PAH metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

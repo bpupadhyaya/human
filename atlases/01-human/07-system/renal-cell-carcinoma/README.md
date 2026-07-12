@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "RCC igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes renal tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "RCC activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives renal tumour fibrotic signalling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "RCC tgf-beta: TGF-β from macrophages (already mapped) and fibroblasts (already mapped) drives immune evasion and fibrosis in RCC; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "RCC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma."
 ---
 
 # Renal Cell Carcinoma
@@ -866,6 +875,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — RCC fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes renal ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — RCC notch: Notch signalling on macrophages (already mapped) and fibroblasts (already mapped) regulates renal tumour cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — RCC igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes renal tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RCC activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives renal tumour fibrotic signalling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — RCC tgf-beta: TGF-β from macrophages (already mapped) and fibroblasts (already mapped) drives immune evasion and fibrosis in RCC; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — RCC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
