@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "PsO notch: Notch signalling on keratinocytes (already mapped) and macrophages (already mapped) regulates psoriatic keratinocyte fate; notch dysregulation amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "PsO igf-1: IGF-1 from keratinocytes (already mapped) and macrophages (already mapped) drives psoriatic cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "PsO activin-a: activin-A from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic fibrotic signalling; activin-a excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "PsO cgrp: CGRP from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
 ---
 
 # Psoriasis
@@ -870,6 +879,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PsO rankl: RANKL from keratinocytes (already mapped) and macrophages (already mapped) promotes psoriatic immune activation; rankl excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PsO fibronectin: fibronectin in keratinocytes (already mapped) and macrophages (already mapped) promotes psoriatic ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — PsO notch: Notch signalling on keratinocytes (already mapped) and macrophages (already mapped) regulates psoriatic keratinocyte fate; notch dysregulation amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PsO igf-1: IGF-1 from keratinocytes (already mapped) and macrophages (already mapped) drives psoriatic cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PsO activin-a: activin-A from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic fibrotic signalling; activin-a excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PsO cgrp: CGRP from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
