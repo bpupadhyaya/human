@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Osteoporosis oxygen: oxygen availability in bone marrow drives osteoblast (already mapped) energy metabolism via mitochondrial oxidative phosphorylation; hypoxia amplifies RANKL (already mapped) and NF-κB (already mapped) osteoclastic resorption cascade of osteoporosis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Osteoporosis PD-1: PD-1 on T-cells (already mapped) in bone marrow suppresses osteoclast (already mapped)-activating immune responses; PD-1 dysregulation amplifies RANKL (already mapped) and NF-κB (already mapped) bone resorption cascade of osteoporosis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Osteoporosis angiotensin-II: angiotensin-II in bone marrow vasculature modulates osteoblast (already mapped) and osteoclast differentiation; angiotensin-II excess amplifies RANKL (already mapped) and NF-κB (already mapped) bone loss cascade of osteoporosis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Osteoporosis IL-2: IL-2 from T-cells (already mapped) in bone marrow regulates osteoclast (already mapped) precursor expansion; IL-2 excess amplifies RANKL (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) bone resorption cascade of osteoporosis."
 ---
 
 # Osteoporosis
@@ -827,6 +836,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Osteoporosis carbon: carbon as backbone of collagen (already mapped) and proteoglycan scaffold in bone sustains osteoblast (already mapped) matrix production; carbon depletion amplifies the RANKL (already mapped) and IL-6 (already mapped) osteoclastic cascade of osteoporosis.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Osteoporosis hydrogen: hydrogen, via redox homeostasis in osteoblasts (already mapped) and osteoclasts, supports collagen (already mapped) cross-linking; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) bone resorption cascade of osteoporosis.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Osteoporosis oxygen: oxygen availability in bone marrow drives osteoblast (already mapped) energy metabolism via mitochondrial oxidative phosphorylation; hypoxia amplifies RANKL (already mapped) and NF-κB (already mapped) osteoclastic resorption cascade of osteoporosis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Osteoporosis PD-1: PD-1 on T-cells (already mapped) in bone marrow suppresses osteoclast (already mapped)-activating immune responses; PD-1 dysregulation amplifies RANKL (already mapped) and NF-κB (already mapped) bone resorption cascade of osteoporosis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Osteoporosis angiotensin-II: angiotensin-II in bone marrow vasculature modulates osteoblast (already mapped) and osteoclast differentiation; angiotensin-II excess amplifies RANKL (already mapped) and NF-κB (already mapped) bone loss cascade of osteoporosis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Osteoporosis IL-2: IL-2 from T-cells (already mapped) in bone marrow regulates osteoclast (already mapped) precursor expansion; IL-2 excess amplifies RANKL (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) bone resorption cascade of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

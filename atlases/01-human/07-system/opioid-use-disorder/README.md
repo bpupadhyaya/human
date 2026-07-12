@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "OUD PD-1: PD-1 checkpoint expression on microglia (already mapped) and T-cells in the reward circuit modulates neuroinflammatory tone; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of opioid use disorder."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "OUD angiotensin-II: angiotensin-II in the mesolimbic dopamine (already mapped) circuit modulates stress-induced craving; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and CRH (already mapped) neuroinflammatory cascade of OUD."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "OUD VEGF: VEGF from microglia (already mapped) and astrocytes sustains neuroplasticity in dopamine (already mapped) reward circuits; VEGF dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of opioid use disorder."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "OUD WNT/β-catenin: WNT/β-catenin signalling in dopamine (already mapped) neurons supports synaptic plasticity; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and CRH (already mapped) reward-circuit cascade of opioid use disorder."
 ---
 
 # Opioid Use Disorder
@@ -878,6 +887,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — OUD nitrogen: nitrogen in amino-acid scaffold of opioid receptors (already mapped) and dopamine transporter proteins in neurons (already mapped) sustains reward-circuit signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of OUD.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — OUD sulfur: sulfur-containing amino acids sustain glutathione antioxidant defence in neurons (already mapped) and microglia (already mapped); sulfur deficiency amplifies NF-κB (already mapped) neuroinflammatory stress and TNF-α (already mapped) withdrawal cascade of OUD.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — OUD PD-1: PD-1 checkpoint expression on microglia (already mapped) and T-cells in the reward circuit modulates neuroinflammatory tone; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of opioid use disorder.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — OUD angiotensin-II: angiotensin-II in the mesolimbic dopamine (already mapped) circuit modulates stress-induced craving; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and CRH (already mapped) neuroinflammatory cascade of OUD.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — OUD VEGF: VEGF from microglia (already mapped) and astrocytes sustains neuroplasticity in dopamine (already mapped) reward circuits; VEGF dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of opioid use disorder.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — OUD WNT/β-catenin: WNT/β-catenin signalling in dopamine (already mapped) neurons supports synaptic plasticity; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and CRH (already mapped) reward-circuit cascade of opioid use disorder.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
