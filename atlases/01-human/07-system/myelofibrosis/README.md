@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "MF nitrogen: nitrogen in amino-acid scaffold of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "MF oxygen: oxygen, via mitochondrial respiration in megakaryocytes (already mapped) and macrophages (already mapped), sustains JAK2 (already mapped) signalling; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "MF sulfur: sulfur in cysteine residues of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) stabilises thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "MF PD-1: PD-1 checkpoint on T-regulatory cells (already mapped) and NK cells (already mapped) in the bone-marrow microenvironment modulates clonal immune escape; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
 ---
 
 # Myelofibrosis
@@ -839,6 +848,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MF carbon: carbon as backbone of JAK2 (already mapped) and calreticulin structural proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MF hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and megakaryocytes (already mapped), supports JAK2 (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MF nitrogen: nitrogen in amino-acid scaffold of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MF oxygen: oxygen, via mitochondrial respiration in megakaryocytes (already mapped) and macrophages (already mapped), sustains JAK2 (already mapped) signalling; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MF sulfur: sulfur in cysteine residues of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) stabilises thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MF PD-1: PD-1 checkpoint on T-regulatory cells (already mapped) and NK cells (already mapped) in the bone-marrow microenvironment modulates clonal immune escape; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
 
 ---
 
