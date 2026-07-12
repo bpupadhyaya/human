@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "MAP nitrogen: nitrogen in amino-acid scaffold of MUTYH (already mapped) and OGG1 repair proteins in colonocytes (already mapped) sustains base-excision repair; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of MAP."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "MAP chloride: chloride via Cl⁻ channels in colonocytes (already mapped) regulates cell volume and epithelial ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MUTYH-associated polyposis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "MAP phosphorus: phosphorus in ATP and phosphodiester backbone of MUTYH (already mapped) repair proteins in colonocytes (already mapped) drives DNA base-excision repair; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "MAP sulfur: sulfur in cysteine and methionine residues of MUTYH (already mapped) protein in colonocytes (already mapped) stabilises oxidised base repair; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP."
 ---
 
 # MUTYH-Associated Polyposis
@@ -828,6 +837,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MAP carbon: carbon as backbone of MUTYH base-excision repair (already mapped) proteins in colonocytes (already mapped) sustains genome integrity; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MUTYH-associated polyposis.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MAP hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and colonocytes (already mapped), supports MUTYH (already mapped) repair; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MAP nitrogen: nitrogen in amino-acid scaffold of MUTYH (already mapped) and OGG1 repair proteins in colonocytes (already mapped) sustains base-excision repair; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of MAP.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MAP chloride: chloride via Cl⁻ channels in colonocytes (already mapped) regulates cell volume and epithelial ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MUTYH-associated polyposis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MAP phosphorus: phosphorus in ATP and phosphodiester backbone of MUTYH (already mapped) repair proteins in colonocytes (already mapped) drives DNA base-excision repair; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MAP sulfur: sulfur in cysteine and methionine residues of MUTYH (already mapped) protein in colonocytes (already mapped) stabilises oxidised base repair; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP.
 
 ---
 

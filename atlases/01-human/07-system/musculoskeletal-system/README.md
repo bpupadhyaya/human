@@ -536,6 +536,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "MSK angiotensin-II: angiotensin-II via AT1R on osteoblasts (already mapped) and macrophages (already mapped) modulates bone remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "MSK IL-2: IL-2 from activated T-cells (already mapped) in synovium (already mapped) drives cytotoxic and T-regulatory cell expansion; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of musculoskeletal disease."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "MSK fibronectin: fibronectin in cartilage (already mapped) and synovium (already mapped) scaffolds chondrocyte adhesion and repair; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) matrix-degradation cascade of musculoskeletal disease."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "MSK activin-A: activin-A from myoblasts (already mapped) and synoviocytes (already mapped) regulates bone formation and muscle repair; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of musculoskeletal disease."
 ---
 
 # Musculoskeletal System
@@ -845,6 +854,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MSK PD-1: PD-1 checkpoint on T-regulatory (already mapped) and cytotoxic T-cells (already mapped) in the musculoskeletal microenvironment modulates autoimmune joint inflammation; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) erosive cascade.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MSK GLP-1: GLP-1 receptor agonism on osteoblasts (already mapped) and macrophages (already mapped) promotes bone mineral density; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) bone-resorption cascade of musculoskeletal disease.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MSK angiotensin-II: angiotensin-II via AT1R on osteoblasts (already mapped) and macrophages (already mapped) modulates bone remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MSK IL-2: IL-2 from activated T-cells (already mapped) in synovium (already mapped) drives cytotoxic and T-regulatory cell expansion; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of musculoskeletal disease.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MSK fibronectin: fibronectin in cartilage (already mapped) and synovium (already mapped) scaffolds chondrocyte adhesion and repair; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) matrix-degradation cascade of musculoskeletal disease.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MSK activin-A: activin-A from myoblasts (already mapped) and synoviocytes (already mapped) regulates bone formation and muscle repair; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of musculoskeletal disease.
 
 ## Pathology
 
