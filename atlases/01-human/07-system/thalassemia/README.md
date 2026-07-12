@@ -543,6 +543,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "Thal hydrogen: hydrogen, via redox homeostasis in erythrocytes (already mapped) and macrophages (already mapped), quenches haemolytic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic-inflammatory cascade of thalassemia."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Thal nitrogen: nitric oxide from erythrocytes (already mapped) and macrophages (already mapped) modulates vascular tone; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and erythropoietin (already mapped) cascade of thalassemia."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Thal sulfur: hydrogen sulfide from erythrocytes (already mapped) and macrophages (already mapped) modulates vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and erythropoietin (already mapped) cascade of thalassemia."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Thal PD-1: PD-1 checkpoint signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and erythropoietin (already mapped) cascade of thalassemia."
 ---
 
 # Thalassemia
@@ -862,6 +871,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Thal carbon: carbon, as metabolic backbone of erythrocytes (already mapped) and macrophages (already mapped), drives haemoglobin (already mapped) synthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic cascade of thalassemia.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Thal chloride: chloride, via KCC1 in erythrocytes (already mapped) and macrophages (already mapped), regulates red-cell volume; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and haemolytic cascade of thalassemia.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Thal hydrogen: hydrogen, via redox homeostasis in erythrocytes (already mapped) and macrophages (already mapped), quenches haemolytic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) haemolytic-inflammatory cascade of thalassemia.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Thal nitrogen: nitric oxide from erythrocytes (already mapped) and macrophages (already mapped) modulates vascular tone; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and erythropoietin (already mapped) cascade of thalassemia.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Thal sulfur: hydrogen sulfide from erythrocytes (already mapped) and macrophages (already mapped) modulates vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and erythropoietin (already mapped) cascade of thalassemia.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Thal PD-1: PD-1 checkpoint signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and erythropoietin (already mapped) cascade of thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "TTP GLP-1: GLP-1 signalling in endothelial-cell (already mapped) and macrophages (already mapped) modulates microvascular metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of TTP."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "TTP angiotensin-II: angiotensin-II signalling in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of TTP."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "TTP Wnt/β-catenin: Wnt/β-catenin signalling in endothelial cells (already mapped) and macrophages (already mapped) modulates vascular repair; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of TTP."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "TTP RANKL: RANKL signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates thrombotic inflammation; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -874,6 +883,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — TTP carbon: carbon, as metabolic backbone of endothelial-cell (already mapped) and platelets (already mapped), drives coagulation signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and ADAMTS13-deficiency cascade of TTP.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — TTP hydrogen: hydrogen, via redox homeostasis in endothelial-cell (already mapped) and platelets (already mapped), quenches microvascular ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) microvascular thrombosis cascade of TTP.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — TTP GLP-1: GLP-1 signalling in endothelial-cell (already mapped) and macrophages (already mapped) modulates microvascular metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of TTP.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — TTP angiotensin-II: angiotensin-II signalling in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of TTP.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — TTP Wnt/β-catenin: Wnt/β-catenin signalling in endothelial cells (already mapped) and macrophages (already mapped) modulates vascular repair; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of TTP.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — TTP RANKL: RANKL signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates thrombotic inflammation; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of TTP.
 
 ---
 
