@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "DLBCL wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) promotes lymphoma proliferation; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "DLBCL rankl: RANKL from macrophages (already mapped) and B-cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in DLBCL."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "DLBCL fibronectin: fibronectin in tumour-associated macrophages (already mapped) and B-cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "DLBCL igf-1: IGF-1 from macrophages (already mapped) and B-cells (already mapped) promotes lymphoma cell survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -857,6 +866,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — DLBCL glp-1: GLP-1 from macrophages (already mapped) and B-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in DLBCL.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — DLBCL angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in DLBCL.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — DLBCL wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) promotes lymphoma proliferation; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — DLBCL rankl: RANKL from macrophages (already mapped) and B-cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in DLBCL.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — DLBCL fibronectin: fibronectin in tumour-associated macrophages (already mapped) and B-cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — DLBCL igf-1: IGF-1 from macrophages (already mapped) and B-cells (already mapped) promotes lymphoma cell survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

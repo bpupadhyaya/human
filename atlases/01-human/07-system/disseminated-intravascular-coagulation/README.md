@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "DIC il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies systemic immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "DIC rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes coagulation-associated bone marrow stress; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "DIC fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) promotes fibrin clot scaffold remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "DIC notch: Notch signalling on endothelial cells (already mapped) and macrophages (already mapped) regulates vascular integrity in DIC; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -874,6 +883,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — DIC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes vascular permeability; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — DIC wnt-beta-catenin: WNT/β-catenin on endothelial cells (already mapped) and macrophages (already mapped) regulates integrity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — DIC il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies systemic immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — DIC rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes coagulation-associated bone marrow stress; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — DIC fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) promotes fibrin clot scaffold remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — DIC notch: Notch signalling on endothelial cells (already mapped) and macrophages (already mapped) regulates vascular integrity in DIC; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 
 ---
 
