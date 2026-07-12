@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "CLL igf-1: IGF-1 on B-cells (already mapped) and macrophages (already mapped) promotes leukaemic proliferation; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "CLL activin-a: activin-A from B-cells (already mapped) and macrophages (already mapped) regulates CLL immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "CLL cgrp: CGRP from B-cells (already mapped) and macrophages (already mapped) modulates CLL neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "CLL calcitonin: calcitonin from B-cells (already mapped) and macrophages (already mapped) modulates CLL calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL."
 ---
 
 # CLL
@@ -860,6 +869,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CLL rankl: RANKL in macrophages (already mapped) and stromal cells (already mapped) modulates CLL bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CLL fibronectin: fibronectin in stromal cells (already mapped) and macrophages (already mapped) promotes CLL microenvironment remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — CLL igf-1: IGF-1 on B-cells (already mapped) and macrophages (already mapped) promotes leukaemic proliferation; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CLL activin-a: activin-A from B-cells (already mapped) and macrophages (already mapped) regulates CLL immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CLL cgrp: CGRP from B-cells (already mapped) and macrophages (already mapped) modulates CLL neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CLL calcitonin: calcitonin from B-cells (already mapped) and macrophages (already mapped) modulates CLL calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL.
 
 ---
 

@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "CML igf-1: IGF-1 on leukaemic stem cells (already mapped) and macrophages (already mapped) promotes CML proliferation; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "CML activin-a: activin-A from leukaemic stem cells (already mapped) and macrophages (already mapped) regulates CML immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "CML cgrp: CGRP from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "CML calcitonin: calcitonin from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -860,6 +869,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CML rankl: RANKL in macrophages (already mapped) and stromal cells (already mapped) modulates CML bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) leukaemic cascade of CML.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CML fibronectin: fibronectin in stromal cells (already mapped) and macrophages (already mapped) promotes CML microenvironment remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — CML igf-1: IGF-1 on leukaemic stem cells (already mapped) and macrophages (already mapped) promotes CML proliferation; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CML activin-a: activin-A from leukaemic stem cells (already mapped) and macrophages (already mapped) regulates CML immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CML cgrp: CGRP from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CML calcitonin: calcitonin from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 
 ---
 
