@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "colorectal rankl: RANKL in macrophages (already mapped) and intestinal epithelium (already mapped) modulates tumour-immune axis; RANKL excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) tumour cascade in colorectal cancer."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "colorectal activin-a: activin-A in intestinal epithelium (already mapped) and macrophages (already mapped) modulates tumour stroma; activin-A dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "colorectal cgrp: CGRP in enteric neurons (already mapped) and macrophages (already mapped) modulates colorectal pain; CGRP dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "colorectal calcitonin: calcitonin in colonocytes (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
 ---
 
 # Colorectal Cancer
@@ -859,6 +868,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — colorectal glp-1: GLP-1 from macrophages (already mapped) and intestinal epithelium (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — colorectal angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes growth; angiotensin-II excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — colorectal rankl: RANKL in macrophages (already mapped) and intestinal epithelium (already mapped) modulates tumour-immune axis; RANKL excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) tumour cascade in colorectal cancer.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — colorectal activin-a: activin-A in intestinal epithelium (already mapped) and macrophages (already mapped) modulates tumour stroma; activin-A dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — colorectal cgrp: CGRP in enteric neurons (already mapped) and macrophages (already mapped) modulates colorectal pain; CGRP dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — colorectal calcitonin: calcitonin in colonocytes (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
 
 ---
 

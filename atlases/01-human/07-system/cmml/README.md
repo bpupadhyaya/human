@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "CMML angiotensin-ii: angiotensin II on monocytes (already mapped) and macrophages (already mapped) promotes myeloproliferative skewing; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "CMML rankl: RANKL in monocytes (already mapped) and macrophages (already mapped) modulates myeloproliferative bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "CMML fibronectin: fibronectin in monocytes (already mapped) and macrophages (already mapped) promotes myeloproliferative stroma; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "CMML notch: Notch on monocytes (already mapped) and macrophages (already mapped) regulates myeloid cell fate; Notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -861,6 +870,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — CMML pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses myeloproliferative immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — CMML glp-1: GLP-1 from macrophages (already mapped) and monocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — CMML angiotensin-ii: angiotensin II on monocytes (already mapped) and macrophages (already mapped) promotes myeloproliferative skewing; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CMML rankl: RANKL in monocytes (already mapped) and macrophages (already mapped) modulates myeloproliferative bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CMML fibronectin: fibronectin in monocytes (already mapped) and macrophages (already mapped) promotes myeloproliferative stroma; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — CMML notch: Notch on monocytes (already mapped) and macrophages (already mapped) regulates myeloid cell fate; Notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
 
 ---
 
