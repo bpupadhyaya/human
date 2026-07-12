@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "PPGL phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and chromaffin cells sustains catecholamine secretion; phosphorus deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic-inflammatory cascade of pheochromocytoma-paraganglioma."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PPGL PD-1: PD-1 on T-cells (already mapped) and macrophages (already mapped) in PPGL tumour stroma suppresses anti-tumour immunity; PD-1 checkpoint dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) immunosuppressive cascade of pheochromocytoma-paraganglioma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "PPGL GLP-1: GLP-1 receptor signalling in chromaffin cells and macrophages (already mapped) modulates catecholamine-driven metabolic stress; GLP-1 deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) and angiotensin-II (already mapped) cascade of PPGL."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PPGL RANKL: RANKL from T-cells (already mapped) in PPGL tumour stroma modulates bone-immune crosstalk; RANKL excess amplifies IL-6 (already mapped) and VEGF (already mapped) and angiotensin-II (already mapped) angiogenic-inflammatory cascade of pheochromocytoma-paraganglioma."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -853,6 +862,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PPGL carbon: carbon as backbone of catecholamine and VEGF (already mapped) proteins in chromaffin cells and macrophages (already mapped) sustains tumour signalling; carbon depletion amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of PPGL.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PPGL hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and chromaffin cells, supports catecholamine biosynthesis; hydrogen dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) oxidative cascade of pheochromocytoma-paraganglioma.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — PPGL phosphorus: phosphorus-dependent ATP in macrophages (already mapped) and chromaffin cells sustains catecholamine secretion; phosphorus deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) angiogenic-inflammatory cascade of pheochromocytoma-paraganglioma.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PPGL PD-1: PD-1 on T-cells (already mapped) and macrophages (already mapped) in PPGL tumour stroma suppresses anti-tumour immunity; PD-1 checkpoint dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) immunosuppressive cascade of pheochromocytoma-paraganglioma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PPGL GLP-1: GLP-1 receptor signalling in chromaffin cells and macrophages (already mapped) modulates catecholamine-driven metabolic stress; GLP-1 deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) and angiotensin-II (already mapped) cascade of PPGL.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PPGL RANKL: RANKL from T-cells (already mapped) in PPGL tumour stroma modulates bone-immune crosstalk; RANKL excess amplifies IL-6 (already mapped) and VEGF (already mapped) and angiotensin-II (already mapped) angiogenic-inflammatory cascade of pheochromocytoma-paraganglioma.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

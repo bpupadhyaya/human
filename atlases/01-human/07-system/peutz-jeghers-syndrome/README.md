@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Peutz-Jeghers nitrogen: nitrogen in amino-acid scaffold of LKB1/STK11 (already mapped) and mTOR (already mapped) proteins in polyp epithelial cells sustains signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Peutz-Jeghers oxygen: oxygen, via mitochondrial respiration in polyp epithelial cells and macrophages (already mapped), sustains LKB1/STK11 (already mapped)-regulated energy sensing; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Peutz-Jeghers sulfur: sulfur in cysteine residues of LKB1/STK11 (already mapped) and mTOR (already mapped) kinase proteins sustains thiol-redox balance in polyp cells; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Peutz-Jeghers PD-1: PD-1 on T-cells (already mapped) in gastrointestinal polyp stroma suppresses anti-tumour immunity; PD-1 checkpoint dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) polyposis cascade of PJS."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -835,6 +844,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Peutz-Jeghers carbon: carbon as backbone of LKB1/STK11 (already mapped) and NF-κB (already mapped) proteins in epithelial cells sustains tumour-suppressive signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp-cancer cascade of PJS.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Peutz-Jeghers hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), supports LKB1/STK11 (already mapped) kinase activity; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Peutz-Jeghers nitrogen: nitrogen in amino-acid scaffold of LKB1/STK11 (already mapped) and mTOR (already mapped) proteins in polyp epithelial cells sustains signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Peutz-Jeghers oxygen: oxygen, via mitochondrial respiration in polyp epithelial cells and macrophages (already mapped), sustains LKB1/STK11 (already mapped)-regulated energy sensing; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Peutz-Jeghers sulfur: sulfur in cysteine residues of LKB1/STK11 (already mapped) and mTOR (already mapped) kinase proteins sustains thiol-redox balance in polyp cells; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Peutz-Jeghers PD-1: PD-1 on T-cells (already mapped) in gastrointestinal polyp stroma suppresses anti-tumour immunity; PD-1 checkpoint dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) polyposis cascade of PJS.
 
 ---
 
