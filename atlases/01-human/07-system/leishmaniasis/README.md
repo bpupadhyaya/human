@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/fgf23
     relation: connects-to
     note: "Leish fgf23: FGF23 from macrophages (already mapped) and mast cells (already mapped) modulates immune phosphate homeostasis; fgf23 excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Leish angiopoietin: angiopoietin from macrophages (already mapped) and mast cells (already mapped) modulates vascular tone; angiopoietin excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Leish insulin-receptor: insulin receptor on macrophages (already mapped) and mast cells (already mapped) drives metabolic tone; insulin-receptor loss amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Leish aldosterone: aldosterone on macrophages (already mapped) and mast cells (already mapped) modulates immune sodium tone; aldosterone excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
 ---
 
 # Leishmaniasis
@@ -850,3 +859,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Leish calcitonin: calcitonin from macrophages (already mapped) and mast cells (already mapped) modulates skin inflammation; calcitonin dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Leish substance-p: substance-P from macrophages (already mapped) and mast cells (already mapped) amplifies neurogenic skin pain; substance-p excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — Leish fgf23: FGF23 from macrophages (already mapped) and mast cells (already mapped) modulates immune phosphate homeostasis; fgf23 excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Leish angiopoietin: angiopoietin from macrophages (already mapped) and mast cells (already mapped) modulates vascular tone; angiopoietin excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Leish insulin-receptor: insulin receptor on macrophages (already mapped) and mast cells (already mapped) drives metabolic tone; insulin-receptor loss amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Leish aldosterone: aldosterone on macrophages (already mapped) and mast cells (already mapped) modulates immune sodium tone; aldosterone excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
