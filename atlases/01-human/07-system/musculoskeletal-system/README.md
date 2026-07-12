@@ -554,6 +554,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "MSK androgen-receptor: androgen-receptor on osteoblasts (already mapped) and macrophages (already mapped) drives anabolic tone; androgen-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "MSK adenosine: adenosine from macrophages (already mapped) and osteoblasts (already mapped) modulates purinergic bone-muscle signalling; adenosine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "MSK il-10: IL-10 from macrophages (already mapped) and osteoblasts (already mapped) suppresses musculoskeletal inflammation; il-10 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "MSK bdnf: BDNF from macrophages (already mapped) and osteoblasts (already mapped) supports neuromuscular junction integrity; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
 ---
 
 # Musculoskeletal System
@@ -869,6 +878,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — MSK insulin-receptor: insulin-receptor on osteoblasts (already mapped) and macrophages (already mapped) drives anabolic signalling; insulin-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MSK aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) drives mineralocorticoid fibrosis; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 - `connects-to` → **[Androgen-receptor](../../03-molecular/androgen-receptor/README.md)** — MSK androgen-receptor: androgen-receptor on osteoblasts (already mapped) and macrophages (already mapped) drives anabolic tone; androgen-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — MSK adenosine: adenosine from macrophages (already mapped) and osteoblasts (already mapped) modulates purinergic bone-muscle signalling; adenosine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — MSK il-10: IL-10 from macrophages (already mapped) and osteoblasts (already mapped) suppresses musculoskeletal inflammation; il-10 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MSK bdnf: BDNF from macrophages (already mapped) and osteoblasts (already mapped) supports neuromuscular junction integrity; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 
 ## Pathology
 

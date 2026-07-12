@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "MS rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes CNS neuroinflammation; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "MS vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory angiogenesis; vegf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "MS fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "MS notch: Notch signalling on microglia (already mapped) and astrocytes (already mapped) regulates oligodendrocyte fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
 ---
 
 # Multiple Sclerosis
@@ -853,6 +862,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MS angiotensin-ii: angiotensin-II from astrocytes (already mapped) and macrophages (already mapped) drives vascular neuroinflammation; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MS wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates oligodendrocyte survival; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) MS cascade.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MS rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes CNS neuroinflammation; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — MS vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory angiogenesis; vegf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MS fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — MS notch: Notch signalling on microglia (already mapped) and astrocytes (already mapped) regulates oligodendrocyte fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
