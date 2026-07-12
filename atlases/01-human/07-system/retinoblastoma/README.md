@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Rb calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Rb substance-p: substance P from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Rb insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives retinal tumour metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Rb aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates ion balance in retinoblastoma; aldosterone excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
 ---
 
 # Retinoblastoma
@@ -860,6 +869,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Rb activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives retinal tumour fibrosis; activin-a excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Rb cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Rb calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Rb substance-p: substance P from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Rb insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives retinal tumour metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Rb aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates ion balance in retinoblastoma; aldosterone excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)

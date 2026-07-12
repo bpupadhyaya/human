@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "RA calcitonin: calcitonin from synoviocytes (already mapped) and macrophages (already mapped) modulates joint calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "RA substance-p: substance P from synoviocytes (already mapped) and macrophages (already mapped) modulates joint neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "RA insulin-receptor: insulin receptor on synoviocytes (already mapped) and macrophages (already mapped) drives joint metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "RA aldosterone: aldosterone from synoviocytes (already mapped) and macrophages (already mapped) modulates joint ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
 ---
 
 # Rheumatoid Arthritis
@@ -897,6 +906,9 @@ RA patients have:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RA activin-a: activin-A from synoviocytes (already mapped) and macrophages (already mapped) drives joint fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — RA cgrp: CGRP from synoviocytes (already mapped) and macrophages (already mapped) modulates joint vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RA calcitonin: calcitonin from synoviocytes (already mapped) and macrophages (already mapped) modulates joint calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — RA substance-p: substance P from synoviocytes (already mapped) and macrophages (already mapped) modulates joint neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — RA insulin-receptor: insulin receptor on synoviocytes (already mapped) and macrophages (already mapped) drives joint metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RA aldosterone: aldosterone from synoviocytes (already mapped) and macrophages (already mapped) modulates joint ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
