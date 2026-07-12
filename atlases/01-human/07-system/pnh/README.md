@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "PNH rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes PNH immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of PNH."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "PNH vegf: VEGF from macrophages (already mapped) and endothelial cells (already mapped) drives complement-mediated vascular injury; vegf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PNH fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes vascular ECM remodelling in PNH; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PNH notch: Notch signalling in macrophages (already mapped) and endothelial cells (already mapped) regulates haematopoietic cell fate in PNH; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -827,6 +836,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PNH angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives PNH thrombotic tone; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of PNH.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PNH wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates PNH vascular tone; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of PNH.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PNH rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes PNH immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of PNH.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — PNH vegf: VEGF from macrophages (already mapped) and endothelial cells (already mapped) drives complement-mediated vascular injury; vegf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PNH fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes vascular ECM remodelling in PNH; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — PNH notch: Notch signalling in macrophages (already mapped) and endothelial cells (already mapped) regulates haematopoietic cell fate in PNH; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 
 ---
 

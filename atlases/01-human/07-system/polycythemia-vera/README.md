@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "PV il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates PV immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and erythropoietin (already mapped) erythrocytosis cascade of PV."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PV fibronectin: fibronectin in macrophages (already mapped) and erythroid progenitors (already mapped) promotes marrow ECM remodelling in PV; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of polycythemia vera."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PV notch: Notch signalling in macrophages (already mapped) and erythroid progenitors (already mapped) regulates haematopoietic cell fate in PV; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of polycythemia vera."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "PV igf-1: IGF-1 from macrophages (already mapped) and erythroid progenitors (already mapped) promotes haematopoietic cell survival in PV; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of polycythemia vera."
 ---
 
 # Polycythemia Vera
@@ -857,6 +866,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PV wnt-beta-catenin: WNT/β-catenin on stem cells (already mapped) and macrophages (already mapped) drives erythroid expansion; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and erythropoietin (already mapped) erythrocytosis cascade of PV.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PV rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) modulates myeloproliferative bone marrow niche; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erythropoietin (already mapped) erythrocytosis cascade of PV.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — PV il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates PV immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and erythropoietin (already mapped) erythrocytosis cascade of PV.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PV fibronectin: fibronectin in macrophages (already mapped) and erythroid progenitors (already mapped) promotes marrow ECM remodelling in PV; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of polycythemia vera.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — PV notch: Notch signalling in macrophages (already mapped) and erythroid progenitors (already mapped) regulates haematopoietic cell fate in PV; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of polycythemia vera.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PV igf-1: IGF-1 from macrophages (already mapped) and erythroid progenitors (already mapped) promotes haematopoietic cell survival in PV; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of polycythemia vera.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)
