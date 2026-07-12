@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "bloom zinc: zinc finger domains of BLM (already mapped) and RAD51 (already mapped) coordinate DNA repair; zinc deficiency disrupts BRCA1 (already mapped) and P53 (already mapped) and BRCA2 (already mapped) cascade in Bloom syndrome."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "Bloom carbon: carbon backbone of nucleotides in fibroblasts (already mapped) and b-cells (already mapped) sustains DNA replication; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) genomic instability in Bloom syndrome."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "Bloom chloride: chloride channels in macrophages (already mapped) and fibroblasts (already mapped) modulate cellular homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Bloom hydrogen: hydrogen via ROS balance in fibroblasts (already mapped) and macrophages (already mapped) modulates replication-fork stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) genomic cascade in Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -849,6 +858,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — bloom iodine: iodine-dependent thyroid hormones in macrophage (already mapped) and dendritic cell (already mapped) regulate BLM (already mapped) helicase activity; iodine deficiency amplifies RAD51 (already mapped) and P53 (already mapped) cascade in Bloom syndrome.
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — bloom copper: copper-dependent cuproenzymes in macrophage (already mapped) and dendritic cell (already mapped) regulate DNA repair; copper excess amplifies BLM (already mapped) and BRCA2 (already mapped) and P53 (already mapped) cascade in Bloom syndrome.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — bloom zinc: zinc finger domains of BLM (already mapped) and RAD51 (already mapped) coordinate DNA repair; zinc deficiency disrupts BRCA1 (already mapped) and P53 (already mapped) and BRCA2 (already mapped) cascade in Bloom syndrome.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Bloom carbon: carbon backbone of nucleotides in fibroblasts (already mapped) and b-cells (already mapped) sustains DNA replication; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) genomic instability in Bloom syndrome.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Bloom chloride: chloride channels in macrophages (already mapped) and fibroblasts (already mapped) modulate cellular homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Bloom hydrogen: hydrogen via ROS balance in fibroblasts (already mapped) and macrophages (already mapped) modulates replication-fork stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) genomic cascade in Bloom syndrome.
 
 ---
 

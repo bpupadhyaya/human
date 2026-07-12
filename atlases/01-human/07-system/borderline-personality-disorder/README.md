@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "ROS from NADPH oxidase in neuron (already mapped) and brain (already mapped) amplifies oxidative stress; oxygen excess disrupts dopamine (already mapped) and serotonin (already mapped) and BDNF (already mapped) and cortisol (already mapped) cascade in BPD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "BPD pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory emotional dysregulation in BPD."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "BPD vegf: VEGF from astrocytes (already mapped) and neurons (already mapped) sustains cerebrovascular supply; VEGF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory affective instability in BPD."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "BPD wnt-beta-catenin: Wnt/β-catenin signalling in neurons (already mapped) and microglia (already mapped) regulates synaptic plasticity; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory cascade in BPD."
 ---
 
 # Borderline Personality Disorder
@@ -859,6 +868,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon-based fatty acids in neuron (already mapped) and brain (already mapped) fuel dopamine (already mapped) and serotonin (already mapped) signalling; disrupted carbon metabolism amplifies BDNF (already mapped) and cortisol (already mapped) dysregulation in BPD.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen ion dysregulation in brain (already mapped) and neuron (already mapped) amplifies mood instability; proton excess disrupts serotonin (already mapped) and norepinephrine (already mapped) and BDNF (already mapped) and dopamine (already mapped) signalling in BPD.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ROS from NADPH oxidase in neuron (already mapped) and brain (already mapped) amplifies oxidative stress; oxygen excess disrupts dopamine (already mapped) and serotonin (already mapped) and BDNF (already mapped) and cortisol (already mapped) cascade in BPD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — BPD pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory emotional dysregulation in BPD.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — BPD vegf: VEGF from astrocytes (already mapped) and neurons (already mapped) sustains cerebrovascular supply; VEGF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory affective instability in BPD.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — BPD wnt-beta-catenin: Wnt/β-catenin signalling in neurons (already mapped) and microglia (already mapped) regulates synaptic plasticity; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory cascade in BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
