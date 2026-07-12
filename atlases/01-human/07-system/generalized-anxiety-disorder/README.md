@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "GAD notch: Notch signalling on neurons (already mapped) and microglia (already mapped) regulates anxiety neural circuits; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory anxiety cascade of GAD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "GAD igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory anxiety cascade of GAD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "GAD activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "GAD tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD."
 ---
 
 # Generalized Anxiety Disorder
@@ -897,6 +906,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — GAD il-2: IL-2 on T-cells (already mapped) and microglia (already mapped) amplifies neuroinflammatory anxiety; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory anxiety cascade of GAD.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — GAD fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory anxiety cascade of GAD.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — GAD notch: Notch signalling on neurons (already mapped) and microglia (already mapped) regulates anxiety neural circuits; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory anxiety cascade of GAD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — GAD igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory anxiety cascade of GAD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — GAD activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — GAD tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)

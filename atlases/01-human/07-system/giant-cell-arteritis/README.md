@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "GCA activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes vascular remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "GCA cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "GCA calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "GCA substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis."
 ---
 
 # Giant Cell Arteritis
@@ -862,6 +871,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — GCA fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — GCA igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes vascular smooth-muscle repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — GCA activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes vascular remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — GCA cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — GCA calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — GCA substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of giant-cell arteritis.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
