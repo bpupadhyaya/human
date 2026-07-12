@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "Hypertension oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and T-cytotoxic cells (already mapped) drives vascular oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) endothelial damage in hypertension."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Hypertension pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses vascular immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade in hypertension."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Hypertension vegf: VEGF from macrophages (already mapped) and T-cytotoxic cells (already mapped) drives vascular angiogenesis and remodelling; vegf dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Hypertension wnt-beta-catenin: Wnt-β-catenin from vascular smooth-muscle cells (already mapped) and macrophages (already mapped) drives arterial remodelling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in hypertension."
 ---
 
 # Hypertension
@@ -802,6 +811,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Hypertension carbon: carbon as backbone of renin-angiotensin signalling proteins and cytokines (already mapped) sustains vasoconstrictive cascade; carbon-derived metabolites in macrophages (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in hypertension.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Hypertension hydrogen: hydrogen as proton gradient in vascular endothelium mitochondria drives ATP synthesis; hydrogen-ion acidosis amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular remodelling in hypertension.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Hypertension oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and T-cytotoxic cells (already mapped) drives vascular oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) endothelial damage in hypertension.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Hypertension pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses vascular immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade in hypertension.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Hypertension vegf: VEGF from macrophages (already mapped) and T-cytotoxic cells (already mapped) drives vascular angiogenesis and remodelling; vegf dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
+- `connects-to` → **[Wnt-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Hypertension wnt-beta-catenin: Wnt-β-catenin from vascular smooth-muscle cells (already mapped) and macrophages (already mapped) drives arterial remodelling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in hypertension.
 
 ## Pathology
 

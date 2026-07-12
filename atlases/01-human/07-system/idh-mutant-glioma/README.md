@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "IDH-glioma phosphorus: phosphorus as ATP in microglia (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies IL-6 (already mapped) and mast-cell (already mapped) cascade in IDH-mutant glioma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "IDH-glioma hydrogen: hydrogen via ROS from microglia (already mapped) and T-cytotoxic cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "IDH-glioma oxygen: ROS from NADPH-oxidase in microglia (already mapped) and T-cytotoxic cells (already mapped) drives tumour oxidative stress; oxygen dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "IDH-glioma sulfur: sulfur-containing amino acids in microglia (already mapped) and T-cytotoxic cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -843,6 +852,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — IDH-glioma chloride: chloride channels regulate microglia (already mapped) and T-cytotoxic (already mapped) volume during tumour microenvironment stress; chloride dysregulation amplifies IL-6 (already mapped) and mast-cell (already mapped) tumour cascade in IDH-mutant glioma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — IDH-glioma nitrogen: nitrogen as backbone of IDH-mutant oncoproteins and cytokines (already mapped) sustains oncometabolite signalling; nitrogen-derived RNS from microglia (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) in IDH-mutant glioma.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — IDH-glioma phosphorus: phosphorus as ATP in microglia (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies IL-6 (already mapped) and mast-cell (already mapped) cascade in IDH-mutant glioma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IDH-glioma hydrogen: hydrogen via ROS from microglia (already mapped) and T-cytotoxic cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — IDH-glioma oxygen: ROS from NADPH-oxidase in microglia (already mapped) and T-cytotoxic cells (already mapped) drives tumour oxidative stress; oxygen dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IDH-glioma sulfur: sulfur-containing amino acids in microglia (already mapped) and T-cytotoxic cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
