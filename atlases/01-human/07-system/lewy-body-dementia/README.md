@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "LBD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "LBD smad4: SMAD4 in microglia (already mapped) and astrocytes (already mapped) mediates TGF-β anti-inflammatory signalling; smad4 dysregulation amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "LBD vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory angiogenesis; vegf excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "LBD fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes glial ECM remodelling; fibronectin excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade."
 ---
 
 # Lewy Body Dementia
@@ -873,6 +882,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — LBD angiotensin-ii: angiotensin-II from astrocytes (already mapped) and microglia (already mapped) drives vascular tone; angiotensin-ii excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) neurodegeneration cascade of LBD.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — LBD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates dopaminergic neuroprotection; wnt-beta-catenin dysregulation amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) cascade of LBD.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — LBD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — LBD smad4: SMAD4 in microglia (already mapped) and astrocytes (already mapped) mediates TGF-β anti-inflammatory signalling; smad4 dysregulation amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — LBD vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory angiogenesis; vegf excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — LBD fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes glial ECM remodelling; fibronectin excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

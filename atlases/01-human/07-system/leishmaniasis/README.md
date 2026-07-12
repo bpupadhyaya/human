@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "Leish cgrp: CGRP from macrophages (already mapped) and mast cells (already mapped) modulates neurogenic skin inflammation; cgrp dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Leish calcitonin: calcitonin from macrophages (already mapped) and mast cells (already mapped) modulates skin inflammation; calcitonin dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Leish substance-p: substance-P from macrophages (already mapped) and mast cells (already mapped) amplifies neurogenic skin pain; substance-p excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "Leish fgf23: FGF23 from macrophages (already mapped) and mast cells (already mapped) modulates immune phosphate homeostasis; fgf23 excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
 ---
 
 # Leishmaniasis
@@ -837,3 +846,7 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Leish igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes parasite-driven tissue repair; igf-1 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Leish activin-a: activin-A from macrophages (already mapped) and dendritic cells (already mapped) drives anti-leishmanial immunity; activin-a dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) cascade of leishmaniasis.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Leish cgrp: CGRP from macrophages (already mapped) and mast cells (already mapped) modulates neurogenic skin inflammation; cgrp dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Leish calcitonin: calcitonin from macrophages (already mapped) and mast cells (already mapped) modulates skin inflammation; calcitonin dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Leish substance-p: substance-P from macrophages (already mapped) and mast cells (already mapped) amplifies neurogenic skin pain; substance-p excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — Leish fgf23: FGF23 from macrophages (already mapped) and mast cells (already mapped) modulates immune phosphate homeostasis; fgf23 excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
