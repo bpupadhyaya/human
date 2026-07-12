@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "PC GLP-1: GLP-1 receptor signalling in prostate tumour cells and macrophages (already mapped) modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "PC angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives tumour angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PC fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds prostate tumour stroma; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PC notch: NOTCH on prostate tumour cells (already mapped) and fibroblasts (already mapped) regulates stromal invasion; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
 ---
 
 # Prostate Cancer
@@ -858,6 +867,9 @@ cross_links:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PC oxygen: tumour hypoxia in prostate cancer drives HIF-1α and VEGF (already mapped) angiogenesis; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and androgen receptor signalling cascade of prostate cancer.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PC sulfur: sulfur in cysteine residues of androgen receptor and NF-κB (already mapped) proteins in prostate tumour cells sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of prostate cancer.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PC GLP-1: GLP-1 receptor signalling in prostate tumour cells and macrophages (already mapped) modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PC angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives tumour angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PC fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds prostate tumour stroma; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — PC notch: NOTCH on prostate tumour cells (already mapped) and fibroblasts (already mapped) regulates stromal invasion; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)

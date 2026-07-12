@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "PN sulfur: sulfur in cysteine residues of substance-P (already mapped) and NF-κB (already mapped) proteins in sensory neurons sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-31 (already mapped) itch cascade of prurigo nodularis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PN pd-1: PD-1 on T-cells (already mapped) in prurigo skin lesion stroma suppresses immune resolution; PD-1 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-31 (already mapped) itch-inflammatory cascade of prurigo nodularis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "PN glp-1: GLP-1 from enteroendocrine cells (already mapped) and macrophages (already mapped) modulates systemic inflammatory tone; glp-1 dysfunction amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-31 (already mapped) itch cascade of prurigo nodularis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "PN angiotensin-ii: angiotensin-II from macrophages (already mapped) and mast cells (already mapped) drives PN neuroinflammation; angiotensin-ii excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-31 (already mapped) itch cascade of prurigo nodularis."
 ---
 
 # Prurigo Nodularis
@@ -806,6 +815,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PN nitrogen: nitrogen in amino-acid scaffold of substance-P (already mapped) and IL-31 (already mapped) in sensory neurons (already mapped) sustains neuropeptide signalling; nitrogen dysregulation amplifies NF-κB (already mapped) cascade of prurigo nodularis.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PN oxygen: oxygen, via mitochondrial respiration in sensory neurons (already mapped) and mast cells (already mapped), sustains neuropeptide synthesis; oxygen depletion amplifies NF-κB (already mapped) and IL-31 (already mapped) neuroinflammatory itch cascade of prurigo nodularis.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PN sulfur: sulfur in cysteine residues of substance-P (already mapped) and NF-κB (already mapped) proteins in sensory neurons sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-31 (already mapped) itch cascade of prurigo nodularis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PN pd-1: PD-1 on T-cells (already mapped) in prurigo skin lesion stroma suppresses immune resolution; PD-1 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-31 (already mapped) itch-inflammatory cascade of prurigo nodularis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PN glp-1: GLP-1 from enteroendocrine cells (already mapped) and macrophages (already mapped) modulates systemic inflammatory tone; glp-1 dysfunction amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-31 (already mapped) itch cascade of prurigo nodularis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PN angiotensin-ii: angiotensin-II from macrophages (already mapped) and mast cells (already mapped) drives PN neuroinflammation; angiotensin-ii excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-31 (already mapped) itch cascade of prurigo nodularis.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
