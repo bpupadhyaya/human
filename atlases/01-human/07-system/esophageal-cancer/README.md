@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "esophageal-cancer wnt-beta-catenin: WNT/β-catenin on esophageal cells (already mapped) and macrophages (already mapped) promotes progression; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "esophageal-cancer rankl: RANKL from macrophages (already mapped) and esophageal cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "esophageal-cancer fibronectin: fibronectin in esophageal cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "esophageal-cancer igf-1: IGF-1 from macrophages (already mapped) and esophageal cells (already mapped) promotes tumour cell survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -873,6 +882,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — esophageal-cancer glp-1: GLP-1 from macrophages (already mapped) and esophageal cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — esophageal-cancer angiotensin-ii: angiotensin II on esophageal cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — esophageal-cancer wnt-beta-catenin: WNT/β-catenin on esophageal cells (already mapped) and macrophages (already mapped) promotes progression; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — esophageal-cancer rankl: RANKL from macrophages (already mapped) and esophageal cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — esophageal-cancer fibronectin: fibronectin in esophageal cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — esophageal-cancer igf-1: IGF-1 from macrophages (already mapped) and esophageal cells (already mapped) promotes tumour cell survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
 
 ---
 
