@@ -546,6 +546,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "chloride channels on neuron (already mapped) and macrophage (already mapped) regulate nerve excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "CIDP carbon: carbon in nucleotides in neurons (already mapped) and macrophages (already mapped) fuels axonal energy; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "CIDP hydrogen: hydrogen via ROS from macrophages (already mapped) and neurons (already mapped) modulates peripheral nerve oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "CIDP nitrogen: nitrogen in DNA bases in neurons (already mapped) and macrophages (already mapped) sustains myelin repair; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP."
 ---
 
 # CIDP
@@ -864,6 +873,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — iron in macrophage (already mapped) and neuron (already mapped) fuels myelination pathways; iron deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus in neuron (already mapped) and macrophage (already mapped) fuels ATP-driven myelination; phosphate dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CIDP.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on neuron (already mapped) and macrophage (already mapped) regulate nerve excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — CIDP carbon: carbon in nucleotides in neurons (already mapped) and macrophages (already mapped) fuels axonal energy; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — CIDP hydrogen: hydrogen via ROS from macrophages (already mapped) and neurons (already mapped) modulates peripheral nerve oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — CIDP nitrogen: nitrogen in DNA bases in neurons (already mapped) and macrophages (already mapped) sustains myelin repair; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP.
 
 ---
 

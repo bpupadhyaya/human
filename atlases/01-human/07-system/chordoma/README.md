@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/iron
     relation: connects-to
     note: "iron in macrophage (already mapped) and fibroblast (already mapped) fuels oxidative tumour microenvironment; iron excess amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "chordoma chloride: chloride channels on macrophages (already mapped) and fibroblasts (already mapped) regulate tumour microenvironment homeostasis; chloride dysregulation amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "chordoma nitrogen: nitrogen in DNA bases of macrophages (already mapped) and fibroblasts (already mapped) sustains tumour growth; nitrogen dysregulation amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "chordoma sulfur: sulfur-containing glutathione in macrophages (already mapped) and fibroblasts (already mapped) scavenges ROS; sulfur deficiency amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma."
 ---
 
 # Chordoma
@@ -846,6 +855,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — sodium homeostasis in macrophage (already mapped) and fibroblast (already mapped) regulates tumour ionic microenvironment; sodium dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in chordoma.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels on T-cytotoxic cell (already mapped) and macrophage (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in chordoma.
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — iron in macrophage (already mapped) and fibroblast (already mapped) fuels oxidative tumour microenvironment; iron excess amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chordoma chloride: chloride channels on macrophages (already mapped) and fibroblasts (already mapped) regulate tumour microenvironment homeostasis; chloride dysregulation amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — chordoma nitrogen: nitrogen in DNA bases of macrophages (already mapped) and fibroblasts (already mapped) sustains tumour growth; nitrogen dysregulation amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — chordoma sulfur: sulfur-containing glutathione in macrophages (already mapped) and fibroblasts (already mapped) scavenges ROS; sulfur deficiency amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma.
 
 ---
 
