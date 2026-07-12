@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "HDGC phosphorus: phosphorus as ATP in macrophages (already mapped) and mast cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HDGC carbon: carbon in nucleotides of macrophages (already mapped) and mast cells (already mapped) fuels tumour epithelial proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HDGC hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour cascade in HDGC."
+  - target: 01-human/02-atomic/potassium
+    relation: connects-to
+    note: "HDGC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane potential in tumour microenvironment; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -819,6 +828,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HDGC chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) volume during tumour-microenvironment stress; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) in HDGC.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HDGC nitrogen: nitrogen as backbone of oncoproteins and cytokines (already mapped) sustains tumour signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) in HDGC.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HDGC phosphorus: phosphorus as ATP in macrophages (already mapped) and mast cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HDGC carbon: carbon in nucleotides of macrophages (already mapped) and mast cells (already mapped) fuels tumour epithelial proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HDGC hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour cascade in HDGC.
+- `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HDGC potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane potential in tumour microenvironment; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in HDGC.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
