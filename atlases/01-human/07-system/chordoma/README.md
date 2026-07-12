@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "chordoma fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) tumour cascade in chordoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "chordoma activin-a: activin-A in tumour cells (already mapped) and fibroblasts (already mapped) modulates stromal crosstalk; activin-A dysregulation amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "chordoma cgrp: CGRP in neurons (already mapped) and tumour stroma (already mapped) modulates pain and vascular tone; CGRP dysregulation amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "chordoma calcitonin: calcitonin in osteoclasts (already mapped) and tumour cells (already mapped) modulates bone remodelling; calcitonin dysregulation amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
 ---
 
 # Chordoma
@@ -870,6 +879,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — chordoma glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies mTOR (already mapped) and VEGF (already mapped) and NF-κB (already mapped) cascade in chordoma.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — chordoma angiotensin-ii: angiotensin II on tumour endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies mTOR (already mapped) and VEGF (already mapped) and NF-κB (already mapped) cascade in chordoma.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — chordoma fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) tumour cascade in chordoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — chordoma activin-a: activin-A in tumour cells (already mapped) and fibroblasts (already mapped) modulates stromal crosstalk; activin-A dysregulation amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — chordoma cgrp: CGRP in neurons (already mapped) and tumour stroma (already mapped) modulates pain and vascular tone; CGRP dysregulation amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — chordoma calcitonin: calcitonin in osteoclasts (already mapped) and tumour cells (already mapped) modulates bone remodelling; calcitonin dysregulation amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
 
 ---
 

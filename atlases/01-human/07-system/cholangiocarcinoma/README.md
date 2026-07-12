@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "cholangio rankl: RANKL in macrophages (already mapped) and fibroblasts (already mapped) modulates stromal remodelling; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "cholangio fibronectin: fibronectin in cholangiocytes (already mapped) and fibroblasts (already mapped) promotes biliary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "cholangio igf-1: IGF-1 on cholangiocytes (already mapped) and macrophages (already mapped) promotes biliary proliferation; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "cholangio activin-a: activin-A in cholangiocytes (already mapped) and fibroblasts (already mapped) modulates biliary fibrosis; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -832,6 +841,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — cholangio glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — cholangio angiotensin-ii: angiotensin II on cholangiocytes (already mapped) and macrophages (already mapped) promotes biliary remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — cholangio rankl: RANKL in macrophages (already mapped) and fibroblasts (already mapped) modulates stromal remodelling; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in cholangiocarcinoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — cholangio fibronectin: fibronectin in cholangiocytes (already mapped) and fibroblasts (already mapped) promotes biliary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — cholangio igf-1: IGF-1 on cholangiocytes (already mapped) and macrophages (already mapped) promotes biliary proliferation; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cholangio activin-a: activin-A in cholangiocytes (already mapped) and fibroblasts (already mapped) modulates biliary fibrosis; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 
 ---
 
