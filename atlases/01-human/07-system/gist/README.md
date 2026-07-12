@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "GIST hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "gist glp-1: GLP-1 from stromal cells (already mapped) and macrophages (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) signalling cascade of GIST."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "gist angiotensin-ii: angiotensin II on stromal cells (already mapped) and endothelial cells (already mapped) promotes angiogenesis; angiotensin-II excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "gist wnt-beta-catenin: WNT/β-catenin on stromal cells (already mapped) and tumour cells (already mapped) regulates growth; wnt-beta-catenin dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
 ---
 
 # GIST
@@ -854,6 +863,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — GIST carbon: carbon in nucleotides of macrophages (already mapped) and mast cells (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GIST chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of GIST.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — GIST hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — gist glp-1: GLP-1 from stromal cells (already mapped) and macrophages (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) signalling cascade of GIST.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — gist angiotensin-ii: angiotensin II on stromal cells (already mapped) and endothelial cells (already mapped) promotes angiogenesis; angiotensin-II excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — gist wnt-beta-catenin: WNT/β-catenin on stromal cells (already mapped) and tumour cells (already mapped) regulates growth; wnt-beta-catenin dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
