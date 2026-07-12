@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Influenza carbon: carbon as backbone of viral glycoproteins and cytokines (already mapped) sustains replicative signalling; carbon metabolites in macrophages (already mapped) and NK cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in influenza."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Influenza nitrogen: nitrogen in viral proteins and cytokines (already mapped) sustains signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Influenza sulfur: sulfur-containing amino acids in macrophages (already mapped) and NK cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Influenza pd-1: PD-1 on T-cytotoxic cells (already mapped) and NK cells (already mapped) suppresses antiviral immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
 ---
 
 # Influenza
@@ -847,3 +856,7 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Influenza phosphorus: phosphorus, as ATP in macrophages (already mapped) and NK cells (already mapped), fuels antiviral immune responses; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Influenza chloride: chloride regulates macrophage (already mapped) and NK cells (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) innate immune cascade of influenza.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Influenza carbon: carbon as backbone of viral glycoproteins and cytokines (already mapped) sustains replicative signalling; carbon metabolites in macrophages (already mapped) and NK cells (already mapped) amplify NF-κB (already mapped) and IL-6 (already mapped) in influenza.
+
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Influenza nitrogen: nitrogen in viral proteins and cytokines (already mapped) sustains signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Influenza sulfur: sulfur-containing amino acids in macrophages (already mapped) and NK cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Influenza pd-1: PD-1 on T-cytotoxic cells (already mapped) and NK cells (already mapped) suppresses antiviral immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
