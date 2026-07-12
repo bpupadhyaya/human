@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "HAE glp-1: GLP-1 from neurons (already mapped) and mast cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and bradykinin (already mapped) kinin-complement cascade in HAE."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "HAE Wnt/β-catenin: Wnt/β-catenin in endothelium (already mapped) and macrophages (already mapped) modulates vascular tone in hereditary angioedema; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of HAE."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "HAE RANKL: RANKL in macrophages (already mapped) and mast-cell (already mapped) modulates immune-vascular bone axis in HAE; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema-promoting cascade of hereditary angioedema."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "HAE SMAD4: SMAD4 in endothelium (already mapped) and macrophages (already mapped) modulates TGF-β-driven vascular remodelling in HAE; SMAD4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -866,6 +875,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HAE hydrogen: hydrogen via ROS from mast cells (already mapped) and macrophages (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and bradykinin (already mapped) cascade in HAE.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — HAE pd-1: PD-1 on T-cytotoxic cells (already mapped) and mast cells (already mapped) suppresses kinin-complement immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and bradykinin (already mapped) cascade in HAE.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HAE glp-1: GLP-1 from neurons (already mapped) and mast cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and bradykinin (already mapped) kinin-complement cascade in HAE.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HAE Wnt/β-catenin: Wnt/β-catenin in endothelium (already mapped) and macrophages (already mapped) modulates vascular tone in hereditary angioedema; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of HAE.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HAE RANKL: RANKL in macrophages (already mapped) and mast-cell (already mapped) modulates immune-vascular bone axis in HAE; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema-promoting cascade of hereditary angioedema.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — HAE SMAD4: SMAD4 in endothelium (already mapped) and macrophages (already mapped) modulates TGF-β-driven vascular remodelling in HAE; SMAD4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

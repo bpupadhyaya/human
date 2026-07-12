@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "OCCC angiotensin-II: angiotensin-II in tumour vasculature promotes OCCC angiogenesis; angiotensin-II excess amplifies HIF-1α (already mapped) and IL-6 (already mapped) and VEGF (already mapped) pro-tumour cascade in ovarian clear cell carcinoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "OCCC GLP-1: GLP-1 from gut L-cells (already mapped) and macrophages (already mapped) modulates OCCC metabolic homeostasis; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "OCCC Wnt/β-catenin: Wnt/β-catenin in ovarian epithelial-cell (already mapped) and macrophages (already mapped) drives OCCC tumour proliferation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of OCCC."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "OCCC RANKL: RANKL in macrophages (already mapped) and ovarian epithelial-cell (already mapped) modulates OCCC tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -865,6 +874,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — OCCC nitrogen: nitrogen in amino-acid scaffold of ARID1A (already mapped) and NF-κB (already mapped) proteins in tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies HIF-1α (already mapped) and IL-6 (already mapped) cascade in OCCC.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — OCCC sulfur: sulfur in cysteine residues of ARID1A (already mapped) and VEGF (already mapped) proteins in tumour cells sustains thiol-redox balance; sulfur depletion amplifies HIF-1α (already mapped) and IL-6 (already mapped) pro-tumour cascade in OCCC.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — OCCC angiotensin-II: angiotensin-II in tumour vasculature promotes OCCC angiogenesis; angiotensin-II excess amplifies HIF-1α (already mapped) and IL-6 (already mapped) and VEGF (already mapped) pro-tumour cascade in ovarian clear cell carcinoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — OCCC GLP-1: GLP-1 from gut L-cells (already mapped) and macrophages (already mapped) modulates OCCC metabolic homeostasis; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — OCCC Wnt/β-catenin: Wnt/β-catenin in ovarian epithelial-cell (already mapped) and macrophages (already mapped) drives OCCC tumour proliferation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of OCCC.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — OCCC RANKL: RANKL in macrophages (already mapped) and ovarian epithelial-cell (already mapped) modulates OCCC tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
 
 ---
 
