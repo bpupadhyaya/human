@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "AN vegf: VEGF from adipocytes (already mapped) and neurons (already mapped) sustains vascular supply to starved tissue; VEGF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) metabolic impairment in AN."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "AN SMAD4: SMAD4 in adipocytes (already mapped) and fibroblasts (already mapped) mediates TGF-β-driven tissue restriction; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of anorexia nervosa."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "AN IL-2: IL-2 signalling in regulatory-t-cell (already mapped) and neurons (already mapped) modulates neuro-immune homeostasis; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) neuroinflammatory cascade of anorexia nervosa."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "AN fibronectin: fibronectin in adipocytes (already mapped) and fibroblasts (already mapped) promotes ECM remodelling under starvation; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
 ---
 
 # Anorexia Nervosa
@@ -876,6 +885,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AN pd-1: PD-1 checkpoint on t-cytotoxic cells (already mapped) and dendritic cells (already mapped) suppresses immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory burden in AN.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — AN angiotensin-ii: angiotensin II on cardiomyocytes (already mapped) and adipocytes (already mapped) modulates metabolic tone; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) neuroinflammatory restriction in AN.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — AN vegf: VEGF from adipocytes (already mapped) and neurons (already mapped) sustains vascular supply to starved tissue; VEGF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) metabolic impairment in AN.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — AN SMAD4: SMAD4 in adipocytes (already mapped) and fibroblasts (already mapped) mediates TGF-β-driven tissue restriction; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of anorexia nervosa.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — AN IL-2: IL-2 signalling in regulatory-t-cell (already mapped) and neurons (already mapped) modulates neuro-immune homeostasis; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) neuroinflammatory cascade of anorexia nervosa.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AN fibronectin: fibronectin in adipocytes (already mapped) and fibroblasts (already mapped) promotes ECM remodelling under starvation; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
