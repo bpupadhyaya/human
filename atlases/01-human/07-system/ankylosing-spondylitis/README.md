@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "AS angiotensin-II: angiotensin-II in macrophages (already mapped) and osteoblasts (already mapped) promotes entheseal inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of ankylosing spondylitis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "AS IL-2: IL-2 in t-helper-cell (already mapped) and macrophages (already mapped) modulates entheseal immune tolerance; IL-2 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "AS fibronectin: fibronectin in macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal extracellular matrix; fibronectin dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade in AS."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "AS notch: Notch in macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal cell fate; Notch dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS."
 ---
 
 # Ankylosing Spondylitis
@@ -852,6 +861,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AS PD-1: PD-1 on macrophages (already mapped) and t-cytotoxic-cell (already mapped) modulates entheseal immune homeostasis; PD-1 dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AS GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and osteoblasts (already mapped) modulates metabolic bone homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade in AS.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — AS angiotensin-II: angiotensin-II in macrophages (already mapped) and osteoblasts (already mapped) promotes entheseal inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of ankylosing spondylitis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — AS IL-2: IL-2 in t-helper-cell (already mapped) and macrophages (already mapped) modulates entheseal immune tolerance; IL-2 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AS fibronectin: fibronectin in macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal extracellular matrix; fibronectin dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade in AS.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AS notch: Notch in macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal cell fate; Notch dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

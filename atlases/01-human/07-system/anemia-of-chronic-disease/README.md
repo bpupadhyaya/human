@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "ACD WNT/β-catenin: WNT/β-catenin in macrophages (already mapped) and erythrocytes (already mapped) modulates erythropoiesis; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "ACD RANKL: RANKL in macrophages (already mapped) and erythrocytes (already mapped) modulates osteoclast-erythroid coupling; RANKL dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "ACD IL-2: IL-2 in t-helper-cell (already mapped) and macrophages (already mapped) modulates erythropoietic immune regulation; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-restriction cascade in ACD."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "ACD VEGF: VEGF in erythrocytes (already mapped) and macrophages (already mapped) modulates erythropoietic vascular signalling; VEGF dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-restriction cascade in ACD."
 ---
 
 # Anemia of Chronic Disease
@@ -867,6 +876,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ACD GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and erythrocytes (already mapped) modulates iron homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — ACD angiotensin-II: angiotensin-II in macrophages (already mapped) and erythrocytes (already mapped) promotes inflammatory iron restriction; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) cascade of ACD.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ACD WNT/β-catenin: WNT/β-catenin in macrophages (already mapped) and erythrocytes (already mapped) modulates erythropoiesis; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ACD RANKL: RANKL in macrophages (already mapped) and erythrocytes (already mapped) modulates osteoclast-erythroid coupling; RANKL dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — ACD IL-2: IL-2 in t-helper-cell (already mapped) and macrophages (already mapped) modulates erythropoietic immune regulation; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-restriction cascade in ACD.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — ACD VEGF: VEGF in erythrocytes (already mapped) and macrophages (already mapped) modulates erythropoietic vascular signalling; VEGF dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-restriction cascade in ACD.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
