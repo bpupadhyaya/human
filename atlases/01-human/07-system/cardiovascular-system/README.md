@@ -567,6 +567,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "cardiovascular igf-1: IGF-1 on cardiomyocytes (already mapped) and smooth-muscle cells (already mapped) promotes hypertrophy; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) remodelling cascade in cardiovascular disease."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "cardiovascular activin-a: activin-A in cardiomyocytes (already mapped) and fibroblasts (already mapped) modulates cardiac remodelling; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "cardiovascular cgrp: CGRP in endothelial cells (already mapped) and vascular smooth-muscle (already mapped) modulates vasodilation; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "cardiovascular calcitonin: calcitonin in myocytes (already mapped) and fibroblasts (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -832,6 +841,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — cardiovascular il-2: IL-2 on t-cells (already mapped) and macrophages (already mapped) amplifies adaptive immune response; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade in cardiovascular disease.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — cardiovascular fibronectin: fibronectin in endothelial cells (already mapped) and smooth-muscle cells (already mapped) promotes remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — cardiovascular igf-1: IGF-1 on cardiomyocytes (already mapped) and smooth-muscle cells (already mapped) promotes hypertrophy; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) remodelling cascade in cardiovascular disease.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cardiovascular activin-a: activin-A in cardiomyocytes (already mapped) and fibroblasts (already mapped) modulates cardiac remodelling; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cardiovascular cgrp: CGRP in endothelial cells (already mapped) and vascular smooth-muscle (already mapped) modulates vasodilation; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cardiovascular calcitonin: calcitonin in myocytes (already mapped) and fibroblasts (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
 
 ## Pathology
 
