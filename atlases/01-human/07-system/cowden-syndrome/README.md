@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "cowden angiotensin-ii: angiotensin II on tumour endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "cowden rankl: RANKL from osteoclast precursors (already mapped) and macrophages (already mapped) promotes bone resorption in hamartoma-adjacent tissues; rankl excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "cowden fibronectin: fibronectin in tumour-associated macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "cowden notch: Notch in macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates tumour-immune crosstalk in hamartomata; notch excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -915,6 +924,9 @@ cross_links:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — cowden pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses tumour immune surveillance; pd-1 dysfunction amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — cowden glp-1: GLP-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — cowden angiotensin-ii: angiotensin II on tumour endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — cowden rankl: RANKL from osteoclast precursors (already mapped) and macrophages (already mapped) promotes bone resorption in hamartoma-adjacent tissues; rankl excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — cowden fibronectin: fibronectin in tumour-associated macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — cowden notch: Notch in macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates tumour-immune crosstalk in hamartomata; notch excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 
 ---
 

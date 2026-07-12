@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "CF fibronectin: fibronectin in airway epithelial cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "CF notch: Notch signalling on airway epithelial cells (already mapped) and macrophages (already mapped) regulates bronchial repair; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "CF igf-1: IGF-1 from macrophages (already mapped) and airway epithelial cells (already mapped) promotes bronchial repair and growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "CF activin-a: activin-A from macrophages (already mapped) and airway epithelial cells (already mapped) promotes fibrotic remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -863,6 +872,9 @@ AND
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — CF wnt-beta-catenin: WNT/β-catenin on airway epithelial cells (already mapped) and macrophages (already mapped) regulates repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CF il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies pulmonary immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CF fibronectin: fibronectin in airway epithelial cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — CF notch: Notch signalling on airway epithelial cells (already mapped) and macrophages (already mapped) regulates bronchial repair; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — CF igf-1: IGF-1 from macrophages (already mapped) and airway epithelial cells (already mapped) promotes bronchial repair and growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CF activin-a: activin-A from macrophages (already mapped) and airway epithelial cells (already mapped) promotes fibrotic remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis.
 
 ---
 
