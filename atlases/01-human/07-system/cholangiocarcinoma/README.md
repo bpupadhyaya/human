@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "cholangio nitrogen: nitrogen in DNA bases of macrophages (already mapped) and fibroblasts (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "cholangio glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "cholangio angiotensin-ii: angiotensin II on cholangiocytes (already mapped) and macrophages (already mapped) promotes biliary remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "cholangio rankl: RANKL in macrophages (already mapped) and fibroblasts (already mapped) modulates stromal remodelling; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in cholangiocarcinoma."
 ---
 
 # Cholangiocarcinoma
@@ -820,6 +829,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — cholangio carbon: carbon backbone of nucleotides in macrophages (already mapped) and fibroblasts (already mapped) fuels tumour growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — cholangio hydrogen: hydrogen via ROS from macrophages (already mapped) and fibroblasts (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — cholangio nitrogen: nitrogen in DNA bases of macrophages (already mapped) and fibroblasts (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — cholangio glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — cholangio angiotensin-ii: angiotensin II on cholangiocytes (already mapped) and macrophages (already mapped) promotes biliary remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — cholangio rankl: RANKL in macrophages (already mapped) and fibroblasts (already mapped) modulates stromal remodelling; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in cholangiocarcinoma.
 
 ---
 
