@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "SjS GLP-1: GLP-1 signalling in glandular endothelial cells and macrophages (already mapped) modulates metabolic-immune homeostasis; GLP-1 dysregulation amplifies BAFF (already mapped) and IL-6 (already mapped) autoimmune cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "SjS angiotensin-II: angiotensin-II signalling in glandular endothelial cells and macrophages (already mapped) promotes glandular inflammation; angiotensin-II excess amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "SjS Wnt/β-catenin: Wnt/β-catenin signalling in salivary gland epithelium and macrophages (already mapped) supports glandular repair; Wnt dysregulation amplifies BAFF (already mapped) and IL-6 (already mapped) fibrotic cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "SjS RANKL: RANKL signalling in macrophages (already mapped) and glandular stromal cells modulates bone-immune axis; RANKL excess amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -849,6 +858,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SjS carbon: carbon, as metabolic backbone of BAFF (already mapped) and NF-κB (already mapped) in macrophages (already mapped) and B-cells (already mapped), drives autoimmune proliferation; carbon dysregulation amplifies IL-6 (already mapped) cascade of Sjögren syndrome.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SjS PD-1: PD-1 checkpoint on T-cytotoxic-cell (already mapped) and macrophages (already mapped) modulates autoimmune surveillance of glandular cells; PD-1 dysregulation amplifies BAFF (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SjS GLP-1: GLP-1 signalling in glandular endothelial cells and macrophages (already mapped) modulates metabolic-immune homeostasis; GLP-1 dysregulation amplifies BAFF (already mapped) and IL-6 (already mapped) autoimmune cascade of Sjögren syndrome.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — SjS angiotensin-II: angiotensin-II signalling in glandular endothelial cells and macrophages (already mapped) promotes glandular inflammation; angiotensin-II excess amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SjS Wnt/β-catenin: Wnt/β-catenin signalling in salivary gland epithelium and macrophages (already mapped) supports glandular repair; Wnt dysregulation amplifies BAFF (already mapped) and IL-6 (already mapped) fibrotic cascade of Sjögren syndrome.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SjS RANKL: RANKL signalling in macrophages (already mapped) and glandular stromal cells modulates bone-immune axis; RANKL excess amplifies BAFF (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Sjögren syndrome.
 
 ---
 
