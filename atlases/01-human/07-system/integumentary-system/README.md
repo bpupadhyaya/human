@@ -536,6 +536,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Integumentary angiotensin-II: angiotensin-II mediates dermal vasoconstriction (already mapped) and fibroblast (already mapped) activation; angiotensin-II amplifies TGF-β (already mapped) and IL-6 (already mapped) fibrotic cascade of integumentary system."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Integumentary rankl: RANKL from keratinocytes (already mapped) and macrophages (already mapped) amplifies skin immune activation; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Integumentary il-2: IL-2 from skin-resident T-cells (already mapped) and macrophages (already mapped) amplifies adaptive immune responses; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Integumentary notch: Notch in keratinocytes (already mapped) and fibroblasts (already mapped) regulates epidermal differentiation; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of integumentary system."
 ---
 
 # Integumentary System
@@ -814,6 +823,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Integumentary PD-1: PD-1 checkpoint on skin-resident T-cells (already mapped) suppresses anti-tumour immunity; PD-1 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and VEGF (already mapped) signalling in integumentary immune surveillance.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Integumentary GLP-1: GLP-1 from skin adipocytes modulates keratinocyte (already mapped) proliferation and wound healing; GLP-1 dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) inflammatory cascade of integumentary barrier.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Integumentary angiotensin-II: angiotensin-II mediates dermal vasoconstriction (already mapped) and fibroblast (already mapped) activation; angiotensin-II amplifies TGF-β (already mapped) and IL-6 (already mapped) fibrotic cascade of integumentary system.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Integumentary rankl: RANKL from keratinocytes (already mapped) and macrophages (already mapped) amplifies skin immune activation; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Integumentary il-2: IL-2 from skin-resident T-cells (already mapped) and macrophages (already mapped) amplifies adaptive immune responses; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Integumentary notch: Notch in keratinocytes (already mapped) and fibroblasts (already mapped) regulates epidermal differentiation; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of integumentary system.
 
 ## Pathology
 
