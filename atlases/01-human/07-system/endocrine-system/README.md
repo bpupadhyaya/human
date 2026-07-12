@@ -563,6 +563,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "endocrine-system substance-p: substance-P from endocrine cells (already mapped) and macrophages (already mapped) modulates nociception; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "endocrine-system fgf23: FGF23 from endocrine cells (already mapped) and macrophages (already mapped) regulates phosphate balance; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "endocrine-system angiopoietin: angiopoietin from endocrine cells (already mapped) and macrophages (already mapped) modulates vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "endocrine-system osteopontin: osteopontin from endocrine cells (already mapped) and macrophages (already mapped) modulates gland immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
 ---
 
 # Endocrine System
@@ -902,6 +911,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — endocrine-system notch: Notch signalling on endocrine cells (already mapped) and macrophages (already mapped) regulates gland development; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — endocrine-system cgrp: CGRP from endocrine cells (already mapped) and macrophages (already mapped) modulates neuroendocrine communication; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — endocrine-system substance-p: substance-P from endocrine cells (already mapped) and macrophages (already mapped) modulates nociception; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — endocrine-system fgf23: FGF23 from endocrine cells (already mapped) and macrophages (already mapped) regulates phosphate balance; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — endocrine-system angiopoietin: angiopoietin from endocrine cells (already mapped) and macrophages (already mapped) modulates vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — endocrine-system osteopontin: osteopontin from endocrine cells (already mapped) and macrophages (already mapped) modulates gland immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
 
 ## Pathology
 

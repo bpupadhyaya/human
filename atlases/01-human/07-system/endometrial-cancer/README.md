@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "endometrial-cancer cgrp: CGRP from endometrial cells (already mapped) and macrophages (already mapped) modulates uterine nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "endometrial-cancer calcitonin: calcitonin from endometrial cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "endometrial-cancer substance-p: substance-P from endometrial cells (already mapped) and macrophages (already mapped) modulates uterine pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "endometrial-cancer insulin-receptor: insulin receptor on endometrial cells (already mapped) and macrophages (already mapped) drives tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
 ---
 
 # Endometrial Cancer
@@ -872,6 +881,9 @@ cross_links:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — endometrial-cancer fibronectin: fibronectin in endometrial cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — endometrial-cancer activin-a: activin-A from endometrial cells (already mapped) and macrophages (already mapped) promotes tumour-stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — endometrial-cancer cgrp: CGRP from endometrial cells (already mapped) and macrophages (already mapped) modulates uterine nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — endometrial-cancer calcitonin: calcitonin from endometrial cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — endometrial-cancer substance-p: substance-P from endometrial cells (already mapped) and macrophages (already mapped) modulates uterine pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — endometrial-cancer insulin-receptor: insulin receptor on endometrial cells (already mapped) and macrophages (already mapped) drives tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
