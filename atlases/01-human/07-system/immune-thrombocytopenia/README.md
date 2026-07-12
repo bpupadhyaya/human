@@ -555,6 +555,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "ITP glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "ITP angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular tone; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "ITP wnt-beta-catenin: WNT/β-catenin on megakaryocytes (already mapped) and macrophages (already mapped) regulates platelet biogenesis; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) cascade in ITP."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "ITP rankl: RANKL from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes platelet destruction; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -869,6 +878,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ITP hydrogen: hydrogen via ROS from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates platelet oxidative homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) cascade in ITP.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — ITP sulfur: sulfur-containing amino acids in macrophages (already mapped) and T-cytotoxic cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ITP glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — ITP angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular tone; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ITP wnt-beta-catenin: WNT/β-catenin on megakaryocytes (already mapped) and macrophages (already mapped) regulates platelet biogenesis; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) cascade in ITP.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ITP rankl: RANKL from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes platelet destruction; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

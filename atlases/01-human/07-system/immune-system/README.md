@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "IS glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune homeostasis cascade."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "IS angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular tone; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune homeostasis cascade."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "IS wnt-beta-catenin: WNT/β-catenin on B cells (already mapped) and T cells (already mapped) regulates lymphocyte fate; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "IS rankl: RANKL from macrophages (already mapped) and dendritic cells (already mapped) modulates lymphoid organogenesis; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
 ---
 
 # Immune System
@@ -757,6 +766,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IS hydrogen: hydrogen via ROS from macrophages (already mapped) and neutrophils (already mapped) modulates oxidative burst; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IS sulfur: sulfur in disulfide bonds of immunoglobulins (already mapped) and cytokines (already mapped) stabilises immune-receptor structure; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) cascade.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — IS glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune homeostasis cascade.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — IS angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular tone; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune homeostasis cascade.
+- `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IS wnt-beta-catenin: WNT/β-catenin on B cells (already mapped) and T cells (already mapped) regulates lymphocyte fate; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IS rankl: RANKL from macrophages (already mapped) and dendritic cells (already mapped) modulates lymphoid organogenesis; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 
 ## Pathology
 
