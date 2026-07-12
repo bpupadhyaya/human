@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Influenza wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and epithelial cells (already mapped) regulates antiviral repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Influenza rankl: RANKL from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral immune-bone crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Influenza fibronectin: fibronectin in macrophages (already mapped) and epithelial cells (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Influenza notch: Notch signalling on epithelial cells (already mapped) and macrophages (already mapped) regulates antiviral mucosal repair; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
 ---
 
 # Influenza
@@ -872,3 +881,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Influenza glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Influenza angiotensin-ii: angiotensin-II from endothelium (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Influenza wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and epithelial cells (already mapped) regulates antiviral repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Influenza rankl: RANKL from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral immune-bone crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Influenza fibronectin: fibronectin in macrophages (already mapped) and epithelial cells (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Influenza notch: Notch signalling on epithelial cells (already mapped) and macrophages (already mapped) regulates antiviral mucosal repair; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.

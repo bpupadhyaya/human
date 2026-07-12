@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "IBD igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes intestinal epithelium (already mapped) repair; igf-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "IBD activin-a: activin-A from macrophages (already mapped) and intestinal epithelium (already mapped) promotes mucosal fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "IBD cgrp: CGRP from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal pain and vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "IBD calcitonin: calcitonin from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal calcium homeostasis; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -871,6 +880,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — IBD fibronectin: fibronectin in intestinal epithelium (already mapped) and fibroblasts (already mapped) drives mucosal fibrotic remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — IBD notch: NOTCH in intestinal epithelium (already mapped) and macrophages (already mapped) regulates mucosal crypt homeostasis; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IBD igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes intestinal epithelium (already mapped) repair; igf-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — IBD activin-a: activin-A from macrophages (already mapped) and intestinal epithelium (already mapped) promotes mucosal fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — IBD cgrp: CGRP from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal pain and vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — IBD calcitonin: calcitonin from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal calcium homeostasis; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
