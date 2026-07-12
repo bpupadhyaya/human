@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "HA Wnt/β-catenin: Wnt/β-catenin in synoviocytes (already mapped) and macrophages (already mapped) drives haemophilic arthropathy; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemophilic arthropathy cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "HA fibronectin: fibronectin in synoviocytes (already mapped) and macrophages (already mapped) promotes ECM remodelling in haemophilic joints; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemophilic arthropathy cascade."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "HA notch: Notch signalling on synoviocytes (already mapped) and macrophages (already mapped) regulates joint inflammation in haemophilia; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemophilic arthropathy cascade."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "HA igf-1: IGF-1 from macrophages (already mapped) and synoviocytes (already mapped) promotes haemophilic joint repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemophilic arthropathy cascade."
 ---
 
 # Hemophilia A
@@ -864,6 +873,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HA GLP-1: GLP-1 from gut L-cells (already mapped) and macrophages (already mapped) modulates haemophilia metabolic homeostasis; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of haemophilia A.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — HA angiotensin-II: Angiotensin-II in endothelium (already mapped) and macrophages (already mapped) promotes vascular remodelling in haemophilia A; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemophilic cascade.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HA Wnt/β-catenin: Wnt/β-catenin in synoviocytes (already mapped) and macrophages (already mapped) drives haemophilic arthropathy; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemophilic arthropathy cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HA fibronectin: fibronectin in synoviocytes (already mapped) and macrophages (already mapped) promotes ECM remodelling in haemophilic joints; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemophilic arthropathy cascade.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HA notch: Notch signalling on synoviocytes (already mapped) and macrophages (already mapped) regulates joint inflammation in haemophilia; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemophilic arthropathy cascade.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HA igf-1: IGF-1 from macrophages (already mapped) and synoviocytes (already mapped) promotes haemophilic joint repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemophilic arthropathy cascade.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)

@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "HIT SMAD4: SMAD4 in endothelium (already mapped) and macrophages (already mapped) modulates TGF-β-driven HIT vascular remodelling; SMAD4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "HIT notch: Notch signalling on endothelium (already mapped) and macrophages (already mapped) regulates vascular homeostasis; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "HIT igf-1: IGF-1 from macrophages (already mapped) and endothelium (already mapped) modulates thrombotic tissue repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "HIT activin-a: activin-A from macrophages (already mapped) and endothelium (already mapped) promotes thrombotic vascular remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -887,6 +896,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HIT Wnt/β-catenin: Wnt/β-catenin in endothelium (already mapped) and platelets (already mapped) modulates HIT thrombotic vascular homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HIT RANKL: RANKL in macrophages (already mapped) and endothelium (already mapped) modulates HIT immune-thrombotic bone axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of heparin-induced thrombocytopenia.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — HIT SMAD4: SMAD4 in endothelium (already mapped) and macrophages (already mapped) modulates TGF-β-driven HIT vascular remodelling; SMAD4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HIT notch: Notch signalling on endothelium (already mapped) and macrophages (already mapped) regulates vascular homeostasis; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HIT igf-1: IGF-1 from macrophages (already mapped) and endothelium (already mapped) modulates thrombotic tissue repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HIT activin-a: activin-A from macrophages (already mapped) and endothelium (already mapped) promotes thrombotic vascular remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
