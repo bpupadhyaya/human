@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "BC rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-tumour axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in bladder cancer."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "BC fibronectin: fibronectin in urothelial cells (already mapped) and fibroblasts (already mapped) modulates bladder ECM remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "BC notch: Notch in urothelial cells (already mapped) and macrophages (already mapped) modulates urothelial cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "BC IGF-1: IGF-1 in urothelial cells (already mapped) and fibroblasts (already mapped) modulates bladder tumour growth; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer."
 ---
 
 # Bladder Cancer
@@ -864,6 +873,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — BC glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates tumour inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) urothelial tumour cascade in bladder cancer.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — BC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — BC rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-tumour axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in bladder cancer.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — BC fibronectin: fibronectin in urothelial cells (already mapped) and fibroblasts (already mapped) modulates bladder ECM remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — BC notch: Notch in urothelial cells (already mapped) and macrophages (already mapped) modulates urothelial cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — BC IGF-1: IGF-1 in urothelial cells (already mapped) and fibroblasts (already mapped) modulates bladder tumour growth; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer.
 
 ---
 

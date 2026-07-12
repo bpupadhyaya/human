@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Bloom angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Bloom WNT/β-catenin: WNT/β-catenin in fibroblasts (already mapped) and BLM-deficient cells (already mapped) modulates DNA-repair-genomic stability; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Bloom rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-cancer predisposition; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Bloom smad4: SMAD4 in fibroblasts (already mapped) and macrophages (already mapped) mediates TGF-β tumour-suppression; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -873,6 +882,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Bloom pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) restrains immune response; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour immune evasion cascade in Bloom syndrome.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Bloom glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Bloom syndrome.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Bloom angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Bloom WNT/β-catenin: WNT/β-catenin in fibroblasts (already mapped) and BLM-deficient cells (already mapped) modulates DNA-repair-genomic stability; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Bloom rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-cancer predisposition; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Bloom syndrome.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Bloom smad4: SMAD4 in fibroblasts (already mapped) and macrophages (already mapped) mediates TGF-β tumour-suppression; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
 
 ---
 
