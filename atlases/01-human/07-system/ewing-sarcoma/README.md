@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "ES nitrogen: nitric oxide from iNOS in macrophages (already mapped) and mast cells (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "ES carbon: carbon backbone of nucleotides in macrophages (already mapped) and mast cells (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "ES hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of Ewing sarcoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "ES sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -834,6 +843,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — ES zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of Ewing sarcoma.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — ES chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of Ewing sarcoma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — ES nitrogen: nitric oxide from iNOS in macrophages (already mapped) and mast cells (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ES carbon: carbon backbone of nucleotides in macrophages (already mapped) and mast cells (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ES hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of Ewing sarcoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — ES sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of Ewing sarcoma.
 
 ---
 
