@@ -563,6 +563,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "MSK bdnf: BDNF from macrophages (already mapped) and osteoblasts (already mapped) supports neuromuscular junction integrity; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "MSK angiopoietin: angiopoietin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone vascularity; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/dopamine
+    relation: connects-to
+    note: "MSK dopamine: dopamine from macrophages (already mapped) and osteoblasts (already mapped) modulates neuromuscular signalling; dopamine dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/endothelin-1
+    relation: connects-to
+    note: "MSK endothelin-1: endothelin-1 from macrophages (already mapped) and osteoblasts (already mapped) modulates bone vascular tone; endothelin-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
 ---
 
 # Musculoskeletal System
@@ -881,6 +890,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — MSK adenosine: adenosine from macrophages (already mapped) and osteoblasts (already mapped) modulates purinergic bone-muscle signalling; adenosine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — MSK il-10: IL-10 from macrophages (already mapped) and osteoblasts (already mapped) suppresses musculoskeletal inflammation; il-10 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MSK bdnf: BDNF from macrophages (already mapped) and osteoblasts (already mapped) supports neuromuscular junction integrity; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — MSK angiopoietin: angiopoietin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone vascularity; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — MSK dopamine: dopamine from macrophages (already mapped) and osteoblasts (already mapped) modulates neuromuscular signalling; dopamine dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — MSK endothelin-1: endothelin-1 from macrophages (already mapped) and osteoblasts (already mapped) modulates bone vascular tone; endothelin-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 
 ## Pathology
 

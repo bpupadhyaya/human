@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "MAP igf-1: IGF-1 from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp cell survival; igf-1 dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "MAP activin-a: activin-A from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp fibrosis; activin-a excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "MAP tgf-beta: TGF-β from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp immune suppression; TGF-β excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "MAP cgrp: CGRP from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp neuroimmune tone; cgrp excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
 ---
 
 # MUTYH-Associated Polyposis
@@ -864,6 +873,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — MAP vegf: VEGF from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp angiogenesis; vegf excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MAP fibronectin: fibronectin in macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp ECM remodelling; fibronectin excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MAP igf-1: IGF-1 from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp cell survival; igf-1 dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MAP activin-a: activin-A from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp fibrosis; activin-a excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — MAP tgf-beta: TGF-β from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp immune suppression; TGF-β excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MAP cgrp: CGRP from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp neuroimmune tone; cgrp excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 
 ---
 
