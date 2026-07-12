@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "Pemphigus-vulgaris fibronectin: fibronectin in the dermal extracellular matrix scaffolds keratinocyte adhesion; fibronectin disruption amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) autoimmune blister cascade of pemphigus vulgaris."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Pemphigus-vulgaris smad4: SMAD4 in keratinocytes (already mapped) and macrophages (already mapped) mediates TGF-β anti-inflammatory repair; smad4 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of pemphigus vulgaris."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Pemphigus-vulgaris il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates blister immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of pemphigus vulgaris."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Pemphigus-vulgaris notch: NOTCH on keratinocytes (already mapped) and macrophages (already mapped) regulates epidermal differentiation; notch dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -875,6 +884,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Pemphigus-vulgaris RANKL: RANKL from T-cells (already mapped) in pemphigus skin lesions drives dendritic cell (already mapped) maturation; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) blister cascade of pemphigus vulgaris.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Pemphigus-vulgaris WNT/β-catenin: WNT/β-catenin signalling in keratinocytes sustains epithelial barrier integrity; WNT dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) autoimmune desmosomal cleavage cascade of pemphigus vulgaris.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Pemphigus-vulgaris fibronectin: fibronectin in the dermal extracellular matrix scaffolds keratinocyte adhesion; fibronectin disruption amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) autoimmune blister cascade of pemphigus vulgaris.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Pemphigus-vulgaris smad4: SMAD4 in keratinocytes (already mapped) and macrophages (already mapped) mediates TGF-β anti-inflammatory repair; smad4 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of pemphigus vulgaris.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Pemphigus-vulgaris il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates blister immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of pemphigus vulgaris.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Pemphigus-vulgaris notch: NOTCH on keratinocytes (already mapped) and macrophages (already mapped) regulates epidermal differentiation; notch dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of pemphigus vulgaris.
 
 ---
 
