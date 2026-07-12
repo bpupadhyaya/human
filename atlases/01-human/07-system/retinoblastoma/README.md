@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Rb angiotensin-II: angiotensin-II signalling in tumour vasculature and macrophages (already mapped) promotes retinal angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Rb wnt-beta-catenin: WNT/β-catenin on tumour cells (already mapped) and macrophages (already mapped) drives retinal tumour invasion; wnt-beta-catenin loss amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Rb rankl: RANKL from macrophages (already mapped) and tumour cells (already mapped) promotes retinoblastoma immune evasion; rankl excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Rb fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds retinal tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
 ---
 
 # Retinoblastoma
@@ -836,6 +845,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Rb oxygen: tumour hypoxia in retinoblastoma drives HIF-1α and VEGF (already mapped) angiogenesis; oxygen depletion amplifies NF-κB (already mapped) and E2F1 (already mapped) and IL-6 (already mapped) proliferative cascade of retinoblastoma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Rb GLP-1: GLP-1 receptor signalling in tumour-associated macrophages (already mapped) and retinal cells modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of retinoblastoma.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Rb angiotensin-II: angiotensin-II signalling in tumour vasculature and macrophages (already mapped) promotes retinal angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Rb wnt-beta-catenin: WNT/β-catenin on tumour cells (already mapped) and macrophages (already mapped) drives retinal tumour invasion; wnt-beta-catenin loss amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Rb rankl: RANKL from macrophages (already mapped) and tumour cells (already mapped) promotes retinoblastoma immune evasion; rankl excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Rb fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds retinal tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
