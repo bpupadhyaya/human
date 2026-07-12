@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "mitochondrial oxygen sustains ATP in motor neurons (already mapped) and astrocytes (already mapped) for axonal transport; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TDP-43 (already mapped) mitochondrial motor neuron degeneration in ALS."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "ALS carbon: carbon backbone of glutamate (already mapped) and TDP-43 (already mapped) in motor neurons (already mapped) and astrocytes (already mapped) drives neuronal metabolism; carbon dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) in ALS."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "ALS hydrogen: hydrogen, via redox homeostasis in motor neurons (already mapped) and astrocytes (already mapped), quenches ROS-driven TDP-43 (already mapped) aggregation; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) cascade of ALS."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "ALS PD-1: PD-1 on regulatory-t-cell (already mapped) and macrophages (already mapped) modulates neuroinflammatory homeostasis; PD-1 dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TDP-43 (already mapped) motor neuron degeneration cascade of ALS."
 ---
 
 # ALS
@@ -863,6 +872,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride via GABA(A) receptors and KCC2 on motor neurons (already mapped) and astrocytes (already mapped) sets inhibitory tone; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TDP-43 (already mapped) motor neuron degeneration in ALS.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — H2S from sulfur-amino acids in motor neurons (already mapped) and astrocytes (already mapped) promotes neuroprotection via K-ATP channels; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TDP-43 (already mapped) motor neuron degeneration in ALS.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — mitochondrial oxygen sustains ATP in motor neurons (already mapped) and astrocytes (already mapped) for axonal transport; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TDP-43 (already mapped) mitochondrial motor neuron degeneration in ALS.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ALS carbon: carbon backbone of glutamate (already mapped) and TDP-43 (already mapped) in motor neurons (already mapped) and astrocytes (already mapped) drives neuronal metabolism; carbon dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) in ALS.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ALS hydrogen: hydrogen, via redox homeostasis in motor neurons (already mapped) and astrocytes (already mapped), quenches ROS-driven TDP-43 (already mapped) aggregation; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) cascade of ALS.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — ALS PD-1: PD-1 on regulatory-t-cell (already mapped) and macrophages (already mapped) modulates neuroinflammatory homeostasis; PD-1 dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and TDP-43 (already mapped) motor neuron degeneration cascade of ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

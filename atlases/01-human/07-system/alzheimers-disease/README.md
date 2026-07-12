@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "hydrogen, via H2O2 and ROS redox balance in neurons (already mapped) and microglia (already mapped), sets oxidative tone; hydrogen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory amyloid-tau cascade in AD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "AD PD-1: PD-1 on microglia (already mapped) and t-cytotoxic-cell (already mapped) modulates neuroinflammatory homeostasis; PD-1 dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) amyloid-tau neuroinflammatory cascade in AD."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "AD WNT/β-catenin: WNT/β-catenin in neurons (already mapped) and microglia (already mapped) promotes synaptic plasticity and amyloid clearance; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory amyloid-tau cascade in AD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "AD RANKL: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neurovascular and synaptic remodelling; RANKL dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) neuroinflammatory amyloid cascade in AD."
 ---
 
 # Alzheimer's Disease
@@ -818,6 +827,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — mitochondrial oxygen sustains ATP in neurons (already mapped) and microglia (already mapped) for amyloid-β clearance; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory amyloid-tau cascade in AD.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon, via bicarbonate in neurons (already mapped) and microglia (already mapped), maintains pH homeostasis; carbon dioxide dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory amyloid-tau cascade in AD.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen, via H2O2 and ROS redox balance in neurons (already mapped) and microglia (already mapped), sets oxidative tone; hydrogen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory amyloid-tau cascade in AD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AD PD-1: PD-1 on microglia (already mapped) and t-cytotoxic-cell (already mapped) modulates neuroinflammatory homeostasis; PD-1 dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) amyloid-tau neuroinflammatory cascade in AD.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — AD WNT/β-catenin: WNT/β-catenin in neurons (already mapped) and microglia (already mapped) promotes synaptic plasticity and amyloid clearance; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory amyloid-tau cascade in AD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AD RANKL: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neurovascular and synaptic remodelling; RANKL dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) neuroinflammatory amyloid cascade in AD.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
