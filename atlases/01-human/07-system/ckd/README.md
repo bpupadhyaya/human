@@ -570,6 +570,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "CKD cgrp: CGRP in renal endothelial cells (already mapped) and macrophages (already mapped) modulates renal vascular tone; CGRP dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "CKD calcitonin: calcitonin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "CKD substance-p: substance-P from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal pain tone; substance-P excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "CKD insulin-receptor: insulin receptor on renal tubular cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -830,6 +839,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — CKD notch: Notch in renal tubular cells (already mapped) and macrophages (already mapped) regulates renal cell fate; Notch dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CKD activin-a: activin-A in renal tubular cells (already mapped) and fibroblasts (already mapped) promotes renal fibrosis; activin-A dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CKD cgrp: CGRP in renal endothelial cells (already mapped) and macrophages (already mapped) modulates renal vascular tone; CGRP dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CKD calcitonin: calcitonin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — CKD substance-p: substance-P from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal pain tone; substance-P excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — CKD insulin-receptor: insulin receptor on renal tubular cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 
 ## Pathology
 

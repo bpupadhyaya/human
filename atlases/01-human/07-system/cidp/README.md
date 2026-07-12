@@ -573,6 +573,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "CIDP notch: Notch on schwann cells (already mapped) and macrophages (already mapped) regulates myelin cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "CIDP activin-a: activin-A from schwann cells (already mapped) and macrophages (already mapped) regulates nerve immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "CIDP cgrp: CGRP from schwann cells (already mapped) and macrophages (already mapped) modulates nerve neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "CIDP calcitonin: calcitonin from schwann cells (already mapped) and macrophages (already mapped) modulates nerve calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
 ---
 
 # CIDP
@@ -900,6 +909,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CIDP rankl: RANKL in macrophages (already mapped) and schwann cells (already mapped) modulates nerve-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CIDP fibronectin: fibronectin in schwann cells (already mapped) and macrophages (already mapped) promotes nerve ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — CIDP notch: Notch on schwann cells (already mapped) and macrophages (already mapped) regulates myelin cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CIDP activin-a: activin-A from schwann cells (already mapped) and macrophages (already mapped) regulates nerve immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CIDP cgrp: CGRP from schwann cells (already mapped) and macrophages (already mapped) modulates nerve neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CIDP calcitonin: calcitonin from schwann cells (already mapped) and macrophages (already mapped) modulates nerve calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 
 ---
 
