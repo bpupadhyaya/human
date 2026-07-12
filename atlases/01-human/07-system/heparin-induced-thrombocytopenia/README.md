@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "HIT angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and platelets (already mapped) modulates vascular tone in HIT; angiotensin-ii dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PF4 (already mapped) thrombotic cascade in HIT."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "HIT Wnt/β-catenin: Wnt/β-catenin in endothelium (already mapped) and platelets (already mapped) modulates HIT thrombotic vascular homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "HIT RANKL: RANKL in macrophages (already mapped) and endothelium (already mapped) modulates HIT immune-thrombotic bone axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of heparin-induced thrombocytopenia."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "HIT SMAD4: SMAD4 in endothelium (already mapped) and macrophages (already mapped) modulates TGF-β-driven HIT vascular remodelling; SMAD4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -875,6 +884,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HIT hydrogen: hydrogen via ROS from platelets (already mapped) and endothelial cells (already mapped) modulates prothrombotic oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PF4 (already mapped) prothrombotic cascade in HIT.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HIT glp-1: GLP-1 from platelets (already mapped) and endothelial cells (already mapped) modulates thrombotic-metabolic tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and PF4 (already mapped) and thrombin (already mapped) cascade in HIT.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — HIT angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and platelets (already mapped) modulates vascular tone in HIT; angiotensin-ii dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PF4 (already mapped) thrombotic cascade in HIT.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HIT Wnt/β-catenin: Wnt/β-catenin in endothelium (already mapped) and platelets (already mapped) modulates HIT thrombotic vascular homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HIT RANKL: RANKL in macrophages (already mapped) and endothelium (already mapped) modulates HIT immune-thrombotic bone axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of heparin-induced thrombocytopenia.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — HIT SMAD4: SMAD4 in endothelium (already mapped) and macrophages (already mapped) modulates TGF-β-driven HIT vascular remodelling; SMAD4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
