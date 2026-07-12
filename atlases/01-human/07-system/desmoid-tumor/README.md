@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "desmoid cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour microenvironment pain signalling; cgrp excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "desmoid calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "desmoid substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid pain tone; substance-P excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "desmoid insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
 ---
 
 # Desmoid Tumor
@@ -881,6 +890,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — desmoid rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes stromal remodelling; rankl excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) fibromatosis cascade in desmoid tumour.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — desmoid activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) promotes desmoid stromal fibrosis; activin-a excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — desmoid cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour microenvironment pain signalling; cgrp excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — desmoid calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — desmoid substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid pain tone; substance-P excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — desmoid insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
 
 ---
 

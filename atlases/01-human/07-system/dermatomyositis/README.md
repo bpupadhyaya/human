@@ -577,6 +577,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "dermatomyositis activin-a: activin-A from macrophages (already mapped) and muscle cells (already mapped) promotes perimysial fibrosis; activin-a excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in dermatomyositis."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "dermatomyositis cgrp: CGRP from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) inflammatory cascade in dermatomyositis."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "dermatomyositis calcitonin: calcitonin from macrophages (already mapped) and muscle cells (already mapped) modulates muscle calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in dermatomyositis."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "dermatomyositis substance-p: substance-P from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial pain tone; substance-P excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in dermatomyositis."
 ---
 ---
 
@@ -889,6 +898,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — dermatomyositis notch: Notch on macrophages (already mapped) and mast-cells (already mapped) promotes perimysial immune activation; notch excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) inflammatory cascade in dermatomyositis.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — dermatomyositis igf-1: IGF-1 from macrophages (already mapped) and muscle cells (already mapped) promotes myofibre repair; igf-1 excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) inflammatory cascade in dermatomyositis.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — dermatomyositis activin-a: activin-A from macrophages (already mapped) and muscle cells (already mapped) promotes perimysial fibrosis; activin-a excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in dermatomyositis.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — dermatomyositis cgrp: CGRP from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) inflammatory cascade in dermatomyositis.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — dermatomyositis calcitonin: calcitonin from macrophages (already mapped) and muscle cells (already mapped) modulates muscle calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in dermatomyositis.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — dermatomyositis substance-p: substance-P from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial pain tone; substance-P excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
