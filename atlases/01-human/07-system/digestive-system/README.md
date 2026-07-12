@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "digestive-system igf-1: IGF-1 from hepatocytes (already mapped) and enterocytes (already mapped) promotes mucosal growth; igf-1 signalling amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) proliferative cascade of the digestive system."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "digestive-system activin-a: activin-A from hepatocytes (already mapped) and enterocytes (already mapped) regulates mucosal repair; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) proliferative cascade of the digestive system."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "digestive-system calcitonin: calcitonin from enterocytes (already mapped) and macrophages (already mapped) regulates calcium absorption; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "digestive-system fgf23: FGF23 from enterocytes (already mapped) and macrophages (already mapped) regulates phosphate homeostasis; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -848,6 +857,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [IL-2](../../03-molecular/il-2/README.md) — digestive-system il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies mucosal immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of the digestive system.
 - **Connects to:** [Fibronectin](../../03-molecular/fibronectin/README.md) — digestive-system fibronectin: fibronectin in enterocytes (already mapped) and macrophages (already mapped) promotes ECM integrity; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the digestive system.
 - **Connects to:** [IGF-1](../../03-molecular/igf-1/README.md) — digestive-system igf-1: IGF-1 from hepatocytes (already mapped) and enterocytes (already mapped) promotes mucosal growth; igf-1 signalling amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) proliferative cascade of the digestive system.
+- **Connects to:** [Activin-A](../../03-molecular/activin-a/README.md) — digestive-system activin-a: activin-A from hepatocytes (already mapped) and enterocytes (already mapped) regulates mucosal repair; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) proliferative cascade of the digestive system.
+- **Connects to:** [Calcitonin](../../03-molecular/calcitonin/README.md) — digestive-system calcitonin: calcitonin from enterocytes (already mapped) and macrophages (already mapped) regulates calcium absorption; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system.
+- **Connects to:** [FGF23](../../03-molecular/fgf23/README.md) — digestive-system fgf23: FGF23 from enterocytes (already mapped) and macrophages (already mapped) regulates phosphate homeostasis; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system.
 
 ## Pathology
 

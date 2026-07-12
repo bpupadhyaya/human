@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "diffuse-midline-glioma rankl: RANKL from microglia (already mapped) and macrophages (already mapped) modulates immune activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "diffuse-midline-glioma fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes stromal remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "diffuse-midline-glioma cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates glioma nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "diffuse-midline-glioma calcitonin: calcitonin from astrocytes (already mapped) and macrophages (already mapped) regulates calcium homeostasis; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -874,6 +883,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — diffuse-midline-glioma glp-1: GLP-1 from macrophages (already mapped) and glioma cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in diffuse midline glioma.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — diffuse-midline-glioma angiotensin-ii: angiotensin II on astrocytes (already mapped) and macrophages (already mapped) drives remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — diffuse-midline-glioma rankl: RANKL from microglia (already mapped) and macrophages (already mapped) modulates immune activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — diffuse-midline-glioma fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes stromal remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — diffuse-midline-glioma cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates glioma nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — diffuse-midline-glioma calcitonin: calcitonin from astrocytes (already mapped) and macrophages (already mapped) regulates calcium homeostasis; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
 
 ---
 
