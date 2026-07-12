@@ -552,6 +552,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Respiratory IL-2: IL-2 expands T-cytotoxic cells (already mapped) and regulatory T-cells in airway immune surveillance; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the respiratory system."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "RS fibronectin: fibronectin in airway matrix and bronchial epithelial cells modulates lung structural repair; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) remodelling cascade of the respiratory system."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "RS IGF-1: IGF-1 from bronchial epithelium (already mapped) and lung macrophages (already mapped) sustains lung growth and repair; IGF-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "RS activin-A: activin-A from lung fibroblasts (already mapped) and macrophages (already mapped) modulates inflammation and fibrosis; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -811,6 +820,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [RANKL](../../03-molecular/rankl/README.md): Respiratory RANKL: RANKL signalling in macrophages (already mapped) and type-II pneumocytes (already mapped) regulates bone-airway mineral crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the respiratory system.
 - **Connects-to** → [SMAD4](../../03-molecular/smad4/README.md): Respiratory SMAD4: SMAD4-mediated TGF-β (already mapped) signalling in type-II pneumocytes (already mapped) and fibroblasts (already mapped) drives airway fibrosis; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system.
 - **Connects-to** → [IL-2](../../03-molecular/il-2/README.md): Respiratory IL-2: IL-2 expands T-cytotoxic cells (already mapped) and regulatory T-cells in airway immune surveillance; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the respiratory system.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — RS fibronectin: fibronectin in airway matrix and bronchial epithelial cells modulates lung structural repair; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) remodelling cascade of the respiratory system.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — RS IGF-1: IGF-1 from bronchial epithelium (already mapped) and lung macrophages (already mapped) sustains lung growth and repair; IGF-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RS activin-A: activin-A from lung fibroblasts (already mapped) and macrophages (already mapped) modulates inflammation and fibrosis; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

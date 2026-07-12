@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "FH hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and endothelial cells (already mapped), quenches LDL oxidation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation in FH."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "FH PD-1: PD-1 on plaque T-cells (already mapped) modulates immune surveillance of the atherosclerotic lesion; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) plaque cascade of familial hypercholesterolemia."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "FH GLP-1: GLP-1 from gut L-cells (already mapped) and pancreatic tissue modulates metabolic-inflammatory tone in FH; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of familial hypercholesterolemia."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "FH angiotensin-II: angiotensin-II in endothelium (already mapped) and macrophages (already mapped) drives vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
 ---
 
 # Familial Hypercholesterolemia
@@ -827,6 +836,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — FH carbon: carbon, as metabolic backbone of cholesterol (already mapped) and lipoproteins in hepatocytes (already mapped) and macrophages (already mapped), drives LDL accumulation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) in FH.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — FH chloride: chloride channels in macrophages (already mapped) and endothelial cells (already mapped) modulate vascular homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and atherosclerosis (already mapped) cascade in FH.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — FH hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and endothelial cells (already mapped), quenches LDL oxidation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) atherogenic inflammation in FH.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — FH PD-1: PD-1 on plaque T-cells (already mapped) modulates immune surveillance of the atherosclerotic lesion; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) plaque cascade of familial hypercholesterolemia.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — FH GLP-1: GLP-1 from gut L-cells (already mapped) and pancreatic tissue modulates metabolic-inflammatory tone in FH; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of familial hypercholesterolemia.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — FH angiotensin-II: angiotensin-II in endothelium (already mapped) and macrophages (already mapped) drives vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
