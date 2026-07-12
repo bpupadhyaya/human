@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "carney angiotensin-ii: angiotensin II on cardiomyocytes (already mapped) and macrophages (already mapped) promotes cardiac remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) myxoma cascade in Carney complex."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "carney rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates tumour-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) myxoma cascade in Carney complex."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "carney il-2: IL-2 on t-cells (already mapped) and macrophages (already mapped) amplifies adaptive tumour immunity; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "carney fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
 ---
 
 # Carney Complex
@@ -857,6 +866,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — carney pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Carney complex.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — carney glp-1: GLP-1 from macrophages (already mapped) and cardiomyocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — carney angiotensin-ii: angiotensin II on cardiomyocytes (already mapped) and macrophages (already mapped) promotes cardiac remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) myxoma cascade in Carney complex.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — carney rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates tumour-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) myxoma cascade in Carney complex.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — carney il-2: IL-2 on t-cells (already mapped) and macrophages (already mapped) amplifies adaptive tumour immunity; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — carney fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 
 ---
 

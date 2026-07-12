@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "cervical rankl: RANKL in macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "cervical fibronectin: fibronectin in tumour stroma (already mapped) and macrophages (already mapped) promotes ECM invasion; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "cervical igf-1: IGF-1 on tumour cells (already mapped) and macrophages (already mapped) promotes proliferation; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "cervical activin-a: activin-A in tumour cells (already mapped) and macrophages (already mapped) modulates stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
 ---
 
 # Cervical Cancer
@@ -858,6 +867,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — cervical glp-1: GLP-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — cervical angiotensin-ii: angiotensin II on tumour endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cervical cancer.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — cervical rankl: RANKL in macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — cervical fibronectin: fibronectin in tumour stroma (already mapped) and macrophages (already mapped) promotes ECM invasion; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — cervical igf-1: IGF-1 on tumour cells (already mapped) and macrophages (already mapped) promotes proliferation; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cervical activin-a: activin-A in tumour cells (already mapped) and macrophages (already mapped) modulates stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 
 ---
 
