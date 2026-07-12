@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "breast-cancer fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) tumour cascade in breast cancer."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "breast-cancer activin-a: activin-A in fibroblasts (already mapped) and macrophages (already mapped) modulates tumour stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) tumour cascade in breast cancer."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "breast-cancer cgrp: CGRP in sensory neurons (already mapped) and macrophages (already mapped) modulates breast tumour neuro-inflammation; CGRP dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "breast-cancer calcitonin: calcitonin in osteoclasts (already mapped) and macrophages (already mapped) modulates bone metastasis signalling; calcitonin dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
 ---
 
 # Breast Cancer
@@ -849,6 +858,9 @@ cross_links:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — breast-cancer glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates tumour inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) and HER2 (already mapped) tumour cascade in breast cancer.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — breast-cancer angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and VEGF (already mapped) and HER2 (already mapped) tumour cascade in breast cancer.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — breast-cancer fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) tumour cascade in breast cancer.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — breast-cancer activin-a: activin-A in fibroblasts (already mapped) and macrophages (already mapped) modulates tumour stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) tumour cascade in breast cancer.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — breast-cancer cgrp: CGRP in sensory neurons (already mapped) and macrophages (already mapped) modulates breast tumour neuro-inflammation; CGRP dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — breast-cancer calcitonin: calcitonin in osteoclasts (already mapped) and macrophages (already mapped) modulates bone metastasis signalling; calcitonin dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

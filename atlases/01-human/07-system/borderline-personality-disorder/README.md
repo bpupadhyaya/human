@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "BPD il-2: IL-2 from T-helper cells (already mapped) and microglia (already mapped) modulates neuroimmune balance; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory affective instability in BPD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "BPD fibronectin: fibronectin in neurons (already mapped) and microglia (already mapped) modulates neuroimmune ECM integrity; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory instability in BPD."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "BPD notch: Notch in neurons (already mapped) and microglia (already mapped) modulates neuro-glial cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory affective instability in BPD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "BPD IGF-1: IGF-1 in neurons (already mapped) and astrocytes (already mapped) modulates neuroprotection and affective regulation; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD."
 ---
 
 # Borderline Personality Disorder
@@ -883,6 +892,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — BPD rankl: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory affective instability in BPD.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — BPD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotection; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective cascade in BPD.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — BPD il-2: IL-2 from T-helper cells (already mapped) and microglia (already mapped) modulates neuroimmune balance; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory affective instability in BPD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — BPD fibronectin: fibronectin in neurons (already mapped) and microglia (already mapped) modulates neuroimmune ECM integrity; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory instability in BPD.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — BPD notch: Notch in neurons (already mapped) and microglia (already mapped) modulates neuro-glial cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory affective instability in BPD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — BPD IGF-1: IGF-1 in neurons (already mapped) and astrocytes (already mapped) modulates neuroprotection and affective regulation; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
