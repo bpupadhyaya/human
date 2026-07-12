@@ -545,6 +545,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Measles carbon: carbon as backbone of measles-virus nucleocapsid and viral glycoproteins sustains replication in lymphocytes (already mapped); carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of measles."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Measles hydrogen: hydrogen in redox chemistry of lymphocytes (already mapped) and macrophages (already mapped) sustains antiviral glutathione defence; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of measles."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Measles nitrogen: nitrogen in amino-acid scaffold of measles-virus nucleoproteins and host T-cell (already mapped) receptors drives adaptive immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of measles."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Measles sulfur: sulfur in cysteine residues of measles-virus fusion protein and host interferon (already mapped) sustains antiviral redox defence; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of measles."
 ---
 
 # Measles
@@ -865,6 +874,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — Measles calcium: calcium, as second messenger in macrophages (already mapped) and T-cytotoxic cells (already mapped), coordinates antiviral signalling; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine cascade of measles.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Measles chloride: chloride regulates macrophage (already mapped) and NK-cell (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) antiviral cascade of measles.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Measles carbon: carbon as backbone of measles-virus nucleocapsid and viral glycoproteins sustains replication in lymphocytes (already mapped); carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of measles.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Measles hydrogen: hydrogen in redox chemistry of lymphocytes (already mapped) and macrophages (already mapped) sustains antiviral glutathione defence; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of measles.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Measles nitrogen: nitrogen in amino-acid scaffold of measles-virus nucleoproteins and host T-cell (already mapped) receptors drives adaptive immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of measles.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Measles sulfur: sulfur in cysteine residues of measles-virus fusion protein and host interferon (already mapped) sustains antiviral redox defence; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

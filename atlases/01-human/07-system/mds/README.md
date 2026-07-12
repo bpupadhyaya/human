@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "MDS nitrogen: nitrogen in amino-acid scaffold of RUNX1 and TP53 proteins modulates haematopoietic (already mapped) stem-cell differentiation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "MDS chloride: chloride regulates haematopoietic stem cells (already mapped) and macrophages (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "MDS hydrogen: hydrogen in water and redox chemistry of haematopoietic stem cells (already mapped) modulates RUNX1 and TP53 protein folding; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "MDS sulfur: sulfur in cysteine residues of RUNX1 and TP53 proteins sustains redox stability in haematopoietic stem cells (already mapped); sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS."
 ---
 
 # Myelodysplastic Syndromes
@@ -822,6 +831,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MDS phosphorus: phosphorus, as ATP in macrophages (already mapped) and erythrocytes (already mapped), fuels haematopoiesis and DNA repair; phosphorus deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and bone-marrow (already mapped) cascade of MDS.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MDS carbon: carbon as backbone of erythropoietin (already mapped) and myeloid receptor proteins in haematopoietic stem cells (already mapped) sustains erythropoiesis; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) dysplastic cascade of MDS.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MDS nitrogen: nitrogen in amino-acid scaffold of RUNX1 and TP53 proteins modulates haematopoietic (already mapped) stem-cell differentiation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MDS chloride: chloride regulates haematopoietic stem cells (already mapped) and macrophages (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MDS hydrogen: hydrogen in water and redox chemistry of haematopoietic stem cells (already mapped) modulates RUNX1 and TP53 protein folding; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MDS sulfur: sulfur in cysteine residues of RUNX1 and TP53 proteins sustains redox stability in haematopoietic stem cells (already mapped); sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) dysplastic cascade of MDS.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
