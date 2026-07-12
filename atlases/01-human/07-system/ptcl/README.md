@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "PTCL angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and endothelial cells (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "PTCL wnt-beta-catenin: WNT/β-catenin on T-lymphoma cells (already mapped) and macrophages (already mapped) drives tumour invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PTCL rankl: RANKL from macrophages (already mapped) and T-lymphoma cells (already mapped) promotes tumour immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PTCL fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds T-lymphoma tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -868,6 +877,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PTCL oxygen: oxygen, via mitochondrial respiration in T-lymphoma cells and macrophages (already mapped), sustains tumour-cell survival; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) angiogenic cascade of peripheral T-cell lymphoma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PTCL GLP-1: GLP-1 receptor signalling in T-lymphoma cells and macrophages (already mapped) modulates metabolic and inflammatory tumour risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of PTCL.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PTCL angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and endothelial cells (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PTCL wnt-beta-catenin: WNT/β-catenin on T-lymphoma cells (already mapped) and macrophages (already mapped) drives tumour invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PTCL rankl: RANKL from macrophages (already mapped) and T-lymphoma cells (already mapped) promotes tumour immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PTCL fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds T-lymphoma tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 
 ---
 

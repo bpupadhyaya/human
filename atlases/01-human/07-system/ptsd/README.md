@@ -555,6 +555,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "PTSD VEGF: VEGF-driven neurogenesis in hippocampal neurons (already mapped) supports stress resilience; VEGF deficiency amplifies NF-κB (already mapped) and cortisol (already mapped) and IL-6 (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "PTSD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates trauma-circuit plasticity; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PTSD rankl: RANKL from microglia (already mapped) and macrophages (already mapped) promotes neuroinflammation in trauma circuits; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "PTSD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotective stress repair; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
 ---
 
 # PTSD
@@ -869,6 +878,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PTSD PD-1: PD-1 checkpoint signalling in T-cells and microglia (already mapped) modulates neuroinflammatory tone; PD-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) HPA-axis cascade of PTSD.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PTSD GLP-1: GLP-1 receptor signalling in neurons (already mapped) and microglia (already mapped) modulates metabolic and neuroinflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of PTSD.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — PTSD VEGF: VEGF-driven neurogenesis in hippocampal neurons (already mapped) supports stress resilience; VEGF deficiency amplifies NF-κB (already mapped) and cortisol (already mapped) and IL-6 (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PTSD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates trauma-circuit plasticity; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PTSD rankl: RANKL from microglia (already mapped) and macrophages (already mapped) promotes neuroinflammation in trauma circuits; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — PTSD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotective stress repair; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
