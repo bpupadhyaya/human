@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "NF2 wnt-beta-catenin: WNT/β-catenin on Schwann cells (already mapped) and macrophages (already mapped) regulates schwannoma stromal proliferation; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "NF2 rankl: RANKL from macrophages (already mapped) and Schwann cells (already mapped) promotes schwannoma immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "NF2 fibronectin: fibronectin in Schwann cells (already mapped) and macrophages (already mapped) promotes schwannoma ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "NF2 activin-a: activin-A from Schwann cells (already mapped) and macrophages (already mapped) drives schwannoma fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
 ---
 
 # Neurofibromatosis Type 2
@@ -855,6 +864,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — NF2 glp-1: GLP-1 from macrophages (already mapped) and mast cells (already mapped) modulates metabolic-inflammatory tone in schwannoma; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — NF2 angiotensin-ii: angiotensin-II from macrophages (already mapped) and Schwann cells (already mapped) drives vascular remodelling in schwannoma; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — NF2 wnt-beta-catenin: WNT/β-catenin on Schwann cells (already mapped) and macrophages (already mapped) regulates schwannoma stromal proliferation; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — NF2 rankl: RANKL from macrophages (already mapped) and Schwann cells (already mapped) promotes schwannoma immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — NF2 fibronectin: fibronectin in Schwann cells (already mapped) and macrophages (already mapped) promotes schwannoma ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NF2 activin-a: activin-A from Schwann cells (already mapped) and macrophages (already mapped) drives schwannoma fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
