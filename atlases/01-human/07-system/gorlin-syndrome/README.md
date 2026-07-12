@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Gorlin activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) promotes desmoplastic remodelling; activin-a excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Gorlin cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroimmune tone; cgrp excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Gorlin calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates calcium balance; calcitonin dysregulation amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Gorlin substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour pain tone; substance-P excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -858,6 +867,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Gorlin il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) promotes immune surveillance; il-2 excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Gorlin fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes ECM remodelling; fibronectin excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Gorlin activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) promotes desmoplastic remodelling; activin-a excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Gorlin cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroimmune tone; cgrp excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Gorlin calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates calcium balance; calcitonin dysregulation amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Gorlin substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour pain tone; substance-P excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 
 ---
 
