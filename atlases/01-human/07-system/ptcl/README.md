@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "PTCL nitrogen: nitrogen in amino-acid scaffold of TCR signalling proteins and NF-κB (already mapped) in T-lymphoma cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "PTCL oxygen: oxygen, via mitochondrial respiration in T-lymphoma cells and macrophages (already mapped), sustains tumour-cell survival; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) angiogenic cascade of peripheral T-cell lymphoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "PTCL GLP-1: GLP-1 receptor signalling in T-lymphoma cells and macrophages (already mapped) modulates metabolic and inflammatory tumour risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of PTCL."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "PTCL angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and endothelial cells (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -856,6 +865,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PTCL carbon: carbon as backbone of NF-κB (already mapped) and BCL-2 proteins in T-lymphoma cells and macrophages (already mapped) sustains tumour survival; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PTCL hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and NK cells (already mapped), supports anti-tumour effector function; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of PTCL.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PTCL nitrogen: nitrogen in amino-acid scaffold of TCR signalling proteins and NF-κB (already mapped) in T-lymphoma cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PTCL oxygen: oxygen, via mitochondrial respiration in T-lymphoma cells and macrophages (already mapped), sustains tumour-cell survival; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) angiogenic cascade of peripheral T-cell lymphoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PTCL GLP-1: GLP-1 receptor signalling in T-lymphoma cells and macrophages (already mapped) modulates metabolic and inflammatory tumour risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of PTCL.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PTCL angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and endothelial cells (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of peripheral T-cell lymphoma.
 
 ---
 
