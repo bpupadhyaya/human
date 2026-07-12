@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates haematopoietic stem-cell niche; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) marrow suppression in AA."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "AA hydrogen: hydrogen via ROS balance in t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates bone-marrow stress; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression in AA."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "AA pd-1: PD-1 on t-cytotoxic cells (already mapped) and regulatory T cells (already mapped) suppresses immune tolerance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic destruction cascade in AA."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "AA glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA."
 ---
 
 # Aplastic Anemia
@@ -824,6 +833,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophages (already mapped) and bone-marrow (already mapped) stroma regulate intracellular pH; chloride dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TNF-α (already mapped) immune-mediated haematopoietic failure in AA.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — H2S from sulfur-amino acids in macrophages (already mapped) and bone-marrow (already mapped) stroma scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-mediated haematopoietic failure in AA.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates haematopoietic stem-cell niche; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) marrow suppression in AA.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — AA hydrogen: hydrogen via ROS balance in t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates bone-marrow stress; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression in AA.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AA pd-1: PD-1 on t-cytotoxic cells (already mapped) and regulatory T cells (already mapped) suppresses immune tolerance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic destruction cascade in AA.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AA glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA.
 
 ---
 

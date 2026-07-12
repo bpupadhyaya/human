@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "IL-2 from T-helper cells (already mapped) drives Th2 polarisation amplifying IL-4 (already mapped) and IL-5 (already mapped) and IgE (already mapped); IL-2 excess sustains the eosinophilic NLRP3 (already mapped) and NF-κB (already mapped) airway inflammatory cascade in asthma."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Asthma pd-1: PD-1 on t-helper cells (already mapped) and regulatory T cells (already mapped) restrains Th2 bias; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic airway inflammation in asthma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Asthma glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates airway inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) Th2 airway inflammation in asthma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Asthma angiotensin-ii: angiotensin II on smooth-muscle cells (already mapped) and macrophages (already mapped) promotes airway hyper-responsiveness; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) remodelling in asthma."
 ---
 
 # Asthma
@@ -828,6 +837,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — glutamate signalling in airway sensory neurons amplifies C-fibre reflexes and mast-cell (already mapped) degranulation; glutamate excess upregulates NF-κB (already mapped) and IL-5 (already mapped) and IL-13 (already mapped) eosinophilic airway hyperresponsiveness in asthma.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — norepinephrine from sympathetic neurons acts on β2-adrenoceptors of smooth-muscle-cell (already mapped) to mediate bronchodilation; norepinephrine deficiency amplifies IL-13 (already mapped) and IL-5 (already mapped) and TSLP (already mapped) bronchoconstriction in asthma.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 from T-helper cells (already mapped) drives Th2 polarisation amplifying IL-4 (already mapped) and IL-5 (already mapped) and IgE (already mapped); IL-2 excess sustains the eosinophilic NLRP3 (already mapped) and NF-κB (already mapped) airway inflammatory cascade in asthma.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Asthma pd-1: PD-1 on t-helper cells (already mapped) and regulatory T cells (already mapped) restrains Th2 bias; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic airway inflammation in asthma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Asthma glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates airway inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) Th2 airway inflammation in asthma.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Asthma angiotensin-ii: angiotensin II on smooth-muscle cells (already mapped) and macrophages (already mapped) promotes airway hyper-responsiveness; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) remodelling in asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
