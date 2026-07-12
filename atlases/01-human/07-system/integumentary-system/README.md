@@ -563,6 +563,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "Integumentary insulin-receptor: insulin-receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates homeostasis; receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Integumentary angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Integumentary osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal ECM tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Integumentary adiponectin: adiponectin from adipocytes (already mapped) and macrophages (already mapped) modulates skin metabolic tone; adiponectin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
 ---
 
 # Integumentary System
@@ -850,6 +859,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Integumentary calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates skin calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — Integumentary fgf23: FGF23 from macrophages (already mapped) and fibroblasts (already mapped) regulates skin phosphate and keratinocyte growth; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Integumentary insulin-receptor: insulin-receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates homeostasis; receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Integumentary angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Integumentary osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal ECM tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Integumentary adiponectin: adiponectin from adipocytes (already mapped) and macrophages (already mapped) modulates skin metabolic tone; adiponectin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
 
 ## Pathology
 

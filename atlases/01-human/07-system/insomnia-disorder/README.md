@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Insomnia notch: Notch signalling on microglia (already mapped) and astrocytes (already mapped) regulates sleep-wake neuroplasticity; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Insomnia igf-1: IGF-1 from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory metabolic repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Insomnia activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) promotes neuroglial fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Insomnia tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory resolution; TGF-β excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder."
 ---
 
 # Insomnia Disorder
@@ -896,6 +905,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Insomnia il-2: IL-2 from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory signalling; il-2 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Insomnia fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes glial ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Insomnia notch: Notch signalling on microglia (already mapped) and astrocytes (already mapped) regulates sleep-wake neuroplasticity; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Insomnia igf-1: IGF-1 from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory metabolic repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Insomnia activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) promotes neuroglial fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Insomnia tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory resolution; TGF-β excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
