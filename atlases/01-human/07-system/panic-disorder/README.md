@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Panic calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates calcium tone in panic circuits; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Panic insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives stress-circuit metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Panic aldosterone: aldosterone from neurons (already mapped) and astrocytes (already mapped) modulates stress-circuit ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Panic androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates steroid signalling; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
 ---
 
 # Panic Disorder
@@ -900,6 +909,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Panic activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) drives neuroinflammatory signalling in panic circuits; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Panic tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) regulates neuroinflammatory fibrosis in panic circuits; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Panic calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates calcium tone in panic circuits; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Panic insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives stress-circuit metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Panic aldosterone: aldosterone from neurons (already mapped) and astrocytes (already mapped) modulates stress-circuit ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Panic androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates steroid signalling; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
