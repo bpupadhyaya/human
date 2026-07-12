@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "TC activin-a: activin-A from macrophages (already mapped) and thyroid tumour cells (already mapped) regulates thyroid tumour differentiation; activin-a loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "TC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates thyroid tumour vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "TC substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates thyroid tumour neurogenic signalling; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "TC insulin-receptor: insulin receptor on thyroid cells (already mapped) and macrophages (already mapped) drives TC metabolic signalling; insulin-receptor excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
 ---
 
 # Thyroid Cancer
@@ -879,6 +888,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — TC rankl: RANKL from macrophages (already mapped) and thyroid tumour cells (already mapped) promotes bone metastasis; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — TC fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds thyroid tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — TC activin-a: activin-A from macrophages (already mapped) and thyroid tumour cells (already mapped) regulates thyroid tumour differentiation; activin-a loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — TC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates thyroid tumour vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — TC substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates thyroid tumour neurogenic signalling; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — TC insulin-receptor: insulin receptor on thyroid cells (already mapped) and macrophages (already mapped) drives thyroid metabolic signalling; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

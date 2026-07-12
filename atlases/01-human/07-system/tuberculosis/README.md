@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "TB fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) scaffolds granuloma ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "TB notch: Notch in macrophages (already mapped) and T-cells (already mapped) regulates granuloma cellular fate in TB; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "TB igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes granuloma fibroblast growth in tuberculosis; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "TB activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives TB granuloma fibrotic remodelling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
 ---
 
 # Tuberculosis
@@ -875,6 +884,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — TB rankl: RANKL from macrophages (already mapped) and T-cells (already mapped) promotes granuloma-associated bone remodelling; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TB smad4: SMAD4 in macrophages (already mapped) and T-cells (already mapped) transduces TGF-β signals; smad4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — TB fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) scaffolds granuloma ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — TB notch: Notch in macrophages (already mapped) and T-cells (already mapped) regulates granuloma cellular fate in TB; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — TB igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes granuloma fibroblast growth in tuberculosis; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — TB activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives granuloma fibrotic remodelling in TB; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
