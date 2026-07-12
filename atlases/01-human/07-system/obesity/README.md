@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Obesity il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates adipose immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Obesity fibronectin: fibronectin in macrophages (already mapped) and adipocytes (already mapped) promotes adipose ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Obesity notch: Notch signalling on macrophages (already mapped) and adipocytes (already mapped) regulates adipose tissue-cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Obesity igf-1: IGF-1 from macrophages (already mapped) and adipocytes (already mapped) promotes adipose cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity."
 ---
 
 # Obesity
@@ -887,6 +896,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Obesity wnt-beta-catenin: WNT/β-catenin on adipocytes (already mapped) and macrophages (already mapped) drives adipose lipid storage; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of obesity.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Obesity rankl: RANKL from macrophages (already mapped) and adipocytes (already mapped) promotes adipose immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Obesity il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates adipose immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Obesity fibronectin: fibronectin in macrophages (already mapped) and adipocytes (already mapped) promotes adipose ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Obesity notch: Notch signalling on macrophages (already mapped) and adipocytes (already mapped) regulates adipose tissue-cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Obesity igf-1: IGF-1 from macrophages (already mapped) and adipocytes (already mapped) promotes adipose cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
