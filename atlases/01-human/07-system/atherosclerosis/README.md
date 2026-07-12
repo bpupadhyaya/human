@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Athero wnt-beta-catenin: WNT/β-catenin on smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates homeostasis; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) in atherosclerosis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Athero rankl: RANKL in macrophages (already mapped) and smooth-muscle cells (already mapped) modulates plaque bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Athero il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates plaque immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Athero notch: NOTCH on smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates vascular cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
 ---
 
 # Atherosclerosis
@@ -857,6 +866,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Athero glp-1: GLP-1 on macrophages (already mapped) and endothelial cells (already mapped) attenuates vascular skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) atheroinflammatory plaque cascade in atherosclerosis.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Athero angiotensin-ii: angiotensin II on smooth-muscle cells (already mapped) and endothelial cells (already mapped) promotes remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) athero cascade in atherosclerosis.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Athero wnt-beta-catenin: WNT/β-catenin on smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates homeostasis; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) in atherosclerosis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Athero rankl: RANKL in macrophages (already mapped) and smooth-muscle cells (already mapped) modulates plaque bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Athero il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates plaque immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Athero notch: NOTCH on smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates vascular cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 
 ---
 
