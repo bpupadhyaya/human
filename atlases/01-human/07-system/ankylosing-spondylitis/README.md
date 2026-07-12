@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "AS oxygen: mitochondrial oxygen in osteoblasts (already mapped) and macrophages (already mapped) sustains ATP for bone remodelling; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "AS PD-1: PD-1 on macrophages (already mapped) and t-cytotoxic-cell (already mapped) modulates entheseal immune homeostasis; PD-1 dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "AS GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and osteoblasts (already mapped) modulates metabolic bone homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade in AS."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "AS angiotensin-II: angiotensin-II in macrophages (already mapped) and osteoblasts (already mapped) promotes entheseal inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of ankylosing spondylitis."
 ---
 
 # Ankylosing Spondylitis
@@ -840,6 +849,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — AS carbon: carbon, as metabolic backbone of collagen and osteoproliferative cytokines in osteoblasts (already mapped) and macrophages (already mapped), drives entheseal remodelling; carbon dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) in AS.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — AS hydrogen: hydrogen, via redox homeostasis in osteoblasts (already mapped) and macrophages (already mapped), quenches ROS-driven entheseal damage; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) cascade in AS.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — AS oxygen: mitochondrial oxygen in osteoblasts (already mapped) and macrophages (already mapped) sustains ATP for bone remodelling; hypoxia amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AS PD-1: PD-1 on macrophages (already mapped) and t-cytotoxic-cell (already mapped) modulates entheseal immune homeostasis; PD-1 dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-17A (already mapped) osteoproliferative cascade in AS.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AS GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and osteoblasts (already mapped) modulates metabolic bone homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade in AS.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — AS angiotensin-II: angiotensin-II in macrophages (already mapped) and osteoblasts (already mapped) promotes entheseal inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of ankylosing spondylitis.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "ACD PD-1: PD-1 on macrophages (already mapped) and t-cytotoxic-cell (already mapped) modulates chronic-disease immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "ACD GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and erythrocytes (already mapped) modulates iron homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "ACD angiotensin-II: angiotensin-II in macrophages (already mapped) and erythrocytes (already mapped) promotes inflammatory iron restriction; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) cascade of ACD."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "ACD WNT/β-catenin: WNT/β-catenin in macrophages (already mapped) and erythrocytes (already mapped) modulates erythropoiesis; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD."
 ---
 
 # Anemia of Chronic Disease
@@ -855,6 +864,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ACD carbon: carbon backbone of haem in macrophages (already mapped) and erythrocytes (already mapped) drives iron recycling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ACD hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and erythrocytes (already mapped), quenches haemolytic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and hepcidin (already mapped) cascade in ACD.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — ACD PD-1: PD-1 on macrophages (already mapped) and t-cytotoxic-cell (already mapped) modulates chronic-disease immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ACD GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and erythrocytes (already mapped) modulates iron homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — ACD angiotensin-II: angiotensin-II in macrophages (already mapped) and erythrocytes (already mapped) promotes inflammatory iron restriction; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) cascade of ACD.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ACD WNT/β-catenin: WNT/β-catenin in macrophages (already mapped) and erythrocytes (already mapped) modulates erythropoiesis; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade in ACD.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
