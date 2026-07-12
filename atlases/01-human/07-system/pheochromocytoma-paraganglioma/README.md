@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "PPGL RANKL: RANKL from T-cells (already mapped) in PPGL tumour stroma modulates bone-immune crosstalk; RANKL excess amplifies IL-6 (already mapped) and VEGF (already mapped) and angiotensin-II (already mapped) angiogenic-inflammatory cascade of pheochromocytoma-paraganglioma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PPGL fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors PPGL tumour ECM; fibronectin excess amplifies il-6 (already mapped) and vegf (already mapped) and angiotensin-ii (already mapped) angiogenic cascade of PPGL."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PPGL notch: NOTCH on chromaffin cells (already mapped) and macrophages (already mapped) regulates neuroendocrine differentiation; notch dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and angiotensin-ii (already mapped) cascade of PPGL."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "PPGL igf-1: IGF-1 from fibroblasts (already mapped) and endothelial cells (already mapped) modulates chromaffin cell growth; igf-1 excess amplifies il-6 (already mapped) and vegf (already mapped) and angiotensin-ii (already mapped) angiogenic cascade of PPGL."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -865,6 +874,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PPGL PD-1: PD-1 on T-cells (already mapped) and macrophages (already mapped) in PPGL tumour stroma suppresses anti-tumour immunity; PD-1 checkpoint dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) immunosuppressive cascade of pheochromocytoma-paraganglioma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PPGL GLP-1: GLP-1 receptor signalling in chromaffin cells and macrophages (already mapped) modulates catecholamine-driven metabolic stress; GLP-1 deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) and angiotensin-II (already mapped) cascade of PPGL.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PPGL RANKL: RANKL from T-cells (already mapped) in PPGL tumour stroma modulates bone-immune crosstalk; RANKL excess amplifies IL-6 (already mapped) and VEGF (already mapped) and angiotensin-II (already mapped) angiogenic-inflammatory cascade of pheochromocytoma-paraganglioma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PPGL fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors PPGL tumour ECM; fibronectin excess amplifies il-6 (already mapped) and vegf (already mapped) and angiotensin-ii (already mapped) angiogenic cascade of PPGL.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — PPGL notch: NOTCH on chromaffin cells (already mapped) and macrophages (already mapped) regulates neuroendocrine differentiation; notch dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and angiotensin-ii (already mapped) cascade of PPGL.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PPGL igf-1: IGF-1 from fibroblasts (already mapped) and endothelial cells (already mapped) modulates chromaffin cell growth; igf-1 excess amplifies il-6 (already mapped) and vegf (already mapped) and angiotensin-ii (already mapped) angiogenic cascade of PPGL.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

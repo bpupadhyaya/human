@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Peutz-Jeghers PD-1: PD-1 on T-cells (already mapped) in gastrointestinal polyp stroma suppresses anti-tumour immunity; PD-1 checkpoint dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) polyposis cascade of PJS."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "PJS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory polyp tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) polyposis cascade of PJS."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "PJS angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives polyp angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) polyposis cascade of PJS."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PJS rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes gastrointestinal polyp immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) polyposis cascade of PJS."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -847,6 +856,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Peutz-Jeghers oxygen: oxygen, via mitochondrial respiration in polyp epithelial cells and macrophages (already mapped), sustains LKB1/STK11 (already mapped)-regulated energy sensing; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Peutz-Jeghers sulfur: sulfur in cysteine residues of LKB1/STK11 (already mapped) and mTOR (already mapped) kinase proteins sustains thiol-redox balance in polyp cells; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PJS.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Peutz-Jeghers PD-1: PD-1 on T-cells (already mapped) in gastrointestinal polyp stroma suppresses anti-tumour immunity; PD-1 checkpoint dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) polyposis cascade of PJS.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PJS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory polyp tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) polyposis cascade of PJS.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PJS angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives polyp angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) polyposis cascade of PJS.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PJS rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes gastrointestinal polyp immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) polyposis cascade of PJS.
 
 ---
 
