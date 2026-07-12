@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "gut-microbiome cgrp: CGRP from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "gut-microbiome calcitonin: calcitonin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "gut-microbiome substance-p: substance-P from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "gut-microbiome insulin-receptor: insulin receptor on intestinal epithelium (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
 ---
 
 # Gut Microbiome
@@ -825,6 +834,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — gut-microbiome fibronectin: fibronectin in intestinal epithelium (already mapped) and macrophages (already mapped) promotes mucosal ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — gut-microbiome activin-a: activin-A from macrophages (already mapped) and intestinal epithelium (already mapped) promotes mucosal fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — gut-microbiome cgrp: CGRP from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — gut-microbiome calcitonin: calcitonin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — gut-microbiome substance-p: substance-P from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — gut-microbiome insulin-receptor: insulin receptor on intestinal epithelium (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 
 ## Pathology
 
