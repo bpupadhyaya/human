@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "GAD vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade of generalized anxiety disorder."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "GAD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates anxiety neural circuits; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "GAD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "GAD smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory anxiety cascade of GAD."
 ---
 
 # Generalized Anxiety Disorder
@@ -873,6 +882,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — GAD pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade of generalized anxiety disorder.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GAD glp-1: GLP-1 from neurons (already mapped) and astrocytes (already mapped) modulates metabolic-neuroinflammatory tone; glp-1 dysfunction amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade of generalized anxiety disorder.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — GAD vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and cortisol (already mapped) anxiety cascade of generalized anxiety disorder.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — GAD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates anxiety neural circuits; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — GAD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — GAD smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory anxiety cascade of GAD.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
