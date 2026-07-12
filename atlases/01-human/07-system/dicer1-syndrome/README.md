@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "phosphorus, as ATP in macrophage (already mapped) and T-cytotoxic cell (already mapped), fuels mTOR (already mapped) and IGF-1 (already mapped) proliferative signalling; phosphorus dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of DICER1 syndrome."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "DICER1 carbon: carbon in nucleotides fuels macrophage (already mapped) and T-cytotoxic cell (already mapped) proliferation; carbon dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of DICER1 syndrome."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "DICER1 chloride: chloride channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) regulate homeostasis; chloride dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of DICER1 syndrome."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "DICER1 hydrogen: hydrogen via ROS from macrophage (already mapped) and T-cytotoxic cell (already mapped) modulates oxidative stress; hydrogen excess amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -826,6 +835,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of DICER1 syndrome.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — calcium, as second messenger in macrophage (already mapped) and T-cytotoxic cell (already mapped), modulates mTOR (already mapped) and IGF-1 (already mapped) signalling; calcium dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of DICER1 syndrome.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped) and T-cytotoxic cell (already mapped), fuels mTOR (already mapped) and IGF-1 (already mapped) proliferative signalling; phosphorus dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) cascade of DICER1 syndrome.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — DICER1 carbon: carbon in nucleotides fuels macrophage (already mapped) and T-cytotoxic cell (already mapped) proliferation; carbon dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of DICER1 syndrome.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — DICER1 chloride: chloride channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) regulate homeostasis; chloride dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of DICER1 syndrome.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — DICER1 hydrogen: hydrogen via ROS from macrophage (already mapped) and T-cytotoxic cell (already mapped) modulates oxidative stress; hydrogen excess amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of DICER1 syndrome.
 
 ---
 

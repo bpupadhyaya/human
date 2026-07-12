@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "sulfur, as glutathione precursor in microglia (already mapped) and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) glioma cascade of diffuse midline glioma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "DMG carbon: carbon in nucleotides fuels microglia (already mapped) and macrophage (already mapped) glioma growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) immunosuppressive cascade of diffuse midline glioma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "DMG hydrogen: hydrogen via ROS from microglia (already mapped) and macrophage (already mapped) modulates glioma redox; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) immunosuppressive cascade of diffuse midline glioma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "DMG nitrogen: nitrogen in DNA bases of microglia (already mapped) and macrophage (already mapped) sustains glioma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -850,6 +859,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in microglia (already mapped) and macrophage (already mapped), fuels mTOR (already mapped) glioma proliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and p53 (already mapped) immunosuppressive cascade.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on microglia (already mapped) and macrophage (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) immunosuppressive glioma cascade of diffuse midline glioma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in microglia (already mapped) and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) glioma cascade of diffuse midline glioma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — DMG carbon: carbon in nucleotides fuels microglia (already mapped) and macrophage (already mapped) glioma growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) immunosuppressive cascade of diffuse midline glioma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — DMG hydrogen: hydrogen via ROS from microglia (already mapped) and macrophage (already mapped) modulates glioma redox; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) immunosuppressive cascade of diffuse midline glioma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — DMG nitrogen: nitrogen in DNA bases of microglia (already mapped) and macrophage (already mapped) sustains glioma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of diffuse midline glioma.
 
 ---
 
