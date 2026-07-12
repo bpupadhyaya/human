@@ -558,6 +558,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "HCV Wnt/β-catenin: Wnt/β-catenin in hepatocytes (already mapped) and macrophages (already mapped) drives HCV-associated hepatocarcinogenesis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "HCV rankl: RANKL from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "HCV fibronectin: fibronectin in hepatocytes (already mapped) and macrophages (already mapped) promotes hepatic ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "HCV notch: Notch signalling on hepatocytes (already mapped) and macrophages (already mapped) regulates hepatic stellate-cell activation; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
 ---
 
 # Hepatitis C
@@ -865,3 +874,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HCV GLP-1: GLP-1 from gut L-cells (already mapped) and hepatocytes (already mapped) modulates hepatitis C metabolic homeostasis; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammatory cascade of HCV.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — HCV angiotensin-II: Angiotensin-II in hepatocytes (already mapped) and macrophages (already mapped) promotes HCV-associated liver fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HCV Wnt/β-catenin: Wnt/β-catenin in hepatocytes (already mapped) and macrophages (already mapped) drives HCV-associated hepatocarcinogenesis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HCV rankl: RANKL from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HCV fibronectin: fibronectin in hepatocytes (already mapped) and macrophages (already mapped) promotes hepatic ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HCV notch: Notch signalling on hepatocytes (already mapped) and macrophages (already mapped) regulates hepatic stellate-cell activation; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
