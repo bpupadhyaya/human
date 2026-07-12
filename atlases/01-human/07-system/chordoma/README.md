@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "chordoma sulfur: sulfur-containing glutathione in macrophages (already mapped) and fibroblasts (already mapped) scavenges ROS; sulfur deficiency amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "chordoma glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies mTOR (already mapped) and VEGF (already mapped) and NF-κB (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "chordoma angiotensin-ii: angiotensin II on tumour endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies mTOR (already mapped) and VEGF (already mapped) and NF-κB (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "chordoma fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) tumour cascade in chordoma."
 ---
 
 # Chordoma
@@ -858,6 +867,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chordoma chloride: chloride channels on macrophages (already mapped) and fibroblasts (already mapped) regulate tumour microenvironment homeostasis; chloride dysregulation amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — chordoma nitrogen: nitrogen in DNA bases of macrophages (already mapped) and fibroblasts (already mapped) sustains tumour growth; nitrogen dysregulation amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — chordoma sulfur: sulfur-containing glutathione in macrophages (already mapped) and fibroblasts (already mapped) scavenges ROS; sulfur deficiency amplifies mTOR (already mapped) and P53 (already mapped) and VEGF (already mapped) cascade in chordoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — chordoma glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies mTOR (already mapped) and VEGF (already mapped) and NF-κB (already mapped) cascade in chordoma.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — chordoma angiotensin-ii: angiotensin II on tumour endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies mTOR (already mapped) and VEGF (already mapped) and NF-κB (already mapped) cascade in chordoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — chordoma fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) tumour cascade in chordoma.
 
 ---
 
