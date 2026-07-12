@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "H2S from sulfur-amino acids in macrophages (already mapped) and bone-marrow (already mapped) stroma scavenges ROS promoting leukaemic blast apoptosis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) blast expansion in ALL."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "ALL carbon: carbon, as metabolic backbone of purines and nucleotides in B-cell (already mapped) precursors and bone-marrow (already mapped) stroma, drives leukaemic blast expansion; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) in ALL."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "ALL hydrogen: hydrogen, via redox homeostasis in B-cell (already mapped) precursors and macrophages (already mapped), quenches leukaemic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) blast proliferation in ALL."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "ALL nitrogen: nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates niche homeostasis; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic cascade in ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -851,6 +860,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — thyroid hormones (iodine-dependent) in B-cell (already mapped) precursors and macrophages (already mapped) modulate proliferative signalling; iodine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic blast expansion in ALL.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on B-cell (already mapped) precursors and bone-marrow (already mapped) stroma maintain ionic homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic blast proliferation in ALL.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — H2S from sulfur-amino acids in macrophages (already mapped) and bone-marrow (already mapped) stroma scavenges ROS promoting leukaemic blast apoptosis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) blast expansion in ALL.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ALL carbon: carbon, as metabolic backbone of purines and nucleotides in B-cell (already mapped) precursors and bone-marrow (already mapped) stroma, drives leukaemic blast expansion; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) in ALL.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ALL hydrogen: hydrogen, via redox homeostasis in B-cell (already mapped) precursors and macrophages (already mapped), quenches leukaemic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) blast proliferation in ALL.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — ALL nitrogen: nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates niche homeostasis; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic cascade in ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)

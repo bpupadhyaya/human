@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "H2S from sulfur-amino acids in hepatocytes (already mapped) and neurons (already mapped) promotes cytoprotection; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TGF-β (already mapped) hepatic fibrotic neuroinflammatory cascade in AUD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "AUD PD-1: PD-1 on macrophages (already mapped) and t-cytotoxic-cell (already mapped) modulates hepatic immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic neuroinflammatory cascade in AUD."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "AUD angiotensin-II: angiotensin-II in hepatocytes (already mapped) and fibroblasts (already mapped) promotes TGF-β (already mapped)-driven hepatic fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic inflammatory cascade in AUD."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "AUD VEGF: VEGF from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic angiogenesis in alcoholic liver disease; VEGF excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) fibrotic cascade in AUD."
 ---
 
 # Alcohol Use Disorder
@@ -903,6 +912,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — mitochondrial oxygen in hepatocytes (already mapped) and neurons (already mapped) sustains ATP for ethanol metabolism; hypoxia amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TGF-β (already mapped) hepatic neuroinflammatory fibrotic cascade in AUD.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon, via bicarbonate in hepatocytes (already mapped) and macrophages (already mapped), maintains pH homeostasis during ethanol metabolism; carbon dioxide excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TGF-β (already mapped) fibrotic cascade in AUD.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — H2S from sulfur-amino acids in hepatocytes (already mapped) and neurons (already mapped) promotes cytoprotection; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TGF-β (already mapped) hepatic fibrotic neuroinflammatory cascade in AUD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AUD PD-1: PD-1 on macrophages (already mapped) and t-cytotoxic-cell (already mapped) modulates hepatic immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic neuroinflammatory cascade in AUD.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — AUD angiotensin-II: angiotensin-II in hepatocytes (already mapped) and fibroblasts (already mapped) promotes TGF-β (already mapped)-driven hepatic fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic inflammatory cascade in AUD.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — AUD VEGF: VEGF from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic angiogenesis in alcoholic liver disease; VEGF excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) fibrotic cascade in AUD.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
