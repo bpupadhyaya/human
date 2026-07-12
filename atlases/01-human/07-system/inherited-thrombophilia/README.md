@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "IT pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates immune-coagulation interface; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) prothrombotic cascade in inherited thrombophilia."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "IT angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular tone; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) thrombotic cascade in thrombophilia."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "IT wnt-beta-catenin: WNT/β-catenin on endothelium (already mapped) and macrophages (already mapped) regulates vascular integrity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in thrombophilia."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "IT rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) amplifies vascular inflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -890,6 +899,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — IT hydrogen: hydrogen via ROS from macrophages (already mapped) and endothelial cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IT sulfur: sulfur in disulfide bonds of coagulation factors and cytokines (already mapped) stabilises procoagulant protein structure; sulfur dysregulation amplifies thrombin (already mapped) and PAI-1 (already mapped) and IL-6 (already mapped) cascade of inherited thrombophilia.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — IT pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates immune-coagulation interface; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) prothrombotic cascade in inherited thrombophilia.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — IT angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular tone; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) thrombotic cascade in thrombophilia.
+- `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IT wnt-beta-catenin: WNT/β-catenin on endothelium (already mapped) and macrophages (already mapped) regulates vascular integrity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in thrombophilia.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IT rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) amplifies vascular inflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Insomnia vegf: VEGF from microglia (already mapped) and neurons (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Insomnia wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates circadian gene expression; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Insomnia rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Insomnia smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder."
 ---
 
 # Insomnia Disorder
@@ -872,6 +881,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Insomnia pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Insomnia angiotensin-ii: angiotensin-II from neurons (already mapped) and hypothalamus (already mapped) modulates arousal tone; angiotensin-ii excess amplifies cortisol (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) cascade of insomnia disorder.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Insomnia vegf: VEGF from microglia (already mapped) and neurons (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
+- `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Insomnia wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates circadian gene expression; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Insomnia rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Insomnia smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
