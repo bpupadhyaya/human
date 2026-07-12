@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "HF wnt-beta-catenin: WNT/β-catenin in cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac fibrosis; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial remodelling cascade of HF."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "HF rankl: RANKL from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac bone-immune crosstalk; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade of heart failure."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "HF il-2: IL-2 from T-helper cells (already mapped) and macrophages (already mapped) drives cardiac lymphocyte expansion; il-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "HF notch: NOTCH in cardiomyocytes (already mapped) and macrophages (already mapped) regulates cardiac remodelling; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure."
 ---
 
 # Heart Failure
@@ -796,6 +805,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HF sulfur: glutathione from sulfur amino acids in cardiomyocytes (already mapped) and macrophages (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial dysfunction cascade of HF.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — HF pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses cardiac immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial inflammation cascade of HF.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HF wnt-beta-catenin: WNT/β-catenin in cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac fibrosis; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial remodelling cascade of HF.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HF rankl: RANKL from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac bone-immune crosstalk; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade of heart failure.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — HF il-2: IL-2 from T-helper cells (already mapped) and macrophages (already mapped) drives cardiac lymphocyte expansion; il-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HF notch: NOTCH in cardiomyocytes (already mapped) and macrophages (already mapped) regulates cardiac remodelling; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
 
 ## Pathology
 
