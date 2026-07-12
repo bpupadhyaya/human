@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "NF1 chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the NF1 tumour microenvironment; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) neurofibroma cascade of NF1."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "NF1 hydrogen: hydrogen, via redox homeostasis in Schwann cells (already mapped) and macrophages (already mapped), supports neurofibromin-mediated RAS suppression; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neurofibroma cascade of NF1."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "NF1 iron: iron in haem and iron-sulfur clusters of Schwann cells (already mapped) and macrophages (already mapped) sustains mitochondrial function; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF1."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "NF1 nitrogen: nitrogen in amino-acid scaffold of neurofibromin and NF-κB (already mapped) proteins in Schwann cells (already mapped) sustains RAS-GTPase function; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neurofibroma cascade of NF1."
 ---
 
 # Neurofibromatosis Type 1
@@ -824,6 +833,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — NF1 calcium: calcium as second messenger in Schwann cells (already mapped) and macrophages (already mapped) modulates RAS/ERK signalling; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour cascade of NF1.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — NF1 carbon: carbon as backbone of neurofibromin and NF-κB (already mapped) structural proteins in Schwann cells (already mapped) sustains RAS-GTPase suppression; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF1.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NF1 chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the NF1 tumour microenvironment; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) neurofibroma cascade of NF1.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — NF1 hydrogen: hydrogen, via redox homeostasis in Schwann cells (already mapped) and macrophages (already mapped), supports neurofibromin-mediated RAS suppression; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neurofibroma cascade of NF1.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — NF1 iron: iron in haem and iron-sulfur clusters of Schwann cells (already mapped) and macrophages (already mapped) sustains mitochondrial function; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of NF1.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NF1 nitrogen: nitrogen in amino-acid scaffold of neurofibromin and NF-κB (already mapped) proteins in Schwann cells (already mapped) sustains RAS-GTPase function; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neurofibroma cascade of NF1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
