@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "HLRCC potassium: potassium regulates macrophage (already mapped) and T-cytotoxic (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC."
+  - target: 01-human/02-atomic/calcium
+    relation: connects-to
+    note: "HLRCC calcium: calcium signals macrophage (already mapped) and T-cytotoxic (already mapped) immune activation in tumour microenvironment; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HLRCC hydrogen: hydrogen via ROS from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "HLRCC phosphorus: phosphorus as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of HLRCC."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -843,6 +852,9 @@ Cutaneous:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HLRCC chloride: chloride channels regulate macrophage (already mapped) and T-cytotoxic (already mapped) volume during tumour-microenvironment stress; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade in HLRCC.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HLRCC nitrogen: nitrogen as backbone of oncoproteins and cytokines (already mapped) sustains tumour signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting inflammatory cascade in HLRCC.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — HLRCC potassium: potassium regulates macrophage (already mapped) and T-cytotoxic (already mapped) membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC.
+- `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — HLRCC calcium: calcium signals macrophage (already mapped) and T-cytotoxic (already mapped) immune activation in tumour microenvironment; calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HLRCC hydrogen: hydrogen via ROS from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour-promoting cascade of HLRCC.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HLRCC phosphorus: phosphorus as ATP in macrophages (already mapped) and T-cytotoxic cells (already mapped) fuels anti-tumour kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of HLRCC.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
