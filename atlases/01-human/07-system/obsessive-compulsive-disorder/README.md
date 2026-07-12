@@ -563,6 +563,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "OCD GLP-1: GLP-1 from enteroendocrine cells (already mapped) crosses the blood-brain barrier to modulate dopamine (already mapped) and serotonin (already mapped) pathways; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of OCD."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "OCD angiotensin-ii: angiotensin-II from macrophages (already mapped) and microglia (already mapped) drives neuroinflammatory tone in striatal circuits; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "OCD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates cortico-striatal plasticity; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "OCD rankl: RANKL from macrophages (already mapped) and microglia (already mapped) promotes neuroinflammatory immune activation; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -869,6 +878,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — OCD oxygen: oxygen, via mitochondrial respiration in neurons (already mapped) and microglia (already mapped), sustains serotonin (already mapped) synthesis; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of OCD.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — OCD PD-1: PD-1 on T-cells (already mapped) in cortico-striatal microglia (already mapped) suppresses neuroinflammation resolution; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of OCD.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — OCD GLP-1: GLP-1 from enteroendocrine cells (already mapped) crosses the blood-brain barrier to modulate dopamine (already mapped) and serotonin (already mapped) pathways; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of OCD.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — OCD angiotensin-ii: angiotensin-II from macrophages (already mapped) and microglia (already mapped) drives neuroinflammatory tone in striatal circuits; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — OCD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates cortico-striatal plasticity; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — OCD rankl: RANKL from macrophages (already mapped) and microglia (already mapped) promotes neuroinflammatory immune activation; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
