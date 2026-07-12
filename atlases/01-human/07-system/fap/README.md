@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "FAP igf-1: IGF-1 from macrophages (already mapped) and intestinal epithelial cells (already mapped) promotes polyp growth; igf-1 excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "FAP activin-a: activin-A from macrophages (already mapped) and intestinal epithelial cells (already mapped) promotes polyp fibrosis; activin-a excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "FAP cgrp: CGRP from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates colorectal neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "FAP calcitonin: calcitonin from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
 ---
 
 # Familial Adenomatous Polyposis
@@ -887,6 +896,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — FAP il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) promotes antitumour immune surveillance; il-2 excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — FAP fibronectin: fibronectin in intestinal epithelial cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — FAP igf-1: IGF-1 from macrophages (already mapped) and intestinal epithelial cells (already mapped) promotes polyp growth; igf-1 excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — FAP activin-a: activin-A from macrophages (already mapped) and intestinal epithelial cells (already mapped) promotes polyp fibrosis; activin-a excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — FAP cgrp: CGRP from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates colorectal neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — FAP calcitonin: calcitonin from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
