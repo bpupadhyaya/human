@@ -552,6 +552,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "cannabis il-2: IL-2 on t-cells (already mapped) and microglia (already mapped) modulates neuroimmune signalling; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "cannabis fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "cannabis notch: NOTCH on microglia (already mapped) and neurons (already mapped) regulates neuroimmune cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "cannabis igf-1: IGF-1 from microglia (already mapped) and neurons (already mapped) modulates neurotrophic support; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -885,6 +894,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — cannabis rankl: RANKL in microglia (already mapped) and astrocytes (already mapped) regulates neuroimmune homeostasis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward dysregulation cascade in cannabis use disorder.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — cannabis smad4: SMAD4 in astrocytes (already mapped) and neurons (already mapped) mediates TGF-β signalling; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — cannabis il-2: IL-2 on t-cells (already mapped) and microglia (already mapped) modulates neuroimmune signalling; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — cannabis fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — cannabis notch: NOTCH on microglia (already mapped) and neurons (already mapped) regulates neuroimmune cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — cannabis igf-1: IGF-1 from microglia (already mapped) and neurons (already mapped) modulates neurotrophic support; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

@@ -576,6 +576,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "cardiovascular calcitonin: calcitonin in myocytes (already mapped) and fibroblasts (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "cardiovascular substance-p: substance-P from sensory neurons (already mapped) and macrophages (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "cardiovascular insulin-receptor: insulin receptor on myocytes (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "cardiovascular androgen-receptor: androgen receptor on cardiomyocytes (already mapped) and macrophages (already mapped) drives cardiac tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -844,6 +853,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cardiovascular activin-a: activin-A in cardiomyocytes (already mapped) and fibroblasts (already mapped) modulates cardiac remodelling; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cardiovascular cgrp: CGRP in endothelial cells (already mapped) and vascular smooth-muscle (already mapped) modulates vasodilation; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cardiovascular calcitonin: calcitonin in myocytes (already mapped) and fibroblasts (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — cardiovascular substance-p: substance-P from sensory neurons (already mapped) and macrophages (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — cardiovascular insulin-receptor: insulin receptor on myocytes (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — cardiovascular androgen-receptor: androgen receptor on cardiomyocytes (already mapped) and macrophages (already mapped) drives cardiac tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
 
 ## Pathology
 
