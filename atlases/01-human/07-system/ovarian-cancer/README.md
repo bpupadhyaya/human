@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "Ovarian cancer hydrogen: hydrogen, via redox homeostasis in tumour cells and macrophages (already mapped), supports VEGF (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of ovarian cancer."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "Ovarian cancer nitrogen: nitrogen in amino-acid scaffold of VEGF (already mapped) and NF-κB (already mapped) proteins in tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of ovarian cancer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Ovarian cancer oxygen: tumour hypoxia in ovarian cancer drives HIF-1α (already mapped) and VEGF (already mapped) angiogenesis; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of ovarian cancer."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Ovarian cancer sulfur: sulfur in cysteine residues of BRCA1 (already mapped) and NF-κB (already mapped) proteins in ovarian tumour cells sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of ovarian cancer."
 ---
 
 # Ovarian Cancer
@@ -827,6 +836,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Ovarian cancer carbon: carbon as backbone of VEGF (already mapped) and NF-κB (already mapped) proteins in tumour cells and macrophages (already mapped) sustains signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of ovarian cancer.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Ovarian cancer chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of ovarian cancer.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Ovarian cancer hydrogen: hydrogen, via redox homeostasis in tumour cells and macrophages (already mapped), supports VEGF (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of ovarian cancer.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Ovarian cancer nitrogen: nitrogen in amino-acid scaffold of VEGF (already mapped) and NF-κB (already mapped) proteins in tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of ovarian cancer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Ovarian cancer oxygen: tumour hypoxia in ovarian cancer drives HIF-1α (already mapped) and VEGF (already mapped) angiogenesis; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of ovarian cancer.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Ovarian cancer sulfur: sulfur in cysteine residues of BRCA1 (already mapped) and NF-κB (already mapped) proteins in ovarian tumour cells sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of ovarian cancer.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
