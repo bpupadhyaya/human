@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "ALL nitrogen: nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates niche homeostasis; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic cascade in ALL."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "ALL oxygen: mitochondrial oxygen in B-cell (already mapped) precursors and macrophages (already mapped) sustains ATP for leukaemic blast proliferation; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in ALL."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "ALL GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and B-cell (already mapped) precursors modulates metabolic immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic cascade in ALL."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "ALL angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma promotes niche inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -863,6 +872,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ALL carbon: carbon, as metabolic backbone of purines and nucleotides in B-cell (already mapped) precursors and bone-marrow (already mapped) stroma, drives leukaemic blast expansion; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) in ALL.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ALL hydrogen: hydrogen, via redox homeostasis in B-cell (already mapped) precursors and macrophages (already mapped), quenches leukaemic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) blast proliferation in ALL.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — ALL nitrogen: nitric oxide from iNOS in macrophages (already mapped) and bone-marrow (already mapped) stroma modulates niche homeostasis; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic cascade in ALL.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ALL oxygen: mitochondrial oxygen in B-cell (already mapped) precursors and macrophages (already mapped) sustains ATP for leukaemic blast proliferation; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in ALL.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ALL GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and B-cell (already mapped) precursors modulates metabolic immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) leukaemic cascade in ALL.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — ALL angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and bone-marrow (already mapped) stroma promotes niche inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
