@@ -534,6 +534,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "NP VEGF: VEGF from neurons (already mapped) and macrophages (already mapped) promotes peripheral nociceptor sensitisation and repair; VEGF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "NP wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates nociceptive spinal plasticity; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "NP rankl: RANKL from macrophages (already mapped) and microglia (already mapped) promotes spinal neuroinflammatory immune activation; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "NP smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β spinal cord signalling; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -869,6 +878,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — NP PD-1: PD-1 checkpoint on T-regulatory cells (already mapped) and microglia (already mapped) modulates spinal cord neuroinflammatory immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) sensitisation cascade in neuropathic pain.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — NP GLP-1: GLP-1 receptor agonism on microglia (already mapped) and astrocytes (already mapped) dampens spinal cord neuroinflammation; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — NP VEGF: VEGF from neurons (already mapped) and macrophages (already mapped) promotes peripheral nociceptor sensitisation and repair; VEGF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — NP wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates nociceptive spinal plasticity; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — NP rankl: RANKL from macrophages (already mapped) and microglia (already mapped) promotes spinal neuroinflammatory immune activation; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — NP smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β spinal cord signalling; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
