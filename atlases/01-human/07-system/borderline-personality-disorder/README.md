@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "BPD IGF-1: IGF-1 in neurons (already mapped) and astrocytes (already mapped) modulates neuroprotection and affective regulation; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "BPD activin-a: activin-A from neurons (already mapped) and microglia (already mapped) regulates neuroimmune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "BPD tgf-beta: TGF-β from neurons (already mapped) and microglia (already mapped) modulates neuroinflammatory balance; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective cascade in BPD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "BPD cgrp: CGRP from neurons (already mapped) and microglia (already mapped) modulates neuroimmune pain tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective instability cascade in BPD."
 ---
 
 # Borderline Personality Disorder
@@ -895,6 +904,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — BPD fibronectin: fibronectin in neurons (already mapped) and microglia (already mapped) modulates neuroimmune ECM integrity; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory instability in BPD.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — BPD notch: Notch in neurons (already mapped) and microglia (already mapped) modulates neuro-glial cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory affective instability in BPD.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — BPD IGF-1: IGF-1 in neurons (already mapped) and astrocytes (already mapped) modulates neuroprotection and affective regulation; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — BPD activin-a: activin-A from neurons (already mapped) and microglia (already mapped) regulates neuroimmune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — BPD tgf-beta: TGF-β from neurons (already mapped) and microglia (already mapped) modulates neuroinflammatory balance; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective cascade in BPD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — BPD cgrp: CGRP from neurons (already mapped) and microglia (already mapped) modulates neuroimmune pain tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective instability cascade in BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

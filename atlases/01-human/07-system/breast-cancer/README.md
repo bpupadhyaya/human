@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "breast-cancer calcitonin: calcitonin in osteoclasts (already mapped) and macrophages (already mapped) modulates bone metastasis signalling; calcitonin dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "breast-cancer substance-p: substance-P from sensory neurons (already mapped) and macrophages (already mapped) modulates tumour nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "breast-cancer insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives tumour metabolic signalling; insulin-receptor excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) in breast cancer."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "breast-cancer aldosterone: aldosterone in macrophages (already mapped) and fibroblasts (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
 ---
 
 # Breast Cancer
@@ -861,6 +870,9 @@ cross_links:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — breast-cancer activin-a: activin-A in fibroblasts (already mapped) and macrophages (already mapped) modulates tumour stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) tumour cascade in breast cancer.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — breast-cancer cgrp: CGRP in sensory neurons (already mapped) and macrophages (already mapped) modulates breast tumour neuro-inflammation; CGRP dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — breast-cancer calcitonin: calcitonin in osteoclasts (already mapped) and macrophages (already mapped) modulates bone metastasis signalling; calcitonin dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — breast-cancer substance-p: substance-P from sensory neurons (already mapped) and macrophages (already mapped) modulates tumour nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — breast-cancer insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives tumour metabolic signalling; insulin-receptor excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) in breast cancer.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — breast-cancer aldosterone: aldosterone in macrophages (already mapped) and fibroblasts (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
