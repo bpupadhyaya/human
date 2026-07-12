@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "RS IL-2: IL-2 expands T-cytotoxic cells (already mapped) and regulatory T-cells in renal immune surveillance; IL-2 dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) inflammatory fibrosis in CKD (already mapped) and the renal system."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "RS fibronectin: fibronectin in glomerular basement membrane and renal interstitium sustains structural homeostasis; fibronectin dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) fibrotic cascade of the renal system."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "RS activin-A: activin-A signalling in renal tubular cells and macrophages (already mapped) modulates inflammatory and fibrotic responses; activin-A excess amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "RS IGF-1: IGF-1 receptor signalling in renal tubular cells and glomerular cells sustains renal growth and repair; IGF-1 deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -818,6 +827,9 @@ Natriuretic counterpoint:
 - **Connects to:** [PD-1](../../03-molecular/pd-1/README.md) — RS PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates renal immune surveillance; PD-1 dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) inflammatory fibrosis of the renal system.
 - **Connects to:** [RANKL](../../03-molecular/rankl/README.md) — RS RANKL: RANKL signalling in macrophages (already mapped) and tubular cells regulates calcium (already mapped) and phosphorus (already mapped) mineral homeostasis in the kidney; RANKL dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) cascade of CKD.
 - **Connects to:** [IL-2](../../03-molecular/il-2/README.md) — RS IL-2: IL-2 expands T-cytotoxic cells (already mapped) and regulatory T-cells in renal immune surveillance; IL-2 dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) inflammatory fibrosis in CKD (already mapped) and the renal system.
+- **Connects to:** [Fibronectin](../../03-molecular/fibronectin/README.md) — RS fibronectin: fibronectin in glomerular basement membrane and renal interstitium sustains structural homeostasis; fibronectin dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) fibrotic cascade of the renal system.
+- **Connects to:** [Activin-A](../../03-molecular/activin-a/README.md) — RS activin-A: activin-A signalling in renal tubular cells and macrophages (already mapped) modulates inflammatory and fibrotic responses; activin-A excess amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of the renal system.
+- **Connects to:** [IGF-1](../../03-molecular/igf-1/README.md) — RS IGF-1: IGF-1 receptor signalling in renal tubular cells and glomerular cells sustains renal growth and repair; IGF-1 deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

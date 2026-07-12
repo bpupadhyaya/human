@@ -536,6 +536,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Reproductive GLP-1: GLP-1 signalling in endothelial cells (already mapped) and gonadal cells modulates metabolic-reproductive crosstalk; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the reproductive system."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Reproductive RANKL: RANKL signalling in osteoclasts (already mapped) and reproductive stromal cells sustains bone-reproductive axis crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Reproductive IL-2: IL-2 T-cell signalling in reproductive tissue macrophages (already mapped) maintains immune tolerance; IL-2 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of the reproductive system."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Reproductive fibronectin: fibronectin in endometrial and ovarian extracellular matrix sustains reproductive tissue homeostasis; fibronectin dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of the reproductive system."
 ---
 
 # Reproductive System
@@ -824,6 +833,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Reproductive hydrogen: hydrogen, via redox homeostasis in gonadal cells and macrophages (already mapped), supports steroidogenesis; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of the reproductive system.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Reproductive PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) maintains immune tolerance at the maternal-fetal interface; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of reproductive system.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Reproductive GLP-1: GLP-1 signalling in endothelial cells (already mapped) and gonadal cells modulates metabolic-reproductive crosstalk; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the reproductive system.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Reproductive RANKL: RANKL signalling in osteoclasts (already mapped) and reproductive stromal cells sustains bone-reproductive axis crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the reproductive system.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Reproductive IL-2: IL-2 T-cell signalling in reproductive tissue macrophages (already mapped) maintains immune tolerance; IL-2 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of the reproductive system.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Reproductive fibronectin: fibronectin in endometrial and ovarian extracellular matrix sustains reproductive tissue homeostasis; fibronectin dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) cascade of the reproductive system.
 
 ## Pathology
 
