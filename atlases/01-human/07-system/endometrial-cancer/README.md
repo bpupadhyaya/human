@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "EC chloride: chloride channels on macrophages (already mapped) and endothelial cells (already mapped) regulate ionic homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "EC carbon: carbon backbone of nucleotides in macrophages (already mapped) and endothelial cells (already mapped) fuels tumour growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "EC hydrogen: hydrogen via ROS from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "EC nitrogen: nitrogen in DNA bases of macrophages (already mapped) and endothelial cells (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade."
 ---
 
 # Endometrial Cancer
@@ -836,6 +845,9 @@ cross_links:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — EC potassium: potassium regulates macrophage (already mapped) and endometrial epithelial membrane potential; potassium dysregulation amplifies NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) tumour-proliferative signalling of endometrial cancer.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — EC phosphorus: phosphorus, as ATP in macrophages (already mapped) and fibroblasts (already mapped), fuels tumour-stromal crosstalk; phosphorus excess amplifies NF-κB (already mapped) and mTOR (already mapped) and VEGF (already mapped) endometrial cancer cascade.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — EC chloride: chloride channels on macrophages (already mapped) and endothelial cells (already mapped) regulate ionic homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — EC carbon: carbon backbone of nucleotides in macrophages (already mapped) and endothelial cells (already mapped) fuels tumour growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — EC hydrogen: hydrogen via ROS from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — EC nitrogen: nitrogen in DNA bases of macrophages (already mapped) and endothelial cells (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

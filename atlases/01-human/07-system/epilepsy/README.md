@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "Epilepsy carbon: carbon metabolites in neurons (already mapped) and astrocytes (already mapped) fuel oxidative phosphorylation for GABAergic inhibitory tone; carbon dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammatory seizure cascade."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Epilepsy pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroinflammatory seizure surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) seizure cascade of epilepsy."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Epilepsy angiotensin-ii: angiotensin-II from macrophages (already mapped) and neurons (already mapped) modulates cerebrovascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) seizure cascade of epilepsy."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Epilepsy wnt-beta-catenin: Wnt/β-catenin in neurons (already mapped) and microglia (already mapped) regulates synaptic plasticity and seizure threshold; wnt dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) seizure cascade."
 ---
 
 # Epilepsy
@@ -875,6 +884,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Epilepsy iron: iron, as cofactor of mitochondrial cytochromes in neurons (already mapped) and astrocytes (already mapped), sustains ATP for inhibitory tone; iron dyshomeostasis amplifies NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammatory seizure cascade.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Epilepsy phosphorus: phosphorus fuels ATP in neurons (already mapped) and astrocytes (already mapped) for ionic gradient maintenance; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) neuroinflammatory seizure cascade.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Epilepsy carbon: carbon metabolites in neurons (already mapped) and astrocytes (already mapped) fuel oxidative phosphorylation for GABAergic inhibitory tone; carbon dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) neuroinflammatory seizure cascade.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Epilepsy pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroinflammatory seizure surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) seizure cascade of epilepsy.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Epilepsy angiotensin-ii: angiotensin-II from macrophages (already mapped) and neurons (already mapped) modulates cerebrovascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) seizure cascade of epilepsy.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Epilepsy wnt-beta-catenin: Wnt/β-catenin in neurons (already mapped) and microglia (already mapped) regulates synaptic plasticity and seizure threshold; wnt dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) seizure cascade.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
