@@ -543,6 +543,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "IGD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in internet-gaming disorder."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "IGD smad4: SMAD4 in microglia (already mapped) and astrocytes (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in internet-gaming disorder."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "IGD il-2: IL-2 from microglia (already mapped) and astrocytes (already mapped) modulates immune activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in internet-gaming disorder."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "IGD vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory angiogenesis; vegf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in internet-gaming disorder."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -892,6 +901,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — IGD pd-1: PD-1 on microglia (already mapped) and T-cytotoxic cells (already mapped) modulates neuroinflammatory immune tone; pd-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) signalling cascade of IGD.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IGD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates reward circuit plasticity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) cascade of IGD.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IGD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in internet-gaming disorder.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — IGD smad4: SMAD4 in microglia (already mapped) and astrocytes (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in internet-gaming disorder.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IGD il-2: IL-2 from microglia (already mapped) and astrocytes (already mapped) modulates immune activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in internet-gaming disorder.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — IGD vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory angiogenesis; vegf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in internet-gaming disorder.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)

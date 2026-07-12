@@ -554,6 +554,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "Integumentary cgrp: CGRP from sensory neurons (already mapped) and mast cells (already mapped) drives neurogenic skin inflammation; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Integumentary calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates skin calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "Integumentary fgf23: FGF23 from macrophages (already mapped) and fibroblasts (already mapped) regulates skin phosphate and keratinocyte growth; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Integumentary insulin-receptor: insulin-receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates homeostasis; receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
 ---
 
 # Integumentary System
@@ -838,6 +847,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Integumentary fibronectin: fibronectin in fibroblasts (already mapped) and keratinocytes (already mapped) anchors dermal ECM; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of integumentary system.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Integumentary activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives fibrotic remodelling; activin-a dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of integumentary system.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Integumentary cgrp: CGRP from sensory neurons (already mapped) and mast cells (already mapped) drives neurogenic skin inflammation; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Integumentary calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates skin calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — Integumentary fgf23: FGF23 from macrophages (already mapped) and fibroblasts (already mapped) regulates skin phosphate and keratinocyte growth; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Integumentary insulin-receptor: insulin-receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates homeostasis; receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
 
 ## Pathology
 
