@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "SCD Wnt/β-catenin: Wnt/β-catenin signalling in erythrocytes (already mapped) and macrophages (already mapped) modulates erythropoiesis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "SCD rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes vaso-occlusive bone remodelling; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "SCD il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates immune surveillance of haemolytic erythrocytes; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "SCD fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds vaso-occlusive ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
 ---
 
 # Sickle Cell Disease
@@ -890,6 +899,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SCD GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic and inflammatory vaso-occlusive risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of SCD.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — SCD angiotensin-II: angiotensin-II signalling in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of SCD.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SCD Wnt/β-catenin: Wnt/β-catenin signalling in erythrocytes (already mapped) and macrophages (already mapped) modulates erythropoiesis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) sickling cascade of SCD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SCD rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes vaso-occlusive bone remodelling; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) sickling cascade of SCD.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — SCD il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates immune surveillance of haemolytic erythrocytes; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) sickling cascade of SCD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SCD fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds vaso-occlusive ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) sickling cascade of SCD.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)

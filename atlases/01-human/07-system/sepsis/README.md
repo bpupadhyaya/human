@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Sepsis angiotensin-II: angiotensin-II signalling in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Sepsis wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates septic vascular tone; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) septic cascade of sepsis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Sepsis rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes septic immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Sepsis il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates immunosuppressive T-cell expansion in sepsis; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of sepsis."
 ---
 
 # Sepsis
@@ -837,6 +846,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Sepsis sulfur: hydrogen sulfide from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm of sepsis.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Sepsis GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Sepsis angiotensin-II: angiotensin-II signalling in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Sepsis wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates septic vascular tone; wnt-beta-catenin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) septic cascade of sepsis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Sepsis rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes septic immune evasion; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine cascade of sepsis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Sepsis il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates immunosuppressive T-cell expansion in sepsis; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
