@@ -558,6 +558,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "bulimia fibronectin: fibronectin in astrocytes (already mapped) and neurons (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory binge-purge cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "bulimia notch: Notch in neurons (already mapped) and astrocytes (already mapped) modulates neuro-glial cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory binge-purge cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "bulimia igf-1: IGF-1 in neurons (already mapped) and astrocytes (already mapped) modulates neuroprotection and appetite regulation; IGF-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "bulimia activin-a: activin-A in neurons (already mapped) and hypothalamus (already mapped) modulates appetite and reward balance; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -867,6 +876,9 @@ All of the following must be met:
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — bulimia rankl: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — bulimia smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotection; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — bulimia fibronectin: fibronectin in astrocytes (already mapped) and neurons (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory binge-purge cascade in bulimia nervosa.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — bulimia notch: Notch in neurons (already mapped) and astrocytes (already mapped) modulates neuro-glial cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory binge-purge cascade in bulimia nervosa.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — bulimia igf-1: IGF-1 in neurons (already mapped) and astrocytes (already mapped) modulates neuroprotection and appetite regulation; IGF-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — bulimia activin-a: activin-A in neurons (already mapped) and hypothalamus (already mapped) modulates appetite and reward balance; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa.
 
 ## Treatment
 

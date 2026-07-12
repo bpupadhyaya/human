@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "burkitt rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-immune lymphoma axis; RANKL excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "burkitt fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) modulates lymphoma ECM remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "burkitt igf-1: IGF-1 in B-cells (already mapped) and macrophages (already mapped) modulates lymphoma proliferation; IGF-1 excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "burkitt activin-a: activin-A in B-cells (already mapped) and macrophages (already mapped) modulates lymphoma-stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -870,6 +879,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — burkitt angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and MYC (already mapped) and VEGF (already mapped) tumour cascade in Burkitt lymphoma.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — burkitt wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) regulates lymphoma proliferation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — burkitt rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-immune lymphoma axis; RANKL excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — burkitt fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) modulates lymphoma ECM remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — burkitt igf-1: IGF-1 in B-cells (already mapped) and macrophages (already mapped) modulates lymphoma proliferation; IGF-1 excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — burkitt activin-a: activin-A in B-cells (already mapped) and macrophages (already mapped) modulates lymphoma-stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
 
 ---
 
