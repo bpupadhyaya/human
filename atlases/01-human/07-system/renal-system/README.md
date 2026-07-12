@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "RS substance-P: substance-P from renal sensory fibres and mast cells modulates neurogenic inflammation; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) pain-fibrotic cascade of the renal system."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "RS insulin-receptor: insulin receptor on renal cells (already mapped) and macrophages (already mapped) drives renal metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "RS androgen-receptor: androgen receptor on renal cells (already mapped) and macrophages (already mapped) modulates renal sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/fgf23
+    relation: connects-to
+    note: "RS fgf23: FGF23 from renal cells (already mapped) and macrophages (already mapped) regulates phosphate-mineral balance; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -842,6 +851,9 @@ Natriuretic counterpoint:
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — RS CGRP: CGRP from renal sensory neurons and endothelium modulates renal vascular tone and inflammation; CGRP deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of the renal system.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RS calcitonin: calcitonin from C-cells and renal tubular cells modulates calcium-phosphate balance; calcitonin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mineral-loss cascade of the renal system.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — RS substance-P: substance-P from renal sensory fibres and mast cells modulates neurogenic inflammation; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) pain-fibrotic cascade of the renal system.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — RS insulin-receptor: insulin receptor on renal cells (already mapped) and macrophages (already mapped) drives renal metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — RS androgen-receptor: androgen receptor on renal cells (already mapped) and macrophages (already mapped) modulates renal sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — RS fgf23: FGF23 from renal cells (already mapped) and macrophages (already mapped) regulates phosphate-mineral balance; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

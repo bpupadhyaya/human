@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "OCCC RANKL: RANKL in macrophages (already mapped) and ovarian epithelial-cell (already mapped) modulates OCCC tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "OCCC fibronectin: Fibronectin in ovarian epithelial cells (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "OCCC igf-1: IGF-1 from ovarian epithelial cells (already mapped) and macrophages (already mapped) promotes OCCC tumour survival; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "OCCC activin-a: activin-A from ovarian cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -877,6 +886,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — OCCC GLP-1: GLP-1 from gut L-cells (already mapped) and macrophages (already mapped) modulates OCCC metabolic homeostasis; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — OCCC Wnt/β-catenin: Wnt/β-catenin in ovarian epithelial-cell (already mapped) and macrophages (already mapped) drives OCCC tumour proliferation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of OCCC.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — OCCC RANKL: RANKL in macrophages (already mapped) and ovarian epithelial-cell (already mapped) modulates OCCC tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — OCCC fibronectin: Fibronectin in ovarian epithelial cells (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — OCCC igf-1: IGF-1 from ovarian epithelial cells (already mapped) and macrophages (already mapped) promotes OCCC tumour survival; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — OCCC activin-a: activin-A from ovarian cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
 
 ---
 
