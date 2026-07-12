@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "T1D RANKL: RANKL signalling in macrophages (already mapped) and beta-cells (already mapped) modulates islet bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of type 1 diabetes."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "T1D Fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds islet ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "T1D NOTCH: NOTCH on beta-cells (already mapped) and macrophages (already mapped) regulates islet autoimmune tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "T1D IGF-1: IGF-1 from beta-cells (already mapped) and macrophages (already mapped) promotes islet beta-cell survival; IGF-1 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -827,6 +836,9 @@ cross_links:
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — T1D angiotensin-II: angiotensin-II signalling in beta-cells (already mapped) and macrophages (already mapped) promotes islet inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of type 1 diabetes.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — T1D Wnt/β-catenin: Wnt/β-catenin signalling in beta-cells (already mapped) and macrophages (already mapped) modulates islet immune homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of type 1 diabetes.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — T1D RANKL: RANKL signalling in macrophages (already mapped) and beta-cells (already mapped) modulates islet bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of type 1 diabetes.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — T1D Fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds islet ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — T1D NOTCH: NOTCH on beta-cells (already mapped) and macrophages (already mapped) regulates islet autoimmune tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — T1D IGF-1: IGF-1 from beta-cells (already mapped) and macrophages (already mapped) promotes islet beta-cell survival; IGF-1 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

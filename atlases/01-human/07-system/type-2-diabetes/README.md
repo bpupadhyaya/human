@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "T2D IL-2: IL-2 signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune tolerance; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) cascade of type 2 diabetes."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "T2D Fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds adipose ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "T2D NOTCH: NOTCH on hepatocytes (already mapped) and macrophages (already mapped) regulates adipose metabolic tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "T2D IGF-1: IGF-1 from hepatocytes (already mapped) and macrophages (already mapped) promotes insulin sensitivity; IGF-1 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes."
 ---
 
 # Type 2 Diabetes
@@ -834,6 +843,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — T2D hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and adipocytes (already mapped), quenches metabolic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) cascade of type 2 diabetes.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — T2D RANKL: RANKL signalling in macrophages (already mapped) and adipocytes (already mapped) modulates metabolic bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) cascade of type 2 diabetes.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — T2D IL-2: IL-2 signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune tolerance; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) cascade of type 2 diabetes.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — T2D Fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds adipose ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — T2D NOTCH: NOTCH on hepatocytes (already mapped) and macrophages (already mapped) regulates adipose metabolic tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — T2D IGF-1: IGF-1 from hepatocytes (already mapped) and macrophages (already mapped) promotes insulin sensitivity; IGF-1 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
