@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "WT RANKL: RANKL in macrophages (already mapped) and renal epithelial-cell (already mapped) modulates Wilms tumour bone-immune axis; RANKL excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "WT fibronectin: Fibronectin in renal epithelial cells (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "WT activin-a: activin-A from renal epithelial cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade of Wilms tumour."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "WT cgrp: CGRP from renal epithelial cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour."
 ---
 
 # Wilms Tumor
@@ -864,6 +873,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — WT PD-1: PD-1 on macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulates Wilms tumour immune surveillance; PD-1 dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — WT GLP-1: GLP-1 from gut L-cells (already mapped) and macrophages (already mapped) modulates Wilms tumour metabolic homeostasis; GLP-1 deficiency amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — WT RANKL: RANKL in macrophages (already mapped) and renal epithelial-cell (already mapped) modulates Wilms tumour bone-immune axis; RANKL excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — WT fibronectin: Fibronectin in renal epithelial cells (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — WT activin-a: activin-A from renal epithelial cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade of Wilms tumour.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — WT cgrp: CGRP from renal epithelial cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)

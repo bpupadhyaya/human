@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/fgf23
     relation: connects-to
     note: "WH FGF23: FGF23 from fibroblasts (already mapped) and macrophages (already mapped) regulates phosphate homeostasis in wound repair; FGF23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "WH insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives metabolic signalling; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "WH aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates WH fluid-electrolyte balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "WH androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates WH tissue repair; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
 ---
 
 # Wound Healing
@@ -862,6 +871,9 @@ cross_links:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — WH activin-A: Activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates wound-bed re-epithelialisation; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — WH calcitonin: Calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates wound angiogenesis and bone repair; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) healing cascade.
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — WH FGF23: FGF23 from fibroblasts (already mapped) and macrophages (already mapped) regulates phosphate homeostasis in wound repair; FGF23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — WH insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives metabolic signalling; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — WH aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates WH fluid-electrolyte balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — WH androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates WH tissue repair; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
