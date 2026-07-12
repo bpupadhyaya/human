@@ -549,6 +549,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "bulimia wnt-beta-catenin: Wnt/β-catenin in neurons (already mapped) and astrocytes (already mapped) governs synaptic plasticity; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "bulimia rankl: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "bulimia smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotection; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "bulimia fibronectin: fibronectin in astrocytes (already mapped) and neurons (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory binge-purge cascade in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -855,6 +864,9 @@ All of the following must be met:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — bulimia pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and serotonin (already mapped) reward dysregulation in bulimia nervosa.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — bulimia angiotensin-ii: angiotensin-II from macrophages (already mapped) and neurons (already mapped) modulates vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) binge cascade in bulimia nervosa.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — bulimia wnt-beta-catenin: Wnt/β-catenin in neurons (already mapped) and astrocytes (already mapped) governs synaptic plasticity; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — bulimia rankl: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — bulimia smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotection; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — bulimia fibronectin: fibronectin in astrocytes (already mapped) and neurons (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory binge-purge cascade in bulimia nervosa.
 
 ## Treatment
 
