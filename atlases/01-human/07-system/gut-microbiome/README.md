@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "gut-microbiome igf-1: IGF-1 from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal metabolic tone; igf-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "gut-microbiome fibronectin: fibronectin in intestinal epithelium (already mapped) and macrophages (already mapped) promotes mucosal ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "gut-microbiome activin-a: activin-A from macrophages (already mapped) and intestinal epithelium (already mapped) promotes mucosal fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "gut-microbiome cgrp: CGRP from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
 ---
 
 # Gut Microbiome
@@ -813,6 +822,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — gut-microbiome il-2: IL-2 from T-helper cells (already mapped) and macrophages (already mapped) drives mucosal lymphocyte expansion; il-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — gut-microbiome notch: NOTCH on intestinal epithelium (already mapped) and macrophages (already mapped) regulates mucosal barrier renewal; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — gut-microbiome igf-1: IGF-1 from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal metabolic tone; igf-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — gut-microbiome fibronectin: fibronectin in intestinal epithelium (already mapped) and macrophages (already mapped) promotes mucosal ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — gut-microbiome activin-a: activin-A from macrophages (already mapped) and intestinal epithelium (already mapped) promotes mucosal fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — gut-microbiome cgrp: CGRP from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 
 ## Pathology
 

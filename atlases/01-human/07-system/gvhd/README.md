@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "GVHD wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and effector T-cells (already mapped) regulates alloreactive signalling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "GVHD rankl: RANKL from effector T-cells (already mapped) and macrophages (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "GVHD fibronectin: fibronectin in effector T-cells (already mapped) and macrophages (already mapped) promotes alloreactive ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "GVHD igf-1: IGF-1 from macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive tissue repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
 ---
 
 # Graft-Versus-Host Disease
@@ -881,6 +890,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — GVHD glp-1: GLP-1 from macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — GVHD angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes alloreactive inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — GVHD wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and effector T-cells (already mapped) regulates alloreactive signalling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — GVHD rankl: RANKL from effector T-cells (already mapped) and macrophages (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — GVHD fibronectin: fibronectin in effector T-cells (already mapped) and macrophages (already mapped) promotes alloreactive ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — GVHD igf-1: IGF-1 from macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive tissue repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
