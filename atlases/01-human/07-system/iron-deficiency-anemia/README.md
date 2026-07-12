@@ -546,6 +546,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "IDA glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) erythropoietic cascade of IDA."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "IDA angiotensin-ii: angiotensin-II from hepatocytes (already mapped) and macrophages (already mapped) drives inflammation; angiotensin-ii excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency cascade."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "IDA wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and erythrocyte (already mapped) regulates iron homeostasis; wnt-beta-catenin dysregulation amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) cascade of IDA."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "IDA rankl: RANKL from macrophages (already mapped) and neutrophils (already mapped) amplifies marrow inflammation; rankl excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade."
 ---
 
 # Iron Deficiency Anemia
@@ -842,6 +851,9 @@ Iron is essential for:
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — IDA sulfur: sulfur in disulfide bonds of haemoglobin (already mapped) and transferrin (already mapped) stabilises erythropoietic proteins; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) cascade of IDA.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — IDA pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates immune-erythropoietic interface; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) anaemic cascade of IDA.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — IDA glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and EPO (already mapped) erythropoietic cascade of IDA.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — IDA angiotensin-ii: angiotensin-II from hepatocytes (already mapped) and macrophages (already mapped) drives inflammation; angiotensin-ii excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency cascade.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IDA wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and erythrocyte (already mapped) regulates iron homeostasis; wnt-beta-catenin dysregulation amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) cascade of IDA.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IDA rankl: RANKL from macrophages (already mapped) and neutrophils (already mapped) amplifies marrow inflammation; rankl excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

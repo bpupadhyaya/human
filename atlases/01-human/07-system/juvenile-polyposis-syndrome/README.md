@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/potassium
     relation: connects-to
     note: "JPS potassium: potassium ion gradients in colonocytes (already mapped) and macrophages (already mapped) regulate membrane potential; potassium dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) protumorigenic cascade of JPS."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "JPS pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates polyp immune surveillance; pd-1 dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) tumour-microenvironment cascade in JPS."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "JPS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "JPS angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -853,6 +862,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — JPS hydrogen: hydrogen in water and hydroxyl chemistry of SMAD4 (already mapped) and BMPR1A sustains polyp-suppressive signalling; hydrogen dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of juvenile polyposis syndrome.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — JPS phosphorus: phosphorus in PI3K-Akt and SMAD4 (already mapped) phosphorylation relays governs colonocyte (already mapped) growth control; phosphorus dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of JPS.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — JPS potassium: potassium ion gradients in colonocytes (already mapped) and macrophages (already mapped) regulate membrane potential; potassium dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) protumorigenic cascade of JPS.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — JPS pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates polyp immune surveillance; pd-1 dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) tumour-microenvironment cascade in JPS.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — JPS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — JPS angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
