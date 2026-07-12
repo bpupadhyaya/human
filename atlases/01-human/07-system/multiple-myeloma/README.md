@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "MM cgrp: CGRP from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "MM calcitonin: calcitonin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "MM substance-p: substance-P from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "MM insulin-receptor: insulin receptor on macrophages (already mapped) and osteoblasts (already mapped) drives myeloma metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
 ---
 
 # Multiple Myeloma
@@ -884,6 +893,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MM igf-1: IGF-1 from macrophages (already mapped) and osteoblasts (already mapped) promotes myeloma cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MM activin-a: activin-A from macrophages (already mapped) and osteoblasts (already mapped) drives myeloma bone fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MM cgrp: CGRP from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MM calcitonin: calcitonin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MM substance-p: substance-P from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — MM insulin-receptor: insulin receptor on macrophages (already mapped) and osteoblasts (already mapped) drives myeloma metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "MS notch: Notch signalling on microglia (already mapped) and astrocytes (already mapped) regulates oligodendrocyte fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "MS activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) promotes CNS fibrotic remodelling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "MS cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates CNS neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "MS calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates CNS calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
 ---
 
 # Multiple Sclerosis
@@ -865,6 +874,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — MS vegf: VEGF from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory angiogenesis; vegf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MS fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — MS notch: Notch signalling on microglia (already mapped) and astrocytes (already mapped) regulates oligodendrocyte fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MS activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) promotes CNS fibrotic remodelling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MS cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates CNS neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MS calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates CNS calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
