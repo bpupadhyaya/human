@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "PsO nitrogen: nitrogen in amino-acid scaffold of IL-17A (already mapped) and NF-κB (already mapped) proteins in macrophages (already mapped) and keratinocytes sustains psoriatic immune signalling; nitrogen dysregulation amplifies TNF-α (already mapped) cascade of psoriasis."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "PsO oxygen: oxygen, via mitochondrial respiration in keratinocytes and macrophages (already mapped), sustains IL-17A (already mapped) plaque signalling; oxygen depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) oxidative cascade of psoriasis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "PsO sulfur: sulfur in cysteine residues of IL-17A (already mapped) and NF-κB (already mapped) proteins in keratinocytes sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PsO PD-1: PD-1 checkpoint signalling in T-regulatory cells and macrophages (already mapped) dampens IL-17A (already mapped) autoinflammation; PD-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-23 (already mapped) plaque cascade of psoriasis."
 ---
 
 # Psoriasis
@@ -834,6 +843,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PsO carbon: carbon as backbone of IL-17A (already mapped) and NF-κB (already mapped) proteins in keratinocytes and macrophages (already mapped) sustains psoriatic signalling; carbon depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PsO hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and keratinocytes, supports IL-17A (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) oxidative plaque cascade of psoriasis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PsO nitrogen: nitrogen in amino-acid scaffold of IL-17A (already mapped) and NF-κB (already mapped) proteins in macrophages (already mapped) and keratinocytes sustains psoriatic immune signalling; nitrogen dysregulation amplifies TNF-α (already mapped) cascade of psoriasis.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PsO oxygen: oxygen, via mitochondrial respiration in keratinocytes and macrophages (already mapped), sustains IL-17A (already mapped) plaque signalling; oxygen depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) oxidative cascade of psoriasis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PsO sulfur: sulfur in cysteine residues of IL-17A (already mapped) and NF-κB (already mapped) proteins in keratinocytes sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PsO PD-1: PD-1 checkpoint signalling in T-regulatory cells and macrophages (already mapped) dampens IL-17A (already mapped) autoinflammation; PD-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-23 (already mapped) plaque cascade of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
