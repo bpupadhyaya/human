@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "ASD notch: notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates synaptic development; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity disruption in ASD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "ASD activin-a: activin-A in neurons (already mapped) and astrocytes (already mapped) modulates synaptic maturation and neuroprotection; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity disruption in ASD."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "ASD tgf-beta: TGF-β in microglia (already mapped) and neurons (already mapped) modulates neuroinflammatory balance and synaptic pruning; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in ASD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "ASD cgrp: CGRP in neurons (already mapped) and astrocytes (already mapped) modulates neuro-inflammatory pain and sensory hypersensitivity; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in ASD."
 ---
 
 # Autism Spectrum Disorder
@@ -884,6 +893,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ASD rankl: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory connectivity disruption in ASD.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ASD fibronectin: fibronectin in astrocytes (already mapped) and neurons (already mapped) promotes ECM remodelling at synapses; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory cascade in ASD.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — ASD notch: notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates synaptic development; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity disruption in ASD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ASD activin-a: activin-A in neurons (already mapped) and astrocytes (already mapped) modulates synaptic maturation and neuroprotection; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity disruption in ASD.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — ASD tgf-beta: TGF-β in microglia (already mapped) and neurons (already mapped) modulates neuroinflammatory balance and synaptic pruning; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in ASD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ASD cgrp: CGRP in neurons (already mapped) and astrocytes (already mapped) modulates neuro-inflammatory pain and sensory hypersensitivity; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in ASD.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

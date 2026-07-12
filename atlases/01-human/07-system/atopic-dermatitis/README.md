@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "AD il-2: IL-2 from T-helper cells (already mapped) drives Th2 polarisation; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic cutaneous inflammatory cascade in atopic dermatitis."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "AD fibronectin: fibronectin in keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin barrier integrity; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic cutaneous cascade in AD."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "AD notch: Notch in keratinocytes (already mapped) and T-helper cells (already mapped) modulates skin barrier and Th2 polarisation; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "AD IGF-1: IGF-1 in keratinocytes (already mapped) and fibroblasts (already mapped) modulates epidermal proliferation and repair; IGF-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous inflammatory cascade in AD."
 ---
 
 # Atopic Dermatitis
@@ -858,6 +867,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — AD wnt-beta-catenin: WNT/β-catenin on keratinocytes (already mapped) and fibroblasts (already mapped) regulates barrier; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in atopic dermatitis.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AD rankl: RANKL in macrophages (already mapped) and dendritic cells (already mapped) modulates Th2 immune skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous inflammatory cascade in atopic dermatitis.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — AD il-2: IL-2 from T-helper cells (already mapped) drives Th2 polarisation; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic cutaneous inflammatory cascade in atopic dermatitis.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AD fibronectin: fibronectin in keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin barrier integrity; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic cutaneous cascade in AD.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AD notch: Notch in keratinocytes (already mapped) and T-helper cells (already mapped) modulates skin barrier and Th2 polarisation; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AD IGF-1: IGF-1 in keratinocytes (already mapped) and fibroblasts (already mapped) modulates epidermal proliferation and repair; IGF-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous inflammatory cascade in AD.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
