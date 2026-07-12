@@ -545,6 +545,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Integumentary notch: Notch in keratinocytes (already mapped) and fibroblasts (already mapped) regulates epidermal differentiation; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Integumentary fibronectin: fibronectin in fibroblasts (already mapped) and keratinocytes (already mapped) anchors dermal ECM; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Integumentary activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives fibrotic remodelling; activin-a dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Integumentary cgrp: CGRP from sensory neurons (already mapped) and mast cells (already mapped) drives neurogenic skin inflammation; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
 ---
 
 # Integumentary System
@@ -826,6 +835,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Integumentary rankl: RANKL from keratinocytes (already mapped) and macrophages (already mapped) amplifies skin immune activation; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Integumentary il-2: IL-2 from skin-resident T-cells (already mapped) and macrophages (already mapped) amplifies adaptive immune responses; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Integumentary notch: Notch in keratinocytes (already mapped) and fibroblasts (already mapped) regulates epidermal differentiation; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of integumentary system.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Integumentary fibronectin: fibronectin in fibroblasts (already mapped) and keratinocytes (already mapped) anchors dermal ECM; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of integumentary system.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Integumentary activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives fibrotic remodelling; activin-a dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of integumentary system.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Integumentary cgrp: CGRP from sensory neurons (already mapped) and mast cells (already mapped) drives neurogenic skin inflammation; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
 
 ## Pathology
 
