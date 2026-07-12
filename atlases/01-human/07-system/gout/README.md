@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Gout igf-1: IGF-1 from macrophages (already mapped) and synovial cells (already mapped) modulates urate-crystal metabolic response; igf-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Gout fibronectin: fibronectin in macrophages (already mapped) and synovial cells (already mapped) promotes joint ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Gout activin-a: activin-A from macrophages (already mapped) and synovial cells (already mapped) promotes joint fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Gout cgrp: CGRP from synovial cells (already mapped) and macrophages (already mapped) modulates joint pain signalling; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout."
 ---
 
 # Gout
@@ -836,6 +845,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Gout il-2: IL-2 from T-helper cells (already mapped) and macrophages (already mapped) drives lymphocyte expansion; il-2 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) inflammasome cascade of gout.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Gout notch: NOTCH on macrophages (already mapped) and neutrophils (already mapped) modulates crystal-driven inflammation; notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Gout igf-1: IGF-1 from macrophages (already mapped) and synovial cells (already mapped) modulates urate-crystal metabolic response; igf-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Gout fibronectin: fibronectin in macrophages (already mapped) and synovial cells (already mapped) promotes joint ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Gout activin-a: activin-A from macrophages (already mapped) and synovial cells (already mapped) promotes joint fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Gout cgrp: CGRP from synovial cells (already mapped) and macrophages (already mapped) modulates joint pain signalling; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)

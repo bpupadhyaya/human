@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "Gorlin smad4: SMAD4 in macrophages (already mapped) and fibroblasts (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Gorlin il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) promotes immune surveillance; il-2 excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Gorlin fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes ECM remodelling; fibronectin excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Gorlin activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) promotes desmoplastic remodelling; activin-a excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -846,6 +855,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Gorlin glp-1: GLP-1 from macrophages (already mapped) and mast cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Gorlin angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Gorlin smad4: SMAD4 in macrophages (already mapped) and fibroblasts (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Gorlin il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) promotes immune surveillance; il-2 excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Gorlin fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes ECM remodelling; fibronectin excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Gorlin activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) promotes desmoplastic remodelling; activin-a excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 
 ---
 
