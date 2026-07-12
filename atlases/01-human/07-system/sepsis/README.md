@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Sepsis il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates immunosuppressive T-cell expansion in sepsis; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of sepsis."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Sepsis fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes septic ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Sepsis notch: Notch signalling in macrophages (already mapped) and endothelial cells (already mapped) regulates septic cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Sepsis igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes septic cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis."
 ---
 
 # Sepsis
@@ -849,6 +858,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Sepsis wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates septic vascular tone; wnt-beta-catenin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) septic cascade of sepsis.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Sepsis rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes septic immune evasion; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine cascade of sepsis.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Sepsis il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates immunosuppressive T-cell expansion in sepsis; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Sepsis fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes septic ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Sepsis notch: Notch signalling in macrophages (already mapped) and endothelial cells (already mapped) regulates septic cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Sepsis igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes septic cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
