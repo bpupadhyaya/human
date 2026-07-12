@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "ATRT rankl: RANKL in macrophages (already mapped) and microglia (already mapped) modulates bone-immune tumour axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "ATRT fibronectin: Fibronectin in rhabdoid tumor cells (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "ATRT activin-a: activin-A from rhabdoid tumor cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "ATRT cgrp: CGRP from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -854,6 +863,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ATRT glp-1: GLP-1 on macrophages (already mapped) and microglia (already mapped) attenuates tumour inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth cascade in ATRT.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — ATRT angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ATRT rankl: RANKL in macrophages (already mapped) and microglia (already mapped) modulates bone-immune tumour axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ATRT fibronectin: Fibronectin in rhabdoid tumor cells (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ATRT activin-a: activin-A from rhabdoid tumor cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ATRT cgrp: CGRP from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT.
 
 ---
 
