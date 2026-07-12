@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "PN angiotensin-ii: angiotensin-II from macrophages (already mapped) and mast cells (already mapped) drives PN neuroinflammation; angiotensin-ii excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-31 (already mapped) itch cascade of prurigo nodularis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "PN wnt-beta-catenin: WNT/β-catenin on keratinocytes (already mapped) and neurons (already mapped) regulates pruritogenic signalling; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PN rankl: RANKL from keratinocytes (already mapped) and neurons (already mapped) promotes neuroimmune itch activation in prurigo nodularis; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PN fibronectin: fibronectin in keratinocytes (already mapped) and neurons (already mapped) promotes neuroimmune ECM remodelling in prurigo nodularis; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
 ---
 
 # Prurigo Nodularis
@@ -818,6 +827,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PN pd-1: PD-1 on T-cells (already mapped) in prurigo skin lesion stroma suppresses immune resolution; PD-1 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-31 (already mapped) itch-inflammatory cascade of prurigo nodularis.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PN glp-1: GLP-1 from enteroendocrine cells (already mapped) and macrophages (already mapped) modulates systemic inflammatory tone; glp-1 dysfunction amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-31 (already mapped) itch cascade of prurigo nodularis.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PN angiotensin-ii: angiotensin-II from macrophages (already mapped) and mast cells (already mapped) drives PN neuroinflammation; angiotensin-ii excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-31 (already mapped) itch cascade of prurigo nodularis.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PN wnt-beta-catenin: WNT/β-catenin on keratinocytes (already mapped) and neurons (already mapped) regulates pruritogenic signalling; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PN rankl: RANKL from keratinocytes (already mapped) and neurons (already mapped) promotes neuroimmune itch activation in prurigo nodularis; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PN fibronectin: fibronectin in keratinocytes (already mapped) and neurons (already mapped) promotes neuroimmune ECM remodelling in prurigo nodularis; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
