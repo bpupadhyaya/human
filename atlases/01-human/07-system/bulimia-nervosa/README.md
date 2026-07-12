@@ -540,6 +540,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "IL-2 from T-cytotoxic cell (already mapped) and dendritic cell (already mapped) modulates neuroimmune tone; IL-2 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and cortisol (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "bulimia pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and serotonin (already mapped) reward dysregulation in bulimia nervosa."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "bulimia angiotensin-ii: angiotensin-II from macrophages (already mapped) and neurons (already mapped) modulates vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) binge cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "bulimia wnt-beta-catenin: Wnt/β-catenin in neurons (already mapped) and astrocytes (already mapped) governs synaptic plasticity; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -843,6 +852,9 @@ All of the following must be met:
 - `connects-to` → **[NF-κB](../../03-molecular/nf-kb/README.md)** — NF-κB activation in microglia (already mapped) and neuron (already mapped) amplifies neuroinflammation; NF-κB excess drives IL-6 (already mapped) and TNF-α (already mapped) cascade worsening serotonin (already mapped) dysregulation in bulimia nervosa.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF-driven angiogenesis in brain (already mapped) reward circuits amplifies dopamine (already mapped) and serotonin (already mapped) signalling; VEGF excess promotes mTOR (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IL-2 from T-cytotoxic cell (already mapped) and dendritic cell (already mapped) modulates neuroimmune tone; IL-2 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and cortisol (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — bulimia pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and serotonin (already mapped) reward dysregulation in bulimia nervosa.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — bulimia angiotensin-ii: angiotensin-II from macrophages (already mapped) and neurons (already mapped) modulates vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) binge cascade in bulimia nervosa.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — bulimia wnt-beta-catenin: Wnt/β-catenin in neurons (already mapped) and astrocytes (already mapped) governs synaptic plasticity; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa.
 
 ## Treatment
 

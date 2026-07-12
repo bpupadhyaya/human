@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "chloride channels on T-cytotoxic cell (already mapped) and osteoblast (already mapped) regulate anti-tumour immunity; chloride dysregulation amplifies HER2 (already mapped) and CXCL12 (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "breast-cancer carbon: carbon backbone of nucleotides in macrophages (already mapped) and fibroblasts (already mapped) fuels tumour growth; carbon dysregulation amplifies HER2 (already mapped) and VEGF (already mapped) and RANKL (already mapped) tumour cascade in breast cancer."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "breast-cancer hydrogen: hydrogen via ROS from macrophages (already mapped) and fibroblasts (already mapped) modulates redox homeostasis; hydrogen excess amplifies HER2 (already mapped) and VEGF (already mapped) and BRCA1 (already mapped) tumour cascade in breast cancer."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "breast-cancer nitrogen: nitrogen in DNA bases of macrophages (already mapped) and fibroblasts (already mapped) sustains tumour growth; nitrogen dysregulation amplifies HER2 (already mapped) and VEGF (already mapped) and BRCA2 (already mapped) tumour cascade in breast cancer."
 ---
 
 # Breast Cancer
@@ -825,6 +834,9 @@ cross_links:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels in T-cytotoxic cell (already mapped) and osteoblast (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies HER2 (already mapped) and RANKL (already mapped) and PD-1 (already mapped) cascade in breast cancer.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus in osteoblast (already mapped) and T-cytotoxic cell (already mapped) fuels ATP-driven HER2 (already mapped) and PIK3CA (already mapped) signalling; phosphate dysregulation amplifies CDK4/6 (already mapped) and RANKL (already mapped) cascade in breast cancer.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on T-cytotoxic cell (already mapped) and osteoblast (already mapped) regulate anti-tumour immunity; chloride dysregulation amplifies HER2 (already mapped) and CXCL12 (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — breast-cancer carbon: carbon backbone of nucleotides in macrophages (already mapped) and fibroblasts (already mapped) fuels tumour growth; carbon dysregulation amplifies HER2 (already mapped) and VEGF (already mapped) and RANKL (already mapped) tumour cascade in breast cancer.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — breast-cancer hydrogen: hydrogen via ROS from macrophages (already mapped) and fibroblasts (already mapped) modulates redox homeostasis; hydrogen excess amplifies HER2 (already mapped) and VEGF (already mapped) and BRCA1 (already mapped) tumour cascade in breast cancer.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — breast-cancer nitrogen: nitrogen in DNA bases of macrophages (already mapped) and fibroblasts (already mapped) sustains tumour growth; nitrogen dysregulation amplifies HER2 (already mapped) and VEGF (already mapped) and BRCA2 (already mapped) tumour cascade in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
