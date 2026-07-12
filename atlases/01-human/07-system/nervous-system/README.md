@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "NS igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival and myelination; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "NS activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) drives neuroinflammatory signalling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "NS tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) regulates neuroinflammatory fibrosis; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "NS calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates neuronal calcium tone; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
 ---
 
 # Nervous System
@@ -798,6 +807,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — NS fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) anchors neuronal ECM; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NS notch: NOTCH in neurons (already mapped) and astrocytes (already mapped) regulates synaptic plasticity; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NS igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival and myelination; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NS activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) drives neuroinflammatory signalling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — NS tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) regulates neuroinflammatory fibrosis; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — NS calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates neuronal calcium tone; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
 
 [^kandel-principles-ns]: Kandel ER, Koester JD, Mack SH, Siegelbaum SA. *Principles of Neural Science.* 6th ed. McGraw-Hill; 2021.
 [^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.
