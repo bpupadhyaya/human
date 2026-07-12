@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "ewing-sarcoma activin-a: activin-A from macrophages (already mapped) and Ewing cells (already mapped) promotes tumour stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "ewing-sarcoma cgrp: CGRP from macrophages (already mapped) and Ewing cells (already mapped) modulates bone-tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "ewing-sarcoma calcitonin: calcitonin from macrophages (already mapped) and Ewing cells (already mapped) modulates bone calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "ewing-sarcoma substance-p: substance-P from macrophages (already mapped) and Ewing cells (already mapped) modulates bone-tumour pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -870,6 +879,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — ewing-sarcoma il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) promotes antitumour immunity; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ewing-sarcoma fibronectin: fibronectin in macrophages (already mapped) and Ewing cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ewing-sarcoma activin-a: activin-A from macrophages (already mapped) and Ewing cells (already mapped) promotes tumour stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ewing-sarcoma cgrp: CGRP from macrophages (already mapped) and Ewing cells (already mapped) modulates bone-tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ewing-sarcoma calcitonin: calcitonin from macrophages (already mapped) and Ewing cells (already mapped) modulates bone calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — ewing-sarcoma substance-p: substance-P from macrophages (already mapped) and Ewing cells (already mapped) modulates bone-tumour pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 
 ---
 

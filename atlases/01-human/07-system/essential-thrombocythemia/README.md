@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "ET il-2: IL-2 on T-cells (already mapped) and megakaryocytes (already mapped) promotes immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "ET fibronectin: fibronectin from megakaryocytes (already mapped) and endothelial cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "ET notch: NOTCH in megakaryocytes (already mapped) and endothelial cells (already mapped) modulates lineage commitment; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "ET igf-1: IGF-1 from megakaryocytes (already mapped) and endothelial cells (already mapped) modulates myeloid repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
 ---
 
 # Essential Thrombocythemia
@@ -865,6 +874,9 @@ Management:
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ET wnt-beta-catenin: WNT/β-catenin in megakaryocytes (already mapped) and endothelial cells (already mapped) promotes self-renewal; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ET rankl: RANKL from megakaryocytes (already mapped) and endothelial cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — ET il-2: IL-2 on T-cells (already mapped) and megakaryocytes (already mapped) promotes immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ET fibronectin: fibronectin from megakaryocytes (already mapped) and endothelial cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — ET notch: NOTCH in megakaryocytes (already mapped) and endothelial cells (already mapped) modulates lineage commitment; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — ET igf-1: IGF-1 from megakaryocytes (already mapped) and endothelial cells (already mapped) modulates myeloid repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
