@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "OCCC activin-a: activin-A from ovarian cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "OCCC cgrp: CGRP from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "OCCC calcitonin: calcitonin from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "OCCC substance-p: substance-P from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC immune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -889,6 +898,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — OCCC fibronectin: Fibronectin in ovarian epithelial cells (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — OCCC igf-1: IGF-1 from ovarian epithelial cells (already mapped) and macrophages (already mapped) promotes OCCC tumour survival; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — OCCC activin-a: activin-A from ovarian cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — OCCC cgrp: CGRP from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — OCCC calcitonin: calcitonin from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — OCCC substance-p: substance-P from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC immune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
 
 ---
 

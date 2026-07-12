@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "PanCa igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes pancreatic tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "PanCa cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "PanCa calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "PanCa substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -875,6 +884,9 @@ cross_links:
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PanCa rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes pancreatic tumour immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PanCa fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes pancreatic ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PanCa igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes pancreatic tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PanCa cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PanCa calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PanCa substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
 
 ---
 
