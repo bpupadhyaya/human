@@ -554,6 +554,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "OCD nitrogen: nitrogen in amino-acid scaffold of serotonin-transporter (already mapped) and glutamate receptor proteins in neurons (already mapped) sustains cortico-striatal circuit; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of OCD."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "OCD oxygen: oxygen, via mitochondrial respiration in neurons (already mapped) and microglia (already mapped), sustains serotonin (already mapped) synthesis; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of OCD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "OCD PD-1: PD-1 on T-cells (already mapped) in cortico-striatal microglia (already mapped) suppresses neuroinflammation resolution; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of OCD."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "OCD GLP-1: GLP-1 from enteroendocrine cells (already mapped) crosses the blood-brain barrier to modulate dopamine (already mapped) and serotonin (already mapped) pathways; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of OCD."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -857,6 +866,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — OCD carbon: carbon as backbone of serotonin-transporter (already mapped) and NF-κB (already mapped) proteins in neurons (already mapped) sustains cortico-striatal signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of OCD.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — OCD hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and microglia (already mapped), supports serotonin (already mapped) neurotransmitter function; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of OCD.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — OCD nitrogen: nitrogen in amino-acid scaffold of serotonin-transporter (already mapped) and glutamate receptor proteins in neurons (already mapped) sustains cortico-striatal circuit; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of OCD.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — OCD oxygen: oxygen, via mitochondrial respiration in neurons (already mapped) and microglia (already mapped), sustains serotonin (already mapped) synthesis; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of OCD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — OCD PD-1: PD-1 on T-cells (already mapped) in cortico-striatal microglia (already mapped) suppresses neuroinflammation resolution; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of OCD.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — OCD GLP-1: GLP-1 from enteroendocrine cells (already mapped) crosses the blood-brain barrier to modulate dopamine (already mapped) and serotonin (already mapped) pathways; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of OCD.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
