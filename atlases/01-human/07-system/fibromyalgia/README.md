@@ -543,6 +543,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "fibromyalgia smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "fibromyalgia il-2: IL-2 on T-cells (already mapped) and microglia (already mapped) amplifies neuroinflammation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "fibromyalgia fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "fibromyalgia notch: Notch signalling on neurons (already mapped) and microglia (already mapped) regulates central pain gating; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -878,6 +887,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — fibromyalgia wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates central sensitisation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade of fibromyalgia.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — fibromyalgia rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — fibromyalgia smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — fibromyalgia il-2: IL-2 on T-cells (already mapped) and microglia (already mapped) amplifies neuroinflammation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — fibromyalgia fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — fibromyalgia notch: Notch signalling on neurons (already mapped) and microglia (already mapped) regulates central pain gating; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) central sensitisation cascade of fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)

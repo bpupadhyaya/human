@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "follicular-lymphoma wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) promotes growth; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "follicular-lymphoma rankl: RANKL from macrophages (already mapped) and B-cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "follicular-lymphoma igf-1: IGF-1 from macrophages (already mapped) and B-cells (already mapped) promotes lymphoma survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "follicular-lymphoma activin-a: activin-A from macrophages (already mapped) and B-cells (already mapped) promotes lymphoma-stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -861,6 +870,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — follicular-lymphoma glp-1: GLP-1 from macrophages (already mapped) and B-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in follicular lymphoma.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — follicular-lymphoma angiotensin-ii: angiotensin II on B-cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — follicular-lymphoma wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) promotes growth; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — follicular-lymphoma rankl: RANKL from macrophages (already mapped) and B-cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — follicular-lymphoma igf-1: IGF-1 from macrophages (already mapped) and B-cells (already mapped) promotes lymphoma survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — follicular-lymphoma activin-a: activin-A from macrophages (already mapped) and B-cells (already mapped) promotes lymphoma-stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
