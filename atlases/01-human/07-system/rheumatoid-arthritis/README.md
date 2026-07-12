@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "RA Wnt/β-catenin: Wnt/β-catenin signalling in synoviocytes and fibroblasts (already mapped) drives pannus formation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and RANKL (already mapped) erosive cascade of RA."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "RA il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates autoimmune T-cell expansion; il-2 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "RA notch: NOTCH on synoviocytes (already mapped) and macrophages (already mapped) regulates joint stromal invasion; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "RA igf-1: IGF-1 from synoviocytes (already mapped) and macrophages (already mapped) promotes synovial fibroblast proliferation; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
 ---
 
 # Rheumatoid Arthritis
@@ -873,6 +882,9 @@ RA patients have:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — RA GLP-1: GLP-1 receptor signalling in synovial macrophages (already mapped) and T-helper cells (already mapped) modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) synovial cascade of RA.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — RA angiotensin-II: angiotensin-II signalling in synovial endothelial cells (already mapped) and macrophages (already mapped) promotes joint inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of RA.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — RA Wnt/β-catenin: Wnt/β-catenin signalling in synoviocytes and fibroblasts (already mapped) drives pannus formation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and RANKL (already mapped) erosive cascade of RA.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — RA il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates autoimmune T-cell expansion; il-2 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — RA notch: NOTCH on synoviocytes (already mapped) and macrophages (already mapped) regulates joint stromal invasion; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — RA igf-1: IGF-1 from synoviocytes (already mapped) and macrophages (already mapped) promotes synovial fibroblast proliferation; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
