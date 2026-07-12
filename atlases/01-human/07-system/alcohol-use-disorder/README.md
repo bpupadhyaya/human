@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "AUD Notch: Notch signalling in hepatocytes (already mapped) and hepatic stellate cells modulates liver zonation and injury; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "AUD igf-1: IGF-1 from hepatocytes (already mapped) and hepatic stellate cells (already mapped) regulates liver regeneration; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "AUD activin-a: activin-A from hepatocytes (already mapped) and macrophages (already mapped) regulates liver fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "AUD cgrp: CGRP from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder."
 ---
 
 # Alcohol Use Disorder
@@ -939,6 +948,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — AUD IL-2: IL-2 in hepatic immune cells (already mapped) and gut macrophages (already mapped) modulates alcohol-driven inflammation; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AUD fibronectin: fibronectin in hepatic stellate cells (already mapped) and portal endothelium (already mapped) drives liver matrix deposition; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AUD Notch: Notch signalling in hepatocytes (already mapped) and hepatic stellate cells modulates liver zonation and injury; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AUD igf-1: IGF-1 from hepatocytes (already mapped) and hepatic stellate cells (already mapped) regulates liver regeneration; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AUD activin-a: activin-A from hepatocytes (already mapped) and macrophages (already mapped) regulates liver fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AUD cgrp: CGRP from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
