@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "TB PD-1: PD-1 on T-cytotoxic-cell (already mapped) and T-helper-cell (already mapped) is upregulated during chronic MTB infection; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of tuberculosis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "TB GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and T-cells (already mapped) modulates metabolic-immune balance; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "TB angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and T-cells (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "TB Wnt/β-catenin: Wnt/β-catenin signalling in macrophages (already mapped) and T-cells (already mapped) modulates immune homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis."
 ---
 
 # Tuberculosis
@@ -851,6 +860,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — TB carbon: carbon, as metabolic backbone of mycobacterial lipids in macrophages (already mapped) and neutrophils (already mapped), drives granuloma formation; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) immunopathology of tuberculosis.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — TB hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and neutrophils (already mapped), quenches MTB-induced ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) granulomatous damage of tuberculosis.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — TB PD-1: PD-1 on T-cytotoxic-cell (already mapped) and T-helper-cell (already mapped) is upregulated during chronic MTB infection; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of tuberculosis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — TB GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and T-cells (already mapped) modulates metabolic-immune balance; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — TB angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and T-cells (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — TB Wnt/β-catenin: Wnt/β-catenin signalling in macrophages (already mapped) and T-cells (already mapped) modulates immune homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

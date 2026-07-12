@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "TC nitrogen: nitric oxide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "TC oxygen: reactive oxygen species in thyroid follicular cells (already mapped) and macrophages (already mapped) drive oxidative oncogenesis; oxygen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "TC GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and thyroid follicular cells (already mapped) modulates metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "TC angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and thyroid follicular cells (already mapped) promotes inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer."
 ---
 
 # Thyroid Cancer
@@ -855,6 +864,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — TC carbon: carbon, as metabolic backbone of thyroid-hormones (already mapped) and VEGF (already mapped) in macrophages (already mapped), drives proliferative signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of thyroid cancer.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — TC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), modulates tumour oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of thyroid cancer.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — TC nitrogen: nitric oxide from macrophages (already mapped) and tumour vasculature modulates angiogenic tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — TC oxygen: reactive oxygen species in thyroid follicular cells (already mapped) and macrophages (already mapped) drive oxidative oncogenesis; oxygen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — TC GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and thyroid follicular cells (already mapped) modulates metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — TC angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and thyroid follicular cells (already mapped) promotes inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of thyroid cancer.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
