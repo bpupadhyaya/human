@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "NF1 fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes neurofibroma ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NF1 notch: Notch signalling on fibroblasts (already mapped) and macrophages (already mapped) regulates neurofibroma cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "NF1 igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes neurofibroma cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "NF1 activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives neurofibroma fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1."
 ---
 
 # Neurofibromatosis Type 1
@@ -860,6 +869,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — NF1 smad4: SMAD4 in fibroblasts (already mapped) and macrophages (already mapped) mediates neurofibroma TGF-β signalling; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — NF1 il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates neurofibroma immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — NF1 fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes neurofibroma ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — NF1 notch: Notch signalling on fibroblasts (already mapped) and macrophages (already mapped) regulates neurofibroma cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NF1 igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes neurofibroma cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NF1 activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives neurofibroma fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
