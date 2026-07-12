@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "BHD angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "BHD rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "BHD fibronectin: fibronectin in renal cells (already mapped) and fibroblasts (already mapped) modulates tumour ECM remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "BHD activin-a: activin-A in renal cells (already mapped) and macrophages (already mapped) modulates tumour stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -876,6 +885,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — BHD pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) restrains tumour immune response; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour immune evasion cascade in BHD.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — BHD glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates tumour inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumour cascade in BHD.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — BHD angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — BHD rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — BHD fibronectin: fibronectin in renal cells (already mapped) and fibroblasts (already mapped) modulates tumour ECM remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — BHD activin-a: activin-A in renal cells (already mapped) and macrophages (already mapped) modulates tumour stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 
 ---
 
