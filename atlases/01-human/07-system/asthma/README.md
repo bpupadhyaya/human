@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Asthma angiotensin-ii: angiotensin II on smooth-muscle cells (already mapped) and macrophages (already mapped) promotes airway hyper-responsiveness; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) remodelling in asthma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Asthma wnt-beta-catenin: WNT/β-catenin on epithelial cells (already mapped) and smooth-muscle cells (already mapped) regulates remodelling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in asthma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Asthma rankl: RANKL in macrophages (already mapped) and dendritic cells (already mapped) promotes Th2 differentiation; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) airway inflammatory cascade in asthma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Asthma fibronectin: fibronectin in airway epithelial cells (already mapped) and smooth-muscle cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway inflammation in asthma."
 ---
 
 # Asthma
@@ -840,6 +849,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Asthma pd-1: PD-1 on t-helper cells (already mapped) and regulatory T cells (already mapped) restrains Th2 bias; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic airway inflammation in asthma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Asthma glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates airway inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) Th2 airway inflammation in asthma.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Asthma angiotensin-ii: angiotensin II on smooth-muscle cells (already mapped) and macrophages (already mapped) promotes airway hyper-responsiveness; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) remodelling in asthma.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Asthma wnt-beta-catenin: WNT/β-catenin on epithelial cells (already mapped) and smooth-muscle cells (already mapped) regulates remodelling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in asthma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Asthma rankl: RANKL in macrophages (already mapped) and dendritic cells (already mapped) promotes Th2 differentiation; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) airway inflammatory cascade in asthma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Asthma fibronectin: fibronectin in airway epithelial cells (already mapped) and smooth-muscle cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway inflammation in asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

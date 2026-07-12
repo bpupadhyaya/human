@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "AA glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "AA angiotensin-ii: angiotensin-II on stem cells (already mapped) and macrophages (already mapped) promotes marrow inflammatory skewing; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "AA wnt-beta-catenin: WNT/β-catenin on stem cells (already mapped) and stromal cells (already mapped) regulates marrow niche; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "AA rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA."
 ---
 
 # Aplastic Anemia
@@ -836,6 +845,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — AA hydrogen: hydrogen via ROS balance in t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates bone-marrow stress; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression in AA.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AA pd-1: PD-1 on t-cytotoxic cells (already mapped) and regulatory T cells (already mapped) suppresses immune tolerance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic destruction cascade in AA.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AA glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — AA angiotensin-ii: angiotensin-II on stem cells (already mapped) and macrophages (already mapped) promotes marrow inflammatory skewing; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — AA wnt-beta-catenin: WNT/β-catenin on stem cells (already mapped) and stromal cells (already mapped) regulates marrow niche; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AA rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA.
 
 ---
 
