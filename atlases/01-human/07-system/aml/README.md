@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "AML fibronectin: fibronectin in bone-marrow (already mapped) matrix and macrophages (already mapped) promotes blast adhesion and chemoresistance; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic cascade of AML."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "AML notch: NOTCH on macrophages (already mapped) and bone-marrow (already mapped) stroma regulates leukaemic blast differentiation; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "AML igf-1: IGF-1 from bone-marrow (already mapped) stroma and macrophages (already mapped) promotes leukaemic blast survival; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "AML activin-a: activin-A from macrophages (already mapped) and bone-marrow (already mapped) stroma regulates myeloid differentiation; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
 ---
 
 # AML
@@ -866,6 +875,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — AML angiotensin-II: angiotensin-II in bone-marrow (already mapped) endothelium and macrophages (already mapped) modulates the leukaemic niche; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic cascade of AML.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AML RANKL: RANKL in bone-marrow (already mapped) stromal cells and macrophages (already mapped) modulates the osteoclast-leukaemic niche axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic cascade of AML.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AML fibronectin: fibronectin in bone-marrow (already mapped) matrix and macrophages (already mapped) promotes blast adhesion and chemoresistance; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) leukaemic cascade of AML.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AML notch: NOTCH on macrophages (already mapped) and bone-marrow (already mapped) stroma regulates leukaemic blast differentiation; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AML igf-1: IGF-1 from bone-marrow (already mapped) stroma and macrophages (already mapped) promotes leukaemic blast survival; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AML activin-a: activin-A from macrophages (already mapped) and bone-marrow (already mapped) stroma regulates myeloid differentiation; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
