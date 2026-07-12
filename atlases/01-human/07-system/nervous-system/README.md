@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "NS calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates neuronal calcium tone; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "NS insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) drives neuronal metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "NS aldosterone: aldosterone from astrocytes (already mapped) and microglia (already mapped) modulates neuronal ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "NS androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates steroid signalling; androgen-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
 ---
 
 # Nervous System
@@ -810,6 +819,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NS activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) drives neuroinflammatory signalling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
 - `connects-to` → **[TGF-beta](../../03-molecular/tgf-beta/README.md)** — NS tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) regulates neuroinflammatory fibrosis; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — NS calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates neuronal calcium tone; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — NS insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) drives neuronal metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — NS aldosterone: aldosterone from astrocytes (already mapped) and microglia (already mapped) modulates neuronal ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — NS androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates steroid signalling; androgen-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
 
 [^kandel-principles-ns]: Kandel ER, Koester JD, Mack SH, Siegelbaum SA. *Principles of Neural Science.* 6th ed. McGraw-Hill; 2021.
 [^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.

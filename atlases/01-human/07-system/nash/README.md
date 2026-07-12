@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "NASH activin-a: activin-A from macrophages (already mapped) and hepatocytes (already mapped) drives hepatic fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "NASH cgrp: CGRP from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "NASH calcitonin: calcitonin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "NASH substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
 ---
 
 # NASH
@@ -844,6 +853,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NASH notch: Notch signalling on macrophages (already mapped) and hepatocytes (already mapped) regulates hepatic stellate-cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NASH igf-1: IGF-1 from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NASH activin-a: activin-A from macrophages (already mapped) and hepatocytes (already mapped) drives hepatic fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — NASH cgrp: CGRP from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — NASH calcitonin: calcitonin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — NASH substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
