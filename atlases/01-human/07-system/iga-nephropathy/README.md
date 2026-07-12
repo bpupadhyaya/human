@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "IgAN cgrp: CGRP from macrophages (already mapped) and mesangial cells (already mapped) modulates glomerular pain and vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "IgAN calcitonin: calcitonin from macrophages (already mapped) and mesangial cells (already mapped) modulates glomerular calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "IgAN substance-p: substance-P from macrophages (already mapped) and mesangial cells (already mapped) modulates glomerular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "IgAN insulin-receptor: insulin receptor on mesangial cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -831,6 +840,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — IgAN fibronectin: fibronectin in mesangial cells (already mapped) and macrophages (already mapped) promotes glomerular ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — IgAN activin-a: activin-A from macrophages (already mapped) and mesangial cells (already mapped) promotes glomerular fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — IgAN cgrp: CGRP from macrophages (already mapped) and mesangial cells (already mapped) modulates glomerular pain and vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — IgAN calcitonin: calcitonin from macrophages (already mapped) and mesangial cells (already mapped) modulates glomerular calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — IgAN substance-p: substance-P from macrophages (already mapped) and mesangial cells (already mapped) modulates glomerular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — IgAN insulin-receptor: insulin receptor on mesangial cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 
 ---
 

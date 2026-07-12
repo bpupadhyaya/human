@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "IS notch: Notch signalling on dendritic cells (already mapped) and macrophages (already mapped) regulates lymphocyte fate; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "IS igf-1: IGF-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates immune metabolic tone; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "IS activin-a: activin-A from macrophages (already mapped) and dendritic cells (already mapped) promotes immune fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "IS cgrp: CGRP from macrophages (already mapped) and dendritic cells (already mapped) modulates neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
 ---
 
 # Immune System
@@ -781,6 +790,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — IS vegf: VEGF from macrophages (already mapped) and dendritic cells (already mapped) promotes lymphoid vascular development; vegf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — IS fibronectin: fibronectin in macrophages (already mapped) and dendritic cells (already mapped) promotes immune ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — IS notch: Notch signalling on dendritic cells (already mapped) and macrophages (already mapped) regulates lymphocyte fate; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IS igf-1: IGF-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates immune metabolic tone; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — IS activin-a: activin-A from macrophages (already mapped) and dendritic cells (already mapped) promotes immune fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — IS cgrp: CGRP from macrophages (already mapped) and dendritic cells (already mapped) modulates neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 
 ## Pathology
 
