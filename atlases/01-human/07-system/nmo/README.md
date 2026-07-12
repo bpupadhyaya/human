@@ -559,6 +559,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "NMO angiotensin-II: angiotensin-II via AT1R on astrocytes (already mapped) and macrophages (already mapped) drives blood-brain barrier disruption and AQP4 complement attack; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "NMO wnt-beta-catenin: WNT/β-catenin on astrocytes (already mapped) and macrophages (already mapped) regulates AQP4 neuroinflammation; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "NMO rankl: RANKL from macrophages (already mapped) and astrocytes (already mapped) promotes AQP4-mediated CNS immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "NMO smad4: SMAD4 in astrocytes (already mapped) and macrophages (already mapped) mediates TGF-β neuroinflammatory repair; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
 ---
 
 # NMOSD
@@ -885,6 +894,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NMO sulfur: sulfur in cysteine residues of AQP4 (already mapped) and complement proteins in astrocytes (already mapped) sustains blood-brain barrier integrity; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) astrocytopathic cascade of NMO.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — NMO GLP-1: GLP-1 receptor agonism on astrocytes (already mapped) and macrophages (already mapped) modulates neuroinflammatory AQP4 autoimmune cascade; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of NMO.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — NMO angiotensin-II: angiotensin-II via AT1R on astrocytes (already mapped) and macrophages (already mapped) drives blood-brain barrier disruption and AQP4 complement attack; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NMO.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — NMO wnt-beta-catenin: WNT/β-catenin on astrocytes (already mapped) and macrophages (already mapped) regulates AQP4 neuroinflammation; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — NMO rankl: RANKL from macrophages (already mapped) and astrocytes (already mapped) promotes AQP4-mediated CNS immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — NMO smad4: SMAD4 in astrocytes (already mapped) and macrophages (already mapped) mediates TGF-β neuroinflammatory repair; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
