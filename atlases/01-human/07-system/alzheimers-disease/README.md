@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "AD notch: notch signalling in neurons (already mapped) and microglia (already mapped) modulates synaptic plasticity and amyloid processing; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade of AD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "AD activin-A: activin-A from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory responses in AD; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amyloid-tau cascade of Alzheimer's disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "AD TGF-β: TGF-β in microglia (already mapped) and astrocytes (already mapped) exerts neuroprotective and pro-fibrotic roles; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Alzheimer's disease."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "AD CGRP: CGRP from trigeminal neurons (already mapped) and microglia (already mapped) modulates cerebrovascular tone in AD; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neurovascular cascade of Alzheimer's disease."
 ---
 
 # Alzheimer's Disease
@@ -842,6 +851,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — AD IL-2: IL-2 signalling in regulatory-t-cell (already mapped) and microglia (already mapped) modulates neuroinflammatory homeostasis; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) amyloid-tau cascade of AD.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AD fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes ECM accumulation in AD plaques; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) amyloid-tau neuroinflammatory cascade of AD.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AD notch: notch signalling in neurons (already mapped) and microglia (already mapped) modulates synaptic plasticity and amyloid processing; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade of AD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AD activin-A: activin-A from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory responses in AD; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amyloid-tau cascade of Alzheimer's disease.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — AD TGF-β: TGF-β in microglia (already mapped) and astrocytes (already mapped) exerts neuroprotective and pro-fibrotic roles; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Alzheimer's disease.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AD CGRP: CGRP from trigeminal neurons (already mapped) and microglia (already mapped) modulates cerebrovascular tone in AD; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neurovascular cascade of Alzheimer's disease.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)

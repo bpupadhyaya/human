@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "ALS WNT/β-catenin: WNT/β-catenin in motor neurons (already mapped) and astrocytes (already mapped) supports neurotrophic survival; WNT dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TDP-43 (already mapped) motor neuron degeneration cascade of ALS."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "ALS RANKL: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates the motor neuron immune-bone axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of ALS."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "ALS fibronectin: fibronectin in spinal cord (already mapped) matrix and astrocytes (already mapped) modulates motor neuron microenvironment; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "ALS Notch: Notch signalling in motor neurons (already mapped) and microglia (already mapped) modulates neuronal survival and neuroinflammation; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS."
 ---
 
 # ALS
@@ -887,6 +896,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ALS GLP-1: GLP-1 receptor signalling in motor neurons (already mapped) and microglia (already mapped) modulates metabolic neuroinflammation; GLP-1 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TDP-43 (already mapped) cascade of ALS.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — ALS angiotensin-II: angiotensin-II signalling in motor neurons (already mapped) and astrocytes (already mapped) promotes neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TDP-43 (already mapped) cascade of ALS.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ALS WNT/β-catenin: WNT/β-catenin in motor neurons (already mapped) and astrocytes (already mapped) supports neurotrophic survival; WNT dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and TDP-43 (already mapped) motor neuron degeneration cascade of ALS.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ALS RANKL: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates the motor neuron immune-bone axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of ALS.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ALS fibronectin: fibronectin in spinal cord (already mapped) matrix and astrocytes (already mapped) modulates motor neuron microenvironment; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — ALS Notch: Notch signalling in motor neurons (already mapped) and microglia (already mapped) modulates neuronal survival and neuroinflammation; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
