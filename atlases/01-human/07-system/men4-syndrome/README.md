@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/fgf23
     relation: connects-to
     note: "MEN4 fgf23: FGF23 from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine phosphate homeostasis; fgf23 dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "MEN4 notch: NOTCH in fibroblasts (already mapped) and macrophages (already mapped) regulates neuroendocrine tumour lineage; notch dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "MEN4 igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes neuroendocrine tumour growth; igf-1 dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "MEN4 tgf-beta: TGF-β from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine tumour immunity; TGF-β excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome."
 ---
 
 # MEN4 Syndrome
@@ -859,6 +868,9 @@ When clinical MEN features are present:
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MEN4 cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine vascular tone; cgrp dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MEN4 substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) amplifies neuroendocrine pain signalling; substance-p excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — MEN4 fgf23: FGF23 from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine phosphate homeostasis; fgf23 dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — MEN4 notch: NOTCH in fibroblasts (already mapped) and macrophages (already mapped) regulates neuroendocrine tumour lineage; notch dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MEN4 igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes neuroendocrine tumour growth; igf-1 dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — MEN4 tgf-beta: TGF-β from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine tumour immunity; TGF-β excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
