@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "nitric oxide from iNOS in endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; NO deficiency amplifies thrombin (already mapped) and complement-C5 (already mapped) and NF-κB (already mapped) procoagulant cascade in APS."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "APS carbon: carbon backbone of lipids in platelets (already mapped) and endothelial cells (already mapped) sustains thrombostasis; carbon dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C3 (already mapped) procoagulant cascade in APS."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "APS chloride: chloride channels in endothelial cells (already mapped) and platelets (already mapped) modulate vascular tone; chloride dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) thrombotic cascade in APS."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "APS hydrogen: hydrogen via ROS balance in endothelial cells (already mapped) and macrophages (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C3 (already mapped) procoagulant cascade in APS."
 ---
 
 # Antiphospholipid Syndrome
@@ -857,6 +866,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — iron-driven ferroptosis in endothelial cells (already mapped) amplifies oxidative stress on platelet (already mapped) activation and complement-C3 (already mapped) deposition; iron excess amplifies NF-κB (already mapped) and thrombin (already mapped) procoagulant cascade in APS.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus-driven ATP in platelets (already mapped) and endothelial cells (already mapped) sustains anti-thrombotic signalling; phosphorus deficiency amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) procoagulant cascade in APS.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide from iNOS in endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; NO deficiency amplifies thrombin (already mapped) and complement-C5 (already mapped) and NF-κB (already mapped) procoagulant cascade in APS.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — APS carbon: carbon backbone of lipids in platelets (already mapped) and endothelial cells (already mapped) sustains thrombostasis; carbon dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C3 (already mapped) procoagulant cascade in APS.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — APS chloride: chloride channels in endothelial cells (already mapped) and platelets (already mapped) modulate vascular tone; chloride dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) thrombotic cascade in APS.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — APS hydrogen: hydrogen via ROS balance in endothelial cells (already mapped) and macrophages (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C3 (already mapped) procoagulant cascade in APS.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

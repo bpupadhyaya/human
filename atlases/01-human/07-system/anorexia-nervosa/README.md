@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/glutamate
     relation: connects-to
     note: "glutamate excitotoxicity in neurons (already mapped) from starvation-induced energy deficit amplifies BDNF (already mapped) suppression; glutamate excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) neuroinflammatory burden in AN."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "AN pd-1: PD-1 checkpoint on t-cytotoxic cells (already mapped) and dendritic cells (already mapped) suppresses immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory burden in AN."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "AN angiotensin-ii: angiotensin II on cardiomyocytes (already mapped) and adipocytes (already mapped) modulates metabolic tone; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) neuroinflammatory restriction in AN."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "AN vegf: VEGF from adipocytes (already mapped) and neurons (already mapped) sustains vascular supply to starved tissue; VEGF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) metabolic impairment in AN."
 ---
 
 # Anorexia Nervosa
@@ -864,6 +873,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen, via H2O2 and ROS balance in neurons (already mapped) and macrophages (already mapped), sets redox tone; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade in AN.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — norepinephrine from locus-coeruleus neurons (already mapped) drives stress-induced cortisol (already mapped) hypercortisolism; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory restriction in AN.
 - `connects-to` → **[Glutamate](../../03-molecular/glutamate/README.md)** — glutamate excitotoxicity in neurons (already mapped) from starvation-induced energy deficit amplifies BDNF (already mapped) suppression; glutamate excess upregulates NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) neuroinflammatory burden in AN.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AN pd-1: PD-1 checkpoint on t-cytotoxic cells (already mapped) and dendritic cells (already mapped) suppresses immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory burden in AN.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — AN angiotensin-ii: angiotensin II on cardiomyocytes (already mapped) and adipocytes (already mapped) modulates metabolic tone; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) neuroinflammatory restriction in AN.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — AN vegf: VEGF from adipocytes (already mapped) and neurons (already mapped) sustains vascular supply to starved tissue; VEGF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) metabolic impairment in AN.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
