@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "BD vegf: VEGF from astrocytes (already mapped) and neurons (already mapped) sustains cerebrovascular supply; VEGF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood dysregulation in BD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "BD rankl: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "BD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotection; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "BD il-2: IL-2 from T-helper cells (already mapped) and microglia (already mapped) modulates neuroimmune balance; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD."
 ---
 
 # Bipolar Disorder
@@ -865,6 +874,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — BD pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — BD glp-1: GLP-1 on neurons (already mapped) and astrocytes (already mapped) modulates synaptic energy metabolism; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling dysfunction in BD.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — BD vegf: VEGF from astrocytes (already mapped) and neurons (already mapped) sustains cerebrovascular supply; VEGF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood dysregulation in BD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — BD rankl: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — BD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotection; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — BD il-2: IL-2 from T-helper cells (already mapped) and microglia (already mapped) modulates neuroimmune balance; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)
