@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "HCC phosphorus: phosphorus as ATP in macrophages (already mapped) and hepatocytes (already mapped) fuels kinase cascades; phosphorus dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped)-driven hepatocellular proliferation and VEGF (already mapped) in HCC."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HCC hydrogen: hydrogen via ROS from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatocellular redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) tumour cascade of HCC."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "HCC sulfur: glutathione from sulfur amino acids in hepatocytes (already mapped) and macrophages (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular proliferation cascade of HCC."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "HCC pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses hepatocellular tumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular proliferation cascade of HCC."
 ---
 
 # Hepatocellular Carcinoma
@@ -849,6 +858,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HCC chloride: chloride channels regulate hepatocyte (already mapped) and macrophage (already mapped) volume during tumour microenvironment stress; chloride dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped) hepatocellular proliferation in HCC.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HCC nitrogen: nitrogen as backbone of oncoproteins and cytokines (already mapped) sustains tumour signalling; macrophage (already mapped) nitric-oxide-derived RNS amplifies NF-κB (already mapped) and STAT3 (already mapped) hepatocellular proliferation in HCC.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — HCC phosphorus: phosphorus as ATP in macrophages (already mapped) and hepatocytes (already mapped) fuels kinase cascades; phosphorus dysregulation amplifies NF-κB (already mapped) and STAT3 (already mapped)-driven hepatocellular proliferation and VEGF (already mapped) in HCC.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HCC hydrogen: hydrogen via ROS from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatocellular redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) tumour cascade of HCC.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HCC sulfur: glutathione from sulfur amino acids in hepatocytes (already mapped) and macrophages (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular proliferation cascade of HCC.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — HCC pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses hepatocellular tumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular proliferation cascade of HCC.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)

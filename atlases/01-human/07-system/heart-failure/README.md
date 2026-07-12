@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "HF hydrogen: hydrogen as proton gradient in cardiomyocyte (already mapped) mitochondria drives ATP synthesis; hydrogen-ion accumulation in ischaemia amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial dysfunction in HF."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "HF sulfur: glutathione from sulfur amino acids in cardiomyocytes (already mapped) and macrophages (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial dysfunction cascade of HF."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "HF pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses cardiac immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial inflammation cascade of HF."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "HF wnt-beta-catenin: WNT/β-catenin in cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac fibrosis; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial remodelling cascade of HF."
 ---
 
 # Heart Failure
@@ -784,6 +793,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HF chloride: chloride channels in cardiomyocytes (already mapped) modulate cell volume and action potential; chloride dysregulation amplifies NF-κB (already mapped) and aldosterone (already mapped) volume overload and IL-6 (already mapped) cardiac inflammation in HF.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HF carbon: carbon as backbone of myocardial energy metabolites and lipid membranes in cardiomyocytes (already mapped) supports cardiac ATP synthesis; carbon-derived metabolite dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cardiac inflammation in HF.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HF hydrogen: hydrogen as proton gradient in cardiomyocyte (already mapped) mitochondria drives ATP synthesis; hydrogen-ion accumulation in ischaemia amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial dysfunction in HF.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HF sulfur: glutathione from sulfur amino acids in cardiomyocytes (already mapped) and macrophages (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial dysfunction cascade of HF.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — HF pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses cardiac immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial inflammation cascade of HF.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HF wnt-beta-catenin: WNT/β-catenin in cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac fibrosis; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial remodelling cascade of HF.
 
 ## Pathology
 
