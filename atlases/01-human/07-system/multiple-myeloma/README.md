@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "MM GLP-1: GLP-1 signalling modulates macrophage (already mapped) and NK-cell (already mapped) activation in the bone-marrow (already mapped) tumour microenvironment; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of multiple myeloma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "MM angiotensin-ii: angiotensin-II from macrophages (already mapped) and osteoblasts (already mapped) drives vascular remodelling in bone marrow; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "MM wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and plasma cells (already mapped) regulates myeloma proliferation; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "MM fibronectin: fibronectin in macrophages (already mapped) and osteoblasts (already mapped) anchors bone-marrow tumour matrix; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
 ---
 
 # Multiple Myeloma
@@ -860,6 +869,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MM sulfur: sulfur in cysteine residues of immunoglobulin and NF-κB (already mapped) proteins sustains plasma cell (already mapped) redox stability; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of myeloma.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MM PD-1: PD-1 checkpoint on T-cells (already mapped) drives immune evasion by myeloma plasma cells (already mapped); PD-1 overexpression amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade of multiple myeloma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MM GLP-1: GLP-1 signalling modulates macrophage (already mapped) and NK-cell (already mapped) activation in the bone-marrow (already mapped) tumour microenvironment; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of multiple myeloma.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MM angiotensin-ii: angiotensin-II from macrophages (already mapped) and osteoblasts (already mapped) drives vascular remodelling in bone marrow; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MM wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and plasma cells (already mapped) regulates myeloma proliferation; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MM fibronectin: fibronectin in macrophages (already mapped) and osteoblasts (already mapped) anchors bone-marrow tumour matrix; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)

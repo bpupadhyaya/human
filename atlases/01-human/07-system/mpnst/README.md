@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "MPNST phosphorus: phosphorus in PI3K-Akt and NF1 (already mapped) Ras-GTPase phosphorylation relays governs Schwann cell (already mapped) proliferation; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of MPNST."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "MPNST glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sarcoma cascade of MPNST."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "MPNST angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sarcoma cascade of MPNST."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "MPNST wnt-beta-catenin: WNT/β-catenin on fibroblasts (already mapped) and macrophages (already mapped) regulates tumour-stromal interaction; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST."
 ---
 
 # MPNST
@@ -855,6 +864,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MPNST chloride: chloride regulates Schwann cells (already mapped) and macrophages (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) sarcoma cascade of MPNST.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MPNST hydrogen: hydrogen in Schwann cells (already mapped) and macrophages (already mapped) modulates NF1 (already mapped) protein stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of MPNST.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MPNST phosphorus: phosphorus in PI3K-Akt and NF1 (already mapped) Ras-GTPase phosphorylation relays governs Schwann cell (already mapped) proliferation; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of MPNST.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MPNST glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sarcoma cascade of MPNST.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MPNST angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sarcoma cascade of MPNST.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MPNST wnt-beta-catenin: WNT/β-catenin on fibroblasts (already mapped) and macrophages (already mapped) regulates tumour-stromal interaction; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
