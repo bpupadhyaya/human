@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "MAP rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes tumour immune evasion; rankl excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "MAP vegf: VEGF from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp angiogenesis; vegf excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "MAP fibronectin: fibronectin in macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp ECM remodelling; fibronectin excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "MAP igf-1: IGF-1 from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp cell survival; igf-1 dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
 ---
 
 # MUTYH-Associated Polyposis
@@ -852,6 +861,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MAP glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MAP angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblasts (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MAP rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes tumour immune evasion; rankl excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — MAP vegf: VEGF from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp angiogenesis; vegf excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MAP fibronectin: fibronectin in macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp ECM remodelling; fibronectin excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MAP igf-1: IGF-1 from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp cell survival; igf-1 dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 
 ---
 
