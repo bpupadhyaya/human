@@ -543,6 +543,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "nitrogen, as urea-cycle substrate in renal tubular cells and macrophage (already mapped), governs uraemic toxin clearance; nitrogen retention amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrosis cascade in CKD."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "CKD oxygen: oxygen via ROS from renal tubular cells (already mapped) and macrophages (already mapped) modulates redox homeostasis; oxygen excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "CKD pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses renal immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "CKD rankl: RANKL from renal tubular cells (already mapped) and macrophages (already mapped) modulates bone-kidney mineral axis; RANKL excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -794,6 +803,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon metabolism in renal tubular cells and macrophage (already mapped) drives oxidative phosphorylation; carbon dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrosis and hepcidin (already mapped) cascade in CKD.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in renal tubular cells and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TGF-β (already mapped) tubulointerstitial fibrosis cascade in CKD.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen, as urea-cycle substrate in renal tubular cells and macrophage (already mapped), governs uraemic toxin clearance; nitrogen retention amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrosis cascade in CKD.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — CKD oxygen: oxygen via ROS from renal tubular cells (already mapped) and macrophages (already mapped) modulates redox homeostasis; oxygen excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — CKD pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses renal immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CKD rankl: RANKL from renal tubular cells (already mapped) and macrophages (already mapped) modulates bone-kidney mineral axis; RANKL excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
 
 ## Pathology
 

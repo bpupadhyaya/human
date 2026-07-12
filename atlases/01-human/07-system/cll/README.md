@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "sulfur, as glutathione precursor in B-cell (already mapped) and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CLL."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "CLL carbon: carbon backbone of nucleotides in B-cells (already mapped) and macrophages (already mapped) fuels lymphoma proliferation; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "CLL hydrogen: hydrogen via ROS from B-cells (already mapped) and macrophages (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "CLL nitrogen: nitrogen in DNA bases in B-cells (already mapped) and macrophages (already mapped) sustains lymphoma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
 ---
 
 # CLL
@@ -824,6 +833,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — zinc cofactors kinase signalling in B-cell (already mapped) and macrophage (already mapped); zinc deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) leukaemic survival cascade of CLL.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on B-cell (already mapped) and macrophage (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) leukaemic cascade of CLL.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in B-cell (already mapped) and macrophage (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CLL.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — CLL carbon: carbon backbone of nucleotides in B-cells (already mapped) and macrophages (already mapped) fuels lymphoma proliferation; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — CLL hydrogen: hydrogen via ROS from B-cells (already mapped) and macrophages (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — CLL nitrogen: nitrogen in DNA bases in B-cells (already mapped) and macrophages (already mapped) sustains lymphoma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
 
 ---
 
