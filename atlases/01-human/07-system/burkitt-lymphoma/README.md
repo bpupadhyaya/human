@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "burkitt activin-a: activin-A in B-cells (already mapped) and macrophages (already mapped) modulates lymphoma-stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "burkitt tgf-beta: TGF-β in B-cells (already mapped) and macrophages (already mapped) modulates lymphoma immune-fibrotic balance; TGF-β dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "burkitt cgrp: CGRP from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "burkitt calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -882,6 +891,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — burkitt fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) modulates lymphoma ECM remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — burkitt igf-1: IGF-1 in B-cells (already mapped) and macrophages (already mapped) modulates lymphoma proliferation; IGF-1 excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — burkitt activin-a: activin-A in B-cells (already mapped) and macrophages (already mapped) modulates lymphoma-stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — burkitt tgf-beta: TGF-β in B-cells (already mapped) and macrophages (already mapped) modulates lymphoma immune-fibrotic balance; TGF-β dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — burkitt cgrp: CGRP from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — burkitt calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
 
 ---
 
