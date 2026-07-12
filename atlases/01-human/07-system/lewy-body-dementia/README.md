@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/carbon
     relation: connects-to
     note: "LBD carbon: carbon as backbone of alpha-synuclein (already mapped) and Lewy-body (already mapped) structural proteins in neurons (already mapped); carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) cascade of LBD."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "LBD hydrogen: hydrogen in redox chemistry of neurons (already mapped) and microglia (already mapped) sustains glutathione defence; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of Lewy body dementia."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "LBD PD-1: PD-1 checkpoint on microglia (already mapped) and T-cells (already mapped) regulates neuroinflammatory clearance of alpha-synuclein (already mapped); PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of LBD."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "LBD GLP-1: GLP-1 signalling in neurons (already mapped) and microglia (already mapped) promotes neuroprotection against alpha-synuclein (already mapped); GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of LBD."
 ---
 
 # Lewy Body Dementia
@@ -849,6 +858,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — LBD nitrogen: nitrogen, as RNS in neurons (already mapped) and microglia (already mapped), nitrosylates α-synuclein and promotes aggregation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of Lewy body dementia.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — LBD sulfur: sulfur, as cysteine in neurons (already mapped) and microglia (already mapped), supports glutathione antioxidant defence; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of Lewy body dementia.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — LBD carbon: carbon as backbone of alpha-synuclein (already mapped) and Lewy-body (already mapped) structural proteins in neurons (already mapped); carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) cascade of LBD.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — LBD hydrogen: hydrogen in redox chemistry of neurons (already mapped) and microglia (already mapped) sustains glutathione defence; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of Lewy body dementia.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — LBD PD-1: PD-1 checkpoint on microglia (already mapped) and T-cells (already mapped) regulates neuroinflammatory clearance of alpha-synuclein (already mapped); PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of LBD.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — LBD GLP-1: GLP-1 signalling in neurons (already mapped) and microglia (already mapped) promotes neuroprotection against alpha-synuclein (already mapped); GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of LBD.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

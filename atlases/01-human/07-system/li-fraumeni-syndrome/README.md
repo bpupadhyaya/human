@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "LFS nitrogen: nitrogen in amino-acid scaffold of TP53 (already mapped) and BRCA1 (already mapped) proteins modulates DNA-damage (already mapped) response; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) mutagenic cascade of Li-Fraumeni."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "LFS chloride: chloride ion homeostasis in fibroblasts (already mapped) and lymphocytes (already mapped) modulates TP53 (already mapped)-dependent apoptotic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oncogenic cascade of LFS."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "LFS hydrogen: hydrogen in redox chemistry of fibroblasts (already mapped) modulates TP53 (already mapped) and MDM2 stress response; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) mutagenic cascade of Li-Fraumeni."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "LFS phosphorus: phosphorus in PI3K-Akt and TP53 (already mapped) phosphorylation relays governs cell-cycle (already mapped) checkpoint and apoptosis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of LFS."
 ---
 
 # Li-Fraumeni Syndrome
@@ -862,6 +871,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — LFS calcium: calcium as second messenger in TP53 (already mapped) and cell-cycle (already mapped) checkpoint signalling in fibroblasts (already mapped); calcium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of Li-Fraumeni syndrome.
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — LFS carbon: carbon as backbone of TP53 (already mapped) and MDM2 protein scaffold sustains tumour-suppressor (already mapped) function; carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of LFS.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — LFS nitrogen: nitrogen in amino-acid scaffold of TP53 (already mapped) and BRCA1 (already mapped) proteins modulates DNA-damage (already mapped) response; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) mutagenic cascade of Li-Fraumeni.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — LFS chloride: chloride ion homeostasis in fibroblasts (already mapped) and lymphocytes (already mapped) modulates TP53 (already mapped)-dependent apoptotic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oncogenic cascade of LFS.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — LFS hydrogen: hydrogen in redox chemistry of fibroblasts (already mapped) modulates TP53 (already mapped) and MDM2 stress response; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) mutagenic cascade of Li-Fraumeni.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — LFS phosphorus: phosphorus in PI3K-Akt and TP53 (already mapped) phosphorylation relays governs cell-cycle (already mapped) checkpoint and apoptosis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of LFS.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
