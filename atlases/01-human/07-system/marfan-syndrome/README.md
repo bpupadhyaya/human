@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Marfan calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Marfan tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives aortic fibrotic remodelling; TGF-β excess amplifies collagen (already mapped) and il-6 (already mapped) and mmp (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Marfan substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular tone; substance-p excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Marfan insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives metabolic repair; insulin-receptor loss amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -886,6 +895,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Marfan activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) promotes aortic fibrosis; activin-a excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Marfan cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular tone; cgrp excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Marfan calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Marfan tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives aortic fibrotic remodelling; TGF-β excess amplifies collagen (already mapped) and il-6 (already mapped) and mmp (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Marfan substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular tone; substance-p excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Marfan insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives metabolic repair; insulin-receptor loss amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 
 ---
 

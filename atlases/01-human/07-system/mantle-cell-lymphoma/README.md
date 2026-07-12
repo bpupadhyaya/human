@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "MCL fibronectin: Fibronectin in fibroblasts (already mapped) and B-cells (already mapped) scaffolds lymphoma ECM; fibronectin excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "MCL notch: NOTCH in B-cells (already mapped) and fibroblasts (already mapped) regulates lymphoma clonal fate; notch dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "MCL igf-1: IGF-1 from fibroblasts (already mapped) and B-cells (already mapped) promotes lymphoma metabolic growth; igf-1 excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "MCL activin-a: activin-A from fibroblasts (already mapped) and B-cells (already mapped) promotes lymphoma fibrosis; activin-a excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -869,6 +878,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MCL wnt-beta-catenin: WNT/β-catenin in B-cells (already mapped) and macrophages (already mapped) drives lymphoma clonal expansion; wnt-beta-catenin dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) cascade of MCL.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MCL rankl: RANKL in macrophages (already mapped) and fibroblasts (already mapped) modulates MCL bone-immune axis; RANKL excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MCL fibronectin: Fibronectin in fibroblasts (already mapped) and B-cells (already mapped) scaffolds lymphoma ECM; fibronectin excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — MCL notch: NOTCH in B-cells (already mapped) and fibroblasts (already mapped) regulates lymphoma clonal fate; notch dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MCL igf-1: IGF-1 from fibroblasts (already mapped) and B-cells (already mapped) promotes lymphoma metabolic growth; igf-1 excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MCL activin-a: activin-A from fibroblasts (already mapped) and B-cells (already mapped) promotes lymphoma fibrosis; activin-a excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
 
 ---
 
