@@ -573,6 +573,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "ITP igf-1: IGF-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes platelet marrow recovery; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "ITP activin-a: activin-A from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes platelet autoimmune fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "ITP cgrp: CGRP from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates autoimmune neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "ITP calcitonin: calcitonin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -893,6 +902,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ITP fibronectin: fibronectin in macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes immune ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — ITP notch: Notch signalling on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates platelet autoimmunity; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — ITP igf-1: IGF-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes platelet marrow recovery; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ITP activin-a: activin-A from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes platelet autoimmune fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ITP cgrp: CGRP from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates autoimmune neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ITP calcitonin: calcitonin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)
