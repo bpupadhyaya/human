@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "VHL RANKL: RANKL in macrophages (already mapped) and renal tubular cells (already mapped) modulates VHL bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "VHL smad4: SMAD4 in renal tubular cells (already mapped) and macrophages (already mapped) mediates VHL fibrotic signalling; smad4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "VHL il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates VHL immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "VHL vegf: VEGF from renal tubular cells (already mapped) and macrophages (already mapped) drives VHL angiogenesis; vegf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of VHL disease."
 ---
 
 # VHL Disease
@@ -857,6 +866,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — VHL angiotensin-II: Angiotensin-II in renal tubular cells (already mapped) and macrophages (already mapped) promotes VHL tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — VHL Wnt/β-catenin: Wnt/β-catenin in renal tubular cells (already mapped) and macrophages (already mapped) drives VHL tumour proliferation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — VHL RANKL: RANKL in macrophages (already mapped) and renal tubular cells (already mapped) modulates VHL bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — VHL smad4: SMAD4 in renal tubular cells (already mapped) and macrophages (already mapped) mediates VHL fibrotic signalling; smad4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — VHL il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates VHL immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VHL vegf: VEGF from renal tubular cells (already mapped) and macrophages (already mapped) drives VHL angiogenesis; vegf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of VHL disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)

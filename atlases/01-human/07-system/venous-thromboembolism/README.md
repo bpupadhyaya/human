@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "VTE Wnt/β-catenin: Wnt/β-catenin in endothelium (already mapped) and platelets (already mapped) regulates vascular homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "VTE rankl: RANKL in macrophages (already mapped) and endothelium (already mapped) modulates VTE bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "VTE smad4: SMAD4 in endothelium (already mapped) and macrophages (already mapped) mediates VTE fibrotic signalling; smad4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "VTE il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates VTE immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism."
 ---
 
 # Venous Thromboembolism
@@ -862,6 +871,9 @@ cross_links:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — VTE GLP-1: GLP-1 from gut L-cells (already mapped) and macrophages (already mapped) modulates vascular inflammation; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — VTE angiotensin-II: Angiotensin-II in endothelium (already mapped) and platelets (already mapped) promotes prothrombotic RAAS activation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — VTE Wnt/β-catenin: Wnt/β-catenin in endothelium (already mapped) and platelets (already mapped) regulates vascular homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — VTE rankl: RANKL in macrophages (already mapped) and endothelium (already mapped) modulates VTE bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — VTE smad4: SMAD4 in endothelium (already mapped) and macrophages (already mapped) mediates VTE fibrotic signalling; smad4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — VTE il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates VTE immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
