@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "diffuse-midline-glioma calcitonin: calcitonin from astrocytes (already mapped) and macrophages (already mapped) regulates calcium homeostasis; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "diffuse-midline-glioma substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates glioma pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "diffuse-midline-glioma insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in glioma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "diffuse-midline-glioma aldosterone: aldosterone in microglia (already mapped) and astrocytes (already mapped) modulates glioma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -886,6 +895,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — diffuse-midline-glioma fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes stromal remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — diffuse-midline-glioma cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates glioma nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — diffuse-midline-glioma calcitonin: calcitonin from astrocytes (already mapped) and macrophages (already mapped) regulates calcium homeostasis; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — diffuse-midline-glioma substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates glioma pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — diffuse-midline-glioma insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in glioma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — diffuse-midline-glioma aldosterone: aldosterone in microglia (already mapped) and astrocytes (already mapped) modulates glioma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
 
 ---
 

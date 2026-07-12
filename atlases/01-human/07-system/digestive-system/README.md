@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/fgf23
     relation: connects-to
     note: "digestive-system fgf23: FGF23 from enterocytes (already mapped) and macrophages (already mapped) regulates phosphate homeostasis; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "digestive-system insulin-receptor: insulin receptor on enterocytes (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "digestive-system androgen-receptor: androgen receptor on enterocytes (already mapped) and macrophages (already mapped) modulates intestinal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "digestive-system angiopoietin: angiopoietin from enterocytes (already mapped) and macrophages (already mapped) modulates gut vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -860,6 +869,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Activin-A](../../03-molecular/activin-a/README.md) — digestive-system activin-a: activin-A from hepatocytes (already mapped) and enterocytes (already mapped) regulates mucosal repair; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) proliferative cascade of the digestive system.
 - **Connects to:** [Calcitonin](../../03-molecular/calcitonin/README.md) — digestive-system calcitonin: calcitonin from enterocytes (already mapped) and macrophages (already mapped) regulates calcium absorption; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system.
 - **Connects to:** [FGF23](../../03-molecular/fgf23/README.md) — digestive-system fgf23: FGF23 from enterocytes (already mapped) and macrophages (already mapped) regulates phosphate homeostasis; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system.
+- **Connects to:** [Insulin Receptor](../../03-molecular/insulin-receptor/README.md) — digestive-system insulin-receptor: insulin receptor on enterocytes (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system.
+- **Connects to:** [Androgen Receptor](../../03-molecular/androgen-receptor/README.md) — digestive-system androgen-receptor: androgen receptor on enterocytes (already mapped) and macrophages (already mapped) modulates intestinal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system.
+- **Connects to:** [Angiopoietin](../../03-molecular/angiopoietin/README.md) — digestive-system angiopoietin: angiopoietin from enterocytes (already mapped) and macrophages (already mapped) modulates gut vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system.
 
 ## Pathology
 
