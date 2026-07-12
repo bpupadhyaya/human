@@ -564,6 +564,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "PTSD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotective stress repair; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "PTSD il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates neuroinflammatory surveillance in trauma circuits; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PTSD fibronectin: fibronectin in neurons (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling in trauma circuits; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PTSD notch: Notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates glial fate in trauma circuits; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
 ---
 
 # PTSD
@@ -881,6 +890,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PTSD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates trauma-circuit plasticity; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PTSD rankl: RANKL from microglia (already mapped) and macrophages (already mapped) promotes neuroinflammation in trauma circuits; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — PTSD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotective stress repair; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — PTSD il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates neuroinflammatory surveillance in trauma circuits; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PTSD fibronectin: fibronectin in neurons (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling in trauma circuits; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — PTSD notch: Notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates glial fate in trauma circuits; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)

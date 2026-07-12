@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "PTCL fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds T-lymphoma tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PTCL notch: Notch signalling on T-lymphoma cells (already mapped) and macrophages (already mapped) regulates T-lymphoma cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "PTCL igf-1: IGF-1 from T-lymphoma cells (already mapped) and macrophages (already mapped) promotes T-lymphoma cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "PTCL activin-a: activin-A from T-lymphoma cells (already mapped) and macrophages (already mapped) drives T-lymphoma fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -880,6 +889,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PTCL wnt-beta-catenin: WNT/β-catenin on T-lymphoma cells (already mapped) and macrophages (already mapped) drives tumour invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PTCL rankl: RANKL from macrophages (already mapped) and T-lymphoma cells (already mapped) promotes tumour immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PTCL fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds T-lymphoma tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — PTCL notch: Notch signalling on T-lymphoma cells (already mapped) and macrophages (already mapped) regulates T-lymphoma cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PTCL igf-1: IGF-1 from T-lymphoma cells (already mapped) and macrophages (already mapped) promotes T-lymphoma cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PTCL activin-a: activin-A from T-lymphoma cells (already mapped) and macrophages (already mapped) drives T-lymphoma fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 
 ---
 
