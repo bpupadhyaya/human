@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "ASD cgrp: CGRP in neurons (already mapped) and astrocytes (already mapped) modulates neuro-inflammatory pain and sensory hypersensitivity; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in ASD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "ASD calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates neuro-calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "ASD substance-p: substance-P from neurons (already mapped) and astrocytes (already mapped) modulates neuro-nociceptive sensory tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "ASD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD."
 ---
 
 # Autism Spectrum Disorder
@@ -896,6 +905,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ASD activin-a: activin-A in neurons (already mapped) and astrocytes (already mapped) modulates synaptic maturation and neuroprotection; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity disruption in ASD.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — ASD tgf-beta: TGF-β in microglia (already mapped) and neurons (already mapped) modulates neuroinflammatory balance and synaptic pruning; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in ASD.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ASD cgrp: CGRP in neurons (already mapped) and astrocytes (already mapped) modulates neuro-inflammatory pain and sensory hypersensitivity; CGRP dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in ASD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ASD calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates neuro-calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — ASD substance-p: substance-P from neurons (already mapped) and astrocytes (already mapped) modulates neuro-nociceptive sensory tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ASD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)

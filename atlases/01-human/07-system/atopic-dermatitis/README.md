@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "AD IGF-1: IGF-1 in keratinocytes (already mapped) and fibroblasts (already mapped) modulates epidermal proliferation and repair; IGF-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous inflammatory cascade in AD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "AD activin-a: activin-A from keratinocytes (already mapped) and fibroblasts (already mapped) regulates skin immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "AD calcitonin: calcitonin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "AD insulin-receptor: insulin receptor on keratinocytes (already mapped) and fibroblasts (already mapped) drives skin metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
 ---
 
 # Atopic Dermatitis
@@ -870,6 +879,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AD fibronectin: fibronectin in keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin barrier integrity; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic cutaneous cascade in AD.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AD notch: Notch in keratinocytes (already mapped) and T-helper cells (already mapped) modulates skin barrier and Th2 polarisation; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AD IGF-1: IGF-1 in keratinocytes (already mapped) and fibroblasts (already mapped) modulates epidermal proliferation and repair; IGF-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous inflammatory cascade in AD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AD activin-a: activin-A from keratinocytes (already mapped) and fibroblasts (already mapped) regulates skin immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AD calcitonin: calcitonin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AD insulin-receptor: insulin receptor on keratinocytes (already mapped) and fibroblasts (already mapped) drives skin metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
