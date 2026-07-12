@@ -552,6 +552,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "CKD rankl: RANKL from renal tubular cells (already mapped) and macrophages (already mapped) modulates bone-kidney mineral axis; RANKL excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "CKD il-2: IL-2 on t-cells (already mapped) and macrophages (already mapped) amplifies renal immune activation; il-2 excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "CKD fibronectin: fibronectin in renal tubular cells (already mapped) and fibroblasts (already mapped) promotes ECM deposition; fibronectin excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "CKD igf-1: IGF-1 on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal hypertrophy; igf-1 excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -806,6 +815,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — CKD oxygen: oxygen via ROS from renal tubular cells (already mapped) and macrophages (already mapped) modulates redox homeostasis; oxygen excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — CKD pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses renal immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CKD rankl: RANKL from renal tubular cells (already mapped) and macrophages (already mapped) modulates bone-kidney mineral axis; RANKL excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CKD il-2: IL-2 on t-cells (already mapped) and macrophages (already mapped) amplifies renal immune activation; il-2 excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CKD fibronectin: fibronectin in renal tubular cells (already mapped) and fibroblasts (already mapped) promotes ECM deposition; fibronectin excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — CKD igf-1: IGF-1 on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal hypertrophy; igf-1 excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
 
 ## Pathology
 

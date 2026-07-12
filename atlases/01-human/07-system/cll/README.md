@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "CLL nitrogen: nitrogen in DNA bases in B-cells (already mapped) and macrophages (already mapped) sustains lymphoma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "CLL glp-1: GLP-1 from macrophages (already mapped) and B-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "CLL angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes CLL microenvironment skewing; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "CLL wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and stromal cells (already mapped) regulates lymphoma proliferation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
 ---
 
 # CLL
@@ -836,6 +845,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — CLL carbon: carbon backbone of nucleotides in B-cells (already mapped) and macrophages (already mapped) fuels lymphoma proliferation; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — CLL hydrogen: hydrogen via ROS from B-cells (already mapped) and macrophages (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — CLL nitrogen: nitrogen in DNA bases in B-cells (already mapped) and macrophages (already mapped) sustains lymphoma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — CLL glp-1: GLP-1 from macrophages (already mapped) and B-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) lymphoma cascade in CLL.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — CLL angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes CLL microenvironment skewing; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — CLL wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and stromal cells (already mapped) regulates lymphoma proliferation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
 
 ---
 
