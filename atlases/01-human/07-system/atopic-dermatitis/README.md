@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "AD angiotensin-ii: angiotensin II on fibroblasts (already mapped) and macrophages (already mapped) promotes dermal remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) barrier dysfunction in atopic dermatitis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "AD wnt-beta-catenin: WNT/β-catenin on keratinocytes (already mapped) and fibroblasts (already mapped) regulates barrier; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in atopic dermatitis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "AD rankl: RANKL in macrophages (already mapped) and dendritic cells (already mapped) modulates Th2 immune skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous inflammatory cascade in atopic dermatitis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "AD il-2: IL-2 from T-helper cells (already mapped) drives Th2 polarisation; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic cutaneous inflammatory cascade in atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -846,6 +855,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AD pd-1: PD-1 on t-helper cells (already mapped) and regulatory T cells (already mapped) restrains Th2 atopic response; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic skin inflammation in atopic dermatitis.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AD glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) Th2 cutaneous inflammatory cascade in atopic dermatitis.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — AD angiotensin-ii: angiotensin II on fibroblasts (already mapped) and macrophages (already mapped) promotes dermal remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) barrier dysfunction in atopic dermatitis.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — AD wnt-beta-catenin: WNT/β-catenin on keratinocytes (already mapped) and fibroblasts (already mapped) regulates barrier; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in atopic dermatitis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AD rankl: RANKL in macrophages (already mapped) and dendritic cells (already mapped) modulates Th2 immune skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous inflammatory cascade in atopic dermatitis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — AD il-2: IL-2 from T-helper cells (already mapped) drives Th2 polarisation; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic cutaneous inflammatory cascade in atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

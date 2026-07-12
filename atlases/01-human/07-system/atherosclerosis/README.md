@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Athero pd-1: PD-1 on t-cytotoxic cells (already mapped) and regulatory T cells (already mapped) restrains plaque inflammation; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) atheroinflammatory plaque destabilisation."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Athero glp-1: GLP-1 on macrophages (already mapped) and endothelial cells (already mapped) attenuates vascular skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) atheroinflammatory plaque cascade in atherosclerosis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Athero angiotensin-ii: angiotensin II on smooth-muscle cells (already mapped) and endothelial cells (already mapped) promotes remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) athero cascade in atherosclerosis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Athero wnt-beta-catenin: WNT/β-catenin on smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates homeostasis; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) in atherosclerosis."
 ---
 
 # Atherosclerosis
@@ -845,6 +854,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Athero hydrogen: hydrogen via ROS balance in macrophages (already mapped) and endothelial cells (already mapped) modulates plaque oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade in atherosclerosis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Athero phosphorus: phosphorus-driven ATP in smooth-muscle cells (already mapped) and endothelial cells (already mapped) sustains vascular homeostasis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) in atherosclerosis.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Athero pd-1: PD-1 on t-cytotoxic cells (already mapped) and regulatory T cells (already mapped) restrains plaque inflammation; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) atheroinflammatory plaque destabilisation.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Athero glp-1: GLP-1 on macrophages (already mapped) and endothelial cells (already mapped) attenuates vascular skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) atheroinflammatory plaque cascade in atherosclerosis.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Athero angiotensin-ii: angiotensin II on smooth-muscle cells (already mapped) and endothelial cells (already mapped) promotes remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) athero cascade in atherosclerosis.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Athero wnt-beta-catenin: WNT/β-catenin on smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates homeostasis; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) in atherosclerosis.
 
 ---
 
