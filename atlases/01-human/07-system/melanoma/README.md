@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Melanoma calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium signalling; calcitonin dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Melanoma notch: NOTCH in fibroblasts (already mapped) and macrophages (already mapped) regulates melanoma cell fate; notch dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Melanoma igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes melanoma metabolic growth; igf-1 excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Melanoma tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives melanoma immunosuppression; TGF-β excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
 ---
 
 # Melanoma
@@ -845,6 +854,9 @@ cross_links:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Melanoma activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives tumour fibrotic remodelling; activin-a excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Melanoma cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates melanoma vascular tone; cgrp excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Melanoma calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium signalling; calcitonin dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Melanoma notch: NOTCH in fibroblasts (already mapped) and macrophages (already mapped) regulates melanoma cell fate; notch dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Melanoma igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes melanoma metabolic growth; igf-1 excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Melanoma tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives melanoma immunosuppression; TGF-β excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
