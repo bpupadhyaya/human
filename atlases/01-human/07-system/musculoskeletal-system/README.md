@@ -545,6 +545,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "MSK activin-A: activin-A from myoblasts (already mapped) and synoviocytes (already mapped) regulates bone formation and muscle repair; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of musculoskeletal disease."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "MSK insulin-receptor: insulin-receptor on osteoblasts (already mapped) and macrophages (already mapped) drives anabolic signalling; insulin-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "MSK aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) drives mineralocorticoid fibrosis; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "MSK androgen-receptor: androgen-receptor on osteoblasts (already mapped) and macrophages (already mapped) drives anabolic tone; androgen-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
 ---
 
 # Musculoskeletal System
@@ -857,6 +866,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MSK IL-2: IL-2 from activated T-cells (already mapped) in synovium (already mapped) drives cytotoxic and T-regulatory cell expansion; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) autoimmune cascade of musculoskeletal disease.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MSK fibronectin: fibronectin in cartilage (already mapped) and synovium (already mapped) scaffolds chondrocyte adhesion and repair; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) matrix-degradation cascade of musculoskeletal disease.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MSK activin-A: activin-A from myoblasts (already mapped) and synoviocytes (already mapped) regulates bone formation and muscle repair; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of musculoskeletal disease.
+- `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — MSK insulin-receptor: insulin-receptor on osteoblasts (already mapped) and macrophages (already mapped) drives anabolic signalling; insulin-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MSK aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) drives mineralocorticoid fibrosis; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Androgen-receptor](../../03-molecular/androgen-receptor/README.md)** — MSK androgen-receptor: androgen-receptor on osteoblasts (already mapped) and macrophages (already mapped) drives anabolic tone; androgen-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 
 ## Pathology
 
