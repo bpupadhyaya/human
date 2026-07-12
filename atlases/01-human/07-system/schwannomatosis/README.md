@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "SWN nitrogen: nitrogen, as purine backbone in macrophages (already mapped) and mast-cell (already mapped), fuels nucleotide synthesis; nitrogen dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "SWN oxygen: tumour hypoxia in schwannomatosis drives HIF-1α and VEGF (already mapped) angiogenesis; oxygen depletion amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "SWN sulfur: sulfur, as glutathione in macrophages (already mapped) and mast-cell (already mapped), quenches oxidative stress; sulfur deficiency amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "SWN PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates tumour-immune surveillance; PD-1 dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -813,6 +822,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SWN carbon: carbon, as metabolic backbone of mTOR (already mapped) and EGFR (already mapped) in macrophages (already mapped) and mast-cell (already mapped), drives proliferative signalling; carbon dysregulation amplifies IL-6 (already mapped) cascade of schwannomatosis.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — SWN hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and mast-cell (already mapped), modulates tumour-immune balance; hydrogen dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SWN nitrogen: nitrogen, as purine backbone in macrophages (already mapped) and mast-cell (already mapped), fuels nucleotide synthesis; nitrogen dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SWN oxygen: tumour hypoxia in schwannomatosis drives HIF-1α and VEGF (already mapped) angiogenesis; oxygen depletion amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SWN sulfur: sulfur, as glutathione in macrophages (already mapped) and mast-cell (already mapped), quenches oxidative stress; sulfur deficiency amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SWN PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates tumour-immune surveillance; PD-1 dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

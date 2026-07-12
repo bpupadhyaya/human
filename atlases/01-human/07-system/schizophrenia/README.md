@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "Sz RANKL: RANKL signalling in macrophages (already mapped) and neurons (already mapped) modulates neuroinflammatory bone-immune crosstalk; RANKL dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Sz SMAD4: SMAD4-mediated TGF-β signalling in macrophages (already mapped) and neurons (already mapped) modulates neuroinflammatory homeostasis; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of schizophrenia."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Sz IL-2: IL-2 expands T-cytotoxic cells (already mapped) and regulatory T-cells in neuroinflammatory immune surveillance; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Sz fibronectin: fibronectin in neural extracellular matrix and macrophages (already mapped) sustains synaptic structural homeostasis; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of schizophrenia."
 ---
 
 # Schizophrenia
@@ -887,6 +896,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Sz PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates neuroinflammatory immune surveillance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of schizophrenia.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Sz Wnt/β-catenin: Wnt/β-catenin signalling in neurons (already mapped) and macrophages (already mapped) supports synaptic plasticity; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Sz RANKL: RANKL signalling in macrophages (already mapped) and neurons (already mapped) modulates neuroinflammatory bone-immune crosstalk; RANKL dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Sz SMAD4: SMAD4-mediated TGF-β signalling in macrophages (already mapped) and neurons (already mapped) modulates neuroinflammatory homeostasis; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of schizophrenia.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Sz IL-2: IL-2 expands T-cytotoxic cells (already mapped) and regulatory T-cells in neuroinflammatory immune surveillance; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Sz fibronectin: fibronectin in neural extracellular matrix and macrophages (already mapped) sustains synaptic structural homeostasis; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
