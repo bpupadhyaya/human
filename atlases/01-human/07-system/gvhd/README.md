@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "GVHD phosphorus: phosphorus as ATP in macrophages (already mapped) and effector T-cells (already mapped) fuels alloreactive kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "GVHD carbon: carbon in nucleotides of macrophages (already mapped) and effector T-cells (already mapped) fuels alloreactive proliferation; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "GVHD hydrogen: hydrogen via ROS from macrophages (already mapped) and effector T-cells (already mapped) modulates oxidative alloreactive injury; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "GVHD oxygen: oxygen drives mitochondrial metabolism in macrophages (already mapped) and effector T-cells (already mapped) sustaining alloreactive responses; oxygen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
 ---
 
 # Graft-Versus-Host Disease
@@ -857,6 +866,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GVHD chloride: chloride channels regulate macrophage (already mapped) and regulatory T-cell (already mapped) volume during alloreactive responses; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — GVHD nitrogen: nitrogen, as protein backbone in cytokines (already mapped) and effector T-cells (already mapped), sustains alloreactive signalling; nitrogen-derived RNS amplifies NF-κB (already mapped) and TNF-α (already mapped) tissue inflammation of GVHD.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GVHD phosphorus: phosphorus as ATP in macrophages (already mapped) and effector T-cells (already mapped) fuels alloreactive kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — GVHD carbon: carbon in nucleotides of macrophages (already mapped) and effector T-cells (already mapped) fuels alloreactive proliferation; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — GVHD hydrogen: hydrogen via ROS from macrophages (already mapped) and effector T-cells (already mapped) modulates oxidative alloreactive injury; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — GVHD oxygen: oxygen drives mitochondrial metabolism in macrophages (already mapped) and effector T-cells (already mapped) sustaining alloreactive responses; oxygen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)

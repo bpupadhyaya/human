@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "GM VEGF: gut-microbiome short-chain fatty acids stimulate VEGF-driven intestinal villus angiogenesis and mucosal-barrier repair; dysbiosis-induced IL-6 (already mapped) and NF-κB (already mapped) suppress VEGF homeostasis, impairing mucosal integrity."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "GM pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses gut-associated immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and intestinal epithelium (already mapped) dysbiosis cascade."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "GM angiotensin-ii: angiotensin-II from intestinal epithelium (already mapped) and macrophages (already mapped) modulates mucosal vascular tone; angiotensin-ii dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) gut-microbiome inflammation cascade."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "GM rankl: RANKL from intestinal epithelium (already mapped) and macrophages (already mapped) regulates mucosal immune-bone crosstalk; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome inflammation cascade."
 ---
 
 # Gut Microbiome
@@ -789,6 +798,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GM chloride: chloride maintains intestinal epithelium (already mapped) electrolyte balance and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) mucosal inflammation in gut dysbiosis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GM phosphorus: phosphorus as ATP in intestinal epithelium (already mapped) and macrophages (already mapped) fuels mucosal repair and immune signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) gut-microbiome inflammation.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — GM VEGF: gut-microbiome short-chain fatty acids stimulate VEGF-driven intestinal villus angiogenesis and mucosal-barrier repair; dysbiosis-induced IL-6 (already mapped) and NF-κB (already mapped) suppress VEGF homeostasis, impairing mucosal integrity.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — GM pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses gut-associated immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and intestinal epithelium (already mapped) dysbiosis cascade.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — GM angiotensin-ii: angiotensin-II from intestinal epithelium (already mapped) and macrophages (already mapped) modulates mucosal vascular tone; angiotensin-ii dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) gut-microbiome inflammation cascade.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — GM rankl: RANKL from intestinal epithelium (already mapped) and macrophages (already mapped) regulates mucosal immune-bone crosstalk; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome inflammation cascade.
 
 ## Pathology
 
