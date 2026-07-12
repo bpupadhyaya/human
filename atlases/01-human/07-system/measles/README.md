@@ -554,6 +554,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Measles sulfur: sulfur in cysteine residues of measles-virus fusion protein and host interferon (already mapped) sustains antiviral redox defence; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of measles."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Measles pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates antiviral immune tolerance; pd-1 dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Measles glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Measles angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade."
 ---
 
 # Measles
@@ -877,6 +886,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Measles hydrogen: hydrogen in redox chemistry of lymphocytes (already mapped) and macrophages (already mapped) sustains antiviral glutathione defence; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of measles.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Measles nitrogen: nitrogen in amino-acid scaffold of measles-virus nucleoproteins and host T-cell (already mapped) receptors drives adaptive immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of measles.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Measles sulfur: sulfur in cysteine residues of measles-virus fusion protein and host interferon (already mapped) sustains antiviral redox defence; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of measles.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Measles pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates antiviral immune tolerance; pd-1 dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Measles glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Measles angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

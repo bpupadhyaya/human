@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "MB sulfur: sulfur in cysteine residues of sonic-hedgehog (already mapped) and PTCH1 proteins sustains redox stability in cerebellar granule cells (already mapped); sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Medullo glp-1: GLP-1 from macrophages (already mapped) and microglia (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Medullo angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and microglia (already mapped) drives tumour vascular remodelling; angiotensin-ii excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Medullo rankl: RANKL from microglia (already mapped) and macrophages (already mapped) promotes tumour neuroinflammation; rankl excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
 ---
 
 # Medulloblastoma
@@ -853,6 +862,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MB hydrogen: hydrogen in redox chemistry of cerebellar granule cells (already mapped) and microglia (already mapped) modulates sonic-hedgehog (already mapped) stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MB phosphorus: phosphorus in PI3K-Akt and sonic-hedgehog (already mapped) signalling phosphorylation governs cerebellar granule cell (already mapped) proliferation; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MB sulfur: sulfur in cysteine residues of sonic-hedgehog (already mapped) and PTCH1 proteins sustains redox stability in cerebellar granule cells (already mapped); sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Medullo glp-1: GLP-1 from macrophages (already mapped) and microglia (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Medullo angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and microglia (already mapped) drives tumour vascular remodelling; angiotensin-ii excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Medullo rankl: RANKL from microglia (already mapped) and macrophages (already mapped) promotes tumour neuroinflammation; rankl excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
