@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "AN tgf-beta: TGF-β in adipocytes (already mapped) and immune cells (already mapped) modulates anti-inflammatory metabolic balance; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "AN cgrp: CGRP from neurons (already mapped) and adipocytes (already mapped) modulates anorexia neuroimmune tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "AN calcitonin: calcitonin from neurons (already mapped) and adipocytes (already mapped) modulates calcium balance in starvation; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) cascade of AN."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "AN substance-p: substance-P from neurons (already mapped) and adipocytes (already mapped) modulates nociceptive signalling in anorexia; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) cascade of AN."
 ---
 
 # Anorexia Nervosa
@@ -900,6 +909,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AN notch: Notch in neurons (already mapped) and adipocytes (already mapped) modulates neuro-metabolic cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of anorexia nervosa.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AN activin-a: activin-A in adipocytes (already mapped) and hypothalamus (already mapped) modulates appetite and energy balance; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — AN tgf-beta: TGF-β in adipocytes (already mapped) and immune cells (already mapped) modulates anti-inflammatory metabolic balance; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AN cgrp: CGRP from neurons (already mapped) and adipocytes (already mapped) modulates anorexia neuroimmune tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AN calcitonin: calcitonin from neurons (already mapped) and adipocytes (already mapped) modulates calcium balance in starvation; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) cascade of AN.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — AN substance-p: substance-P from neurons (already mapped) and adipocytes (already mapped) modulates nociceptive signalling in anorexia; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) cascade of AN.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
