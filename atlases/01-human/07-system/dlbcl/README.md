@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "DLBCL nitrogen: nitric oxide from iNOS in macrophages (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant proliferation cascade of DLBCL."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "DLBCL carbon: carbon backbone of nucleotides in B-cells (already mapped) and macrophages (already mapped) fuels lymphoma proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant cascade of DLBCL."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "DLBCL hydrogen: hydrogen via ROS from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant cascade of DLBCL."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "DLBCL oxygen: oxygen via ROS from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma redox homeostasis; oxygen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant cascade of DLBCL."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -833,6 +842,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — DLBCL zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour function; zinc deficiency impairs immune surveillance and amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant survival cascade of DLBCL.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — DLBCL chloride: chloride channels on B-cells (already mapped) and macrophages (already mapped) regulate volume and apoptotic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and bcl-2 (already mapped) survival cascade of DLBCL.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — DLBCL nitrogen: nitric oxide from iNOS in macrophages (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant proliferation cascade of DLBCL.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — DLBCL carbon: carbon backbone of nucleotides in B-cells (already mapped) and macrophages (already mapped) fuels lymphoma proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant cascade of DLBCL.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — DLBCL hydrogen: hydrogen via ROS from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant cascade of DLBCL.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — DLBCL oxygen: oxygen via ROS from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma redox homeostasis; oxygen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant cascade of DLBCL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

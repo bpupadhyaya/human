@@ -536,6 +536,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Endocrine TGF-β: TGF-β from macrophages (already mapped) and hepatocytes (already mapped) promotes endocrine gland fibrosis; TGF-β excess amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade in autoimmune endocrinopathies."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Endocrine pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses autoimmune endocrine surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) cascade."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Endocrine vegf: VEGF from macrophages (already mapped) and hepatocytes (already mapped) drives endocrine gland angiogenesis; VEGF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) endocrine cascade."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Endocrine wnt-beta-catenin: Wnt/β-catenin in macrophages (already mapped) and hepatocytes (already mapped) regulates endocrine gland development; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) cascade."
 ---
 
 # Endocrine System
@@ -866,6 +875,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Endocrine hydrogen: hydrogen ions regulate intracellular pH in hepatocytes (already mapped) and macrophages (already mapped); acid-base imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in endocrine gland tissue.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Endocrine TNF-α: TNF-α from macrophages (already mapped) amplifies the NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade, driving autoimmune attack on thyroid, pancreatic islet, and adrenal endocrine glands; TNF-α excess exacerbates endocrine destruction.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Endocrine TGF-β: TGF-β from macrophages (already mapped) and hepatocytes (already mapped) promotes endocrine gland fibrosis; TGF-β excess amplifies the NF-κB (already mapped) and IL-6 (already mapped) cascade in autoimmune endocrinopathies.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Endocrine pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses autoimmune endocrine surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) cascade.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Endocrine vegf: VEGF from macrophages (already mapped) and hepatocytes (already mapped) drives endocrine gland angiogenesis; VEGF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) endocrine cascade.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Endocrine wnt-beta-catenin: Wnt/β-catenin in macrophages (already mapped) and hepatocytes (already mapped) regulates endocrine gland development; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) cascade.
 
 ## Pathology
 
