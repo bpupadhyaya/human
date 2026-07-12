@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "chloride channels on cardiomyocyte (already mapped) and macrophage (already mapped) regulate myocardial excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "carney carbon: carbon backbone of nucleotides in macrophages (already mapped) and cardiomyocytes (already mapped) fuels tumour growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "carney hydrogen: hydrogen via ROS from macrophages (already mapped) and cardiomyocytes (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "carney nitrogen: nitrogen in DNA bases of macrophages (already mapped) and cardiomyocytes (already mapped) sustains myxoma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
 ---
 
 # Carney Complex
@@ -833,6 +842,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — zinc cofactors fibroblast (already mapped) and cardiomyocyte (already mapped) signalling; zinc deficiency disrupts mTOR (already mapped) and IGF-1 (already mapped) and PRKAR1A (already mapped) cascade amplifying NF-κB (already mapped) signalling in Carney complex.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus in cardiomyocyte (already mapped) and fibroblast (already mapped) fuels ATP-driven PRKAR1A (already mapped) signalling; phosphate dysregulation amplifies mTOR (already mapped) and IGF-1 (already mapped) and NF-κB (already mapped) cascade in Carney complex.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on cardiomyocyte (already mapped) and macrophage (already mapped) regulate myocardial excitability; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carney carbon: carbon backbone of nucleotides in macrophages (already mapped) and cardiomyocytes (already mapped) fuels tumour growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — carney hydrogen: hydrogen via ROS from macrophages (already mapped) and cardiomyocytes (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — carney nitrogen: nitrogen in DNA bases of macrophages (already mapped) and cardiomyocytes (already mapped) sustains myxoma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 
 ---
 
