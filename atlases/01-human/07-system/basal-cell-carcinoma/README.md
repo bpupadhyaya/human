@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "BCC sulfur: H2S from sulfur-amino acids in macrophages (already mapped) and skin (already mapped) keratinocytes scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in basal-cell carcinoma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "BCC carbon: carbon backbone of nucleotides in macrophages (already mapped) and fibroblasts (already mapped) sustains tumour metabolic reprogramming; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth in BCC."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "BCC hydrogen: hydrogen via ROS balance in macrophages (already mapped) and endothelial cells (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "BCC nitrogen: nitric oxide from iNOS in macrophages (already mapped) and endothelial cells (already mapped) modulates tumour vasculature; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour angiogenic cascade in BCC."
 ---
 
 # Basal Cell Carcinoma
@@ -833,6 +842,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — BCC potassium: potassium channels on skin (already mapped) keratinocytes regulate intracellular pH; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour-promoting cascade in basal-cell carcinoma.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — BCC chloride: chloride channels on macrophages (already mapped) and skin (already mapped) keratinocytes regulate intracellular pH; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) tumour cascade in basal-cell carcinoma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — BCC sulfur: H2S from sulfur-amino acids in macrophages (already mapped) and skin (already mapped) keratinocytes scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in basal-cell carcinoma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — BCC carbon: carbon backbone of nucleotides in macrophages (already mapped) and fibroblasts (already mapped) sustains tumour metabolic reprogramming; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth in BCC.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — BCC hydrogen: hydrogen via ROS balance in macrophages (already mapped) and endothelial cells (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — BCC nitrogen: nitric oxide from iNOS in macrophages (already mapped) and endothelial cells (already mapped) modulates tumour vasculature; nitrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour angiogenic cascade in BCC.
 
 ---
 

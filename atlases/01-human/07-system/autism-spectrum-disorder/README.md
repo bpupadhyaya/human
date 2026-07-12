@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "PD-1 on microglia (already mapped) and neurons (already mapped) limits brain (already mapped) neuroinflammation; PD-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and IFN-γ (already mapped) and TNF-α (already mapped) neuroinflammatory cascade in ASD."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "ASD hydrogen: hydrogen via ROS balance in neurons (already mapped) and microglia (already mapped) modulates neuroimmune oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory cascade in ASD."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "ASD glp-1: GLP-1 on neurons (already mapped) and astrocytes (already mapped) modulates synaptic metabolism; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory connectivity disruption in ASD."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "ASD angiotensin-ii: angiotensin II on astrocytes (already mapped) and microglia (already mapped) modulates cerebrovascular tone; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroimmune dysregulation in ASD."
 ---
 
 # Autism Spectrum Disorder
@@ -860,6 +869,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — norepinephrine from neurons (already mapped) modulates arousal and prefrontal attention; norepinephrine deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and oxytocin (already mapped) circuit disruption in autism spectrum disorder.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — VEGF from neurons (already mapped) and astrocytes (already mapped) sustains brain (already mapped) vascular development; VEGF excess amplifies NF-κB (already mapped) and mTOR (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped) neurodevelopmental cascade in ASD.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD-1 on microglia (already mapped) and neurons (already mapped) limits brain (already mapped) neuroinflammation; PD-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and IFN-γ (already mapped) and TNF-α (already mapped) neuroinflammatory cascade in ASD.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ASD hydrogen: hydrogen via ROS balance in neurons (already mapped) and microglia (already mapped) modulates neuroimmune oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory cascade in ASD.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ASD glp-1: GLP-1 on neurons (already mapped) and astrocytes (already mapped) modulates synaptic metabolism; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory connectivity disruption in ASD.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — ASD angiotensin-ii: angiotensin II on astrocytes (already mapped) and microglia (already mapped) modulates cerebrovascular tone; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroimmune dysregulation in ASD.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
