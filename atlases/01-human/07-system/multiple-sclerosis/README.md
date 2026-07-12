@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "MS nitrogen: nitrogen in amino-acid scaffold of myelin proteins and NF-κB (already mapped) transcription factors modulates oligodendrocyte (already mapped) remyelination; nitrogen dysregulation amplifies IL-6 (already mapped) cascade of multiple sclerosis."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "MS oxygen: oxygen supports aerobic metabolism in oligodendrocytes (already mapped) and microglia (already mapped) for remyelination; oxygen deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) demyelinating cascade of multiple sclerosis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "MS PD-1: PD-1 checkpoint on T-cells (already mapped) and microglia (already mapped) modulates CNS immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune demyelinating cascade of multiple sclerosis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "MS GLP-1: GLP-1 signalling in neurons (already mapped) and microglia (already mapped) promotes neuroprotection and oligodendrocyte (already mapped) survival; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of multiple sclerosis."
 ---
 
 # Multiple Sclerosis
@@ -829,6 +838,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MS carbon: carbon as backbone of myelin basic protein and NF-κB (already mapped) structural proteins in oligodendrocytes (already mapped) sustains remyelination; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of multiple sclerosis.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MS hydrogen: hydrogen, via water and redox homeostasis in microglia (already mapped) and oligodendrocytes (already mapped), supports CNS remyelination; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of multiple sclerosis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MS nitrogen: nitrogen in amino-acid scaffold of myelin proteins and NF-κB (already mapped) transcription factors modulates oligodendrocyte (already mapped) remyelination; nitrogen dysregulation amplifies IL-6 (already mapped) cascade of multiple sclerosis.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MS oxygen: oxygen supports aerobic metabolism in oligodendrocytes (already mapped) and microglia (already mapped) for remyelination; oxygen deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) demyelinating cascade of multiple sclerosis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MS PD-1: PD-1 checkpoint on T-cells (already mapped) and microglia (already mapped) modulates CNS immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune demyelinating cascade of multiple sclerosis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MS GLP-1: GLP-1 signalling in neurons (already mapped) and microglia (already mapped) promotes neuroprotection and oligodendrocyte (already mapped) survival; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of multiple sclerosis.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
