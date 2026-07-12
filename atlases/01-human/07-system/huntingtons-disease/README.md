@@ -552,6 +552,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "HD activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "HD tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory resolution; TGF-β excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "HD cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "HD calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -782,3 +791,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HD fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HD notch: Notch signalling on neurons (already mapped) and microglia (already mapped) regulates striatal neuroplasticity; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HD activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — HD tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory resolution; TGF-β excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HD cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HD calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
