@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Nervous-system WNT: WNT/β-catenin signalling in neurons (already mapped) and astrocytes (already mapped) governs CNS development and repair; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of the nervous system."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Nervous-system RANKL: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory bone-immune crosstalk in CNS disease; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neurodegeneration cascade of the nervous system."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Nervous-system SMAD4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β (already mapped) neuroprotective and synaptic signalling; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Nervous-system IL-2: IL-2 from T-regulatory cells (already mapped) and microglia (already mapped) supports neuroprotective signalling; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of the nervous system."
 ---
 
 # Nervous System
@@ -774,6 +783,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Nervous-system PD-1: PD-1 checkpoint on T-regulatory (already mapped) and cytotoxic T-cells (already mapped) modulates CNS neuroinflammation and neurodegeneration; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Nervous-system angiotensin-II: angiotensin-II via AT1R on microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Nervous-system WNT: WNT/β-catenin signalling in neurons (already mapped) and astrocytes (already mapped) governs CNS development and repair; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of the nervous system.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Nervous-system RANKL: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory bone-immune crosstalk in CNS disease; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neurodegeneration cascade of the nervous system.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Nervous-system SMAD4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β (already mapped) neuroprotective and synaptic signalling; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Nervous-system IL-2: IL-2 from T-regulatory cells (already mapped) and microglia (already mapped) supports neuroprotective signalling; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of the nervous system.
 
 [^kandel-principles-ns]: Kandel ER, Koester JD, Mack SH, Siegelbaum SA. *Principles of Neural Science.* 6th ed. McGraw-Hill; 2021.
 [^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.

@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "NASH nitrogen: nitrogen in amino-acid scaffold of lipid-metabolising enzymes and NF-κB (already mapped) proteins in hepatocytes (already mapped) sustains lipid homeostasis; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade in NASH."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "NASH sulfur: sulfur in glutathione and cysteine residues of hepatocytes (already mapped) sustains antioxidant defence against lipotoxic stress; sulfur depletion amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade in NASH."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "NASH PD-1: PD-1 checkpoint on intrahepatic T-cytotoxic cells (already mapped) and Kupffer macrophages (already mapped) modulates hepatic immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "NASH angiotensin-II: angiotensin-II via AT1R on hepatic stellate cells (already mapped) and macrophages (already mapped) drives hepatic fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of NASH."
 ---
 
 # NASH
@@ -808,6 +817,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — NASH carbon: carbon as backbone of lipid-metabolising enzymes (FASN, PNPLA3) and NF-κB (already mapped) proteins in hepatocytes (already mapped) sustains steatosis; carbon depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade in NASH.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — NASH hydrogen: hydrogen, via NADPH redox in hepatocytes (already mapped) and Kupffer macrophages (already mapped), drives fatty-acid oxidation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade in NASH.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NASH nitrogen: nitrogen in amino-acid scaffold of lipid-metabolising enzymes and NF-κB (already mapped) proteins in hepatocytes (already mapped) sustains lipid homeostasis; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade in NASH.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NASH sulfur: sulfur in glutathione and cysteine residues of hepatocytes (already mapped) sustains antioxidant defence against lipotoxic stress; sulfur depletion amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade in NASH.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — NASH PD-1: PD-1 checkpoint on intrahepatic T-cytotoxic cells (already mapped) and Kupffer macrophages (already mapped) modulates hepatic immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — NASH angiotensin-II: angiotensin-II via AT1R on hepatic stellate cells (already mapped) and macrophages (already mapped) drives hepatic fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
