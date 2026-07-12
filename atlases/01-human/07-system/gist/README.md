@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "GIST phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels GIST stromal-immune crosstalk; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "GIST carbon: carbon in nucleotides of macrophages (already mapped) and mast cells (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "GIST chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of GIST."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "GIST hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST."
 ---
 
 # GIST
@@ -842,6 +851,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — GIST zinc: zinc supports macrophage (already mapped) and T-cytotoxic (already mapped) anti-tumour immune function; zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) tumour-promoting cascade of GIST.
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — GIST potassium: potassium regulates macrophage (already mapped) and mast-cell (already mapped) membrane function; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of GIST.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GIST phosphorus: phosphorus, as ATP in macrophages (already mapped) and mast cells (already mapped), fuels GIST stromal-immune crosstalk; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — GIST carbon: carbon in nucleotides of macrophages (already mapped) and mast cells (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GIST chloride: chloride channels on macrophages (already mapped) and mast cells (already mapped) regulate ionic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of GIST.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — GIST hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

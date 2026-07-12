@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "GBM nitrogen: nitric oxide from iNOS in microglia (already mapped) and macrophages (already mapped) modulates tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "GBM carbon: carbon in nucleotides of microglia (already mapped) and macrophages (already mapped) fuels glioblastoma proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of glioblastoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "GBM hydrogen: hydrogen via ROS from microglia (already mapped) and macrophages (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) glioblastoma cascade of glioblastoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "GBM sulfur: sulfur-containing amino acids in microglia (already mapped) and macrophages (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of glioblastoma."
 ---
 
 # Glioblastoma
@@ -841,6 +850,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — GBM phosphorus: phosphorus, as ATP in microglia (already mapped) and macrophages (already mapped), fuels neuroinflammatory signalling; phosphorus excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) glioblastoma tumour growth cascade.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GBM chloride: chloride channels on microglia (already mapped) and macrophages (already mapped) regulate volume-regulated apoptosis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of glioblastoma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — GBM nitrogen: nitric oxide from iNOS in microglia (already mapped) and macrophages (already mapped) modulates tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — GBM carbon: carbon in nucleotides of microglia (already mapped) and macrophages (already mapped) fuels glioblastoma proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of glioblastoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — GBM hydrogen: hydrogen via ROS from microglia (already mapped) and macrophages (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) glioblastoma cascade of glioblastoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — GBM sulfur: sulfur-containing amino acids in microglia (already mapped) and macrophages (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of glioblastoma.
 
 ---
 
