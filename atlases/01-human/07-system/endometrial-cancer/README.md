@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "EC nitrogen: nitrogen in DNA bases of macrophages (already mapped) and endothelial cells (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "endometrial-cancer glp-1: GLP-1 from macrophages (already mapped) and endometrial cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "endometrial-cancer angiotensin-ii: angiotensin II on endometrial cells (already mapped) and macrophages (already mapped) drives angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "endometrial-cancer rankl: RANKL from endometrial cells (already mapped) and macrophages (already mapped) modulates immune invasion; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
 ---
 
 # Endometrial Cancer
@@ -848,6 +857,9 @@ cross_links:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — EC carbon: carbon backbone of nucleotides in macrophages (already mapped) and endothelial cells (already mapped) fuels tumour growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — EC hydrogen: hydrogen via ROS from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — EC nitrogen: nitrogen in DNA bases of macrophages (already mapped) and endothelial cells (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) endometrial cancer cascade.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — endometrial-cancer glp-1: GLP-1 from macrophages (already mapped) and endometrial cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — endometrial-cancer angiotensin-ii: angiotensin II on endometrial cells (already mapped) and macrophages (already mapped) drives angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — endometrial-cancer rankl: RANKL from endometrial cells (already mapped) and macrophages (already mapped) modulates immune invasion; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Epilepsy wnt-beta-catenin: Wnt/β-catenin in neurons (already mapped) and microglia (already mapped) regulates synaptic plasticity and seizure threshold; wnt dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) seizure cascade."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "epilepsy rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "epilepsy smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) neuroinflammatory cascade in epilepsy."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "epilepsy il-2: IL-2 on T-cells (already mapped) and microglia (already mapped) amplifies neuroinflammation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy."
 ---
 
 # Epilepsy
@@ -887,6 +896,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Epilepsy pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroinflammatory seizure surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) seizure cascade of epilepsy.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Epilepsy angiotensin-ii: angiotensin-II from macrophages (already mapped) and neurons (already mapped) modulates cerebrovascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) seizure cascade of epilepsy.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Epilepsy wnt-beta-catenin: Wnt/β-catenin in neurons (already mapped) and microglia (already mapped) regulates synaptic plasticity and seizure threshold; wnt dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) seizure cascade.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — epilepsy rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — epilepsy smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) neuroinflammatory cascade in epilepsy.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — epilepsy il-2: IL-2 on T-cells (already mapped) and microglia (already mapped) amplifies neuroinflammation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
