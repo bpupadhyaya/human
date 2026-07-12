@@ -577,6 +577,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "NMO igf-1: IGF-1 from astrocytes (already mapped) and macrophages (already mapped) promotes neuroprotective repair in NMOSD; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "NMO activin-a: activin-A from astrocytes (already mapped) and macrophages (already mapped) modulates CNS neuroinflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "NMO calcitonin: calcitonin from astrocytes (already mapped) and macrophages (already mapped) modulates CNS calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "NMO cgrp: CGRP from astrocytes (already mapped) and macrophages (already mapped) modulates CNS neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
 ---
 
 # NMOSD
@@ -909,6 +918,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — NMO fibronectin: fibronectin in astrocytes (already mapped) and macrophages (already mapped) promotes CNS ECM remodelling in NMOSD; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NMO notch: Notch signalling in astrocytes (already mapped) and macrophages (already mapped) regulates glial fate in NMOSD; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NMO igf-1: IGF-1 from astrocytes (already mapped) and macrophages (already mapped) promotes neuroprotective repair in NMOSD; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NMO activin-a: activin-A from astrocytes (already mapped) and macrophages (already mapped) modulates CNS neuroinflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — NMO calcitonin: calcitonin from astrocytes (already mapped) and macrophages (already mapped) modulates CNS calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — NMO cgrp: CGRP from astrocytes (already mapped) and macrophages (already mapped) modulates CNS neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
