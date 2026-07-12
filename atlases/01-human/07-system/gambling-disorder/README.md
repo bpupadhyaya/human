@@ -525,6 +525,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "GD hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches neuroinflammatory ROS; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) cascade in gambling disorder."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "GD pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) reward-circuit cascade of gambling disorder."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "GD vegf: VEGF from microglia (already mapped) and neurons (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) reward-sensitisation cascade of gambling disorder."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "GD wnt-beta-catenin: WNT/β-catenin in neurons (already mapped) and microglia (already mapped) modulates synaptic plasticity; wnt dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) reward-circuit cascade of gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -840,6 +849,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — GD carbon: carbon, as metabolic backbone of dopamine (already mapped) and neurotransmitters in neurons (already mapped) and astrocytes (already mapped), drives reward signalling; carbon dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) in GD.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — GD chloride: chloride channels in neurons (already mapped) and astrocytes (already mapped) modulate GABA (already mapped) inhibitory tone; chloride dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) reward-sensitisation cascade in gambling disorder.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — GD hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), quenches neuroinflammatory ROS; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) cascade in gambling disorder.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — GD pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) reward-circuit cascade of gambling disorder.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — GD vegf: VEGF from microglia (already mapped) and neurons (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) reward-sensitisation cascade of gambling disorder.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — GD wnt-beta-catenin: WNT/β-catenin in neurons (already mapped) and microglia (already mapped) modulates synaptic plasticity; wnt dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) reward-circuit cascade of gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
