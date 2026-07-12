@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "OCCC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), quenches tumour ROS; hydrogen dysregulation amplifies HIF-1α (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in OCCC."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "OCCC nitrogen: nitrogen in amino-acid scaffold of ARID1A (already mapped) and NF-κB (already mapped) proteins in tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies HIF-1α (already mapped) and IL-6 (already mapped) cascade in OCCC."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "OCCC sulfur: sulfur in cysteine residues of ARID1A (already mapped) and VEGF (already mapped) proteins in tumour cells sustains thiol-redox balance; sulfur depletion amplifies HIF-1α (already mapped) and IL-6 (already mapped) pro-tumour cascade in OCCC."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "OCCC angiotensin-II: angiotensin-II in tumour vasculature promotes OCCC angiogenesis; angiotensin-II excess amplifies HIF-1α (already mapped) and IL-6 (already mapped) and VEGF (already mapped) pro-tumour cascade in ovarian clear cell carcinoma."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -853,6 +862,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — OCCC carbon: carbon, as metabolic backbone of lipids and HIF-1α (already mapped) signalling in clear-cell tumour and macrophages (already mapped), drives tumour metabolism; carbon dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) cascade in OCCC.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — OCCC chloride: chloride channels in macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulate tumour-immune homeostasis; chloride dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) pro-tumour cascade in OCCC.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — OCCC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and T-cytotoxic-cell (already mapped), quenches tumour ROS; hydrogen dysregulation amplifies HIF-1α (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in OCCC.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — OCCC nitrogen: nitrogen in amino-acid scaffold of ARID1A (already mapped) and NF-κB (already mapped) proteins in tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies HIF-1α (already mapped) and IL-6 (already mapped) cascade in OCCC.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — OCCC sulfur: sulfur in cysteine residues of ARID1A (already mapped) and VEGF (already mapped) proteins in tumour cells sustains thiol-redox balance; sulfur depletion amplifies HIF-1α (already mapped) and IL-6 (already mapped) pro-tumour cascade in OCCC.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — OCCC angiotensin-II: angiotensin-II in tumour vasculature promotes OCCC angiogenesis; angiotensin-II excess amplifies HIF-1α (already mapped) and IL-6 (already mapped) and VEGF (already mapped) pro-tumour cascade in ovarian clear cell carcinoma.
 
 ---
 

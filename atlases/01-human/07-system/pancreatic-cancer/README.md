@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Pancreatic cancer nitrogen: nitrogen in amino-acid scaffold of KRAS and NF-κB (already mapped) proteins in tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of pancreatic cancer."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Pancreatic cancer phosphorus: phosphorus in ATP and phospholipid membranes of tumour cells and macrophages (already mapped) drives KRAS signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of pancreatic cancer."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Pancreatic cancer sulfur: sulfur in cysteine residues of KRAS and NF-κB (already mapped) proteins in tumour cells sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of pancreatic cancer."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Pancreatic cancer PD-1: PD-1 on tumour-infiltrating T-cells (already mapped) and macrophages (already mapped) suppresses anti-tumour immunity; PD-1 checkpoint dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -839,6 +848,9 @@ cross_links:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Pancreatic cancer chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of pancreatic cancer.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Pancreatic cancer hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and tumour cells, supports lipid signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of pancreatic cancer.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Pancreatic cancer nitrogen: nitrogen in amino-acid scaffold of KRAS and NF-κB (already mapped) proteins in tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of pancreatic cancer.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Pancreatic cancer phosphorus: phosphorus in ATP and phospholipid membranes of tumour cells and macrophages (already mapped) drives KRAS signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of pancreatic cancer.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Pancreatic cancer sulfur: sulfur in cysteine residues of KRAS and NF-κB (already mapped) proteins in tumour cells sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of pancreatic cancer.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Pancreatic cancer PD-1: PD-1 on tumour-infiltrating T-cells (already mapped) and macrophages (already mapped) suppresses anti-tumour immunity; PD-1 checkpoint dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) immunosuppressive cascade of pancreatic cancer.
 
 ---
 
