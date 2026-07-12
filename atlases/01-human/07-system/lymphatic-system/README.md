@@ -563,6 +563,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "LS activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes lymphatic fibrosis; activin-a excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "LS tgf-beta: TGF-β from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic fibrotic resolution; TGF-β excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "LS cgrp: CGRP from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic neuroimmune tone; cgrp excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "LS calcitonin: calcitonin from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic calcium tone; calcitonin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
 ---
 
 # Lymphatic System
@@ -854,6 +863,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — LS fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) promotes lymph ECM remodelling; fibronectin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — LS igf-1: IGF-1 from endothelial cells (already mapped) and macrophages (already mapped) promotes lymphangiogenic repair; igf-1 excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — LS activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes lymphatic fibrosis; activin-a excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — LS tgf-beta: TGF-β from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic fibrotic resolution; TGF-β excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — LS cgrp: CGRP from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic neuroimmune tone; cgrp excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — LS calcitonin: calcitonin from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic calcium tone; calcitonin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 
 ## Pathology
 
