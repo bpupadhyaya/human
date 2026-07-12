@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "cowden hydrogen: hydrogen via ROS from macrophage (already mapped) and T-cytotoxic cell (already mapped) modulates oxidative stress; hydrogen excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "cowden pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses tumour immune surveillance; pd-1 dysfunction amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "cowden glp-1: GLP-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "cowden angiotensin-ii: angiotensin II on tumour endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -903,6 +912,9 @@ cross_links:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — cowden carbon: carbon backbone of nucleotides in macrophage (already mapped) and T-cytotoxic cell (already mapped) fuels PTEN-loss proliferation; carbon dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — cowden chloride: chloride channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) modulate tumour microenvironment; chloride dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — cowden hydrogen: hydrogen via ROS from macrophage (already mapped) and T-cytotoxic cell (already mapped) modulates oxidative stress; hydrogen excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — cowden pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses tumour immune surveillance; pd-1 dysfunction amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — cowden glp-1: GLP-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — cowden angiotensin-ii: angiotensin II on tumour endothelial cells (already mapped) and macrophages (already mapped) promotes angiogenesis; angiotensin-II excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 
 ---
 

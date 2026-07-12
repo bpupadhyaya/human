@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "COVID-19 pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses anti-viral immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "COVID-19 glp-1: GLP-1 from macrophages (already mapped) and type-II pneumocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "COVID-19 wnt-beta-catenin: WNT/β-catenin on type-II pneumocytes (already mapped) and macrophages (already mapped) regulates lung repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "COVID-19 rankl: RANKL in macrophages (already mapped) and type-II pneumocytes (already mapped) modulates pulmonary immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of COVID-19."
 ---
 
 # COVID-19 Disease
@@ -796,6 +805,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — COVID-19 carbon: carbon in nucleotides fuels macrophage (already mapped) and type-II pneumocyte (already mapped) replication; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — COVID-19 hydrogen: hydrogen via ROS from macrophage (already mapped) and type-II pneumocyte (already mapped) modulates redox; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — COVID-19 pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses anti-viral immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — COVID-19 glp-1: GLP-1 from macrophages (already mapped) and type-II pneumocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — COVID-19 wnt-beta-catenin: WNT/β-catenin on type-II pneumocytes (already mapped) and macrophages (already mapped) regulates lung repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — COVID-19 rankl: RANKL in macrophages (already mapped) and type-II pneumocytes (already mapped) modulates pulmonary immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of COVID-19.
 
 ## Pathology
 
