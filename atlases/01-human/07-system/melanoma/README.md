@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Melanoma nitrogen: nitrogen in amino-acid scaffold of BRAF (already mapped) and PD-L1 proteins modulates T-cell (already mapped) immune evasion; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of melanoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Melanoma hydrogen: hydrogen in redox chemistry of melanocytes (already mapped) sustains glutathione defence against UV-driven oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of melanoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Melanoma sulfur: sulfur in cysteine residues of BRAF (already mapped) and MITF proteins sustains redox stability in melanocytes; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of melanoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Melanoma GLP-1: GLP-1 signalling modulates macrophage (already mapped) and dendritic-cell (already mapped) activation in the tumour microenvironment; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of melanoma."
 ---
 
 # Melanoma
@@ -809,6 +818,9 @@ cross_links:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Melanoma carbon: carbon as backbone of BRAF (already mapped) and MITF signalling proteins in melanocytes (already mapped) sustains proliferative control; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) oncogenic cascade of melanoma.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Melanoma chloride: chloride regulates melanocyte (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immunosuppressive tumour cascade of melanoma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Melanoma nitrogen: nitrogen in amino-acid scaffold of BRAF (already mapped) and PD-L1 proteins modulates T-cell (already mapped) immune evasion; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of melanoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Melanoma hydrogen: hydrogen in redox chemistry of melanocytes (already mapped) sustains glutathione defence against UV-driven oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of melanoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Melanoma sulfur: sulfur in cysteine residues of BRAF (already mapped) and MITF proteins sustains redox stability in melanocytes; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of melanoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Melanoma GLP-1: GLP-1 signalling modulates macrophage (already mapped) and dendritic-cell (already mapped) activation in the tumour microenvironment; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

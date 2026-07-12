@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "MB nitrogen: nitrogen in amino-acid scaffold of sonic-hedgehog (already mapped) and PTCH1 proteins sustains cerebellar granule cell (already mapped) differentiation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "MB hydrogen: hydrogen in redox chemistry of cerebellar granule cells (already mapped) and microglia (already mapped) modulates sonic-hedgehog (already mapped) stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "MB phosphorus: phosphorus in PI3K-Akt and sonic-hedgehog (already mapped) signalling phosphorylation governs cerebellar granule cell (already mapped) proliferation; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "MB sulfur: sulfur in cysteine residues of sonic-hedgehog (already mapped) and PTCH1 proteins sustains redox stability in cerebellar granule cells (already mapped); sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma."
 ---
 
 # Medulloblastoma
@@ -841,6 +850,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MB carbon: carbon as backbone of sonic-hedgehog (already mapped) signalling proteins in cerebellar granule cells (already mapped) sustains proliferative control; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MB chloride: chloride regulates cerebellar granule cells (already mapped) and microglia (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and sonic-hedgehog (already mapped) oncogenic cascade of medulloblastoma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MB nitrogen: nitrogen in amino-acid scaffold of sonic-hedgehog (already mapped) and PTCH1 proteins sustains cerebellar granule cell (already mapped) differentiation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MB hydrogen: hydrogen in redox chemistry of cerebellar granule cells (already mapped) and microglia (already mapped) modulates sonic-hedgehog (already mapped) stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MB phosphorus: phosphorus in PI3K-Akt and sonic-hedgehog (already mapped) signalling phosphorylation governs cerebellar granule cell (already mapped) proliferation; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MB sulfur: sulfur in cysteine residues of sonic-hedgehog (already mapped) and PTCH1 proteins sustains redox stability in cerebellar granule cells (already mapped); sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of medulloblastoma.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
