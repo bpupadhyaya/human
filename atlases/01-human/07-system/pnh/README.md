@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "PNH notch: Notch signalling in macrophages (already mapped) and endothelial cells (already mapped) regulates haematopoietic cell fate in PNH; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "PNH igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) drives complement-related metabolic repair; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "PNH activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) modulates haematopoietic inflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "PNH tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) drives vascular fibrotic remodelling in PNH; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -839,6 +848,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — PNH vegf: VEGF from macrophages (already mapped) and endothelial cells (already mapped) drives complement-mediated vascular injury; vegf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PNH fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes vascular ECM remodelling in PNH; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — PNH notch: Notch signalling in macrophages (already mapped) and endothelial cells (already mapped) regulates haematopoietic cell fate in PNH; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PNH igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) drives complement-related metabolic repair; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PNH activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) modulates haematopoietic inflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — PNH tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) drives vascular fibrotic remodelling in PNH; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 
 ---
 
