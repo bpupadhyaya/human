@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "aHUS WNT/β-catenin: WNT/β-catenin in endothelial cells (already mapped) and podocytes (already mapped) drives glomerular repair; WNT dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic remodelling and complement-C5 (already mapped) cascade of aHUS."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "aHUS RANKL: RANKL signalling in endothelial cells (already mapped) and macrophages (already mapped) modulates renal bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and complement-C5 (already mapped) and IL-6 (already mapped) cascade of aHUS."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "aHUS SMAD4: SMAD4 in endothelial cells (already mapped) and podocytes (already mapped) mediates TGF-β-driven renal fibrosis; SMAD4 dysregulation amplifies NF-κB (already mapped) and complement-C5 (already mapped) and IL-6 (already mapped) cascade of aHUS."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "aHUS IL-2: IL-2 signalling in T-cells (already mapped) and macrophages (already mapped) modulates complement-driven immune tolerance; IL-2 deficiency amplifies NF-κB (already mapped) and complement-C5 (already mapped) and IL-6 (already mapped) cascade of aHUS."
 ---
 
 # Atypical HUS
@@ -893,6 +902,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — aHUS PD-1: PD-1 on T-cytotoxic-cell (already mapped) and t-helper-cell (already mapped) modulates thromboinflammatory homeostasis; PD-1 dysregulation amplifies complement-C5 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) microangiopathic cascade of aHUS.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — aHUS GLP-1: GLP-1 signalling in endothelial cells (already mapped) and podocytes (already mapped) modulates renal metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-C5 (already mapped) cascade of aHUS.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — aHUS WNT/β-catenin: WNT/β-catenin in endothelial cells (already mapped) and podocytes (already mapped) drives glomerular repair; WNT dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic remodelling and complement-C5 (already mapped) cascade of aHUS.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — aHUS RANKL: RANKL signalling in endothelial cells (already mapped) and macrophages (already mapped) modulates renal bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and complement-C5 (already mapped) and IL-6 (already mapped) cascade of aHUS.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — aHUS SMAD4: SMAD4 in endothelial cells (already mapped) and podocytes (already mapped) mediates TGF-β-driven renal fibrosis; SMAD4 dysregulation amplifies NF-κB (already mapped) and complement-C5 (already mapped) and IL-6 (already mapped) cascade of aHUS.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — aHUS IL-2: IL-2 signalling in T-cells (already mapped) and macrophages (already mapped) modulates complement-driven immune tolerance; IL-2 deficiency amplifies NF-κB (already mapped) and complement-C5 (already mapped) and IL-6 (already mapped) cascade of aHUS.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

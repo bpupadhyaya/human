@@ -549,6 +549,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "AGS oxygen: mitochondrial oxygen in neurons (already mapped) and microglia (already mapped) sustains mtDNA integrity; hypoxia amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy cascade of AGS."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "AGS PD-1: PD-1 on microglia (already mapped) and T-cells (already mapped) modulates interferon-driven neuroinflammation; PD-1 dysregulation amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "AGS GLP-1: GLP-1 receptor signalling in microglia (already mapped) and neurons (already mapped) modulates metabolic neuroinflammation; GLP-1 dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "AGS angiotensin-II: angiotensin-II signalling in microglia (already mapped) and neurons (already mapped) promotes neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and cGAS-STING (already mapped) and type-I interferon (already mapped) cascade of AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -820,6 +829,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — AGS carbon: carbon backbone of nucleotides in neurons (already mapped) and microglia (already mapped) drives cGAS-STING (already mapped) ligand accumulation; carbon dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy of AGS.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — AGS hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and astrocytes (already mapped), quenches ROS-driven cGAS-STING (already mapped) activation; hydrogen dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — AGS oxygen: mitochondrial oxygen in neurons (already mapped) and microglia (already mapped) sustains mtDNA integrity; hypoxia amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy cascade of AGS.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AGS PD-1: PD-1 on microglia (already mapped) and T-cells (already mapped) modulates interferon-driven neuroinflammation; PD-1 dysregulation amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AGS GLP-1: GLP-1 receptor signalling in microglia (already mapped) and neurons (already mapped) modulates metabolic neuroinflammation; GLP-1 dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — AGS angiotensin-II: angiotensin-II signalling in microglia (already mapped) and neurons (already mapped) promotes neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and cGAS-STING (already mapped) and type-I interferon (already mapped) cascade of AGS.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
