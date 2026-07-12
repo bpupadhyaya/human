@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "DMG nitrogen: nitrogen in DNA bases of microglia (already mapped) and macrophage (already mapped) sustains glioma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "diffuse-midline-glioma glp-1: GLP-1 from macrophages (already mapped) and glioma cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in diffuse midline glioma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "diffuse-midline-glioma angiotensin-ii: angiotensin II on astrocytes (already mapped) and macrophages (already mapped) drives remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "diffuse-midline-glioma rankl: RANKL from microglia (already mapped) and macrophages (already mapped) modulates immune activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma."
 ---
 
 # Diffuse Midline Glioma
@@ -862,6 +871,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — DMG carbon: carbon in nucleotides fuels microglia (already mapped) and macrophage (already mapped) glioma growth; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) immunosuppressive cascade of diffuse midline glioma.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — DMG hydrogen: hydrogen via ROS from microglia (already mapped) and macrophage (already mapped) modulates glioma redox; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) immunosuppressive cascade of diffuse midline glioma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — DMG nitrogen: nitrogen in DNA bases of microglia (already mapped) and macrophage (already mapped) sustains glioma growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of diffuse midline glioma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — diffuse-midline-glioma glp-1: GLP-1 from macrophages (already mapped) and glioma cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in diffuse midline glioma.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — diffuse-midline-glioma angiotensin-ii: angiotensin II on astrocytes (already mapped) and macrophages (already mapped) drives remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — diffuse-midline-glioma rankl: RANKL from microglia (already mapped) and macrophages (already mapped) modulates immune activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
 
 ---
 

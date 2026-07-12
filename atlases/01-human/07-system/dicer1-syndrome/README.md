@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "DICER1 hydrogen: hydrogen via ROS from macrophage (already mapped) and T-cytotoxic cell (already mapped) modulates oxidative stress; hydrogen excess amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of DICER1 syndrome."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "dicer1 glp-1: GLP-1 from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "dicer1 angiotensin-ii: angiotensin II on thyroid follicular cells (already mapped) and macrophages (already mapped) promotes tumour remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "dicer1 rankl: RANKL from macrophages (already mapped) and thyroid follicular cells (already mapped) promotes osteoclast (already mapped) activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -838,6 +847,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — DICER1 carbon: carbon in nucleotides fuels macrophage (already mapped) and T-cytotoxic cell (already mapped) proliferation; carbon dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of DICER1 syndrome.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — DICER1 chloride: chloride channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) regulate homeostasis; chloride dysregulation amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of DICER1 syndrome.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — DICER1 hydrogen: hydrogen via ROS from macrophage (already mapped) and T-cytotoxic cell (already mapped) modulates oxidative stress; hydrogen excess amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of DICER1 syndrome.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — dicer1 glp-1: GLP-1 from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — dicer1 angiotensin-ii: angiotensin II on thyroid follicular cells (already mapped) and macrophages (already mapped) promotes tumour remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — dicer1 rankl: RANKL from macrophages (already mapped) and thyroid follicular cells (already mapped) promotes osteoclast (already mapped) activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 
 ---
 
