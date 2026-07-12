@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "SyS hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), modulates tumour immune balance; hydrogen dysregulation amplifies IL-6 (already mapped) and WNT (already mapped) and VEGF (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "SS nitrogen: nitric oxide from macrophages (already mapped) and tumor-associated endothelial cells modulates vascular tone; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth cascade of synovial sarcoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "SS sulfur: hydrogen sulfide from macrophages (already mapped) and endothelial cells modulates tumour vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "SS GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells modulates metabolic-immune balance; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -837,6 +846,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SyS carbon: carbon, as metabolic backbone of mTOR (already mapped) and VEGF (already mapped) in fibroblasts (already mapped) and macrophages (already mapped), drives proliferative signalling; carbon dysregulation amplifies IL-6 (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — SyS chloride: chloride channels in macrophages (already mapped) and fibroblasts (already mapped) regulate tumour-immune homeostasis; chloride dysregulation amplifies IL-6 (already mapped) and WNT (already mapped) and mTOR (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — SyS hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), modulates tumour immune balance; hydrogen dysregulation amplifies IL-6 (already mapped) and WNT (already mapped) and VEGF (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SS nitrogen: nitric oxide from macrophages (already mapped) and tumor-associated endothelial cells modulates vascular tone; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth cascade of synovial sarcoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — SS sulfur: hydrogen sulfide from macrophages (already mapped) and endothelial cells modulates tumour vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SS GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells modulates metabolic-immune balance; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of synovial sarcoma.
 
 ---
 

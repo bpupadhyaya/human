@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "SSc GLP-1: GLP-1 signalling in endothelial-cell (already mapped) and macrophages (already mapped) modulates metabolic-immune homeostasis; GLP-1 dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of SSc."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "SSc RANKL: RANKL signalling in macrophages (already mapped) and fibroblasts (already mapped) modulates bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and angiotensin-II (already mapped) and IL-6 (already mapped) fibrotic cascade of systemic sclerosis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "SSc IL-2: IL-2 signalling in T-cells (already mapped) and fibroblasts (already mapped) modulates immune homeostasis; IL-2 deficiency amplifies NF-κB (already mapped) and angiotensin-II (already mapped) and IL-6 (already mapped) fibrotic cascade of systemic sclerosis."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "SSc fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes ECM accumulation; fibronectin excess amplifies NF-κB (already mapped) and angiotensin-II (already mapped) and IL-6 (already mapped) fibrotic cascade of systemic sclerosis."
 ---
 
 # Systemic Sclerosis
@@ -833,6 +842,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SSc carbon: carbon, as metabolic backbone of TGF-β (already mapped) and NF-κB (already mapped) in fibroblasts (already mapped) and endothelial-cell (already mapped), drives fibrotic signalling; carbon dysregulation amplifies IL-6 (already mapped) cascade of SSc.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SSc PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates autoimmune surveillance of fibroblasts (already mapped); PD-1 dysregulation amplifies TGF-β (already mapped) and IL-6 (already mapped) fibrotic cascade of SSc.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SSc GLP-1: GLP-1 signalling in endothelial-cell (already mapped) and macrophages (already mapped) modulates metabolic-immune homeostasis; GLP-1 dysregulation amplifies TGF-β (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of SSc.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SSc RANKL: RANKL signalling in macrophages (already mapped) and fibroblasts (already mapped) modulates bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and angiotensin-II (already mapped) and IL-6 (already mapped) fibrotic cascade of systemic sclerosis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — SSc IL-2: IL-2 signalling in T-cells (already mapped) and fibroblasts (already mapped) modulates immune homeostasis; IL-2 deficiency amplifies NF-κB (already mapped) and angiotensin-II (already mapped) and IL-6 (already mapped) fibrotic cascade of systemic sclerosis.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SSc fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes ECM accumulation; fibronectin excess amplifies NF-κB (already mapped) and angiotensin-II (already mapped) and IL-6 (already mapped) fibrotic cascade of systemic sclerosis.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
