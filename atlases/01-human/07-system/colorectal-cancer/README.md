@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "colorectal calcitonin: calcitonin in colonocytes (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "colorectal substance-p: substance-P from colonocytes (already mapped) and macrophages (already mapped) modulates colorectal pain tone; substance-P excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "colorectal insulin-receptor: insulin receptor on colonocytes (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "colorectal aldosterone: aldosterone in colonocytes (already mapped) and macrophages (already mapped) modulates fluid balance; aldosterone excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
 ---
 
 # Colorectal Cancer
@@ -871,6 +880,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — colorectal activin-a: activin-A in intestinal epithelium (already mapped) and macrophages (already mapped) modulates tumour stroma; activin-A dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — colorectal cgrp: CGRP in enteric neurons (already mapped) and macrophages (already mapped) modulates colorectal pain; CGRP dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — colorectal calcitonin: calcitonin in colonocytes (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — colorectal substance-p: substance-P from colonocytes (already mapped) and macrophages (already mapped) modulates colorectal pain tone; substance-P excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — colorectal insulin-receptor: insulin receptor on colonocytes (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — colorectal aldosterone: aldosterone in colonocytes (already mapped) and macrophages (already mapped) modulates fluid balance; aldosterone excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
 
 ---
 

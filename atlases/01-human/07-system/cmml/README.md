@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "CMML notch: Notch on monocytes (already mapped) and macrophages (already mapped) regulates myeloid cell fate; Notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "CMML igf-1: IGF-1 on monocytes (already mapped) and macrophages (already mapped) promotes myeloproliferative growth; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "CMML activin-a: activin-A from monocytes (already mapped) and macrophages (already mapped) regulates myeloid immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "CMML cgrp: CGRP from monocytes (already mapped) and macrophages (already mapped) modulates myeloid neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -873,6 +882,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CMML rankl: RANKL in monocytes (already mapped) and macrophages (already mapped) modulates myeloproliferative bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CMML fibronectin: fibronectin in monocytes (already mapped) and macrophages (already mapped) promotes myeloproliferative stroma; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — CMML notch: Notch on monocytes (already mapped) and macrophages (already mapped) regulates myeloid cell fate; Notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — CMML igf-1: IGF-1 on monocytes (already mapped) and macrophages (already mapped) promotes myeloproliferative growth; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CMML activin-a: activin-A from monocytes (already mapped) and macrophages (already mapped) regulates myeloid immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CMML cgrp: CGRP from monocytes (already mapped) and macrophages (already mapped) modulates myeloid neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
 
 ---
 
