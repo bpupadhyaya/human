@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "Lynch sulfur: sulfur in cysteine residues of MLH1 (already mapped) and MSH2 mismatch-repair proteins sustains redox stability; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mutagenic cascade of Lynch syndrome."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Lynch glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR cascade of Lynch syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Lynch angiotensin-ii: angiotensin-II from macrophages (already mapped) and t-cytotoxic cells (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) cascade of Lynch syndrome."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Lynch rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes tumour immune evasion; rankl excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome."
 ---
 
 # Lynch Syndrome
@@ -863,6 +872,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Lynch hydrogen: hydrogen in redox chemistry of colonocytes (already mapped) modulates MLH1 (already mapped) and MSH2 protein folding; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mutagenic cascade of Lynch syndrome.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Lynch oxygen: oxygen supports aerobic metabolism in colonocytes (already mapped) and mismatch-repair enzymes including MLH1 (already mapped); oxygen deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mutagenic cascade of Lynch syndrome.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Lynch sulfur: sulfur in cysteine residues of MLH1 (already mapped) and MSH2 mismatch-repair proteins sustains redox stability; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mutagenic cascade of Lynch syndrome.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Lynch glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR cascade of Lynch syndrome.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Lynch angiotensin-ii: angiotensin-II from macrophages (already mapped) and t-cytotoxic cells (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) cascade of Lynch syndrome.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Lynch rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes tumour immune evasion; rankl excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

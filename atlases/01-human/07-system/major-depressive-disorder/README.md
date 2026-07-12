@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "MDD RANKL: RANKL-RANK signalling on microglia (already mapped) and T-cells (already mapped) modulates neuroinflammatory activation; RANKL dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of MDD."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "MDD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) neuroinflammatory cascade of major depressive disorder."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "MDD il-2: IL-2 from microglia (already mapped) and t-helper cells (already mapped) regulates neuroinflammatory immune activation; il-2 dysregulation amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) cascade of major depressive disorder."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "MDD fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) remodels neuroinflammatory matrix; fibronectin dysregulation amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) cascade of major depressive disorder."
 ---
 
 # Major Depressive Disorder
@@ -892,6 +901,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MDD GLP-1: GLP-1 signalling in neurons (already mapped) and microglia (already mapped) promotes neuroprotection and reduces neuroinflammation; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of MDD.
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MDD WNT: WNT-β-catenin signalling in neurons (already mapped) sustains synaptic plasticity and BDNF (already mapped) expression; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) depressive cascade of MDD.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MDD RANKL: RANKL-RANK signalling on microglia (already mapped) and T-cells (already mapped) modulates neuroinflammatory activation; RANKL dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of MDD.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — MDD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) neuroinflammatory cascade of major depressive disorder.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MDD il-2: IL-2 from microglia (already mapped) and t-helper cells (already mapped) regulates neuroinflammatory immune activation; il-2 dysregulation amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) cascade of major depressive disorder.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MDD fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) remodels neuroinflammatory matrix; fibronectin dysregulation amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) cascade of major depressive disorder.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
