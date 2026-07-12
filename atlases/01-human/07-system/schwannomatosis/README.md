@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "SWN fibronectin: fibronectin in Schwann cells (already mapped) and macrophages (already mapped) promotes schwannoma ECM remodelling; fibronectin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of schwannomatosis."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "SWN igf-1: IGF-1 from Schwann cells (already mapped) and macrophages (already mapped) drives schwannoma growth; igf-1 excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) proliferative cascade of schwannomatosis."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "SWN activin-a: activin-A from Schwann cells (already mapped) and macrophages (already mapped) regulates schwannoma immune-fibrotic balance; activin-a excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of schwannomatosis."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "SWN calcitonin: calcitonin from macrophages (already mapped) and Schwann cells (already mapped) modulates calcium balance in schwannomatosis; calcitonin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of schwannomatosis."
 ---
 
 # Schwannomatosis
@@ -849,6 +858,9 @@ Both NF2 (22q12.2), SMARCB1 (22q11.23), and LZTR1 (22q11.21) are on chromosome 2
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SWN rankl: RANKL from macrophages (already mapped) and Schwann cells (already mapped) promotes schwannoma immune evasion; rankl excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of schwannomatosis.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — SWN il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates schwannoma immune surveillance; il-2 dysregulation amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of schwannomatosis.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SWN fibronectin: fibronectin in Schwann cells (already mapped) and macrophages (already mapped) promotes schwannoma ECM remodelling; fibronectin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of schwannomatosis.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SWN igf-1: IGF-1 from Schwann cells (already mapped) and macrophages (already mapped) drives schwannoma growth; igf-1 excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) proliferative cascade of schwannomatosis.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SWN activin-a: activin-A from Schwann cells (already mapped) and macrophages (already mapped) regulates schwannoma immune-fibrotic balance; activin-a excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of schwannomatosis.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — SWN calcitonin: calcitonin from macrophages (already mapped) and Schwann cells (already mapped) modulates calcium balance in schwannomatosis; calcitonin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of schwannomatosis.
 
 [^merker-2012-schwannomatosis]: Merker VL, Esparza S, Smith MJ, Stemmer-Rachamimov A, Plotkin SR. Clinical features of schwannomatosis: a retrospective analysis of 87 patients. *Oncologist.* 2012;17(10):1317-1322. [doi:10.1634/theoncologist.2012-0162](https://doi.org/10.1634/theoncologist.2012-0162) · [PubMed 22927469](https://pubmed.ncbi.nlm.nih.gov/22927469/)
 [^piotrowski-2014-lztr1]: Piotrowski A, Xie J, Liu YF, et al. Germline loss-of-function mutations in LZTR1 predispose to an inherited disorder of multiple schwannomas. *Nat Genet.* 2014;46(2):182-187. [doi:10.1038/ng.2855](https://doi.org/10.1038/ng.2855) · [PubMed 24362817](https://pubmed.ncbi.nlm.nih.gov/24362817/)

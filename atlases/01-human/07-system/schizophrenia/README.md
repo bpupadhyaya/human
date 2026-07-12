@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Sz calcitonin: calcitonin from macrophages (already mapped) and neurons (already mapped) modulates cerebral calcium tone in schizophrenia; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Sz substance-p: substance P from macrophages (already mapped) and neurons (already mapped) modulates neuroimmune tone in schizophrenia; substance-p dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Sz insulin-receptor: insulin receptor on macrophages (already mapped) and neurons (already mapped) drives metabolic repair in schizophrenia; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Sz aldosterone: aldosterone from macrophages (already mapped) and neurons (already mapped) modulates cerebral ion balance in schizophrenia; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia."
 ---
 
 # Schizophrenia
@@ -923,6 +932,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Sz tgf-beta: TGF-β from macrophages (already mapped) and neurons (already mapped) drives neuroinflammatory fibrosis in schizophrenia; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Sz cgrp: CGRP from macrophages (already mapped) and neurons (already mapped) modulates cerebral vascular tone in schizophrenia; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Sz calcitonin: calcitonin from macrophages (already mapped) and neurons (already mapped) modulates cerebral calcium tone in schizophrenia; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Sz substance-p: substance P from macrophages (already mapped) and neurons (already mapped) modulates neuroimmune tone in schizophrenia; substance-p dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Sz insulin-receptor: insulin receptor on macrophages (already mapped) and neurons (already mapped) drives metabolic repair in schizophrenia; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Sz aldosterone: aldosterone from macrophages (already mapped) and neurons (already mapped) modulates cerebral ion balance in schizophrenia; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
