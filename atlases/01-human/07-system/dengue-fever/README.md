@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "dengue-fever wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates tone; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of dengue fever."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "dengue rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes bone-marrow megakaryocyte stress; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "dengue fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "dengue notch: Notch signalling on macrophages (already mapped) and endothelial cells (already mapped) regulates antiviral immune tone; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever."
 ---
 
 # Dengue Fever
@@ -847,3 +856,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — dengue-fever glp-1: GLP-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of dengue fever.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — dengue-fever angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes vascular permeability; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of dengue fever.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — dengue-fever wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates tone; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of dengue fever.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — dengue rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes bone-marrow megakaryocyte stress; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — dengue fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — dengue notch: Notch signalling on macrophages (already mapped) and endothelial cells (already mapped) regulates antiviral immune tone; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.

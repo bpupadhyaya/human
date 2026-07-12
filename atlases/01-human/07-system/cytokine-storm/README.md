@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "cytokine-storm wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and T-helper cells (already mapped) modulates activation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "cytokine-storm rankl: RANKL from macrophages (already mapped) and T-helper cells (already mapped) promotes osteoclast activation in CS bone marrow niches; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "cytokine-storm notch: Notch on macrophages (already mapped) and T-helper cells (already mapped) amplifies cytokine transcription; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyper-inflammatory cascade of cytokine storm."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "cytokine-storm igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates tissue repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -826,6 +835,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — cytokine-storm glp-1: GLP-1 from macrophages (already mapped) and T-helper cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — cytokine-storm angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes permeability; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — cytokine-storm wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and T-helper cells (already mapped) modulates activation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — cytokine-storm rankl: RANKL from macrophages (already mapped) and T-helper cells (already mapped) promotes osteoclast activation in CS bone marrow niches; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — cytokine-storm notch: Notch on macrophages (already mapped) and T-helper cells (already mapped) amplifies cytokine transcription; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyper-inflammatory cascade of cytokine storm.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — cytokine-storm igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates tissue repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 
 ## Pathology
 
