@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "HLRCC smad4: SMAD4 in macrophages (already mapped) and endothelial cells (already mapped) mediates TGF-β vascular signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "HLRCC fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "HLRCC notch: NOTCH on macrophages (already mapped) and endothelial cells (already mapped) regulates vascular-tumour lineage commitment; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "HLRCC igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes tumour metabolic growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -879,6 +888,9 @@ Cutaneous:
 - `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HLRCC wnt-beta-catenin: WNT/β-catenin on endothelial cells (already mapped) and macrophages (already mapped) regulates tumour vascularisation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HLRCC rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) modulates immune-vascular crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — HLRCC smad4: SMAD4 in macrophages (already mapped) and endothelial cells (already mapped) mediates TGF-β vascular signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HLRCC fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HLRCC notch: NOTCH on macrophages (already mapped) and endothelial cells (already mapped) regulates vascular-tumour lineage commitment; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HLRCC igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes tumour metabolic growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

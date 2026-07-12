@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "HNSCC activin-a: activin-A from squamous cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "HNSCC cgrp: CGRP from squamous cells (already mapped) and macrophages (already mapped) modulates head-neck tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "HNSCC calcitonin: calcitonin from squamous cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "HNSCC substance-p: substance-P from squamous cells (already mapped) and macrophages (already mapped) modulates head-neck tumour pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
 ---
 
 # HNSCC
@@ -862,6 +871,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HNSCC fibronectin: Fibronectin in squamous cells (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HNSCC igf-1: IGF-1 from squamous cells (already mapped) and macrophages (already mapped) promotes HNSCC tumour survival; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HNSCC activin-a: activin-A from squamous cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HNSCC cgrp: CGRP from squamous cells (already mapped) and macrophages (already mapped) modulates head-neck tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HNSCC calcitonin: calcitonin from squamous cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HNSCC substance-p: substance-P from squamous cells (already mapped) and macrophages (already mapped) modulates head-neck tumour pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)
