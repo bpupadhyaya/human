@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "Bloom smad4: SMAD4 in fibroblasts (already mapped) and macrophages (already mapped) mediates TGF-β tumour-suppression; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Bloom fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) modulates tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Bloom notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) modulates stem-cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Bloom activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -885,6 +894,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Bloom WNT/β-catenin: WNT/β-catenin in fibroblasts (already mapped) and BLM-deficient cells (already mapped) modulates DNA-repair-genomic stability; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Bloom rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-cancer predisposition; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Bloom syndrome.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Bloom smad4: SMAD4 in fibroblasts (already mapped) and macrophages (already mapped) mediates TGF-β tumour-suppression; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Bloom fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) modulates tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Bloom notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) modulates stem-cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Bloom activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome.
 
 ---
 

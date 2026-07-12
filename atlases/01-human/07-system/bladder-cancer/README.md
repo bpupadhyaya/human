@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "BC IGF-1: IGF-1 in urothelial cells (already mapped) and fibroblasts (already mapped) modulates bladder tumour growth; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "BC activin-a: activin-A from urothelial cells (already mapped) and macrophages (already mapped) regulates bladder tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "BC cgrp: CGRP from urothelial cells (already mapped) and macrophages (already mapped) modulates bladder neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "BC calcitonin: calcitonin from urothelial cells (already mapped) and macrophages (already mapped) modulates bladder calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer."
 ---
 
 # Bladder Cancer
@@ -876,6 +885,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — BC fibronectin: fibronectin in urothelial cells (already mapped) and fibroblasts (already mapped) modulates bladder ECM remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — BC notch: Notch in urothelial cells (already mapped) and macrophages (already mapped) modulates urothelial cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — BC IGF-1: IGF-1 in urothelial cells (already mapped) and fibroblasts (already mapped) modulates bladder tumour growth; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — BC activin-a: activin-A from urothelial cells (already mapped) and macrophages (already mapped) regulates bladder tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — BC cgrp: CGRP from urothelial cells (already mapped) and macrophages (already mapped) modulates bladder neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in bladder cancer.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — BC calcitonin: calcitonin from urothelial cells (already mapped) and macrophages (already mapped) modulates bladder calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer.
 
 ---
 
