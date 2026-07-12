@@ -540,6 +540,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "nitric oxide from iNOS in microglia (already mapped) and neurons (already mapped) modulates glutamate (already mapped) excitatory tone; nitrogen excess amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "AGS carbon: carbon backbone of nucleotides in neurons (already mapped) and microglia (already mapped) drives cGAS-STING (already mapped) ligand accumulation; carbon dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy of AGS."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "AGS hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and astrocytes (already mapped), quenches ROS-driven cGAS-STING (already mapped) activation; hydrogen dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "AGS oxygen: mitochondrial oxygen in neurons (already mapped) and microglia (already mapped) sustains mtDNA integrity; hypoxia amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy cascade of AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -808,6 +817,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride via KCC2 on neurons (already mapped) and astrocytes (already mapped) sets inhibitory tone; chloride dysregulation amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy cascade of AGS.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — H2S from sulfur-amino acids in neurons (already mapped) and astrocytes (already mapped) modulates GABA-inhibitory tone; sulfur deficiency amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy cascade of AGS.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide from iNOS in microglia (already mapped) and neurons (already mapped) modulates glutamate (already mapped) excitatory tone; nitrogen excess amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — AGS carbon: carbon backbone of nucleotides in neurons (already mapped) and microglia (already mapped) drives cGAS-STING (already mapped) ligand accumulation; carbon dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy of AGS.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — AGS hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and astrocytes (already mapped), quenches ROS-driven cGAS-STING (already mapped) activation; hydrogen dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — AGS oxygen: mitochondrial oxygen in neurons (already mapped) and microglia (already mapped) sustains mtDNA integrity; hypoxia amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) interferonopathy cascade of AGS.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
