@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "SLE nitrogen: nitric oxide from macrophages (already mapped) and endothelial cells (already mapped) modulates autoimmune vascular tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) cascade of SLE."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "SLE oxygen: reactive oxygen species in macrophages (already mapped) and neutrophils (already mapped) drive lupus-related oxidative damage; oxygen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-I interferon (already mapped) cascade of SLE."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "SLE PD-1: PD-1 checkpoint signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-I interferon (already mapped) cascade of SLE."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "SLE GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and T-cells (already mapped) modulates metabolic-immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-I interferon (already mapped) cascade of SLE."
 ---
 
 # Systemic Lupus Erythematosus
@@ -843,6 +852,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SLE carbon: carbon, as metabolic backbone of macrophages (already mapped) and neutrophils (already mapped), drives autoimmune metabolic activation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) cascade of SLE.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — SLE hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and neutrophils (already mapped), modulates oxidative burden; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) cascade of SLE.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SLE nitrogen: nitric oxide from macrophages (already mapped) and endothelial cells (already mapped) modulates autoimmune vascular tone; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) cascade of SLE.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SLE oxygen: reactive oxygen species in macrophages (already mapped) and neutrophils (already mapped) drive lupus-related oxidative damage; oxygen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-I interferon (already mapped) cascade of SLE.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SLE PD-1: PD-1 checkpoint signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-I interferon (already mapped) cascade of SLE.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — SLE GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and T-cells (already mapped) modulates metabolic-immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and type-I interferon (already mapped) cascade of SLE.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
