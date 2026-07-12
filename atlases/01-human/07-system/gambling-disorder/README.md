@@ -534,6 +534,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "GD wnt-beta-catenin: WNT/β-catenin in neurons (already mapped) and microglia (already mapped) modulates synaptic plasticity; wnt dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) reward-circuit cascade of gambling disorder."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "gambling-disorder rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward dysregulation cascade of gambling disorder."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "gambling-disorder smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory cascade of gambling disorder."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "gambling-disorder il-2: IL-2 on T-cells (already mapped) and microglia (already mapped) amplifies neuroinflammatory reward dysregulation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade of gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -852,6 +861,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — GD pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) reward-circuit cascade of gambling disorder.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — GD vegf: VEGF from microglia (already mapped) and neurons (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) reward-sensitisation cascade of gambling disorder.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — GD wnt-beta-catenin: WNT/β-catenin in neurons (already mapped) and microglia (already mapped) modulates synaptic plasticity; wnt dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and dopamine (already mapped) reward-circuit cascade of gambling disorder.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — gambling-disorder rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward dysregulation cascade of gambling disorder.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — gambling-disorder smad4: SMAD4 in astrocytes (already mapped) and microglia (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory cascade of gambling disorder.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — gambling-disorder il-2: IL-2 on T-cells (already mapped) and microglia (already mapped) amplifies neuroinflammatory reward dysregulation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade of gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
