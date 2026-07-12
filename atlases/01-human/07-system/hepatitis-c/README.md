@@ -549,6 +549,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "HCV sulfur: sulfur-containing amino acids in hepatocytes (already mapped) and macrophages (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "HCV GLP-1: GLP-1 from gut L-cells (already mapped) and hepatocytes (already mapped) modulates hepatitis C metabolic homeostasis; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammatory cascade of HCV."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "HCV angiotensin-II: Angiotensin-II in hepatocytes (already mapped) and macrophages (already mapped) promotes HCV-associated liver fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "HCV Wnt/β-catenin: Wnt/β-catenin in hepatocytes (already mapped) and macrophages (already mapped) drives HCV-associated hepatocarcinogenesis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
 ---
 
 # Hepatitis C
@@ -853,3 +862,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HCV carbon: carbon in nucleotides of hepatocytes (already mapped) and macrophages (already mapped) fuels viral replication and biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HCV hydrogen: hydrogen via ROS from macrophages (already mapped) and hepatocytes (already mapped) modulates oxidative redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HCV sulfur: sulfur-containing amino acids in hepatocytes (already mapped) and macrophages (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) hepatic inflammation in HCV.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HCV GLP-1: GLP-1 from gut L-cells (already mapped) and hepatocytes (already mapped) modulates hepatitis C metabolic homeostasis; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammatory cascade of HCV.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — HCV angiotensin-II: Angiotensin-II in hepatocytes (already mapped) and macrophages (already mapped) promotes HCV-associated liver fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HCV Wnt/β-catenin: Wnt/β-catenin in hepatocytes (already mapped) and macrophages (already mapped) drives HCV-associated hepatocarcinogenesis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.

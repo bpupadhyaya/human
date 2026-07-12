@@ -549,6 +549,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "HBV sulfur: sulfur-containing amino acids in hepatocytes (already mapped) and macrophages (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HBV."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "HBV GLP-1: GLP-1 from gut L-cells (already mapped) and hepatocytes (already mapped) modulates hepatitis B metabolic homeostasis; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammatory cascade of HBV."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "HBV angiotensin-II: Angiotensin-II in hepatocytes (already mapped) and macrophages (already mapped) promotes HBV-associated liver fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "HBV Wnt/β-catenin: Wnt/β-catenin in hepatocytes (already mapped) and macrophages (already mapped) drives HBV-associated hepatocarcinogenesis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV."
 ---
 
 # Hepatitis B
@@ -862,3 +871,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HBV carbon: carbon in nucleotides of hepatocytes (already mapped) and macrophages (already mapped) fuels viral replication and protein biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HBV.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HBV hydrogen: hydrogen via ROS from macrophages (already mapped) and hepatocytes (already mapped) modulates oxidative redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HBV.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HBV sulfur: sulfur-containing amino acids in hepatocytes (already mapped) and macrophages (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) hepatic inflammation in HBV.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HBV GLP-1: GLP-1 from gut L-cells (already mapped) and hepatocytes (already mapped) modulates hepatitis B metabolic homeostasis; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic inflammatory cascade of HBV.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — HBV angiotensin-II: Angiotensin-II in hepatocytes (already mapped) and macrophages (already mapped) promotes HBV-associated liver fibrosis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HBV Wnt/β-catenin: Wnt/β-catenin in hepatocytes (already mapped) and macrophages (already mapped) drives HBV-associated hepatocarcinogenesis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
