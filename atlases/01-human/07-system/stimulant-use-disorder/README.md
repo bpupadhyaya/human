@@ -559,6 +559,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "SUD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) transduces TGF-β signals; smad4 loss amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "SUD il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates neuroinflammatory surveillance in stimulant circuits; il-2 dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "SUD vegf: VEGF from macrophages (already mapped) and astrocytes (already mapped) drives neuroinflammatory angiogenesis in stimulant use disorder; vegf dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "SUD fibronectin: fibronectin in neurons (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling in stimulant circuits; fibronectin excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
 ---
 
 # Stimulant Use Disorder
@@ -861,6 +870,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SUD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates reward circuit plasticity; wnt-beta-catenin loss amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SUD rankl: RANKL from macrophages (already mapped) and astrocytes (already mapped) promotes neuroinflammatory immune activation; rankl excess amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — SUD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) transduces TGF-β signals; smad4 loss amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — SUD il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates neuroinflammatory surveillance in stimulant circuits; il-2 dysregulation amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — SUD vegf: VEGF from macrophages (already mapped) and astrocytes (already mapped) drives neuroinflammatory angiogenesis in stimulant use disorder; vegf dysregulation amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SUD fibronectin: fibronectin in neurons (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling in stimulant circuits; fibronectin excess amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
 
 ## Treatment
 

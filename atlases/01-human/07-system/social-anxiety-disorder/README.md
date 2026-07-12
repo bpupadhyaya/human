@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "SAD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) transduces TGF-β signals; smad4 loss amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of social anxiety disorder."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "SAD il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates SAD neuroinflammation; il-2 dysregulation amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of social anxiety disorder."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "SAD fibronectin: fibronectin in neurons (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of social anxiety disorder."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "SAD notch: Notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates glial fate in SAD; notch dysregulation amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of social anxiety disorder."
 ---
 
 # Social Anxiety Disorder
@@ -873,6 +882,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SAD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates prefrontal synaptic plasticity; wnt-beta-catenin loss amplifies NF-κB (already mapped) and CRH (already mapped) and IL-6 (already mapped) cascade of social anxiety disorder.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SAD rankl: RANKL from macrophages (already mapped) and astrocytes (already mapped) promotes amygdala neuroinflammation; rankl excess amplifies NF-κB (already mapped) and CRH (already mapped) and IL-6 (already mapped) cascade of social anxiety disorder.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — SAD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) transduces TGF-β signals; smad4 loss amplifies NF-κB (already mapped) and CRH (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of social anxiety disorder.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — SAD il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates SAD neuroinflammation; il-2 dysregulation amplifies NF-κB (already mapped) and CRH (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of social anxiety disorder.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SAD fibronectin: fibronectin in neurons (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and CRH (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of social anxiety disorder.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — SAD notch: Notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates glial fate in SAD; notch dysregulation amplifies NF-κB (already mapped) and CRH (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of social anxiety disorder.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
