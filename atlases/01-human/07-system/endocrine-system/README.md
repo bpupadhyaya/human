@@ -554,6 +554,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "endocrine-system fibronectin: fibronectin in endocrine cells (already mapped) and macrophages (already mapped) maintains gland ECM; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "endocrine-system notch: Notch signalling on endocrine cells (already mapped) and macrophages (already mapped) regulates gland development; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "endocrine-system cgrp: CGRP from endocrine cells (already mapped) and macrophages (already mapped) modulates neuroendocrine communication; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "endocrine-system substance-p: substance-P from endocrine cells (already mapped) and macrophages (already mapped) modulates nociception; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
 ---
 
 # Endocrine System
@@ -890,6 +899,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — endocrine-system rankl: RANKL from osteoblasts (already mapped) and macrophages (already mapped) modulates bone-hormone crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped) endocrine cascade of the endocrine system.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — endocrine-system il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies endocrine immune regulation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and GLP-1 (already mapped) cascade of the endocrine system.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — endocrine-system fibronectin: fibronectin in endocrine cells (already mapped) and macrophages (already mapped) maintains gland ECM; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — endocrine-system notch: Notch signalling on endocrine cells (already mapped) and macrophages (already mapped) regulates gland development; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — endocrine-system cgrp: CGRP from endocrine cells (already mapped) and macrophages (already mapped) modulates neuroendocrine communication; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — endocrine-system substance-p: substance-P from endocrine cells (already mapped) and macrophages (already mapped) modulates nociception; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
 
 ## Pathology
 

@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "endometrial-cancer rankl: RANKL from endometrial cells (already mapped) and macrophages (already mapped) modulates immune invasion; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "endometrial-cancer fibronectin: fibronectin in endometrial cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "endometrial-cancer activin-a: activin-A from endometrial cells (already mapped) and macrophages (already mapped) promotes tumour-stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "endometrial-cancer cgrp: CGRP from endometrial cells (already mapped) and macrophages (already mapped) modulates uterine nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
 ---
 
 # Endometrial Cancer
@@ -860,6 +869,9 @@ cross_links:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — endometrial-cancer glp-1: GLP-1 from macrophages (already mapped) and endometrial cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — endometrial-cancer angiotensin-ii: angiotensin II on endometrial cells (already mapped) and macrophages (already mapped) drives angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — endometrial-cancer rankl: RANKL from endometrial cells (already mapped) and macrophages (already mapped) modulates immune invasion; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — endometrial-cancer fibronectin: fibronectin in endometrial cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — endometrial-cancer activin-a: activin-A from endometrial cells (already mapped) and macrophages (already mapped) promotes tumour-stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — endometrial-cancer cgrp: CGRP from endometrial cells (already mapped) and macrophages (already mapped) modulates uterine nociception; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
