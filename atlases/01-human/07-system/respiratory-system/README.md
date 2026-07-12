@@ -543,6 +543,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Respiratory Wnt/β-catenin: Wnt/β-catenin signalling supports type-II pneumocyte (already mapped) repair and airway epithelial regeneration; Wnt dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of the respiratory system."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Respiratory RANKL: RANKL signalling in macrophages (already mapped) and type-II pneumocytes (already mapped) regulates bone-airway mineral crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the respiratory system."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Respiratory SMAD4: SMAD4-mediated TGF-β (already mapped) signalling in type-II pneumocytes (already mapped) and fibroblasts (already mapped) drives airway fibrosis; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Respiratory IL-2: IL-2 expands T-cytotoxic cells (already mapped) and regulatory T-cells in airway immune surveillance; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -799,6 +808,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - **Connects-to** → [PD-1](../../03-molecular/pd-1/README.md): Respiratory PD-1: PD-1 checkpoint on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates airway immune surveillance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) airway inflammatory cascade of the respiratory system.
 - **Connects-to** → [GLP-1](../../03-molecular/glp-1/README.md): Respiratory GLP-1: GLP-1 signalling in type-II pneumocytes (already mapped) and endothelial cells (already mapped) modulates airway metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system.
 - **Connects-to** → [Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md): Respiratory Wnt/β-catenin: Wnt/β-catenin signalling supports type-II pneumocyte (already mapped) repair and airway epithelial regeneration; Wnt dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) fibrotic cascade of the respiratory system.
+- **Connects-to** → [RANKL](../../03-molecular/rankl/README.md): Respiratory RANKL: RANKL signalling in macrophages (already mapped) and type-II pneumocytes (already mapped) regulates bone-airway mineral crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the respiratory system.
+- **Connects-to** → [SMAD4](../../03-molecular/smad4/README.md): Respiratory SMAD4: SMAD4-mediated TGF-β (already mapped) signalling in type-II pneumocytes (already mapped) and fibroblasts (already mapped) drives airway fibrosis; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the respiratory system.
+- **Connects-to** → [IL-2](../../03-molecular/il-2/README.md): Respiratory IL-2: IL-2 expands T-cytotoxic cells (already mapped) and regulatory T-cells in airway immune surveillance; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology
