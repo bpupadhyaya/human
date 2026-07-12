@@ -541,6 +541,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "SUD nitrogen: nitric oxide from neurons (already mapped) modulates dopamine (already mapped) signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and serotonin (already mapped) cascade of stimulant use disorder."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "SUD oxygen: reactive oxygen species in neurons (already mapped) and macrophages (already mapped) drive oxidative neuronal damage; oxygen imbalance amplifies dopamine (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "SUD PD-1: PD-1 checkpoint signalling in T-cells (already mapped) and microglia (already mapped) modulates neuroinflammatory tone; PD-1 dysregulation amplifies dopamine (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "SUD angiotensin-II: angiotensin-II signalling in neurons (already mapped) and macrophages (already mapped) promotes inflammation; angiotensin-II excess amplifies dopamine (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder."
 ---
 
 # Stimulant Use Disorder
@@ -837,6 +846,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — SUD carbon: carbon, as metabolic backbone of dopamine (already mapped) and BDNF (already mapped) in neurons (already mapped), drives synaptic energy metabolism; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — SUD hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and macrophages (already mapped), modulates dopamine (already mapped) oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — SUD nitrogen: nitric oxide from neurons (already mapped) modulates dopamine (already mapped) signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and serotonin (already mapped) cascade of stimulant use disorder.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — SUD oxygen: reactive oxygen species in neurons (already mapped) and macrophages (already mapped) drive oxidative neuronal damage; oxygen imbalance amplifies dopamine (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — SUD PD-1: PD-1 checkpoint signalling in T-cells (already mapped) and microglia (already mapped) modulates neuroinflammatory tone; PD-1 dysregulation amplifies dopamine (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — SUD angiotensin-II: angiotensin-II signalling in neurons (already mapped) and macrophages (already mapped) promotes inflammation; angiotensin-II excess amplifies dopamine (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of stimulant use disorder.
 
 ## Treatment
 
