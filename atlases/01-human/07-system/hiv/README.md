@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "HIV wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and natural-killer cells (already mapped) regulates antiviral signalling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "HIV rankl: RANKL from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune-bone crosstalk in HIV; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "HIV vegf: VEGF from macrophages (already mapped) and natural-killer cells (already mapped) promotes antiviral neo-angiogenesis; vegf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "HIV fibronectin: fibronectin in macrophages (already mapped) and natural-killer cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
 ---
 
 # HIV
@@ -882,6 +891,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — HIV glp-1: GLP-1 from macrophages (already mapped) and natural-killer cells (already mapped) modulates metabolic antiviral immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — HIV angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes viral tissue inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HIV wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and natural-killer cells (already mapped) regulates antiviral signalling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HIV rankl: RANKL from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune-bone crosstalk in HIV; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — HIV vegf: VEGF from macrophages (already mapped) and natural-killer cells (already mapped) promotes antiviral neo-angiogenesis; vegf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HIV fibronectin: fibronectin in macrophages (already mapped) and natural-killer cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

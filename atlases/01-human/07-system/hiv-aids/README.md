@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "AIDS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and natural-killer-cells (already mapped) regulates antiviral signalling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "AIDS rankl: RANKL from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune-bone crosstalk in HIV/AIDS; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "AIDS smad4: SMAD4 in macrophages (already mapped) and natural-killer-cells (already mapped) modulates TGF-β antiviral signalling; smad4 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "AIDS fibronectin: fibronectin in macrophages (already mapped) and natural-killer-cells (already mapped) promotes immune ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -850,6 +859,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AIDS glp-1: GLP-1 from macrophages (already mapped) and natural-killer-cells (already mapped) modulates metabolic antiviral immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — AIDS angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes viral tissue inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV/AIDS.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — AIDS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and natural-killer-cells (already mapped) regulates antiviral signalling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AIDS rankl: RANKL from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune-bone crosstalk in HIV/AIDS; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — AIDS smad4: SMAD4 in macrophages (already mapped) and natural-killer-cells (already mapped) modulates TGF-β antiviral signalling; smad4 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AIDS fibronectin: fibronectin in macrophages (already mapped) and natural-killer-cells (already mapped) promotes immune ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 
 ## See Also
 
