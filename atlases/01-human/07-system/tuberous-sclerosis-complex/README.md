@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "TSC sulfur: hydrogen sulfide from macrophages (already mapped) and neurons (already mapped) modulates mTOR-driven vascular tone; sulfur deficiency amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "TSC pd-1: PD-1 on T-cells (already mapped) and macrophages (already mapped) modulates anti-tumour immune surveillance; pd-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) hamartoma cascade of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "TSC glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC metabolic-inflammatory tone; glp-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) hamartoma cascade of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "TSC angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives hamartoma angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
 ---
 
 # Tuberous Sclerosis Complex
@@ -863,6 +872,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — TSC nitrogen: nitric oxide from macrophages (already mapped) and neurons (already mapped) modulates mTOR-driven vascular tone; nitrogen imbalance amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of tuberous sclerosis complex.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — TSC oxygen: reactive oxygen species in macrophages (already mapped) and neurons (already mapped) drive mTOR-linked oxidative stress; oxygen imbalance amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of tuberous sclerosis complex.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — TSC sulfur: hydrogen sulfide from macrophages (already mapped) and neurons (already mapped) modulates mTOR-driven vascular tone; sulfur deficiency amplifies mTOR (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of tuberous sclerosis complex.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — TSC pd-1: PD-1 on T-cells (already mapped) and macrophages (already mapped) modulates anti-tumour immune surveillance; pd-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) hamartoma cascade of tuberous sclerosis complex.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — TSC glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC metabolic-inflammatory tone; glp-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) hamartoma cascade of tuberous sclerosis complex.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — TSC angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives hamartoma angiogenesis; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 
 ---
 

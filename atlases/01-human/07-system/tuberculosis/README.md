@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "TB Wnt/β-catenin: Wnt/β-catenin signalling in macrophages (already mapped) and T-cells (already mapped) modulates immune homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "TB rankl: RANKL from macrophages (already mapped) and T-cells (already mapped) promotes granuloma-associated bone remodelling; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of tuberculosis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "TB smad4: SMAD4 in macrophages (already mapped) and T-cells (already mapped) transduces TGF-β signals; smad4 loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "TB fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) scaffolds granuloma ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
 ---
 
 # Tuberculosis
@@ -863,6 +872,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — TB GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and T-cells (already mapped) modulates metabolic-immune balance; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — TB angiotensin-II: angiotensin-II signalling in macrophages (already mapped) and T-cells (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — TB Wnt/β-catenin: Wnt/β-catenin signalling in macrophages (already mapped) and T-cells (already mapped) modulates immune homeostasis; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — TB rankl: RANKL from macrophages (already mapped) and T-cells (already mapped) promotes granuloma-associated bone remodelling; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of tuberculosis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — TB smad4: SMAD4 in macrophages (already mapped) and T-cells (already mapped) transduces TGF-β signals; smad4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — TB fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) scaffolds granuloma ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
