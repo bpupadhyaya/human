@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "AKT, downstream of CFTR (already mapped) and PI3K, integrates survival signalling in macrophage (already mapped) and neutrophil (already mapped); AKT dysregulation amplifies NF-κB (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "CF pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses airway immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "CF glp-1: GLP-1 from macrophages (already mapped) and neutrophils (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "CF angiotensin-ii: angiotensin-II from macrophages (already mapped) and neutrophils (already mapped) modulates pulmonary vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -839,6 +848,9 @@ AND
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon metabolism in macrophage (already mapped) and neutrophil (already mapped) drives oxidative phosphorylation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitrogen, as nitric oxide (already mapped) precursor in macrophage (already mapped) and neutrophil (already mapped), modulates innate immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — AKT, downstream of CFTR (already mapped) and PI3K, integrates survival signalling in macrophage (already mapped) and neutrophil (already mapped); AKT dysregulation amplifies NF-κB (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — CF pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses airway immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — CF glp-1: GLP-1 from macrophages (already mapped) and neutrophils (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — CF angiotensin-ii: angiotensin-II from macrophages (already mapped) and neutrophils (already mapped) modulates pulmonary vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis.
 
 ---
 

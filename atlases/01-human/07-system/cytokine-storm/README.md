@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "chloride channels on macrophage (already mapped) and endothelial cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyper-inflammatory cascade of cytokine storm."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "cytokine-storm carbon: carbon in nucleotides fuels macrophage (already mapped) and T-helper cell (already mapped) hyper-activation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "cytokine-storm nitrogen: nitrogen in DNA bases of macrophage (already mapped) and T-cytotoxic cell (already mapped) sustains hyper-activation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "cytokine-storm sulfur: sulfur-containing glutathione in macrophage (already mapped) and T-helper cell (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -802,6 +811,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium efflux from macrophage (already mapped) and T-cytotoxic cell (already mapped) activates NLRP3 (already mapped) inflammasome; potassium dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm cascade.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped) and T-helper cell (already mapped), fuels cytokine secretion; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyper-inflammatory cascade of cytokine storm.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and endothelial cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyper-inflammatory cascade of cytokine storm.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — cytokine-storm carbon: carbon in nucleotides fuels macrophage (already mapped) and T-helper cell (already mapped) hyper-activation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — cytokine-storm nitrogen: nitrogen in DNA bases of macrophage (already mapped) and T-cytotoxic cell (already mapped) sustains hyper-activation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — cytokine-storm sulfur: sulfur-containing glutathione in macrophage (already mapped) and T-helper cell (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 
 ## Pathology
 
