@@ -525,6 +525,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "Narcolepsy VEGF: VEGF from microglia (already mapped) and T-cytotoxic cells (already mapped) modulates hypothalamic blood-brain barrier integrity; VEGF dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Narcolepsy WNT-β-catenin: WNT-β-catenin in hypothalamic neurons (already mapped) and microglia (already mapped) regulates orexin circuit plasticity; WNT-β-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Narcolepsy RANKL: RANKL from T-cytotoxic cells (already mapped) and microglia (already mapped) modulates neuroinflammatory bone-immune crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Narcolepsy SMAD4: SMAD4 in hypothalamic neurons (already mapped) and microglia (already mapped) mediates TGF-β (already mapped) neuroprotective signalling; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) orexin-neuron cascade of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -834,6 +843,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Narcolepsy hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and neurons (already mapped), supports orexin receptor signalling; hydrogen dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Narcolepsy angiotensin-II: angiotensin-II via AT1R on microglia (already mapped) and hypothalamic neurons (already mapped) modulates orexin circuit vascular tone; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of narcolepsy.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Narcolepsy VEGF: VEGF from microglia (already mapped) and T-cytotoxic cells (already mapped) modulates hypothalamic blood-brain barrier integrity; VEGF dysregulation amplifies TNF-α (already mapped) and IL-6 (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Narcolepsy WNT-β-catenin: WNT-β-catenin in hypothalamic neurons (already mapped) and microglia (already mapped) regulates orexin circuit plasticity; WNT-β-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of narcolepsy.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Narcolepsy RANKL: RANKL from T-cytotoxic cells (already mapped) and microglia (already mapped) modulates neuroinflammatory bone-immune crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Narcolepsy SMAD4: SMAD4 in hypothalamic neurons (already mapped) and microglia (already mapped) mediates TGF-β (already mapped) neuroprotective signalling; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) orexin-neuron cascade of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

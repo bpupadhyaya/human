@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "MPN nitrogen: nitrogen in amino-acid scaffold of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "MPN PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and NK cells (already mapped) in clonal bone marrow modulates immune escape; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "MPN GLP-1: GLP-1 receptor agonism on megakaryocytes (already mapped) and macrophages (already mapped) modulates clonal marrow inflammation; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "MPN angiotensin-II: angiotensin-II via AT1R on bone-marrow stromal cells (already mapped) and macrophages (already mapped) drives fibrotic remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade."
 ---
 
 # Myeloproliferative Neoplasms
@@ -855,6 +864,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MPN carbon: carbon as backbone of JAK2 (already mapped) and calreticulin structural proteins in megakaryocytes (already mapped) sustains clonal myeloid expansion; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MPN hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and neutrophils (already mapped), supports JAK2 (already mapped) signalling in myeloproliferative bone marrow; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MPN nitrogen: nitrogen in amino-acid scaffold of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) sustains clonal haematopoiesis; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MPN PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and NK cells (already mapped) in clonal bone marrow modulates immune escape; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MPN GLP-1: GLP-1 receptor agonism on megakaryocytes (already mapped) and macrophages (already mapped) modulates clonal marrow inflammation; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MPN angiotensin-II: angiotensin-II via AT1R on bone-marrow stromal cells (already mapped) and macrophages (already mapped) drives fibrotic remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
