@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "dengue pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses antiviral immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "dengue-fever glp-1: GLP-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of dengue fever."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "dengue-fever angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes vascular permeability; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of dengue fever."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "dengue-fever wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates tone; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of dengue fever."
 ---
 
 # Dengue Fever
@@ -835,3 +844,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — dengue carbon: carbon in nucleotides fuels macrophage (already mapped) and endothelial cell (already mapped) viral replication; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — dengue oxygen: oxygen via ROS from macrophage (already mapped) and endothelial cell (already mapped) modulates viral cytopathology; oxygen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — dengue pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses antiviral immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — dengue-fever glp-1: GLP-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of dengue fever.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — dengue-fever angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes vascular permeability; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of dengue fever.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — dengue-fever wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates tone; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of dengue fever.

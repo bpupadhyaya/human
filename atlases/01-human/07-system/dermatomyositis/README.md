@@ -559,6 +559,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "dermatomyositis angiotensin-ii: angiotensin-II from macrophages (already mapped) and mast-cells (already mapped) modulates vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade of dermatomyositis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "dermatomyositis wnt-beta-catenin: WNT/β-catenin on muscle cells (already mapped) and macrophages (already mapped) regulates repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in dermatomyositis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "dermatomyositis rankl: RANKL from muscle cells (already mapped) and macrophages (already mapped) promotes osteoclast (already mapped) activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in dermatomyositis."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "dermatomyositis fibronectin: fibronectin in muscle cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in dermatomyositis."
 ---
 ---
 
@@ -865,6 +874,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — dermatomyositis hydrogen: hydrogen via ROS from macrophage (already mapped) and mast-cell (already mapped) modulates perimysial oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade of dermatomyositis.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — dermatomyositis glp-1: GLP-1 from macrophages (already mapped) and mast-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade of dermatomyositis.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — dermatomyositis angiotensin-ii: angiotensin-II from macrophages (already mapped) and mast-cells (already mapped) modulates vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade of dermatomyositis.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — dermatomyositis wnt-beta-catenin: WNT/β-catenin on muscle cells (already mapped) and macrophages (already mapped) regulates repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in dermatomyositis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — dermatomyositis rankl: RANKL from muscle cells (already mapped) and macrophages (already mapped) promotes osteoclast (already mapped) activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in dermatomyositis.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — dermatomyositis fibronectin: fibronectin in muscle cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in dermatomyositis.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)
