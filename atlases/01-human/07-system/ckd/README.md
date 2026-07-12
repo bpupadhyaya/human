@@ -561,6 +561,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "CKD igf-1: IGF-1 on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal hypertrophy; igf-1 excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "CKD notch: Notch in renal tubular cells (already mapped) and macrophages (already mapped) regulates renal cell fate; Notch dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "CKD activin-a: activin-A in renal tubular cells (already mapped) and fibroblasts (already mapped) promotes renal fibrosis; activin-A dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "CKD cgrp: CGRP in renal endothelial cells (already mapped) and macrophages (already mapped) modulates renal vascular tone; CGRP dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -818,6 +827,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CKD il-2: IL-2 on t-cells (already mapped) and macrophages (already mapped) amplifies renal immune activation; il-2 excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CKD fibronectin: fibronectin in renal tubular cells (already mapped) and fibroblasts (already mapped) promotes ECM deposition; fibronectin excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — CKD igf-1: IGF-1 on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal hypertrophy; igf-1 excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — CKD notch: Notch in renal tubular cells (already mapped) and macrophages (already mapped) regulates renal cell fate; Notch dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) fibrosis cascade in CKD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CKD activin-a: activin-A in renal tubular cells (already mapped) and fibroblasts (already mapped) promotes renal fibrosis; activin-A dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CKD cgrp: CGRP in renal endothelial cells (already mapped) and macrophages (already mapped) modulates renal vascular tone; CGRP dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 
 ## Pathology
 

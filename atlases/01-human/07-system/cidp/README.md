@@ -564,6 +564,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "CIDP wnt-beta-catenin: WNT/β-catenin on schwann cells (already mapped) and macrophages (already mapped) regulates myelin repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "CIDP rankl: RANKL in macrophages (already mapped) and schwann cells (already mapped) modulates nerve-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "CIDP fibronectin: fibronectin in schwann cells (already mapped) and macrophages (already mapped) promotes nerve ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "CIDP notch: Notch on schwann cells (already mapped) and macrophages (already mapped) regulates myelin cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
 ---
 
 # CIDP
@@ -888,6 +897,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — CIDP glp-1: GLP-1 from macrophages (already mapped) and schwann cells (already mapped) modulates neuroimmune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — CIDP angiotensin-ii: angiotensin II on schwann cells (already mapped) and macrophages (already mapped) modulates peripheral nerve inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — CIDP wnt-beta-catenin: WNT/β-catenin on schwann cells (already mapped) and macrophages (already mapped) regulates myelin repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — CIDP rankl: RANKL in macrophages (already mapped) and schwann cells (already mapped) modulates nerve-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CIDP fibronectin: fibronectin in schwann cells (already mapped) and macrophages (already mapped) promotes nerve ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — CIDP notch: Notch on schwann cells (already mapped) and macrophages (already mapped) regulates myelin cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 
 ---
 
