@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "desmoid hydrogen: hydrogen via ROS from macrophage (already mapped) and fibroblast (already mapped) modulates stromal oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal cascade of desmoid tumour."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "desmoid pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses antitumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "desmoid glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "desmoid angiotensin-ii: angiotensin II on fibroblasts (already mapped) and macrophages (already mapped) promotes tumour remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
 ---
 
 # Desmoid Tumor
@@ -857,6 +866,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — desmoid carbon: carbon in nucleotides fuels macrophage (already mapped) and fibroblast (already mapped) proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal fibroblast cascade of desmoid tumour.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — desmoid chloride: chloride channels on macrophage (already mapped) and fibroblast (already mapped) regulate homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal cascade of desmoid tumour.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — desmoid hydrogen: hydrogen via ROS from macrophage (already mapped) and fibroblast (already mapped) modulates stromal oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) stromal cascade of desmoid tumour.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — desmoid pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses antitumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — desmoid glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — desmoid angiotensin-ii: angiotensin II on fibroblasts (already mapped) and macrophages (already mapped) promotes tumour remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
 
 ---
 
