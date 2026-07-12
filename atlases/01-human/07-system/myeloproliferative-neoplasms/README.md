@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "MPN angiotensin-II: angiotensin-II via AT1R on bone-marrow stromal cells (already mapped) and macrophages (already mapped) drives fibrotic remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "MPN wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates clonal marrow expansion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of MPN."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "MPN rankl: RANKL from macrophages (already mapped) and osteoblasts (already mapped) promotes clonal myeloid immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "MPN il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates clonal myeloid immune tone; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade."
 ---
 
 # Myeloproliferative Neoplasms
@@ -867,6 +876,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MPN PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and NK cells (already mapped) in clonal bone marrow modulates immune escape; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MPN GLP-1: GLP-1 receptor agonism on megakaryocytes (already mapped) and macrophages (already mapped) modulates clonal marrow inflammation; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MPN angiotensin-II: angiotensin-II via AT1R on bone-marrow stromal cells (already mapped) and macrophages (already mapped) drives fibrotic remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MPN wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates clonal marrow expansion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of MPN.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MPN rankl: RANKL from macrophages (already mapped) and osteoblasts (already mapped) promotes clonal myeloid immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MPN il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates clonal myeloid immune tone; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)

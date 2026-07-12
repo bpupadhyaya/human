@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "MF PD-1: PD-1 checkpoint on T-regulatory cells (already mapped) and NK cells (already mapped) in the bone-marrow microenvironment modulates clonal immune escape; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "MF glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory marrow tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of myelofibrosis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "MF angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblasts (already mapped) drives haematopoietic vascular tone; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of MF."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "MF wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates marrow stromal remodelling; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of MF."
 ---
 
 # Myelofibrosis
@@ -851,6 +860,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MF oxygen: oxygen, via mitochondrial respiration in megakaryocytes (already mapped) and macrophages (already mapped), sustains JAK2 (already mapped) signalling; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MF sulfur: sulfur in cysteine residues of JAK2 (already mapped) and CALR proteins in megakaryocytes (already mapped) stabilises thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MF PD-1: PD-1 checkpoint on T-regulatory cells (already mapped) and NK cells (already mapped) in the bone-marrow microenvironment modulates clonal immune escape; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MF glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory marrow tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of myelofibrosis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MF angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblasts (already mapped) drives haematopoietic vascular tone; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of MF.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MF wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates marrow stromal remodelling; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of MF.
 
 ---
 
