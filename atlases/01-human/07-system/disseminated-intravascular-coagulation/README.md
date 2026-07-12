@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "DIC glp-1: GLP-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic-coagulation tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive cascade of DIC."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "DIC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes vascular permeability; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "DIC wnt-beta-catenin: WNT/β-catenin on endothelial cells (already mapped) and macrophages (already mapped) regulates integrity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "DIC il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies systemic immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -862,6 +871,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — DIC carbon: carbon in nucleotides fuels macrophages (already mapped) and endothelial cells (already mapped) during coagulopathy; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive cascade of DIC.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — DIC pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses immune coagulation control; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive coagulopathy cascade of DIC.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — DIC glp-1: GLP-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic-coagulation tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) consumptive cascade of DIC.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — DIC angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes vascular permeability; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — DIC wnt-beta-catenin: WNT/β-catenin on endothelial cells (already mapped) and macrophages (already mapped) regulates integrity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — DIC il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies systemic immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 
 ---
 

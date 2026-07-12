@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "DS rankl: RANKL from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates mucosal immune-epithelial crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiosis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "digestive-system il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies mucosal immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of the digestive system."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "digestive-system fibronectin: fibronectin in enterocytes (already mapped) and macrophages (already mapped) promotes ECM integrity; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the digestive system."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "digestive-system igf-1: IGF-1 from hepatocytes (already mapped) and enterocytes (already mapped) promotes mucosal growth; igf-1 signalling amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) proliferative cascade of the digestive system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -836,6 +845,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [PD-1](../../03-molecular/pd-1/README.md) — DS pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses mucosal immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiotic cascade in the digestive system.
 - **Connects to:** [Angiotensin-II](../../03-molecular/angiotensin-ii/README.md) — DS angiotensin-ii: angiotensin-II from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates gut vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiosis.
 - **Connects to:** [RANKL](../../03-molecular/rankl/README.md) — DS rankl: RANKL from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates mucosal immune-epithelial crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and gut-microbiome (already mapped) dysbiosis.
+- **Connects to:** [IL-2](../../03-molecular/il-2/README.md) — digestive-system il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies mucosal immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of the digestive system.
+- **Connects to:** [Fibronectin](../../03-molecular/fibronectin/README.md) — digestive-system fibronectin: fibronectin in enterocytes (already mapped) and macrophages (already mapped) promotes ECM integrity; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the digestive system.
+- **Connects to:** [IGF-1](../../03-molecular/igf-1/README.md) — digestive-system igf-1: IGF-1 from hepatocytes (already mapped) and enterocytes (already mapped) promotes mucosal growth; igf-1 signalling amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) proliferative cascade of the digestive system.
 
 ## Pathology
 
