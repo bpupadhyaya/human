@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "NBL angiotensin-II: angiotensin-II via AT1R on neuroblastoma cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of neuroblastoma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "NBL rankl: RANKL from macrophages (already mapped) and dendritic cells (already mapped) promotes neuroblastoma immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of neuroblastoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "NBL fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) anchors neuroblastoma invasive matrix; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "NBL igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes neuroblastoma cell growth; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade."
 ---
 
 # Neuroblastoma
@@ -860,6 +869,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NBL sulfur: sulfur in cysteine residues of MYCN (already mapped) and mTOR (already mapped) proteins in neuroblastoma cells sustains thiol-redox balance; sulfur depletion amplifies IL-6 (already mapped) and mTOR (already mapped) tumour cascade of neuroblastoma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — NBL GLP-1: GLP-1 receptor agonism on macrophages (already mapped) and neuroblastoma cells modulates tumour microenvironment inflammation; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of neuroblastoma.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — NBL angiotensin-II: angiotensin-II via AT1R on neuroblastoma cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of neuroblastoma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — NBL rankl: RANKL from macrophages (already mapped) and dendritic cells (already mapped) promotes neuroblastoma immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of neuroblastoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — NBL fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) anchors neuroblastoma invasive matrix; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NBL igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes neuroblastoma cell growth; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Nervous-system IL-2: IL-2 from T-regulatory cells (already mapped) and microglia (already mapped) supports neuroprotective signalling; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of the nervous system."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "NS fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) anchors neuronal ECM; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NS notch: NOTCH in neurons (already mapped) and astrocytes (already mapped) regulates synaptic plasticity; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "NS igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival and myelination; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
 ---
 
 # Nervous System
@@ -786,6 +795,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Nervous-system RANKL: RANKL from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory bone-immune crosstalk in CNS disease; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neurodegeneration cascade of the nervous system.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Nervous-system SMAD4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β (already mapped) neuroprotective and synaptic signalling; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of the nervous system.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Nervous-system IL-2: IL-2 from T-regulatory cells (already mapped) and microglia (already mapped) supports neuroprotective signalling; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of the nervous system.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — NS fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) anchors neuronal ECM; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NS notch: NOTCH in neurons (already mapped) and astrocytes (already mapped) regulates synaptic plasticity; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NS igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival and myelination; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
 
 [^kandel-principles-ns]: Kandel ER, Koester JD, Mack SH, Siegelbaum SA. *Principles of Neural Science.* 6th ed. McGraw-Hill; 2021.
 [^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.
