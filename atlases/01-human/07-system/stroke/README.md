@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Stroke wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and endothelial cells (already mapped) regulates blood-brain barrier repair; wnt-beta-catenin loss amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Stroke rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes neuroinflammatory immune activation after stroke; rankl excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Stroke il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates post-stroke neuroinflammation; il-2 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Stroke fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes post-stroke ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
 ---
 
 # Stroke
@@ -847,6 +856,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Stroke glp-1: GLP-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates cerebrovascular metabolic tone; glp-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and Glutamate (already mapped) cascade of stroke.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Stroke angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives acute neuroinflammation; angiotensin-ii excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and Glutamate (already mapped) cascade of stroke.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Stroke wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and endothelial cells (already mapped) regulates blood-brain barrier repair; wnt-beta-catenin loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and Glutamate (already mapped) cascade of stroke.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Stroke rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes neuroinflammatory immune activation after stroke; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and Glutamate (already mapped) cascade of stroke.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Stroke il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates post-stroke neuroinflammation; il-2 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and Glutamate (already mapped) cascade of stroke.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Stroke fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes post-stroke ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and Glutamate (already mapped) cascade of stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
