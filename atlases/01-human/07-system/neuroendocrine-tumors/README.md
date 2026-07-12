@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "NET nitrogen: nitrogen in amino-acid scaffold of chromogranin (already mapped) and NF-κB (already mapped) proteins in neuroendocrine cells sustains hormone production; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NET."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "NET PD-1: PD-1 checkpoint on tumour-infiltrating T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates immune evasion in the NET microenvironment; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NET."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "NET angiotensin-II: angiotensin-II via AT1R on neuroendocrine cells (already mapped) and macrophages (already mapped) drives tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NET."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "NET WNT-β-catenin: WNT-β-catenin in neuroendocrine cells (already mapped) and macrophages (already mapped) promotes tumour invasion and hormone-secretion plasticity; WNT-β-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NET."
 ---
 
 # Neuroendocrine Tumors
@@ -816,6 +825,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — NET carbon: carbon as backbone of chromogranin (already mapped) and NF-κB (already mapped) proteins in neuroendocrine cells and macrophages (already mapped) sustains tumour proliferation; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NET.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — NET hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and mast cells (already mapped) in the NET TME, supports neuroendocrine cell signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NET.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NET nitrogen: nitrogen in amino-acid scaffold of chromogranin (already mapped) and NF-κB (already mapped) proteins in neuroendocrine cells sustains hormone production; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NET.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — NET PD-1: PD-1 checkpoint on tumour-infiltrating T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates immune evasion in the NET microenvironment; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NET.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — NET angiotensin-II: angiotensin-II via AT1R on neuroendocrine cells (already mapped) and macrophages (already mapped) drives tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-tumour cascade of NET.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — NET WNT-β-catenin: WNT-β-catenin in neuroendocrine cells (already mapped) and macrophages (already mapped) promotes tumour invasion and hormone-secretion plasticity; WNT-β-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NET.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
