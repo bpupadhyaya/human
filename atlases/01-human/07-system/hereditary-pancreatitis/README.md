@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "HP notch: Notch signalling on acinar cells (already mapped) and macrophages (already mapped) regulates pancreatic inflammatory repair; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "HP igf-1: IGF-1 from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic metabolic repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "HP activin-a: activin-A from acinar cells (already mapped) and macrophages (already mapped) promotes pancreatic fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "HP cgrp: CGRP from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
 ---
 
 # Hereditary Pancreatitis
@@ -891,6 +900,9 @@ cross_links:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — HP vegf: VEGF from macrophages (already mapped) and acinar cells (already mapped) promotes pancreatic neo-angiogenesis; vegf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HP fibronectin: fibronectin in acinar cells (already mapped) and macrophages (already mapped) promotes pancreatic ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HP notch: Notch signalling on acinar cells (already mapped) and macrophages (already mapped) regulates pancreatic inflammatory repair; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HP igf-1: IGF-1 from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic metabolic repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HP activin-a: activin-A from acinar cells (already mapped) and macrophages (already mapped) promotes pancreatic fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HP cgrp: CGRP from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
