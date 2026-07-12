@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "MCL nitrogen: nitrogen in amino-acid scaffold of cyclin-D1 (already mapped) and BTK proteins sustains B-cell (already mapped) proliferation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of mantle-cell lymphoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "MCL hydrogen: hydrogen in redox chemistry of B-cells (already mapped) and macrophages (already mapped) modulates cyclin-D1 (already mapped) stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade of MCL."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "MCL oxygen: oxygen supports aerobic metabolism in B-cells (already mapped) and macrophages (already mapped) for cyclin-D1 (already mapped) signalling; oxygen deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade of MCL."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "MCL sulfur: sulfur in cysteine residues of BTK and NF-κB (already mapped) proteins sustains B-cell (already mapped) signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade of mantle-cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -833,6 +842,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MCL carbon: carbon as backbone of cyclin-D1 (already mapped) and BTK protein scaffold sustains B-cell (already mapped) mantle-zone proliferation; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade of MCL.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MCL chloride: chloride regulates B-cell (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) protumorigenic microenvironment of mantle-cell lymphoma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MCL nitrogen: nitrogen in amino-acid scaffold of cyclin-D1 (already mapped) and BTK proteins sustains B-cell (already mapped) proliferation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of mantle-cell lymphoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MCL hydrogen: hydrogen in redox chemistry of B-cells (already mapped) and macrophages (already mapped) modulates cyclin-D1 (already mapped) stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade of MCL.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MCL oxygen: oxygen supports aerobic metabolism in B-cells (already mapped) and macrophages (already mapped) for cyclin-D1 (already mapped) signalling; oxygen deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade of MCL.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MCL sulfur: sulfur in cysteine residues of BTK and NF-κB (already mapped) proteins sustains B-cell (already mapped) signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade of mantle-cell lymphoma.
 
 ---
 
