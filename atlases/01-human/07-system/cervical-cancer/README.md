@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "cervical activin-a: activin-A in tumour cells (already mapped) and macrophages (already mapped) modulates stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "cervical cgrp: CGRP from tumour cells (already mapped) and macrophages (already mapped) modulates cervical neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "cervical calcitonin: calcitonin from tumour cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "cervical substance-p: substance-P from sensory neurons (already mapped) and macrophages (already mapped) modulates cervical nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
 ---
 
 # Cervical Cancer
@@ -870,6 +879,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — cervical fibronectin: fibronectin in tumour stroma (already mapped) and macrophages (already mapped) promotes ECM invasion; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — cervical igf-1: IGF-1 on tumour cells (already mapped) and macrophages (already mapped) promotes proliferation; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cervical activin-a: activin-A in tumour cells (already mapped) and macrophages (already mapped) modulates stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cervical cgrp: CGRP from tumour cells (already mapped) and macrophages (already mapped) modulates cervical neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cervical calcitonin: calcitonin from tumour cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — cervical substance-p: substance-P from sensory neurons (already mapped) and macrophages (already mapped) modulates cervical nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 
 ---
 

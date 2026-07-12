@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "carney fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "carney cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) myxoma cascade in Carney complex."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "carney calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "carney substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
 ---
 
 # Carney Complex
@@ -869,6 +878,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — carney rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates tumour-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) myxoma cascade in Carney complex.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — carney il-2: IL-2 on t-cells (already mapped) and macrophages (already mapped) amplifies adaptive tumour immunity; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — carney fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — carney cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) myxoma cascade in Carney complex.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — carney calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — carney substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 
 ---
 
