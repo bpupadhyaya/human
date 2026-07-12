@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "COVID-19 igf-1: IGF-1 on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary repair; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "COVID-19 activin-a: activin-A from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "COVID-19 tgf-beta: TGF-β from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary fibrosis; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "COVID-19 cgrp: CGRP from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
 ---
 
 # COVID-19 Disease
@@ -820,6 +829,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — COVID-19 fibronectin: fibronectin in type-II pneumocytes (already mapped) and macrophages (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — COVID-19 notch: Notch on type-II pneumocytes (already mapped) and macrophages (already mapped) regulates lung cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine-storm cascade of COVID-19.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — COVID-19 igf-1: IGF-1 on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary repair; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — COVID-19 activin-a: activin-A from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — COVID-19 tgf-beta: TGF-β from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary fibrosis; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — COVID-19 cgrp: CGRP from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 
 ## Pathology
 

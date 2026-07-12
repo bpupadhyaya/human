@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "COPD igf-1: IGF-1 on airway epithelial cells (already mapped) and macrophages (already mapped) modulates pulmonary repair; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "COPD activin-a: activin-A from airway epithelial cells (already mapped) and macrophages (already mapped) regulates pulmonary immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "COPD cgrp: CGRP from airway epithelial cells (already mapped) and macrophages (already mapped) modulates pulmonary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "COPD calcitonin: calcitonin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates airway calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD."
 ---
 
 # COPD
@@ -898,6 +907,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — COPD fibronectin: fibronectin in airway epithelial cells (already mapped) and macrophages (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — COPD notch: Notch on airway epithelial cells (already mapped) and macrophages (already mapped) regulates lung cell fate; Notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — COPD igf-1: IGF-1 on airway epithelial cells (already mapped) and macrophages (already mapped) modulates pulmonary repair; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — COPD activin-a: activin-A from airway epithelial cells (already mapped) and macrophages (already mapped) regulates pulmonary immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — COPD cgrp: CGRP from airway epithelial cells (already mapped) and macrophages (already mapped) modulates pulmonary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — COPD calcitonin: calcitonin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates airway calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) emphysema cascade of COPD.
 
 ---
 
