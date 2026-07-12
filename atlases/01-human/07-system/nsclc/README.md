@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "NSCLC nitrogen: nitrogen in amino-acid scaffold of EGFR (already mapped) and NF-κB (already mapped) proteins in NSCLC cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "NSCLC iron: iron in haem and iron-sulfur clusters of NSCLC cells (already mapped) and macrophages (already mapped) sustains mitochondrial function; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "NSCLC phosphorus: phosphorus in ATP and phospholipid membranes of NSCLC cells (already mapped) and macrophages (already mapped) drives EGFR (already mapped) signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "NSCLC sulfur: sulfur in cysteine residues of EGFR (already mapped) and NF-κB (already mapped) proteins in NSCLC cells sustains thiol-redox balance and oncogenic signalling; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC."
 ---
 
 # NSCLC
@@ -820,6 +829,9 @@ cross_links:
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — NSCLC chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in the NSCLC TME; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) tumour cascade of NSCLC.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — NSCLC hydrogen: hydrogen, via NADPH redox in macrophages (already mapped) and tumour cells (already mapped), sustains anti-oxidant defence; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of NSCLC.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — NSCLC nitrogen: nitrogen in amino-acid scaffold of EGFR (already mapped) and NF-κB (already mapped) proteins in NSCLC cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — NSCLC iron: iron in haem and iron-sulfur clusters of NSCLC cells (already mapped) and macrophages (already mapped) sustains mitochondrial function; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — NSCLC phosphorus: phosphorus in ATP and phospholipid membranes of NSCLC cells (already mapped) and macrophages (already mapped) drives EGFR (already mapped) signalling; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NSCLC sulfur: sulfur in cysteine residues of EGFR (already mapped) and NF-κB (already mapped) proteins in NSCLC cells sustains thiol-redox balance and oncogenic signalling; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of NSCLC.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)

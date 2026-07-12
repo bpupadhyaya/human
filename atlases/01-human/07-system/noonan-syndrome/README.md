@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Noonan nitrogen: nitrogen in amino-acid scaffold of RAS/MAPK (already mapped) and SHP2 proteins in cardiomyocytes (already mapped) sustains RASopathy development; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of Noonan syndrome."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Noonan hydrogen: hydrogen, via redox homeostasis in cardiomyocytes (already mapped) and macrophages (already mapped), supports RAS/MAPK signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) RASopathy cascade of Noonan syndrome."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Noonan oxygen: oxygen, via mitochondrial respiration in cardiomyocytes (already mapped) and macrophages (already mapped), sustains cardiac RAS/MAPK development; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) RASopathy cascade of Noonan syndrome."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Noonan sulfur: sulfur in cysteine residues of SHP2 and RAS/MAPK (already mapped) proteins in cardiomyocytes (already mapped) sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) RASopathy cascade of Noonan syndrome."
 ---
 
 # Noonan Syndrome
@@ -849,6 +858,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Noonan carbon: carbon as backbone of RAS/MAPK (already mapped) and SHP2 structural proteins in cardiomyocytes (already mapped) sustains RASopathy signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) developmental cascade of Noonan syndrome.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Noonan chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) ion homeostasis in Noonan cardiac tissue; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) RASopathy cascade of Noonan syndrome.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Noonan nitrogen: nitrogen in amino-acid scaffold of RAS/MAPK (already mapped) and SHP2 proteins in cardiomyocytes (already mapped) sustains RASopathy development; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of Noonan syndrome.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Noonan hydrogen: hydrogen, via redox homeostasis in cardiomyocytes (already mapped) and macrophages (already mapped), supports RAS/MAPK signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) RASopathy cascade of Noonan syndrome.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Noonan oxygen: oxygen, via mitochondrial respiration in cardiomyocytes (already mapped) and macrophages (already mapped), sustains cardiac RAS/MAPK development; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) RASopathy cascade of Noonan syndrome.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Noonan sulfur: sulfur in cysteine residues of SHP2 and RAS/MAPK (already mapped) proteins in cardiomyocytes (already mapped) sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) RASopathy cascade of Noonan syndrome.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
