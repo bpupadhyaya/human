@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "DLBCL oxygen: oxygen via ROS from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma redox homeostasis; oxygen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant cascade of DLBCL."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "DLBCL glp-1: GLP-1 from macrophages (already mapped) and B-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in DLBCL."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "DLBCL angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in DLBCL."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "DLBCL wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) promotes lymphoma proliferation; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -845,6 +854,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — DLBCL carbon: carbon backbone of nucleotides in B-cells (already mapped) and macrophages (already mapped) fuels lymphoma proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant cascade of DLBCL.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — DLBCL hydrogen: hydrogen via ROS from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant cascade of DLBCL.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — DLBCL oxygen: oxygen via ROS from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma redox homeostasis; oxygen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and B-cell (already mapped) malignant cascade of DLBCL.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — DLBCL glp-1: GLP-1 from macrophages (already mapped) and B-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in DLBCL.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — DLBCL angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) lymphoma cascade in DLBCL.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — DLBCL wnt-beta-catenin: WNT/β-catenin on B-cells (already mapped) and macrophages (already mapped) promotes lymphoma proliferation; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

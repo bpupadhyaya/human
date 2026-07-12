@@ -545,6 +545,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Endocrine wnt-beta-catenin: Wnt/β-catenin in macrophages (already mapped) and hepatocytes (already mapped) regulates endocrine gland development; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) cascade."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "endocrine-system rankl: RANKL from osteoblasts (already mapped) and macrophages (already mapped) modulates bone-hormone crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped) endocrine cascade of the endocrine system."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "endocrine-system il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies endocrine immune regulation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and GLP-1 (already mapped) cascade of the endocrine system."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "endocrine-system fibronectin: fibronectin in endocrine cells (already mapped) and macrophages (already mapped) maintains gland ECM; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
 ---
 
 # Endocrine System
@@ -878,6 +887,9 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Endocrine pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses autoimmune endocrine surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) cascade.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Endocrine vegf: VEGF from macrophages (already mapped) and hepatocytes (already mapped) drives endocrine gland angiogenesis; VEGF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) endocrine cascade.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Endocrine wnt-beta-catenin: Wnt/β-catenin in macrophages (already mapped) and hepatocytes (already mapped) regulates endocrine gland development; wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and adrenal-gland (already mapped) cascade.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — endocrine-system rankl: RANKL from osteoblasts (already mapped) and macrophages (already mapped) modulates bone-hormone crosstalk; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and IGF-1 (already mapped) endocrine cascade of the endocrine system.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — endocrine-system il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies endocrine immune regulation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and GLP-1 (already mapped) cascade of the endocrine system.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — endocrine-system fibronectin: fibronectin in endocrine cells (already mapped) and macrophages (already mapped) maintains gland ECM; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
 
 ## Pathology
 
