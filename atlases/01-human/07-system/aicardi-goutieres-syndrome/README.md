@@ -567,6 +567,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "AGS fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) modulates matrix remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "AGS notch: NOTCH on microglia (already mapped) and astrocytes (already mapped) regulates AGS neuroimmune fate; NOTCH dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) neuroinflammatory cascade of AGS."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "AGS igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival; IGF-1 deficiency amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "AGS activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) regulates AGS immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -844,6 +853,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — AGS Wnt/β-catenin: Wnt/β-catenin in microglia (already mapped) and neurons (already mapped) modulates neuro-inflammatory responses; Wnt dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AGS RANKL: RANKL in microglia (already mapped) and neurons (already mapped) modulates the neuro-immune bone axis; RANKL excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of Aicardi-Goutières syndrome.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AGS fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) modulates matrix remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AGS notch: NOTCH on microglia (already mapped) and astrocytes (already mapped) regulates AGS neuroimmune fate; NOTCH dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) neuroinflammatory cascade of AGS.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AGS igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival; IGF-1 deficiency amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AGS activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) regulates AGS immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
