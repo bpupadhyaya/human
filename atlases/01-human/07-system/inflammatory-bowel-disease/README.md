@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "IBD rankl: RANKL from macrophages (already mapped) and T-cells (already mapped) amplifies mucosal immune activation; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) intestinal epithelium (already mapped) cascade in IBD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "IBD fibronectin: fibronectin in intestinal epithelium (already mapped) and fibroblasts (already mapped) drives mucosal fibrotic remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "IBD notch: NOTCH in intestinal epithelium (already mapped) and macrophages (already mapped) regulates mucosal crypt homeostasis; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "IBD igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes intestinal epithelium (already mapped) repair; igf-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -859,6 +868,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — IBD angiotensin-ii: angiotensin-II from macrophages (already mapped) and intestinal epithelium (already mapped) amplifies mucosal inflammation; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD.
 - `connects-to` → **[Wnt-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IBD wnt-beta-catenin: Wnt-β-catenin from intestinal epithelium (already mapped) and macrophages (already mapped) drives mucosal dysregulation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IBD rankl: RANKL from macrophages (already mapped) and T-cells (already mapped) amplifies mucosal immune activation; rankl dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) intestinal epithelium (already mapped) cascade in IBD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — IBD fibronectin: fibronectin in intestinal epithelium (already mapped) and fibroblasts (already mapped) drives mucosal fibrotic remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — IBD notch: NOTCH in intestinal epithelium (already mapped) and macrophages (already mapped) regulates mucosal crypt homeostasis; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade in IBD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IBD igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes intestinal epithelium (already mapped) repair; igf-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)

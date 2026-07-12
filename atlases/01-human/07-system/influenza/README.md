@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "Influenza pd-1: PD-1 on T-cytotoxic cells (already mapped) and NK cells (already mapped) suppresses antiviral immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Influenza glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Influenza angiotensin-ii: angiotensin-II from endothelium (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Influenza wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and epithelial cells (already mapped) regulates antiviral repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade."
 ---
 
 # Influenza
@@ -860,3 +869,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Influenza nitrogen: nitrogen in viral proteins and cytokines (already mapped) sustains signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Influenza sulfur: sulfur-containing amino acids in macrophages (already mapped) and NK cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Influenza pd-1: PD-1 on T-cytotoxic cells (already mapped) and NK cells (already mapped) suppresses antiviral immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Influenza glp-1: GLP-1 from neurons (already mapped) and macrophages (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Influenza angiotensin-ii: angiotensin-II from endothelium (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Influenza wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and epithelial cells (already mapped) regulates antiviral repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade.
