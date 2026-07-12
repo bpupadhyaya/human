@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "Osteosarcoma fibronectin: fibronectin in bone matrix scaffolds osteosarcoma cell adhesion and invasion; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) extracellular-matrix invasion cascade of osteosarcoma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Osteosarcoma wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) drives osteosarcoma invasion; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of osteosarcoma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Osteosarcoma rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes osteosarcoma immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Osteosarcoma smad4: SMAD4 in fibroblasts (already mapped) and macrophages (already mapped) mediates TGF-β tumour stroma repair; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of osteosarcoma."
 ---
 
 # Osteosarcoma
@@ -854,6 +863,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Osteosarcoma GLP-1: GLP-1 receptor signalling in osteoblasts (already mapped) and macrophages (already mapped) modulates bone turnover; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of osteosarcoma.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Osteosarcoma angiotensin-II: angiotensin-II in tumour vasculature promotes osteosarcoma angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) pro-tumour cascade of osteosarcoma.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Osteosarcoma fibronectin: fibronectin in bone matrix scaffolds osteosarcoma cell adhesion and invasion; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) extracellular-matrix invasion cascade of osteosarcoma.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Osteosarcoma wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) drives osteosarcoma invasion; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of osteosarcoma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Osteosarcoma rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes osteosarcoma immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Osteosarcoma smad4: SMAD4 in fibroblasts (already mapped) and macrophages (already mapped) mediates TGF-β tumour stroma repair; smad4 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of osteosarcoma.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

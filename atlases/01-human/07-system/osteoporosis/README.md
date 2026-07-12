@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "Osteoporosis IL-2: IL-2 from T-cells (already mapped) in bone marrow regulates osteoclast (already mapped) precursor expansion; IL-2 excess amplifies RANKL (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) bone resorption cascade of osteoporosis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Osteoporosis wnt-beta-catenin: WNT/β-catenin on osteoblasts (already mapped) and macrophages (already mapped) drives bone anabolic balance; wnt-beta-catenin loss amplifies rankl (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) cascade of osteoporosis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Osteoporosis rankl: RANKL from osteoblasts (already mapped) and macrophages (already mapped) drives osteoclast bone resorption; rankl excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) bone resorption cascade of osteoporosis."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Osteoporosis smad4: SMAD4 in osteoblasts (already mapped) and macrophages (already mapped) mediates TGF-β bone repair signalling; smad4 dysregulation amplifies rankl (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) cascade of osteoporosis."
 ---
 
 # Osteoporosis
@@ -839,6 +848,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Osteoporosis PD-1: PD-1 on T-cells (already mapped) in bone marrow suppresses osteoclast (already mapped)-activating immune responses; PD-1 dysregulation amplifies RANKL (already mapped) and NF-κB (already mapped) bone resorption cascade of osteoporosis.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Osteoporosis angiotensin-II: angiotensin-II in bone marrow vasculature modulates osteoblast (already mapped) and osteoclast differentiation; angiotensin-II excess amplifies RANKL (already mapped) and NF-κB (already mapped) bone loss cascade of osteoporosis.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Osteoporosis IL-2: IL-2 from T-cells (already mapped) in bone marrow regulates osteoclast (already mapped) precursor expansion; IL-2 excess amplifies RANKL (already mapped) and NF-κB (already mapped) and TNF-α (already mapped) bone resorption cascade of osteoporosis.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Osteoporosis wnt-beta-catenin: WNT/β-catenin on osteoblasts (already mapped) and macrophages (already mapped) drives bone anabolic balance; wnt-beta-catenin loss amplifies rankl (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) cascade of osteoporosis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Osteoporosis rankl: RANKL from osteoblasts (already mapped) and macrophages (already mapped) drives osteoclast bone resorption; rankl excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) bone resorption cascade of osteoporosis.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Osteoporosis smad4: SMAD4 in osteoblasts (already mapped) and macrophages (already mapped) mediates TGF-β bone repair signalling; smad4 dysregulation amplifies rankl (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) cascade of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
