@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "gist fibronectin: fibronectin in stromal cells (already mapped) and tumour cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "gist activin-a: activin-A from stromal cells (already mapped) and tumour cells (already mapped) promotes ECM fibrosis; activin-a excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "gist cgrp: CGRP from stromal cells (already mapped) and tumour cells (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "gist calcitonin: calcitonin from stromal cells (already mapped) and tumour cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
 ---
 
 # GIST
@@ -878,6 +887,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — gist rankl: RANKL from stromal cells (already mapped) and tumour cells (already mapped) promotes stromal osteoclast activation; rankl excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — gist smad4: SMAD4 in stromal cells (already mapped) and tumour cells (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — gist fibronectin: fibronectin in stromal cells (already mapped) and tumour cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — gist activin-a: activin-A from stromal cells (already mapped) and tumour cells (already mapped) promotes ECM fibrosis; activin-a excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — gist cgrp: CGRP from stromal cells (already mapped) and tumour cells (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — gist calcitonin: calcitonin from stromal cells (already mapped) and tumour cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
