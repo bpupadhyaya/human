@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Hypertension wnt-beta-catenin: Wnt-β-catenin from vascular smooth-muscle cells (already mapped) and macrophages (already mapped) drives arterial remodelling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in hypertension."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Hypertension rankl: RANKL from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes vascular inflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade in hypertension."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Hypertension il-2: IL-2 from macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates vascular immune activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Hypertension notch: NOTCH in vascular smooth-muscle cells (already mapped) and macrophages (already mapped) drives arterial stiffness; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension."
 ---
 
 # Hypertension
@@ -814,6 +823,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Hypertension pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses vascular immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade in hypertension.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Hypertension vegf: VEGF from macrophages (already mapped) and T-cytotoxic cells (already mapped) drives vascular angiogenesis and remodelling; vegf dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
 - `connects-to` → **[Wnt-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Hypertension wnt-beta-catenin: Wnt-β-catenin from vascular smooth-muscle cells (already mapped) and macrophages (already mapped) drives arterial remodelling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in hypertension.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Hypertension rankl: RANKL from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes vascular inflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade in hypertension.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Hypertension il-2: IL-2 from macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates vascular immune activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Hypertension notch: NOTCH in vascular smooth-muscle cells (already mapped) and macrophages (already mapped) drives arterial stiffness; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
 
 ## Pathology
 

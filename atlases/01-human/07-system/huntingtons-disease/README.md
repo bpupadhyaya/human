@@ -534,6 +534,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "HD vegf: VEGF from microglia (already mapped) and neurons (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of Huntington disease."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "HD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates striatal neuroprotection; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "HD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of Huntington disease."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "HD il-2: IL-2 from microglia (already mapped) and astrocytes (already mapped) regulates neuroinflammatory T-cell activation; il-2 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -758,3 +767,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — HD pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade in Huntington disease.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — HD angiotensin-ii: angiotensin-II from microglia (already mapped) and neurons (already mapped) amplifies neuroinflammatory signalling; angiotensin-ii excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade in HD.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — HD vegf: VEGF from microglia (already mapped) and neurons (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of Huntington disease.
+- `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — HD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates striatal neuroprotection; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of Huntington disease.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — HD il-2: IL-2 from microglia (already mapped) and astrocytes (already mapped) regulates neuroinflammatory T-cell activation; il-2 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
