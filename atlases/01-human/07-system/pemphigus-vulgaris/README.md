@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Pemphigus-vulgaris notch: NOTCH on keratinocytes (already mapped) and macrophages (already mapped) regulates epidermal differentiation; notch dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of pemphigus vulgaris."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "PV igf-1: IGF-1 from keratinocytes (already mapped) and B-cells (already mapped) promotes epidermal cell survival in pemphigus; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "PV activin-a: activin-A from keratinocytes (already mapped) and B-cells (already mapped) drives epidermal fibrotic signalling in pemphigus; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "PV cgrp: CGRP from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone in pemphigus; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
 ---
 
 # Pemphigus Vulgaris
@@ -887,6 +896,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Pemphigus-vulgaris smad4: SMAD4 in keratinocytes (already mapped) and macrophages (already mapped) mediates TGF-β anti-inflammatory repair; smad4 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of pemphigus vulgaris.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Pemphigus-vulgaris il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates blister immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of pemphigus vulgaris.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Pemphigus-vulgaris notch: NOTCH on keratinocytes (already mapped) and macrophages (already mapped) regulates epidermal differentiation; notch dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of pemphigus vulgaris.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PV igf-1: IGF-1 from keratinocytes (already mapped) and B-cells (already mapped) promotes epidermal cell survival in pemphigus; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PV activin-a: activin-A from keratinocytes (already mapped) and B-cells (already mapped) drives epidermal fibrotic signalling in pemphigus; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PV cgrp: CGRP from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone in pemphigus; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 
 ---
 

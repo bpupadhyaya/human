@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "PCNSL wnt-beta-catenin: WNT/β-catenin on lymphoma cells (already mapped) and microglia (already mapped) drives CNS tumour invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PCNSL."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PCNSL rankl: RANKL from macrophages (already mapped) and B-cells (already mapped) promotes CNS lymphoma immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PCNSL fibronectin: fibronectin in macrophages (already mapped) and B-cells (already mapped) promotes CNS lymphoma ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PCNSL notch: Notch signalling on macrophages (already mapped) and B-cells (already mapped) regulates CNS lymphoma cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
 ---
 
 # Primary CNS Lymphoma
@@ -849,6 +858,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PCNSL glp-1: GLP-1 from macrophages (already mapped) and microglia (already mapped) modulates metabolic-inflammatory CNS tumour tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PCNSL angiotensin-ii: angiotensin-II from macrophages (already mapped) and microglia (already mapped) drives CNS tumour angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PCNSL wnt-beta-catenin: WNT/β-catenin on lymphoma cells (already mapped) and microglia (already mapped) drives CNS tumour invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PCNSL.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PCNSL rankl: RANKL from macrophages (already mapped) and B-cells (already mapped) promotes CNS lymphoma immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PCNSL fibronectin: fibronectin in macrophages (already mapped) and B-cells (already mapped) promotes CNS lymphoma ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — PCNSL notch: Notch signalling on macrophages (already mapped) and B-cells (already mapped) regulates CNS lymphoma cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
