@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "DIC notch: Notch signalling on endothelial cells (already mapped) and macrophages (already mapped) regulates vascular integrity in DIC; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "DIC igf-1: IGF-1 from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "DIC activin-a: activin-A from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "DIC tgf-beta: TGF-β from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -886,6 +895,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — DIC rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes coagulation-associated bone marrow stress; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — DIC fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) promotes fibrin clot scaffold remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — DIC notch: Notch signalling on endothelial cells (already mapped) and macrophages (already mapped) regulates vascular integrity in DIC; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — DIC igf-1: IGF-1 from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — DIC activin-a: activin-A from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — DIC tgf-beta: TGF-β from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 
 ---
 
