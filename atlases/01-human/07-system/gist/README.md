@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "gist wnt-beta-catenin: WNT/β-catenin on stromal cells (already mapped) and tumour cells (already mapped) regulates growth; wnt-beta-catenin dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "gist rankl: RANKL from stromal cells (already mapped) and tumour cells (already mapped) promotes stromal osteoclast activation; rankl excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "gist smad4: SMAD4 in stromal cells (already mapped) and tumour cells (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "gist fibronectin: fibronectin in stromal cells (already mapped) and tumour cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
 ---
 
 # GIST
@@ -866,6 +875,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — gist glp-1: GLP-1 from stromal cells (already mapped) and macrophages (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) signalling cascade of GIST.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — gist angiotensin-ii: angiotensin II on stromal cells (already mapped) and endothelial cells (already mapped) promotes angiogenesis; angiotensin-II excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — gist wnt-beta-catenin: WNT/β-catenin on stromal cells (already mapped) and tumour cells (already mapped) regulates growth; wnt-beta-catenin dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — gist rankl: RANKL from stromal cells (already mapped) and tumour cells (already mapped) promotes stromal osteoclast activation; rankl excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — gist smad4: SMAD4 in stromal cells (already mapped) and tumour cells (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — gist fibronectin: fibronectin in stromal cells (already mapped) and tumour cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

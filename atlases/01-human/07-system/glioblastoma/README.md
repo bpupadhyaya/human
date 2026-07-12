@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "glioblastoma rankl: RANKL from microglia (already mapped) and tumour cells (already mapped) modulates neuro-inflammation; rankl excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "glioblastoma fibronectin: fibronectin in microglia (already mapped) and tumour cells (already mapped) promotes invasive ECM remodelling; fibronectin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "glioblastoma igf-1: IGF-1 from microglia (already mapped) and tumour cells (already mapped) promotes glioma proliferation; igf-1 excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "glioblastoma activin-a: activin-A from microglia (already mapped) and tumour cells (already mapped) promotes glioma invasion; activin-a excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
 ---
 
 # Glioblastoma
@@ -865,6 +874,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — glioblastoma glp-1: GLP-1 from microglia (already mapped) and astrocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies EGFR (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of glioblastoma.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — glioblastoma angiotensin-ii: angiotensin II on endothelial cells (already mapped) and glioma cells (already mapped) promotes angiogenesis; angiotensin-II excess amplifies EGFR (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of glioblastoma.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — glioblastoma rankl: RANKL from microglia (already mapped) and tumour cells (already mapped) modulates neuro-inflammation; rankl excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — glioblastoma fibronectin: fibronectin in microglia (already mapped) and tumour cells (already mapped) promotes invasive ECM remodelling; fibronectin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — glioblastoma igf-1: IGF-1 from microglia (already mapped) and tumour cells (already mapped) promotes glioma proliferation; igf-1 excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — glioblastoma activin-a: activin-A from microglia (already mapped) and tumour cells (already mapped) promotes glioma invasion; activin-a excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 
 ---
 
