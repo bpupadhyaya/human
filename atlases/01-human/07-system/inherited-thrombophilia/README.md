@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "IT rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) amplifies vascular inflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "IT smad4: SMAD4 in macrophages (already mapped) and endothelial cells (already mapped) mediates anti-thrombotic TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "IT il-2: IL-2 from macrophages (already mapped) and endothelial cells (already mapped) modulates T cell immune homeostasis; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "IT notch: Notch signalling on endothelial cells (already mapped) and macrophages (already mapped) regulates vascular thrombotic tone; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia."
 ---
 
 # Inherited Thrombophilia
@@ -902,6 +911,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — IT angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular tone; angiotensin-ii excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) thrombotic cascade in thrombophilia.
 - `connects-to` → **[WNT/β-Catenin](../../03-molecular/wnt-beta-catenin/README.md)** — IT wnt-beta-catenin: WNT/β-catenin on endothelium (already mapped) and macrophages (already mapped) regulates vascular integrity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in thrombophilia.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — IT rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) amplifies vascular inflammation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — IT smad4: SMAD4 in macrophages (already mapped) and endothelial cells (already mapped) mediates anti-thrombotic TGF-β signalling; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — IT il-2: IL-2 from macrophages (already mapped) and endothelial cells (already mapped) modulates T cell immune homeostasis; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — IT notch: Notch signalling on endothelial cells (already mapped) and macrophages (already mapped) regulates vascular thrombotic tone; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
