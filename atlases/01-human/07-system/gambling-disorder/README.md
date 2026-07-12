@@ -552,6 +552,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "gambling-disorder igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of gambling disorder."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "gambling-disorder activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) modulates glial fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of gambling disorder."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "gambling-disorder tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) modulates glial fibrosis; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of gambling disorder."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "gambling-disorder cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates reward neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of gambling disorder."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -876,6 +885,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — gambling-disorder fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade of gambling disorder.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — gambling-disorder notch: Notch signalling on neurons (already mapped) and microglia (already mapped) regulates reward-circuit development; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade of gambling disorder.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — gambling-disorder igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of gambling disorder.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — gambling-disorder activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) modulates glial fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of gambling disorder.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — gambling-disorder tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) modulates glial fibrosis; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of gambling disorder.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — gambling-disorder cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates reward neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of gambling disorder.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
