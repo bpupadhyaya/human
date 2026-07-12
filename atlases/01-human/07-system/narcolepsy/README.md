@@ -552,6 +552,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Narcolepsy calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic calcium tone; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Narcolepsy substance-p: substance-P from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Narcolepsy insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) drives metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Narcolepsy aldosterone: aldosterone from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -870,6 +879,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Narcolepsy activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) drives hypothalamic neuroinflammation; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Narcolepsy cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Narcolepsy calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic calcium tone; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Narcolepsy substance-p: substance-P from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Narcolepsy insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) drives metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Narcolepsy aldosterone: aldosterone from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

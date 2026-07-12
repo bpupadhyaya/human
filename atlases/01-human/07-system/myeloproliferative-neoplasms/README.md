@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "MPN activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives clonal marrow fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "MPN cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "MPN calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "MPN substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade."
 ---
 
 # Myeloproliferative Neoplasms
@@ -891,6 +900,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MPN fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes clonal marrow ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MPN igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes clonal myeloid cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MPN activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives clonal marrow fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MPN cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MPN calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MPN substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
