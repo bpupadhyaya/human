@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Sepsis nitrogen: nitric oxide from macrophages (already mapped) and endothelial cells (already mapped) mediates vasodilation; excess nitrogen amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) vasodilatory cytokine storm of sepsis."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "Sepsis sulfur: hydrogen sulfide from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm of sepsis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Sepsis GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Sepsis angiotensin-II: angiotensin-II signalling in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis."
 ---
 
 # Sepsis
@@ -825,6 +834,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Sepsis carbon: carbon, as metabolic backbone of macrophage (already mapped) and neutrophil (already mapped) energy metabolism, fuels the hypermetabolic septic response; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cytokine storm of sepsis.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Sepsis chloride: chloride, via CFTR in macrophages (already mapped) and neutrophils (already mapped), regulates phagocytic killing; chloride channel dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm of sepsis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Sepsis nitrogen: nitric oxide from macrophages (already mapped) and endothelial cells (already mapped) mediates vasodilation; excess nitrogen amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) vasodilatory cytokine storm of sepsis.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Sepsis sulfur: hydrogen sulfide from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cytokine storm of sepsis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Sepsis GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Sepsis angiotensin-II: angiotensin-II signalling in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
