@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "PD nitrogen: nitrogen in amino-acid scaffold of α-synuclein and dopamine transporter proteins in neurons (already mapped) sustains nigrostriatal signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of Parkinson's disease."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "PD oxygen: oxygen, via mitochondrial respiration in dopaminergic neurons and microglia (already mapped), sustains dopamine (already mapped) synthesis; oxygen depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) nigrostriatal cascade of Parkinson's disease."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PD PD-1: PD-1 on T-cells (already mapped) and microglia (already mapped) in the substantia nigra modulates neuroinflammatory tone; PD-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) α-synuclein cascade of Parkinson's disease."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "PD VEGF: VEGF from microglia (already mapped) and astrocytes sustains nigrostriatal neurovascular integrity; VEGF dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Parkinson's disease."
 ---
 
 # Parkinson's Disease
@@ -858,6 +867,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PD carbon: carbon as backbone of α-synuclein and NF-κB (already mapped) proteins in neurons (already mapped) sustains dopaminergic signalling; carbon depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of Parkinson's disease.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PD hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and microglia (already mapped), supports dopamine (already mapped) synthesis; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of PD.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PD nitrogen: nitrogen in amino-acid scaffold of α-synuclein and dopamine transporter proteins in neurons (already mapped) sustains nigrostriatal signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) cascade of Parkinson's disease.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PD oxygen: oxygen, via mitochondrial respiration in dopaminergic neurons and microglia (already mapped), sustains dopamine (already mapped) synthesis; oxygen depletion amplifies NF-κB (already mapped) and TNF-α (already mapped) nigrostriatal cascade of Parkinson's disease.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PD PD-1: PD-1 on T-cells (already mapped) and microglia (already mapped) in the substantia nigra modulates neuroinflammatory tone; PD-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) α-synuclein cascade of Parkinson's disease.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — PD VEGF: VEGF from microglia (already mapped) and astrocytes sustains nigrostriatal neurovascular integrity; VEGF dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of Parkinson's disease.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)

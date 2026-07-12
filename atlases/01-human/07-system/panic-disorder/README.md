@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Panic disorder Wnt/β-catenin: Wnt/β-catenin signalling supports neuronal (already mapped) survival and synaptic plasticity in the corticolimbic circuit; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of panic disorder."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Panic disorder RANKL: RANKL from T-cells (already mapped) in corticolimbic microglia (already mapped) modulates bone-immune crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "Panic disorder SMAD4: SMAD4-mediated TGF-β (already mapped) signalling in neurons (already mapped) and microglia (already mapped) regulates corticolimbic neuroinflammation; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Panic disorder IL-2: IL-2 from T-cells (already mapped) in corticolimbic microglia (already mapped) modulates neuroinflammatory tone; IL-2 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and CRH (already mapped) neuroinflammatory cascade of panic disorder."
 ---
 
 # Panic Disorder
@@ -864,6 +873,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Panic disorder PD-1: PD-1 checkpoint expression on microglia (already mapped) and T-cells modulates corticolimbic neuroinflammatory tone; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of panic disorder.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Panic disorder VEGF: VEGF promotes neurovascular remodelling in the amygdala and cortex; VEGF dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) neuroinflammatory signalling and impairs neurotrophic repair in panic disorder.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Panic disorder Wnt/β-catenin: Wnt/β-catenin signalling supports neuronal (already mapped) survival and synaptic plasticity in the corticolimbic circuit; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of panic disorder.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Panic disorder RANKL: RANKL from T-cells (already mapped) in corticolimbic microglia (already mapped) modulates bone-immune crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of panic disorder.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Panic disorder SMAD4: SMAD4-mediated TGF-β (already mapped) signalling in neurons (already mapped) and microglia (already mapped) regulates corticolimbic neuroinflammation; SMAD4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of panic disorder.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Panic disorder IL-2: IL-2 from T-cells (already mapped) in corticolimbic microglia (already mapped) modulates neuroinflammatory tone; IL-2 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and CRH (already mapped) neuroinflammatory cascade of panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)
