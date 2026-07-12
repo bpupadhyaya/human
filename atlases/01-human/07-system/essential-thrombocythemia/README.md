@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "ET angiotensin-ii: angiotensin II on megakaryocytes (already mapped) and endothelial cells (already mapped) promotes thrombosis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "ET wnt-beta-catenin: WNT/β-catenin in megakaryocytes (already mapped) and endothelial cells (already mapped) promotes self-renewal; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "ET rankl: RANKL from megakaryocytes (already mapped) and endothelial cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "ET il-2: IL-2 on T-cells (already mapped) and megakaryocytes (already mapped) promotes immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
 ---
 
 # Essential Thrombocythemia
@@ -853,6 +862,9 @@ Management:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — ET pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses megakaryocyte immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ET glp-1: GLP-1 from macrophages (already mapped) and megakaryocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — ET angiotensin-ii: angiotensin II on megakaryocytes (already mapped) and endothelial cells (already mapped) promotes thrombosis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ET wnt-beta-catenin: WNT/β-catenin in megakaryocytes (already mapped) and endothelial cells (already mapped) promotes self-renewal; wnt-beta-catenin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ET rankl: RANKL from megakaryocytes (already mapped) and endothelial cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — ET il-2: IL-2 on T-cells (already mapped) and megakaryocytes (already mapped) promotes immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)

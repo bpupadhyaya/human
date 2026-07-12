@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "ewing-sarcoma angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "ewing-sarcoma il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) promotes antitumour immunity; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "ewing-sarcoma fibronectin: fibronectin in macrophages (already mapped) and Ewing cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "ewing-sarcoma activin-a: activin-A from macrophages (already mapped) and Ewing cells (already mapped) promotes tumour stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -858,6 +867,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — ewing-sarcoma pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses antitumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ewing-sarcoma glp-1: GLP-1 from macrophages (already mapped) and Ewing cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — ewing-sarcoma angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — ewing-sarcoma il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) promotes antitumour immunity; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ewing-sarcoma fibronectin: fibronectin in macrophages (already mapped) and Ewing cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ewing-sarcoma activin-a: activin-A from macrophages (already mapped) and Ewing cells (already mapped) promotes tumour stromal invasion; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 
 ---
 
