@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "RTS fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds osteosarcoma ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "RTS notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) regulates RTS stem-cell fate; NOTCH dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "RTS activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates RTS immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of RTS."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "RTS cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates RTS neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -872,6 +881,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — RTS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma metabolic-inflammatory tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — RTS angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives osteosarcoma angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — RTS fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds osteosarcoma ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — RTS notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) regulates RTS stem-cell fate; NOTCH dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RTS activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates RTS immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of RTS.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — RTS cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates RTS neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

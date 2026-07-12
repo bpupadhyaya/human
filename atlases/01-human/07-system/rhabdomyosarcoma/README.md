@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "RMS vegf: VEGF from macrophages (already mapped) and fibroblasts (already mapped) drives myogenic tumour angiogenesis; vegf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of rhabdomyosarcoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "RMS fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds myogenic tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of rhabdomyosarcoma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "RMS activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates myogenic tumour immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) cascade of rhabdomyosarcoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "RMS cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates myogenic tumour neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of rhabdomyosarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -863,6 +872,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — RMS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates myogenic tumour metabolic tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of rhabdomyosarcoma.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — RMS angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives myogenic tumour angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of RMS.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — RMS vegf: VEGF from macrophages (already mapped) and fibroblasts (already mapped) drives myogenic tumour angiogenesis; vegf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of rhabdomyosarcoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — RMS fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds myogenic tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of rhabdomyosarcoma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RMS activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates myogenic tumour immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) cascade of rhabdomyosarcoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — RMS cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates myogenic tumour neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of rhabdomyosarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)
