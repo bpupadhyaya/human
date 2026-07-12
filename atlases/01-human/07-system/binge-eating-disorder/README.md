@@ -525,6 +525,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "ROS from NADPH oxidase in neurons (already mapped) and microglia (already mapped) impairs brain (already mapped) reward-circuit function; oxygen excess amplifies IL-6 (already mapped) and BDNF (already mapped) and dopamine (already mapped) cascade in BED."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "BED sulfur: sulfur-containing glutathione in neurons (already mapped) and astrocytes (already mapped) scavenges ROS; sulfur deficiency amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory binge-eating cascade in BED."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "BED pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and dopamine (already mapped) cascade in BED."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "BED angiotensin-ii: angiotensin II on adipocytes (already mapped) and endothelial cells (already mapped) modulates metabolic tone; angiotensin-II excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and dopamine (already mapped) neuroimmune dysregulation in BED."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -855,6 +864,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon-based lipid mediators in neurons (already mapped) and brain (already mapped) reward circuits fuel binge behaviour; disrupted carbon metabolism amplifies IL-6 (already mapped) and BDNF (already mapped) and dopamine (already mapped) cascade in binge-eating disorder.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen ion dysregulation in brain (already mapped) reward circuits amplifies dopamine (already mapped) and serotonin (already mapped) signalling; proton excess disrupts BDNF (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade in binge-eating disorder.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ROS from NADPH oxidase in neurons (already mapped) and microglia (already mapped) impairs brain (already mapped) reward-circuit function; oxygen excess amplifies IL-6 (already mapped) and BDNF (already mapped) and dopamine (already mapped) cascade in BED.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — BED sulfur: sulfur-containing glutathione in neurons (already mapped) and astrocytes (already mapped) scavenges ROS; sulfur deficiency amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory binge-eating cascade in BED.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — BED pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) and dopamine (already mapped) cascade in BED.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — BED angiotensin-ii: angiotensin II on adipocytes (already mapped) and endothelial cells (already mapped) modulates metabolic tone; angiotensin-II excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and dopamine (already mapped) neuroimmune dysregulation in BED.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
