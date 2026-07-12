@@ -561,6 +561,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Malaria notch: NOTCH in macrophages (already mapped) and dendritic cells (already mapped) regulates anti-malarial immunity; notch dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Malaria igf-1: IGF-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates anti-malarial immunity; igf-1 dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Malaria activin-a: activin-A from macrophages (already mapped) and dendritic cells (already mapped) drives immune polarisation; activin-a excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Malaria tgf-beta: TGF-β from macrophages (already mapped) and dendritic cells (already mapped) regulates malarial immunosuppression; tgf-beta excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria."
 ---
 
 # Malaria
@@ -900,6 +909,9 @@ cross_links:
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — Malaria smad4: SMAD4 in hepatocytes (already mapped) and macrophages (already mapped) mediates TGF-β signalling; smad4 dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Malaria fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) mediates parasite sequestration; fibronectin dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) cascade of malaria.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Malaria notch: NOTCH in macrophages (already mapped) and dendritic cells (already mapped) regulates anti-malarial immunity; notch dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Malaria igf-1: IGF-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates anti-malarial immunity; igf-1 dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Malaria activin-a: activin-A from macrophages (already mapped) and dendritic cells (already mapped) drives immune polarisation; activin-a excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Malaria tgf-beta: TGF-β from macrophages (already mapped) and dendritic cells (already mapped) regulates malarial immunosuppression; tgf-beta excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)

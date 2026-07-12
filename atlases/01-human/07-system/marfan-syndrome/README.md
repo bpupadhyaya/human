@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Marfan igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes connective tissue growth; igf-1 dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Marfan activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) promotes aortic fibrosis; activin-a excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Marfan cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular tone; cgrp excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Marfan calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -874,6 +883,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Marfan fibronectin: fibronectin in fibroblasts (already mapped) and smooth-muscle cells (already mapped) anchors ECM; fibronectin dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Marfan notch: NOTCH in smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates aortic wall homeostasis; notch dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Marfan igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes connective tissue growth; igf-1 dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Marfan activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) promotes aortic fibrosis; activin-a excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Marfan cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular tone; cgrp excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Marfan calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 
 ---
 
