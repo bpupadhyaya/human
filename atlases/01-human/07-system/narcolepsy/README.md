@@ -543,6 +543,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Narcolepsy igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes orexin-neuron survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Narcolepsy activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) drives hypothalamic neuroinflammation; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Narcolepsy cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Narcolepsy calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic calcium tone; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -858,6 +867,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Narcolepsy fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) remodels neuroinflammatory matrix; fibronectin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Narcolepsy notch: NOTCH in neurons (already mapped) and microglia (already mapped) regulates hypothalamic neuroprotection; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Narcolepsy igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes orexin-neuron survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Narcolepsy activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) drives hypothalamic neuroinflammation; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Narcolepsy cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Narcolepsy calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic calcium tone; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)

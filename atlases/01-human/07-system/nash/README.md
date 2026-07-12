@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "NASH il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates hepatic immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "NASH notch: Notch signalling on macrophages (already mapped) and hepatocytes (already mapped) regulates hepatic stellate-cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "NASH igf-1: IGF-1 from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "NASH activin-a: activin-A from macrophages (already mapped) and hepatocytes (already mapped) drives hepatic fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
 ---
 
 # NASH
@@ -832,6 +841,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — NASH wnt-beta-catenin: WNT/β-catenin on hepatocytes (already mapped) and macrophages (already mapped) drives hepatic fibrosis; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — NASH rankl: RANKL from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — NASH il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates hepatic immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — NASH notch: Notch signalling on macrophages (already mapped) and hepatocytes (already mapped) regulates hepatic stellate-cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NASH igf-1: IGF-1 from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NASH activin-a: activin-A from macrophages (already mapped) and hepatocytes (already mapped) drives hepatic fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
