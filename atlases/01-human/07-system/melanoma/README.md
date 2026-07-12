@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "Melanoma GLP-1: GLP-1 signalling modulates macrophage (already mapped) and dendritic-cell (already mapped) activation in the tumour microenvironment; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of melanoma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Melanoma angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblast (already mapped) drives tumour vascular remodelling; angiotensin-ii excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) cascade of melanoma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Melanoma rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes melanoma immune evasion; rankl excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Melanoma fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) anchors tumour-invasive matrix; fibronectin dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) cascade of melanoma."
 ---
 
 # Melanoma
@@ -821,6 +830,9 @@ cross_links:
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Melanoma hydrogen: hydrogen in redox chemistry of melanocytes (already mapped) sustains glutathione defence against UV-driven oxidative stress; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of melanoma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Melanoma sulfur: sulfur in cysteine residues of BRAF (already mapped) and MITF proteins sustains redox stability in melanocytes; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of melanoma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Melanoma GLP-1: GLP-1 signalling modulates macrophage (already mapped) and dendritic-cell (already mapped) activation in the tumour microenvironment; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of melanoma.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Melanoma angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblast (already mapped) drives tumour vascular remodelling; angiotensin-ii excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) cascade of melanoma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Melanoma rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes melanoma immune evasion; rankl excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Melanoma fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) anchors tumour-invasive matrix; fibronectin dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) cascade of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

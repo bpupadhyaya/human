@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "MEN1 IL-2: IL-2 cytokine sustains T-cell (already mapped) and NK-cell (already mapped) anti-tumour surveillance in neuroendocrine tissue; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "MEN1 fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors neuroendocrine tumour matrix; fibronectin dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade of MEN1."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "MEN1 activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives neuroendocrine tumour remodelling; activin-a dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "MEN1 cgrp: CGRP from macrophages (already mapped) and mast cells (already mapped) modulates neuroendocrine signalling; cgrp dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) tumour cascade of MEN1 syndrome."
 ---
 
 # MEN1 Syndrome
@@ -843,6 +852,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MEN1 PD-1: PD-1 checkpoint on T-cells (already mapped) and NK-cells (already mapped) modulates immune surveillance of neuroendocrine tumours; PD-1 overexpression amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of MEN1.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MEN1 angiotensin-II: angiotensin-II drives macrophage (already mapped) and endothelial (already mapped) inflammation; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumourigenic cascade of MEN1 syndrome.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MEN1 IL-2: IL-2 cytokine sustains T-cell (already mapped) and NK-cell (already mapped) anti-tumour surveillance in neuroendocrine tissue; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of MEN1 syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MEN1 fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors neuroendocrine tumour matrix; fibronectin dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade of MEN1.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MEN1 activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives neuroendocrine tumour remodelling; activin-a dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade of MEN1 syndrome.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MEN1 cgrp: CGRP from macrophages (already mapped) and mast cells (already mapped) modulates neuroendocrine signalling; cgrp dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) tumour cascade of MEN1 syndrome.
 
 ---
 
