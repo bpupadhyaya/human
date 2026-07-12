@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "phosphorus, as ATP in macrophage (already mapped) and T-cytotoxic cell (already mapped), fuels PTEN (already mapped) and mTOR (already mapped) proliferative signalling; phosphorus dysregulation amplifies AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "cowden carbon: carbon backbone of nucleotides in macrophage (already mapped) and T-cytotoxic cell (already mapped) fuels PTEN-loss proliferation; carbon dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/02-atomic/chloride
+    relation: connects-to
+    note: "cowden chloride: chloride channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) modulate tumour microenvironment; chloride dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "cowden hydrogen: hydrogen via ROS from macrophage (already mapped) and T-cytotoxic cell (already mapped) modulates oxidative stress; hydrogen excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -891,6 +900,9 @@ cross_links:
 - `connects-to` → **[Potassium](../../02-atomic/potassium/README.md)** — potassium channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) regulate anti-tumour immunity; potassium dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) tumour-promoting cascade of Cowden syndrome.
 - `connects-to` → **[Calcium](../../02-atomic/calcium/README.md)** — calcium, as second messenger in macrophage (already mapped) and T-cytotoxic cell (already mapped), modulates PTEN (already mapped) and mTOR (already mapped) signalling; calcium dysregulation amplifies AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped) and T-cytotoxic cell (already mapped), fuels PTEN (already mapped) and mTOR (already mapped) proliferative signalling; phosphorus dysregulation amplifies AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — cowden carbon: carbon backbone of nucleotides in macrophage (already mapped) and T-cytotoxic cell (already mapped) fuels PTEN-loss proliferation; carbon dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — cowden chloride: chloride channels on macrophage (already mapped) and T-cytotoxic cell (already mapped) modulate tumour microenvironment; chloride dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — cowden hydrogen: hydrogen via ROS from macrophage (already mapped) and T-cytotoxic cell (already mapped) modulates oxidative stress; hydrogen excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 
 ---
 
