@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Wound angiotensin-II: angiotensin-II in fibroblasts (already mapped) and macrophages (already mapped) promotes TGF-β (already mapped)-driven wound contraction and scarring; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of wound healing."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Wound hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), quenches ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of wound healing."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Wound RANKL: RANKL signalling in macrophages (already mapped) and fibroblasts (already mapped) modulates bone-immune axis during wound repair; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of wound healing."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Wound IL-2: IL-2 signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune resolution of wound repair; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of wound healing."
 ---
 
 # Wound Healing
@@ -838,6 +847,9 @@ cross_links:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Wound PD-1: PD-1 on macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulates wound-immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and IL-6 (already mapped) resolution transition of wound healing.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Wound GLP-1: GLP-1 signalling in macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic homeostasis of wound repair; GLP-1 dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade of wound healing.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Wound angiotensin-II: angiotensin-II in fibroblasts (already mapped) and macrophages (already mapped) promotes TGF-β (already mapped)-driven wound contraction and scarring; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of wound healing.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Wound hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), quenches ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of wound healing.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Wound RANKL: RANKL signalling in macrophages (already mapped) and fibroblasts (already mapped) modulates bone-immune axis during wound repair; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of wound healing.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Wound IL-2: IL-2 signalling in T-cells (already mapped) and macrophages (already mapped) modulates immune resolution of wound repair; IL-2 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
