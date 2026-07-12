@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Meningioma angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Meningioma wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates meningeal fate; wnt-beta-catenin dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Meningioma fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes meningeal ECM remodelling; fibronectin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Meningioma activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives meningeal fibrosis; activin-a excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma."
 ---
 
 # Meningioma
@@ -852,6 +861,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Meningioma pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates meningeal immune evasion; pd-1 dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Meningioma glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) meningeal tumour cascade of meningioma.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Meningioma angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Meningioma wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates meningeal fate; wnt-beta-catenin dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Meningioma fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes meningeal ECM remodelling; fibronectin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Meningioma activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives meningeal fibrosis; activin-a excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

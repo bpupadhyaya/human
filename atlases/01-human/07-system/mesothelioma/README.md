@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Meso igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes mesothelioma cell survival; igf-1 dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Meso activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives pleural fibrosis; activin-a excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Meso cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural vascular tone; cgrp excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Meso calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural calcium balance; calcitonin dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
 ---
 
 # Mesothelioma
@@ -854,6 +863,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Meso rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes tumour immune evasion; rankl excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) mesothelioma cascade.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Meso fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors pleural tumour matrix; fibronectin dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Meso igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes mesothelioma cell survival; igf-1 dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Meso activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives pleural fibrosis; activin-a excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Meso cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural vascular tone; cgrp excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Meso calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural calcium balance; calcitonin dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
