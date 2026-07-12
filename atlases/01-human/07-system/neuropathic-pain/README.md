@@ -525,6 +525,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "NP angiotensin-II: angiotensin-II via AT1R on microglia (already mapped) and astrocytes (already mapped) amplifies spinal cord neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "NP PD-1: PD-1 checkpoint on T-regulatory cells (already mapped) and microglia (already mapped) modulates spinal cord neuroinflammatory immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) sensitisation cascade in neuropathic pain."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "NP GLP-1: GLP-1 receptor agonism on microglia (already mapped) and astrocytes (already mapped) dampens spinal cord neuroinflammation; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "NP VEGF: VEGF from neurons (already mapped) and macrophages (already mapped) promotes peripheral nociceptor sensitisation and repair; VEGF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -857,6 +866,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — NP carbon: carbon as backbone of BDNF (already mapped) and TRPV1 structural proteins in neurons (already mapped) sustains nociceptor signalling; carbon depletion amplifies NLRP3 (already mapped) and NF-κB (already mapped) neuroinflammatory cascade in neuropathic pain.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — NP hydrogen: hydrogen, via redox homeostasis in neurons (already mapped) and microglia (already mapped), supports BDNF (already mapped) neurotrophin release; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) sensitisation in neuropathic pain.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — NP angiotensin-II: angiotensin-II via AT1R on microglia (already mapped) and astrocytes (already mapped) amplifies spinal cord neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — NP PD-1: PD-1 checkpoint on T-regulatory cells (already mapped) and microglia (already mapped) modulates spinal cord neuroinflammatory immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) sensitisation cascade in neuropathic pain.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — NP GLP-1: GLP-1 receptor agonism on microglia (already mapped) and astrocytes (already mapped) dampens spinal cord neuroinflammation; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — NP VEGF: VEGF from neurons (already mapped) and macrophages (already mapped) promotes peripheral nociceptor sensitisation and repair; VEGF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) neuroinflammatory cascade in neuropathic pain.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

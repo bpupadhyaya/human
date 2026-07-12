@@ -550,6 +550,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "NMO oxygen: mitochondrial oxygen sustains ATP in astrocytes (already mapped) and oligodendrocytes (already mapped) for AQP4 (already mapped) channel homeostasis; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of NMO."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "NMO sulfur: sulfur in cysteine residues of AQP4 (already mapped) and complement proteins in astrocytes (already mapped) sustains blood-brain barrier integrity; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) astrocytopathic cascade of NMO."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "NMO GLP-1: GLP-1 receptor agonism on astrocytes (already mapped) and macrophages (already mapped) modulates neuroinflammatory AQP4 autoimmune cascade; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of NMO."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "NMO angiotensin-II: angiotensin-II via AT1R on astrocytes (already mapped) and macrophages (already mapped) drives blood-brain barrier disruption and AQP4 complement attack; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NMO."
 ---
 
 # NMOSD
@@ -873,6 +882,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — NMO carbon: carbon as backbone of AQP4 (already mapped) and NF-κB (already mapped) proteins in astrocytes (already mapped) sustains blood-brain barrier integrity; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) astrocytopathic cascade of NMO.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — NMO hydrogen: hydrogen, via redox homeostasis in astrocytes (already mapped) and macrophages (already mapped), supports AQP4 (already mapped) channel function; hydrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) astrocytopathic cascade of NMO.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — NMO oxygen: mitochondrial oxygen sustains ATP in astrocytes (already mapped) and oligodendrocytes (already mapped) for AQP4 (already mapped) channel homeostasis; hypoxia amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of NMO.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — NMO sulfur: sulfur in cysteine residues of AQP4 (already mapped) and complement proteins in astrocytes (already mapped) sustains blood-brain barrier integrity; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) astrocytopathic cascade of NMO.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — NMO GLP-1: GLP-1 receptor agonism on astrocytes (already mapped) and macrophages (already mapped) modulates neuroinflammatory AQP4 autoimmune cascade; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) demyelinating cascade of NMO.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — NMO angiotensin-II: angiotensin-II via AT1R on astrocytes (already mapped) and macrophages (already mapped) drives blood-brain barrier disruption and AQP4 complement attack; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of NMO.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
