@@ -563,6 +563,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Measles angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Measles wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates mucosal repair; wnt-beta-catenin dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Measles rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral immune activation; rankl excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Measles vegf: VEGF from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular permeability; vegf excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade."
 ---
 
 # Measles
@@ -889,6 +898,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Measles pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates antiviral immune tolerance; pd-1 dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Measles glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Measles angiotensin-ii: angiotensin-II from endothelial cells (already mapped) and macrophages (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Measles wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates mucosal repair; wnt-beta-catenin dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Measles rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral immune activation; rankl excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Measles vegf: VEGF from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular permeability; vegf excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)

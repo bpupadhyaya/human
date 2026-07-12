@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "MDS angiotensin-ii: angiotensin-II from macrophages (already mapped) and hepatocytes (already mapped) drives haematopoietic vascular tone; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "MDS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and hepatocytes (already mapped) regulates haematopoietic stem fate; wnt-beta-catenin dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "MDS rankl: RANKL from macrophages (already mapped) and hepatocytes (already mapped) promotes marrow immune evasion; rankl excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "MDS fibronectin: fibronectin in macrophages (already mapped) and hepatocytes (already mapped) promotes marrow ECM remodelling; fibronectin excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade."
 ---
 
 # Myelodysplastic Syndromes
@@ -846,6 +855,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MDS pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates marrow immune surveillance; pd-1 dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade of MDS.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MDS glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory marrow tone; glp-1 dysfunction amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade of MDS.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MDS angiotensin-ii: angiotensin-II from macrophages (already mapped) and hepatocytes (already mapped) drives haematopoietic vascular tone; angiotensin-ii excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MDS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and hepatocytes (already mapped) regulates haematopoietic stem fate; wnt-beta-catenin dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MDS rankl: RANKL from macrophages (already mapped) and hepatocytes (already mapped) promotes marrow immune evasion; rankl excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MDS fibronectin: fibronectin in macrophages (already mapped) and hepatocytes (already mapped) promotes marrow ECM remodelling; fibronectin excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)
