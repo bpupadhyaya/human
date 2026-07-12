@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "RA PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) regulates autoimmune tolerance in the synovium; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RA."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "RA GLP-1: GLP-1 receptor signalling in synovial macrophages (already mapped) and T-helper cells (already mapped) modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "RA angiotensin-II: angiotensin-II signalling in synovial endothelial cells (already mapped) and macrophages (already mapped) promotes joint inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of RA."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "RA Wnt/β-catenin: Wnt/β-catenin signalling in synoviocytes and fibroblasts (already mapped) drives pannus formation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and RANKL (already mapped) erosive cascade of RA."
 ---
 
 # Rheumatoid Arthritis
@@ -861,6 +870,9 @@ RA patients have:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — RA carbon: carbon, as metabolic backbone of T-helper cells (already mapped) and macrophages (already mapped) in the synovium, drives pro-inflammatory signalling; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) synovial cascade of RA.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — RA hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and neutrophils (already mapped), modulates synovial oxidative burden; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) pro-inflammatory cascade of RA.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — RA PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) regulates autoimmune tolerance in the synovium; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RA.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — RA GLP-1: GLP-1 receptor signalling in synovial macrophages (already mapped) and T-helper cells (already mapped) modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) synovial cascade of RA.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — RA angiotensin-II: angiotensin-II signalling in synovial endothelial cells (already mapped) and macrophages (already mapped) promotes joint inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of RA.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — RA Wnt/β-catenin: Wnt/β-catenin signalling in synoviocytes and fibroblasts (already mapped) drives pannus formation; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and RANKL (already mapped) erosive cascade of RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
