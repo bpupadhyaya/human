@@ -536,6 +536,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Lymphatic nitrogen: nitrogen in nitric oxide (already mapped) modulates lymph vessel (already mapped) tone and lymphocyte (already mapped) trafficking; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic system."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Lymphatic oxygen: oxygen supports aerobic metabolism in lymphocytes (already mapped) and macrophages (already mapped) for immune surveillance; oxygen deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic system."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "Lymphatic GLP-1: GLP-1 signalling modulates macrophage (already mapped) and dendritic-cell (already mapped) activation in lymph nodes; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) immune cascade of lymphatic system."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Lymphatic angiotensin-II: angiotensin-II regulates lymph vessel (already mapped) tone and macrophage (already mapped) activation; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic system."
 ---
 
 # Lymphatic System
@@ -818,6 +827,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Lymphatic carbon: carbon as backbone of cytokines (already mapped) and lymphocyte (already mapped) receptor proteins sustains immune surveillance; carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic system.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Lymphatic hydrogen: hydrogen-ion pH in lymph fluid and macrophages (already mapped) maintains lysosomal (already mapped) antigen processing; hydrogen-ion dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic system.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Lymphatic nitrogen: nitrogen in nitric oxide (already mapped) modulates lymph vessel (already mapped) tone and lymphocyte (already mapped) trafficking; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of lymphatic system.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Lymphatic oxygen: oxygen supports aerobic metabolism in lymphocytes (already mapped) and macrophages (already mapped) for immune surveillance; oxygen deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic system.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Lymphatic GLP-1: GLP-1 signalling modulates macrophage (already mapped) and dendritic-cell (already mapped) activation in lymph nodes; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) immune cascade of lymphatic system.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Lymphatic angiotensin-II: angiotensin-II regulates lymph vessel (already mapped) tone and macrophage (already mapped) activation; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of lymphatic system.
 
 ## Pathology
 
