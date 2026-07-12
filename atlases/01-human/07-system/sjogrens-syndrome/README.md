@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "SjS igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes glandular stromal survival; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "SjS activin-a: activin-A from macrophages (already mapped) and glandular epithelial cells (already mapped) drives glandular fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "SjS tgf-beta: TGF-β from macrophages (already mapped) and glandular epithelial cells (already mapped) drives glandular fibrosis; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "SjS cgrp: CGRP from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates glandular vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome."
 ---
 
 # Sjögren's Syndrome
@@ -873,6 +882,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SjS fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds salivary gland ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of Sjögren syndrome.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — SjS notch: NOTCH on glandular epithelial cells (already mapped) and macrophages (already mapped) regulates glandular autoimmune tone; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of Sjögren syndrome.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SjS igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes glandular stromal survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SjS activin-a: activin-A from macrophages (already mapped) and glandular epithelial cells (already mapped) drives glandular fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — SjS tgf-beta: TGF-β from macrophages (already mapped) and glandular epithelial cells (already mapped) drives glandular fibrosis; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — SjS cgrp: CGRP from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates glandular vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome.
 
 ---
 

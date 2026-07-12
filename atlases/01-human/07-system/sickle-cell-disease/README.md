@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "SCD fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds vaso-occlusive ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "SCD notch: Notch signalling in macrophages (already mapped) and endothelial cells (already mapped) regulates vaso-occlusive cell fate in SCD; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "SCD igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes vascular cell survival in SCD; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "SCD activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) drives vascular fibrosis in SCD; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
 ---
 
 # Sickle Cell Disease
@@ -902,6 +911,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — SCD rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes vaso-occlusive bone remodelling; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) sickling cascade of SCD.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — SCD il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates immune surveillance of haemolytic erythrocytes; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) sickling cascade of SCD.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SCD fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds vaso-occlusive ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) sickling cascade of SCD.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — SCD notch: Notch signalling in macrophages (already mapped) and endothelial cells (already mapped) regulates vaso-occlusive cell fate in SCD; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SCD igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes vascular cell survival in SCD; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SCD activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) drives vascular fibrosis in SCD; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
