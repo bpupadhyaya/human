@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "dicer1 rankl: RANKL from macrophages (already mapped) and thyroid follicular cells (already mapped) promotes osteoclast (already mapped) activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "dicer1 fibronectin: fibronectin in macrophages (already mapped) and thyroid follicular cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "dicer1 cgrp: CGRP from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates neuroendocrine tumour pain; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "dicer1 calcitonin: calcitonin from thyroid follicular cells (already mapped) and macrophages (already mapped) regulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -850,6 +859,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — dicer1 glp-1: GLP-1 from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — dicer1 angiotensin-ii: angiotensin II on thyroid follicular cells (already mapped) and macrophages (already mapped) promotes tumour remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — dicer1 rankl: RANKL from macrophages (already mapped) and thyroid follicular cells (already mapped) promotes osteoclast (already mapped) activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — dicer1 fibronectin: fibronectin in macrophages (already mapped) and thyroid follicular cells (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — dicer1 cgrp: CGRP from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates neuroendocrine tumour pain; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — dicer1 calcitonin: calcitonin from thyroid follicular cells (already mapped) and macrophages (already mapped) regulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 
 ---
 

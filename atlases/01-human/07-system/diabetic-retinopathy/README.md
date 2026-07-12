@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "diabetic-retinopathy tgf-beta: TGF-β in pericytes (already mapped) and macrophages (already mapped) promotes subretinal fibrosis; tgf-beta excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "DR notch: Notch signalling on endothelial cells (already mapped) and macrophages (already mapped) regulates retinal vascular sprouting; notch excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) neovascular cascade in diabetic retinopathy."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "DR activin-a: activin-A from macrophages (already mapped) and pericytes (already mapped) promotes subretinal fibrosis; activin-a excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "DR cgrp: CGRP from pericytes (already mapped) and macrophages (already mapped) modulates retinal neurovascular pain signalling; cgrp excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy."
 ---
 
 # Diabetic Retinopathy
@@ -853,6 +862,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — diabetic-retinopathy rankl: RANKL from pericytes (already mapped) and macrophages (already mapped) promotes osteoclast (already mapped) activation; rankl excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — diabetic-retinopathy il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies retinal immune activation; il-2 excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — diabetic-retinopathy tgf-beta: TGF-β in pericytes (already mapped) and macrophages (already mapped) promotes subretinal fibrosis; tgf-beta excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — DR notch: Notch signalling on endothelial cells (already mapped) and macrophages (already mapped) regulates retinal vascular sprouting; notch excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) neovascular cascade in diabetic retinopathy.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — DR activin-a: activin-A from macrophages (already mapped) and pericytes (already mapped) promotes subretinal fibrosis; activin-a excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — DR cgrp: CGRP from pericytes (already mapped) and macrophages (already mapped) modulates retinal neurovascular pain signalling; cgrp excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
