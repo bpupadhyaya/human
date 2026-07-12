@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "nitric oxide from iNOS in macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular tone; nitrogen excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) atherogenic plaque cascade in atherosclerosis."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Athero hydrogen: hydrogen via ROS balance in macrophages (already mapped) and endothelial cells (already mapped) modulates plaque oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade in atherosclerosis."
+  - target: 01-human/02-atomic/phosphorus
+    relation: connects-to
+    note: "Athero phosphorus: phosphorus-driven ATP in smooth-muscle cells (already mapped) and endothelial cells (already mapped) sustains vascular homeostasis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) in atherosclerosis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "Athero pd-1: PD-1 on t-cytotoxic cells (already mapped) and regulatory T cells (already mapped) restrains plaque inflammation; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) atheroinflammatory plaque destabilisation."
 ---
 
 # Atherosclerosis
@@ -833,6 +842,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophages (already mapped) and smooth-muscle cells (already mapped) regulate intracellular pH; chloride dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) atherogenic plaque cascade in atherosclerosis.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — H2S from sulfur-amino acids in macrophages (already mapped) and smooth-muscle cells (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) atherogenic plaque cascade in atherosclerosis.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide from iNOS in macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular tone; nitrogen excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) atherogenic plaque cascade in atherosclerosis.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Athero hydrogen: hydrogen via ROS balance in macrophages (already mapped) and endothelial cells (already mapped) modulates plaque oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade in atherosclerosis.
+- `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Athero phosphorus: phosphorus-driven ATP in smooth-muscle cells (already mapped) and endothelial cells (already mapped) sustains vascular homeostasis; phosphorus dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) in atherosclerosis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Athero pd-1: PD-1 on t-cytotoxic cells (already mapped) and regulatory T cells (already mapped) restrains plaque inflammation; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) atheroinflammatory plaque destabilisation.
 
 ---
 

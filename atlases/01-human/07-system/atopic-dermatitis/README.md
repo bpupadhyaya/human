@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "ROS from NADPH oxidase in mast cells (already mapped) and macrophages (already mapped) perpetuate skin (already mapped) barrier breakdown; oxygen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) eczematous cascade in atopic dermatitis."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "AD pd-1: PD-1 on t-helper cells (already mapped) and regulatory T cells (already mapped) restrains Th2 atopic response; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic skin inflammation in atopic dermatitis."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "AD glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) Th2 cutaneous inflammatory cascade in atopic dermatitis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "AD angiotensin-ii: angiotensin II on fibroblasts (already mapped) and macrophages (already mapped) promotes dermal remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) barrier dysfunction in atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -834,6 +843,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — carbon-based ceramides and fatty acids in skin (already mapped) form the epidermal barrier; disrupted carbon metabolism amplifies NF-κB (already mapped) and IL-4 (already mapped) and IgE (already mapped) and TSLP (already mapped) eczematous cascade in atopic dermatitis.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — hydrogen ion dysregulation from skin (already mapped) acidosis in atopic dermatitis amplifies mast-cell (already mapped) degranulation; proton excess activates NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) and IgE (already mapped) eczematous cascade.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — ROS from NADPH oxidase in mast cells (already mapped) and macrophages (already mapped) perpetuate skin (already mapped) barrier breakdown; oxygen excess amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-4 (already mapped) eczematous cascade in atopic dermatitis.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AD pd-1: PD-1 on t-helper cells (already mapped) and regulatory T cells (already mapped) restrains Th2 atopic response; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) eosinophilic skin inflammation in atopic dermatitis.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AD glp-1: GLP-1 on macrophages (already mapped) and dendritic cells (already mapped) attenuates inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) Th2 cutaneous inflammatory cascade in atopic dermatitis.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — AD angiotensin-ii: angiotensin II on fibroblasts (already mapped) and macrophages (already mapped) promotes dermal remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) barrier dysfunction in atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
