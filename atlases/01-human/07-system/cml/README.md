@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/chloride
     relation: connects-to
     note: "chloride channels on macrophage (already mapped) and leukaemic stem cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL cascade of CML."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "CML carbon: carbon backbone of nucleotides in macrophages (already mapped) and leukaemic stem cells (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "CML hydrogen: hydrogen via ROS from macrophages (already mapped) and leukaemic stem cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "CML nitrogen: nitrogen in DNA bases of macrophages (already mapped) and leukaemic stem cells (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -824,6 +833,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Copper](../../02-atomic/copper/README.md)** — copper, via SOD in macrophage (already mapped) and T-cytotoxic cell (already mapped), counters BCR-ABL-driven ROS; copper deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — zinc cofactors kinase signalling in macrophage (already mapped) and T-cytotoxic cell (already mapped); zinc deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic survival cascade of CML.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and leukaemic stem cell (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL cascade of CML.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — CML carbon: carbon backbone of nucleotides in macrophages (already mapped) and leukaemic stem cells (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — CML hydrogen: hydrogen via ROS from macrophages (already mapped) and leukaemic stem cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — CML nitrogen: nitrogen in DNA bases of macrophages (already mapped) and leukaemic stem cells (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML.
 
 ---
 

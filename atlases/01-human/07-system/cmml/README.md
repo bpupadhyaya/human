@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "sulfur, as glutathione precursor in macrophage (already mapped) and monocyte (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "CMML carbon: carbon backbone of nucleotides in macrophages (already mapped) and monocytes (already mapped) fuels myeloproliferative growth; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "CMML hydrogen: hydrogen via ROS from macrophages (already mapped) and monocytes (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "CMML nitrogen: nitrogen in DNA bases of macrophages (already mapped) and monocytes (already mapped) sustains myeloproliferative growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -837,6 +846,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — phosphorus, as ATP in macrophage (already mapped) and monocyte (already mapped), fuels myeloproliferative signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on macrophage (already mapped) and monocyte (already mapped) regulate membrane potential; chloride dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur, as glutathione precursor in macrophage (already mapped) and monocyte (already mapped), counters oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — CMML carbon: carbon backbone of nucleotides in macrophages (already mapped) and monocytes (already mapped) fuels myeloproliferative growth; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — CMML hydrogen: hydrogen via ROS from macrophages (already mapped) and monocytes (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — CMML nitrogen: nitrogen in DNA bases of macrophages (already mapped) and monocytes (already mapped) sustains myeloproliferative growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 
 ---
 
