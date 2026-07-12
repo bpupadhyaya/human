@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Panic disorder igf-1: IGF-1 from fibroblasts (already mapped) and astrocytes (already mapped) modulates neuronal stress resilience; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Panic activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) drives neuroinflammatory signalling in panic circuits; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Panic tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) regulates neuroinflammatory fibrosis in panic circuits; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Panic calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates calcium tone in panic circuits; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
 ---
 
 # Panic Disorder
@@ -888,6 +897,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Panic disorder fibronectin: fibronectin in fibroblasts (already mapped) and astrocytes (already mapped) anchors stress-circuit ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Panic disorder notch: NOTCH on neurons (already mapped) and astrocytes (already mapped) regulates fear extinction plasticity; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Panic disorder igf-1: IGF-1 from fibroblasts (already mapped) and astrocytes (already mapped) modulates neuronal stress resilience; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Panic activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) drives neuroinflammatory signalling in panic circuits; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Panic tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) regulates neuroinflammatory fibrosis in panic circuits; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Panic calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates calcium tone in panic circuits; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

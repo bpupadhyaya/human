@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/smad4
     relation: connects-to
     note: "PD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotective repair; smad4 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) neuroinflammatory cascade of PD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PD fibronectin: fibronectin in neurons (already mapped) and microglia (already mapped) promotes CNS ECM remodelling in Parkinson's disease; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PD notch: Notch signalling in neurons (already mapped) and microglia (already mapped) regulates glial fate in Parkinson's disease; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "PD igf-1: IGF-1 from neurons (already mapped) and microglia (already mapped) promotes neuroprotective survival in Parkinson's disease; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
 ---
 
 # Parkinson's Disease
@@ -882,6 +891,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates dopaminergic synapse maintenance; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) cascade of PD.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory immune activation; rankl excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) neuroinflammatory cascade of PD.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — PD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotective repair; smad4 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-6 (already mapped) neuroinflammatory cascade of PD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PD fibronectin: fibronectin in neurons (already mapped) and microglia (already mapped) promotes CNS ECM remodelling in Parkinson's disease; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — PD notch: Notch signalling in neurons (already mapped) and microglia (already mapped) regulates glial fate in Parkinson's disease; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PD igf-1: IGF-1 from neurons (already mapped) and microglia (already mapped) promotes neuroprotective survival in Parkinson's disease; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
