@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Pancreatic cancer wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) drives invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of pancreatic cancer."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PanCa rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes pancreatic tumour immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PanCa fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes pancreatic ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "PanCa igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes pancreatic tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer."
 ---
 
 # Pancreatic Cancer
@@ -863,6 +872,9 @@ cross_links:
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Pancreatic cancer glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tumour tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of pancreatic cancer.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Pancreatic cancer angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of pancreatic cancer.
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Pancreatic cancer wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) drives invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of pancreatic cancer.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PanCa rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes pancreatic tumour immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PanCa fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes pancreatic ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PanCa igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes pancreatic tumour cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
 
 ---
 

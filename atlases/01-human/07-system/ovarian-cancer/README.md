@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "Ovarian cancer wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) drives tumour invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of ovarian cancer."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "OvCa rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes ovarian cancer immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "OvCa fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes ovarian cancer ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "OvCa igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes ovarian cancer cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer."
 ---
 
 # Ovarian Cancer
@@ -851,6 +860,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Ovarian cancer glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tumour tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Ovarian cancer angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives tumour angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of ovarian cancer.
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Ovarian cancer wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) drives tumour invasion; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of ovarian cancer.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — OvCa rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes ovarian cancer immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — OvCa fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes ovarian cancer ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — OvCa igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes ovarian cancer cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)
