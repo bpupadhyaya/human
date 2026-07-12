@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "desmoid angiotensin-ii: angiotensin II on fibroblasts (already mapped) and macrophages (already mapped) promotes tumour remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "desmoid rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes stromal remodelling; rankl excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) fibromatosis cascade in desmoid tumour."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "desmoid activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) promotes desmoid stromal fibrosis; activin-a excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "desmoid cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour microenvironment pain signalling; cgrp excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
 ---
 
 # Desmoid Tumor
@@ -869,6 +878,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — desmoid pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses antitumour immunity; pd-1 dysfunction amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — desmoid glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — desmoid angiotensin-ii: angiotensin II on fibroblasts (already mapped) and macrophages (already mapped) promotes tumour remodelling; angiotensin-II excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — desmoid rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes stromal remodelling; rankl excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) fibromatosis cascade in desmoid tumour.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — desmoid activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) promotes desmoid stromal fibrosis; activin-a excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — desmoid cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour microenvironment pain signalling; cgrp excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
 
 ---
 
