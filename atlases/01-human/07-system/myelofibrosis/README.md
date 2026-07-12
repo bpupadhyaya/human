@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "MF notch: Notch signalling on macrophages (already mapped) and fibroblasts (already mapped) regulates marrow progenitor fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "MF igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes marrow fibrotic growth; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "MF cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "MF calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
 ---
 
 # Myelofibrosis
@@ -875,6 +884,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MF il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates marrow immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MF fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes marrow ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — MF notch: Notch signalling on macrophages (already mapped) and fibroblasts (already mapped) regulates marrow progenitor fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MF igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes marrow fibrotic growth; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MF cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MF calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 
 ---
 
