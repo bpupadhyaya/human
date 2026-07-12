@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "esophageal-cancer igf-1: IGF-1 from macrophages (already mapped) and esophageal cells (already mapped) promotes tumour cell survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "esophageal-cancer activin-a: activin-A from esophageal cells (already mapped) and macrophages (already mapped) promotes tumour fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "esophageal-cancer cgrp: CGRP from esophageal cells (already mapped) and macrophages (already mapped) modulates oesophageal pain tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "esophageal-cancer calcitonin: calcitonin from esophageal cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
 ---
 
 # Esophageal Cancer
@@ -885,6 +894,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — esophageal-cancer rankl: RANKL from macrophages (already mapped) and esophageal cells (already mapped) promotes osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — esophageal-cancer fibronectin: fibronectin in esophageal cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — esophageal-cancer igf-1: IGF-1 from macrophages (already mapped) and esophageal cells (already mapped) promotes tumour cell survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — esophageal-cancer activin-a: activin-A from esophageal cells (already mapped) and macrophages (already mapped) promotes tumour fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — esophageal-cancer cgrp: CGRP from esophageal cells (already mapped) and macrophages (already mapped) modulates oesophageal pain tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — esophageal-cancer calcitonin: calcitonin from esophageal cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
 
 ---
 

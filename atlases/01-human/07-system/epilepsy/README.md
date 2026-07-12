@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "epilepsy igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "epilepsy activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "epilepsy tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory fibrosis; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "epilepsy cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory pain signalling; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy."
 ---
 
 # Epilepsy
@@ -911,6 +920,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — epilepsy fibronectin: fibronectin in astrocytes (already mapped) and microglia (already mapped) promotes neuroinflammatory ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — epilepsy notch: Notch signalling on astrocytes (already mapped) and microglia (already mapped) regulates cortical development; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — epilepsy igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — epilepsy activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — epilepsy tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory fibrosis; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — epilepsy cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory pain signalling; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
