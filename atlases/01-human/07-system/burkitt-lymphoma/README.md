@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "nitric oxide (NO, nitrogen-derived) from macrophage (already mapped) regulates B cell (already mapped) survival; NO excess amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "burkitt carbon: carbon backbone of nucleotides in b-cells (already mapped) and macrophages (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and BCL-2 (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "burkitt oxygen: oxygen via ROS from macrophages (already mapped) and b-cells (already mapped) modulates oxidative stress; oxygen excess amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "burkitt glp-1: GLP-1 from macrophages (already mapped) and b-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -846,6 +855,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — chloride channels on B cell (already mapped) and macrophage (already mapped) regulate lymphoma cell volume; chloride dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour-promoting cascade in Burkitt lymphoma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — sulfur-containing glutathione in B cell (already mapped) and macrophage (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and MYC (already mapped) and BCL-2 (already mapped) cascade in Burkitt lymphoma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — nitric oxide (NO, nitrogen-derived) from macrophage (already mapped) regulates B cell (already mapped) survival; NO excess amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — burkitt carbon: carbon backbone of nucleotides in b-cells (already mapped) and macrophages (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and BCL-2 (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — burkitt oxygen: oxygen via ROS from macrophages (already mapped) and b-cells (already mapped) modulates oxidative stress; oxygen excess amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — burkitt glp-1: GLP-1 from macrophages (already mapped) and b-cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and MYC (already mapped) and mTOR (already mapped) cascade in Burkitt lymphoma.
 
 ---
 
