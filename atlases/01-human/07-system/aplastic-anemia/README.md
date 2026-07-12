@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "AA rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "AA fibronectin: fibronectin in marrow stroma (already mapped) and macrophages (already mapped) modulates haematopoietic niche matrix; fibronectin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "AA notch: Notch in haematopoietic stem cells (already mapped) and macrophages (already mapped) modulates bone-marrow progenitor fate; Notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "AA IGF-1: IGF-1 in bone-marrow stroma (already mapped) and macrophages (already mapped) modulates haematopoietic stem-cell survival; IGF-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA."
 ---
 
 # Aplastic Anemia
@@ -848,6 +857,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — AA angiotensin-ii: angiotensin-II on stem cells (already mapped) and macrophages (already mapped) promotes marrow inflammatory skewing; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — AA wnt-beta-catenin: WNT/β-catenin on stem cells (already mapped) and stromal cells (already mapped) regulates marrow niche; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AA rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates bone-marrow niche; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AA fibronectin: fibronectin in marrow stroma (already mapped) and macrophages (already mapped) modulates haematopoietic niche matrix; fibronectin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AA notch: Notch in haematopoietic stem cells (already mapped) and macrophages (already mapped) modulates bone-marrow progenitor fate; Notch dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AA IGF-1: IGF-1 in bone-marrow stroma (already mapped) and macrophages (already mapped) modulates haematopoietic stem-cell survival; IGF-1 deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
 
 ---
 
