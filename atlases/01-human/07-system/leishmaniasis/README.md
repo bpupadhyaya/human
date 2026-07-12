@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Leishmaniasis angiotensin-II: angiotensin-II drives macrophage (already mapped) and neutrophil (already mapped) inflammatory activation; angiotensin-II amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune cascade of leishmaniasis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Leishmaniasis WNT: WNT-β-catenin in macrophages (already mapped) and dendritic cells (already mapped) modulates parasite immunity; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) immune-evasion cascade in leishmaniasis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Leishmaniasis RANKL: RANKL drives dendritic-cell (already mapped) and macrophage (already mapped) activation against Leishmania; RANKL dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune cascade of leishmaniasis."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Leishmaniasis Notch: Notch signalling in macrophages (already mapped) and T-cells (already mapped) controls anti-leishmanial polarisation; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) immune cascade of leishmaniasis."
 ---
 
 # Leishmaniasis
@@ -813,3 +822,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Leishmaniasis PD-1: PD-1 checkpoint on T-cells (already mapped) suppresses anti-leishmanial immunity; PD-1 overexpression amplifies IL-10 (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune-evasion cascade in leishmaniasis.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Leishmaniasis GLP-1: GLP-1 signalling modulates macrophage (already mapped) and NK-cell (already mapped) activation against Leishmania; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) parasitic cascade of leishmaniasis.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Leishmaniasis angiotensin-II: angiotensin-II drives macrophage (already mapped) and neutrophil (already mapped) inflammatory activation; angiotensin-II amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) immune cascade of leishmaniasis.
+- `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Leishmaniasis WNT: WNT-β-catenin in macrophages (already mapped) and dendritic cells (already mapped) modulates parasite immunity; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) immune-evasion cascade in leishmaniasis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Leishmaniasis RANKL: RANKL drives dendritic-cell (already mapped) and macrophage (already mapped) activation against Leishmania; RANKL dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune cascade of leishmaniasis.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Leishmaniasis Notch: Notch signalling in macrophages (already mapped) and T-cells (already mapped) controls anti-leishmanial polarisation; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) immune cascade of leishmaniasis.
