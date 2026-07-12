@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "Osteoporosis cgrp: CGRP from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) bone-loss cascade of osteoporosis."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Osteoporosis substance-p: substance-P from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) bone-loss cascade of osteoporosis."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Osteoporosis insulin-receptor: insulin receptor on osteoblasts (already mapped) and osteoclasts (already mapped) drives bone metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "OP androgen-receptor: androgen receptor on osteoblasts (already mapped) and osteoclasts (already mapped) modulates steroid signalling; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis."
 ---
 
 # Osteoporosis
@@ -863,6 +872,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Osteoporosis fibronectin: fibronectin in osteoblasts (already mapped) and osteoclasts (already mapped) promotes bone ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) bone-loss cascade of osteoporosis.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Osteoporosis activin-a: activin-A from osteoblasts (already mapped) and osteoclasts (already mapped) drives bone resorption; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) bone-loss cascade of osteoporosis.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Osteoporosis cgrp: CGRP from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) bone-loss cascade of osteoporosis.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Osteoporosis substance-p: substance-P from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) bone-loss cascade of osteoporosis.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Osteoporosis insulin-receptor: insulin receptor on osteoblasts (already mapped) and osteoclasts (already mapped) drives bone metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — OP androgen-receptor: androgen receptor on osteoblasts (already mapped) and osteoclasts (already mapped) modulates steroid signalling; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)

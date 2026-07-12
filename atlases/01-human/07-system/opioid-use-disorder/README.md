@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "OUD notch: Notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates glial fate in opioid circuits; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) cascade of OUD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "OUD igf-1: IGF-1 from neurons (already mapped) and astrocytes (already mapped) promotes opioid-circuit neuroprotection; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) cascade of OUD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "OUD activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) modulates opioid-circuit neuroinflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) cascade of OUD."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "OUD tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) drives opioid-circuit glial remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) cascade of OUD."
 ---
 
 # Opioid Use Disorder
@@ -914,6 +923,9 @@ The primary mechanism by which opioids produce euphoria:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — OUD il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates neuroinflammatory surveillance in opioid circuits; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) cascade of OUD.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — OUD fibronectin: fibronectin in neurons (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling in opioid circuits; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) cascade of OUD.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — OUD notch: Notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates glial fate in opioid circuits; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) cascade of OUD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — OUD igf-1: IGF-1 from neurons (already mapped) and astrocytes (already mapped) promotes opioid-circuit neuroprotection; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) cascade of OUD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — OUD activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) modulates opioid-circuit neuroinflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) cascade of OUD.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — OUD tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) drives opioid-circuit glial remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) cascade of OUD.
 
 [^volkow-2016-opioid-crisis]: Volkow ND, Collins FS. The role of science in addressing the opioid crisis. *N Engl J Med.* 2017;377(4):391-394. [doi:10.1056/NEJMsr1706626](https://doi.org/10.1056/NEJMsr1706626) · [PubMed 28723324](https://pubmed.ncbi.nlm.nih.gov/28723324/)
 [^mattick-2009-bupe-meta]: Mattick RP, Breen C, Kimber J, Davoli M. Buprenorphine maintenance versus placebo or methadone maintenance for opioid dependence. *Cochrane Database Syst Rev.* 2014;2:CD002207. [doi:10.1002/14651858.CD002207.pub4](https://doi.org/10.1002/14651858.CD002207.pub4) · [PubMed 24500948](https://pubmed.ncbi.nlm.nih.gov/24500948/)
