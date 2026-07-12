@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "MEN1 oxygen: oxygen, via ROS in neuroendocrine cells (already mapped) and macrophages (already mapped), drives oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumourigenic cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "MEN1 PD-1: PD-1 checkpoint on T-cells (already mapped) and NK-cells (already mapped) modulates immune surveillance of neuroendocrine tumours; PD-1 overexpression amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of MEN1."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "MEN1 angiotensin-II: angiotensin-II drives macrophage (already mapped) and endothelial (already mapped) inflammation; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumourigenic cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "MEN1 IL-2: IL-2 cytokine sustains T-cell (already mapped) and NK-cell (already mapped) anti-tumour surveillance in neuroendocrine tissue; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of MEN1 syndrome."
 ---
 
 # MEN1 Syndrome
@@ -831,6 +840,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MEN1 carbon: carbon as backbone of menin and MLL protein scaffold sustains histone (already mapped) methylation and tumour suppression; carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and insulin (already mapped) neuroendocrine cascade of MEN1.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MEN1 nitrogen: nitrogen in amino-acid scaffold of menin and CDKN1B proteins modulates neuroendocrine (already mapped) cell-cycle control; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and gastrin (already mapped) cascade of MEN1 syndrome.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MEN1 oxygen: oxygen, via ROS in neuroendocrine cells (already mapped) and macrophages (already mapped), drives oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumourigenic cascade of MEN1 syndrome.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MEN1 PD-1: PD-1 checkpoint on T-cells (already mapped) and NK-cells (already mapped) modulates immune surveillance of neuroendocrine tumours; PD-1 overexpression amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of MEN1.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MEN1 angiotensin-II: angiotensin-II drives macrophage (already mapped) and endothelial (already mapped) inflammation; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumourigenic cascade of MEN1 syndrome.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MEN1 IL-2: IL-2 cytokine sustains T-cell (already mapped) and NK-cell (already mapped) anti-tumour surveillance in neuroendocrine tissue; IL-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of MEN1 syndrome.
 
 ---
 

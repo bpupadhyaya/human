@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "MEN4 oxygen: oxygen, via ROS in neuroendocrine cells (already mapped) and macrophages (already mapped), drives oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumourigenic cascade of MEN4 syndrome."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "MEN4 hydrogen: hydrogen in redox chemistry of neuroendocrine cells (already mapped) and macrophages (already mapped) modulates CDKN1B protein stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of MEN4."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "MEN4 PD-1: PD-1 checkpoint on T-cells (already mapped) and NK-cells (already mapped) modulates immune surveillance of CDKN1B-deficient neuroendocrine tumours; PD-1 overexpression amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of MEN4 syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "MEN4 angiotensin-II: angiotensin-II drives macrophage (already mapped) and endothelial (already mapped) inflammation in neuroendocrine tissue; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of MEN4."
 ---
 
 # MEN4 Syndrome
@@ -823,6 +832,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — MEN4 carbon: carbon as backbone of CDKN1B protein scaffold sustains neuroendocrine (already mapped) cell-cycle arrest; carbon disruption amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) neuroendocrine tumour cascade of MEN4 syndrome.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — MEN4 nitrogen: nitrogen in amino-acid scaffold of CDKN1B and CDKN2C proteins modulates pituitary (already mapped) and parathyroid cell-cycle control; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumourigenic cascade of MEN4 syndrome.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — MEN4 oxygen: oxygen, via ROS in neuroendocrine cells (already mapped) and macrophages (already mapped), drives oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) tumourigenic cascade of MEN4 syndrome.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — MEN4 hydrogen: hydrogen in redox chemistry of neuroendocrine cells (already mapped) and macrophages (already mapped) modulates CDKN1B protein stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of MEN4.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — MEN4 PD-1: PD-1 checkpoint on T-cells (already mapped) and NK-cells (already mapped) modulates immune surveillance of CDKN1B-deficient neuroendocrine tumours; PD-1 overexpression amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of MEN4 syndrome.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MEN4 angiotensin-II: angiotensin-II drives macrophage (already mapped) and endothelial (already mapped) inflammation in neuroendocrine tissue; angiotensin-II dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of MEN4.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)
