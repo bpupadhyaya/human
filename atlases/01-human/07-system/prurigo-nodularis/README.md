@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "PN fibronectin: fibronectin in keratinocytes (already mapped) and neurons (already mapped) promotes neuroimmune ECM remodelling in prurigo nodularis; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PN notch: Notch signalling in keratinocytes (already mapped) and neurons (already mapped) regulates pruritogenic cell fate in prurigo nodularis; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "PN igf-1: IGF-1 from keratinocytes (already mapped) and neurons (already mapped) drives neuroimmune survival in prurigo nodularis; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "PN activin-a: activin-A from keratinocytes (already mapped) and neurons (already mapped) modulates pruritogenic fibrotic signalling in PN; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
 ---
 
 # Prurigo Nodularis
@@ -830,6 +839,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PN wnt-beta-catenin: WNT/β-catenin on keratinocytes (already mapped) and neurons (already mapped) regulates pruritogenic signalling; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PN rankl: RANKL from keratinocytes (already mapped) and neurons (already mapped) promotes neuroimmune itch activation in prurigo nodularis; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PN fibronectin: fibronectin in keratinocytes (already mapped) and neurons (already mapped) promotes neuroimmune ECM remodelling in prurigo nodularis; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — PN notch: Notch signalling in keratinocytes (already mapped) and neurons (already mapped) regulates pruritogenic cell fate in prurigo nodularis; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PN igf-1: IGF-1 from keratinocytes (already mapped) and neurons (already mapped) drives neuroimmune survival in prurigo nodularis; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PN activin-a: activin-A from keratinocytes (already mapped) and neurons (already mapped) modulates pruritogenic fibrotic signalling in PN; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)

@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "PCa calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "PCa substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate tumour neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "PCa insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives PCa metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "PCa aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
 ---
 
 # Prostate Cancer
@@ -882,6 +891,9 @@ cross_links:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PCa activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives prostate cancer fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PCa cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate tumour vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PCa calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PCa substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate tumour neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PCa insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives PCa metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PCa aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
