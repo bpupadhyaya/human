@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "BD IGF-1: IGF-1 in neurons (already mapped) and astrocytes (already mapped) modulates neuroprotection and synaptic plasticity; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "BD activin-a: activin-A from neurons (already mapped) and microglia (already mapped) regulates neuroimmune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "BD tgf-beta: TGF-β from neurons (already mapped) and microglia (already mapped) modulates neuroinflammatory balance; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "BD cgrp: CGRP from neurons (already mapped) and microglia (already mapped) modulates neuroimmune tone in mood cycling; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD."
 ---
 
 # Bipolar Disorder
@@ -889,6 +898,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — BD fibronectin: fibronectin in neurons (already mapped) and microglia (already mapped) modulates neuroimmune ECM integrity; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — BD notch: Notch in neurons (already mapped) and microglia (already mapped) modulates neuro-glial cell fate; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — BD IGF-1: IGF-1 in neurons (already mapped) and astrocytes (already mapped) modulates neuroprotection and synaptic plasticity; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — BD activin-a: activin-A from neurons (already mapped) and microglia (already mapped) regulates neuroimmune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — BD tgf-beta: TGF-β from neurons (already mapped) and microglia (already mapped) modulates neuroinflammatory balance; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — BD cgrp: CGRP from neurons (already mapped) and microglia (already mapped) modulates neuroimmune tone in mood cycling; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

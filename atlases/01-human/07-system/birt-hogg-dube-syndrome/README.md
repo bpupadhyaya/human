@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "BHD activin-a: activin-A in renal cells (already mapped) and macrophages (already mapped) modulates tumour stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "BHD cgrp: CGRP from renal cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "BHD calcitonin: calcitonin from renal cells (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "BHD substance-p: substance-P from renal cells (already mapped) and macrophages (already mapped) modulates tumour nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -888,6 +897,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — BHD rankl: RANKL in macrophages (already mapped) and osteoclasts (already mapped) modulates tumour bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — BHD fibronectin: fibronectin in renal cells (already mapped) and fibroblasts (already mapped) modulates tumour ECM remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — BHD activin-a: activin-A in renal cells (already mapped) and macrophages (already mapped) modulates tumour stromal crosstalk; activin-A dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — BHD cgrp: CGRP from renal cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — BHD calcitonin: calcitonin from renal cells (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — BHD substance-p: substance-P from renal cells (already mapped) and macrophages (already mapped) modulates tumour nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 
 ---
 
