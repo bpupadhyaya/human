@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "AML hydrogen: hydrogen, via redox homeostasis in blast cells and macrophages (already mapped), quenches leukaemic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferative cascade in AML."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "AML sulfur: H2S from sulfur-amino acids in blast cells and macrophages (already mapped) scavenges ROS promoting apoptosis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferative cascade in AML."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "AML PD-1: PD-1 on macrophages (already mapped) and t-cytotoxic-cell (already mapped) modulates leukaemic immune evasion; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferative cascade in AML."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "AML GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and blast cells modulates metabolic immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic cascade in AML."
 ---
 
 # AML
@@ -842,6 +851,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — AML carbon: carbon, as metabolic backbone of purines and nucleotides in blast cells and macrophages (already mapped), drives leukaemic proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast cascade in AML.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — AML chloride: chloride channels in blast cells and macrophages (already mapped) regulate intracellular pH during leukaemic expansion; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferation in AML.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — AML hydrogen: hydrogen, via redox homeostasis in blast cells and macrophages (already mapped), quenches leukaemic ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferative cascade in AML.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — AML sulfur: H2S from sulfur-amino acids in blast cells and macrophages (already mapped) scavenges ROS promoting apoptosis; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferative cascade in AML.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AML PD-1: PD-1 on macrophages (already mapped) and t-cytotoxic-cell (already mapped) modulates leukaemic immune evasion; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) blast proliferative cascade in AML.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AML GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and blast cells modulates metabolic immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and FLT3 (already mapped) leukaemic cascade in AML.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

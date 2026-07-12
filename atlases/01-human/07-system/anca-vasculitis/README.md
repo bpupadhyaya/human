@@ -559,6 +559,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "ANCA sulfur: H2S from sulfur-amino acids in neutrophils (already mapped) and endothelial cells (already mapped) modulates vascular tone; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) vasculitic cascade in ANCA."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "ANCA GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates vascular homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) cascade of ANCA vasculitis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "ANCA angiotensin-II: angiotensin-II in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) vasculitic cascade of ANCA."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "ANCA WNT/β-catenin: WNT/β-catenin in endothelial cells (already mapped) and macrophages (already mapped) supports vascular repair; WNT dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) vasculitic cascade of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -871,6 +880,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ANCA carbon: carbon backbone of cytokines in neutrophils (already mapped) and macrophages (already mapped) drives vasculitic inflammation; carbon dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) vasculitic cascade in ANCA.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ANCA hydrogen: hydrogen, via redox homeostasis in neutrophils (already mapped) and endothelial cells (already mapped), quenches vasculitic ROS; hydrogen dysregulation amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in ANCA.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — ANCA sulfur: H2S from sulfur-amino acids in neutrophils (already mapped) and endothelial cells (already mapped) modulates vascular tone; sulfur deficiency amplifies NLRP3 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) vasculitic cascade in ANCA.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ANCA GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial cells (already mapped) modulates vascular homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) cascade of ANCA vasculitis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — ANCA angiotensin-II: angiotensin-II in endothelial cells (already mapped) and macrophages (already mapped) promotes vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) vasculitic cascade of ANCA.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ANCA WNT/β-catenin: WNT/β-catenin in endothelial cells (already mapped) and macrophages (already mapped) supports vascular repair; WNT dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-6 (already mapped) vasculitic cascade of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
