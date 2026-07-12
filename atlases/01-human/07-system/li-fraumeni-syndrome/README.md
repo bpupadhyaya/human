@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "LFS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates tumour-stromal interaction; wnt-beta-catenin dysregulation amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) cascade of LFS."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "LFS rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour bone microenvironment; rankl excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "LFS smad4: SMAD4 in macrophages (already mapped) and fibroblasts (already mapped) mediates TGF-β anti-tumour signalling; smad4 dysregulation amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "LFS fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome."
 ---
 
 # Li-Fraumeni Syndrome
@@ -886,6 +895,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — LFS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — LFS angiotensin-ii: angiotensin-II from macrophages (already mapped) and smooth-muscle cells (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of LFS.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — LFS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates tumour-stromal interaction; wnt-beta-catenin dysregulation amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) cascade of LFS.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — LFS rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour bone microenvironment; rankl excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — LFS smad4: SMAD4 in macrophages (already mapped) and fibroblasts (already mapped) mediates TGF-β anti-tumour signalling; smad4 dysregulation amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — LFS fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)

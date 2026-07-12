@@ -554,6 +554,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "LS notch: NOTCH in endothelial cells (already mapped) and macrophages (already mapped) drives lymphangiogenesis; notch dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade of lymphatic system."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "LS fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) promotes lymph ECM remodelling; fibronectin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "LS igf-1: IGF-1 from endothelial cells (already mapped) and macrophages (already mapped) promotes lymphangiogenic repair; igf-1 excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "LS activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes lymphatic fibrosis; activin-a excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
 ---
 
 # Lymphatic System
@@ -842,6 +851,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — LS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and endothelial cells (already mapped) regulates lymphangiogenic programming; wnt-beta-catenin dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic cascade.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — LS rankl: RANKL from macrophages (already mapped) and dendritic cells (already mapped) modulates lymph-node immune activation; rankl excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic immune cascade.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — LS notch: NOTCH in endothelial cells (already mapped) and macrophages (already mapped) drives lymphangiogenesis; notch dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade of lymphatic system.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — LS fibronectin: fibronectin in endothelial cells (already mapped) and macrophages (already mapped) promotes lymph ECM remodelling; fibronectin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — LS igf-1: IGF-1 from endothelial cells (already mapped) and macrophages (already mapped) promotes lymphangiogenic repair; igf-1 excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — LS activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes lymphatic fibrosis; activin-a excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 
 ## Pathology
 
