@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "RCC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and tumour cells, supports HIF-1α (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) oxidative cascade of renal-cell carcinoma."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "RCC nitrogen: nitrogen in amino-acid scaffold of HIF-1α (already mapped) and VEGF (already mapped) proteins in tumour cells sustains angiogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) cascade of renal-cell carcinoma."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "RCC sulfur: sulfur, as glutathione in macrophages (already mapped) and tumour cells, limits oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped) cascade of renal-cell carcinoma."
+  - target: 01-human/02-atomic/zinc
+    relation: connects-to
+    note: "RCC zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and tumour cells, regulates ECM remodelling; zinc deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of renal-cell carcinoma."
 ---
 
 # Renal Cell Carcinoma
@@ -830,6 +839,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — RCC carbon: carbon as backbone of HIF-1α (already mapped) and VEGF (already mapped) proteins in tumour cells sustains angiogenic signalling; carbon depletion amplifies NF-κB (already mapped) and VEGF (already mapped) cascade of renal-cell carcinoma.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — RCC chloride: chloride channels in macrophages (already mapped) and tumour cells modulate cell-volume and invasive potential; chloride imbalance amplifies NF-κB (already mapped) and VEGF (already mapped) inflammatory cascade of renal-cell carcinoma.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — RCC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and tumour cells, supports HIF-1α (already mapped) signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) oxidative cascade of renal-cell carcinoma.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — RCC nitrogen: nitrogen in amino-acid scaffold of HIF-1α (already mapped) and VEGF (already mapped) proteins in tumour cells sustains angiogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) cascade of renal-cell carcinoma.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — RCC sulfur: sulfur, as glutathione in macrophages (already mapped) and tumour cells, limits oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped) cascade of renal-cell carcinoma.
+- `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — RCC zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and tumour cells, regulates ECM remodelling; zinc deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of renal-cell carcinoma.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

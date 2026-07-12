@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "PAH hydrogen: hydrogen, via redox homeostasis in endothelial cells (already mapped) and macrophages (already mapped), supports nitric-oxide-mediated vasodilation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "PAH nitrogen: nitrogen in amino-acid scaffold of VEGF (already mapped) and NF-κB (already mapped) proteins in endothelial cells (already mapped) sustains vascular signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "PAH sulfur: sulfur, as glutathione in endothelial cells (already mapped) and macrophages (already mapped), quenches oxidative stress in pulmonary vasculature; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "PAH PD-1: PD-1 checkpoint signalling in T-regulatory cells and macrophages (already mapped) dampens pulmonary vascular inflammation; PD-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) vascular-remodelling cascade of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -842,6 +851,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PAH carbon: carbon as backbone of VEGF (already mapped) and NF-κB (already mapped) proteins in endothelial cells (already mapped) sustains vascular signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PAH chloride: chloride channels in smooth muscle cells (already mapped) and macrophages (already mapped) regulate pulmonary vascular tone; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PAH hydrogen: hydrogen, via redox homeostasis in endothelial cells (already mapped) and macrophages (already mapped), supports nitric-oxide-mediated vasodilation; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PAH nitrogen: nitrogen in amino-acid scaffold of VEGF (already mapped) and NF-κB (already mapped) proteins in endothelial cells (already mapped) sustains vascular signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PAH sulfur: sulfur, as glutathione in endothelial cells (already mapped) and macrophages (already mapped), quenches oxidative stress in pulmonary vasculature; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PAH PD-1: PD-1 checkpoint signalling in T-regulatory cells and macrophages (already mapped) dampens pulmonary vascular inflammation; PD-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) vascular-remodelling cascade of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
