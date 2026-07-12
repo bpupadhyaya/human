@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "WM hydrogen: hydrogen, via redox homeostasis in B-cell (already mapped) and macrophages (already mapped), quenches NF-κB-driven ROS; hydrogen dysregulation amplifies MYD88 (already mapped) and IL-6 (already mapped) and IgM (already mapped) clonal cascade of WM."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "WM nitrogen: nitric oxide from B-cell (already mapped) and macrophages (already mapped) modulates clonal B-cell survival; nitrogen imbalance amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) hyperviscosity cascade of WM."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "WM sulfur: hydrogen sulfide from B-cell (already mapped) and macrophages (already mapped) modulates redox homeostasis; sulfur deficiency amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) clonal cascade of waldenstrom macroglobulinemia."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "WM oxygen: mitochondrial oxygen in B-cell (already mapped) and macrophages (already mapped) drives ATP for clonal proliferation; hypoxia amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) hyperviscosity cascade of WM."
 ---
 
 # Waldenström Macroglobulinemia
@@ -829,6 +838,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — WM carbon: carbon, as metabolic backbone of IgM (already mapped) and MYD88 (already mapped) in B-cell (already mapped) and plasma-cell (already mapped), drives clonal expansion; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of WM.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — WM chloride: chloride channels in B-cell (already mapped) and macrophages (already mapped) modulate clonal B-cell survival; chloride dysregulation amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) hyperviscosity cascade of WM.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — WM hydrogen: hydrogen, via redox homeostasis in B-cell (already mapped) and macrophages (already mapped), quenches NF-κB-driven ROS; hydrogen dysregulation amplifies MYD88 (already mapped) and IL-6 (already mapped) and IgM (already mapped) clonal cascade of WM.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — WM nitrogen: nitric oxide from B-cell (already mapped) and macrophages (already mapped) modulates clonal B-cell survival; nitrogen imbalance amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) hyperviscosity cascade of WM.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — WM sulfur: hydrogen sulfide from B-cell (already mapped) and macrophages (already mapped) modulates redox homeostasis; sulfur deficiency amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) clonal cascade of waldenstrom macroglobulinemia.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — WM oxygen: mitochondrial oxygen in B-cell (already mapped) and macrophages (already mapped) drives ATP for clonal proliferation; hypoxia amplifies NF-κB (already mapped) and MYD88 (already mapped) and IL-6 (already mapped) hyperviscosity cascade of WM.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
