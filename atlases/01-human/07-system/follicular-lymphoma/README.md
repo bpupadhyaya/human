@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "FL nitrogen: nitric oxide from iNOS in macrophages (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell (already mapped) cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "FL carbon: carbon in nucleotides of B-cells (already mapped) and macrophages (already mapped) fuels malignant proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "FL hydrogen: hydrogen via ROS from macrophages (already mapped) and B-cells (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell cascade of follicular lymphoma."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "FL oxygen: oxygen drives B-cell (already mapped) and macrophage (already mapped) mitochondrial metabolism, supporting tumour growth; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) cascade of follicular lymphoma."
 ---
 
 # Follicular Lymphoma
@@ -837,6 +846,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — FL chloride: chloride channels on B-cells (already mapped) and macrophages (already mapped) regulate apoptotic signalling; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell cascade of follicular lymphoma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — FL sulfur: glutathione from sulfur amino acids in macrophages (already mapped) and B-cells (already mapped) counters ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell survival cascade of follicular lymphoma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — FL nitrogen: nitric oxide from iNOS in macrophages (already mapped) modulates anti-tumour immunity; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell (already mapped) cascade of follicular lymphoma.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — FL carbon: carbon in nucleotides of B-cells (already mapped) and macrophages (already mapped) fuels malignant proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell cascade of follicular lymphoma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — FL hydrogen: hydrogen via ROS from macrophages (already mapped) and B-cells (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) B-cell cascade of follicular lymphoma.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — FL oxygen: oxygen drives B-cell (already mapped) and macrophage (already mapped) mitochondrial metabolism, supporting tumour growth; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mast-cell (already mapped) cascade of follicular lymphoma.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
