@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "PC nitrogen: nitrogen in amino-acid scaffold of androgen receptor and VEGF (already mapped) proteins in prostate tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of prostate cancer."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "PC oxygen: tumour hypoxia in prostate cancer drives HIF-1α and VEGF (already mapped) angiogenesis; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and androgen receptor signalling cascade of prostate cancer."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "PC sulfur: sulfur in cysteine residues of androgen receptor and NF-κB (already mapped) proteins in prostate tumour cells sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "PC GLP-1: GLP-1 receptor signalling in prostate tumour cells and macrophages (already mapped) modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of prostate cancer."
 ---
 
 # Prostate Cancer
@@ -846,6 +855,9 @@ cross_links:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PC carbon: carbon as backbone of androgen receptor and NF-κB (already mapped) proteins in prostate tumour cells and macrophages (already mapped) sustains oncogenic signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of prostate cancer.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PC hydrogen: hydrogen, via redox homeostasis in macrophages (already mapped) and fibroblasts (already mapped), supports androgen receptor signalling; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of prostate cancer.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PC nitrogen: nitrogen in amino-acid scaffold of androgen receptor and VEGF (already mapped) proteins in prostate tumour cells sustains oncogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of prostate cancer.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PC oxygen: tumour hypoxia in prostate cancer drives HIF-1α and VEGF (already mapped) angiogenesis; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and androgen receptor signalling cascade of prostate cancer.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PC sulfur: sulfur in cysteine residues of androgen receptor and NF-κB (already mapped) proteins in prostate tumour cells sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PC GLP-1: GLP-1 receptor signalling in prostate tumour cells and macrophages (already mapped) modulates metabolic and inflammatory risk; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
