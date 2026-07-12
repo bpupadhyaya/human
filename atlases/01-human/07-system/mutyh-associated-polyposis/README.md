@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "MAP sulfur: sulfur in cysteine and methionine residues of MUTYH (already mapped) protein in colonocytes (already mapped) stabilises oxidised base repair; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "MAP glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "MAP angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblasts (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "MAP rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes tumour immune evasion; rankl excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
 ---
 
 # MUTYH-Associated Polyposis
@@ -840,6 +849,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — MAP chloride: chloride via Cl⁻ channels in colonocytes (already mapped) regulates cell volume and epithelial ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MUTYH-associated polyposis.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — MAP phosphorus: phosphorus in ATP and phosphodiester backbone of MUTYH (already mapped) repair proteins in colonocytes (already mapped) drives DNA base-excision repair; phosphorus depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — MAP sulfur: sulfur in cysteine and methionine residues of MUTYH (already mapped) protein in colonocytes (already mapped) stabilises oxidised base repair; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) polyp cascade of MAP.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MAP glp-1: GLP-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic-inflammatory tone; glp-1 dysfunction amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MAP angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblasts (already mapped) drives vascular remodelling; angiotensin-ii excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — MAP rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes tumour immune evasion; rankl excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 
 ---
 
