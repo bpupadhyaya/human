@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "cytokine-storm igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates tissue repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "cytokine-storm activin-a: activin-A from macrophages (already mapped) and T-helper cells (already mapped) modulates immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "cytokine-storm tgf-beta: TGF-β from macrophages (already mapped) and T-helper cells (already mapped) modulates immune-fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "cytokine-storm cgrp: CGRP from macrophages (already mapped) and T-helper cells (already mapped) modulates neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -838,6 +847,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — cytokine-storm rankl: RANKL from macrophages (already mapped) and T-helper cells (already mapped) promotes osteoclast activation in CS bone marrow niches; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — cytokine-storm notch: Notch on macrophages (already mapped) and T-helper cells (already mapped) amplifies cytokine transcription; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hyper-inflammatory cascade of cytokine storm.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — cytokine-storm igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates tissue repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cytokine-storm activin-a: activin-A from macrophages (already mapped) and T-helper cells (already mapped) modulates immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — cytokine-storm tgf-beta: TGF-β from macrophages (already mapped) and T-helper cells (already mapped) modulates immune-fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cytokine-storm cgrp: CGRP from macrophages (already mapped) and T-helper cells (already mapped) modulates neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 
 ## Pathology
 
