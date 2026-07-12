@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "CML nitrogen: nitrogen in DNA bases of macrophages (already mapped) and leukaemic stem cells (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "CML pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses leukaemia immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL (already mapped) leukaemic cascade of CML."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "CML glp-1: GLP-1 from macrophages (already mapped) and leukaemic stem cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL (already mapped) leukaemic cascade of CML."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "CML angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes leukaemic angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -836,6 +845,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — CML carbon: carbon backbone of nucleotides in macrophages (already mapped) and leukaemic stem cells (already mapped) fuels tumour proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — CML hydrogen: hydrogen via ROS from macrophages (already mapped) and leukaemic stem cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — CML nitrogen: nitrogen in DNA bases of macrophages (already mapped) and leukaemic stem cells (already mapped) sustains tumour growth; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL leukaemic cascade of CML.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — CML pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses leukaemia immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL (already mapped) leukaemic cascade of CML.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — CML glp-1: GLP-1 from macrophages (already mapped) and leukaemic stem cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCR-ABL (already mapped) leukaemic cascade of CML.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — CML angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes leukaemic angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 
 ---
 

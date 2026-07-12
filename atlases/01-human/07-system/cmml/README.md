@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "CMML nitrogen: nitrogen in DNA bases of macrophages (already mapped) and monocytes (already mapped) sustains myeloproliferative growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "CMML pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses myeloproliferative immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "CMML glp-1: GLP-1 from macrophages (already mapped) and monocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "CMML angiotensin-ii: angiotensin II on monocytes (already mapped) and macrophages (already mapped) promotes myeloproliferative skewing; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -849,6 +858,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — CMML carbon: carbon backbone of nucleotides in macrophages (already mapped) and monocytes (already mapped) fuels myeloproliferative growth; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — CMML hydrogen: hydrogen via ROS from macrophages (already mapped) and monocytes (already mapped) modulates oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — CMML nitrogen: nitrogen in DNA bases of macrophages (already mapped) and monocytes (already mapped) sustains myeloproliferative growth; nitrogen dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — CMML pd-1: PD-1 on t-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses myeloproliferative immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — CMML glp-1: GLP-1 from macrophages (already mapped) and monocytes (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — CMML angiotensin-ii: angiotensin II on monocytes (already mapped) and macrophages (already mapped) promotes myeloproliferative skewing; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 
 ---
 
