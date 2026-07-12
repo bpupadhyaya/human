@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/zinc
     relation: connects-to
     note: "RCC zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and tumour cells, regulates ECM remodelling; zinc deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of renal-cell carcinoma."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "RCC glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour metabolic tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "RCC angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives tumour angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "RCC wnt-beta-catenin: WNT/β-catenin on tumour cells (already mapped) and macrophages (already mapped) drives tumour invasion; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC."
 ---
 
 # Renal Cell Carcinoma
@@ -842,6 +851,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — RCC nitrogen: nitrogen in amino-acid scaffold of HIF-1α (already mapped) and VEGF (already mapped) proteins in tumour cells sustains angiogenic signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) cascade of renal-cell carcinoma.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — RCC sulfur: sulfur, as glutathione in macrophages (already mapped) and tumour cells, limits oxidative stress; sulfur deficiency amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped) cascade of renal-cell carcinoma.
 - `connects-to` → **[Zinc](../../02-atomic/zinc/README.md)** — RCC zinc: zinc, as metalloproteinase cofactor in macrophages (already mapped) and tumour cells, regulates ECM remodelling; zinc deficiency amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of renal-cell carcinoma.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — RCC glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour metabolic tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — RCC angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives tumour angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — RCC wnt-beta-catenin: WNT/β-catenin on tumour cells (already mapped) and macrophages (already mapped) drives tumour invasion; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

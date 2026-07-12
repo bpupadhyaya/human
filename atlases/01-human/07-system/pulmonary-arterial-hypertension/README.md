@@ -553,6 +553,15 @@ cross_links:
   - target: 01-human/03-molecular/pd-1
     relation: connects-to
     note: "PAH PD-1: PD-1 checkpoint signalling in T-regulatory cells and macrophages (already mapped) dampens pulmonary vascular inflammation; PD-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "PAH glp-1: GLP-1 from enteroendocrine cells (already mapped) and macrophages (already mapped) modulates pulmonary inflammatory tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "PAH wnt-beta-catenin: WNT/β-catenin on myocytes (already mapped) and macrophages (already mapped) regulates PAH vascular tone; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "PAH rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -854,6 +863,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PAH nitrogen: nitrogen in amino-acid scaffold of VEGF (already mapped) and NF-κB (already mapped) proteins in endothelial cells (already mapped) sustains vascular signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of PAH.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PAH sulfur: sulfur, as glutathione in endothelial cells (already mapped) and macrophages (already mapped), quenches oxidative stress in pulmonary vasculature; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) vascular-remodelling cascade of PAH.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — PAH PD-1: PD-1 checkpoint signalling in T-regulatory cells and macrophages (already mapped) dampens pulmonary vascular inflammation; PD-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PAH glp-1: GLP-1 from enteroendocrine cells (already mapped) and macrophages (already mapped) modulates pulmonary inflammatory tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — PAH wnt-beta-catenin: WNT/β-catenin on myocytes (already mapped) and macrophages (already mapped) regulates PAH vascular tone; wnt-beta-catenin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PAH rankl: RANKL from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
