@@ -525,6 +525,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "HD oxygen: ROS from mitochondrial dysfunction in neurons (already mapped) and microglia (already mapped) drives oxidative neurodegeneration; oxygen deprivation amplifies NF-κB (already mapped) and TNF-α (already mapped) aggregation cascade of Huntington disease."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "HD pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade in Huntington disease."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "HD angiotensin-ii: angiotensin-II from microglia (already mapped) and neurons (already mapped) amplifies neuroinflammatory signalling; angiotensin-ii excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade in HD."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "HD vegf: VEGF from microglia (already mapped) and neurons (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of Huntington disease."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -745,3 +754,7 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HD carbon: carbon as backbone of mutant huntingtin protein and cytokines (already mapped) sustains misfolding cascade; carbon-derived metabolites in neurons (already mapped) and microglia (already mapped) amplify NF-κB (already mapped) and TNF-α (already mapped) in HD.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HD hydrogen: hydrogen as proton gradient in neuron (already mapped) mitochondria drives ATP synthesis; hydrogen-ion dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) mitochondrial dysfunction and excitotoxicity in Huntington disease.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — HD oxygen: ROS from mitochondrial dysfunction in neurons (already mapped) and microglia (already mapped) drives oxidative neurodegeneration; oxygen deprivation amplifies NF-κB (already mapped) and TNF-α (already mapped) aggregation cascade of Huntington disease.
+
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — HD pd-1: PD-1 on T-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade in Huntington disease.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — HD angiotensin-ii: angiotensin-II from microglia (already mapped) and neurons (already mapped) amplifies neuroinflammatory signalling; angiotensin-ii excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade in HD.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — HD vegf: VEGF from microglia (already mapped) and neurons (already mapped) drives neuroinflammatory angiogenesis; vegf dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of Huntington disease.

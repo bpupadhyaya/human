@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/oxygen
     relation: connects-to
     note: "HL oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and mast cells (already mapped) drives Reed-Sternberg-cell oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL."
+  - target: 01-human/02-atomic/carbon
+    relation: connects-to
+    note: "HL carbon: carbon in nucleotides of macrophages (already mapped) and mast cells (already mapped) fuels Reed-Sternberg-cell proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "HL hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) Reed-Sternberg cascade in HL."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "HL sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) Reed-Sternberg cascade in HL."
 ---
 
 # Hodgkin Lymphoma
@@ -833,6 +842,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — HL chloride: chloride channels regulate macrophage (already mapped) and mast-cell (already mapped) volume during tumour microenvironment stress; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — HL nitrogen: nitrogen as backbone of Reed-Sternberg-cell oncoproteins and cytokines (already mapped) sustains tumour signalling; nitrogen-derived RNS from macrophages (already mapped) amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in HL.
 - `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — HL oxygen: ROS from NADPH-oxidase in macrophages (already mapped) and mast cells (already mapped) drives Reed-Sternberg-cell oxidative stress; oxygen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL.
+- `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — HL carbon: carbon in nucleotides of macrophages (already mapped) and mast cells (already mapped) fuels Reed-Sternberg-cell proliferation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — HL hydrogen: hydrogen via ROS from macrophages (already mapped) and mast cells (already mapped) modulates redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) Reed-Sternberg cascade in HL.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — HL sulfur: sulfur-containing amino acids in macrophages (already mapped) and mast cells (already mapped) regulate redox signalling; sulfur dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) Reed-Sternberg cascade in HL.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
