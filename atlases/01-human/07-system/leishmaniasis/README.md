@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Leishmaniasis Notch: Notch signalling in macrophages (already mapped) and T-cells (already mapped) controls anti-leishmanial polarisation; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) immune cascade of leishmaniasis."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Leish igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes parasite-driven tissue repair; igf-1 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Leish activin-a: activin-A from macrophages (already mapped) and dendritic cells (already mapped) drives anti-leishmanial immunity; activin-a dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) cascade of leishmaniasis."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Leish cgrp: CGRP from macrophages (already mapped) and mast cells (already mapped) modulates neurogenic skin inflammation; cgrp dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
 ---
 
 # Leishmaniasis
@@ -825,3 +834,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Leishmaniasis WNT: WNT-β-catenin in macrophages (already mapped) and dendritic cells (already mapped) modulates parasite immunity; WNT dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) immune-evasion cascade in leishmaniasis.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Leishmaniasis RANKL: RANKL drives dendritic-cell (already mapped) and macrophage (already mapped) activation against Leishmania; RANKL dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) immune cascade of leishmaniasis.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Leishmaniasis Notch: Notch signalling in macrophages (already mapped) and T-cells (already mapped) controls anti-leishmanial polarisation; Notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and IL-10 (already mapped) immune cascade of leishmaniasis.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Leish igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes parasite-driven tissue repair; igf-1 dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Leish activin-a: activin-A from macrophages (already mapped) and dendritic cells (already mapped) drives anti-leishmanial immunity; activin-a dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) cascade of leishmaniasis.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Leish cgrp: CGRP from macrophages (already mapped) and mast cells (already mapped) modulates neurogenic skin inflammation; cgrp dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.

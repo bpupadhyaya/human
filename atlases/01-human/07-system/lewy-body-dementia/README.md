@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "LBD GLP-1: GLP-1 signalling in neurons (already mapped) and microglia (already mapped) promotes neuroprotection against alpha-synuclein (already mapped); GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of LBD."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "LBD angiotensin-ii: angiotensin-II from astrocytes (already mapped) and microglia (already mapped) drives vascular tone; angiotensin-ii excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) neurodegeneration cascade of LBD."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "LBD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates dopaminergic neuroprotection; wnt-beta-catenin dysregulation amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) cascade of LBD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "LBD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade."
 ---
 
 # Lewy Body Dementia
@@ -861,6 +870,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — LBD hydrogen: hydrogen in redox chemistry of neurons (already mapped) and microglia (already mapped) sustains glutathione defence; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of Lewy body dementia.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — LBD PD-1: PD-1 checkpoint on microglia (already mapped) and T-cells (already mapped) regulates neuroinflammatory clearance of alpha-synuclein (already mapped); PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of LBD.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — LBD GLP-1: GLP-1 signalling in neurons (already mapped) and microglia (already mapped) promotes neuroprotection against alpha-synuclein (already mapped); GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of LBD.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — LBD angiotensin-ii: angiotensin-II from astrocytes (already mapped) and microglia (already mapped) drives vascular tone; angiotensin-ii excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) neurodegeneration cascade of LBD.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — LBD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and microglia (already mapped) regulates dopaminergic neuroprotection; wnt-beta-catenin dysregulation amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) cascade of LBD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — LBD rankl: RANKL from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammation; rankl excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
