@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "Werner phosphorus: phosphorus, as ATP precursor in fibroblasts (already mapped) and macrophages (already mapped), fuels DNA repair; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of Werner syndrome."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "WS PD-1: PD-1 on macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulates premature ageing immune exhaustion; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of Werner syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "WS angiotensin-II: Angiotensin-II in fibroblasts (already mapped) and macrophages (already mapped) promotes vascular stiffness in Werner syndrome; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "WS Wnt/β-catenin: Wnt/β-catenin in fibroblasts (already mapped) and macrophages (already mapped) modulates WRN-deficient stem-cell renewal; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade."
 ---
 
 # Werner Syndrome
@@ -886,6 +895,9 @@ cross_links:
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Werner nitrogen: nitric oxide from fibroblasts (already mapped) and macrophages (already mapped) modulates SASP and vascular tone; nitrogen imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) senescence cascade of Werner syndrome.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — Werner sulfur: hydrogen sulfide from fibroblasts (already mapped) and macrophages (already mapped) quenches SASP-driven ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) senescence cascade of Werner syndrome.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — Werner phosphorus: phosphorus, as ATP precursor in fibroblasts (already mapped) and macrophages (already mapped), fuels DNA repair; phosphorus deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of Werner syndrome.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — WS PD-1: PD-1 on macrophages (already mapped) and T-cytotoxic-cell (already mapped) modulates premature ageing immune exhaustion; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of Werner syndrome.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — WS angiotensin-II: Angiotensin-II in fibroblasts (already mapped) and macrophages (already mapped) promotes vascular stiffness in Werner syndrome; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — WS Wnt/β-catenin: Wnt/β-catenin in fibroblasts (already mapped) and macrophages (already mapped) modulates WRN-deficient stem-cell renewal; Wnt dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

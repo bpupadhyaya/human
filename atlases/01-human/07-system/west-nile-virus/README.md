@@ -549,6 +549,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "WNV RANKL: RANKL signalling in macrophages (already mapped) and microglia (already mapped) modulates neuroimmune bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of West Nile virus."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "WNV Fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds BBB ECM during neuroinvasion; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "WNV NOTCH: NOTCH on astrocytes (already mapped) and macrophages (already mapped) regulates neuroinvasion neuroimmune tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "WNV IGF-1: IGF-1 from astrocytes (already mapped) and macrophages (already mapped) promotes neuronal survival after WNV neuroinvasion; IGF-1 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
 ---
 
 # West Nile Virus
@@ -846,3 +855,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — WNV angiotensin-II: angiotensin-II signalling in neurons (already mapped) and microglia (already mapped) promotes neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of West Nile virus.
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — WNV Wnt/β-catenin: Wnt/β-catenin signalling in microglia (already mapped) and neurons (already mapped) supports neural repair; Wnt dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of West Nile virus.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — WNV RANKL: RANKL signalling in macrophages (already mapped) and microglia (already mapped) modulates neuroimmune bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of West Nile virus.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — WNV Fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds BBB ECM during neuroinvasion; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — WNV NOTCH: NOTCH on astrocytes (already mapped) and macrophages (already mapped) regulates neuroinvasion neuroimmune tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — WNV IGF-1: IGF-1 from astrocytes (already mapped) and macrophages (already mapped) promotes neuronal survival after WNV neuroinvasion; IGF-1 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
