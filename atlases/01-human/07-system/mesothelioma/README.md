@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Mesothelioma angiotensin-II: angiotensin-II drives macrophage (already mapped) and endothelial (already mapped) inflammation in pleural tissue; angiotensin-II amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of mesothelioma."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Meso rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes tumour immune evasion; rankl excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) mesothelioma cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Meso fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors pleural tumour matrix; fibronectin dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Meso igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes mesothelioma cell survival; igf-1 dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
 ---
 
 # Mesothelioma
@@ -842,6 +851,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Mesothelioma hydrogen: hydrogen in mesothelial cells (already mapped) and macrophages (already mapped) sustains glutathione defence against ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of mesothelioma.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Mesothelioma GLP-1: GLP-1 signalling modulates macrophage (already mapped) and dendritic-cell (already mapped) activation in the tumour microenvironment; GLP-1 deficit amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of mesothelioma.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Mesothelioma angiotensin-II: angiotensin-II drives macrophage (already mapped) and endothelial (already mapped) inflammation in pleural tissue; angiotensin-II amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of mesothelioma.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Meso rankl: RANKL from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes tumour immune evasion; rankl excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) mesothelioma cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Meso fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors pleural tumour matrix; fibronectin dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Meso igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes mesothelioma cell survival; igf-1 dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
