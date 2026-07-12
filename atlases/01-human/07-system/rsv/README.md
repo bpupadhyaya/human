@@ -540,6 +540,15 @@ cross_links:
   - target: 01-human/03-molecular/glp-1
     relation: connects-to
     note: "RSV GLP-1: GLP-1 signalling in type-ii-pneumocytes (already mapped) and endothelial cells (already mapped) modulates airway metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of RSV bronchiolitis."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "RSV angiotensin-II: angiotensin-II signalling in type-II pneumocytes (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "RSV Wnt/β-catenin: Wnt/β-catenin signalling in type-II pneumocytes (already mapped) supports airway epithelial repair; Wnt dysregulation amplifies NF-κB (already mapped) and TGF-β/SMAD4 (already mapped) fibrotic cascade of RSV bronchiolitis."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "RSV RANKL: RANKL signalling in macrophages (already mapped) and airway stromal cells modulates bone-immune crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RSV."
 ---
 
 # RSV
@@ -858,3 +867,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — RSV carbon: carbon, as metabolic backbone of viral envelope lipids and type-ii-pneumocytes (already mapped), enables viral replication; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cascade of RSV bronchiolitis.
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — RSV PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates antiviral immune tolerance; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) airway inflammatory cascade of RSV.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — RSV GLP-1: GLP-1 signalling in type-ii-pneumocytes (already mapped) and endothelial cells (already mapped) modulates airway metabolic homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of RSV bronchiolitis.
+- `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — RSV angiotensin-II: angiotensin-II signalling in type-II pneumocytes (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) airway cascade of RSV.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — RSV Wnt/β-catenin: Wnt/β-catenin signalling in type-II pneumocytes (already mapped) supports airway epithelial repair; Wnt dysregulation amplifies NF-κB (already mapped) and TGF-β/SMAD4 (already mapped) fibrotic cascade of RSV bronchiolitis.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — RSV RANKL: RANKL signalling in macrophages (already mapped) and airway stromal cells modulates bone-immune crosstalk; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of RSV.
