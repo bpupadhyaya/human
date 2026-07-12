@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "PPGL igf-1: IGF-1 from fibroblasts (already mapped) and endothelial cells (already mapped) modulates chromaffin cell growth; igf-1 excess amplifies il-6 (already mapped) and vegf (already mapped) and angiotensin-ii (already mapped) angiogenic cascade of PPGL."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "PPGL activin-a: activin-A from macrophages (already mapped) and chromaffin cells (already mapped) drives tumour fibrosis in phaeochromocytoma; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "PPGL cgrp: CGRP from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour vascular tone in phaeochromocytoma; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "PPGL calcitonin: calcitonin from macrophages (already mapped) and chromaffin cells (already mapped) modulates calcium balance in phaeochromocytoma; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -877,6 +886,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PPGL fibronectin: fibronectin in fibroblasts (already mapped) and endothelial cells (already mapped) anchors PPGL tumour ECM; fibronectin excess amplifies il-6 (already mapped) and vegf (already mapped) and angiotensin-ii (already mapped) angiogenic cascade of PPGL.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — PPGL notch: NOTCH on chromaffin cells (already mapped) and macrophages (already mapped) regulates neuroendocrine differentiation; notch dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and angiotensin-ii (already mapped) cascade of PPGL.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PPGL igf-1: IGF-1 from fibroblasts (already mapped) and endothelial cells (already mapped) modulates chromaffin cell growth; igf-1 excess amplifies il-6 (already mapped) and vegf (already mapped) and angiotensin-ii (already mapped) angiogenic cascade of PPGL.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PPGL activin-a: activin-A from macrophages (already mapped) and chromaffin cells (already mapped) drives tumour fibrosis in phaeochromocytoma; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PPGL cgrp: CGRP from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour vascular tone in phaeochromocytoma; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PPGL calcitonin: calcitonin from macrophages (already mapped) and chromaffin cells (already mapped) modulates calcium balance in phaeochromocytoma; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

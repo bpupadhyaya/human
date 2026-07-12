@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/rankl
     relation: connects-to
     note: "PJS rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes gastrointestinal polyp immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) polyposis cascade of PJS."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "PJS il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates gastrointestinal tumour immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "PJS fibronectin: fibronectin in macrophages (already mapped) and epithelial cells (already mapped) promotes GI ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "PJS notch: Notch signalling on macrophages (already mapped) and epithelial cells (already mapped) regulates gastrointestinal cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -859,6 +868,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — PJS glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory polyp tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) polyposis cascade of PJS.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — PJS angiotensin-ii: angiotensin-II from macrophages (already mapped) and endothelial cells (already mapped) drives polyp angiogenesis; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) polyposis cascade of PJS.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — PJS rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes gastrointestinal polyp immune evasion; rankl excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) polyposis cascade of PJS.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — PJS il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates gastrointestinal tumour immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — PJS fibronectin: fibronectin in macrophages (already mapped) and epithelial cells (already mapped) promotes GI ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — PJS notch: Notch signalling on macrophages (already mapped) and epithelial cells (already mapped) regulates gastrointestinal cell fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
 
 ---
 
