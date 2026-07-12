@@ -562,6 +562,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "RA igf-1: IGF-1 from synoviocytes (already mapped) and macrophages (already mapped) promotes synovial fibroblast proliferation; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "RA activin-a: activin-A from synoviocytes (already mapped) and macrophages (already mapped) drives joint fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "RA cgrp: CGRP from synoviocytes (already mapped) and macrophages (already mapped) modulates joint vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "RA calcitonin: calcitonin from synoviocytes (already mapped) and macrophages (already mapped) modulates joint calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
 ---
 
 # Rheumatoid Arthritis
@@ -885,6 +894,9 @@ RA patients have:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — RA il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates autoimmune T-cell expansion; il-2 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — RA notch: NOTCH on synoviocytes (already mapped) and macrophages (already mapped) regulates joint stromal invasion; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — RA igf-1: IGF-1 from synoviocytes (already mapped) and macrophages (already mapped) promotes synovial fibroblast proliferation; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RA activin-a: activin-A from synoviocytes (already mapped) and macrophages (already mapped) drives joint fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — RA cgrp: CGRP from synoviocytes (already mapped) and macrophages (already mapped) modulates joint vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RA calcitonin: calcitonin from synoviocytes (already mapped) and macrophages (already mapped) modulates joint calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
