@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "Pemphigus-vulgaris Ang-II: angiotensin-II receptor signalling in macrophages (already mapped) and keratinocytes amplifies NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade; Ang-II dysregulation worsens autoimmune blister activity in pemphigus vulgaris."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "Pemphigus-vulgaris RANKL: RANKL from T-cells (already mapped) in pemphigus skin lesions drives dendritic cell (already mapped) maturation; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) blister cascade of pemphigus vulgaris."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Pemphigus-vulgaris WNT/β-catenin: WNT/β-catenin signalling in keratinocytes sustains epithelial barrier integrity; WNT dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) autoimmune desmosomal cleavage cascade of pemphigus vulgaris."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Pemphigus-vulgaris fibronectin: fibronectin in the dermal extracellular matrix scaffolds keratinocyte adhesion; fibronectin disruption amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) autoimmune blister cascade of pemphigus vulgaris."
 ---
 
 # Pemphigus Vulgaris
@@ -863,6 +872,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — Pemphigus-vulgaris PD-1: PD-1 checkpoint on T-cytotoxic cells (already mapped) and macrophages (already mapped) modulates autoimmune tolerance in skin; PD-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) B-cell-driven desmoglein cascade of PV.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — Pemphigus-vulgaris GLP-1: GLP-1 signalling in keratinocytes and macrophages (already mapped) modulates skin barrier immune homeostasis; GLP-1 dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade of pemphigus vulgaris.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — Pemphigus-vulgaris Ang-II: angiotensin-II receptor signalling in macrophages (already mapped) and keratinocytes amplifies NF-κB (already mapped) and TNF-α (already mapped) inflammatory cascade; Ang-II dysregulation worsens autoimmune blister activity in pemphigus vulgaris.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Pemphigus-vulgaris RANKL: RANKL from T-cells (already mapped) in pemphigus skin lesions drives dendritic cell (already mapped) maturation; RANKL excess amplifies NF-κB (already mapped) and TNF-α (already mapped) blister cascade of pemphigus vulgaris.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Pemphigus-vulgaris WNT/β-catenin: WNT/β-catenin signalling in keratinocytes sustains epithelial barrier integrity; WNT dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) autoimmune desmosomal cleavage cascade of pemphigus vulgaris.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Pemphigus-vulgaris fibronectin: fibronectin in the dermal extracellular matrix scaffolds keratinocyte adhesion; fibronectin disruption amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) autoimmune blister cascade of pemphigus vulgaris.
 
 ---
 

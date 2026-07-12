@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "PCNSL hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and lymphoma cells, supports BCL-2-mediated survival; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of PCNSL."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "PCNSL nitrogen: nitrogen in amino-acid scaffold of BCL-2 (already mapped) and NF-κB (already mapped) proteins in lymphoma cells sustains oncogenic CNS signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of PCNSL."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "PCNSL oxygen: oxygen, via mitochondrial respiration in microglia (already mapped) and lymphoma cells, sustains CNS energy homeostasis; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of PCNSL."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "PCNSL sulfur: sulfur in cysteine residues of BCL-2 (already mapped) and NF-κB (already mapped) proteins in lymphoma cells sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of PCNSL."
 ---
 
 # Primary CNS Lymphoma
@@ -825,6 +834,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — PCNSL carbon: carbon as backbone of NF-κB (already mapped) and BCL-2 proteins in lymphoma cells and microglia (already mapped) sustains tumour survival signalling; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade in PCNSL.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — PCNSL chloride: chloride channels in microglia (already mapped) and lymphoma cells modulate cell-volume and invasive potential in the CNS; chloride imbalance amplifies NF-κB (already mapped) and IL-6 (already mapped) inflammatory cascade of PCNSL.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — PCNSL hydrogen: hydrogen, via redox homeostasis in microglia (already mapped) and lymphoma cells, supports BCL-2-mediated survival; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) oxidative cascade of PCNSL.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — PCNSL nitrogen: nitrogen in amino-acid scaffold of BCL-2 (already mapped) and NF-κB (already mapped) proteins in lymphoma cells sustains oncogenic CNS signalling; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of PCNSL.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — PCNSL oxygen: oxygen, via mitochondrial respiration in microglia (already mapped) and lymphoma cells, sustains CNS energy homeostasis; oxygen depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of PCNSL.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — PCNSL sulfur: sulfur in cysteine residues of BCL-2 (already mapped) and NF-κB (already mapped) proteins in lymphoma cells sustains thiol-redox balance; sulfur depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) tumour cascade of PCNSL.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
