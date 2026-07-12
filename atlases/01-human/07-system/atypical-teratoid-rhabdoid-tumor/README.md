@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "ATRT hydrogen: hydrogen via ROS balance in macrophages (already mapped) and microglia (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "ATRT glp-1: GLP-1 on macrophages (already mapped) and microglia (already mapped) attenuates tumour inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth cascade in ATRT."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "ATRT angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "ATRT rankl: RANKL in macrophages (already mapped) and microglia (already mapped) modulates bone-immune tumour axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -842,6 +851,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — ATRT carbon: carbon backbone of nucleotides in neurons (already mapped) and astrocytes (already mapped) sustains tumour metabolic reprogramming; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth in ATRT.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — ATRT chloride: chloride channels in astrocytes (already mapped) and endothelial cells (already mapped) modulate tumour microenvironment osmolarity; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour invasion in ATRT.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — ATRT hydrogen: hydrogen via ROS balance in macrophages (already mapped) and microglia (already mapped) modulates tumour oxidative stress; hydrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ATRT glp-1: GLP-1 on macrophages (already mapped) and microglia (already mapped) attenuates tumour inflammatory skewing; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour growth cascade in ATRT.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — ATRT angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes tumour angiogenesis; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ATRT rankl: RANKL in macrophages (already mapped) and microglia (already mapped) modulates bone-immune tumour axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT.
 
 ---
 

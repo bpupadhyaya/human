@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "ADHD vegf: VEGF from astrocytes (already mapped) and neurons (already mapped) sustains cerebrovascular supply; VEGF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory dopamine (already mapped) deficit in ADHD."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "ADHD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates plasticity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "ADHD rankl: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
+  - target: 01-human/03-molecular/smad4
+    relation: connects-to
+    note: "ADHD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotection; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -881,6 +890,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — ADHD pd-1: PD-1 on t-cytotoxic cells (already mapped) and microglia (already mapped) suppresses neuroimmune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory dopaminergic disruption in ADHD.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — ADHD glp-1: GLP-1 on neurons (already mapped) and astrocytes (already mapped) modulates synaptic energy metabolism; GLP-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory dopamine-circuit dysfunction in ADHD.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — ADHD vegf: VEGF from astrocytes (already mapped) and neurons (already mapped) sustains cerebrovascular supply; VEGF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory dopamine (already mapped) deficit in ADHD.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ADHD wnt-beta-catenin: WNT/β-catenin on neurons (already mapped) and astrocytes (already mapped) regulates plasticity; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — ADHD rankl: RANKL in microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory skewing; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
+- `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — ADHD smad4: SMAD4 in neurons (already mapped) and astrocytes (already mapped) mediates TGF-β neuroprotection; smad4 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
