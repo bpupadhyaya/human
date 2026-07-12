@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "CF angiotensin-ii: angiotensin-II from macrophages (already mapped) and neutrophils (already mapped) modulates pulmonary vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "CF wnt-beta-catenin: WNT/β-catenin on airway epithelial cells (already mapped) and macrophages (already mapped) regulates repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "CF il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies pulmonary immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "CF fibronectin: fibronectin in airway epithelial cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis."
 ---
 
 # Cystic Fibrosis
@@ -851,6 +860,9 @@ AND
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — CF pd-1: PD-1 on T-cytotoxic cells (already mapped) and macrophages (already mapped) suppresses airway immune surveillance; pd-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — CF glp-1: GLP-1 from macrophages (already mapped) and neutrophils (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — CF angiotensin-ii: angiotensin-II from macrophages (already mapped) and neutrophils (already mapped) modulates pulmonary vascular tone; angiotensin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — CF wnt-beta-catenin: WNT/β-catenin on airway epithelial cells (already mapped) and macrophages (already mapped) regulates repair; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade in cystic fibrosis.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — CF il-2: IL-2 on T-cells (already mapped) and macrophages (already mapped) amplifies pulmonary immune activation; il-2 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) inflammatory cascade in cystic fibrosis.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — CF fibronectin: fibronectin in airway epithelial cells (already mapped) and macrophages (already mapped) promotes ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis.
 
 ---
 

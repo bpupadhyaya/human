@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/sulfur
     relation: connects-to
     note: "cytokine-storm sulfur: sulfur-containing glutathione in macrophage (already mapped) and T-helper cell (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "cytokine-storm glp-1: GLP-1 from macrophages (already mapped) and T-helper cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "cytokine-storm angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes permeability; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "cytokine-storm wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and T-helper cells (already mapped) modulates activation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -814,6 +823,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — cytokine-storm carbon: carbon in nucleotides fuels macrophage (already mapped) and T-helper cell (already mapped) hyper-activation; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — cytokine-storm nitrogen: nitrogen in DNA bases of macrophage (already mapped) and T-cytotoxic cell (already mapped) sustains hyper-activation; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — cytokine-storm sulfur: sulfur-containing glutathione in macrophage (already mapped) and T-helper cell (already mapped) scavenges ROS; sulfur deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — cytokine-storm glp-1: GLP-1 from macrophages (already mapped) and T-helper cells (already mapped) modulates metabolic immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — cytokine-storm angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes permeability; angiotensin-II excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — cytokine-storm wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and T-helper cells (already mapped) modulates activation; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 
 ## Pathology
 
