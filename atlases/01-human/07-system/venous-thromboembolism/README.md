@@ -544,6 +544,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "VTE hydrogen: hydrogen, via redox homeostasis in endothelial cells (already mapped) and macrophages (already mapped), quenches procoagulant ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) cascade of VTE."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "VTE nitrogen: nitric oxide from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; nitrogen imbalance amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) procoagulant cascade of VTE."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "VTE sulfur: hydrogen sulfide from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) cascade of VTE."
+  - target: 01-human/03-molecular/pd-1
+    relation: connects-to
+    note: "VTE PD-1: PD-1 on macrophages (already mapped) and T-helper-cell (already mapped) modulates vascular immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) procoagulant cascade of VTE."
 ---
 
 # Venous Thromboembolism
@@ -838,6 +847,9 @@ cross_links:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — VTE carbon: carbon, as metabolic backbone of clotting factors in endothelial cells (already mapped) and macrophages (already mapped), drives coagulation; carbon dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) procoagulant cascade of VTE.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — VTE chloride: chloride channels in endothelial cells (already mapped) and macrophages (already mapped) regulate vascular tone; chloride dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) cascade of VTE.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — VTE hydrogen: hydrogen, via redox homeostasis in endothelial cells (already mapped) and macrophages (already mapped), quenches procoagulant ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) cascade of VTE.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — VTE nitrogen: nitric oxide from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; nitrogen imbalance amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) procoagulant cascade of VTE.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — VTE sulfur: hydrogen sulfide from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; sulfur deficiency amplifies NF-κB (already mapped) and thrombin (already mapped) and fibrinogen (already mapped) cascade of VTE.
+- `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — VTE PD-1: PD-1 on macrophages (already mapped) and T-helper-cell (already mapped) modulates vascular immune homeostasis; PD-1 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) procoagulant cascade of VTE.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)

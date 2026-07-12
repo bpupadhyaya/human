@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/hydrogen
     relation: connects-to
     note: "VHL hydrogen: hydrogen, via redox homeostasis in endothelial-cell (already mapped) and T-cytotoxic-cell (already mapped), quenches HIF-1α-driven ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of VHL disease."
+  - target: 01-human/02-atomic/nitrogen
+    relation: connects-to
+    note: "VHL nitrogen: nitric oxide from endothelial-cell (already mapped) and macrophages (already mapped) modulates angiogenic tone; nitrogen imbalance amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped) tumour cascade of VHL disease."
+  - target: 01-human/02-atomic/sulfur
+    relation: connects-to
+    note: "VHL sulfur: hydrogen sulfide from endothelial-cell (already mapped) and macrophages (already mapped) modulates angiogenic tone; sulfur deficiency amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "VHL GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial-cell (already mapped) modulates metabolic angiogenesis; GLP-1 dysregulation amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped) cascade of VHL disease."
 ---
 
 # VHL Disease
@@ -833,6 +842,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — VHL carbon: carbon, as metabolic backbone of HIF-1α (already mapped) and VEGF (already mapped) in endothelial-cell (already mapped) and macrophages (already mapped), drives angiogenesis; carbon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) of VHL.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — VHL chloride: chloride channels in endothelial-cell (already mapped) and macrophages (already mapped) modulate tumour vascular tone; chloride dysregulation amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped) angiogenic cascade of VHL.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — VHL hydrogen: hydrogen, via redox homeostasis in endothelial-cell (already mapped) and T-cytotoxic-cell (already mapped), quenches HIF-1α-driven ROS; hydrogen dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) angiogenic cascade of VHL disease.
+- `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — VHL nitrogen: nitric oxide from endothelial-cell (already mapped) and macrophages (already mapped) modulates angiogenic tone; nitrogen imbalance amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped) tumour cascade of VHL disease.
+- `connects-to` → **[Sulfur](../../02-atomic/sulfur/README.md)** — VHL sulfur: hydrogen sulfide from endothelial-cell (already mapped) and macrophages (already mapped) modulates angiogenic tone; sulfur deficiency amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — VHL GLP-1: GLP-1 receptor signalling in macrophages (already mapped) and endothelial-cell (already mapped) modulates metabolic angiogenesis; GLP-1 dysregulation amplifies NF-κB (already mapped) and HIF-1α (already mapped) and VEGF (already mapped) cascade of VHL disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
