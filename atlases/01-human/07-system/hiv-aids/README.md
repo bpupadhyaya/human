@@ -547,6 +547,15 @@ cross_links:
   - target: 01-human/02-atomic/phosphorus
     relation: connects-to
     note: "AIDS phosphorus: phosphorus as ATP in macrophages (already mapped) and natural-killer-cells (already mapped) fuels antiviral kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/glp-1
+    relation: connects-to
+    note: "AIDS glp-1: GLP-1 from macrophages (already mapped) and natural-killer-cells (already mapped) modulates metabolic antiviral immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "AIDS angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes viral tissue inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV/AIDS."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "AIDS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and natural-killer-cells (already mapped) regulates antiviral signalling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -838,6 +847,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — AIDS carbon: carbon in nucleotides of macrophages (already mapped) and natural-killer-cells (already mapped) fuels viral replication and immune biosynthesis; carbon dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — AIDS hydrogen: hydrogen via ROS from macrophages (already mapped) and natural-killer-cells (already mapped) modulates antiviral redox homeostasis; hydrogen excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[Phosphorus](../../02-atomic/phosphorus/README.md)** — AIDS phosphorus: phosphorus as ATP in macrophages (already mapped) and natural-killer-cells (already mapped) fuels antiviral kinase signalling; phosphorus dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AIDS glp-1: GLP-1 from macrophages (already mapped) and natural-killer-cells (already mapped) modulates metabolic antiviral immune tone; glp-1 dysfunction amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — AIDS angiotensin-ii: angiotensin II on endothelial cells (already mapped) and macrophages (already mapped) promotes viral tissue inflammation; angiotensin-II excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV/AIDS.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — AIDS wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and natural-killer-cells (already mapped) regulates antiviral signalling; wnt-beta-catenin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 
 ## See Also
 
