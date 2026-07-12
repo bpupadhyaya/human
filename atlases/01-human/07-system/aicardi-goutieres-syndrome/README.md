@@ -558,6 +558,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "AGS angiotensin-II: angiotensin-II signalling in microglia (already mapped) and neurons (already mapped) promotes neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and cGAS-STING (already mapped) and type-I interferon (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "AGS Wnt/β-catenin: Wnt/β-catenin in microglia (already mapped) and neurons (already mapped) modulates neuro-inflammatory responses; Wnt dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/rankl
+    relation: connects-to
+    note: "AGS RANKL: RANKL in microglia (already mapped) and neurons (already mapped) modulates the neuro-immune bone axis; RANKL excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of Aicardi-Goutières syndrome."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "AGS fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) modulates matrix remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -832,6 +841,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[PD-1](../../03-molecular/pd-1/README.md)** — AGS PD-1: PD-1 on microglia (already mapped) and T-cells (already mapped) modulates interferon-driven neuroinflammation; PD-1 dysregulation amplifies cGAS-STING (already mapped) and NF-κB (already mapped) and type-I interferon (already mapped) cascade of AGS.
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — AGS GLP-1: GLP-1 receptor signalling in microglia (already mapped) and neurons (already mapped) modulates metabolic neuroinflammation; GLP-1 dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — AGS angiotensin-II: angiotensin-II signalling in microglia (already mapped) and neurons (already mapped) promotes neuroinflammation; angiotensin-II excess amplifies NF-κB (already mapped) and cGAS-STING (already mapped) and type-I interferon (already mapped) cascade of AGS.
+- `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — AGS Wnt/β-catenin: Wnt/β-catenin in microglia (already mapped) and neurons (already mapped) modulates neuro-inflammatory responses; Wnt dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
+- `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — AGS RANKL: RANKL in microglia (already mapped) and neurons (already mapped) modulates the neuro-immune bone axis; RANKL excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of Aicardi-Goutières syndrome.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — AGS fibronectin: fibronectin in microglia (already mapped) and astrocytes (already mapped) modulates matrix remodelling; fibronectin dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
