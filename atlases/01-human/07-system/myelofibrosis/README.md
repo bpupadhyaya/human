@@ -556,6 +556,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "MF wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates marrow stromal remodelling; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of MF."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "MF il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates marrow immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "MF fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes marrow ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "MF notch: Notch signalling on macrophages (already mapped) and fibroblasts (already mapped) regulates marrow progenitor fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
 ---
 
 # Myelofibrosis
@@ -863,6 +872,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[GLP-1](../../03-molecular/glp-1/README.md)** — MF glp-1: GLP-1 from macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic-inflammatory marrow tone; glp-1 dysfunction amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of myelofibrosis.
 - `connects-to` → **[Angiotensin-II](../../03-molecular/angiotensin-ii/README.md)** — MF angiotensin-ii: angiotensin-II from macrophages (already mapped) and fibroblasts (already mapped) drives haematopoietic vascular tone; angiotensin-ii excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of MF.
 - `connects-to` → **[WNT-β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — MF wnt-beta-catenin: WNT/β-catenin on macrophages (already mapped) and fibroblasts (already mapped) regulates marrow stromal remodelling; wnt-beta-catenin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of MF.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — MF il-2: IL-2 from t-cytotoxic cells (already mapped) and macrophages (already mapped) regulates marrow immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — MF fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) promotes marrow ECM remodelling; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — MF notch: Notch signalling on macrophages (already mapped) and fibroblasts (already mapped) regulates marrow progenitor fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 
 ---
 
