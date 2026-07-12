@@ -538,6 +538,15 @@ cross_links:
   - target: 01-human/02-atomic/nitrogen
     relation: connects-to
     note: "Meningioma nitrogen: nitrogen in amino-acid scaffold of NF2 (already mapped) and TRAF7 proteins sustains meningeal cell (already mapped) proliferation control; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of meningioma."
+  - target: 01-human/02-atomic/hydrogen
+    relation: connects-to
+    note: "Meningioma hydrogen: hydrogen in meningeal cells (already mapped) and macrophages (already mapped) modulates NF2 (already mapped) protein stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of meningioma."
+  - target: 01-human/02-atomic/iron
+    relation: connects-to
+    note: "Meningioma iron: iron supports haem metabolism in meningeal cells (already mapped) and macrophages (already mapped) for tumour proliferation; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of meningioma."
+  - target: 01-human/02-atomic/oxygen
+    relation: connects-to
+    note: "Meningioma oxygen: oxygen supports aerobic metabolism in meningeal cells (already mapped) and macrophages (already mapped); oxygen deficit amplifies HIF and NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of meningioma."
 ---
 
 # Meningioma
@@ -828,6 +837,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Carbon](../../02-atomic/carbon/README.md)** — Meningioma carbon: carbon as backbone of NF2 (already mapped) and merlin structural proteins in meningeal cells (already mapped) sustains tumour suppression; carbon depletion amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) meningioma cascade.
 - `connects-to` → **[Chloride](../../02-atomic/chloride/README.md)** — Meningioma chloride: chloride regulates meningeal cells (already mapped) and macrophage (already mapped) ion homeostasis; chloride dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) protumorigenic cascade of meningioma.
 - `connects-to` → **[Nitrogen](../../02-atomic/nitrogen/README.md)** — Meningioma nitrogen: nitrogen in amino-acid scaffold of NF2 (already mapped) and TRAF7 proteins sustains meningeal cell (already mapped) proliferation control; nitrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) cascade of meningioma.
+- `connects-to` → **[Hydrogen](../../02-atomic/hydrogen/README.md)** — Meningioma hydrogen: hydrogen in meningeal cells (already mapped) and macrophages (already mapped) modulates NF2 (already mapped) protein stability; hydrogen dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of meningioma.
+- `connects-to` → **[Iron](../../02-atomic/iron/README.md)** — Meningioma iron: iron supports haem metabolism in meningeal cells (already mapped) and macrophages (already mapped) for tumour proliferation; iron dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) oncogenic cascade of meningioma.
+- `connects-to` → **[Oxygen](../../02-atomic/oxygen/README.md)** — Meningioma oxygen: oxygen supports aerobic metabolism in meningeal cells (already mapped) and macrophages (already mapped); oxygen deficit amplifies HIF and NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) angiogenic cascade of meningioma.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
