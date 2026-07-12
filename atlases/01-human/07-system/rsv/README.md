@@ -567,6 +567,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "RSV insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives airway metabolic tone; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of RSV."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "RSV tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives RSV airway immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "RSV aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates airway ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "RSV androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates RSV steroid tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
 ---
 
 # RSV
@@ -894,3 +903,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RSV activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates airway immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RSV calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — RSV insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives airway metabolic tone; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of RSV.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — RSV tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives RSV airway immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RSV aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates airway ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — RSV androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates RSV steroid tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.

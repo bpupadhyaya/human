@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "RTS cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates RTS neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "RTS tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives RTS immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "RTS calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium balance in RTS; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "RTS substance-p: substance P from fibroblasts (already mapped) and macrophages (already mapped) modulates RTS neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -884,6 +893,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — RTS notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) regulates RTS stem-cell fate; NOTCH dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RTS activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates RTS immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of RTS.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — RTS cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates RTS neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — RTS tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives RTS immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RTS calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium balance in RTS; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — RTS substance-p: substance P from fibroblasts (already mapped) and macrophages (already mapped) modulates RTS neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)
