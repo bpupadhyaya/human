@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "WS notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) regulates WRN-deficient stem-cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "WS activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives WRN-deficient fibrotic remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "WS tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) amplifies WRN-deficient tissue fibrosis; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "WS cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates WS vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -910,6 +919,9 @@ cross_links:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — WS il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates WRN-deficient immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — WS fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds WRN-deficient ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — WS notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) regulates WRN-deficient stem-cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — WS activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives WRN-deficient fibrotic remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — WS tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) amplifies WRN-deficient tissue fibrosis; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — WS cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates WS vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

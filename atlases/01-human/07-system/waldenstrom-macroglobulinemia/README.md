@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "WM notch: NOTCH on B-cells (already mapped) and macrophages (already mapped) regulates WM clonal immune tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "WM igf-1: IGF-1 from macrophages (already mapped) and B-cells (already mapped) promotes WM clonal B-cell growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "WM activin-a: activin-A from macrophages (already mapped) and B-cells (already mapped) regulates WM immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "WM tgf-beta: TGF-β from macrophages (already mapped) and B-cells (already mapped) drives WM stromal fibrosis; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
 ---
 
 # Waldenström Macroglobulinemia
@@ -865,6 +874,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — WM rankl: RANKL in macrophages (already mapped) and B-cells (already mapped) modulates WM bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — WM fibronectin: Fibronectin in B-cells (already mapped) and macrophages (already mapped) scaffolds lymphoma ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — WM notch: NOTCH on B-cells (already mapped) and macrophages (already mapped) regulates WM clonal immune tone; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — WM igf-1: IGF-1 from macrophages (already mapped) and B-cells (already mapped) promotes WM clonal B-cell growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — WM activin-a: activin-A from macrophages (already mapped) and B-cells (already mapped) regulates WM immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — WM tgf-beta: TGF-β from macrophages (already mapped) and B-cells (already mapped) drives WM stromal fibrosis; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
