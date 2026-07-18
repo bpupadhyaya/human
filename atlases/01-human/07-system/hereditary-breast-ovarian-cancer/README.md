@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "HBOC igf-1: IGF-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes tumour immune resistance; igf-1 excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "HBOC activin-a: activin-A from macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "HBOC cgrp: CGRP from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "HBOC calcitonin: calcitonin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour calcium signalling; calcitonin excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -883,6 +892,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HBOC fibronectin: fibronectin in macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes tumour ECM remodelling; fibronectin excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HBOC notch: Notch signalling on macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates tumour immune recognition; notch excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HBOC igf-1: IGF-1 from macrophages (already mapped) and T-cytotoxic cells (already mapped) promotes tumour immune resistance; igf-1 excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HBOC activin-a: activin-A from macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HBOC cgrp: CGRP from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HBOC calcitonin: calcitonin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour calcium signalling; calcitonin excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 
 ---
 

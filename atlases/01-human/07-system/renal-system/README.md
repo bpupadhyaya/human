@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/fgf23
     relation: connects-to
     note: "RS fgf23: FGF23 from renal cells (already mapped) and macrophages (already mapped) regulates phosphate-mineral balance; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "RS norepinephrine: norepinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates renal vasoconstriction; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "RS adrenomedullin: adrenomedullin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal vasodilation; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "RS osteopontin: osteopontin from renal tubular cells (already mapped) and macrophages (already mapped) promotes renal ECM fibrosis; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -854,6 +863,9 @@ Natriuretic counterpoint:
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — RS insulin-receptor: insulin receptor on renal cells (already mapped) and macrophages (already mapped) drives renal metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — RS androgen-receptor: androgen receptor on renal cells (already mapped) and macrophages (already mapped) modulates renal sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — RS fgf23: FGF23 from renal cells (already mapped) and macrophages (already mapped) regulates phosphate-mineral balance; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — RS norepinephrine: norepinephrine from renal sympathetic nerves (already mapped) and macrophages (already mapped) modulates renal vasoconstriction; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — RS adrenomedullin: adrenomedullin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal vasodilation; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — RS osteopontin: osteopontin from renal tubular cells (already mapped) and macrophages (already mapped) promotes renal ECM fibrosis; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
