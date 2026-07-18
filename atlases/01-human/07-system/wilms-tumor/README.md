@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "WT cgrp: CGRP from renal epithelial cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "WT calcitonin: calcitonin from renal epithelial cells (already mapped) and macrophages (already mapped) modulates WT calcium balance; calcitonin dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "WT substance-p: substance-P from renal epithelial cells (already mapped) and macrophages (already mapped) modulates WT neuroimmune tone; substance-p excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "WT insulin-receptor: insulin receptor on epithelial cells (already mapped) and macrophages (already mapped) drives WT metabolic growth; insulin-receptor excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT."
 ---
 
 # Wilms Tumor
@@ -876,6 +885,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — WT fibronectin: Fibronectin in renal epithelial cells (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — WT activin-a: activin-A from renal epithelial cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour cascade of Wilms tumour.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — WT cgrp: CGRP from renal epithelial cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of Wilms tumour.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — WT calcitonin: calcitonin from renal epithelial cells (already mapped) and macrophages (already mapped) modulates WT calcium balance; calcitonin dysregulation amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — WT substance-p: substance-P from renal epithelial cells (already mapped) and macrophages (already mapped) modulates WT neuroimmune tone; substance-p excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — WT insulin-receptor: insulin receptor on epithelial cells (already mapped) and macrophages (already mapped) drives WT metabolic growth; insulin-receptor excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
