@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "TB activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives TB granuloma fibrotic remodelling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "TB cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates TB vascular granuloma tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "TB calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates TB calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "TB substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates TB neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
 ---
 
 # Tuberculosis
@@ -887,6 +896,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — TB notch: Notch in macrophages (already mapped) and T-cells (already mapped) regulates granuloma cellular fate in TB; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — TB igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes granuloma fibroblast growth in tuberculosis; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — TB activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives granuloma fibrotic remodelling in TB; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — TB cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates TB vascular granuloma tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — TB calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates TB calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — TB substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates TB neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
