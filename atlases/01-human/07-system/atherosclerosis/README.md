@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "Athero notch: NOTCH on smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates vascular cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Athero igf-1: IGF-1 from macrophages (already mapped) and smooth-muscle cells (already mapped) promotes plaque growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Athero activin-a: activin-A from macrophages (already mapped) and smooth-muscle cells (already mapped) regulates plaque fibro-inflammatory balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Athero cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
 ---
 
 # Atherosclerosis
@@ -869,6 +878,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — Athero rankl: RANKL in macrophages (already mapped) and smooth-muscle cells (already mapped) modulates plaque bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Athero il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates plaque immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Athero notch: NOTCH on smooth-muscle cells (already mapped) and endothelial cells (already mapped) regulates vascular cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Athero igf-1: IGF-1 from macrophages (already mapped) and smooth-muscle cells (already mapped) promotes plaque growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Athero activin-a: activin-A from macrophages (already mapped) and smooth-muscle cells (already mapped) regulates plaque fibro-inflammatory balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Athero cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 
 ---
 

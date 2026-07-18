@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "ADHD notch: NOTCH on neurons (already mapped) and astrocytes (already mapped) regulates ADHD neural progenitor fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "ADHD activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) regulates ADHD neural plasticity; activin-a loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "ADHD tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) regulates ADHD neural immune tone; tgf-beta loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "ADHD cgrp: CGRP from neurons (already mapped) and astrocytes (already mapped) modulates ADHD neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -905,6 +914,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — ADHD il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates ADHD neuroimmune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ADHD fibronectin: Fibronectin in astrocytes (already mapped) and microglia (already mapped) scaffolds ADHD ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — ADHD notch: NOTCH on neurons (already mapped) and astrocytes (already mapped) regulates ADHD neural progenitor fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ADHD activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) regulates ADHD neural plasticity; activin-a loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — ADHD tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) regulates ADHD neural immune tone; tgf-beta loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ADHD cgrp: CGRP from neurons (already mapped) and astrocytes (already mapped) modulates ADHD neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)
