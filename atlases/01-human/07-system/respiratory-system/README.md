@@ -570,6 +570,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Resp aldosterone: aldosterone from macrophages (already mapped) and lung fibroblasts (already mapped) modulates respiratory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Resp androgen-receptor: androgen receptor on lung cells (already mapped) and macrophages (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Resp norepinephrine: norepinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates airway tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Resp adrenomedullin: adrenomedullin from lung cells (already mapped) and macrophages (already mapped) modulates pulmonary vasodilation; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -835,6 +844,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Resp calcitonin: calcitonin from lung cells (already mapped) and macrophages (already mapped) modulates respiratory calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Resp insulin-receptor: insulin receptor on lung cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) respiratory fibrotic cascade.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Resp aldosterone: aldosterone from macrophages (already mapped) and lung fibroblasts (already mapped) modulates respiratory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Resp androgen-receptor: androgen receptor on lung cells (already mapped) and macrophages (already mapped) modulates respiratory sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Resp norepinephrine: norepinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates bronchomotor tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Resp adrenomedullin: adrenomedullin from lung cells (already mapped) and macrophages (already mapped) modulates pulmonary vasodilation; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

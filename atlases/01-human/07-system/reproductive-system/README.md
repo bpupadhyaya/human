@@ -563,6 +563,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Rep osteopontin: osteopontin from uterine cells (already mapped) and macrophages (already mapped) promotes implantation ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Rep norepinephrine: norepinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates uterine tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Rep adrenomedullin: adrenomedullin from uterine cells (already mapped) and macrophages (already mapped) modulates placental vasodilation; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Rep bdnf: BDNF from uterine sensory neurons (already mapped) and macrophages (already mapped) regulates reproductive neural plasticity; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
 ---
 
 # Reproductive System
@@ -860,6 +869,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[FGF23](../../03-molecular/fgf23/README.md)** — Rep fgf23: FGF23 from uterine cells (already mapped) and macrophages (already mapped) regulates phosphate-mineral balance; fgf23 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Rep angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) drives endometrial angiogenesis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Rep osteopontin: osteopontin from uterine cells (already mapped) and macrophages (already mapped) promotes implantation ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Rep norepinephrine: norepinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates reproductive vasoconstriction; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Rep adrenomedullin: adrenomedullin from uterine cells (already mapped) and macrophages (already mapped) modulates placental vasodilation; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Rep bdnf: BDNF from uterine sensory neurons (already mapped) and macrophages (already mapped) regulates reproductive neural plasticity; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 
 ## Pathology
 
