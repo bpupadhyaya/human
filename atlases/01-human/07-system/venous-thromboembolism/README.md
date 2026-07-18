@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "VTE il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates VTE immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "VTE notch: NOTCH signalling in endothelial cells (already mapped) and macrophages (already mapped) drives VTE vascular remodelling; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "VTE igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes VTE vascular repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "VTE activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) drives VTE fibro-inflammatory remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE."
 ---
 
 # Venous Thromboembolism
@@ -874,6 +883,9 @@ cross_links:
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — VTE rankl: RANKL in macrophages (already mapped) and endothelium (already mapped) modulates VTE bone-immune axis; RANKL excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism.
 - `connects-to` → **[SMAD4](../../03-molecular/smad4/README.md)** — VTE smad4: SMAD4 in endothelium (already mapped) and macrophages (already mapped) mediates VTE fibrotic signalling; smad4 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — VTE il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates VTE immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — VTE notch: NOTCH signalling in endothelial cells (already mapped) and macrophages (already mapped) drives VTE vascular remodelling; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — VTE igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes VTE vascular repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of venous thromboembolism.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — VTE activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) drives VTE fibro-inflammatory remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
