@@ -570,6 +570,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Thal igf-1: IGF-1 from macrophages (already mapped) and erythrocytes (already mapped) promotes thalassaemic erythroid expansion; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and hepcidin (already mapped) cascade of thalassemia."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Thal cgrp: CGRP from macrophages (already mapped) and erythrocytes (already mapped) modulates thalassaemic vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and hepcidin (already mapped) cascade of thalassemia."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Thal calcitonin: calcitonin from macrophages (already mapped) and erythrocytes (already mapped) modulates thalassaemic calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and hepcidin (already mapped) cascade of thalassemia."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Thal substance-p: substance-P from macrophages (already mapped) and erythrocytes (already mapped) modulates thalassaemic neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and hepcidin (already mapped) cascade of thalassemia."
 ---
 
 # Thalassemia
@@ -898,6 +907,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Thal il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates thalassaemia immune activation; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Thal fibronectin: fibronectin in erythrocytes (already mapped) and macrophages (already mapped) promotes thalassaemia ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Thal igf-1: IGF-1 from macrophages (already mapped) and erythrocytes (already mapped) promotes thalassaemic erythroid expansion; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Thal cgrp: CGRP from macrophages (already mapped) and erythrocytes (already mapped) modulates thalassaemic vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Thal calcitonin: calcitonin from macrophages (already mapped) and erythrocytes (already mapped) modulates thalassaemic calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Thal substance-p: substance-P from macrophages (already mapped) and erythrocytes (already mapped) modulates thalassaemic neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.

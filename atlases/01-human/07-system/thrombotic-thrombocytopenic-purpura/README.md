@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "TTP activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) drives TTP microangiopathic fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "TTP tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) amplifies TTP microvascular fibrosis; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "TTP cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "TTP calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -910,6 +919,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — TTP notch: Notch signalling in endothelial cells (already mapped) and macrophages (already mapped) regulates TTP vascular homeostasis; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — TTP igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes platelet progenitor survival in TTP; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — TTP activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) drives thrombotic microangiopathic fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TTP tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) amplifies TTP microvascular fibrosis; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — TTP cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — TTP calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 
 ---
 
