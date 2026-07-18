@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "HAE igf-1: IGF-1 from macrophages (already mapped) and endothelium (already mapped) modulates vascular repair in HAE; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "HAE activin-a: activin-A from macrophages (already mapped) and endothelium (already mapped) regulates vascular fibrotic balance in HAE; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "HAE tgf-beta: TGF-β from macrophages (already mapped) and endothelium (already mapped) promotes vascular fibrosis in HAE; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "HAE calcitonin: calcitonin from macrophages (already mapped) and endothelium (already mapped) modulates vascular calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema."
 ---
 
 # Hereditary Angioedema
@@ -890,6 +899,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HAE fibronectin: fibronectin in endothelium (already mapped) and macrophages (already mapped) promotes vascular ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HAE notch: Notch signalling on endothelium (already mapped) and macrophages (already mapped) regulates vascular permeability; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HAE igf-1: IGF-1 from macrophages (already mapped) and endothelium (already mapped) modulates vascular repair in HAE; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HAE activin-a: activin-A from macrophages (already mapped) and endothelium (already mapped) regulates vascular fibrotic balance in HAE; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — HAE tgf-beta: TGF-β from macrophages (already mapped) and endothelium (already mapped) promotes vascular fibrosis in HAE; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HAE calcitonin: calcitonin from macrophages (already mapped) and endothelium (already mapped) modulates vascular calcium balance in HAE; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) oedema cascade of hereditary angioedema.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

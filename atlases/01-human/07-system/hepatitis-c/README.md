@@ -567,6 +567,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "HCV notch: Notch signalling on hepatocytes (already mapped) and macrophages (already mapped) regulates hepatic stellate-cell activation; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "HCV igf-1: IGF-1 from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "HCV activin-a: activin-A from macrophages (already mapped) and hepatocytes (already mapped) regulates hepatic fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "HCV cgrp: CGRP from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
 ---
 
 # Hepatitis C
@@ -877,3 +886,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — HCV rankl: RANKL from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic osteoclast activation; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HCV fibronectin: fibronectin in hepatocytes (already mapped) and macrophages (already mapped) promotes hepatic ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HCV notch: Notch signalling on hepatocytes (already mapped) and macrophages (already mapped) regulates hepatic stellate-cell activation; notch excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HCV igf-1: IGF-1 from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HCV activin-a: activin-A from macrophages (already mapped) and hepatocytes (already mapped) regulates hepatic fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HCV cgrp: CGRP from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
