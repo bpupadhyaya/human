@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "SS calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates calcium signalling in synovial sarcoma; calcitonin dysregulation amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "SS substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma neuroimmune tone; substance-p excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "SS insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives synovial sarcoma metabolic tone; insulin-receptor loss amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "SS aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates ion balance in synovial sarcoma; aldosterone excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -873,6 +882,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SS activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives synovial sarcoma fibrosis; activin-a excess amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — SS cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma vascular tone; cgrp excess amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — SS calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates calcium signalling in synovial sarcoma; calcitonin dysregulation amplifies IL-6 (already mapped) and EGFR (already mapped) and mTOR (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — SS substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma neuroimmune tone; substance-p excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — SS insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives synovial sarcoma metabolic tone; insulin-receptor loss amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — SS aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates ion balance in synovial sarcoma; aldosterone excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
 
 ---
 
