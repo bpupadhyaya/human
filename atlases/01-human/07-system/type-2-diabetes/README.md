@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "T2D calcitonin: calcitonin from hepatocytes (already mapped) and macrophages (already mapped) modulates adipose calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "T2D substance-p: substance-P from hepatocytes (already mapped) and macrophages (already mapped) modulates adipose neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "T2D androgen-receptor: androgen receptor on hepatocytes (already mapped) and macrophages (already mapped) modulates T2D hormonal metabolism; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "T2D norepinephrine: norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) amplifies T2D sympathoadrenal stress; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D."
 ---
 
 # Type 2 Diabetes
@@ -858,6 +867,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — T2D activin-a: activin-A from hepatocytes (already mapped) and macrophages (already mapped) regulates adipose immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — T2D cgrp: CGRP from hepatocytes (already mapped) and macrophages (already mapped) modulates adipose neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — T2D calcitonin: calcitonin from hepatocytes (already mapped) and macrophages (already mapped) modulates adipose calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — T2D substance-p: substance-P from hepatocytes (already mapped) and macrophages (already mapped) modulates adipose neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — T2D androgen-receptor: androgen receptor on hepatocytes (already mapped) and macrophages (already mapped) modulates T2D hormonal metabolism; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — T2D norepinephrine: norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) amplifies T2D sympathoadrenal stress; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

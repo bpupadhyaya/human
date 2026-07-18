@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "UM cgrp: CGRP from uveal melanocytes (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "UM calcitonin: calcitonin from uveal melanocytes (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "UM substance-p: substance-P from uveal melanocytes (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "UM insulin-receptor: insulin receptor on uveal melanocytes (already mapped) and macrophages (already mapped) drives UM metabolic growth; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -884,6 +893,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — UM fibronectin: Fibronectin in uveal melanocytes (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — UM activin-a: activin-A from uveal melanocytes (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — UM cgrp: CGRP from uveal melanocytes (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — UM calcitonin: calcitonin from uveal melanocytes (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — UM substance-p: substance-P from uveal melanocytes (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — UM insulin-receptor: insulin receptor on uveal melanocytes (already mapped) and macrophages (already mapped) drives UM metabolic growth; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 
 ---
 
