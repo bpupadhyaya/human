@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/notch
     relation: connects-to
     note: "SLE notch: Notch signalling in T-cells (already mapped) and macrophages (already mapped) drives SLE lymphocyte differentiation; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SLE."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "SLE igf-1: IGF-1 from macrophages (already mapped) and T-cells (already mapped) promotes SLE tissue repair; igf-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "SLE activin-a: activin-A from macrophages (already mapped) and T-cells (already mapped) regulates SLE immune tolerance; activin-a loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "SLE tgf-beta: TGF-β from macrophages (already mapped) and T-cells (already mapped) suppresses SLE autoimmune overdrive; tgf-beta loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
 ---
 
 # Systemic Lupus Erythematosus
@@ -879,6 +888,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — SLE vegf: VEGF from macrophages (already mapped) and T-cells (already mapped) drives glomerular angiogenesis in SLE nephritis; vegf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of SLE.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SLE fibronectin: fibronectin in macrophages (already mapped) and T-cells (already mapped) scaffolds autoimmune ECM in SLE; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of SLE.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — SLE notch: Notch signalling in T-cells (already mapped) and macrophages (already mapped) drives SLE lymphocyte differentiation; notch dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) cascade of SLE.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SLE igf-1: IGF-1 from macrophages (already mapped) and T-cells (already mapped) promotes SLE tissue repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SLE activin-a: activin-A from macrophages (already mapped) and T-cells (already mapped) regulates SLE immune tolerance; activin-a loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — SLE tgf-beta: TGF-β from macrophages (already mapped) and T-cells (already mapped) suppresses SLE autoimmune overdrive; tgf-beta loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
