@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "HF activin-a: activin-A from macrophages (already mapped) and cardiomyocytes (already mapped) promotes cardiac fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "HF cgrp: CGRP from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "HF calcitonin: calcitonin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "HF substance-p: substance-P from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
 ---
 
 # Heart Failure
@@ -820,6 +829,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — HF fibronectin: fibronectin in cardiomyocytes (already mapped) and macrophages (already mapped) promotes cardiac ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HF igf-1: IGF-1 from macrophages (already mapped) and cardiomyocytes (already mapped) promotes cardiac repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HF activin-a: activin-A from macrophages (already mapped) and cardiomyocytes (already mapped) promotes cardiac fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HF cgrp: CGRP from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HF calcitonin: calcitonin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HF substance-p: substance-P from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
 
 ## Pathology
 
