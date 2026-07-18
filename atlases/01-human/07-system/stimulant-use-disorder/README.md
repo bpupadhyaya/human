@@ -568,6 +568,15 @@ cross_links:
   - target: 01-human/03-molecular/fibronectin
     relation: connects-to
     note: "SUD fibronectin: fibronectin in neurons (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling in stimulant circuits; fibronectin excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "SUD notch: Notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates stimulant-circuit cell fate; notch dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "SUD igf-1: IGF-1 from neurons (already mapped) and astrocytes (already mapped) promotes stimulant-circuit neuronal survival; igf-1 dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "SUD activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) regulates stimulant-circuit immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
 ---
 
 # Stimulant Use Disorder
@@ -873,6 +882,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — SUD il-2: IL-2 from T-cells (already mapped) and microglia (already mapped) regulates neuroinflammatory surveillance in stimulant circuits; il-2 dysregulation amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — SUD vegf: VEGF from macrophages (already mapped) and astrocytes (already mapped) drives neuroinflammatory angiogenesis in stimulant use disorder; vegf dysregulation amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SUD fibronectin: fibronectin in neurons (already mapped) and astrocytes (already mapped) promotes CNS ECM remodelling in stimulant circuits; fibronectin excess amplifies NF-κB (already mapped) and Dopamine (already mapped) and CRH (already mapped) cascade of SUD.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — SUD notch: Notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates stimulant-circuit cell fate; notch dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SUD igf-1: IGF-1 from neurons (already mapped) and astrocytes (already mapped) promotes stimulant-circuit neuronal survival; igf-1 dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SUD activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) regulates stimulant-circuit immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
 
 ## Treatment
 
