@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "ATRT cgrp: CGRP from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "ATRT calcitonin: calcitonin from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour calcium signalling; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "ATRT substance-p: substance-P from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour neuroinflammation; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "ATRT insulin-receptor: insulin receptor on rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -866,6 +875,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ATRT fibronectin: Fibronectin in rhabdoid tumor cells (already mapped) and macrophages (already mapped) scaffolds tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ATRT activin-a: activin-A from rhabdoid tumor cells (already mapped) and macrophages (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ATRT cgrp: CGRP from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour inflammatory cascade in ATRT.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ATRT calcitonin: calcitonin from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour calcium signalling; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — ATRT substance-p: substance-P from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour neuroinflammation; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ATRT insulin-receptor: insulin receptor on rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
 
 ---
 
