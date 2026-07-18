@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "RMS cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates myogenic tumour neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of rhabdomyosarcoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "RMS calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates myogenic tumour calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) cascade of rhabdomyosarcoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "RMS substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates myogenic tumour neuroinflammation; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) cascade of rhabdomyosarcoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "RMS insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates tumour metabolic axis; insulin-receptor excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) cascade of rhabdomyosarcoma."
 ---
 
 # Rhabdomyosarcoma
@@ -875,6 +884,9 @@ Maximal safe resection with negative margins (R0) wherever achievable without mu
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — RMS fibronectin: Fibronectin in fibroblasts (already mapped) and macrophages (already mapped) scaffolds myogenic tumour ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of rhabdomyosarcoma.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RMS activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates myogenic tumour immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) cascade of rhabdomyosarcoma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — RMS cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates myogenic tumour neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) tumour cascade of rhabdomyosarcoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RMS calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates myogenic tumour calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) cascade of rhabdomyosarcoma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — RMS substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates myogenic tumour neuroinflammation; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) cascade of rhabdomyosarcoma.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — RMS insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates tumour metabolic axis; insulin-receptor excess amplifies nf-kb (already mapped) and il-6 (already mapped) and igf-1 (already mapped) cascade of rhabdomyosarcoma.
 
 [^crist-2001-irs4-rms]: Crist WM, Anderson JR, Meza JL, et al. Intergroup rhabdomyosarcoma study-IV: results for patients with nonmetastatic disease. *J Clin Oncol.* 2001;19(12):3091-3102. [doi:10.1200/JCO.2001.19.12.3091](https://doi.org/10.1200/JCO.2001.19.12.3091) · [PubMed 11408506](https://pubmed.ncbi.nlm.nih.gov/11408506/)
 [^oberlin-2012-mmt95-rms]: Oberlin O, Rey A, Sanchez de Toledo J, et al. Randomized comparison of intensified six-drug versus standard three-drug chemotherapy for high-risk nonmetastatic rhabdomyosarcoma and other chemotherapy-sensitive childhood soft tissue sarcomas. *J Clin Oncol.* 2012;30(19):2457-2465. [doi:10.1200/JCO.2011.39.3538](https://doi.org/10.1200/JCO.2011.39.3538) · [PubMed 22665546](https://pubmed.ncbi.nlm.nih.gov/22665546/)

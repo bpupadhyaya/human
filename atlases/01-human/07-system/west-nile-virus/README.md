@@ -567,6 +567,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "WNV calcitonin: calcitonin from astrocytes (already mapped) and macrophages (already mapped) modulates neuroinvasion calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "WNV insulin-receptor: insulin receptor on astrocytes (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "WNV aldosterone: aldosterone from astrocytes (already mapped) and macrophages (already mapped) modulates neuroinvasion fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "WNV androgen-receptor: androgen receptor on astrocytes (already mapped) and macrophages (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
 ---
 
 # West Nile Virus
@@ -870,3 +879,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — WNV activin-a: activin-A from astrocytes (already mapped) and macrophages (already mapped) regulates neuroinvasion immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — WNV cgrp: CGRP from astrocytes (already mapped) and macrophages (already mapped) modulates neuroinvasion neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — WNV calcitonin: calcitonin from astrocytes (already mapped) and macrophages (already mapped) modulates neuroinvasion calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — WNV insulin-receptor: insulin receptor on astrocytes (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — WNV aldosterone: aldosterone from astrocytes (already mapped) and macrophages (already mapped) modulates neuroinvasion fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — WNV androgen-receptor: androgen receptor on astrocytes (already mapped) and macrophages (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
