@@ -571,6 +571,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "T1D calcitonin: calcitonin from beta-cells (already mapped) and macrophages (already mapped) modulates islet calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of type 1 diabetes."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "T1D substance-p: substance-P from beta-cells (already mapped) and macrophages (already mapped) modulates islet neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of type 1 diabetes."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "T1D insulin-receptor: insulin receptor on beta-cells (already mapped) and macrophages (already mapped) mediates T1D metabolic signalling; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "T1D aldosterone: aldosterone from macrophages (already mapped) and beta-cells (already mapped) modulates islet fluid balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of type 1 diabetes."
 ---
 
 # Type 1 Diabetes
@@ -851,6 +860,9 @@ cross_links:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — T1D activin-a: activin-A from beta-cells (already mapped) and macrophages (already mapped) regulates islet immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — T1D cgrp: CGRP from beta-cells (already mapped) and macrophages (already mapped) modulates islet neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — T1D calcitonin: calcitonin from beta-cells (already mapped) and macrophages (already mapped) modulates islet calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — T1D substance-p: substance-P from beta-cells (already mapped) and macrophages (already mapped) modulates islet neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — T1D insulin-receptor: insulin receptor on beta-cells (already mapped) and macrophages (already mapped) mediates T1D metabolic signalling; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — T1D aldosterone: aldosterone from macrophages (already mapped) and beta-cells (already mapped) modulates islet fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

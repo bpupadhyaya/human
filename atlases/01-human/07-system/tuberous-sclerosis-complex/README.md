@@ -565,6 +565,15 @@ cross_links:
   - target: 01-human/03-molecular/il-2
     relation: connects-to
     note: "TSC il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates TSC immune surveillance; il-2 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) hamartoma cascade of tuberous sclerosis complex."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "TSC fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) scaffolds TSC hamartoma ECM; fibronectin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "TSC activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) regulates TSC hamartoma fibrosis; activin-a loss amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "TSC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC tumour vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
 ---
 
 # Tuberous Sclerosis Complex
@@ -887,6 +896,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Wnt/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — TSC wnt-beta-catenin: WNT/β-catenin on fibroblasts (already mapped) and endothelial cells (already mapped) regulates hamartoma tissue growth; wnt-beta-catenin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 - `connects-to` → **[RANKL](../../03-molecular/rankl/README.md)** — TSC rankl: RANKL from macrophages (already mapped) and fibroblasts (already mapped) promotes TSC-associated bone remodelling; rankl excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 - `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — TSC il-2: IL-2 from T-cells (already mapped) and macrophages (already mapped) regulates TSC immune surveillance; il-2 dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) hamartoma cascade of tuberous sclerosis complex.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — TSC fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) scaffolds TSC hamartoma ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — TSC activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) regulates TSC hamartoma fibrosis; activin-a loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — TSC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC tumour vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 
 ---
 
