@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Bloom activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Bloom tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) modulates fibrotic repair balance; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Bloom cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates neuroimmune tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Bloom calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -897,6 +906,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Bloom fibronectin: fibronectin in fibroblasts (already mapped) and macrophages (already mapped) modulates tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Bloom notch: NOTCH on fibroblasts (already mapped) and macrophages (already mapped) modulates stem-cell fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Bloom activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) regulates fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Bloom tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) modulates fibrotic repair balance; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Bloom cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates neuroimmune tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Bloom calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
 
 ---
 
