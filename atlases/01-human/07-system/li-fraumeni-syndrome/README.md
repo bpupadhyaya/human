@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "LFS cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "LFS calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates calcium tone; calcitonin dysregulation amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "LFS substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates pain tone; substance-P excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "LFS insulin-receptor: insulin-receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic axis; insulin resistance amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome."
 ---
 
 # Li-Fraumeni Syndrome
@@ -910,6 +919,9 @@ Annual surveillance significantly reduces mortality in LFS carriers (Villani 201
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — LFS activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) promotes tumour fibrosis; activin-a excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — LFS tgf-beta: TGF-β from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour fibrotic resolution; TGF-β excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — LFS cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — LFS calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates calcium tone; calcitonin dysregulation amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — LFS substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates pain tone; substance-P excess amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
+- `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — LFS insulin-receptor: insulin-receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic axis; insulin resistance amplifies p53 (already mapped) and mdm2 (already mapped) and il-6 (already mapped) tumour cascade of Li-Fraumeni syndrome.
 
 [^bougeard-2015-lfs-chompret]: Bougeard G, Renaux-Petel M, Flaman JM, et al. Revisiting Li-Fraumeni Syndrome From TP53 Mutation Carriers. *J Clin Oncol.* 2015;33(21):2345-2352. [doi:10.1200/JCO.2014.59.5728](https://doi.org/10.1200/JCO.2014.59.5728) · [PubMed 26014290](https://pubmed.ncbi.nlm.nih.gov/26014290/)
 [^villani-2016-lfs-surveillance]: Villani A, Shore A, Wasserman JD, et al. Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *Lancet Oncol.* 2016;17(9):1295-1305. [doi:10.1016/S1470-2045(16)30249-2](https://doi.org/10.1016/S1470-2045(16)30249-2) · [PubMed 27501770](https://pubmed.ncbi.nlm.nih.gov/27501770/)
