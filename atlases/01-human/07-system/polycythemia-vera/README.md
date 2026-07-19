@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "PV calcitonin: calcitonin from macrophages (already mapped) and erythroid progenitors (already mapped) modulates calcium balance in PV; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of polycythemia vera."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "PV substance-p: substance-P from macrophages (already mapped) and erythroid progenitors (already mapped) modulates haematopoietic neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PV."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "PV insulin-receptor: insulin receptor on macrophages (already mapped) and erythroid progenitors (already mapped) drives haematopoietic metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PV."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "PV aldosterone: aldosterone from macrophages (already mapped) and erythroid progenitors (already mapped) modulates haematopoietic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PV."
 ---
 
 # Polycythemia Vera
@@ -881,6 +890,9 @@ PV must be distinguished from secondary erythrocytosis (elevated EPO, JAK2 wild-
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PV activin-a: activin-A from macrophages (already mapped) and erythroid progenitors (already mapped) modulates haematopoietic inflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of polycythemia vera.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PV cgrp: CGRP from macrophages (already mapped) and erythroid progenitors (already mapped) modulates haematopoietic neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of polycythemia vera.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PV calcitonin: calcitonin from macrophages (already mapped) and erythroid progenitors (already mapped) modulates calcium balance in PV; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of polycythemia vera.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PV substance-p: substance-P from macrophages (already mapped) and erythroid progenitors (already mapped) modulates haematopoietic neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PV.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PV insulin-receptor: insulin receptor on macrophages (already mapped) and erythroid progenitors (already mapped) drives haematopoietic metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PV.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PV aldosterone: aldosterone from macrophages (already mapped) and erythroid progenitors (already mapped) modulates haematopoietic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PV.
 
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409630](https://doi.org/10.1056/NEJMoa1409630) · [PubMed 25577388](https://pubmed.ncbi.nlm.nih.gov/25577388/)
 [^gisslinger-2020-proud-pv]: Gisslinger H, Gotic M, Holowiecki J, et al. Ropeginterferon alfa-2b versus standard therapy for polycythaemia vera (PROUD-PV and CONTINUATION-PV): a randomised, non-inferiority, phase 3 trial and its extension study. *Lancet Haematol.* 2020;7(3):e196-e208. [doi:10.1016/S2352-3026(19)30236-4](https://doi.org/10.1016/S2352-3026(19)30236-4) · [PubMed 32046833](https://pubmed.ncbi.nlm.nih.gov/32046833/)

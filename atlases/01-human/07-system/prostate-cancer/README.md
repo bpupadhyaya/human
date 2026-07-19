@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "PCa aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "PCa norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PCa adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "PCa bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) promotes prostate tumour neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
 ---
 
 # Prostate Cancer
@@ -894,6 +903,9 @@ cross_links:
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PCa substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate tumour neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PCa insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives PCa metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PCa aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PCa norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PCa adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PCa bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) promotes prostate tumour neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
