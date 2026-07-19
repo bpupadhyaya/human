@@ -572,6 +572,15 @@ cross_links:
   - target: 01-human/03-molecular/adiponectin
     relation: connects-to
     note: "Integumentary adiponectin: adiponectin from adipocytes (already mapped) and macrophages (already mapped) modulates skin metabolic tone; adiponectin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Integumentary norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Integumentary adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Integumentary fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) modulates dermal growth tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
 ---
 
 # Integumentary System
@@ -862,6 +871,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Integumentary angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Integumentary osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal ECM tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Integumentary adiponectin: adiponectin from adipocytes (already mapped) and macrophages (already mapped) modulates skin metabolic tone; adiponectin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of integumentary system.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Integumentary norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Integumentary adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Integumentary fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) modulates dermal growth tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
 
 ## Pathology
 
