@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "aHUS calcitonin: calcitonin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "aHUS substance-p: substance-P from mesangial cells (already mapped) and macrophages (already mapped) modulates renal neuroinflammation; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "aHUS insulin-receptor: insulin receptor on mesangial cells (already mapped) and macrophages (already mapped) modulates renal metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "aHUS androgen-receptor: androgen receptor on mesangial cells (already mapped) and macrophages (already mapped) modulates renal sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS."
 ---
 
 # Atypical HUS
@@ -929,6 +938,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — aHUS activin-a: activin-A from mesangial cells (already mapped) and macrophages (already mapped) regulates glomerular immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — aHUS cgrp: CGRP from mesangial cells (already mapped) and macrophages (already mapped) modulates renal neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — aHUS calcitonin: calcitonin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — aHUS substance-p: substance-P from mesangial cells (already mapped) and macrophages (already mapped) modulates renal neuroinflammation; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — aHUS insulin-receptor: insulin receptor on mesangial cells (already mapped) and macrophages (already mapped) modulates renal metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — aHUS androgen-receptor: androgen receptor on mesangial cells (already mapped) and macrophages (already mapped) modulates renal sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

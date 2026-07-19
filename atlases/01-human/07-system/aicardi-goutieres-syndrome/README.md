@@ -576,6 +576,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "AGS activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) regulates AGS immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "AGS cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates AGS neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "AGS calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates AGS calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "AGS substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates AGS neuroinflammation; substance-p excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -856,6 +865,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AGS notch: NOTCH on microglia (already mapped) and astrocytes (already mapped) regulates AGS neuroimmune fate; NOTCH dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) neuroinflammatory cascade of AGS.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AGS igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) promotes neuronal survival; IGF-1 deficiency amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AGS activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) regulates AGS immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AGS cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates AGS neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AGS calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates AGS calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — AGS substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates AGS neuroinflammation; substance-p excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
