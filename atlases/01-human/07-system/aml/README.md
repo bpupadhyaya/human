@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "AML activin-a: activin-A from macrophages (already mapped) and bone-marrow (already mapped) stroma regulates myeloid differentiation; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "AML tgf-beta: TGF-β from macrophages (already mapped) and bone-marrow (already mapped) stroma drives myeloid immune-fibrotic remodelling; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "AML cgrp: CGRP from macrophages (already mapped) and bone-marrow (already mapped) stroma modulates myeloid vascular tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "AML calcitonin: calcitonin from macrophages (already mapped) and bone-marrow (already mapped) stroma modulates myeloid calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
 ---
 
 # AML
@@ -878,6 +887,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — AML notch: NOTCH on macrophages (already mapped) and bone-marrow (already mapped) stroma regulates leukaemic blast differentiation; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AML igf-1: IGF-1 from bone-marrow (already mapped) stroma and macrophages (already mapped) promotes leukaemic blast survival; IGF-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AML activin-a: activin-A from macrophages (already mapped) and bone-marrow (already mapped) stroma regulates myeloid differentiation; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — AML tgf-beta: TGF-β from macrophages (already mapped) and bone-marrow (already mapped) stroma drives myeloid immune-fibrotic remodelling; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AML cgrp: CGRP from macrophages (already mapped) and bone-marrow (already mapped) stroma modulates myeloid vascular tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AML calcitonin: calcitonin from macrophages (already mapped) and bone-marrow (already mapped) stroma modulates myeloid calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)

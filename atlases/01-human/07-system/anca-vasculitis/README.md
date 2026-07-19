@@ -586,6 +586,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "ANCA activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) regulates vascular immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "ANCA cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates ANCA vascular tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "ANCA calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates ANCA calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "ANCA substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates ANCA neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -907,6 +916,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — ANCA notch: NOTCH on endothelial cells (already mapped) and macrophages (already mapped) regulates vascular repair; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — ANCA igf-1: IGF-1 from endothelial cells (already mapped) and macrophages (already mapped) promotes vascular repair; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ANCA activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) regulates vascular immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ANCA cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates ANCA vascular tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ANCA calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates ANCA calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — ANCA substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates ANCA neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
