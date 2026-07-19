@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Meningioma calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates meningeal calcium balance; calcitonin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Meningioma substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates meningeal pain tone; substance-p excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Meningioma insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives meningeal metabolic repair; insulin-receptor loss amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Meningioma aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates meningeal ion balance; aldosterone excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma."
 ---
 
 # Meningioma
@@ -876,6 +885,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Meningioma tgf-beta: TGF-β from macrophages (already mapped) and fibroblasts (already mapped) modulates meningeal fibrotic resolution; TGF-β excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Meningioma cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates meningeal neuroimmune tone; cgrp excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Meningioma calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates meningeal calcium balance; calcitonin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Meningioma substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates meningeal pain tone; substance-p excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Meningioma insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives meningeal metabolic repair; insulin-receptor loss amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Meningioma aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates meningeal ion balance; aldosterone excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)

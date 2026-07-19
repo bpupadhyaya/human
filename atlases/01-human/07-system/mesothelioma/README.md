@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Meso aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural ion balance; aldosterone excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Meso androgen-receptor: Androgen receptor from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural tumour immunity; androgen excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Meso norepinephrine: Norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural stress tone; norepinephrine excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Meso adrenomedullin: Adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural vascular tone; adrenomedullin excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
 ---
 
 # Mesothelioma
@@ -878,6 +887,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Meso substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural immune tone; substance-p excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Meso insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives pleural metabolic repair; insulin-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Meso aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural ion balance; aldosterone excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Meso androgen-receptor: Androgen receptor from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural tumour immunity; androgen excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Meso norepinephrine: Norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural stress tone; norepinephrine excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Meso adrenomedullin: Adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates pleural vascular tone; adrenomedullin excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
