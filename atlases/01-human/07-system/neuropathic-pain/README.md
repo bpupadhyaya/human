@@ -561,6 +561,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "NP calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates spinal calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "NP insulin-receptor: Insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives neuropathic metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "NP aldosterone: Aldosterone from neurons (already mapped) and astrocytes (already mapped) modulates neuropathic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "NP androgen-receptor: Androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates neuropathic hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -905,6 +914,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — NP igf-1: IGF-1 from neurons (already mapped) and astrocytes (already mapped) promotes axonal repair; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — NP activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) modulates neuroinflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — NP calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates spinal calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — NP insulin-receptor: Insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives neuropathic metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — NP aldosterone: Aldosterone from neurons (already mapped) and astrocytes (already mapped) modulates neuropathic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — NP androgen-receptor: Androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates neuropathic hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)
