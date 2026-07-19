@@ -572,6 +572,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "LS calcitonin: calcitonin from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic calcium tone; calcitonin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "LS substance-p: substance-P from endothelial cells (already mapped) and macrophages (already mapped) modulates pain tone; substance-P excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "LS insulin-receptor: insulin-receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin resistance amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "LS aldosterone: aldosterone from endothelial cells (already mapped) and macrophages (already mapped) modulates electrolyte tone; aldosterone excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
 ---
 
 # Lymphatic System
@@ -866,6 +875,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — LS tgf-beta: TGF-β from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic fibrotic resolution; TGF-β excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — LS cgrp: CGRP from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic neuroimmune tone; cgrp excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — LS calcitonin: calcitonin from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic calcium tone; calcitonin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — LS substance-p: substance-P from endothelial cells (already mapped) and macrophages (already mapped) modulates pain tone; substance-P excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — LS insulin-receptor: insulin-receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin resistance amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — LS aldosterone: aldosterone from endothelial cells (already mapped) and macrophages (already mapped) modulates electrolyte tone; aldosterone excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 
 ## Pathology
 

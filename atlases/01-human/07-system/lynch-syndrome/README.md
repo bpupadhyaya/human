@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Lynch tgf-beta: TGF-β from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates tumour fibrotic resolution; TGF-β excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Lynch cgrp: CGRP from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Lynch calcitonin: calcitonin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Lynch substance-p: substance-P from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates pain tone; substance-P excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome."
 ---
 
 # Lynch Syndrome
@@ -899,6 +908,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Lynch igf-1: IGF-1 from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates tumour metabolic repair; igf-1 excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Lynch activin-a: activin-A from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes tumour fibrosis; activin-a excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Lynch tgf-beta: TGF-β from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates tumour fibrotic resolution; TGF-β excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Lynch cgrp: CGRP from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Lynch calcitonin: calcitonin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Lynch substance-p: substance-P from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates pain tone; substance-P excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)
