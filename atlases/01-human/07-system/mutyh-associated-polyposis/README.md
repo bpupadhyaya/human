@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "MAP cgrp: CGRP from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp neuroimmune tone; cgrp excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "MAP calcitonin: calcitonin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp calcium balance; calcitonin excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "MAP substance-p: substance-P from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp pain tone; substance-p excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "MAP insulin-receptor: insulin receptor on macrophages (already mapped) and t-cytotoxic cells (already mapped) drives polyp metabolic repair; insulin-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
 ---
 
 # MUTYH-Associated Polyposis
@@ -876,6 +885,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MAP activin-a: activin-A from macrophages (already mapped) and t-cytotoxic cells (already mapped) promotes polyp fibrosis; activin-a excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — MAP tgf-beta: TGF-β from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp immune suppression; TGF-β excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MAP cgrp: CGRP from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp neuroimmune tone; cgrp excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MAP calcitonin: calcitonin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp calcium balance; calcitonin excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MAP substance-p: substance-P from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp pain tone; substance-p excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — MAP insulin-receptor: insulin receptor on macrophages (already mapped) and t-cytotoxic cells (already mapped) drives polyp metabolic repair; insulin-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 
 ---
 

@@ -572,6 +572,15 @@ cross_links:
   - target: 01-human/03-molecular/endothelin-1
     relation: connects-to
     note: "MSK endothelin-1: endothelin-1 from macrophages (already mapped) and osteoblasts (already mapped) modulates bone vascular tone; endothelin-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "MSK norepinephrine: Norepinephrine from macrophages (already mapped) and osteoblasts (already mapped) modulates bone stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "MSK adrenomedullin: Adrenomedullin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "MSK epinephrine: Epinephrine from macrophages (already mapped) and osteoblasts (already mapped) modulates neuromuscular stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
 ---
 
 # Musculoskeletal System
@@ -893,6 +902,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — MSK angiopoietin: angiopoietin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone vascularity; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 - `connects-to` → **[Dopamine](../../03-molecular/dopamine/README.md)** — MSK dopamine: dopamine from macrophages (already mapped) and osteoblasts (already mapped) modulates neuromuscular signalling; dopamine dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — MSK endothelin-1: endothelin-1 from macrophages (already mapped) and osteoblasts (already mapped) modulates bone vascular tone; endothelin-1 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MSK norepinephrine: Norepinephrine from macrophages (already mapped) and osteoblasts (already mapped) modulates bone stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MSK adrenomedullin: Adrenomedullin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MSK epinephrine: Epinephrine from macrophages (already mapped) and osteoblasts (already mapped) modulates neuromuscular stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 
 ## Pathology
 
