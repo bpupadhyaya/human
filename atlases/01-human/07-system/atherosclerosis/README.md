@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "Athero cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Athero calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Athero substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Athero insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates plaque tone; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
 ---
 
 # Atherosclerosis
@@ -881,6 +890,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Athero igf-1: IGF-1 from macrophages (already mapped) and smooth-muscle cells (already mapped) promotes plaque growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Athero activin-a: activin-A from macrophages (already mapped) and smooth-muscle cells (already mapped) regulates plaque fibro-inflammatory balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Athero cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Athero calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Athero substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Athero insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates plaque tone; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 
 ---
 
