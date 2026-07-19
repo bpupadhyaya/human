@@ -582,6 +582,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "CIDP calcitonin: calcitonin from schwann cells (already mapped) and macrophages (already mapped) modulates nerve calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "CIDP substance-p: substance-P from schwann cells (already mapped) and macrophages (already mapped) modulates neuropathic pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "CIDP insulin-receptor: insulin receptor on schwann cells (already mapped) and macrophages (already mapped) modulates metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "CIDP aldosterone: aldosterone from schwann cells (already mapped) and macrophages (already mapped) modulates nerve fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
 ---
 
 # CIDP
@@ -912,6 +921,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CIDP activin-a: activin-A from schwann cells (already mapped) and macrophages (already mapped) regulates nerve immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CIDP cgrp: CGRP from schwann cells (already mapped) and macrophages (already mapped) modulates nerve neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CIDP calcitonin: calcitonin from schwann cells (already mapped) and macrophages (already mapped) modulates nerve calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — CIDP substance-p: substance-P from schwann cells (already mapped) and macrophages (already mapped) modulates neuropathic pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — CIDP insulin-receptor: insulin receptor on schwann cells (already mapped) and macrophages (already mapped) modulates metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — CIDP aldosterone: aldosterone from schwann cells (already mapped) and macrophages (already mapped) modulates nerve fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 
 ---
 

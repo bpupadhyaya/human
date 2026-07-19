@@ -579,6 +579,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "CKD insulin-receptor: insulin receptor on renal tubular cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "CKD androgen-receptor: androgen receptor on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "CKD norepinephrine: norepinephrine from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal sympathetic axis; norepinephrine excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "CKD adrenomedullin: adrenomedullin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal vasodilation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -842,6 +851,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CKD calcitonin: calcitonin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — CKD substance-p: substance-P from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal pain tone; substance-P excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — CKD insulin-receptor: insulin receptor on renal tubular cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — CKD androgen-receptor: androgen receptor on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CKD norepinephrine: norepinephrine from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal sympathetic axis; norepinephrine excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — CKD adrenomedullin: adrenomedullin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal vasodilation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 
 ## Pathology
 
