@@ -585,6 +585,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "cardiovascular androgen-receptor: androgen receptor on cardiomyocytes (already mapped) and macrophages (already mapped) drives cardiac tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "cardiovascular adrenomedullin: adrenomedullin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac vasodilation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "cardiovascular bdnf: BDNF from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac neuroplasticity; bdnf dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "cardiovascular osteopontin: osteopontin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac fibrotic remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -856,6 +865,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — cardiovascular substance-p: substance-P from sensory neurons (already mapped) and macrophages (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — cardiovascular insulin-receptor: insulin receptor on myocytes (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — cardiovascular androgen-receptor: androgen receptor on cardiomyocytes (already mapped) and macrophages (already mapped) drives cardiac tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — cardiovascular adrenomedullin: adrenomedullin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac vasodilation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — cardiovascular bdnf: BDNF from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac neuroplasticity; bdnf dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — cardiovascular osteopontin: osteopontin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac fibrotic remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
 
 ## Pathology
 
