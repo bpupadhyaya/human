@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "JPS calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates calcium tone; calcitonin excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "JPS substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates pain tone; substance-P excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "JPS insulin-receptor: insulin-receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic axis; insulin resistance amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "JPS aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates electrolyte tone; aldosterone excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -889,6 +898,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — JPS igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) drives polyp metabolic growth; igf-1 excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — JPS cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates polyp neuroimmune tone; cgrp excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — JPS calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates calcium tone; calcitonin excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of juvenile polyposis syndrome.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — JPS substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates pain tone; substance-P excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
+- `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — JPS insulin-receptor: insulin-receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates metabolic axis; insulin resistance amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — JPS aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates electrolyte tone; aldosterone excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
