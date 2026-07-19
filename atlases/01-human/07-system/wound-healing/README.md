@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "WH osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) scaffolds WH ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "WH norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates WH vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "WH bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) supports WH neuroimmune repair; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "WH epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) drives WH adrenergic vascular tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
 ---
 
 # Wound Healing
@@ -886,6 +895,9 @@ cross_links:
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — WH adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) promotes WH angiogenesis; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
 - `connects-to` → **[Endothelin-1](../../03-molecular/endothelin-1/README.md)** — WH endothelin-1: endothelin-1 from macrophages (already mapped) and fibroblasts (already mapped) drives WH vasoconstriction and fibrosis; endothelin-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of WH.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — WH osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) scaffolds WH ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — WH norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates WH vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — WH bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) supports WH neuroimmune repair; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — WH epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) drives WH adrenergic vascular tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)
