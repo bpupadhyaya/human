@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "endometrial-cancer insulin-receptor: insulin receptor on endometrial cells (already mapped) and macrophages (already mapped) drives tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "EMC aldosterone: aldosterone from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "EMC androgen-receptor: androgen receptor on endometrial cells (already mapped) and macrophages (already mapped) modulates EMC androgen tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "EMC norepinephrine: norepinephrine from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC."
 ---
 
 # Endometrial Cancer
@@ -884,6 +893,9 @@ cross_links:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — endometrial-cancer calcitonin: calcitonin from endometrial cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — endometrial-cancer substance-p: substance-P from endometrial cells (already mapped) and macrophages (already mapped) modulates uterine pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — endometrial-cancer insulin-receptor: insulin receptor on endometrial cells (already mapped) and macrophages (already mapped) drives tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in endometrial cancer.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — EMC aldosterone: aldosterone from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — EMC androgen-receptor: androgen receptor on endometrial cells (already mapped) and macrophages (already mapped) modulates EMC androgen tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — EMC norepinephrine: norepinephrine from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)
