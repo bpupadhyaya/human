@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Influenza tgf-beta: TGF-β from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Influenza calcitonin: calcitonin from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Influenza substance-p: substance-P from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Influenza insulin-receptor: insulin receptor on macrophages (already mapped) and epithelial cells (already mapped) modulates metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
 ---
 
 # Influenza
@@ -896,3 +905,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Influenza igf-1: IGF-1 from macrophages (already mapped) and epithelial cells (already mapped) modulates pulmonary antiviral repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Influenza activin-a: activin-A from macrophages (already mapped) and epithelial cells (already mapped) promotes pulmonary fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Influenza tgf-beta: TGF-β from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Influenza calcitonin: calcitonin from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Influenza substance-p: substance-P from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Influenza insulin-receptor: insulin receptor on macrophages (already mapped) and epithelial cells (already mapped) modulates metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.

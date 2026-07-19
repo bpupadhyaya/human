@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "IT tgf-beta: TGF-β from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "IT cgrp: CGRP from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "IT calcitonin: calcitonin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "IT substance-p: substance-P from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT."
 ---
 
 # Inherited Thrombophilia
@@ -926,6 +935,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IT igf-1: IGF-1 from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular metabolic repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — IT activin-a: activin-A from endothelial cells (already mapped) and macrophages (already mapped) promotes vascular fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — IT tgf-beta: TGF-β from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — IT cgrp: CGRP from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in inherited thrombophilia.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — IT calcitonin: calcitonin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — IT substance-p: substance-P from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)
