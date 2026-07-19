@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "MEN1 tgf-beta: TGF-β from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine tumour immunity; TGF-β excess amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "MEN1 norepinephrine: Norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine stress tone; norepinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "MEN1 adrenomedullin: Adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "MEN1 bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine neuroprotection; BDNF excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome."
 ---
 
 # MEN1 Syndrome
@@ -879,6 +888,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — MEN1 notch: NOTCH in fibroblasts (already mapped) and endothelial cells (already mapped) regulates neuroendocrine tumour lineage; notch dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade of MEN1 syndrome.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MEN1 igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes neuroendocrine tumour growth; igf-1 dysregulation amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade of MEN1 syndrome.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — MEN1 tgf-beta: TGF-β from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine tumour immunity; TGF-β excess amplifies vegf (already mapped) and rankl (already mapped) and il-6 (already mapped) cascade of MEN1 syndrome.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MEN1 norepinephrine: Norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine stress tone; norepinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MEN1 adrenomedullin: Adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MEN1 bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine neuroprotection; BDNF excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
 
 ---
 
