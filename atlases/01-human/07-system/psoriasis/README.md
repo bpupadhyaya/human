@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "PsO cgrp: CGRP from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "PsO calcitonin: calcitonin from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "PsO substance-p: substance-P from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "PsO insulin-receptor: insulin receptor on keratinocytes (already mapped) and macrophages (already mapped) drives psoriatic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
 ---
 
 # Psoriasis
@@ -882,6 +891,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PsO igf-1: IGF-1 from keratinocytes (already mapped) and macrophages (already mapped) drives psoriatic cell survival; igf-1 dysregulation amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PsO activin-a: activin-A from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic fibrotic signalling; activin-a excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PsO cgrp: CGRP from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PsO calcitonin: calcitonin from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PsO substance-p: substance-P from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PsO insulin-receptor: insulin receptor on keratinocytes (already mapped) and macrophages (already mapped) drives psoriatic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
