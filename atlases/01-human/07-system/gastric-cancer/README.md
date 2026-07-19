@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "gastric-cancer calcitonin: calcitonin from macrophages (already mapped) and gastric epithelial cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "gastric-cancer substance-p: substance-P from macrophages (already mapped) and gastric epithelial cells (already mapped) modulates gastric pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "gastric-cancer insulin-receptor: insulin receptor on macrophages (already mapped) and gastric epithelial cells (already mapped) modulates GC metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in GC."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "gastric-cancer aldosterone: aldosterone from macrophages (already mapped) and gastric epithelial cells (already mapped) modulates gastric fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in GC."
 ---
 
 # Gastric Cancer
@@ -906,6 +915,9 @@ H. pylori eradication: Reduces GC incidence by ~35-40% (meta-analyses); most ben
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — gastric-cancer activin-a: activin-A from macrophages (already mapped) and gastric epithelial cells (already mapped) promotes tumour fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — gastric-cancer cgrp: CGRP from macrophages (already mapped) and gastric epithelial cells (already mapped) modulates gastric neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — gastric-cancer calcitonin: calcitonin from macrophages (already mapped) and gastric epithelial cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — gastric-cancer substance-p: substance-P from macrophages (already mapped) and gastric epithelial cells (already mapped) modulates gastric pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in gastric cancer.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — gastric-cancer insulin-receptor: insulin receptor on macrophages (already mapped) and gastric epithelial cells (already mapped) modulates GC metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in GC.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — gastric-cancer aldosterone: aldosterone from macrophages (already mapped) and gastric epithelial cells (already mapped) modulates gastric fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in GC.
 
 [^bang-2010-toga]: Bang YJ, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial. *Lancet.* 2010;376(9742):687-697. [doi:10.1016/S0140-6736(10)61121-X](https://doi.org/10.1016/S0140-6736(10)61121-X) · [PubMed 20728210](https://pubmed.ncbi.nlm.nih.gov/20728210/)
 [^janjigian-2021-checkmate649]: Janjigian YY, Shitara K, Moehler M, et al. First-line nivolumab plus chemotherapy versus chemotherapy alone for advanced gastric, gastro-oesophageal junction, and oesophageal adenocarcinoma (CheckMate 649). *Lancet.* 2021;398(10294):27-40. [doi:10.1016/S0140-6736(21)00797-2](https://doi.org/10.1016/S0140-6736(21)00797-2) · [PubMed 34102137](https://pubmed.ncbi.nlm.nih.gov/34102137/)
