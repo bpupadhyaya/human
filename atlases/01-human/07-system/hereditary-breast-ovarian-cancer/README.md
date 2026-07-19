@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "HBOC calcitonin: calcitonin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour calcium signalling; calcitonin excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "HBOC substance-p: substance-P from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour pain tone; substance-P excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "HBOC insulin-receptor: insulin receptor on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour metabolic axis; insulin-receptor loss amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "HBOC aldosterone: aldosterone from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour fluid balance; aldosterone excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -895,6 +904,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HBOC activin-a: activin-A from macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates tumour immune-fibrotic balance; activin-a excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HBOC cgrp: CGRP from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HBOC calcitonin: calcitonin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour calcium signalling; calcitonin excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HBOC substance-p: substance-P from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour pain tone; substance-P excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HBOC insulin-receptor: insulin receptor on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour metabolic axis; insulin-receptor loss amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HBOC aldosterone: aldosterone from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour fluid balance; aldosterone excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 
 ---
 
