@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "SCLC adrenomedullin: adrenomedullin from neuroendocrine cells (already mapped) and macrophages (already mapped) promotes SCLC vasodilation; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "SCLC norepinephrine: norepinephrine from neuroendocrine cells (already mapped) and macrophages (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "SCLC bdnf: BDNF from neuroendocrine cells (already mapped) and macrophages (already mapped) supports tumour neural trophic tone; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "SCLC osteopontin: osteopontin from neuroendocrine cells (already mapped) and macrophages (already mapped) promotes SCLC ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC."
 ---
 
 # Small Cell Lung Cancer
@@ -869,6 +878,9 @@ SCLC has highest rate of brain metastases among solid tumors (~50% at 2 years); 
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — SCLC aldosterone: aldosterone from neuroendocrine cells (already mapped) and macrophages (already mapped) modulates ion balance in SCLC; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SCLC androgen-receptor: androgen receptor on neuroendocrine cells (already mapped) and macrophages (already mapped) modulates SCLC steroid tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — SCLC adrenomedullin: adrenomedullin from neuroendocrine cells (already mapped) and macrophages (already mapped) promotes SCLC vasodilation; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — SCLC norepinephrine: norepinephrine from neuroendocrine cells (already mapped) and macrophages (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — SCLC bdnf: BDNF from neuroendocrine cells (already mapped) and macrophages (already mapped) supports tumour neural trophic tone; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — SCLC osteopontin: osteopontin from neuroendocrine cells (already mapped) and macrophages (already mapped) promotes SCLC ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of SCLC.
 
 [^horn-2018-impower133]: Horn L, Mansfield AS, Szczęsna A, et al. First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *N Engl J Med.* 2018;379(23):2220-2229. [doi:10.1056/NEJMoa1809064](https://doi.org/10.1056/NEJMoa1809064) · [PubMed 30280641](https://pubmed.ncbi.nlm.nih.gov/30280641/)
 [^paz-ares-2019-caspian]: Paz-Ares L, Dvorkin M, Chen Y, et al. Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN). *Lancet.* 2019;394(10212):1929-1939. [doi:10.1016/S0140-6736(19)32222-6](https://doi.org/10.1016/S0140-6736(19)32222-6) · [PubMed 31590988](https://pubmed.ncbi.nlm.nih.gov/31590988/)
