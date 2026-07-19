@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "CF substance-p: substance-P from macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "CF insulin-receptor: insulin receptor on macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "CF aldosterone: aldosterone from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "CF androgen-receptor: androgen receptor on macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
 ---
 
 # Cystic Fibrosis
@@ -887,6 +896,9 @@ AND
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CF cgrp: CGRP from macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrosis cascade in cystic fibrosis.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CF calcitonin: calcitonin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates airway calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — CF substance-p: substance-P from macrophages (already mapped) and airway epithelial cells (already mapped) modulates pulmonary pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — CF insulin-receptor: insulin receptor on macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — CF aldosterone: aldosterone from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — CF androgen-receptor: androgen receptor on macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
 
 ---
 

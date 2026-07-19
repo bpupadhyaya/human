@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "cowden calcitonin: calcitonin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma calcium balance; calcitonin dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "cowden substance-p: substance-P from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma nociceptive tone; substance-P excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "cowden insulin-receptor: insulin receptor on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates Cowden metabolic axis; insulin-receptor loss amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "cowden aldosterone: aldosterone from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma fluid balance; aldosterone excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -939,6 +948,9 @@ cross_links:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cowden activin-a: activin-A from macrophages (already mapped) and T-cytotoxic cells (already mapped) regulates hamartoma immune-fibrotic balance; activin-A excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cowden cgrp: CGRP from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma neuroimmune tone; cgrp excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cowden calcitonin: calcitonin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma calcium balance; calcitonin dysregulation amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — cowden substance-p: substance-P from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma nociceptive tone; substance-P excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — cowden insulin-receptor: insulin receptor on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates Cowden metabolic axis; insulin-receptor loss amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — cowden aldosterone: aldosterone from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma fluid balance; aldosterone excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 
 ---
 
