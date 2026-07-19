@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "PV aldosterone: aldosterone from keratinocytes (already mapped) and B-cells (already mapped) modulates ion balance in pemphigus; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "PV androgen-receptor: androgen receptor on keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "PV norepinephrine: norepinephrine from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PV adrenomedullin: adrenomedullin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
 ---
 
 # Pemphigus Vulgaris
@@ -911,6 +920,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PV calcitonin: calcitonin from keratinocytes (already mapped) and B-cells (already mapped) modulates calcium tone in pemphigus; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PV insulin-receptor: insulin receptor on keratinocytes (already mapped) and B-cells (already mapped) drives epidermal metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PV aldosterone: aldosterone from keratinocytes (already mapped) and B-cells (already mapped) modulates ion balance in pemphigus; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PV androgen-receptor: androgen receptor on keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PV norepinephrine: norepinephrine from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PV adrenomedullin: adrenomedullin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 
 ---
 

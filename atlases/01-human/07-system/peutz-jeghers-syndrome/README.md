@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "PJS calcitonin: calcitonin from macrophages (already mapped) and epithelial cells (already mapped) modulates calcium balance in Peutz-Jeghers; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "PJS substance-p: substance-P from macrophages (already mapped) and epithelial cells (already mapped) modulates GI neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "PJS insulin-receptor: insulin receptor on macrophages (already mapped) and epithelial cells (already mapped) drives GI metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "PJS aldosterone: aldosterone from macrophages (already mapped) and epithelial cells (already mapped) modulates GI ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -883,6 +892,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PJS igf-1: IGF-1 from macrophages (already mapped) and epithelial cells (already mapped) drives gastrointestinal polyp growth; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PJS cgrp: CGRP from macrophages (already mapped) and epithelial cells (already mapped) modulates gastrointestinal neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PJS calcitonin: calcitonin from macrophages (already mapped) and epithelial cells (already mapped) modulates calcium balance in Peutz-Jeghers; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PJS substance-p: substance-P from macrophages (already mapped) and epithelial cells (already mapped) modulates GI neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PJS insulin-receptor: insulin receptor on macrophages (already mapped) and epithelial cells (already mapped) drives GI metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PJS aldosterone: aldosterone from macrophages (already mapped) and epithelial cells (already mapped) modulates GI ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
 
 ---
 
