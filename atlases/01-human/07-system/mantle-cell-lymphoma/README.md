@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "MCL activin-a: activin-A from fibroblasts (already mapped) and B-cells (already mapped) promotes lymphoma fibrosis; activin-a excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "MCL cgrp: CGRP from fibroblasts (already mapped) and B-cells (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "MCL calcitonin: calcitonin from fibroblasts (already mapped) and B-cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "MCL substance-p: substance-P from fibroblasts (already mapped) and B-cells (already mapped) modulates pain tone; substance-P excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -881,6 +890,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — MCL notch: NOTCH in B-cells (already mapped) and fibroblasts (already mapped) regulates lymphoma clonal fate; notch dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MCL igf-1: IGF-1 from fibroblasts (already mapped) and B-cells (already mapped) promotes lymphoma metabolic growth; igf-1 excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — MCL activin-a: activin-A from fibroblasts (already mapped) and B-cells (already mapped) promotes lymphoma fibrosis; activin-a excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MCL cgrp: CGRP from fibroblasts (already mapped) and B-cells (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MCL calcitonin: calcitonin from fibroblasts (already mapped) and B-cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MCL substance-p: substance-P from fibroblasts (already mapped) and B-cells (already mapped) modulates pain tone; substance-P excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
 
 ---
 

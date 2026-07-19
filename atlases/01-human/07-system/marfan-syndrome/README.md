@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "Marfan insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives metabolic repair; insulin-receptor loss amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Marfan androgen-receptor: androgen-receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates androgen tone; androgen excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Marfan norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates stress tone; norepinephrine excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Marfan adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular tone; adrenomedullin loss amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -898,6 +907,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Marfan tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives aortic fibrotic remodelling; TGF-β excess amplifies collagen (already mapped) and il-6 (already mapped) and mmp (already mapped) aortic cascade of Marfan syndrome.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Marfan substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular tone; substance-p excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Marfan insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives metabolic repair; insulin-receptor loss amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[Androgen-receptor](../../03-molecular/androgen-receptor/README.md)** — Marfan androgen-receptor: androgen-receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates androgen tone; androgen excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Marfan norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates stress tone; norepinephrine excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Marfan adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular tone; adrenomedullin loss amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 
 ---
 
