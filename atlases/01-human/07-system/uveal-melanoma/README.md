@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "UM insulin-receptor: insulin receptor on uveal melanocytes (already mapped) and macrophages (already mapped) drives UM metabolic growth; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "UM aldosterone: aldosterone from uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "UM androgen-receptor: androgen receptor on uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM hormonal growth; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "UM norepinephrine: norepinephrine from uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM adrenergic vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -896,6 +905,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — UM calcitonin: calcitonin from uveal melanocytes (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — UM substance-p: substance-P from uveal melanocytes (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — UM insulin-receptor: insulin receptor on uveal melanocytes (already mapped) and macrophages (already mapped) drives UM metabolic growth; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — UM aldosterone: aldosterone from uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — UM androgen-receptor: androgen receptor on uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM hormonal growth; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — UM norepinephrine: norepinephrine from uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM adrenergic vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 
 ---
 
