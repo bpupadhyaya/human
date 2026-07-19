@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "diffuse-midline-glioma aldosterone: aldosterone in microglia (already mapped) and astrocytes (already mapped) modulates glioma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "diffuse-midline-glioma androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates glioma androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "diffuse-midline-glioma adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates glioma vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "diffuse-midline-glioma fgfr: FGFR on microglia (already mapped) and astrocytes (already mapped) modulates glioma proliferative tone; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
 ---
 
 # Diffuse Midline Glioma
@@ -898,6 +907,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — diffuse-midline-glioma substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates glioma pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — diffuse-midline-glioma insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in glioma.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — diffuse-midline-glioma aldosterone: aldosterone in microglia (already mapped) and astrocytes (already mapped) modulates glioma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of diffuse midline glioma.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — diffuse-midline-glioma androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates glioma androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — diffuse-midline-glioma adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates glioma vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — diffuse-midline-glioma fgfr: FGFR on microglia (already mapped) and astrocytes (already mapped) modulates glioma proliferative tone; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
 
 ---
 

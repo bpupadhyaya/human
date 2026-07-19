@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "digestive-system angiopoietin: angiopoietin from enterocytes (already mapped) and macrophages (already mapped) modulates gut vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "digestive-system norepinephrine: norepinephrine from enterocytes (already mapped) and macrophages (already mapped) modulates gut adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "digestive-system adrenomedullin: adrenomedullin from enterocytes (already mapped) and macrophages (already mapped) modulates gut vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "digestive-system osteopontin: osteopontin from enterocytes (already mapped) and macrophages (already mapped) modulates gut inflammatory tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -872,6 +881,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Insulin Receptor](../../03-molecular/insulin-receptor/README.md) — digestive-system insulin-receptor: insulin receptor on enterocytes (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system.
 - **Connects to:** [Androgen Receptor](../../03-molecular/androgen-receptor/README.md) — digestive-system androgen-receptor: androgen receptor on enterocytes (already mapped) and macrophages (already mapped) modulates intestinal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system.
 - **Connects to:** [Angiopoietin](../../03-molecular/angiopoietin/README.md) — digestive-system angiopoietin: angiopoietin from enterocytes (already mapped) and macrophages (already mapped) modulates gut vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the digestive system.
+- **Connects to:** [Norepinephrine](../../03-molecular/norepinephrine/README.md) — digestive-system norepinephrine: norepinephrine from enterocytes (already mapped) and macrophages (already mapped) modulates gut adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
+- **Connects to:** [Adrenomedullin](../../03-molecular/adrenomedullin/README.md) — digestive-system adrenomedullin: adrenomedullin from enterocytes (already mapped) and macrophages (already mapped) modulates gut vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
+- **Connects to:** [Osteopontin](../../03-molecular/osteopontin/README.md) — digestive-system osteopontin: osteopontin from enterocytes (already mapped) and macrophages (already mapped) modulates gut inflammatory tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
 
 ## Pathology
 
