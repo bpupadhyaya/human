@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "COVID-19 cgrp: CGRP from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "COVID-19 calcitonin: calcitonin from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "COVID-19 substance-p: substance-P from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "COVID-19 insulin-receptor: insulin receptor on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
 ---
 
 # COVID-19 Disease
@@ -832,6 +841,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — COVID-19 activin-a: activin-A from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — COVID-19 tgf-beta: TGF-β from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary fibrosis; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — COVID-19 cgrp: CGRP from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — COVID-19 calcitonin: calcitonin from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — COVID-19 substance-p: substance-P from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — COVID-19 insulin-receptor: insulin receptor on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 
 ## Pathology
 
