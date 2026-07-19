@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "OCCC substance-p: substance-P from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC immune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "OCCC insulin-receptor: Insulin receptor on ovarian cells (already mapped) and macrophages (already mapped) drives OCCC metabolic repair; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "OCCC aldosterone: Aldosterone from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "OCCC androgen-receptor: Androgen receptor on ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC hormonal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -901,6 +910,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — OCCC cgrp: CGRP from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — OCCC calcitonin: calcitonin from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — OCCC substance-p: substance-P from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC immune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ovarian clear-cell carcinoma.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — OCCC insulin-receptor: Insulin receptor on ovarian cells (already mapped) and macrophages (already mapped) drives OCCC metabolic repair; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — OCCC aldosterone: Aldosterone from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — OCCC androgen-receptor: Androgen receptor on ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC hormonal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
 
 ---
 
