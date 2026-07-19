@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Gorlin substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour pain tone; substance-P excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Gorlin insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin metabolic axis; insulin-receptor loss amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Gorlin aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour fluid balance; aldosterone excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Gorlin androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates androgen axis; androgen-receptor loss amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -870,6 +879,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Gorlin cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroimmune tone; cgrp excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Gorlin calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates calcium balance; calcitonin dysregulation amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Gorlin substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour pain tone; substance-P excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — Gorlin insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin metabolic axis; insulin-receptor loss amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Gorlin aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour fluid balance; aldosterone excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — Gorlin androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates androgen axis; androgen-receptor loss amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 
 ---
 
