@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "SCD calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates calcium balance in SCD; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "SCD substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates vaso-occlusive neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "SCD insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives SCD metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "SCD aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates SCD ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
 ---
 
 # Sickle Cell Disease
@@ -926,6 +935,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — SCD tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) drives vascular fibrosis in SCD; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — SCD cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vaso-occlusive vascular tone in SCD; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — SCD calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates calcium balance in SCD; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — SCD substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates vaso-occlusive neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — SCD insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives SCD metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — SCD aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates SCD ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
