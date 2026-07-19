@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "dengue tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "dengue cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "dengue calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "dengue substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever."
 ---
 
 # Dengue Fever
@@ -871,3 +880,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — dengue igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) vascular-leak cascade of dengue fever.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — dengue activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — dengue tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — dengue cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — dengue calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — dengue substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.

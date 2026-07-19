@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "cytokine-storm cgrp: CGRP from macrophages (already mapped) and T-helper cells (already mapped) modulates neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "cytokine-storm calcitonin: calcitonin from macrophages (already mapped) and T-cells (already mapped) modulates cytokine calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "cytokine-storm substance-p: substance-P from macrophages (already mapped) and T-cells (already mapped) modulates cytokine nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "cytokine-storm insulin-receptor: insulin receptor on macrophages (already mapped) and T-cells (already mapped) modulates cytokine metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -850,6 +859,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cytokine-storm activin-a: activin-A from macrophages (already mapped) and T-helper cells (already mapped) modulates immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — cytokine-storm tgf-beta: TGF-β from macrophages (already mapped) and T-helper cells (already mapped) modulates immune-fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cytokine-storm cgrp: CGRP from macrophages (already mapped) and T-helper cells (already mapped) modulates neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cytokine-storm calcitonin: calcitonin from macrophages (already mapped) and T-cells (already mapped) modulates cytokine calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — cytokine-storm substance-p: substance-P from macrophages (already mapped) and T-cells (already mapped) modulates cytokine nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — cytokine-storm insulin-receptor: insulin receptor on macrophages (already mapped) and T-cells (already mapped) modulates cytokine metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 
 ## Pathology
 
