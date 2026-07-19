@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "cholangio substance-p: substance-P from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "cholangio insulin-receptor: insulin receptor on cholangiocytes (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "cholangio aldosterone: aldosterone from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "cholangio androgen-receptor: androgen receptor on cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA."
 ---
 
 # Cholangiocarcinoma
@@ -856,6 +865,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cholangio cgrp: CGRP from cholangiocytes (already mapped) and fibroblasts (already mapped) modulates biliary neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cholangio calcitonin: calcitonin from cholangiocytes (already mapped) and fibroblasts (already mapped) modulates biliary calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — cholangio substance-p: substance-P from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — cholangio insulin-receptor: insulin receptor on cholangiocytes (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — cholangio aldosterone: aldosterone from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — cholangio androgen-receptor: androgen receptor on cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
 
 ---
 

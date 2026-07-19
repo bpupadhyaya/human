@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "chordoma aldosterone: aldosterone in osteoclasts (already mapped) and tumour cells (already mapped) modulates bone fluid balance; aldosterone excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "chordoma androgen-receptor: androgen receptor on osteoclasts (already mapped) and tumour cells (already mapped) modulates bone sex tone; androgen-receptor loss amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "chordoma norepinephrine: norepinephrine from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour sympathetic axis; norepinephrine excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "chordoma adrenomedullin: adrenomedullin from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
 ---
 
 # Chordoma
@@ -894,6 +903,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — chordoma substance-p: substance-P from tumour cells (already mapped) and osteoclasts (already mapped) modulates bone pain signalling; substance-P excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — chordoma insulin-receptor: insulin receptor on tumour cells (already mapped) and osteoclasts (already mapped) drives metabolic tone; insulin-receptor loss amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — chordoma aldosterone: aldosterone in osteoclasts (already mapped) and tumour cells (already mapped) modulates bone fluid balance; aldosterone excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — chordoma androgen-receptor: androgen receptor on osteoclasts (already mapped) and tumour cells (already mapped) modulates bone sex tone; androgen-receptor loss amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — chordoma norepinephrine: norepinephrine from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour sympathetic axis; norepinephrine excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — chordoma adrenomedullin: adrenomedullin from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
 
 ---
 
