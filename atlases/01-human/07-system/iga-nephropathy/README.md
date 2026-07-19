@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "IgAN insulin-receptor: insulin receptor on mesangial cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "IgAN androgen-receptor: androgen receptor on mesangial cells (already mapped) and macrophages (already mapped) modulates renal androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "IgAN norepinephrine: norepinephrine from mesangial cells (already mapped) and macrophages (already mapped) modulates renal stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "IgAN adrenomedullin: adrenomedullin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -843,6 +852,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — IgAN calcitonin: calcitonin from macrophages (already mapped) and mesangial cells (already mapped) modulates glomerular calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — IgAN substance-p: substance-P from macrophages (already mapped) and mesangial cells (already mapped) modulates glomerular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — IgAN insulin-receptor: insulin receptor on mesangial cells (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — IgAN androgen-receptor: androgen receptor on mesangial cells (already mapped) and macrophages (already mapped) modulates renal androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — IgAN norepinephrine: norepinephrine from mesangial cells (already mapped) and macrophages (already mapped) modulates renal stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — IgAN adrenomedullin: adrenomedullin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 
 ---
 

@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "IS cgrp: CGRP from macrophages (already mapped) and dendritic cells (already mapped) modulates neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "IS calcitonin: calcitonin from macrophages (already mapped) and dendritic cells (already mapped) modulates immune calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "IS substance-p: substance-P from macrophages (already mapped) and dendritic cells (already mapped) modulates immune pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "IS insulin-receptor: insulin receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates immune metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
 ---
 
 # Immune System
@@ -793,6 +802,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — IS igf-1: IGF-1 from macrophages (already mapped) and dendritic cells (already mapped) modulates immune metabolic tone; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — IS activin-a: activin-A from macrophages (already mapped) and dendritic cells (already mapped) promotes immune fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — IS cgrp: CGRP from macrophages (already mapped) and dendritic cells (already mapped) modulates neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — IS calcitonin: calcitonin from macrophages (already mapped) and dendritic cells (already mapped) modulates immune calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — IS substance-p: substance-P from macrophages (already mapped) and dendritic cells (already mapped) modulates immune pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — IS insulin-receptor: insulin receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates immune metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 
 ## Pathology
 
