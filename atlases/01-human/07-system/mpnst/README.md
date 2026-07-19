@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "MPNST calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates MPNST calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "MPNST substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates MPNST pain tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "MPNST insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives MPNST metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "MPNST aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates MPNST ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST."
 ---
 
 # MPNST
@@ -891,6 +900,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — MPNST tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) modulates MPNST tumour immune-fibrotic resolution; TGF-β excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MPNST cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates MPNST neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MPNST calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates MPNST calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MPNST substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates MPNST pain tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — MPNST insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives MPNST metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MPNST aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates MPNST ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)
