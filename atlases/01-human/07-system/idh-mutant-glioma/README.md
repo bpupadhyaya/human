@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "IDH-glioma calcitonin: calcitonin from microglia (already mapped) and tumour cells (already mapped) modulates glioma calcium tone; calcitonin dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "IDH-glioma substance-p: substance-P from microglia (already mapped) and tumour cells (already mapped) modulates glioma pain tone; substance-P excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "IDH-glioma insulin-receptor: insulin receptor on microglia (already mapped) and tumour cells (already mapped) modulates glioma metabolic axis; insulin-receptor loss amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "IDH-glioma aldosterone: aldosterone from microglia (already mapped) and tumour cells (already mapped) modulates glioma fluid balance; aldosterone excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -891,6 +900,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — IDH-glioma activin-a: activin-A from microglia (already mapped) and tumour cells (already mapped) promotes glioma fibrosis; activin-a excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — IDH-glioma cgrp: CGRP from microglia (already mapped) and tumour cells (already mapped) modulates glioma neuroimmune tone; cgrp excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — IDH-glioma calcitonin: calcitonin from microglia (already mapped) and tumour cells (already mapped) modulates glioma calcium tone; calcitonin dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — IDH-glioma substance-p: substance-P from microglia (already mapped) and tumour cells (already mapped) modulates glioma pain tone; substance-P excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — IDH-glioma insulin-receptor: insulin receptor on microglia (already mapped) and tumour cells (already mapped) modulates glioma metabolic axis; insulin-receptor loss amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — IDH-glioma aldosterone: aldosterone from microglia (already mapped) and tumour cells (already mapped) modulates glioma fluid balance; aldosterone excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)

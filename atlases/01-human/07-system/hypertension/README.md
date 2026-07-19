@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Hypertension substance-p: substance-P from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) modulates pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Hypertension insulin-receptor: insulin receptor on macrophages (already mapped) and smooth-muscle cells (already mapped) modulates metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Hypertension androgen-receptor: androgen receptor on macrophages (already mapped) and smooth-muscle cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Hypertension bdnf: BDNF from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular neuroprotective tone; bdnf deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
 ---
 
 # Hypertension
@@ -850,6 +859,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Hypertension cgrp: CGRP from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) modulates vascular neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Hypertension calcitonin: calcitonin from endothelial cells (already mapped) and macrophages (already mapped) modulates calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Hypertension substance-p: substance-P from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) modulates pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) cascade in hypertension.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Hypertension insulin-receptor: insulin receptor on macrophages (already mapped) and smooth-muscle cells (already mapped) modulates metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Hypertension androgen-receptor: androgen receptor on macrophages (already mapped) and smooth-muscle cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Hypertension bdnf: BDNF from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular neuroprotective tone; bdnf deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
 
 ## Pathology
 
