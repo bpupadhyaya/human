@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "burkitt calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "burkitt substance-p: substance-P from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "burkitt insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "burkitt aldosterone: aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -894,6 +903,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — burkitt tgf-beta: TGF-β in B-cells (already mapped) and macrophages (already mapped) modulates lymphoma immune-fibrotic balance; TGF-β dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — burkitt cgrp: CGRP from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) tumour cascade in Burkitt lymphoma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — burkitt calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — burkitt substance-p: substance-P from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — burkitt insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — burkitt aldosterone: aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
 
 ---
 

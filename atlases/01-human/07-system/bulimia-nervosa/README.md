@@ -576,6 +576,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "bulimia calcitonin: calcitonin from neurons (already mapped) and hypothalamus (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "bulimia substance-p: substance-P from neurons (already mapped) and hypothalamus (already mapped) modulates nociceptive binge signalling; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "bulimia androgen-receptor: androgen receptor on neurons (already mapped) and hypothalamus (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "bulimia adrenomedullin: adrenomedullin from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -891,6 +900,9 @@ All of the following must be met:
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — bulimia tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) modulates neuroinflammatory balance; TGF-β dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — bulimia cgrp: CGRP from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-purge cascade in bulimia nervosa.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — bulimia calcitonin: calcitonin from neurons (already mapped) and hypothalamus (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — bulimia substance-p: substance-P from neurons (already mapped) and hypothalamus (already mapped) modulates nociceptive binge signalling; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — bulimia androgen-receptor: androgen receptor on neurons (already mapped) and hypothalamus (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — bulimia adrenomedullin: adrenomedullin from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
 
 ## Treatment
 
