@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "SjS insulin-receptor: insulin receptor on macrophages (already mapped) and glandular epithelial cells (already mapped) drives metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "SjS aldosterone: aldosterone from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates glandular ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "SjS androgen-receptor: androgen receptor on macrophages (already mapped) and glandular epithelial cells (already mapped) modulates hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "SjS norepinephrine: norepinephrine from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
 ---
 
 # Sjögren's Syndrome
@@ -897,6 +906,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — SjS calcitonin: calcitonin from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of Sjögren syndrome.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — SjS substance-p: substance P from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — SjS insulin-receptor: insulin receptor on macrophages (already mapped) and glandular epithelial cells (already mapped) drives metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — SjS aldosterone: aldosterone from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates glandular ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SjS androgen-receptor: androgen receptor on macrophages (already mapped) and glandular epithelial cells (already mapped) modulates hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — SjS norepinephrine: norepinephrine from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
 
 ---
 

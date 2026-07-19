@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "SAD tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) drives neuroinflammatory fibrosis in SAD; tgf-beta excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of social anxiety disorder."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "SAD calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates HPA-axis calcium balance; calcitonin excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "SAD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives neuronal metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "SAD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates neuronal hormonal tone; androgen excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD."
 ---
 
 # Social Anxiety Disorder
@@ -897,6 +906,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SAD igf-1: IGF-1 from neurons (already mapped) and astrocytes (already mapped) promotes neuronal survival in SAD; igf-1 dysregulation amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of social anxiety disorder.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SAD activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) regulates glial immune-fibrotic balance in SAD; activin-a excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — SAD tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) drives neuroinflammatory fibrosis in SAD; tgf-beta excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of social anxiety disorder.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — SAD calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates HPA-axis calcium balance; calcitonin excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — SAD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives neuronal metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SAD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates neuronal hormonal tone; androgen excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
