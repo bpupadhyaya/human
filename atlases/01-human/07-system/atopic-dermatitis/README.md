@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "AD insulin-receptor: insulin receptor on keratinocytes (already mapped) and fibroblasts (already mapped) drives skin metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "AD aldosterone: aldosterone from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "AD androgen-receptor: androgen receptor on keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "AD adrenomedullin: adrenomedullin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
 ---
 
 # Atopic Dermatitis
@@ -882,6 +891,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AD activin-a: activin-A from keratinocytes (already mapped) and fibroblasts (already mapped) regulates skin immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AD calcitonin: calcitonin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AD insulin-receptor: insulin receptor on keratinocytes (already mapped) and fibroblasts (already mapped) drives skin metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — AD aldosterone: aldosterone from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AD androgen-receptor: androgen receptor on keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AD adrenomedullin: adrenomedullin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
