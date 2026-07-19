@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Asthma aldosterone: aldosterone in smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Asthma androgen-receptor: androgen receptor on smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Asthma adrenomedullin: adrenomedullin from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in asthma."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Asthma bdnf: BDNF from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma."
 ---
 
 # Asthma
@@ -876,6 +885,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Asthma calcitonin: calcitonin from epithelial cells (already mapped) and smooth-muscle cells (already mapped) modulates airway calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in asthma.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Asthma insulin-receptor: insulin receptor on epithelial cells (already mapped) and smooth-muscle cells (already mapped) drives airway metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in asthma.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Asthma aldosterone: aldosterone in smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Asthma androgen-receptor: androgen receptor on smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Asthma adrenomedullin: adrenomedullin from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in asthma.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Asthma bdnf: BDNF from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)

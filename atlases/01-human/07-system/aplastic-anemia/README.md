@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "AA calcitonin: calcitonin from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "AA substance-p: substance-P from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow neuroinflammation; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "AA insulin-receptor: insulin receptor on macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "AA aldosterone: aldosterone from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA."
 ---
 
 # Aplastic Anemia
@@ -872,6 +881,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AA activin-a: activin-A from macrophages (already mapped) and bone-marrow stroma (already mapped) regulates haematopoietic immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AA cgrp: CGRP from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) suppression cascade in AA.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AA calcitonin: calcitonin from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — AA substance-p: substance-P from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow neuroinflammation; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AA insulin-receptor: insulin receptor on macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — AA aldosterone: aldosterone from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
 
 ---
 
