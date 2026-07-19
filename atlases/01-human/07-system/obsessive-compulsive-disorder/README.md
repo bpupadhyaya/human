@@ -590,6 +590,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "OCD activin-a: activin-A from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal neuroinflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "OCD tgf-beta: TGF-β from neurons (already mapped) and microglia (already mapped) drives cortico-striatal glial remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "OCD cgrp: CGRP from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "OCD calcitonin: Calcitonin from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -905,6 +914,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — OCD notch: Notch signalling in neurons (already mapped) and microglia (already mapped) regulates cortico-striatal glial fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — OCD igf-1: IGF-1 from neurons (already mapped) and microglia (already mapped) promotes cortico-striatal neuroprotection; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — OCD activin-a: activin-A from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal neuroinflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — OCD tgf-beta: TGF-β from neurons (already mapped) and microglia (already mapped) drives cortico-striatal glial remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — OCD cgrp: CGRP from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — OCD calcitonin: Calcitonin from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
