@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "T2D norepinephrine: norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) amplifies T2D sympathoadrenal stress; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "T2D adrenomedullin: adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates T2D vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "T2D bdnf: BDNF from macrophages (already mapped) and hepatocytes (already mapped) supports T2D neuroimmune metabolic tone; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "T2D osteopontin: osteopontin from macrophages (already mapped) and hepatocytes (already mapped) drives T2D inflammatory matrix remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D."
 ---
 
 # Type 2 Diabetes
@@ -870,6 +879,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — T2D substance-p: substance-P from hepatocytes (already mapped) and macrophages (already mapped) modulates adipose neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of type 2 diabetes.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — T2D androgen-receptor: androgen receptor on hepatocytes (already mapped) and macrophages (already mapped) modulates T2D hormonal metabolism; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — T2D norepinephrine: norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) amplifies T2D sympathoadrenal stress; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — T2D adrenomedullin: adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates T2D vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — T2D bdnf: BDNF from macrophages (already mapped) and hepatocytes (already mapped) supports T2D neuroimmune metabolic tone; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — T2D osteopontin: osteopontin from macrophages (already mapped) and hepatocytes (already mapped) drives T2D inflammatory matrix remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

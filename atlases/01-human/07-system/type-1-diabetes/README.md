@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "T1D aldosterone: aldosterone from macrophages (already mapped) and beta-cells (already mapped) modulates islet fluid balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of type 1 diabetes."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "T1D androgen-receptor: androgen receptor on macrophages (already mapped) and beta-cells (already mapped) modulates T1D hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "T1D norepinephrine: norepinephrine from macrophages (already mapped) and beta-cells (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "T1D adrenomedullin: adrenomedullin from macrophages (already mapped) and beta-cells (already mapped) modulates islet vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
 ---
 
 # Type 1 Diabetes
@@ -863,6 +872,9 @@ cross_links:
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — T1D substance-p: substance-P from beta-cells (already mapped) and macrophages (already mapped) modulates islet neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — T1D insulin-receptor: insulin receptor on beta-cells (already mapped) and macrophages (already mapped) mediates T1D metabolic signalling; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — T1D aldosterone: aldosterone from macrophages (already mapped) and beta-cells (already mapped) modulates islet fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of type 1 diabetes.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — T1D androgen-receptor: androgen receptor on macrophages (already mapped) and beta-cells (already mapped) modulates T1D hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — T1D norepinephrine: norepinephrine from macrophages (already mapped) and beta-cells (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — T1D adrenomedullin: adrenomedullin from macrophages (already mapped) and beta-cells (already mapped) modulates islet vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)
