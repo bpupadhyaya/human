@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "HIT calcitonin: calcitonin from macrophages (already mapped) and endothelium (already mapped) modulates vascular calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "HIT substance-p: substance-P from macrophages (already mapped) and endothelium (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "HIT insulin-receptor: insulin receptor on macrophages (already mapped) and endothelium (already mapped) modulates vascular metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "HIT aldosterone: aldosterone from macrophages (already mapped) and endothelium (already mapped) modulates vascular fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -911,6 +920,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — HIT tgf-beta: TGF-β from macrophages (already mapped) and endothelium (already mapped) promotes thrombotic vascular fibrosis; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HIT cgrp: CGRP from macrophages (already mapped) and endothelium (already mapped) modulates vascular neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HIT calcitonin: calcitonin from macrophages (already mapped) and endothelium (already mapped) modulates vascular calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HIT substance-p: substance-P from macrophages (already mapped) and endothelium (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HIT insulin-receptor: insulin receptor on macrophages (already mapped) and endothelium (already mapped) modulates vascular metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HIT aldosterone: aldosterone from macrophages (already mapped) and endothelium (already mapped) modulates vascular fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)
