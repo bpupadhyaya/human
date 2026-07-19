@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "Obesity cgrp: CGRP from macrophages (already mapped) and adipocytes (already mapped) modulates adipose neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Obesity calcitonin: Calcitonin from macrophages (already mapped) and adipocytes (already mapped) modulates adipose calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Obesity substance-p: substance-P from macrophages (already mapped) and adipocytes (already mapped) modulates adipose immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Obesity androgen-receptor: Androgen receptor on macrophages (already mapped) and adipocytes (already mapped) modulates adipose hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity."
 ---
 
 # Obesity
@@ -911,6 +920,9 @@ This **metainflammation** mechanistically links obesity to type 2 diabetes, athe
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Obesity activin-a: activin-A from macrophages (already mapped) and adipocytes (already mapped) drives adipose fibrosis; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Obesity tgf-beta: TGF-β from macrophages (already mapped) and adipocytes (already mapped) drives adipose fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Obesity cgrp: CGRP from macrophages (already mapped) and adipocytes (already mapped) modulates adipose neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Obesity calcitonin: Calcitonin from macrophages (already mapped) and adipocytes (already mapped) modulates adipose calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Obesity substance-p: substance-P from macrophages (already mapped) and adipocytes (already mapped) modulates adipose immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Obesity androgen-receptor: Androgen receptor on macrophages (already mapped) and adipocytes (already mapped) modulates adipose hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) adipose cascade of obesity.
 
 [^bluher-2019-obesity-review]: Blüher M. Obesity: global epidemiology and pathogenesis. *Nat Rev Endocrinol.* 2019;15(5):288-298. [doi:10.1038/s41574-019-0176-8](https://doi.org/10.1038/s41574-019-0176-8) · [PubMed 30814686](https://pubmed.ncbi.nlm.nih.gov/30814686/)
 [^wilding-2021-semaglutide-step1]: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. *N Engl J Med.* 2021;384(11):989-1002. [doi:10.1056/NEJMoa2032183](https://doi.org/10.1056/NEJMoa2032183) · [PubMed 33567185](https://pubmed.ncbi.nlm.nih.gov/33567185/)
