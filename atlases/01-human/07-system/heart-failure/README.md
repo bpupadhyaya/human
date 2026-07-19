@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "HF substance-p: substance-P from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "HF insulin-receptor: insulin receptor on macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "HF androgen-receptor: androgen receptor on macrophages (already mapped) and cardiomyocytes (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "HF adrenomedullin: adrenomedullin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
 ---
 
 # Heart Failure
@@ -832,6 +841,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HF cgrp: CGRP from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HF calcitonin: calcitonin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of heart failure.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HF substance-p: substance-P from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HF insulin-receptor: insulin receptor on macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — HF androgen-receptor: androgen receptor on macrophages (already mapped) and cardiomyocytes (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HF adrenomedullin: adrenomedullin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
 
 ## Pathology
 

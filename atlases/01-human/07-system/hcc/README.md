@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "HCC insulin-receptor: insulin receptor on hepatic stellate cells (already mapped) and macrophages (already mapped) drives tumour metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "HCC cgrp: CGRP from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "HCC aldosterone: aldosterone from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "HCC norepinephrine: norepinephrine from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour stress tone; norepinephrine excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC."
 ---
 
 # Hepatocellular Carcinoma
@@ -897,6 +906,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HCC calcitonin: calcitonin from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour calcium signalling; calcitonin excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular cascade of HCC.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HCC substance-p: substance-P from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour neuroinflammation; substance-p excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) hepatocellular cascade of HCC.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HCC insulin-receptor: insulin receptor on hepatic stellate cells (already mapped) and macrophages (already mapped) drives tumour metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HCC cgrp: CGRP from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HCC aldosterone: aldosterone from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HCC norepinephrine: norepinephrine from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour stress tone; norepinephrine excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
