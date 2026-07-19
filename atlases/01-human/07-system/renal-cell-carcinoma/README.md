@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "RCC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "RCC calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "RCC substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates renal neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "RCC insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives renal metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC."
 ---
 
 # Renal Cell Carcinoma
@@ -878,6 +887,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — RCC activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) drives renal tumour fibrotic signalling; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — RCC tgf-beta: TGF-β from macrophages (already mapped) and fibroblasts (already mapped) drives immune evasion and fibrosis in RCC; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — RCC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of renal-cell carcinoma.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RCC calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — RCC substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates renal neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — RCC insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives renal metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)

@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "RS osteopontin: osteopontin from renal tubular cells (already mapped) and macrophages (already mapped) promotes renal ECM fibrosis; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "RS bdnf: BDNF from renal tubular cells (already mapped) and macrophages (already mapped) supports renal neural trophic tone; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "RS fgfr: FGFR on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal fibroblast growth signalling; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "RS epinephrine: epinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates renal adrenergic vascular tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -866,6 +875,9 @@ Natriuretic counterpoint:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — RS norepinephrine: norepinephrine from renal sympathetic nerves (already mapped) and macrophages (already mapped) modulates renal vasoconstriction; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — RS adrenomedullin: adrenomedullin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal vasodilation; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — RS osteopontin: osteopontin from renal tubular cells (already mapped) and macrophages (already mapped) promotes renal ECM fibrosis; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — RS bdnf: BDNF from renal tubular cells (already mapped) and macrophages (already mapped) supports renal neural trophic tone; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — RS fgfr: FGFR on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal fibroblast growth signalling; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — RS epinephrine: epinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates renal adrenergic vascular tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
