@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "epilepsy cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory pain signalling; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "epilepsy calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "epilepsy substance-p: substance-P from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "epilepsy insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy."
 ---
 
 # Epilepsy
@@ -923,6 +932,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — epilepsy activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — epilepsy tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory fibrosis; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — epilepsy cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory pain signalling; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — epilepsy calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — epilepsy substance-p: substance-P from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — epilepsy insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)

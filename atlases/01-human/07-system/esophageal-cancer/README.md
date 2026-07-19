@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "esophageal-cancer calcitonin: calcitonin from esophageal cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "esophageal-cancer substance-p: substance-P from esophageal cells (already mapped) and macrophages (already mapped) modulates esophageal pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "esophageal-cancer insulin-receptor: insulin receptor on esophageal cells (already mapped) and macrophages (already mapped) modulates EC metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "esophageal-cancer aldosterone: aldosterone from esophageal cells (already mapped) and macrophages (already mapped) modulates esophageal fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC."
 ---
 
 # Esophageal Cancer
@@ -897,6 +906,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — esophageal-cancer activin-a: activin-A from esophageal cells (already mapped) and macrophages (already mapped) promotes tumour fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — esophageal-cancer cgrp: CGRP from esophageal cells (already mapped) and macrophages (already mapped) modulates oesophageal pain tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — esophageal-cancer calcitonin: calcitonin from esophageal cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — esophageal-cancer substance-p: substance-P from esophageal cells (already mapped) and macrophages (already mapped) modulates esophageal pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — esophageal-cancer insulin-receptor: insulin receptor on esophageal cells (already mapped) and macrophages (already mapped) modulates EC metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — esophageal-cancer aldosterone: aldosterone from esophageal cells (already mapped) and macrophages (already mapped) modulates esophageal fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
 
 ---
 
