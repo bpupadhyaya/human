@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "TSC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC tumour vascular tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "TSC calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "TSC substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "TSC insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives TSC metabolic tone; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
 ---
 
 # Tuberous Sclerosis Complex
@@ -899,6 +908,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — TSC fibronectin: fibronectin in macrophages (already mapped) and fibroblasts (already mapped) scaffolds TSC hamartoma ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — TSC activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) regulates TSC hamartoma fibrosis; activin-a loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — TSC cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC tumour vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — TSC calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — TSC substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — TSC insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives TSC metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 
 ---
 

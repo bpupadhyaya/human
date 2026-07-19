@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "TB substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates TB neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "TB insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives TB metabolic tone; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "TB aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates TB ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of tuberculosis."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "TB androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of TB."
 ---
 
 # Tuberculosis
@@ -899,6 +908,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — TB cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates TB vascular granuloma tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — TB calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates TB calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — TB substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates TB neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — TB insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives TB metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — TB aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates TB ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — TB androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
