@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "PAH insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives PAH metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "PAH androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "PAH norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PAH adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -890,6 +899,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PAH calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PAH substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) vascular-remodelling cascade of PAH.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PAH insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives PAH metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PAH androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PAH norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PAH adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
