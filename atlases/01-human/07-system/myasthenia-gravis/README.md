@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "MG insulin-receptor: insulin receptor on macrophages (already mapped) and dendritic cells (already mapped) drives metabolic repair; insulin-receptor loss amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "MG aldosterone: aldosterone from macrophages (already mapped) and dendritic cells (already mapped) modulates neuromuscular ion balance; aldosterone excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "MG androgen-receptor: Androgen receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates neuromuscular hormonal tone; androgen excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "MG norepinephrine: Norepinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates neuromuscular stress tone; norepinephrine excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG."
 ---
 
 # Myasthenia Gravis
@@ -878,6 +887,9 @@ cross_links:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MG calcitonin: calcitonin from macrophages (already mapped) and dendritic cells (already mapped) modulates neuromuscular calcium balance; calcitonin excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MG substance-p: substance-P from macrophages (already mapped) and dendritic cells (already mapped) modulates neuromuscular immune tone; substance-p excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — MG insulin-receptor: insulin receptor on macrophages (already mapped) and dendritic cells (already mapped) drives metabolic repair; insulin-receptor loss amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MG aldosterone: aldosterone from macrophages (already mapped) and dendritic cells (already mapped) modulates neuromuscular ion balance; aldosterone excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — MG androgen-receptor: Androgen receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates neuromuscular hormonal tone; androgen excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MG norepinephrine: Norepinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates neuromuscular stress tone; norepinephrine excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)

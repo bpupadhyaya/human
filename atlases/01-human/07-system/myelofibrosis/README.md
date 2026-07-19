@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "MF calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "MF substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow pain tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "MF insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives marrow metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "MF aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
 ---
 
 # Myelofibrosis
@@ -887,6 +896,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — MF igf-1: IGF-1 from macrophages (already mapped) and fibroblasts (already mapped) promotes marrow fibrotic growth; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MF cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MF calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MF substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow pain tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — MF insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives marrow metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MF aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 
 ---
 
