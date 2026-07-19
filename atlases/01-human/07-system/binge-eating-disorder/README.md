@@ -561,6 +561,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "BED activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) regulates neuroimmune-fibrotic balance; activin-a excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "BED tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune-fibrotic balance; tgf-beta dysregulation amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "BED cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune tone; cgrp excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "BED calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune calcium balance; calcitonin dysregulation amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -903,6 +912,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — BED notch: NOTCH on astrocytes (already mapped) and microglia (already mapped) regulates neuroimmune cell fate; NOTCH dysregulation amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — BED igf-1: IGF-1 from astrocytes (already mapped) and microglia (already mapped) modulates neurotrophic support; IGF-1 deficiency amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — BED activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) regulates neuroimmune-fibrotic balance; activin-a excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — BED tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune-fibrotic balance; tgf-beta dysregulation amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — BED cgrp: CGRP from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune tone; cgrp excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — BED calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune calcium balance; calcitonin dysregulation amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)

@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "BCC insulin-receptor: insulin receptor on keratinocytes (already mapped) and fibroblasts (already mapped) drives skin metabolic tumour signalling; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "BCC aldosterone: aldosterone from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "BCC androgen-receptor: androgen receptor on keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "BCC adrenomedullin: adrenomedullin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
 ---
 
 # Basal Cell Carcinoma
@@ -881,6 +890,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — BCC calcitonin: calcitonin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BCC.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — BCC substance-p: substance-P from sensory neurons (already mapped) and keratinocytes (already mapped) modulates skin nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BCC.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — BCC insulin-receptor: insulin receptor on keratinocytes (already mapped) and fibroblasts (already mapped) drives skin metabolic tumour signalling; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — BCC aldosterone: aldosterone from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — BCC androgen-receptor: androgen receptor on keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — BCC adrenomedullin: adrenomedullin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
 
 ---
 
