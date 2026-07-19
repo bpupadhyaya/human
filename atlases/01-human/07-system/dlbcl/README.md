@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "DLBCL calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "DLBCL substance-p: substance-P from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "DLBCL insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "DLBCL aldosterone: aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -881,6 +890,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — DLBCL activin-a: activin-A from macrophages (already mapped) and B-cells (already mapped) promotes lymphoma immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — DLBCL cgrp: CGRP from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — DLBCL calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — DLBCL substance-p: substance-P from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — DLBCL insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — DLBCL aldosterone: aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "DIC tgf-beta: TGF-β from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "DIC cgrp: CGRP from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "DIC calcitonin: calcitonin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "DIC substance-p: substance-P from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -898,6 +907,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — DIC igf-1: IGF-1 from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — DIC activin-a: activin-A from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — DIC tgf-beta: TGF-β from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular fibrotic resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — DIC cgrp: CGRP from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — DIC calcitonin: calcitonin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — DIC substance-p: substance-P from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 
 ---
 
