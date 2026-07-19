@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "follicular-lymphoma substance-p: substance-P from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "follicular-lymphoma insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "follicular-lymphoma aldosterone: aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "follicular-lymphoma androgen-receptor: androgen receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL."
 ---
 
 # Follicular Lymphoma
@@ -885,6 +894,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — follicular-lymphoma cgrp: CGRP from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — follicular-lymphoma calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — follicular-lymphoma substance-p: substance-P from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in follicular lymphoma.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — follicular-lymphoma insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — follicular-lymphoma aldosterone: aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — follicular-lymphoma androgen-receptor: androgen receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*

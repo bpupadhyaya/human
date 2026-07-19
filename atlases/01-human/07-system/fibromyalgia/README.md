@@ -561,6 +561,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "fibromyalgia calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) sensitisation cascade in fibromyalgia."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "fibromyalgia insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in fibromyalgia."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "fibromyalgia androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in fibromyalgia."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "fibromyalgia adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in fibromyalgia."
 sources:
   - id: wolfe-2016-fibromyalgia-criteria
     type: peer-reviewed
@@ -902,6 +911,9 @@ FM is not a single-etiology disorder but a convergent syndrome resulting from th
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — fibromyalgia activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in fibromyalgia.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — fibromyalgia tgf-beta: TGF-β from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory resolution; TGF-β excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in fibromyalgia.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — fibromyalgia calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) sensitisation cascade in fibromyalgia.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — fibromyalgia insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in fibromyalgia.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — fibromyalgia androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in fibromyalgia.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — fibromyalgia adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in fibromyalgia.
 
 [^wolfe-2016-fibromyalgia-criteria]: Wolfe F, Clauw DJ, Fitzcharles MA, et al. 2016 Revisions to the 2010/2011 fibromyalgia diagnostic criteria. *Semin Arthritis Rheum.* 2016;46(3):319-329. [doi:10.1016/j.semarthrit.2016.08.012](https://doi.org/10.1016/j.semarthrit.2016.08.012) · [PubMed 27916278](https://pubmed.ncbi.nlm.nih.gov/27916278/)
 [^clauw-2014-fibromyalgia-review]: Clauw DJ. Fibromyalgia: a clinical review. *JAMA.* 2014;311(15):1547-1555. [doi:10.1001/jama.2014.3266](https://doi.org/10.1001/jama.2014.3266) · [PubMed 24737367](https://pubmed.ncbi.nlm.nih.gov/24737367/)
