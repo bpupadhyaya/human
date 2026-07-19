@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "AUD cgrp: CGRP from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "AUD calcitonin: calcitonin from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "AUD substance-p: substance-P from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic neuroinflammation; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "AUD insulin-receptor: insulin receptor on hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD."
 ---
 
 # Alcohol Use Disorder
@@ -951,6 +960,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AUD igf-1: IGF-1 from hepatocytes (already mapped) and hepatic stellate cells (already mapped) regulates liver regeneration; IGF-1 deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AUD activin-a: activin-A from hepatocytes (already mapped) and macrophages (already mapped) regulates liver fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AUD cgrp: CGRP from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AUD calcitonin: calcitonin from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — AUD substance-p: substance-P from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic neuroinflammation; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of alcohol use disorder.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AUD insulin-receptor: insulin receptor on hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
