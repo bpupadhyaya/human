@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "Panic androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates steroid signalling; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Panic adrenomedullin: Adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates panic vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Panic osteopontin: Osteopontin from neurons (already mapped) and astrocytes (already mapped) modulates panic matrix remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Panic fgfr: FGFR on neurons (already mapped) and astrocytes (already mapped) modulates panic neural growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
 ---
 
 # Panic Disorder
@@ -912,6 +921,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Panic insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives stress-circuit metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Panic aldosterone: aldosterone from neurons (already mapped) and astrocytes (already mapped) modulates stress-circuit ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Panic androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates steroid signalling; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Panic adrenomedullin: Adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates panic vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Panic osteopontin: Osteopontin from neurons (already mapped) and astrocytes (already mapped) modulates panic matrix remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Panic fgfr: FGFR on neurons (already mapped) and astrocytes (already mapped) modulates panic neural growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

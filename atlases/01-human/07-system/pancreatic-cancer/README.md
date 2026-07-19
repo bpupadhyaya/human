@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "PanCa substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "PanCa insulin-receptor: Insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives pancreatic metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "PanCa aldosterone: Aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "PanCa androgen-receptor: Androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
 ---
 
 # Pancreatic Cancer
@@ -887,6 +896,9 @@ cross_links:
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PanCa cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PanCa calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PanCa substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of pancreatic cancer.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PanCa insulin-receptor: Insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives pancreatic metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PanCa aldosterone: Aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PanCa androgen-receptor: Androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
 
 ---
 
