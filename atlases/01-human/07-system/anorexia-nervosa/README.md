@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "AN substance-p: substance-P from neurons (already mapped) and adipocytes (already mapped) modulates nociceptive signalling in anorexia; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) cascade of AN."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "AN insulin-receptor: insulin receptor on neurons (already mapped) and adipocytes (already mapped) modulates metabolic energy sensing; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "AN androgen-receptor: androgen receptor on neurons (already mapped) and adipocytes (already mapped) modulates hormonal energy balance; androgen-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "AN adrenomedullin: adrenomedullin from neurons (already mapped) and adipocytes (already mapped) modulates vascular tone in starvation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
 ---
 
 # Anorexia Nervosa
@@ -912,6 +921,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AN cgrp: CGRP from neurons (already mapped) and adipocytes (already mapped) modulates anorexia neuroimmune tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AN calcitonin: calcitonin from neurons (already mapped) and adipocytes (already mapped) modulates calcium balance in starvation; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) cascade of AN.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — AN substance-p: substance-P from neurons (already mapped) and adipocytes (already mapped) modulates nociceptive signalling in anorexia; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) cascade of AN.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AN insulin-receptor: insulin receptor on neurons (already mapped) and adipocytes (already mapped) modulates metabolic energy sensing; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AN androgen-receptor: androgen receptor on neurons (already mapped) and adipocytes (already mapped) modulates hormonal energy balance; androgen-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AN adrenomedullin: adrenomedullin from neurons (already mapped) and adipocytes (already mapped) modulates vascular tone in starvation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)

@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "ACD cgrp: CGRP from macrophages (already mapped) and erythrocytes (already mapped) modulates marrow neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "ACD calcitonin: calcitonin from macrophages (already mapped) and erythrocytes (already mapped) modulates calcium-immune tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "ACD substance-p: substance-P from macrophages (already mapped) and erythrocytes (already mapped) modulates nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "ACD insulin-receptor: insulin receptor on macrophages (already mapped) and erythrocytes (already mapped) modulates iron uptake; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) sequestration cascade of ACD."
 ---
 
 # Anemia of Chronic Disease
@@ -891,6 +900,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ACD fibronectin: fibronectin in macrophages (already mapped) and hepatocytes (already mapped) scaffolds marrow fibrotic ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — ACD notch: NOTCH on macrophages (already mapped) and erythrocytes (already mapped) regulates haematopoietic fate; NOTCH dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ACD cgrp: CGRP from macrophages (already mapped) and erythrocytes (already mapped) modulates marrow neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ACD calcitonin: calcitonin from macrophages (already mapped) and erythrocytes (already mapped) modulates calcium-immune tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — ACD substance-p: substance-P from macrophages (already mapped) and erythrocytes (already mapped) modulates nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ACD insulin-receptor: insulin receptor on macrophages (already mapped) and erythrocytes (already mapped) modulates iron uptake; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
