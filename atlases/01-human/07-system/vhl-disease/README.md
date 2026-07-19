@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "VHL activin-a: activin-A from renal tubular cells (already mapped) and macrophages (already mapped) regulates VHL tumour fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "VHL tgf-beta: TGF-β from renal tubular cells (already mapped) and macrophages (already mapped) drives VHL immune-fibrotic remodelling; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "VHL cgrp: CGRP from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL vascular tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "VHL calcitonin: calcitonin from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease."
 ---
 
 # VHL Disease
@@ -881,6 +890,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — VHL fibronectin: fibronectin in renal tubular cells (already mapped) and macrophages (already mapped) scaffolds VHL tumour ECM; fibronectin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — VHL igf-1: IGF-1 from renal tubular cells (already mapped) and macrophages (already mapped) promotes VHL tumour growth; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — VHL activin-a: activin-A from renal tubular cells (already mapped) and macrophages (already mapped) regulates VHL tumour fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — VHL tgf-beta: TGF-β from renal tubular cells (already mapped) and macrophages (already mapped) drives VHL immune-fibrotic remodelling; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — VHL cgrp: CGRP from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL vascular tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — VHL calcitonin: calcitonin from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
