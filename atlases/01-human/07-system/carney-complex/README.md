@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "carney substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "carney insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "carney norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour sympathetic axis; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "carney adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
 ---
 
 # Carney Complex
@@ -881,6 +890,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — carney cgrp: CGRP from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) myxoma cascade in Carney complex.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — carney calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — carney substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — carney insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — carney norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour sympathetic axis; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — carney adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 
 ---
 

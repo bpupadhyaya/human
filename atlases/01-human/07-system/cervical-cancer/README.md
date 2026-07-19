@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "cervical substance-p: substance-P from sensory neurons (already mapped) and macrophages (already mapped) modulates cervical nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "cervical insulin-receptor: insulin receptor on tumour cells (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "cervical aldosterone: aldosterone from tumour cells (already mapped) and macrophages (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "cervical androgen-receptor: androgen receptor on tumour cells (already mapped) and macrophages (already mapped) modulates tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
 ---
 
 # Cervical Cancer
@@ -882,6 +891,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cervical cgrp: CGRP from tumour cells (already mapped) and macrophages (already mapped) modulates cervical neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cervical calcitonin: calcitonin from tumour cells (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) tumour cascade in cervical cancer.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — cervical substance-p: substance-P from sensory neurons (already mapped) and macrophages (already mapped) modulates cervical nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — cervical insulin-receptor: insulin receptor on tumour cells (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — cervical aldosterone: aldosterone from tumour cells (already mapped) and macrophages (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — cervical androgen-receptor: androgen receptor on tumour cells (already mapped) and macrophages (already mapped) modulates tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 
 ---
 
