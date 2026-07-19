@@ -577,6 +577,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "SUD activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) regulates stimulant-circuit immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "SUD tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) drives stimulant-circuit immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "SUD cgrp: CGRP from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "SUD calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit calcium balance; calcitonin excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
 ---
 
 # Stimulant Use Disorder
@@ -885,6 +894,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — SUD notch: Notch signalling in neurons (already mapped) and astrocytes (already mapped) regulates stimulant-circuit cell fate; notch dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SUD igf-1: IGF-1 from neurons (already mapped) and astrocytes (already mapped) promotes stimulant-circuit neuronal survival; igf-1 dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SUD activin-a: activin-A from neurons (already mapped) and astrocytes (already mapped) regulates stimulant-circuit immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — SUD tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) drives stimulant-circuit immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — SUD cgrp: CGRP from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — SUD calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit calcium balance; calcitonin excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
 
 ## Treatment
 

@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "Stroke activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) regulates post-stroke immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Stroke tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) drives post-stroke immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Stroke cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates post-stroke vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Stroke calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates post-stroke calcium balance; calcitonin excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
 ---
 
 # Stroke
@@ -871,6 +880,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — Stroke notch: Notch signalling in macrophages (already mapped) and endothelial cells (already mapped) regulates post-stroke cell fate; notch dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Stroke igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes post-stroke neuronal survival; igf-1 dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Stroke activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) regulates post-stroke immune-fibrotic balance; activin-a excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Stroke tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) drives post-stroke immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Stroke cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates post-stroke vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Stroke calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates post-stroke calcium balance; calcitonin excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
