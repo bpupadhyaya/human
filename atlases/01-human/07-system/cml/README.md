@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "CML calcitonin: calcitonin from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "CML substance-p: substance-P from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "CML insulin-receptor: insulin receptor on leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "CML aldosterone: aldosterone from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -872,6 +881,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CML activin-a: activin-A from leukaemic stem cells (already mapped) and macrophages (already mapped) regulates CML immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CML cgrp: CGRP from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CML calcitonin: calcitonin from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — CML substance-p: substance-P from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — CML insulin-receptor: insulin receptor on leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — CML aldosterone: aldosterone from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 
 ---
 
