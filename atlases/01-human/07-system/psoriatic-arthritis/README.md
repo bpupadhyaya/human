@@ -582,6 +582,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "PsA insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives joint metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "PsA aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates joint ion balance; aldosterone excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "PsA androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates joint hormonal tone; androgen excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "PsA norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates joint vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA."
 ---
 
 # Psoriatic Arthritis
@@ -917,6 +926,9 @@ Risankizumab (anti-IL-23p19) **failed primary endpoints** in the SURPASS trial f
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PsA activin-a: activin-A from macrophages (already mapped) and fibroblasts (already mapped) modulates psoriatic joint fibrotic signalling; activin-a excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PsA calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates joint calcium balance in PsA; calcitonin excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PsA insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives joint metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PsA aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates joint ion balance; aldosterone excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PsA androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates joint hormonal tone; androgen excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PsA norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates joint vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and il-17a (already mapped) erosive cascade of PsA.
 
 [^ritchlin-2017-psa-review]: Ritchlin CT, Colbert RA, Gladman DD. Psoriatic arthritis. *N Engl J Med.* 2017;376(10):957-970. [doi:10.1056/NEJMra1505557](https://doi.org/10.1056/NEJMra1505557) · [PubMed 28273019](https://pubmed.ncbi.nlm.nih.gov/28273019/)
 [^mease-2015-secukinumab-psa-future2]: Mease PJ, et al. Secukinumab inhibition of interleukin-17A in patients with psoriatic arthritis. *N Engl J Med.* 2015;373(14):1329-1339. [doi:10.1056/NEJMoa1503317](https://doi.org/10.1056/NEJMoa1503317) · [PubMed 26422723](https://pubmed.ncbi.nlm.nih.gov/26422723/)

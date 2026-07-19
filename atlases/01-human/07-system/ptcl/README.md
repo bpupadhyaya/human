@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "PTCL substance-p: substance P from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates T-lymphoma neuroimmune signalling; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "PTCL insulin-receptor: insulin receptor on T-lymphoma cells (already mapped) and macrophages (already mapped) drives lymphoma metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "PTCL aldosterone: aldosterone from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates T-lymphoma ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "PTCL androgen-receptor: androgen receptor on T-lymphoma cells (already mapped) and macrophages (already mapped) modulates lymphoma hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -904,6 +913,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PTCL cgrp: CGRP from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates T-lymphoma neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PTCL calcitonin: calcitonin from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates calcium balance in T-cell lymphoma; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PTCL substance-p: substance P from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates T-lymphoma neuroimmune signalling; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PTCL insulin-receptor: insulin receptor on T-lymphoma cells (already mapped) and macrophages (already mapped) drives lymphoma metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PTCL aldosterone: aldosterone from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates T-lymphoma ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PTCL androgen-receptor: androgen receptor on T-lymphoma cells (already mapped) and macrophages (already mapped) modulates lymphoma hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 
 ---
 
