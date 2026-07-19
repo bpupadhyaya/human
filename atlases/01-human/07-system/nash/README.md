@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "NASH substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "NASH androgen-receptor: Androgen receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "NASH norepinephrine: Norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "NASH adrenomedullin: Adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
 ---
 
 # NASH
@@ -856,6 +865,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — NASH cgrp: CGRP from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — NASH calcitonin: calcitonin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — NASH substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — NASH androgen-receptor: Androgen receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NASH norepinephrine: Norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NASH adrenomedullin: Adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
