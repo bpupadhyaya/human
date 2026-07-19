@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "PD cgrp: CGRP from neurons (already mapped) and microglia (already mapped) modulates dopaminergic neuroimmune tone in Parkinson's; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "PD calcitonin: calcitonin from neurons (already mapped) and microglia (already mapped) modulates dopaminergic calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "PD substance-p: substance-P from neurons (already mapped) and microglia (already mapped) modulates dopaminergic neuroimmune signalling; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "PD insulin-receptor: insulin receptor on neurons (already mapped) and microglia (already mapped) drives dopaminergic metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
 ---
 
 # Parkinson's Disease
@@ -906,6 +915,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PD activin-a: activin-A from neurons (already mapped) and microglia (already mapped) modulates neuroinflammatory tone in Parkinson's disease; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — PD tgf-beta: TGF-β from neurons (already mapped) and microglia (already mapped) drives neuroprotective and fibrotic remodelling in PD; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PD cgrp: CGRP from neurons (already mapped) and microglia (already mapped) modulates dopaminergic neuroimmune tone in Parkinson's; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PD calcitonin: calcitonin from neurons (already mapped) and microglia (already mapped) modulates dopaminergic calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PD substance-p: substance-P from neurons (already mapped) and microglia (already mapped) modulates dopaminergic neuroimmune signalling; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PD insulin-receptor: insulin receptor on neurons (already mapped) and microglia (already mapped) drives dopaminergic metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
