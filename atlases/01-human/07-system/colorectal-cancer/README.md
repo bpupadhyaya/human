@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "colorectal aldosterone: aldosterone in colonocytes (already mapped) and macrophages (already mapped) modulates fluid balance; aldosterone excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "colorectal androgen-receptor: androgen receptor on colonocytes (already mapped) and macrophages (already mapped) modulates CRC androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "colorectal norepinephrine: norepinephrine from colonocytes (already mapped) and macrophages (already mapped) modulates CRC adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "colorectal adrenomedullin: adrenomedullin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
 ---
 
 # Colorectal Cancer
@@ -883,6 +892,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — colorectal substance-p: substance-P from colonocytes (already mapped) and macrophages (already mapped) modulates colorectal pain tone; substance-P excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — colorectal insulin-receptor: insulin receptor on colonocytes (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — colorectal aldosterone: aldosterone in colonocytes (already mapped) and macrophages (already mapped) modulates fluid balance; aldosterone excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in colorectal cancer.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — colorectal androgen-receptor: androgen receptor on colonocytes (already mapped) and macrophages (already mapped) modulates CRC androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — colorectal norepinephrine: norepinephrine from colonocytes (already mapped) and macrophages (already mapped) modulates CRC adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — colorectal adrenomedullin: adrenomedullin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
 
 ---
 

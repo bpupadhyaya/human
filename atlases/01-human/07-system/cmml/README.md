@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "CMML cgrp: CGRP from monocytes (already mapped) and macrophages (already mapped) modulates myeloid neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "CMML calcitonin: calcitonin from monocytes (already mapped) and macrophages (already mapped) modulates myeloid calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "CMML substance-p: substance-P from monocytes (already mapped) and macrophages (already mapped) modulates myeloid nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "CMML insulin-receptor: insulin receptor on monocytes (already mapped) and macrophages (already mapped) modulates myeloid metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -885,6 +894,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — CMML igf-1: IGF-1 on monocytes (already mapped) and macrophages (already mapped) promotes myeloproliferative growth; IGF-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — CMML activin-a: activin-A from monocytes (already mapped) and macrophages (already mapped) regulates myeloid immune-fibrotic balance; activin-A excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — CMML cgrp: CGRP from monocytes (already mapped) and macrophages (already mapped) modulates myeloid neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) myeloproliferative cascade of CMML.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CMML calcitonin: calcitonin from monocytes (already mapped) and macrophages (already mapped) modulates myeloid calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — CMML substance-p: substance-P from monocytes (already mapped) and macrophages (already mapped) modulates myeloid nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — CMML insulin-receptor: insulin receptor on monocytes (already mapped) and macrophages (already mapped) modulates myeloid metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 
 ---
 
