@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "glioblastoma substance-p: substance-P from microglia (already mapped) and tumour cells (already mapped) modulates glioma pain tone; substance-P excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "glioblastoma insulin-receptor: insulin receptor on microglia (already mapped) and tumour cells (already mapped) modulates glioma metabolic axis; insulin-receptor loss amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "glioblastoma aldosterone: aldosterone from microglia (already mapped) and tumour cells (already mapped) modulates glioma fluid balance; aldosterone excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "glioblastoma androgen-receptor: androgen receptor on microglia (already mapped) and tumour cells (already mapped) modulates glioma androgen axis; androgen-receptor loss amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
 ---
 
 # Glioblastoma
@@ -889,6 +898,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — glioblastoma cgrp: CGRP from microglia (already mapped) and tumour cells (already mapped) modulates glioma neuroimmune tone; cgrp excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — glioblastoma calcitonin: calcitonin from microglia (already mapped) and tumour cells (already mapped) modulates glioma calcium balance; calcitonin dysregulation amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — glioblastoma substance-p: substance-P from microglia (already mapped) and tumour cells (already mapped) modulates glioma pain tone; substance-P excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — glioblastoma insulin-receptor: insulin receptor on microglia (already mapped) and tumour cells (already mapped) modulates glioma metabolic axis; insulin-receptor loss amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — glioblastoma aldosterone: aldosterone from microglia (already mapped) and tumour cells (already mapped) modulates glioma fluid balance; aldosterone excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — glioblastoma androgen-receptor: androgen receptor on microglia (already mapped) and tumour cells (already mapped) modulates glioma androgen axis; androgen-receptor loss amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 
 ---
 

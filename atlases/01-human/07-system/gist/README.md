@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "gist calcitonin: calcitonin from stromal cells (already mapped) and tumour cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "gist substance-p: substance-P from stromal cells (already mapped) and tumour cells (already mapped) modulates tumour pain tone; substance-P excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "gist insulin-receptor: insulin receptor on stromal cells (already mapped) and tumour cells (already mapped) modulates GIST metabolic axis; insulin-receptor loss amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "gist aldosterone: aldosterone from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST fluid balance; aldosterone excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
 ---
 
 # GIST
@@ -890,6 +899,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — gist activin-a: activin-A from stromal cells (already mapped) and tumour cells (already mapped) promotes ECM fibrosis; activin-a excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — gist cgrp: CGRP from stromal cells (already mapped) and tumour cells (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — gist calcitonin: calcitonin from stromal cells (already mapped) and tumour cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — gist substance-p: substance-P from stromal cells (already mapped) and tumour cells (already mapped) modulates tumour pain tone; substance-P excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — gist insulin-receptor: insulin receptor on stromal cells (already mapped) and tumour cells (already mapped) modulates GIST metabolic axis; insulin-receptor loss amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — gist aldosterone: aldosterone from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST fluid balance; aldosterone excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
