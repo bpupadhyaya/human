@@ -561,6 +561,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Narcolepsy aldosterone: aldosterone from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Narcolepsy androgen-receptor: Androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Narcolepsy norepinephrine: Norepinephrine from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Narcolepsy adrenomedullin: Adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy."
 sources:
   - id: scammell-2015-narcolepsy-review
     type: peer-reviewed
@@ -882,6 +891,9 @@ Cataplexy is the **pathognomonic** feature of NT1 — sudden, bilateral loss of 
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Narcolepsy substance-p: substance-P from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Narcolepsy insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) drives metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Narcolepsy aldosterone: aldosterone from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Narcolepsy androgen-receptor: Androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Narcolepsy norepinephrine: Norepinephrine from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Narcolepsy adrenomedullin: Adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates hypothalamic tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) orexin-loss cascade of narcolepsy.
 
 [^scammell-2015-narcolepsy-review]: Scammell TE. Narcolepsy. *N Engl J Med.* 2015;373(27):2654-2662. [doi:10.1056/NEJMra1500587](https://doi.org/10.1056/NEJMra1500587) · [PubMed 26716917](https://pubmed.ncbi.nlm.nih.gov/26716917/)
 [^dauvilliers-2007-narcolepsy-clinical]: Dauvilliers Y, Arnulf I, Mignot E. Narcolepsy with cataplexy. *Lancet.* 2007;369(9560):499-511. [doi:10.1016/S0140-6736(07)60237-2](https://doi.org/10.1016/S0140-6736(07)60237-2) · [PubMed 17292770](https://pubmed.ncbi.nlm.nih.gov/17292770/)
