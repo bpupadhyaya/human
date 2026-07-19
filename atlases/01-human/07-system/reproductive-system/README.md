@@ -572,6 +572,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Rep bdnf: BDNF from uterine sensory neurons (already mapped) and macrophages (already mapped) regulates reproductive neural plasticity; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Rep epinephrine: epinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates uterine adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "Rep myostatin: myostatin from uterine cells (already mapped) and macrophages (already mapped) modulates reproductive muscle tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Rep renin: renin from uterine cells (already mapped) and macrophages (already mapped) modulates reproductive angiotensin balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
 ---
 
 # Reproductive System
@@ -872,6 +881,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Rep norepinephrine: norepinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates reproductive vasoconstriction; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Rep adrenomedullin: adrenomedullin from uterine cells (already mapped) and macrophages (already mapped) modulates placental vasodilation; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Rep bdnf: BDNF from uterine sensory neurons (already mapped) and macrophages (already mapped) regulates reproductive neural plasticity; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Rep epinephrine: epinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates uterine adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Rep myostatin: myostatin from uterine cells (already mapped) and macrophages (already mapped) modulates reproductive muscle tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Rep renin: renin from uterine cells (already mapped) and macrophages (already mapped) modulates reproductive angiotensin balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 
 ## Pathology
 
