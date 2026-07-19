@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "FH calcitonin: calcitonin from hepatocytes (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "FH substance-p: substance-P from hepatocytes (already mapped) and macrophages (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "FH insulin-receptor: insulin receptor on hepatocytes (already mapped) and macrophages (already mapped) modulates FH metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "FH aldosterone: aldosterone from hepatocytes (already mapped) and macrophages (already mapped) modulates vascular fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
 ---
 
 # Familial Hypercholesterolemia
@@ -875,6 +884,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — FH activin-a: activin-A from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — FH cgrp: CGRP from hepatocytes (already mapped) and macrophages (already mapped) modulates vascular neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — FH calcitonin: calcitonin from hepatocytes (already mapped) and macrophages (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — FH substance-p: substance-P from hepatocytes (already mapped) and macrophages (already mapped) modulates vascular pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — FH insulin-receptor: insulin receptor on hepatocytes (already mapped) and macrophages (already mapped) modulates FH metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — FH aldosterone: aldosterone from hepatocytes (already mapped) and macrophages (already mapped) modulates vascular fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
