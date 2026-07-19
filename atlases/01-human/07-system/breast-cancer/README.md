@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "breast-cancer aldosterone: aldosterone in macrophages (already mapped) and fibroblasts (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "breast-cancer norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour sympathetic axis; norepinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "breast-cancer adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "breast-cancer bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
 ---
 
 # Breast Cancer
@@ -873,6 +882,9 @@ cross_links:
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — breast-cancer substance-p: substance-P from sensory neurons (already mapped) and macrophages (already mapped) modulates tumour nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — breast-cancer insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives tumour metabolic signalling; insulin-receptor excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) in breast cancer.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — breast-cancer aldosterone: aldosterone in macrophages (already mapped) and fibroblasts (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — breast-cancer norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour sympathetic axis; norepinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — breast-cancer adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — breast-cancer bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
