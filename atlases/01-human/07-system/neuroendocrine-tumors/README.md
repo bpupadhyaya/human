@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "NET aldosterone: aldosterone from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "NET androgen-receptor: Androgen receptor on fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "NET norepinephrine: Norepinephrine from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "NET adrenomedullin: Adrenomedullin from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
 ---
 
 # Neuroendocrine Tumors
@@ -864,6 +873,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — NET substance-p: substance-P from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — NET insulin-receptor: insulin receptor on fibroblasts (already mapped) and endothelial cells (already mapped) drives tumour metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — NET aldosterone: aldosterone from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — NET androgen-receptor: Androgen receptor on fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NET norepinephrine: Norepinephrine from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NET adrenomedullin: Adrenomedullin from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)
