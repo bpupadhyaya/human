@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "gut-microbiome insulin-receptor: insulin receptor on intestinal epithelium (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "gut-microbiome aldosterone: aldosterone from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "gut-microbiome androgen-receptor: androgen receptor on intestinal epithelium (already mapped) and macrophages (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "gut-microbiome norepinephrine: norepinephrine from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
 ---
 
 # Gut Microbiome
@@ -837,6 +846,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — gut-microbiome calcitonin: calcitonin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — gut-microbiome substance-p: substance-P from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — gut-microbiome insulin-receptor: insulin receptor on intestinal epithelium (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — gut-microbiome aldosterone: aldosterone from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — gut-microbiome androgen-receptor: androgen receptor on intestinal epithelium (already mapped) and macrophages (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — gut-microbiome norepinephrine: norepinephrine from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 
 ## Pathology
 

@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "GVHD calcitonin: calcitonin from macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "GVHD substance-p: substance-P from macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "GVHD insulin-receptor: insulin receptor on macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "GVHD aldosterone: aldosterone from macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD."
 ---
 
 # Graft-Versus-Host Disease
@@ -905,6 +914,9 @@ The protective Treg/IL-10 axis is the key biological counterbalance to alloreact
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — GVHD activin-a: activin-A from macrophages (already mapped) and effector T-cells (already mapped) promotes alloreactive fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — GVHD cgrp: CGRP from macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — GVHD calcitonin: calcitonin from macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — GVHD substance-p: substance-P from macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — GVHD insulin-receptor: insulin receptor on macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — GVHD aldosterone: aldosterone from macrophages (already mapped) and effector T-cells (already mapped) modulates alloreactive fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of GVHD.
 
 [^ferrara-2009-gvhd-review]: Ferrara JL, Levine JE, Reddy P, Holler E. Graft-versus-host disease. *Lancet.* 2009;373(9674):1550-1561. [doi:10.1016/S0140-6736(09)60237-3](https://doi.org/10.1016/S0140-6736(09)60237-3) · [PubMed 19380114](https://pubmed.ncbi.nlm.nih.gov/19380114/)
 [^zeiser-2020-ruxolitinib-gvhd-reach]: Zeiser R, von Bubnoff N, Butler J, et al. Ruxolitinib for Glucocorticoid-Refractory Acute Graft-versus-Host Disease. *N Engl J Med.* 2020;382(19):1800-1810. [doi:10.1056/NEJMoa1917635](https://doi.org/10.1056/NEJMoa1917635) · [PubMed 32374962](https://pubmed.ncbi.nlm.nih.gov/32374962/)
