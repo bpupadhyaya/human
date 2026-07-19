@@ -576,6 +576,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "RSV androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates RSV steroid tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "RSV norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates airway adrenergic tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "RSV adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "RSV bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) supports airway neural trophic tone; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
 ---
 
 # RSV
@@ -906,3 +915,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — RSV tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives RSV airway immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RSV aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates airway ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — RSV androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates RSV steroid tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — RSV norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates airway adrenergic tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — RSV adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — RSV bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) supports airway neural trophic tone; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
