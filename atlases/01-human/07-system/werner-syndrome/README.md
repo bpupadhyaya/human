@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "WS cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates WS vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "WS calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates WS calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "WS substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates WS neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "WS insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives WS metabolic senescence; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
 ---
 
 # Werner Syndrome
@@ -922,6 +931,9 @@ cross_links:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — WS activin-a: activin-A from fibroblasts (already mapped) and macrophages (already mapped) drives WRN-deficient fibrotic remodelling; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — WS tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) amplifies WRN-deficient tissue fibrosis; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — WS cgrp: CGRP from macrophages (already mapped) and fibroblasts (already mapped) modulates WS vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — WS calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates WS calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — WS substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates WS neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — WS insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives WS metabolic senescence; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

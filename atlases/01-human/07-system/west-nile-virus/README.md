@@ -576,6 +576,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "WNV androgen-receptor: androgen receptor on astrocytes (already mapped) and macrophages (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "WNV norepinephrine: norepinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "WNV adrenomedullin: adrenomedullin from astrocytes (already mapped) and macrophages (already mapped) modulates WNV vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "WNV bdnf: BDNF from astrocytes (already mapped) and macrophages (already mapped) supports WNV neuroimmune neuroprotection; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
 ---
 
 # West Nile Virus
@@ -882,3 +891,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — WNV insulin-receptor: insulin receptor on astrocytes (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — WNV aldosterone: aldosterone from astrocytes (already mapped) and macrophages (already mapped) modulates neuroinvasion fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — WNV androgen-receptor: androgen receptor on astrocytes (already mapped) and macrophages (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — WNV norepinephrine: norepinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — WNV adrenomedullin: adrenomedullin from astrocytes (already mapped) and macrophages (already mapped) modulates WNV vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — WNV bdnf: BDNF from astrocytes (already mapped) and macrophages (already mapped) supports WNV neuroimmune neuroprotection; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
