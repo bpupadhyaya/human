@@ -561,6 +561,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "HD calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "HD substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "HD insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "HD aldosterone: aldosterone from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -794,3 +803,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — HD tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory resolution; TGF-β excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HD cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HD calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HD substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HD insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HD aldosterone: aldosterone from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
