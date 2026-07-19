@@ -576,6 +576,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "HCV cgrp: CGRP from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "HCV calcitonin: calcitonin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "HCV substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "HCV insulin-receptor: insulin receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
 ---
 
 # Hepatitis C
@@ -889,3 +898,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HCV igf-1: IGF-1 from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HCV activin-a: activin-A from macrophages (already mapped) and hepatocytes (already mapped) regulates hepatic fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HCV cgrp: CGRP from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HCV calcitonin: calcitonin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HCV substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HCV insulin-receptor: insulin receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.

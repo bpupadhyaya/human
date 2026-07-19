@@ -576,6 +576,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "HBV cgrp: CGRP from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "HBV calcitonin: calcitonin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "HBV substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "HBV insulin-receptor: insulin receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV."
 ---
 
 # Hepatitis B
@@ -898,3 +907,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HBV igf-1: IGF-1 from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HBV activin-a: activin-A from macrophages (already mapped) and hepatocytes (already mapped) regulates hepatic fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HBV cgrp: CGRP from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HBV calcitonin: calcitonin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HBV substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HBV insulin-receptor: insulin receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
