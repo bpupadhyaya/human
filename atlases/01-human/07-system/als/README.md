@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "ALS calcitonin: calcitonin from motor neurons (already mapped) and microglia (already mapped) modulates spinal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "ALS tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates spinal neuroinflammatory balance; tgf-beta dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "ALS substance-p: substance-P from motor neurons (already mapped) and microglia (already mapped) modulates spinal nociceptive signalling; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "ALS insulin-receptor: insulin receptor on motor neurons (already mapped) and microglia (already mapped) modulates metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS."
 ---
 
 # ALS
@@ -911,6 +920,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ALS activin-a: activin-A from astrocytes (already mapped) and microglia (already mapped) regulates motor neuron immune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ALS cgrp: CGRP from motor neurons (already mapped) and microglia (already mapped) modulates spinal neuroimmune tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ALS calcitonin: calcitonin from motor neurons (already mapped) and microglia (already mapped) modulates spinal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — ALS tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates spinal neuroinflammatory balance; tgf-beta dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — ALS substance-p: substance-P from motor neurons (already mapped) and microglia (already mapped) modulates spinal nociceptive signalling; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ALS insulin-receptor: insulin receptor on motor neurons (already mapped) and microglia (already mapped) modulates metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)

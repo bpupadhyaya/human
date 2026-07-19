@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "AD insulin-receptor: insulin receptor on neurons (already mapped) and microglia (already mapped) drives metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amyloid-tau cascade of AD."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "AD aldosterone: aldosterone from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amyloid-tau cascade of AD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "AD androgen-receptor: androgen receptor on neurons (already mapped) and microglia (already mapped) modulates neuroprotective sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "AD adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory vasodilation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AD."
 ---
 
 # Alzheimer's Disease
@@ -866,6 +875,9 @@ Microglia play a central, dual role in AD:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AD calcitonin: calcitonin from microglia (already mapped) and neurons (already mapped) modulates cerebrovascular calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amyloid-tau cascade of AD.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — AD substance-p: substance-P from neurons (already mapped) and microglia (already mapped) modulates AD nociceptive signalling; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AD.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AD insulin-receptor: insulin receptor on neurons (already mapped) and microglia (already mapped) drives metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amyloid-tau cascade of AD.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — AD aldosterone: aldosterone from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) amyloid-tau cascade of AD.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AD androgen-receptor: androgen receptor on neurons (already mapped) and microglia (already mapped) modulates neuroprotective sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AD adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory vasodilation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AD.
 
 [^selkoe-2016-alzheimer]: Selkoe DJ, Hardy J. The amyloid hypothesis of Alzheimer's disease at 25 years. *EMBO Mol Med.* 2016;8(6):595-608. [doi:10.15252/emmm.201606210](https://doi.org/10.15252/emmm.201606210) · [PubMed 27025652](https://pubmed.ncbi.nlm.nih.gov/27025652/)
 [^jack-2018-nia-aa]: Jack CR Jr, Bennett DA, Blennow K, et al. NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease. *Alzheimers Dement.* 2018;14(4):535-562. [doi:10.1016/j.jalz.2018.02.018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed 29653606](https://pubmed.ncbi.nlm.nih.gov/29653606/)
