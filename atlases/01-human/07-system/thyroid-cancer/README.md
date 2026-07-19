@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "TC fgfr: FGFR signalling in thyroid cells (already mapped) and macrophages (already mapped) drives TC receptor proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "TC norepinephrine: norepinephrine from thyroid cells (already mapped) and macrophages (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "TC adrenomedullin: adrenomedullin from thyroid cells (already mapped) and macrophages (already mapped) modulates TC vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "TC bdnf: BDNF from thyroid cells (already mapped) and macrophages (already mapped) supports TC neurotrophin signalling; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
 ---
 
 # Thyroid Cancer
@@ -903,6 +912,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — TC aldosterone: aldosterone from macrophages (already mapped) and thyroid cells (already mapped) amplifies TC salt-fluid signalling; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — TC androgen-receptor: androgen receptor on thyroid cells (already mapped) and macrophages (already mapped) modulates TC hormonal growth; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — TC fgfr: FGFR signalling in thyroid cells (already mapped) and macrophages (already mapped) drives TC receptor proliferation; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — TC norepinephrine: norepinephrine from thyroid cells (already mapped) and macrophages (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — TC adrenomedullin: adrenomedullin from thyroid cells (already mapped) and macrophages (already mapped) modulates TC vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — TC bdnf: BDNF from thyroid cells (already mapped) and macrophages (already mapped) supports TC neurotrophin signalling; bdnf dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)

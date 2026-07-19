@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "TTP calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP calcium balance; calcitonin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "TTP substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "TTP insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives TTP metabolic tone; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "TTP aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -922,6 +931,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — TTP tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) amplifies TTP microvascular fibrosis; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — TTP cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP vascular tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — TTP calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — TTP substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — TTP insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives TTP metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — TTP aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 
 ---
 
