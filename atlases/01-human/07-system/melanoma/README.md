@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Melanoma tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives melanoma immunosuppression; TGF-β excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Melanoma substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates pain tone; substance-P excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Melanoma insulin-receptor: insulin-receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin resistance amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Melanoma aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates electrolyte tone; aldosterone excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
 ---
 
 # Melanoma
@@ -857,6 +866,9 @@ cross_links:
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Melanoma notch: NOTCH in fibroblasts (already mapped) and macrophages (already mapped) regulates melanoma cell fate; notch dysregulation amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Melanoma igf-1: IGF-1 from fibroblasts (already mapped) and macrophages (already mapped) promotes melanoma metabolic growth; igf-1 excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Melanoma tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives melanoma immunosuppression; TGF-β excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Melanoma substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates pain tone; substance-P excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — Melanoma insulin-receptor: insulin-receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin resistance amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Melanoma aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates electrolyte tone; aldosterone excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "Medullo tgf-beta: TGF-β from microglia (already mapped) and macrophages (already mapped) modulates tumour immunosuppression; TGF-β excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Medullo calcitonin: calcitonin from microglia (already mapped) and macrophages (already mapped) modulates calcium tone; calcitonin dysregulation amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Medullo substance-p: substance-P from microglia (already mapped) and macrophages (already mapped) modulates pain tone; substance-P excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Medullo insulin-receptor: insulin-receptor on microglia (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin resistance amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
 ---
 
 # Medulloblastoma
@@ -889,6 +898,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Medullo notch: NOTCH in microglia (already mapped) and macrophages (already mapped) regulates cerebellar tumour fate; notch dysregulation amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Medullo igf-1: IGF-1 from microglia (already mapped) and macrophages (already mapped) promotes cerebellar tumour growth; igf-1 excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Medullo tgf-beta: TGF-β from microglia (already mapped) and macrophages (already mapped) modulates tumour immunosuppression; TGF-β excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Medullo calcitonin: calcitonin from microglia (already mapped) and macrophages (already mapped) modulates calcium tone; calcitonin dysregulation amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Medullo substance-p: substance-P from microglia (already mapped) and macrophages (already mapped) modulates pain tone; substance-P excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
+- `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — Medullo insulin-receptor: insulin-receptor on microglia (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin resistance amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
