@@ -573,6 +573,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "IDA calcitonin: calcitonin from macrophages (already mapped) and erythrocyte (already mapped) modulates calcium tone; calcitonin excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "IDA substance-p: substance-P from macrophages (already mapped) and erythrocyte (already mapped) modulates pain tone; substance-P excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "IDA insulin-receptor: insulin-receptor on macrophages (already mapped) and erythrocyte (already mapped) modulates metabolic axis; insulin resistance amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "IDA aldosterone: aldosterone from macrophages (already mapped) and erythrocyte (already mapped) modulates electrolyte tone; aldosterone excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade."
 ---
 
 # Iron Deficiency Anemia
@@ -878,6 +887,9 @@ Iron is essential for:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — IDA activin-a: activin-A from macrophages (already mapped) and erythrocyte (already mapped) drives erythroid fibrosis; activin-a excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — IDA cgrp: CGRP from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid neuroimmune tone; cgrp excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — IDA calcitonin: calcitonin from macrophages (already mapped) and erythrocyte (already mapped) modulates calcium tone; calcitonin excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — IDA substance-p: substance-P from macrophages (already mapped) and erythrocyte (already mapped) modulates pain tone; substance-P excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
+- `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — IDA insulin-receptor: insulin-receptor on macrophages (already mapped) and erythrocyte (already mapped) modulates metabolic axis; insulin resistance amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — IDA aldosterone: aldosterone from macrophages (already mapped) and erythrocyte (already mapped) modulates electrolyte tone; aldosterone excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)
