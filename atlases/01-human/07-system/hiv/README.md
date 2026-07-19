@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "HIV activin-a: activin-A from macrophages (already mapped) and natural-killer cells (already mapped) promotes immune fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "HIV cgrp: CGRP from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "HIV calcitonin: calcitonin from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "HIV substance-p: substance-P from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
 ---
 
 # HIV
@@ -906,6 +915,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — HIV notch: NOTCH on macrophages (already mapped) and natural-killer cells (already mapped) regulates immune lineage commitment; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — HIV igf-1: IGF-1 from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune tissue repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HIV activin-a: activin-A from macrophages (already mapped) and natural-killer cells (already mapped) promotes immune fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HIV cgrp: CGRP from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HIV calcitonin: calcitonin from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HIV substance-p: substance-P from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

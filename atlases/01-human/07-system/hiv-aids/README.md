@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/activin-a
     relation: connects-to
     note: "AIDS activin-a: activin-A from macrophages (already mapped) and natural-killer-cells (already mapped) promotes immune fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "AIDS cgrp: CGRP from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "AIDS calcitonin: calcitonin from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "AIDS substance-p: substance-P from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -874,6 +883,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — AIDS notch: NOTCH on macrophages (already mapped) and natural-killer-cells (already mapped) regulates immune lineage commitment; notch excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — AIDS igf-1: IGF-1 from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune tissue repair; igf-1 excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — AIDS activin-a: activin-A from macrophages (already mapped) and natural-killer-cells (already mapped) promotes immune fibrosis; activin-a excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AIDS cgrp: CGRP from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AIDS calcitonin: calcitonin from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — AIDS substance-p: substance-P from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 
 ## See Also
 
