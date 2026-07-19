@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "RTS substance-p: substance P from fibroblasts (already mapped) and macrophages (already mapped) modulates RTS neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "RTS insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives RTS metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "RTS aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates ion balance in RTS; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "RTS androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates hormonal tone in RTS; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS."
 ---
 
 # Rothmund-Thomson Syndrome
@@ -896,6 +905,9 @@ The cardinal features of RTS type II are: (1) **poikiloderma** — the defining 
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — RTS tgf-beta: TGF-β from fibroblasts (already mapped) and macrophages (already mapped) drives RTS immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — RTS calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates calcium balance in RTS; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — RTS substance-p: substance P from fibroblasts (already mapped) and macrophages (already mapped) modulates RTS neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — RTS insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives RTS metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RTS aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates ion balance in RTS; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — RTS androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates hormonal tone in RTS; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) osteosarcoma cascade of RTS.
 
 [^kitao-1999-recql4-rts]: Kitao S, Shimamoto A, Goto M, et al. Mutations in RECQL4 cause a subset of cases of Rothmund-Thomson syndrome. *Nat Genet.* 1999;22(1):82-84. [doi:10.1038/8788](https://doi.org/10.1038/8788) · [PubMed 10319867](https://pubmed.ncbi.nlm.nih.gov/10319867/)
 [^wang-2003-rts-cancer]: Wang LL, Gannavarapu A, Kozinetz CA, et al. Association between osteosarcoma and deleterious mutations in the RECQL4 gene in Rothmund-Thomson syndrome. *J Natl Cancer Inst.* 2003;95(9):669-674. [doi:10.1093/jnci/95.9.669](https://doi.org/10.1093/jnci/95.9.669) · [PubMed 12734318](https://pubmed.ncbi.nlm.nih.gov/12734318/)

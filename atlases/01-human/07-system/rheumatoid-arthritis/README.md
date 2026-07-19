@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "RA aldosterone: aldosterone from synoviocytes (already mapped) and macrophages (already mapped) modulates joint ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "RA androgen-receptor: androgen receptor on synoviocytes (already mapped) and macrophages (already mapped) modulates joint hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "RA norepinephrine: norepinephrine from synoviocytes (already mapped) and macrophages (already mapped) modulates joint vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "RA adrenomedullin: adrenomedullin from synoviocytes (already mapped) and macrophages (already mapped) modulates joint vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
 ---
 
 # Rheumatoid Arthritis
@@ -909,6 +918,9 @@ RA patients have:
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — RA substance-p: substance P from synoviocytes (already mapped) and macrophages (already mapped) modulates joint neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — RA insulin-receptor: insulin receptor on synoviocytes (already mapped) and macrophages (already mapped) drives joint metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RA aldosterone: aldosterone from synoviocytes (already mapped) and macrophages (already mapped) modulates joint ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — RA androgen-receptor: androgen receptor on synoviocytes (already mapped) and macrophages (already mapped) modulates joint hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — RA norepinephrine: norepinephrine from synoviocytes (already mapped) and macrophages (already mapped) modulates joint vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — RA adrenomedullin: adrenomedullin from synoviocytes (already mapped) and macrophages (already mapped) modulates joint vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
