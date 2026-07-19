@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "NBL aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "NBL androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates hormonal tone; androgen-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "NBL adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour vascular tone; adrenomedullin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "NBL fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) drives tumour angiogenic signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade."
 ---
 
 # Neuroblastoma
@@ -896,6 +905,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — NBL substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates neuroblastoma immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — NBL insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives tumour metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — NBL aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — NBL androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates hormonal tone; androgen-receptor dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NBL adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour vascular tone; adrenomedullin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — NBL fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) drives tumour angiogenic signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)

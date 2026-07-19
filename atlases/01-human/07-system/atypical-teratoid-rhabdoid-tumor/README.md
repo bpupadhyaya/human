@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "ATRT insulin-receptor: insulin receptor on rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "ATRT aldosterone: aldosterone from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "ATRT androgen-receptor: androgen receptor on rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates hormonal tone; androgen-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in ATRT."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "ATRT norepinephrine: norepinephrine from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -878,6 +887,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ATRT calcitonin: calcitonin from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour calcium signalling; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — ATRT substance-p: substance-P from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour neuroinflammation; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ATRT insulin-receptor: insulin receptor on rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ATRT aldosterone: aldosterone from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ATRT androgen-receptor: androgen receptor on rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates hormonal tone; androgen-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — ATRT norepinephrine: norepinephrine from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
 
 ---
 
