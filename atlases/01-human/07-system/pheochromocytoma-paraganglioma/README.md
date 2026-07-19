@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "PPGL androgen-receptor: androgen receptor on macrophages (already mapped) and chromaffin cells (already mapped) modulates steroid signalling; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PPGL adrenomedullin: adrenomedullin from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "PPGL bdnf: BDNF from macrophages (already mapped) and chromaffin cells (already mapped) promotes tumour neural survival; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "PPGL osteopontin: osteopontin from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour matrix remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -901,6 +910,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PPGL substance-p: substance P from macrophages (already mapped) and chromaffin cells (already mapped) modulates catecholamine neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PPGL insulin-receptor: insulin receptor on macrophages (already mapped) and chromaffin cells (already mapped) drives tumour metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PPGL androgen-receptor: androgen receptor on macrophages (already mapped) and chromaffin cells (already mapped) modulates steroid signalling; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PPGL adrenomedullin: adrenomedullin from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PPGL bdnf: BDNF from macrophages (already mapped) and chromaffin cells (already mapped) promotes tumour neural survival; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PPGL osteopontin: osteopontin from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour matrix remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)

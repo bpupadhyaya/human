@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "PNH tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) drives vascular fibrotic remodelling in PNH; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "PNH cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone in PNH; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "PNH calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "PNH substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH vascular neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -851,6 +860,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — PNH igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) drives complement-related metabolic repair; igf-1 dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — PNH activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) modulates haematopoietic inflammatory tone; activin-a excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — PNH tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) drives vascular fibrotic remodelling in PNH; tgf-beta excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PNH cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone in PNH; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PNH calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PNH substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH vascular neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 
 ---
 
