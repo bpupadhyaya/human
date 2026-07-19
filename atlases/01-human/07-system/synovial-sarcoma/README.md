@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "SS aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates ion balance in synovial sarcoma; aldosterone excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "SS androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates hormonal tone; androgen-receptor excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "SS norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "SS adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -885,6 +894,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — SS substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma neuroimmune tone; substance-p excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — SS insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives synovial sarcoma metabolic tone; insulin-receptor loss amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — SS aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates ion balance in synovial sarcoma; aldosterone excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SS androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates hormonal tone; androgen-receptor excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — SS norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — SS adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
 
 ---
 

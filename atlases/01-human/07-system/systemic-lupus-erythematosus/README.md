@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/tgf-beta
     relation: connects-to
     note: "SLE tgf-beta: TGF-β from macrophages (already mapped) and T-cells (already mapped) suppresses SLE autoimmune overdrive; tgf-beta loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "SLE cgrp: CGRP from macrophages (already mapped) and T-cells (already mapped) modulates SLE vascular-immune tone; cgrp dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "SLE calcitonin: calcitonin from macrophages (already mapped) and T-cells (already mapped) modulates SLE calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "SLE substance-p: substance P from macrophages (already mapped) and T-cells (already mapped) modulates SLE neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
 ---
 
 # Systemic Lupus Erythematosus
@@ -891,6 +900,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SLE igf-1: IGF-1 from macrophages (already mapped) and T-cells (already mapped) promotes SLE tissue repair; igf-1 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — SLE activin-a: activin-A from macrophages (already mapped) and T-cells (already mapped) regulates SLE immune tolerance; activin-a loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — SLE tgf-beta: TGF-β from macrophages (already mapped) and T-cells (already mapped) suppresses SLE autoimmune overdrive; tgf-beta loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — SLE cgrp: CGRP from macrophages (already mapped) and T-cells (already mapped) modulates SLE vascular-immune tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — SLE calcitonin: calcitonin from macrophages (already mapped) and T-cells (already mapped) modulates SLE calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — SLE substance-p: substance P from macrophages (already mapped) and T-cells (already mapped) modulates SLE neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
