@@ -581,6 +581,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Measles igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral metabolic repair; igf-1 excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Measles activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes antiviral fibrosis; activin-a excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Measles cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Measles calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
 ---
 
 # Measles
@@ -913,6 +922,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Measles fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary ECM remodelling; fibronectin excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Measles notch: NOTCH in macrophages (already mapped) and endothelial cells (already mapped) regulates antiviral immune fate; notch dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Measles igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral metabolic repair; igf-1 excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Measles activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes antiviral fibrosis; activin-a excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Measles cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Measles calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
