@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "desmoid insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "desmoid aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid fluid balance; aldosterone excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "desmoid norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "desmoid adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
 ---
 
 # Desmoid Tumor
@@ -893,6 +902,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — desmoid calcitonin: calcitonin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — desmoid substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid pain tone; substance-P excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — desmoid insulin-receptor: insulin receptor on fibroblasts (already mapped) and macrophages (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in desmoid tumour.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — desmoid aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid fluid balance; aldosterone excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — desmoid norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — desmoid adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
 
 ---
 
