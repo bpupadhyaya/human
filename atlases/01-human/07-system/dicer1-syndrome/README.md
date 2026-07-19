@@ -574,6 +574,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "dicer1 aldosterone: aldosterone in macrophages (already mapped) and thyroid follicular cells (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "dicer1 norepinephrine: norepinephrine from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "dicer1 adrenomedullin: adrenomedullin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "dicer1 bdnf: BDNF from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 neurotrophin tone; BDNF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -874,6 +883,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — dicer1 substance-p: substance-P from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates neuroendocrine pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — dicer1 insulin-receptor: insulin receptor on macrophages (already mapped) and thyroid follicular cells (already mapped) drives metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — dicer1 aldosterone: aldosterone in macrophages (already mapped) and thyroid follicular cells (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — dicer1 norepinephrine: norepinephrine from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — dicer1 adrenomedullin: adrenomedullin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — dicer1 bdnf: BDNF from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 neurotrophin tone; BDNF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 
 ---
 

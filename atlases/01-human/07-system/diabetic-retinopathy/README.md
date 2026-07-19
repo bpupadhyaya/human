@@ -580,6 +580,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "DR insulin-receptor: insulin receptor on pericytes (already mapped) and macrophages (already mapped) drives retinal metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "DR androgen-receptor: androgen receptor on pericytes (already mapped) and macrophages (already mapped) modulates retinal androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "DR norepinephrine: norepinephrine from pericytes (already mapped) and macrophages (already mapped) modulates retinal adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "DR adrenomedullin: adrenomedullin from pericytes (already mapped) and macrophages (already mapped) modulates retinal vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
 ---
 
 # Diabetic Retinopathy
@@ -877,6 +886,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — DR calcitonin: calcitonin from pericytes (already mapped) and macrophages (already mapped) modulates retinal calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — DR substance-p: substance-P from pericytes (already mapped) and macrophages (already mapped) modulates retinal pain tone; substance-P excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — DR insulin-receptor: insulin receptor on pericytes (already mapped) and macrophages (already mapped) drives retinal metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in diabetic retinopathy.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — DR androgen-receptor: androgen receptor on pericytes (already mapped) and macrophages (already mapped) modulates retinal androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — DR norepinephrine: norepinephrine from pericytes (already mapped) and macrophages (already mapped) modulates retinal adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — DR adrenomedullin: adrenomedullin from pericytes (already mapped) and macrophages (already mapped) modulates retinal vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)
