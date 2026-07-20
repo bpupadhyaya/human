@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "gist adrenomedullin: adrenomedullin from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST vascular tone; adrenomedullin excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "gist bdnf: BDNF from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST neurotrophin axis; bdnf excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "gist epinephrine: epinephrine from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST adrenergic tone; epinephrine excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "gist renin: renin from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST angiotensin axis; renin excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
 ---
 
 # GIST
@@ -914,6 +923,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — gist androgen-receptor: androgen receptor on stromal cells (already mapped) and tumour cells (already mapped) modulates GIST androgen axis; androgen-receptor loss amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — gist norepinephrine: norepinephrine from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST adrenergic tone; norepinephrine excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — gist adrenomedullin: adrenomedullin from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST vascular tone; adrenomedullin excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — gist bdnf: BDNF from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST neurotrophin axis; bdnf excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — gist epinephrine: epinephrine from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST adrenergic tone; epinephrine excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — gist renin: renin from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST angiotensin axis; renin excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
