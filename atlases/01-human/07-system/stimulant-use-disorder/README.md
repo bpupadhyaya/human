@@ -595,6 +595,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "SUD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit hormonal tone; androgen excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "SUD adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "SUD osteopontin: osteopontin from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit ECM; osteopontin excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "SUD fgfr: FGFR on neurons (already mapped) and astrocytes (already mapped) drives stimulant-circuit neural remodelling; fgfr dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
 ---
 
 # Stimulant Use Disorder
@@ -909,6 +918,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — SUD substance-p: substance-P from neurons (already mapped) and astrocytes (already mapped) amplifies reward-circuit neuroinflammation; substance-p excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — SUD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives reward-circuit metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SUD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit hormonal tone; androgen excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — SUD adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — SUD osteopontin: osteopontin from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit ECM; osteopontin excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — SUD fgfr: FGFR on neurons (already mapped) and astrocytes (already mapped) drives stimulant-circuit neural remodelling; fgfr dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
 
 ## Treatment
 
