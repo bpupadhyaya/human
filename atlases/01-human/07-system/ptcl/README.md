@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "PTCL androgen-receptor: androgen receptor on T-lymphoma cells (already mapped) and macrophages (already mapped) modulates lymphoma hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "PTCL norepinephrine: norepinephrine from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates PTCL vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PTCL adrenomedullin: adrenomedullin from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates PTCL vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "PTCL bdnf: BDNF from T-lymphoma cells (already mapped) and macrophages (already mapped) promotes T-lymphoma neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -916,6 +925,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PTCL insulin-receptor: insulin receptor on T-lymphoma cells (already mapped) and macrophages (already mapped) drives lymphoma metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PTCL aldosterone: aldosterone from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates T-lymphoma ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PTCL androgen-receptor: androgen receptor on T-lymphoma cells (already mapped) and macrophages (already mapped) modulates lymphoma hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PTCL norepinephrine: norepinephrine from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates PTCL vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PTCL adrenomedullin: adrenomedullin from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates PTCL vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PTCL bdnf: BDNF from T-lymphoma cells (already mapped) and macrophages (already mapped) promotes T-lymphoma neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 
 ---
 
