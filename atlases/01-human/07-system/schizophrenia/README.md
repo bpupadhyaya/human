@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Sz osteopontin: osteopontin from macrophages (already mapped) and neurons (already mapped) modulates neuroinflammatory matrix remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Sz fgfr: FGFR on macrophages (already mapped) and neurons (already mapped) drives neurodevelopmental remodelling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Sz epinephrine: epinephrine from macrophages (already mapped) and neurons (already mapped) modulates adrenergic stress signalling; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Sz renin: renin from macrophages (already mapped) and neurons (already mapped) links RAAS to cerebral inflammation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia."
 ---
 
 # Schizophrenia
@@ -947,6 +956,9 @@ Notably, schizophrenia shares genetic loci with bipolar disorder, ASD, ADHD, maj
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Sz androgen-receptor: androgen receptor on macrophages (already mapped) and neurons (already mapped) modulates cerebral hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Sz adrenomedullin: adrenomedullin from macrophages (already mapped) and neurons (already mapped) modulates cerebral vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Sz osteopontin: osteopontin from macrophages (already mapped) and neurons (already mapped) modulates neuroinflammatory matrix remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Sz fgfr: FGFR on macrophages (already mapped) and neurons (already mapped) drives neurodevelopmental remodelling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Sz epinephrine: epinephrine from macrophages (already mapped) and neurons (already mapped) modulates adrenergic stress signalling; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Sz renin: renin from macrophages (already mapped) and neurons (already mapped) links RAAS to cerebral inflammation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and dopamine (already mapped) cascade of schizophrenia.
 
 [^howes-2009-dopamine-hypothesis]: Howes OD, Kapur S. The dopamine hypothesis of schizophrenia: version III—the final common pathway. *Schizophr Bull.* 2009;35(3):549-562. [doi:10.1093/schbul/sbp006](https://doi.org/10.1093/schbul/sbp006) · [PubMed 19325164](https://pubmed.ncbi.nlm.nih.gov/19325164/)
 [^moghaddam-2012-glutamate]: Moghaddam B, Javitt D. From revolution to evolution: the glutamate hypothesis of schizophrenia and its implication for treatment. *Neuropsychopharmacology.* 2012;37(1):4-15. [doi:10.1038/npp.2011.181](https://doi.org/10.1038/npp.2011.181) · [PubMed 21956446](https://pubmed.ncbi.nlm.nih.gov/21956446/)
