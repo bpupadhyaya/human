@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "AA adrenomedullin: adrenomedullin from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "AA bdnf: BDNF from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow neuroprotective tone; bdnf deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "AA fgfr: FGFR on macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "AA epinephrine: epinephrine from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) marrow suppression cascade in AA."
 ---
 
 # Aplastic Anemia
@@ -896,6 +905,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AA androgen-receptor: androgen receptor on macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — AA norepinephrine: norepinephrine from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AA adrenomedullin: adrenomedullin from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — AA bdnf: BDNF from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow neuroprotective tone; bdnf deficiency amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — AA fgfr: FGFR on macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) haematopoietic suppression cascade in AA.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — AA epinephrine: epinephrine from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) marrow suppression cascade in AA.
 
 ---
 
