@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "IgAN fgfr: FGFR on mesangial cells (already mapped) and macrophages (already mapped) modulates renal repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "IgAN epinephrine: epinephrine from mesangial cells (already mapped) and macrophages (already mapped) modulates renal adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "IgAN renin: renin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "IgAN myostatin: myostatin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal muscle-wasting axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy."
 ---
 
 # IgA Nephropathy
@@ -867,6 +876,9 @@ IgAN is a **multi-hit disease** described by the Oxford Four-Hit Model:
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — IgAN bdnf: BDNF from mesangial cells (already mapped) and macrophages (already mapped) modulates renal neuroprotective tone; bdnf deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — IgAN osteopontin: osteopontin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal fibrotic inflammation; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — IgAN fgfr: FGFR on mesangial cells (already mapped) and macrophages (already mapped) modulates renal repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — IgAN epinephrine: epinephrine from mesangial cells (already mapped) and macrophages (already mapped) modulates renal adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — IgAN renin: renin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — IgAN myostatin: myostatin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal muscle-wasting axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in IgA nephropathy.
 
 ---
 

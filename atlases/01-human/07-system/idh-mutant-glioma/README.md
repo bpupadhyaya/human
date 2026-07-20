@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "IDH-glioma fgfr: FGFR on microglia (already mapped) and tumour cells (already mapped) modulates glioma repair; fgfr dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "IDH-glioma epinephrine: epinephrine from microglia (already mapped) and tumour cells (already mapped) modulates glioma adrenergic tone; epinephrine excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "IDH-glioma renin: renin from microglia (already mapped) and tumour cells (already mapped) modulates glioma RAAS axis; renin excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "IDH-glioma myostatin: myostatin from microglia (already mapped) and tumour cells (already mapped) modulates glioma muscle-wasting axis; myostatin excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma."
 ---
 
 # IDH-Mutant Glioma
@@ -915,6 +924,9 @@ IDH-mutant glioma with MGMT methylation shows strong alkylating agent sensitivit
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — IDH-glioma androgen-receptor: androgen receptor on microglia (already mapped) and tumour cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — IDH-glioma adrenomedullin: adrenomedullin from microglia (already mapped) and tumour cells (already mapped) modulates glioma vasodilation; adrenomedullin excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — IDH-glioma fgfr: FGFR on microglia (already mapped) and tumour cells (already mapped) modulates glioma repair; fgfr dysregulation amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — IDH-glioma epinephrine: epinephrine from microglia (already mapped) and tumour cells (already mapped) modulates glioma adrenergic tone; epinephrine excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — IDH-glioma renin: renin from microglia (already mapped) and tumour cells (already mapped) modulates glioma RAAS axis; renin excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — IDH-glioma myostatin: myostatin from microglia (already mapped) and tumour cells (already mapped) modulates glioma muscle-wasting axis; myostatin excess amplifies IL-6 (already mapped) and NF-κB (already mapped) and mast-cell (already mapped) cascade in IDH-glioma.
 
 [^mellinghoff-2023-vorasidenib-lgg]: Mellinghoff IK, van den Bent MJ, Blumenthal DT, et al. Vorasidenib in IDH1- or IDH2-mutant low-grade glioma. *N Engl J Med.* 2023;389(7):589-601. [doi:10.1056/NEJMoa2304194](https://doi.org/10.1056/NEJMoa2304194) · [PubMed 37272530](https://pubmed.ncbi.nlm.nih.gov/37272530/)
 [^jiao-2012-atrx-glioma]: Jiao Y, Killela PJ, Reitman ZJ, et al. Frequent ATRX, CIC, FUBP1 and IDH mutations refine the classification of malignant gliomas. *Oncotarget.* 2012;3(7):709-722. [doi:10.18632/oncotarget.588](https://doi.org/10.18632/oncotarget.588) · [PubMed 22869205](https://pubmed.ncbi.nlm.nih.gov/22869205/)
