@@ -582,6 +582,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "IDA aldosterone: aldosterone from macrophages (already mapped) and erythrocyte (already mapped) modulates electrolyte tone; aldosterone excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "IDA androgen-receptor: androgen receptor on macrophages (already mapped) and erythrocyte (already mapped) modulates androgen axis; androgen-receptor loss amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "IDA adrenomedullin: adrenomedullin from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid vasodilation; adrenomedullin loss amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "IDA bdnf: BDNF from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid neurotrophic tone; bdnf deficiency amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade."
 ---
 
 # Iron Deficiency Anemia
@@ -890,6 +899,9 @@ Iron is essential for:
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — IDA substance-p: substance-P from macrophages (already mapped) and erythrocyte (already mapped) modulates pain tone; substance-P excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
 - `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — IDA insulin-receptor: insulin-receptor on macrophages (already mapped) and erythrocyte (already mapped) modulates metabolic axis; insulin resistance amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — IDA aldosterone: aldosterone from macrophages (already mapped) and erythrocyte (already mapped) modulates electrolyte tone; aldosterone excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) iron-deficiency anemia cascade.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — IDA androgen-receptor: androgen receptor on macrophages (already mapped) and erythrocyte (already mapped) modulates androgen axis; androgen-receptor loss amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — IDA adrenomedullin: adrenomedullin from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid vasodilation; adrenomedullin loss amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — IDA bdnf: BDNF from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid neurotrophic tone; bdnf deficiency amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

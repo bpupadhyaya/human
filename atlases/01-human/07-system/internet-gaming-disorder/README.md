@@ -570,6 +570,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "IGD cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "IGD calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "IGD substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "IGD insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -928,6 +937,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — IGD activin-a: activin-A from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — IGD tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory resolution; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — IGD cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — IGD calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — IGD substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — IGD insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
