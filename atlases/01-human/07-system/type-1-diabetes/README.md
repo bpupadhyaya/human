@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "T1D adrenomedullin: adrenomedullin from macrophages (already mapped) and beta-cells (already mapped) modulates islet vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "T1D bdnf: BDNF from macrophages (already mapped) and beta-cells (already mapped) modulates islet neuroimmune survival; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "T1D osteopontin: osteopontin from macrophages (already mapped) and beta-cells (already mapped) promotes islet ECM remodelling in T1D; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "T1D fgfr: FGFR on macrophages (already mapped) and beta-cells (already mapped) drives islet repair; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
 ---
 
 # Type 1 Diabetes
@@ -875,6 +884,9 @@ cross_links:
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — T1D androgen-receptor: androgen receptor on macrophages (already mapped) and beta-cells (already mapped) modulates T1D hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — T1D norepinephrine: norepinephrine from macrophages (already mapped) and beta-cells (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — T1D adrenomedullin: adrenomedullin from macrophages (already mapped) and beta-cells (already mapped) modulates islet vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — T1D bdnf: BDNF from macrophages (already mapped) and beta-cells (already mapped) modulates islet neuroimmune survival; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — T1D osteopontin: osteopontin from macrophages (already mapped) and beta-cells (already mapped) promotes islet ECM remodelling in T1D; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — T1D fgfr: FGFR on macrophages (already mapped) and beta-cells (already mapped) drives islet repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "TSC insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives TSC metabolic tone; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "TSC aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "TSC androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates TSC hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "TSC norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in TSC; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
 ---
 
 # Tuberous Sclerosis Complex
@@ -911,6 +920,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — TSC calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — TSC substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — TSC insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives TSC metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — TSC aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — TSC androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates TSC hormonal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — TSC norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in TSC; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 
 ---
 
