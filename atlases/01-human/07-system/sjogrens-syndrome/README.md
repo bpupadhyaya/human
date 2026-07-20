@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "SjS norepinephrine: norepinephrine from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "SjS adrenomedullin: adrenomedullin from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates exocrine tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "SjS bdnf: BDNF from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates neuroinflammatory gland function; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "SjS osteopontin: osteopontin from macrophages (already mapped) and glandular epithelial cells (already mapped) promotes gland ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
 ---
 
 # Sjögren's Syndrome
@@ -909,6 +918,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — SjS aldosterone: aldosterone from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates glandular ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SjS androgen-receptor: androgen receptor on macrophages (already mapped) and glandular epithelial cells (already mapped) modulates hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — SjS norepinephrine: norepinephrine from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — SjS adrenomedullin: adrenomedullin from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates exocrine tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — SjS bdnf: BDNF from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates neuroinflammatory gland function; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — SjS osteopontin: osteopontin from macrophages (already mapped) and glandular epithelial cells (already mapped) promotes gland ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
 
 ---
 
