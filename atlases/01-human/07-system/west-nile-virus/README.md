@@ -594,6 +594,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "WNV renin: renin from astrocytes (already mapped) and macrophages (already mapped) modulates WNV vascular angiotensin; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "WNV myostatin: myostatin from astrocytes (already mapped) and macrophages (already mapped) modulates WNV neuro-metabolic tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "WNV angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) regulates WNV vascular integrity; angiopoietin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "WNV cortisol: cortisol from macrophages (already mapped) and astrocytes (already mapped) drives WNV stress-immune neuroendocrine tone; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
 ---
 
 # West Nile Virus
@@ -906,3 +915,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — WNV fgfr: FGFR on astrocytes (already mapped) and macrophages (already mapped) modulates WNV neuro-repair; fgfr loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — WNV epinephrine: epinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates WNV adrenergic stress; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — WNV renin: renin from astrocytes (already mapped) and macrophages (already mapped) modulates WNV vascular angiotensin; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — WNV myostatin: myostatin from astrocytes (already mapped) and macrophages (already mapped) modulates WNV neuro-metabolic tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — WNV angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) regulates WNV vascular integrity; angiopoietin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — WNV cortisol: cortisol from macrophages (already mapped) and astrocytes (already mapped) drives WNV stress-immune neuroendocrine tone; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
