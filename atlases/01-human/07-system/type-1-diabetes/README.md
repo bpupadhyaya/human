@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "T1D fgfr: FGFR on macrophages (already mapped) and beta-cells (already mapped) drives islet repair; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "T1D renin: renin from macrophages (already mapped) and beta-cells (already mapped) links RAAS to T1D islet vascular remodelling; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "T1D myostatin: myostatin from macrophages (already mapped) and beta-cells (already mapped) inhibits islet muscle-metabolic signalling; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "T1D angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) regulates islet vascular integrity; angiopoietin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) autoimmune cascade of T1D."
 ---
 
 # Type 1 Diabetes
@@ -887,6 +896,9 @@ cross_links:
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — T1D bdnf: BDNF from macrophages (already mapped) and beta-cells (already mapped) modulates islet neuroimmune survival; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — T1D osteopontin: osteopontin from macrophages (already mapped) and beta-cells (already mapped) promotes islet ECM remodelling in T1D; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — T1D fgfr: FGFR on macrophages (already mapped) and beta-cells (already mapped) drives islet repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — T1D renin: renin from macrophages (already mapped) and beta-cells (already mapped) links RAAS to T1D islet vascular remodelling; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — T1D myostatin: myostatin from macrophages (already mapped) and beta-cells (already mapped) inhibits islet muscle-metabolic signalling; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — T1D angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) regulates islet vascular integrity; angiopoietin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) autoimmune cascade of T1D.
 
 [^atkinson-2014-t1d-lancet]: Atkinson MA, Eisenbarth GS, Michels AW. Type 1 diabetes. *Lancet.* 2014;383(9911):69-82. [doi:10.1016/S0140-6736(13)60591-7](https://doi.org/10.1016/S0140-6736(13)60591-7) · [PubMed 23890997](https://pubmed.ncbi.nlm.nih.gov/23890997/)
 [^herold-2019-teplizumab-t1d]: Herold KC, Bundy BN, Long SA, et al. An anti-CD3 antibody, teplizumab, in relatives at risk for type 1 diabetes. *N Engl J Med.* 2019;381(7):603-613. [doi:10.1056/NEJMoa1905155](https://doi.org/10.1056/NEJMoa1905155) · [PubMed 31180675](https://pubmed.ncbi.nlm.nih.gov/31180675/)

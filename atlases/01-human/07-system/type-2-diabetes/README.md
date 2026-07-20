@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "T2D renin: renin from macrophages (already mapped) and hepatocytes (already mapped) links RAAS to T2D cardiovascular-metabolic remodelling; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) metabolic cascade of T2D."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "T2D myostatin: myostatin from macrophages (already mapped) and hepatocytes (already mapped) inhibits muscle-metabolic signalling in T2D; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) metabolic cascade of T2D."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "T2D angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) regulates T2D vascular integrity; angiopoietin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) metabolic cascade of T2D."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "T2D cortisol: cortisol from macrophages (already mapped) and hepatocytes (already mapped) drives T2D glucocorticoid-metabolic stress; cortisol excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) metabolic cascade of T2D."
 ---
 
 # Type 2 Diabetes
@@ -894,6 +903,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — T2D fgfr: FGFR on macrophages (already mapped) and hepatocytes (already mapped) drives T2D fibroblast metabolic repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — T2D epinephrine: epinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates adrenergic glycaemic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — T2D renin: renin from macrophages (already mapped) and hepatocytes (already mapped) links RAAS to T2D cardiovascular-metabolic remodelling; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — T2D myostatin: myostatin from macrophages (already mapped) and hepatocytes (already mapped) inhibits muscle-metabolic signalling in T2D; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — T2D angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) regulates T2D vascular integrity; angiopoietin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — T2D cortisol: cortisol from macrophages (already mapped) and hepatocytes (already mapped) drives T2D glucocorticoid-metabolic stress; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
