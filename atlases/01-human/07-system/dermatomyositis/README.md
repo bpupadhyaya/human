@@ -595,6 +595,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "dermatomyositis androgen-receptor: androgen receptor on macrophages (already mapped) and muscle cells (already mapped) modulates perimysial androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in DM."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "dermatomyositis norepinephrine: norepinephrine from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in DM."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "dermatomyositis adrenomedullin: adrenomedullin from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in DM."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "dermatomyositis bdnf: BDNF from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in DM."
 ---
 ---
 
@@ -913,6 +922,9 @@ DM carries a ~3–7× elevated cancer risk overall. Anti-TIF1γ (TRIM33) suppres
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — dermatomyositis insulin-receptor: insulin receptor on macrophages (already mapped) and muscle cells (already mapped) modulates perimysial metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in DM.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — dermatomyositis aldosterone: aldosterone from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in DM.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — dermatomyositis androgen-receptor: androgen receptor on macrophages (already mapped) and muscle cells (already mapped) modulates perimysial androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in DM.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — dermatomyositis norepinephrine: norepinephrine from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in DM.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — dermatomyositis adrenomedullin: adrenomedullin from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in DM.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — dermatomyositis bdnf: BDNF from macrophages (already mapped) and muscle cells (already mapped) modulates perimysial neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and IFN-γ (already mapped) and IL-6 (already mapped) cascade in DM.
 
 [^bohan-peter-1975-dm-criteria]: Bohan A, Peter JB. Polymyositis and dermatomyositis. *N Engl J Med.* 1975;292(7):344-347. [doi:10.1056/NEJM197502132920706](https://doi.org/10.1056/NEJM197502132920706) · [PubMed 1090839](https://pubmed.ncbi.nlm.nih.gov/1090839/)
 [^lundberg-2021-iim-classification]: Lundberg IE, et al. 2017 EULAR/ACR classification criteria for adult and juvenile idiopathic inflammatory myopathies. *Arthritis Rheumatol.* 2017;69(12):2271-2282. [doi:10.1002/art.40320](https://doi.org/10.1002/art.40320) · [PubMed 29106061](https://pubmed.ncbi.nlm.nih.gov/29106061/)

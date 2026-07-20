@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "dengue substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "dengue insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates dengue metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "dengue aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "dengue androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates dengue sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever."
 ---
 
 # Dengue Fever
@@ -883,3 +892,6 @@ No approved antiviral therapy for dengue. Management is entirely supportive:
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — dengue cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — dengue calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — dengue substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — dengue insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates dengue metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — dengue aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates dengue fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — dengue androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates dengue sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of dengue fever.
