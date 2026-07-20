@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "MPNST norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) amplifies MPNST stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "MPNST adrenomedullin: adrenomedullin from fibroblasts and macrophages modulates tumour vascular tone; adrenomedullin loss amplifies nf-kb and il-6 and vegf cascade of MPNST."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "MPNST bdnf: BDNF from fibroblasts and macrophages modulates neuroprotective tumour tone; bdnf deficiency amplifies nf-kb and il-6 and vegf cascade of MPNST."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "MPNST fgfr: FGFR on fibroblasts and macrophages modulates tumour proliferation; fgfr dysregulation amplifies nf-kb and il-6 and vegf cascade of MPNST."
 ---
 
 # MPNST
@@ -915,6 +924,9 @@ Wide local excision with negative margins is the only potentially curative inter
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — MPNST notch: NOTCH in fibroblasts (already mapped) and macrophages (already mapped) regulates tumour-stromal immune fate; notch dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — MPNST androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates MPNST androgen axis; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MPNST norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) amplifies MPNST stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of MPNST.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MPNST adrenomedullin: adrenomedullin from fibroblasts and macrophages modulates tumour vascular tone; adrenomedullin loss amplifies nf-kb and il-6 and vegf cascade of MPNST.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MPNST bdnf: BDNF from fibroblasts and macrophages modulates neuroprotective tumour tone; bdnf deficiency amplifies nf-kb and il-6 and vegf cascade of MPNST.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — MPNST fgfr: FGFR on fibroblasts and macrophages modulates tumour proliferation; fgfr dysregulation amplifies nf-kb and il-6 and vegf cascade of MPNST.
 
 [^evans-2002-mpnst-nf1]: Evans DGR, Baser ME, McGaughran J, et al. Malignant peripheral nerve sheath tumours in neurofibromatosis 1. *J Med Genet.* 2002;39(5):311-314. [doi:10.1136/jmg.39.5.311](https://doi.org/10.1136/jmg.39.5.311) · [PubMed 12011145](https://pubmed.ncbi.nlm.nih.gov/12011145/)
 [^lee-2014-mpnst-prc2]: Lee W, Teckie S, Wiesner T, et al. PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors. *Nat Genet.* 2014;46(11):1227-1232. [doi:10.1038/ng.3095](https://doi.org/10.1038/ng.3095) · [PubMed 25240281](https://pubmed.ncbi.nlm.nih.gov/25240281/)

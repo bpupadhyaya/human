@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "MM epinephrine: epinephrine from macrophages (already mapped) and osteoblasts (already mapped) amplifies bone marrow stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "MM renin: renin from macrophages and osteoblasts modulates RAAS-bone marrow axis; renin excess amplifies nf-kb and il-6 and vegf myeloma cascade."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "MM myostatin: myostatin from macrophages and osteoblasts modulates bone marrow muscle axis; myostatin excess amplifies nf-kb and il-6 and vegf myeloma cascade."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "MM angiopoietin: angiopoietin from macrophages and osteoblasts modulates myeloma vascular stability; angiopoietin dysregulation amplifies nf-kb and il-6 and vegf myeloma cascade."
 ---
 
 # Multiple Myeloma
@@ -920,6 +929,9 @@ MM evolves from precursor conditions through a well-defined continuum:
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MM adrenomedullin: adrenomedullin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MM bdnf: BDNF from macrophages (already mapped) and osteoblasts (already mapped) promotes bone marrow neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MM epinephrine: epinephrine from macrophages (already mapped) and osteoblasts (already mapped) amplifies bone marrow stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) myeloma cascade.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — MM renin: renin from macrophages and osteoblasts modulates RAAS-bone marrow axis; renin excess amplifies nf-kb and il-6 and vegf myeloma cascade.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — MM myostatin: myostatin from macrophages and osteoblasts modulates bone marrow muscle axis; myostatin excess amplifies nf-kb and il-6 and vegf myeloma cascade.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — MM angiopoietin: angiopoietin from macrophages and osteoblasts modulates myeloma vascular stability; angiopoietin dysregulation amplifies nf-kb and il-6 and vegf myeloma cascade.
 
 [^kumar-2022-imwg-criteria]: Kumar SK, Callander NS, Adekola K, et al. Multiple myeloma, version 3.2021, NCCN clinical practice guidelines in oncology. *J Natl Compr Canc Netw.* 2020;18(12):1685-1717. [doi:10.6004/jnccn.2020.0057](https://doi.org/10.6004/jnccn.2020.0057) · [PubMed 33285519](https://pubmed.ncbi.nlm.nih.gov/33285519/)
 [^moreau-2022-teclistamab]: Moreau P, Garfall AL, van de Donk NWCJ, et al. Teclistamab in relapsed or refractory multiple myeloma. *N Engl J Med.* 2022;387(6):495-505. [doi:10.1056/NEJMoa2203478](https://doi.org/10.1056/NEJMoa2203478) · [PubMed 35661166](https://pubmed.ncbi.nlm.nih.gov/35661166/)
