@@ -570,6 +570,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "cannabis cgrp: CGRP from microglia (already mapped) and neurons (already mapped) modulates neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "cannabis calcitonin: calcitonin from microglia (already mapped) and neurons (already mapped) modulates neuroimmune calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "cannabis insulin-receptor: insulin receptor on microglia (already mapped) and neurons (already mapped) modulates metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "cannabis androgen-receptor: androgen receptor on microglia (already mapped) and neurons (already mapped) modulates neuroimmune sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder."
 sources:
   - id: hasin-2015-cannabis-disorder
     type: peer-reviewed
@@ -909,6 +918,9 @@ Paradoxical syndrome in heavy long-term users: cyclic vomiting relieved by hot b
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — cannabis activin-a: activin-A from microglia (already mapped) and neurons (already mapped) regulates neuroimmune-fibrotic balance; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — cannabis tgf-beta: TGF-β from microglia (already mapped) and neurons (already mapped) modulates neuroimmune-fibrotic balance; tgf-beta dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — cannabis cgrp: CGRP from microglia (already mapped) and neurons (already mapped) modulates neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cannabis calcitonin: calcitonin from microglia (already mapped) and neurons (already mapped) modulates neuroimmune calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — cannabis insulin-receptor: insulin receptor on microglia (already mapped) and neurons (already mapped) modulates metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — cannabis androgen-receptor: androgen receptor on microglia (already mapped) and neurons (already mapped) modulates neuroimmune sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in cannabis use disorder.
 
 [^hasin-2015-cannabis-disorder]: Hasin DS, Saha TD, Kerridge BT, et al. Prevalence of marijuana use disorders in the United States between 2001-2002 and 2012-2013. *JAMA Psychiatry.* 2015;72(12):1235-1242. [doi:10.1001/jamapsychiatry.2015.1858](https://doi.org/10.1001/jamapsychiatry.2015.1858) · [PubMed 26502112](https://pubmed.ncbi.nlm.nih.gov/26502112/)
 [^budney-2004-cannabis-withdrawal]: Budney AJ, Moore BA, Vandrey RG, Hughes JR. The time course and significance of cannabis withdrawal. *J Abnorm Psychol.* 2003;112(3):393-402. [doi:10.1037/0021-843X.112.3.393](https://doi.org/10.1037/0021-843X.112.3.393) · [PubMed 12943018](https://pubmed.ncbi.nlm.nih.gov/12943018/)

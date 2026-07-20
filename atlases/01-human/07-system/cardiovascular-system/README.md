@@ -594,6 +594,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "cardiovascular osteopontin: osteopontin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac fibrotic remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "cardiovascular fgfr: FGFR on cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac growth; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "cardiovascular epinephrine: epinephrine from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "cardiovascular renin: renin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates RAAS-cardiac axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -868,6 +877,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — cardiovascular adrenomedullin: adrenomedullin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac vasodilation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — cardiovascular bdnf: BDNF from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac neuroplasticity; bdnf dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cardiovascular disease.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — cardiovascular osteopontin: osteopontin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac fibrotic remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — cardiovascular fgfr: FGFR on cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac growth; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — cardiovascular epinephrine: epinephrine from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — cardiovascular renin: renin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates RAAS-cardiac axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
 
 ## Pathology
 
