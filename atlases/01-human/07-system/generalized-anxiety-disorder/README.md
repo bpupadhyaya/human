@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "GAD fgfr: FGFR from astrocytes (already mapped) and microglia (already mapped) modulates GAD neural repair; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "GAD epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) modulates GAD adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "GAD renin: renin from astrocytes (already mapped) and microglia (already mapped) modulates GAD angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "GAD myostatin: myostatin from astrocytes (already mapped) and microglia (already mapped) modulates GAD fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD."
 ---
 
 # Generalized Anxiety Disorder
@@ -933,6 +942,9 @@ Allow **4-8 weeks** for onset of anxiolytic effect. Continue treatment ≥12 mon
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — GAD adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates GAD vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — GAD osteopontin: osteopontin from astrocytes (already mapped) and microglia (already mapped) modulates GAD matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — GAD fgfr: FGFR from astrocytes (already mapped) and microglia (already mapped) modulates GAD neural repair; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — GAD epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) modulates GAD adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — GAD renin: renin from astrocytes (already mapped) and microglia (already mapped) modulates GAD angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — GAD myostatin: myostatin from astrocytes (already mapped) and microglia (already mapped) modulates GAD fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) anxiety cascade of GAD.
 
 [^kessler-2005-gad-prevalence]: Kessler RC, Berglund P, Demler O, et al. Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the NCS Replication. *Arch Gen Psychiatry.* 2005;62(6):593-602. [doi:10.1001/archpsyc.62.6.593](https://doi.org/10.1001/archpsyc.62.6.593) · [PubMed 15939837](https://pubmed.ncbi.nlm.nih.gov/15939837/)
 [^bandelow-2015-anxiety-biology]: Bandelow B, Michaelis S. Epidemiology of anxiety disorders in the 21st century. *Dialogues Clin Neurosci.* 2015;17(3):327-335. [doi:10.31887/DCNS.2015.17.3/bbandelow](https://doi.org/10.31887/DCNS.2015.17.3/bbandelow) · [PubMed 26487812](https://pubmed.ncbi.nlm.nih.gov/26487812/)
