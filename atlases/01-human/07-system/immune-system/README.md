@@ -610,6 +610,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "IS insulin-receptor: insulin receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates immune metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "IS aldosterone: aldosterone from macrophages (already mapped) and dendritic cells (already mapped) modulates immune fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "IS androgen-receptor: androgen receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates immune androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "IS norepinephrine: norepinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates immune adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
 ---
 
 # Immune System
@@ -805,6 +814,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — IS calcitonin: calcitonin from macrophages (already mapped) and dendritic cells (already mapped) modulates immune calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — IS substance-p: substance-P from macrophages (already mapped) and dendritic cells (already mapped) modulates immune pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — IS insulin-receptor: insulin receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates immune metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — IS aldosterone: aldosterone from macrophages (already mapped) and dendritic cells (already mapped) modulates immune fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — IS androgen-receptor: androgen receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates immune androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — IS norepinephrine: norepinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates immune adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 
 ## Pathology
 
