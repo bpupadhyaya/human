@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "MF adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "MF bdnf: bdnf from macrophages (already mapped) and fibroblasts (already mapped) promotes marrow neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "MF epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "MF renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
 ---
 
 # Myelofibrosis
@@ -911,6 +920,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — MF androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates marrow androgen axis; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MF norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MF adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MF bdnf: bdnf from macrophages (already mapped) and fibroblasts (already mapped) promotes marrow neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MF epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — MF renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 
 ---
 

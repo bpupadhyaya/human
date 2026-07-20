@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "MPN bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) promotes clonal marrow neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "MPN fgfr: fgfr from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow growth signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "MPN epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "MPN renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade."
 ---
 
 # Myeloproliferative Neoplasms
@@ -927,6 +936,9 @@ In PV and ET, JAK2 V617F also affects myeloid progenitors → granulocytosis and
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MPN norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MPN adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MPN bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) promotes clonal marrow neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — MPN fgfr: fgfr from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow growth signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MPN epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — MPN renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates clonal marrow renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myeloproliferative cascade.
 
 [^verstovsek-2012-comfort-i]: Verstovsek S, Mesa RA, Gotlib J, et al. A double-blind, placebo-controlled trial of ruxolitinib for myelofibrosis. *N Engl J Med.* 2012;366(9):799-807. [doi:10.1056/NEJMoa1110557](https://doi.org/10.1056/NEJMoa1110557) · [PubMed 22375971](https://pubmed.ncbi.nlm.nih.gov/22375971/)
 [^vannucchi-2015-response]: Vannucchi AM, Kiladjian JJ, Griesshammer M, et al. Ruxolitinib versus standard therapy for the treatment of polycythemia vera. *N Engl J Med.* 2015;372(5):426-435. [doi:10.1056/NEJMoa1409002](https://doi.org/10.1056/NEJMoa1409002) · [PubMed 25426978](https://pubmed.ncbi.nlm.nih.gov/25426978/)
