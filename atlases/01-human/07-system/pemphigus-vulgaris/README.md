@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "PV fgfr: FGFR signalling on keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "PV epinephrine: epinephrine from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "PV renin: renin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal RAAS activation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "PV myostatin: myostatin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal tissue tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
 ---
 
 # Pemphigus Vulgaris
@@ -935,6 +944,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PV bdnf: BDNF from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PV osteopontin: osteopontin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PV fgfr: FGFR signalling on keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — PV epinephrine: epinephrine from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — PV renin: renin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal RAAS activation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — PV myostatin: myostatin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal tissue tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 
 ---
 

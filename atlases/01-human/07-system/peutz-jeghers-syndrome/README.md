@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "PJS adrenomedullin: adrenomedullin from macrophages (already mapped) and epithelial cells (already mapped) modulates GI vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "PJS bdnf: BDNF from macrophages (already mapped) and epithelial cells (already mapped) modulates GI neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "PJS osteopontin: osteopontin from macrophages (already mapped) and epithelial cells (already mapped) modulates GI immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "PJS fgfr: FGFR on macrophages (already mapped) and epithelial cells (already mapped) modulates GI growth signalling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -907,6 +916,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — PJS androgen-receptor: androgen receptor on macrophages (already mapped) and epithelial cells (already mapped) modulates GI hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PJS norepinephrine: norepinephrine from macrophages (already mapped) and epithelial cells (already mapped) modulates GI stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PJS adrenomedullin: adrenomedullin from macrophages (already mapped) and epithelial cells (already mapped) modulates GI vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PJS bdnf: BDNF from macrophages (already mapped) and epithelial cells (already mapped) modulates GI neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PJS osteopontin: osteopontin from macrophages (already mapped) and epithelial cells (already mapped) modulates GI immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PJS fgfr: FGFR on macrophages (already mapped) and epithelial cells (already mapped) modulates GI growth signalling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
 
 ---
 
