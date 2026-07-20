@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "SjS osteopontin: osteopontin from macrophages (already mapped) and glandular epithelial cells (already mapped) promotes gland ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "SjS fgfr: FGFR on macrophages (already mapped) and glandular epithelial cells (already mapped) drives SjS glandular stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "SjS epinephrine: epinephrine from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates SjS adrenergic gland tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "SjS renin: renin from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates SjS vascular RAAS; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS."
 ---
 
 # Sjögren's Syndrome
@@ -921,6 +930,9 @@ Sjögren's syndrome can occur:
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — SjS adrenomedullin: adrenomedullin from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates exocrine tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — SjS bdnf: BDNF from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates neuroinflammatory gland function; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — SjS osteopontin: osteopontin from macrophages (already mapped) and glandular epithelial cells (already mapped) promotes gland ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — SjS fgfr: FGFR on macrophages (already mapped) and glandular epithelial cells (already mapped) drives SjS glandular stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — SjS epinephrine: epinephrine from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates SjS adrenergic gland tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — SjS renin: renin from macrophages (already mapped) and glandular epithelial cells (already mapped) modulates SjS vascular RAAS; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) cascade of SjS.
 
 ---
 

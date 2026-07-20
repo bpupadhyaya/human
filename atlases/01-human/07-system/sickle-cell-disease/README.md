@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "SCD adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone in sickle crises; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "SCD bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates neuroinflammatory tone in SCD; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "SCD fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) drives SCD vascular remodelling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "SCD epinephrine: epinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates SCD adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD."
 ---
 
 # Sickle Cell Disease
@@ -950,6 +959,9 @@ SCD vaso-occlusion is not just from sickled RBCs mechanically blocking vessels �
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SCD androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates SCD hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — SCD norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone in sickle crises; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of SCD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — SCD adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone in sickle crises; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — SCD bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates neuroinflammatory tone in SCD; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — SCD fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) drives SCD vascular remodelling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — SCD epinephrine: epinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates SCD adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) sickling cascade of SCD.
 
 [^steinberg-1999-scd-management]: Steinberg MH. Management of sickle cell disease. *N Engl J Med.* 1999;340(13):1021-1030. [doi:10.1056/NEJM199904013401307](https://doi.org/10.1056/NEJM199904013401307) · [PubMed 10099145](https://pubmed.ncbi.nlm.nih.gov/10099145/)
 [^vichinsky-2000-acs-scd]: Vichinsky EP, Neumayr LD, Earles AN, et al. Causes and outcomes of the acute chest syndrome in sickle cell disease. *N Engl J Med.* 2000;342(25):1855-1865. [doi:10.1056/NEJM200006223422502](https://doi.org/10.1056/NEJM200006223422502) · [PubMed 10861320](https://pubmed.ncbi.nlm.nih.gov/10861320/)
