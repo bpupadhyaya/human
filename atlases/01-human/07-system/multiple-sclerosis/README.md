@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "MS aldosterone: aldosterone from microglia (already mapped) and astrocytes (already mapped) modulates CNS ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "MS androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates CNS androgen axis; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "MS norepinephrine: norepinephrine from microglia (already mapped) and astrocytes (already mapped) modulates CNS stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "MS adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates CNS vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
 ---
 
 # Multiple Sclerosis
@@ -889,6 +898,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MS substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates CNS pain tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — MS insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) drives CNS metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MS aldosterone: aldosterone from microglia (already mapped) and astrocytes (already mapped) modulates CNS ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — MS androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates CNS androgen axis; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MS norepinephrine: norepinephrine from microglia (already mapped) and astrocytes (already mapped) modulates CNS stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MS adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates CNS vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
