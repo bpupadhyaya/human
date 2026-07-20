@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "PNH androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates PNH hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "PNH norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PNH adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "PNH bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH neural survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -875,6 +884,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — PNH insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives PNH metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PNH aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH vascular ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — PNH androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates PNH hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PNH norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PNH adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PNH bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH neural survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 
 ---
 

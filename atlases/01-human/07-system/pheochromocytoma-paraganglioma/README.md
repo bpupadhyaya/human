@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "PPGL angiopoietin: angiopoietin from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour vascular remodelling; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "PPGL cortisol: cortisol from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour stress response; cortisol excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "PPGL ghrelin: ghrelin from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour metabolic signalling; ghrelin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "PPGL glucagon: glucagon from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour glucose metabolism; glucagon excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL."
 ---
 
 # Pheochromocytoma/Paraganglioma
@@ -925,6 +934,9 @@ Active in Cluster 1 (MET/AXL co-expressed in SDH-deficient tumors); Phase 2 CABO
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PPGL fgfr: FGFR signalling on macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour neural proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — PPGL myostatin: myostatin from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour metabolic tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — PPGL angiopoietin: angiopoietin from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour vascular remodelling; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — PPGL cortisol: cortisol from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour stress response; cortisol excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — PPGL ghrelin: ghrelin from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour metabolic signalling; ghrelin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — PPGL glucagon: glucagon from macrophages (already mapped) and chromaffin cells (already mapped) modulates tumour glucose metabolism; glucagon excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of PPGL.
 
 [^lenders-2014-pheo-guideline]: Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an endocrine society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942. [doi:10.1210/jc.2014-1498](https://doi.org/10.1210/jc.2014-1498) · [PubMed 24893135](https://pubmed.ncbi.nlm.nih.gov/24893135/)
 [^baudin-2021-firstmappp-sunitinib]: Baudin E, Goichot B, Berruti A, et al. First International Randomized Study in Malignant Progressive Pheochromocytoma and Paragangliomas (FIRSTMAPPP). *Ann Oncol.* 2021;32(10):1245-1254. [doi:10.1016/j.annonc.2021.07.009](https://doi.org/10.1016/j.annonc.2021.07.009) · [PubMed 34246769](https://pubmed.ncbi.nlm.nih.gov/34246769/)
