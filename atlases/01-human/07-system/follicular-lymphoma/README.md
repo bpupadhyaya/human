@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "follicular-lymphoma bdnf: BDNF from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neurotrophin tone; BDNF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "FL fgfr: FGFR on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma proliferation; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "FL epinephrine: epinephrine from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "FL renin: renin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL."
 ---
 
 # Follicular Lymphoma
@@ -909,6 +918,9 @@ High-risk subset (progression within 24 months of first chemoimmunotherapy): Con
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — follicular-lymphoma norepinephrine: norepinephrine from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — follicular-lymphoma adrenomedullin: adrenomedullin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — follicular-lymphoma bdnf: BDNF from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neurotrophin tone; BDNF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FL fgfr: FGFR on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma proliferation; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — FL epinephrine: epinephrine from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — FL renin: renin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in FL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
