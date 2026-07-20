@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "HLRCC aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "HLRCC androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "HLRCC norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "HLRCC adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -915,6 +924,9 @@ Cutaneous:
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HLRCC substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour neuroimmune tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HLRCC insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HLRCC aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — HLRCC androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HLRCC norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HLRCC adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)

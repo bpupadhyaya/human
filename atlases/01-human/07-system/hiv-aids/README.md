@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "AIDS androgen-receptor: androgen receptor on macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "AIDS norepinephrine: norepinephrine from macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "AIDS adrenomedullin: adrenomedullin from macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "AIDS bdnf: BDNF from macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -898,6 +907,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — AIDS insulin-receptor: insulin receptor on macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — AIDS aldosterone: aldosterone from macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — AIDS androgen-receptor: androgen receptor on macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — AIDS norepinephrine: norepinephrine from macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AIDS adrenomedullin: adrenomedullin from macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — AIDS bdnf: BDNF from macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 
 ## See Also
 
