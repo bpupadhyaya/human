@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "BD osteopontin: osteopontin from neurons (already mapped) and microglia (already mapped) modulates mood immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "BD fgfr: FGFR on neurons (already mapped) and microglia (already mapped) modulates neuroimmune repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "BD epinephrine: epinephrine from neurons (already mapped) and microglia (already mapped) modulates neuroimmune adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "BD renin: renin from neurons (already mapped) and microglia (already mapped) modulates neuroimmune fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD."
 ---
 
 # Bipolar Disorder
@@ -925,6 +934,9 @@ During bipolar depression (often longer and more disabling than mania):
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — BD androgen-receptor: androgen receptor on neurons (already mapped) and microglia (already mapped) modulates mood sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — BD adrenomedullin: adrenomedullin from neurons (already mapped) and microglia (already mapped) modulates mood vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — BD osteopontin: osteopontin from neurons (already mapped) and microglia (already mapped) modulates mood immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) mood-cycling cascade in BD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — BD fgfr: FGFR on neurons (already mapped) and microglia (already mapped) modulates neuroimmune repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — BD epinephrine: epinephrine from neurons (already mapped) and microglia (already mapped) modulates neuroimmune adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — BD renin: renin from neurons (already mapped) and microglia (already mapped) modulates neuroimmune fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory mood-cycling cascade in BD.
 
 [^grande-2016-bipolar-review]: Grande I, Berk M, Birmaher B, Vieta E. Bipolar disorder. *Lancet.* 2016;387(10027):1561-1572. [doi:10.1016/S0140-6736(15)00241-X](https://doi.org/10.1016/S0140-6736(15)00241-X) · [PubMed 26388529](https://pubmed.ncbi.nlm.nih.gov/26388529/)
 [^geddes-2013-bipolar-treatment]: Geddes JR, Miklowitz DJ. Treatment of bipolar disorder. *Lancet.* 2013;381(9878):1672-1682. [doi:10.1016/S0140-6736(13)60857-0](https://doi.org/10.1016/S0140-6736(13)60857-0) · [PubMed 23663953](https://pubmed.ncbi.nlm.nih.gov/23663953/)

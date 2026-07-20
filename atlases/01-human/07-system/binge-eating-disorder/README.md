@@ -579,6 +579,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "BED androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune sex tone; androgen-receptor loss amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "BED adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune vascular tone; adrenomedullin excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "BED osteopontin: osteopontin from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune tone in BED; osteopontin excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory binge-eating cascade."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "BED epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune adrenergic tone; epinephrine excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED."
 sources:
   - id: american-psychiatric-2013-bed-dsm5
     type: clinical-guideline
@@ -927,6 +936,9 @@ BED is among the most psychiatrically comorbid of all eating disorders:
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — BED substance-p: substance-P from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune nociceptive tone; substance-P excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — BED insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) modulates neural metabolic tone; insulin-receptor dysregulation amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — BED androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune sex tone; androgen-receptor loss amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — BED adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune vascular tone; adrenomedullin excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — BED osteopontin: osteopontin from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune tone in BED; osteopontin excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) neuroinflammatory binge-eating cascade.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — BED epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune adrenergic tone; epinephrine excess amplifies NLRP3 (already mapped) and IL-6 (already mapped) and BDNF (already mapped) binge-eating cascade in BED.
 
 [^american-psychiatric-2013-bed-dsm5]: American Psychiatric Association. Binge Eating Disorder (307.51). In: *Diagnostic and Statistical Manual of Mental Disorders, 5th ed.* Arlington, VA: APA; 2013. [doi:10.1176/appi.books.9780890425596](https://doi.org/10.1176/appi.books.9780890425596)
 [^mccallum-2003-bed-review]: McCallum K, Bruton AM. Binge eating disorder: eating disorder or somatic syndrome? *Prim Care Companion J Clin Psychiatry.* 2003;5(Suppl 4):20-25. [PubMed 15213784](https://pubmed.ncbi.nlm.nih.gov/15213784/)
