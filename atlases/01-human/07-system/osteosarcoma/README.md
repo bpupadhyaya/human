@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "OSA adrenomedullin: Adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "OSA bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "OSA epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "OSA renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma RAAS activation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma."
 ---
 
 # Osteosarcoma
@@ -902,6 +911,9 @@ OS is relatively radiation-resistant (high-dose radiation ~70+ Gy may achieve lo
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — OSA androgen-receptor: Androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — OSA norepinephrine: Norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — OSA adrenomedullin: Adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — OSA bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — OSA epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — OSA renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates osteosarcoma RAAS activation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of osteosarcoma.
 
 [^bielack-2002-coss-osteosarcoma]: Bielack SS, Kempf-Bielack B, Delling G, et al. Prognostic factors in high-grade osteosarcoma of the extremities or trunk: an analysis of 1,702 patients treated on neoadjuvant Cooperative Osteosarcoma Study Group protocols. *J Clin Oncol.* 2002;20(3):776-790. [doi:10.1200/JCO.2002.20.3.776](https://doi.org/10.1200/JCO.2002.20.3.776) · [PubMed 11821461](https://pubmed.ncbi.nlm.nih.gov/11821461/)
 [^marina-2016-euramos1-osteosarcoma]: Marina NM, Smeland S, Bielack SS, et al. Comparison of MAPIE versus MAP in patients with a poor response to preoperative chemotherapy for newly diagnosed high-grade osteosarcoma (EURAMOS-1). *Lancet Oncol.* 2016;17(10):1396-1408. [doi:10.1016/S1470-2045(16)30214-5](https://doi.org/10.1016/S1470-2045(16)30214-5) · [PubMed 27569442](https://pubmed.ncbi.nlm.nih.gov/27569442/)

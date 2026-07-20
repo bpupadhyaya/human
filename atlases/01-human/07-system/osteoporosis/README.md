@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "OP bdnf: BDNF from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "OP fgfr: FGFR signalling on osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "OP epinephrine: epinephrine from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "OP renin: renin from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone RAAS activation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis."
 ---
 
 # Osteoporosis
@@ -887,6 +896,9 @@ All newly diagnosed osteoporosis should be evaluated for secondary causes: CBC (
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — OP norepinephrine: Norepinephrine from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — OP adrenomedullin: Adrenomedullin from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — OP bdnf: BDNF from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — OP fgfr: FGFR signalling on osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — OP epinephrine: epinephrine from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — OP renin: renin from osteoblasts (already mapped) and osteoclasts (already mapped) modulates bone RAAS activation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and rankl (already mapped) cascade of osteoporosis.
 
 [^kanis-2019-who-osteoporosis]: Kanis JA, Cooper C, Rizzoli R, Reginster JY. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. *Osteoporos Int.* 2019;30(1):3-44. [doi:10.1007/s00198-018-4704-5](https://doi.org/10.1007/s00198-018-4704-5) · [PubMed 30324412](https://pubmed.ncbi.nlm.nih.gov/30324412/)
 [^cosman-2016-romosozumab]: Cosman F, Crittenden DB, Adachi JD, et al. Romosozumab treatment in postmenopausal women with osteoporosis. *N Engl J Med.* 2016;375(16):1532-1543. [doi:10.1056/NEJMoa1607948](https://doi.org/10.1056/NEJMoa1607948) · [PubMed 27641143](https://pubmed.ncbi.nlm.nih.gov/27641143/)
