@@ -52,6 +52,15 @@ cross_links:
   - target: 01-human/07-system/dlbcl
     relation: connects-to
     note: "EBV+ DLBCL: primarily in immunosenescent patients; latency II/III; LMP1 → NF-κB drives survival; poor prognosis (OS ~2 years); EBV PTLD in transplant recipients: rituximab ± reduced immunosuppression; adoptive EBV-specific CTL therapy effective in PTLD."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "EBV fibronectin: fibronectin from B-cells (already mapped) and macrophages (already mapped) modulates viral ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "EBV notch: Notch signalling on B-cells (already mapped) and macrophages (already mapped) modulates viral latency regulation; notch excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "EBV igf-1: IGF-1 from B-cells (already mapped) and macrophages (already mapped) modulates viral B-cell survival axis; igf-1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -208,6 +217,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[B Cell](../../04-cellular/b-cell/README.md)** — EBV infects B cells via CD21/CR2 → endocytic uptake → nuclear EBNA1 → episome maintenance; EBV drives B-cell immortalization in latency III (all EBNAs + LMP1/2); memory B cells are the long-term EBV reservoir; EBV-driven B-cell lymphomagenesis is CD21-dependent.
 - `connects-to` → **[Hodgkin Lymphoma](../hodgkin-lymphoma/README.md)** — EBV found in ~40% of classical Hodgkin lymphoma Reed-Sternberg cells (predominantly latency II: LMP1 + LMP2A + EBNA1); LMP1 → NF-κB → BCL-2, ICAM-1, CD30, IL-6 in HRS cells; EBV+ cHL has better prognosis in developing countries but similar outcomes in Western cohorts.
 - `connects-to` → **[DLBCL](../dlbcl/README.md)** — EBV+ DLBCL: primarily in immunosenescent patients; latency II/III; LMP1 → NF-κB drives survival; poor prognosis (OS ~2 years); EBV PTLD in transplant recipients: rituximab ± reduced immunosuppression; adoptive EBV-specific CTL therapy effective in PTLD.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — EBV fibronectin: fibronectin from B-cells (already mapped) and macrophages (already mapped) modulates viral ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — EBV notch: Notch signalling on B-cells (already mapped) and macrophages (already mapped) modulates viral latency regulation; notch excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — EBV igf-1: IGF-1 from B-cells (already mapped) and macrophages (already mapped) modulates viral B-cell survival axis; igf-1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 

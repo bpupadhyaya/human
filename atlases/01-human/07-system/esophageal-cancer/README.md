@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "esophageal-cancer aldosterone: aldosterone from esophageal cells (already mapped) and macrophages (already mapped) modulates esophageal fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "esophageal-cancer androgen-receptor: androgen receptor on esophageal cells (already mapped) and macrophages (already mapped) modulates EC sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "esophageal-cancer norepinephrine: norepinephrine from esophageal cells (already mapped) and macrophages (already mapped) modulates EC adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "esophageal-cancer adrenomedullin: adrenomedullin from esophageal cells (already mapped) and macrophages (already mapped) modulates EC vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC."
 ---
 
 # Esophageal Cancer
@@ -909,6 +918,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — esophageal-cancer substance-p: substance-P from esophageal cells (already mapped) and macrophages (already mapped) modulates esophageal pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in esophageal cancer.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — esophageal-cancer insulin-receptor: insulin receptor on esophageal cells (already mapped) and macrophages (already mapped) modulates EC metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — esophageal-cancer aldosterone: aldosterone from esophageal cells (already mapped) and macrophages (already mapped) modulates esophageal fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — esophageal-cancer androgen-receptor: androgen receptor on esophageal cells (already mapped) and macrophages (already mapped) modulates EC sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — esophageal-cancer norepinephrine: norepinephrine from esophageal cells (already mapped) and macrophages (already mapped) modulates EC adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — esophageal-cancer adrenomedullin: adrenomedullin from esophageal cells (already mapped) and macrophages (already mapped) modulates EC vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
 
 ---
 
