@@ -581,6 +581,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "LS aldosterone: aldosterone from endothelial cells (already mapped) and macrophages (already mapped) modulates electrolyte tone; aldosterone excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "LS androgen-receptor: androgen receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates androgen axis; androgen-receptor loss amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic cascade."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "LS bdnf: BDNF from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic neuroprotective tone; bdnf deficiency amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "LS fgfr: FGFR on endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic repair; fgfr dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
 ---
 
 # Lymphatic System
@@ -878,6 +887,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — LS substance-p: substance-P from endothelial cells (already mapped) and macrophages (already mapped) modulates pain tone; substance-P excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 - `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — LS insulin-receptor: insulin-receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin resistance amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — LS aldosterone: aldosterone from endothelial cells (already mapped) and macrophages (already mapped) modulates electrolyte tone; aldosterone excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — LS androgen-receptor: androgen receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates androgen axis; androgen-receptor loss amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic cascade.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — LS bdnf: BDNF from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic neuroprotective tone; bdnf deficiency amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — LS fgfr: FGFR on endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic repair; fgfr dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 
 ## Pathology
 
