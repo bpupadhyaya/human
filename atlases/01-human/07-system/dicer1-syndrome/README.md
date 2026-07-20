@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "dicer1 renin: renin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "dicer1 myostatin: myostatin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "dicer1 angiopoietin: angiopoietin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 angiogenic axis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "dicer1 resistin: resistin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 adipokine axis; resistin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome."
 ---
 
 # DICER1 Syndrome
@@ -898,6 +907,9 @@ When a child is found to have a thoracic cystic lesion, DICER1 syndrome should b
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — dicer1 osteopontin: osteopontin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 stroma; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — dicer1 epinephrine: epinephrine from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — dicer1 renin: renin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — dicer1 myostatin: myostatin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — dicer1 angiopoietin: angiopoietin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 angiogenic axis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — dicer1 resistin: resistin from macrophages (already mapped) and thyroid follicular cells (already mapped) modulates DICER1 adipokine axis; resistin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in DICER1 syndrome.
 
 ---
 

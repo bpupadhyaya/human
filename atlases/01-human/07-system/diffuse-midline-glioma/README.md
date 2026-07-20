@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/myostatin
     relation: connects-to
     note: "diffuse-midline-glioma myostatin: myostatin from microglia (already mapped) and astrocytes (already mapped) modulates glioma muscle-neural axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "diffuse-midline-glioma angiopoietin: angiopoietin from microglia (already mapped) and astrocytes (already mapped) modulates glioma angiogenic axis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "diffuse-midline-glioma resistin: resistin from microglia (already mapped) and astrocytes (already mapped) modulates glioma adipokine axis; resistin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "diffuse-midline-glioma cortisol: cortisol from microglia (already mapped) and astrocytes (already mapped) modulates glioma stress axis; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
 ---
 
 # Diffuse Midline Glioma
@@ -922,6 +931,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — diffuse-midline-glioma epinephrine: epinephrine from microglia (already mapped) and astrocytes (already mapped) modulates glioma adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — diffuse-midline-glioma renin: renin from microglia (already mapped) and astrocytes (already mapped) modulates glioma angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — diffuse-midline-glioma myostatin: myostatin from microglia (already mapped) and astrocytes (already mapped) modulates glioma muscle-neural axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — diffuse-midline-glioma angiopoietin: angiopoietin from microglia (already mapped) and astrocytes (already mapped) modulates glioma angiogenic axis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — diffuse-midline-glioma resistin: resistin from microglia (already mapped) and astrocytes (already mapped) modulates glioma adipokine axis; resistin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — diffuse-midline-glioma cortisol: cortisol from microglia (already mapped) and astrocytes (already mapped) modulates glioma stress axis; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
 
 ---
 
