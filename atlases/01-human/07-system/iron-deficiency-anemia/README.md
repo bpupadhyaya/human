@@ -591,6 +591,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "IDA bdnf: BDNF from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid neurotrophic tone; bdnf deficiency amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "IDA osteopontin: osteopontin from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid fibrotic tone; osteopontin excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "IDA fgfr: FGFR on macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid repair; fgfr dysregulation amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "IDA epinephrine: epinephrine from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid adrenergic tone; epinephrine excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade."
 ---
 
 # Iron Deficiency Anemia
@@ -902,6 +911,9 @@ Iron is essential for:
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — IDA androgen-receptor: androgen receptor on macrophages (already mapped) and erythrocyte (already mapped) modulates androgen axis; androgen-receptor loss amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — IDA adrenomedullin: adrenomedullin from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid vasodilation; adrenomedullin loss amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — IDA bdnf: BDNF from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid neurotrophic tone; bdnf deficiency amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — IDA osteopontin: osteopontin from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid fibrotic tone; osteopontin excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — IDA fgfr: FGFR on macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid repair; fgfr dysregulation amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — IDA epinephrine: epinephrine from macrophages (already mapped) and erythrocyte (already mapped) modulates erythroid adrenergic tone; epinephrine excess amplifies hepcidin (already mapped) and erythropoietin (already mapped) and transferrin (already mapped) IDA cascade.
 
 [^camaschella-2015-iron-deficiency]: Camaschella C. Iron-deficiency anemia. *N Engl J Med.* 2015;372(19):1832-1843. [doi:10.1056/NEJMra1401038](https://doi.org/10.1056/NEJMra1401038) · [PubMed 25946282](https://pubmed.ncbi.nlm.nih.gov/25946282/)
 [^who-ferritin-guideline-2020]: World Health Organization. WHO guideline on use of ferritin concentrations to assess iron status in individuals and populations. WHO; 2020. [WHO publication](https://www.who.int/publications/i/item/9789240000124)

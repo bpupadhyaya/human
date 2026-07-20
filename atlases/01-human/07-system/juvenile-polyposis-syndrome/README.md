@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "JPS adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates vasodilation; adrenomedullin loss amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "JPS bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates polyp neurotrophic tone; bdnf excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "JPS osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates polyp fibrotic tone; osteopontin excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "JPS fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) modulates polyp repair; fgfr dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS."
 ---
 
 # Juvenile Polyposis Syndrome
@@ -913,6 +922,9 @@ No approved chemopreventive agents specifically for JPS. Options under investiga
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — JPS androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — JPS norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates adrenergic tone; norepinephrine excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — JPS adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates vasodilation; adrenomedullin loss amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — JPS bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates polyp neurotrophic tone; bdnf excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — JPS osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates polyp fibrotic tone; osteopontin excess amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — JPS fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) modulates polyp repair; fgfr dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and egfr (already mapped) polyp cascade of JPS.
 
 [^howe-1998-smad4-jps]: Howe JR, Roth S, Ringold JC, et al. Mutations in the SMAD4/DPC4 gene in juvenile polyposis. *Science.* 1998;280(5366):1086-1088. [doi:10.1126/science.280.5366.1086](https://doi.org/10.1126/science.280.5366.1086) · [PubMed 9582123](https://pubmed.ncbi.nlm.nih.gov/9582123/)
 [^aretz-2007-jps-spectrum]: Aretz S, Stienen D, Uhlhaas S, et al. High proportion of large genomic deletions and a genotype-phenotype update in 80 unrelated families with juvenile polyposis syndrome. *J Med Genet.* 2007;44(11):702-709. [doi:10.1136/jmg.2007.051839](https://doi.org/10.1136/jmg.2007.051839) · [PubMed 17601924](https://pubmed.ncbi.nlm.nih.gov/17601924/)
