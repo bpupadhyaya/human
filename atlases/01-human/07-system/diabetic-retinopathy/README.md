@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "DR renin: renin from pericytes (already mapped) and macrophages (already mapped) modulates retinal angiotensin axis; renin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "DR myostatin: myostatin from pericytes (already mapped) and macrophages (already mapped) modulates retinal fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "DR cortisol: cortisol from pericytes (already mapped) and macrophages (already mapped) modulates retinal stress axis; cortisol excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "DR glucagon: glucagon from pericytes (already mapped) and macrophages (already mapped) modulates retinal metabolic axis; glucagon excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
 ---
 
 # Diabetic Retinopathy
@@ -901,6 +910,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — DR fgfr: FGFR on pericytes (already mapped) and macrophages (already mapped) modulates retinal growth factor signalling; fgfr excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — DR epinephrine: epinephrine from pericytes (already mapped) and macrophages (already mapped) modulates retinal adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — DR renin: renin from pericytes (already mapped) and macrophages (already mapped) modulates retinal angiotensin axis; renin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — DR myostatin: myostatin from pericytes (already mapped) and macrophages (already mapped) modulates retinal fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — DR cortisol: cortisol from pericytes (already mapped) and macrophages (already mapped) modulates retinal stress axis; cortisol excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — DR glucagon: glucagon from pericytes (already mapped) and macrophages (already mapped) modulates retinal metabolic axis; glucagon excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

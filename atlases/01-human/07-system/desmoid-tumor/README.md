@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "desmoid renin: renin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid angiotensin axis; renin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "desmoid myostatin: myostatin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "desmoid angiopoietin: angiopoietin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid angiogenic axis; angiopoietin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "desmoid cortisol: cortisol from macrophages (already mapped) and fibroblasts (already mapped) modulates desmoid stress axis; cortisol excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
 ---
 
 # Desmoid Tumor
@@ -917,6 +926,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — desmoid bdnf: BDNF from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — desmoid epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — desmoid renin: renin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid angiotensin axis; renin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — desmoid myostatin: myostatin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — desmoid angiopoietin: angiopoietin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid angiogenic axis; angiopoietin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — desmoid cortisol: cortisol from macrophages (already mapped) and fibroblasts (already mapped) modulates desmoid stress axis; cortisol excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
 
 ---
 
