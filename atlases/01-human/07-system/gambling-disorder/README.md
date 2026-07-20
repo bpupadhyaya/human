@@ -570,6 +570,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "gambling-disorder insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) modulates reward metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of GD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "gambling-disorder androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates reward sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of GD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "gambling-disorder adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates reward vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of GD."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "gambling-disorder osteopontin: osteopontin from astrocytes (already mapped) and microglia (already mapped) modulates reward matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of GD."
 sources:
   - id: grant-2016-gambling-review
     type: peer-reviewed
@@ -900,6 +909,9 @@ Persistent and recurrent problematic gambling behavior causing distress (≥4 of
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — gambling-disorder calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates reward calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of GD.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — gambling-disorder substance-p: substance-P from astrocytes (already mapped) and microglia (already mapped) modulates reward pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of GD.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — gambling-disorder insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) modulates reward metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of GD.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — gambling-disorder androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates reward sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of GD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — gambling-disorder adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates reward vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of GD.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — gambling-disorder osteopontin: osteopontin from astrocytes (already mapped) and microglia (already mapped) modulates reward matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) reward cascade of GD.
 
 [^potenza-2014-gambling-neuroscience]: Potenza MN. The neurobiology of pathological gambling and drug addiction: an overview and new findings. *Philos Trans R Soc Lond B Biol Sci.* 2008;363(1507):3181-3189. [doi:10.1098/rstb.2008.0100](https://doi.org/10.1098/rstb.2008.0100) · [PubMed 18640909](https://pubmed.ncbi.nlm.nih.gov/18640909/)
 [^grant-2016-gambling-review]: Grant JE, Chamberlain SR. Gambling disorder and its relationship with substance use disorders. *Am J Addict.* 2015;24(2):126-131. [doi:10.1111/ajad.12112](https://doi.org/10.1111/ajad.12112) · [PubMed 25376793](https://pubmed.ncbi.nlm.nih.gov/25376793/)
