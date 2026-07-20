@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "ewing-sarcoma norepinephrine: norepinephrine from macrophages (already mapped) and Ewing cells (already mapped) modulates bone-tumour stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "ewing-sarcoma adrenomedullin: adrenomedullin from macrophages (already mapped) and Ewing cells (already mapped) modulates bone vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "ewing-sarcoma bdnf: BDNF from macrophages (already mapped) and Ewing cells (already mapped) modulates bone neurotrophin tone; BDNF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "ewing-sarcoma fgfr: FGFR on macrophages (already mapped) and Ewing cells (already mapped) modulates bone proliferative tone; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -894,6 +903,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ewing-sarcoma aldosterone: aldosterone from macrophages (already mapped) and Ewing cells (already mapped) modulates bone fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — ewing-sarcoma androgen-receptor: androgen receptor on macrophages (already mapped) and Ewing cells (already mapped) modulates bone androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — ewing-sarcoma norepinephrine: norepinephrine from macrophages (already mapped) and Ewing cells (already mapped) modulates bone-tumour stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ewing-sarcoma adrenomedullin: adrenomedullin from macrophages (already mapped) and Ewing cells (already mapped) modulates bone vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — ewing-sarcoma bdnf: BDNF from macrophages (already mapped) and Ewing cells (already mapped) modulates bone neurotrophin tone; BDNF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — ewing-sarcoma fgfr: FGFR on macrophages (already mapped) and Ewing cells (already mapped) modulates bone proliferative tone; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 
 ---
 

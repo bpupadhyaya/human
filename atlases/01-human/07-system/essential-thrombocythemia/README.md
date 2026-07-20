@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "ET calcitonin: calcitonin from megakaryocytes (already mapped) and endothelial cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "ET substance-p: substance-P from megakaryocytes (already mapped) and endothelial cells (already mapped) modulates ET pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "ET insulin-receptor: insulin receptor on megakaryocytes (already mapped) and endothelial cells (already mapped) modulates ET axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "ET aldosterone: aldosterone from megakaryocytes (already mapped) and endothelial cells (already mapped) modulates ET fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia."
 ---
 
 # Essential Thrombocythemia
@@ -889,6 +898,9 @@ Management:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ET activin-a: activin-A from megakaryocytes (already mapped) and endothelial cells (already mapped) modulates myeloid differentiation; activin-A excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ET cgrp: CGRP from megakaryocytes (already mapped) and endothelial cells (already mapped) modulates vascular pain tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ET calcitonin: calcitonin from megakaryocytes (already mapped) and endothelial cells (already mapped) modulates calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — ET substance-p: substance-P from megakaryocytes (already mapped) and endothelial cells (already mapped) modulates ET pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — ET insulin-receptor: insulin receptor on megakaryocytes (already mapped) and endothelial cells (already mapped) modulates ET axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ET aldosterone: aldosterone from megakaryocytes (already mapped) and endothelial cells (already mapped) modulates ET fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and JAK2 (already mapped) cascade in essential thrombocythemia.
 
 [^harrison-2005-pt1-et]: Harrison CN, Campbell PJ, Buck G, et al. Hydroxyurea compared with anagrelide in high-risk essential thrombocythemia. *N Engl J Med.* 2005;353(1):33-45. [doi:10.1056/NEJMoa043800](https://doi.org/10.1056/NEJMoa043800) · [PubMed 16000354](https://pubmed.ncbi.nlm.nih.gov/16000354/)
 [^barbui-2012-ipset]: Barbui T, Finazzi G, Carobbio A, et al. Development and validation of an International Prognostic Score of thrombosis in World Health Organization-essential thrombocythemia (IPSET-thrombosis). *Blood.* 2012;120(26):5128-5133. [doi:10.1182/blood-2012-07-444067](https://doi.org/10.1182/blood-2012-07-444067) · [PubMed 23086758](https://pubmed.ncbi.nlm.nih.gov/23086758/)
