@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "VHL calcitonin: calcitonin from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "VHL substance-p: substance-P from renal tubular cells (already mapped) and macrophages (already mapped) amplifies neurogenic renal inflammation; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "VHL insulin-receptor: insulin receptor on renal tubular cells (already mapped) and macrophages (already mapped) drives VHL metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "VHL aldosterone: aldosterone from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of VHL disease."
 ---
 
 # VHL Disease
@@ -893,6 +902,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — VHL tgf-beta: TGF-β from renal tubular cells (already mapped) and macrophages (already mapped) drives VHL immune-fibrotic remodelling; tgf-beta excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — VHL cgrp: CGRP from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL vascular tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — VHL calcitonin: calcitonin from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — VHL substance-p: substance-P from renal tubular cells (already mapped) and macrophages (already mapped) amplifies neurogenic renal inflammation; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — VHL insulin-receptor: insulin receptor on renal tubular cells (already mapped) and macrophages (already mapped) drives VHL metabolic repair; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — VHL aldosterone: aldosterone from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
