@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "cholangio androgen-receptor: androgen receptor on cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "cholangio norepinephrine: norepinephrine from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "cholangio adrenomedullin: adrenomedullin from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "cholangio bdnf: BDNF from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA."
 ---
 
 # Cholangiocarcinoma
@@ -868,6 +877,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — cholangio insulin-receptor: insulin receptor on cholangiocytes (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — cholangio aldosterone: aldosterone from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in cholangiocarcinoma.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — cholangio androgen-receptor: androgen receptor on cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — cholangio norepinephrine: norepinephrine from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — cholangio adrenomedullin: adrenomedullin from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — cholangio bdnf: BDNF from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
 
 ---
 
