@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "Leish epinephrine: epinephrine from macrophages (already mapped) and mast cells (already mapped) modulates immune adrenergic tone; epinephrine excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Leish renin: renin from macrophages (already mapped) and mast cells (already mapped) modulates immune RAAS axis; renin excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "Leish myostatin: myostatin from macrophages (already mapped) and mast cells (already mapped) modulates immune muscle-wasting axis; myostatin excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Leish cortisol: cortisol from macrophages (already mapped) and mast cells (already mapped) modulates immune stress response; cortisol excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
 ---
 
 # Leishmaniasis
@@ -886,3 +895,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Leish bdnf: BDNF from macrophages (already mapped) and mast cells (already mapped) modulates neuroimmunotrophic tone; bdnf excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Leish fgfr: FGFR on macrophages (already mapped) and mast cells (already mapped) modulates immune repair; fgfr dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Leish epinephrine: epinephrine from macrophages (already mapped) and mast cells (already mapped) modulates immune adrenergic tone; epinephrine excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Leish renin: renin from macrophages (already mapped) and mast cells (already mapped) modulates immune RAAS axis; renin excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Leish myostatin: myostatin from macrophages (already mapped) and mast cells (already mapped) modulates immune muscle-wasting axis; myostatin excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Leish cortisol: cortisol from macrophages (already mapped) and mast cells (already mapped) modulates immune stress response; cortisol excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.

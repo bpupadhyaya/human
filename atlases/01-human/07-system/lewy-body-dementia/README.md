@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "LBD aldosterone: aldosterone from microglia (already mapped) and astrocytes (already mapped) modulates fluid balance; aldosterone excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body cascade."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "LBD androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates androgen axis; androgen-receptor loss amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body cascade."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "LBD adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates vascular tone; adrenomedullin excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "LBD fgfr: FGFR on microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune repair; fgfr dysregulation amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body cascade."
 ---
 
 # Lewy Body Dementia
@@ -921,6 +930,9 @@ Approximately 25-50% of clinically diagnosed DLB cases have significant AD co-pa
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — LBD substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates pain tone; substance-P excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body neurodegeneration cascade.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — LBD insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates metabolic axis; insulin-receptor loss amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body cascade.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — LBD aldosterone: aldosterone from microglia (already mapped) and astrocytes (already mapped) modulates fluid balance; aldosterone excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body cascade.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — LBD androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates androgen axis; androgen-receptor loss amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body cascade.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — LBD adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates vascular tone; adrenomedullin excess amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — LBD fgfr: FGFR on microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune repair; fgfr dysregulation amplifies snca (already mapped) and nlrp3-inflammasome (already mapped) and il-6 (already mapped) Lewy-body cascade.
 
 [^mckeith-2017-dlb-criteria]: McKeith IG, Boeve BF, Dickson DW, et al. Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. *Neurology.* 2017;89(1):88-100. [doi:10.1212/WNL.0000000000004058](https://doi.org/10.1212/WNL.0000000000004058) · [PubMed 28592453](https://pubmed.ncbi.nlm.nih.gov/28592453/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
