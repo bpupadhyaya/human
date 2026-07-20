@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "AIDS substance-p: substance-P from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "AIDS insulin-receptor: insulin receptor on macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "AIDS aldosterone: aldosterone from macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "AIDS androgen-receptor: androgen receptor on macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS."
 ---
 
 # HIV/AIDS
@@ -886,6 +895,9 @@ HIV-1 pathogenesis is primarily driven by CD4⁺ T cell loss:
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — AIDS cgrp: CGRP from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — AIDS calcitonin: calcitonin from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — AIDS substance-p: substance-P from macrophages (already mapped) and natural-killer-cells (already mapped) modulates immune pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — AIDS insulin-receptor: insulin receptor on macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — AIDS aldosterone: aldosterone from macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — AIDS androgen-receptor: androgen receptor on macrophages (already mapped) and natural-killer-cells (already mapped) modulates AIDS androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) in HIV/AIDS.
 
 ## See Also
 
