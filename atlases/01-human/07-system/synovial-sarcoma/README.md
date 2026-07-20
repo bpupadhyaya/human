@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "SS epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates adrenergic tumour tone in synovial sarcoma; epinephrine excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "SS renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma vascular RAAS; renin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "SS myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma muscle wasting; myostatin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "SS cortisol: cortisol from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma stress response; cortisol dysregulation amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -909,6 +918,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — SS bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) drives synovial sarcoma neural trophic tone; bdnf excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — SS osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes synovial sarcoma ECM remodelling; osteopontin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — SS epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates adrenergic tumour tone in synovial sarcoma; epinephrine excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — SS renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma vascular RAAS; renin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — SS myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma muscle wasting; myostatin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — SS cortisol: cortisol from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma stress response; cortisol dysregulation amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
 
 ---
 

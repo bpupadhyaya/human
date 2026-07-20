@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "SLE androgen-receptor: androgen receptor on macrophages (already mapped) and T-cells (already mapped) modulates SLE hormonal immune tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "SLE norepinephrine: norepinephrine from macrophages (already mapped) and T-cells (already mapped) modulates SLE vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "SLE adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cells (already mapped) modulates SLE vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "SLE bdnf: BDNF from macrophages (already mapped) and T-cells (already mapped) modulates SLE neuroinflammatory tone; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) autoimmune cascade of SLE."
 ---
 
 # Systemic Lupus Erythematosus
@@ -915,6 +924,9 @@ Highly polygenic disease with >100 susceptibility loci; heritability ~66%:
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — SLE insulin-receptor: insulin receptor on macrophages (already mapped) and T-cells (already mapped) drives SLE metabolic repair; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — SLE aldosterone: aldosterone from macrophages (already mapped) and T-cells (already mapped) modulates SLE ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SLE androgen-receptor: androgen receptor on macrophages (already mapped) and T-cells (already mapped) modulates SLE hormonal immune tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — SLE norepinephrine: norepinephrine from macrophages (already mapped) and T-cells (already mapped) modulates SLE vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — SLE adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cells (already mapped) modulates SLE vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — SLE bdnf: BDNF from macrophages (already mapped) and T-cells (already mapped) modulates SLE neuroinflammatory tone; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Type-I-Interferon (already mapped) autoimmune cascade of SLE.
 
 [^tsokos-2011-sle-review]: Tsokos GC. Systemic lupus erythematosus. *N Engl J Med.* 2011;365(22):2110-2121. [doi:10.1056/NEJMra1100359](https://doi.org/10.1056/NEJMra1100359) · [PubMed 22129253](https://pubmed.ncbi.nlm.nih.gov/22129253/)
 [^furie-2011-belimumab]: Furie R, Petri M, Zamani O, et al. A phase III, randomized, placebo-controlled study of belimumab, a monoclonal antibody that inhibits B lymphocyte stimulator, in patients with systemic lupus erythematosus. *Arthritis Rheum.* 2011;63(12):3918-3930. [doi:10.1002/art.30613](https://doi.org/10.1002/art.30613) · [PubMed 22127708](https://pubmed.ncbi.nlm.nih.gov/22127708/)
