@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "ATRT osteopontin: osteopontin from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "ATRT epinephrine: epinephrine from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "ATRT renin: renin from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "ATRT myostatin: myostatin from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour tissue tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT."
 ---
 
 # Atypical Teratoid/Rhabdoid Tumor
@@ -902,6 +911,9 @@ AT/RT has no established standard of care; protocols are protocol-driven and cen
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ATRT adrenomedullin: adrenomedullin from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — ATRT bdnf: BDNF from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — ATRT osteopontin: osteopontin from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — ATRT epinephrine: epinephrine from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — ATRT renin: renin from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — ATRT myostatin: myostatin from rhabdoid tumor cells (already mapped) and macrophages (already mapped) modulates tumour tissue tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in ATRT.
 
 ---
 
