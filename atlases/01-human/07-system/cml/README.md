@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "CML aldosterone: aldosterone from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "CML androgen-receptor: androgen receptor on leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "CML norepinephrine: norepinephrine from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "CML adrenomedullin: adrenomedullin from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -884,6 +893,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — CML substance-p: substance-P from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — CML insulin-receptor: insulin receptor on leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — CML aldosterone: aldosterone from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — CML androgen-receptor: androgen receptor on leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CML norepinephrine: norepinephrine from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — CML adrenomedullin: adrenomedullin from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 
 ---
 

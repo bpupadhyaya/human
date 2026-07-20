@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "CMML insulin-receptor: insulin receptor on monocytes (already mapped) and macrophages (already mapped) modulates myeloid metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "CMML aldosterone: aldosterone from monocytes (already mapped) and macrophages (already mapped) modulates myeloid fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "CMML androgen-receptor: androgen receptor on monocytes (already mapped) and macrophages (already mapped) modulates myeloid sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "CMML norepinephrine: norepinephrine from monocytes (already mapped) and macrophages (already mapped) modulates myeloid adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -897,6 +906,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — CMML calcitonin: calcitonin from monocytes (already mapped) and macrophages (already mapped) modulates myeloid calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — CMML substance-p: substance-P from monocytes (already mapped) and macrophages (already mapped) modulates myeloid nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — CMML insulin-receptor: insulin receptor on monocytes (already mapped) and macrophages (already mapped) modulates myeloid metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — CMML aldosterone: aldosterone from monocytes (already mapped) and macrophages (already mapped) modulates myeloid fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — CMML androgen-receptor: androgen receptor on monocytes (already mapped) and macrophages (already mapped) modulates myeloid sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CMML norepinephrine: norepinephrine from monocytes (already mapped) and macrophages (already mapped) modulates myeloid adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 
 ---
 
