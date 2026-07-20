@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "EMC osteopontin: osteopontin from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC matrix tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "EMC epinephrine: epinephrine from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "EMC renin: renin from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "EMC myostatin: myostatin from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC."
 ---
 
 # Endometrial Cancer
@@ -908,6 +917,9 @@ cross_links:
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — EMC adrenomedullin: adrenomedullin from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — EMC bdnf: BDNF from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC neurotrophin axis; BDNF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — EMC osteopontin: osteopontin from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC matrix tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — EMC epinephrine: epinephrine from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — EMC renin: renin from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — EMC myostatin: myostatin from endometrial cells (already mapped) and macrophages (already mapped) modulates EMC fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EMC.
 
 [^konstantinopoulos-2019-dostarlimab]: Konstantinopoulos PA, Lheureux S, Moore KN. PARP inhibitors for ovarian and endometrial cancers: state of the art and clinical perspectives. *J Clin Oncol.* 2020;38(25):2896-2909. [doi:10.1200/JCO.20.00571](https://doi.org/10.1200/JCO.20.00571) · [PubMed 32706635](https://pubmed.ncbi.nlm.nih.gov/32706635/)
 [^eskander-2023-ruby]: Eskander RN, Sill MW, Beffa L, et al. Pembrolizumab plus chemotherapy in advanced endometrial cancer. *N Engl J Med.* 2023;388(23):2159-2170. [doi:10.1056/NEJMoa2302312](https://doi.org/10.1056/NEJMoa2302312) · [PubMed 37166384](https://pubmed.ncbi.nlm.nih.gov/37166384/)

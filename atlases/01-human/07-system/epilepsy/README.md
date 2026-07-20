@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "epilepsy adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "epilepsy osteopontin: osteopontin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "epilepsy fgfr: FGFR on astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory repair; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "epilepsy epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy."
 ---
 
 # Epilepsy
@@ -947,6 +956,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — epilepsy aldosterone: aldosterone from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — epilepsy androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroendocrine sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — epilepsy adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — epilepsy osteopontin: osteopontin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — epilepsy fgfr: FGFR on astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory repair; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — epilepsy epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
