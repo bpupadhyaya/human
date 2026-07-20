@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/myostatin
     relation: connects-to
     note: "NBL myostatin: myostatin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour atrophic tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "NBL angiopoietin: angiopoietin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour angiogenic tone; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "NBL cortisol: cortisol from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour stress response; cortisol excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "NBL ghrelin: ghrelin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour appetite signalling; ghrelin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade."
 ---
 
 # Neuroblastoma
@@ -920,6 +929,9 @@ Stage MS (metastatic, <18 months, skin/liver/bone marrow only, MYCN wild-type): 
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — NBL epinephrine: epinephrine from macrophages (already mapped) and endothelial cells (already mapped) amplifies tumour stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — NBL renin: renin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour renin-angiotensin tone; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — NBL myostatin: myostatin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour atrophic tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — NBL angiopoietin: angiopoietin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour angiogenic tone; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — NBL cortisol: cortisol from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour stress response; cortisol excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — NBL ghrelin: ghrelin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour appetite signalling; ghrelin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade.
 
 [^yu-2010-dinutuximab-nb]: Yu AL, Gilman AL, Ozkaynak MF, et al. Anti-GD2 antibody with GM-CSF, interleukin-2, and isotretinoin for neuroblastoma. *N Engl J Med.* 2010;363(14):1324-1334. [doi:10.1056/NEJMoa0911123](https://doi.org/10.1056/NEJMoa0911123) · [PubMed 20879881](https://pubmed.ncbi.nlm.nih.gov/20879881/)
 [^park-2019-tandem-sct-nb]: Park JR, Kreissman SG, London WB, et al. Effect of tandem autologous stem cell transplant vs single transplant on event-free survival in patients with high-risk neuroblastoma: a randomized clinical trial. *JAMA.* 2019;322(8):746-755. [doi:10.1001/jama.2019.11642](https://doi.org/10.1001/jama.2019.11642) · [PubMed 31454023](https://pubmed.ncbi.nlm.nih.gov/31454023/)
