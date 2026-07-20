@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "PsO insulin-receptor: insulin receptor on keratinocytes (already mapped) and macrophages (already mapped) drives psoriatic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "PsO androgen-receptor: androgen receptor on keratinocytes (already mapped) and macrophages (already mapped) modulates PsO hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "PsO aldosterone: aldosterone from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "PsO norepinephrine: norepinephrine from keratinocytes (already mapped) and macrophages (already mapped) modulates PsO vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
 ---
 
 # Psoriasis
@@ -894,6 +903,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PsO calcitonin: calcitonin from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PsO substance-p: substance-P from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PsO insulin-receptor: insulin receptor on keratinocytes (already mapped) and macrophages (already mapped) drives psoriatic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PsO androgen-receptor: androgen receptor on keratinocytes (already mapped) and macrophages (already mapped) modulates PsO hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PsO aldosterone: aldosterone from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PsO norepinephrine: norepinephrine from keratinocytes (already mapped) and macrophages (already mapped) modulates PsO vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
