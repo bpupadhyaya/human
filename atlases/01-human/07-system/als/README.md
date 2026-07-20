@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "ALS insulin-receptor: insulin receptor on motor neurons (already mapped) and microglia (already mapped) modulates metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "ALS aldosterone: aldosterone from motor neurons (already mapped) and microglia (already mapped) modulates spinal ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "ALS androgen-receptor: androgen receptor on motor neurons (already mapped) and microglia (already mapped) modulates hormonal neuroprotection; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "ALS norepinephrine: norepinephrine from motor neurons (already mapped) and microglia (already mapped) modulates spinal adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS."
 ---
 
 # ALS
@@ -923,6 +932,9 @@ ALS diagnosis is **clinical** — no single definitive biomarker test (though Nf
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — ALS tgf-beta: TGF-β from microglia (already mapped) and astrocytes (already mapped) modulates spinal neuroinflammatory balance; tgf-beta dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — ALS substance-p: substance-P from motor neurons (already mapped) and microglia (already mapped) modulates spinal nociceptive signalling; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ALS insulin-receptor: insulin receptor on motor neurons (already mapped) and microglia (already mapped) modulates metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ALS aldosterone: aldosterone from motor neurons (already mapped) and microglia (already mapped) modulates spinal ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ALS androgen-receptor: androgen receptor on motor neurons (already mapped) and microglia (already mapped) modulates hormonal neuroprotection; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — ALS norepinephrine: norepinephrine from motor neurons (already mapped) and microglia (already mapped) modulates spinal adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ALS.
 
 [^brown-2017-als-review]: Brown RH, Al-Chalabi A. Amyotrophic lateral sclerosis. *N Engl J Med.* 2017;377(2):162-172. [doi:10.1056/NEJMra1603471](https://doi.org/10.1056/NEJMra1603471) · [PubMed 28700839](https://pubmed.ncbi.nlm.nih.gov/28700839/)
 [^edaravone-als-2017]: Writing Group, Edaravone ALS 19 Study Group. Safety and efficacy of edaravone in well defined patients with amyotrophic lateral sclerosis. *Lancet Neurol.* 2017;16(7):505-512. [doi:10.1016/S1474-4422(17)30115-1](https://doi.org/10.1016/S1474-4422(17)30115-1) · [PubMed 28522180](https://pubmed.ncbi.nlm.nih.gov/28522180/)
