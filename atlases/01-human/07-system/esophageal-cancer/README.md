@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "esophageal-cancer adrenomedullin: adrenomedullin from esophageal cells (already mapped) and macrophages (already mapped) modulates EC vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "esophageal-cancer bdnf: BDNF from esophageal cells (already mapped) and macrophages (already mapped) modulates EC neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "esophageal-cancer osteopontin: osteopontin from esophageal cells (already mapped) and macrophages (already mapped) modulates EC matrix remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "esophageal-cancer epinephrine: epinephrine from esophageal cells (already mapped) and macrophages (already mapped) modulates EC adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC."
 ---
 
 # Esophageal Cancer
@@ -921,6 +930,9 @@ T1a: Lamina propria/muscularis mucosae; T1b: Submucosa; T2: Muscularis propria; 
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — esophageal-cancer androgen-receptor: androgen receptor on esophageal cells (already mapped) and macrophages (already mapped) modulates EC sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — esophageal-cancer norepinephrine: norepinephrine from esophageal cells (already mapped) and macrophages (already mapped) modulates EC adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — esophageal-cancer adrenomedullin: adrenomedullin from esophageal cells (already mapped) and macrophages (already mapped) modulates EC vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — esophageal-cancer bdnf: BDNF from esophageal cells (already mapped) and macrophages (already mapped) modulates EC neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — esophageal-cancer osteopontin: osteopontin from esophageal cells (already mapped) and macrophages (already mapped) modulates EC matrix remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — esophageal-cancer epinephrine: epinephrine from esophageal cells (already mapped) and macrophages (already mapped) modulates EC adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in EC.
 
 ---
 
