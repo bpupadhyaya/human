@@ -586,6 +586,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "SUD calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit calcium balance; calcitonin excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "SUD substance-p: substance-P from neurons (already mapped) and astrocytes (already mapped) amplifies reward-circuit neuroinflammation; substance-p excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "SUD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives reward-circuit metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "SUD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit hormonal tone; androgen excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD."
 ---
 
 # Stimulant Use Disorder
@@ -897,6 +906,9 @@ Unlike cocaine, methamphetamine causes **direct neurotoxic damage** to dopaminer
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — SUD tgf-beta: TGF-β from neurons (already mapped) and astrocytes (already mapped) drives stimulant-circuit immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — SUD cgrp: CGRP from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — SUD calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit calcium balance; calcitonin excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — SUD substance-p: substance-P from neurons (already mapped) and astrocytes (already mapped) amplifies reward-circuit neuroinflammation; substance-p excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — SUD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives reward-circuit metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SUD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates stimulant-circuit hormonal tone; androgen excess amplifies nf-kb (already mapped) and dopamine (already mapped) and crh (already mapped) cascade of SUD.
 
 ## Treatment
 
