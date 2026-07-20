@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "NASH epinephrine: epinephrine from macrophages (already mapped) and hepatocytes (already mapped) amplifies hepatic stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "NASH renin: renin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "NASH myostatin: myostatin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic muscle-wasting signalling; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "NASH angiopoietin: angiopoietin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic angiogenic tone; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
 ---
 
 # NASH
@@ -880,6 +889,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — NASH bdnf: BDNF from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — NASH osteopontin: osteopontin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — NASH epinephrine: epinephrine from macrophages (already mapped) and hepatocytes (already mapped) amplifies hepatic stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — NASH renin: renin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — NASH myostatin: myostatin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic muscle-wasting signalling; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — NASH angiopoietin: angiopoietin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic angiogenic tone; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
