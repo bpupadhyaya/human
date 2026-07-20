@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "ASD adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates neuroinflammatory vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "ASD fgfr: FGFR on neurons (already mapped) and astrocytes (already mapped) modulates neural repair tone; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "ASD epinephrine: epinephrine from neurons (already mapped) and astrocytes (already mapped) modulates neural adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "ASD renin: renin from neurons (already mapped) and astrocytes (already mapped) modulates neural fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD."
 ---
 
 # Autism Spectrum Disorder
@@ -920,6 +929,9 @@ The neural basis of ASD social deficits involves dysfunction of the **social bra
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ASD aldosterone: aldosterone from neurons (already mapped) and astrocytes (already mapped) modulates neuroinflammatory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ASD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates connectivity sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ASD adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates neuroinflammatory vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — ASD fgfr: FGFR on neurons (already mapped) and astrocytes (already mapped) modulates neural repair tone; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — ASD epinephrine: epinephrine from neurons (already mapped) and astrocytes (already mapped) modulates neural adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — ASD renin: renin from neurons (already mapped) and astrocytes (already mapped) modulates neural fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) connectivity cascade in ASD.
 
 [^maenner-2023-asd-prevalence]: Maenner MJ, Warren Z, Williams AR, et al. Prevalence and characteristics of autism spectrum disorder among children aged 8 years — ADDM Network, 2020. *MMWR Surveill Summ.* 2023;72(2):1-14. [doi:10.15585/mmwr.ss7202a1](https://doi.org/10.15585/mmwr.ss7202a1) · [PubMed 36952216](https://pubmed.ncbi.nlm.nih.gov/36952216/)
 [^lord-2020-asd-review]: Lord C, Elsabbagh M, Baird G, Veenstra-Vanderweele J. Autism spectrum disorder. *Lancet.* 2018;392(10146):508-520. [doi:10.1016/S0140-6736(18)31129-2](https://doi.org/10.1016/S0140-6736(18)31129-2) · [PubMed 30078460](https://pubmed.ncbi.nlm.nih.gov/30078460/)
