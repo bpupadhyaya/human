@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "DR adrenomedullin: adrenomedullin from pericytes (already mapped) and macrophages (already mapped) modulates retinal vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "DR fgfr: FGFR on pericytes (already mapped) and macrophages (already mapped) modulates retinal growth factor signalling; fgfr excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "DR epinephrine: epinephrine from pericytes (already mapped) and macrophages (already mapped) modulates retinal adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "DR renin: renin from pericytes (already mapped) and macrophages (already mapped) modulates retinal angiotensin axis; renin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR."
 ---
 
 # Diabetic Retinopathy
@@ -889,6 +898,9 @@ DR encompasses a spectrum from subtle vascular changes to sight-threatening neov
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — DR androgen-receptor: androgen receptor on pericytes (already mapped) and macrophages (already mapped) modulates retinal androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — DR norepinephrine: norepinephrine from pericytes (already mapped) and macrophages (already mapped) modulates retinal adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — DR adrenomedullin: adrenomedullin from pericytes (already mapped) and macrophages (already mapped) modulates retinal vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — DR fgfr: FGFR on pericytes (already mapped) and macrophages (already mapped) modulates retinal growth factor signalling; fgfr excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — DR epinephrine: epinephrine from pericytes (already mapped) and macrophages (already mapped) modulates retinal adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — DR renin: renin from pericytes (already mapped) and macrophages (already mapped) modulates retinal angiotensin axis; renin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and IL-6 (already mapped) cascade in DR.
 
 [^fong-2004-dr-review]: Fong DS, Aiello L, Gardner TW, et al. Diabetic retinopathy. *Diabetes Care.* 2004;27(10):2540-2553. [doi:10.2337/diacare.27.10.2540](https://doi.org/10.2337/diacare.27.10.2540) · [PubMed 15451934](https://pubmed.ncbi.nlm.nih.gov/15451934/)
 [^brown-2015-aflibercept-protocol-t]: Diabetic Retinopathy Clinical Research Network; Wells JA, Glassman AR, et al. Aflibercept, Bevacizumab, or Ranibizumab for Diabetic Macular Edema. *N Engl J Med.* 2015;372(13):1193-1203. [doi:10.1056/NEJMoa1414264](https://doi.org/10.1056/NEJMoa1414264) · [PubMed 25692915](https://pubmed.ncbi.nlm.nih.gov/25692915/)

@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "desmoid adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "desmoid bdnf: BDNF from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "desmoid epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "desmoid renin: renin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid angiotensin axis; renin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT."
 ---
 
 # Desmoid Tumor
@@ -905,6 +914,9 @@ Standard initial approach for newly diagnosed desmoid without symptoms or rapid 
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — desmoid aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid fluid balance; aldosterone excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — desmoid norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — desmoid adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — desmoid bdnf: BDNF from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — desmoid epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — desmoid renin: renin from fibroblasts (already mapped) and macrophages (already mapped) modulates desmoid angiotensin axis; renin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in DT.
 
 ---
 
