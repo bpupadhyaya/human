@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Panic angiopoietin: angiopoietin from neurons (already mapped) and astrocytes (already mapped) modulates panic vascular remodelling; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Panic glucagon: glucagon from neurons (already mapped) and astrocytes (already mapped) modulates panic metabolic signalling; glucagon excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/apoe
+    relation: connects-to
+    note: "Panic apoe: ApoE from neurons (already mapped) and astrocytes (already mapped) modulates panic lipid metabolism; apoe dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
+  - target: 01-human/03-molecular/growth-hormone
+    relation: connects-to
+    note: "Panic growth-hormone: growth hormone from neurons (already mapped) and astrocytes (already mapped) modulates panic neuroendocrine tone; growth-hormone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder."
 ---
 
 # Panic Disorder
@@ -936,6 +945,9 @@ The **interoceptive fear conditioning model** (Bouton, Mineka, Barlow) explains 
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Panic renin: renin from neurons (already mapped) and astrocytes (already mapped) modulates panic RAAS activation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Panic myostatin: myostatin from neurons (already mapped) and astrocytes (already mapped) modulates panic metabolic tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Panic angiopoietin: angiopoietin from neurons (already mapped) and astrocytes (already mapped) modulates panic vascular remodelling; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Panic glucagon: glucagon from neurons (already mapped) and astrocytes (already mapped) modulates panic metabolic signalling; glucagon excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — Panic apoe: ApoE from neurons (already mapped) and astrocytes (already mapped) modulates panic lipid metabolism; apoe dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
+- `connects-to` → **[Growth Hormone](../../03-molecular/growth-hormone/README.md)** — Panic growth-hormone: growth hormone from neurons (already mapped) and astrocytes (already mapped) modulates panic neuroendocrine tone; growth-hormone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of panic disorder.
 
 [^gorman-2000-panic-neurobiology]: Gorman JM, Kent JM, Sullivan GM, Coplan JD. Neuroanatomical hypothesis of panic disorder, revised. *Am J Psychiatry.* 2000;157(4):493-505. [doi:10.1176/appi.ajp.157.4.493](https://doi.org/10.1176/appi.ajp.157.4.493) · [PubMed 10739407](https://pubmed.ncbi.nlm.nih.gov/10739407/)
 [^nardi-2009-clonazepam-panic]: Nardi AE, Freire RC, Zin WA. Panic disorder and control of breathing. *Respir Physiol Neurobiol.* 2009;167(1):133-143. [doi:10.1016/j.resp.2008.07.011](https://doi.org/10.1016/j.resp.2008.07.011) · [PubMed 18708168](https://pubmed.ncbi.nlm.nih.gov/18708168/)

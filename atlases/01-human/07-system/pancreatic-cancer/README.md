@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "PanCa bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "PanCa osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "PanCa fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa growth signalling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "PanCa epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
 ---
 
 # Pancreatic Cancer
@@ -911,6 +920,9 @@ cross_links:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PanCa norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PanCa adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PanCa bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PanCa osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PanCa fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa growth signalling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — PanCa epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
 
 ---
 
