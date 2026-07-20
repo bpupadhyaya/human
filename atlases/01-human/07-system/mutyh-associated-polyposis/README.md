@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "MAP norepinephrine: norepinephrine from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp stress tone; norepinephrine excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "MAP adrenomedullin: adrenomedullin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp vascular tone; adrenomedullin excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "MAP bdnf: bdnf from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp neural tone; bdnf excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "MAP osteopontin: osteopontin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp immune adhesion; osteopontin excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
 ---
 
 # MUTYH-Associated Polyposis
@@ -900,6 +909,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MAP aldosterone: aldosterone from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp ion balance; aldosterone excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — MAP androgen-receptor: androgen receptor on macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MAP norepinephrine: norepinephrine from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp stress tone; norepinephrine excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MAP adrenomedullin: adrenomedullin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp vascular tone; adrenomedullin excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MAP bdnf: bdnf from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp neural tone; bdnf excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — MAP osteopontin: osteopontin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp immune adhesion; osteopontin excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 
 ---
 

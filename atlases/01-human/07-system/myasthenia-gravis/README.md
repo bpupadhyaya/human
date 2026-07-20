@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "MG fgfr: FGFR signalling on macrophages (already mapped) and dendritic cells (already mapped) modulates neuromuscular proliferation; fgfr excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "MG epinephrine: epinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates NMJ adrenergic tone; epinephrine excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "MG renin: renin from macrophages (already mapped) and dendritic cells (already mapped) modulates NMJ renin-angiotensin axis; renin excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "MG myostatin: myostatin from macrophages (already mapped) and dendritic cells (already mapped) modulates NMJ muscle growth signalling; myostatin excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG."
 ---
 
 # Myasthenia Gravis
@@ -902,6 +911,9 @@ cross_links:
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MG adrenomedullin: adrenomedullin from macrophages (already mapped) and dendritic cells (already mapped) modulates NMJ vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MG bdnf: BDNF from macrophages (already mapped) and dendritic cells (already mapped) promotes neuromuscular neuro-survival; bdnf excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — MG fgfr: FGFR signalling on macrophages (already mapped) and dendritic cells (already mapped) modulates neuromuscular proliferation; fgfr excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MG epinephrine: epinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates NMJ adrenergic tone; epinephrine excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — MG renin: renin from macrophages (already mapped) and dendritic cells (already mapped) modulates NMJ renin-angiotensin axis; renin excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — MG myostatin: myostatin from macrophages (already mapped) and dendritic cells (already mapped) modulates NMJ muscle growth signalling; myostatin excess amplifies il-6 (already mapped) and nf-kb (already mapped) and tnf-alpha (already mapped) autoimmune cascade of MG.
 
 [^gilhus-2016-mg-review]: Gilhus NE. Myasthenia Gravis. *N Engl J Med.* 2016;375(26):2570-2581. [doi:10.1056/NEJMra1602678](https://doi.org/10.1056/NEJMra1602678) · [PubMed 28029925](https://pubmed.ncbi.nlm.nih.gov/28029925/)
 [^howard-2021-efgartigimod-adapt]: Howard JF Jr, Bril V, Vu T, et al. Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT). *Lancet Neurol.* 2021;20(7):526-536. [doi:10.1016/S1474-4422(21)00159-9](https://doi.org/10.1016/S1474-4422(21)00159-9) · [PubMed 34146511](https://pubmed.ncbi.nlm.nih.gov/34146511/)
