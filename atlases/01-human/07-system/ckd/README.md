@@ -588,6 +588,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "CKD adrenomedullin: adrenomedullin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal vasodilation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "CKD bdnf: BDNF from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "CKD fgfr: FGFR on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "CKD epinephrine: epinephrine from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -854,6 +863,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — CKD androgen-receptor: androgen receptor on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CKD norepinephrine: norepinephrine from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal sympathetic axis; norepinephrine excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — CKD adrenomedullin: adrenomedullin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal vasodilation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — CKD bdnf: BDNF from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — CKD fgfr: FGFR on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — CKD epinephrine: epinephrine from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 
 ## Pathology
 
