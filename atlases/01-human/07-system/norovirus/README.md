@@ -59,6 +59,15 @@ cross_links:
   - target: 01-human/07-system/gvhd
     relation: connects-to
     note: "Chronic norovirus in HSCT mimics GVHD — persistent diarrhea, villous atrophy; stool RT-PCR distinguishes; concurrent norovirus + GVHD occurs; calcineurin inhibitor reduction clears norovirus in ~35% but may exacerbate GVHD; immune reconstitution required for viral clearance."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "Norovirus fibronectin: fibronectin from enterocytes and b-cells (already mapped) modulates norovirus mucosal ECM; fibronectin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "Norovirus notch: notch signalling in enterocytes and b-cells (already mapped) governs intestinal crypt-villus regeneration; notch disruption amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "Norovirus igf-1: IGF-1 from enterocytes and b-cells (already mapped) drives gut epithelial repair after norovirus villous blunting; igf-1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -164,6 +173,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Secretory IgA](../../03-molecular/secretory-iga/README.md)** — anti-VP1 sIgA blocks HBGA-VP1 binding → prevents attachment; sIgA is the primary norovirus protective response and efficacy endpoint of vaccine trials (TAK-214, mRNA-1403); mucosal sIgA half-life is short → boosters needed; mucosal IgA is distinct from serum IgG in protection.
 - `connects-to` → **[Type I Interferon](../../03-molecular/type-i-interferon/README.md)** — norovirus NS3/4/6 antagonize type I IFN signaling; IFN-λ (type III IFN) is more protective than IFN-α/β at intestinal epithelium; immunocompromised patients with chronic norovirus have impaired IFN-λ responses; IFN-λ treatment reduces viral load in murine norovirus models.
 - `connects-to` → **[GVHD](../gvhd/README.md)** — chronic norovirus in HSCT mimics GVHD — persistent diarrhea, villous atrophy; stool RT-PCR distinguishes; concurrent norovirus + GVHD occurs; calcineurin inhibitor reduction clears norovirus in ~35% but may exacerbate GVHD; immune reconstitution required for viral clearance.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Norovirus fibronectin: fibronectin from enterocytes and b-cells (already mapped) modulates norovirus mucosal ECM; fibronectin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Norovirus notch: notch signalling in enterocytes and b-cells (already mapped) governs intestinal crypt-villus regeneration; notch disruption amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Norovirus igf-1: IGF-1 from enterocytes and b-cells (already mapped) drives gut epithelial repair after norovirus villous blunting; igf-1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

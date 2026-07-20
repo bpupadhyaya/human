@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Noonan norepinephrine: Norepinephrine from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Noonan adrenomedullin: adrenomedullin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Noonan osteopontin: osteopontin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Noonan fgfr: FGFR signalling on macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy cardiac proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan."
 ---
 
 # Noonan Syndrome
@@ -909,6 +918,9 @@ NS is characterized by four cardinal features: **(1) short stature** (below 3rd 
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — Noonan insulin-receptor: Insulin receptor on macrophages (already mapped) and cardiomyocytes (already mapped) drives RASopathy metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Noonan androgen-receptor: Androgen receptor on macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Noonan norepinephrine: Norepinephrine from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Noonan adrenomedullin: adrenomedullin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Noonan osteopontin: osteopontin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Noonan fgfr: FGFR signalling on macrophages (already mapped) and cardiomyocytes (already mapped) modulates RASopathy cardiac proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and erk1-2 (already mapped) cascade of Noonan.
 
 [^tartaglia-2001-ptpn11-noonan]: Tartaglia M, Mehler EL, Goldberg R, et al. Mutations in PTPN11, encoding the protein tyrosine phosphatase SHP-2, cause Noonan syndrome. *Nat Genet.* 2001;29(4):465-468. [doi:10.1038/ng772](https://doi.org/10.1038/ng772) · [PubMed 11704759](https://pubmed.ncbi.nlm.nih.gov/11704759/)
 [^van-der-burgt-2007-noonan-review]: van der Burgt I. Noonan syndrome. *Orphanet J Rare Dis.* 2007;2:4. [doi:10.1186/1750-1172-2-4](https://doi.org/10.1186/1750-1172-2-4) · [PubMed 17222357](https://pubmed.ncbi.nlm.nih.gov/17222357/)
