@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "Melanoma aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates electrolyte tone; aldosterone excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Melanoma androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) drives hormonal axis; androgen-receptor loss amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Melanoma norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) drives adrenergic tone; norepinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Melanoma adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) drives vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
 ---
 
 # Melanoma
@@ -869,6 +878,9 @@ cross_links:
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Melanoma substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates pain tone; substance-P excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — Melanoma insulin-receptor: insulin-receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin resistance amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Melanoma aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates electrolyte tone; aldosterone excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Melanoma androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) drives hormonal axis; androgen-receptor loss amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Melanoma norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) drives adrenergic tone; norepinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Melanoma adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) drives vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
