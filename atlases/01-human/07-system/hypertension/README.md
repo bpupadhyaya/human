@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/myostatin
     relation: connects-to
     note: "Hypertension myostatin: myostatin from smooth-muscle cells (already mapped) and macrophages (already mapped) modulates vascular atrophy; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Hypertension angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular angiogenesis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Hypertension ghrelin: ghrelin from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) modulates metabolic tone; ghrelin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Hypertension glucagon: glucagon from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) modulates metabolic tone; glucagon excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
 ---
 
 # Hypertension
@@ -874,6 +883,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Hypertension osteopontin: osteopontin from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular inflammation; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Hypertension fgfr: FGFR on smooth-muscle cells (already mapped) and macrophages (already mapped) modulates vascular repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Hypertension myostatin: myostatin from smooth-muscle cells (already mapped) and macrophages (already mapped) modulates vascular atrophy; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Hypertension angiopoietin: angiopoietin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular angiogenesis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Hypertension ghrelin: ghrelin from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) modulates metabolic tone; ghrelin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Hypertension glucagon: glucagon from macrophages (already mapped) and vascular smooth-muscle cells (already mapped) modulates metabolic tone; glucagon excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
 
 ## Pathology
 

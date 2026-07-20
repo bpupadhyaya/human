@@ -579,6 +579,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "HD fgfr: FGFR on neurons (already mapped) and microglia (already mapped) modulates neuroinflammatory repair; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "HD epinephrine: epinephrine from neurons (already mapped) and microglia (already mapped) modulates neuroinflammatory adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "HD renin: renin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory RAAS axis; renin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "HD myostatin: myostatin from microglia (already mapped) and astrocytes (already mapped) modulates muscle-wasting neuroimmune axis; myostatin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD."
 sources:
   - id: gusella-1983-htt-locus
     type: peer-reviewed
@@ -818,3 +827,6 @@ HD disrupts multiple neural circuit functions:
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — HD androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HD adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — HD fgfr: FGFR on neurons (already mapped) and microglia (already mapped) modulates neuroinflammatory repair; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — HD epinephrine: epinephrine from neurons (already mapped) and microglia (already mapped) modulates neuroinflammatory adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — HD renin: renin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory RAAS axis; renin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — HD myostatin: myostatin from microglia (already mapped) and astrocytes (already mapped) modulates muscle-wasting neuroimmune axis; myostatin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and neuronal (already mapped) excitotoxic cascade of HD.
