@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "HF adrenomedullin: adrenomedullin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "HF bdnf: BDNF from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac neural repair; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "HF osteopontin: osteopontin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "HF fgfr: FGFR from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac repair signalling; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
 ---
 
 # Heart Failure
@@ -844,6 +853,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HF insulin-receptor: insulin receptor on macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — HF androgen-receptor: androgen receptor on macrophages (already mapped) and cardiomyocytes (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HF adrenomedullin: adrenomedullin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HF bdnf: BDNF from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac neural repair; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — HF osteopontin: osteopontin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — HF fgfr: FGFR from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac repair signalling; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
 
 ## Pathology
 
