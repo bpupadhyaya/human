@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "diffuse-midline-glioma fgfr: FGFR on microglia (already mapped) and astrocytes (already mapped) modulates glioma proliferative tone; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "diffuse-midline-glioma epinephrine: epinephrine from microglia (already mapped) and astrocytes (already mapped) modulates glioma adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "diffuse-midline-glioma renin: renin from microglia (already mapped) and astrocytes (already mapped) modulates glioma angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "diffuse-midline-glioma myostatin: myostatin from microglia (already mapped) and astrocytes (already mapped) modulates glioma muscle-neural axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG."
 ---
 
 # Diffuse Midline Glioma
@@ -910,6 +919,9 @@ Direct infusion of drugs into the pons via stereotactic catheter; bypasses BBB; 
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — diffuse-midline-glioma androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates glioma androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — diffuse-midline-glioma adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates glioma vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — diffuse-midline-glioma fgfr: FGFR on microglia (already mapped) and astrocytes (already mapped) modulates glioma proliferative tone; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — diffuse-midline-glioma epinephrine: epinephrine from microglia (already mapped) and astrocytes (already mapped) modulates glioma adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — diffuse-midline-glioma renin: renin from microglia (already mapped) and astrocytes (already mapped) modulates glioma angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — diffuse-midline-glioma myostatin: myostatin from microglia (already mapped) and astrocytes (already mapped) modulates glioma muscle-neural axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of DMG.
 
 ---
 
