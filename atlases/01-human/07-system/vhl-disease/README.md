@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "VHL aldosterone: aldosterone from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "VHL androgen-receptor: androgen receptor on renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "VHL bdnf: BDNF from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL neuroimmune tone; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of VHL disease."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "VHL osteopontin: osteopontin from renal tubular cells (already mapped) and macrophages (already mapped) promotes VHL ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of VHL disease."
 ---
 
 # VHL Disease
@@ -905,6 +914,9 @@ The genotype-phenotype correlation reflects the degree of pVHL function retained
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — VHL substance-p: substance-P from renal tubular cells (already mapped) and macrophages (already mapped) amplifies neurogenic renal inflammation; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — VHL insulin-receptor: insulin receptor on renal tubular cells (already mapped) and macrophages (already mapped) drives VHL metabolic repair; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — VHL aldosterone: aldosterone from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — VHL androgen-receptor: androgen receptor on renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — VHL bdnf: BDNF from renal tubular cells (already mapped) and macrophages (already mapped) modulates VHL neuroimmune tone; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — VHL osteopontin: osteopontin from renal tubular cells (already mapped) and macrophages (already mapped) promotes VHL ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of VHL disease.
 
 [^lonser-2003-vhl-disease]: Lonser RR, Glenn GM, Walther M, et al. von Hippel-Lindau disease. *Lancet.* 2003;361(9374):2059-2067. [doi:10.1016/S0140-6736(03)13643-4](https://doi.org/10.1016/S0140-6736(03)13643-4) · [PubMed 12814730](https://pubmed.ncbi.nlm.nih.gov/12814730/)
 [^choueiri-2020-hif2-rcc]: Choueiri TK, Kaelin WG Jr. Targeting the HIF2-VEGF axis in renal cell carcinoma. *Nat Med.* 2020;26(10):1519-1530. [doi:10.1038/s41591-020-1093-z](https://doi.org/10.1038/s41591-020-1093-z) · [PubMed 33020650](https://pubmed.ncbi.nlm.nih.gov/33020650/)
