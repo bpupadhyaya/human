@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "cervical bdnf: BDNF from tumour cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "cervical fgfr: FGFR on tumour cells (already mapped) and macrophages (already mapped) modulates tumour repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "cervical epinephrine: epinephrine from tumour cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "cervical renin: renin from tumour cells (already mapped) and macrophages (already mapped) modulates tumour RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
 ---
 
 # Cervical Cancer
@@ -906,6 +915,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — cervical norepinephrine: norepinephrine from tumour cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — cervical adrenomedullin: adrenomedullin from tumour cells (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — cervical bdnf: BDNF from tumour cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — cervical fgfr: FGFR on tumour cells (already mapped) and macrophages (already mapped) modulates tumour repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — cervical epinephrine: epinephrine from tumour cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — cervical renin: renin from tumour cells (already mapped) and macrophages (already mapped) modulates tumour RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 
 ---
 

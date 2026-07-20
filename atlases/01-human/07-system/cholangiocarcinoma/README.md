@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "cholangio bdnf: BDNF from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "cholangio osteopontin: osteopontin from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary immune matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "cholangio epinephrine: epinephrine from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "cholangio renin: renin from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA."
 ---
 
 # Cholangiocarcinoma
@@ -880,6 +889,9 @@ Chronic biliary injury (from PSC, fluke infection, bile acid reflux, biliary sta
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — cholangio norepinephrine: norepinephrine from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — cholangio adrenomedullin: adrenomedullin from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — cholangio bdnf: BDNF from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — cholangio osteopontin: osteopontin from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary immune matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — cholangio epinephrine: epinephrine from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — cholangio renin: renin from cholangiocytes (already mapped) and macrophages (already mapped) modulates biliary RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CCA.
 
 ---
 
