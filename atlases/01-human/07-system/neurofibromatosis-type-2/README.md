@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "NF2 androgen-receptor: Androgen receptor on Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "NF2 norepinephrine: norepinephrine from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "NF2 adrenomedullin: adrenomedullin from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "NF2 bdnf: BDNF from Schwann cells (already mapped) and macrophages (already mapped) promotes schwannoma neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
 ---
 
 # Neurofibromatosis Type 2
@@ -891,6 +900,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — NF2 insulin-receptor: Insulin receptor on Schwann cells (already mapped) and macrophages (already mapped) drives schwannoma metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — NF2 aldosterone: Aldosterone from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — NF2 androgen-receptor: Androgen receptor on Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NF2 norepinephrine: norepinephrine from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NF2 adrenomedullin: adrenomedullin from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — NF2 bdnf: BDNF from Schwann cells (already mapped) and macrophages (already mapped) promotes schwannoma neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
