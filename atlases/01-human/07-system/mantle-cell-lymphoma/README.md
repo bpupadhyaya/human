@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "MCL androgen-receptor: androgen receptor on fibroblasts (already mapped) and B-cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "MCL norepinephrine: norepinephrine from fibroblasts (already mapped) and B-cells (already mapped) modulates adrenergic tone; norepinephrine excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "MCL adrenomedullin: adrenomedullin from fibroblasts (already mapped) and B-cells (already mapped) modulates vascular tone; adrenomedullin excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "MCL bdnf: BDNF from fibroblasts (already mapped) and B-cells (already mapped) modulates neurotrophin axis; bdnf excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
 ---
 
 # Mantle Cell Lymphoma
@@ -905,6 +914,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — MCL insulin-receptor: insulin receptor on fibroblasts (already mapped) and B-cells (already mapped) modulates metabolic axis; insulin-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MCL aldosterone: aldosterone from fibroblasts (already mapped) and B-cells (already mapped) modulates electrolyte tone; aldosterone excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — MCL androgen-receptor: androgen receptor on fibroblasts (already mapped) and B-cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MCL norepinephrine: norepinephrine from fibroblasts (already mapped) and B-cells (already mapped) modulates adrenergic tone; norepinephrine excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MCL adrenomedullin: adrenomedullin from fibroblasts (already mapped) and B-cells (already mapped) modulates vascular tone; adrenomedullin excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MCL bdnf: BDNF from fibroblasts (already mapped) and B-cells (already mapped) modulates neurotrophin axis; bdnf excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
 
 ---
 

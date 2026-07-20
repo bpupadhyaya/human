@@ -597,6 +597,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Malaria bdnf: BDNF from macrophages (already mapped) and dendritic cells (already mapped) modulates neuroimmunotrophic tone; bdnf excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Malaria fgfr: FGFR on macrophages (already mapped) and dendritic cells (already mapped) modulates immune repair; fgfr dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Malaria epinephrine: epinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates immune adrenergic stress; epinephrine excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Malaria renin: renin from macrophages (already mapped) and dendritic cells (already mapped) modulates immune RAAS axis; renin excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade."
 ---
 
 # Malaria
@@ -948,6 +957,9 @@ cross_links:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Malaria norepinephrine: norepinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates immune adrenergic tone; norepinephrine excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Malaria adrenomedullin: adrenomedullin from macrophages (already mapped) and dendritic cells (already mapped) modulates vascular tone; adrenomedullin loss amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Malaria bdnf: BDNF from macrophages (already mapped) and dendritic cells (already mapped) modulates neuroimmunotrophic tone; bdnf excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Malaria fgfr: FGFR on macrophages (already mapped) and dendritic cells (already mapped) modulates immune repair; fgfr dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Malaria epinephrine: epinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates immune adrenergic stress; epinephrine excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Malaria renin: renin from macrophages (already mapped) and dendritic cells (already mapped) modulates immune RAAS axis; renin excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
