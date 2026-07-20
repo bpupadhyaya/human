@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "breast-cancer renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour RAAS activation; renin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "breast-cancer myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour growth suppression; myostatin loss amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "breast-cancer cortisol: cortisol from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour immune suppression; cortisol excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "breast-cancer glucagon: glucagon from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour metabolic axis; glucagon dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
 ---
 
 # Breast Cancer
@@ -897,6 +906,9 @@ cross_links:
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — breast-cancer osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour immune matrix; osteopontin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — breast-cancer epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — breast-cancer renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour RAAS activation; renin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — breast-cancer myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour growth suppression; myostatin loss amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — breast-cancer cortisol: cortisol from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour immune suppression; cortisol excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — breast-cancer glucagon: glucagon from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour metabolic axis; glucagon dysregulation amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

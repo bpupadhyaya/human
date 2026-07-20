@@ -594,6 +594,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "bulimia renin: renin from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "bulimia myostatin: myostatin from neurons (already mapped) and hypothalamus (already mapped) modulates muscle-metabolic tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "bulimia angiopoietin: angiopoietin from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "bulimia glucagon: glucagon from neurons (already mapped) and hypothalamus (already mapped) modulates appetite-metabolic signalling; glucagon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -915,6 +924,9 @@ All of the following must be met:
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — bulimia osteopontin: osteopontin from neurons (already mapped) and hypothalamus (already mapped) modulates mood immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — bulimia epinephrine: epinephrine from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — bulimia renin: renin from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — bulimia myostatin: myostatin from neurons (already mapped) and hypothalamus (already mapped) modulates muscle-metabolic tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — bulimia angiopoietin: angiopoietin from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — bulimia glucagon: glucagon from neurons (already mapped) and hypothalamus (already mapped) modulates appetite-metabolic signalling; glucagon dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
 
 ## Treatment
 
