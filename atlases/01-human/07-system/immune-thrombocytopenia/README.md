@@ -600,6 +600,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "ITP adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "ITP bdnf: BDNF from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "ITP osteopontin: osteopontin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates fibrotic inflammation; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "ITP fgfr: FGFR on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates repair axis; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP."
 ---
 
 # Immune Thrombocytopenia
@@ -929,6 +938,9 @@ ITP in pregnancy carries risk of neonatal thrombocytopenia (maternal IgG crosses
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ITP androgen-receptor: androgen receptor on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — ITP norepinephrine: norepinephrine from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ITP adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — ITP bdnf: BDNF from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — ITP osteopontin: osteopontin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates fibrotic inflammation; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — ITP fgfr: FGFR on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates repair axis; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and platelet (already mapped) autoimmune cascade in ITP.
 
 [^cines-2002-itp-review]: Cines DB, Blanchette VS. Immune thrombocytopenic purpura. *N Engl J Med.* 2002;346(13):995-1008. [doi:10.1056/NEJMra010532](https://doi.org/10.1056/NEJMra010532) · [PubMed 11919310](https://pubmed.ncbi.nlm.nih.gov/11919310/)
 [^neunert-2019-ash-itp-guidelines]: Neunert C, et al. American Society of Hematology 2019 guidelines for immune thrombocytopenia. *Blood Adv.* 2019;3(23):3829-3866. [doi:10.1182/bloodadvances.2019000966](https://doi.org/10.1182/bloodadvances.2019000966) · [PubMed 31794604](https://pubmed.ncbi.nlm.nih.gov/31794604/)

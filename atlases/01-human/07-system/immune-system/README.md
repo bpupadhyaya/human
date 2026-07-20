@@ -619,6 +619,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "IS norepinephrine: norepinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates immune adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "IS adrenomedullin: adrenomedullin from macrophages (already mapped) and dendritic cells (already mapped) modulates immune vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "IS bdnf: BDNF from macrophages (already mapped) and dendritic cells (already mapped) modulates immune neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "IS fgfr: FGFR on macrophages (already mapped) and dendritic cells (already mapped) modulates immune repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade."
 ---
 
 # Immune System
@@ -817,6 +826,9 @@ After primary response contraction, long-lived memory cells persist:
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — IS aldosterone: aldosterone from macrophages (already mapped) and dendritic cells (already mapped) modulates immune fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — IS androgen-receptor: androgen receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates immune androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — IS norepinephrine: norepinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates immune adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — IS adrenomedullin: adrenomedullin from macrophages (already mapped) and dendritic cells (already mapped) modulates immune vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — IS bdnf: BDNF from macrophages (already mapped) and dendritic cells (already mapped) modulates immune neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — IS fgfr: FGFR on macrophages (already mapped) and dendritic cells (already mapped) modulates immune repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and complement-c3 (already mapped) immune cascade.
 
 ## Pathology
 
