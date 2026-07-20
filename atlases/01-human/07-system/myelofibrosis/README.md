@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "MF aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "MF androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates marrow androgen axis; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "MF norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "MF adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade."
 ---
 
 # Myelofibrosis
@@ -899,6 +908,9 @@ Abrupt ruxolitinib cessation → cytokine rebound → fever, splenomegaly surge,
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MF substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow pain tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — MF insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives marrow metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MF aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — MF androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates marrow androgen axis; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MF norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MF adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates marrow vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) myelofibrosis cascade.
 
 ---
 
