@@ -3,365 +3,200 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zika Virus · Human Engineering Atlas</title>
+  <meta name="description" content="Zika virus (ZIKV; flavivirus; Aedes aegypti vector) caused the 2015-2016 Americas pandemic; congenital Zika syndrome (microcephaly) via AXL receptor neural prog">
+  <meta property="og:title" content="Zika Virus — Human Engineering">
+  <meta name="theme-color" content="#f2f2f7">
+  <title>Zika Virus — Human Engineering</title>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --accent:     #9f1239;
-      --accent-lt:  #fecdd3;
-      --accent-dim: rgba(159,18,57,.12);
-      --surface:    #ffffff;
-      --surface2:   #f8fafc;
-      --surface3:   #f1f5f9;
-      --border:     #e2e8f0;
-      --text:       #0f172a;
-      --text-2:     #475569;
-      --text-3:     #94a3b8;
-      --radius-sm:  10px;
-      --radius:     18px;
-      --radius-lg:  24px;
-      --shadow-sm:  0 1px 3px rgba(0,0,0,.07);
-      --shadow:     0 4px 16px rgba(0,0,0,.08);
-      --shadow-lg:  0 12px 40px rgba(0,0,0,.12);
-      --maxw:       1120px;
+      --bg: #f2f2f7; --bg-elev: #ffffff; --bg-soft: #e5e5ea;
+      --fg: #1c1c1e; --fg-soft: #3a3a3c; --muted: #6e6e73; --muted-2: #8e8e93;
+      --border: #d1d1d6; --border-soft: #e5e5ea;
+      --bio: #059669; --eng: #2563eb; --ai: #7c3aed; --human: #d97706;
+      --accent: #0284c7;
+      --radius-sm: 10px; --radius: 18px; --radius-lg: 24px; --maxw: 1120px;
     }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-           background: var(--surface2); color: var(--text); line-height: 1.6; }
-
-    .site-nav { background: var(--surface); border-bottom: 1px solid var(--border);
-                padding: .75rem 1.5rem; display: flex; align-items: center; gap: .75rem; }
-    .site-nav a { color: var(--accent); text-decoration: none; font-size: .875rem; font-weight: 500; }
-    .site-nav a:hover { text-decoration: underline; }
-    .nav-sep { color: var(--text-3); font-size: .75rem; }
-
-    .detail-hero { background: linear-gradient(135deg, #9f1239, #7f1d1d);
-                   color: #fff; padding: 3rem 2rem 2.5rem; }
-    .detail-hero-inner { max-width: var(--maxw); margin: 0 auto; }
-    .detail-eyebrow { font-size: .75rem; font-weight: 600; letter-spacing: .12em;
-                      text-transform: uppercase; opacity: .75; margin-bottom: .5rem; }
-    .detail-title { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; line-height: 1.15;
-                    margin-bottom: .4rem; }
-    .detail-subtitle { font-size: 1rem; opacity: .8; margin-bottom: 1.5rem; }
-    .stat-row { display: flex; flex-wrap: wrap; gap: .75rem; }
-    .stat-chip { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25);
-                 border-radius: 999px; padding: .3rem .85rem;
-                 font-size: .8rem; font-weight: 600; backdrop-filter: blur(4px); }
-
-    .detail-body { max-width: var(--maxw); margin: 0 auto; padding: 2rem 1.5rem; }
-    .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
-    @media (max-width: 720px) { .detail-grid { grid-template-columns: 1fr; } }
-
-    .detail-card { background: var(--surface); border: 1px solid var(--border);
-                   border-radius: var(--radius); box-shadow: var(--shadow-sm); overflow: hidden; }
-    .detail-card.full { grid-column: 1 / -1; }
-    .detail-header { background: var(--accent-dim); border-bottom: 1px solid var(--border);
-                     padding: 1rem 1.25rem; display: flex; align-items: center; gap: .6rem; }
-    .detail-header h2 { font-size: 1rem; font-weight: 700; color: var(--accent); }
-    .detail-section { padding: 1.25rem; }
-
-    .detail-table { width: 100%; border-collapse: collapse; font-size: .875rem; }
-    .detail-table tr { border-bottom: 1px solid var(--border); }
-    .detail-table tr:last-child { border-bottom: none; }
-    .detail-table th { width: 38%; padding: .55rem .6rem; text-align: left;
-                       font-weight: 600; color: var(--text-2); background: var(--surface3); }
-    .detail-table td { padding: .55rem .6rem; color: var(--text); }
-
-    .mech-list { list-style: none; display: flex; flex-direction: column; gap: .65rem; }
-    .mech-item { border-radius: var(--radius-sm); padding: .75rem 1rem;
-                 border-left: 4px solid transparent; font-size: .875rem; }
-    .mech-item strong { display: block; font-weight: 700; margin-bottom: .2rem; font-size: .9rem; }
-    .mech-item.danger  { background: #fff1f2; border-color: #f43f5e; }
-    .mech-item.immune  { background: #f0fdf4; border-color: #22c55e; }
-    .mech-item.latent  { background: #fefce8; border-color: #eab308; }
-    .mech-item.drug    { background: #eff6ff; border-color: #3b82f6; }
-
-    .immune-tags { display: flex; flex-wrap: wrap; gap: .5rem; padding: 1.25rem; }
-    .itag { border-radius: 999px; padding: .3rem .9rem; font-size: .8rem; font-weight: 600; }
-    .itag.innate   { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
-    .itag.adaptive { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
-    .itag.depleted { background: #fdf4ff; color: #7e22ce; border: 1px solid #e9d5ff; }
-
-    .path-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
-    .path-table th { background: var(--surface3); padding: .5rem .75rem; text-align: left;
-                     font-weight: 700; border-bottom: 2px solid var(--border); color: var(--text-2); }
-    .path-table td { padding: .5rem .75rem; border-bottom: 1px solid var(--border); }
-    .path-table tr:last-child td { border-bottom: none; }
-    .severity { display: inline-block; border-radius: 999px; padding: .15rem .65rem;
-                font-size: .75rem; font-weight: 700; }
-    .sev-low    { background: #f0fdf4; color: #166534; }
-    .sev-med    { background: #fefce8; color: #854d0e; }
-    .sev-high   { background: #fff1f2; color: #9f1239; }
-    .sev-crit   { background: #1e1b4b; color: #e0e7ff; }
-
-    .connections { display: flex; flex-wrap: wrap; gap: .6rem; padding: 1.25rem; }
-    .conn-pill { border-radius: 999px; padding: .35rem 1rem; font-size: .8rem;
-                 font-weight: 600; text-decoration: none; transition: opacity .15s; }
-    .conn-pill:hover { opacity: .75; }
-    .conn-pill.infects  { background: #fff1f2; color: #9f1239; border: 1px solid #fecdd3; }
-    .conn-pill.damages  { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
-    .conn-pill.targets  { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
-    .conn-pill.triggers { background: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; }
-    .conn-pill.treated  { background: #fdf4ff; color: #7e22ce; border: 1px solid #e9d5ff; }
-
-    .refs { list-style: none; display: flex; flex-direction: column; gap: .5rem;
-            font-size: .82rem; padding: 1.25rem; }
-    .refs li { padding-left: 1.2rem; position: relative; color: var(--text-2); }
-    .refs li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
-    .refs a { color: var(--accent); text-decoration: none; }
-    .refs a:hover { text-decoration: underline; }
-
-    .contribute { background: var(--accent-dim); border: 1px dashed var(--accent);
-                  border-radius: var(--radius); padding: 1.25rem 1.5rem; font-size: .875rem; }
-    .contribute strong { color: var(--accent); }
-    .contribute a { color: var(--accent); }
-
-    .site-footer { text-align: center; padding: 2.5rem 1rem 3rem;
-                   font-size: .8rem; color: var(--text-3); border-top: 1px solid var(--border);
-                   margin-top: 3rem; }
-    .site-footer a { color: var(--text-3); }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: var(--bio); text-decoration: none; transition: color .15s; }
+    a:hover { color: var(--human); }
+    nav { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(20px);
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          background: rgba(242,242,247,0.85); border-bottom: 1px solid var(--border-soft); }
+    .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 0.85rem 1.5rem;
+                 display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { display: flex; align-items: center; gap: 0.6rem; font-weight: 700;
+             font-size: 0.98rem; letter-spacing: -0.01em; color: var(--fg); }
+    .brand-mark { width: 26px; height: 26px; border-radius: 7px;
+                  background: conic-gradient(from 140deg, var(--bio), var(--eng), var(--ai), var(--human), var(--bio));
+                  box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 4px 16px rgba(5,150,105,0.2); }
+    .nav-links { display: flex; align-items: center; gap: 1.3rem; font-size: 0.92rem; }
+    .nav-links a { color: var(--muted); font-weight: 500; }
+    .nav-links a:hover { color: var(--fg); }
+    .nav-back { display: inline-flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+    .nav-back svg { width: 14px; height: 14px; }
+    @media (max-width: 760px) { .nav-links a:not(.nav-back) { display: none; } }
+    .hero { max-width: var(--maxw); margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; padding: 0.4rem 0.9rem;
+                    border-radius: 999px; font-size: 0.75rem; font-weight: 700;
+                    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; letter-spacing: -0.03em;
+               color: var(--fg); line-height: 1.06; margin-bottom: 1.1rem; }
+    .hero .tagline { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--fg-soft);
+                     max-width: 700px; font-weight: 500; margin-bottom: 0.75rem; }
+    .hero .aliases { font-size: 0.9rem; color: var(--muted); margin-top: 0.4rem; }
+    .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem;
+                padding-top: 1.5rem; border-top: 1px solid var(--border-soft); }
+    .stat { display: flex; flex-direction: column; }
+    .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--fg); letter-spacing: -0.02em; line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem;
+                  letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem 2rem; }
+    .stub-notice { background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.35);
+                   border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.88rem;
+                   color: #92400e; margin-bottom: 1.5rem; }
+    .detail-card { background: var(--bg-elev); border: 1px solid var(--border-soft);
+                   border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 1.5rem;
+                   box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+    .detail-header { padding: 2rem 2rem 1.75rem; }
+    .detail-header .entry-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+                                    text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.5rem; }
+    .detail-header h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; color: white;
+                        letter-spacing: -0.03em; margin-bottom: 0.65rem; }
+    .detail-header .summary { font-size: 0.98rem; color: rgba(255,255,255,0.88); line-height: 1.65; max-width: 780px; }
+    .detail-body { padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+    .detail-section h3 { font-size: 0.76rem; font-weight: 700; letter-spacing: 0.1em;
+                         text-transform: uppercase; color: var(--muted); margin-bottom: 0.8rem;
+                         padding-bottom: 0.4rem; border-bottom: 1px solid var(--border-soft); }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 0.5rem; }
+    .data-table th { text-align: left; padding: 0.5rem 0.65rem; background: var(--bg);
+                     font-weight: 600; font-size: 0.74rem; text-transform: uppercase;
+                     letter-spacing: 0.06em; color: var(--muted); }
+    .data-table td { padding: 0.5rem 0.65rem; border-top: 1px solid var(--border-soft);
+                     color: var(--fg-soft); vertical-align: top; line-height: 1.5; }
+    .data-table td:first-child { font-weight: 600; color: var(--fg); white-space: nowrap; }
+    .connections { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .conn-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.85rem;
+                 background: var(--bg); border: 1px solid var(--border); border-radius: 999px;
+                 font-size: 0.82rem; color: var(--fg-soft); transition: all .15s; }
+    .conn-pill:hover { background: var(--bg-soft); color: var(--fg); }
+    .conn-pill .rel { font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+                      letter-spacing: 0.05em; color: var(--bio); margin-right: 0.1rem; }
+    .conn-pill.damaged .rel { color: #dc2626; }
+    .conn-pill.part .rel { color: var(--ai); }
+    .refs { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .refs li { font-size: 0.82rem; color: var(--muted); line-height: 1.55; padding-left: 1.1rem; position: relative; }
+    .refs li::before { content: '↗'; position: absolute; left: 0; color: var(--eng); font-size: 0.75rem; top: 0.05rem; }
+    .refs li a { color: var(--eng); }
+    footer { margin-top: 4rem; padding: 2.5rem 1.5rem 2rem; border-top: 1px solid var(--border-soft); text-align: center; }
+    .footer-tag { font-size: 0.95rem; color: var(--muted); max-width: 620px; margin: 0 auto 1rem; }
+    .footer-links { display: flex; gap: 1.25rem; justify-content: center; flex-wrap: wrap; font-size: 0.88rem; margin-bottom: 1rem; }
+    .footer-links a { color: var(--muted); }
+    .footer-links a:hover { color: var(--bio); }
+    .footer-meta { font-size: 0.8rem; color: var(--muted-2); }
   </style>
 </head>
 <body>
 
-<nav class="site-nav">
-  <a href="index.html">Human Atlas</a>
-  <span class="nav-sep">›</span>
-  <a href="pathogens.html">Pathogens</a>
-  <span class="nav-sep">›</span>
-  <span>Zika Virus</span>
-</nav>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Human Engineering
+      </a>
+      <div class="nav-links">
+        <a href="index.html#mission">Mission</a>
+        <a href="pathogens.html">Pathogens</a>
+        <a href="medicine.html">Medicine</a>
+        <a href="index.html" class="nav-back">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          Home
+        </a>
+      </div>
+    </div>
+  </nav>
 
-<header class="detail-hero">
-  <div class="detail-hero-inner">
-    <div class="detail-eyebrow">Atlas Two · Pathogen · Virus</div>
-    <h1 class="detail-title">Zika Virus (ZIKV)</h1>
-    <p class="detail-subtitle">Mosquito-borne flavivirus — neurotropic; causes microcephaly &amp; Guillain-Barré syndrome</p>
+  <div class="hero">
+    <div class="hero-eyebrow" style="background: rgba(5,150,105,0.1); color: #059669;">Atlas One &middot; Host Biology &middot; Scale 07 — System</div>
+    <h1>Zika Virus</h1>
+    <p class="tagline">Zika virus (ZIKV; flavivirus; Aedes aegypti vector) caused the 2015-2016 Americas pandemic; congenital Zika syndrome (microcephaly) via AXL receptor neural progenitor cell tropism; NS5 degrades STAT2; Guillain-Barré association; sexually transmitted; no approved vaccine.</p>
+    <p class="aliases">Also known as: ZIKV, Zika, Zika fever, congenital Zika syndrome, Zika microcephaly, Zika GBS, Aedes Zika, flavivirus Zika</p>
     <div class="stat-row">
-      <span class="stat-chip">~10.8 kb +ssRNA</span>
-      <span class="stat-chip">40–65 nm enveloped</span>
-      <span class="stat-chip">AXL / TYRO3 entry</span>
-      <span class="stat-chip">NPC tropism → microcephaly</span>
-      <span class="stat-chip">2015–2016 Americas epidemic</span>
-      <span class="stat-chip">No approved antiviral / vaccine</span>
+        <div class="stat"><span class="stat-num">Scale 07 — System</span><span class="stat-label">Scale</span></div>
+        <div class="stat"><span class="stat-num">draft</span><span class="stat-label">Status</span></div>
+        <div class="stat"><span class="stat-num">2026-06-08</span><span class="stat-label">Last Reviewed</span></div>
     </div>
   </div>
-</header>
 
-<main class="detail-body">
-  <div class="detail-grid">
-
-    <!-- Classification & Structure -->
-    <div class="detail-card full">
-      <div class="detail-header"><h2>Classification &amp; Structure</h2></div>
-      <div class="detail-section">
-        <table class="detail-table">
-          <tr><th>Order / Family</th><td>Amarillovirales / Flaviviridae</td></tr>
-          <tr><th>Genus / Species</th><td><em>Flavivirus</em> / Zika virus; closest relatives: Spondweni virus (serogroup); distantly related to dengue, West Nile, yellow fever, Japanese encephalitis viruses</td></tr>
-          <tr><th>Lineages</th><td>African lineage (ancestral; Uganda 1947 isolate, Rhesus 766 strain); Asian lineage (emerged Pacific/Americas epidemic strains; Micronesia 2007, French Polynesia 2013–14, Brazil 2015–16). Asian lineage associated with microcephaly.</td></tr>
-          <tr><th>Genome</th><td>~10.8 kb positive-sense single-stranded RNA; 5′ cap (type I), no poly-A tail; single ORF encoding ~3,423 aa polyprotein flanked by 5′ and 3′ UTRs with stem-loop structures important for replication and immune evasion</td></tr>
-          <tr><th>Polyprotein processing</th><td>Co- and post-translational cleavage by host signal peptidase + viral NS2B-NS3 serine protease yields: 3 structural proteins (C, prM/M, E) + 7 non-structural proteins (NS1, NS2A, NS2B, NS3, NS4A, NS4B, NS5)</td></tr>
-          <tr><th>Virion morphology</th><td>Enveloped, icosahedral, 40–65 nm; 180 copies of E and M proteins arranged in head-to-tail dimers (T=1 pseudo-T=3); E protein domain III mediates receptor binding; prM in immature virions cleaved by furin to M during egress</td></tr>
-          <tr><th>Entry receptors</th><td>AXL (Gas6-dependent TAM receptor) — primary on neural progenitor cells, trophoblasts, endothelium, macrophages; TYRO3 — neurons/glia; TIM-1 (HAVCR1) — mucus-producing cells; DC-SIGN (CD209) — dendritic cells; Integrin αvβ5; TYRO3 redundant with AXL in skin fibroblasts</td></tr>
-          <tr><th>Transmission routes</th><td>Mosquito-borne (primary): <em>Aedes aegypti</em> and <em>Ae. albopictus</em>; Sexual transmission (male→female, male→male; virus persists in semen weeks-months post-infection); Transplacental (vertical — cause of congenital Zika syndrome); Blood transfusion (rare); Breastfeeding (RNA detected in milk; transmission unconfirmed)</td></tr>
-          <tr><th>Geographic spread</th><td>Africa (1947, endemic); Asia/Pacific (expansion 2007–2015); Americas (2015–2016 pandemic, WHO PHEIC declared Feb 2016); now endemic/hyperendemic in tropical/subtropical belt; declining but ongoing low-level circulation</td></tr>
-        </table>
-      </div>
+  <main>
+    <div class="stub-notice">
+      This is an auto-generated stub page built from atlas entry frontmatter. A richer
+      hand-crafted page is planned. See the
+      <a href="https://github.com/bpupadhyaya/human/tree/main/atlases" target="_blank" rel="noopener noreferrer">atlas source</a>
+      for the full entry including detailed body sections.
     </div>
 
-    <!-- Infection Mechanism -->
-    <div class="detail-card full">
-      <div class="detail-header"><h2>Infection Mechanism</h2></div>
-      <div class="detail-section">
-        <ul class="mech-list">
-          <li class="mech-item danger">
-            <strong>Step 1 — Mosquito inoculation &amp; dermal cell entry</strong>
-            <em>Aedes</em> mosquito deposits saliva containing ZIKV into dermal tissue. Skin-resident dendritic cells, Langerhans cells, keratinocytes, and fibroblasts are initial targets. AXL and TYRO3 (TAM receptor tyrosine kinases) bind virus-associated phosphatidylserine via bridging ligands Gas6 and Protein S, enabling "apoptotic mimicry" entry — a mechanism shared with other flaviviruses. Virus-receptor complex is internalised via clathrin-mediated or micropinocytosis endocytosis.
-          </li>
-          <li class="mech-item danger">
-            <strong>Step 2 — Endosomal fusion, uncoating &amp; polyprotein translation</strong>
-            In acidified endosomes, E protein domain II undergoes pH-dependent conformational change (dimer → trimer), inserting the fusion loop into the endosomal membrane. Genome RNA is released into the cytoplasm. Host ribosomes translate the single ORF; NS2B-NS3 serine protease and NS3 NTPase/helicase are essential for polyprotein processing and RNA replication. Replication occurs on ER-derived membranous webs (invaginations induced by NS4A/NS4B).
-          </li>
-          <li class="mech-item immune">
-            <strong>Step 3 — NS5 STAT2 degradation — innate immune evasion</strong>
-            NS5 (the viral RdRp + MTase) directly binds human STAT2 and recruits the UBR4 E3 ubiquitin ligase for proteasomal degradation. This efficiently blocks IFN-α/β signalling downstream of IFNAR1/2, preventing ISG induction. NS4B additionally suppresses STING and RIG-I pathways. The IFN antagonism is more effective in human cells than murine cells — explaining why mouse models require immunocompromised (IFNAR-KO) backgrounds to model Zika disease. Result: prolonged high-level viraemia despite antiviral immune activation.
-          </li>
-          <li class="mech-item danger">
-            <strong>Step 4 — Neural progenitor cell (NPC) tropism &amp; microcephaly mechanism</strong>
-            In the developing fetal brain, NPCs highly express AXL and TYRO3. ZIKV preferentially infects radial glia (primary NPCs) lining the ventricular zone, which normally divide to generate all cortical neurons. Intracellular mechanisms driving microcephaly: (1) ANKLE2 interaction — ZIKV NS4A/NS4B dysregulate the lipid kinase PI3K/Akt pathway by interacting with ANKLE2, a regulator of nuclear lamina, causing mitotic catastrophe in NPCs; (2) G2/M cell cycle arrest — viral proteins cause checkpoint arrest, reducing NPC proliferation; (3) p53-dependent apoptosis — ZIKV activates caspase-3 in NPCs, depleting the progenitor pool; (4) symmetric → asymmetric division shift — alters cortical neurogenesis timing. Net result: profound cortical thinning, ventriculomegaly, simplified gyral pattern (lissencephaly/pachygyria), congenital microcephaly.
-          </li>
-          <li class="mech-item latent">
-            <strong>Step 5 — GBS molecular mimicry &amp; peripheral nerve injury</strong>
-            ZIKV envelope protein and NS1 share structural/sequence homology with human gangliosides (GM1, GD1a, GD1b expressed on peripheral nerve myelin). Post-infectious antibody cross-reactivity triggers complement-mediated and T-cell-mediated attack on peripheral myelin and axons. The predominant GBS subtype is acute motor axonal neuropathy (AMAN) — distinct from post-dengue, post-EBV GBS which tends to be AIDP. Onset typically 1–4 weeks after acute Zika infection. Molecular mimicry with ZIKV NS1 and myelin proteins is supported by serologic cross-reactivity data.
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Host Immune Response -->
     <div class="detail-card">
-      <div class="detail-header"><h2>Host Immune Response</h2></div>
-      <div class="immune-tags">
-        <span class="itag innate">RIG-I / MDA5 sensing (partially evaded)</span>
-        <span class="itag innate">IFN-α/β induction (blunted by NS5)</span>
-        <span class="itag innate">NK cell activation</span>
-        <span class="itag innate">Macrophage M1 phagocytosis</span>
-        <span class="itag innate">Complement (C1q / C3b opsonisation)</span>
-        <span class="itag adaptive">Anti-E IgM (early; ~5–7 days)</span>
-        <span class="itag adaptive">Anti-E / anti-NS1 IgG (neutralising)</span>
-        <span class="itag adaptive">CD4+ Tfh → germinal centre response</span>
-        <span class="itag adaptive">CD8+ CTL (NS3/E/NS5 epitopes)</span>
-        <span class="itag adaptive">Memory B cells (durable, but cross-reactive with dengue)</span>
-        <span class="itag depleted">NS5-mediated STAT2 degradation → impaired IFN signalling</span>
-        <span class="itag depleted">AXL upregulation by IFN → paradoxical enhanced entry</span>
-        <span class="itag depleted">Fetal immune tolerance → permissive transplacental spread</span>
-        <span class="itag depleted">GBS: autoreactive Ab/T cells vs. gangliosides (post-infectious)</span>
+      <div class="detail-header" style="background: linear-gradient(135deg, #059669, #064e3b);">
+        <div class="entry-eyebrow">zika-virus</div>
+        <h2>Zika Virus</h2>
+        <p class="summary">Zika virus (ZIKV; flavivirus; Aedes aegypti vector) caused the 2015-2016 Americas pandemic; congenital Zika syndrome (microcephaly) via AXL receptor neural progenitor cell tropism; NS5 degrades STAT2; Guillain-Barré association; sexually transmitted; no approved vaccine.</p>
       </div>
-    </div>
+      <div class="detail-body">
 
-    <!-- Disease Spectrum -->
-    <div class="detail-card">
-      <div class="detail-header"><h2>Disease Spectrum</h2></div>
-      <div class="detail-section">
-        <table class="path-table">
-          <thead>
-            <tr><th>Syndrome</th><th>Key Features</th><th>Severity</th></tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Asymptomatic infection</td>
-              <td>~80% of infections; detectable viraemia 1–7 days; infectious to mosquitoes and sexual partners</td>
-              <td><span class="severity sev-low">None</span></td>
-            </tr>
-            <tr>
-              <td>Acute Zika fever</td>
-              <td>Maculopapular rash, low-grade fever, non-purulent conjunctivitis, arthralgia/myalgia; self-limited ~5–7 days</td>
-              <td><span class="severity sev-low">Mild</span></td>
-            </tr>
-            <tr>
-              <td>Congenital Zika syndrome (CZS)</td>
-              <td>Microcephaly; cerebral calcifications (periventricular, cortical/subcortical); cortical dysplasia; ventriculomegaly; cerebellar hypoplasia; limb contractures; hearing loss; retinal abnormalities. Worst outcomes with 1st-trimester infection.</td>
-              <td><span class="severity sev-crit">Critical</span></td>
-            </tr>
-            <tr>
-              <td>Guillain-Barré syndrome (GBS)</td>
-              <td>Ascending flaccid paralysis 1–4 weeks post-infection; AMAN subtype predominant; ~1/4,000 infections; 5–8% require mechanical ventilation; most recover but residual weakness common</td>
-              <td><span class="severity sev-high">Severe</span></td>
-            </tr>
-            <tr>
-              <td>Encephalitis / meningitis</td>
-              <td>Rare in adults; fever, altered consciousness, CSF pleocytosis; reported in immunocompromised and elderly</td>
-              <td><span class="severity sev-high">Severe</span></td>
-            </tr>
-            <tr>
-              <td>Acute myelitis</td>
-              <td>Spinal cord inflammation; motor/sensory/autonomic dysfunction; rare but well-documented in outbreaks</td>
-              <td><span class="severity sev-high">Severe</span></td>
-            </tr>
-            <tr>
-              <td>Testicular inflammation</td>
-              <td>Orchitis; prolonged viral persistence in semen (up to 6 months); risk of sexual transmission window</td>
-              <td><span class="severity sev-med">Moderate</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <!-- Treatment & Prevention -->
-    <div class="detail-card full">
-      <div class="detail-header"><h2>Treatment &amp; Prevention</h2></div>
-      <div class="detail-section">
-        <table class="detail-table">
-          <tr>
-            <th>Supportive care (acute infection)</th>
-            <td>No approved antiviral exists. Management is symptomatic: antipyretics (acetaminophen preferred; aspirin/NSAIDs avoided until dengue excluded due to haemorrhage risk), hydration, rest. Serology-confirmed ZIKV: monitor for neurological symptoms and counsel regarding sexual transmission and pregnancy risk.</td>
-          </tr>
-          <tr>
-            <th>GBS management</th>
-            <td>Intravenous immunoglobulin (IVIg) — 2 g/kg over 5 days; reduces disease severity and accelerates recovery by neutralising pathogenic autoantibodies. Plasmapheresis — equivalent efficacy to IVIg; removes circulating anti-ganglioside antibodies. ICU-level respiratory monitoring; intubation if FVC &lt;20 mL/kg. Physical/occupational rehabilitation essential for recovery.</td>
-          </tr>
-          <tr>
-            <th>Congenital Zika syndrome — supportive</th>
-            <td>No disease-modifying therapy. Management: multidisciplinary neurodevelopmental assessment; antiepileptics for seizures; feeding support (nasogastric/gastrostomy); physiotherapy; ophthalmologic/audiologic follow-up. Outcomes vary by severity of cortical malformation.</td>
-          </tr>
-          <tr>
-            <th>Vector control</th>
-            <td><em>Aedes</em> mosquito control: elimination of standing water (breeding sites); insecticide-treated bed nets; DEET/IR3535 repellents; release of Wolbachia-infected or sterile male mosquitoes (population suppression programs, e.g., World Mosquito Program).</td>
-          </tr>
-          <tr>
-            <th>Sexual transmission prevention</th>
-            <td>WHO recommends consistent condom use or abstinence for ≥3 months after return from Zika-endemic areas (men) and ≥2 months (women) to prevent sexual transmission. Particularly critical for pregnant partners or those planning pregnancy.</td>
-          </tr>
-          <tr>
-            <th>mRNA vaccine candidates (Phase I/II)</th>
-            <td>mRNA-1893 (Moderna) — LNP-encapsulated mRNA encoding prM/E; Phase II completed; demonstrates seroconversion &gt;90% and neutralising antibody titers. Two-dose 50 µg IM regimen. Safety profile consistent with other mRNA vaccines.</td>
-          </tr>
-          <tr>
-            <th>DNA vaccine candidates (Phase I/II)</th>
-            <td>VRC5283 (NIAID/VRC) and GLS-5700 — plasmid DNA encoding prM/E; Phase II (NCT02887482); immunogenic with electroporation delivery. Lower immunogenicity than mRNA platform alone; require 3-dose regimens.</td>
-          </tr>
-          <tr>
-            <th>Purified inactivated virus (ZPIV)</th>
-            <td>ZPIV (Walter Reed Army Institute) — alum-adjuvanted inactivated ZIKV; Phase II; strong neutralising antibody response; requires 2-dose prime + boost; established safety. Traditional platform with well-understood regulatory path.</td>
-          </tr>
-          <tr>
-            <th>Vaccine development status (2025)</th>
-            <td>No vaccine has reached Phase III efficacy trial, primarily due to: waning epidemic (reducing endpoint events), challenge of testing in pregnant women, ADE (antibody-dependent enhancement) concerns given dengue co-circulation, and complex correlates of protection for fetal outcomes. mRNA-1893 considered furthest along. Active WHO/CEPI priority pathogen designation.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <!-- Connections -->
-    <div class="detail-card full">
-      <div class="detail-header"><h2>Connections</h2></div>
-      <div class="connections">
-        <a href="nervous-system.html" class="conn-pill infects">Infects → Neural progenitor cells (fetal brain)</a>
-        <a href="nervous-system.html" class="conn-pill damages">Damages → Peripheral nerves (GBS — AMAN)</a>
-        <a href="placenta.html" class="conn-pill infects">Crosses → Placental barrier (vertical transmission)</a>
-        <a href="skin.html" class="conn-pill infects">Entry → Skin DCs / fibroblasts (mosquito bite)</a>
-        <a href="immune-system.html" class="conn-pill targets">Evades → IFN-I pathway (NS5 → STAT2 degradation)</a>
-        <a href="reproductive-system.html" class="conn-pill infects">Persists → Testes / semen (sexual transmission)</a>
-        <a href="dengue-virus.html" class="conn-pill triggers">Cross-reacts → Dengue antibodies (ADE risk)</a>
-        <a href="axl-receptor.html" class="conn-pill targets">Binds → AXL / TYRO3 TAM receptors</a>
-        <a href="aedes-aegypti.html" class="conn-pill targets">Vector → Aedes aegypti mosquito</a>
-        <a href="microcephaly.html" class="conn-pill triggers">Causes → Congenital microcephaly</a>
-        <a href="guillain-barre.html" class="conn-pill triggers">Triggers → Guillain-Barré syndrome (post-infectious)</a>
-      </div>
-    </div>
-
-    <!-- References -->
-    <div class="detail-card full">
-      <div class="detail-header"><h2>Key References</h2></div>
-      <ul class="refs">
-        <li>Brasil P et al. (2016). Zika virus infection in pregnant women in Rio de Janeiro. <em>NEJM</em> 375, 2321–2334. <a href="https://doi.org/10.1056/NEJMoa1602412" target="_blank">DOI</a></li>
-        <li>Tang H et al. (2016). Zika virus infects human cortical neural progenitors and attenuates their growth. <em>Cell Stem Cell</em> 18, 587–590. <a href="https://doi.org/10.1016/j.stem.2016.02.016" target="_blank">DOI</a></li>
-        <li>Cao-Lormeau VM et al. (2016). Guillain-Barré syndrome outbreak associated with Zika virus infection in French Polynesia. <em>Lancet</em> 387, 1531–1539. <a href="https://doi.org/10.1016/S0140-6736(16)00562-6" target="_blank">DOI</a></li>
-        <li>Grant A et al. (2016). Zika virus targets human STAT2 to inhibit type I interferon signaling. <em>Cell Host Microbe</em> 19, 882–890. <a href="https://doi.org/10.1016/j.chom.2016.05.009" target="_blank">DOI</a></li>
-        <li>Driggers RW et al. (2016). Zika virus infection with prolonged maternal viremia and fetal brain abnormalities. <em>NEJM</em> 374, 2142–2151. <a href="https://doi.org/10.1056/NEJMoa1601824" target="_blank">DOI</a></li>
-        <li>Abbink P et al. (2016). Protective efficacy of multiple vaccine platforms against Zika virus challenge in rhesus monkeys. <em>Science</em> 353, 1129–1132. <a href="https://doi.org/10.1126/science.aah6157" target="_blank">DOI</a></li>
-        <li>Musso D &amp; Gubler DJ (2016). Zika virus. <em>Clin Microbiol Rev</em> 29, 487–524. <a href="https://doi.org/10.1128/CMR.00072-15" target="_blank">DOI</a></li>
-      </ul>
-    </div>
-
-    <!-- Contribute -->
-    <div class="detail-card full">
-      <div class="detail-section">
-        <div class="contribute">
-          <strong>Contribute to this entry</strong> — corrections, additional data, or pathway diagrams welcome.
-          Open an issue or PR at <a href="https://github.com/bpupadhyaya/human-atlas" target="_blank">github.com/bpupadhyaya/human-atlas</a>
-          or email <a href="mailto:bpupadhyaya@gmail.com">bpupadhyaya@gmail.com</a>.
+        <div class="detail-section">
+          <h3>Entry Metadata</h3>
+          <table class="data-table">
+            <tr><th>Field</th><th>Value</th></tr>
+            <tr><td>ID</td><td>zika-virus</td></tr>
+            <tr><td>Name</td><td>Zika Virus</td></tr>
+            <tr><td>Status</td><td>draft</td></tr>
+            <tr><td>Last reviewed</td><td>2026-06-08</td></tr>
+            <tr><td>Atlas</td><td>01-human</td></tr>
+            <tr><td>Scale</td><td>07-system</td></tr>
+          </table>
         </div>
+
+        <div class="detail-section">
+          <h3>Cross-Atlas Connections</h3>
+          <div class="connections">
+            <a class="conn-pill" href="mavs.html" title="ZIKV dsRNA replication intermediates activate RIG-I/MDA5 → MAVS → TBK1/IRF3 → IFN-β; fetal neural progenitor cells have reduced RIG-I/MAVS → impaired IFN-β → ZIKV amplifies unchecked in fetal brain; MAVS is required for adult innate control limiting ZIKV viremia."><span class="rel">connects-to</span>Mavs</a>
+            <a class="conn-pill" href="axl-receptor.html" title="ZIKV E protein binds AXL on cortical neural progenitor cells (NPCs) → endocytosis → NPC infection; AXL and TYRO3 are highly expressed in fetal NPCs → ZIKV neural tropism and congenital microcephaly; AXL inhibitors reduce ZIKV NPC infection in cerebral organoid models."><span class="rel">connects-to</span>Axl Receptor</a>
+            <a class="conn-pill" href="stat1.html" title="ZIKV NS5 degrades STAT2 via ubiquitin-proteasomal pathway → ISGF3 (STAT1/STAT2/IRF9) cannot form → ISG transcription blocked; NS5 specifically targets human STAT2 (not mouse) → explains mouse resistance to ZIKV-induced microcephaly without IFNAR/STAT2 knockout in animal models."><span class="rel">connects-to</span>Stat1</a>
+            <a class="conn-pill" href="dengue-fever.html" title="ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion."><span class="rel">connects-to</span>Dengue Fever</a>
+            <a class="conn-pill" href="west-nile-virus.html" title="WNV and ZIKV are neurotropic flaviviruses; serological cross-reactivity and potential partial cross-protection; unlike ZIKV, WNV is not sexually transmitted and causes no congenital brain malformation; WNV neuroinvasive disease affects elderly/immunocompromised, not fetuses."><span class="rel">connects-to</span>West Nile Virus</a>
+            <a class="conn-pill" href="fibronectin.html" title="ZIKV fibronectin: fibronectin scaffolds trophoblast and NPC extracellular matrix invaded by ZIKV; fibronectin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."><span class="rel">connects-to</span>Fibronectin</a>
+            <a class="conn-pill" href="notch.html" title="ZIKV notch: ZIKV disrupts NOTCH signalling in neural progenitor cells, impairing self-renewal; NOTCH suppression by NS4A/NS4B amplifies NF-κB and IL-6 and type-i-interferon cascade of congenital Zika syndrome."><span class="rel">connects-to</span>Notch</a>
+            <a class="conn-pill" href="igf-1.html" title="ZIKV igf-1: ZIKV suppresses IGF-1 and AKT signalling in neural progenitor cells; igf-1 loss amplifies NF-κB and IL-6 and type-i-interferon cascade, compounding NPC depletion and microcephaly of congenital Zika syndrome."><span class="rel">connects-to</span>Igf 1</a>
+          </div>
+        </div>
+
+        <div class="detail-section">
+          <h3>Sources</h3>
+          <ul class="refs">
+            <li><a href="https://doi.org/10.1128/CMR.00072-15" target="_blank" rel="noopener noreferrer">Musso D, Gubler DJ. Zika Virus. Clin Microbiol Rev. 2016;29(3):487-524.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/27029595/" target="_blank" rel="noopener noreferrer">PubMed 27029595</a></li>
+            <li><a href="https://doi.org/10.1056/NEJMoa1602412" target="_blank" rel="noopener noreferrer">Brasil P, Pereira JP Jr, Moreira ME, et al. Zika Virus Infection in Pregnant Women in Rio de Janeiro. N Engl J Med. 2016;375(24):2321-2334.</a> &middot; <a href="https://pubmed.ncbi.nlm.nih.gov/26943629/" target="_blank" rel="noopener noreferrer">PubMed 26943629</a></li>
+          </ul>
+        </div>
+
       </div>
     </div>
+  </main>
 
-  </div><!-- /.detail-grid -->
-</main>
+  <footer>
+    <p class="footer-tag">Human Engineering is an open, free, global project to model human biology end-to-end — in the service of all of humanity.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="pathogens.html">Pathogens</a>
+      <a href="medicine.html">Medicine</a>
+      <a href="https://github.com/bpupadhyaya/human" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="footer-meta">&copy; <span id="year"></span> Bhim Upadhyaya &middot; MIT License &middot; Built in the open.</p>
+    <p class="footer-meta" style="margin-top:0.6rem;font-style:italic;"><em>This site is co-maintained by AI agents under human direction. Every effort is made for accuracy, but not every detail is manually reviewed each time.</em></p>
+  </footer>
 
-<footer class="site-footer">
-  <p>&copy; <span id="year"></span> Bhim Upadhyaya &middot; Open source &middot; CC BY 4.0 &middot; bpupadhyaya@gmail.com</p>
-  <p style="margin-top:.4rem;">Content co-maintained with AI assistance &mdash; verify clinical details independently before use.</p>
-</footer>
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

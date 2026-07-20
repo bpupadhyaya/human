@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "WH epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) drives WH adrenergic vascular tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "WH renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates WH vascular angiotensin; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "WH myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates WH muscle-connective repair; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "WH galectin-3: galectin-3 from macrophages (already mapped) and fibroblasts (already mapped) modulates WH fibrotic remodelling; galectin-3 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing."
 ---
 
 # Wound Healing
@@ -898,6 +907,9 @@ cross_links:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — WH norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates WH vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — WH bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) supports WH neuroimmune repair; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — WH epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) drives WH adrenergic vascular tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — WH renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates WH vascular angiotensin; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — WH myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates WH muscle-connective repair; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — WH galectin-3: galectin-3 from macrophages (already mapped) and fibroblasts (already mapped) modulates WH fibrotic remodelling; galectin-3 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) inflammatory cascade of wound healing.
 
 [^singer-1999-wound-healing-review]: Singer AJ, Clark RA. Cutaneous wound healing. *N Engl J Med.* 1999;341(10):738-746. [doi:10.1056/NEJM199909023411006](https://doi.org/10.1056/NEJM199909023411006) · [PubMed 10471461](https://pubmed.ncbi.nlm.nih.gov/10471461/)
 [^gurtner-2008-wound-repair-regeneration]: Gurtner GC, Werner S, Barrandon Y, Longaker MT. Wound repair and regeneration. *Nature.* 2008;453(7193):314-321. [doi:10.1038/nature07039](https://doi.org/10.1038/nature07039) · [PubMed 18480812](https://pubmed.ncbi.nlm.nih.gov/18480812/)

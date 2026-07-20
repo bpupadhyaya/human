@@ -39,6 +39,15 @@ cross_links:
   - target: 01-human/07-system/west-nile-virus
     relation: connects-to
     note: "WNV and ZIKV are neurotropic flaviviruses; serological cross-reactivity and potential partial cross-protection; unlike ZIKV, WNV is not sexually transmitted and causes no congenital brain malformation; WNV neuroinvasive disease affects elderly/immunocompromised, not fetuses."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "ZIKV fibronectin: fibronectin scaffolds trophoblast and NPC extracellular matrix invaded by ZIKV; fibronectin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "ZIKV notch: ZIKV disrupts NOTCH signalling in neural progenitor cells, impairing self-renewal; NOTCH suppression by NS4A/NS4B amplifies NF-κB and IL-6 and type-i-interferon cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "ZIKV igf-1: ZIKV suppresses IGF-1 and AKT signalling in neural progenitor cells; igf-1 loss amplifies NF-κB and IL-6 and type-i-interferon cascade, compounding NPC depletion and microcephaly of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -165,3 +174,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 **→ [Dengue Fever](../dengue-fever/)**: ZIKV and DENV share Aedes aegypti vector and flavivirus biology; cross-reactive anti-DENV antibodies may enhance ZIKV infection via ADE in Fcγ receptor-bearing cells; prior dengue immunity has complex effects on Zika severity; both NS5 proteins degrade STAT2 for IFN evasion.
 
 **→ [West Nile Virus](../west-nile-virus/)**: WNV and ZIKV are neurotropic flaviviruses; serological cross-reactivity and potential partial cross-protection; unlike ZIKV, WNV is not sexually transmitted and causes no congenital brain malformation; WNV neuroinvasive disease affects elderly/immunocompromised, not fetuses.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ZIKV fibronectin: fibronectin scaffolds trophoblast and NPC extracellular matrix invaded by ZIKV; fibronectin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — ZIKV notch: ZIKV disrupts NOTCH signalling in neural progenitor cells, impairing self-renewal; NOTCH suppression by NS4A/NS4B amplifies NF-κB and IL-6 and type-i-interferon cascade of congenital Zika syndrome.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — ZIKV igf-1: ZIKV suppresses IGF-1 and AKT signalling in neural progenitor cells; igf-1 loss amplifies NF-κB and IL-6 and type-i-interferon cascade, compounding NPC depletion and microcephaly of congenital Zika syndrome.
