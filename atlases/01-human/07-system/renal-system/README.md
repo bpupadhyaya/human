@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/ace2
     relation: connects-to
     note: "RS ace2: ACE2 on renal tubular cells (already mapped) and macrophages (already mapped) modulates RAAS renal tone; ace2 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "RS cortisol: cortisol from macrophages (already mapped) and renal tubular cells (already mapped) modulates renal stress tone; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "RS ghrelin: ghrelin from macrophages (already mapped) and renal tubular cells (already mapped) modulates renal metabolic signalling; ghrelin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "RS glucagon: glucagon from macrophages (already mapped) and renal tubular cells (already mapped) modulates renal glucose metabolism; glucagon excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -890,6 +899,9 @@ Natriuretic counterpoint:
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — RS myostatin: myostatin from macrophages (already mapped) and renal tubular cells (already mapped) modulates renal fibrotic tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — RS angiopoietin: angiopoietin from macrophages (already mapped) and endothelial cells (already mapped) modulates renal vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — RS ace2: ACE2 on renal tubular cells (already mapped) and macrophages (already mapped) modulates RAAS renal tone; ace2 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — RS cortisol: cortisol from macrophages (already mapped) and renal tubular cells (already mapped) modulates renal stress tone; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — RS ghrelin: ghrelin from macrophages (already mapped) and renal tubular cells (already mapped) modulates renal metabolic signalling; ghrelin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — RS glucagon: glucagon from macrophages (already mapped) and renal tubular cells (already mapped) modulates renal glucose metabolism; glucagon excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 

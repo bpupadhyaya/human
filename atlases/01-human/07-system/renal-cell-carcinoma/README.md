@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "RCC norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "RCC adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "RCC bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "RCC osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC."
 ---
 
 # Renal Cell Carcinoma
@@ -902,6 +911,9 @@ Kidney → primary site of EPO production under hypoxia; VHL-intact renal inters
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — RCC aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — RCC androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — RCC norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — RCC adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — RCC bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — RCC osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates renal tumour immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) angiogenic cascade of RCC.
 
 [^motzer-2018-checkmate214]: Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. *N Engl J Med.* 2018;378(14):1277-1290. [doi:10.1056/NEJMoa1712126](https://doi.org/10.1056/NEJMoa1712126) · [PubMed 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
 [^rini-2019-keynote426]: Rini BI, Plimack ER, Stus V, et al. Pembrolizumab plus axitinib versus sunitinib for advanced renal-cell carcinoma. *N Engl J Med.* 2019;380(12):1116-1127. [doi:10.1056/NEJMoa1816714](https://doi.org/10.1056/NEJMoa1816714) · [PubMed 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
