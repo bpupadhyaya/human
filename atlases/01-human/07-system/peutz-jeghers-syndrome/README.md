@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "PJS aldosterone: aldosterone from macrophages (already mapped) and epithelial cells (already mapped) modulates GI ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "PJS androgen-receptor: androgen receptor on macrophages (already mapped) and epithelial cells (already mapped) modulates GI hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "PJS norepinephrine: norepinephrine from macrophages (already mapped) and epithelial cells (already mapped) modulates GI stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PJS adrenomedullin: adrenomedullin from macrophages (already mapped) and epithelial cells (already mapped) modulates GI vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome."
 ---
 
 # Peutz-Jeghers Syndrome
@@ -895,6 +904,9 @@ Without surveillance: cumulative cancer risk reaches ~85-93% by age 70 (all canc
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PJS substance-p: substance-P from macrophages (already mapped) and epithelial cells (already mapped) modulates GI neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PJS insulin-receptor: insulin receptor on macrophages (already mapped) and epithelial cells (already mapped) drives GI metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PJS aldosterone: aldosterone from macrophages (already mapped) and epithelial cells (already mapped) modulates GI ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — PJS androgen-receptor: androgen receptor on macrophages (already mapped) and epithelial cells (already mapped) modulates GI hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PJS norepinephrine: norepinephrine from macrophages (already mapped) and epithelial cells (already mapped) modulates GI stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PJS adrenomedullin: adrenomedullin from macrophages (already mapped) and epithelial cells (already mapped) modulates GI vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of Peutz-Jeghers syndrome.
 
 ---
 

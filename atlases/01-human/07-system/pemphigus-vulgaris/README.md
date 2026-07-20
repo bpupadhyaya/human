@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "PV adrenomedullin: adrenomedullin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "PV bdnf: BDNF from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "PV osteopontin: osteopontin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "PV fgfr: FGFR signalling on keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV."
 ---
 
 # Pemphigus Vulgaris
@@ -923,6 +932,9 @@ Pemphigus belongs to the **pemphigus group of autoimmune bullous diseases** (AIB
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PV androgen-receptor: androgen receptor on keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PV norepinephrine: norepinephrine from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PV adrenomedullin: adrenomedullin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PV bdnf: BDNF from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PV osteopontin: osteopontin from keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PV fgfr: FGFR signalling on keratinocytes (already mapped) and B-cells (already mapped) modulates epidermal proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) acantholysis cascade of PV.
 
 ---
 
