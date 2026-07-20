@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "Lynch androgen-receptor: androgen receptor on macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) in Lynch syndrome."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Lynch norepinephrine: norepinephrine from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates adrenergic tone; norepinephrine excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) in Lynch syndrome."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Lynch adrenomedullin: adrenomedullin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates vascular tone; adrenomedullin excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) in Lynch syndrome."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Lynch bdnf: BDNF from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates neurotrophin axis; bdnf excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome."
 ---
 
 # Lynch Syndrome
@@ -923,6 +932,9 @@ MSI-H stage II CRC: adjuvant 5-FU/leucovorin does NOT improve OS (may be harmful
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Lynch insulin-receptor: insulin receptor on macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates metabolic axis; insulin-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) in Lynch syndrome.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Lynch aldosterone: aldosterone from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates fluid balance; aldosterone excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Lynch androgen-receptor: androgen receptor on macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) in Lynch syndrome.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Lynch norepinephrine: norepinephrine from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates adrenergic tone; norepinephrine excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) in Lynch syndrome.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Lynch adrenomedullin: adrenomedullin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates vascular tone; adrenomedullin excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) in Lynch syndrome.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Lynch bdnf: BDNF from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates neurotrophin axis; bdnf excess amplifies smad4 (already mapped) and il-6 (already mapped) and il-2 (already mapped) MMR-deficient cascade in Lynch syndrome.
 
 [^bonadona-2011-lynch-risks]: Bonadona V, Bonaïti B, Olschwang S, et al. Cancer risks associated with germline mutations in MLH1, MSH2, and MSH6 genes in Lynch syndrome. *JAMA.* 2011;305(22):2304-2310. [doi:10.1001/jama.2011.743](https://doi.org/10.1001/jama.2011.743) · [PubMed 21642683](https://pubmed.ncbi.nlm.nih.gov/21642683/)
 [^lynch-2015-lynch-review]: Lynch HT, Snyder CL, Shaw TG, et al. Milestones of Lynch syndrome: 1895-2015. *Nat Rev Cancer.* 2015;15(3):181-194. [doi:10.1038/nrc3878](https://doi.org/10.1038/nrc3878) · [PubMed 25673086](https://pubmed.ncbi.nlm.nih.gov/25673086/)

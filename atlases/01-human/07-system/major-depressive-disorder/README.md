@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "MDD epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) modulates adrenergic tone; epinephrine excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "MDD renin: renin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory RAAS axis; renin excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "MDD myostatin: myostatin from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune muscle-wasting axis; myostatin excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "MDD angiopoietin: angiopoietin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory angiogenesis; angiopoietin excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD."
 ---
 
 # Major Depressive Disorder
@@ -952,6 +961,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MDD adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory vasodilation; adrenomedullin loss amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — MDD fgfr: FGFR on astrocytes (already mapped) and microglia (already mapped) modulates neural repair; fgfr dysregulation amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MDD epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) modulates adrenergic tone; epinephrine excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — MDD renin: renin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory RAAS axis; renin excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — MDD myostatin: myostatin from astrocytes (already mapped) and microglia (already mapped) modulates neuroimmune muscle-wasting axis; myostatin excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — MDD angiopoietin: angiopoietin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory angiogenesis; angiopoietin excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)
