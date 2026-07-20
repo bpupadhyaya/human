@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "HNSCC bdnf: BDNF from neurons (already mapped) and macrophages (already mapped) modulates tumour neurotrophic axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "HNSCC epinephrine: epinephrine from neurons (already mapped) and macrophages (already mapped) modulates tumour adrenergic stress; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "HNSCC renin: renin from macrophages (already mapped) and squamous cells (already mapped) modulates tumour RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "HNSCC myostatin: myostatin from macrophages (already mapped) and squamous cells (already mapped) modulates tumour muscle-wasting axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC."
 ---
 
 # HNSCC
@@ -898,6 +907,9 @@ HPV+ oropharyngeal: Node staging based on number (not laterality); HPV-negative 
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HNSCC norepinephrine: norepinephrine from neurons (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HNSCC adrenomedullin: adrenomedullin from macrophages (already mapped) and squamous cells (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HNSCC bdnf: BDNF from neurons (already mapped) and macrophages (already mapped) modulates tumour neurotrophic axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — HNSCC epinephrine: epinephrine from neurons (already mapped) and macrophages (already mapped) modulates tumour adrenergic stress; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — HNSCC renin: renin from macrophages (already mapped) and squamous cells (already mapped) modulates tumour RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — HNSCC myostatin: myostatin from macrophages (already mapped) and squamous cells (already mapped) modulates tumour muscle-wasting axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) tumour cascade of HNSCC.
 
 [^burtness-2019-keynote048]: Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048). *Lancet.* 2019;394(10212):1915-1928. [doi:10.1016/S0140-6736(19)32591-7](https://doi.org/10.1016/S0140-6736(19)32591-7) · [PubMed 31679945](https://pubmed.ncbi.nlm.nih.gov/31679945/)
 [^vermorken-2008-extreme]: Vermorken JB, Mesia R, Rivera F, et al. Platinum-based chemotherapy plus cetuximab in head and neck cancer. *N Engl J Med.* 2008;359(11):1116-1127. [doi:10.1056/NEJMoa0802656](https://doi.org/10.1056/NEJMoa0802656) · [PubMed 18784101](https://pubmed.ncbi.nlm.nih.gov/18784101/)

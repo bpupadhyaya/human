@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "HL adrenomedullin: adrenomedullin from macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates lymphoma vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "HL bdnf: BDNF from macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates lymphoma neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HL."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "HL fgfr: FGFR on macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates lymphoma fibroblast axis; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HL."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "HL epinephrine: epinephrine from macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates lymphoma adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HL."
 ---
 
 # Hodgkin Lymphoma
@@ -905,6 +914,9 @@ Modern protocols minimize RT fields and doses (ISRT replacing extended-field RT)
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — HL androgen-receptor: androgen receptor on macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates lymphoma androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HL norepinephrine: norepinephrine from neurons (already mapped) and macrophages (already mapped) modulates lymphoma adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) Reed-Sternberg cascade in HL.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HL adrenomedullin: adrenomedullin from macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates lymphoma vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade in HL.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HL bdnf: BDNF from macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates lymphoma neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HL.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — HL fgfr: FGFR on macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates lymphoma fibroblast axis; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HL.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — HL epinephrine: epinephrine from macrophages (already mapped) and Reed-Sternberg cells (already mapped) modulates lymphoma adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and T-cytotoxic (already mapped) cascade of HL.
 
 [^connors-2018-echelon1]: Connors JM, Jurczak W, Straus DJ, et al. Brentuximab vedotin with chemotherapy for stage III or IV Hodgkin's lymphoma. *N Engl J Med.* 2018;378(4):331-344. [doi:10.1056/NEJMoa1708984](https://doi.org/10.1056/NEJMoa1708984) · [PubMed 29360494](https://pubmed.ncbi.nlm.nih.gov/29360494/)
 [^armand-2018-nivo-hl]: Armand P, Engert A, Younes A, et al. Nivolumab for relapsed/refractory classic Hodgkin lymphoma after failure of autologous hematopoietic cell transplantation: extended follow-up of the multicohort single-arm phase II CheckMate 205 trial. *J Clin Oncol.* 2018;36(14):1428-1439. [doi:10.1200/JCO.2017.77.6717](https://doi.org/10.1200/JCO.2017.77.6717) · [PubMed 29584546](https://pubmed.ncbi.nlm.nih.gov/29584546/)
