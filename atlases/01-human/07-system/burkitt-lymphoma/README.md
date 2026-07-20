@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "burkitt aldosterone: aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "burkitt androgen-receptor: androgen receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "burkitt norepinephrine: norepinephrine from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "burkitt adrenomedullin: adrenomedullin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma."
 ---
 
 # Burkitt Lymphoma
@@ -906,6 +915,9 @@ FISH for MYC, BCL2, and BCL6 is essential; if BCL2 FISH negative and Ki-67 ~100%
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — burkitt substance-p: substance-P from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — burkitt insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — burkitt aldosterone: aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma fluid balance; aldosterone excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — burkitt androgen-receptor: androgen receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — burkitt norepinephrine: norepinephrine from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — burkitt adrenomedullin: adrenomedullin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and MYC (already mapped) and IL-6 (already mapped) cascade in Burkitt lymphoma.
 
 ---
 

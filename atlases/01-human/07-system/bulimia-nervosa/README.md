@@ -585,6 +585,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "bulimia adrenomedullin: adrenomedullin from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "bulimia osteopontin: osteopontin from neurons (already mapped) and hypothalamus (already mapped) modulates mood immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "bulimia epinephrine: epinephrine from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "bulimia renin: renin from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa."
 ---
 
 # Bulimia Nervosa
@@ -903,6 +912,9 @@ All of the following must be met:
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — bulimia substance-p: substance-P from neurons (already mapped) and hypothalamus (already mapped) modulates nociceptive binge signalling; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — bulimia androgen-receptor: androgen receptor on neurons (already mapped) and hypothalamus (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — bulimia adrenomedullin: adrenomedullin from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — bulimia osteopontin: osteopontin from neurons (already mapped) and hypothalamus (already mapped) modulates mood immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — bulimia epinephrine: epinephrine from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — bulimia renin: renin from neurons (already mapped) and hypothalamus (already mapped) modulates neuroimmune RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in bulimia nervosa.
 
 ## Treatment
 
