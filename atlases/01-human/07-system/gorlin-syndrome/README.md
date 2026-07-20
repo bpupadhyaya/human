@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Gorlin bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin neural repair; bdnf excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Gorlin osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin matrix tone; osteopontin excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Gorlin fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin proliferation; FGFR excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Gorlin epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin adrenergic tone; epinephrine excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome."
 ---
 
 # Gorlin Syndrome
@@ -894,6 +903,9 @@ Both are two-hit tumor suppressors: germline heterozygous LOF + somatic second h
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Gorlin norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin adrenergic tone; norepinephrine excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Gorlin adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin vascular tone; adrenomedullin excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Gorlin bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin neural repair; bdnf excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Gorlin osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin matrix tone; osteopontin excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Gorlin fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin proliferation; FGFR excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Gorlin epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates Gorlin adrenergic tone; epinephrine excess amplifies Hedgehog (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade of Gorlin syndrome.
 
 ---
 

@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "glioblastoma epinephrine: epinephrine from microglia (already mapped) and tumour cells (already mapped) modulates glioma adrenergic tone; epinephrine excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "glioblastoma renin: renin from microglia (already mapped) and tumour cells (already mapped) modulates glioma angiotensin axis; renin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "glioblastoma myostatin: myostatin from microglia (already mapped) and tumour cells (already mapped) modulates glioma fibrotic axis; myostatin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "glioblastoma angiopoietin: angiopoietin from microglia (already mapped) and tumour cells (already mapped) modulates glioma vascular remodelling; angiopoietin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
 ---
 
 # Glioblastoma
@@ -913,6 +922,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — glioblastoma adrenomedullin: adrenomedullin from microglia (already mapped) and tumour cells (already mapped) modulates glioma vascular tone; adrenomedullin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — glioblastoma fgfr: FGFR from microglia (already mapped) and tumour cells (already mapped) modulates glioma receptor signalling; fgfr excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — glioblastoma epinephrine: epinephrine from microglia (already mapped) and tumour cells (already mapped) modulates glioma adrenergic tone; epinephrine excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — glioblastoma renin: renin from microglia (already mapped) and tumour cells (already mapped) modulates glioma angiotensin axis; renin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — glioblastoma myostatin: myostatin from microglia (already mapped) and tumour cells (already mapped) modulates glioma fibrotic axis; myostatin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — glioblastoma angiopoietin: angiopoietin from microglia (already mapped) and tumour cells (already mapped) modulates glioma vascular remodelling; angiopoietin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 
 ---
 
