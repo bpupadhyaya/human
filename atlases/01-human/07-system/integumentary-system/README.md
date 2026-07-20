@@ -590,6 +590,15 @@ cross_links:
   - target: 01-human/03-molecular/myostatin
     relation: connects-to
     note: "Integumentary myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal atrophy; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Integumentary resistin: resistin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal metabolic tone; resistin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Integumentary ghrelin: ghrelin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal metabolic tone; ghrelin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Integumentary glucagon: glucagon from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal metabolic tone; glucagon excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
 ---
 
 # Integumentary System
@@ -886,6 +895,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Integumentary epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal stress tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Integumentary renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal fluid balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Integumentary myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal atrophy; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Integumentary resistin: resistin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal metabolic tone; resistin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Integumentary ghrelin: ghrelin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal metabolic tone; ghrelin deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Integumentary glucagon: glucagon from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal metabolic tone; glucagon excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
 
 ## Pathology
 

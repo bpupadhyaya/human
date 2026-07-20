@@ -579,6 +579,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "IGD insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "IGD androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "IGD adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "IGD osteopontin: osteopontin from microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD."
 sources:
   - id: kuss-2012-gaming-disorder-review
     type: peer-reviewed
@@ -940,6 +949,9 @@ A pattern of persistent or recurrent gaming behavior characterized by:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — IGD calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — IGD substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — IGD insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — IGD androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — IGD adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — IGD osteopontin: osteopontin from microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dopamine (already mapped) reward circuit cascade in IGD.
 
 [^kuss-2012-gaming-disorder-review]: Kuss DJ, Griffiths MD. Internet gaming addiction: a systematic review of empirical research. *Int J Ment Health Addict.* 2012;10(2):278-296. [doi:10.1007/s11469-011-9318-5](https://doi.org/10.1007/s11469-011-9318-5)
 [^who-icd11-gaming-disorder]: World Health Organization. ICD-11: Gaming Disorder (6C51). Geneva: WHO; 2019. [icd.who.int](https://icd.who.int/browse/2025-01/mms/en#1448597234)
