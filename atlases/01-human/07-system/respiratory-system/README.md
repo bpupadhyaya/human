@@ -597,6 +597,15 @@ cross_links:
   - target: 01-human/03-molecular/ace2
     relation: connects-to
     note: "Resp ace2: ACE2 on lung cells (already mapped) and macrophages (already mapped) modulates airway RAAS tone; ace2 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Resp cortisol: cortisol from macrophages (already mapped) and lung cells (already mapped) modulates airway stress response; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Resp ghrelin: ghrelin from macrophages (already mapped) and lung cells (already mapped) modulates airway metabolic signalling; ghrelin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Resp glucagon: glucagon from macrophages (already mapped) and lung cells (already mapped) modulates airway glucose metabolism; glucagon excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system."
 taxonomy:
   uberon: "UBERON:0001004"
   fma: "FMA:7161"
@@ -871,6 +880,9 @@ The mucociliary escalator (ciliated cells + goblet cell mucus) continuously clea
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Resp renin: renin from lung cells (already mapped) and macrophages (already mapped) modulates pulmonary RAAS balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Resp myostatin: myostatin from lung cells (already mapped) and macrophages (already mapped) modulates airway fibrotic tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
 - `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — Resp ace2: ACE2 on lung cells (already mapped) and macrophages (already mapped) modulates airway RAAS tone; ace2 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Resp cortisol: cortisol from macrophages (already mapped) and lung cells (already mapped) modulates airway stress response; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Resp ghrelin: ghrelin from macrophages (already mapped) and lung cells (already mapped) modulates airway metabolic signalling; ghrelin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Resp glucagon: glucagon from macrophages (already mapped) and lung cells (already mapped) modulates airway glucose metabolism; glucagon excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the respiratory system.
 - `prevented-by` → **[PCV13 (Prevnar 13)](../../../../04-vaccine/08-conjugate/pcv13/README.md)** — CAPiTA RCT (N=84,496 adults ≥65): PCV13 achieved 45.6% VE against vaccine-type CAP and 75% VE against invasive pneumococcal disease; prevents pneumococcal pneumonia, the leading infectious cause of respiratory hospitalisation in older adults.
 
 ## Pathology

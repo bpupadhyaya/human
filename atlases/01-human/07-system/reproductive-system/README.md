@@ -590,6 +590,15 @@ cross_links:
   - target: 01-human/03-molecular/acth
     relation: connects-to
     note: "Rep acth: ACTH from pituitary cells (already mapped) and macrophages (already mapped) regulates HPA-axis sex hormone tone; acth excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Rep glucagon: glucagon from macrophages (already mapped) and uterine cells (already mapped) modulates reproductive glucose signalling; glucagon excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Rep adenosine: adenosine from macrophages (already mapped) and uterine cells (already mapped) modulates reproductive vascular tone; adenosine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/apoe
+    relation: connects-to
+    note: "Rep apoe: ApoE from macrophages (already mapped) and uterine cells (already mapped) modulates reproductive lipid metabolism; apoe dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
 ---
 
 # Reproductive System
@@ -896,6 +905,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — Rep ace2: ACE2 on uterine cells (already mapped) and macrophages (already mapped) modulates reproductive RAAS tone; ace2 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Rep acetylcholine: acetylcholine from neurons (already mapped) and macrophages (already mapped) modulates reproductive autonomic tone; acetylcholine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Rep acth: ACTH from pituitary cells (already mapped) and macrophages (already mapped) regulates HPA-axis sex hormone tone; acth excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Rep glucagon: glucagon from macrophages (already mapped) and uterine cells (already mapped) modulates reproductive glucose signalling; glucagon excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Rep adenosine: adenosine from macrophages (already mapped) and uterine cells (already mapped) modulates reproductive vascular tone; adenosine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — Rep apoe: ApoE from macrophages (already mapped) and uterine cells (already mapped) modulates reproductive lipid metabolism; apoe dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 
 ## Pathology
 
