@@ -604,6 +604,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "NMO adrenomedullin: adrenomedullin from astrocytes (already mapped) and macrophages (already mapped) modulates CNS vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "NMO fgfr: fgfr from astrocytes (already mapped) and macrophages (already mapped) modulates CNS growth factor signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "NMO epinephrine: epinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates CNS adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "NMO renin: renin from astrocytes (already mapped) and macrophages (already mapped) modulates CNS renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
 ---
 
 # NMOSD
@@ -945,6 +954,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — NMO androgen-receptor: androgen receptor on astrocytes (already mapped) and macrophages (already mapped) modulates CNS androgen axis; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NMO norepinephrine: norepinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates CNS stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NMO adrenomedullin: adrenomedullin from astrocytes (already mapped) and macrophages (already mapped) modulates CNS vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — NMO fgfr: fgfr from astrocytes (already mapped) and macrophages (already mapped) modulates CNS growth factor signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — NMO epinephrine: epinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates CNS adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — NMO renin: renin from astrocytes (already mapped) and macrophages (already mapped) modulates CNS renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
