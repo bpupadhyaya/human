@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "FAP aldosterone: aldosterone from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates colorectal fluid balance; aldosterone excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "FAP androgen-receptor: androgen receptor on macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "FAP norepinephrine: norepinephrine from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "FAP adrenomedullin: adrenomedullin from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
 ---
 
 # Familial Adenomatous Polyposis
@@ -911,6 +920,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — FAP substance-p: substance-P from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates colorectal pain tone; substance-P excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — FAP insulin-receptor: insulin receptor on macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP metabolism; insulin-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — FAP aldosterone: aldosterone from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates colorectal fluid balance; aldosterone excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — FAP androgen-receptor: androgen receptor on macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — FAP norepinephrine: norepinephrine from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — FAP adrenomedullin: adrenomedullin from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
