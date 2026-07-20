@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "HA aldosterone: aldosterone from macrophages (already mapped) and synoviocytes (already mapped) modulates joint fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HA."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "HA androgen-receptor: androgen receptor on macrophages (already mapped) and synoviocytes (already mapped) modulates joint androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HA."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "HA norepinephrine: norepinephrine from macrophages (already mapped) and synoviocytes (already mapped) modulates joint stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HA."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "HA adrenomedullin: adrenomedullin from macrophages (already mapped) and synoviocytes (already mapped) modulates joint vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HA."
 ---
 
 # Hemophilia A
@@ -900,6 +909,9 @@ FVIII is a critical **amplifier** of the coagulation cascade at the junction bet
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HA substance-p: substance-P from macrophages (already mapped) and synoviocytes (already mapped) modulates joint pain tone in haemophilia; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) haemophilic arthropathy cascade.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HA insulin-receptor: insulin receptor on macrophages (already mapped) and synoviocytes (already mapped) modulates joint metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HA.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HA aldosterone: aldosterone from macrophages (already mapped) and synoviocytes (already mapped) modulates joint fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HA.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — HA androgen-receptor: androgen receptor on macrophages (already mapped) and synoviocytes (already mapped) modulates joint androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HA.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HA norepinephrine: norepinephrine from macrophages (already mapped) and synoviocytes (already mapped) modulates joint stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HA.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HA adrenomedullin: adrenomedullin from macrophages (already mapped) and synoviocytes (already mapped) modulates joint vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HA.
 
 [^oldenburg-2017-emicizumab-haven1]: Oldenburg J, Mahlangu JN, Kim B, et al. Emicizumab prophylaxis in hemophilia A with inhibitors. *N Engl J Med.* 2017;377(9):809-818. [doi:10.1056/NEJMoa1703068](https://doi.org/10.1056/NEJMoa1703068) · [PubMed 28691557](https://pubmed.ncbi.nlm.nih.gov/28691557/)
 [^mahlangu-2018-emicizumab-haven3]: Mahlangu J, Oldenburg J, Paz-Priel I, et al. Emicizumab prophylaxis in patients who have hemophilia A without inhibitors. *N Engl J Med.* 2018;379(9):811-822. [doi:10.1056/NEJMoa1803550](https://doi.org/10.1056/NEJMoa1803550) · [PubMed 30157389](https://pubmed.ncbi.nlm.nih.gov/30157389/)
