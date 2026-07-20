@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "aHUS bdnf: BDNF from mesangial cells (already mapped) and macrophages (already mapped) modulates renal neuroimmune repair; BDNF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "aHUS fgfr: FGFR on mesangial cells (already mapped) and macrophages (already mapped) regulates renal repair signalling; FGFR dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "aHUS epinephrine: epinephrine from mesangial cells (already mapped) and macrophages (already mapped) modulates renal stress tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "aHUS myostatin: myostatin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal fibrotic tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS."
 ---
 
 # Atypical HUS
@@ -953,6 +962,9 @@ Repeated TMA episodes → glomerular fibrosis → CKD → ESRD
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — aHUS norepinephrine: norepinephrine from mesangial cells (already mapped) and macrophages (already mapped) modulates renal adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — aHUS adrenomedullin: adrenomedullin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal vascular tone; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — aHUS bdnf: BDNF from mesangial cells (already mapped) and macrophages (already mapped) modulates renal neuroimmune repair; BDNF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — aHUS fgfr: FGFR on mesangial cells (already mapped) and macrophages (already mapped) regulates renal repair signalling; FGFR dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — aHUS epinephrine: epinephrine from mesangial cells (already mapped) and macrophages (already mapped) modulates renal stress tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — aHUS myostatin: myostatin from mesangial cells (already mapped) and macrophages (already mapped) modulates renal fibrotic tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of atypical HUS.
 
 [^fakhouri-2017-ahus-lancet]: Fakhouri F, Zuber J, Frémeaux-Bacchi V, Loirat C. Haemolytic uraemic syndrome. *Lancet.* 2017;390(10095):681-696. [doi:10.1016/S0140-6736(17)30062-4](https://doi.org/10.1016/S0140-6736(17)30062-4) · [PubMed 28242109](https://pubmed.ncbi.nlm.nih.gov/28242109/)
 [^legendre-2013-eculizumab-ahus-nejm]: Legendre CM, Licht C, Muus P, et al. Terminal complement inhibitor eculizumab in atypical hemolytic-uremic syndrome. *N Engl J Med.* 2013;368(23):2169-2181. [doi:10.1056/NEJMoa1208981](https://doi.org/10.1056/NEJMoa1208981) · [PubMed 23738544](https://pubmed.ncbi.nlm.nih.gov/23738544/)

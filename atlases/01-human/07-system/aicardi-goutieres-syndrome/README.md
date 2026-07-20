@@ -594,6 +594,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "AGS androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates hormonal tone; androgen-receptor dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "AGS norepinephrine: norepinephrine from microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune stress tone; norepinephrine excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "AGS adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates cerebrovascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "AGS osteopontin: osteopontin from microglia (already mapped) and astrocytes (already mapped) promotes neuroimmune matrix remodelling; osteopontin excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS."
 ---
 
 # Aicardi-Goutières Syndrome
@@ -880,6 +889,9 @@ Severe early-onset AGS (TREX1 homozygous, RNASEH2A): death in childhood from res
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AGS insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates neural tone; insulin-receptor dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — AGS aldosterone: aldosterone from microglia (already mapped) and astrocytes (already mapped) modulates AGS ion balance; aldosterone excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AGS androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates hormonal tone; androgen-receptor dysregulation amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — AGS norepinephrine: norepinephrine from microglia (already mapped) and astrocytes (already mapped) modulates neuroimmune stress tone; norepinephrine excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AGS adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates cerebrovascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — AGS osteopontin: osteopontin from microglia (already mapped) and astrocytes (already mapped) promotes neuroimmune matrix remodelling; osteopontin excess amplifies NF-κB (already mapped) and type-I interferon (already mapped) and cGAS-STING (already mapped) cascade of AGS.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
