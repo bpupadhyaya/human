@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "HIV androgen-receptor: androgen receptor on macrophages (already mapped) and natural-killer cells (already mapped) modulates immune androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "HIV norepinephrine: norepinephrine from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "HIV adrenomedullin: adrenomedullin from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "HIV bdnf: BDNF from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV."
 ---
 
 # HIV
@@ -930,6 +939,9 @@ The **latent reservoir** — HIV integrated into quiescent resting memory CD4+ T
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — HIV insulin-receptor: insulin receptor on macrophages (already mapped) and natural-killer cells (already mapped) modulates immune metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HIV aldosterone: aldosterone from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — HIV androgen-receptor: androgen receptor on macrophages (already mapped) and natural-killer cells (already mapped) modulates immune androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HIV norepinephrine: norepinephrine from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HIV adrenomedullin: adrenomedullin from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HIV bdnf: BDNF from macrophages (already mapped) and natural-killer cells (already mapped) modulates immune neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in HIV.
 
 [^barre-sinoussi-1983-hiv-isolation]: Barré-Sinoussi F, Chermann JC, Rey F, et al. Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS). *Science.* 1983;220(4599):868-871. [doi:10.1126/science.6189183](https://doi.org/10.1126/science.6189183) · [PubMed 6189183](https://pubmed.ncbi.nlm.nih.gov/6189183/)
 [^ho-1995-viral-dynamics]: Ho DD, Neumann AU, Perelson AS, et al. Rapid turnover of plasma virions and CD4 lymphocytes in HIV-1 infection. *Nature.* 1995;373(6510):123-126. [doi:10.1038/373123a0](https://doi.org/10.1038/373123a0) · [PubMed 7816094](https://pubmed.ncbi.nlm.nih.gov/7816094/)

@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "HP adrenomedullin: adrenomedullin from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "HP bdnf: BDNF from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "HP fgfr: FGFR on acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic repair; FGFR excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "HP epinephrine: epinephrine from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP."
 ---
 
 # Hereditary Pancreatitis
@@ -927,6 +936,9 @@ cross_links:
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — HP androgen-receptor: androgen receptor on acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HP norepinephrine: norepinephrine from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HP adrenomedullin: adrenomedullin from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HP bdnf: BDNF from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — HP fgfr: FGFR on acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic repair; FGFR excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — HP epinephrine: epinephrine from acinar cells (already mapped) and macrophages (already mapped) modulates pancreatic adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) acinar injury cascade in HP.
 
 [^whitcomb-1996-prss1]: Whitcomb DC, Gorry MC, Preston RA, et al. Hereditary pancreatitis is caused by a mutation in the cationic trypsinogen gene. *Nat Genet.* 1996;14(2):141-145. [doi:10.1038/ng1096-141](https://doi.org/10.1038/ng1096-141) · [PubMed 8841182](https://pubmed.ncbi.nlm.nih.gov/8841182/)
 [^lowenfels-2001-hp-pdac]: Lowenfels AB, Maisonneuve P, DiMagno EP, et al. Hereditary pancreatitis and the risk of pancreatic cancer. *J Natl Cancer Inst.* 2001;93(1):26-31. [doi:10.1093/jnci/93.1.26](https://doi.org/10.1093/jnci/93.1.26) · [PubMed 11136838](https://pubmed.ncbi.nlm.nih.gov/11136838/)
