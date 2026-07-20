@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "PTCL bdnf: BDNF from T-lymphoma cells (already mapped) and macrophages (already mapped) promotes T-lymphoma neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "PTCL osteopontin: osteopontin from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates lymphoma immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "PTCL fgfr: FGFR on T-lymphoma cells (already mapped) and macrophages (already mapped) modulates lymphoma growth signalling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "PTCL epinephrine: epinephrine from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates PTCL stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL."
 ---
 
 # Peripheral T-cell Lymphoma
@@ -928,6 +937,9 @@ Aggressive presentation; generalized lymphadenopathy; extranodal involvement (~6
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PTCL norepinephrine: norepinephrine from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates PTCL vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PTCL adrenomedullin: adrenomedullin from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates PTCL vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PTCL bdnf: BDNF from T-lymphoma cells (already mapped) and macrophages (already mapped) promotes T-lymphoma neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PTCL osteopontin: osteopontin from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates lymphoma immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PTCL fgfr: FGFR on T-lymphoma cells (already mapped) and macrophages (already mapped) modulates lymphoma growth signalling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — PTCL epinephrine: epinephrine from T-lymphoma cells (already mapped) and macrophages (already mapped) modulates PTCL stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PTCL.
 
 ---
 
