@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "AUD osteopontin: osteopontin from hepatocytes (already mapped) and macrophages (already mapped) drives hepatic fibrotic remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "AUD fgfr: FGFR on hepatocytes (already mapped) and macrophages (already mapped) regulates hepatic repair; FGFR dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "AUD epinephrine: epinephrine from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic stress tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "AUD renin: renin from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic fluid balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD."
 ---
 
 # Alcohol Use Disorder
@@ -975,6 +984,9 @@ Prenatal alcohol exposure → leading preventable cause of intellectual disabili
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AUD androgen-receptor: androgen receptor on hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AUD adrenomedullin: adrenomedullin from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic vascular tone; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — AUD osteopontin: osteopontin from hepatocytes (already mapped) and macrophages (already mapped) drives hepatic fibrotic remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — AUD fgfr: FGFR on hepatocytes (already mapped) and macrophages (already mapped) regulates hepatic repair; FGFR dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — AUD epinephrine: epinephrine from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic stress tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — AUD renin: renin from hepatocytes (already mapped) and macrophages (already mapped) modulates hepatic fluid balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) fibrotic cascade of AUD.
 
 [^koob-2013-addiction-neuroscience]: Koob GF, Volkow ND. Neurocircuitry of addiction. *Neuropsychopharmacology.* 2010;35(1):217-238. [doi:10.1038/npp.2009.110](https://doi.org/10.1038/npp.2009.110) · [PubMed 19710631](https://pubmed.ncbi.nlm.nih.gov/19710631/)
 [^anton-2006-combine]: Anton RF, O'Malley SS, Ciraulo DA, et al. Combined pharmacotherapies and behavioral interventions for alcohol dependence: the COMBINE study. *JAMA.* 2006;295(17):2003-2017. [doi:10.1001/jama.295.17.2003](https://doi.org/10.1001/jama.295.17.2003) · [PubMed 16670409](https://pubmed.ncbi.nlm.nih.gov/16670409/)
