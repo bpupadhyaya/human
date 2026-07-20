@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "COPD aldosterone: aldosterone from airway epithelial cells (already mapped) and macrophages (already mapped) modulates airway fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "COPD androgen-receptor: androgen receptor on airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "COPD norepinephrine: norepinephrine from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "COPD adrenomedullin: adrenomedullin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
 ---
 
 # COPD
@@ -922,6 +931,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — COPD substance-p: substance-P from airway epithelial cells (already mapped) and macrophages (already mapped) modulates airway nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — COPD insulin-receptor: insulin receptor on airway epithelial cells (already mapped) and macrophages (already mapped) modulates airway metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — COPD aldosterone: aldosterone from airway epithelial cells (already mapped) and macrophages (already mapped) modulates airway fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — COPD androgen-receptor: androgen receptor on airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — COPD norepinephrine: norepinephrine from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — COPD adrenomedullin: adrenomedullin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
 
 ---
 

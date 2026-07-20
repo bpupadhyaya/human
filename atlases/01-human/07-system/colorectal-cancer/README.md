@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "colorectal adrenomedullin: adrenomedullin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "colorectal bdnf: BDNF from colonocytes (already mapped) and macrophages (already mapped) modulates CRC neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "colorectal osteopontin: osteopontin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC extracellular matrix; osteopontin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "colorectal fgfr: FGFR on colonocytes (already mapped) and macrophages (already mapped) modulates CRC growth factor signalling; fgfr excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
 ---
 
 # Colorectal Cancer
@@ -895,6 +904,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — colorectal androgen-receptor: androgen receptor on colonocytes (already mapped) and macrophages (already mapped) modulates CRC androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — colorectal norepinephrine: norepinephrine from colonocytes (already mapped) and macrophages (already mapped) modulates CRC adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — colorectal adrenomedullin: adrenomedullin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — colorectal bdnf: BDNF from colonocytes (already mapped) and macrophages (already mapped) modulates CRC neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — colorectal osteopontin: osteopontin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC extracellular matrix; osteopontin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — colorectal fgfr: FGFR on colonocytes (already mapped) and macrophages (already mapped) modulates CRC growth factor signalling; fgfr excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
 
 ---
 
