@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "gut-microbiome norepinephrine: norepinephrine from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "gut-microbiome adrenomedullin: adrenomedullin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "gut-microbiome osteopontin: osteopontin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "gut-microbiome fgfr: FGFR from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut epithelial repair; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
 ---
 
 # Gut Microbiome
@@ -849,6 +858,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — gut-microbiome aldosterone: aldosterone from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — gut-microbiome androgen-receptor: androgen receptor on intestinal epithelium (already mapped) and macrophages (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — gut-microbiome norepinephrine: norepinephrine from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — gut-microbiome adrenomedullin: adrenomedullin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — gut-microbiome osteopontin: osteopontin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — gut-microbiome fgfr: FGFR from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut epithelial repair; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 
 ## Pathology
 
