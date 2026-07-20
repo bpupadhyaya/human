@@ -610,6 +610,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "digestive-system renin: renin from enterocytes (already mapped) and macrophages (already mapped) modulates gut angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "digestive-system myostatin: myostatin from enterocytes (already mapped) and macrophages (already mapped) modulates gut fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "digestive-system cortisol: cortisol from enterocytes (already mapped) and macrophages (already mapped) modulates gut stress axis; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "digestive-system estrogen: estrogen from enterocytes (already mapped) and macrophages (already mapped) modulates gut sex-hormone axis; estrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -896,6 +905,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [FGFR](../../03-molecular/fgfr/README.md) — digestive-system fgfr: FGFR on enterocytes (already mapped) and macrophages (already mapped) modulates gut growth factor signalling; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
 - **Connects to:** [Epinephrine](../../03-molecular/epinephrine/README.md) — digestive-system epinephrine: epinephrine from enterocytes (already mapped) and macrophages (already mapped) modulates gut adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
 - **Connects to:** [Renin](../../03-molecular/renin/README.md) — digestive-system renin: renin from enterocytes (already mapped) and macrophages (already mapped) modulates gut angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
+- **Connects to:** [Myostatin](../../03-molecular/myostatin/README.md) — digestive-system myostatin: myostatin from enterocytes (already mapped) and macrophages (already mapped) modulates gut fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
+- **Connects to:** [Cortisol](../../03-molecular/cortisol/README.md) — digestive-system cortisol: cortisol from enterocytes (already mapped) and macrophages (already mapped) modulates gut stress axis; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
+- **Connects to:** [Estrogen](../../03-molecular/estrogen/README.md) — digestive-system estrogen: estrogen from enterocytes (already mapped) and macrophages (already mapped) modulates gut sex-hormone axis; estrogen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
 
 ## Pathology
 
