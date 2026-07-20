@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "ADHD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) modulates neural tone; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "ADHD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates neural hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "ADHD adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates neural vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "ADHD osteopontin: osteopontin from neurons (already mapped) and astrocytes (already mapped) modulates neural immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD."
 ---
 
 # Attention-Deficit/Hyperactivity Disorder
@@ -929,6 +938,9 @@ ADHD is a clinical diagnosis requiring [^biederman-2005-adhd-adults]:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ADHD calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates ADHD calcium-neural tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — ADHD substance-p: substance-P from neurons (already mapped) and astrocytes (already mapped) modulates ADHD nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ADHD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) modulates neural tone; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ADHD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates neural hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ADHD adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates neural vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — ADHD osteopontin: osteopontin from neurons (already mapped) and astrocytes (already mapped) modulates neural immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) dopamine-circuit dysfunction in ADHD.
 
 [^faraone-2021-adhd-primer]: Faraone SV, Banaschewski T, Coghill D, et al. The World Federation of ADHD International Consensus Statement: 208 Evidence-based conclusions about the disorder. *Neurosci Biobehav Rev.* 2021;128:789-818. [doi:10.1016/j.neubiorev.2021.01.022](https://doi.org/10.1016/j.neubiorev.2021.01.022) · [PubMed 33549739](https://pubmed.ncbi.nlm.nih.gov/33549739/)
 [^arnsten-2009-adhd-neuroscience]: Arnsten AF. Toward a new understanding of ADHD pathophysiology: an important role for prefrontal cortex dysfunction. *CNS Drugs.* 2009;23(Suppl 1):33-41. [doi:10.2165/00023210-200923000-00005](https://doi.org/10.2165/00023210-200923000-00005) · [PubMed 19621976](https://pubmed.ncbi.nlm.nih.gov/19621976/)

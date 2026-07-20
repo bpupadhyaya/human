@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "Athero insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates plaque tone; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Athero aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Athero androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates plaque hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Athero norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
 ---
 
 # Atherosclerosis
@@ -893,6 +902,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Athero calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Athero substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Athero insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates plaque tone; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Athero aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Athero androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates plaque hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Athero norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 
 ---
 
