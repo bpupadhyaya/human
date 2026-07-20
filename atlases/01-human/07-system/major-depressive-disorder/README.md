@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "MDD norepinephrine: norepinephrine from astrocytes (already mapped) and microglia (already mapped) modulates stress tone; norepinephrine excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "MDD adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory vasodilation; adrenomedullin loss amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "MDD fgfr: FGFR on astrocytes (already mapped) and microglia (already mapped) modulates neural repair; fgfr dysregulation amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "MDD epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) modulates adrenergic tone; epinephrine excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD."
 ---
 
 # Major Depressive Disorder
@@ -940,6 +949,9 @@ Approximately 30–40% of MDD patients have elevated inflammatory markers:
 - `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — MDD insulin-receptor: insulin-receptor on astrocytes (already mapped) and microglia (already mapped) modulates metabolic axis; insulin resistance amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
 - `connects-to` → **[Androgen-receptor](../../03-molecular/androgen-receptor/README.md)** — MDD androgen-receptor: androgen-receptor on astrocytes (already mapped) and microglia (already mapped) modulates androgen axis; androgen-receptor excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MDD norepinephrine: norepinephrine from astrocytes (already mapped) and microglia (already mapped) modulates stress tone; norepinephrine excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MDD adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory vasodilation; adrenomedullin loss amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — MDD fgfr: FGFR on astrocytes (already mapped) and microglia (already mapped) modulates neural repair; fgfr dysregulation amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MDD epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) modulates adrenergic tone; epinephrine excess amplifies bdnf (already mapped) and serotonin (already mapped) and il-6 (already mapped) depressive cascade of MDD.
 
 [^cipriani-2018-antidepressants-meta]: Cipriani A, Furukawa TA, Salanti G, et al. Comparative efficacy and acceptability of 21 antidepressant drugs for acute treatment of adults with major depressive disorder. *Lancet.* 2018;391(10128):1357-1366. [doi:10.1016/S0140-6736(17)32802-7](https://doi.org/10.1016/S0140-6736(17)32802-7) · [PubMed 29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/)
 [^zarate-2006-ketamine-rapid]: Zarate CA Jr, Singh JB, Carlson PJ, et al. A randomized trial of an N-methyl-D-aspartate antagonist in treatment-resistant major depression. *Arch Gen Psychiatry.* 2006;63(8):856-864. [doi:10.1001/archpsyc.63.8.856](https://doi.org/10.1001/archpsyc.63.8.856) · [PubMed 16894061](https://pubmed.ncbi.nlm.nih.gov/16894061/)

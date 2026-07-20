@@ -588,6 +588,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "Malaria androgen-receptor: androgen-receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates androgen tone; androgen excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Malaria norepinephrine: norepinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates immune adrenergic tone; norepinephrine excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Malaria adrenomedullin: adrenomedullin from macrophages (already mapped) and dendritic cells (already mapped) modulates vascular tone; adrenomedullin loss amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Malaria bdnf: BDNF from macrophages (already mapped) and dendritic cells (already mapped) modulates neuroimmunotrophic tone; bdnf excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade."
 ---
 
 # Malaria
@@ -936,6 +945,9 @@ cross_links:
 - `connects-to` → **[Insulin-receptor](../../03-molecular/insulin-receptor/README.md)** — Malaria insulin-receptor: insulin-receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates metabolic axis; insulin resistance amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Malaria aldosterone: aldosterone from macrophages (already mapped) and dendritic cells (already mapped) modulates electrolyte tone; aldosterone excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) immunopathological cascade of malaria.
 - `connects-to` → **[Androgen-receptor](../../03-molecular/androgen-receptor/README.md)** — Malaria androgen-receptor: androgen-receptor on macrophages (already mapped) and dendritic cells (already mapped) modulates androgen tone; androgen excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Malaria norepinephrine: norepinephrine from macrophages (already mapped) and dendritic cells (already mapped) modulates immune adrenergic tone; norepinephrine excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Malaria adrenomedullin: adrenomedullin from macrophages (already mapped) and dendritic cells (already mapped) modulates vascular tone; adrenomedullin loss amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Malaria bdnf: BDNF from macrophages (already mapped) and dendritic cells (already mapped) modulates neuroimmunotrophic tone; bdnf excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and nf-kb (already mapped) malaria cascade.
 
 [^who-malaria-report-2023]: World Health Organization. World Malaria Report 2023. WHO; 2023.
 [^white-2014-malaria-lancet]: White NJ, Pukrittayakamee S, Hien TT, et al. Malaria. *Lancet.* 2014;383(9918):723-735. [doi:10.1016/S0140-6736(13)60024-0](https://doi.org/10.1016/S0140-6736(13)60024-0) · [PubMed 23953767](https://pubmed.ncbi.nlm.nih.gov/23953767/)
