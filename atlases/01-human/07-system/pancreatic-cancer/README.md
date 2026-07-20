@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "PanCa androgen-receptor: Androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "PanCa norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PanCa adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "PanCa bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa."
 ---
 
 # Pancreatic Cancer
@@ -899,6 +908,9 @@ cross_links:
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PanCa insulin-receptor: Insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives pancreatic metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PanCa aldosterone: Aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PanCa androgen-receptor: Androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates pancreatic cancer hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PanCa norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PanCa adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PanCa bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates PanCa neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PanCa.
 
 ---
 
