@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "BCC adrenomedullin: adrenomedullin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "BCC norepinephrine: norepinephrine from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BCC bdnf: BDNF from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "BCC osteopontin: osteopontin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
 ---
 
 # Basal Cell Carcinoma
@@ -893,6 +902,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — BCC aldosterone: aldosterone from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — BCC androgen-receptor: androgen receptor on keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — BCC adrenomedullin: adrenomedullin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — BCC norepinephrine: norepinephrine from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BCC bdnf: BDNF from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — BCC osteopontin: osteopontin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
 
 ---
 
