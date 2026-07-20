@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "IT androgen-receptor: androgen receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "IT norepinephrine: norepinephrine from endothelial cells (already mapped) and macrophages (already mapped) modulates adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "IT adrenomedullin: adrenomedullin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "IT bdnf: BDNF from endothelial cells (already mapped) and macrophages (already mapped) modulates neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT."
 ---
 
 # Inherited Thrombophilia
@@ -950,6 +959,9 @@ Antithrombin (ATIII) is the primary plasma inhibitor of thrombin, FXa, FIXa, and
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — IT insulin-receptor: insulin receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — IT aldosterone: aldosterone from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — IT androgen-receptor: androgen receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — IT norepinephrine: norepinephrine from endothelial cells (already mapped) and macrophages (already mapped) modulates adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — IT adrenomedullin: adrenomedullin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — IT bdnf: BDNF from endothelial cells (already mapped) and macrophages (already mapped) modulates neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and thrombin (already mapped) cascade in IT.
 
 [^bertina-1994-factor-v-leiden]: Bertina RM, Koeleman BP, Koster T, et al. Mutation in blood coagulation factor V associated with resistance to activated protein C. *Nature.* 1994;369(6475):64-67. [doi:10.1038/369064a0](https://doi.org/10.1038/369064a0) · [PubMed 8164741](https://pubmed.ncbi.nlm.nih.gov/8164741/)
 [^dahlback-2008-protein-c-review]: Dahlbäck B. Advances in understanding pathogenic mechanisms of thrombophilic disorders. *Blood.* 2008;112(1):19-27. [doi:10.1182/blood-2008-01-077909](https://doi.org/10.1182/blood-2008-01-077909) · [PubMed 18574048](https://pubmed.ncbi.nlm.nih.gov/18574048/)

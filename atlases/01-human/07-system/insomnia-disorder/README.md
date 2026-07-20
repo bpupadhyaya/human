@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Insomnia adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates sleep vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Insomnia osteopontin: osteopontin from microglia (already mapped) and astrocytes (already mapped) modulates sleep neuroimmune tone; osteopontin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Insomnia fgfr: FGFR on microglia (already mapped) and astrocytes (already mapped) modulates sleep neuroimmune repair; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Insomnia epinephrine: epinephrine from microglia (already mapped) and astrocytes (already mapped) modulates sleep adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia."
 ---
 
 # Insomnia Disorder
@@ -932,6 +941,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Insomnia insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates sleep metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Insomnia androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates sleep androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Insomnia adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates sleep vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Insomnia osteopontin: osteopontin from microglia (already mapped) and astrocytes (already mapped) modulates sleep neuroimmune tone; osteopontin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Insomnia fgfr: FGFR on microglia (already mapped) and astrocytes (already mapped) modulates sleep neuroimmune repair; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Insomnia epinephrine: epinephrine from microglia (already mapped) and astrocytes (already mapped) modulates sleep adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)
