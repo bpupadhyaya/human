@@ -590,6 +590,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "MSK angiopoietin: angiopoietin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow angiogenic tone; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "MSK ghrelin: ghrelin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow appetite signalling; ghrelin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "MSK glucagon: glucagon from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow metabolic signalling; glucagon excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/apoe
+    relation: connects-to
+    note: "MSK apoe: apoe from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow lipid transport; apoe excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
 ---
 
 # Musculoskeletal System
@@ -917,6 +926,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — MSK renin: renin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow renin-angiotensin tone; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — MSK galectin-3: galectin-3 from macrophages (already mapped) and osteoblasts (already mapped) promotes bone marrow fibrotic remodelling; galectin-3 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — MSK angiopoietin: angiopoietin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow angiogenic tone; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — MSK ghrelin: ghrelin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow appetite signalling; ghrelin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — MSK glucagon: glucagon from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow metabolic signalling; glucagon excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — MSK apoe: apoe from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow lipid transport; apoe excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 
 ## Pathology
 

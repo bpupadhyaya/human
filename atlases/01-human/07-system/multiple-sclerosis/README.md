@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "MS adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates CNS vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "MS fgfr: fgfr from microglia (already mapped) and astrocytes (already mapped) modulates CNS growth factor signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "MS epinephrine: epinephrine from microglia (already mapped) and astrocytes (already mapped) modulates CNS adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "MS renin: renin from microglia (already mapped) and astrocytes (already mapped) modulates CNS renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS."
 ---
 
 # Multiple Sclerosis
@@ -901,6 +910,9 @@ MS affects approximately **2.8 million people worldwide** (~1 million in the US)
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — MS androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates CNS androgen axis; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MS norepinephrine: norepinephrine from microglia (already mapped) and astrocytes (already mapped) modulates CNS stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MS adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates CNS vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — MS fgfr: fgfr from microglia (already mapped) and astrocytes (already mapped) modulates CNS growth factor signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MS epinephrine: epinephrine from microglia (already mapped) and astrocytes (already mapped) modulates CNS adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — MS renin: renin from microglia (already mapped) and astrocytes (already mapped) modulates CNS renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) demyelinating cascade of MS.
 
 [^compston-2008-ms-review]: Compston A, Coles A. Multiple sclerosis. *Lancet.* 2008;372(9648):1502-1517. [doi:10.1016/S0140-6736(08)61620-7](https://doi.org/10.1016/S0140-6736(08)61620-7) · [PubMed 18970977](https://pubmed.ncbi.nlm.nih.gov/18970977/)
 [^kappos-2006-natalizumab]: Polman CH, O'Connor PW, Havrdova E, et al. A randomized, placebo-controlled trial of natalizumab for relapsing multiple sclerosis. *N Engl J Med.* 2006;354(9):899-910. [doi:10.1056/NEJMoa044397](https://doi.org/10.1056/NEJMoa044397) · [PubMed 16510744](https://pubmed.ncbi.nlm.nih.gov/16510744/)
