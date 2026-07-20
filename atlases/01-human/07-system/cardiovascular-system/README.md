@@ -603,6 +603,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "cardiovascular renin: renin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates RAAS-cardiac axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "cardiovascular myostatin: myostatin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac muscle growth; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "cardiovascular galectin-3: galectin-3 from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac fibrosis; galectin-3 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "cardiovascular angiopoietin: angiopoietin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD."
 taxonomy:
   uberon: "UBERON:0004535"
   fma: "FMA:7161"
@@ -880,6 +889,9 @@ Each major vascular bed has **autoregulation** — a local mechanism that holds 
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — cardiovascular fgfr: FGFR on cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac growth; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — cardiovascular epinephrine: epinephrine from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — cardiovascular renin: renin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates RAAS-cardiac axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — cardiovascular myostatin: myostatin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac muscle growth; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — cardiovascular galectin-3: galectin-3 from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac fibrosis; galectin-3 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — cardiovascular angiopoietin: angiopoietin from cardiomyocytes (already mapped) and macrophages (already mapped) modulates cardiac vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in CVD.
 
 ## Pathology
 

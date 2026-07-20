@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "carney epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "carney renin: renin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "carney myostatin: myostatin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour growth suppression; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "carney angiopoietin: angiopoietin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex."
 ---
 
 # Carney Complex
@@ -905,6 +914,9 @@ PRKAR1A somatic LOH occurs in ~15-20% of sporadic adrenocortical adenomas and ca
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — carney bdnf: BDNF from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — carney osteopontin: osteopontin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour immune matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — carney epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — carney renin: renin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — carney myostatin: myostatin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour growth suppression; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — carney angiopoietin: angiopoietin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Carney complex.
 
 ---
 
