@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "GCA androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "GCA norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates GCA adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "GCA adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates GCA vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "GCA bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates GCA neural vascular repair; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA."
 ---
 
 # Giant Cell Arteritis
@@ -886,6 +895,9 @@ The temporal arteries supply scalp, temporalis muscle, and dura. In GCA, transmu
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — GCA insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates GCA metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — GCA aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — GCA androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — GCA norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates GCA adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — GCA adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates GCA vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — GCA bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates GCA neural vascular repair; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of GCA.
 
 [^stone-2017-giact]: Stone JH, Tuckwell K, Dimonaco S, et al. Trial of tocilizumab in giant-cell arteritis. *N Engl J Med.* 2017;377(4):317-328. [doi:10.1056/NEJMoa1613849](https://doi.org/10.1056/NEJMoa1613849) · [PubMed 28745999](https://pubmed.ncbi.nlm.nih.gov/28745999/)
 [^weyand-2014-gca-review]: Weyand CM, Goronzy JJ. Clinical practice. Giant-cell arteritis and polymyalgia rheumatica. *N Engl J Med.* 2014;371(1):50-57. [doi:10.1056/NEJMcp1214926](https://doi.org/10.1056/NEJMcp1214926) · [PubMed 24988557](https://pubmed.ncbi.nlm.nih.gov/24988557/)
