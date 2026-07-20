@@ -608,6 +608,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "OCD androgen-receptor: Androgen receptor on neurons (already mapped) and microglia (already mapped) modulates cortico-striatal hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "OCD adrenomedullin: adrenomedullin from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "OCD osteopontin: osteopontin from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal immune adhesion; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "OCD fgfr: fgfr from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal neural growth; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD."
 ---
 
 # Obsessive-Compulsive Disorder
@@ -929,6 +938,9 @@ OCD is often underdiagnosed due to shame and secrecy. Mean time from symptom ons
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — OCD insulin-receptor: Insulin receptor on neurons (already mapped) and microglia (already mapped) drives cortico-striatal metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — OCD aldosterone: Aldosterone from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — OCD androgen-receptor: Androgen receptor on neurons (already mapped) and microglia (already mapped) modulates cortico-striatal hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — OCD adrenomedullin: adrenomedullin from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — OCD osteopontin: osteopontin from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal immune adhesion; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — OCD fgfr: fgfr from neurons (already mapped) and microglia (already mapped) modulates cortico-striatal neural growth; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of OCD.
 
 [^abramowitz-2009-ocd-review]: Abramowitz JS, Taylor S, McKay D. Obsessive-compulsive disorder. *Lancet.* 2009;374(9688):491-499. [doi:10.1016/S0140-6736(09)60240-3](https://doi.org/10.1016/S0140-6736(09)60240-3) · [PubMed 19665647](https://pubmed.ncbi.nlm.nih.gov/19665647/)
 [^chamberlain-2008-ocd-neuroscience]: Chamberlain SR, Menzies L, Hampshire A, et al. Orbitofrontal dysfunction in patients with OCD and their unaffected relatives. *Science.* 2008;321(5887):421-422. [doi:10.1126/science.1154433](https://doi.org/10.1126/science.1154433) · [PubMed 18635808](https://pubmed.ncbi.nlm.nih.gov/18635808/)
