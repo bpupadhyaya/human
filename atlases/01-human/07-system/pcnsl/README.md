@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "PCNSL norepinephrine: norepinephrine from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PCNSL adrenomedullin: adrenomedullin from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "PCNSL bdnf: BDNF from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "PCNSL osteopontin: osteopontin from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
 ---
 
 # Primary CNS Lymphoma
@@ -897,6 +906,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PCNSL aldosterone: Aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — PCNSL androgen-receptor: Androgen receptor on macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PCNSL norepinephrine: norepinephrine from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PCNSL adrenomedullin: adrenomedullin from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PCNSL bdnf: BDNF from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma neural tone; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PCNSL osteopontin: osteopontin from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)

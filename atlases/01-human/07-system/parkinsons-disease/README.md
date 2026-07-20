@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "PD adrenomedullin: adrenomedullin from neurons (already mapped) and microglia (already mapped) modulates dopaminergic vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "PD osteopontin: osteopontin from neurons (already mapped) and microglia (already mapped) modulates dopaminergic immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "PD fgfr: FGFR on neurons (already mapped) and microglia (already mapped) modulates dopaminergic neuroprotection; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "PD epinephrine: epinephrine from neurons (already mapped) and microglia (already mapped) modulates dopaminergic autonomic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD."
 ---
 
 # Parkinson's Disease
@@ -930,6 +939,9 @@ PD is primarily a disease of aging (mean onset ~60 years), but **~10–15% of ca
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PD aldosterone: Aldosterone from neurons (already mapped) and microglia (already mapped) modulates dopaminergic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — PD androgen-receptor: Androgen receptor on neurons (already mapped) and microglia (already mapped) modulates dopaminergic hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PD adrenomedullin: adrenomedullin from neurons (already mapped) and microglia (already mapped) modulates dopaminergic vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PD osteopontin: osteopontin from neurons (already mapped) and microglia (already mapped) modulates dopaminergic immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PD fgfr: FGFR on neurons (already mapped) and microglia (already mapped) modulates dopaminergic neuroprotection; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — PD epinephrine: epinephrine from neurons (already mapped) and microglia (already mapped) modulates dopaminergic autonomic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) dopaminergic cascade of PD.
 
 [^kalia-2015-pd-review]: Kalia LV, Lang AE. Parkinson's disease. *Lancet.* 2015;386(9996):896-912. [doi:10.1016/S0140-6736(14)61393-3](https://doi.org/10.1016/S0140-6736(14)61393-3) · [PubMed 25904081](https://pubmed.ncbi.nlm.nih.gov/25904081/)
 [^spillantini-1997-lewy-body]: Spillantini MG, Schmidt ML, Lee VM, Trojanowski JQ, Jakes R, Goedert M. Alpha-synuclein in Lewy bodies. *Nature.* 1997;388(6645):839-840. [doi:10.1038/42166](https://doi.org/10.1038/42166) · [PubMed 9278044](https://pubmed.ncbi.nlm.nih.gov/9278044/)
