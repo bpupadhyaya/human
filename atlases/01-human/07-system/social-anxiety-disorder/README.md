@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "SAD fgfr: FGFR on neurons (already mapped) and astrocytes (already mapped) drives neurodevelopmental circuit remodelling; fgfr dysregulation amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "SAD renin: renin from neurons (already mapped) and astrocytes (already mapped) links RAAS to neuroinflammation in SAD; renin excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "SAD myostatin: myostatin from neurons (already mapped) and astrocytes (already mapped) modulates neuromuscular tone in SAD; myostatin excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "SAD angiopoietin: angiopoietin from neurons (already mapped) and astrocytes (already mapped) modulates cerebral vascular tone in SAD; angiopoietin excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD."
 ---
 
 # Social Anxiety Disorder
@@ -921,6 +930,9 @@ The unique **dopaminergic social reward deficit** in SAD has clinical implicatio
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — SAD adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates vascular tone in SAD; adrenomedullin loss amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — SAD osteopontin: osteopontin from neurons (already mapped) and astrocytes (already mapped) modulates neuroinflammatory ECM; osteopontin excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — SAD fgfr: FGFR on neurons (already mapped) and astrocytes (already mapped) drives neurodevelopmental circuit remodelling; fgfr dysregulation amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — SAD renin: renin from neurons (already mapped) and astrocytes (already mapped) links RAAS to neuroinflammation in SAD; renin excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — SAD myostatin: myostatin from neurons (already mapped) and astrocytes (already mapped) modulates neuromuscular tone in SAD; myostatin excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — SAD angiopoietin: angiopoietin from neurons (already mapped) and astrocytes (already mapped) modulates cerebral vascular tone in SAD; angiopoietin excess amplifies nf-kb (already mapped) and crh (already mapped) and il-6 (already mapped) neuroinflammatory cascade of SAD.
 
 [^liebowitz-1987-sad-scale]: Liebowitz MR. Social phobia. *Mod Probl Pharmacopsychiatry.* 1987;22:141-173. [PubMed 2885745](https://pubmed.ncbi.nlm.nih.gov/2885745/)
 [^stein-2008-sad-review]: Stein MB, Stein DJ. Social anxiety disorder. *Lancet.* 2008;371(9618):1115-1125. [doi:10.1016/S0140-6736(08)60488-2](https://doi.org/10.1016/S0140-6736(08)60488-2) · [PubMed 18374843](https://pubmed.ncbi.nlm.nih.gov/18374843/)
