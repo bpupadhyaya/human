@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "TSC norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in TSC; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "TSC adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "TSC osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes TSC tumour ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "TSC fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) drives TSC hamartoma stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of TSC."
 ---
 
 # Tuberous Sclerosis Complex
@@ -923,6 +932,9 @@ With modern management: life expectancy increasingly normal; major risks: renal 
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — TSC aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — TSC androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates TSC hormonal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — TSC norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in TSC; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — TSC adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates TSC vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — TSC osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes TSC tumour ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — TSC fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) drives TSC hamartoma stromal growth; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and mTOR (already mapped) cascade of TSC.
 
 ---
 

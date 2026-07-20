@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "TB bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroimmune granuloma formation; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of TB."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "TB fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) drives TB granuloma stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of TB."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "TB epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates TB adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of TB."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "TB renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates TB vascular RAAS; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of TB."
 ---
 
 # Tuberculosis
@@ -923,6 +932,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — TB norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in TB; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of TB.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — TB adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in TB; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of TB.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — TB bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroimmune granuloma formation; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of TB.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — TB fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) drives TB granuloma stromal growth; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of TB.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — TB epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates TB adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of TB.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — TB renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates TB vascular RAAS; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of TB.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
