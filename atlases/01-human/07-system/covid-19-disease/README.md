@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "COVID-19 norepinephrine: norepinephrine from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "COVID-19 adrenomedullin: adrenomedullin from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "COVID-19 bdnf: BDNF from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "COVID-19 osteopontin: osteopontin from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID immune matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
 ---
 
 # COVID-19 Disease
@@ -856,6 +865,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — COVID-19 aldosterone: aldosterone from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — COVID-19 androgen-receptor: androgen receptor on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — COVID-19 norepinephrine: norepinephrine from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — COVID-19 adrenomedullin: adrenomedullin from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — COVID-19 bdnf: BDNF from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — COVID-19 osteopontin: osteopontin from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID immune matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 
 ## Pathology
 
