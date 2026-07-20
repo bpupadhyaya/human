@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "Insomnia substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates sleep pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Insomnia insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates sleep metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Insomnia androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates sleep androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Insomnia adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates sleep vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia."
 ---
 
 # Insomnia Disorder
@@ -920,6 +929,9 @@ CBT-I directly targets perpetuating factors.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Insomnia cgrp: CGRP from microglia (already mapped) and astrocytes (already mapped) modulates sleep neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) neuroinflammatory cascade of insomnia disorder.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Insomnia calcitonin: calcitonin from microglia (already mapped) and astrocytes (already mapped) modulates sleep calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Insomnia substance-p: substance-P from microglia (already mapped) and astrocytes (already mapped) modulates sleep pain tone; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Insomnia insulin-receptor: insulin receptor on microglia (already mapped) and astrocytes (already mapped) modulates sleep metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Insomnia androgen-receptor: androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates sleep androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Insomnia adrenomedullin: adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates sleep vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of insomnia.
 
 [^riemann-2017-insomnia-lancet]: Riemann D, Baglioni C, Bassetti C, et al. European guideline for the diagnosis and treatment of insomnia. *J Sleep Res.* 2017;26(6):675-700. [doi:10.1111/jsr.12594](https://doi.org/10.1111/jsr.12594) · [PubMed 28875581](https://pubmed.ncbi.nlm.nih.gov/28875581/)
 [^trauer-2015-cbti-meta]: Trauer JM, Qian MY, Doyle JS, et al. Cognitive behavioral therapy for chronic insomnia. *Ann Intern Med.* 2015;163(3):191-204. [doi:10.7326/M14-2841](https://doi.org/10.7326/M14-2841) · [PubMed 26054060](https://pubmed.ncbi.nlm.nih.gov/26054060/)

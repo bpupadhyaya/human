@@ -581,6 +581,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "Integumentary fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) modulates dermal growth tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Integumentary epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal stress tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Integumentary renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal fluid balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "Integumentary myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal atrophy; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade."
 ---
 
 # Integumentary System
@@ -874,6 +883,9 @@ Wound healing is a precisely orchestrated process in four overlapping phases [^g
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Integumentary norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Integumentary adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Integumentary fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) modulates dermal growth tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Integumentary epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal stress tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Integumentary renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal fluid balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Integumentary myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates dermal atrophy; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) skin cascade.
 
 ## Pathology
 
