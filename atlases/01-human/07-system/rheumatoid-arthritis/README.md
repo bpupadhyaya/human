@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "RA adrenomedullin: adrenomedullin from synoviocytes (already mapped) and macrophages (already mapped) modulates joint vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "RA bdnf: BDNF from synoviocytes (already mapped) and macrophages (already mapped) promotes joint neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "RA fgfr: FGFR on synoviocytes (already mapped) and macrophages (already mapped) drives joint stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "RA epinephrine: epinephrine from synoviocytes (already mapped) and macrophages (already mapped) modulates joint adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA."
 ---
 
 # Rheumatoid Arthritis
@@ -921,6 +930,9 @@ RA patients have:
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — RA androgen-receptor: androgen receptor on synoviocytes (already mapped) and macrophages (already mapped) modulates joint hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — RA norepinephrine: norepinephrine from synoviocytes (already mapped) and macrophages (already mapped) modulates joint vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — RA adrenomedullin: adrenomedullin from synoviocytes (already mapped) and macrophages (already mapped) modulates joint vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — RA bdnf: BDNF from synoviocytes (already mapped) and macrophages (already mapped) promotes joint neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — RA fgfr: FGFR on synoviocytes (already mapped) and macrophages (already mapped) drives joint stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — RA epinephrine: epinephrine from synoviocytes (already mapped) and macrophages (already mapped) modulates joint adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) synovial cascade of RA.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
