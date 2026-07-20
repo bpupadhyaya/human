@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "cervical androgen-receptor: androgen receptor on tumour cells (already mapped) and macrophages (already mapped) modulates tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "cervical norepinephrine: norepinephrine from tumour cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "cervical adrenomedullin: adrenomedullin from tumour cells (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "cervical bdnf: BDNF from tumour cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer."
 ---
 
 # Cervical Cancer
@@ -894,6 +903,9 @@ The cervical transformation zone (TZ) — the area between the original and new 
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — cervical insulin-receptor: insulin receptor on tumour cells (already mapped) and macrophages (already mapped) modulates metabolic axis; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — cervical aldosterone: aldosterone from tumour cells (already mapped) and macrophages (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — cervical androgen-receptor: androgen receptor on tumour cells (already mapped) and macrophages (already mapped) modulates tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — cervical norepinephrine: norepinephrine from tumour cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — cervical adrenomedullin: adrenomedullin from tumour cells (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — cervical bdnf: BDNF from tumour cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and PD-1 (already mapped) cascade in cervical cancer.
 
 ---
 
