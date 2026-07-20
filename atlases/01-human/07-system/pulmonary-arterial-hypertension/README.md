@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "PAH adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "PAH bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "PAH osteopontin: osteopontin from macrophages (already mapped) and endothelial cells (already mapped) scaffolds pulmonary ECM; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "PAH epinephrine: epinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -902,6 +911,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PAH androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PAH norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PAH adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PAH bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PAH osteopontin: osteopontin from macrophages (already mapped) and endothelial cells (already mapped) scaffolds pulmonary ECM; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — PAH epinephrine: epinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

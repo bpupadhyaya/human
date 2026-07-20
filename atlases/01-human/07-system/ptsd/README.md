@@ -591,6 +591,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "PTSD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives CNS metabolic repair in PTSD; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "PTSD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates PTSD hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PTSD adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates PTSD vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "PTSD osteopontin: osteopontin from neurons (already mapped) and astrocytes (already mapped) scaffolds CNS ECM in PTSD; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
 ---
 
 # PTSD
@@ -917,6 +926,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PTSD cgrp: CGRP from neurons (already mapped) and astrocytes (already mapped) modulates neuroimmune vascular tone in PTSD; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PTSD calcitonin: calcitonin from neurons (already mapped) and astrocytes (already mapped) modulates HPA-axis calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PTSD insulin-receptor: insulin receptor on neurons (already mapped) and astrocytes (already mapped) drives CNS metabolic repair in PTSD; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PTSD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates PTSD hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PTSD adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates PTSD vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PTSD osteopontin: osteopontin from neurons (already mapped) and astrocytes (already mapped) scaffolds CNS ECM in PTSD; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
