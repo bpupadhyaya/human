@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "NET fgfr: FGFR on fibroblasts (already mapped) and endothelial cells (already mapped) drives neuroendocrine angiogenesis; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "NET epinephrine: epinephrine from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "NET renin: renin from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "NET myostatin: myostatin from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine atrophic tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET."
 ---
 
 # Neuroendocrine Tumors
@@ -888,6 +897,9 @@ Treatment identical to SCLC: cisplatin (or carboplatin) + etoposide (4-6 cycles)
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — NET bdnf: BDNF from fibroblasts (already mapped) and endothelial cells (already mapped) promotes neuroendocrine tumour survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — NET osteopontin: osteopontin from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine ECM; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — NET fgfr: FGFR on fibroblasts (already mapped) and endothelial cells (already mapped) drives neuroendocrine angiogenesis; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — NET epinephrine: epinephrine from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — NET renin: renin from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — NET myostatin: myostatin from fibroblasts (already mapped) and endothelial cells (already mapped) modulates neuroendocrine atrophic tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of NET.
 
 [^yao-2011-radiant3]: Yao JC, Shah MH, Ito T, et al. Everolimus for advanced pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):514-523. [doi:10.1056/NEJMoa1009290](https://doi.org/10.1056/NEJMoa1009290) · [PubMed 21306237](https://pubmed.ncbi.nlm.nih.gov/21306237/)
 [^raymond-2011-sunitinib-pnet]: Raymond E, Dahan L, Raoul JL, et al. Sunitinib malate for the treatment of pancreatic neuroendocrine tumors. *N Engl J Med.* 2011;364(6):501-513. [doi:10.1056/NEJMoa1003825](https://doi.org/10.1056/NEJMoa1003825) · [PubMed 21306236](https://pubmed.ncbi.nlm.nih.gov/21306236/)

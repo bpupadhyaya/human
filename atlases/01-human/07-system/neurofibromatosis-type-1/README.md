@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "NF1 norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates neurofibroma stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "NF1 adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates neurofibroma vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "NF1 osteopontin: osteopontin from fibroblasts (already mapped) and macrophages (already mapped) modulates neurofibroma immune adhesion; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "NF1 fgfr: fgfr from fibroblasts (already mapped) and macrophages (already mapped) modulates neurofibroma growth signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1."
 ---
 
 # Neurofibromatosis Type 1
@@ -896,6 +905,9 @@ In glioma and MPNST: additional alterations required — MPNST requires CDKN2A/2
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — NF1 aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates neurofibroma ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — NF1 androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates neurofibroma hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NF1 norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates neurofibroma stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NF1 adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates neurofibroma vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — NF1 osteopontin: osteopontin from fibroblasts (already mapped) and macrophages (already mapped) modulates neurofibroma immune adhesion; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — NF1 fgfr: fgfr from fibroblasts (already mapped) and macrophages (already mapped) modulates neurofibroma growth signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) tumour cascade of NF1.
 
 [^gutmann-2017-nf1-primer]: Gutmann DH, Ferner RE, Listernick RH, et al. Neurofibromatosis type 1. *Nat Rev Dis Primers.* 2017;3:17004. [doi:10.1038/nrdp.2017.4](https://doi.org/10.1038/nrdp.2017.4) · [PubMed 28230061](https://pubmed.ncbi.nlm.nih.gov/28230061/)
 [^dombi-2016-selumetinib]: Dombi E, Baldwin A, Marcus LJ, et al. Activity of Selumetinib in Neurofibromatosis Type 1-Related Plexiform Neurofibromas. *N Engl J Med.* 2016;375(26):2550-2560. [doi:10.1056/NEJMoa1605943](https://doi.org/10.1056/NEJMoa1605943) · [PubMed 28029918](https://pubmed.ncbi.nlm.nih.gov/28029918/)
