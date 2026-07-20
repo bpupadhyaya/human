@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "APS calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) cascade of APS."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "APS substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone; substance-P excess amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) cascade of APS."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "APS insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives vascular tone; insulin-receptor loss amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) cascade of APS."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "APS aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular ion balance; aldosterone excess amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) cascade of APS."
 ---
 
 # Antiphospholipid Syndrome
@@ -917,6 +926,9 @@ In APS, anti-B2GPI IgG bound to B2GPI on phospholipid surfaces converts this ant
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — APS tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) modulates thromboinflammatory balance; tgf-beta dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) cascade of APS.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — APS cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone; cgrp dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) cascade of APS.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — APS calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) cascade of APS.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — APS substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone; substance-P excess amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) cascade of APS.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — APS insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives vascular tone; insulin-receptor loss amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) cascade of APS.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — APS aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular ion balance; aldosterone excess amplifies NF-κB (already mapped) and thrombin (already mapped) and complement-C5 (already mapped) cascade of APS.
 
 [^miyakis-2006-sydney-aps]: Miyakis S, Lockshin MD, Atsumi T, et al. International consensus statement on an update of the classification criteria for definite antiphospholipid syndrome (APS). *J Thromb Haemost.* 2006;4(2):295-306. [doi:10.1111/j.1538-7836.2006.01753.x](https://doi.org/10.1111/j.1538-7836.2006.01753.x) · [PubMed 16420554](https://pubmed.ncbi.nlm.nih.gov/16420554/)
 [^barbhaiya-2023-acreular-aps]: Barbhaiya M, Zuily S, Naden R, et al. The 2023 ACR/EULAR antiphospholipid syndrome classification criteria. *Ann Rheum Dis.* 2023;82(10):1258-1270. [doi:10.1136/ard-2023-224609](https://doi.org/10.1136/ard-2023-224609) · [PubMed 37643823](https://pubmed.ncbi.nlm.nih.gov/37643823/)

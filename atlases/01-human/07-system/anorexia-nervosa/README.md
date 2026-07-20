@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "AN adrenomedullin: adrenomedullin from neurons (already mapped) and adipocytes (already mapped) modulates vascular tone in starvation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "AN osteopontin: osteopontin from neurons (already mapped) and adipocytes (already mapped) modulates immune-metabolic tone in starvation; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "AN epinephrine: epinephrine from neurons (already mapped) and adipocytes (already mapped) modulates adrenergic tone in starvation; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "AN renin: renin from neurons (already mapped) and adipocytes (already mapped) modulates fluid tone in starvation; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
 ---
 
 # Anorexia Nervosa
@@ -924,6 +933,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AN insulin-receptor: insulin receptor on neurons (already mapped) and adipocytes (already mapped) modulates metabolic energy sensing; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AN androgen-receptor: androgen receptor on neurons (already mapped) and adipocytes (already mapped) modulates hormonal energy balance; androgen-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AN adrenomedullin: adrenomedullin from neurons (already mapped) and adipocytes (already mapped) modulates vascular tone in starvation; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — AN osteopontin: osteopontin from neurons (already mapped) and adipocytes (already mapped) modulates immune-metabolic tone in starvation; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — AN epinephrine: epinephrine from neurons (already mapped) and adipocytes (already mapped) modulates adrenergic tone in starvation; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — AN renin: renin from neurons (already mapped) and adipocytes (already mapped) modulates fluid tone in starvation; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
