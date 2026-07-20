@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "OCCC bdnf: BDNF from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC neural proliferation; bdnf excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "OCCC osteopontin: osteopontin from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC immune adhesion; osteopontin excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "OCCC fgfr: fgfr from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC growth factor signalling; fgfr excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "OCCC epinephrine: epinephrine from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC adrenergic tone; epinephrine excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -925,6 +934,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — OCCC norepinephrine: norepinephrine from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC stress tone; norepinephrine excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — OCCC adrenomedullin: adrenomedullin from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC vascular tone; adrenomedullin excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — OCCC bdnf: BDNF from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC neural proliferation; bdnf excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — OCCC osteopontin: osteopontin from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC immune adhesion; osteopontin excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — OCCC fgfr: fgfr from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC growth factor signalling; fgfr excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — OCCC epinephrine: epinephrine from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC adrenergic tone; epinephrine excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
 
 ---
 
