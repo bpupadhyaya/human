@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "MEN4 adrenomedullin: Adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "MEN4 bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine neuroprotection; BDNF excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "MEN4 osteopontin: Osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes neuroendocrine tumour matrix remodelling; osteopontin excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "MEN4 fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) regulates neuroendocrine tumour proliferation; FGFR excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome."
 ---
 
 # MEN4 Syndrome
@@ -883,6 +892,9 @@ When clinical MEN features are present:
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — MEN4 androgen-receptor: Androgen receptor from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine tumour immunity; androgen excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MEN4 norepinephrine: Norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine stress tone; norepinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MEN4 adrenomedullin: Adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MEN4 bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine neuroprotection; BDNF excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — MEN4 osteopontin: Osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes neuroendocrine tumour matrix remodelling; osteopontin excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — MEN4 fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) regulates neuroendocrine tumour proliferation; FGFR excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN4 syndrome.
 
 [^alrezk-2017-men4]: Alrezk R, Hannah-Shmouni F, Stratakis CA. MEN4 and CDKN1B mutations: the latest of the MEN syndromes. *Endocr Relat Cancer.* 2017;24(10):T195-T208. [doi:10.1530/ERC-17-0243](https://doi.org/10.1530/ERC-17-0243) · [PubMed 28894007](https://pubmed.ncbi.nlm.nih.gov/28894007/)
 [^pellegata-2006-cdkn1b-men4]: Pellegata NS, Quintanilla-Martinez L, Siggelkow H, et al. Germ-line mutations in p27Kip1 cause a multiple endocrine neoplasia syndrome in rats and humans. *Proc Natl Acad Sci USA.* 2006;103(42):15558-15563. [doi:10.1073/pnas.0603306103](https://doi.org/10.1073/pnas.0603306103) · [PubMed 17030811](https://pubmed.ncbi.nlm.nih.gov/17030811/)

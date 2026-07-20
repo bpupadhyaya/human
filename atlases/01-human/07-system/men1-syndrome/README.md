@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "MEN1 bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine neuroprotection; BDNF excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "MEN1 osteopontin: Osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes neuroendocrine tumour matrix remodelling; osteopontin excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "MEN1 fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) regulates neuroendocrine tumour proliferation; FGFR excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "MEN1 epinephrine: Epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine stress tone; epinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome."
 ---
 
 # MEN1 Syndrome
@@ -891,6 +900,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MEN1 norepinephrine: Norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine stress tone; norepinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MEN1 adrenomedullin: Adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — MEN1 bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine neuroprotection; BDNF excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — MEN1 osteopontin: Osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes neuroendocrine tumour matrix remodelling; osteopontin excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — MEN1 fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) regulates neuroendocrine tumour proliferation; FGFR excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MEN1 epinephrine: Epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine stress tone; epinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
 
 ---
 
