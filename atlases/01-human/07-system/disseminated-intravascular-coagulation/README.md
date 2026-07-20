@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "DIC substance-p: substance-P from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "DIC insulin-receptor: insulin receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates vascular metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "DIC aldosterone: aldosterone from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "DIC androgen-receptor: androgen receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates vascular sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC."
 ---
 
 # Disseminated Intravascular Coagulation
@@ -910,6 +919,9 @@ DIC is always **secondary** — it does not occur in isolation but as a conseque
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — DIC cgrp: CGRP from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — DIC calcitonin: calcitonin from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — DIC substance-p: substance-P from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — DIC insulin-receptor: insulin receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates vascular metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — DIC aldosterone: aldosterone from endothelial cells (already mapped) and macrophages (already mapped) modulates vascular fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — DIC androgen-receptor: androgen receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates vascular sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) coagulation cascade of DIC.
 
 ---
 

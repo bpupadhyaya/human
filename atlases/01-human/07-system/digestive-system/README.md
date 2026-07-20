@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "digestive-system osteopontin: osteopontin from enterocytes (already mapped) and macrophages (already mapped) modulates gut inflammatory tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "digestive-system fgfr: FGFR on enterocytes (already mapped) and macrophages (already mapped) modulates gut growth factor signalling; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "digestive-system epinephrine: epinephrine from enterocytes (already mapped) and macrophages (already mapped) modulates gut adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "digestive-system renin: renin from enterocytes (already mapped) and macrophages (already mapped) modulates gut angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system."
 taxonomy:
   uberon: "UBERON:0001007"
 ---
@@ -884,6 +893,9 @@ The ENS can function autonomously without extrinsic innervation (Hirschsprung's 
 - **Connects to:** [Norepinephrine](../../03-molecular/norepinephrine/README.md) — digestive-system norepinephrine: norepinephrine from enterocytes (already mapped) and macrophages (already mapped) modulates gut adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
 - **Connects to:** [Adrenomedullin](../../03-molecular/adrenomedullin/README.md) — digestive-system adrenomedullin: adrenomedullin from enterocytes (already mapped) and macrophages (already mapped) modulates gut vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
 - **Connects to:** [Osteopontin](../../03-molecular/osteopontin/README.md) — digestive-system osteopontin: osteopontin from enterocytes (already mapped) and macrophages (already mapped) modulates gut inflammatory tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
+- **Connects to:** [FGFR](../../03-molecular/fgfr/README.md) — digestive-system fgfr: FGFR on enterocytes (already mapped) and macrophages (already mapped) modulates gut growth factor signalling; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
+- **Connects to:** [Epinephrine](../../03-molecular/epinephrine/README.md) — digestive-system epinephrine: epinephrine from enterocytes (already mapped) and macrophages (already mapped) modulates gut adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
+- **Connects to:** [Renin](../../03-molecular/renin/README.md) — digestive-system renin: renin from enterocytes (already mapped) and macrophages (already mapped) modulates gut angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the GI system.
 
 ## Pathology
 
