@@ -585,6 +585,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "WNV bdnf: BDNF from astrocytes (already mapped) and macrophages (already mapped) supports WNV neuroimmune neuroprotection; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "WNV fgfr: FGFR on astrocytes (already mapped) and macrophages (already mapped) modulates WNV neuro-repair; fgfr loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "WNV epinephrine: epinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates WNV adrenergic stress; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "WNV renin: renin from astrocytes (already mapped) and macrophages (already mapped) modulates WNV vascular angiotensin; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV."
 ---
 
 # West Nile Virus
@@ -894,3 +903,6 @@ WNV has evolved a multilayered strategy to evade innate immunity:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — WNV norepinephrine: norepinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — WNV adrenomedullin: adrenomedullin from astrocytes (already mapped) and macrophages (already mapped) modulates WNV vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — WNV bdnf: BDNF from astrocytes (already mapped) and macrophages (already mapped) supports WNV neuroimmune neuroprotection; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — WNV fgfr: FGFR on astrocytes (already mapped) and macrophages (already mapped) modulates WNV neuro-repair; fgfr loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — WNV epinephrine: epinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates WNV adrenergic stress; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — WNV renin: renin from astrocytes (already mapped) and macrophages (already mapped) modulates WNV vascular angiotensin; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) neuroinflammatory cascade of WNV.

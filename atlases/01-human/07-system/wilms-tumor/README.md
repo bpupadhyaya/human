@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "WT norepinephrine: norepinephrine from epithelial cells (already mapped) and macrophages (already mapped) modulates WT adrenergic tone; norepinephrine excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "WT adrenomedullin: adrenomedullin from renal epithelial cells (already mapped) and macrophages (already mapped) modulates WT vascular tone; adrenomedullin excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "WT bdnf: BDNF from renal epithelial cells (already mapped) and macrophages (already mapped) supports WT neuro-stromal remodelling; bdnf loss amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "WT osteopontin: osteopontin from renal epithelial cells (already mapped) and macrophages (already mapped) scaffolds WT ECM; osteopontin excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT."
 ---
 
 # Wilms Tumor
@@ -900,6 +909,9 @@ Wilms tumor survivors face late effects proportional to treatment intensity:
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — WT aldosterone: aldosterone from renal epithelial cells (already mapped) and macrophages (already mapped) modulates WT ion balance; aldosterone excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — WT androgen-receptor: androgen receptor on epithelial cells (already mapped) and macrophages (already mapped) modulates WT hormonal growth; androgen-receptor loss amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — WT norepinephrine: norepinephrine from epithelial cells (already mapped) and macrophages (already mapped) modulates WT adrenergic tone; norepinephrine excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — WT adrenomedullin: adrenomedullin from renal epithelial cells (already mapped) and macrophages (already mapped) modulates WT vascular tone; adrenomedullin excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — WT bdnf: BDNF from renal epithelial cells (already mapped) and macrophages (already mapped) supports WT neuro-stromal remodelling; bdnf loss amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — WT osteopontin: osteopontin from renal epithelial cells (already mapped) and macrophages (already mapped) scaffolds WT ECM; osteopontin excess amplifies IL-6 (already mapped) and VEGF (already mapped) and mTOR (already mapped) tumour-promoting cascade of WT.
 
 [^dome-2015-wilms]: Dome JS, Graf N, Geller JI, et al. Advances in Wilms tumor treatment and biology: progress through international collaboration. *J Clin Oncol.* 2015;33(27):2999-3007. [doi:10.1200/JCO.2015.62.1888](https://doi.org/10.1200/JCO.2015.62.1888) · [PubMed 26261251](https://pubmed.ncbi.nlm.nih.gov/26261251/)
 [^dix-2006-arenl0002]: Dix DB, Bhatt SM, Geller JI, et al. Treatment of Stage IV favorable histology Wilms tumor with incomplete lung metastasis response after chemotherapy: a report from Children's Oncology Group Study AREN0533. *J Clin Oncol.* 2018;36(16):1564-1570. [doi:10.1200/JCO.2017.77.1877](https://doi.org/10.1200/JCO.2017.77.1877) · [PubMed 29584550](https://pubmed.ncbi.nlm.nih.gov/29584550/)
