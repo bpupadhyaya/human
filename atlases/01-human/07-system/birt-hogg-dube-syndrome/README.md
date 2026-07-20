@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "BHD bdnf: BDNF from renal cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "BHD osteopontin: osteopontin from renal cells (already mapped) and macrophages (already mapped) modulates tumour immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "BHD fgfr: FGFR on renal cells (already mapped) and macrophages (already mapped) modulates tumour repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "BHD epinephrine: epinephrine from renal cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -924,6 +933,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — BHD norepinephrine: norepinephrine from renal cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — BHD adrenomedullin: adrenomedullin from renal cells (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BHD bdnf: BDNF from renal cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — BHD osteopontin: osteopontin from renal cells (already mapped) and macrophages (already mapped) modulates tumour immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — BHD fgfr: FGFR on renal cells (already mapped) and macrophages (already mapped) modulates tumour repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — BHD epinephrine: epinephrine from renal cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 
 ---
 

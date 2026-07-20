@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "BC adrenomedullin: adrenomedullin from urothelial cells (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BC bdnf: BDNF from urothelial cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "BC epinephrine: epinephrine from urothelial cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "BC renin: renin from urothelial cells (already mapped) and macrophages (already mapped) modulates bladder tumour fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer."
 ---
 
 # Bladder Cancer
@@ -912,6 +921,9 @@ NMIBC and MIBC have distinct molecular landscapes:
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — BC androgen-receptor: androgen receptor on urothelial cells (already mapped) and macrophages (already mapped) modulates tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — BC norepinephrine: norepinephrine from urothelial cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — BC adrenomedullin: adrenomedullin from urothelial cells (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BC bdnf: BDNF from urothelial cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — BC epinephrine: epinephrine from urothelial cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — BC renin: renin from urothelial cells (already mapped) and macrophages (already mapped) modulates bladder tumour fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in bladder cancer.
 
 ---
 
