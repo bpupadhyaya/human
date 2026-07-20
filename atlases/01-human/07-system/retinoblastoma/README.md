@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Rb adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Rb fgfr: FGFR on fibroblasts (already mapped) and macrophages (already mapped) drives retinal tumour stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Rb epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour vascular tone; epinephrine excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Rb renin: renin from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal angiotensin balance; renin excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma."
 ---
 
 # Retinoblastoma
@@ -884,6 +893,9 @@ Standard regimen: **vincristine + carboplatin + etoposide (VCE)**, 6 cycles; red
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Rb androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour hormonal tone; androgen excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Rb norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Rb adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Rb fgfr: FGFR on fibroblasts (already mapped) and macrophages (already mapped) drives retinal tumour stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Rb epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal tumour vascular tone; epinephrine excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Rb renin: renin from fibroblasts (already mapped) and macrophages (already mapped) modulates retinal angiotensin balance; renin excess amplifies nf-kb (already mapped) and vegf (already mapped) and il-6 (already mapped) cascade of retinoblastoma.
 
 [^knudson-1971-two-hit]: Knudson AG Jr. Mutation and cancer: statistical study of retinoblastoma. *Proc Natl Acad Sci USA.* 1971;68(4):820-823. [doi:10.1073/pnas.68.4.820](https://doi.org/10.1073/pnas.68.4.820) · [PubMed 5279523](https://pubmed.ncbi.nlm.nih.gov/5279523/)
 [^shields-2008-retinoblastoma]: Shields CL, Shields JA. Retinoblastoma management: advances in enucleation, intravenous chemoreduction, and intra-arterial chemotherapy. *Curr Opin Ophthalmol.* 2010;21(3):203-212. [doi:10.1097/ICU.0b013e328338676a](https://doi.org/10.1097/ICU.0b013e328338676a) · [PubMed 20224400](https://pubmed.ncbi.nlm.nih.gov/20224400/)
