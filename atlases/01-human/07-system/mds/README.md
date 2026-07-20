@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "MDS substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates pain tone; substance-P excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "MDS insulin-receptor: insulin receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates metabolic axis; insulin-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "MDS aldosterone: aldosterone from macrophages (already mapped) and hepatocytes (already mapped) modulates electrolyte tone; aldosterone excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "MDS androgen-receptor: androgen receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade."
 ---
 
 # Myelodysplastic Syndromes
@@ -882,6 +891,9 @@ MDS → AML transformation rate: ~10% at 1 year for very-low risk; ~40-50% at 2 
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MDS cgrp: CGRP from macrophages (already mapped) and hepatocytes (already mapped) modulates neuroimmune tone; cgrp excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MDS calcitonin: calcitonin from macrophages (already mapped) and hepatocytes (already mapped) modulates calcium tone; calcitonin dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MDS substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates pain tone; substance-P excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — MDS insulin-receptor: insulin receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates metabolic axis; insulin-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MDS aldosterone: aldosterone from macrophages (already mapped) and hepatocytes (already mapped) modulates electrolyte tone; aldosterone excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — MDS androgen-receptor: androgen receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) myelodysplastic cascade.
 
 [^fenaux-2009-aza001]: Fenaux P, Mufti GJ, Hellstrom-Lindberg E, et al. Efficacy of azacitidine compared with conventional care regimens in patients with higher-risk myelodysplastic syndromes. *Lancet Oncol.* 2009;10(3):223-232. [doi:10.1016/S1470-2045(09)70003-8](https://doi.org/10.1016/S1470-2045(09)70003-8) · [PubMed 19230772](https://pubmed.ncbi.nlm.nih.gov/19230772/)
 [^fenaux-2020-medalist]: Fenaux P, Platzbecker U, Mufti GJ, et al. Luspatercept in patients with lower-risk myelodysplastic syndromes. *N Engl J Med.* 2020;382(2):140-151. [doi:10.1056/NEJMoa1908892](https://doi.org/10.1056/NEJMoa1908892) · [PubMed 31914241](https://pubmed.ncbi.nlm.nih.gov/31914241/)

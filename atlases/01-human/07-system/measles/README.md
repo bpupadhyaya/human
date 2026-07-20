@@ -590,6 +590,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Measles calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Measles substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral pain tone; substance-P excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Measles insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic axis; insulin-receptor loss amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) in measles."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Measles aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates fluid balance; aldosterone excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles."
 ---
 
 # Measles
@@ -925,6 +934,9 @@ Beyond immune amnesia (memory B cell depletion), MV causes acute immune suppress
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Measles activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes antiviral fibrosis; activin-a excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Measles cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Measles calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Measles substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates antiviral pain tone; substance-P excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Measles insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic axis; insulin-receptor loss amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) in measles.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Measles aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates fluid balance; aldosterone excess amplifies il-6 (already mapped) and tnf-alpha (already mapped) and type-i-interferon (already mapped) cascade of measles.
 
 [^panum-1847-faroe-measles]: Panum PL. Observations made during the epidemic of measles on the Faroe Islands in the year 1846. *Med Classics.* 1939;3:829-886.
 [^mina-2019-immune-amnesia]: Mina MJ, Kula T, Leng Y, et al. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. *Science.* 2019;366(6465):599-606. [doi:10.1126/science.aay6485](https://doi.org/10.1126/science.aay6485) · [PubMed 31672891](https://pubmed.ncbi.nlm.nih.gov/31672891/)
