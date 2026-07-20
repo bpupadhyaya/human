@@ -585,6 +585,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "HCV insulin-receptor: insulin receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "HCV aldosterone: aldosterone from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "HCV androgen-receptor: androgen receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "HCV norepinephrine: norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
 ---
 
 # Hepatitis C
@@ -901,3 +910,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HCV calcitonin: calcitonin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic calcium balance; calcitonin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HCV substance-p: substance-P from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HCV insulin-receptor: insulin receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HCV aldosterone: aldosterone from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — HCV androgen-receptor: androgen receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HCV norepinephrine: norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
