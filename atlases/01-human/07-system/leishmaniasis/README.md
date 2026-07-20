@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Leish adrenomedullin: adrenomedullin from macrophages (already mapped) and mast cells (already mapped) modulates vascular tone; adrenomedullin loss amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Leish bdnf: BDNF from macrophages (already mapped) and mast cells (already mapped) modulates neuroimmunotrophic tone; bdnf excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Leish fgfr: FGFR on macrophages (already mapped) and mast cells (already mapped) modulates immune repair; fgfr dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Leish epinephrine: epinephrine from macrophages (already mapped) and mast cells (already mapped) modulates immune adrenergic tone; epinephrine excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis."
 ---
 
 # Leishmaniasis
@@ -874,3 +883,6 @@ HIV-VL co-infection: CD4+ depletion → loss of IFN-γ production → *Leishmani
 - `connects-to` → **[Androgen-receptor](../../03-molecular/androgen-receptor/README.md)** — Leish androgen-receptor: androgen-receptor on macrophages (already mapped) and mast cells (already mapped) modulates androgen tone; androgen excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Leish norepinephrine: norepinephrine from macrophages (already mapped) and mast cells (already mapped) modulates stress tone; norepinephrine excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Leish adrenomedullin: adrenomedullin from macrophages (already mapped) and mast cells (already mapped) modulates vascular tone; adrenomedullin loss amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Leish bdnf: BDNF from macrophages (already mapped) and mast cells (already mapped) modulates neuroimmunotrophic tone; bdnf excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Leish fgfr: FGFR on macrophages (already mapped) and mast cells (already mapped) modulates immune repair; fgfr dysregulation amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Leish epinephrine: epinephrine from macrophages (already mapped) and mast cells (already mapped) modulates immune adrenergic tone; epinephrine excess amplifies IL-6 (already mapped) and TNF-α (already mapped) and NF-κB (already mapped) immunopathological cascade of leishmaniasis.
