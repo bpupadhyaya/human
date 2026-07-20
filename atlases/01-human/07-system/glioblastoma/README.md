@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "glioblastoma androgen-receptor: androgen receptor on microglia (already mapped) and tumour cells (already mapped) modulates glioma androgen axis; androgen-receptor loss amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "glioblastoma adrenomedullin: adrenomedullin from microglia (already mapped) and tumour cells (already mapped) modulates glioma vascular tone; adrenomedullin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "glioblastoma fgfr: FGFR from microglia (already mapped) and tumour cells (already mapped) modulates glioma receptor signalling; fgfr excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "glioblastoma epinephrine: epinephrine from microglia (already mapped) and tumour cells (already mapped) modulates glioma adrenergic tone; epinephrine excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma."
 ---
 
 # Glioblastoma
@@ -901,6 +910,9 @@ The blood-brain barrier (BBB) creates a pharmacological challenge:
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — glioblastoma insulin-receptor: insulin receptor on microglia (already mapped) and tumour cells (already mapped) modulates glioma metabolic axis; insulin-receptor loss amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — glioblastoma aldosterone: aldosterone from microglia (already mapped) and tumour cells (already mapped) modulates glioma fluid balance; aldosterone excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — glioblastoma androgen-receptor: androgen receptor on microglia (already mapped) and tumour cells (already mapped) modulates glioma androgen axis; androgen-receptor loss amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — glioblastoma adrenomedullin: adrenomedullin from microglia (already mapped) and tumour cells (already mapped) modulates glioma vascular tone; adrenomedullin excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — glioblastoma fgfr: FGFR from microglia (already mapped) and tumour cells (already mapped) modulates glioma receptor signalling; fgfr excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — glioblastoma epinephrine: epinephrine from microglia (already mapped) and tumour cells (already mapped) modulates glioma adrenergic tone; epinephrine excess amplifies EGFR (already mapped) and NF-κB (already mapped) and VEGF (already mapped) cascade of glioblastoma.
 
 ---
 

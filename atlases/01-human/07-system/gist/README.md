@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "gist aldosterone: aldosterone from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST fluid balance; aldosterone excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "gist androgen-receptor: androgen receptor on stromal cells (already mapped) and tumour cells (already mapped) modulates GIST androgen axis; androgen-receptor loss amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "gist norepinephrine: norepinephrine from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST adrenergic tone; norepinephrine excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "gist adrenomedullin: adrenomedullin from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST vascular tone; adrenomedullin excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST."
 ---
 
 # GIST
@@ -902,6 +911,9 @@ No approved targeted therapy; sunitinib may have modest activity; clinical trial
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — gist substance-p: substance-P from stromal cells (already mapped) and tumour cells (already mapped) modulates tumour pain tone; substance-P excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — gist insulin-receptor: insulin receptor on stromal cells (already mapped) and tumour cells (already mapped) modulates GIST metabolic axis; insulin-receptor loss amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — gist aldosterone: aldosterone from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST fluid balance; aldosterone excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — gist androgen-receptor: androgen receptor on stromal cells (already mapped) and tumour cells (already mapped) modulates GIST androgen axis; androgen-receptor loss amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — gist norepinephrine: norepinephrine from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST adrenergic tone; norepinephrine excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — gist adrenomedullin: adrenomedullin from stromal cells (already mapped) and tumour cells (already mapped) modulates GIST vascular tone; adrenomedullin excess amplifies KIT (already mapped) and VEGF (already mapped) and mTOR (already mapped) cascade of GIST.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
