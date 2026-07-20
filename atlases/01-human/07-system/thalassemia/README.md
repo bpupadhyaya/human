@@ -597,6 +597,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Thal bdnf: BDNF from macrophages (already mapped) and erythrocytes (already mapped) modulates neuroimmune erythropoiesis; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and hepcidin (already mapped) cascade of thalassemia."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Thal osteopontin: osteopontin from macrophages (already mapped) and erythrocytes (already mapped) promotes thalassaemic erythroid remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and hepcidin (already mapped) cascade of thalassemia."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Thal fgfr: FGFR on macrophages (already mapped) and erythrocytes (already mapped) drives thalassaemic erythroid stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and hepcidin (already mapped) cascade of thalassemia."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Thal epinephrine: epinephrine from macrophages (already mapped) and erythrocytes (already mapped) modulates thalassaemic adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and hepcidin (already mapped) cascade of thalassemia."
 ---
 
 # Thalassemia
@@ -934,6 +943,9 @@ Untransfused or undertransfused β-thal major:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Thal norepinephrine: norepinephrine from macrophages (already mapped) and erythrocytes (already mapped) modulates vascular tone in thalassemia; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Thal adrenomedullin: adrenomedullin from macrophages (already mapped) and erythrocytes (already mapped) modulates vascular tone in thalassemia; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Thal bdnf: BDNF from macrophages (already mapped) and erythrocytes (already mapped) modulates neuroimmune erythropoiesis; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Thal osteopontin: osteopontin from macrophages (already mapped) and erythrocytes (already mapped) promotes thalassaemic erythroid remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Thal fgfr: FGFR on macrophages (already mapped) and erythrocytes (already mapped) drives thalassaemic erythroid stromal growth; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Thal epinephrine: epinephrine from macrophages (already mapped) and erythrocytes (already mapped) modulates thalassaemic adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Hepcidin (already mapped) cascade of thalassemia.
 
 [^weatherall-2008-thalassemia-review]: Weatherall DJ. The inherited diseases of hemoglobin are an emerging global health burden. *Blood.* 2010;115(22):4331-4336. [doi:10.1182/blood-2010-01-251348](https://doi.org/10.1182/blood-2010-01-251348) · [PubMed 20233970](https://pubmed.ncbi.nlm.nih.gov/20233970/)
 [^cappellini-2014-thalassemia-guidelines]: Cappellini MD, Cohen A, Porter J, et al. (eds). Guidelines for the Management of Transfusion Dependent Thalassaemia (TDT). 3rd ed. Thalassaemia International Federation; 2014.
