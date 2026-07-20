@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "HF fgfr: FGFR from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac repair signalling; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "HF epinephrine: epinephrine from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "HF cortisol: cortisol from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac glucocorticoid axis; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "HF ghrelin: ghrelin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac metabolic axis; ghrelin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF."
 ---
 
 # Heart Failure
@@ -856,6 +865,9 @@ Normal hearts increase stroke volume with increasing preload (Starling curve). T
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HF bdnf: BDNF from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac neural repair; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — HF osteopontin: osteopontin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — HF fgfr: FGFR from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac repair signalling; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — HF epinephrine: epinephrine from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — HF cortisol: cortisol from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac glucocorticoid axis; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — HF ghrelin: ghrelin from macrophages (already mapped) and cardiomyocytes (already mapped) modulates cardiac metabolic axis; ghrelin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) myocardial cascade of HF.
 
 ## Pathology
 
