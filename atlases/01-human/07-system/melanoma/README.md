@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Melanoma adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) drives vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Melanoma bdnf: BDNF from fibroblasts and macrophages modulates neuroprotective tumour tone; bdnf deficiency amplifies il-6 and vegf and wnt-beta-catenin tumour cascade of melanoma."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Melanoma fgfr: FGFR on fibroblasts and macrophages modulates tumour proliferation; fgfr dysregulation amplifies il-6 and vegf and wnt-beta-catenin tumour cascade of melanoma."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Melanoma epinephrine: epinephrine from fibroblasts and macrophages drives adrenergic axis; epinephrine excess amplifies il-6 and vegf and wnt-beta-catenin tumour cascade of melanoma."
 ---
 
 # Melanoma
@@ -881,6 +890,9 @@ cross_links:
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Melanoma androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) drives hormonal axis; androgen-receptor loss amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Melanoma norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) drives adrenergic tone; norepinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Melanoma adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) drives vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and vegf (already mapped) and wnt-beta-catenin (already mapped) tumour cascade of melanoma.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Melanoma bdnf: BDNF from fibroblasts and macrophages modulates neuroprotective tumour tone; bdnf deficiency amplifies il-6 and vegf and wnt-beta-catenin tumour cascade of melanoma.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Melanoma fgfr: FGFR on fibroblasts and macrophages modulates tumour proliferation; fgfr dysregulation amplifies il-6 and vegf and wnt-beta-catenin tumour cascade of melanoma.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Melanoma epinephrine: epinephrine from fibroblasts and macrophages drives adrenergic axis; epinephrine excess amplifies il-6 and vegf and wnt-beta-catenin tumour cascade of melanoma.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

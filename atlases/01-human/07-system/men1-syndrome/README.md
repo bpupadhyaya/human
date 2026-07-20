@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "MEN1 epinephrine: Epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine stress tone; epinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "MEN1 renin: Renin from macrophages and fibroblasts modulates RAAS-neuroendocrine axis; renin excess amplifies il-6 and vegf and rankl cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "MEN1 myostatin: Myostatin from macrophages and fibroblasts modulates skeletal muscle tone; myostatin excess amplifies il-6 and vegf and rankl cascade of MEN1 syndrome."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "MEN1 angiopoietin: Angiopoietin from macrophages and fibroblasts modulates vascular stability; angiopoietin dysregulation amplifies il-6 and vegf and rankl cascade of MEN1 syndrome."
 ---
 
 # MEN1 Syndrome
@@ -903,6 +912,9 @@ Menin haploinsufficiency (one functional allele) creates susceptibility: cells a
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — MEN1 osteopontin: Osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes neuroendocrine tumour matrix remodelling; osteopontin excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — MEN1 fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) regulates neuroendocrine tumour proliferation; FGFR excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MEN1 epinephrine: Epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroendocrine stress tone; epinephrine excess amplifies il-6 (already mapped) and vegf (already mapped) and rankl (already mapped) cascade of MEN1 syndrome.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — MEN1 renin: Renin from macrophages and fibroblasts modulates RAAS-neuroendocrine axis; renin excess amplifies il-6 and vegf and rankl cascade of MEN1 syndrome.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — MEN1 myostatin: Myostatin from macrophages and fibroblasts modulates skeletal muscle tone; myostatin excess amplifies il-6 and vegf and rankl cascade of MEN1 syndrome.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — MEN1 angiopoietin: Angiopoietin from macrophages and fibroblasts modulates vascular stability; angiopoietin dysregulation amplifies il-6 and vegf and rankl cascade of MEN1 syndrome.
 
 ---
 
