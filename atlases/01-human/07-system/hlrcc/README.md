@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "HLRCC calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "HLRCC substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour neuroimmune tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "HLRCC insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "HLRCC aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC."
 ---
 
 # Hereditary Leiomyomatosis and Renal Cell Carcinoma
@@ -903,6 +912,9 @@ Cutaneous:
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — HLRCC activin-a: activin-A from macrophages (already mapped) and endothelial cells (already mapped) promotes tumour fibrosis; activin-a excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — HLRCC cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour neuroimmune tone; cgrp excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — HLRCC calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HLRCC substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates tumour neuroimmune tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HLRCC insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HLRCC aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and HIF-1α (already mapped) cascade of HLRCC.
 
 [^tomlinson-2002-fh]: Tomlinson IP, Alam NA, Rowan AJ, et al. Germline mutations in FH predispose to dominantly inherited uterine fibroids, skin leiomyomata and papillary renal cell cancer. *Nat Genet.* 2002;30(4):406-410. [doi:10.1038/ng849](https://doi.org/10.1038/ng849) · [PubMed 11865300](https://pubmed.ncbi.nlm.nih.gov/11865300/)
 [^linehan-2013-fh-review]: Linehan WM, Rouault TA. Molecular pathways: fumarate hydratase-deficient kidney cancer — targeting the Warburg effect in cancer. *Clin Cancer Res.* 2013;19(13):3345-3352. [doi:10.1158/1078-0432.CCR-13-0304](https://doi.org/10.1158/1078-0432.CCR-13-0304) · [PubMed 23836472](https://pubmed.ncbi.nlm.nih.gov/23836472/)
