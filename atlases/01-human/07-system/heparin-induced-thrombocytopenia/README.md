@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "HIT adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelium (already mapped) modulates vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "HIT bdnf: BDNF from macrophages (already mapped) and endothelium (already mapped) modulates vascular neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "HIT fgfr: FGFR on macrophages (already mapped) and endothelium (already mapped) modulates vascular repair; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "HIT epinephrine: epinephrine from macrophages (already mapped) and endothelium (already mapped) modulates vascular adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT."
 ---
 
 # Heparin-Induced Thrombocytopenia
@@ -935,6 +944,9 @@ Platelet consumption → thrombocytopenia (paradox: clotting despite low platele
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — HIT androgen-receptor: androgen receptor on macrophages (already mapped) and endothelium (already mapped) modulates vascular androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HIT norepinephrine: norepinephrine from macrophages (already mapped) and endothelium (already mapped) modulates vascular stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HIT adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelium (already mapped) modulates vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HIT bdnf: BDNF from macrophages (already mapped) and endothelium (already mapped) modulates vascular neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — HIT fgfr: FGFR on macrophages (already mapped) and endothelium (already mapped) modulates vascular repair; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — HIT epinephrine: epinephrine from macrophages (already mapped) and endothelium (already mapped) modulates vascular adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of HIT.
 
 [^warkentin-2007-hit-review]: Warkentin TE, Greinacher A. Heparin-induced thrombocytopenia: recognition, treatment, and prevention. *Chest.* 2004;126(3 Suppl):311S-337S. [doi:10.1378/chest.126.3_suppl.311S](https://doi.org/10.1378/chest.126.3_suppl.311S) · [PubMed 15383477](https://pubmed.ncbi.nlm.nih.gov/15383477/)
 [^greinacher-2021-vitt-nejm]: Greinacher A, Thiele T, Warkentin TE, et al. Thrombotic thrombocytopenia after ChAdOx1 nCov-19 vaccination. *N Engl J Med.* 2021;384(22):2092-2101. [doi:10.1056/NEJMoa2104840](https://doi.org/10.1056/NEJMoa2104840) · [PubMed 33835769](https://pubmed.ncbi.nlm.nih.gov/33835769/)

@@ -594,6 +594,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "HBV norepinephrine: norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "HBV adrenomedullin: adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "HBV bdnf: BDNF from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "HBV osteopontin: osteopontin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic matrix tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV."
 ---
 
 # Hepatitis B
@@ -922,3 +931,6 @@ HDV is a satellite RNA virus that requires HBsAg for virion assembly:
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HBV aldosterone: aldosterone from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — HBV androgen-receptor: androgen receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HBV norepinephrine: norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HBV adrenomedullin: adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HBV bdnf: BDNF from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — HBV osteopontin: osteopontin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic matrix tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HBV.
