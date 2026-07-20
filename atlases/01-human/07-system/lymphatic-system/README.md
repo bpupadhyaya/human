@@ -590,6 +590,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "LS fgfr: FGFR on endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic repair; fgfr dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "LS epinephrine: epinephrine from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic adrenergic tone; epinephrine excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "LS renin: renin from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic RAAS axis; renin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "LS myostatin: myostatin from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic atrophy; myostatin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade."
 ---
 
 # Lymphatic System
@@ -890,6 +899,9 @@ Enterocytes package dietary triglycerides + cholesterol + apoB-48 into chylomicr
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — LS androgen-receptor: androgen receptor on endothelial cells (already mapped) and macrophages (already mapped) modulates androgen axis; androgen-receptor loss amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic cascade.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — LS bdnf: BDNF from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic neuroprotective tone; bdnf deficiency amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — LS fgfr: FGFR on endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic repair; fgfr dysregulation amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — LS epinephrine: epinephrine from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic adrenergic tone; epinephrine excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — LS renin: renin from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic RAAS axis; renin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — LS myostatin: myostatin from endothelial cells (already mapped) and macrophages (already mapped) modulates lymphatic atrophy; myostatin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) lymphatic remodelling cascade.
 
 ## Pathology
 
