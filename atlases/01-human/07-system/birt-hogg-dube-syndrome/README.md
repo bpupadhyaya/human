@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "BHD androgen-receptor: androgen receptor on renal cells (already mapped) and macrophages (already mapped) modulates tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "BHD norepinephrine: norepinephrine from renal cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "BHD adrenomedullin: adrenomedullin from renal cells (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "BHD bdnf: BDNF from renal cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD."
 ---
 
 # Birt-Hogg-Dubé Syndrome
@@ -912,6 +921,9 @@ Definite BHD: 1 major OR 2 minor criteria (European BHD Consortium definition)
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — BHD insulin-receptor: insulin receptor on renal cells (already mapped) and macrophages (already mapped) modulates tumour metabolic axis; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — BHD aldosterone: aldosterone from renal cells (already mapped) and macrophages (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — BHD androgen-receptor: androgen receptor on renal cells (already mapped) and macrophages (already mapped) modulates tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — BHD norepinephrine: norepinephrine from renal cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — BHD adrenomedullin: adrenomedullin from renal cells (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BHD bdnf: BDNF from renal cells (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in BHD.
 
 ---
 
