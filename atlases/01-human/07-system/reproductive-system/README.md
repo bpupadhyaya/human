@@ -581,6 +581,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "Rep renin: renin from uterine cells (already mapped) and macrophages (already mapped) modulates reproductive angiotensin balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/ace2
+    relation: connects-to
+    note: "Rep ace2: ACE2 on uterine cells (already mapped) and macrophages (already mapped) modulates reproductive RAAS tone; ace2 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Rep acetylcholine: acetylcholine from neurons (already mapped) and macrophages (already mapped) modulates reproductive autonomic tone; acetylcholine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "Rep acth: ACTH from pituitary cells (already mapped) and macrophages (already mapped) regulates HPA-axis sex hormone tone; acth excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system."
 ---
 
 # Reproductive System
@@ -884,6 +893,9 @@ Testosterone binds androgen receptor (AR, nuclear receptor NR3C4) → AR dimeriz
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Rep epinephrine: epinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates uterine adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Rep myostatin: myostatin from uterine cells (already mapped) and macrophages (already mapped) modulates reproductive muscle tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Rep renin: renin from uterine cells (already mapped) and macrophages (already mapped) modulates reproductive angiotensin balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — Rep ace2: ACE2 on uterine cells (already mapped) and macrophages (already mapped) modulates reproductive RAAS tone; ace2 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Rep acetylcholine: acetylcholine from neurons (already mapped) and macrophages (already mapped) modulates reproductive autonomic tone; acetylcholine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Rep acth: ACTH from pituitary cells (already mapped) and macrophages (already mapped) regulates HPA-axis sex hormone tone; acth excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of the reproductive system.
 
 ## Pathology
 
