@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "TB androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of TB."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "TB norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in TB; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of TB."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "TB adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in TB; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of TB."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "TB bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroimmune granuloma formation; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) granulomatous cascade of TB."
 ---
 
 # Tuberculosis
@@ -911,6 +920,9 @@ Standard **HRZE** regimen [^nahid-2016-tb-treatment]:
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — TB insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives TB metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — TB aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates TB ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — TB androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of tuberculosis.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — TB norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in TB; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of TB.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — TB adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in TB; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of TB.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — TB bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates neuroimmune granuloma formation; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) granulomatous cascade of TB.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
