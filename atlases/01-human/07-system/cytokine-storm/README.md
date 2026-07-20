@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "cytokine-storm insulin-receptor: insulin receptor on macrophages (already mapped) and T-cells (already mapped) modulates cytokine metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "cytokine-storm aldosterone: aldosterone from macrophages (already mapped) and T-cells (already mapped) modulates cytokine fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "cytokine-storm androgen-receptor: androgen receptor on macrophages (already mapped) and T-cells (already mapped) modulates cytokine sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "cytokine-storm norepinephrine: norepinephrine from macrophages (already mapped) and T-cells (already mapped) modulates cytokine adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -862,6 +871,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — cytokine-storm calcitonin: calcitonin from macrophages (already mapped) and T-cells (already mapped) modulates cytokine calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — cytokine-storm substance-p: substance-P from macrophages (already mapped) and T-cells (already mapped) modulates cytokine nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — cytokine-storm insulin-receptor: insulin receptor on macrophages (already mapped) and T-cells (already mapped) modulates cytokine metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — cytokine-storm aldosterone: aldosterone from macrophages (already mapped) and T-cells (already mapped) modulates cytokine fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — cytokine-storm androgen-receptor: androgen receptor on macrophages (already mapped) and T-cells (already mapped) modulates cytokine sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — cytokine-storm norepinephrine: norepinephrine from macrophages (already mapped) and T-cells (already mapped) modulates cytokine adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 
 ## Pathology
 

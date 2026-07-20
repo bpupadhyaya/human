@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "CF androgen-receptor: androgen receptor on macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "CF norepinephrine: norepinephrine from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "CF adrenomedullin: adrenomedullin from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "CF bdnf: BDNF from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
 ---
 
 # Cystic Fibrosis
@@ -899,6 +908,9 @@ AND
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — CF insulin-receptor: insulin receptor on macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — CF aldosterone: aldosterone from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — CF androgen-receptor: androgen receptor on macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF androgen tone; androgen-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CF norepinephrine: norepinephrine from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — CF adrenomedullin: adrenomedullin from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — CF bdnf: BDNF from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
 
 ---
 
