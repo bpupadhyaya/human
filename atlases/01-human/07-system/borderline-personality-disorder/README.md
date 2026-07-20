@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "BPD androgen-receptor: androgen receptor on neurons (already mapped) and microglia (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective instability cascade in BPD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "BPD adrenomedullin: adrenomedullin from neurons (already mapped) and microglia (already mapped) modulates mood vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "BPD osteopontin: osteopontin from neurons (already mapped) and microglia (already mapped) modulates mood immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "BPD fgfr: FGFR on neurons (already mapped) and microglia (already mapped) modulates mood proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD."
 ---
 
 # Borderline Personality Disorder
@@ -919,6 +928,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — BPD calcitonin: calcitonin from neurons (already mapped) and microglia (already mapped) modulates neuroimmune calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — BPD insulin-receptor: insulin receptor on neurons (already mapped) and microglia (already mapped) modulates metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — BPD androgen-receptor: androgen receptor on neurons (already mapped) and microglia (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective instability cascade in BPD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — BPD adrenomedullin: adrenomedullin from neurons (already mapped) and microglia (already mapped) modulates mood vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — BPD osteopontin: osteopontin from neurons (already mapped) and microglia (already mapped) modulates mood immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — BPD fgfr: FGFR on neurons (already mapped) and microglia (already mapped) modulates mood proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)

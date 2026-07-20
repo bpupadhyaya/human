@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "breast-cancer bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "breast-cancer osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour immune matrix; osteopontin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "breast-cancer epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "breast-cancer renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour RAAS activation; renin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer."
 ---
 
 # Breast Cancer
@@ -885,6 +894,9 @@ cross_links:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — breast-cancer norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour sympathetic axis; norepinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — breast-cancer adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — breast-cancer bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — breast-cancer osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour immune matrix; osteopontin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — breast-cancer epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — breast-cancer renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates tumour RAAS activation; renin excess amplifies NF-κB (already mapped) and VEGF (already mapped) and RANKL (already mapped) cascade in breast cancer.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
