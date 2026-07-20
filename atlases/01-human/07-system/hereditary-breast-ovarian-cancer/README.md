@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "HBOC bdnf: BDNF from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC neural repair; bdnf excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "HBOC osteopontin: osteopontin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC matrix tone; osteopontin excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "HBOC fgfr: FGFR on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC proliferation; FGFR excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "HBOC epinephrine: epinephrine from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC adrenergic tone; epinephrine excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -919,6 +928,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HBOC norepinephrine: norepinephrine from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC adrenergic tone; norepinephrine excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HBOC adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC vascular tone; adrenomedullin excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HBOC bdnf: BDNF from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC neural repair; bdnf excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — HBOC osteopontin: osteopontin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC matrix tone; osteopontin excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — HBOC fgfr: FGFR on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC proliferation; FGFR excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — HBOC epinephrine: epinephrine from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC adrenergic tone; epinephrine excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 
 ---
 

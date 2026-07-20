@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "HDGC adrenomedullin: adrenomedullin from macrophages (already mapped) and mast cells (already mapped) modulates gastric vascular tone; adrenomedullin excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "HDGC bdnf: BDNF from macrophages (already mapped) and mast cells (already mapped) modulates gastric neurotrophin axis; bdnf excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "HDGC epinephrine: epinephrine from macrophages (already mapped) and mast cells (already mapped) modulates gastric adrenergic tone; epinephrine excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "HDGC renin: renin from macrophages (already mapped) and mast cells (already mapped) modulates gastric angiotensin axis; renin excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC."
 ---
 
 # Hereditary Diffuse Gastric Cancer
@@ -891,6 +900,9 @@ Testing for CDH1 (and CTNNA1) is indicated in any of the following:
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — HDGC androgen-receptor: androgen receptor on macrophages (already mapped) and mast cells (already mapped) modulates gastric androgen axis; androgen-receptor loss amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HDGC norepinephrine: norepinephrine from macrophages (already mapped) and mast cells (already mapped) modulates gastric adrenergic tone; norepinephrine excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HDGC adrenomedullin: adrenomedullin from macrophages (already mapped) and mast cells (already mapped) modulates gastric vascular tone; adrenomedullin excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HDGC bdnf: BDNF from macrophages (already mapped) and mast cells (already mapped) modulates gastric neurotrophin axis; bdnf excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — HDGC epinephrine: epinephrine from macrophages (already mapped) and mast cells (already mapped) modulates gastric adrenergic tone; epinephrine excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — HDGC renin: renin from macrophages (already mapped) and mast cells (already mapped) modulates gastric angiotensin axis; renin excess amplifies CDH1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HDGC.
 
 [^van-der-post-2015-hdgc-guidelines]: van der Post RS, Vogelaar IP, Carneiro F, et al. Hereditary diffuse gastric cancer: updated clinical guidelines with an emphasis on germline CDH1 mutation carriers. *J Med Genet.* 2015;52(6):361-374. [doi:10.1136/jmedgenet-2015-103094](https://doi.org/10.1136/jmedgenet-2015-103094) · [PubMed 25979631](https://pubmed.ncbi.nlm.nih.gov/25979631/)
 [^hansford-2015-hdgc]: Hansford S, Kaurah P, Li-Chang H, et al. Hereditary Diffuse Gastric Cancer Syndrome: CDH1 Mutations and Beyond. *JAMA Oncol.* 2015;1(1):23-32. [doi:10.1001/jamaoncol.2014.168](https://doi.org/10.1001/jamaoncol.2014.168) · [PubMed 26182300](https://pubmed.ncbi.nlm.nih.gov/26182300/)
