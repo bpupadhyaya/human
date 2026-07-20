@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "ACD norepinephrine: norepinephrine from macrophages (already mapped) and erythrocytes (already mapped) modulates iron-adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "ACD adrenomedullin: adrenomedullin from macrophages (already mapped) and erythrocytes (already mapped) modulates vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "ACD bdnf: BDNF from macrophages (already mapped) and erythrocytes (already mapped) modulates erythroid neuroprotective tone; BDNF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "ACD fgfr: FGFR on macrophages (already mapped) and erythrocytes (already mapped) regulates erythroid repair; FGFR dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD."
 ---
 
 # Anemia of Chronic Disease
@@ -915,6 +924,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ACD aldosterone: aldosterone from macrophages (already mapped) and erythrocytes (already mapped) modulates iron-regulatory tone; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ACD androgen-receptor: androgen receptor on macrophages (already mapped) and erythrocytes (already mapped) modulates iron-hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — ACD norepinephrine: norepinephrine from macrophages (already mapped) and erythrocytes (already mapped) modulates iron-adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ACD adrenomedullin: adrenomedullin from macrophages (already mapped) and erythrocytes (already mapped) modulates vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — ACD bdnf: BDNF from macrophages (already mapped) and erythrocytes (already mapped) modulates erythroid neuroprotective tone; BDNF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — ACD fgfr: FGFR on macrophages (already mapped) and erythrocytes (already mapped) regulates erythroid repair; FGFR dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
