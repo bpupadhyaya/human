@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "Influenza insulin-receptor: insulin receptor on macrophages (already mapped) and epithelial cells (already mapped) modulates metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Influenza aldosterone: aldosterone from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Influenza androgen-receptor: androgen receptor on macrophages (already mapped) and epithelial cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) in influenza."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Influenza norepinephrine: norepinephrine from macrophages (already mapped) and epithelial cells (already mapped) modulates adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza."
 ---
 
 # Influenza
@@ -908,3 +917,6 @@ Influenza damages mucociliary clearance and exposes basal lamina glycoproteins �
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Influenza calcitonin: calcitonin from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral calcium tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Influenza substance-p: substance-P from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Influenza insulin-receptor: insulin receptor on macrophages (already mapped) and epithelial cells (already mapped) modulates metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Influenza aldosterone: aldosterone from macrophages (already mapped) and epithelial cells (already mapped) modulates antiviral fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Influenza androgen-receptor: androgen receptor on macrophages (already mapped) and epithelial cells (already mapped) modulates androgen tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Influenza norepinephrine: norepinephrine from macrophages (already mapped) and epithelial cells (already mapped) modulates adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cytokine-storm (already mapped) cascade of influenza.
