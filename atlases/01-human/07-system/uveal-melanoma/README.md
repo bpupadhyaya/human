@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "UM osteopontin: osteopontin from uveal melanocytes (already mapped) and macrophages (already mapped) promotes UM ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "UM fgfr: FGFR on uveal melanocytes (already mapped) and macrophages (already mapped) drives UM stromal fibroblast growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "UM epinephrine: epinephrine from uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of uveal melanoma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "UM renin: renin from uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM vascular RAAS; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of uveal melanoma."
 ---
 
 # Uveal Melanoma
@@ -920,6 +929,9 @@ Uveal melanocytes are neural crest-derived, residing in the uveal stroma and mai
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — UM adrenomedullin: adrenomedullin from uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — UM bdnf: BDNF from uveal melanocytes (already mapped) and macrophages (already mapped) drives UM neural trophic signalling; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — UM osteopontin: osteopontin from uveal melanocytes (already mapped) and macrophages (already mapped) promotes UM ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — UM fgfr: FGFR on uveal melanocytes (already mapped) and macrophages (already mapped) drives UM stromal fibroblast growth; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — UM epinephrine: epinephrine from uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — UM renin: renin from uveal melanocytes (already mapped) and macrophages (already mapped) modulates UM vascular RAAS; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of uveal melanoma.
 
 ---
 

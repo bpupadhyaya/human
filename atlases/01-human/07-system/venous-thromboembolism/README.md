@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "VTE aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates VTE ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of VTE."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "VTE androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates VTE hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of VTE."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "VTE norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates VTE adrenergic tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of VTE."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "VTE adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates VTE vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) thrombotic cascade of VTE."
 ---
 
 # Venous Thromboembolism
@@ -910,6 +919,9 @@ cross_links:
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — VTE substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) amplifies neurogenic thrombosis; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — VTE insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives VTE metabolic repair; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — VTE aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates VTE ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — VTE androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates VTE hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — VTE norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates VTE adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — VTE adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates VTE vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) thrombotic cascade of VTE.
 
 [^agnelli-2013-amplify-apixaban-vte]: Agnelli G, Buller HR, Cohen A, et al. Oral apixaban for the treatment of acute venous thromboembolism. *N Engl J Med.* 2013;369(9):799-808. [doi:10.1056/NEJMoa1302507](https://doi.org/10.1056/NEJMoa1302507) · [PubMed 23808982](https://pubmed.ncbi.nlm.nih.gov/23808982/)
 [^bauersachs-2010-einstein-rivaroxaban]: EINSTEIN Investigators. Oral rivaroxaban for symptomatic venous thromboembolism. *N Engl J Med.* 2010;363(26):2499-2510. [doi:10.1056/NEJMoa1007903](https://doi.org/10.1056/NEJMoa1007903) · [PubMed 21128814](https://pubmed.ncbi.nlm.nih.gov/21128814/)
