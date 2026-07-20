@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "T2D osteopontin: osteopontin from macrophages (already mapped) and hepatocytes (already mapped) drives T2D inflammatory matrix remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "T2D fgfr: FGFR on macrophages (already mapped) and hepatocytes (already mapped) drives T2D fibroblast metabolic repair; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) metabolic cascade of T2D."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "T2D epinephrine: epinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates adrenergic glycaemic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) metabolic cascade of T2D."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "T2D renin: renin from macrophages (already mapped) and hepatocytes (already mapped) links RAAS to T2D cardiovascular-metabolic remodelling; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) metabolic cascade of T2D."
 ---
 
 # Type 2 Diabetes
@@ -882,6 +891,9 @@ T2DM, CKD, heart failure, and obesity form the **cardiorenal metabolic (CRM) syn
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — T2D adrenomedullin: adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates T2D vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — T2D bdnf: BDNF from macrophages (already mapped) and hepatocytes (already mapped) supports T2D neuroimmune metabolic tone; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — T2D osteopontin: osteopontin from macrophages (already mapped) and hepatocytes (already mapped) drives T2D inflammatory matrix remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — T2D fgfr: FGFR on macrophages (already mapped) and hepatocytes (already mapped) drives T2D fibroblast metabolic repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — T2D epinephrine: epinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates adrenergic glycaemic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — T2D renin: renin from macrophages (already mapped) and hepatocytes (already mapped) links RAAS to T2D cardiovascular-metabolic remodelling; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) metabolic cascade of T2D.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
