@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "chordoma renin: renin from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour RAAS activation; renin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "chordoma myostatin: myostatin from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour growth suppression; myostatin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "chordoma angiopoietin: angiopoietin from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour vascular tone; angiopoietin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "chordoma cortisol: cortisol from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour immune suppression; cortisol excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma."
 ---
 
 # Chordoma
@@ -918,6 +927,9 @@ CDKN2A deletion in ~30-40% → CDK4/6 hyperactivation → RB1 phosphorylation; p
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — chordoma bdnf: BDNF from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour neuroplasticity; bdnf excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — chordoma epinephrine: epinephrine from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour adrenergic axis; epinephrine excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — chordoma renin: renin from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour RAAS activation; renin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — chordoma myostatin: myostatin from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour growth suppression; myostatin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — chordoma angiopoietin: angiopoietin from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour vascular tone; angiopoietin excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — chordoma cortisol: cortisol from osteoclasts (already mapped) and tumour cells (already mapped) modulates tumour immune suppression; cortisol excess amplifies mTOR (already mapped) and VEGF (already mapped) and Notch (already mapped) cascade in chordoma.
 
 ---
 

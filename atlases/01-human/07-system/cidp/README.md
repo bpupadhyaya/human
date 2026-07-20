@@ -600,6 +600,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "CIDP adrenomedullin: adrenomedullin from schwann cells (already mapped) and macrophages (already mapped) modulates nerve vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "CIDP fgfr: FGFR on schwann cells (already mapped) and macrophages (already mapped) modulates nerve repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "CIDP epinephrine: epinephrine from schwann cells (already mapped) and macrophages (already mapped) modulates nerve adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "CIDP renin: renin from schwann cells (already mapped) and macrophages (already mapped) modulates nerve RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
 ---
 
 # CIDP
@@ -936,6 +945,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — CIDP androgen-receptor: androgen receptor on schwann cells (already mapped) and macrophages (already mapped) modulates nerve protection; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CIDP norepinephrine: norepinephrine from schwann cells (already mapped) and macrophages (already mapped) modulates nerve adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — CIDP adrenomedullin: adrenomedullin from schwann cells (already mapped) and macrophages (already mapped) modulates nerve vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — CIDP fgfr: FGFR on schwann cells (already mapped) and macrophages (already mapped) modulates nerve repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — CIDP epinephrine: epinephrine from schwann cells (already mapped) and macrophages (already mapped) modulates nerve adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — CIDP renin: renin from schwann cells (already mapped) and macrophages (already mapped) modulates nerve RAAS axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 
 ---
 
