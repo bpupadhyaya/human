@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Marfan adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular tone; adrenomedullin loss amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Marfan bdnf: BDNF from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular neuroprotective tone; bdnf deficiency amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Marfan fgfr: FGFR on fibroblasts (already mapped) and macrophages (already mapped) modulates connective tissue repair; fgfr dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Marfan epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates adrenergic tone; epinephrine excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -910,6 +919,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[Androgen-receptor](../../03-molecular/androgen-receptor/README.md)** — Marfan androgen-receptor: androgen-receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates androgen tone; androgen excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Marfan norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates stress tone; norepinephrine excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Marfan adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular tone; adrenomedullin loss amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Marfan bdnf: BDNF from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular neuroprotective tone; bdnf deficiency amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Marfan fgfr: FGFR on fibroblasts (already mapped) and macrophages (already mapped) modulates connective tissue repair; fgfr dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Marfan epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates adrenergic tone; epinephrine excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 
 ---
 

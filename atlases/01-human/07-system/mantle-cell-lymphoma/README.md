@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "MCL substance-p: substance-P from fibroblasts (already mapped) and B-cells (already mapped) modulates pain tone; substance-P excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "MCL insulin-receptor: insulin receptor on fibroblasts (already mapped) and B-cells (already mapped) modulates metabolic axis; insulin-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "MCL aldosterone: aldosterone from fibroblasts (already mapped) and B-cells (already mapped) modulates electrolyte tone; aldosterone excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "MCL androgen-receptor: androgen receptor on fibroblasts (already mapped) and B-cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL."
 ---
 
 # Mantle Cell Lymphoma
@@ -893,6 +902,9 @@ For SOX11−, mutated IGHV, non-bulky, asymptomatic nnMCL: Observation is safe; 
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — MCL cgrp: CGRP from fibroblasts (already mapped) and B-cells (already mapped) modulates neuroinflammatory tone; cgrp excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MCL calcitonin: calcitonin from fibroblasts (already mapped) and B-cells (already mapped) modulates calcium tone; calcitonin dysregulation amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MCL substance-p: substance-P from fibroblasts (already mapped) and B-cells (already mapped) modulates pain tone; substance-P excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — MCL insulin-receptor: insulin receptor on fibroblasts (already mapped) and B-cells (already mapped) modulates metabolic axis; insulin-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MCL aldosterone: aldosterone from fibroblasts (already mapped) and B-cells (already mapped) modulates electrolyte tone; aldosterone excess amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of mantle-cell lymphoma.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — MCL androgen-receptor: androgen receptor on fibroblasts (already mapped) and B-cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and vegf (already mapped) and il-2 (already mapped) tumour cascade of MCL.
 
 ---
 
