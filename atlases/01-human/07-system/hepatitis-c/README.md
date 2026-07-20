@@ -594,6 +594,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "HCV norepinephrine: norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "HCV adrenomedullin: adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "HCV bdnf: BDNF from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "HCV fgfr: FGFR on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic repair signalling; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV."
 ---
 
 # Hepatitis C
@@ -913,3 +922,6 @@ HCV cirrhosis → HCC risk 1–5% per year (annual ultrasound surveillance ± AF
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HCV aldosterone: aldosterone from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — HCV androgen-receptor: androgen receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HCV norepinephrine: norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HCV adrenomedullin: adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HCV bdnf: BDNF from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — HCV fgfr: FGFR on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic repair signalling; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) hepatic cascade of HCV.
