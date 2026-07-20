@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "Bloom androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Bloom norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Bloom adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Bloom syndrome."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Bloom bdnf: BDNF from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome."
 ---
 
 # Bloom Syndrome
@@ -921,6 +930,9 @@ BS is characterized by three cardinal features: **small body size** (the most co
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Bloom substance-p: substance-P from fibroblasts (already mapped) and macrophages (already mapped) modulates neuroimmune pain signalling; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Bloom aldosterone: aldosterone from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Bloom androgen-receptor: androgen receptor on fibroblasts (already mapped) and macrophages (already mapped) modulates tumour sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Bloom syndrome.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Bloom norepinephrine: norepinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Bloom syndrome.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Bloom adrenomedullin: adrenomedullin from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade in Bloom syndrome.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Bloom bdnf: BDNF from fibroblasts (already mapped) and macrophages (already mapped) modulates tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cancer-predisposition cascade in Bloom syndrome.
 
 ---
 

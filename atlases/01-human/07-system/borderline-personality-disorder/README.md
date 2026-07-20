@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "BPD fgfr: FGFR on neurons (already mapped) and microglia (already mapped) modulates mood proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "BPD epinephrine: epinephrine from neurons (already mapped) and microglia (already mapped) modulates mood adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective instability cascade in BPD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "BPD renin: renin from neurons (already mapped) and microglia (already mapped) modulates neuroimmune fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective instability cascade in BPD."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "BPD myostatin: myostatin from neurons (already mapped) and microglia (already mapped) modulates neuroimmune growth tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective instability cascade in BPD."
 ---
 
 # Borderline Personality Disorder
@@ -931,6 +940,9 @@ This model directly informs DBT treatment: validate emotional experience (the bi
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — BPD adrenomedullin: adrenomedullin from neurons (already mapped) and microglia (already mapped) modulates mood vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — BPD osteopontin: osteopontin from neurons (already mapped) and microglia (already mapped) modulates mood immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — BPD fgfr: FGFR on neurons (already mapped) and microglia (already mapped) modulates mood proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in BPD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — BPD epinephrine: epinephrine from neurons (already mapped) and microglia (already mapped) modulates mood adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective instability cascade in BPD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — BPD renin: renin from neurons (already mapped) and microglia (already mapped) modulates neuroimmune fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective instability cascade in BPD.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — BPD myostatin: myostatin from neurons (already mapped) and microglia (already mapped) modulates neuroimmune growth tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) affective instability cascade in BPD.
 
 [^linehan-1993-dbt]: Linehan MM. *Cognitive-Behavioral Treatment of Borderline Personality Disorder.* Guilford; 1993. [PubMed 8192506](https://pubmed.ncbi.nlm.nih.gov/8192506/)
 [^skodol-2002-bpd-neurobiology]: Siever LJ, Davis KL. A psychobiological perspective on the personality disorders. *Am J Psychiatry.* 1991;148(12):1647-1658. [doi:10.1176/ajp.148.12.1647](https://doi.org/10.1176/ajp.148.12.1647) · [PubMed 1957927](https://pubmed.ncbi.nlm.nih.gov/1957927/)
