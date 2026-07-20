@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "PNH substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH vascular neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "PNH insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives PNH metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "PNH aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH vascular ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "PNH androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates PNH hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH."
 ---
 
 # Paroxysmal Nocturnal Hemoglobinuria
@@ -863,6 +872,9 @@ When PIGA is mutated in an HSC → all progeny cells (RBCs, WBCs, platelets) of 
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — PNH cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroimmune tone in PNH; cgrp excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PNH calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PNH substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH vascular neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — PNH insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives PNH metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PNH aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates PNH vascular ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — PNH androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates PNH hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) haemolytic cascade of PNH.
 
 ---
 
