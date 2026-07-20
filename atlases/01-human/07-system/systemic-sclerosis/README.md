@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "SSc bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates SSc neuroimmune fibrotic tone; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tgf-beta (already mapped) fibrotic cascade of SSc."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "SSc osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes SSc ECM fibrosis; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tgf-beta (already mapped) fibrotic cascade of SSc."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "SSc fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) drives SSc fibroblast proliferation; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tgf-beta (already mapped) fibrotic cascade of SSc."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "SSc epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates SSc vascular adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tgf-beta (already mapped) fibrotic cascade of SSc."
 ---
 
 # Systemic Sclerosis
@@ -893,6 +902,9 @@ Identical to IPAH: medial hypertrophy, intimal fibrosis, concentric laminar inti
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — SSc norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates SSc adrenergic vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of SSc.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — SSc adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates SSc vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of SSc.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — SSc bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) modulates SSc neuroimmune fibrotic tone; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of SSc.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — SSc osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes SSc ECM fibrosis; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of SSc.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — SSc fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) drives SSc fibroblast proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of SSc.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — SSc epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates SSc vascular adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) fibrotic cascade of SSc.
 
 [^denton-2017-ssc-review]: Denton CP, Khanna D. Systemic sclerosis. *Lancet.* 2017;390(10103):1685-1699. [doi:10.1016/S0140-6736(17)30933-9](https://doi.org/10.1016/S0140-6736(17)30933-9) · [PubMed 28413064](https://pubmed.ncbi.nlm.nih.gov/28413064/)
 [^distler-2019-nintedanib-senscis]: Distler O, Highland KB, Gahlemann M, et al. Nintedanib for Systemic Sclerosis-Associated Interstitial Lung Disease. *N Engl J Med.* 2019;380(26):2518-2528. [doi:10.1056/NEJMoa1903076](https://doi.org/10.1056/NEJMoa1903076) · [PubMed 31112379](https://pubmed.ncbi.nlm.nih.gov/31112379/)
