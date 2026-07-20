@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "cowden aldosterone: aldosterone from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma fluid balance; aldosterone excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "cowden androgen-receptor: androgen receptor on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma sex tone; androgen-receptor loss amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "cowden norepinephrine: norepinephrine from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma adrenergic tone; norepinephrine excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "cowden adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma vascular tone; adrenomedullin excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome."
 ---
 
 # Cowden Syndrome
@@ -951,6 +960,9 @@ cross_links:
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — cowden substance-p: substance-P from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma nociceptive tone; substance-P excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — cowden insulin-receptor: insulin receptor on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates Cowden metabolic axis; insulin-receptor loss amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — cowden aldosterone: aldosterone from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma fluid balance; aldosterone excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — cowden androgen-receptor: androgen receptor on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma sex tone; androgen-receptor loss amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — cowden norepinephrine: norepinephrine from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma adrenergic tone; norepinephrine excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — cowden adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates hamartoma vascular tone; adrenomedullin excess amplifies mTOR (already mapped) and AKT (already mapped) and VEGF (already mapped) cascade of Cowden syndrome.
 
 ---
 

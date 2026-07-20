@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "COVID-19 insulin-receptor: insulin receptor on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "COVID-19 aldosterone: aldosterone from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "COVID-19 androgen-receptor: androgen receptor on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "COVID-19 norepinephrine: norepinephrine from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19."
 ---
 
 # COVID-19 Disease
@@ -844,6 +853,9 @@ Symptoms persisting >4 weeks: fatigue (most common), cognitive impairment ("brai
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — COVID-19 calcitonin: calcitonin from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — COVID-19 substance-p: substance-P from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates pulmonary nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — COVID-19 insulin-receptor: insulin receptor on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — COVID-19 aldosterone: aldosterone from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — COVID-19 androgen-receptor: androgen receptor on type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — COVID-19 norepinephrine: norepinephrine from type-II pneumocytes (already mapped) and macrophages (already mapped) modulates COVID adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of COVID-19.
 
 ## Pathology
 
