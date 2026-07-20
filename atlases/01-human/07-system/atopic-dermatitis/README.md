@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "AD adrenomedullin: adrenomedullin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "AD norepinephrine: norepinephrine from adrenergic neurons (already mapped) and keratinocytes (already mapped) modulates cutaneous stress response; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "AD bdnf: BDNF from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous neural tone; BDNF dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "AD fgfr: FGFR on keratinocytes (already mapped) and fibroblasts (already mapped) regulates epidermal repair signalling; FGFR dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
 ---
 
 # Atopic Dermatitis
@@ -894,6 +903,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — AD aldosterone: aldosterone from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AD androgen-receptor: androgen receptor on keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AD adrenomedullin: adrenomedullin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — AD norepinephrine: norepinephrine from adrenergic neurons (already mapped) and keratinocytes (already mapped) modulates cutaneous stress response; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — AD bdnf: BDNF from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous neural tone; BDNF dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — AD fgfr: FGFR on keratinocytes (already mapped) and fibroblasts (already mapped) regulates epidermal repair signalling; FGFR dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

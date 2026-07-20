@@ -591,6 +591,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "CIDP aldosterone: aldosterone from schwann cells (already mapped) and macrophages (already mapped) modulates nerve fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "CIDP androgen-receptor: androgen receptor on schwann cells (already mapped) and macrophages (already mapped) modulates nerve protection; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "CIDP norepinephrine: norepinephrine from schwann cells (already mapped) and macrophages (already mapped) modulates nerve adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "CIDP adrenomedullin: adrenomedullin from schwann cells (already mapped) and macrophages (already mapped) modulates nerve vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP."
 ---
 
 # CIDP
@@ -924,6 +933,9 @@ IgG4 anti-NF155 or anti-CNTN1 disrupts this complex → paranodal loop detachmen
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — CIDP substance-p: substance-P from schwann cells (already mapped) and macrophages (already mapped) modulates neuropathic pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — CIDP insulin-receptor: insulin receptor on schwann cells (already mapped) and macrophages (already mapped) modulates metabolic neuroprotection; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) cascade in CIDP.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — CIDP aldosterone: aldosterone from schwann cells (already mapped) and macrophages (already mapped) modulates nerve fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — CIDP androgen-receptor: androgen receptor on schwann cells (already mapped) and macrophages (already mapped) modulates nerve protection; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CIDP norepinephrine: norepinephrine from schwann cells (already mapped) and macrophages (already mapped) modulates nerve adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — CIDP adrenomedullin: adrenomedullin from schwann cells (already mapped) and macrophages (already mapped) modulates nerve vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BDNF (already mapped) demyelination cascade in CIDP.
 
 ---
 
