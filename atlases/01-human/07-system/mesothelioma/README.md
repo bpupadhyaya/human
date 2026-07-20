@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "Meso epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) amplifies pleural stress response; epinephrine excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Meso renin: renin from macrophages and fibroblasts modulates RAAS-pleural axis; renin excess amplifies smad4 and il-6 and vegf cascade of mesothelioma."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "Meso myostatin: myostatin from macrophages and fibroblasts modulates pleural muscle axis; myostatin excess amplifies smad4 and il-6 and vegf cascade of mesothelioma."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Meso angiopoietin: angiopoietin from macrophages and fibroblasts modulates pleural vascular stability; angiopoietin dysregulation amplifies smad4 and il-6 and vegf cascade of mesothelioma."
 ---
 
 # Mesothelioma
@@ -902,6 +911,9 @@ Cytoreductive surgery (CRS) + hyperthermic intraperitoneal chemotherapy (HIPEC):
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Meso bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) promotes pleural tumour survival; bdnf excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Meso fgfr: FGFR signalling on macrophages (already mapped) and fibroblasts (already mapped) modulates pleural proliferation; fgfr excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Meso epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) amplifies pleural stress response; epinephrine excess amplifies smad4 (already mapped) and il-6 (already mapped) and vegf (already mapped) cascade of mesothelioma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Meso renin: renin from macrophages and fibroblasts modulates RAAS-pleural axis; renin excess amplifies smad4 and il-6 and vegf cascade of mesothelioma.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Meso myostatin: myostatin from macrophages and fibroblasts modulates pleural muscle axis; myostatin excess amplifies smad4 and il-6 and vegf cascade of mesothelioma.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Meso angiopoietin: angiopoietin from macrophages and fibroblasts modulates pleural vascular stability; angiopoietin dysregulation amplifies smad4 and il-6 and vegf cascade of mesothelioma.
 
 [^baas-2021-checkmate743]: Baas P, Scherpereel A, Nowak AK, et al. First-line nivolumab plus ipilimumab in unresectable malignant pleural mesothelioma (CheckMate 743). *Lancet.* 2021;397(10272):375-386. [doi:10.1016/S0140-6736(20)32714-8](https://doi.org/10.1016/S0140-6736(20)32714-8) · [PubMed 33485464](https://pubmed.ncbi.nlm.nih.gov/33485464/)
 [^vogelzang-2003-pemetrexed]: Vogelzang NJ, Rusthoven JJ, Symanowski J, et al. Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *J Clin Oncol.* 2003;21(14):2636-2644. [doi:10.1200/JCO.2003.11.136](https://doi.org/10.1200/JCO.2003.11.136) · [PubMed 12860938](https://pubmed.ncbi.nlm.nih.gov/12860938/)
