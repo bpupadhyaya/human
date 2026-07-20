@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Meningioma bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) promotes meningeal neuro-survival; bdnf excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Meningioma fgfr: FGFR on macrophages and fibroblasts modulates meningeal tumour proliferation; fgfr dysregulation amplifies vegf and smad4 and il-6 cascade of meningioma."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Meningioma epinephrine: epinephrine from macrophages and fibroblasts modulates meningeal adrenergic tone; epinephrine excess amplifies vegf and smad4 and il-6 cascade of meningioma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Meningioma renin: renin from macrophages and fibroblasts modulates RAAS-meningeal axis; renin excess amplifies vegf and smad4 and il-6 cascade of meningioma."
 ---
 
 # Meningioma
@@ -900,6 +909,9 @@ VEGF overexpression in meningioma (YAP target); Phase 2 COMBIT (Huang 2019, N=40
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Meningioma norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates meningeal stress tone; norepinephrine excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Meningioma adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates meningeal vascular tone; adrenomedullin excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Meningioma bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) promotes meningeal neuro-survival; bdnf excess amplifies vegf (already mapped) and smad4 (already mapped) and il-6 (already mapped) cascade of meningioma.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Meningioma fgfr: FGFR on macrophages and fibroblasts modulates meningeal tumour proliferation; fgfr dysregulation amplifies vegf and smad4 and il-6 cascade of meningioma.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Meningioma epinephrine: epinephrine from macrophages and fibroblasts modulates meningeal adrenergic tone; epinephrine excess amplifies vegf and smad4 and il-6 cascade of meningioma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Meningioma renin: renin from macrophages and fibroblasts modulates RAAS-meningeal axis; renin excess amplifies vegf and smad4 and il-6 cascade of meningioma.
 
 [^brastianos-2013-akt1-meningioma]: Brastianos PK, Horowitz PM, Santagata S, et al. Genomic sequencing of meningiomas identifies oncogenic SMO and AKT1 mutations. *Nat Genet.* 2013;45(3):285-289. [doi:10.1038/ng.2526](https://doi.org/10.1038/ng.2526) · [PubMed 23334667](https://pubmed.ncbi.nlm.nih.gov/23334667/)
 [^nassiri-2021-meningioma-classification]: Nassiri F, Liu J, Patil V, et al. A clinically applicable integrative molecular classification of meningiomas. *Nature.* 2021;597(7874):119-125. [doi:10.1038/s41586-021-03850-3](https://doi.org/10.1038/s41586-021-03850-3) · [PubMed 34385709](https://pubmed.ncbi.nlm.nih.gov/34385709/)
