@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "PsO norepinephrine: norepinephrine from keratinocytes (already mapped) and macrophages (already mapped) modulates PsO vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "PsO adrenomedullin: adrenomedullin from keratinocytes (already mapped) and macrophages (already mapped) modulates PsO vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "PsO bdnf: BDNF from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic neural tone; bdnf excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "PsO fgfr: FGFR on keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic proliferation; fgfr dysregulation amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis."
 ---
 
 # Psoriasis
@@ -906,6 +915,9 @@ Differential: Seborrheic dermatitis (common), pityriasis rosea (herald patch, Ch
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PsO androgen-receptor: androgen receptor on keratinocytes (already mapped) and macrophages (already mapped) modulates PsO hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PsO aldosterone: aldosterone from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PsO norepinephrine: norepinephrine from keratinocytes (already mapped) and macrophages (already mapped) modulates PsO vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PsO adrenomedullin: adrenomedullin from keratinocytes (already mapped) and macrophages (already mapped) modulates PsO vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PsO bdnf: BDNF from keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic neural tone; bdnf excess amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PsO fgfr: FGFR on keratinocytes (already mapped) and macrophages (already mapped) modulates psoriatic proliferation; fgfr dysregulation amplifies nf-kb (already mapped) and il-17a (already mapped) and tnf-alpha (already mapped) plaque cascade of psoriasis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

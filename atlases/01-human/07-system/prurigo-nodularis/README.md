@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "PN adrenomedullin: adrenomedullin from keratinocytes (already mapped) and neurons (already mapped) modulates PN vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "PN osteopontin: osteopontin from keratinocytes (already mapped) and neurons (already mapped) modulates PN immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "PN fgfr: FGFR on keratinocytes (already mapped) and neurons (already mapped) modulates epidermal proliferation; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "PN epinephrine: epinephrine from keratinocytes (already mapped) and neurons (already mapped) modulates PN stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN."
 ---
 
 # Prurigo Nodularis
@@ -866,6 +875,9 @@ PN affects approximately **72,000 patients** in the US; true prevalence is likel
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PN androgen-receptor: androgen receptor on keratinocytes (already mapped) and neurons (already mapped) modulates PN hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PN norepinephrine: norepinephrine from keratinocytes (already mapped) and neurons (already mapped) modulates PN vascular tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PN adrenomedullin: adrenomedullin from keratinocytes (already mapped) and neurons (already mapped) modulates PN vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PN osteopontin: osteopontin from keratinocytes (already mapped) and neurons (already mapped) modulates PN immune tone; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PN fgfr: FGFR on keratinocytes (already mapped) and neurons (already mapped) modulates epidermal proliferation; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — PN epinephrine: epinephrine from keratinocytes (already mapped) and neurons (already mapped) modulates PN stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) itch cascade of PN.
 
 [^stander-2020-nemolizumab-pn]: Ständer S, Yosipovitch G, Legat FJ, et al. Trial of nemolizumab in moderate-to-severe prurigo nodularis. *N Engl J Med.* 2020;382(8):706-716. [doi:10.1056/NEJMoa1908316](https://doi.org/10.1056/NEJMoa1908316) · [PubMed 32053299](https://pubmed.ncbi.nlm.nih.gov/32053299/)
 [^briggs-2022-dupilumab-pn-liberty]: Briggs JN, Cho YY, Khanna R, et al. Dupilumab for prurigo nodularis: the LIBERTY-PN PRIME and PRIME2 trials. *N Engl J Med.* 2022;387(18):1683-1693. [doi:10.1056/NEJMoa2205093](https://doi.org/10.1056/NEJMoa2205093) · [PubMed 36300905](https://pubmed.ncbi.nlm.nih.gov/36300905/)
