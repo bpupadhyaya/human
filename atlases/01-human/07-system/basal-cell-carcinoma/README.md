@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "BCC osteopontin: osteopontin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "BCC epinephrine: epinephrine from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "BCC renin: renin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "BCC myostatin: myostatin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour tissue tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC."
 ---
 
 # Basal Cell Carcinoma
@@ -905,6 +914,9 @@ BCC has a complex immune microenvironment:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — BCC norepinephrine: norepinephrine from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — BCC bdnf: BDNF from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — BCC osteopontin: osteopontin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — BCC epinephrine: epinephrine from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — BCC renin: renin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — BCC myostatin: myostatin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates skin tumour tissue tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in BCC.
 
 ---
 
