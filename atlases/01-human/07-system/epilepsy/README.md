@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "epilepsy insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "epilepsy aldosterone: aldosterone from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "epilepsy androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroendocrine sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "epilepsy adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy."
 ---
 
 # Epilepsy
@@ -935,6 +944,9 @@ Anti-NMDAR encephalitis is the most common autoimmune encephalitis (~37% of auto
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — epilepsy calcitonin: calcitonin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — epilepsy substance-p: substance-P from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory pain tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) seizure cascade in epilepsy.
 - `connects-to` → **[Insulin-Receptor](../../03-molecular/insulin-receptor/README.md)** — epilepsy insulin-receptor: insulin receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — epilepsy aldosterone: aldosterone from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
+- `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — epilepsy androgen-receptor: androgen receptor on astrocytes (already mapped) and microglia (already mapped) modulates neuroendocrine sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — epilepsy adrenomedullin: adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuroinflammatory vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in epilepsy.
 
 [^fisher-2017-ilae-classification]: Fisher RS, Cross JH, D'Souza C, et al. Instruction manual for the ILAE 2017 operational classification of seizure types. *Epilepsia.* 2017;58(4):531-542. [doi:10.1111/epi.13671](https://doi.org/10.1111/epi.13671) · [PubMed 28276060](https://pubmed.ncbi.nlm.nih.gov/28276060/)
 [^devinsky-2018-epilepsy-review]: Devinsky O, Vezzani A, O'Brien TJ, et al. Epilepsy. *Nat Rev Dis Primers.* 2018;4:18024. [doi:10.1038/nrdp.2018.24](https://doi.org/10.1038/nrdp.2018.24) · [PubMed 29722352](https://pubmed.ncbi.nlm.nih.gov/29722352/)
