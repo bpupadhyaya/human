@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "PCNSL insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) drives CNS lymphoma metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "PCNSL aldosterone: Aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "PCNSL androgen-receptor: Androgen receptor on macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "PCNSL norepinephrine: norepinephrine from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL."
 ---
 
 # Primary CNS Lymphoma
@@ -885,6 +894,9 @@ Score 0-1: 2-year OS ~80%; Score 2-3: ~48%; Score 4-5: ~15%
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — PCNSL calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma calcium balance; calcitonin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — PCNSL substance-p: substance-P from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma neuroimmune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — PCNSL insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) drives CNS lymphoma metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — PCNSL aldosterone: Aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — PCNSL androgen-receptor: Androgen receptor on macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — PCNSL norepinephrine: norepinephrine from macrophages (already mapped) and B-cells (already mapped) modulates CNS lymphoma stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCNSL.
 
 [^bromberg-2019-hovon105]: Bromberg JE, Issa S, Bakunina K, et al. Rituximab in patients with primary CNS lymphoma (HOVON 105/ALLG NHL 24): a randomised, open-label, phase 3 intergroup study. *Lancet Oncol.* 2019;20(2):216-228. [doi:10.1016/S1470-2045(18)30747-2](https://doi.org/10.1016/S1470-2045(18)30747-2) · [PubMed 30528440](https://pubmed.ncbi.nlm.nih.gov/30528440/)
 [^grommes-2017-ibrutinib-pcnsl]: Grommes C, Pastore A, Palaskas N, et al. Ibrutinib unmasks critical role of Bruton tyrosine kinase in primary CNS lymphoma. *Cancer Cell.* 2017;31(6):833-843. [doi:10.1016/j.ccell.2017.04.012](https://doi.org/10.1016/j.ccell.2017.04.012) · [PubMed 28552327](https://pubmed.ncbi.nlm.nih.gov/28552327/)
