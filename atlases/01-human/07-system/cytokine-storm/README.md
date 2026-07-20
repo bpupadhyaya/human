@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "cytokine-storm norepinephrine: norepinephrine from macrophages (already mapped) and T-cells (already mapped) modulates cytokine adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "cytokine-storm adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cells (already mapped) modulates cytokine vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "cytokine-storm bdnf: BDNF from macrophages (already mapped) and T-cells (already mapped) modulates cytokine neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "cytokine-storm fgfr: FGFR on macrophages (already mapped) and T-cells (already mapped) modulates cytokine repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm."
 ---
 
 # Cytokine Storm
@@ -874,6 +883,9 @@ CS drives a **consumptive coagulopathy (DIC)**:
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — cytokine-storm aldosterone: aldosterone from macrophages (already mapped) and T-cells (already mapped) modulates cytokine fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — cytokine-storm androgen-receptor: androgen receptor on macrophages (already mapped) and T-cells (already mapped) modulates cytokine sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — cytokine-storm norepinephrine: norepinephrine from macrophages (already mapped) and T-cells (already mapped) modulates cytokine adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — cytokine-storm adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cells (already mapped) modulates cytokine vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — cytokine-storm bdnf: BDNF from macrophages (already mapped) and T-cells (already mapped) modulates cytokine neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — cytokine-storm fgfr: FGFR on macrophages (already mapped) and T-cells (already mapped) modulates cytokine repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of cytokine storm.
 
 ## Pathology
 

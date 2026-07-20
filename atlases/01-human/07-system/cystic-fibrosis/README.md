@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "CF bdnf: BDNF from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "CF osteopontin: osteopontin from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF immune matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "CF fgfr: FGFR on macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "CF epinephrine: epinephrine from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF."
 ---
 
 # Cystic Fibrosis
@@ -911,6 +920,9 @@ AND
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CF norepinephrine: norepinephrine from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — CF adrenomedullin: adrenomedullin from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — CF bdnf: BDNF from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — CF osteopontin: osteopontin from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF immune matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — CF fgfr: FGFR on macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — CF epinephrine: epinephrine from macrophages (already mapped) and airway epithelial cells (already mapped) modulates CF adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in CF.
 
 ---
 
