@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "TTP adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "TTP bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP neuroimmune tone; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "TTP osteopontin: osteopontin from macrophages (already mapped) and endothelial cells (already mapped) promotes TTP ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "TTP fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) drives TTP vascular remodelling; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and thrombopoietin (already mapped) thrombotic cascade of TTP."
 ---
 
 # Thrombotic Thrombocytopenic Purpura
@@ -946,6 +955,9 @@ In healthy individuals, ADAMTS13 (~190 kDa plasma glycoprotein; hepatic synthesi
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — TTP androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates TTP hormonal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — TTP norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — TTP adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; adrenomedullin loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — TTP bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates TTP neuroimmune tone; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — TTP osteopontin: osteopontin from macrophages (already mapped) and endothelial cells (already mapped) promotes TTP ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — TTP fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) drives TTP vascular remodelling; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and Thrombopoietin (already mapped) thrombotic cascade of TTP.
 
 ---
 

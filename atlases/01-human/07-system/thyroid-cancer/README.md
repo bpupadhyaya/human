@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "TC renin: renin from thyroid cells (already mapped) and macrophages (already mapped) links RAAS to thyroid tumour vascularisation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "TC myostatin: myostatin from thyroid cells (already mapped) and macrophages (already mapped) modulates TC muscle-tumour balance; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "TC angiopoietin: angiopoietin from thyroid cells (already mapped) and macrophages (already mapped) modulates TC tumour vascular remodelling; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "TC cortisol: cortisol from thyroid cells (already mapped) and macrophages (already mapped) modulates TC stress-tumour response; cortisol dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of thyroid cancer."
 ---
 
 # Thyroid Cancer
@@ -927,6 +936,9 @@ Calcitonin doubling time <6 months → poor prognosis → early systemic therapy
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — TC osteopontin: osteopontin from thyroid cells (already mapped) and macrophages (already mapped) promotes TC ECM remodelling; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — TC epinephrine: epinephrine from thyroid cells (already mapped) and macrophages (already mapped) modulates adrenergic tumour tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — TC renin: renin from thyroid cells (already mapped) and macrophages (already mapped) links RAAS to thyroid tumour vascularisation; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — TC myostatin: myostatin from thyroid cells (already mapped) and macrophages (already mapped) modulates TC muscle-tumour balance; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — TC angiopoietin: angiopoietin from thyroid cells (already mapped) and macrophages (already mapped) modulates TC tumour vascular remodelling; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — TC cortisol: cortisol from thyroid cells (already mapped) and macrophages (already mapped) modulates TC stress-tumour response; cortisol dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of thyroid cancer.
 
 [^schlumberger-2015-lenvatinib]: Schlumberger M, Tahara M, Wirth LJ, et al. Lenvatinib versus placebo in radioiodine-refractory differentiated thyroid cancer. *N Engl J Med.* 2015;372(7):621-630. [doi:10.1056/NEJMoa1406470](https://doi.org/10.1056/NEJMoa1406470) · [PubMed 25671254](https://pubmed.ncbi.nlm.nih.gov/25671254/)
 [^subbiah-2018-atc-dabrafenib]: Subbiah V, Kreitman RJ, Wainberg ZA, et al. Dabrafenib and trametinib treatment in patients with locally advanced or metastatic BRAF V600-mutant anaplastic thyroid cancer. *J Clin Oncol.* 2018;36(1):7-13. [doi:10.1200/JCO.2017.73.6785](https://doi.org/10.1200/JCO.2017.73.6785) · [PubMed 28892432](https://pubmed.ncbi.nlm.nih.gov/28892432/)
