@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "gut-microbiome fgfr: FGFR from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut epithelial repair; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "gut-microbiome epinephrine: epinephrine from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "gut-microbiome renin: renin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "gut-microbiome myostatin: myostatin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade."
 ---
 
 # Gut Microbiome
@@ -861,6 +870,9 @@ The microbiome influences CNS function via multiple pathways:
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — gut-microbiome adrenomedullin: adrenomedullin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — gut-microbiome osteopontin: osteopontin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut matrix; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — gut-microbiome fgfr: FGFR from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut epithelial repair; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — gut-microbiome epinephrine: epinephrine from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — gut-microbiome renin: renin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — gut-microbiome myostatin: myostatin from intestinal epithelium (already mapped) and macrophages (already mapped) modulates gut fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and dysbiosis-driven gut-microbiome cascade.
 
 ## Pathology
 
