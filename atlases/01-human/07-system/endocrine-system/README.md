@@ -590,6 +590,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "endocrine-system angiopoietin: angiopoietin from endocrine cells (already mapped) and macrophages (already mapped) modulates gland vessels; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "endocrine-system acetylcholine: acetylcholine from neurons (already mapped) and macrophages (already mapped) modulates gland secretory tone; acetylcholine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "endocrine-system adenosine: adenosine from endocrine cells (already mapped) and macrophages (already mapped) modulates gland purinergic tone; adenosine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
+  - target: 01-human/03-molecular/apoe
+    relation: connects-to
+    note: "endocrine-system apoe: ApoE from endocrine cells (already mapped) and macrophages (already mapped) modulates gland lipid axis; ApoE excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system."
 ---
 
 # Endocrine System
@@ -937,6 +946,10 @@ The endocrine system coordinates fuel metabolism across multiple organs in respo
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — endocrine-system fgfr: FGFR on endocrine cells (already mapped) and macrophages (already mapped) modulates gland proliferative tone; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — endocrine-system myostatin: myostatin from endocrine cells (already mapped) and macrophages (already mapped) modulates gland muscle axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — endocrine-system galectin-3: galectin-3 from endocrine cells (already mapped) and macrophages (already mapped) modulates gland fibrotic tone; galectin-3 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — endocrine-system angiopoietin: angiopoietin from endocrine cells (already mapped) and macrophages (already mapped) modulates gland vessels; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — endocrine-system acetylcholine: acetylcholine from neurons (already mapped) and macrophages (already mapped) modulates gland secretory tone; acetylcholine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — endocrine-system adenosine: adenosine from endocrine cells (already mapped) and macrophages (already mapped) modulates gland purinergic tone; adenosine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
+- `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — endocrine-system apoe: ApoE from endocrine cells (already mapped) and macrophages (already mapped) modulates gland lipid axis; ApoE excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade of the endocrine system.
 
 ## Pathology
 

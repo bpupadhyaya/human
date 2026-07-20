@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "DLBCL adrenomedullin: adrenomedullin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "DLBCL bdnf: BDNF from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "DLBCL fgfr: FGFR on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma proliferative axis; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "DLBCL epinephrine: epinephrine from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL."
 ---
 
 # Diffuse Large B-Cell Lymphoma
@@ -905,6 +914,9 @@ DLBCL is an aggressive malignancy of mature B cells. The normal equivalents are 
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — DLBCL androgen-receptor: androgen receptor on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — DLBCL norepinephrine: norepinephrine from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — DLBCL adrenomedullin: adrenomedullin from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — DLBCL bdnf: BDNF from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — DLBCL fgfr: FGFR on macrophages (already mapped) and B-cells (already mapped) modulates lymphoma proliferative axis; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — DLBCL epinephrine: epinephrine from macrophages (already mapped) and B-cells (already mapped) modulates lymphoma adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and BCL-2 (already mapped) cascade in DLBCL.
 
 ---
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
