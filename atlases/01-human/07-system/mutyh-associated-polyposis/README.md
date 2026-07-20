@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "MAP insulin-receptor: insulin receptor on macrophages (already mapped) and t-cytotoxic cells (already mapped) drives polyp metabolic repair; insulin-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "MAP aldosterone: aldosterone from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp ion balance; aldosterone excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "MAP androgen-receptor: androgen receptor on macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "MAP norepinephrine: norepinephrine from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp stress tone; norepinephrine excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP."
 ---
 
 # MUTYH-Associated Polyposis
@@ -888,6 +897,9 @@ Because MAP is autosomal recessive: siblings of MAP patients are at **25%** risk
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — MAP calcitonin: calcitonin from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp calcium balance; calcitonin excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — MAP substance-p: substance-P from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp pain tone; substance-p excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — MAP insulin-receptor: insulin receptor on macrophages (already mapped) and t-cytotoxic cells (already mapped) drives polyp metabolic repair; insulin-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — MAP aldosterone: aldosterone from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp ion balance; aldosterone excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — MAP androgen-receptor: androgen receptor on macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp androgen axis; androgen-receptor loss amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MAP norepinephrine: norepinephrine from macrophages (already mapped) and t-cytotoxic cells (already mapped) modulates polyp stress tone; norepinephrine excess amplifies smad4 (already mapped) and il-6 (already mapped) and nf-kb (already mapped) polyp cascade of MAP.
 
 ---
 

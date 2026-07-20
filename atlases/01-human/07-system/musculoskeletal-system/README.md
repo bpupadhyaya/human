@@ -581,6 +581,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "MSK epinephrine: Epinephrine from macrophages (already mapped) and osteoblasts (already mapped) modulates neuromuscular stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "MSK renin: renin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow renin-angiotensin tone; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "MSK galectin-3: galectin-3 from macrophages (already mapped) and osteoblasts (already mapped) promotes bone marrow fibrotic remodelling; galectin-3 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "MSK angiopoietin: angiopoietin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow angiogenic tone; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal."
 ---
 
 # Musculoskeletal System
@@ -905,6 +914,9 @@ Chronic exercise drives profound musculoskeletal remodelling [^guyton-hall]:
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — MSK norepinephrine: Norepinephrine from macrophages (already mapped) and osteoblasts (already mapped) modulates bone stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — MSK adrenomedullin: Adrenomedullin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — MSK epinephrine: Epinephrine from macrophages (already mapped) and osteoblasts (already mapped) modulates neuromuscular stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — MSK renin: renin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow renin-angiotensin tone; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — MSK galectin-3: galectin-3 from macrophages (already mapped) and osteoblasts (already mapped) promotes bone marrow fibrotic remodelling; galectin-3 excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — MSK angiopoietin: angiopoietin from macrophages (already mapped) and osteoblasts (already mapped) modulates bone marrow angiogenic tone; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) cascade of musculoskeletal.
 
 ## Pathology
 
