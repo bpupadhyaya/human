@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "OvCa aldosterone: Aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates ovarian cancer ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "OvCa androgen-receptor: Androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates OvCa hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of OvCa."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "OvCa norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates OvCa stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of OvCa."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "OvCa adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates OvCa vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of OvCa."
 ---
 
 # Ovarian Cancer
@@ -887,6 +896,9 @@ FTSEC ciliated and secretory cells line the Fallopian tube; secretory cells are 
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — OvCa substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates ovarian cancer immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — OvCa insulin-receptor: Insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives cancer metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — OvCa aldosterone: Aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates ovarian cancer ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of ovarian cancer.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — OvCa androgen-receptor: Androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates OvCa hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of OvCa.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — OvCa norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates OvCa stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of OvCa.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — OvCa adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates OvCa vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of OvCa.
 
 [^burger-2011-gog0218]: Burger RA, Brady MF, Bookman MA, et al. Incorporation of bevacizumab in the primary treatment of ovarian cancer. *N Engl J Med.* 2011;365(26):2473-2483. [doi:10.1056/NEJMoa1104390](https://doi.org/10.1056/NEJMoa1104390) · [PubMed 22204724](https://pubmed.ncbi.nlm.nih.gov/22204724/)
 [^moore-2018-olaparib-solo1]: Moore K, Colombo N, Scambia G, et al. Maintenance olaparib in patients with newly diagnosed advanced ovarian cancer. *N Engl J Med.* 2018;379(26):2495-2505. [doi:10.1056/NEJMoa1810858](https://doi.org/10.1056/NEJMoa1810858) · [PubMed 30345884](https://pubmed.ncbi.nlm.nih.gov/30345884/)

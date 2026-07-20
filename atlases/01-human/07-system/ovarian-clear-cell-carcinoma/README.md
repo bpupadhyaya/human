@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "OCCC androgen-receptor: Androgen receptor on ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC hormonal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "OCCC norepinephrine: norepinephrine from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC stress tone; norepinephrine excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "OCCC adrenomedullin: adrenomedullin from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC vascular tone; adrenomedullin excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "OCCC bdnf: BDNF from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC neural proliferation; bdnf excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC."
 ---
 
 # Ovarian Clear Cell Carcinoma
@@ -913,6 +922,9 @@ Comprehensive surgical staging (TAH-BSO, omentectomy, pelvic/para-aortic lymphad
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — OCCC insulin-receptor: Insulin receptor on ovarian cells (already mapped) and macrophages (already mapped) drives OCCC metabolic repair; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — OCCC aldosterone: Aldosterone from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — OCCC androgen-receptor: Androgen receptor on ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC hormonal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — OCCC norepinephrine: norepinephrine from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC stress tone; norepinephrine excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — OCCC adrenomedullin: adrenomedullin from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC vascular tone; adrenomedullin excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — OCCC bdnf: BDNF from ovarian cells (already mapped) and macrophages (already mapped) modulates OCCC neural proliferation; bdnf excess amplifies NF-kB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) tumour cascade of OCCC.
 
 ---
 
