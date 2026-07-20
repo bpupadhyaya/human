@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "RS epinephrine: epinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates renal adrenergic vascular tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "RS myostatin: myostatin from macrophages (already mapped) and renal tubular cells (already mapped) modulates renal fibrotic tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "RS angiopoietin: angiopoietin from macrophages (already mapped) and endothelial cells (already mapped) modulates renal vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
+  - target: 01-human/03-molecular/ace2
+    relation: connects-to
+    note: "RS ace2: ACE2 on renal tubular cells (already mapped) and macrophages (already mapped) modulates RAAS renal tone; ace2 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system."
 taxonomy:
   uberon: "UBERON:0001008"
 ---
@@ -878,6 +887,9 @@ Natriuretic counterpoint:
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — RS bdnf: BDNF from renal tubular cells (already mapped) and macrophages (already mapped) supports renal neural trophic tone; bdnf loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — RS fgfr: FGFR on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal fibroblast growth signalling; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — RS epinephrine: epinephrine from sympathetic nerves (already mapped) and macrophages (already mapped) modulates renal adrenergic vascular tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — RS myostatin: myostatin from macrophages (already mapped) and renal tubular cells (already mapped) modulates renal fibrotic tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — RS angiopoietin: angiopoietin from macrophages (already mapped) and endothelial cells (already mapped) modulates renal vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
+- `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — RS ace2: ACE2 on renal tubular cells (already mapped) and macrophages (already mapped) modulates RAAS renal tone; ace2 loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of the renal system.
 - **Treated by:** ACE inhibitors — renoprotection in CKD.
 - **Treated by:** Loop diuretics — fluid management.
 
