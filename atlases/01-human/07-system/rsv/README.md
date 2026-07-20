@@ -594,6 +594,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "RSV renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway RAAS balance; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "RSV myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway muscle balance; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "RSV angiopoietin: angiopoietin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway vascular remodelling; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "RSV ghrelin: ghrelin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway metabolic tone; ghrelin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
 ---
 
 # RSV
@@ -930,3 +939,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — RSV fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) drives airway stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — RSV epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates airway adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — RSV renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway RAAS balance; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — RSV myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway muscle balance; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — RSV angiopoietin: angiopoietin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway vascular remodelling; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — RSV ghrelin: ghrelin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway metabolic tone; ghrelin dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
