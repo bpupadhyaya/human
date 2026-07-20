@@ -595,6 +595,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "NMO aldosterone: Aldosterone from astrocytes (already mapped) and macrophages (already mapped) modulates CNS ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "NMO androgen-receptor: androgen receptor on astrocytes (already mapped) and macrophages (already mapped) modulates CNS androgen axis; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "NMO norepinephrine: norepinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates CNS stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "NMO adrenomedullin: adrenomedullin from astrocytes (already mapped) and macrophages (already mapped) modulates CNS vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO."
 ---
 
 # NMOSD
@@ -933,6 +942,9 @@ NMOSD impairs CNS function through three attack-related mechanisms:
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — NMO substance-p: substance-P from astrocytes (already mapped) and macrophages (already mapped) modulates CNS immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — NMO insulin-receptor: Insulin receptor on astrocytes (already mapped) and macrophages (already mapped) drives CNS metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — NMO aldosterone: Aldosterone from astrocytes (already mapped) and macrophages (already mapped) modulates CNS ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — NMO androgen-receptor: androgen receptor on astrocytes (already mapped) and macrophages (already mapped) modulates CNS androgen axis; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NMO norepinephrine: norepinephrine from astrocytes (already mapped) and macrophages (already mapped) modulates CNS stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NMO adrenomedullin: adrenomedullin from astrocytes (already mapped) and macrophages (already mapped) modulates CNS vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cascade of NMO.
 
 [^wingerchuk-2015-nmosd-criteria]: Wingerchuk DM, Banwell B, Bennett JL, et al. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. *Neurology.* 2015;85(2):177-189. [doi:10.1212/WNL.0000000000001729](https://doi.org/10.1212/WNL.0000000000001729) · [PubMed 26092914](https://pubmed.ncbi.nlm.nih.gov/26092914/)
 [^pittock-2019-eculizumab-prevent]: Pittock SJ, Berthele A, Fujihara K, et al. Eculizumab in Aquaporin-4-Positive Neuromyelitis Optica Spectrum Disorder. *N Engl J Med.* 2019;381(7):614-625. [doi:10.1056/NEJMoa1900866](https://doi.org/10.1056/NEJMoa1900866) · [PubMed 31050279](https://pubmed.ncbi.nlm.nih.gov/31050279/)
