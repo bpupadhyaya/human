@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "NSCLC aldosterone: Aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "NSCLC androgen-receptor: Androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "NSCLC norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "NSCLC adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC."
 ---
 
 # NSCLC
@@ -880,6 +889,9 @@ cross_links:
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — NSCLC substance-p: substance-P from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC immune tone; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
 - `connects-to` → **[Insulin receptor](../../03-molecular/insulin-receptor/README.md)** — NSCLC insulin-receptor: Insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives NSCLC metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — NSCLC aldosterone: Aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC ion balance; aldosterone excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — NSCLC androgen-receptor: Androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NSCLC norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NSCLC adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates NSCLC vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of NSCLC.
 
 [^soria-2018-osimertinib-flaura]: Soria JC, Ohe Y, Vansteenkiste J, et al. Osimertinib in untreated EGFR-mutated advanced non-small-cell lung cancer. *N Engl J Med.* 2018;378(2):113-125. [doi:10.1056/NEJMoa1713137](https://doi.org/10.1056/NEJMoa1713137) · [PubMed 29151359](https://pubmed.ncbi.nlm.nih.gov/29151359/)
 [^reck-2016-pembrolizumab-keynote024]: Reck M, Rodríguez-Abreu D, Robinson AG, et al. Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *N Engl J Med.* 2016;375(19):1823-1833. [doi:10.1056/NEJMoa1606774](https://doi.org/10.1056/NEJMoa1606774) · [PubMed 27718347](https://pubmed.ncbi.nlm.nih.gov/27718347/)
