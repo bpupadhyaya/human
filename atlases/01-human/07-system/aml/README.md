@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "AML aldosterone: aldosterone from macrophages (already mapped) and bone-marrow (already mapped) stroma modulates myeloid ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "AML androgen-receptor: androgen receptor on macrophages (already mapped) and bone-marrow stroma (already mapped) modulates myeloid hormonal axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "AML norepinephrine: norepinephrine from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates myeloid adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "AML adrenomedullin: adrenomedullin from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates myeloid vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML."
 ---
 
 # AML
@@ -902,6 +911,9 @@ AML requires cooperative mutations in at least 2 functional categories (Gillilan
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — AML substance-p: substance-P from macrophages (already mapped) and bone-marrow (already mapped) stroma modulates myeloid neuroimmune tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AML insulin-receptor: insulin receptor on macrophages (already mapped) and bone-marrow (already mapped) stroma modulates myeloid metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — AML aldosterone: aldosterone from macrophages (already mapped) and bone-marrow (already mapped) stroma modulates myeloid ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AML androgen-receptor: androgen receptor on macrophages (already mapped) and bone-marrow stroma (already mapped) modulates myeloid hormonal axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — AML norepinephrine: norepinephrine from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates myeloid adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AML adrenomedullin: adrenomedullin from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates myeloid vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of AML.
 
 [^dinardo-2020-viale-a]: DiNardo CD, Jonas BA, Pullarkat V, et al. Azacitidine and venetoclax in previously untreated acute myeloid leukemia. *N Engl J Med.* 2020;383(7):617-629. [doi:10.1056/NEJMoa2012971](https://doi.org/10.1056/NEJMoa2012971) · [PubMed 32786187](https://pubmed.ncbi.nlm.nih.gov/32786187/)
 [^stone-2017-midostaurin]: Stone RM, Mandrekar SJ, Sanford BL, et al. Midostaurin plus chemotherapy for acute myeloid leukemia with a FLT3 mutation. *N Engl J Med.* 2017;377(5):454-464. [doi:10.1056/NEJMoa1614359](https://doi.org/10.1056/NEJMoa1614359) · [PubMed 28644114](https://pubmed.ncbi.nlm.nih.gov/28644114/)
