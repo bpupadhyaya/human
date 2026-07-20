@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "NASH adrenomedullin: Adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "NASH bdnf: BDNF from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "NASH osteopontin: osteopontin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "NASH epinephrine: epinephrine from macrophages (already mapped) and hepatocytes (already mapped) amplifies hepatic stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH."
 ---
 
 # NASH
@@ -868,6 +877,9 @@ NASH pathogenesis is driven by multiple simultaneous and sequential hits, not a 
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — NASH androgen-receptor: Androgen receptor on macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic hormonal tone; androgen excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NASH norepinephrine: Norepinephrine from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NASH adrenomedullin: Adrenomedullin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — NASH bdnf: BDNF from macrophages (already mapped) and hepatocytes (already mapped) promotes hepatic neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — NASH osteopontin: osteopontin from macrophages (already mapped) and hepatocytes (already mapped) modulates hepatic ECM remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — NASH epinephrine: epinephrine from macrophages (already mapped) and hepatocytes (already mapped) amplifies hepatic stress response; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and smad4 (already mapped) fibrotic cascade of NASH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "NS fgfr: FGFR on astrocytes (already mapped) and microglia (already mapped) modulates neuronal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "NS epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) amplifies neuronal stress arousal; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "NS renin: renin from astrocytes (already mapped) and microglia (already mapped) modulates neuronal renin-angiotensin tone; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "NS myostatin: myostatin from astrocytes (already mapped) and microglia (already mapped) modulates neuronal atrophic tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system."
 ---
 
 # Nervous System
@@ -834,6 +843,9 @@ Distributed cortical networks underlie language (Broca's area, Wernicke's area, 
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NS adrenomedullin: Adrenomedullin from astrocytes (already mapped) and microglia (already mapped) modulates neuronal vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — NS osteopontin: Osteopontin from astrocytes (already mapped) and microglia (already mapped) modulates neuronal matrix remodelling; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — NS fgfr: FGFR on astrocytes (already mapped) and microglia (already mapped) modulates neuronal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — NS epinephrine: epinephrine from astrocytes (already mapped) and microglia (already mapped) amplifies neuronal stress arousal; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — NS renin: renin from astrocytes (already mapped) and microglia (already mapped) modulates neuronal renin-angiotensin tone; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — NS myostatin: myostatin from astrocytes (already mapped) and microglia (already mapped) modulates neuronal atrophic tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and bdnf (already mapped) cascade of nervous system.
 
 [^kandel-principles-ns]: Kandel ER, Koester JD, Mack SH, Siegelbaum SA. *Principles of Neural Science.* 6th ed. McGraw-Hill; 2021.
 [^guyton-hall-physiology]: Hall JE, Hall ME. *Guyton and Hall Textbook of Medical Physiology.* 14th ed. Elsevier; 2020.
