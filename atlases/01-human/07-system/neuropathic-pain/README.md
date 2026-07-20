@@ -579,6 +579,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "NP fgfr: FGFR signalling on neurons (already mapped) and astrocytes (already mapped) modulates neuropathic neural proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "NP epinephrine: epinephrine from neurons (already mapped) and astrocytes (already mapped) modulates neuropathic adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "NP renin: renin from neurons (already mapped) and astrocytes (already mapped) modulates neuropathic renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "NP myostatin: myostatin from neurons (already mapped) and astrocytes (already mapped) modulates neuropathic muscle tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP."
 sources:
   - id: jensen-2011-neuropathic-pain-review
     type: peer-reviewed
@@ -929,6 +938,9 @@ Chronic neuropathic pain carries significant psychological burden:
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NP adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates neuropathic vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — NP osteopontin: osteopontin from neurons (already mapped) and astrocytes (already mapped) modulates neuropathic ECM; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — NP fgfr: FGFR signalling on neurons (already mapped) and astrocytes (already mapped) modulates neuropathic neural proliferation; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — NP epinephrine: epinephrine from neurons (already mapped) and astrocytes (already mapped) modulates neuropathic adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — NP renin: renin from neurons (already mapped) and astrocytes (already mapped) modulates neuropathic renin-angiotensin axis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — NP myostatin: myostatin from neurons (already mapped) and astrocytes (already mapped) modulates neuropathic muscle tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) pain cascade of NP.
 
 [^jensen-2011-neuropathic-pain-review]: Jensen TS, Baron R, Haanpää M, et al. A new definition of neuropathic pain. *Pain.* 2011;152(10):2204-2205. [doi:10.1016/j.pain.2011.06.017](https://doi.org/10.1016/j.pain.2011.06.017) · [PubMed 21764514](https://pubmed.ncbi.nlm.nih.gov/21764514/)
 [^dworkin-2010-neuropathic-pain-treatment]: Dworkin RH, O'Connor AB, Audette J, et al. Recommendations for the pharmacological management of neuropathic pain. *Mayo Clin Proc.* 2010;85(3 Suppl):S3-14. [doi:10.4065/mcp.2009.0649](https://doi.org/10.4065/mcp.2009.0649) · [PubMed 20194146](https://pubmed.ncbi.nlm.nih.gov/20194146/)

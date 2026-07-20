@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "NF2 bdnf: BDNF from Schwann cells (already mapped) and macrophages (already mapped) promotes schwannoma neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "NF2 osteopontin: osteopontin from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma immune adhesion; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "NF2 fgfr: fgfr from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma growth signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "NF2 epinephrine: epinephrine from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2."
 ---
 
 # Neurofibromatosis Type 2
@@ -903,6 +912,9 @@ Merlin has an N-terminal FERM domain (α, β, γ lobes) that binds membrane lipi
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — NF2 norepinephrine: norepinephrine from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma stress tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — NF2 adrenomedullin: adrenomedullin from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — NF2 bdnf: BDNF from Schwann cells (already mapped) and macrophages (already mapped) promotes schwannoma neuro-survival; bdnf excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — NF2 osteopontin: osteopontin from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma immune adhesion; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — NF2 fgfr: fgfr from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma growth signalling; fgfr excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — NF2 epinephrine: epinephrine from Schwann cells (already mapped) and macrophages (already mapped) modulates schwannoma adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and mtor (already mapped) cascade of NF2.
 
 [^asthagiri-2009-nf2-lancet]: Asthagiri AR, Parry DM, Butman JA, et al. Neurofibromatosis type 2. *Lancet.* 2009;373(9679):1974-1986. [doi:10.1016/S0140-6736(09)60259-2](https://doi.org/10.1016/S0140-6736(09)60259-2) · [PubMed 19476995](https://pubmed.ncbi.nlm.nih.gov/19476995/)
 [^plotkin-2009-nf2-bevacizumab]: Plotkin SR, Stemmer-Rachamimov AO, Barker FG 2nd, et al. Hearing improvement after bevacizumab in patients with neurofibromatosis type 2. *N Engl J Med.* 2009;361(4):358-367. [doi:10.1056/NEJMoa0902579](https://doi.org/10.1056/NEJMoa0902579) · [PubMed 19587327](https://pubmed.ncbi.nlm.nih.gov/19587327/)
