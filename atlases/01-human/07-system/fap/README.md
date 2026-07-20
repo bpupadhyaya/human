@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "FAP adrenomedullin: adrenomedullin from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "FAP bdnf: BDNF from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "FAP osteopontin: osteopontin from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP matrix tone; osteopontin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "FAP epinephrine: epinephrine from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP."
 ---
 
 # Familial Adenomatous Polyposis
@@ -923,6 +932,9 @@ With modern surveillance and prophylactic colectomy: FAP is no longer an inevita
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — FAP androgen-receptor: androgen receptor on macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — FAP norepinephrine: norepinephrine from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — FAP adrenomedullin: adrenomedullin from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — FAP bdnf: BDNF from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — FAP osteopontin: osteopontin from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP matrix tone; osteopontin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — FAP epinephrine: epinephrine from macrophages (already mapped) and intestinal epithelial cells (already mapped) modulates FAP adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and IL-6 (already mapped) cascade in FAP.
 
 [^kinzler-1991-apc]: Kinzler KW, Nilbert MC, Su LK, et al. Identification of FAP locus genes from chromosome 5q21. *Science.* 1991;253(5020):661-665. [doi:10.1126/science.1651562](https://doi.org/10.1126/science.1651562) · [PubMed 1651562](https://pubmed.ncbi.nlm.nih.gov/1651562/)
 [^fearon-1990-vogelstein]: Fearon ER, Vogelstein B. A genetic model for colorectal tumorigenesis. *Cell.* 1990;61(5):759-767. [doi:10.1016/0092-8674(90)90186-i](https://doi.org/10.1016/0092-8674(90)90186-i) · [PubMed 2188735](https://pubmed.ncbi.nlm.nih.gov/2188735/)
