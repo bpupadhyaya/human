@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "ALL androgen-receptor: androgen receptor on macrophages (already mapped) and bone-marrow stromal cells (already mapped) modulates leukaemic sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "ALL norepinephrine: norepinephrine from macrophages (already mapped) and bone-marrow stromal cells (already mapped) modulates leukaemic adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "ALL adrenomedullin: adrenomedullin from macrophages (already mapped) and bone-marrow stromal cells (already mapped) modulates leukaemic vascular tone; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "ALL bdnf: BDNF from macrophages (already mapped) and bone-marrow stromal cells (already mapped) sustains leukaemic neural-immune niche; BDNF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL."
 ---
 
 # Acute Lymphoblastic Leukemia
@@ -911,6 +920,9 @@ Childhood ALL survivors (now majority of patients): neurocognitive impairment (M
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ALL insulin-receptor: insulin receptor on macrophages (already mapped) and bone-marrow stromal cells (already mapped) modulates leukaemic metabolic axis; insulin-receptor excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ALL aldosterone: aldosterone from macrophages (already mapped) and bone-marrow stromal cells (already mapped) modulates leukaemic fluid balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ALL androgen-receptor: androgen receptor on macrophages (already mapped) and bone-marrow stromal cells (already mapped) modulates leukaemic sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — ALL norepinephrine: norepinephrine from macrophages (already mapped) and bone-marrow stromal cells (already mapped) modulates leukaemic adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ALL adrenomedullin: adrenomedullin from macrophages (already mapped) and bone-marrow stromal cells (already mapped) modulates leukaemic vascular tone; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — ALL bdnf: BDNF from macrophages (already mapped) and bone-marrow stromal cells (already mapped) sustains leukaemic neural-immune niche; BDNF deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of ALL.
 
 [^pui-2018-all-cure]: Pui CH, Yang JJ, Bhakta N, et al. Global efforts toward the cure of childhood acute lymphoblastic leukemia. *Lancet Child Adolesc Health.* 2018;2(6):440-454. [doi:10.1016/S2352-4642(18)30066-X](https://doi.org/10.1016/S2352-4642(18)30066-X) · [PubMed 29976322](https://pubmed.ncbi.nlm.nih.gov/29976322/)
 [^maude-2018-tisagenlecleucel]: Maude SL, Laetsch TW, Buechner J, et al. Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *N Engl J Med.* 2018;378(5):439-448. [doi:10.1056/NEJMoa1709866](https://doi.org/10.1056/NEJMoa1709866) · [PubMed 29385370](https://pubmed.ncbi.nlm.nih.gov/29385370/)
