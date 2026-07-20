@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "CMML norepinephrine: norepinephrine from monocytes (already mapped) and macrophages (already mapped) modulates myeloid adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "CMML adrenomedullin: adrenomedullin from monocytes (already mapped) and macrophages (already mapped) modulates myeloid vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "CMML bdnf: BDNF from monocytes (already mapped) and macrophages (already mapped) modulates myeloid neural tone; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "CMML fgfr: FGFR on monocytes (already mapped) and macrophages (already mapped) modulates myeloid proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML."
 ---
 
 # Chronic Myelomonocytic Leukemia
@@ -909,6 +918,9 @@ CMML → AML transformation (~15-30% at 5 years): Treat as secondary AML; CPX-35
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — CMML aldosterone: aldosterone from monocytes (already mapped) and macrophages (already mapped) modulates myeloid fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — CMML androgen-receptor: androgen receptor on monocytes (already mapped) and macrophages (already mapped) modulates myeloid sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CMML norepinephrine: norepinephrine from monocytes (already mapped) and macrophages (already mapped) modulates myeloid adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — CMML adrenomedullin: adrenomedullin from monocytes (already mapped) and macrophages (already mapped) modulates myeloid vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — CMML bdnf: BDNF from monocytes (already mapped) and macrophages (already mapped) modulates myeloid neural tone; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — CMML fgfr: FGFR on monocytes (already mapped) and macrophages (already mapped) modulates myeloid proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of CMML.
 
 ---
 

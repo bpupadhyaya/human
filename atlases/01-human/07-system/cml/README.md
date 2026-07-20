@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "CML adrenomedullin: adrenomedullin from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "CML bdnf: BDNF from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "CML fgfr: FGFR on leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "CML epinephrine: epinephrine from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML."
 ---
 
 # Chronic Myeloid Leukemia
@@ -896,6 +905,9 @@ Following the imatinib revolution, the current frontier is achieving **deep mole
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — CML androgen-receptor: androgen receptor on leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CML norepinephrine: norepinephrine from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — CML adrenomedullin: adrenomedullin from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — CML bdnf: BDNF from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML neural tone; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — CML fgfr: FGFR on leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — CML epinephrine: epinephrine from leukaemic stem cells (already mapped) and macrophages (already mapped) modulates CML adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of CML.
 
 ---
 
