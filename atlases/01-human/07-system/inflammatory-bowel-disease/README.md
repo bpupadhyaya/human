@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "IBD renin: renin from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal fluid balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "IBD myostatin: myostatin from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal muscle-wasting axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "IBD angiopoietin: angiopoietin from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal angiogenesis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "IBD cortisol: cortisol from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal stress response; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD."
 ---
 
 # Inflammatory Bowel Disease
@@ -919,6 +928,9 @@ IBD is a complex polygenic disease with >240 susceptibility loci (GWAS):
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — IBD fgfr: FGFR on macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — IBD epinephrine: epinephrine from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal stress tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — IBD renin: renin from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal fluid balance; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — IBD myostatin: myostatin from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal muscle-wasting axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — IBD angiopoietin: angiopoietin from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal angiogenesis; angiopoietin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — IBD cortisol: cortisol from macrophages (already mapped) and intestinal epithelium (already mapped) modulates mucosal stress response; cortisol excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) mucosal cascade in IBD.
 
 [^ng-2017-ibd-epidemiology]: Ng SC, Shi HY, Hamidi N, et al. Worldwide incidence and prevalence of inflammatory bowel disease in the 21st century: a systematic review of population-based studies. *Lancet.* 2018;390(10114):2769-2778. [doi:10.1016/S0140-6736(17)32448-0](https://doi.org/10.1016/S0140-6736(17)32448-0) · [PubMed 29050646](https://pubmed.ncbi.nlm.nih.gov/29050646/)
 [^sandborn-2012-vedolizumab]: Feagan BG, Rutgeerts P, Sands BE, et al. Vedolizumab as induction and maintenance therapy for ulcerative colitis. *N Engl J Med.* 2013;369(8):699-710. [doi:10.1056/NEJMoa1215734](https://doi.org/10.1056/NEJMoa1215734) · [PubMed 23964932](https://pubmed.ncbi.nlm.nih.gov/23964932/)
