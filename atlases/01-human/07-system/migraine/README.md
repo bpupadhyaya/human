@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Migraine adrenomedullin: Adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory vascular tone; adrenomedullin excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Migraine bdnf: BDNF from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory neuroprotection; bdnf excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Migraine osteopontin: osteopontin from microglia (already mapped) and astrocytes (already mapped) modulates trigeminovascular ECM; osteopontin excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Migraine fgfr: FGFR signalling on microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory proliferation; fgfr excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade."
 ---
 
 # Migraine
@@ -920,6 +929,9 @@ Episodic migraine (EM, <15 headache days/month) transforms to **chronic migraine
 - `connects-to` → **[Androgen receptor](../../03-molecular/androgen-receptor/README.md)** — Migraine androgen-receptor: Androgen receptor on microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory hormonal tone; androgen excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Migraine norepinephrine: Norepinephrine from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory stress tone; norepinephrine excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Migraine adrenomedullin: Adrenomedullin from microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory vascular tone; adrenomedullin excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Migraine bdnf: BDNF from microglia (already mapped) and astrocytes (already mapped) promotes neuroinflammatory neuroprotection; bdnf excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Migraine osteopontin: osteopontin from microglia (already mapped) and astrocytes (already mapped) modulates trigeminovascular ECM; osteopontin excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Migraine fgfr: FGFR signalling on microglia (already mapped) and astrocytes (already mapped) modulates neuroinflammatory proliferation; fgfr excess amplifies cgrp (already mapped) and serotonin (already mapped) and il-6 (already mapped) migraine cascade.
 
 [^gbd-2016-migraine-burden]: GBD 2016 Headache Collaborators. Global, regional, and national burden of migraine and tension-type headache, 1990-2016. *Lancet Neurol.* 2018;17(11):954-976. [doi:10.1016/S1474-4422(18)30322-3](https://doi.org/10.1016/S1474-4422(18)30322-3) · [PubMed 30353868](https://pubmed.ncbi.nlm.nih.gov/30353868/)
 [^goadsby-2002-migraine-review]: Goadsby PJ, Lipton RB, Ferrari MD. Migraine — current understanding and treatment. *N Engl J Med.* 2002;346(4):257-270. [doi:10.1056/NEJMra010917](https://doi.org/10.1056/NEJMra010917) · [PubMed 11807151](https://pubmed.ncbi.nlm.nih.gov/11807151/)
