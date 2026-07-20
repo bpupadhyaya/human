@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Medullo norepinephrine: norepinephrine from microglia (already mapped) and macrophages (already mapped) modulates adrenergic tone; norepinephrine excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Medullo adrenomedullin: adrenomedullin from microglia and macrophages modulates vascular tumour tone; adrenomedullin loss amplifies wnt-beta-catenin and vegf and il-6 medulloblastoma cascade."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Medullo bdnf: BDNF from microglia and macrophages modulates neuroprotective tumour tone; bdnf deficiency amplifies wnt-beta-catenin and vegf and il-6 medulloblastoma cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Medullo fgfr: FGFR on microglia and macrophages modulates tumour growth signalling; fgfr dysregulation amplifies wnt-beta-catenin and vegf and il-6 medulloblastoma cascade."
 ---
 
 # Medulloblastoma
@@ -913,6 +922,9 @@ MB survivors face substantial late effects — inversely proportional to age at 
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Medullo aldosterone: aldosterone from microglia (already mapped) and macrophages (already mapped) modulates tumour electrolyte tone; aldosterone excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Medullo androgen-receptor: androgen receptor on microglia (already mapped) and macrophages (already mapped) modulates hormonal tone; androgen-receptor loss amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Medullo norepinephrine: norepinephrine from microglia (already mapped) and macrophages (already mapped) modulates adrenergic tone; norepinephrine excess amplifies wnt-beta-catenin (already mapped) and vegf (already mapped) and il-6 (already mapped) medulloblastoma cascade.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Medullo adrenomedullin: adrenomedullin from microglia and macrophages modulates vascular tumour tone; adrenomedullin loss amplifies wnt-beta-catenin and vegf and il-6 medulloblastoma cascade.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Medullo bdnf: BDNF from microglia and macrophages modulates neuroprotective tumour tone; bdnf deficiency amplifies wnt-beta-catenin and vegf and il-6 medulloblastoma cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Medullo fgfr: FGFR on microglia and macrophages modulates tumour growth signalling; fgfr dysregulation amplifies wnt-beta-catenin and vegf and il-6 medulloblastoma cascade.
 
 [^packer-2006-std-risk-mb]: Packer RJ, Gajjar A, Vezina G, et al. Phase III study of craniospinal radiation therapy followed by adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma. *J Clin Oncol.* 2006;24(25):4202-4208. [doi:10.1200/JCO.2006.06.4980](https://doi.org/10.1200/JCO.2006.06.4980) · [PubMed 16943538](https://pubmed.ncbi.nlm.nih.gov/16943538/)
 [^taylor-2012-mb-subgroups]: Taylor MD, Northcott PA, Korshunov A, et al. Molecular subgroups of medulloblastoma: the current consensus. *Acta Neuropathol.* 2012;123(4):465-472. [doi:10.1007/s00401-011-0922-z](https://doi.org/10.1007/s00401-011-0922-z) · [PubMed 22134537](https://pubmed.ncbi.nlm.nih.gov/22134537/)
