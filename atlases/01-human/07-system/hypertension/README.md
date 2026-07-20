@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Hypertension bdnf: BDNF from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular neuroprotective tone; bdnf deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Hypertension osteopontin: osteopontin from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular inflammation; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Hypertension fgfr: FGFR on smooth-muscle cells (already mapped) and macrophages (already mapped) modulates vascular repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "Hypertension myostatin: myostatin from smooth-muscle cells (already mapped) and macrophages (already mapped) modulates vascular atrophy; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade."
 ---
 
 # Hypertension
@@ -862,6 +871,9 @@ Blood pressure is determined by: BP = Cardiac Output × Peripheral Vascular Resi
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Hypertension insulin-receptor: insulin receptor on macrophages (already mapped) and smooth-muscle cells (already mapped) modulates metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Hypertension androgen-receptor: androgen receptor on macrophages (already mapped) and smooth-muscle cells (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Hypertension bdnf: BDNF from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular neuroprotective tone; bdnf deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Hypertension osteopontin: osteopontin from macrophages (already mapped) and smooth-muscle cells (already mapped) modulates vascular inflammation; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Hypertension fgfr: FGFR on smooth-muscle cells (already mapped) and macrophages (already mapped) modulates vascular repair; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Hypertension myostatin: myostatin from smooth-muscle cells (already mapped) and macrophages (already mapped) modulates vascular atrophy; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and aldosterone (already mapped) vascular cascade.
 
 ## Pathology
 
