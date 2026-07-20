@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "HAE norepinephrine: norepinephrine from macrophages (already mapped) and endothelium (already mapped) modulates vascular stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HAE."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "HAE bdnf: BDNF from macrophages (already mapped) and endothelium (already mapped) modulates vascular neural repair; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HAE."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "HAE fgfr: FGFR from macrophages (already mapped) and endothelium (already mapped) modulates vascular repair signalling; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HAE."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "HAE epinephrine: epinephrine from macrophages (already mapped) and endothelium (already mapped) modulates vascular adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HAE."
 ---
 
 # Hereditary Angioedema
@@ -914,6 +923,9 @@ Fluid extravasation → ANGIOEDEMA
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HAE insulin-receptor: insulin receptor on macrophages (already mapped) and endothelium (already mapped) modulates vascular metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HAE.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — HAE androgen-receptor: androgen receptor on macrophages (already mapped) and endothelium (already mapped) modulates androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HAE.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HAE norepinephrine: norepinephrine from macrophages (already mapped) and endothelium (already mapped) modulates vascular stress tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HAE.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HAE bdnf: BDNF from macrophages (already mapped) and endothelium (already mapped) modulates vascular neural repair; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HAE.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — HAE fgfr: FGFR from macrophages (already mapped) and endothelium (already mapped) modulates vascular repair signalling; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HAE.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — HAE epinephrine: epinephrine from macrophages (already mapped) and endothelium (already mapped) modulates vascular adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of HAE.
 
 [^cicardi-2010-icatibant-nejm]: Cicardi M, Banerji A, Bracho F, et al. Icatibant, a new bradykinin-receptor antagonist, in hereditary angioedema. *N Engl J Med.* 2010;363(6):532-541. [doi:10.1056/NEJMoa0906393](https://doi.org/10.1056/NEJMoa0906393) · [PubMed 20818873](https://pubmed.ncbi.nlm.nih.gov/20818873/)
 [^maurer-2018-lanadelumab-help]: Banerji A, Riedl MA, Bernstein JA, et al. Effect of lanadelumab compared with placebo on prevention of hereditary angioedema attacks. *JAMA.* 2018;320(20):2108-2121. [doi:10.1001/jama.2018.16773](https://doi.org/10.1001/jama.2018.16773) · [PubMed 30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/)

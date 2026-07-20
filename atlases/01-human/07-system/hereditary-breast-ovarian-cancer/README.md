@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "HBOC aldosterone: aldosterone from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour fluid balance; aldosterone excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "HBOC norepinephrine: norepinephrine from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC adrenergic tone; norepinephrine excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "HBOC adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC vascular tone; adrenomedullin excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "HBOC bdnf: BDNF from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC neural repair; bdnf excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC."
 ---
 
 # Hereditary Breast and Ovarian Cancer
@@ -907,6 +916,9 @@ BRCA-mutant cells (HRD):
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — HBOC substance-p: substance-P from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour pain tone; substance-P excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — HBOC insulin-receptor: insulin receptor on macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour metabolic axis; insulin-receptor loss amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — HBOC aldosterone: aldosterone from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates tumour fluid balance; aldosterone excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — HBOC norepinephrine: norepinephrine from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC adrenergic tone; norepinephrine excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HBOC adrenomedullin: adrenomedullin from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC vascular tone; adrenomedullin excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HBOC bdnf: BDNF from macrophages (already mapped) and T-cytotoxic cells (already mapped) modulates HBOC neural repair; bdnf excess amplifies BRCA1 (already mapped) and NF-κB (already mapped) and IL-6 (already mapped) cascade in HBOC.
 
 ---
 
