@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "ewing-sarcoma fgfr: FGFR on macrophages (already mapped) and Ewing cells (already mapped) modulates bone proliferative tone; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "ewing-sarcoma epinephrine: epinephrine from macrophages (already mapped) and Ewing cells (already mapped) modulates bone adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "ewing-sarcoma renin: renin from macrophages (already mapped) and Ewing cells (already mapped) modulates bone angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "ewing-sarcoma myostatin: myostatin from macrophages (already mapped) and Ewing cells (already mapped) modulates bone fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma."
 ---
 
 # Ewing Sarcoma
@@ -906,6 +915,9 @@ After induction → surgical specimen assessed for percent tumor necrosis (Salze
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ewing-sarcoma adrenomedullin: adrenomedullin from macrophages (already mapped) and Ewing cells (already mapped) modulates bone vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — ewing-sarcoma bdnf: BDNF from macrophages (already mapped) and Ewing cells (already mapped) modulates bone neurotrophin tone; BDNF excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — ewing-sarcoma fgfr: FGFR on macrophages (already mapped) and Ewing cells (already mapped) modulates bone proliferative tone; FGFR excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — ewing-sarcoma epinephrine: epinephrine from macrophages (already mapped) and Ewing cells (already mapped) modulates bone adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — ewing-sarcoma renin: renin from macrophages (already mapped) and Ewing cells (already mapped) modulates bone angiotensin axis; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — ewing-sarcoma myostatin: myostatin from macrophages (already mapped) and Ewing cells (already mapped) modulates bone fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade in Ewing sarcoma.
 
 ---
 

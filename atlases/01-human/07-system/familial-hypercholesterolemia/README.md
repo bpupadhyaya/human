@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "FH adrenomedullin: adrenomedullin from hepatocytes (already mapped) and macrophages (already mapped) modulates FH vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "FH bdnf: BDNF from hepatocytes (already mapped) and macrophages (already mapped) modulates FH neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "FH fgfr: FGFR on hepatocytes (already mapped) and macrophages (already mapped) modulates FH proliferative axis; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "FH epinephrine: epinephrine from hepatocytes (already mapped) and macrophages (already mapped) modulates FH adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH."
 ---
 
 # Familial Hypercholesterolemia
@@ -899,6 +908,9 @@ FH is a **monogenic autosomal dominant disorder** caused by mutations in three g
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — FH androgen-receptor: androgen receptor on hepatocytes (already mapped) and macrophages (already mapped) modulates FH lipid-sex axis; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — FH norepinephrine: norepinephrine from hepatocytes (already mapped) and macrophages (already mapped) modulates FH adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — FH adrenomedullin: adrenomedullin from hepatocytes (already mapped) and macrophages (already mapped) modulates FH vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — FH bdnf: BDNF from hepatocytes (already mapped) and macrophages (already mapped) modulates FH neurotrophin axis; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — FH fgfr: FGFR on hepatocytes (already mapped) and macrophages (already mapped) modulates FH proliferative axis; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — FH epinephrine: epinephrine from hepatocytes (already mapped) and macrophages (already mapped) modulates FH adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) atherogenic cascade of FH.
 
 [^goldstein-1985-ldlr-nobel]: Goldstein JL, Brown MS. The LDL receptor. *Arterioscler Thromb Vasc Biol.* 2009;29(4):431-438. [doi:10.1161/ATVBAHA.108.179564](https://doi.org/10.1161/ATVBAHA.108.179564) · [PubMed 19299327](https://pubmed.ncbi.nlm.nih.gov/19299327/)
 [^raal-2020-inclisiran-fh]: Raal FJ, Kallend D, Ray KK, et al. Inclisiran for the Treatment of Heterozygous Familial Hypercholesterolemia. *N Engl J Med.* 2020;382(16):1520-1530. [doi:10.1056/NEJMoa1913805](https://doi.org/10.1056/NEJMoa1913805) · [PubMed 32197277](https://pubmed.ncbi.nlm.nih.gov/32197277/)
