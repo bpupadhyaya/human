@@ -597,6 +597,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "CKD epinephrine: epinephrine from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "CKD myostatin: myostatin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal muscle-wasting axis; myostatin excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "CKD angiopoietin: angiopoietin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "CKD cortisol: cortisol from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal immune suppression; cortisol excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD."
 ---
 
 # Chronic Kidney Disease
@@ -866,6 +875,9 @@ As nephron mass decreases, impaired renal functions accumulate:
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — CKD bdnf: BDNF from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — CKD fgfr: FGFR on renal tubular cells (already mapped) and macrophages (already mapped) modulates renal proliferation; fgfr dysregulation amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — CKD epinephrine: epinephrine from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — CKD myostatin: myostatin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal muscle-wasting axis; myostatin excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — CKD angiopoietin: angiopoietin from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal vascular tone; angiopoietin excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — CKD cortisol: cortisol from renal tubular cells (already mapped) and macrophages (already mapped) modulates renal immune suppression; cortisol excess amplifies NF-κB (already mapped) and TGF-β (already mapped) and VEGF (already mapped) cascade in CKD.
 
 ## Pathology
 

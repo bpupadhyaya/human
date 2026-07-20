@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "CLL adrenomedullin: adrenomedullin from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "CLL bdnf: BDNF from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma neural tone; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "CLL fgfr: FGFR on B-cells (already mapped) and macrophages (already mapped) modulates lymphoma repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "CLL epinephrine: epinephrine from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL."
 ---
 
 # CLL
@@ -896,6 +905,9 @@ BCR cross-linking → LYN (SRC kinase) phosphorylates CD79a/b ITAMs → SYK recr
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — CLL androgen-receptor: androgen receptor on B-cells (already mapped) and macrophages (already mapped) modulates lymphoma sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — CLL norepinephrine: norepinephrine from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — CLL adrenomedullin: adrenomedullin from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — CLL bdnf: BDNF from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma neural tone; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — CLL fgfr: FGFR on B-cells (already mapped) and macrophages (already mapped) modulates lymphoma repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — CLL epinephrine: epinephrine from B-cells (already mapped) and macrophages (already mapped) modulates lymphoma adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in CLL.
 
 ---
 
