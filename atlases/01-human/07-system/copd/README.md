@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "COPD adrenomedullin: adrenomedullin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "COPD bdnf: BDNF from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD neural tone; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "COPD osteopontin: osteopontin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD immune matrix; osteopontin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "COPD fgfr: FGFR on airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD."
 ---
 
 # COPD
@@ -934,6 +943,9 @@ COPD encompasses two overlapping pathological processes:
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — COPD androgen-receptor: androgen receptor on airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — COPD norepinephrine: norepinephrine from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — COPD adrenomedullin: adrenomedullin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — COPD bdnf: BDNF from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD neural tone; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — COPD osteopontin: osteopontin from airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD immune matrix; osteopontin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — COPD fgfr: FGFR on airway epithelial cells (already mapped) and macrophages (already mapped) modulates COPD repair tone; fgfr dysregulation amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade of COPD.
 
 ---
 

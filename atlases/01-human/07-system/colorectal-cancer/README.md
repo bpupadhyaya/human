@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "colorectal fgfr: FGFR on colonocytes (already mapped) and macrophages (already mapped) modulates CRC growth factor signalling; fgfr excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "colorectal epinephrine: epinephrine from colonocytes (already mapped) and macrophages (already mapped) modulates CRC adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "colorectal renin: renin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC RAAS axis; renin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "colorectal myostatin: myostatin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC growth suppression; myostatin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC."
 ---
 
 # Colorectal Cancer
@@ -907,6 +916,9 @@ The step-wise genetic progression from normal epithelium to carcinoma in CRC was
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — colorectal bdnf: BDNF from colonocytes (already mapped) and macrophages (already mapped) modulates CRC neuroimmune axis; bdnf excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — colorectal osteopontin: osteopontin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC extracellular matrix; osteopontin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — colorectal fgfr: FGFR on colonocytes (already mapped) and macrophages (already mapped) modulates CRC growth factor signalling; fgfr excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — colorectal epinephrine: epinephrine from colonocytes (already mapped) and macrophages (already mapped) modulates CRC adrenergic axis; epinephrine excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — colorectal renin: renin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC RAAS axis; renin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — colorectal myostatin: myostatin from colonocytes (already mapped) and macrophages (already mapped) modulates CRC growth suppression; myostatin excess amplifies NF-κB (already mapped) and WNT/β-catenin (already mapped) and VEGF (already mapped) cascade in CRC.
 
 ---
 
