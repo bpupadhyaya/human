@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "PAH epinephrine: epinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "PAH myostatin: myostatin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary tissue tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "PAH cortisol: cortisol from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary stress response; cortisol excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "PAH ghrelin: ghrelin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary metabolic signalling; ghrelin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH."
 ---
 
 # Pulmonary Arterial Hypertension
@@ -914,6 +923,9 @@ Key variables: WHO functional class (I-IV), 6-minute walk distance (6MWD), NT-pr
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — PAH bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) promotes pulmonary vascular neural growth; bdnf dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PAH osteopontin: osteopontin from macrophages (already mapped) and endothelial cells (already mapped) scaffolds pulmonary ECM; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — PAH epinephrine: epinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary vascular tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — PAH myostatin: myostatin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary tissue tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — PAH cortisol: cortisol from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary stress response; cortisol excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — PAH ghrelin: ghrelin from macrophages (already mapped) and endothelial cells (already mapped) modulates pulmonary metabolic signalling; ghrelin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) remodelling cascade of PAH.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 

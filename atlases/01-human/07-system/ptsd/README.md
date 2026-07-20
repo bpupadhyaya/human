@@ -600,6 +600,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "PTSD osteopontin: osteopontin from neurons (already mapped) and astrocytes (already mapped) scaffolds CNS ECM in PTSD; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "PTSD fgfr: FGFR on neurons (already mapped) and astrocytes (already mapped) modulates CNS neural growth in PTSD; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "PTSD renin: renin from neurons (already mapped) and astrocytes (already mapped) modulates CNS RAAS activation in PTSD; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "PTSD myostatin: myostatin from neurons (already mapped) and astrocytes (already mapped) modulates CNS metabolic tone in PTSD; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD."
 ---
 
 # PTSD
@@ -929,6 +938,9 @@ Not all trauma leads to PTSD. Risk and resilience factors include:
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — PTSD androgen-receptor: androgen receptor on neurons (already mapped) and astrocytes (already mapped) modulates PTSD hormonal tone; androgen-receptor loss amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — PTSD adrenomedullin: adrenomedullin from neurons (already mapped) and astrocytes (already mapped) modulates PTSD vascular tone; adrenomedullin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PTSD osteopontin: osteopontin from neurons (already mapped) and astrocytes (already mapped) scaffolds CNS ECM in PTSD; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PTSD fgfr: FGFR on neurons (already mapped) and astrocytes (already mapped) modulates CNS neural growth in PTSD; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — PTSD renin: renin from neurons (already mapped) and astrocytes (already mapped) modulates CNS RAAS activation in PTSD; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — PTSD myostatin: myostatin from neurons (already mapped) and astrocytes (already mapped) modulates CNS metabolic tone in PTSD; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and crh (already mapped) HPA-axis cascade of PTSD.
 
 [^yehuda-2015-ptsd-review]: Yehuda R, Hoge CW, McFarlane AC, et al. Post-traumatic stress disorder. *Nat Rev Dis Primers.* 2015;1:15057. [doi:10.1038/nrdp.2015.57](https://doi.org/10.1038/nrdp.2015.57) · [PubMed 27189040](https://pubmed.ncbi.nlm.nih.gov/27189040/)
 [^foa-2019-ptsd-treatments]: Foa EB, McLean CP. The efficacy of exposure therapy for anxiety and related disorders. *Annu Rev Clin Psychol.* 2016;12:1-28. [doi:10.1146/annurev-clinpsy-021815-093533](https://doi.org/10.1146/annurev-clinpsy-021815-093533) · [PubMed 26928206](https://pubmed.ncbi.nlm.nih.gov/26928206/)
