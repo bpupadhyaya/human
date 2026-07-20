@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "PCa epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate tumour vascular tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "PCa renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate tumour RAAS activation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "PCa myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate tumour muscle tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "PCa angiopoietin: angiopoietin from macrophages (already mapped) and fibroblasts (already mapped) modulates PCa vascular remodelling; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCa."
 ---
 
 # Prostate Cancer
@@ -918,6 +927,9 @@ cross_links:
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — PCa osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) scaffolds prostate tumour ECM; osteopontin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — PCa fgfr: FGFR on prostate tumour cells and fibroblasts (already mapped) drives PCa stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — PCa epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate tumour vascular tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — PCa renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate tumour RAAS activation; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — PCa myostatin: myostatin from macrophages (already mapped) and fibroblasts (already mapped) modulates prostate tumour muscle tone; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of prostate cancer.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — PCa angiopoietin: angiopoietin from macrophages (already mapped) and fibroblasts (already mapped) modulates PCa vascular remodelling; angiopoietin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and vegf (already mapped) tumour cascade of PCa.
 
 [^beer-2014-prevail]: Beer TM, Armstrong AJ, Rathkopf D, et al. Enzalutamide in metastatic prostate cancer before chemotherapy. *N Engl J Med.* 2014;371(5):424-433. [doi:10.1056/NEJMoa1405095](https://doi.org/10.1056/NEJMoa1405095) · [PubMed 24881730](https://pubmed.ncbi.nlm.nih.gov/24881730/)
 [^sartor-2021-vision]: Sartor O, de Bono J, Chi KN, et al. Lutetium-PSMA-617 for metastatic castration-resistant prostate cancer. *N Engl J Med.* 2021;385(12):1091-1103. [doi:10.1056/NEJMoa2107322](https://doi.org/10.1056/NEJMoa2107322) · [PubMed 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
