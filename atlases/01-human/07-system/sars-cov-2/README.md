@@ -68,6 +68,15 @@ cross_links:
   - target: 01-human/02-atomic/sodium
     relation: connects-to
     note: "SARS-CoV-2 sodium: high sodium promotes pro-inflammatory immune skewing; sodium-induced NF-κB (already mapped) amplifies ACE2 (already mapped) Ang-II signalling and impairs type-i-interferon (already mapped) and MAVS (already mapped) antiviral response of SARS-CoV-2."
+  - target: 01-human/03-molecular/fibronectin
+    relation: connects-to
+    note: "SARS-CoV-2 fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) scaffolds lung ECM in COVID-19; fibronectin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/notch
+    relation: connects-to
+    note: "SARS-CoV-2 notch: Notch on macrophages (already mapped) and endothelial cells (already mapped) regulates lung cell fate in COVID-19; notch dysregulation amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/igf-1
+    relation: connects-to
+    note: "SARS-CoV-2 igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes lung cell survival in COVID-19; igf-1 dysregulation amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -193,6 +202,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[Selenium](../../02-atomic/selenium/README.md)** — SARS-CoV-2 selenium: selenoproteins quench ROS amplifying NF-κB (already mapped) and ACE2 (already mapped) downregulation; selenium deficiency impairs type-i-interferon (already mapped) antiviral signalling and worsens MAVS (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[Iodine](../../02-atomic/iodine/README.md)** — SARS-CoV-2 iodine: iodine-dependent thyroid hormones modulate MAVS (already mapped) and type-i-interferon (already mapped) innate-immune signalling; thyroid disruption by SARS-CoV-2 ACE2 (already mapped) tropism amplifies NF-κB (already mapped) cytokine-storm cascade of COVID-19.
 - `connects-to` → **[Sodium](../../02-atomic/sodium/README.md)** — SARS-CoV-2 sodium: high sodium promotes pro-inflammatory immune skewing; sodium-induced NF-κB (already mapped) amplifies ACE2 (already mapped) Ang-II signalling and impairs type-i-interferon (already mapped) and MAVS (already mapped) antiviral response of SARS-CoV-2.
+- `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — SARS-CoV-2 fibronectin: fibronectin in macrophages (already mapped) and endothelial cells (already mapped) scaffolds lung ECM in COVID-19; fibronectin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — SARS-CoV-2 notch: Notch on macrophages (already mapped) and endothelial cells (already mapped) regulates lung cell fate in COVID-19; notch dysregulation amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — SARS-CoV-2 igf-1: IGF-1 from macrophages (already mapped) and endothelial cells (already mapped) promotes lung cell survival in COVID-19; igf-1 dysregulation amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)

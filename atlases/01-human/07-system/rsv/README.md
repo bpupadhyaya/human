@@ -585,6 +585,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "RSV bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) supports airway neural trophic tone; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "RSV fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) drives airway stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "RSV epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates airway adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "RSV renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway RAAS balance; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV."
 ---
 
 # RSV
@@ -918,3 +927,6 @@ Radiological findings: Hyperinflation, peribronchial thickening, occasional atel
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — RSV norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates airway adrenergic tone; norepinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — RSV adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway vascular tone; adrenomedullin loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — RSV bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) supports airway neural trophic tone; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — RSV fgfr: FGFR on macrophages (already mapped) and fibroblasts (already mapped) drives airway stromal growth; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — RSV epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates airway adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — RSV renin: renin from macrophages (already mapped) and fibroblasts (already mapped) modulates airway RAAS balance; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and type-i-interferon (already mapped) airway cascade of RSV.
