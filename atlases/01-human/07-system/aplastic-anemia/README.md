@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "AA aldosterone: aldosterone from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "AA androgen-receptor: androgen receptor on macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "AA norepinephrine: norepinephrine from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "AA adrenomedullin: adrenomedullin from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA."
 ---
 
 # Aplastic Anemia
@@ -884,6 +893,9 @@ In >80% of acquired AA cases, the disease is **immune-mediated**: autoreactive *
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — AA substance-p: substance-P from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow neuroinflammation; substance-P excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AA insulin-receptor: insulin receptor on macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow metabolic axis; insulin-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — AA aldosterone: aldosterone from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow fluid balance; aldosterone excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AA androgen-receptor: androgen receptor on macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — AA norepinephrine: norepinephrine from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AA adrenomedullin: adrenomedullin from macrophages (already mapped) and bone-marrow stroma (already mapped) modulates marrow vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and IL-6 (already mapped) cascade in AA.
 
 ---
 

@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/bdnf
     relation: connects-to
     note: "Asthma bdnf: BDNF from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Asthma osteopontin: osteopontin from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Asthma fgfr: FGFR on smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway repair tone; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Asthma renin: renin from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma."
 ---
 
 # Asthma
@@ -888,6 +897,9 @@ Asthma affects approximately **339 million people worldwide** (WHO 2019) and is 
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Asthma androgen-receptor: androgen receptor on smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Asthma adrenomedullin: adrenomedullin from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway vasodilation; adrenomedullin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) cascade in asthma.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Asthma bdnf: BDNF from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway neuroplasticity; bdnf excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Asthma osteopontin: osteopontin from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway immune tone; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Asthma fgfr: FGFR on smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway repair tone; fgfr excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Asthma renin: renin from smooth-muscle cells (already mapped) and epithelial cells (already mapped) modulates airway fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TGF-β (already mapped) airway cascade in asthma.
 
 [^gina-2023-asthma]: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention. 2023. [ginasthma.org](https://ginasthma.org/2023-gina-main-report/)
 [^wenzel-2012-asthma-phenotypes]: Wenzel SE. Asthma phenotypes: the evolution from clinical to molecular approaches. *Nat Med.* 2012;18(5):716-725. [doi:10.1038/nm.2678](https://doi.org/10.1038/nm.2678) · [PubMed 22561835](https://pubmed.ncbi.nlm.nih.gov/22561835/)
