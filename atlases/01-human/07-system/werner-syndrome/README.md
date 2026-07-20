@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "WS insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives WS metabolic senescence; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "WS aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates WS ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of Werner syndrome."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "WS androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates WS hormonal senescence; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of Werner syndrome."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "WS norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in Werner syndrome; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of WS."
 ---
 
 # Werner Syndrome
@@ -934,6 +943,9 @@ cross_links:
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — WS calcitonin: calcitonin from macrophages (already mapped) and fibroblasts (already mapped) modulates WS calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — WS substance-p: substance P from macrophages (already mapped) and fibroblasts (already mapped) modulates WS neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — WS insulin-receptor: insulin receptor on macrophages (already mapped) and fibroblasts (already mapped) drives WS metabolic senescence; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) progeroid cascade of Werner syndrome.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — WS aldosterone: aldosterone from macrophages (already mapped) and fibroblasts (already mapped) modulates WS ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of Werner syndrome.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — WS androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates WS hormonal senescence; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of Werner syndrome.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — WS norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates vascular tone in Werner syndrome; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of WS.
 
 [^yu-1996-wrn]: Yu CE, Oshima J, Fu YH, et al. Positional cloning of the Werner's syndrome gene. *Science.* 1996;272(5259):258-262. [doi:10.1126/science.272.5259.258](https://doi.org/10.1126/science.272.5259.258) · [PubMed 8602509](https://pubmed.ncbi.nlm.nih.gov/8602509/)
 [^lauper-2013-wrn-neoplasia]: Lauper JM, Krause A, Vaughan TL, Monnat RJ Jr. Spectrum and risk of neoplasia in Werner syndrome: a systematic review. *PLoS One.* 2013;8(4):e59709. [doi:10.1371/journal.pone.0059709](https://doi.org/10.1371/journal.pone.0059709) · [PubMed 23579047](https://pubmed.ncbi.nlm.nih.gov/23579047/)

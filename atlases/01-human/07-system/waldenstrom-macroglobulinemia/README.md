@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "WM substance-p: substance P from macrophages (already mapped) and B-cells (already mapped) modulates WM neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "WM insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) drives WM metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "WM aldosterone: aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates WM ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "WM androgen-receptor: androgen receptor on macrophages (already mapped) and B-cells (already mapped) modulates WM hormonal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia."
 ---
 
 # Waldenström Macroglobulinemia
@@ -889,6 +898,9 @@ For symptomatic hyperviscosity → removes IgM immediately; does not treat under
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — WM cgrp: CGRP from macrophages (already mapped) and B-cells (already mapped) modulates WM vascular-immune tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — WM calcitonin: calcitonin from macrophages (already mapped) and B-cells (already mapped) modulates WM calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — WM substance-p: substance P from macrophages (already mapped) and B-cells (already mapped) modulates WM neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — WM insulin-receptor: insulin receptor on macrophages (already mapped) and B-cells (already mapped) drives WM metabolic tone; insulin-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — WM aldosterone: aldosterone from macrophages (already mapped) and B-cells (already mapped) modulates WM ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — WM androgen-receptor: androgen receptor on macrophages (already mapped) and B-cells (already mapped) modulates WM hormonal tone; androgen excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) cascade of Waldenström macroglobulinemia.
 
 [^treon-2015-ibrutinib-wm]: Treon SP, Tripsas CK, Meid K, et al. Ibrutinib in previously treated Waldenström's macroglobulinemia. *N Engl J Med.* 2015;373(18):1765-1774. [doi:10.1056/NEJMoa1501548](https://doi.org/10.1056/NEJMoa1501548) · [PubMed 26352686](https://pubmed.ncbi.nlm.nih.gov/26352686/)
 [^tam-2020-aspen]: Tam CS, Opat S, D'Sa S, et al. A randomized phase 3 trial of zanubrutinib vs ibrutinib in symptomatic Waldenström macroglobulinemia: the ASPEN study. *Blood.* 2020;136(18):2038-2050. [doi:10.1182/blood.2020006844](https://doi.org/10.1182/blood.2020006844) · [PubMed 32828187](https://pubmed.ncbi.nlm.nih.gov/32828187/)
