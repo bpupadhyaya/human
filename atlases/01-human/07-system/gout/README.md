@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "Gout adrenomedullin: adrenomedullin from macrophages (already mapped) and synovial cells (already mapped) modulates joint vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Gout bdnf: BDNF from macrophages (already mapped) and synovial cells (already mapped) modulates joint neural tone; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Gout fgfr: FGFR from macrophages (already mapped) and synovial cells (already mapped) modulates joint repair signalling; fgfr excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Gout epinephrine: epinephrine from macrophages (already mapped) and synovial cells (already mapped) modulates joint adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout."
 ---
 
 # Gout
@@ -872,6 +881,9 @@ The central mechanism linking MSU crystals to acute gouty arthritis is **NLRP3 i
 - `connects-to` → **[Androgen-Receptor](../../03-molecular/androgen-receptor/README.md)** — Gout androgen-receptor: androgen receptor on macrophages (already mapped) and synovial cells (already mapped) modulates gout androgen axis; androgen-receptor loss amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Gout norepinephrine: norepinephrine from macrophages (already mapped) and synovial cells (already mapped) modulates joint stress tone; norepinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Gout adrenomedullin: adrenomedullin from macrophages (already mapped) and synovial cells (already mapped) modulates joint vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Gout bdnf: BDNF from macrophages (already mapped) and synovial cells (already mapped) modulates joint neural tone; bdnf excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Gout fgfr: FGFR from macrophages (already mapped) and synovial cells (already mapped) modulates joint repair signalling; fgfr excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Gout epinephrine: epinephrine from macrophages (already mapped) and synovial cells (already mapped) modulates joint adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and TNF-α (already mapped) and NLRP3 (already mapped) cascade of gout.
 
 [^dalbeth-2019-gout-primer]: Dalbeth N, Choi HK, Joosten LAB, et al. Gout. *Nat Rev Dis Primers.* 2019;5(1):69. [doi:10.1038/s41572-019-0115-y](https://doi.org/10.1038/s41572-019-0115-y) · [PubMed 31558729](https://pubmed.ncbi.nlm.nih.gov/31558729/)
 [^martinon-2006-nlrp3-gout]: Martinon F, Pétrilli V, Mayor A, Tardivel A, Tschopp J. Gout-associated uric acid crystals activate the NALP3 inflammasome. *Nature.* 2006;440(7081):237-241. [doi:10.1038/nature04516](https://doi.org/10.1038/nature04516) · [PubMed 16407889](https://pubmed.ncbi.nlm.nih.gov/16407889/)
