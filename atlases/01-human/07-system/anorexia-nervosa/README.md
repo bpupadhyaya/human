@@ -601,6 +601,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "AN renin: renin from neurons (already mapped) and adipocytes (already mapped) modulates fluid tone in starvation; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "AN myostatin: myostatin from neurons (already mapped) and adipocytes (already mapped) modulates muscle mass in starvation; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "AN galectin-3: galectin-3 from neurons (already mapped) and adipocytes (already mapped) modulates neuroimmune tone in starvation; galectin-3 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "AN angiopoietin: angiopoietin from neurons (already mapped) and adipocytes (already mapped) modulates vascular stability in starvation; angiopoietin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN."
 ---
 
 # Anorexia Nervosa
@@ -936,6 +945,9 @@ In healthy individuals, food cues activate the mesolimbic reward circuit (VTA �
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — AN osteopontin: osteopontin from neurons (already mapped) and adipocytes (already mapped) modulates immune-metabolic tone in starvation; osteopontin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — AN epinephrine: epinephrine from neurons (already mapped) and adipocytes (already mapped) modulates adrenergic tone in starvation; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — AN renin: renin from neurons (already mapped) and adipocytes (already mapped) modulates fluid tone in starvation; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — AN myostatin: myostatin from neurons (already mapped) and adipocytes (already mapped) modulates muscle mass in starvation; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — AN galectin-3: galectin-3 from neurons (already mapped) and adipocytes (already mapped) modulates neuroimmune tone in starvation; galectin-3 excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — AN angiopoietin: angiopoietin from neurons (already mapped) and adipocytes (already mapped) modulates vascular stability in starvation; angiopoietin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and cortisol (already mapped) metabolic cascade of AN.
 
 [^treasure-2010-an-lancet]: Treasure J, Claudino AM, Zucker N. Eating disorders. *Lancet.* 2010;375(9714):583-593. [doi:10.1016/S0140-6736(09)61748-7](https://doi.org/10.1016/S0140-6736(09)61748-7) · [PubMed 19931176](https://pubmed.ncbi.nlm.nih.gov/19931176/)
 [^lock-2010-fbt-an]: Lock J, Le Grange D, Agras WS, et al. Randomized clinical trial comparing family-based treatment with adolescent-focused individual therapy for adolescents with anorexia nervosa. *Arch Gen Psychiatry.* 2010;67(10):1025-1032. [doi:10.1001/archgenpsychiatry.2010.128](https://doi.org/10.1001/archgenpsychiatry.2010.128) · [PubMed 20921118](https://pubmed.ncbi.nlm.nih.gov/20921118/)
