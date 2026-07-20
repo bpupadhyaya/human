@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "Sepsis fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) drives vascular repair in sepsis; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Sepsis epinephrine: epinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates septic adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Sepsis renin: renin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular RAAS in sepsis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "Sepsis myostatin: myostatin from macrophages (already mapped) and endothelial cells (already mapped) modulates septic muscle wasting; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis."
 ---
 
 # Sepsis
@@ -897,6 +906,9 @@ Sepsis is not localized to one system — it manifests as dysfunction across mul
 - `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Sepsis substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) amplifies neurogenic inflammation; substance-p excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Sepsis bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates neuroinflammatory tone in sepsis; bdnf loss amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Sepsis fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) drives vascular repair in sepsis; fgfr dysregulation amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Sepsis epinephrine: epinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates septic adrenergic tone; epinephrine excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Sepsis renin: renin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular RAAS in sepsis; renin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Sepsis myostatin: myostatin from macrophages (already mapped) and endothelial cells (already mapped) modulates septic muscle wasting; myostatin excess amplifies nf-kb (already mapped) and il-6 (already mapped) and tnf-alpha (already mapped) cytokine cascade of sepsis.
 - `treated-by` → **[Vancomycin](../../../03-medicine/01-modern/06-antimicrobial/vancomycin/README.md)** — First-line empiric IV therapy for MRSA bacteremia and gram-positive sepsis; added to beta-lactam empiric regimens when MRSA risk is elevated; AUC/MIC-guided dosing (IDSA 2021); MIC ≤1 mg/L required for endocarditis; daptomycin alternative for high MIC.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
