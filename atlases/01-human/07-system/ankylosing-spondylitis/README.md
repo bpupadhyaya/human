@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/androgen-receptor
     relation: connects-to
     note: "AS androgen-receptor: androgen receptor on macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "AS norepinephrine: norepinephrine from macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "AS adrenomedullin: adrenomedullin from macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "AS bdnf: BDNF from macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal neural tone; bdnf dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS."
 ---
 
 # Ankylosing Spondylitis
@@ -888,6 +897,9 @@ AS originates at the **enthesis** — the site where tendons, ligaments, and joi
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — AS insulin-receptor: insulin receptor on macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal metabolic axis; insulin-receptor dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — AS aldosterone: aldosterone from macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal fluid balance; aldosterone excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — AS androgen-receptor: androgen receptor on macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal sex tone; androgen-receptor loss amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — AS norepinephrine: norepinephrine from macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — AS adrenomedullin: adrenomedullin from macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — AS bdnf: BDNF from macrophages (already mapped) and osteoblasts (already mapped) modulates entheseal neural tone; bdnf dysregulation amplifies NF-κB (already mapped) and NLRP3 (already mapped) and IL-17A (already mapped) cascade of AS.
 
 [^sieper-2015-ankylosing-spondylitis-review]: Sieper J, Poddubnyy D. Ankylosing spondylitis. *Lancet.* 2017;390(10089):73-84. [doi:10.1016/S0140-6736(16)31591-4](https://doi.org/10.1016/S0140-6736(16)31591-4) · [PubMed 28110981](https://pubmed.ncbi.nlm.nih.gov/28110981/)
 [^baeten-2015-secukinumab-as]: Baeten D, Sieper J, Braun J, et al. Secukinumab, an Interleukin-17A Inhibitor, in Ankylosing Spondylitis. *N Engl J Med.* 2015;373(26):2534-2548. [doi:10.1056/NEJMoa1505066](https://doi.org/10.1056/NEJMoa1505066) · [PubMed 26699169](https://pubmed.ncbi.nlm.nih.gov/26699169/)

@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "ACD insulin-receptor: insulin receptor on macrophages (already mapped) and erythrocytes (already mapped) modulates iron uptake; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) sequestration cascade of ACD."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "ACD aldosterone: aldosterone from macrophages (already mapped) and erythrocytes (already mapped) modulates iron-regulatory tone; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "ACD androgen-receptor: androgen receptor on macrophages (already mapped) and erythrocytes (already mapped) modulates iron-hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) sequestration cascade of ACD."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "ACD norepinephrine: norepinephrine from macrophages (already mapped) and erythrocytes (already mapped) modulates iron-adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD."
 ---
 
 # Anemia of Chronic Disease
@@ -903,6 +912,9 @@ This adaptive rationale explains why **aggressive iron supplementation during ac
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ACD calcitonin: calcitonin from macrophages (already mapped) and erythrocytes (already mapped) modulates calcium-immune tone; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — ACD substance-p: substance-P from macrophages (already mapped) and erythrocytes (already mapped) modulates nociceptive tone; substance-P excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ACD insulin-receptor: insulin receptor on macrophages (already mapped) and erythrocytes (already mapped) modulates iron uptake; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ACD aldosterone: aldosterone from macrophages (already mapped) and erythrocytes (already mapped) modulates iron-regulatory tone; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ACD androgen-receptor: androgen receptor on macrophages (already mapped) and erythrocytes (already mapped) modulates iron-hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — ACD norepinephrine: norepinephrine from macrophages (already mapped) and erythrocytes (already mapped) modulates iron-adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and hepcidin (already mapped) iron-sequestration cascade of ACD.
 
 [^weiss-2005-acd-review]: Weiss G, Goodnough LT. Anemia of chronic disease. *N Engl J Med.* 2005;352(10):1011-1023. [doi:10.1056/NEJMra041809](https://doi.org/10.1056/NEJMra041809) · [PubMed 15758012](https://pubmed.ncbi.nlm.nih.gov/15758012/)
 [^nemeth-2004-il6-hepcidin]: Nemeth E, Rivera S, Gabayan V, et al. IL-6 mediates hypoferremia of inflammation by inducing the synthesis of the iron regulatory hormone hepcidin. *J Clin Invest.* 2004;113(9):1271-1276. [doi:10.1172/JCI200420945](https://doi.org/10.1172/JCI200420945) · [PubMed 15124018](https://pubmed.ncbi.nlm.nih.gov/15124018/)
