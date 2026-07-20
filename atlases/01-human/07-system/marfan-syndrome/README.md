@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "Marfan epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates adrenergic tone; epinephrine excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "Marfan myostatin: myostatin from fibroblasts and macrophages modulates skeletal muscle; myostatin excess amplifies tgf-beta and collagen and il-6 aortic remodelling cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Marfan angiopoietin: angiopoietin from endothelial cells and macrophages modulates vascular stability; angiopoietin dysregulation amplifies tgf-beta and collagen and il-6 aortic cascade of Marfan syndrome."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Marfan cortisol: cortisol stress axis modulates fibroblasts and smooth-muscle cells in the aortic wall; cortisol excess amplifies tgf-beta and collagen and il-6 remodelling cascade of Marfan syndrome."
 ---
 
 # Marfan Syndrome
@@ -922,6 +931,9 @@ MFS is a **multi-system disorder** defined by cardiovascular, ocular, and skelet
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Marfan bdnf: BDNF from fibroblasts (already mapped) and macrophages (already mapped) modulates vascular neuroprotective tone; bdnf deficiency amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Marfan fgfr: FGFR on fibroblasts (already mapped) and macrophages (already mapped) modulates connective tissue repair; fgfr dysregulation amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Marfan epinephrine: epinephrine from fibroblasts (already mapped) and macrophages (already mapped) modulates adrenergic tone; epinephrine excess amplifies tgf-beta (already mapped) and collagen (already mapped) and il-6 (already mapped) aortic cascade of Marfan syndrome.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Marfan myostatin: myostatin from fibroblasts and macrophages modulates skeletal muscle; myostatin excess amplifies tgf-beta and collagen and il-6 aortic remodelling cascade of Marfan syndrome.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Marfan angiopoietin: angiopoietin from endothelial cells and macrophages modulates vascular stability; angiopoietin dysregulation amplifies tgf-beta and collagen and il-6 aortic cascade of Marfan syndrome.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Marfan cortisol: cortisol stress axis modulates fibroblasts and smooth-muscle cells in the aortic wall; cortisol excess amplifies tgf-beta and collagen and il-6 remodelling cascade of Marfan syndrome.
 
 ---
 
