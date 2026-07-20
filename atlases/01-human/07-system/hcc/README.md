@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/epinephrine
     relation: connects-to
     note: "HCC epinephrine: epinephrine from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "HCC renin: renin from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour angiotensin axis; renin excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "HCC myostatin: myostatin from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "HCC angiopoietin: angiopoietin from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour vascular remodelling; angiopoietin excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC."
 ---
 
 # Hepatocellular Carcinoma
@@ -921,6 +930,9 @@ In high-risk patients (cirrhosis, HBV regardless of cirrhosis): ultrasound ± AF
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — HCC adrenomedullin: adrenomedullin from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour vascular tone; adrenomedullin excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — HCC bdnf: BDNF from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour neural repair; bdnf excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — HCC epinephrine: epinephrine from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — HCC renin: renin from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour angiotensin axis; renin excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — HCC myostatin: myostatin from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour fibrotic axis; myostatin excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — HCC angiopoietin: angiopoietin from hepatic stellate cells (already mapped) and macrophages (already mapped) modulates tumour vascular remodelling; angiopoietin excess amplifies NF-κB (already mapped) and STAT3 (already mapped) and VEGF (already mapped) cascade of HCC.
 
 [^llovet-2008-sorafenib]: Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. *N Engl J Med.* 2008;359(4):378-390. [doi:10.1056/NEJMoa0708857](https://doi.org/10.1056/NEJMoa0708857) · [PubMed 18650514](https://pubmed.ncbi.nlm.nih.gov/18650514/)
 [^finn-2020-imbrave150]: Finn RS, Qin S, Ikeda M, et al. Atezolizumab plus bevacizumab in unresectable hepatocellular carcinoma. *N Engl J Med.* 2020;382(20):1894-1905. [doi:10.1056/NEJMoa1915745](https://doi.org/10.1056/NEJMoa1915745) · [PubMed 32402160](https://pubmed.ncbi.nlm.nih.gov/32402160/)
