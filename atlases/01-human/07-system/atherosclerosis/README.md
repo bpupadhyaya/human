@@ -598,6 +598,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Athero norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Athero adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Athero bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroprotective tone; bdnf deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Athero fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) modulates vascular repair signalling; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade."
 ---
 
 # Atherosclerosis
@@ -905,6 +914,9 @@ The process begins in childhood with **fatty streaks** and progresses silently o
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Athero aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Athero androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates plaque hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Athero norepinephrine: norepinephrine from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular adrenergic tone; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Athero adrenomedullin: adrenomedullin from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular tone; adrenomedullin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Athero bdnf: BDNF from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular neuroprotective tone; bdnf deficiency amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Athero fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) modulates vascular repair signalling; fgfr dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and VEGF (already mapped) atherosclerotic cascade.
 
 ---
 

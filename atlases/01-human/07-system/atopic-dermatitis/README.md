@@ -592,6 +592,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "AD fgfr: FGFR on keratinocytes (already mapped) and fibroblasts (already mapped) regulates epidermal repair signalling; FGFR dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "AD epinephrine: epinephrine from adrenergic neurons (already mapped) and keratinocytes (already mapped) modulates cutaneous adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "AD renin: renin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in atopic dermatitis."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "AD myostatin: myostatin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous tissue tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in atopic dermatitis."
 ---
 
 # Atopic Dermatitis
@@ -906,6 +915,9 @@ S. aureus colonizes >90% of AD lesional skin (vs. 20% normal skin):
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — AD norepinephrine: norepinephrine from adrenergic neurons (already mapped) and keratinocytes (already mapped) modulates cutaneous stress response; norepinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — AD bdnf: BDNF from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous neural tone; BDNF dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — AD fgfr: FGFR on keratinocytes (already mapped) and fibroblasts (already mapped) regulates epidermal repair signalling; FGFR dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — AD epinephrine: epinephrine from adrenergic neurons (already mapped) and keratinocytes (already mapped) modulates cutaneous adrenergic tone; epinephrine excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in AD.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — AD renin: renin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous fluid tone; renin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in atopic dermatitis.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — AD myostatin: myostatin from keratinocytes (already mapped) and fibroblasts (already mapped) modulates cutaneous tissue tone; myostatin excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and NLRP3 (already mapped) cutaneous cascade in atopic dermatitis.
 
 *This page is co-maintained with AI assistance. Content is for educational purposes and does not constitute medical advice. See [equalinformation.com/human](https://equalinformation.com/human) for the full atlas.*
 
