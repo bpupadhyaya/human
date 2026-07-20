@@ -595,6 +595,15 @@ cross_links:
   - target: 01-human/03-molecular/substance-p
     relation: connects-to
     note: "ANCA substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates ANCA neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "ANCA insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives vascular tone; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "ANCA aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "ANCA androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis."
 ---
 
 # ANCA Vasculitis
@@ -919,6 +928,9 @@ EGPA is mechanistically distinct — eosinophils, not neutrophils, mediate tissu
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ANCA cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates ANCA vascular tone; cgrp dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ANCA calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates ANCA calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — ANCA substance-p: substance P from macrophages (already mapped) and endothelial cells (already mapped) modulates ANCA neuroimmune tone; substance-p excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ANCA insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives vascular tone; insulin-receptor dysregulation amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ANCA aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates vascular ion balance; aldosterone excess amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ANCA androgen-receptor: androgen receptor on macrophages (already mapped) and endothelial cells (already mapped) modulates hormonal tone; androgen-receptor loss amplifies NF-κB (already mapped) and IL-6 (already mapped) and TNF-α (already mapped) cascade of ANCA vasculitis.
 
 [^yates-2022-anca-review]: Yates M, Watts RA, Bajema IM, et al. EULAR/ERA-EDTA recommendations for the management of ANCA-associated vasculitis. *Ann Rheum Dis.* 2016;75(9):1583-1594. [doi:10.1136/annrheumdis-2016-209133](https://doi.org/10.1136/annrheumdis-2016-209133) · [PubMed 27338776](https://pubmed.ncbi.nlm.nih.gov/27338776/)
 [^stone-2010-rituximab-gpa-rave]: Stone JH, Merkel PA, Spiera R, et al. Rituximab versus cyclophosphamide for ANCA-associated vasculitis. *N Engl J Med.* 2010;363(3):221-232. [doi:10.1056/NEJMoa0909905](https://doi.org/10.1056/NEJMoa0909905) · [PubMed 20647199](https://pubmed.ncbi.nlm.nih.gov/20647199/)
