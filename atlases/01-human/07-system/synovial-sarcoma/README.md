@@ -583,6 +583,15 @@ cross_links:
   - target: 01-human/03-molecular/adrenomedullin
     relation: connects-to
     note: "SS adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "SS bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) drives synovial sarcoma neural trophic tone; bdnf excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "SS osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes synovial sarcoma ECM remodelling; osteopontin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "SS epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates adrenergic tumour tone in synovial sarcoma; epinephrine excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma."
 ---
 
 # Synovial Sarcoma
@@ -897,6 +906,9 @@ SS has low TMB (~1-2 mut/Mb) and variable PD-L1 expression; ICB response rates ~
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SS androgen-receptor: androgen receptor on macrophages (already mapped) and fibroblasts (already mapped) modulates hormonal tone; androgen-receptor excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — SS norepinephrine: norepinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates adrenergic vascular tone; norepinephrine excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — SS adrenomedullin: adrenomedullin from macrophages (already mapped) and fibroblasts (already mapped) modulates synovial sarcoma vascular tone; adrenomedullin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — SS bdnf: BDNF from macrophages (already mapped) and fibroblasts (already mapped) drives synovial sarcoma neural trophic tone; bdnf excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — SS osteopontin: osteopontin from macrophages (already mapped) and fibroblasts (already mapped) promotes synovial sarcoma ECM remodelling; osteopontin excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — SS epinephrine: epinephrine from macrophages (already mapped) and fibroblasts (already mapped) modulates adrenergic tumour tone in synovial sarcoma; epinephrine excess amplifies il-6 (already mapped) and egfr (already mapped) and mtor (already mapped) cascade of synovial sarcoma.
 
 ---
 

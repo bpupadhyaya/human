@@ -589,6 +589,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "Stroke calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates post-stroke calcium balance; calcitonin excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Stroke substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) amplifies neurogenic brain inflammation; substance-p excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Stroke insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives post-stroke metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) of stroke."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Stroke aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates post-stroke ion balance; aldosterone excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke."
 ---
 
 # Stroke
@@ -883,6 +892,9 @@ Normal brain maintains CBF constant (50-150 mmHg MAP range) via autoregulation (
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Stroke tgf-beta: TGF-β from macrophages (already mapped) and endothelial cells (already mapped) drives post-stroke immune-fibrotic remodelling; tgf-beta excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Stroke cgrp: CGRP from macrophages (already mapped) and endothelial cells (already mapped) modulates post-stroke vascular tone; cgrp dysregulation amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Stroke calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates post-stroke calcium balance; calcitonin excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
+- `connects-to` → **[Substance-P](../../03-molecular/substance-p/README.md)** — Stroke substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) amplifies neurogenic brain inflammation; substance-p excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Stroke insulin-receptor: insulin receptor on macrophages (already mapped) and endothelial cells (already mapped) drives post-stroke metabolic repair; insulin-receptor loss amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) of stroke.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Stroke aldosterone: aldosterone from macrophages (already mapped) and endothelial cells (already mapped) modulates post-stroke ion balance; aldosterone excess amplifies nf-kb (already mapped) and tnf-alpha (already mapped) and glutamate (already mapped) cascade of stroke.
 
 [^powers-2019-aha-stroke]: Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines. *Stroke.* 2019;50(12):e344-e418. [doi:10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211) · [PubMed 31662037](https://pubmed.ncbi.nlm.nih.gov/31662037/)
 [^feigin-2021-gbd-stroke]: Feigin VL, Krishnamurthi RV, Parmar P, et al. Update on the Global Burden of Ischemic and Hemorrhagic Stroke in 1990-2013. *Neuroepidemiology.* 2015;45(3):161-176. [doi:10.1159/000441085](https://doi.org/10.1159/000441085) · [PubMed 26505981](https://pubmed.ncbi.nlm.nih.gov/26505981/)
