@@ -318,6 +318,15 @@ cross_links:
   - target: 01-human/03-molecular/axl-receptor
     relation: connects-to
     note: "ZIKV axl-receptor: axl-receptor from fetal macrophages and NPCs modulates ZIKV neural receptor-tyrosine-kinase immune entry axis; axl-receptor excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "ZIKV baff: baff from fetal macrophages and NPCs modulates ZIKV neural b-cell survival immune cytokine axis; baff excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/bap1
+    relation: connects-to
+    note: "ZIKV bap1: bap1 from fetal macrophages and NPCs modulates ZIKV neural histone-deubiquitinase tumor-suppressor immune axis; bap1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/bradykinin
+    relation: connects-to
+    note: "ZIKV bradykinin: bradykinin from fetal macrophages and NPCs modulates ZIKV neural kinin-immune vascular permeability axis; bradykinin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -537,3 +546,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — ZIKV atp: atp from fetal macrophages and NPCs modulates ZIKV neural purinergic immune energy-signalling axis; atp excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — ZIKV atrx: atrx from fetal macrophages and NPCs modulates ZIKV neural chromatin-helicase dna-binding immune axis; atrx excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[AXL Receptor](../../03-molecular/axl-receptor/README.md)** — ZIKV axl-receptor: axl-receptor from fetal macrophages and NPCs modulates ZIKV neural receptor-tyrosine-kinase immune entry axis; axl-receptor excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — ZIKV baff: baff from fetal macrophages and NPCs modulates ZIKV neural b-cell survival immune cytokine axis; baff excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[BAP1](../../03-molecular/bap1/README.md)** — ZIKV bap1: bap1 from fetal macrophages and NPCs modulates ZIKV neural histone-deubiquitinase tumor-suppressor immune axis; bap1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Bradykinin](../../03-molecular/bradykinin/README.md)** — ZIKV bradykinin: bradykinin from fetal macrophages and NPCs modulates ZIKV neural kinin-immune vascular permeability axis; bradykinin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
