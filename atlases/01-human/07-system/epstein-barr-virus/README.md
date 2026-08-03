@@ -115,6 +115,15 @@ cross_links:
   - target: 01-human/03-molecular/resistin
     relation: connects-to
     note: "EBV resistin: resistin from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune inflammatory tone; resistin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "EBV cortisol: cortisol from B-cells (already mapped) and macrophages (already mapped) modulates EBV stress-immune axis; cortisol excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "EBV ghrelin: ghrelin from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune appetite axis; ghrelin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "EBV glucagon: glucagon from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune glucose axis; glucagon excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -292,6 +301,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — EBV galectin-3: galectin-3 from B-cells (already mapped) and macrophages (already mapped) drives EBV immune fibrotic lattice remodelling; galectin-3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — EBV angiopoietin: angiopoietin from B-cells (already mapped) and macrophages (already mapped) modulates EBV vascular immune remodelling; angiopoietin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — EBV resistin: resistin from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune inflammatory tone; resistin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — EBV cortisol: cortisol from B-cells (already mapped) and macrophages (already mapped) modulates EBV stress-immune axis; cortisol excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — EBV ghrelin: ghrelin from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune appetite axis; ghrelin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — EBV glucagon: glucagon from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune glucose axis; glucagon excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 

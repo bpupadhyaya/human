@@ -122,6 +122,15 @@ cross_links:
   - target: 01-human/03-molecular/angiopoietin
     relation: connects-to
     note: "Norovirus angiopoietin: angiopoietin from enterocytes and b-cells (already mapped) modulates gut mucosal vascular immune remodelling; angiopoietin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "Norovirus resistin: resistin from enterocytes and b-cells (already mapped) modulates gut metabolic immune inflammatory tone; resistin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/cortisol
+    relation: connects-to
+    note: "Norovirus cortisol: cortisol from enterocytes and b-cells (already mapped) modulates gut stress-immune mucosal axis; cortisol excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/ghrelin
+    relation: connects-to
+    note: "Norovirus ghrelin: ghrelin from enterocytes and b-cells (already mapped) modulates gut metabolic appetite immune axis; ghrelin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -248,6 +257,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Norovirus myostatin: myostatin from enterocytes and b-cells (already mapped) modulates gut muscle wasting immune signalling; myostatin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Norovirus galectin-3: galectin-3 from enterocytes and b-cells (already mapped) drives gut mucosal immune fibrotic lattice; galectin-3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Norovirus angiopoietin: angiopoietin from enterocytes and b-cells (already mapped) modulates gut mucosal vascular immune remodelling; angiopoietin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Norovirus resistin: resistin from enterocytes and b-cells (already mapped) modulates gut metabolic immune inflammatory tone; resistin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Norovirus cortisol: cortisol from enterocytes and b-cells (already mapped) modulates gut stress-immune mucosal axis; cortisol excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Norovirus ghrelin: ghrelin from enterocytes and b-cells (already mapped) modulates gut metabolic appetite immune axis; ghrelin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
