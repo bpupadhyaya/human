@@ -95,6 +95,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "SARS-CoV-2 insulin-receptor: insulin-receptor on macrophages (already mapped) drives COVID-19 metabolic signalling; insulin-receptor dysregulation amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "SARS-CoV-2 aldosterone: aldosterone from macrophages (already mapped) modulates COVID-19 mineralocorticoid immune balance; aldosterone excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "SARS-CoV-2 androgen-receptor: androgen-receptor on macrophages (already mapped) drives COVID-19 hormonal immune response; androgen-receptor dysregulation amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "SARS-CoV-2 norepinephrine: norepinephrine from macrophages (already mapped) modulates COVID-19 adrenergic immune tone; norepinephrine excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -229,6 +238,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — SARS-CoV-2 calcitonin: calcitonin from macrophages (already mapped) and endothelial cells (already mapped) modulates COVID-19 calcium; calcitonin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — SARS-CoV-2 substance-p: substance-P from macrophages (already mapped) and endothelial cells (already mapped) drives COVID-19 pain response; substance-p excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — SARS-CoV-2 insulin-receptor: insulin-receptor on macrophages (already mapped) drives COVID-19 metabolic signalling; insulin-receptor dysregulation amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — SARS-CoV-2 aldosterone: aldosterone from macrophages (already mapped) modulates COVID-19 mineralocorticoid immune balance; aldosterone excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — SARS-CoV-2 androgen-receptor: androgen-receptor on macrophages (already mapped) drives COVID-19 hormonal immune response; androgen-receptor dysregulation amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — SARS-CoV-2 norepinephrine: norepinephrine from macrophages (already mapped) modulates COVID-19 adrenergic immune tone; norepinephrine excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)

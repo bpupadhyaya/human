@@ -66,6 +66,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "ZIKV insulin-receptor: insulin-receptor on fetal macrophages and NPCs modulates ZIKV metabolic neural signalling; insulin-receptor dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "ZIKV aldosterone: aldosterone from fetal macrophages and NPCs modulates ZIKV mineralocorticoid immune balance; aldosterone excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "ZIKV androgen-receptor: androgen-receptor on fetal macrophages and NPCs modulates ZIKV hormonal neural development; androgen-receptor dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "ZIKV norepinephrine: norepinephrine from fetal macrophages and NPCs modulates ZIKV adrenergic neural tone; norepinephrine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -201,3 +210,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ZIKV calcitonin: calcitonin from fetal macrophages and NPCs modulates ZIKV calcium balance; calcitonin dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — ZIKV substance-p: substance-P from fetal macrophages and NPCs modulates ZIKV neuroimmune pain signalling; substance-p excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ZIKV insulin-receptor: insulin-receptor on fetal macrophages and NPCs modulates ZIKV metabolic neural signalling; insulin-receptor dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ZIKV aldosterone: aldosterone from fetal macrophages and NPCs modulates ZIKV mineralocorticoid immune balance; aldosterone excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ZIKV androgen-receptor: androgen-receptor on fetal macrophages and NPCs modulates ZIKV hormonal neural development; androgen-receptor dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — ZIKV norepinephrine: norepinephrine from fetal macrophages and NPCs modulates ZIKV adrenergic neural tone; norepinephrine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
