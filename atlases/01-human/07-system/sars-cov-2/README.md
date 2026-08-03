@@ -176,6 +176,15 @@ cross_links:
   - target: 01-human/03-molecular/il-17a
     relation: connects-to
     note: "SARS-CoV-2 il-17a: il-17a from macrophages (already mapped) modulates COVID-19 mucosal immune inflammatory axis; il-17a excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "SARS-CoV-2 il-13: il-13 from macrophages (already mapped) modulates COVID-19 th2 immune polarization axis; il-13 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/il-1b
+    relation: connects-to
+    note: "SARS-CoV-2 il-1b: il-1b from macrophages (already mapped) modulates COVID-19 pyroptotic immune inflammasome; il-1b excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/il-4
+    relation: connects-to
+    note: "SARS-CoV-2 il-4: il-4 from macrophages (already mapped) modulates COVID-19 th2 immune polarization axis; il-4 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -337,6 +346,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — SARS-CoV-2 il-10: il-10 from macrophages (already mapped) modulates COVID-19 immunosuppressive immune regulation; il-10 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[IL-12](../../03-molecular/il-12/README.md)** — SARS-CoV-2 il-12: il-12 from macrophages (already mapped) modulates COVID-19 th1 immune polarization axis; il-12 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[IL-17A](../../03-molecular/il-17a/README.md)** — SARS-CoV-2 il-17a: il-17a from macrophages (already mapped) modulates COVID-19 mucosal immune inflammatory axis; il-17a excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — SARS-CoV-2 il-13: il-13 from macrophages (already mapped) modulates COVID-19 th2 immune polarization axis; il-13 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[IL-1β](../../03-molecular/il-1b/README.md)** — SARS-CoV-2 il-1b: il-1b from macrophages (already mapped) modulates COVID-19 pyroptotic immune inflammasome; il-1b excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[IL-4](../../03-molecular/il-4/README.md)** — SARS-CoV-2 il-4: il-4 from macrophages (already mapped) modulates COVID-19 th2 immune polarization axis; il-4 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
