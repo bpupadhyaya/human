@@ -358,6 +358,15 @@ cross_links:
   - target: 01-human/03-molecular/blm
     relation: connects-to
     note: "EBV blm: blm from B-cells (already mapped) and macrophages (already mapped) modulates EBV bloom-syndrome helicase immune dna-repair axis; blm excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/ccr5
+    relation: connects-to
+    note: "EBV ccr5: ccr5 from B-cells (already mapped) and macrophages (already mapped) modulates EBV chemokine-receptor immune co-receptor axis; ccr5 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cdh1
+    relation: connects-to
+    note: "EBV cdh1: cdh1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV e-cadherin immune epithelial-mesenchymal axis; cdh1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cd30
+    relation: connects-to
+    note: "EBV cd30: cd30 from B-cells (already mapped) and macrophages (already mapped) modulates EBV tnfrsf-immune lymphocyte activation axis; cd30 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -616,6 +625,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Calreticulin](../../03-molecular/calr/README.md)** — EBV calr: calr from B-cells (already mapped) and macrophages (already mapped) modulates EBV endoplasmic-reticulum immune stress chaperone axis; calr excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[C5AR1](../../03-molecular/c5ar1/README.md)** — EBV c5ar1: c5ar1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV complement-receptor immune effector axis; c5ar1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[BLM](../../03-molecular/blm/README.md)** — EBV blm: blm from B-cells (already mapped) and macrophages (already mapped) modulates EBV bloom-syndrome helicase immune dna-repair axis; blm excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — EBV ccr5: ccr5 from B-cells (already mapped) and macrophages (already mapped) modulates EBV chemokine-receptor immune co-receptor axis; ccr5 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — EBV cdh1: cdh1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV e-cadherin immune epithelial-mesenchymal axis; cdh1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[CD30](../../03-molecular/cd30/README.md)** — EBV cd30: cd30 from B-cells (already mapped) and macrophages (already mapped) modulates EBV tnfrsf-immune lymphocyte activation axis; cd30 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
