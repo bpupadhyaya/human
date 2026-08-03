@@ -293,6 +293,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "SARS-CoV-2 cdk4-6: cdk4-6 from macrophages (already mapped) modulates COVID-19 cell-cycle immune progression axis; cdk4-6 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "SARS-CoV-2 cyclin-d1: cyclin-d1 from macrophages (already mapped) modulates COVID-19 g1 cell-cycle immune progression axis; cyclin-d1 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "SARS-CoV-2 adiponectin: adiponectin from macrophages (already mapped) modulates COVID-19 adipokine immune metabolic axis; adiponectin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "SARS-CoV-2 angiotensin-ii: angiotensin-ii from macrophages (already mapped) modulates COVID-19 renin-angiotensin immune axis; angiotensin-ii excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -493,6 +502,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — SARS-CoV-2 caspase-3: caspase-3 from macrophages (already mapped) modulates COVID-19 apoptotic execution immune axis; caspase-3 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — SARS-CoV-2 cd20: cd20 from macrophages (already mapped) modulates COVID-19 b-cell surface immune activation axis; cd20 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — SARS-CoV-2 cdk4-6: cdk4-6 from macrophages (already mapped) modulates COVID-19 cell-cycle immune progression axis; cdk4-6 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — SARS-CoV-2 cyclin-d1: cyclin-d1 from macrophages (already mapped) modulates COVID-19 g1 cell-cycle immune progression axis; cyclin-d1 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — SARS-CoV-2 adiponectin: adiponectin from macrophages (already mapped) modulates COVID-19 adipokine immune metabolic axis; adiponectin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — SARS-CoV-2 angiotensin-ii: angiotensin-ii from macrophages (already mapped) modulates COVID-19 renin-angiotensin immune axis; angiotensin-ii excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)

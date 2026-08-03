@@ -264,6 +264,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "ZIKV cdk4-6: cdk4-6 from fetal macrophages and NPCs modulates ZIKV neural cell-cycle immune progression axis; cdk4-6 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "ZIKV cyclin-d1: cyclin-d1 from fetal macrophages and NPCs modulates ZIKV neural g1 cell-cycle immune progression; cyclin-d1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "ZIKV adiponectin: adiponectin from fetal macrophages and NPCs modulates ZIKV neural adipokine immune metabolic axis; adiponectin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "ZIKV angiotensin-ii: angiotensin-ii from fetal macrophages and NPCs modulates ZIKV neural renin-angiotensin immune axis; angiotensin-ii excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -465,3 +474,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — ZIKV caspase-3: caspase-3 from fetal macrophages and NPCs modulates ZIKV neural apoptotic execution immune axis; caspase-3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — ZIKV cd20: cd20 from fetal macrophages and NPCs modulates ZIKV neural b-cell surface immune activation axis; cd20 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — ZIKV cdk4-6: cdk4-6 from fetal macrophages and NPCs modulates ZIKV neural cell-cycle immune progression axis; cdk4-6 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — ZIKV cyclin-d1: cyclin-d1 from fetal macrophages and NPCs modulates ZIKV neural g1 cell-cycle immune progression; cyclin-d1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — ZIKV adiponectin: adiponectin from fetal macrophages and NPCs modulates ZIKV neural adipokine immune metabolic axis; adiponectin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — ZIKV angiotensin-ii: angiotensin-ii from fetal macrophages and NPCs modulates ZIKV neural renin-angiotensin immune axis; angiotensin-ii excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
