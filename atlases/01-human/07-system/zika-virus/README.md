@@ -93,6 +93,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "ZIKV renin: renin from fetal macrophages and NPCs modulates ZIKV renin-angiotensin neural axis; renin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "ZIKV myostatin: myostatin from fetal macrophages and NPCs modulates ZIKV neural muscle wasting axis; myostatin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "ZIKV galectin-3: galectin-3 from fetal macrophages and NPCs drives ZIKV neural immune fibrotic lattice; galectin-3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "ZIKV angiopoietin: angiopoietin from fetal macrophages and NPCs modulates ZIKV vascular neural immune remodelling; angiopoietin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -237,3 +246,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — ZIKV fgfr: FGFR on fetal macrophages and NPCs drives ZIKV neural fibroblast growth signalling; fgfr dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — ZIKV epinephrine: epinephrine from fetal macrophages and NPCs modulates ZIKV adrenergic neural stress response; epinephrine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — ZIKV renin: renin from fetal macrophages and NPCs modulates ZIKV renin-angiotensin neural axis; renin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — ZIKV myostatin: myostatin from fetal macrophages and NPCs modulates ZIKV neural muscle wasting axis; myostatin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — ZIKV galectin-3: galectin-3 from fetal macrophages and NPCs drives ZIKV neural immune fibrotic lattice; galectin-3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — ZIKV angiopoietin: angiopoietin from fetal macrophages and NPCs modulates ZIKV vascular neural immune remodelling; angiopoietin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.

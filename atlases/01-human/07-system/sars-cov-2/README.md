@@ -122,6 +122,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "SARS-CoV-2 renin: renin from macrophages (already mapped) modulates COVID-19 renin-angiotensin immune axis; renin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "SARS-CoV-2 myostatin: myostatin from macrophages (already mapped) modulates COVID-19 muscle wasting immune axis; myostatin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "SARS-CoV-2 galectin-3: galectin-3 from macrophages (already mapped) drives COVID-19 immune fibrotic lattice remodelling; galectin-3 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "SARS-CoV-2 angiopoietin: angiopoietin from macrophages (already mapped) modulates COVID-19 pulmonary vascular immune remodelling; angiopoietin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -265,6 +274,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — SARS-CoV-2 fgfr: FGFR on macrophages (already mapped) and endothelial cells (already mapped) drives COVID-19 lung fibroblast growth; fgfr dysregulation amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — SARS-CoV-2 epinephrine: epinephrine from macrophages (already mapped) modulates COVID-19 adrenergic stress immune response; epinephrine excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — SARS-CoV-2 renin: renin from macrophages (already mapped) modulates COVID-19 renin-angiotensin immune axis; renin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — SARS-CoV-2 myostatin: myostatin from macrophages (already mapped) modulates COVID-19 muscle wasting immune axis; myostatin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — SARS-CoV-2 galectin-3: galectin-3 from macrophages (already mapped) drives COVID-19 immune fibrotic lattice remodelling; galectin-3 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — SARS-CoV-2 angiopoietin: angiopoietin from macrophages (already mapped) modulates COVID-19 pulmonary vascular immune remodelling; angiopoietin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
