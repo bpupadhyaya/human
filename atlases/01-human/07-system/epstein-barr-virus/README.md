@@ -187,6 +187,15 @@ cross_links:
   - target: 01-human/03-molecular/tnf-alpha
     relation: connects-to
     note: "EBV tnf-alpha: tnf-alpha from B-cells (already mapped) and macrophages (already mapped) modulates EBV inflammatory cytokine immune axis; tnf-alpha excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/ifn-gamma
+    relation: connects-to
+    note: "EBV ifn-gamma: ifn-gamma from B-cells (already mapped) and macrophages (already mapped) modulates EBV th1 antiviral immune axis; ifn-gamma excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/stat1
+    relation: connects-to
+    note: "EBV stat1: stat1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV interferon-signalling immune axis; stat1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "EBV stat3: stat3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV oncogenic immune signalling axis; stat3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -388,6 +397,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — EBV il-33: il-33 from B-cells (already mapped) and macrophages (already mapped) modulates EBV alarmin immune activation axis; il-33 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[IL-36](../../03-molecular/il-36/README.md)** — EBV il-36: il-36 from B-cells (already mapped) and macrophages (already mapped) modulates EBV epidermal immune inflammatory axis; il-36 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — EBV tnf-alpha: tnf-alpha from B-cells (already mapped) and macrophages (already mapped) modulates EBV inflammatory cytokine immune axis; tnf-alpha excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — EBV ifn-gamma: ifn-gamma from B-cells (already mapped) and macrophages (already mapped) modulates EBV th1 antiviral immune axis; ifn-gamma excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — EBV stat1: stat1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV interferon-signalling immune axis; stat1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — EBV stat3: stat3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV oncogenic immune signalling axis; stat3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
