@@ -246,6 +246,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "ZIKV autophagy: autophagy from fetal macrophages and NPCs modulates ZIKV neural viral clearance immune axis; autophagy excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "ZIKV bcl-2: bcl-2 from fetal macrophages and NPCs modulates ZIKV neural anti-apoptotic immune survival axis; bcl-2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/ace2
+    relation: connects-to
+    note: "ZIKV ace2: ace2 from fetal macrophages and NPCs modulates ZIKV neural viral receptor immune entry axis; ace2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "ZIKV btk: btk from fetal macrophages and NPCs modulates ZIKV neural b-cell receptor signalling axis; btk excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -441,3 +450,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ZIKV wnt-beta-catenin: wnt-beta-catenin from fetal macrophages and NPCs modulates ZIKV neural wnt proliferative axis; wnt-beta-catenin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — ZIKV cgas-sting: cgas-sting from fetal macrophages and NPCs modulates ZIKV neural innate dna-sensing immune axis; cgas-sting excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — ZIKV autophagy: autophagy from fetal macrophages and NPCs modulates ZIKV neural viral clearance immune axis; autophagy excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — ZIKV bcl-2: bcl-2 from fetal macrophages and NPCs modulates ZIKV neural anti-apoptotic immune survival axis; bcl-2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — ZIKV ace2: ace2 from fetal macrophages and NPCs modulates ZIKV neural viral receptor immune entry axis; ace2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — ZIKV btk: btk from fetal macrophages and NPCs modulates ZIKV neural b-cell receptor signalling axis; btk excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
