@@ -185,6 +185,15 @@ cross_links:
   - target: 01-human/03-molecular/il-31
     relation: connects-to
     note: "Norovirus il-31: il-31 from enterocytes and b-cells (already mapped) modulates gut pruritic immune neuroimmune axis; il-31 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/il-13
+    relation: connects-to
+    note: "Norovirus il-13: il-13 from enterocytes and b-cells (already mapped) modulates gut th2 mucosal immune polarization; il-13 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "Norovirus il-33: il-33 from enterocytes and b-cells (already mapped) modulates gut alarmin mucosal immune axis; il-33 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/il-36
+    relation: connects-to
+    note: "Norovirus il-36: il-36 from enterocytes and b-cells (already mapped) modulates gut epidermal immune inflammatory axis; il-36 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -332,6 +341,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — Norovirus il-6: il-6 from enterocytes and b-cells (already mapped) modulates gut pleiotropic immune mucosal axis; il-6 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — Norovirus il-23: il-23 from enterocytes and b-cells (already mapped) modulates gut th17 mucosal immune axis; il-23 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — Norovirus il-31: il-31 from enterocytes and b-cells (already mapped) modulates gut pruritic immune neuroimmune axis; il-31 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[IL-13](../../03-molecular/il-13/README.md)** — Norovirus il-13: il-13 from enterocytes and b-cells (already mapped) modulates gut th2 mucosal immune polarization; il-13 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — Norovirus il-33: il-33 from enterocytes and b-cells (already mapped) modulates gut alarmin mucosal immune axis; il-33 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[IL-36](../../03-molecular/il-36/README.md)** — Norovirus il-36: il-36 from enterocytes and b-cells (already mapped) modulates gut epidermal immune inflammatory axis; il-36 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

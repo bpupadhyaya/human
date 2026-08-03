@@ -178,6 +178,15 @@ cross_links:
   - target: 01-human/03-molecular/il-31
     relation: connects-to
     note: "EBV il-31: il-31 from B-cells (already mapped) and macrophages (already mapped) modulates EBV pruritic immune neuroimmune axis; il-31 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "EBV il-33: il-33 from B-cells (already mapped) and macrophages (already mapped) modulates EBV alarmin immune activation axis; il-33 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/il-36
+    relation: connects-to
+    note: "EBV il-36: il-36 from B-cells (already mapped) and macrophages (already mapped) modulates EBV epidermal immune inflammatory axis; il-36 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/tnf-alpha
+    relation: connects-to
+    note: "EBV tnf-alpha: tnf-alpha from B-cells (already mapped) and macrophages (already mapped) modulates EBV inflammatory cytokine immune axis; tnf-alpha excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -376,6 +385,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — EBV il-6: il-6 from B-cells (already mapped) and macrophages (already mapped) modulates EBV pleiotropic immune activation axis; il-6 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — EBV il-23: il-23 from B-cells (already mapped) and macrophages (already mapped) modulates EBV th17 immune activation axis; il-23 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — EBV il-31: il-31 from B-cells (already mapped) and macrophages (already mapped) modulates EBV pruritic immune neuroimmune axis; il-31 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — EBV il-33: il-33 from B-cells (already mapped) and macrophages (already mapped) modulates EBV alarmin immune activation axis; il-33 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[IL-36](../../03-molecular/il-36/README.md)** — EBV il-36: il-36 from B-cells (already mapped) and macrophages (already mapped) modulates EBV epidermal immune inflammatory axis; il-36 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — EBV tnf-alpha: tnf-alpha from B-cells (already mapped) and macrophages (already mapped) modulates EBV inflammatory cytokine immune axis; tnf-alpha excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
