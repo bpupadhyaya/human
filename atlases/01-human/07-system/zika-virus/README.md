@@ -255,6 +255,15 @@ cross_links:
   - target: 01-human/03-molecular/btk
     relation: connects-to
     note: "ZIKV btk: btk from fetal macrophages and NPCs modulates ZIKV neural b-cell receptor signalling axis; btk excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "ZIKV caspase-3: caspase-3 from fetal macrophages and NPCs modulates ZIKV neural apoptotic execution immune axis; caspase-3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "ZIKV cd20: cd20 from fetal macrophages and NPCs modulates ZIKV neural b-cell surface immune activation axis; cd20 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "ZIKV cdk4-6: cdk4-6 from fetal macrophages and NPCs modulates ZIKV neural cell-cycle immune progression axis; cdk4-6 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -453,3 +462,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — ZIKV bcl-2: bcl-2 from fetal macrophages and NPCs modulates ZIKV neural anti-apoptotic immune survival axis; bcl-2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — ZIKV ace2: ace2 from fetal macrophages and NPCs modulates ZIKV neural viral receptor immune entry axis; ace2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — ZIKV btk: btk from fetal macrophages and NPCs modulates ZIKV neural b-cell receptor signalling axis; btk excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — ZIKV caspase-3: caspase-3 from fetal macrophages and NPCs modulates ZIKV neural apoptotic execution immune axis; caspase-3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — ZIKV cd20: cd20 from fetal macrophages and NPCs modulates ZIKV neural b-cell surface immune activation axis; cd20 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — ZIKV cdk4-6: cdk4-6 from fetal macrophages and NPCs modulates ZIKV neural cell-cycle immune progression axis; cdk4-6 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
