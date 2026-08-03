@@ -86,6 +86,15 @@ cross_links:
   - target: 01-human/03-molecular/insulin-receptor
     relation: connects-to
     note: "Norovirus insulin-receptor: insulin-receptor on enterocytes and b-cells (already mapped) modulates gut metabolic immune signalling; insulin-receptor dysregulation amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "Norovirus aldosterone: aldosterone from enterocytes and b-cells (already mapped) modulates gut mineralocorticoid immune balance; aldosterone excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "Norovirus androgen-receptor: androgen-receptor on enterocytes and b-cells (already mapped) modulates gut hormonal immune response; androgen-receptor excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "Norovirus norepinephrine: norepinephrine from enterocytes and b-cells (already mapped) modulates gut adrenergic immune tone; norepinephrine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -200,6 +209,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Norovirus calcitonin: calcitonin from enterocytes and b-cells (already mapped) modulates gut calcium signalling; calcitonin dysregulation amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Norovirus substance-p: substance-P from enterocytes and b-cells (already mapped) modulates gut neuroimmune nociceptive signalling; substance-p excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Norovirus insulin-receptor: insulin-receptor on enterocytes and b-cells (already mapped) modulates gut metabolic immune signalling; insulin-receptor dysregulation amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Norovirus aldosterone: aldosterone from enterocytes and b-cells (already mapped) modulates gut mineralocorticoid immune balance; aldosterone excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Norovirus androgen-receptor: androgen-receptor on enterocytes and b-cells (already mapped) modulates gut hormonal immune response; androgen-receptor excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Norovirus norepinephrine: norepinephrine from enterocytes and b-cells (already mapped) modulates gut adrenergic immune tone; norepinephrine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

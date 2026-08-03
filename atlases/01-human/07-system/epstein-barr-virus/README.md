@@ -79,6 +79,15 @@ cross_links:
   - target: 01-human/03-molecular/aldosterone
     relation: connects-to
     note: "EBV aldosterone: aldosterone from B-cells (already mapped) and macrophages (already mapped) modulates EBV immune mineralocorticoid balance; aldosterone excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/androgen-receptor
+    relation: connects-to
+    note: "EBV androgen-receptor: androgen-receptor on B-cells (already mapped) and macrophages (already mapped) modulates EBV hormonal B-cell proliferation; androgen-receptor excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/norepinephrine
+    relation: connects-to
+    note: "EBV norepinephrine: norepinephrine from B-cells (already mapped) and macrophages (already mapped) modulates EBV adrenergic immune tone; norepinephrine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "EBV adrenomedullin: adrenomedullin from B-cells (already mapped) and macrophages (already mapped) modulates EBV vascular immune tone; adrenomedullin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -244,6 +253,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — EBV substance-p: substance-P from B-cells (already mapped) and macrophages (already mapped) modulates EBV neuroimmune signalling; substance-p excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — EBV insulin-receptor: insulin-receptor on B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune signalling; insulin-receptor dysregulation amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — EBV aldosterone: aldosterone from B-cells (already mapped) and macrophages (already mapped) modulates EBV immune mineralocorticoid balance; aldosterone excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — EBV androgen-receptor: androgen-receptor on B-cells (already mapped) and macrophages (already mapped) modulates EBV hormonal B-cell proliferation; androgen-receptor excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — EBV norepinephrine: norepinephrine from B-cells (already mapped) and macrophages (already mapped) modulates EBV adrenergic immune tone; norepinephrine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — EBV adrenomedullin: adrenomedullin from B-cells (already mapped) and macrophages (already mapped) modulates EBV vascular immune tone; adrenomedullin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
