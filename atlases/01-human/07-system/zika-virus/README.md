@@ -192,6 +192,15 @@ cross_links:
   - target: 01-human/03-molecular/akt
     relation: connects-to
     note: "ZIKV akt: akt from fetal macrophages and NPCs modulates ZIKV neural pro-survival kinase axis; akt excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "ZIKV mtor: mtor from fetal macrophages and NPCs modulates ZIKV neural metabolic immune growth axis; mtor excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "ZIKV ampk: ampk from fetal macrophages and NPCs modulates ZIKV neural energy-sensing immune metabolic axis; ampk excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "ZIKV hif-1alpha: hif-1alpha from fetal macrophages and NPCs modulates ZIKV neural hypoxic immune axis; hif-1alpha excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -369,3 +378,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — ZIKV stat3: stat3 from fetal macrophages and NPCs modulates ZIKV neural oncogenic immune signalling axis; stat3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — ZIKV jak2: jak2 from fetal macrophages and NPCs modulates ZIKV neural cytokine receptor signalling axis; jak2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — ZIKV akt: akt from fetal macrophages and NPCs modulates ZIKV neural pro-survival kinase axis; akt excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — ZIKV mtor: mtor from fetal macrophages and NPCs modulates ZIKV neural metabolic immune growth axis; mtor excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — ZIKV ampk: ampk from fetal macrophages and NPCs modulates ZIKV neural energy-sensing immune metabolic axis; ampk excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — ZIKV hif-1alpha: hif-1alpha from fetal macrophages and NPCs modulates ZIKV neural hypoxic immune axis; hif-1alpha excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
