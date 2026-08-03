@@ -75,6 +75,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "ZIKV norepinephrine: norepinephrine from fetal macrophages and NPCs modulates ZIKV adrenergic neural tone; norepinephrine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "ZIKV adrenomedullin: adrenomedullin from fetal macrophages and NPCs modulates ZIKV vascular neuroimmune tone; adrenomedullin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "ZIKV bdnf: BDNF from fetal macrophages and NPCs modulates ZIKV neurotrophin neural survival; bdnf excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "ZIKV osteopontin: osteopontin from fetal macrophages and NPCs modulates ZIKV extracellular matrix neural remodelling; osteopontin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -213,3 +222,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — ZIKV aldosterone: aldosterone from fetal macrophages and NPCs modulates ZIKV mineralocorticoid immune balance; aldosterone excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — ZIKV androgen-receptor: androgen-receptor on fetal macrophages and NPCs modulates ZIKV hormonal neural development; androgen-receptor dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — ZIKV norepinephrine: norepinephrine from fetal macrophages and NPCs modulates ZIKV adrenergic neural tone; norepinephrine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — ZIKV adrenomedullin: adrenomedullin from fetal macrophages and NPCs modulates ZIKV vascular neuroimmune tone; adrenomedullin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — ZIKV bdnf: BDNF from fetal macrophages and NPCs modulates ZIKV neurotrophin neural survival; bdnf excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — ZIKV osteopontin: osteopontin from fetal macrophages and NPCs modulates ZIKV extracellular matrix neural remodelling; osteopontin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
