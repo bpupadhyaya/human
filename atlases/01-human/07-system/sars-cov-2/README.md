@@ -230,6 +230,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "SARS-CoV-2 hif-1alpha: hif-1alpha from macrophages (already mapped) modulates COVID-19 hypoxic immune metabolic axis; hif-1alpha excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "SARS-CoV-2 ccl2: ccl2 from macrophages (already mapped) modulates COVID-19 monocyte recruitment immune axis; ccl2 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "SARS-CoV-2 cxcl12: cxcl12 from macrophages (already mapped) modulates COVID-19 stromal immune homing axis; cxcl12 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "SARS-CoV-2 egfr: egfr from macrophages (already mapped) modulates COVID-19 growth factor receptor immune axis; egfr excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -409,6 +418,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — SARS-CoV-2 mtor: mtor from macrophages (already mapped) modulates COVID-19 metabolic immune growth axis; mtor excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — SARS-CoV-2 ampk: ampk from macrophages (already mapped) modulates COVID-19 energy-sensing immune metabolic axis; ampk excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — SARS-CoV-2 hif-1alpha: hif-1alpha from macrophages (already mapped) modulates COVID-19 hypoxic immune metabolic axis; hif-1alpha excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — SARS-CoV-2 ccl2: ccl2 from macrophages (already mapped) modulates COVID-19 monocyte recruitment immune axis; ccl2 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — SARS-CoV-2 cxcl12: cxcl12 from macrophages (already mapped) modulates COVID-19 stromal immune homing axis; cxcl12 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — SARS-CoV-2 egfr: egfr from macrophages (already mapped) modulates COVID-19 growth factor receptor immune axis; egfr excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)

@@ -201,6 +201,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "ZIKV hif-1alpha: hif-1alpha from fetal macrophages and NPCs modulates ZIKV neural hypoxic immune axis; hif-1alpha excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "ZIKV ccl2: ccl2 from fetal macrophages and NPCs modulates ZIKV neural monocyte recruitment axis; ccl2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "ZIKV cxcl12: cxcl12 from fetal macrophages and NPCs modulates ZIKV neural stromal immune homing axis; cxcl12 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "ZIKV egfr: egfr from fetal macrophages and NPCs modulates ZIKV neural growth factor receptor axis; egfr excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -381,3 +390,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — ZIKV mtor: mtor from fetal macrophages and NPCs modulates ZIKV neural metabolic immune growth axis; mtor excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — ZIKV ampk: ampk from fetal macrophages and NPCs modulates ZIKV neural energy-sensing immune metabolic axis; ampk excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — ZIKV hif-1alpha: hif-1alpha from fetal macrophages and NPCs modulates ZIKV neural hypoxic immune axis; hif-1alpha excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — ZIKV ccl2: ccl2 from fetal macrophages and NPCs modulates ZIKV neural monocyte recruitment axis; ccl2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — ZIKV cxcl12: cxcl12 from fetal macrophages and NPCs modulates ZIKV neural stromal immune homing axis; cxcl12 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — ZIKV egfr: egfr from fetal macrophages and NPCs modulates ZIKV neural growth factor receptor axis; egfr excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
