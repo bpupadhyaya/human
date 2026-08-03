@@ -329,6 +329,15 @@ cross_links:
   - target: 01-human/03-molecular/app
     relation: connects-to
     note: "SARS-CoV-2 app: app from macrophages (already mapped) modulates COVID-19 amyloid-precursor immune neuronal axis; app excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: connects-to
+    note: "SARS-CoV-2 aquaporin-4: aquaporin-4 from macrophages (already mapped) modulates COVID-19 water-channel immune neuronal axis; aquaporin-4 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "SARS-CoV-2 arid1a: arid1a from macrophages (already mapped) modulates COVID-19 chromatin-remodelling tumor-suppressor immune axis; arid1a excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "SARS-CoV-2 atm: atm from macrophages (already mapped) modulates COVID-19 dna-damage-response immune checkpoint axis; atm excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -541,6 +550,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — SARS-CoV-2 antithrombin: antithrombin from macrophages (already mapped) modulates COVID-19 anticoagulant immune serine-protease axis; antithrombin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[APC](../../03-molecular/apc/README.md)** — SARS-CoV-2 apc: apc from macrophages (already mapped) modulates COVID-19 wnt-pathway tumor-suppressor immune axis; apc excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[APP](../../03-molecular/app/README.md)** — SARS-CoV-2 app: app from macrophages (already mapped) modulates COVID-19 amyloid-precursor immune neuronal axis; app excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — SARS-CoV-2 aquaporin-4: aquaporin-4 from macrophages (already mapped) modulates COVID-19 water-channel immune neuronal axis; aquaporin-4 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — SARS-CoV-2 arid1a: arid1a from macrophages (already mapped) modulates COVID-19 chromatin-remodelling tumor-suppressor immune axis; arid1a excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — SARS-CoV-2 atm: atm from macrophages (already mapped) modulates COVID-19 dna-damage-response immune checkpoint axis; atm excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)

@@ -300,6 +300,15 @@ cross_links:
   - target: 01-human/03-molecular/app
     relation: connects-to
     note: "ZIKV app: app from fetal macrophages and NPCs modulates ZIKV neural amyloid-precursor immune neuronal axis; app excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/aquaporin-4
+    relation: connects-to
+    note: "ZIKV aquaporin-4: aquaporin-4 from fetal macrophages and NPCs modulates ZIKV neural water-channel immune neuronal axis; aquaporin-4 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "ZIKV arid1a: arid1a from fetal macrophages and NPCs modulates ZIKV neural chromatin-remodelling tumor-suppressor immune axis; arid1a excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "ZIKV atm: atm from fetal macrophages and NPCs modulates ZIKV neural dna-damage-response immune checkpoint axis; atm excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -513,3 +522,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — ZIKV antithrombin: antithrombin from fetal macrophages and NPCs modulates ZIKV neural anticoagulant immune serine-protease axis; antithrombin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[APC](../../03-molecular/apc/README.md)** — ZIKV apc: apc from fetal macrophages and NPCs modulates ZIKV neural wnt-pathway tumor-suppressor immune axis; apc excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[APP](../../03-molecular/app/README.md)** — ZIKV app: app from fetal macrophages and NPCs modulates ZIKV neural amyloid-precursor immune neuronal axis; app excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — ZIKV aquaporin-4: aquaporin-4 from fetal macrophages and NPCs modulates ZIKV neural water-channel immune neuronal axis; aquaporin-4 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — ZIKV arid1a: arid1a from fetal macrophages and NPCs modulates ZIKV neural chromatin-remodelling tumor-suppressor immune axis; arid1a excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — ZIKV atm: atm from fetal macrophages and NPCs modulates ZIKV neural dna-damage-response immune checkpoint axis; atm excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
