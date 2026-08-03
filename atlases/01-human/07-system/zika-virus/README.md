@@ -120,6 +120,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "ZIKV prolactin: prolactin from fetal macrophages and NPCs modulates ZIKV immune neural lactogenic tone; prolactin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "ZIKV estrogen: estrogen from fetal macrophages and NPCs modulates ZIKV hormonal neural immune axis; estrogen excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "ZIKV acetylcholine: acetylcholine from fetal macrophages and NPCs modulates ZIKV cholinergic neural immune axis; acetylcholine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "ZIKV adenosine: adenosine from fetal macrophages and NPCs modulates ZIKV purinergic neural immune axis; adenosine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -273,3 +282,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — ZIKV glucagon: glucagon from fetal macrophages and NPCs modulates ZIKV metabolic neural glucose axis; glucagon excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — ZIKV leptin: leptin from fetal macrophages and NPCs modulates ZIKV metabolic neural energy axis; leptin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — ZIKV prolactin: prolactin from fetal macrophages and NPCs modulates ZIKV immune neural lactogenic tone; prolactin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — ZIKV estrogen: estrogen from fetal macrophages and NPCs modulates ZIKV hormonal neural immune axis; estrogen excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — ZIKV acetylcholine: acetylcholine from fetal macrophages and NPCs modulates ZIKV cholinergic neural immune axis; acetylcholine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — ZIKV adenosine: adenosine from fetal macrophages and NPCs modulates ZIKV purinergic neural immune axis; adenosine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
