@@ -248,6 +248,15 @@ cross_links:
   - target: 01-human/03-molecular/foxo1
     relation: connects-to
     note: "SARS-CoV-2 foxo1: foxo1 from macrophages (already mapped) modulates COVID-19 transcriptional immune regulation axis; foxo1 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/jak1-2
+    relation: connects-to
+    note: "SARS-CoV-2 jak1-2: jak1-2 from macrophages (already mapped) modulates COVID-19 interferon receptor signalling immune axis; jak1-2 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/mhc-class-ii
+    relation: connects-to
+    note: "SARS-CoV-2 mhc-class-ii: mhc-class-ii from macrophages (already mapped) modulates COVID-19 antigen presentation immune axis; mhc-class-ii excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/pdgf
+    relation: connects-to
+    note: "SARS-CoV-2 pdgf: pdgf from macrophages (already mapped) modulates COVID-19 growth factor proliferative immune axis; pdgf excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -433,6 +442,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — SARS-CoV-2 erk1-2: erk1-2 from macrophages (already mapped) modulates COVID-19 mapk proliferative immune axis; erk1-2 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — SARS-CoV-2 foxo: foxo from macrophages (already mapped) modulates COVID-19 apoptotic immune regulation axis; foxo excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — SARS-CoV-2 foxo1: foxo1 from macrophages (already mapped) modulates COVID-19 transcriptional immune regulation axis; foxo1 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — SARS-CoV-2 jak1-2: jak1-2 from macrophages (already mapped) modulates COVID-19 interferon receptor signalling immune axis; jak1-2 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — SARS-CoV-2 mhc-class-ii: mhc-class-ii from macrophages (already mapped) modulates COVID-19 antigen presentation immune axis; mhc-class-ii excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — SARS-CoV-2 pdgf: pdgf from macrophages (already mapped) modulates COVID-19 growth factor proliferative immune axis; pdgf excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
