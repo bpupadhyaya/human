@@ -61,6 +61,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "EBV igf-1: IGF-1 from B-cells (already mapped) and macrophages (already mapped) modulates viral B-cell survival axis; igf-1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "EBV activin-a: activin-A from B-cells (already mapped) and macrophages (already mapped) drives EBV latency fibrotic remodelling; activin-a excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "EBV cgrp: CGRP from B-cells (already mapped) and macrophages (already mapped) modulates EBV vascular immune tone; cgrp excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "EBV calcitonin: calcitonin from B-cells (already mapped) and macrophages (already mapped) modulates EBV calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -220,6 +229,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — EBV fibronectin: fibronectin from B-cells (already mapped) and macrophages (already mapped) modulates viral ECM remodelling; fibronectin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — EBV notch: Notch signalling on B-cells (already mapped) and macrophages (already mapped) modulates viral latency regulation; notch excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — EBV igf-1: IGF-1 from B-cells (already mapped) and macrophages (already mapped) modulates viral B-cell survival axis; igf-1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — EBV activin-a: activin-A from B-cells (already mapped) and macrophages (already mapped) drives EBV latency fibrotic remodelling; activin-a excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — EBV cgrp: CGRP from B-cells (already mapped) and macrophages (already mapped) modulates EBV vascular immune tone; cgrp excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — EBV calcitonin: calcitonin from B-cells (already mapped) and macrophages (already mapped) modulates EBV calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 

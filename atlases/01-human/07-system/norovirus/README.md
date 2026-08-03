@@ -68,6 +68,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "Norovirus igf-1: IGF-1 from enterocytes and b-cells (already mapped) drives gut epithelial repair after norovirus villous blunting; igf-1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "Norovirus activin-a: activin-A from enterocytes and b-cells (already mapped) drives gut fibrotic remodelling after norovirus; activin-a excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "Norovirus tgf-beta: TGF-β from enterocytes and b-cells (already mapped) drives gut immune-fibrotic remodelling; tgf-beta excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "Norovirus cgrp: CGRP from enterocytes and b-cells (already mapped) modulates gut neuroimmune tone; cgrp excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -176,6 +185,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — Norovirus fibronectin: fibronectin from enterocytes and b-cells (already mapped) modulates norovirus mucosal ECM; fibronectin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Notch](../../03-molecular/notch/README.md)** — Norovirus notch: notch signalling in enterocytes and b-cells (already mapped) governs intestinal crypt-villus regeneration; notch disruption amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — Norovirus igf-1: IGF-1 from enterocytes and b-cells (already mapped) drives gut epithelial repair after norovirus villous blunting; igf-1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Norovirus activin-a: activin-A from enterocytes and b-cells (already mapped) drives gut fibrotic remodelling after norovirus; activin-a excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Norovirus tgf-beta: TGF-β from enterocytes and b-cells (already mapped) drives gut immune-fibrotic remodelling; tgf-beta excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Norovirus cgrp: CGRP from enterocytes and b-cells (already mapped) modulates gut neuroimmune tone; cgrp excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
