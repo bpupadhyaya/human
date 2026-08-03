@@ -282,6 +282,15 @@ cross_links:
   - target: 01-human/03-molecular/abl1
     relation: connects-to
     note: "ZIKV abl1: abl1 from fetal macrophages and NPCs modulates ZIKV neural tyrosine-kinase immune proliferative axis; abl1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "ZIKV adamts13: adamts13 from fetal macrophages and NPCs modulates ZIKV neural von-willebrand-factor immune cleavage axis; adamts13 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/alk
+    relation: connects-to
+    note: "ZIKV alk: alk from fetal macrophages and NPCs modulates ZIKV neural anaplastic-lymphoma-kinase immune oncogenic axis; alk excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "ZIKV antibody: antibody from fetal macrophages and NPCs modulates ZIKV neural humoral immune effector axis; antibody excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -489,3 +498,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — ZIKV albumin: albumin from fetal macrophages and NPCs modulates ZIKV neural acute-phase immune serum protein axis; albumin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — ZIKV acth: acth from fetal macrophages and NPCs modulates ZIKV neural hpa-axis immune stress response; acth excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[ABL1](../../03-molecular/abl1/README.md)** — ZIKV abl1: abl1 from fetal macrophages and NPCs modulates ZIKV neural tyrosine-kinase immune proliferative axis; abl1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — ZIKV adamts13: adamts13 from fetal macrophages and NPCs modulates ZIKV neural von-willebrand-factor immune cleavage axis; adamts13 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — ZIKV alk: alk from fetal macrophages and NPCs modulates ZIKV neural anaplastic-lymphoma-kinase immune oncogenic axis; alk excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — ZIKV antibody: antibody from fetal macrophages and NPCs modulates ZIKV neural humoral immune effector axis; antibody excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.

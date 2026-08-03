@@ -311,6 +311,15 @@ cross_links:
   - target: 01-human/03-molecular/abl1
     relation: connects-to
     note: "SARS-CoV-2 abl1: abl1 from macrophages (already mapped) modulates COVID-19 tyrosine-kinase immune proliferative axis; abl1 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "SARS-CoV-2 adamts13: adamts13 from macrophages (already mapped) modulates COVID-19 von-willebrand-factor immune cleavage axis; adamts13 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/alk
+    relation: connects-to
+    note: "SARS-CoV-2 alk: alk from macrophages (already mapped) modulates COVID-19 anaplastic-lymphoma-kinase immune oncogenic axis; alk excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "SARS-CoV-2 antibody: antibody from macrophages (already mapped) modulates COVID-19 humoral immune effector axis; antibody excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -517,6 +526,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — SARS-CoV-2 albumin: albumin from macrophages (already mapped) modulates COVID-19 acute-phase immune serum protein axis; albumin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — SARS-CoV-2 acth: acth from macrophages (already mapped) modulates COVID-19 hpa-axis immune stress response; acth excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[ABL1](../../03-molecular/abl1/README.md)** — SARS-CoV-2 abl1: abl1 from macrophages (already mapped) modulates COVID-19 tyrosine-kinase immune proliferative axis; abl1 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — SARS-CoV-2 adamts13: adamts13 from macrophages (already mapped) modulates COVID-19 von-willebrand-factor immune cleavage axis; adamts13 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — SARS-CoV-2 alk: alk from macrophages (already mapped) modulates COVID-19 anaplastic-lymphoma-kinase immune oncogenic axis; alk excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — SARS-CoV-2 antibody: antibody from macrophages (already mapped) modulates COVID-19 humoral immune effector axis; antibody excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
