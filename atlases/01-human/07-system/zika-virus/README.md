@@ -165,6 +165,15 @@ cross_links:
   - target: 01-human/03-molecular/il-23
     relation: connects-to
     note: "ZIKV il-23: il-23 from fetal macrophages and NPCs modulates ZIKV neural th17 immune activation; il-23 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/il-31
+    relation: connects-to
+    note: "ZIKV il-31: il-31 from fetal macrophages and NPCs modulates ZIKV neural pruritic immune axis; il-31 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/il-33
+    relation: connects-to
+    note: "ZIKV il-33: il-33 from fetal macrophages and NPCs modulates ZIKV neural alarmin immune activation; il-33 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/il-36
+    relation: connects-to
+    note: "ZIKV il-36: il-36 from fetal macrophages and NPCs modulates ZIKV neural epidermal immune axis; il-36 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -333,3 +342,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[IL-5](../../03-molecular/il-5/README.md)** — ZIKV il-5: il-5 from fetal macrophages and NPCs modulates ZIKV neural eosinophil immune axis; il-5 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[IL-6](../../03-molecular/il-6/README.md)** — ZIKV il-6: il-6 from fetal macrophages and NPCs modulates ZIKV neural pleiotropic immune axis; il-6 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[IL-23](../../03-molecular/il-23/README.md)** — ZIKV il-23: il-23 from fetal macrophages and NPCs modulates ZIKV neural th17 immune activation; il-23 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[IL-31](../../03-molecular/il-31/README.md)** — ZIKV il-31: il-31 from fetal macrophages and NPCs modulates ZIKV neural pruritic immune axis; il-31 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[IL-33](../../03-molecular/il-33/README.md)** — ZIKV il-33: il-33 from fetal macrophages and NPCs modulates ZIKV neural alarmin immune activation; il-33 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[IL-36](../../03-molecular/il-36/README.md)** — ZIKV il-36: il-36 from fetal macrophages and NPCs modulates ZIKV neural epidermal immune axis; il-36 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
