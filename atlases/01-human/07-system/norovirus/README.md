@@ -266,6 +266,15 @@ cross_links:
   - target: 01-human/03-molecular/autophagy
     relation: connects-to
     note: "Norovirus autophagy: autophagy from enterocytes and b-cells (already mapped) modulates gut viral clearance immune axis; autophagy excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "Norovirus bcl-2: bcl-2 from enterocytes and b-cells (already mapped) modulates gut anti-apoptotic immune survival axis; bcl-2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/ace2
+    relation: connects-to
+    note: "Norovirus ace2: ace2 from enterocytes and b-cells (already mapped) modulates gut viral receptor immune entry axis; ace2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "Norovirus btk: btk from enterocytes and b-cells (already mapped) modulates gut b-cell receptor signalling immune axis; btk excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -440,6 +449,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Norovirus wnt-beta-catenin: wnt-beta-catenin from enterocytes and b-cells (already mapped) modulates gut wnt proliferative immune axis; wnt-beta-catenin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Norovirus cgas-sting: cgas-sting from enterocytes and b-cells (already mapped) modulates gut innate dna-sensing immune axis; cgas-sting excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Norovirus autophagy: autophagy from enterocytes and b-cells (already mapped) modulates gut viral clearance immune axis; autophagy excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Norovirus bcl-2: bcl-2 from enterocytes and b-cells (already mapped) modulates gut anti-apoptotic immune survival axis; bcl-2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — Norovirus ace2: ace2 from enterocytes and b-cells (already mapped) modulates gut viral receptor immune entry axis; ace2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — Norovirus btk: btk from enterocytes and b-cells (already mapped) modulates gut b-cell receptor signalling immune axis; btk excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

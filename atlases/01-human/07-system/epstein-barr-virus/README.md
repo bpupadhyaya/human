@@ -259,6 +259,15 @@ cross_links:
   - target: 01-human/03-molecular/bcl-2
     relation: connects-to
     note: "EBV bcl-2: bcl-2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV anti-apoptotic immune survival axis; bcl-2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/ace2
+    relation: connects-to
+    note: "EBV ace2: ace2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV viral receptor immune entry axis; ace2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/btk
+    relation: connects-to
+    note: "EBV btk: btk from B-cells (already mapped) and macrophages (already mapped) modulates EBV b-cell receptor signalling immune axis; btk excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "EBV caspase-3: caspase-3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV apoptotic execution immune axis; caspase-3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -484,6 +493,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — EBV cgas-sting: cgas-sting from B-cells (already mapped) and macrophages (already mapped) modulates EBV innate dna-sensing immune axis; cgas-sting excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — EBV autophagy: autophagy from B-cells (already mapped) and macrophages (already mapped) modulates EBV viral clearance immune axis; autophagy excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — EBV bcl-2: bcl-2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV anti-apoptotic immune survival axis; bcl-2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — EBV ace2: ace2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV viral receptor immune entry axis; ace2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — EBV btk: btk from B-cells (already mapped) and macrophages (already mapped) modulates EBV b-cell receptor signalling immune axis; btk excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — EBV caspase-3: caspase-3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV apoptotic execution immune axis; caspase-3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
