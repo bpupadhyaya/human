@@ -336,6 +336,15 @@ cross_links:
   - target: 01-human/03-molecular/brca2
     relation: connects-to
     note: "ZIKV brca2: brca2 from fetal macrophages and NPCs modulates ZIKV neural homologous-recombination immune dna-repair axis; brca2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/calcineurin
+    relation: connects-to
+    note: "ZIKV calcineurin: calcineurin from fetal macrophages and NPCs modulates ZIKV neural calcineurin-nfat immune transcription axis; calcineurin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/calr
+    relation: connects-to
+    note: "ZIKV calr: calr from fetal macrophages and NPCs modulates ZIKV neural endoplasmic-reticulum immune stress chaperone axis; calr excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/blm
+    relation: connects-to
+    note: "ZIKV blm: blm from fetal macrophages and NPCs modulates ZIKV neural bloom-syndrome helicase immune dna-repair axis; blm excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -561,3 +570,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[BRAF](../../03-molecular/braf/README.md)** — ZIKV braf: braf from fetal macrophages and NPCs modulates ZIKV neural mapk-pathway immune proliferative axis; braf excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — ZIKV brca1: brca1 from fetal macrophages and NPCs modulates ZIKV neural dna-repair tumor-suppressor immune axis; brca1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — ZIKV brca2: brca2 from fetal macrophages and NPCs modulates ZIKV neural homologous-recombination immune dna-repair axis; brca2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — ZIKV calcineurin: calcineurin from fetal macrophages and NPCs modulates ZIKV neural calcineurin-nfat immune transcription axis; calcineurin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Calreticulin](../../03-molecular/calr/README.md)** — ZIKV calr: calr from fetal macrophages and NPCs modulates ZIKV neural endoplasmic-reticulum immune stress chaperone axis; calr excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[BLM](../../03-molecular/blm/README.md)** — ZIKV blm: blm from fetal macrophages and NPCs modulates ZIKV neural bloom-syndrome helicase immune dna-repair axis; blm excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
