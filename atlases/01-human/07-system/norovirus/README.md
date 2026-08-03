@@ -257,6 +257,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "Norovirus complement-c5: complement-c5 from enterocytes and b-cells (already mapped) modulates gut terminal complement immune axis; complement-c5 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "Norovirus wnt-beta-catenin: wnt-beta-catenin from enterocytes and b-cells (already mapped) modulates gut wnt proliferative immune axis; wnt-beta-catenin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "Norovirus cgas-sting: cgas-sting from enterocytes and b-cells (already mapped) modulates gut innate dna-sensing immune axis; cgas-sting excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "Norovirus autophagy: autophagy from enterocytes and b-cells (already mapped) modulates gut viral clearance immune axis; autophagy excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -428,6 +437,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Norovirus vegf: vegf from enterocytes and b-cells (already mapped) modulates gut angiogenic immune activation axis; vegf excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Norovirus complement-c3: complement-c3 from enterocytes and b-cells (already mapped) modulates gut innate complement immune axis; complement-c3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Norovirus complement-c5: complement-c5 from enterocytes and b-cells (already mapped) modulates gut terminal complement immune axis; complement-c5 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — Norovirus wnt-beta-catenin: wnt-beta-catenin from enterocytes and b-cells (already mapped) modulates gut wnt proliferative immune axis; wnt-beta-catenin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — Norovirus cgas-sting: cgas-sting from enterocytes and b-cells (already mapped) modulates gut innate dna-sensing immune axis; cgas-sting excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — Norovirus autophagy: autophagy from enterocytes and b-cells (already mapped) modulates gut viral clearance immune axis; autophagy excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

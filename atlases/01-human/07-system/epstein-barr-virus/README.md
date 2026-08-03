@@ -250,6 +250,15 @@ cross_links:
   - target: 01-human/03-molecular/wnt-beta-catenin
     relation: connects-to
     note: "EBV wnt-beta-catenin: wnt-beta-catenin from B-cells (already mapped) and macrophages (already mapped) modulates EBV oncogenic wnt proliferative axis; wnt-beta-catenin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "EBV cgas-sting: cgas-sting from B-cells (already mapped) and macrophages (already mapped) modulates EBV innate dna-sensing immune axis; cgas-sting excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "EBV autophagy: autophagy from B-cells (already mapped) and macrophages (already mapped) modulates EBV viral clearance immune axis; autophagy excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/bcl-2
+    relation: connects-to
+    note: "EBV bcl-2: bcl-2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV anti-apoptotic immune survival axis; bcl-2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -472,6 +481,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — EBV complement-c3: complement-c3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV innate complement immune axis; complement-c3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — EBV complement-c5: complement-c5 from B-cells (already mapped) and macrophages (already mapped) modulates EBV terminal complement immune axis; complement-c5 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — EBV wnt-beta-catenin: wnt-beta-catenin from B-cells (already mapped) and macrophages (already mapped) modulates EBV oncogenic wnt proliferative axis; wnt-beta-catenin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — EBV cgas-sting: cgas-sting from B-cells (already mapped) and macrophages (already mapped) modulates EBV innate dna-sensing immune axis; cgas-sting excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — EBV autophagy: autophagy from B-cells (already mapped) and macrophages (already mapped) modulates EBV viral clearance immune axis; autophagy excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — EBV bcl-2: bcl-2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV anti-apoptotic immune survival axis; bcl-2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
