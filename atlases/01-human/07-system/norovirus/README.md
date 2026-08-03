@@ -221,6 +221,15 @@ cross_links:
   - target: 01-human/03-molecular/hif-1alpha
     relation: connects-to
     note: "Norovirus hif-1alpha: hif-1alpha from enterocytes and b-cells (already mapped) modulates gut hypoxic immune metabolic axis; hif-1alpha excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "Norovirus ccl2: ccl2 from enterocytes and b-cells (already mapped) modulates gut monocyte recruitment immune axis; ccl2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "Norovirus cxcl12: cxcl12 from enterocytes and b-cells (already mapped) modulates gut stromal immune homing axis; cxcl12 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "Norovirus egfr: egfr from enterocytes and b-cells (already mapped) modulates gut growth factor receptor immune axis; egfr excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -380,6 +389,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — Norovirus mtor: mtor from enterocytes and b-cells (already mapped) modulates gut metabolic immune growth axis; mtor excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — Norovirus ampk: ampk from enterocytes and b-cells (already mapped) modulates gut energy-sensing immune metabolic axis; ampk excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — Norovirus hif-1alpha: hif-1alpha from enterocytes and b-cells (already mapped) modulates gut hypoxic immune metabolic axis; hif-1alpha excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Norovirus ccl2: ccl2 from enterocytes and b-cells (already mapped) modulates gut monocyte recruitment immune axis; ccl2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Norovirus cxcl12: cxcl12 from enterocytes and b-cells (already mapped) modulates gut stromal immune homing axis; cxcl12 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Norovirus egfr: egfr from enterocytes and b-cells (already mapped) modulates gut growth factor receptor immune axis; egfr excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

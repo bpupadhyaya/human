@@ -214,6 +214,15 @@ cross_links:
   - target: 01-human/03-molecular/ccl2
     relation: connects-to
     note: "EBV ccl2: ccl2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV monocyte recruitment immune axis; ccl2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cxcl12
+    relation: connects-to
+    note: "EBV cxcl12: cxcl12 from B-cells (already mapped) and macrophages (already mapped) modulates EBV stromal immune homing axis; cxcl12 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/egfr
+    relation: connects-to
+    note: "EBV egfr: egfr from B-cells (already mapped) and macrophages (already mapped) modulates EBV growth factor receptor immune axis; egfr excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "EBV erk1-2: erk1-2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV mapk proliferative immune axis; erk1-2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -424,6 +433,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — EBV ampk: ampk from B-cells (already mapped) and macrophages (already mapped) modulates EBV energy-sensing immune metabolic axis; ampk excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — EBV hif-1alpha: hif-1alpha from B-cells (already mapped) and macrophages (already mapped) modulates EBV hypoxic immune metabolic axis; hif-1alpha excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — EBV ccl2: ccl2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV monocyte recruitment immune axis; ccl2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — EBV cxcl12: cxcl12 from B-cells (already mapped) and macrophages (already mapped) modulates EBV stromal immune homing axis; cxcl12 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — EBV egfr: egfr from B-cells (already mapped) and macrophages (already mapped) modulates EBV growth factor receptor immune axis; egfr excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — EBV erk1-2: erk1-2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV mapk proliferative immune axis; erk1-2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
