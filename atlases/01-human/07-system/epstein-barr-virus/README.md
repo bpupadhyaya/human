@@ -196,6 +196,15 @@ cross_links:
   - target: 01-human/03-molecular/stat3
     relation: connects-to
     note: "EBV stat3: stat3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV oncogenic immune signalling axis; stat3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "EBV jak2: jak2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV cytokine receptor signalling immune axis; jak2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "EBV akt: akt from B-cells (already mapped) and macrophages (already mapped) modulates EBV pro-survival kinase immune axis; akt excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/mtor
+    relation: connects-to
+    note: "EBV mtor: mtor from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune growth axis; mtor excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -400,6 +409,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — EBV ifn-gamma: ifn-gamma from B-cells (already mapped) and macrophages (already mapped) modulates EBV th1 antiviral immune axis; ifn-gamma excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — EBV stat1: stat1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV interferon-signalling immune axis; stat1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — EBV stat3: stat3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV oncogenic immune signalling axis; stat3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — EBV jak2: jak2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV cytokine receptor signalling immune axis; jak2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — EBV akt: akt from B-cells (already mapped) and macrophages (already mapped) modulates EBV pro-survival kinase immune axis; akt excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — EBV mtor: mtor from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune growth axis; mtor excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 

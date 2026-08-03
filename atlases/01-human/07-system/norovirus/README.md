@@ -203,6 +203,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "Norovirus stat1: stat1 from enterocytes and b-cells (already mapped) modulates gut interferon-signalling mucosal axis; stat1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "Norovirus stat3: stat3 from enterocytes and b-cells (already mapped) modulates gut oncogenic immune signalling axis; stat3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "Norovirus jak2: jak2 from enterocytes and b-cells (already mapped) modulates gut cytokine receptor signalling axis; jak2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "Norovirus akt: akt from enterocytes and b-cells (already mapped) modulates gut pro-survival kinase immune axis; akt excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -356,6 +365,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — Norovirus tnf-alpha: tnf-alpha from enterocytes and b-cells (already mapped) modulates gut inflammatory cytokine immune axis; tnf-alpha excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — Norovirus ifn-gamma: ifn-gamma from enterocytes and b-cells (already mapped) modulates gut th1 antiviral mucosal axis; ifn-gamma excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — Norovirus stat1: stat1 from enterocytes and b-cells (already mapped) modulates gut interferon-signalling mucosal axis; stat1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — Norovirus stat3: stat3 from enterocytes and b-cells (already mapped) modulates gut oncogenic immune signalling axis; stat3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — Norovirus jak2: jak2 from enterocytes and b-cells (already mapped) modulates gut cytokine receptor signalling axis; jak2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — Norovirus akt: akt from enterocytes and b-cells (already mapped) modulates gut pro-survival kinase immune axis; akt excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
