@@ -149,6 +149,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "Norovirus adenosine: adenosine from enterocytes and b-cells (already mapped) modulates gut purinergic immune mucosal axis; adenosine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/apoe
+    relation: connects-to
+    note: "Norovirus apoe: apoe from enterocytes and b-cells (already mapped) modulates gut lipid immune mucosal barrier; apoe excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "Norovirus testosterone: testosterone from enterocytes and b-cells (already mapped) modulates gut androgenic immune mucosal axis; testosterone excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "Norovirus il-2: il-2 from enterocytes and b-cells (already mapped) modulates gut lymphocyte immune activation axis; il-2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -284,6 +293,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Norovirus estrogen: estrogen from enterocytes and b-cells (already mapped) modulates gut hormonal immune mucosal axis; estrogen excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Norovirus acetylcholine: acetylcholine from enterocytes and b-cells (already mapped) modulates gut cholinergic immune enteric axis; acetylcholine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Norovirus adenosine: adenosine from enterocytes and b-cells (already mapped) modulates gut purinergic immune mucosal axis; adenosine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — Norovirus apoe: apoe from enterocytes and b-cells (already mapped) modulates gut lipid immune mucosal barrier; apoe excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — Norovirus testosterone: testosterone from enterocytes and b-cells (already mapped) modulates gut androgenic immune mucosal axis; testosterone excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — Norovirus il-2: il-2 from enterocytes and b-cells (already mapped) modulates gut lymphocyte immune activation axis; il-2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

@@ -142,6 +142,15 @@ cross_links:
   - target: 01-human/03-molecular/apoe
     relation: connects-to
     note: "EBV apoe: apoe from B-cells (already mapped) and macrophages (already mapped) modulates EBV lipid immune viral entry axis; apoe excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "EBV testosterone: testosterone from B-cells (already mapped) and macrophages (already mapped) modulates EBV androgenic immune activation axis; testosterone excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "EBV il-2: il-2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV lymphocyte proliferation immune axis; il-2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/il-10
+    relation: connects-to
+    note: "EBV il-10: il-10 from B-cells (already mapped) and macrophages (already mapped) modulates EBV immunosuppressive viral immune evasion; il-10 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -328,6 +337,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — EBV acetylcholine: acetylcholine from B-cells (already mapped) and macrophages (already mapped) modulates EBV cholinergic immune neuromodulation; acetylcholine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — EBV adenosine: adenosine from B-cells (already mapped) and macrophages (already mapped) modulates EBV adenosinergic immune purinergic axis; adenosine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — EBV apoe: apoe from B-cells (already mapped) and macrophages (already mapped) modulates EBV lipid immune viral entry axis; apoe excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — EBV testosterone: testosterone from B-cells (already mapped) and macrophages (already mapped) modulates EBV androgenic immune activation axis; testosterone excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — EBV il-2: il-2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV lymphocyte proliferation immune axis; il-2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[IL-10](../../03-molecular/il-10/README.md)** — EBV il-10: il-10 from B-cells (already mapped) and macrophages (already mapped) modulates EBV immunosuppressive viral immune evasion; il-10 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
