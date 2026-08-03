@@ -77,6 +77,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "Norovirus cgrp: CGRP from enterocytes and b-cells (already mapped) modulates gut neuroimmune tone; cgrp excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "Norovirus calcitonin: calcitonin from enterocytes and b-cells (already mapped) modulates gut calcium signalling; calcitonin dysregulation amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "Norovirus substance-p: substance-P from enterocytes and b-cells (already mapped) modulates gut neuroimmune nociceptive signalling; substance-p excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "Norovirus insulin-receptor: insulin-receptor on enterocytes and b-cells (already mapped) modulates gut metabolic immune signalling; insulin-receptor dysregulation amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -188,6 +197,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — Norovirus activin-a: activin-A from enterocytes and b-cells (already mapped) drives gut fibrotic remodelling after norovirus; activin-a excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — Norovirus tgf-beta: TGF-β from enterocytes and b-cells (already mapped) drives gut immune-fibrotic remodelling; tgf-beta excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — Norovirus cgrp: CGRP from enterocytes and b-cells (already mapped) modulates gut neuroimmune tone; cgrp excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — Norovirus calcitonin: calcitonin from enterocytes and b-cells (already mapped) modulates gut calcium signalling; calcitonin dysregulation amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — Norovirus substance-p: substance-P from enterocytes and b-cells (already mapped) modulates gut neuroimmune nociceptive signalling; substance-p excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — Norovirus insulin-receptor: insulin-receptor on enterocytes and b-cells (already mapped) modulates gut metabolic immune signalling; insulin-receptor dysregulation amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

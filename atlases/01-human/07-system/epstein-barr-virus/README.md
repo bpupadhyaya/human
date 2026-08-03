@@ -70,6 +70,15 @@ cross_links:
   - target: 01-human/03-molecular/calcitonin
     relation: connects-to
     note: "EBV calcitonin: calcitonin from B-cells (already mapped) and macrophages (already mapped) modulates EBV calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "EBV substance-p: substance-P from B-cells (already mapped) and macrophages (already mapped) modulates EBV neuroimmune signalling; substance-p excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "EBV insulin-receptor: insulin-receptor on B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune signalling; insulin-receptor dysregulation amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/aldosterone
+    relation: connects-to
+    note: "EBV aldosterone: aldosterone from B-cells (already mapped) and macrophages (already mapped) modulates EBV immune mineralocorticoid balance; aldosterone excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -232,6 +241,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — EBV activin-a: activin-A from B-cells (already mapped) and macrophages (already mapped) drives EBV latency fibrotic remodelling; activin-a excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — EBV cgrp: CGRP from B-cells (already mapped) and macrophages (already mapped) modulates EBV vascular immune tone; cgrp excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — EBV calcitonin: calcitonin from B-cells (already mapped) and macrophages (already mapped) modulates EBV calcium balance; calcitonin dysregulation amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — EBV substance-p: substance-P from B-cells (already mapped) and macrophages (already mapped) modulates EBV neuroimmune signalling; substance-p excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — EBV insulin-receptor: insulin-receptor on B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune signalling; insulin-receptor dysregulation amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — EBV aldosterone: aldosterone from B-cells (already mapped) and macrophages (already mapped) modulates EBV immune mineralocorticoid balance; aldosterone excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
