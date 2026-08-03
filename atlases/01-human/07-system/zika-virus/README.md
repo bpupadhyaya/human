@@ -183,6 +183,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "ZIKV stat1: stat1 from fetal macrophages and NPCs modulates ZIKV neural interferon-signalling immune axis; stat1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "ZIKV stat3: stat3 from fetal macrophages and NPCs modulates ZIKV neural oncogenic immune signalling axis; stat3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "ZIKV jak2: jak2 from fetal macrophages and NPCs modulates ZIKV neural cytokine receptor signalling axis; jak2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "ZIKV akt: akt from fetal macrophages and NPCs modulates ZIKV neural pro-survival kinase axis; akt excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -357,3 +366,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — ZIKV tnf-alpha: tnf-alpha from fetal macrophages and NPCs modulates ZIKV neuroinflammatory cytokine storm axis; tnf-alpha excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — ZIKV ifn-gamma: ifn-gamma from fetal macrophages and NPCs modulates ZIKV neural th1 antiviral immune axis; ifn-gamma excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — ZIKV stat1: stat1 from fetal macrophages and NPCs modulates ZIKV neural interferon-signalling immune axis; stat1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — ZIKV stat3: stat3 from fetal macrophages and NPCs modulates ZIKV neural oncogenic immune signalling axis; stat3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — ZIKV jak2: jak2 from fetal macrophages and NPCs modulates ZIKV neural cytokine receptor signalling axis; jak2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — ZIKV akt: akt from fetal macrophages and NPCs modulates ZIKV neural pro-survival kinase axis; akt excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.

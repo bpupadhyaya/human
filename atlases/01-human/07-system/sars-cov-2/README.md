@@ -212,6 +212,15 @@ cross_links:
   - target: 01-human/03-molecular/stat1
     relation: connects-to
     note: "SARS-CoV-2 stat1: stat1 from macrophages (already mapped) modulates COVID-19 interferon-signalling immune axis; stat1 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/stat3
+    relation: connects-to
+    note: "SARS-CoV-2 stat3: stat3 from macrophages (already mapped) modulates COVID-19 oncogenic immune signalling axis; stat3 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/jak2
+    relation: connects-to
+    note: "SARS-CoV-2 jak2: jak2 from macrophages (already mapped) modulates COVID-19 cytokine receptor signalling immune axis; jak2 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/akt
+    relation: connects-to
+    note: "SARS-CoV-2 akt: akt from macrophages (already mapped) modulates COVID-19 pro-survival kinase immune axis; akt excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -385,6 +394,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[TNF-α](../../03-molecular/tnf-alpha/README.md)** — SARS-CoV-2 tnf-alpha: tnf-alpha from macrophages (already mapped) modulates COVID-19 inflammatory cytokine storm axis; tnf-alpha excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[IFN-γ](../../03-molecular/ifn-gamma/README.md)** — SARS-CoV-2 ifn-gamma: ifn-gamma from macrophages (already mapped) modulates COVID-19 th1 antiviral immune axis; ifn-gamma excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[STAT1](../../03-molecular/stat1/README.md)** — SARS-CoV-2 stat1: stat1 from macrophages (already mapped) modulates COVID-19 interferon-signalling immune axis; stat1 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[STAT3](../../03-molecular/stat3/README.md)** — SARS-CoV-2 stat3: stat3 from macrophages (already mapped) modulates COVID-19 oncogenic immune signalling axis; stat3 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — SARS-CoV-2 jak2: jak2 from macrophages (already mapped) modulates COVID-19 cytokine receptor signalling immune axis; jak2 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — SARS-CoV-2 akt: akt from macrophages (already mapped) modulates COVID-19 pro-survival kinase immune axis; akt excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
