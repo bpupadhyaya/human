@@ -48,6 +48,15 @@ cross_links:
   - target: 01-human/03-molecular/igf-1
     relation: connects-to
     note: "ZIKV igf-1: ZIKV suppresses IGF-1 and AKT signalling in neural progenitor cells; igf-1 loss amplifies NF-κB and IL-6 and type-i-interferon cascade, compounding NPC depletion and microcephaly of congenital Zika syndrome."
+  - target: 01-human/03-molecular/activin-a
+    relation: connects-to
+    note: "ZIKV activin-a: activin-A from fetal macrophages and NPCs drives ZIKV neural fibrotic remodelling; activin-a excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/tgf-beta
+    relation: connects-to
+    note: "ZIKV tgf-beta: TGF-β from fetal macrophages and NPCs modulates ZIKV immune-fibrotic neural remodelling; tgf-beta excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/cgrp
+    relation: connects-to
+    note: "ZIKV cgrp: CGRP from fetal macrophages and NPCs modulates ZIKV neuroimmune vascular tone; cgrp excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -177,3 +186,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Fibronectin](../../03-molecular/fibronectin/README.md)** — ZIKV fibronectin: fibronectin scaffolds trophoblast and NPC extracellular matrix invaded by ZIKV; fibronectin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[NOTCH](../../03-molecular/notch/README.md)** — ZIKV notch: ZIKV disrupts NOTCH signalling in neural progenitor cells, impairing self-renewal; NOTCH suppression by NS4A/NS4B amplifies NF-κB and IL-6 and type-i-interferon cascade of congenital Zika syndrome.
 - `connects-to` → **[IGF-1](../../03-molecular/igf-1/README.md)** — ZIKV igf-1: ZIKV suppresses IGF-1 and AKT signalling in neural progenitor cells; igf-1 loss amplifies NF-κB and IL-6 and type-i-interferon cascade, compounding NPC depletion and microcephaly of congenital Zika syndrome.
+- `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ZIKV activin-a: activin-A from fetal macrophages and NPCs drives ZIKV neural fibrotic remodelling; activin-a excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — ZIKV tgf-beta: TGF-β from fetal macrophages and NPCs modulates ZIKV immune-fibrotic neural remodelling; tgf-beta excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ZIKV cgrp: CGRP from fetal macrophages and NPCs modulates ZIKV neuroimmune vascular tone; cgrp excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
