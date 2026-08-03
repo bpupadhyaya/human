@@ -210,6 +210,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "ZIKV egfr: egfr from fetal macrophages and NPCs modulates ZIKV neural growth factor receptor axis; egfr excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "ZIKV erk1-2: erk1-2 from fetal macrophages and NPCs modulates ZIKV neural mapk proliferative axis; erk1-2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "ZIKV foxo: foxo from fetal macrophages and NPCs modulates ZIKV neural apoptotic immune regulation; foxo excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "ZIKV foxo1: foxo1 from fetal macrophages and NPCs modulates ZIKV neural transcriptional immune regulation; foxo1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -393,3 +402,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — ZIKV ccl2: ccl2 from fetal macrophages and NPCs modulates ZIKV neural monocyte recruitment axis; ccl2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — ZIKV cxcl12: cxcl12 from fetal macrophages and NPCs modulates ZIKV neural stromal immune homing axis; cxcl12 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — ZIKV egfr: egfr from fetal macrophages and NPCs modulates ZIKV neural growth factor receptor axis; egfr excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — ZIKV erk1-2: erk1-2 from fetal macrophages and NPCs modulates ZIKV neural mapk proliferative axis; erk1-2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — ZIKV foxo: foxo from fetal macrophages and NPCs modulates ZIKV neural apoptotic immune regulation; foxo excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — ZIKV foxo1: foxo1 from fetal macrophages and NPCs modulates ZIKV neural transcriptional immune regulation; foxo1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
