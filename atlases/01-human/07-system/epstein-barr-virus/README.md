@@ -295,6 +295,15 @@ cross_links:
   - target: 01-human/03-molecular/abl1
     relation: connects-to
     note: "EBV abl1: abl1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV tyrosine-kinase immune proliferative axis; abl1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "EBV adamts13: adamts13 from B-cells (already mapped) and macrophages (already mapped) modulates EBV von-willebrand-factor immune cleavage axis; adamts13 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/alk
+    relation: connects-to
+    note: "EBV alk: alk from B-cells (already mapped) and macrophages (already mapped) modulates EBV anaplastic-lymphoma-kinase immune oncogenic axis; alk excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/antithrombin
+    relation: connects-to
+    note: "EBV antithrombin: antithrombin from B-cells (already mapped) and macrophages (already mapped) modulates EBV anticoagulant immune serine-protease axis; antithrombin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -532,6 +541,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — EBV albumin: albumin from B-cells (already mapped) and macrophages (already mapped) modulates EBV acute-phase immune serum protein axis; albumin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — EBV acth: acth from B-cells (already mapped) and macrophages (already mapped) modulates EBV hpa-axis immune stress response; acth excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[ABL1](../../03-molecular/abl1/README.md)** — EBV abl1: abl1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV tyrosine-kinase immune proliferative axis; abl1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — EBV adamts13: adamts13 from B-cells (already mapped) and macrophages (already mapped) modulates EBV von-willebrand-factor immune cleavage axis; adamts13 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — EBV alk: alk from B-cells (already mapped) and macrophages (already mapped) modulates EBV anaplastic-lymphoma-kinase immune oncogenic axis; alk excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — EBV antithrombin: antithrombin from B-cells (already mapped) and macrophages (already mapped) modulates EBV anticoagulant immune serine-protease axis; antithrombin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 

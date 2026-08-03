@@ -302,6 +302,15 @@ cross_links:
   - target: 01-human/03-molecular/acth
     relation: connects-to
     note: "Norovirus acth: acth from enterocytes and b-cells (already mapped) modulates gut hpa-axis immune stress response; acth excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/adamts13
+    relation: connects-to
+    note: "Norovirus adamts13: adamts13 from enterocytes and b-cells (already mapped) modulates gut von-willebrand-factor immune cleavage axis; adamts13 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/alk
+    relation: connects-to
+    note: "Norovirus alk: alk from enterocytes and b-cells (already mapped) modulates gut anaplastic-lymphoma-kinase immune oncogenic axis; alk excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/antithrombin
+    relation: connects-to
+    note: "Norovirus antithrombin: antithrombin from enterocytes and b-cells (already mapped) modulates gut anticoagulant immune serine-protease axis; antithrombin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -488,6 +497,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — Norovirus antibody: antibody from enterocytes and b-cells (already mapped) modulates gut humoral immune effector axis; antibody excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — Norovirus albumin: albumin from enterocytes and b-cells (already mapped) modulates gut acute-phase immune serum protein axis; albumin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — Norovirus acth: acth from enterocytes and b-cells (already mapped) modulates gut hpa-axis immune stress response; acth excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[ADAMTS13](../../03-molecular/adamts13/README.md)** — Norovirus adamts13: adamts13 from enterocytes and b-cells (already mapped) modulates gut von-willebrand-factor immune cleavage axis; adamts13 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[ALK](../../03-molecular/alk/README.md)** — Norovirus alk: alk from enterocytes and b-cells (already mapped) modulates gut anaplastic-lymphoma-kinase immune oncogenic axis; alk excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Antithrombin](../../03-molecular/antithrombin/README.md)** — Norovirus antithrombin: antithrombin from enterocytes and b-cells (already mapped) modulates gut anticoagulant immune serine-protease axis; antithrombin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
