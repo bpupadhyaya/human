@@ -374,6 +374,15 @@ cross_links:
   - target: 01-human/03-molecular/cd30
     relation: connects-to
     note: "Norovirus cd30: cd30 from enterocytes and b-cells (already mapped) modulates gut tnfrsf-immune lymphocyte activation axis; cd30 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/cdkn1a
+    relation: connects-to
+    note: "Norovirus cdkn1a: cdkn1a from enterocytes and b-cells (already mapped) modulates gut p21-cip1 immune cell-cycle arrest axis; cdkn1a excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "Norovirus cdkn2a: cdkn2a from enterocytes and b-cells (already mapped) modulates gut p16-ink4a immune cell-cycle suppressor axis; cdkn2a excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "Norovirus bnp: bnp from enterocytes and b-cells (already mapped) modulates gut natriuretic-peptide immune cardiac-stress axis; bnp excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -584,6 +593,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — Norovirus ccr5: ccr5 from enterocytes and b-cells (already mapped) modulates gut chemokine-receptor immune co-receptor axis; ccr5 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[CDH1](../../03-molecular/cdh1/README.md)** — Norovirus cdh1: cdh1 from enterocytes and b-cells (already mapped) modulates gut e-cadherin immune epithelial-mesenchymal axis; cdh1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[CD30](../../03-molecular/cd30/README.md)** — Norovirus cd30: cd30 from enterocytes and b-cells (already mapped) modulates gut tnfrsf-immune lymphocyte activation axis; cd30 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — Norovirus cdkn1a: cdkn1a from enterocytes and b-cells (already mapped) modulates gut p21-cip1 immune cell-cycle arrest axis; cdkn1a excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — Norovirus cdkn2a: cdkn2a from enterocytes and b-cells (already mapped) modulates gut p16-ink4a immune cell-cycle suppressor axis; cdkn2a excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — Norovirus bnp: bnp from enterocytes and b-cells (already mapped) modulates gut natriuretic-peptide immune cardiac-stress axis; bnp excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
