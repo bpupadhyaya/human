@@ -248,6 +248,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "Norovirus pdgf: pdgf from enterocytes and b-cells (already mapped) modulates gut growth factor proliferative immune axis; pdgf excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "Norovirus vegf: vegf from enterocytes and b-cells (already mapped) modulates gut angiogenic immune activation axis; vegf excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "Norovirus complement-c3: complement-c3 from enterocytes and b-cells (already mapped) modulates gut innate complement immune axis; complement-c3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "Norovirus complement-c5: complement-c5 from enterocytes and b-cells (already mapped) modulates gut terminal complement immune axis; complement-c5 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -416,6 +425,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — Norovirus jak1-2: jak1-2 from enterocytes and b-cells (already mapped) modulates gut interferon receptor signalling mucosal axis; jak1-2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — Norovirus mhc-class-ii: mhc-class-ii from enterocytes and b-cells (already mapped) modulates gut antigen presentation immune axis; mhc-class-ii excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — Norovirus pdgf: pdgf from enterocytes and b-cells (already mapped) modulates gut growth factor proliferative immune axis; pdgf excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — Norovirus vegf: vegf from enterocytes and b-cells (already mapped) modulates gut angiogenic immune activation axis; vegf excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — Norovirus complement-c3: complement-c3 from enterocytes and b-cells (already mapped) modulates gut innate complement immune axis; complement-c3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — Norovirus complement-c5: complement-c5 from enterocytes and b-cells (already mapped) modulates gut terminal complement immune axis; complement-c5 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

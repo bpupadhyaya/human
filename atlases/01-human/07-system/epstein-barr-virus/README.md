@@ -241,6 +241,15 @@ cross_links:
   - target: 01-human/03-molecular/vegf
     relation: connects-to
     note: "EBV vegf: vegf from B-cells (already mapped) and macrophages (already mapped) modulates EBV angiogenic immune activation axis; vegf excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "EBV complement-c3: complement-c3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV innate complement immune axis; complement-c3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "EBV complement-c5: complement-c5 from B-cells (already mapped) and macrophages (already mapped) modulates EBV terminal complement immune axis; complement-c5 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "EBV wnt-beta-catenin: wnt-beta-catenin from B-cells (already mapped) and macrophages (already mapped) modulates EBV oncogenic wnt proliferative axis; wnt-beta-catenin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -460,6 +469,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — EBV mhc-class-ii: mhc-class-ii from B-cells (already mapped) and macrophages (already mapped) modulates EBV antigen presentation immune axis; mhc-class-ii excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — EBV pdgf: pdgf from B-cells (already mapped) and macrophages (already mapped) modulates EBV growth factor proliferative immune axis; pdgf excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — EBV vegf: vegf from B-cells (already mapped) and macrophages (already mapped) modulates EBV angiogenic immune activation axis; vegf excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — EBV complement-c3: complement-c3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV innate complement immune axis; complement-c3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — EBV complement-c5: complement-c5 from B-cells (already mapped) and macrophages (already mapped) modulates EBV terminal complement immune axis; complement-c5 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — EBV wnt-beta-catenin: wnt-beta-catenin from B-cells (already mapped) and macrophages (already mapped) modulates EBV oncogenic wnt proliferative axis; wnt-beta-catenin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
