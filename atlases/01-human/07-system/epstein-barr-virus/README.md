@@ -322,6 +322,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: connects-to
     note: "EBV atp: atp from B-cells (already mapped) and macrophages (already mapped) modulates EBV purinergic immune energy-signalling axis; atp excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/atrx
+    relation: connects-to
+    note: "EBV atrx: atrx from B-cells (already mapped) and macrophages (already mapped) modulates EBV chromatin-helicase dna-binding immune axis; atrx excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "EBV axl-receptor: axl-receptor from B-cells (already mapped) and macrophages (already mapped) modulates EBV receptor-tyrosine-kinase immune entry axis; axl-receptor excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "EBV baff: baff from B-cells (already mapped) and macrophages (already mapped) modulates EBV b-cell survival immune cytokine axis; baff excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -568,6 +577,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — EBV arid1a: arid1a from B-cells (already mapped) and macrophages (already mapped) modulates EBV chromatin-remodelling tumor-suppressor immune axis; arid1a excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — EBV atm: atm from B-cells (already mapped) and macrophages (already mapped) modulates EBV dna-damage-response immune checkpoint axis; atm excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — EBV atp: atp from B-cells (already mapped) and macrophages (already mapped) modulates EBV purinergic immune energy-signalling axis; atp excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — EBV atrx: atrx from B-cells (already mapped) and macrophages (already mapped) modulates EBV chromatin-helicase dna-binding immune axis; atrx excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[AXL Receptor](../../03-molecular/axl-receptor/README.md)** — EBV axl-receptor: axl-receptor from B-cells (already mapped) and macrophages (already mapped) modulates EBV receptor-tyrosine-kinase immune entry axis; axl-receptor excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — EBV baff: baff from B-cells (already mapped) and macrophages (already mapped) modulates EBV b-cell survival immune cytokine axis; baff excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 

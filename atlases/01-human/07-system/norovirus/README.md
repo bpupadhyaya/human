@@ -329,6 +329,15 @@ cross_links:
   - target: 01-human/03-molecular/atp
     relation: connects-to
     note: "Norovirus atp: atp from enterocytes and b-cells (already mapped) modulates gut purinergic immune energy-signalling axis; atp excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/atrx
+    relation: connects-to
+    note: "Norovirus atrx: atrx from enterocytes and b-cells (already mapped) modulates gut chromatin-helicase dna-binding immune axis; atrx excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/axl-receptor
+    relation: connects-to
+    note: "Norovirus axl-receptor: axl-receptor from enterocytes and b-cells (already mapped) modulates gut receptor-tyrosine-kinase immune entry axis; axl-receptor excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/baff
+    relation: connects-to
+    note: "Norovirus baff: baff from enterocytes and b-cells (already mapped) modulates gut b-cell survival immune cytokine axis; baff excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -524,6 +533,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — Norovirus arid1a: arid1a from enterocytes and b-cells (already mapped) modulates gut chromatin-remodelling tumor-suppressor immune axis; arid1a excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Norovirus atm: atm from enterocytes and b-cells (already mapped) modulates gut dna-damage-response immune checkpoint axis; atm excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — Norovirus atp: atp from enterocytes and b-cells (already mapped) modulates gut purinergic immune energy-signalling axis; atp excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[ATRX](../../03-molecular/atrx/README.md)** — Norovirus atrx: atrx from enterocytes and b-cells (already mapped) modulates gut chromatin-helicase dna-binding immune axis; atrx excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[AXL Receptor](../../03-molecular/axl-receptor/README.md)** — Norovirus axl-receptor: axl-receptor from enterocytes and b-cells (already mapped) modulates gut receptor-tyrosine-kinase immune entry axis; axl-receptor excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[BAFF](../../03-molecular/baff/README.md)** — Norovirus baff: baff from enterocytes and b-cells (already mapped) modulates gut b-cell survival immune cytokine axis; baff excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
