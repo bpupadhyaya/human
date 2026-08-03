@@ -230,6 +230,15 @@ cross_links:
   - target: 01-human/03-molecular/egfr
     relation: connects-to
     note: "Norovirus egfr: egfr from enterocytes and b-cells (already mapped) modulates gut growth factor receptor immune axis; egfr excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/erk1-2
+    relation: connects-to
+    note: "Norovirus erk1-2: erk1-2 from enterocytes and b-cells (already mapped) modulates gut mapk proliferative immune axis; erk1-2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/foxo
+    relation: connects-to
+    note: "Norovirus foxo: foxo from enterocytes and b-cells (already mapped) modulates gut apoptotic immune regulation axis; foxo excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/foxo1
+    relation: connects-to
+    note: "Norovirus foxo1: foxo1 from enterocytes and b-cells (already mapped) modulates gut transcriptional immune regulation axis; foxo1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -392,6 +401,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — Norovirus ccl2: ccl2 from enterocytes and b-cells (already mapped) modulates gut monocyte recruitment immune axis; ccl2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[CXCL12](../../03-molecular/cxcl12/README.md)** — Norovirus cxcl12: cxcl12 from enterocytes and b-cells (already mapped) modulates gut stromal immune homing axis; cxcl12 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[EGFR](../../03-molecular/egfr/README.md)** — Norovirus egfr: egfr from enterocytes and b-cells (already mapped) modulates gut growth factor receptor immune axis; egfr excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[ERK1/2](../../03-molecular/erk1-2/README.md)** — Norovirus erk1-2: erk1-2 from enterocytes and b-cells (already mapped) modulates gut mapk proliferative immune axis; erk1-2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[FOXO](../../03-molecular/foxo/README.md)** — Norovirus foxo: foxo from enterocytes and b-cells (already mapped) modulates gut apoptotic immune regulation axis; foxo excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[FOXO1](../../03-molecular/foxo1/README.md)** — Norovirus foxo1: foxo1 from enterocytes and b-cells (already mapped) modulates gut transcriptional immune regulation axis; foxo1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
