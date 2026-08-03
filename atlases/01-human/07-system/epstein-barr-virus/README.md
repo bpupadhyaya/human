@@ -286,6 +286,15 @@ cross_links:
   - target: 01-human/03-molecular/antibody
     relation: connects-to
     note: "EBV antibody: antibody from B-cells (already mapped) and macrophages (already mapped) modulates EBV humoral immune effector axis; antibody excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "EBV albumin: albumin from B-cells (already mapped) and macrophages (already mapped) modulates EBV acute-phase immune serum protein axis; albumin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "EBV acth: acth from B-cells (already mapped) and macrophages (already mapped) modulates EBV hpa-axis immune stress response; acth excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/abl1
+    relation: connects-to
+    note: "EBV abl1: abl1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV tyrosine-kinase immune proliferative axis; abl1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -520,6 +529,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — EBV adiponectin: adiponectin from B-cells (already mapped) and macrophages (already mapped) modulates EBV adipokine immune metabolic axis; adiponectin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — EBV angiotensin-ii: angiotensin-ii from B-cells (already mapped) and macrophages (already mapped) modulates EBV renin-angiotensin immune axis; angiotensin-ii excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — EBV antibody: antibody from B-cells (already mapped) and macrophages (already mapped) modulates EBV humoral immune effector axis; antibody excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — EBV albumin: albumin from B-cells (already mapped) and macrophages (already mapped) modulates EBV acute-phase immune serum protein axis; albumin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — EBV acth: acth from B-cells (already mapped) and macrophages (already mapped) modulates EBV hpa-axis immune stress response; acth excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ABL1](../../03-molecular/abl1/README.md)** — EBV abl1: abl1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV tyrosine-kinase immune proliferative axis; abl1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
