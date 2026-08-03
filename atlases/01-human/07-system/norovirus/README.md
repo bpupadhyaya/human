@@ -140,6 +140,15 @@ cross_links:
   - target: 01-human/03-molecular/prolactin
     relation: connects-to
     note: "Norovirus prolactin: prolactin from enterocytes and b-cells (already mapped) modulates gut immune mucosal lactogenic tone; prolactin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "Norovirus estrogen: estrogen from enterocytes and b-cells (already mapped) modulates gut hormonal immune mucosal axis; estrogen excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "Norovirus acetylcholine: acetylcholine from enterocytes and b-cells (already mapped) modulates gut cholinergic immune enteric axis; acetylcholine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "Norovirus adenosine: adenosine from enterocytes and b-cells (already mapped) modulates gut purinergic immune mucosal axis; adenosine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -272,6 +281,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Norovirus glucagon: glucagon from enterocytes and b-cells (already mapped) modulates gut metabolic glucose immune axis; glucagon excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Norovirus leptin: leptin from enterocytes and b-cells (already mapped) modulates gut metabolic energy immune axis; leptin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Norovirus prolactin: prolactin from enterocytes and b-cells (already mapped) modulates gut immune mucosal lactogenic tone; prolactin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — Norovirus estrogen: estrogen from enterocytes and b-cells (already mapped) modulates gut hormonal immune mucosal axis; estrogen excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — Norovirus acetylcholine: acetylcholine from enterocytes and b-cells (already mapped) modulates gut cholinergic immune enteric axis; acetylcholine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — Norovirus adenosine: adenosine from enterocytes and b-cells (already mapped) modulates gut purinergic immune mucosal axis; adenosine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

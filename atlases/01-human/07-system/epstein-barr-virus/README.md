@@ -133,6 +133,15 @@ cross_links:
   - target: 01-human/03-molecular/estrogen
     relation: connects-to
     note: "EBV estrogen: estrogen from B-cells (already mapped) and macrophages (already mapped) modulates EBV hormonal B-cell immune activation; estrogen excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/acetylcholine
+    relation: connects-to
+    note: "EBV acetylcholine: acetylcholine from B-cells (already mapped) and macrophages (already mapped) modulates EBV cholinergic immune neuromodulation; acetylcholine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/adenosine
+    relation: connects-to
+    note: "EBV adenosine: adenosine from B-cells (already mapped) and macrophages (already mapped) modulates EBV adenosinergic immune purinergic axis; adenosine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/apoe
+    relation: connects-to
+    note: "EBV apoe: apoe from B-cells (already mapped) and macrophages (already mapped) modulates EBV lipid immune viral entry axis; apoe excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -316,6 +325,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — EBV leptin: leptin from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune energy axis; leptin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — EBV prolactin: prolactin from B-cells (already mapped) and macrophages (already mapped) modulates EBV immune lactogenic proliferation; prolactin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — EBV estrogen: estrogen from B-cells (already mapped) and macrophages (already mapped) modulates EBV hormonal B-cell immune activation; estrogen excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — EBV acetylcholine: acetylcholine from B-cells (already mapped) and macrophages (already mapped) modulates EBV cholinergic immune neuromodulation; acetylcholine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — EBV adenosine: adenosine from B-cells (already mapped) and macrophages (already mapped) modulates EBV adenosinergic immune purinergic axis; adenosine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — EBV apoe: apoe from B-cells (already mapped) and macrophages (already mapped) modulates EBV lipid immune viral entry axis; apoe excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
