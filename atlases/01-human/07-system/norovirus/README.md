@@ -356,6 +356,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "Norovirus calcineurin: calcineurin from enterocytes and b-cells (already mapped) modulates gut calcineurin-nfat immune transcription axis; calcineurin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/calr
+    relation: connects-to
+    note: "Norovirus calr: calr from enterocytes and b-cells (already mapped) modulates gut endoplasmic-reticulum immune stress chaperone axis; calr excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "Norovirus c5ar1: c5ar1 from enterocytes and b-cells (already mapped) modulates gut complement-receptor immune effector axis; c5ar1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/blm
+    relation: connects-to
+    note: "Norovirus blm: blm from enterocytes and b-cells (already mapped) modulates gut bloom-syndrome helicase immune dna-repair axis; blm excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -560,6 +569,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — Norovirus brca1: brca1 from enterocytes and b-cells (already mapped) modulates gut dna-repair tumor-suppressor immune axis; brca1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — Norovirus brca2: brca2 from enterocytes and b-cells (already mapped) modulates gut homologous-recombination immune dna-repair axis; brca2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — Norovirus calcineurin: calcineurin from enterocytes and b-cells (already mapped) modulates gut calcineurin-nfat immune transcription axis; calcineurin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Calreticulin](../../03-molecular/calr/README.md)** — Norovirus calr: calr from enterocytes and b-cells (already mapped) modulates gut endoplasmic-reticulum immune stress chaperone axis; calr excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[C5AR1](../../03-molecular/c5ar1/README.md)** — Norovirus c5ar1: c5ar1 from enterocytes and b-cells (already mapped) modulates gut complement-receptor immune effector axis; c5ar1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[BLM](../../03-molecular/blm/README.md)** — Norovirus blm: blm from enterocytes and b-cells (already mapped) modulates gut bloom-syndrome helicase immune dna-repair axis; blm excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

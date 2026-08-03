@@ -349,6 +349,15 @@ cross_links:
   - target: 01-human/03-molecular/calcineurin
     relation: connects-to
     note: "EBV calcineurin: calcineurin from B-cells (already mapped) and macrophages (already mapped) modulates EBV calcineurin-nfat immune transcription axis; calcineurin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/calr
+    relation: connects-to
+    note: "EBV calr: calr from B-cells (already mapped) and macrophages (already mapped) modulates EBV endoplasmic-reticulum immune stress chaperone axis; calr excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/c5ar1
+    relation: connects-to
+    note: "EBV c5ar1: c5ar1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV complement-receptor immune effector axis; c5ar1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/blm
+    relation: connects-to
+    note: "EBV blm: blm from B-cells (already mapped) and macrophages (already mapped) modulates EBV bloom-syndrome helicase immune dna-repair axis; blm excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -604,6 +613,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[BRCA1](../../03-molecular/brca1/README.md)** — EBV brca1: brca1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV dna-repair tumor-suppressor immune axis; brca1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[BRCA2](../../03-molecular/brca2/README.md)** — EBV brca2: brca2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV homologous-recombination immune dna-repair axis; brca2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Calcineurin](../../03-molecular/calcineurin/README.md)** — EBV calcineurin: calcineurin from B-cells (already mapped) and macrophages (already mapped) modulates EBV calcineurin-nfat immune transcription axis; calcineurin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Calreticulin](../../03-molecular/calr/README.md)** — EBV calr: calr from B-cells (already mapped) and macrophages (already mapped) modulates EBV endoplasmic-reticulum immune stress chaperone axis; calr excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[C5AR1](../../03-molecular/c5ar1/README.md)** — EBV c5ar1: c5ar1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV complement-receptor immune effector axis; c5ar1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[BLM](../../03-molecular/blm/README.md)** — EBV blm: blm from B-cells (already mapped) and macrophages (already mapped) modulates EBV bloom-syndrome helicase immune dna-repair axis; blm excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
