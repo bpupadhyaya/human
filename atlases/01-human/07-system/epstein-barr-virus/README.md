@@ -205,6 +205,15 @@ cross_links:
   - target: 01-human/03-molecular/mtor
     relation: connects-to
     note: "EBV mtor: mtor from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune growth axis; mtor excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/ampk
+    relation: connects-to
+    note: "EBV ampk: ampk from B-cells (already mapped) and macrophages (already mapped) modulates EBV energy-sensing immune metabolic axis; ampk excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/hif-1alpha
+    relation: connects-to
+    note: "EBV hif-1alpha: hif-1alpha from B-cells (already mapped) and macrophages (already mapped) modulates EBV hypoxic immune metabolic axis; hif-1alpha excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/ccl2
+    relation: connects-to
+    note: "EBV ccl2: ccl2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV monocyte recruitment immune axis; ccl2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -412,6 +421,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[JAK2](../../03-molecular/jak2/README.md)** — EBV jak2: jak2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV cytokine receptor signalling immune axis; jak2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[AKT](../../03-molecular/akt/README.md)** — EBV akt: akt from B-cells (already mapped) and macrophages (already mapped) modulates EBV pro-survival kinase immune axis; akt excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[mTOR](../../03-molecular/mtor/README.md)** — EBV mtor: mtor from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune growth axis; mtor excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[AMPK](../../03-molecular/ampk/README.md)** — EBV ampk: ampk from B-cells (already mapped) and macrophages (already mapped) modulates EBV energy-sensing immune metabolic axis; ampk excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[HIF-1α](../../03-molecular/hif-1alpha/README.md)** — EBV hif-1alpha: hif-1alpha from B-cells (already mapped) and macrophages (already mapped) modulates EBV hypoxic immune metabolic axis; hif-1alpha excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[CCL2](../../03-molecular/ccl2/README.md)** — EBV ccl2: ccl2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV monocyte recruitment immune axis; ccl2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
