@@ -129,6 +129,15 @@ cross_links:
   - target: 01-human/03-molecular/adenosine
     relation: connects-to
     note: "ZIKV adenosine: adenosine from fetal macrophages and NPCs modulates ZIKV purinergic neural immune axis; adenosine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/apoe
+    relation: connects-to
+    note: "ZIKV apoe: apoe from fetal macrophages and NPCs modulates ZIKV lipid neural immune entry axis; apoe excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/testosterone
+    relation: connects-to
+    note: "ZIKV testosterone: testosterone from fetal macrophages and NPCs modulates ZIKV androgenic neural immune axis; testosterone excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/il-2
+    relation: connects-to
+    note: "ZIKV il-2: il-2 from fetal macrophages and NPCs modulates ZIKV neural lymphocyte activation axis; il-2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -285,3 +294,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — ZIKV estrogen: estrogen from fetal macrophages and NPCs modulates ZIKV hormonal neural immune axis; estrogen excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Acetylcholine](../../03-molecular/acetylcholine/README.md)** — ZIKV acetylcholine: acetylcholine from fetal macrophages and NPCs modulates ZIKV cholinergic neural immune axis; acetylcholine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Adenosine](../../03-molecular/adenosine/README.md)** — ZIKV adenosine: adenosine from fetal macrophages and NPCs modulates ZIKV purinergic neural immune axis; adenosine excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[ApoE](../../03-molecular/apoe/README.md)** — ZIKV apoe: apoe from fetal macrophages and NPCs modulates ZIKV lipid neural immune entry axis; apoe excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Testosterone](../../03-molecular/testosterone/README.md)** — ZIKV testosterone: testosterone from fetal macrophages and NPCs modulates ZIKV androgenic neural immune axis; testosterone excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[IL-2](../../03-molecular/il-2/README.md)** — ZIKV il-2: il-2 from fetal macrophages and NPCs modulates ZIKV neural lymphocyte activation axis; il-2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
