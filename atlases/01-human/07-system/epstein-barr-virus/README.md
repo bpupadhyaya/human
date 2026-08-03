@@ -124,6 +124,15 @@ cross_links:
   - target: 01-human/03-molecular/glucagon
     relation: connects-to
     note: "EBV glucagon: glucagon from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune glucose axis; glucagon excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "EBV leptin: leptin from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune energy axis; leptin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "EBV prolactin: prolactin from B-cells (already mapped) and macrophages (already mapped) modulates EBV immune lactogenic proliferation; prolactin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/estrogen
+    relation: connects-to
+    note: "EBV estrogen: estrogen from B-cells (already mapped) and macrophages (already mapped) modulates EBV hormonal B-cell immune activation; estrogen excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -304,6 +313,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — EBV cortisol: cortisol from B-cells (already mapped) and macrophages (already mapped) modulates EBV stress-immune axis; cortisol excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — EBV ghrelin: ghrelin from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune appetite axis; ghrelin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — EBV glucagon: glucagon from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune glucose axis; glucagon excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — EBV leptin: leptin from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune energy axis; leptin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — EBV prolactin: prolactin from B-cells (already mapped) and macrophages (already mapped) modulates EBV immune lactogenic proliferation; prolactin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Estrogen](../../03-molecular/estrogen/README.md)** — EBV estrogen: estrogen from B-cells (already mapped) and macrophages (already mapped) modulates EBV hormonal B-cell immune activation; estrogen excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 

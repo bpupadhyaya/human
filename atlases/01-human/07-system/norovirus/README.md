@@ -131,6 +131,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "Norovirus ghrelin: ghrelin from enterocytes and b-cells (already mapped) modulates gut metabolic appetite immune axis; ghrelin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "Norovirus glucagon: glucagon from enterocytes and b-cells (already mapped) modulates gut metabolic glucose immune axis; glucagon excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "Norovirus leptin: leptin from enterocytes and b-cells (already mapped) modulates gut metabolic energy immune axis; leptin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "Norovirus prolactin: prolactin from enterocytes and b-cells (already mapped) modulates gut immune mucosal lactogenic tone; prolactin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -260,6 +269,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — Norovirus resistin: resistin from enterocytes and b-cells (already mapped) modulates gut metabolic immune inflammatory tone; resistin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — Norovirus cortisol: cortisol from enterocytes and b-cells (already mapped) modulates gut stress-immune mucosal axis; cortisol excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — Norovirus ghrelin: ghrelin from enterocytes and b-cells (already mapped) modulates gut metabolic appetite immune axis; ghrelin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — Norovirus glucagon: glucagon from enterocytes and b-cells (already mapped) modulates gut metabolic glucose immune axis; glucagon excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — Norovirus leptin: leptin from enterocytes and b-cells (already mapped) modulates gut metabolic energy immune axis; leptin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — Norovirus prolactin: prolactin from enterocytes and b-cells (already mapped) modulates gut immune mucosal lactogenic tone; prolactin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
