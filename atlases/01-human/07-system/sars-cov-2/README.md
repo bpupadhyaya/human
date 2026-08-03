@@ -383,6 +383,15 @@ cross_links:
   - target: 01-human/03-molecular/cd30
     relation: connects-to
     note: "SARS-CoV-2 cd30: cd30 from macrophages (already mapped) modulates COVID-19 tnfrsf-immune lymphocyte activation axis; cd30 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/cdkn1a
+    relation: connects-to
+    note: "SARS-CoV-2 cdkn1a: cdkn1a from macrophages (already mapped) modulates COVID-19 p21-cip1 immune cell-cycle arrest axis; cdkn1a excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/cdkn2a
+    relation: connects-to
+    note: "SARS-CoV-2 cdkn2a: cdkn2a from macrophages (already mapped) modulates COVID-19 p16-ink4a immune cell-cycle suppressor axis; cdkn2a excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/bnp
+    relation: connects-to
+    note: "SARS-CoV-2 bnp: bnp from macrophages (already mapped) modulates COVID-19 natriuretic-peptide immune cardiac-stress axis; bnp excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -613,6 +622,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[C5AR1](../../03-molecular/c5ar1/README.md)** — SARS-CoV-2 c5ar1: c5ar1 from macrophages (already mapped) modulates COVID-19 complement-receptor immune effector axis; c5ar1 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[CCR5](../../03-molecular/ccr5/README.md)** — SARS-CoV-2 ccr5: ccr5 from macrophages (already mapped) modulates COVID-19 chemokine-receptor immune co-receptor axis; ccr5 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[CD30](../../03-molecular/cd30/README.md)** — SARS-CoV-2 cd30: cd30 from macrophages (already mapped) modulates COVID-19 tnfrsf-immune lymphocyte activation axis; cd30 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — SARS-CoV-2 cdkn1a: cdkn1a from macrophages (already mapped) modulates COVID-19 p21-cip1 immune cell-cycle arrest axis; cdkn1a excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — SARS-CoV-2 cdkn2a: cdkn2a from macrophages (already mapped) modulates COVID-19 p16-ink4a immune cell-cycle suppressor axis; cdkn2a excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — SARS-CoV-2 bnp: bnp from macrophages (already mapped) modulates COVID-19 natriuretic-peptide immune cardiac-stress axis; bnp excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
