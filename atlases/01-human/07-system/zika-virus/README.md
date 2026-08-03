@@ -111,6 +111,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "ZIKV ghrelin: ghrelin from fetal macrophages and NPCs modulates ZIKV metabolic neural appetite axis; ghrelin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "ZIKV glucagon: glucagon from fetal macrophages and NPCs modulates ZIKV metabolic neural glucose axis; glucagon excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "ZIKV leptin: leptin from fetal macrophages and NPCs modulates ZIKV metabolic neural energy axis; leptin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "ZIKV prolactin: prolactin from fetal macrophages and NPCs modulates ZIKV immune neural lactogenic tone; prolactin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -261,3 +270,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — ZIKV resistin: resistin from fetal macrophages and NPCs modulates ZIKV metabolic neural inflammatory tone; resistin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — ZIKV cortisol: cortisol from fetal macrophages and NPCs modulates ZIKV stress-immune HPA neural axis; cortisol excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — ZIKV ghrelin: ghrelin from fetal macrophages and NPCs modulates ZIKV metabolic neural appetite axis; ghrelin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — ZIKV glucagon: glucagon from fetal macrophages and NPCs modulates ZIKV metabolic neural glucose axis; glucagon excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — ZIKV leptin: leptin from fetal macrophages and NPCs modulates ZIKV metabolic neural energy axis; leptin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — ZIKV prolactin: prolactin from fetal macrophages and NPCs modulates ZIKV immune neural lactogenic tone; prolactin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.

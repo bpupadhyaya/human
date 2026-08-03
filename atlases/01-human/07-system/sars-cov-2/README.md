@@ -140,6 +140,15 @@ cross_links:
   - target: 01-human/03-molecular/ghrelin
     relation: connects-to
     note: "SARS-CoV-2 ghrelin: ghrelin from macrophages (already mapped) modulates COVID-19 metabolic appetite immune axis; ghrelin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/glucagon
+    relation: connects-to
+    note: "SARS-CoV-2 glucagon: glucagon from macrophages (already mapped) modulates COVID-19 metabolic glucose immune axis; glucagon excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/leptin
+    relation: connects-to
+    note: "SARS-CoV-2 leptin: leptin from macrophages (already mapped) modulates COVID-19 metabolic immune energy axis; leptin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/prolactin
+    relation: connects-to
+    note: "SARS-CoV-2 prolactin: prolactin from macrophages (already mapped) modulates COVID-19 immune lactogenic proliferation; prolactin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -289,6 +298,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — SARS-CoV-2 resistin: resistin from macrophages (already mapped) modulates COVID-19 metabolic immune inflammatory tone; resistin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[Cortisol](../../03-molecular/cortisol/README.md)** — SARS-CoV-2 cortisol: cortisol from macrophages (already mapped) modulates COVID-19 stress-immune HPA axis; cortisol excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[Ghrelin](../../03-molecular/ghrelin/README.md)** — SARS-CoV-2 ghrelin: ghrelin from macrophages (already mapped) modulates COVID-19 metabolic appetite immune axis; ghrelin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Glucagon](../../03-molecular/glucagon/README.md)** — SARS-CoV-2 glucagon: glucagon from macrophages (already mapped) modulates COVID-19 metabolic glucose immune axis; glucagon excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Leptin](../../03-molecular/leptin/README.md)** — SARS-CoV-2 leptin: leptin from macrophages (already mapped) modulates COVID-19 metabolic immune energy axis; leptin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Prolactin](../../03-molecular/prolactin/README.md)** — SARS-CoV-2 prolactin: prolactin from macrophages (already mapped) modulates COVID-19 immune lactogenic proliferation; prolactin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)
