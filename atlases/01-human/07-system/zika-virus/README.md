@@ -57,6 +57,15 @@ cross_links:
   - target: 01-human/03-molecular/cgrp
     relation: connects-to
     note: "ZIKV cgrp: CGRP from fetal macrophages and NPCs modulates ZIKV neuroimmune vascular tone; cgrp excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/calcitonin
+    relation: connects-to
+    note: "ZIKV calcitonin: calcitonin from fetal macrophages and NPCs modulates ZIKV calcium balance; calcitonin dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/substance-p
+    relation: connects-to
+    note: "ZIKV substance-p: substance-P from fetal macrophages and NPCs modulates ZIKV neuroimmune pain signalling; substance-p excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/insulin-receptor
+    relation: connects-to
+    note: "ZIKV insulin-receptor: insulin-receptor on fetal macrophages and NPCs modulates ZIKV metabolic neural signalling; insulin-receptor dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -189,3 +198,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Activin-A](../../03-molecular/activin-a/README.md)** — ZIKV activin-a: activin-A from fetal macrophages and NPCs drives ZIKV neural fibrotic remodelling; activin-a excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[TGF-β](../../03-molecular/tgf-beta/README.md)** — ZIKV tgf-beta: TGF-β from fetal macrophages and NPCs modulates ZIKV immune-fibrotic neural remodelling; tgf-beta excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[CGRP](../../03-molecular/cgrp/README.md)** — ZIKV cgrp: CGRP from fetal macrophages and NPCs modulates ZIKV neuroimmune vascular tone; cgrp excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Calcitonin](../../03-molecular/calcitonin/README.md)** — ZIKV calcitonin: calcitonin from fetal macrophages and NPCs modulates ZIKV calcium balance; calcitonin dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Substance P](../../03-molecular/substance-p/README.md)** — ZIKV substance-p: substance-P from fetal macrophages and NPCs modulates ZIKV neuroimmune pain signalling; substance-p excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Insulin Receptor](../../03-molecular/insulin-receptor/README.md)** — ZIKV insulin-receptor: insulin-receptor on fetal macrophages and NPCs modulates ZIKV metabolic neural signalling; insulin-receptor dysregulation amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
