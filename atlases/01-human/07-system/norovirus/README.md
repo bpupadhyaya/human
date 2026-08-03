@@ -284,6 +284,15 @@ cross_links:
   - target: 01-human/03-molecular/cdk4-6
     relation: connects-to
     note: "Norovirus cdk4-6: cdk4-6 from enterocytes and b-cells (already mapped) modulates gut cell-cycle immune progression axis; cdk4-6 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "Norovirus cyclin-d1: cyclin-d1 from enterocytes and b-cells (already mapped) modulates gut g1 cell-cycle immune transition; cyclin-d1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "Norovirus adiponectin: adiponectin from enterocytes and b-cells (already mapped) modulates gut adipokine immune metabolic axis; adiponectin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "Norovirus angiotensin-ii: angiotensin-ii from enterocytes and b-cells (already mapped) modulates gut renin-angiotensin immune axis; angiotensin-ii excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -464,6 +473,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Norovirus caspase-3: caspase-3 from enterocytes and b-cells (already mapped) modulates gut apoptotic execution immune axis; caspase-3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Norovirus cd20: cd20 from enterocytes and b-cells (already mapped) modulates gut b-cell surface immune activation axis; cd20 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Norovirus cdk4-6: cdk4-6 from enterocytes and b-cells (already mapped) modulates gut cell-cycle immune progression axis; cdk4-6 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — Norovirus cyclin-d1: cyclin-d1 from enterocytes and b-cells (already mapped) modulates gut g1 cell-cycle immune transition; cyclin-d1 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — Norovirus adiponectin: adiponectin from enterocytes and b-cells (already mapped) modulates gut adipokine immune metabolic axis; adiponectin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — Norovirus angiotensin-ii: angiotensin-ii from enterocytes and b-cells (already mapped) modulates gut renin-angiotensin immune axis; angiotensin-ii excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

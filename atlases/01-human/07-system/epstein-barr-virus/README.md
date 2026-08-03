@@ -277,6 +277,15 @@ cross_links:
   - target: 01-human/03-molecular/cyclin-d1
     relation: connects-to
     note: "EBV cyclin-d1: cyclin-d1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV g1 cell-cycle immune transition; cyclin-d1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/adiponectin
+    relation: connects-to
+    note: "EBV adiponectin: adiponectin from B-cells (already mapped) and macrophages (already mapped) modulates EBV adipokine immune metabolic axis; adiponectin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/angiotensin-ii
+    relation: connects-to
+    note: "EBV angiotensin-ii: angiotensin-ii from B-cells (already mapped) and macrophages (already mapped) modulates EBV renin-angiotensin immune axis; angiotensin-ii excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/antibody
+    relation: connects-to
+    note: "EBV antibody: antibody from B-cells (already mapped) and macrophages (already mapped) modulates EBV humoral immune effector axis; antibody excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -508,6 +517,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — EBV cd20: cd20 from B-cells (already mapped) and macrophages (already mapped) modulates EBV b-cell surface immune activation axis; cd20 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — EBV cdk4-6: cdk4-6 from B-cells (already mapped) and macrophages (already mapped) modulates EBV cell-cycle immune progression axis; cdk4-6 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — EBV cyclin-d1: cyclin-d1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV g1 cell-cycle immune transition; cyclin-d1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — EBV adiponectin: adiponectin from B-cells (already mapped) and macrophages (already mapped) modulates EBV adipokine immune metabolic axis; adiponectin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — EBV angiotensin-ii: angiotensin-ii from B-cells (already mapped) and macrophages (already mapped) modulates EBV renin-angiotensin immune axis; angiotensin-ii excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Antibody](../../03-molecular/antibody/README.md)** — EBV antibody: antibody from B-cells (already mapped) and macrophages (already mapped) modulates EBV humoral immune effector axis; antibody excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
