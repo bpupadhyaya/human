@@ -313,6 +313,15 @@ cross_links:
   - target: 01-human/03-molecular/aquaporin-4
     relation: connects-to
     note: "EBV aquaporin-4: aquaporin-4 from B-cells (already mapped) and macrophages (already mapped) modulates EBV water-channel immune neuronal axis; aquaporin-4 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "EBV arid1a: arid1a from B-cells (already mapped) and macrophages (already mapped) modulates EBV chromatin-remodelling tumor-suppressor immune axis; arid1a excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "EBV atm: atm from B-cells (already mapped) and macrophages (already mapped) modulates EBV dna-damage-response immune checkpoint axis; atm excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "EBV atp: atp from B-cells (already mapped) and macrophages (already mapped) modulates EBV purinergic immune energy-signalling axis; atp excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -556,6 +565,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[APC](../../03-molecular/apc/README.md)** — EBV apc: apc from B-cells (already mapped) and macrophages (already mapped) modulates EBV wnt-pathway tumor-suppressor immune axis; apc excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[APP](../../03-molecular/app/README.md)** — EBV app: app from B-cells (already mapped) and macrophages (already mapped) modulates EBV amyloid-precursor immune neuronal axis; app excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — EBV aquaporin-4: aquaporin-4 from B-cells (already mapped) and macrophages (already mapped) modulates EBV water-channel immune neuronal axis; aquaporin-4 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — EBV arid1a: arid1a from B-cells (already mapped) and macrophages (already mapped) modulates EBV chromatin-remodelling tumor-suppressor immune axis; arid1a excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — EBV atm: atm from B-cells (already mapped) and macrophages (already mapped) modulates EBV dna-damage-response immune checkpoint axis; atm excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — EBV atp: atp from B-cells (already mapped) and macrophages (already mapped) modulates EBV purinergic immune energy-signalling axis; atp excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 

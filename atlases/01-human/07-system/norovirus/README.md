@@ -320,6 +320,15 @@ cross_links:
   - target: 01-human/03-molecular/aquaporin-4
     relation: connects-to
     note: "Norovirus aquaporin-4: aquaporin-4 from enterocytes and b-cells (already mapped) modulates gut water-channel immune neuronal axis; aquaporin-4 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/arid1a
+    relation: connects-to
+    note: "Norovirus arid1a: arid1a from enterocytes and b-cells (already mapped) modulates gut chromatin-remodelling tumor-suppressor immune axis; arid1a excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/atm
+    relation: connects-to
+    note: "Norovirus atm: atm from enterocytes and b-cells (already mapped) modulates gut dna-damage-response immune checkpoint axis; atm excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/atp
+    relation: connects-to
+    note: "Norovirus atp: atp from enterocytes and b-cells (already mapped) modulates gut purinergic immune energy-signalling axis; atp excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -512,6 +521,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[APC](../../03-molecular/apc/README.md)** — Norovirus apc: apc from enterocytes and b-cells (already mapped) modulates gut wnt-pathway tumor-suppressor immune axis; apc excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[APP](../../03-molecular/app/README.md)** — Norovirus app: app from enterocytes and b-cells (already mapped) modulates gut amyloid-precursor immune neuronal axis; app excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Aquaporin-4](../../03-molecular/aquaporin-4/README.md)** — Norovirus aquaporin-4: aquaporin-4 from enterocytes and b-cells (already mapped) modulates gut water-channel immune neuronal axis; aquaporin-4 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[ARID1A](../../03-molecular/arid1a/README.md)** — Norovirus arid1a: arid1a from enterocytes and b-cells (already mapped) modulates gut chromatin-remodelling tumor-suppressor immune axis; arid1a excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[ATM](../../03-molecular/atm/README.md)** — Norovirus atm: atm from enterocytes and b-cells (already mapped) modulates gut dna-damage-response immune checkpoint axis; atm excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[ATP](../../03-molecular/atp/README.md)** — Norovirus atp: atp from enterocytes and b-cells (already mapped) modulates gut purinergic immune energy-signalling axis; atp excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
