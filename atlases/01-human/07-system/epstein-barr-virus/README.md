@@ -268,6 +268,15 @@ cross_links:
   - target: 01-human/03-molecular/caspase-3
     relation: connects-to
     note: "EBV caspase-3: caspase-3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV apoptotic execution immune axis; caspase-3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "EBV cd20: cd20 from B-cells (already mapped) and macrophages (already mapped) modulates EBV b-cell surface immune activation axis; cd20 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "EBV cdk4-6: cdk4-6 from B-cells (already mapped) and macrophages (already mapped) modulates EBV cell-cycle immune progression axis; cdk4-6 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cyclin-d1
+    relation: connects-to
+    note: "EBV cyclin-d1: cyclin-d1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV g1 cell-cycle immune transition; cyclin-d1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -496,6 +505,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — EBV ace2: ace2 from B-cells (already mapped) and macrophages (already mapped) modulates EBV viral receptor immune entry axis; ace2 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — EBV btk: btk from B-cells (already mapped) and macrophages (already mapped) modulates EBV b-cell receptor signalling immune axis; btk excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — EBV caspase-3: caspase-3 from B-cells (already mapped) and macrophages (already mapped) modulates EBV apoptotic execution immune axis; caspase-3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — EBV cd20: cd20 from B-cells (already mapped) and macrophages (already mapped) modulates EBV b-cell surface immune activation axis; cd20 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — EBV cdk4-6: cdk4-6 from B-cells (already mapped) and macrophages (already mapped) modulates EBV cell-cycle immune progression axis; cdk4-6 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — EBV cyclin-d1: cyclin-d1 from B-cells (already mapped) and macrophages (already mapped) modulates EBV g1 cell-cycle immune transition; cyclin-d1 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 

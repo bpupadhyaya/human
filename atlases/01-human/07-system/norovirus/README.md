@@ -275,6 +275,15 @@ cross_links:
   - target: 01-human/03-molecular/btk
     relation: connects-to
     note: "Norovirus btk: btk from enterocytes and b-cells (already mapped) modulates gut b-cell receptor signalling immune axis; btk excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/caspase-3
+    relation: connects-to
+    note: "Norovirus caspase-3: caspase-3 from enterocytes and b-cells (already mapped) modulates gut apoptotic execution immune axis; caspase-3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/cd20
+    relation: connects-to
+    note: "Norovirus cd20: cd20 from enterocytes and b-cells (already mapped) modulates gut b-cell surface immune activation axis; cd20 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/cdk4-6
+    relation: connects-to
+    note: "Norovirus cdk4-6: cdk4-6 from enterocytes and b-cells (already mapped) modulates gut cell-cycle immune progression axis; cdk4-6 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -452,6 +461,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[BCL-2](../../03-molecular/bcl-2/README.md)** — Norovirus bcl-2: bcl-2 from enterocytes and b-cells (already mapped) modulates gut anti-apoptotic immune survival axis; bcl-2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[ACE2](../../03-molecular/ace2/README.md)** — Norovirus ace2: ace2 from enterocytes and b-cells (already mapped) modulates gut viral receptor immune entry axis; ace2 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[BTK](../../03-molecular/btk/README.md)** — Norovirus btk: btk from enterocytes and b-cells (already mapped) modulates gut b-cell receptor signalling immune axis; btk excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Caspase-3](../../03-molecular/caspase-3/README.md)** — Norovirus caspase-3: caspase-3 from enterocytes and b-cells (already mapped) modulates gut apoptotic execution immune axis; caspase-3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[CD20](../../03-molecular/cd20/README.md)** — Norovirus cd20: cd20 from enterocytes and b-cells (already mapped) modulates gut b-cell surface immune activation axis; cd20 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[CDK4/6](../../03-molecular/cdk4-6/README.md)** — Norovirus cdk4-6: cdk4-6 from enterocytes and b-cells (already mapped) modulates gut cell-cycle immune progression axis; cdk4-6 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
