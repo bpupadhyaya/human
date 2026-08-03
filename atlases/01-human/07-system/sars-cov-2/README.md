@@ -392,6 +392,15 @@ cross_links:
   - target: 01-human/03-molecular/bnp
     relation: connects-to
     note: "SARS-CoV-2 bnp: bnp from macrophages (already mapped) modulates COVID-19 natriuretic-peptide immune cardiac-stress axis; bnp excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/cdkn1b
+    relation: connects-to
+    note: "SARS-CoV-2 cdkn1b: cdkn1b from macrophages (already mapped) modulates COVID-19 p27-kip1 immune cell-cycle kinase-inhibitor axis; cdkn1b excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/cftr
+    relation: connects-to
+    note: "SARS-CoV-2 cftr: cftr from macrophages (already mapped) modulates COVID-19 chloride-channel immune epithelial-secretion axis; cftr excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "SARS-CoV-2 cholesterol: cholesterol from macrophages (already mapped) modulates COVID-19 lipid-raft immune membrane-signaling axis; cholesterol excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -625,6 +634,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — SARS-CoV-2 cdkn1a: cdkn1a from macrophages (already mapped) modulates COVID-19 p21-cip1 immune cell-cycle arrest axis; cdkn1a excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — SARS-CoV-2 cdkn2a: cdkn2a from macrophages (already mapped) modulates COVID-19 p16-ink4a immune cell-cycle suppressor axis; cdkn2a excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — SARS-CoV-2 bnp: bnp from macrophages (already mapped) modulates COVID-19 natriuretic-peptide immune cardiac-stress axis; bnp excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[CDKN1B](../../03-molecular/cdkn1b/README.md)** — SARS-CoV-2 cdkn1b: cdkn1b from macrophages (already mapped) modulates COVID-19 p27-kip1 immune cell-cycle kinase-inhibitor axis; cdkn1b excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[CFTR](../../03-molecular/cftr/README.md)** — SARS-CoV-2 cftr: cftr from macrophages (already mapped) modulates COVID-19 chloride-channel immune epithelial-secretion axis; cftr excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — SARS-CoV-2 cholesterol: cholesterol from macrophages (already mapped) modulates COVID-19 lipid-raft immune membrane-signaling axis; cholesterol excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)

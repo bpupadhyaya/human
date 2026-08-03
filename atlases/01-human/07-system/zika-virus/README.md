@@ -363,6 +363,15 @@ cross_links:
   - target: 01-human/03-molecular/bnp
     relation: connects-to
     note: "ZIKV bnp: bnp from fetal macrophages and NPCs modulates ZIKV neural natriuretic-peptide immune cardiac-stress axis; bnp excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/cdkn1b
+    relation: connects-to
+    note: "ZIKV cdkn1b: cdkn1b from fetal macrophages and NPCs modulates ZIKV neural p27-kip1 immune cell-cycle kinase-inhibitor axis; cdkn1b excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/cftr
+    relation: connects-to
+    note: "ZIKV cftr: cftr from fetal macrophages and NPCs modulates ZIKV neural chloride-channel immune epithelial-secretion axis; cftr excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "ZIKV cholesterol: cholesterol from fetal macrophages and NPCs modulates ZIKV neural lipid-raft immune membrane-signaling axis; cholesterol excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -597,3 +606,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — ZIKV cdkn1a: cdkn1a from fetal macrophages and NPCs modulates ZIKV neural p21-cip1 immune cell-cycle arrest axis; cdkn1a excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — ZIKV cdkn2a: cdkn2a from fetal macrophages and NPCs modulates ZIKV neural p16-ink4a immune cell-cycle suppressor axis; cdkn2a excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — ZIKV bnp: bnp from fetal macrophages and NPCs modulates ZIKV neural natriuretic-peptide immune cardiac-stress axis; bnp excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[CDKN1B](../../03-molecular/cdkn1b/README.md)** — ZIKV cdkn1b: cdkn1b from fetal macrophages and NPCs modulates ZIKV neural p27-kip1 immune cell-cycle kinase-inhibitor axis; cdkn1b excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[CFTR](../../03-molecular/cftr/README.md)** — ZIKV cftr: cftr from fetal macrophages and NPCs modulates ZIKV neural chloride-channel immune epithelial-secretion axis; cftr excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — ZIKV cholesterol: cholesterol from fetal macrophages and NPCs modulates ZIKV neural lipid-raft immune membrane-signaling axis; cholesterol excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
