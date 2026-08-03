@@ -273,6 +273,15 @@ cross_links:
   - target: 01-human/03-molecular/angiotensin-ii
     relation: connects-to
     note: "ZIKV angiotensin-ii: angiotensin-ii from fetal macrophages and NPCs modulates ZIKV neural renin-angiotensin immune axis; angiotensin-ii excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/albumin
+    relation: connects-to
+    note: "ZIKV albumin: albumin from fetal macrophages and NPCs modulates ZIKV neural acute-phase immune serum protein axis; albumin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/acth
+    relation: connects-to
+    note: "ZIKV acth: acth from fetal macrophages and NPCs modulates ZIKV neural hpa-axis immune stress response; acth excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/abl1
+    relation: connects-to
+    note: "ZIKV abl1: abl1 from fetal macrophages and NPCs modulates ZIKV neural tyrosine-kinase immune proliferative axis; abl1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -477,3 +486,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[Cyclin D1](../../03-molecular/cyclin-d1/README.md)** — ZIKV cyclin-d1: cyclin-d1 from fetal macrophages and NPCs modulates ZIKV neural g1 cell-cycle immune progression; cyclin-d1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Adiponectin](../../03-molecular/adiponectin/README.md)** — ZIKV adiponectin: adiponectin from fetal macrophages and NPCs modulates ZIKV neural adipokine immune metabolic axis; adiponectin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Angiotensin II](../../03-molecular/angiotensin-ii/README.md)** — ZIKV angiotensin-ii: angiotensin-ii from fetal macrophages and NPCs modulates ZIKV neural renin-angiotensin immune axis; angiotensin-ii excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Albumin](../../03-molecular/albumin/README.md)** — ZIKV albumin: albumin from fetal macrophages and NPCs modulates ZIKV neural acute-phase immune serum protein axis; albumin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[ACTH](../../03-molecular/acth/README.md)** — ZIKV acth: acth from fetal macrophages and NPCs modulates ZIKV neural hpa-axis immune stress response; acth excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[ABL1](../../03-molecular/abl1/README.md)** — ZIKV abl1: abl1 from fetal macrophages and NPCs modulates ZIKV neural tyrosine-kinase immune proliferative axis; abl1 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
