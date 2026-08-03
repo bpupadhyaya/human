@@ -97,6 +97,15 @@ cross_links:
   - target: 01-human/03-molecular/fgfr
     relation: connects-to
     note: "EBV fgfr: FGFR on B-cells (already mapped) and macrophages (already mapped) modulates EBV fibroblast immune growth signalling; fgfr dysregulation amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "EBV epinephrine: epinephrine from B-cells (already mapped) and macrophages (already mapped) modulates EBV adrenergic stress immune tone; epinephrine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "EBV renin: renin from B-cells (already mapped) and macrophages (already mapped) modulates EBV renin-angiotensin immune axis; renin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "EBV myostatin: myostatin from B-cells (already mapped) and macrophages (already mapped) modulates EBV muscle wasting immune signalling; myostatin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -268,6 +277,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — EBV bdnf: BDNF from B-cells (already mapped) and macrophages (already mapped) modulates EBV neurotrophin B-cell survival; bdnf excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — EBV osteopontin: osteopontin from B-cells (already mapped) and macrophages (already mapped) modulates EBV extracellular matrix immune remodelling; osteopontin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — EBV fgfr: FGFR on B-cells (already mapped) and macrophages (already mapped) modulates EBV fibroblast immune growth signalling; fgfr dysregulation amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — EBV epinephrine: epinephrine from B-cells (already mapped) and macrophages (already mapped) modulates EBV adrenergic stress immune tone; epinephrine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — EBV renin: renin from B-cells (already mapped) and macrophages (already mapped) modulates EBV renin-angiotensin immune axis; renin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — EBV myostatin: myostatin from B-cells (already mapped) and macrophages (already mapped) modulates EBV muscle wasting immune signalling; myostatin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 

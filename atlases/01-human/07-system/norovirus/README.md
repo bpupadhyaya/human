@@ -104,6 +104,15 @@ cross_links:
   - target: 01-human/03-molecular/osteopontin
     relation: connects-to
     note: "Norovirus osteopontin: osteopontin from enterocytes and b-cells (already mapped) modulates gut mucosal extracellular matrix repair; osteopontin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/fgfr
+    relation: connects-to
+    note: "Norovirus fgfr: FGFR on enterocytes and b-cells (already mapped) drives gut epithelial regenerative growth; fgfr dysregulation amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/epinephrine
+    relation: connects-to
+    note: "Norovirus epinephrine: epinephrine from enterocytes and b-cells (already mapped) modulates gut adrenergic stress immune response; epinephrine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/renin
+    relation: connects-to
+    note: "Norovirus renin: renin from enterocytes and b-cells (already mapped) modulates gut renin-angiotensin mucosal axis; renin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -224,6 +233,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Norovirus adrenomedullin: adrenomedullin from enterocytes and b-cells (already mapped) modulates gut vascular immune tone; adrenomedullin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Norovirus bdnf: BDNF from enterocytes and b-cells (already mapped) modulates gut enteric neurotrophin repair; bdnf excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Norovirus osteopontin: osteopontin from enterocytes and b-cells (already mapped) modulates gut mucosal extracellular matrix repair; osteopontin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Norovirus fgfr: FGFR on enterocytes and b-cells (already mapped) drives gut epithelial regenerative growth; fgfr dysregulation amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Norovirus epinephrine: epinephrine from enterocytes and b-cells (already mapped) modulates gut adrenergic stress immune response; epinephrine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Norovirus renin: renin from enterocytes and b-cells (already mapped) modulates gut renin-angiotensin mucosal axis; renin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
