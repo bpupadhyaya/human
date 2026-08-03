@@ -376,6 +376,15 @@ cross_links:
   - target: 01-human/03-molecular/bnp
     relation: connects-to
     note: "EBV bnp: bnp from B-cells (already mapped) and macrophages (already mapped) modulates EBV natriuretic-peptide immune cardiac-stress axis; bnp excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cdkn1b
+    relation: connects-to
+    note: "EBV cdkn1b: cdkn1b from B-cells (already mapped) and macrophages (already mapped) modulates EBV p27-kip1 immune cell-cycle kinase-inhibitor axis; cdkn1b excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cftr
+    relation: connects-to
+    note: "EBV cftr: cftr from B-cells (already mapped) and macrophages (already mapped) modulates EBV chloride-channel immune epithelial-secretion axis; cftr excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/cholesterol
+    relation: connects-to
+    note: "EBV cholesterol: cholesterol from B-cells (already mapped) and macrophages (already mapped) modulates EBV lipid-raft immune membrane-signaling axis; cholesterol excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -640,6 +649,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[CDKN1A](../../03-molecular/cdkn1a/README.md)** — EBV cdkn1a: cdkn1a from B-cells (already mapped) and macrophages (already mapped) modulates EBV p21-cip1 immune cell-cycle arrest axis; cdkn1a excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[CDKN2A](../../03-molecular/cdkn2a/README.md)** — EBV cdkn2a: cdkn2a from B-cells (already mapped) and macrophages (already mapped) modulates EBV p16-ink4a immune cell-cycle suppressor axis; cdkn2a excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[BNP](../../03-molecular/bnp/README.md)** — EBV bnp: bnp from B-cells (already mapped) and macrophages (already mapped) modulates EBV natriuretic-peptide immune cardiac-stress axis; bnp excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[CDKN1B](../../03-molecular/cdkn1b/README.md)** — EBV cdkn1b: cdkn1b from B-cells (already mapped) and macrophages (already mapped) modulates EBV p27-kip1 immune cell-cycle kinase-inhibitor axis; cdkn1b excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[CFTR](../../03-molecular/cftr/README.md)** — EBV cftr: cftr from B-cells (already mapped) and macrophages (already mapped) modulates EBV chloride-channel immune epithelial-secretion axis; cftr excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Cholesterol](../../03-molecular/cholesterol/README.md)** — EBV cholesterol: cholesterol from B-cells (already mapped) and macrophages (already mapped) modulates EBV lipid-raft immune membrane-signaling axis; cholesterol excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
