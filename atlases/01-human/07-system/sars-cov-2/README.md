@@ -266,6 +266,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "SARS-CoV-2 complement-c5: complement-c5 from macrophages (already mapped) modulates COVID-19 terminal complement immune axis; complement-c5 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "SARS-CoV-2 wnt-beta-catenin: wnt-beta-catenin from macrophages (already mapped) modulates COVID-19 wnt proliferative immune axis; wnt-beta-catenin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "SARS-CoV-2 cgas-sting: cgas-sting from macrophages (already mapped) modulates COVID-19 innate dna-sensing immune axis; cgas-sting excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "SARS-CoV-2 autophagy: autophagy from macrophages (already mapped) modulates COVID-19 viral clearance immune axis; autophagy excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2."
 ---
 
 # SARS-CoV-2
@@ -457,6 +466,9 @@ SARS-CoV-2 Spike evolves under combined selection for increased ACE2 affinity an
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — SARS-CoV-2 vegf: vegf from macrophages (already mapped) modulates COVID-19 angiogenic immune activation axis; vegf excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — SARS-CoV-2 complement-c3: complement-c3 from macrophages (already mapped) modulates COVID-19 innate complement immune axis; complement-c3 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — SARS-CoV-2 complement-c5: complement-c5 from macrophages (already mapped) modulates COVID-19 terminal complement immune axis; complement-c5 excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — SARS-CoV-2 wnt-beta-catenin: wnt-beta-catenin from macrophages (already mapped) modulates COVID-19 wnt proliferative immune axis; wnt-beta-catenin excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — SARS-CoV-2 cgas-sting: cgas-sting from macrophages (already mapped) modulates COVID-19 innate dna-sensing immune axis; cgas-sting excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — SARS-CoV-2 autophagy: autophagy from macrophages (already mapped) modulates COVID-19 viral clearance immune axis; autophagy excess amplifies nf-kb (already mapped) and mavs (already mapped) and type-i-interferon (already mapped) cascade of SARS-CoV-2.
 
 [^zhou-2020-sars-cov-2-identification]: Zhou P, Yang XL, Wang XG, et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. *Nature.* 2020;579(7798):270-273. [doi:10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7) · [PubMed 32015507](https://pubmed.ncbi.nlm.nih.gov/32015507/)
 [^hoffmann-2020-ace2-entry]: Hoffmann M, Kleine-Weber H, Schroeder S, et al. SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. *Cell.* 2020;181(2):271-280. [doi:10.1016/j.cell.2020.02.052](https://doi.org/10.1016/j.cell.2020.02.052) · [PubMed 32142651](https://pubmed.ncbi.nlm.nih.gov/32142651/)

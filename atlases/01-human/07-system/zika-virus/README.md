@@ -237,6 +237,15 @@ cross_links:
   - target: 01-human/03-molecular/complement-c5
     relation: connects-to
     note: "ZIKV complement-c5: complement-c5 from fetal macrophages and NPCs modulates ZIKV neural terminal complement axis; complement-c5 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/wnt-beta-catenin
+    relation: connects-to
+    note: "ZIKV wnt-beta-catenin: wnt-beta-catenin from fetal macrophages and NPCs modulates ZIKV neural wnt proliferative axis; wnt-beta-catenin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/cgas-sting
+    relation: connects-to
+    note: "ZIKV cgas-sting: cgas-sting from fetal macrophages and NPCs modulates ZIKV neural innate dna-sensing immune axis; cgas-sting excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/autophagy
+    relation: connects-to
+    note: "ZIKV autophagy: autophagy from fetal macrophages and NPCs modulates ZIKV neural viral clearance immune axis; autophagy excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -429,3 +438,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — ZIKV vegf: vegf from fetal macrophages and NPCs modulates ZIKV neural angiogenic immune activation axis; vegf excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — ZIKV complement-c3: complement-c3 from fetal macrophages and NPCs modulates ZIKV neural innate complement axis; complement-c3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — ZIKV complement-c5: complement-c5 from fetal macrophages and NPCs modulates ZIKV neural terminal complement axis; complement-c5 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[WNT/β-catenin](../../03-molecular/wnt-beta-catenin/README.md)** — ZIKV wnt-beta-catenin: wnt-beta-catenin from fetal macrophages and NPCs modulates ZIKV neural wnt proliferative axis; wnt-beta-catenin excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[cGAS-STING](../../03-molecular/cgas-sting/README.md)** — ZIKV cgas-sting: cgas-sting from fetal macrophages and NPCs modulates ZIKV neural innate dna-sensing immune axis; cgas-sting excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Autophagy](../../03-molecular/autophagy/README.md)** — ZIKV autophagy: autophagy from fetal macrophages and NPCs modulates ZIKV neural viral clearance immune axis; autophagy excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
