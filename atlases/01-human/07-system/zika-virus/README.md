@@ -228,6 +228,15 @@ cross_links:
   - target: 01-human/03-molecular/pdgf
     relation: connects-to
     note: "ZIKV pdgf: pdgf from fetal macrophages and NPCs modulates ZIKV neural growth factor proliferative axis; pdgf excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/vegf
+    relation: connects-to
+    note: "ZIKV vegf: vegf from fetal macrophages and NPCs modulates ZIKV neural angiogenic immune activation axis; vegf excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/complement-c3
+    relation: connects-to
+    note: "ZIKV complement-c3: complement-c3 from fetal macrophages and NPCs modulates ZIKV neural innate complement axis; complement-c3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
+  - target: 01-human/03-molecular/complement-c5
+    relation: connects-to
+    note: "ZIKV complement-c5: complement-c5 from fetal macrophages and NPCs modulates ZIKV neural terminal complement axis; complement-c5 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome."
 ---
 
 # Zika Virus
@@ -417,3 +426,6 @@ Proposed mechanism: **molecular mimicry** between ZIKV envelope glycan epitopes 
 - `connects-to` → **[JAK1/2](../../03-molecular/jak1-2/README.md)** — ZIKV jak1-2: jak1-2 from fetal macrophages and NPCs modulates ZIKV neural interferon receptor signalling axis; jak1-2 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[MHC class II](../../03-molecular/mhc-class-ii/README.md)** — ZIKV mhc-class-ii: mhc-class-ii from fetal macrophages and NPCs modulates ZIKV neural antigen presentation immune axis; mhc-class-ii excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
 - `connects-to` → **[PDGF](../../03-molecular/pdgf/README.md)** — ZIKV pdgf: pdgf from fetal macrophages and NPCs modulates ZIKV neural growth factor proliferative axis; pdgf excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[VEGF](../../03-molecular/vegf/README.md)** — ZIKV vegf: vegf from fetal macrophages and NPCs modulates ZIKV neural angiogenic immune activation axis; vegf excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Complement C3](../../03-molecular/complement-c3/README.md)** — ZIKV complement-c3: complement-c3 from fetal macrophages and NPCs modulates ZIKV neural innate complement axis; complement-c3 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
+- `connects-to` → **[Complement C5](../../03-molecular/complement-c5/README.md)** — ZIKV complement-c5: complement-c5 from fetal macrophages and NPCs modulates ZIKV neural terminal complement axis; complement-c5 excess amplifies NF-κB and IL-6 and type-i-interferon neuroinflammatory cascade of congenital Zika syndrome.
