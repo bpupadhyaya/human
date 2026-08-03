@@ -95,6 +95,15 @@ cross_links:
   - target: 01-human/03-molecular/norepinephrine
     relation: connects-to
     note: "Norovirus norepinephrine: norepinephrine from enterocytes and b-cells (already mapped) modulates gut adrenergic immune tone; norepinephrine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/adrenomedullin
+    relation: connects-to
+    note: "Norovirus adrenomedullin: adrenomedullin from enterocytes and b-cells (already mapped) modulates gut vascular immune tone; adrenomedullin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/bdnf
+    relation: connects-to
+    note: "Norovirus bdnf: BDNF from enterocytes and b-cells (already mapped) modulates gut enteric neurotrophin repair; bdnf excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/osteopontin
+    relation: connects-to
+    note: "Norovirus osteopontin: osteopontin from enterocytes and b-cells (already mapped) modulates gut mucosal extracellular matrix repair; osteopontin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -212,6 +221,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[Aldosterone](../../03-molecular/aldosterone/README.md)** — Norovirus aldosterone: aldosterone from enterocytes and b-cells (already mapped) modulates gut mineralocorticoid immune balance; aldosterone excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Androgen Receptor](../../03-molecular/androgen-receptor/README.md)** — Norovirus androgen-receptor: androgen-receptor on enterocytes and b-cells (already mapped) modulates gut hormonal immune response; androgen-receptor excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Norepinephrine](../../03-molecular/norepinephrine/README.md)** — Norovirus norepinephrine: norepinephrine from enterocytes and b-cells (already mapped) modulates gut adrenergic immune tone; norepinephrine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Adrenomedullin](../../03-molecular/adrenomedullin/README.md)** — Norovirus adrenomedullin: adrenomedullin from enterocytes and b-cells (already mapped) modulates gut vascular immune tone; adrenomedullin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[BDNF](../../03-molecular/bdnf/README.md)** — Norovirus bdnf: BDNF from enterocytes and b-cells (already mapped) modulates gut enteric neurotrophin repair; bdnf excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Osteopontin](../../03-molecular/osteopontin/README.md)** — Norovirus osteopontin: osteopontin from enterocytes and b-cells (already mapped) modulates gut mucosal extracellular matrix repair; osteopontin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 
