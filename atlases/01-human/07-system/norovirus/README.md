@@ -113,6 +113,15 @@ cross_links:
   - target: 01-human/03-molecular/renin
     relation: connects-to
     note: "Norovirus renin: renin from enterocytes and b-cells (already mapped) modulates gut renin-angiotensin mucosal axis; renin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/myostatin
+    relation: connects-to
+    note: "Norovirus myostatin: myostatin from enterocytes and b-cells (already mapped) modulates gut muscle wasting immune signalling; myostatin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "Norovirus galectin-3: galectin-3 from enterocytes and b-cells (already mapped) drives gut mucosal immune fibrotic lattice; galectin-3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "Norovirus angiopoietin: angiopoietin from enterocytes and b-cells (already mapped) modulates gut mucosal vascular immune remodelling; angiopoietin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus."
 ---
 
 # Norovirus
@@ -236,6 +245,9 @@ All vaccine candidates target VP1 and aim to elicit blocking anti-VP1 IgA at the
 - `connects-to` → **[FGFR](../../03-molecular/fgfr/README.md)** — Norovirus fgfr: FGFR on enterocytes and b-cells (already mapped) drives gut epithelial regenerative growth; fgfr dysregulation amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — Norovirus epinephrine: epinephrine from enterocytes and b-cells (already mapped) modulates gut adrenergic stress immune response; epinephrine excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — Norovirus renin: renin from enterocytes and b-cells (already mapped) modulates gut renin-angiotensin mucosal axis; renin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — Norovirus myostatin: myostatin from enterocytes and b-cells (already mapped) modulates gut muscle wasting immune signalling; myostatin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — Norovirus galectin-3: galectin-3 from enterocytes and b-cells (already mapped) drives gut mucosal immune fibrotic lattice; galectin-3 excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — Norovirus angiopoietin: angiopoietin from enterocytes and b-cells (already mapped) modulates gut mucosal vascular immune remodelling; angiopoietin excess amplifies type-i-interferon (already mapped) and secretory-iga (already mapped) innate cascade of Norovirus.
 
 ---
 

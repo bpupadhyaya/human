@@ -106,6 +106,15 @@ cross_links:
   - target: 01-human/03-molecular/myostatin
     relation: connects-to
     note: "EBV myostatin: myostatin from B-cells (already mapped) and macrophages (already mapped) modulates EBV muscle wasting immune signalling; myostatin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/galectin-3
+    relation: connects-to
+    note: "EBV galectin-3: galectin-3 from B-cells (already mapped) and macrophages (already mapped) drives EBV immune fibrotic lattice remodelling; galectin-3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/angiopoietin
+    relation: connects-to
+    note: "EBV angiopoietin: angiopoietin from B-cells (already mapped) and macrophages (already mapped) modulates EBV vascular immune remodelling; angiopoietin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
+  - target: 01-human/03-molecular/resistin
+    relation: connects-to
+    note: "EBV resistin: resistin from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune inflammatory tone; resistin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV."
 ---
 
 # Epstein-Barr Virus
@@ -280,6 +289,9 @@ EBV has co-evolved with the human immune system for millions of years and employ
 - `connects-to` → **[Epinephrine](../../03-molecular/epinephrine/README.md)** — EBV epinephrine: epinephrine from B-cells (already mapped) and macrophages (already mapped) modulates EBV adrenergic stress immune tone; epinephrine excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Renin](../../03-molecular/renin/README.md)** — EBV renin: renin from B-cells (already mapped) and macrophages (already mapped) modulates EBV renin-angiotensin immune axis; renin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 - `connects-to` → **[Myostatin](../../03-molecular/myostatin/README.md)** — EBV myostatin: myostatin from B-cells (already mapped) and macrophages (already mapped) modulates EBV muscle wasting immune signalling; myostatin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Galectin-3](../../03-molecular/galectin-3/README.md)** — EBV galectin-3: galectin-3 from B-cells (already mapped) and macrophages (already mapped) drives EBV immune fibrotic lattice remodelling; galectin-3 excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Angiopoietin](../../03-molecular/angiopoietin/README.md)** — EBV angiopoietin: angiopoietin from B-cells (already mapped) and macrophages (already mapped) modulates EBV vascular immune remodelling; angiopoietin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
+- `connects-to` → **[Resistin](../../03-molecular/resistin/README.md)** — EBV resistin: resistin from B-cells (already mapped) and macrophages (already mapped) modulates EBV metabolic immune inflammatory tone; resistin excess amplifies NF-κB (already mapped) and p53 (already mapped) and TGF-β (already mapped) cascade in EBV.
 
 ---
 
